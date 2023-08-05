@@ -1,0 +1,9 @@
+setup.py
+demo/__init__.py
+demo/test.py
+mytestscript.egg-info/PKG-INFO
+mytestscript.egg-info/SOURCES.txt
+mytestscript.egg-info/dependency_links.txt
+mytestscript.egg-info/entry_points.txt
+mytestscript.egg-info/not-zip-safe
+mytestscript.egg-info/top_level.txt
