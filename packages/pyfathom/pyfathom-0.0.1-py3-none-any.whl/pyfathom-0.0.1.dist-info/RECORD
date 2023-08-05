@@ -1,0 +1,12 @@
+pyfathom/__init__.py,sha256=UVDQ5ILI6yjvUyWKLIAO4sdVmZJU3QXIB5_-WZBEw5E,61
+pyfathom/classification.py,sha256=cZOWtyNc1bIaLi8_97j1Cm7NPBBMKNRs86Eh1Pu3QTk,313
+pyfathom/classifications.py,sha256=9LoyBIG_e0ZznttcApgiEB4VqkS9CgUgZx6kEpHUbgU,1693
+pyfathom/classifier.py,sha256=Mfeh31twQMcaQ0VTlKfM_stw-Wkz_muHKEFEGYYJgpI,533
+pyfathom/matchers.py,sha256=Xo38Z81eq7aeTtr458xbg4Vt0ITC95cTeFmmK-qYSi4,1101
+pyfathom/rule.py,sha256=0t2B9IOkMfMcQsxxu6O3i7YJx1WM2dCWB0Yc-hNiR8w,3656
+pyfathom/tokenisers.py,sha256=bM_JGdEJwHm47cYSKRteKyasnd_mqOPlZxPyfjprSEU,206
+pyfathom-0.0.1.dist-info/LICENSE,sha256=COl43Kk2tdeFKPf1zXZ1OY8_x7kTQ0WmDazGU2b-Ga8,1067
+pyfathom-0.0.1.dist-info/METADATA,sha256=31MYs4oTb1rjzTmE3ase61roNZrLozFtJUd8lGQRUro,3083
+pyfathom-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyfathom-0.0.1.dist-info/top_level.txt,sha256=2yVWVb431EvdgUNelQTw19_6XbkJuID7RoAPqmfkdOI,9
+pyfathom-0.0.1.dist-info/RECORD,,
