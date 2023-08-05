@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# This userdata script create a systemd unit which start JupyterNotebook with JHub params
+# Requirements :
+# Jupyterhub installed
+# systemd
+#
+
+# Create systemd service
+#
+cat <<EOF> /etc/default/jupyter
+{% for key, value in jhub_env.items() %}
+{{key}}={{value}}
+{% endfor %}
+EOF
+
+JHUB_SINGLEUSER=`/usr/bin/which jupyterhub-singleuser`
+
+cat <<EOF > /etc/systemd/system/jupyterhub-singleuser.service
+[Unit]
+Description=JupyterHub-singleuser instance
+ 
+[Service]
+WorkingDirectory=/tmp
+User={{ user }}
+EnvironmentFile=/etc/default/jupyter
+ExecStart=${JHUB_SINGLEUSER} --ip=0.0.0.0 {{ notebookargs }} \$@
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# Reload systemd commands
+# Start and enable service 
+systemctl daemon-reload
+systemctl restart jupyterhub-singleuser.service
+systemctl enable jupyterhub-singleuser.service

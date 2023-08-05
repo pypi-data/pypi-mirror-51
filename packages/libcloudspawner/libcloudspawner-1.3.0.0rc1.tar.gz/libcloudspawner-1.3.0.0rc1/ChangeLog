@@ -1,0 +1,67 @@
+CHANGES
+=======
+
+1.3.0.rc1
+---------
+
+* libcloudSpawner is present on pypi
+* Restoring state is supported, restarting JH is possible w/o users revolt
+* c.LibCloudSpawner.notebookargs deprecation, use c.Spawner.args
+* Remove static port definition on default cloud-init template
+* Support for c.Spawner configuration ( Fix #3 )
+* Documentation - note on 3.x\_password method usage
+
+1.2
+---
+
+* Update example configuration
+* Added github README.rst to point documentation
+* New default instance customization script cloud-init
+* Doc correction for custom templates
+* Admin password issue TG-2 #closed
+* Doc spell checking (#1)
+* Fixe issue #2
+* There is nothing to see here #2 FIX
+* Documentation in progress..
+* Example userdata to start singleuser cloudimage
+* Starting to check cloud configurations
+* Support non-ssl cloud
+* Cleaning code
+* Options form (size/image user selection) now jinja2
+* Userdata scripts improvements
+* First support for 0.8.1 Jupyterhub
+* Manage None state at startup
+* Documentation in progress..
+* Coroutine now work like a charm
+* Start working on non-blocking version.(coroutine)
+* Introducing statsd options to graph error and spawn delay
+* Userdata template was now an option
+* Fixes respawn of notebooks after kill -9 on jhub
+* Cleaning some comment
+* Start working with autodoc and pbr
+
+1.1a1
+-----
+
+* Starting with pbr
+* Unittest coverage ~ 5% shame!
+* Better, faster, stronger..
+* Refactored version OK, but without spring cleanup
+* Refactoring and PEP8 compliance
+* Added test config-file to gitignore
+* Conda support, if user has conda envs kernel was added to notebooks
+* Correction on state management
+* Add a select form to permit image choice
+* Now we can use public instance IP
+* Bug fix after class rename
+* Continue cleaning
+* Cleaning Eclipse files and co
+* Correction on classname
+* Added example config file
+* Rename project from nooCloudSpawner to libcloudSpawner
+* Correct a config bug for notebookargs and forceuser
+* Ajout du test http
+* Ajout des variables configurations pour forcer le user et les args
+* Retrait mauvaises dépendences
+* First working version
+* Version based on nooAPI

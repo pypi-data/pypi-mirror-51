@@ -1,0 +1,13 @@
+apache-libcloud
+Jinja2
+jupyterhub
+statsd
+
+[dev]
+tox
+bunch
+nose
+jupyter
+coverage
+sphinx
+sphinx_rtd_theme
