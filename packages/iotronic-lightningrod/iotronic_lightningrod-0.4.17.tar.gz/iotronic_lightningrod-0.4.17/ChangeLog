@@ -1,0 +1,146 @@
+CHANGES
+=======
+
+0.4.17
+------
+
+* Release 0.4.17: - Device Manager: logging improved
+* Release 0.4.17: - Device Manager: added RPC actions DeviceMountFs - Webservice Manager: improved logging messages and update\_conf flag management
+* Added DeviceMountFs RPC action on device
+
+0.4.16
+------
+
+* Fix Cerbot Renew
+* Delete letsencrypt and nginx diretory content
+
+0.4.15
+------
+
+* LR v0.4.15: upgrade LR procedure improved (update\_conf flag); info api fixed
+
+0.4.14
+------
+
+* LR v0.4.14: upgrade LR procedures fixed; new shell command (lr\_info)
+
+0.4.13
+------
+
+* LR v0.4.13: - added timer in destroy WAMP socket procedure (GDB failure) - added new iotronic.conf file management - new iotronic.conf template - new rest api "info"
+* LR v0.4.13-dev: added autobahn log level management
+* LR v0.4.13-dev: - fix logrotate conf; - added "info" rest-api - added check on GDB wamp recovery system failure
+
+0.4.12
+------
+
+* LR v0.4.12: Fix x86 arch support
+
+0.4.11
+------
+
+* LR 0.4.11: - Service Manager updated - Docker files updated - Bug fixed for x86 arch
+
+0.4.10
+------
+
+* LR v0.4.10: fix WampMessages in each manager
+* LR v0.4.10: fix backward compatibility in WampMessage class
+
+0.4.9
+-----
+
+* Lightning-rod v0.4.9: - added checks on WAMP connection\_failure events - changed logrotation procedures (oslo\_log based in iotronic.conf) - added generic device layout - added in WampMessage req\_id management - refactored utils library - updated LR web-page (network and status) - refactored disable webservice procedures - added console command lr\_checks (script)
+* LR 0.4.9-dev: fixed self restore wstunnels; improvede webservice module disabling procedure
+* LR v0.4.9-dev: req\_id added on webservice manager RPCs
+* LR v0.4.9-dev: added checks on command execution for device-actions (tox fixed)
+* LR v0.4.9-dev19: refactoring utils library and module; req\_id management for requests added in device-manager
+* LR v0.4.9-dev14: added WampMessage:Running; added othe RPC device-functions
+* LR v0.4.9dev13: fix connectivity info (MAC); new device RPC functions
+* LR v0.4.9-dev: WSTUN recovery system improved (WS\_LIST)
+* LR v0.4.9-dev: added detailed logs in service\_manager
+* LR v0.4.9-dev: update README links
+* LR v0.4.9-dev: README updated
+* LR v0.4.9-dev: links updated
+* LR v0.4.9-dev: updated guides
+* LR v0.4.9-dev: links updated
+* LR v0.4.9-dev: sock\_bundle result managed
+* Start devel LR v0.4.9: - Rest manager updated - Service manager updated - Dockerfiles updated
+* OpenDev Migration Patch
+
+0.4.8
+-----
+
+* Release v0.4.8: wamp connection recovery updated; iotronic.conf updated; new connectivity info added at login
+
+0.4.7
+-----
+
+* Release v0.4.7: WSTUN socket recovery fixed. Web-UI improved. Installation guides updated
+* v0.4.6: Installation guides updated
+
+0.4.6
+-----
+
+* Release v0.4.6: - Lightning-rod Web interface:   - Registration improved   - Configuration management added   - Factory reset and restore added - Iotronic login: added information provided by LR to Iotronic (version and MAC) - NGINX redirects updated - WSTUN: <defunct> processes cleaning added
+
+0.4.5
+-----
+
+* Release Lightning-rod v0.4.5: - Docker procedures updated - Board registration procedure fixed - Rest Manager updated
+* Release Lightning-rod v0.4.5:  - Added REST server for local LR management  - Modules loader updated:    - Single module loader added  - Service Manager improved:    - Add checks status for WSTUN server    - Cleaning procedures added for WSTUN monitor threads    - services.json backup management fixed  - Webservice Manager updated:    - NGINX listening ports changed  - Docker procedures updated  - Installation procedures updated  - Requirements fixed: Flask
+* New proxy default ports
+
+0.4.4
+-----
+
+* Release v0.4.4: - wamp recovery on timeout updated - docs updated - requirements updated: pyOpenssl
+
+0.4.3
+-----
+
+* Release v0.4.3: \* Service Manager refactored:  - WSTUN server check added  - backup management for services.json file \* Docker installation procedures updated
+
+0.4.2
+-----
+
+* Release v0.4.2:  - WAMP alive RPC refactored  - WSTUN tunnels monitoring: added recovery procedure  - NGINX proxy updated  - Iotronic oslo conf refactored  - Pyinotify requirement added (fixed)
+
+0.4.1
+-----
+
+* Refactored Webservice Manager:
+
+0.4.0
+-----
+
+* NEW WebService module; Device Manager improved; installation procedures updated
+* Update the hacking to latest
+
+0.3.0
+-----
+
+* Installation procedures updated
+* Systemd script updated
+* Installation scripts fixed
+* gitignore updated
+* Restyling Packaging
+* Added support for SSL connections: Wamp and Service Manager updated
+* Adding network\_manager
+
+0.2.0
+-----
+
+* Installation procedures fixed
+* Updated Module class: restore method was added and all modules was upgraded. Service Manager upgraded: services restore management added
+* Added Cloud Service Manager
+* Moved to Python 3.5
+* Plugin Manager updated. Added installation guides
+* Bux fixed in conf template files
+* Bug fixed in conf files templates. Update plugin APIs
+* Some updates
+* Iotronic Home set
+* Updated main and Board class
+* Registration bug fixed
+* First commit
+* Added .gitreview
