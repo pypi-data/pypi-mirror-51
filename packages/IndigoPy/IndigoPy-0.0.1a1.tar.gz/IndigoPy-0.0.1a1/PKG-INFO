@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: IndigoPy
+Version: 0.0.1a1
+Summary: Just A test now
+Home-page: https://github.com/IndigoMad/IndigoPy.git
+Author: Indigo Mad
+Author-email: indigomad@pku.edu.cn
+License: UNKNOWN
+Description: # IndigoPy
+        This package contains some useful tools in many fields including GUI, mathematical functions, plot and protein. I just wrote what i need and I will keep updating it but it might not be well tested.
+        
+        Modules below is completed:
+        
+        * **IndigoPy.Protein.pdb**
+        * **IndigoPy.Math.Funcmaker**
+        
+        Modules below is uncompleted but you can use it (be cautious, they may be different in a new version):
+        
+        * **IndigoPy.Math.coordinates**
+        * **IndigoPy.Math.plot**
+        
+        Modules below need some modifications before using:
+        * **IndigoPy.GUI**
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
