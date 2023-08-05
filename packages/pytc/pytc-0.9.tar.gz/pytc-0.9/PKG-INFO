@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pytc
+Version: 0.9
+Summary: Tokyo Cabinet Python bindings
+Home-page: UNKNOWN
+Author: Tasuku SUENAGA
+Author-email: tasuku-s-github@titech.ac
+License: BSD
+Description: 
+                Tokyo Cabinet Python bindings
+              
+Platform: UNKNOWN
