@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: baconlang
+Version: 1.0.7
+Summary: Python implementation of the BAConLang interpreter
+Home-page: https://github.com/baconlang/python
+Author: Caleb Martinez
+Author-email: contact@calebmartinez.com
+License: MIT
+Download-URL: https://github.com/baconlang/python/archive/1.0.7.tar.gz
+Description: 
+            BAConlang is a logical programming language dedicated to evaluating constraint based expressions using only strings and square brackets. This package allows for:
+            - Parsing of valid BACs using either symbol maps or evaluators
+            - Generation of all possible symbol maps for a given constraint
+            - Generation of all satisfactory symbol maps for a given constraint
+            
+Keywords: language,interpreter,constraint,logic
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
