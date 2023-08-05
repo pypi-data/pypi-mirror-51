@@ -1,0 +1,311 @@
+|License| |Build Status|
+
+Introduction
+============
+
+PopPage is a simple command-line utility originally intended as a static
+website generator but has since grown into a
+`cookiecutter <https://github.com/audreyr/cookiecutter>`__ clone. The
+main features of PopPage are:
+
+-  Uses `Jinja2 templates <http://jinja.pocoo.org/>`__ to generate
+   output.
+
+-  Fairly good support for
+   `cookiecutter <https://github.com/audreyr/cookiecutter>`__ templates.
+
+-  Uses YAML to store default key/values for template variables.
+
+-  Output can be single files or directories.
+
+-  Key/values applied to the templates variables can specified on the
+   command line.
+
+A collection of templates is `available
+here <https://github.com/jeffrimko/PopPageTemplates>`__.
+
+Status
+======
+
+Currently, this project is in the **development release** stage. While
+this project is suitable for use, please note that there may be
+incompatibilities in new releases.
+
+Release notes are maintained in the project
+`changelog <https://github.com/jeffrimko/PopPage/blob/master/CHANGELOG.adoc>`__.
+
+Requirements
+============
+
+PopPage runs on Python 2.7/3.x and uses some third-party libraries.
+
+Installation
+============
+
+PopPage is `available on PyPI
+here <https://pypi.python.org/pypi/poppage>`__ and can be installed with
+pip using the following command: ``pip install poppage``
+
+Usage
+=====
+
+PopPage can be run from the command line using ``poppage``. Type
+``poppage --help`` for usage information. The following subcommands are
+available:
+
+-  ``check`` - Check the given INPATH template for variables.
+
+-  ``make`` - Generates directories and files based on the given INPATH
+   template.
+
+-  ``run`` - Generates the OUTPATH, executes commands, then deletes
+   OUTPATH.
+
+Some Important Notes
+--------------------
+
+Before showing any examples, keep these notes in mind:
+
+-  Template file/directory names can contain template variables (e.g.
+   ``{{foo}}.txt``). The provided key/values will be used for the output
+   file generation unless an explicit OUTPATH is provided.
+
+-  The output will be passed to ``stdout`` if INPATH is a file (rather
+   than a directory) and INPATH does not contain a template variable and
+   no OUTPATH is specified.
+
+CLI Key/Values
+--------------
+
+The following is a quick example of using PopPage from the CLI:
+
+-  Template file (``template.jinja2``):
+
+   ::
+
+       Hello {{name}}!
+
+-  PopPage command:
+
+   ::
+
+       poppage make --inpath template.jinja2 --string name world
+
+-  Output to ``stdout``:
+
+   ::
+
+       Hello world!
+
+YAML Key/Values
+---------------
+
+Additionally, default key/values can be stored in a YAML file:
+
+-  Template file (``template.jinja2``):
+
+   ::
+
+       Hello {{name}}!
+
+-  Defaults file (``defaults.yaml``):
+
+   ::
+
+       name: sun
+
+-  PopPage command:
+
+   ::
+
+       poppage make --inpath template.jinja2 --defaults defaults.yaml
+
+-  Output to ``stdout``:
+
+   ::
+
+       Hello sun!
+
+Custom YAML Tags
+----------------
+
+The following custom YAML tags are provided:
+
+-  ``!file`` - Reads value from a file as a string.
+
+-  ``!yaml`` - Reads value from file as YAML.
+
+-  ``!opt`` - Like ``!yaml`` but only for populating the ``__opt__``
+   key.
+
+-  ``!cmd`` - Reads value from a CLI command output.
+
+-  ``!ask`` - Prompts the user to input a value.
+
+-  ``!py`` - Executes Python code.
+
+Check out this example:
+
+-  Template file (``template.jinja2``):
+
+   ::
+
+       Hello {{first}} {{last}}!
+
+-  Defaults file (``defaults.yaml``):
+
+   ::
+
+       first: !file myfile.txt
+       last: !cmd python -c "print('Skywalker')"
+
+-  Content of ``myfile.txt``:
+
+   ::
+
+       Anakin
+
+-  PopPage command:
+
+   ::
+
+       poppage make --inpath template.jinja2 --defaults defaults.yaml
+
+-  Output to ``stdout``:
+
+   ::
+
+       Hello Anakin Skywalker!
+
+Sometimes it might be helpful to process variables in a defaults file.
+The ``!py`` tag can be used in this scenario:
+
+::
+
+    name: !ask &name "Enter a name" 
+    loud: !py ["'{0}'.upper()", *name] 
+
+-  The anchor ``&name`` is created.
+
+-  A list must be provided to the ``!py`` tag. The code is the first
+   element and it can contain standard Python string format variables
+   (e.g. ``{0}``) which will be replaced by the following list elements.
+   Note that an anchor reference can be used as an element!
+
+Option Defaults
+---------------
+
+Default utility options can be provided in the defaults file under the
+``__opt__`` root key.
+
+Check out these examples:
+
+-  Basic option defaults:
+
+   ::
+
+       __opt__:
+           inpath: template.jinja2
+           outpath: myfile.txt
+
+-  Another options example:
+
+   ::
+
+       __opt__:
+           inpath: template.jinja2
+           outpath: myfile.py
+           execute: python myfile.py
+
+-  For ``make`` commands, multiple ``inpath`` and ``outpath`` pairs can
+   be specified, the lists are zipped to join the pairs:
+
+   ::
+
+       __opt__:
+           command: make
+           inpath:
+             - template1.jinja2
+             - template2.jinja2
+           outpath:
+             - myfile1.py
+             - myfile2.py
+
+-  The execute option can be a template:
+
+   ::
+
+       __opt__:
+           inpath: template.jinja2
+           execute: python {{outpath}}
+
+-  Populate the options using a YAML file:
+
+   ::
+
+       __opt__: !opt myopts.yaml
+
+Cookiecutter Compatiblity
+-------------------------
+
+PopPage should be compatible with many
+`cookiecutter <https://github.com/audreyr/cookiecutter>`__ templates.
+Using https://github.com/solarnz/cookiecutter-avr as an example, check
+for the variables in the template:
+
+::
+
+    poppage check --inpath https://github.com/solarnz/cookiecutter-avr
+    # Found variables:
+    #   cookiecutter::full_name
+    #   cookiecutter::repo_name
+    #   cookiecutter::year
+
+Create a file to store your default values, for example
+``defaults.yaml``:
+
+::
+
+    cookiecutter:
+        full_name: Henry Jones
+        repo_name: LastCrusade
+        year: 1989
+
+Run PopPage to generate your files:
+
+::
+
+    poppage make --inpath https://github.com/solarnz/cookiecutter-avr --defaults defaults.yaml --outpath mydest
+    # This will generate the entire repo to a new directory named mydest.
+
+::
+
+    # Or you can do:
+    poppage make --inpath https://github.com/solarnz/cookiecutter-avr/tree/master/%7B%7Bcookiecutter.repo_name%7D%7D --defaults defaults.yaml
+    # This will generate the {{cookiecutter.repo_name}} subdirectory to a new directory based on the given variables, in this case LastCrusade.
+
+Demo Video
+----------
+
+A quick demo video is `available here on
+YouTube <https://youtu.be/955GwxbDx2k>`__. This video demos using a
+single set of requirements information to generate native shell scripts
+for both Windows and Linux. The templates used in this demo are
+available on GitHub at the following locations:
+
+-  `Linux Bash
+   Script <https://github.com/jeffrimko/PopPageTemplates/tree/master/check_deps_bash>`__
+
+-  `Microsoft Batch
+   Script <https://github.com/jeffrimko/PopPageTemplates/tree/master/check_deps_batch>`__
+
+Similar
+=======
+
+The following projects are similar and may be worth checking out:
+
+-  `cookiecutter <https://github.com/audreyr/cookiecutter>`__
+
+.. |License| image:: http://img.shields.io/:license-mit-blue.svg
+.. |Build Status| image:: https://travis-ci.org/jeffrimko/PopPage.svg?branch=master
+
