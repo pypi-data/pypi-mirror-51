@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dsbuild
+Version: 0.0.7
+Summary: Build infrastructure for python libraries.
+Home-page: UNKNOWN
+Author: DS
+Author-email: grazhopper+pypi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dsvenv (>=0.0.2)
+Requires-Dist: wheel
+
+UNKNOWN
+
+

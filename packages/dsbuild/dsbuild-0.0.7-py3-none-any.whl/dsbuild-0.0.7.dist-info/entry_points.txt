@@ -1,0 +1,3 @@
+[console_scripts]
+dsbuild = dsbuild.__main__:main
+
