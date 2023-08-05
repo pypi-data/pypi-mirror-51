@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: django-permalinks
+Version: 0.1.2
+Summary: A Django App to make sure old URLs work with new URLs.
+Home-page: https://github.com/aekanshd/django-permalinks
+Author: Aekansh Dixit
+Author-email: aekanshdixit@gmail.com
+License: MIT License
+Description: # Django Permalinks
+        
+        This Django App acts as an internal redirector. Most likely use cases are when you have changed your URL scheme for a few pages, but your visitors still have the Old URL - this app can help you redirect the old scheme to the new one.
+        
+        # Free URL Shortner
+        
+        This Django app also provides a free URL shortner. In order to use it:
+        1. Use the Django Admin to make a new object of Permalinks.
+        2. While creating an object, you should see a link which says "Generate a random string". Click it.
+        3. Click the "Use this string" link when it appears.
+        4. Enter the long URL in the 'NEW URL' box above.
+        
+        # Installation
+        
+        Install from PyPI:
+        ```terminal
+        pip install django-permalinks
+        ```
+        
+        # Configurations
+        
+        1. Add `permalinks` to your list of `INSTALLED_APPS` in settings.py:
+        
+            ```python
+            INSTALLED_APPS = [
+                ...
+                'permalinks',
+                ...
+            ]
+            ```
+        3. Add the permalinks URLs to `urls.py` of your base app **on the top of the list**:
+             ```python
+            urlpatterns = [
+               url('', include('permalinks.urls')),
+               ...
+            ]
+            ```
+        
+        4. Add the permalinks middleware to `settings.py` **on the top of the list**:
+        
+            ```python
+            MIDDLEWARE = [
+               'permalinks.middleware.main.PermalinksMiddleware',
+               ...
+            ]
+            ```
+        
+        5. Run `manage.py migrate` to create the required table for the permalinks model.
+        6. Create your `permalinks` objects in your Django admin interface.
+        7. Test your OLD URLs and their responses by visiting them.
+        8. Enjoy a smooth URL migration!
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
