@@ -1,0 +1,7 @@
+README.md
+setup.py
+ipymaps/__init__.py
+ipymaps.egg-info/PKG-INFO
+ipymaps.egg-info/SOURCES.txt
+ipymaps.egg-info/dependency_links.txt
+ipymaps.egg-info/top_level.txt
