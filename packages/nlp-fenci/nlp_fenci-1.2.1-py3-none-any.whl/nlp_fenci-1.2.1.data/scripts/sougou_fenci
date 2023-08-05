@@ -1,0 +1,28 @@
+#!python
+# -*- coding: utf-8 -*-
+
+from fenci import sougou
+import sys
+
+if len(sys.argv) < 2:
+    print("请输入要分词的内容")
+else:
+    resp = sougou(sys.argv[1])
+    result = resp.get("result")
+
+    if result:
+
+        max_length = 10
+        length_per_item = 2
+        for result_item in result:
+            length_per_item = len(result_item)
+            if len(result_item[0]) > max_length:
+                max_length = result_item[0]
+            if len(result_item[1]) > max_length:
+                max_length = result_item[1]
+
+        row_format = ("{:>" + str(max_length) + "}") * length_per_item
+        for result_item in result:
+            print(row_format.format(result_item[0], result_item[1]))
+    else:
+        print("分词失败")
