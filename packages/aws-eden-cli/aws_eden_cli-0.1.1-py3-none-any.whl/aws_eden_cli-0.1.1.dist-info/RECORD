@@ -1,0 +1,11 @@
+aws_eden_cli/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_eden_cli/__main__.py,sha256=7w5drFjzyoDY78dVBkLmWcd42JpBo6kDFL2-K4DaaXo,103
+aws_eden_cli/cmdline.py,sha256=7NLUL9iAWzrE-4_Ivp11Hcmcc6R1R6xVdxvgMDDPaNA,7070
+aws_eden_cli/consts.py,sha256=wJQW3GlrsDIWX4mq716XLCAhew-0wuFWUlp6Au1_0hI,2885
+aws_eden_cli-0.1.1.data/scripts/eden,sha256=4an_UgHYep3YmG2Ywu8zjlbAK2z9y4PP117CPTVzx-8,90
+aws_eden_cli-0.1.1.dist-info/LICENSE,sha256=jXOYhL9CAJGhPHwZlhT40CEb6dxzwcs6L2jVFwQ8jgY,1073
+aws_eden_cli-0.1.1.dist-info/METADATA,sha256=mfHlvwj6prtJsW8YcUFSpzHsRYNnehpLtTn784mrH58,8333
+aws_eden_cli-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+aws_eden_cli-0.1.1.dist-info/top_level.txt,sha256=brmqZg5VGONiBxQK2cvXugopiL2G5lIp2yEy7GtJYZc,13
+aws_eden_cli-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_eden_cli-0.1.1.dist-info/RECORD,,
