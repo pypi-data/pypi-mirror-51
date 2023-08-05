@@ -1,0 +1,17 @@
+dcma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcma/__main__.py,sha256=rteratEUUTMyba9UZ1HVJlNQr4konR7iHm7Bcf2xnGE,50
+dcma/core.py,sha256=9SUwxdq6Vx5d4LQ7QdqC_VEEsg5_9el0TR9uAeMKAdU,562
+dcma/_src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcma/_src/_core_methods.py,sha256=DhMPHo3vx8UlrbMqKdsxKxUMicSZ8N7pNrv4KvQ8G_Q,5677
+dcma/_src/conv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcma/_src/conv/export_dfs.py,sha256=Ne1CMZ0fz9r6IaSbonM6zoRBsXpC_pMIzzfgRmkNHTs,3795
+dcma/_src/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcma/_src/helpers/auxfunc.py,sha256=3hK0qndCwOwBOufJyIzVbqwCuNP2DGL0YnGzHz1zS9Q,11489
+dcma/data/codons.csv,sha256=o46qXprgssu0zBy9TRMGczHnIzdM7WwL4whcdwQNwzA,395
+dcma/data/pols.csv,sha256=FUFSatzv7-Zj9spkROZK9Eh7xPRl6kUZLTjViIVJBvA,68
+dcma-0.1.2.dist-info/LICENSE,sha256=v05i91fyY9IWBL7NrcPlWYK0WLzODc508TftqjbaPgE,1080
+dcma-0.1.2.dist-info/METADATA,sha256=1S5ygTBIcdsI0Uc4xjASTylcKvjqEpKA8o0WHc7EmKk,2177
+dcma-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dcma-0.1.2.dist-info/entry_points.txt,sha256=bz3pp_sjThodCEIVdPG0SXlpJVRuF03WZeTkkp7coMk,46
+dcma-0.1.2.dist-info/top_level.txt,sha256=vrp2dPc6k8Vwwnk6aMfkzmSY98k-UonfMhdfUAERfhQ,5
+dcma-0.1.2.dist-info/RECORD,,
