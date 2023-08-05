@@ -1,0 +1,8 @@
+README.md
+setup.py
+filemanagement/__init__.py
+filemanagement/csv.py
+mandarina.egg-info/PKG-INFO
+mandarina.egg-info/SOURCES.txt
+mandarina.egg-info/dependency_links.txt
+mandarina.egg-info/top_level.txt
