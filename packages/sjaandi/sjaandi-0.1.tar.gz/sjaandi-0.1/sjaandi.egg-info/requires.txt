@@ -1,0 +1,7 @@
+fastai
+matplotlib
+numpy
+scikit-learn
+python-dotenv
+click
+rasterfairy@ git+git://github.com/pechyonkin/RasterFairy@python3
