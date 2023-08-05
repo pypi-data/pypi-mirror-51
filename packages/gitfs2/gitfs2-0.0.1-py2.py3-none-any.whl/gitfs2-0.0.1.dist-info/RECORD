@@ -1,0 +1,11 @@
+gitfs2/__init__.py,sha256=hSi28L_eCoOlWmigw2Ovp4tKPztCY6ce9moKNY_JWHk,105
+gitfs2/_version.py,sha256=emzWfkWHWwU_RwWnxUjWEBsP71LdrrHYc6xaNg3eY18,42
+gitfs2/constants.py,sha256=uN-XAlKJ7N8CSVWxTo8y1rqvEFbKy9XXCii1rIVnfvg,140
+gitfs2/opener.py,sha256=OgX8501VZplRHS81xiNNpqhC8X3wVa_0Of6Cpw6rF2o,1003
+gitfs2/repo.py,sha256=Sg9b22UE1FIgepEyVYC9UuNKSKWV3gybxuEWPzihdwE,3513
+gitfs2/reporter.py,sha256=Yxm2MTiOHdQfg_46FeuPCVCmJFo9p8ZQZ3qq4PyPFT4,284
+gitfs2-0.0.1.dist-info/METADATA,sha256=PQYGqot7y8fohm7I-py27O8ulmezGp95jefOgZyzk4k,3901
+gitfs2-0.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+gitfs2-0.0.1.dist-info/entry_points.txt,sha256=X4XjAFNjtAXbeKWUiGLshXFLD2F0pqurq5kQO2om5X0,38
+gitfs2-0.0.1.dist-info/top_level.txt,sha256=aen6HjRgSJC4lSCHcYyDQ3GtWtRkRdLRXP4g0_czdvk,7
+gitfs2-0.0.1.dist-info/RECORD,,
