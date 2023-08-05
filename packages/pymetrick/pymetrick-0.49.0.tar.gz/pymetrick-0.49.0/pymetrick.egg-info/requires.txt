@@ -1,0 +1,7 @@
+fpdf
+openpyxl>=2.5.12
+pillow>=4.0.0
+mysql-connector-python
+qrcode
+lxml
+pyaes
