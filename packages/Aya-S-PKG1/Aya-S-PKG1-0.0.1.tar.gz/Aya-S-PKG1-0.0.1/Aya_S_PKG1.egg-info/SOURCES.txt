@@ -1,0 +1,7 @@
+README.md
+setup.py
+Aya_S_PKG1.egg-info/PKG-INFO
+Aya_S_PKG1.egg-info/SOURCES.txt
+Aya_S_PKG1.egg-info/dependency_links.txt
+Aya_S_PKG1.egg-info/top_level.txt
+aya_pkg1/__init__.py
