@@ -1,0 +1,8 @@
+fuzzypanda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuzzypanda/matching.py,sha256=T7ovYgQ5MrqaAoQRRj9OHIiGwV6PAZv7w_Q2Oi-4ai8,22202
+fuzzypanda/preprocess.py,sha256=sDoaZ_yxJaLr6rP7nHFy9C4qKxLxYbbZxURyVdd3Y1w,3082
+fuzzypanda-0.1.1.dist-info/LICENSE.txt,sha256=PiHi4tSIPnzgUrGhVrdG0HjvkbsFCQQmYxdA6NHzXC8,1090
+fuzzypanda-0.1.1.dist-info/METADATA,sha256=uU8HzSSsT_PY_h2j7nvU4K8Vais8QnfmVlD1tUWMouI,8872
+fuzzypanda-0.1.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+fuzzypanda-0.1.1.dist-info/top_level.txt,sha256=-z8eGRv1Fh656otYbRf-XKfBEIlN88l894mnt_AJ7J0,11
+fuzzypanda-0.1.1.dist-info/RECORD,,
