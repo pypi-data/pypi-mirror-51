@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: sphinxcontrib-swaggerui
+Version: 0.0.7
+Summary: Provides the swaggerui directive for reST files to build an interactive HTML page with your OpenAPI specification document.
+Home-page: https://bitbucket.org/albert_bagdasaryan/sphinxcontrib-swaggerui/
+Author: Albert Bagdasaryan
+Author-email: albert.bagd@gmail.com
+License: BSD
+Description: README.md
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
