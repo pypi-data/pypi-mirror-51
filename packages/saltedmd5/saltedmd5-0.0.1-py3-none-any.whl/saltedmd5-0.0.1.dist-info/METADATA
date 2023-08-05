@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: saltedmd5
+Version: 0.0.1
+Summary: saltedmd5 is a python package for performing md5 hashing with salt.
+Home-page: https://github.com/nat236919/saltedmd5
+Author: Nuttaphat Arunoprrayoch
+Author-email: nat236919@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.5
+Requires-Dist: random
+Requires-Dist: string
+Requires-Dist: hashlib
+
+# Salted MD5
+Simple MD5 hash that tastes salty
+
+
