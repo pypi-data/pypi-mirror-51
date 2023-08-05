@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: datanator-query
+Version: 0.1
+Summary: A python API to for querying datanator DB server
+Home-page: https://github.com/KarrLab/datanator_query
+Author: Karr Lab
+Author-email: karr@mssm.com
+License: MIT
+Download-URL: https://github.com/KarrLab/datanator_query
+Keywords: systems-biology data-integration data-aggregation data-discovery modeling biological-modelling bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Dist: Jinja2 (==2.10.1)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: Werkzeug (==0.15.5)
+Requires-Dist: aniso8601 (==7.0.0)
+Requires-Dist: attrs (==19.1.0)
+Requires-Dist: cement (==3.0.4)
+Requires-Dist: click (==7.0)
+Requires-Dist: configparser (==3.7.4)
+Requires-Dist: flask-session (==0.3.1)
+Requires-Dist: genson (==1.1.0)
+Requires-Dist: glob2 (==0.7)
+Requires-Dist: gunicorn (==19.9.0)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: jsonschema (==3.0.1)
+Requires-Dist: numpy (==1.16.4)
+Requires-Dist: pep8 (==1.7.1)
+Requires-Dist: pkg-utils (==0.0.4)
+Requires-Dist: pymongo (==3.8.0)
+Requires-Dist: pyrsistent (==0.15.4)
+Requires-Dist: pytest (==5.0.1)
+Requires-Dist: python-dotenv (==0.10.3)
+Requires-Dist: pytz (==2019.1)
+Requires-Dist: requirements-parser (==0.2.0)
+Requires-Dist: six (==1.12.0)
+Provides-Extra: all
+Provides-Extra: docs
+Provides-Extra: tests
+
+UNKNOWN
+
+
