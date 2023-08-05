@@ -1,0 +1,17 @@
+bilispider/__init__.py,sha256=rc3GvC-oMC336AW42kZobmAnEJ9pWQJ_k7Sh_DWtCIw,185
+bilispider/__main__.py,sha256=S9JF-oUtOasci8cIRdVV1er4Pxi5KMPsddurBa0vxa0,33
+bilispider/bilispider.py,sha256=jYyyUYOuv651fAkmJ1sMXicFLysCq3s5pQpM5jqw684,11291
+bilispider/diagnose.py,sha256=8-NQykLcCt53n8U9c9yJVkNELSIJn1Ivt6GbtcS9Ghw,629
+bilispider/gui.py,sha256=Z0iLVcShOoqZxo2Dz6zE66gO3V5TRUEiUZK9tFK4cKw,4206
+bilispider/headers.py,sha256=IH0yrVpdaaQK6igJG6Xp2I4OlzgNewwPejEurHfnoRs,923
+bilispider/httpserver.py,sha256=uHsv6Js7eUsOv7ebxVH_XiR8aLzooZAfOVLRGJPsDTA,5170
+bilispider/safemode.py,sha256=HWWc3sa7HvB25wN44sM7GYgnsmyxZNUuOzJymx_hK6E,1622
+bilispider/start.py,sha256=YOnXKf76UVRl1lHNGL9fv7VMsQxIemo29yMjSTnpH8E,3920
+bilispider/tools.py,sha256=IC53ycho83x01DdV9YkoV9Ekj9YADxLBPKIrEQ3ZzD8,3135
+bilispider/version.py,sha256=gSetqD0KLWVpDh98QA85S6ReRD-g-zFw-Wx8X8nhlH4,17
+bilispider-0.7.3.dist-info/LICENSE,sha256=wVMhVh-PDrCtVG8dnLnYRcD1Awf1Yu8xpVaZp1ko1x4,1086
+bilispider-0.7.3.dist-info/METADATA,sha256=XyNoLHjL1fuDgv25ZyOZ_ifz7twsH16laKHnAdai_pA,5694
+bilispider-0.7.3.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+bilispider-0.7.3.dist-info/entry_points.txt,sha256=H57Q3M64jFwF3le9E1i0K8yIIvqLrXW3p6MOQBUyGsU,57
+bilispider-0.7.3.dist-info/top_level.txt,sha256=d3IFYsbjbhemZB943HadVhl67_z8xLTD3xyghFxBgLI,11
+bilispider-0.7.3.dist-info/RECORD,,
