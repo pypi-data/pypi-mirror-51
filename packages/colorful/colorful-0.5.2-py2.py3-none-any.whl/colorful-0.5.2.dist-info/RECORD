@@ -1,0 +1,14 @@
+colorful/__init__.py,sha256=PxvlaO3Evh24rTl1xc9bH2QGKFPy3SPI4wxdv78sGuc,3825
+colorful/ansi.py,sha256=rSQRXEvrXU2wSDTpTdumFaY2kPdqQncdszTY7q1i1BY,2135
+colorful/colors.py,sha256=VfyluZyHS7wmTN71PU5PJmUeNhI-KJSgp5QtAc2iMqQ,2521
+colorful/core.py,sha256=tLfMIry3yixOWDff8iPgaT-_F5cHjP6UJrSTRsaiZ-0,20500
+colorful/styles.py,sha256=5F0dKVCoR8wxe2zjMZAb0lBmvA0zyX1RZSTZUsDRiEM,1095
+colorful/terminal.py,sha256=8zxwIbswY0ceAmrLQDYByHvej6mqWfnfmFDFQtbWXy4,2038
+colorful/utils.py,sha256=tdycjmTN_plNxp2cbWmonE0yRakUREpdKVjj2ogKpN0,1308
+colorful/data/colornames.json,sha256=6NOYEK98Tn39S75DbvaQl4FnGfZEJtVWhmVUx9K6HjM,694864
+colorful/data/rgb.txt,sha256=LIq1rMnrBy9MyIaWg0GIEA0F5Qr10UJVAdmTcAqqMWQ,17394
+colorful-0.5.2.dist-info/LICENSE,sha256=7xRmgVkS4O_Zu2_4JwoI74fCUDmWFzPRYVbh9U3Mfuo,1078
+colorful-0.5.2.dist-info/METADATA,sha256=yUYATqlSEsHDUuiM1WVZLNigNZrCr9E-f_SImxILUdE,17135
+colorful-0.5.2.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+colorful-0.5.2.dist-info/top_level.txt,sha256=ZFH7WyWeT2Z4PRtSkDjStdcPwxaLFHZqT-F49X7T48Y,9
+colorful-0.5.2.dist-info/RECORD,,
