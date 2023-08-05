@@ -1,0 +1,6 @@
+hemenson.py
+setup.py
+hemenson_pypi.egg-info/PKG-INFO
+hemenson_pypi.egg-info/SOURCES.txt
+hemenson_pypi.egg-info/dependency_links.txt
+hemenson_pypi.egg-info/top_level.txt
