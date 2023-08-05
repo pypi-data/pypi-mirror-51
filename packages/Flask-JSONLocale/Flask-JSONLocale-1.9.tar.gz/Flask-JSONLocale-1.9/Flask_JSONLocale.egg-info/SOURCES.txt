@@ -1,0 +1,9 @@
+README.md
+flask_jsonlocale.py
+setup.py
+Flask_JSONLocale.egg-info/PKG-INFO
+Flask_JSONLocale.egg-info/SOURCES.txt
+Flask_JSONLocale.egg-info/dependency_links.txt
+Flask_JSONLocale.egg-info/not-zip-safe
+Flask_JSONLocale.egg-info/requires.txt
+Flask_JSONLocale.egg-info/top_level.txt
