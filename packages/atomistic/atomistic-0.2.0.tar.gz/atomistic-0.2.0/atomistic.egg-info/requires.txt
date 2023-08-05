@@ -1,0 +1,7 @@
+numpy
+gemo
+vecmaths
+bravais
+mendeleev
+spglib
+beautifultable
