@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pysma
+Version: 0.3.3
+Summary: Library to interface an SMA Solar WebConnect module
+Home-page: https://github.com/kellerza/pysma
+Author: Johann Kellerman
+Author-email: kellerza@gmail.com
+License: MIT
+Download-URL: https://github.com/kellerza/pysma/tarball/0.3.3
+Description: UNKNOWN
+Platform: UNKNOWN
