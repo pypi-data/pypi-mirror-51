@@ -1,0 +1,13 @@
+examples/__init__.py,sha256=XT7YI4AbI71ZljB-pXQFI8fro9aC_Ozt82SCfRQeA2Q,967
+flask_loguru/__init__.py,sha256=nkYeVQDZWxwOnqQSGVXPSwUmJp1iMCa5awY0tFUM-HU,2887
+flask_loguru/__version__.py,sha256=ClE6DGYcFf5OJ3HHj8MrFk1nhvgNwJSgn2iGzGF8HE8,201
+flask_loguru/compress.py,sha256=ouiC8mPQ3A6WMHPJmrYH-9kU1TQV7lO-1bC6gPYhk1E,744
+flask_loguru/macro.py,sha256=Y0SDSdfOsGpNC6ClLPaGpkId2LGPcavf1fJqCKao8gA,447
+tests/__init__.py,sha256=jdCjrztB-9iVticj9hp3KI1cyLRU1OvETsO1-La8vr4,166
+tests/conftest.py,sha256=3F206o7rKUGmLUGLtff4yQUorD1LUjcEAxXKBydjvTQ,1161
+tests/test_log.py,sha256=SGkMQ5HqXR3lj7T53QOnkhMzi9j1uEOloML4MUHGAw8,738
+tests/test_rotate.py,sha256=qCmsty9PUs4xzd9UXQbJEcETP5R54_MT2OflfIaLdTY,782
+flask_loguru-1.0.0.dist-info/METADATA,sha256=RLUIdiJBRIa-TZ-1aFnO-lvIv7XWjTDkL1xkXNlPWXY,1856
+flask_loguru-1.0.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+flask_loguru-1.0.0.dist-info/top_level.txt,sha256=LQrzWEeTck7wIsOKj8vu4OKJh6AbART2tuIUKBuu9os,28
+flask_loguru-1.0.0.dist-info/RECORD,,
