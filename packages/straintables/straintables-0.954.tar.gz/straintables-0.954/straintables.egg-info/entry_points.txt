@@ -1,0 +1,7 @@
+[console_scripts]
+stdownload = straintables.fetchDataNCBI:main
+stpline = straintables.Pipeline:main
+stprimer = straintables.initializePrimerFile:main
+stprotein = straintables.Protein.Protein:main
+stview = straintables.MatrixViewer:main
+
