@@ -1,0 +1,6 @@
+seedrandom==1.4.1
+npyscreen
+pyperclip
+
+[:platform_system == "Windows"]
+windows-curses

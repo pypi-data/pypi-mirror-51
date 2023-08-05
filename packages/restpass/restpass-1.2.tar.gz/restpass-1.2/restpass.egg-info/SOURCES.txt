@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+misc/restpass.desktop
+restpass/__init__.py
+restpass/app.py
+restpass/generator.py
+restpass/main.py
+restpass.egg-info/PKG-INFO
+restpass.egg-info/SOURCES.txt
+restpass.egg-info/dependency_links.txt
+restpass.egg-info/entry_points.txt
+restpass.egg-info/requires.txt
+restpass.egg-info/top_level.txt
