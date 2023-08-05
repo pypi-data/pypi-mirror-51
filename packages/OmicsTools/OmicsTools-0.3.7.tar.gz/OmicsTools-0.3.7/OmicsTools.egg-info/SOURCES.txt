@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+OmicsTools/__init__.py
+OmicsTools/counts.py
+OmicsTools/namespace.py
+OmicsTools.egg-info/PKG-INFO
+OmicsTools.egg-info/SOURCES.txt
+OmicsTools.egg-info/dependency_links.txt
+OmicsTools.egg-info/requires.txt
+OmicsTools.egg-info/top_level.txt
+OmicsTools/enrich/__init__.py
+OmicsTools/enrich/go.py
+OmicsTools/enrich/db/go-basic.pkl
+OmicsTools/enrich/db/symbol2go.pkl
