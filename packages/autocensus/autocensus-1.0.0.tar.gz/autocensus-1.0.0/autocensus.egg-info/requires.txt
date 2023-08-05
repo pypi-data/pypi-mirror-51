@@ -1,0 +1,10 @@
+aiohttp>=3.0.0
+appdirs
+Fiona
+geopandas
+pandas>=0.24.1
+Shapely
+socrata-py
+tenacity
+titlecase
+yarl
