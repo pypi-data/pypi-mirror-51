@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: auto-paste-from-script
+Version: 1.0
+Summary: Package to execute lines from scripts into Python interpreters
+Home-page: https://github.com/salayatana66/auto-paste-from-script
+Author: Andrea Schioppa
+Author-email: andrej.schioppa@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# auto-paste-from-script #
+
+Utilities for interactively pasting script code into an interpreter.
+Currently supports Python, R, Scala.
+
+## Python Usage ##
+
+``` python
+from auto_paste_from_script import AutoPasteFromScript
+
+myS = AutoPasteFromScript("script.py")
+
+myS(5,10)
+```
+
+## R Usage ##
+
+``` r
+source("AutoPasteFromScript.R")
+
+myS <- AutoPasteFromScript$new(fileName="this.R")
+
+myS$exec(1,5)
+```
+
+## Scala Usage ##
+
+``` scala
+
+import auto.paste.from.script.AutoPasteFromScript
+
+// $intp is the current interpreter
+val myS = AutoPasteFromScript("filename.scala", $intp)
+
+myS(1,5)
+```
+
+
+
