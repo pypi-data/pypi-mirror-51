@@ -1,0 +1,7 @@
+README.rst
+setup.py
+aries.egg-info/PKG-INFO
+aries.egg-info/SOURCES.txt
+aries.egg-info/dependency_links.txt
+aries.egg-info/not-zip-safe
+aries.egg-info/top_level.txt
