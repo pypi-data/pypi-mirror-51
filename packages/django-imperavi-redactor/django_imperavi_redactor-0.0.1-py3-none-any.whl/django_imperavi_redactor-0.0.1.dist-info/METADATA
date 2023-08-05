@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: django-imperavi-redactor
+Version: 0.0.1
+Summary: Django wrapper for use imperavi redactor.
+Home-page: https://github.com/brogency/django-imperavi-redactor
+License: MIT
+Keywords: django,imperavi,wysiwyg,redactor,editor
+Author: Dmitry Bastrikin
+Author-email: dima.bastrikin@bro.agency
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: django (>=1.11,<3.0)
+Project-URL: Repository, https://github.com/brogency/django-imperavi-redactor
+Description-Content-Type: text/x-rst
+
+===========================
+django-imperavi-redactor
+===========================
+
+This package is based on the https://bitbucket.org/gearheart/django-redactor package for the old version of imperavi editor.
+
+
+**Warning!!!**
+
+**The editor is not part of the package, as it is proprietary.**
+
+Installation
+------------
+
+`
+pip3 install django-imperavi-redactor==0.0.4a
+`
+
+Put the editor files:
+
+* static/redactor/redactor.min.js
+* static/redactor/redactor.min.css
+
