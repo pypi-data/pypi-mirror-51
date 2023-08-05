@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+django_serializable_model.py
+serializable.py
+setup.cfg
+setup.py
+django_serializable_model.egg-info/PKG-INFO
+django_serializable_model.egg-info/SOURCES.txt
+django_serializable_model.egg-info/dependency_links.txt
+django_serializable_model.egg-info/top_level.txt
