@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aaboyles
+Version: 1.0.0
+Summary: Tony Boyles, the person
+Home-page: https://github.com/aaboyles/aaboyles.git
+Author: Tony Boyles
+Author-email: aaboyles@gmail.com
+License: UNKNOWN
+Description: # Tony Boyles, the person
+        
+        Allow other developers to save your contact info by simply installing an NPM package named after you.
+        
+        Forked from the original, [johnkpaul/johnkpaul](https://github.com/johnkpaul/johnkpaul).
+        
+        ## install
+            npm install aaboyles
+        
+        ## license
+        [ISC](https://opensource.org/licenses/ISC)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

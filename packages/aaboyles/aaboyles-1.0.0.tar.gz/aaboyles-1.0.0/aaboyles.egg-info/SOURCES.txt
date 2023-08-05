@@ -1,0 +1,6 @@
+README.md
+setup.py
+aaboyles.egg-info/PKG-INFO
+aaboyles.egg-info/SOURCES.txt
+aaboyles.egg-info/dependency_links.txt
+aaboyles.egg-info/top_level.txt
