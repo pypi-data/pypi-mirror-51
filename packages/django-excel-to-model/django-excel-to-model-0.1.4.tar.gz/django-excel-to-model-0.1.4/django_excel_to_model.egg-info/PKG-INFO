@@ -1,0 +1,89 @@
+Metadata-Version: 1.1
+Name: django-excel-to-model
+Version: 0.1.4
+Summary: Create model file from excel
+Home-page: https://github.com/weijia/django-excel-to-model
+Author: Wang Weijia
+Author-email: richardwangwang@gmail.com
+License: BSD
+Description: =============================
+        django-excel-to-model
+        =============================
+        
+        .. image:: https://badge.fury.io/py/django-excel-to-model.png
+            :target: https://badge.fury.io/py/django-excel-to-model
+        
+        .. image:: https://travis-ci.org/weijia/django-excel-to-model.png?branch=master
+            :target: https://travis-ci.org/weijia/django-excel-to-model
+        
+        Create model file from excel
+        
+        Documentation
+        -------------
+        
+        The full documentation is at https://django-excel-to-model.readthedocs.org.
+        
+        Quickstart
+        ----------
+        
+        Install django-excel-to-model::
+        
+            pip install django-excel-to-model
+        
+        Then use it in a project::
+        
+            import django_excel_to_model
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Running Tests
+        --------------
+        
+        Does the code actually work?
+        
+        ::
+        
+            source <YOURVIRTUALENV>/bin/activate
+            (myenv) $ pip install -r requirements-text.txt
+            (myenv) $ python runtests.py
+        
+        Credits
+        ---------
+        
+        Tools used in rendering this package:
+        
+        *  Cookiecutter_
+        *  `cookiecutter-pypackage`_
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`cookiecutter-pypackage`: https://github.com/pydanny/cookiecutter-djangopackage
+        
+        
+        
+        
+        History
+        -------
+        
+        0.1.0 (2015-10-02)
+        ++++++++++++++++++
+        
+        * First release on PyPI.
+        
+Keywords: django-excel-to-model
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.7
+Classifier: Framework :: Django :: 1.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
