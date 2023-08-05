@@ -1,0 +1,9 @@
+Cython
+numpy
+scipy
+mecab-python3
+
+[dev]
+mypy
+pylint
+numpy-stubs
