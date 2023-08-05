@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: openhltspirent
+Version: 2.0.324
+Summary: OpenHLTest Python Client
+Home-page: https://openhltspirent.github.io/docs
+Author: OpenHLTest Working Group
+Author-email: BDC-xTAPI-Eng@spirent.com
+License: MIT
+Keywords: openhltspirent spirent automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# OpenHlTest Python Client
+The openhltest folder is the repository for the OpenHlTest python client module.
+
+## Auto generated python client
+The auto generated library will follow these guidelines:
+1) It will be auto-generated every time there is a model change that has been successfully validated.
+2) It will be hierarchical and match the hierarchy of the yang model.
+3) It will consist of base infrastructure that encapsulates transport, serialization and errors.
+4) Once the library has been generated and unit tests pass it will be packaged and posted on pypi.python.org.  
+5) The library will be available for install using the command:
+```
+pip install openhltspirent
+```
+
+## Base infrastructure that is not auto-generated
+1) Https transport class encapsulated in HttpTransport
+2) Crudx and utility methods encapsulated in Base
+
+## The pyang plugin python_client_plugin.py will auto generate the following
+1) classes for the following yang keywords:
+   - container
+   - list
+2) class @property accessors for the following yang keywords:
+   - leaf
+   - leaf-list
+   - container
+   - list
+3) class methods for the following yang keywords:
+   - action
+   - rpc
+4) class @property accessors to access child container, list classes
+
+
+### Documentation
+upload the [python package](https://pypi.org/project/openhltspirent/) and the [documentation browser](https://openhltest.github.io/docs/index.html)
+
+### Sample code
+Sample code is located in the openhltest/samples folder.
+
