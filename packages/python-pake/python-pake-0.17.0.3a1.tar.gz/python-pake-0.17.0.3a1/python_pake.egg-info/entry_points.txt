@@ -1,0 +1,3 @@
+[console_scripts]
+pake = pake.entry_points.pake_command:main
+
