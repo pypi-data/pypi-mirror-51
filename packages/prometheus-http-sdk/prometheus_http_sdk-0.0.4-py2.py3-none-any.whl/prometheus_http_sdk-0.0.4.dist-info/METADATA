@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: prometheus-http-sdk
+Version: 0.0.4
+Summary: prometheus http sdk
+Home-page: https://github.com/RedheatWei/prometheus_http_sdk_py
+Author: Redheat
+Author-email: qjyyn@qq.com
+License: Apache License 2.0
+Download-URL: https://github.com/RedheatWei/prometheus_http_sdk_py
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# A simple prometheus http sdk
+
+## Example
+
+* import
+```python
+from prometheus_http_sdk.prometheus_http import PrometheusApi
+```
+
+* get data
+```python
+data = PrometheusApi("http://prometheus").query_range(
+        query=":node_cpu_saturation_load1:",
+        range_time="6h",
+    )
+print(data)
+```
+
+* get all data
+```python
+data = PrometheusApi("http://prometheus").query_all(
+        query=":node_cpu_saturation_load1:",
+        step=60,
+        end=time.time()-600
+    )
+print(data)
+```
+
+* convert to dict
+
+```python
+data.convertDict()
+```
+
+* convert to dict with tensorflow type
+
+```python
+data.convertDict(tfType=True)
+```
+
+
+* convert to json
+
+```python
+data.convertJson()
+```
+
