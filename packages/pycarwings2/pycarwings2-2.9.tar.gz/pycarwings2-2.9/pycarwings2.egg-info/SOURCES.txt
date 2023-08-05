@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pycarwings2/__init__.py
+pycarwings2/pycarwings2.py
+pycarwings2/responses.py
+pycarwings2.egg-info/PKG-INFO
+pycarwings2.egg-info/SOURCES.txt
+pycarwings2.egg-info/dependency_links.txt
+pycarwings2.egg-info/requires.txt
+pycarwings2.egg-info/top_level.txt
