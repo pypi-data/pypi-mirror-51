@@ -1,0 +1,15 @@
+sphinx_test_reports-0.2.1-py3.6-nspkg.pth,sha256=bvCbvTDhKUCTNtrCbu6HVe8TsYC4G4-hRkXeHdEJ6t4,574
+sphinx_test_reports-0.2.1.dist-info/METADATA,sha256=nbcuVCuwfQ9eQGPcB6m_wN4KRhEpqh2LlWFhSjCoQ8Q,1287
+sphinx_test_reports-0.2.1.dist-info/RECORD,,
+sphinx_test_reports-0.2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+sphinx_test_reports-0.2.1.dist-info/namespace_packages.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinx_test_reports-0.2.1.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib/test_reports/__init__.py,sha256=T8hHf8VFRf8d2Jjo8XAW-LV3ypvNVEI6OX3SWgWmE38,66
+sphinxcontrib/test_reports/environment.py,sha256=tkNrDzj03w5n23HfBDReCuQenBLotF8B_eFkR5UDQBQ,3721
+sphinxcontrib/test_reports/junitparser.py,sha256=hjgawuiIZ27vY-wUTZtQc9z0DySbPWQu7CWYr33VzME,3663
+sphinxcontrib/test_reports/test_reports.py,sha256=izl9RuKOxUGllK4Pp9L688QmmyfEkZAbQsAenTJvKmM,1115
+sphinxcontrib/test_reports/css/common.css,sha256=7ZhJQc3ldb3zNeE9I8L7YzUwhKxz13f7IziXUYWuudI,473
+sphinxcontrib/test_reports/directives/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinxcontrib/test_reports/directives/test_env.py,sha256=CL2KO5pm5W_PM7W29JJlvWFpP9eI97OLBIJUMLBdNf4,7873
+sphinxcontrib/test_reports/directives/test_report.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinxcontrib/test_reports/directives/test_results.py,sha256=DDwe3FbuRyyGWKn34CxugMcou6AZhp0KZvDH7thmyEg,3293
