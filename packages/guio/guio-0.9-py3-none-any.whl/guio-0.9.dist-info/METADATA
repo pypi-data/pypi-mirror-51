@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: guio
+Version: 0.9
+Summary: Guio - Curio-Tkinter Compatible Kernel
+Home-page: https://github.com/GeeTransit/guio
+Author: George Zhang
+Author-email: geetransit@example.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: curio
+
+Guio is a library offering a curio kernel with tkinter support.
+
+

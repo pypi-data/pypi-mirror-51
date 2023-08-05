@@ -1,0 +1,10 @@
+guio/__init__.py,sha256=JR-0bajRzLAwT6176r4R7q7062ONGXV841MgWmV6oAU,68
+guio/errors.py,sha256=nPj4l-s83Gb3Gz5Ytv24U6XIPy5WBbuDAeJ7N9aHeOo,522
+guio/event.py,sha256=D-T3zsjMWCjUUBertwI5azmaxPDNpZxBruAh9F8cvnQ,922
+guio/kernel.py,sha256=KpuzZcu6G1GPQoHUuvhoEeVYPjTPsOCvopYsxiAqT7A,29136
+guio/traps.py,sha256=WrvkFAZ_v3OqnHKels2Lzm9BpUN2zxKnEPKjeezoEJc,327
+guio-0.9.dist-info/LICENSE,sha256=uv7lMg3Sqm3SifAbH7iDlpzZHY7n4xbRk8SZnNxk3Vk,1067
+guio-0.9.dist-info/METADATA,sha256=_HgIogjcjlVUMn4xqIkvQiw9TMmjc-zgwo0sB5g0kQ4,365
+guio-0.9.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+guio-0.9.dist-info/top_level.txt,sha256=l6BXS3AsfnRZBw5ayZ1wnofYWs1cmYc5lwABVKWjeAU,5
+guio-0.9.dist-info/RECORD,,
