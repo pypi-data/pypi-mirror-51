@@ -1,0 +1,3 @@
+[console_scripts]
+py4ka = python4kyoani:main
+
