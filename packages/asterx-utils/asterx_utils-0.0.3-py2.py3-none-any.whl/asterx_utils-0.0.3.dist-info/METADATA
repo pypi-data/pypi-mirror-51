@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: asterx-utils
+Version: 0.0.3
+Summary: Utility functions
+Home-page: https://github.com/asterxlabs/asterx-utils
+Author: Paul Huang
+Author-email: oss@asterx.io
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: auth
+Requires-Dist: PyJWT (==1.7.1) ; extra == 'auth'
+Requires-Dist: cryptography (==2.6.1) ; extra == 'auth'
+Requires-Dist: requests (==2.21.0) ; extra == 'auth'
+
+
+# AsterX Utilities Library
+
