@@ -1,0 +1,12 @@
+csnake/__init__.py,sha256=p8b5z1OM2nwu3ku5m1Ij2a25fhbV9AZhgwJBGNLri_A,1707
+csnake/_version.py,sha256=RgaxplbXB2LxHpHy9sG00hwOnMJ55iuhV6GxeJ3xUEk,497
+csnake/cconstructs.py,sha256=KPIVzrDOikYNAF8UwTMkYxEawX7EI-4Z1TY2h-uLOTA,64300
+csnake/codewriter.py,sha256=F_VONAU-YqnkQjV13HqgXhHxKIxL4pAVktggazdtST0,28844
+csnake/codewriterlite.py,sha256=Z9xt_FCgYyQos1V7CvBQC2gXCvLGhaD-ZvLXhS23STY,10450
+csnake/pil_converter.py,sha256=49hANQ8j7-8nx3TJmXrTnJvUSq5ULRzz6szOmzW4tCA,4893
+csnake/utils.py,sha256=clHSbCro38UscSY1Z70tCDyJWudMWesTkBjLttbAFsg,3609
+csnake-0.3.0.dist-info/LICENSE.md,sha256=Qn77YRQv58YCRy1gJXhk3060VpFO4E8FZvWH8I8gw4U,1158
+csnake-0.3.0.dist-info/METADATA,sha256=lvkud_P3PBY_Hizxk8znitawKQ6vNu9QD868UixhxDE,4806
+csnake-0.3.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+csnake-0.3.0.dist-info/top_level.txt,sha256=IBpCC6cms_z1-KtNKMdukW5JRu-sEB4mmeF9vRFtt_8,7
+csnake-0.3.0.dist-info/RECORD,,
