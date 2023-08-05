@@ -1,0 +1,2 @@
+recursive-include brat_widget/static *.*
+include brat-widget.json

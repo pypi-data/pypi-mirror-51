@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: brat_widget
+Version: 0.2.5
+Summary: Jupiter Widget library for BRAT visualization and annotation functionality.
+Home-page: https://github.com/mammut-io/brat-widget
+Author: Edilmo Palencia
+Author-email: edilmo@mammut.io
+License: UNKNOWN
+Description: Jupiter Widget library for BRAT visualization and annotation functionality.
+Keywords: ipython,jupyter,widgets,brat,annotationNLP
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
