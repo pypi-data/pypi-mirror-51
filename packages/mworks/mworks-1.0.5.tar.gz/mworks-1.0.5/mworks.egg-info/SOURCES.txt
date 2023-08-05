@@ -1,0 +1,8 @@
+README.md
+setup.py
+mworks.egg-info/PKG-INFO
+mworks.egg-info/SOURCES.txt
+mworks.egg-info/dependency_links.txt
+mworks.egg-info/requires.txt
+mworks.egg-info/top_level.txt
+src/__init__.py
