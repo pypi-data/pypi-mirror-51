@@ -1,0 +1,4 @@
+flask
+pyyaml
+regex
+nlp-pie==0.2.2
