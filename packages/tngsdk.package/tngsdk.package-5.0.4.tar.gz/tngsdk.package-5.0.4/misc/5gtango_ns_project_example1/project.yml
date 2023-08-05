@@ -1,0 +1,23 @@
+descriptor_extension: yml
+files:
+- path: sources/vnfd/vnfd-sample.yml
+  tags:
+  - eu.5gtango
+  testing_tags:
+  - some.test.tag
+  - some.other.test.tag
+  type: application/vnd.5gtango.vnfd
+- path: sources/nsd/nsd-sample.yml
+  tags:
+  - eu.5gtango
+  type: application/vnd.5gtango.nsd
+  testing_tags:
+  - some.test.tag
+package:
+  description: Some description about this sample
+  maintainer: Name, Company, Contact
+  name: 5gtango-project-sample
+  vendor: eu.5gtango
+  version: '0.1'
+version: '0.5'
+uuid: 13905668-1c9d-4424-ac75-ec93c876ccd2

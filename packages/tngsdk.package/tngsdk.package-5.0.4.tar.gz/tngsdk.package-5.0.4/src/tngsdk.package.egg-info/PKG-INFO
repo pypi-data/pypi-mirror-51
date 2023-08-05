@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: tngsdk.package
+Version: 5.0.4
+Summary: UNKNOWN
+Home-page: https://github.com/sonata-nfv/tng-sdk-package
+Author: Manuel Peuster
+Author-email: manuel.peuster@uni-paderborn.de
+License: Apache License, Version 2.0
+Description: 
+        Component to pack/unpack 5GTANGO NS, VNF, and
+        test packages.
+        
+Platform: UNKNOWN

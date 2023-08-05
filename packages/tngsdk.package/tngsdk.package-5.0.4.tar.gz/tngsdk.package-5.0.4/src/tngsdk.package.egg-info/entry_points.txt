@@ -1,0 +1,5 @@
+[console_scripts]
+tng-package = tngsdk.package:main
+tng-pkg = tngsdk.package:main
+tng-sdk-package = tngsdk.package:main
+
