@@ -1,0 +1,14 @@
+[cedar.cli]
+auth = cedar.cli.auth:group_auth
+clean = cedar.cli.storage:clean
+config = cedar.cli.config:group_config
+console = cedar.cli.console:console
+convert = cedar.cli.convert:convert
+download = cedar.cli.storage:download
+gee = cedar.cli.gee:group_gee
+status = cedar.cli.status:group_status
+submit = cedar.cli.submit:submit
+
+[console_scripts]
+cedar = cedar.cli.main:main
+
