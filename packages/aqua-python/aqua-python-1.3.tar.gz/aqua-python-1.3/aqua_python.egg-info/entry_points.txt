@@ -1,0 +1,3 @@
+[console_scripts]
+aqua = aqua.aqua:main
+

@@ -1,0 +1,9 @@
+README.txt
+setup.py
+aqua/__init__.py
+aqua/aqua.py
+aqua_python.egg-info/PKG-INFO
+aqua_python.egg-info/SOURCES.txt
+aqua_python.egg-info/dependency_links.txt
+aqua_python.egg-info/entry_points.txt
+aqua_python.egg-info/top_level.txt
