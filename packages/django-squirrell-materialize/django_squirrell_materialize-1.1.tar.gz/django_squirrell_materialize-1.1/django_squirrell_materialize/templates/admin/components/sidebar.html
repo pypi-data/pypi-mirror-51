@@ -1,0 +1,37 @@
+{% load i18n static %}
+<ul id="slide-out" class="sidenav">
+  <li><div class="user-view pt-4">
+    <div class="background">
+      <img src="https://tecnovortex.com/wp-content/uploads/2019/04/wallpaper-engine.jpg">
+    </div>
+    <a href="#user"><img class="circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2LuT3lH29fcJzscrZo0W1opexkXNW826XvB4E1RIwNRbt3ToeuQ"></a>
+    <h5 href="#name"><span class="white-text">{% trans 'Recent actions' %}</span></h5>
+    <h6 href="#name"><span class="white-text">{% trans 'My actions' %}</span></h6>
+    {% load log %}
+      {% get_admin_log 10 as admin_log for_user user %}
+    {% if not admin_log %}
+      <p>{% trans 'None available' %}</p>
+      {% else %}
+  </div></li>
+    {% for entry in admin_log %}
+    <li class="{% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}{% if entry.is_deletion %}deletelink{% endif %}">
+      {% if entry.is_deletion or not entry.get_admin_url %}
+      {{ entry.object_repr }}
+      {% else %}
+      <a class="waves-effect" href="{{ entry.get_admin_url }}">{{ entry.object_repr }}</a>
+      {% endif %}
+      <br>
+      {% if entry.content_type %}
+      <span>{% filter capfirst %}{{ entry.content_type.name }}{% endfilter %}</span>
+      {% else %}
+      <span>{% trans 'Unknown content' %}</span>
+    {% endif %}
+    </li>
+    {% endfor %}
+
+    {% endif %}
+
+  <li><div class="divider"></div></li>
+  <h6><span class="dark-text">Otras pantallas</span></h6>
+  <li><a class="waves-effect" href="{% url 'admin:my_view' %}">Kiko</a></li>  
+</ul>
