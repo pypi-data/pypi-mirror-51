@@ -1,0 +1,6 @@
+include LICENSE CHANGELOG.md README.rst
+recursive-include automatic_links/static *.js *.css *.png *.eot *.svg *.ttf *.woff
+recursive-include automatic_links/templates *.html
+recursive-include automatic_links/locale *.mo
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
