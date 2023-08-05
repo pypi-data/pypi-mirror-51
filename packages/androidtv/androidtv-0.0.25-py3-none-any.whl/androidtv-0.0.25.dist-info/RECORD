@@ -1,0 +1,10 @@
+androidtv/__init__.py,sha256=-TX2pmG_c1H2UdwhFLIP5bXEkzbDfuv1huQot4GRIPA,2764
+androidtv/androidtv.py,sha256=X9cxZVH5JQgnLARNPw7q-I6VDqvdTVs59-M5VpbwM8A,12687
+androidtv/basetv.py,sha256=JwNL0JKfOSPwXC1PO7KpetZhcnnsw7bzlz0KGlukoes,46091
+androidtv/constants.py,sha256=6e_V3j0db34VwWHp8s55PiQqZIz15ApCcZVLlZPQ3Vw,7489
+androidtv/firetv.py,sha256=enf2lKk4j_jSs9HRzKEzCjlXXWTVi-YeCB28cDGUVXM,15988
+androidtv-0.0.25.dist-info/LICENSE,sha256=WXop4GI-k1xmt5xvwy404kcCYE4yMu1AxXodbjmcmAw,1077
+androidtv-0.0.25.dist-info/METADATA,sha256=Uhs8jrRNaT2jUnRT26_zHvpP6Wn4ZLjfBmluzNV-Jxc,574
+androidtv-0.0.25.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+androidtv-0.0.25.dist-info/top_level.txt,sha256=4p0s2-QNCjDXCO8sI1d99Q1SPsN5l9WJMZbTZ-zF9WQ,10
+androidtv-0.0.25.dist-info/RECORD,,
