@@ -1,0 +1,3 @@
+[console_scripts]
+uceasy=cli.uceasy_cli:uceasy
+
