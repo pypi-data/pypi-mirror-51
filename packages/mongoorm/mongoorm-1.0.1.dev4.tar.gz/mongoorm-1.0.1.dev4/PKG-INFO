@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mongoorm
+Version: 1.0.1.dev4
+Summary: A mongodb orm python3 project
+Home-page: https://github.com/ttm1234/mongoorm
+Author: ttm1234
+Author-email: UNKNOWN
+License: Anti 996
+Description: UNKNOWN
+Keywords: mongodb orm python python3
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
