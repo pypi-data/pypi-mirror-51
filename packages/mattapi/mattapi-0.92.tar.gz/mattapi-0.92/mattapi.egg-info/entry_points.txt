@@ -1,0 +1,6 @@
+[console_scripts]
+api = mattapi.scripts.some_test:my_test
+hi = mattapi.scripts.test:test
+iris = mattapi.scripts.__main__:main
+lite = mattapi.scripts.test:main
+
