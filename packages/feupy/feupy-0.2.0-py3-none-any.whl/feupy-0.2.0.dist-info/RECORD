@@ -1,0 +1,16 @@
+feupy/_Course.py,sha256=fpD_EhSuJPq4K6OiGouAdMg2vp8sELNr3XlRPaqVTGk,13359
+feupy/_Credentials.py,sha256=Ah0ftf_iLdCvsQOBLXMCo06oUwlvqSu4ildRUbNaw3c,6001
+feupy/_CurricularUnit.py,sha256=24YXt871oosEov1ia-0UN0phwt7bf5w1dBh3-conLwk,30068
+feupy/_Student.py,sha256=E07eIYNnD-dKfpETuVK7EyDHH8UNw7kVjbrfxMBn1Bw,10901
+feupy/_Teacher.py,sha256=wnHtkDL3KlpgPUwlMGsSo1JY6JFosdOdbKN4wLeSW4w,7639
+feupy/_User.py,sha256=FwUJcYyALQuuDs-WQ82gdt2qH6TAGZpvbSDRvYM6wqc,7556
+feupy/__init__.py,sha256=hu40qodfLHKbzGNQfse9pZx2Kp-PBVD6KqAYihaGupA,455
+feupy/_internal_utils.py,sha256=6iQALN_T1o_EZeG0MoPTA4M0O1ofDVPJIdrK4IpN_q8,6649
+feupy/cache.py,sha256=qzrrBRAneGf8wNVUVzTDCponbdwXWbOuzw0ez8fDBRI,9939
+feupy/exams.py,sha256=2m0qFv8rEyATAwXvlqpuaByH20FF5GmTm6Bg_8U1ok4,2931
+feupy/timetable.py,sha256=Q9ula2bZG8pVF_3uM4iw1zZVrRGctjyZYp8bLm2tQMk,9903
+feupy-0.2.0.dist-info/LICENSE,sha256=qXdw0Wh4QrObEE4cjBvIOwMtAfjN33UGlnglGfosXlo,1060
+feupy-0.2.0.dist-info/METADATA,sha256=UW-Ye_k901hOSrDUW9WmZfJ80efqN_td64W1bE1SJYQ,2330
+feupy-0.2.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+feupy-0.2.0.dist-info/top_level.txt,sha256=WNKgqgboYUAILWxf2DtpU1gf3xD-vts3FyqZnfD5cnQ,6
+feupy-0.2.0.dist-info/RECORD,,
