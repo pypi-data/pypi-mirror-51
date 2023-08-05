@@ -1,0 +1,8 @@
+README.md
+setup.py
+clickhouse2pandas/__init__.py
+clickhouse2pandas.egg-info/PKG-INFO
+clickhouse2pandas.egg-info/SOURCES.txt
+clickhouse2pandas.egg-info/dependency_links.txt
+clickhouse2pandas.egg-info/requires.txt
+clickhouse2pandas.egg-info/top_level.txt
