@@ -1,0 +1,7 @@
+README.md
+setup.py
+rfdist.egg-info/PKG-INFO
+rfdist.egg-info/SOURCES.txt
+rfdist.egg-info/dependency_links.txt
+rfdist.egg-info/requires.txt
+rfdist.egg-info/top_level.txt
