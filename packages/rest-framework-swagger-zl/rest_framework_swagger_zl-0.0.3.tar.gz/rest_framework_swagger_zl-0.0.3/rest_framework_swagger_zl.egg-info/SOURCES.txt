@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+rest_framework_swagger_zl/__init__.py
+rest_framework_swagger_zl/renderers.py
+rest_framework_swagger_zl/settings.py
+rest_framework_swagger_zl/views.py
+rest_framework_swagger_zl.egg-info/PKG-INFO
+rest_framework_swagger_zl.egg-info/SOURCES.txt
+rest_framework_swagger_zl.egg-info/dependency_links.txt
+rest_framework_swagger_zl.egg-info/top_level.txt
