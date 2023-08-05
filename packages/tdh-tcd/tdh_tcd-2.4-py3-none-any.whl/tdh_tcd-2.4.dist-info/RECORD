@@ -1,0 +1,12 @@
+tcd/__init__.py,sha256=lpOoT4woZ0hn0DyoJbCvorwycfsf6ncoEOYCRIN0Bt8,1268
+tcd/__main__.py,sha256=FHDPSsWdG00mhYvioH6leYVWNvknEf1SpFz3luKF4C0,105
+tcd/example.settings.json,sha256=x6SEeGNPWapl1Uq6epwaxItoHbhK82wj7OICYlp1OQ0,1056
+tcd/settings.py,sha256=qkDCONCLqDF857bIKXvG6yHdw2BhN8Xpm3_F9XCuo7A,7652
+tcd/subtitles.py,sha256=lUZrauRf61ZhKl1vx9LnE4Y0PrYKplGsWavhKMrBY20,4173
+tcd/twitch.py,sha256=nB4sFMRhytLgq3lvJFppquPfdwCy_Jcwj2ESeZgdvzk,4126
+tdh_tcd-2.4.dist-info/LICENSE,sha256=jp9SljYm_dPqFEApbFVghM77CqM5lvN47Pvv1z_0oq8,1105
+tdh_tcd-2.4.dist-info/METADATA,sha256=Jp3ZZacQiMumDIl-YSfbO7xNmZ8mZLo-EQL7ZHUul9s,3854
+tdh_tcd-2.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tdh_tcd-2.4.dist-info/entry_points.txt,sha256=mpt5sEBi20uIB0D9OuWeCyX7fC24uXLES7Jl3_sSBXI,44
+tdh_tcd-2.4.dist-info/top_level.txt,sha256=HF0kJO8nLMAOZIROY5suwglVvTWTXhkycR2TjicOJSA,4
+tdh_tcd-2.4.dist-info/RECORD,,
