@@ -1,0 +1,16 @@
+pyRofex/__init__.py,sha256=16cbSP7PrecPo-6xVMqSroUUfXSe3IiauMaF3U1hKUk,1471
+pyRofex/service.py,sha256=95L5ml78vkY7wgSMS2mQ8BS-EhW2-ekdI7VTt1kQV0w,29605
+pyRofex/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyRofex/clients/rest_rfx.py,sha256=G8bTUBvrVC8VYMzFs0uon3hM3MM7hSdyKQ1Xt3eNtt8,12221
+pyRofex/clients/websocket_rfx.py,sha256=nHi7Y690w77TlZXXtotInEX3l0lx4xuaWqWwq0Q13tE,10012
+pyRofex/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyRofex/components/enums.py,sha256=cRk0Ru1heLHtMHPrv7QGptaHN6wTb3k4B45rwYEhrbE,2299
+pyRofex/components/exceptions.py,sha256=NHC7c1aDZOwCEgFZjO9CM1OcO2awW8eGH_v6x8SRE2o,312
+pyRofex/components/globals.py,sha256=suIa0HI9qt4z5KEifgdaSUA2ydg7Y1tDQnkG04aYJvk,989
+pyRofex/components/messages.py,sha256=LyC1rqtTOTDM3f_547dYLlNb82W5PNJCmIkm6W8DdVw,593
+pyRofex/components/urls.py,sha256=jc6HZ1h_ruGrxnqXyWbGAGshhS5jwPx2JCDJHyEyvM4,1090
+pyRofex-0.2.0rc1.dist-info/LICENSE,sha256=ejblyi7qchOZ9RHBeTL4hAISw3N1FQFSxsoSN0LmFgo,1067
+pyRofex-0.2.0rc1.dist-info/METADATA,sha256=EOokWUAE1PV1i7TWbYjc9aQbuTaGU0y3SWaios5z_kc,10272
+pyRofex-0.2.0rc1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyRofex-0.2.0rc1.dist-info/top_level.txt,sha256=mOeyfvt1H-VRPYjUMFdmP1IF5-uZpo5fAQ7tyZ1hvaw,8
+pyRofex-0.2.0rc1.dist-info/RECORD,,
