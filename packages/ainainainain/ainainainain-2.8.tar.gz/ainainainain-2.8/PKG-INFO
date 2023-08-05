@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: ainainainain
+Version: 2.8
+Summary: CLI of ainainainain a Python script
+Home-page: https://bitbucket.org/comcomai/ain-worker
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3
