@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: kazam
+Version: 1.5.5
+Summary: A screencasting program created with design in mind.
+Home-page: https://github.com/henrywoo/kazam-screen-recorder
+Author: David Klasinc, Henry Fuheng Wu
+Author-email: bigwhale@lubica.net, i@quant365.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: screencast screenshot capture audio sound video recorder kazam
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Screen Capture
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Classifier: Topic :: Multimedia :: Video :: Capture
