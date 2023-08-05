@@ -1,0 +1,11 @@
+igcoccebot/__init__.py,sha256=8C6Dim-BpuMQeSk3hw6lb9R_IF32tGWImQ1-8BwBSKE,156
+igcoccebot/coccebot.py,sha256=789WZcbeTvVKh2CCmhDceCYZdYDm6LVPpPaItFQHTqM,27963
+igcoccebot/data.py,sha256=pWnu8bzSJUdhQz1J27-AddQH5ZellP2iqBd1P1C-6b4,62771
+igcoccebot/navigation.py,sha256=trD9P3IotQOtClKP7bRALTa9dz0hRyGkw2D3D1wIeTg,32717
+igcoccebot/tools.py,sha256=vzQgMR1d4lR3g052mOml29LeMrGFGhD2_GoFFK03ZJs,5389
+igcoccebot/yolo.py,sha256=-A37fPyzGtYtJC0NEzuGsghgYstOuvxkEJS-bdEykMA,5922
+igcoccebot-0.2.4.dist-info/LICENSE,sha256=ZZ-WeGfOkE6LQMn3GrDft_5W-IG8jio0l9pDtrXDoq8,1071
+igcoccebot-0.2.4.dist-info/METADATA,sha256=73sSwkqgPyMep6zswgXT4RDoZgDzKydHzzO3gmL7Fcs,1514
+igcoccebot-0.2.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+igcoccebot-0.2.4.dist-info/top_level.txt,sha256=b6rj1994dX7Rz2bC4Hb4Duyqmo_4Q3tlkv7fpkMgRw8,11
+igcoccebot-0.2.4.dist-info/RECORD,,
