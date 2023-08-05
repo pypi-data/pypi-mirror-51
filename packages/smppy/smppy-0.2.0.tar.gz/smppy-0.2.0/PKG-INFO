@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: smppy
+Version: 0.2.0
+Summary: Build SMPP server apps in Python3
+Home-page: UNKNOWN
+License: MIT
+Project-URL: Source, https://github.com
+Description: UNKNOWN
+Keywords: smpp server
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
