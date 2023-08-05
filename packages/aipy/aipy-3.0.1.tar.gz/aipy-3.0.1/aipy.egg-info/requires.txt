@@ -1,0 +1,6 @@
+astropy>=3.0
+healpy>=1.11
+matplotlib
+numpy>=1.2
+ephem>=3.7.3.2
+scipy>=0.19
