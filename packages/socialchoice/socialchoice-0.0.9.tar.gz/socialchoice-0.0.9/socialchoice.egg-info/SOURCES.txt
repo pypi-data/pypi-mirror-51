@@ -1,0 +1,17 @@
+README.md
+socialchoice/__init__.py
+socialchoice/ballot.py
+socialchoice/election.py
+socialchoice/ranking_similarity.py
+socialchoice/setup.py
+socialchoice/util.py
+socialchoice.egg-info/PKG-INFO
+socialchoice.egg-info/SOURCES.txt
+socialchoice.egg-info/dependency_links.txt
+socialchoice.egg-info/requires.txt
+socialchoice.egg-info/top_level.txt
+test/test_election.py
+test/test_enabling_ordering_based_methods.py
+test/test_incompleteness_resolver_factory.py
+test/test_intransitivity_resolver_factory.py
+test/test_utils.py
