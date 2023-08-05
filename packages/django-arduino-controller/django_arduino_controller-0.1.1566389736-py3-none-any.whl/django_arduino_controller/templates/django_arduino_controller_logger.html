@@ -1,0 +1,96 @@
+{% extends 'plug_in_django_basic.html' %}
+{% load static %}
+{% load sekizai_tags %}
+{% block contend %}
+    <div class="row">
+        <div class="col-md-12" style="height: 800px;">
+        {% include "logger_frame.html" %}
+        </div>
+    </div>
+    <button id="cleardatabutton">clear</button>
+    <button id="downlaod_button">download</button>
+{% endblock %}
+
+{% block javascript%}
+    {% addtoblock "jss" %}
+        <script src="{% static 'django_arduino_controller/json_websocket.js'%}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js" integrity="sha256-xKeoJ50pzbUGkpQxDYHD7o7hxe0LaOGeguUidbq6vis=" crossorigin="anonymous"></script>
+
+        <script>
+            var logger = console;
+            var $portList= $('#portList');
+            var $boardList= $('#boardList');
+            var porlist=[];
+
+
+
+
+            function set_serializable_data(data) {
+                chart.data.labels=[];
+                chart.data.datasets=[];
+                for(let key in data.data){
+                    chart.data.labels.push(key);
+                    let datapoins = [];
+                    for(let x in data.data[key]){
+                        datapoins.push({x:x,y:data.data[key][x]});
+                    }
+                    chart.data.datasets.push({data:datapoins,label: key,fill: false,showLine: true,pointRadius: 0});
+                }
+                chart.update();
+            }
+
+            port_listener_ws.add_cmd_funcion("get_serializable_data",set_serializable_data);
+            port_listener_ws.add_on_connect_function(function () {
+                port_listener_ws.cmd_message("get_serializable_data",{})
+            });
+
+            function clear_data() {
+                console.log("cleat");
+                port_listener_ws.cmd_message("clear_data",{});
+                setTimeout(function() {
+                    port_listener_ws.cmd_message("get_serializable_data",{});
+                }, 500);
+
+            }
+
+            function to_csv() {
+                let max_size=0;
+                for(let i=0;i<chart.data.datasets.length;i++){
+                    max_size = Math.max(max_size,chart.data.datasets[i].data.length);
+                }
+                let s="";
+                for(let i=0;i<chart.data.datasets.length;i++){
+                    s=s+chart.data.datasets[i].label+"_x\t"+chart.data.datasets[i].label+"_y\t"
+                }
+                s=s+"\n";
+                for(let j=0;j<max_size;j++){
+                    for(let i=0;i<chart.data.datasets.length;i++){
+                        if(chart.data.datasets[i].data.length>=j){
+                            s=s+chart.data.datasets[i].data[j].x+"\t"+chart.data.datasets[i].data[j].y+"\t";
+                        }else{
+                            s=s+"\t\t";
+                        }
+                    }
+                    s=s+"\n";
+                }
+                return s
+            }
+
+            function downlaod_csv(){
+                var a = window.document.createElement('a');
+                a.href = window.URL.createObjectURL(new Blob([to_csv()], {type: 'text/csv'}));
+                a.download = 'data.csv';
+
+                document.body.appendChild(a);
+                a.click();
+
+                document.body.removeChild(a);
+
+            }
+            $('#cleardatabutton').click(clear_data);
+            $('#downlaod_button').click(downlaod_csv)
+
+
+        </script>
+    {% endaddtoblock %}
+{% endblock %}
