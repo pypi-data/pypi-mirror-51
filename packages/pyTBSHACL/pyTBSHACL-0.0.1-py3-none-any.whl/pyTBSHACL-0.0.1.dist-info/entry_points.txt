@@ -1,0 +1,3 @@
+[console_scripts]
+shacl = tbshacl.__main__:main
+
