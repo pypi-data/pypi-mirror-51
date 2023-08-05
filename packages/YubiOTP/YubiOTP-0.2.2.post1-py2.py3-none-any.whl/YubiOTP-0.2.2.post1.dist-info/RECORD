@@ -1,0 +1,13 @@
+YubiOTP-0.2.2.post1.data/scripts/yubiclient,sha256=844EMgQNxgyx75nyTV6okSZfbzoff7gmqPSVa4H9jLI,3311
+YubiOTP-0.2.2.post1.data/scripts/yubikey,sha256=hKTf9ky0UXe0LUuAcPEYOuErxqJYs__UsZ8Jv_TTVYQ,10784
+yubiotp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yubiotp/client.py,sha256=oL5YJsfTNESdSGn0-Xlcaz9DKHtX8QmhNXUbQevvvyA,10395
+yubiotp/crc.py,sha256=2eMwD_C07BomWW2olgMpYsswlvmb18i6AdETyv3ByLI,950
+yubiotp/modhex.py,sha256=w1SiAY_lzxLkN7cOA0i2Ta89p4S8HbNcb9o4Mf9ZO2c,2844
+yubiotp/otp.py,sha256=bi5bFxUeqkikgMPPtX-7LMgRP7XcB-xx2vZADK8_TS0,7059
+yubiotp/test.py,sha256=XT2raiIH-5SWe5Jcl-SrCx6Pxd-kBOEXhqbIbR_t0F4,315
+YubiOTP-0.2.2.post1.dist-info/LICENSE,sha256=XIaVntRjig2E50e_ZuaHAZfBExD8cQ2dI4hFnLBAOW0,1297
+YubiOTP-0.2.2.post1.dist-info/METADATA,sha256=i7oWPqcrCJemijyhzdc_yB3cfJA5WhqZQ-T_UTHyPbU,1935
+YubiOTP-0.2.2.post1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+YubiOTP-0.2.2.post1.dist-info/top_level.txt,sha256=08jvgDHGawkYtEk3ncBRjX7QSuXAGuu-rztWkAf0640,8
+YubiOTP-0.2.2.post1.dist-info/RECORD,,
