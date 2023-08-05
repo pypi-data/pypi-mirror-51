@@ -1,0 +1,5 @@
+recursive-include lantern/extensions/hideinput/templates/ *
+recursive-include lantern/extensions/publish/templates/ *
+prune tests/
+prune examples/
+include requirements.txt
