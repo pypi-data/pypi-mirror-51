@@ -1,0 +1,12 @@
+photoimport/__init__.py,sha256=IS8AEb2TL7uNHhA_1QxBal0InP8RLS8CdTOu1916xqQ,349
+photoimport/__main__.py,sha256=nCazwPeyZHGI2lRdySSytBZT_4gz1MRnBdxvQnm3l7c,84
+photoimport/_version.py,sha256=LEwYoykKOU6HxKH6_Hb4iokXKJttb3up0quaAqAY9GI,497
+photoimport/command.py,sha256=303k1PPJguYQyCGGiD_2-b_UvGAQLAkVF18F-FONiAk,1197
+photoimport/folders.py,sha256=Z5xamo1LTB96yCPOJ4RukM7XHPZ9KQcVVhr0-GqegzU,2660
+photoimport/photos.py,sha256=QZyTYRV8rHkCy54MTi01D4E3bDlZo6nxOzHS26of_Ao,605
+photo_import-0.2.3.dist-info/LICENSE,sha256=LavNZU70tJ03hhMsfKwBPm78K78eRgeRvMh63bi23_A,1071
+photo_import-0.2.3.dist-info/METADATA,sha256=-QENMABa3iZya90026W7irCmQqXcBEdZ42ktwY7g-WY,3697
+photo_import-0.2.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+photo_import-0.2.3.dist-info/entry_points.txt,sha256=88P1ZtULWQ0ajpyYX-mYmoAESOmDangFLBfwKZKXVFI,59
+photo_import-0.2.3.dist-info/top_level.txt,sha256=QD6wWkb6owKxKOBOzsG9GxFU28l09b8jghqaNVi1vEk,12
+photo_import-0.2.3.dist-info/RECORD,,
