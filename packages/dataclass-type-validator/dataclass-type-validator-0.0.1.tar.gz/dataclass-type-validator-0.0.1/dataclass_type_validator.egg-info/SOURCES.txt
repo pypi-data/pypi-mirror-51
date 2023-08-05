@@ -1,0 +1,9 @@
+README.md
+setup.py
+dataclass_type_validator/__init__.py
+dataclass_type_validator.egg-info/PKG-INFO
+dataclass_type_validator.egg-info/SOURCES.txt
+dataclass_type_validator.egg-info/dependency_links.txt
+dataclass_type_validator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_validator.py
