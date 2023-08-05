@@ -1,0 +1,13 @@
+kovit_citers.cp36-win_amd64.pyd,sha256=oRUrzt_u7iboIOLQnIKAi_HdNFQZBLOPvnvOJ2PT2Vc,17920
+kovit_cjson.cp36-win_amd64.pyd,sha256=LDNpbinjQ-6FhAs_KygsS5WFqsLGNdhfeEIDkeq_1Ag,150528
+kovit/__init__.py,sha256=EjW20iN4wf76d6lAaJ4cKvT1UCU5fDuxlUiCTwhaFzc,1751
+kovit/bag.py,sha256=0FrUGaPw2LNv0SEUZ3snUjLOKCNfugUbdDSTLFya7ZE,7951
+kovit/chain.py,sha256=Kxz07I0kgf7-yL2kZkBjxBnmeL_nkgYaHdO2cZf6FOI,12589
+kovit/iters.py,sha256=MeVN9ptfKzduN6r8SVFPnP1FeVdIZ3vcqNsNzLhxaMw,1703
+kovit/json.py,sha256=qDlJeVBSKhpPOkiUt22KrecVb8FJXS6OCIKIh503Hj8,1780
+kovit/piters.py,sha256=zZJd27fcyj1g41S859uIaE6ud_Lz4E1SInA3ABzjtD4,2502
+kovit/pjson.py,sha256=RQ8T8Udzp3-0kBKzK3LRGmbTNd5DsIZnBTowi--w-hE,8115
+kovit-0.1.19.4a1.dist-info/METADATA,sha256=UtzxsN9q6s3zctRrDjnlBziT8QQvJjlK__FKPivRpl0,1593
+kovit-0.1.19.4a1.dist-info/WHEEL,sha256=uQaeujkjkt7SlmOZGXO6onhwBPrzw2WTI2otbCZzdNI,106
+kovit-0.1.19.4a1.dist-info/top_level.txt,sha256=PDxTQMZ2--VxjKeMxdCLSLmd4fYJUCgAvJaEU8rZC-s,31
+kovit-0.1.19.4a1.dist-info/RECORD,,
