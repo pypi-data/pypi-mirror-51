@@ -1,0 +1,9 @@
+setuptools
+xmltodict
+requests
+cryptography
+six
+bottle
+
+[crypto]
+cryptography
