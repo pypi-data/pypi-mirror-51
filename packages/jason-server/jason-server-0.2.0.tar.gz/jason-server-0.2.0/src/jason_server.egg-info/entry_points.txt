@@ -1,0 +1,3 @@
+[console_scripts]
+jason-server = jason_server.cli:cli
+
