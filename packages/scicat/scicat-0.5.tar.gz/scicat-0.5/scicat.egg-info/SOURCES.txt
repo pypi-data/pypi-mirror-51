@@ -1,0 +1,9 @@
+README.md
+setup.py
+scicat/__init__.py
+scicat/search.py
+scicat.egg-info/PKG-INFO
+scicat.egg-info/SOURCES.txt
+scicat.egg-info/dependency_links.txt
+scicat.egg-info/requires.txt
+scicat.egg-info/top_level.txt
