@@ -1,0 +1,9 @@
+README.md
+setup.py
+PrettyConfig/__init__.py
+PrettyConfig/fork.py
+PrettyConfig/hyperparameters.py
+PrettyConfig.egg-info/PKG-INFO
+PrettyConfig.egg-info/SOURCES.txt
+PrettyConfig.egg-info/dependency_links.txt
+PrettyConfig.egg-info/top_level.txt
