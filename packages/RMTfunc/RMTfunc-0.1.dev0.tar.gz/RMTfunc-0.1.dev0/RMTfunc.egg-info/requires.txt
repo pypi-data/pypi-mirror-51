@@ -1,0 +1,10 @@
+colorama
+EMD-signal
+empyricalRMT
+multiprocess
+nibabel
+nilearn
+numba
+numpy
+progressbar
+scipy

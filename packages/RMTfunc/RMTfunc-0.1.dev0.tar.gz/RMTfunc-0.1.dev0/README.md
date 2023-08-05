@@ -1,0 +1,1 @@
+Tools for applying classical RMT to functional MRI data.

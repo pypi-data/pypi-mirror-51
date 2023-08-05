@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: RMTfunc
+Version: 0.1.dev0
+Summary: Eigenvalue unfolding and spectral observable computation
+Home-page: https://github.com/stfxecutables/empyricalRMT
+Author: Derek Berger
+Author-email: dmberger.dev@gmail.com
+Maintainer: Derek Berger
+License: MIT
+Description: Tools for applying classical RMT to functional MRI data.
+Keywords: RMT RandomMatrixTheory spectral observabales eigenvalues unfolding
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3
