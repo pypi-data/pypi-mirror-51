@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: rest-framework-swagger-zl
+Version: 0.0.1
+Summary: generate api doc html
+Home-page: https://github.com/zhangliu520/rest_framework_swagger_zl.git
+Author: mrzl
+Author-email: 752477168@qq.com
+License: MIT Licence
+Description: generate api doc html
+Keywords: pip,rest_framework_swagger_zl
+Platform: any
