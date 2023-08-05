@@ -1,0 +1,12 @@
+sqlizer/__init__.py,sha256=45dGmUXxTtRxgKGLS9RfVPYWYPfmuOjbiYTZONHp2-c,50
+sqlizer/connector.py,sha256=3YqFzPWUcfWVURbk_afBHblP-M4oRjzsb3kzygEDfpI,2852
+sqlizer/functions.py,sha256=McDNtjPUImeGBYAbqhvMnFxrWm1r0VV44Vs-ByM2kBU,383
+sqlizer/processor.py,sha256=Q0O8WKXRxRCEjbP896OAeTgVBCJCjr2MrXYOk-50zXE,4845
+sqlizer/sqlizer.py,sha256=Q_oFRcIMsRWvATmpi_ClUc8cbo3A5-Y6kzAu9l1ONBA,1728
+sqlizer/workflow.schema.json,sha256=Rv4-QOp6d3e1LB8Q9xkXeH98CfDqTzUhh9nzbjGUUNI,522
+sqlizer-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sqlizer-0.0.1.dist-info/METADATA,sha256=xc_WLp_0TdDQRMlv_Llj7uxpf3jn8853GnjQNzPEQ6s,3035
+sqlizer-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sqlizer-0.0.1.dist-info/entry_points.txt,sha256=0HKy-Pq56Rbt48OkZvs61YuStupzljUEsMtolTqoKI0,50
+sqlizer-0.0.1.dist-info/top_level.txt,sha256=EuJuwxGdCreD8LGdZubhU6Lf2FSGhAKbHtohEy4zbas,8
+sqlizer-0.0.1.dist-info/RECORD,,

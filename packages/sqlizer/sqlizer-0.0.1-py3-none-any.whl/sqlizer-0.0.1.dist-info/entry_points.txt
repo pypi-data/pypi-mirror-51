@@ -1,0 +1,3 @@
+[console_scripts]
+sqlizer = sqlizer.sqlizer:main
+

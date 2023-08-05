@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: sqlizer
+Version: 0.0.1
+Summary: Orchestration service for SQL only ETL workflows.
+Home-page: https://github.com/thingsplode/sqlizer
+Author: thingsplode
+Author-email: tamas.csaba@gmail.com
+License: Apache 2.0
+Keywords: microservice,ETL,SQL,ETL Workflow,ETL Pipeline,DWH,data warehouse,airflow,luigi,orchestration
+Platform: any
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2
+Requires-Dist: pyyaml
+Requires-Dist: enum34
+Requires-Dist: simplejson
+Requires-Dist: boto3
+Requires-Dist: tabulate
+Requires-Dist: jinja2
+
+## Why SQLizer
+In many cases you can use SQL only for ETL (extract/transform/load) pipelines relying on CTAS (create table as) queries
+and the builting import/export futures of your RDBMS or data warehouse software (eg. Redshift).
+
+## What is SQLizer
+A simple orchestration service for SQL-only ETL workflows.
+This service was born out of a need to orchestrate a complete data processing pipeline atop of AWS Redshift.
+
+### Roadmap
+[x] PostgreSQL/Resdhift support
+[x] Execiting multiple queries from a folder
+[ ] Executing a named query
+[ ] Executing an inline query
+[ ] MySQL support/Aurora support
+[ ] MongoDB support
+[ ] parallel execution of queries in one stage
+[ ] validation of the wrokflow 
+[ ] DAG for stages
+[ ] multi-connection support
+
+## Developing SQLizer
+
+### Setting up the development environment
+
+```bash
+python3 -m venv ./.venv
+echo ".venv/" >> .gitignore
+source .venv/bin/activate
+pip install -e .
+```
+
+Optionally install development/test dependencies:
+```bash
+pip install pytest pytest-runner codecov pytest-cov recommonmark
+```
+
+Prepare the docker image (and test it):
+```bash
+docker build -t sqlizer .
+docker run --rm  --name sqlizer-runner -e "job_id=sqlizer" -e "bucket=sss" sqlizer
+```
+
+Prepare test data:
+```bash
+aws s3 mb s3://sqlizer-workflows --profile your-profile
+aws s3 sync ~/Code/sqlizer/test-data/ s3://sqlizer-workflows --profile your-profile
+```
+
+Add parameters to the Systems Manager's Parameter Store:
+```bash
+aws ssm put-parameter --overwrite --name sqlizer.default.auth --value user:password --type SecureString --description "authentication details for data-source" --profile your-profile
+aws ssm put-parameter --overwrite --name sqlizer.default.host --value "some-cluster.redshift.amazonaws.com:5439/database" --type SecureString --description "url access for default data source" --profile your-profile
+
+```
+
+Run it locally:
+```bash
+export AWS_PROFILE=your-profile
+#sqlizer --connection-url="root:some_secret_pass@some-cluster.redshift.amazonaws.com:5439/database" --bucket="s3://sqlizer-workflows"
+sqlizer
+```
+
+Prepare the distribution: 
+```bash
+pip install -U setuptools wheel
+python setup.py build -vf && python setup.py bdist_wheel
+pip install -U twine
+```
+
+
