@@ -1,0 +1,7 @@
+cffi>=1.0.0
+numpy<1.17,>=1.7.1
+pathlib2
+
+[full]
+pillow<7
+pyglet<1.5
