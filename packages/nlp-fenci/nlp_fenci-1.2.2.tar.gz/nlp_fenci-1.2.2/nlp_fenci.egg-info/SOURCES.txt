@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/__init__.py
+bin/baidu_fenci
+bin/sougou_fenci
+fenci/__init__.py
+nlp_fenci.egg-info/PKG-INFO
+nlp_fenci.egg-info/SOURCES.txt
+nlp_fenci.egg-info/dependency_links.txt
+nlp_fenci.egg-info/requires.txt
+nlp_fenci.egg-info/top_level.txt
