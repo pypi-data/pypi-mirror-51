@@ -1,0 +1,3 @@
+[console_scripts]
+tbvcfreport = tbvcfreport.tbvcfreport:cli
+

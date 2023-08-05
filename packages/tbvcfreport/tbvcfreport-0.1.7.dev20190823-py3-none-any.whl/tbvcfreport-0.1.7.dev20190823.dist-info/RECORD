@@ -1,0 +1,16 @@
+tbvcfreport/__init__.py,sha256=XNYzg5CbNkhE8iVWfk6ZYVUWOGPc5E0wzf_joL5XAsQ,22
+tbvcfreport/dbconn.py,sha256=88l_oH8tCbH9emo90bW7iKtJI9QWp0wwnEWDH5AshQE,1667
+tbvcfreport/report.py,sha256=yCO25egobpwJkIFfnXGIf19jfZkyNJ4l29zjfwGDItg,4396
+tbvcfreport/tbprofiler.py,sha256=mZINTTz1SUtBbaJIfSbddXc4uMSOy9oxYDgTRgG1h5M,3231
+tbvcfreport/tbvcfreport.py,sha256=9yYmdAhWCMw4ydybbArP2cfjPL2p1_as25m_l7XYmBE,3305
+tbvcfreport/vcfproc.py,sha256=AHeHk5mKht5srt-DSEEZE112HvtcGdHE1lvDKR6qxe8,4078
+tbvcfreport/templates/base.html,sha256=u9IrRmq2pGi_89G1jfptbBE43mOWnyHx8DHNkKAFLTg,5405
+tbvcfreport/templates/drug_resistance_report.html,sha256=HDOnnhhYXPXyaFNAG0MFuTyTYrjbEXII4aPZ-n0CSkc,1632
+tbvcfreport/templates/report-layout.html,sha256=WSz9x9AXAjmCmw5-kUFTDr-cwGxrRUyS8rX7zc3ixxk,4532
+tbvcfreport-0.1.7.dev20190823.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tbvcfreport-0.1.7.dev20190823.dist-info/METADATA,sha256=Q22NUo9uIKhKEIePejhJ3e5w3rzBW_k9fa5n5vEJDKg,3463
+tbvcfreport-0.1.7.dev20190823.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tbvcfreport-0.1.7.dev20190823.dist-info/dependency_links.txt,sha256=KdozLWhYRlKoAuUoa5v6XLYgd3fkYniDALV_pw3Z8mE,96
+tbvcfreport-0.1.7.dev20190823.dist-info/entry_points.txt,sha256=Vdhf7S-K4ZOM1fUwE_VcJ0d2YKVeM7xhxv-ydMmGrjs,61
+tbvcfreport-0.1.7.dev20190823.dist-info/top_level.txt,sha256=ACT7ZoCr7OfS6vmWE1A14SqqVpPL5z2Ha5pDAKmEvv8,12
+tbvcfreport-0.1.7.dev20190823.dist-info/RECORD,,
