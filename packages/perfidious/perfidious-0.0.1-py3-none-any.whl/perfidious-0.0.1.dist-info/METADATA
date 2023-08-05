@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: perfidious
+Version: 0.0.1
+Summary: Python3 library for PE parsing, editing and exploitation.
+Home-page: https://github.com/0xbuilder/perfidious
+Author: Shreyans Devendra Doshi
+Author-email: 0xbuilder@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+
+UNKNOWN
+
+
