@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: scicat
+Version: 0.4
+Summary: a scicat search package
+Home-page: https://github.com/garethcmurphy/scicat_pkg
+Author: Gareth Murphy
+Author-email: garethcmurphy@gmail.com
+License: UNKNOWN
+Description: # Scicat Search
+        
+        This package queries data at scicat.esss.se
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
