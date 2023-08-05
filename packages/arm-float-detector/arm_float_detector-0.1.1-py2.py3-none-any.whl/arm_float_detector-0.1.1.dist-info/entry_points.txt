@@ -1,0 +1,3 @@
+[console_scripts]
+arm-float-detector = arm_float_detector.arm_float_detector:main
+
