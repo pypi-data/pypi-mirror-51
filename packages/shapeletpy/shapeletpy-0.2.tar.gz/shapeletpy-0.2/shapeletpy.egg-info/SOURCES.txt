@@ -1,0 +1,8 @@
+README.md
+setup.py
+shapeletpy.egg-info/PKG-INFO
+shapeletpy.egg-info/SOURCES.txt
+shapeletpy.egg-info/dependency_links.txt
+shapeletpy.egg-info/not-zip-safe
+shapeletpy.egg-info/requires.txt
+shapeletpy.egg-info/top_level.txt
