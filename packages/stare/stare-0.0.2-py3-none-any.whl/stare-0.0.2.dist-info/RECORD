@@ -1,0 +1,15 @@
+stare/__init__.py,sha256=_EedTk6Xlo6Zd4NHqWBs0FIzu8BN92IdSgIQjDKBmas,201
+stare/commandline.py,sha256=E4KcU_7cm-kAHDjIP0YQLNneMJiC3g5ignTrrIfwRXc,1715
+stare/core.py,sha256=CZO0-aLuUYb3QpJ4UQzVmUU9chS6wWqzm_RkICWdtGM,8145
+stare/exceptions.py,sha256=ByL7Wg8OwziqyYnGgoQQaL2kAsbx3xlqGisJX2ANLlk,4060
+stare/settings.py,sha256=nXQIoL13zGxWjuZaPjekiJst2T5TfQF2XPzn_vFiYyk,680
+stare/utilities.py,sha256=OKW5lV23A1QpEIvstztGMk9puEaUh9rU1XH-cNXjzXQ,2514
+stare/version.py,sha256=vw5are86Dgrtv4zAXA-_j1_6dfVyHNRbNRh_dceocAw,170
+stare/models/__init__.py,sha256=1MDtYNtiN3s5gdJAg8jhESc5QhJvdOeFvtRZcNBIxSw,47
+stare/models/analysis.py,sha256=ogoJINYZ68-1sCAuTwVlrJmjcG_VxgrmYJAY6NpMmdo,1825
+stare-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+stare-0.0.2.dist-info/METADATA,sha256=eaCPfLiSdlv8yIruInIXKiyi3zP1KLmxaARI7YA0bLw,1743
+stare-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+stare-0.0.2.dist-info/entry_points.txt,sha256=VjY34n_VG59hKWEdmC7AhCy0sVVUQ8rUbHL80W2xvyE,51
+stare-0.0.2.dist-info/top_level.txt,sha256=fFz_G5AV-12GsCtpqtLZGPQwSOquTn1-ppMz-o5HnwI,6
+stare-0.0.2.dist-info/RECORD,,

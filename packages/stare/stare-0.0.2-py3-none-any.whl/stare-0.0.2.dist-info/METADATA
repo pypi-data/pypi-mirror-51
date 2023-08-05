@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: stare
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://giordonstark.com.com
+Author: Giordon Stark
+Author-email: gstark@cern.ch
+License: BSD 3-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests
+Requires-Dist: cachecontrol[filecache]
+Requires-Dist: click (>=6.0)
+Requires-Dist: python-jose
+Requires-Dist: attrs
+Requires-Dist: python-dotenv
+Provides-Extra: complete
+Requires-Dist: bandit ; extra == 'complete'
+Requires-Dist: betamax ; extra == 'complete'
+Requires-Dist: betamax-serializers ; extra == 'complete'
+Requires-Dist: bumpversion ; extra == 'complete'
+Requires-Dist: coverage ; extra == 'complete'
+Requires-Dist: pre-commit ; extra == 'complete'
+Requires-Dist: pyflakes ; extra == 'complete'
+Requires-Dist: pytest ; extra == 'complete'
+Requires-Dist: pytest-cov ; extra == 'complete'
+Requires-Dist: pytest-mock ; extra == 'complete'
+Requires-Dist: twine ; extra == 'complete'
+Requires-Dist: black ; (python_version >= "3.6") and extra == 'complete'
+Provides-Extra: develop
+Requires-Dist: pyflakes ; extra == 'develop'
+Requires-Dist: pytest ; extra == 'develop'
+Requires-Dist: pytest-cov ; extra == 'develop'
+Requires-Dist: pytest-mock ; extra == 'develop'
+Requires-Dist: coverage ; extra == 'develop'
+Requires-Dist: bumpversion ; extra == 'develop'
+Requires-Dist: pre-commit ; extra == 'develop'
+Requires-Dist: bandit ; extra == 'develop'
+Requires-Dist: betamax ; extra == 'develop'
+Requires-Dist: betamax-serializers ; extra == 'develop'
+Requires-Dist: twine ; extra == 'develop'
+Requires-Dist: black ; (python_version >= "3.6") and extra == 'develop'
+
+UNKNOWN
+
+
