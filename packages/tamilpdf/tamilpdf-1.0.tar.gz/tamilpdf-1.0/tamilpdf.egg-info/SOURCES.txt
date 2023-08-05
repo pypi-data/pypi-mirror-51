@@ -1,0 +1,9 @@
+README.md
+setup.py
+tamilpdf/__init__.py
+tamilpdf/pdf2image.py
+tamilpdf/pdf2text.py
+tamilpdf.egg-info/PKG-INFO
+tamilpdf.egg-info/SOURCES.txt
+tamilpdf.egg-info/dependency_links.txt
+tamilpdf.egg-info/top_level.txt
