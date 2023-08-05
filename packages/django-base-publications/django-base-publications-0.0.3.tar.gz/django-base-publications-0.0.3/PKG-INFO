@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-base-publications
+Version: 0.0.3
+Summary: 
+Author: Дмитрий
+Author-email: acrius@mail.ru
+Requires-Python: >=3.5,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: django (>=1.11,<3.0)
+Requires-Dist: django-autoslug (>=1.9,<2.0)
+Requires-Dist: django-taggit (>=1.1,<2.0)
+Requires-Dist: funcy (>=1.13,<2.0)
+Requires-Dist: ipython (>=7.7,<8.0)
