@@ -1,0 +1,3 @@
+[pyloco.task]
+earthplot = earthplot:entry_task
+
