@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1 id="search">Resultados de busqueda</h1>
+
+  <form id="content_search" action="search.html">
+    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+    <input name="q" id="maeguias-search-query" type="text" class="Buscar..." placeholder="Buscar docs" autocomplete="off" autofocus title="Type search term here">
+  </form>
+
+  <div id="maeguias-search-results" class="search-results">
+    Buscando...
+  </div>
+
+{% endblock %}
