@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pysimrel
+Version: 0.6.0
+Summary: Simulating data from linear model data
+Home-page: https://github.com/simulatr/pysimrel
+Author: Raju Rimal
+Author-email: raju.rimal@nmbu.no
+License: BSD License
+Download-URL: https://pypi.python.org/pypi/pysimrel
+Description: # Simulation of Linear Model Data
+        
+Keywords: statistic,simulation
+Platform: any
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: 
+> 2.6
+Description-Content-Type: text/x-rst
