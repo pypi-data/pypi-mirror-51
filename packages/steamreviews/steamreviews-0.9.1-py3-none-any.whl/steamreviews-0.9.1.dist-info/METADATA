@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: steamreviews
+Version: 0.9.1
+Summary: An API to download Steam reviews
+Home-page: https://github.com/woctezuma/download-steam-reviews
+Author: Wok
+Author-email: wok@tuta.io
+License: UNKNOWN
+Download-URL: https://github.com/woctezuma/download-steam-reviews/archive/0.9.1.tar.gz
+Keywords: steam,review,reviews,download,api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Games/Entertainment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+Requires-Dist: requests
+
+Steam Reviews: an API to download Steam reviews, written in Python 3.
+
+
