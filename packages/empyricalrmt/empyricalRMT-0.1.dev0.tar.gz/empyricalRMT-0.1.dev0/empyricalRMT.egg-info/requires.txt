@@ -1,0 +1,10 @@
+colorama
+EMD-signal
+matplotlib
+numba
+numpy
+pandas
+progressbar
+pyod
+scipy
+seaborn
