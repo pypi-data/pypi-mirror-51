@@ -1,0 +1,10 @@
+six
+requests>=2.7.0
+humanize
+progress~=1.3
+retry~=0.9
+whichcraft
+logzero
+adbutils>=0.4.2
+Pillow
+lxml>=4.3
