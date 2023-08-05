@@ -1,0 +1,3 @@
+Babel>=1.0
+morepath>=0.18
+Jinja2>=2.10
