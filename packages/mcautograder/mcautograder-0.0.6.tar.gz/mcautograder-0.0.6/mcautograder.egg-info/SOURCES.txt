@@ -1,0 +1,9 @@
+README.md
+setup.py
+mcautograder/__init__.py
+mcautograder/notebook.py
+mcautograder/utils.py
+mcautograder.egg-info/PKG-INFO
+mcautograder.egg-info/SOURCES.txt
+mcautograder.egg-info/dependency_links.txt
+mcautograder.egg-info/top_level.txt
