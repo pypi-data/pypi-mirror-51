@@ -1,0 +1,8 @@
+numpy
+
+[extras]
+scipy
+nlopt
+mpi4py
+petsc
+petsc4py
