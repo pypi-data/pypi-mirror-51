@@ -1,0 +1,30 @@
+- model: suppliers.Supplier
+  pk: 1
+  fields:
+    name: Panlab, S.L.U.
+    nif: B08240442
+    keywords: ''
+    contact: ''
+    phone: '+34-93-4190709 '
+    email: mpuig@panlab.com
+    discounts: ''
+    country: 1
+
+- model: suppliers.Supplier
+  pk: 2
+  fields:
+    name: 100 DECIBEL ISOLAMENTOS
+    nif: '507250834'
+    keywords: ''
+    contact: '0'
+    phone: 21 1914958
+    country: 1
+
+
+
+- model: suppliers.Tophistory
+
+  fields:
+    top: '15'
+    date: 2013-01-02
+    supplier: 1
