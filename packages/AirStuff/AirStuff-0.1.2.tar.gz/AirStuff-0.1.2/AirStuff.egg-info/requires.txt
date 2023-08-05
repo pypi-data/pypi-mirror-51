@@ -1,0 +1,8 @@
+lxml
+selenium
+bibtexparser
+requests
+xmltodict
+PyGObject
+colorlog
+colorama
