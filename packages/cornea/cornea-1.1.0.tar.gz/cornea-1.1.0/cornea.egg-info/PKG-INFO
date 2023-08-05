@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: cornea
+Version: 1.1.0
+Summary: A PyPI package to extract insightful information about an image using Machine Intelligence
+Home-page: https://github.com/pravinba9495/cornea
+Author: Praveen Ravichandran
+Author-email: pravinba9495@gmail.com
+License: MIT
+Description: # Cornea
+        
+        ![PyPI - License](https://img.shields.io/pypi/l/cornea)
+        [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ea8ff99a54fb4f51990ae09014fd0978)](https://www.codacy.com/app/pravinba9495/cornea?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pravinba9495/cornea&amp;utm_campaign=Badge_Grade)
+        ![PyPI](https://img.shields.io/pypi/v/cornea)
+        
+        A PyPI package to extract insightful information about an image using Machine Intelligence
+        
+        ## Requirements
+        -   Python >=3.7
+        
+        ## Installation
+        The recommended method to install this package is by using `pip` or `pip3`
+        
+        ```bash
+        pip3 install cornea
+        or
+        python3 -m pip install cornea
+        ```
+        
+        ## Setup
+        The package requires that you specify your Microsoft Azure API credentials as environment variables. Type the following commands in your terminal. ALternatively, you can also add the following lines at the end of `.bashrc` or `.bash_profile`.
+        
+        ```bash
+        export AZURE_API_KEY={{{YOUR_API_KEY}}}
+        export AZURE_API_BASE_ENDPOINT={{{YOUR_API_REGION_BASE_URL}}}
+        export AZURE_API_VERSION={{{AZURE_API_VERSION}}}
+        ```
+        
+        **Example**:
+        ```bash
+        export AZURE_API_KEY=QmQZdzdQXftzrOOvCUC7tjx8wzZed8Wk
+        export AZURE_API_BASE_ENDPOINT=https://eastus.api.cognitive.microsoft.com
+        export AZURE_API_VERSION=v2.0
+        ```
+        
+        ## Usage
+        ```python
+        from cornea import descImgFromURL
+        
+        analysis = descImgFromURL("https://upload.wikimedia.org/wikipedia/commons/b/b9/CyprusShorthair.jpg")
+        print(analysis)
+        ```
+        
+        ## Output
+        ```bash
+        {'categories': [{'name': 'animal_cat', 'score': 0.99609375}], 'color': {'dominantColorForeground': 'Grey', 'dominantColorBackground': 'Grey', 'dominantColors': ['Grey'], 'accentColor': '5C4E3C', 'isBwImg': False, 'isBWImg': False}, 'description': {'tags': ['cat', 'indoor', 'laying', 'bed', 'sitting', 'white', 'brown', 'lying', 'small', 'large', 'sleeping'], 'captions': [{'text': 'a cat lying on a bed', 'confidence': 0.9512938154506553}]}, 'requestId': 'ef807a48-ecbf-4c30-883b-64a7d25683f2', 'metadata': {'width': 1024, 'height': 768, 'format': 'Jpeg'}}
+        ```
+        
+Keywords: python,image-classification,pip,pypi-package,cognitive-services,microsoft-azure,image-analysis
+Platform: UNKNOWN
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
