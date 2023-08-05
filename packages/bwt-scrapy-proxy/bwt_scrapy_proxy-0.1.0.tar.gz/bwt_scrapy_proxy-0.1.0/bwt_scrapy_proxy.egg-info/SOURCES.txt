@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bwt_scrapy_proxy/__init__.py
+bwt_scrapy_proxy.egg-info/PKG-INFO
+bwt_scrapy_proxy.egg-info/SOURCES.txt
+bwt_scrapy_proxy.egg-info/dependency_links.txt
+bwt_scrapy_proxy.egg-info/requires.txt
+bwt_scrapy_proxy.egg-info/top_level.txt
