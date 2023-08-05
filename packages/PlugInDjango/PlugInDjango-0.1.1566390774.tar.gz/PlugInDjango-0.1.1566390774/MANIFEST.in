@@ -1,0 +1,2 @@
+recursive-include plug_in_django/templates *
+recursive-include plug_in_django/static *

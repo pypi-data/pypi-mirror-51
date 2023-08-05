@@ -1,0 +1,111 @@
+{% load static %}
+{% load public_dict %}
+{% load sekizai_tags %}
+<!DOCTYPE html>
+<html lang={{"language_time,language_code"|pub_dict:"en" }}>
+<head>
+    <meta charset={{ "language_time,charset"|pub_dict:"UTF-8" }}>
+    <title>{{ "site,title"|pub_dict:"title" }}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'basic.css' %}">
+    {% block stylesheet%}
+    {% endblock %}
+    {% render_block "css" %}
+    <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="#">{{ "site,title"|pub_dict:"title"}}</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <ul class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav mr-auto">
+            {% if user.is_authenticated %}
+
+            {% if apps_in_nav %}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Apps
+                </a>
+                <ul class="dropdown-menu">
+                    {% for app in apps %}
+                    {% if app.in_nav_bar %}
+                    {% if app.navbarhtml %}
+                    {% include app.navbarhtml %}
+                    {% else %}
+                    <a class="dropdown-item" href="{% url app.indexurl %}">{{ app.verbose_name }}</a>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endif %}
+            {% endif %}
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                {% if user.is_authenticated %}
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
+                    Welcome {{ user }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="{% url 'accounts:logout' %}">Logout</a>
+                </div>
+                {% else %}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'accounts:login' %}">Login</a>
+            </li>
+            {% if "apps,accounts,registerable"|pub_dict:False %}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'accounts:register' %}">Register</a>
+            </li>
+            {% endif %}
+            {% endif %}
+        </ul>
+    </ul>
+</nav>
+
+{% addtoblock "jss" %}
+    <script
+            src="https://code.jquery.com/jquery-3.4.0.min.js"
+            integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script>
+        $('.dropdown-submenu > a').on("click", function (e) {
+            var submenu = $(this);
+            $('.dropdown-submenu .dropdown-menu').removeClass('show');
+            submenu.next('.dropdown-menu').addClass('show');
+            e.stopPropagation();
+        });
+
+        $('.dropdown').on("hidden.bs.dropdown", function () {
+            // hide any open menus when parent closes
+            $('.dropdown-menu.show').removeClass('show');
+        });
+    </script>
+{% endaddtoblock %}
+
+<div id="contend-body" class="container-fluid">
+    {% block contend %}
+    {% endblock %}
+</div>
+{% block javascript%}
+{% endblock %}
+{% render_block "jss" %}
+
+
+</body>
+</html>
