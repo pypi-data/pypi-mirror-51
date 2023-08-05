@@ -1,0 +1,16 @@
+tcp_h2_describe/__init__.py,sha256=JClB7AdqnXznBgnMyQ17EzSGfdbqpZzCpJLLzTzE2lY,807
+tcp_h2_describe/__main__.py,sha256=EsN9YZZN80hpA1b7P6NDEtz_sVrPD3B2bUiiiCbHJ48,2340
+tcp_h2_describe/_buffer.py,sha256=IuVTuuj3N4xpOa9GH-6e6vw_UGm_WfyAUkMOe4_XgY0,4303
+tcp_h2_describe/_connect.py,sha256=uwFEoqYV-m4iLK3hCCJzJCUy5iifjiE-1NrRfZX0IGo,4178
+tcp_h2_describe/_describe.py,sha256=E0Q6GmX6eTyP3Y-0IzjjN4Q5xpBaLmih2G-5NFAmN7g,17748
+tcp_h2_describe/_display.py,sha256=dYv46to-8s70LPI8RnbFcDtZXD7fRMBQQgHpqeQwCPk,712
+tcp_h2_describe/_keepalive.py,sha256=YSOiiAdosNCGSsTfAsM0vOGLzglKRbUECe2abV90YOk,3173
+tcp_h2_describe/_proxy_protocol.py,sha256=XKbgndAs6odf-TtxOw4tDbV6MTscz7pFB9fgZHChPA8,6138
+tcp_h2_describe/_serve.py,sha256=tzCLvkwgKLBE7GMfTAeO7fgpKpLgnP_SOP2C-RDsXnI,6345
+tcp_h2_describe-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tcp_h2_describe-0.1.0.dist-info/METADATA,sha256=XHPtZ3qf2nc7pt862WKodid_zrdEB5deQGHJFvaW4h0,3529
+tcp_h2_describe-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+tcp_h2_describe-0.1.0.dist-info/entry_points.txt,sha256=lM_FHmbywSoade6yUZKke1fLlWIgR1rRpEK7c-gAA6k,67
+tcp_h2_describe-0.1.0.dist-info/top_level.txt,sha256=7Wk8hAPWezgpcb2aNhBWe5bG4ExcdMvPLAZD4rE_hgI,16
+tcp_h2_describe-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tcp_h2_describe-0.1.0.dist-info/RECORD,,

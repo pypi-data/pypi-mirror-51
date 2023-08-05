@@ -1,0 +1,3 @@
+[console_scripts]
+tcp-h2-describe = tcp_h2_describe.__main__:main
+
