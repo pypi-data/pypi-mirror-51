@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+module_tracker/__init__.py
+module_tracker/__main__.py
+module_tracker/analyzer.py
+module_tracker/cli.py
+module_tracker/tracker.py
+module_tracker.egg-info/PKG-INFO
+module_tracker.egg-info/SOURCES.txt
+module_tracker.egg-info/dependency_links.txt
+module_tracker.egg-info/top_level.txt
+scripts/module-tracker
