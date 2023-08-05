@@ -1,0 +1,4 @@
+airtest>=1.0.26
+BeautifulReport>=0.0.9
+pocoui>=1.0.76
+xlwings>=0.15.8
