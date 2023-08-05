@@ -1,0 +1,9 @@
+attrs
+cattrs
+pendulum
+requests
+
+[testing]
+pytest
+pytest-cov
+testfixtures
