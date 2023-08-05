@@ -1,0 +1,11 @@
+rscli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rscli/main.py,sha256=kLUlCXWKHMgf-ot9vIDJRLyIFq_fB8eL7d5xJk735Ig,599
+rscli/tasks.py,sha256=q6uRzJW2P9jVfggpuWJYTsrWp6alwMQp2e1SP5FSD5w,1738
+rscli/utils.py,sha256=m1RptSLGODPgOWYkzQgZM551AmEJE8SkYNiWS-gTViM,1255
+rscli/version.py,sha256=0HNhcNkAUCSMGY0A3pu6zdg9uvi6xhFihnJivRJKVdA,4204
+rscli-2019.1a5.dist-info/LICENSE,sha256=XLC_9aAffG42BpKUotyPaE9m0C3wJ1x1TbHoLAZfv6w,1066
+rscli-2019.1a5.dist-info/METADATA,sha256=e069bL8qBwD7Mx3aZrKL9Z5IOaKgkMDpYPdDj3HfRXo,628
+rscli-2019.1a5.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+rscli-2019.1a5.dist-info/entry_points.txt,sha256=ZpCimrJ8aUOjVnrHgIdpPcgSeDI302IPLE6Z3b06GTw,50
+rscli-2019.1a5.dist-info/top_level.txt,sha256=yO6zBVPZdYAsKWd9GtwICkyF7GaVfQ1y6t1Fm82JoRY,6
+rscli-2019.1a5.dist-info/RECORD,,
