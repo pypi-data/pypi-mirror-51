@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: async_pytube
+Version: 1.0.2
+Summary: pytube 9.5.1 but async
+Home-page: https://github.com/Andrebcd4/async_pytube
+Author: Andrew
+Author-email: asyncpytubelib@gmail.com
+License: MIT
+Download-URL: https://github.com/Andrebcd4/async_pytube/archive/1.0.2.tar.gz
+Description: UNKNOWN
+Keywords: pytube,asynchronous
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
