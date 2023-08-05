@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: mhmpy
+Version: 0.0.0
+Summary: mhmpy: a python API for the mesoscale Hydrological Model.
+Home-page: https://github.com/MuellerSeb/mhmpy
+Author: Sebastian Mueller
+Author-email: info@geostat-framework.org
+Maintainer: Sebastian Mueller
+Maintainer-email: sebastian.mueller@ufz.de
+License: MIT
+Description: # mhmpy
+        A Python-API for the mesoscale Hydrological Model.
+        
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
