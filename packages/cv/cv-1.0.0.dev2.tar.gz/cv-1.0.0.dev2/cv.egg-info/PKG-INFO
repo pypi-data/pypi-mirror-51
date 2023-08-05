@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: cv
+Version: 1.0.0.dev2
+Summary: Check version of a Python module
+Home-page: https://github.com/mdrachuk/cv
+Author: mdrachuk
+Author-email: misha@drach.uk
+License: MIT
+Project-URL: Pipelines, https://dev.azure.com/misha-drachuk/cv
+Project-URL: Source, https://github.com/mdrachuk/cv/
+Project-URL: Issues, https://github.com/mdrachuk/cv/issues
+Description: # cv
+        [![PyPI](https://img.shields.io/pypi/v/cv)][pypi]
+        [![Build Status](https://img.shields.io/azure-devops/build/misha-drachuk/cv/8)](https://dev.azure.com/misha-drachuk/cv/_build/latest?definitionId=8&branchName=master)
+        [![Test Coverage](https://img.shields.io/coveralls/github/mdrachuk/cv/master)](https://coveralls.io/github/mdrachuk/cv)
+        [![Supported Python](https://img.shields.io/pypi/pyversions/cv)][pypi]
+        [![Documentation](https://img.shields.io/readthedocs/cv)][docs]
+        
+        Check version of a Python module.
+        
+        [Documentation][docs]
+        
+        
+        ## Features
+        TBD
+        
+        ## Basics
+        ### Installation
+        Available from [PyPI][pypi]:
+        ```shell
+        pip install cv
+        ```
+        
+        ### Quick Example
+        TBD
+        
+        [pypi]: https://pypi.org/project/cv/
+        [docs]: https://cv.readthedocs.io/en/latest/ 
+        
+Keywords: python packaging version pypi
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
