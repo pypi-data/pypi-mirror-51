@@ -1,0 +1,14 @@
+remote_logger/__init__.py,sha256=-djnolWN3m0FUWRt1yiCZHmiQbJ7aY1eYiQHmfzFIXk,230
+remote_logger/remote_logger_handler.py,sha256=qebZet4dZKQ-gXqwlgVii-Jzd9ymGaM-8qJeEY-NbPA,1698
+remote_logger/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remote_logger/clients/logger_client.py,sha256=6ZmeX7SZZqkjRzi7ItmUMT0mTOMADmYe241YCjGrp68,899
+remote_logger/clients/sentry_logger_client.py,sha256=sLfjSfUkhOkhAAS5jzEDErHnD9BW11qpQBd0mhmpmvc,2494
+remote_logger/clients/stackdriver_logger_client.py,sha256=GONk4KyG0JIfblryqXgQon2o9TPmga3gada5H84PQJI,971
+remote_logger/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remote_logger/util/definitions.py,sha256=5H4qRKX2KxhC3geh-p29nh31HjICgfL9G8nCHhPD38A,103
+remote_logger/util/excepts.py,sha256=z9gDH1Yf1sQCrapRn2i9K_xz3ThdWr6XfqgZFxb_V0c,185
+remote_logger-0.2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+remote_logger-0.2.2.dist-info/METADATA,sha256=6QgbRcRkZFjntvXYpn5Ks0JeClopx3chETZSsAE9BFI,2934
+remote_logger-0.2.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+remote_logger-0.2.2.dist-info/top_level.txt,sha256=uNz6xrRMQwP6qHABu9Q2N0K1HvfkMBruSV7V5yxQN-o,14
+remote_logger-0.2.2.dist-info/RECORD,,
