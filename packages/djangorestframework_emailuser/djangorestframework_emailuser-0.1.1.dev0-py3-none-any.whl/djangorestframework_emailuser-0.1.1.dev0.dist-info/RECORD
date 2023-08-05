@@ -1,0 +1,15 @@
+emailuser/__init__.py,sha256=BdmVCcj8nOprnc5afHcWiM9-a2qsxcpJ-HHZJA3FBpI,54
+emailuser/admin.py,sha256=e0OyV5aiWntjraQR_TneYGQWAFRUrcC6t8HrV-Ge2PA,924
+emailuser/apps.py,sha256=YDO7KvtSnoYywTb1rhunMcTzQ9LKSjzQLz79VyvBqEk,98
+emailuser/forms.py,sha256=Ynn33vYIQEDz4TmgPyiM0gtKhncI_BOs41L-Ce_slb4,381
+emailuser/managers.py,sha256=4ZTHZXEWOdDbHIgGQ6g7Jbk_9AfGaWiofKfep6pQ53o,1017
+emailuser/models.py,sha256=uwXp14ffcJnzw85AzgWDMfCM-ZYUHRrVsn6g1YI0Gx0,767
+emailuser/permissions.py,sha256=2GS2R23EbFJfUTroDZc3FTbvg38EdXTEJbE5JTb4uv4,400
+emailuser/serializers.py,sha256=-XqIgN2nceiDabDVHfE9BS7d5CiKGfOTj0ZF55KRgiY,970
+emailuser/urls.py,sha256=1uoNeu7-IjV-z_n_cxb4qxCgRMrfGmgZyz9Pl5QFcLI,388
+emailuser/views.py,sha256=ACaUwOLInywo8OficFzFZ0nnHo3NXnSwb3s1ozcIuyQ,637
+djangorestframework_emailuser-0.1.1.dev0.dist-info/LICENSE,sha256=YisH6OZEQMGYhfP_8td8yv-ngI4lUZ3-jwnJ8JSyDQ4,1085
+djangorestframework_emailuser-0.1.1.dev0.dist-info/METADATA,sha256=uvZpr3Z2b2r4szNLNfZLkt4qrdkDos2GVavnm4gW3aQ,4325
+djangorestframework_emailuser-0.1.1.dev0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+djangorestframework_emailuser-0.1.1.dev0.dist-info/top_level.txt,sha256=Jz8obIjpW2K5dUocb3jIBXmycBk4qoRbM9-cQjTU3ns,10
+djangorestframework_emailuser-0.1.1.dev0.dist-info/RECORD,,
