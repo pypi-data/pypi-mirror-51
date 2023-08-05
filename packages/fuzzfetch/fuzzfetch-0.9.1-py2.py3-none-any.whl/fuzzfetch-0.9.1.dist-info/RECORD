@@ -1,0 +1,10 @@
+fuzzfetch/__init__.py,sha256=eCeynf4OlMESD8dKE2ciiwnnlFkiFRHySTix5yA3FPM,349
+fuzzfetch/__main__.py,sha256=0a9c6uEDuJILmpGdKxmQ8YmrbZ1xrxgqAK-xT-PalmY,283
+fuzzfetch/fetch.py,sha256=9pQj7bpDXkjbVtW3CyerGIurJwJuIpT43a1tT1iMzTo,37821
+fuzzfetch/path.py,sha256=D5cQjIW6zHlLRx9gJ5sz_GazHZ8GUOvIZ5oLGKgsSG0,2816
+fuzzfetch-0.9.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+fuzzfetch-0.9.1.dist-info/METADATA,sha256=y27kKLJu3oDt0MOOyUuzpy3m8UXiM3Zl0v-F90ZInto,899
+fuzzfetch-0.9.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+fuzzfetch-0.9.1.dist-info/entry_points.txt,sha256=7bzcUFSR5CMrqnJc7Cz-7Rj3Kk9ItkM5rdPrKjV-7n4,54
+fuzzfetch-0.9.1.dist-info/top_level.txt,sha256=mzB1UnNOEei60LZP6sqKtRE6b3wnNoaaVvOCcWqW2fc,10
+fuzzfetch-0.9.1.dist-info/RECORD,,
