@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyth3-reloaded
+Version: 0.8
+Summary: Python text markup and conversion
+Home-page: http://github.com/prechelt/pyth
+Author: Brendon Hogger
+Author-email: brendonh@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Editors :: Word Processors
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Filters
+Requires: beautifulsoup4
+Requires: six
+Requires: reportlab
+Description-Content-Type: text/markdown
