@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: datanator-query
+Version: 0.1
+Summary: A python API to for querying datanator DB server
+Home-page: https://github.com/KarrLab/datanator_query
+Author: Karr Lab
+Author-email: karr@mssm.com
+License: MIT
+Download-URL: https://github.com/KarrLab/datanator_query
+Description: UNKNOWN
+Keywords: systems-biology data-integration data-aggregation data-discovery modeling biological-modelling bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Provides-Extra: tests
+Provides-Extra: all
+Provides-Extra: docs
