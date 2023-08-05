@@ -1,0 +1,109 @@
+- model: auth.user
+  pk: 1
+  fields:
+    is_superuser: true
+    username: ricardo.ribeiro
+    first_name: Ricardo
+    last_name: Ribeiro
+    email: ricardo.ribeiro@research.fchampalimaud.org
+    is_staff: true
+    is_active: true
+
+
+- model: people.Degree
+  pk: 1
+  fields:
+    name: Undergraduate
+- model: people.Degree
+  pk: 2
+  fields:
+    name: Bachelor
+- model: people.Degree
+  pk: 3
+  fields:
+    name: Master
+- model: people.Degree
+  pk: 4
+  fields:
+    name: PhD
+
+- model: people.ScientificArea
+  pk: 1
+  fields:
+    name: Not defined
+- model: people.ScientificArea
+  pk: 2
+  fields:
+    name: Computer Science
+- model: people.ScientificArea
+  pk: 3
+  fields:
+    name: Electrical Engineering
+
+
+- model: people.Person
+  pk: 1
+  fields:
+    active: True
+    birthday: 1984-04-01
+    gender: M
+    first_name: Ricardo
+    middle_name: Jorge Vieira
+    last_name: Ribeiro
+    full_name: Ricardo Jorge Vieira Ribeiro
+    email: ricardo.ribeiro@research.fchampalimaud.org
+    personal_email: ricardojvr@gmail.com
+    date_joined: 2011-07-01
+
+
+
+
+- model: people.GroupType
+  pk: 1
+  fields:
+    name: Lab
+- model: people.GroupType
+  pk: 2
+  fields:
+    name: Administrative
+
+- model: people.Position
+  pk: 1
+  fields:
+    name: Principal Investigator
+- model: people.Position
+  pk: 2
+  fields:
+    name: Responsible
+
+
+
+- model: people.Group
+  pk: 1
+  fields:
+    type: 2
+    name: Scientific Software Platform
+    subject: Scientific Software
+    description: 'The goal of the Scientific Software and Development Platform
+        is to provide high-quality software to support research at the individual, group
+        and program levels to support the highest level science possible while controlling
+        costs and reducing redundant effort. The platform will provide three classes
+        of service: research, provisioning and support for existing software; custom
+        development development by contract for individuals and groups; organization-wide
+        software and research support technology. The Platform will provide a professional
+        level of service, development and support with the aim of reducing redundant
+        effort, increasing reusability of software solutions, controlling costs and
+        improving the ability of investigators to focus on research questions. The Platform
+        could both utilize PhD students in computer science and engineering as well
+        as contract any extra development services capacity to external clients to reduce
+        costs and integrate the CF with the larger scientific community.'
+
+- model: people.GroupMembership
+  pk: 1
+  fields:
+    person: 1
+    group: 1
+    date_joined: 2011-07-01
+    position: 2
+
+
