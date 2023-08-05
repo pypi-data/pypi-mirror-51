@@ -1,0 +1,14 @@
+openapi-SQLAlchemy/__init__.py,sha256=rw8FWE2cp-zDxkrIO_0meAuYlz_l5Gzf3yAGRiGW1gg,79
+openapi_sqlalchemy/__init__.py,sha256=u03GsBq1vrNyj10l2RoR6v-qm2L0GhYDCl07z-rHYJI,1527
+openapi_sqlalchemy/column_factory.py,sha256=Gzr8Lbk9dvJi2fFSyhF5mQWneRhRvEIGXSfeT7Qb6gA,5407
+openapi_sqlalchemy/model_factory.py,sha256=hFRe267HF7yfuyzrJWwcDbRhj3AO2CIZxsGyfRNHnGo,1663
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=4Q-xGk0uvEKptsI1a5nVRC5wwWYwpJsGujz3raHx2-g,1531
+tests/test_column_factory.py,sha256=hWl_gMCx0keCf9YgRNwu9265-KchAmWuibplXbRGFdE,10351
+tests/test_integration.py,sha256=4h1MdpK1L90s1Cm9_jrV4oD-Dq7CxAzpT5Wg4gEu0iU,4370
+tests/test_model_factory.py,sha256=bJT37C-0yNfziOs9liiBMaLxdDnjdj3yYA35XMZ7cBI,6759
+openapi_SQLAlchemy-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openapi_SQLAlchemy-0.2.0.dist-info/METADATA,sha256=XR8meECmOZ_WvD88pGiucTtGe8pkN1cloQwd1MLXUaw,3755
+openapi_SQLAlchemy-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+openapi_SQLAlchemy-0.2.0.dist-info/top_level.txt,sha256=XlQlZEAFS5UUbqp6ZRR9fS4l2UYfa4IUlooqYIgSUvA,25
+openapi_SQLAlchemy-0.2.0.dist-info/RECORD,,
