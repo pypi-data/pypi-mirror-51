@@ -1,0 +1,3 @@
+[console_scripts]
+i2a = i2a.i2a:main
+
