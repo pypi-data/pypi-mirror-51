@@ -1,0 +1,7 @@
+pyicu
+
+[test]
+lxml
+mypy
+pytest
+regex
