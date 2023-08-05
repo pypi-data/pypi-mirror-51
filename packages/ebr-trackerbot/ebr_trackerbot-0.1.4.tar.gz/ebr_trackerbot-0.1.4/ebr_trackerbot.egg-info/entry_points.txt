@@ -1,0 +1,3 @@
+[console_scripts]
+ebr-trackerbot = ebr_trackerbot.cli:main
+
