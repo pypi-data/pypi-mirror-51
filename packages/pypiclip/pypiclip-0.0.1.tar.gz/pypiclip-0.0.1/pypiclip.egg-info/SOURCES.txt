@@ -1,0 +1,5 @@
+setup.py
+pypiclip.egg-info/PKG-INFO
+pypiclip.egg-info/SOURCES.txt
+pypiclip.egg-info/dependency_links.txt
+pypiclip.egg-info/top_level.txt
