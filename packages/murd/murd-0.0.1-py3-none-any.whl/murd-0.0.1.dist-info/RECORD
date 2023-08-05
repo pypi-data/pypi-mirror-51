@@ -1,0 +1,11 @@
+murd/__init__.py,sha256=B3l-smmD8vD3cTQelq0Yxv7iFeOOIGE5mziFP_ZbR-c,19
+murd/murd.py,sha256=vHz0cDeBxrW07wvs68PDvmqLYCJX17wWLlQHBAeC-a8,3729
+murd/murd_ddb.py,sha256=KtB5bQtQXCzGF3FwI8veKyhteoe_OUX9uiDTrl454GU,5530
+murd/murd_wi.py,sha256=eWKQ_2WSj2S2hfxvxYdrnfFcmMiQBr6Va_t1-aPQcWU,5254
+murd/run_async.py,sha256=36oifE90yIqtl6NIwJu1zlzdU1LfYwNGZth_5TRyKkw,1606
+murd-0.0.1.dist-info/DESCRIPTION.rst,sha256=1Kst5Ni3n5QWJJxNxBFmeKBjumMkzuzVF1uwms_Ekv4,67
+murd-0.0.1.dist-info/METADATA,sha256=AbY7qw7hY3s0pqWrQZbW2Ri3hs05-qwnGyL10ot7ce8,522
+murd-0.0.1.dist-info/RECORD,,
+murd-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+murd-0.0.1.dist-info/metadata.json,sha256=b4CVwtzyLTE8IHcXB3olfNEE1Fr1aOlIOuX5zw0To_g,650
+murd-0.0.1.dist-info/top_level.txt,sha256=2XEf48UhAHEmrBJCK0wiBWQe7Za3A1S1TAzbYlkX_fo,5
