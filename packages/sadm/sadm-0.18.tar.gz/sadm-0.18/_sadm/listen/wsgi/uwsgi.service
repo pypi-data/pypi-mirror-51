@@ -1,0 +1,30 @@
+[Unit]
+Description=sadm-listen
+After=syslog.target
+Requires=atd.service
+
+[Service]
+Type=notify
+NotifyAccess=all
+Restart=on-failure
+KillSignal=SIGQUIT
+StandardError=syslog
+PrivateTmp=true
+Environment=SADM_HOME=/opt/sadm
+Environment=SADM_UID=sadm
+Environment=SADM_GID=sadm
+Environment=SADM_LISTEN_PORT=3666
+EnvironmentFile=-/etc/default/sadm-listen
+PIDFile=/run/sadm.listen.uwsgi.pid
+ExecStart=/usr/bin/uwsgi --need-plugin python3 \
+	--set-ph sadm-home=${SADM_HOME} \
+	--set-ph sadm-uid=${SADM_UID} \
+	--set-ph sadm-gid=${SADM_GID} \
+	--set-ph netport=${SADM_LISTEN_PORT} \
+	--safe-pidfile /run/sadm.listen.uwsgi.pid \
+	--touch-reload /etc/opt/sadm/listen.cfg \
+	--touch-reload /etc/opt/sadm/listen/uwsgi.ini \
+	--ini /etc/opt/sadm/listen/uwsgi.ini
+
+[Install]
+WantedBy=multi-user.target
