@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Videomass
+Exec=videomass %U
+GenericName=A Free and cross-platform GUI for FFmpeg
+GenericName[it]=Un'interfaccia grafica libera e multi-piattaforma per FFmpeg
+Comment=Audio/Video Converter Interface
+Comment[it]=Interfaccia di conversione Audio/Video
+Icon=videomass
+Terminal=false
+Categories=AudioVideo
