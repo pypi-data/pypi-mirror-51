@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: heartbeat-client
+Version: 0.1.0
+Summary: Heartbeat client implements with python.
+Home-page: https://github.com/Hawthorn2013/heartbeat-client-python
+Author: Hawthorn2013
+Author-email: hawthorn7dd@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# heartbeat-client-python
+
+Heartbeat client implements with python.
+
