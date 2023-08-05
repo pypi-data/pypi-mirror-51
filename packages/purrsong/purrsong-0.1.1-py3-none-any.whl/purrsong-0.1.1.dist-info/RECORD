@@ -1,0 +1,12 @@
+purrsong/__init__.py,sha256=hKpddCMJadytmFYlR4miqinUcOKleX-ctY7RgiVdr3k,51
+purrsong/api.py,sha256=jje2h-dxgBM_-9vS9F-aildTJPSBGFBV92IHVo63DI4,184
+purrsong/datasets/__init__.py,sha256=T17XsWWgdTg0rv1QcVRiO49rVfv3V4B7uYieYt1HAmU,2926
+purrsong/models/__init__.py,sha256=htmSs-iuYFAJLsRzXPbaQuROFJVt48HuGAjaqRIHNfc,2126
+purrsong/utils/__init__.py,sha256=2Qrqa9h5SL7_Mz2ewkEff_o75EilnMYFiDz1yIcq2qk,152
+purrsong/utils/downloader.py,sha256=lDiAax57ib-uQr8_7hmFLWbQFFc9BwH9AnP1NZvKNPA,1308
+purrsong/utils/extractor.py,sha256=5cWU1T-Q4gauz4oEs670LnFEF-8tdjIhbyNhLtgOiAU,907
+purrsong-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+purrsong-0.1.1.dist-info/METADATA,sha256=WkWqv6GGwFiKemRqKEMrUlFWvqIvA5HJzWVfThIcP7o,933
+purrsong-0.1.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+purrsong-0.1.1.dist-info/top_level.txt,sha256=sxbxlfDjGxBAgsD6eitKe8xrMDgNStl0hJmmVqI7zMw,9
+purrsong-0.1.1.dist-info/RECORD,,
