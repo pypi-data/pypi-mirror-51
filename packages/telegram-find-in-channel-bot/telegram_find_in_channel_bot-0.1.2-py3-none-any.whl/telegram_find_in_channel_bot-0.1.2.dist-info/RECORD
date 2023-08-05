@@ -1,0 +1,11 @@
+tgficbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgficbot/db.py,sha256=99aV_9yRtsGWTB-B2o6LupLYGohK5_d-TU-zB7Xr4sw,4256
+tgficbot/main.py,sha256=VfRLT0sJzuwHkKKIVG6JDaPIYLYORTNNO3nZ4g4ZT1c,4973
+tgficbot/states.py,sha256=FC3t9poCGDiZgG7N75IUT81tMfNeB4iRkNJ3JgH5HTY,499
+tgficbot/strings.py,sha256=ThDDE4ShtTIy0UbFKXvAd2L22V2_LW-fGMop-kM9Syg,1979
+telegram_find_in_channel_bot-0.1.2.dist-info/LICENSE,sha256=UcYM9v8Sh1IrmXGyOHSZuXzkcy7i6pqpg4R3WEyemFM,1518
+telegram_find_in_channel_bot-0.1.2.dist-info/METADATA,sha256=w1eLoszWkctjPtllAIyMTJBpt8ZLpZ3XO4H-qWO6CK4,244
+telegram_find_in_channel_bot-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+telegram_find_in_channel_bot-0.1.2.dist-info/entry_points.txt,sha256=oF0KMRmmLzXMNtHGDTWFPmsGeqFrD-61OSTYlJkmG-Y,69
+telegram_find_in_channel_bot-0.1.2.dist-info/top_level.txt,sha256=hn_6hPS9Hii5Z9ml6ZSpxOiyh6Bw9WsBDUb5kZUPsFg,9
+telegram_find_in_channel_bot-0.1.2.dist-info/RECORD,,
