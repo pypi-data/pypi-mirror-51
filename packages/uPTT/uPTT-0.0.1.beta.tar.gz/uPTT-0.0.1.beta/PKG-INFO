@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: uPTT
+Version: 0.0.1.beta
+Summary: uPTT
+Home-page: UNKNOWN
+Author: CodingMan
+Author-email: thetruth0906@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: PTT,bot
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Topic :: Communications :: BBS
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: Chinese (Traditional)
+Requires-Python: >=3.6

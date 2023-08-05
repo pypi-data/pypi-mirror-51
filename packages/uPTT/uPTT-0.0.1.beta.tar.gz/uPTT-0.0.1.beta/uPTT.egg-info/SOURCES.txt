@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+uPTT.egg-info/PKG-INFO
+uPTT.egg-info/SOURCES.txt
+uPTT.egg-info/dependency_links.txt
+uPTT.egg-info/requires.txt
+uPTT.egg-info/top_level.txt
