@@ -1,0 +1,6 @@
+plone.behavior
+collective.js.bootstrap
+medialog.controlpanel
+plone.api
+collective.z3cform.datagridfield
+lineage.registry

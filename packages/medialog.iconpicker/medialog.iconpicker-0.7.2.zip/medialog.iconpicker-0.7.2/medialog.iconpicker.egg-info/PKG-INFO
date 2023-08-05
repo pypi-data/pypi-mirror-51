@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: medialog.iconpicker
+Version: 0.7.2
+Summary: Iconpicker for Plone
+Home-page: http://github.com/espenmn/medialog.iconpicker
+Author: Espen Moe-Nilssen
+Author-email: espen@medialog.no
+License: GPL
+Description: Iconpicker add on for Plone based on bootstrap iconpicker
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 5.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
