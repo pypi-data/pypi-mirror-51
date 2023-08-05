@@ -1,0 +1,10 @@
+devutils/__init__.py,sha256=Yxm9bZvNm6ByyMqOL-nS4_ikiLmJUCn6LthPam2iDaY,17
+devutils/utils.py,sha256=LIuGLrY8RGx6M8qqcS62IMqT1o_fsaI1j3BerteW_9k,771
+devutils/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devutils/tests/test_devutils.py,sha256=89QuMpnf9hasbJQxTionQ3PzP2OtIvtQM60kb-LXy4I,234
+devutils/tests/test_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devutils/tests/test_module/test_module.py,sha256=3B09Te3XXbkiKzzWgvqJYW25YtBeJzVMtki6Wr8Rxcg,32
+devutils-0.0.2.dist-info/METADATA,sha256=iacfksJtBW2o8VHoBRaCA_nqGS31B7YfCVtYMW6luVA,271
+devutils-0.0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+devutils-0.0.2.dist-info/top_level.txt,sha256=vdRbw-l9IvhC26h2dXrVUi9B_lhWiT81EBDueY45RtE,9
+devutils-0.0.2.dist-info/RECORD,,
