@@ -1,0 +1,6 @@
+[console_scripts]
+tensorsignatures = tensorsignatures.cli:main
+tsbench = tensorsignatures.benchmark:main
+tstrain = tensorsignatures.train:main
+tswriter = tensorsignatures.writer:main
+
