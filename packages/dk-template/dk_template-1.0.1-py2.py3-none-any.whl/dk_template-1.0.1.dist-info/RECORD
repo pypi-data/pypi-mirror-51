@@ -1,0 +1,16 @@
+dktemplate/__init__.py,sha256=bn4I4xZYJ7AHliLL1HvBh3_fDDqM4-zD1v0CQotSgu4,51
+dktemplate/apps.py,sha256=f2ZiK1Ls9hmZhGuZnVSLhT66jmbKXONTEvZEA04N9r8,152
+dktemplate/ast.py,sha256=0mF2MtNehesMicmE1C40UrvdAfZx5B1X3o7m86xBHbo,4868
+dktemplate/find_template.py,sha256=rMePzz8Dz3CBRf2ThkzoYRr-gZ0r6E7VTaiYp0i7OdY,495
+dktemplate/parse.py,sha256=Gb2weu2-0x0UEoGoSpI0vDBrTCWP8ZttRnKU01hIklQ,2862
+dktemplate/render.py,sha256=J2hZhmkP65FJKJFKgO5vZcoPM7VkapACStHUsag10E4,1275
+dktemplate/templatevars.py,sha256=0huK08hr4QwCZH8GBubQ8zJVryO-fK9yHXLwY7sm9uY,1116
+dktemplate/tokenize.py,sha256=kg3ZKFc-C7al6VU9j8c3KtDCKTy9MpexVtlZUk8veW4,809
+dktemplate/templatetags/__init__.py,sha256=fly1tWTxcKHAWUgJzFJ0bXW_3KEpEhqBn4R0lrLtTOc,29
+dktemplate/templatetags/dktemplate_tags.py,sha256=_WSkEyTqG97ZiYElXmg6cJREZmcNKLqgXYg0y3k3l7U,1342
+dktemplate/templatetags/templateutils.py,sha256=CIr_XIWbW2DPrjNcFzh7RxjUnd0AV3dkT_UAZmyAWlY,12007
+dk_template-1.0.1.dist-info/LICENSE,sha256=1K8rXwNSnxkHIb5-ZfjzS1EaMfKrR_JbORklFWKdxSA,1090
+dk_template-1.0.1.dist-info/METADATA,sha256=ht5TnPdSx3Zjtxq5dPsxl4Zkq88xmSQ-WuNFAIYfOOQ,1376
+dk_template-1.0.1.dist-info/WHEEL,sha256=aEiWNTQcG6AiGGAYQ9qHTifyKRnmFJvDeTI0hP5aohY,116
+dk_template-1.0.1.dist-info/top_level.txt,sha256=fwNRdjWe9ap1jwt0DJ3Ujkiq5ft5_tkunvjxtgOkIis,11
+dk_template-1.0.1.dist-info/RECORD,,
