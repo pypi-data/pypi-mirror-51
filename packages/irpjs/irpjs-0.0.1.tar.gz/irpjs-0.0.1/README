@@ -1,0 +1,14 @@
+websocket server for JS impress remote protocol
+
+dependencies (debian-based):
+
+`apt-get install python3 pip3`
+
+dependencies (python):
+
+`pip3 install gevent-websocket`
+
+run with:
+
+`./irp.py`
+
