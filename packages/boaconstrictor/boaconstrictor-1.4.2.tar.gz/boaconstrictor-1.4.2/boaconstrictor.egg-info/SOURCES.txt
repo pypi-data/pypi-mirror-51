@@ -1,0 +1,11 @@
+README.md
+setup.py
+BoaConstrictor/BoaConstrictor.py
+BoaConstrictor/__init__.py
+BoaConstrictor/__main__.py
+boaconstrictor.egg-info/PKG-INFO
+boaconstrictor.egg-info/SOURCES.txt
+boaconstrictor.egg-info/dependency_links.txt
+boaconstrictor.egg-info/entry_points.txt
+boaconstrictor.egg-info/requires.txt
+boaconstrictor.egg-info/top_level.txt
