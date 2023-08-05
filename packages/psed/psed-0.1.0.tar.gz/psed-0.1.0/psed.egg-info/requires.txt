@@ -1,0 +1,11 @@
+Click>=7.0
+
+[dev]
+tox==3.12.1
+black==19.3b0
+
+[test]
+pytest>=5.1.0
+pytest-cov>=2.7.0
+pyfakefs==3.6
+pytest-azurepipelines==0.8.0
