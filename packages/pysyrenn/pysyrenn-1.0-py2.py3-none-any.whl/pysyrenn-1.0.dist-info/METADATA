@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pysyrenn
+Version: 1.0
+Summary: Symbolic Representations for Neural Networks
+Home-page: https://github.com/95616ARG/SyReNN
+Author: Matthew Sotoudeh and Aditya V. Thakur
+Author-email: masotoudeh@ucdavis.edu, avthakur@ucdavis.edu
+Maintainer: Matthew Sotoudeh and Aditya V. Thakur
+Maintainer-email: masotoudeh@ucdavis.edu, avthakur@ucdavis.edu
+License: MIT
+Keywords: class,attribute,boilerplate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: protobuf
+Requires-Dist: grpcio
+Requires-Dist: onnx
+Requires-Dist: tqdm
+Requires-Dist: aenum
+
+# PySyReNN: Symbolic Representations for Neural Networks
+This package installs the Python client for [SyReNN: Symbolic Representations
+for Neural Networks](https://github.com/95616ARG/syrenn).
+
+## Prerequisites
+This is only a client library --- you **must** download and run the
+corresponding server from [the GitHub
+repository](https://github.com/95616ARG/syrenn) before using it. We use
+[PyTorch](https://pytorch.org/), please ensure you have the desired version of
+PyTorch installed before installing this package.
+
+## Documentation and Source
+Please [visit our GitHub repository](https://github.com/95616ARG/syrenn) for
+documentation and source code.
+
+## Supported Python Versions
+We only test against Python 3.7.4, however we believe it should work for other
+versions of Python as well.
+
