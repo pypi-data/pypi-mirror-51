@@ -1,0 +1,14 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_feather/__init__.py
+django_feather/icons.py
+django_feather.egg-info/PKG-INFO
+django_feather.egg-info/SOURCES.txt
+django_feather.egg-info/dependency_links.txt
+django_feather.egg-info/requires.txt
+django_feather.egg-info/top_level.txt
+django_feather/templatetags/__init__.py
+django_feather/templatetags/icon.py
