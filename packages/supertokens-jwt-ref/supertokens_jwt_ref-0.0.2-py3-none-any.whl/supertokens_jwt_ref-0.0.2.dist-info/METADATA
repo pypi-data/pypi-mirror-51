@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: supertokens-jwt-ref
+Version: 0.0.2
+Summary: SuperTokens' session management solution
+Home-page: https://github.com/supertokens/supertokens-django-ref-jwt
+Author: Bhumil Sarvaiya, Rishabh Poddar
+Author-email: sarvaiyabhumil@gmail.com, rishabh@supertokens.io
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: django
+Requires-Dist: djangorestframework
+Requires-Dist: pycryptodome
+Provides-Extra: dev
+Requires-Dist: autopep8; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: jsonschema; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-django; extra == 'dev'
+
+long_description
+
+
