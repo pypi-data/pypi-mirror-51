@@ -1,0 +1,4 @@
+Django==1.11.23
+django-simple-menu==1.2.1
+core-explore-common-app==1.4.0
+core-main-app==1.4.0
