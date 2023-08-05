@@ -1,0 +1,13 @@
+xadmin/__init__.py,sha256=kNg2Fa46Ch8NH8ppPf5vRmL3Fl7MlpoG24mT_Oojxbs,62
+xadmin/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+xadmin/apps.py,sha256=h1Nst5F7UJMFoLMEDYGSTqhxhDB2PkeHiPJlyYtskVo,87
+xadmin/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+xadmin/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+xadmin/views.py,sha256=YSzNMHz5JlgN6TIAMTLOyPYKuj2gn3-xdVsIbgP2E3o,266
+xadmin/static/xadmin/app.css,sha256=w0nq1kdE_qeAS2gof1waTzF6aR0SBOhdlMl18qP_OGY,737
+xadmin/templates/xadmin/left_menu.html,sha256=CQr5TSrYt4zq5i77-HBWi6sOGTlZVq1ivExUYtscRPc,265
+django_admin_left_menu-0.1.dist-info/LICENSE,sha256=rjoQUqB8Q83saH09wzw__iU44DT1VCklCIv8SbYL9AM,1079
+django_admin_left_menu-0.1.dist-info/METADATA,sha256=kHpFGbgdLID2lV8mpNHhehbLjCaaG35euiEAa1hLYaQ,1130
+django_admin_left_menu-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_admin_left_menu-0.1.dist-info/top_level.txt,sha256=2Z0WcB3VNfS_czxMNrKE6S1ZMO7fehdxdfRUNJ-9Kfc,7
+django_admin_left_menu-0.1.dist-info/RECORD,,
