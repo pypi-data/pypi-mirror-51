@@ -1,0 +1,6 @@
+omf>=1.0.0
+vectormath>=0.2.1
+pyvista>=0.20.1
+numpy
+matplotlib
+vtk>=8.1.0
