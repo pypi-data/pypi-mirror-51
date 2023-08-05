@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mixer.py
+Version: 0.0.2
+Summary: An unofficial Mixer API wrapper written in Python. 
+Home-page: https://github.com/ooojustin/mixer.py
+Author: Justin Garofolo
+Author-email: justin@garofolo.net
+License: UNKNOWN
+Description: # mixer.py
+        An unofficial Mixer API wrapper written in Python.
+        
+        ### Disclaimer
+        As of August 2019, this project is still heavily under development and shouldn't be used as anything more than a reference until further notice.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
