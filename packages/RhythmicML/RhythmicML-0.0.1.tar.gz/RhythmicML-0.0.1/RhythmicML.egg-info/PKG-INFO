@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: RhythmicML
+Version: 0.0.1
+Summary: A tool for ML models deployment and versioning
+Home-page: https://github.com/PycT/RhythmicML
+Author: Rustem Zakiev
+Author-email: rustem.zakiev@gmail.com
+License: UNKNOWN
+Description: #RhythmicML Client
+        
+        This is a client part of RhythmicML - A tool for ML models deployment and versioning.
+        Read more in documentation on GitHub.
+        
+        First of all run `python setup_db.py` to create databse an tables for models tracking.
+Keywords: machine learning machinelearning deployment deploy versioning
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3, <4
+Description-Content-Type: text/markdown
