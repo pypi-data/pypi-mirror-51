@@ -1,0 +1,6 @@
+Pillow>=6.0
+
+[dev]
+doc8
+flake8
+pytest

@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+python4kyoani/__init__.py
+python4kyoani/image.py
+python4kyoani/util.py
+python4kyoani.egg-info/PKG-INFO
+python4kyoani.egg-info/SOURCES.txt
+python4kyoani.egg-info/dependency_links.txt
+python4kyoani.egg-info/entry_points.txt
+python4kyoani.egg-info/requires.txt
+python4kyoani.egg-info/top_level.txt
