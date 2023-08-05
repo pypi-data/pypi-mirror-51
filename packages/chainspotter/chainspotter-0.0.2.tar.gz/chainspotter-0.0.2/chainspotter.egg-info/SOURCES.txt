@@ -1,0 +1,6 @@
+README.md
+setup.py
+chainspotter.egg-info/PKG-INFO
+chainspotter.egg-info/SOURCES.txt
+chainspotter.egg-info/dependency_links.txt
+chainspotter.egg-info/top_level.txt
