@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mutil
+Version: 0.1.1
+Summary: Utilities for managing memory on a CentOS 7 system
+Home-page: https://github.com/anthony-aylward/mutil.git
+Author: Anthony Aylward
+Author-email: aaylward@eng.ucsd.edu
+License: UNKNOWN
+Description: # mutil
+        
+        Utilities for managing memory resources on a CentOS 7 system
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
