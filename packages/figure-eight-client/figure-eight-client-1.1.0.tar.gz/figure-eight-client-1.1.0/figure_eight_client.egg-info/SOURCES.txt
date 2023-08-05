@@ -1,0 +1,11 @@
+README.md
+setup.py
+figure_eight_client/__init__.py
+figure_eight_client/figure_eight_client.py
+figure_eight_client.egg-info/PKG-INFO
+figure_eight_client.egg-info/SOURCES.txt
+figure_eight_client.egg-info/dependency_links.txt
+figure_eight_client.egg-info/requires.txt
+figure_eight_client.egg-info/top_level.txt
+tests/__init__.py
+tests/test_figure_eight_client.py
