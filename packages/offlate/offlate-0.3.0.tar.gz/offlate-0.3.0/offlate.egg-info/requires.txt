@@ -1,0 +1,7 @@
+polib
+ruamel.yaml
+python-dateutil
+PyQt5
+pygit2
+python-gitlab
+translation-finder
