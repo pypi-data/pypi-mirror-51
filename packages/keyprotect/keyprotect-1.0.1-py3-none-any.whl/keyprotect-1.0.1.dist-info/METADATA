@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: keyprotect
+Version: 1.0.1
+Summary: IBM Key Protect API
+Home-page: https://cloud.ibm.com/apidocs/key-protect
+Author: Vance Morris
+Author-email: vmorris@us.ibm.com
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,IBM Key Protect API
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+IBM Key Protect helps you provision encrypted keys for apps across IBM Cloud. As you manage the lifecycle of your keys, you can benefit from knowing that your keys are secured by cloud-based FIPS 140-2 Level 2 hardware security modules (HSMs) that protect against theft of information. You can use the Key Protect API to store, generate, and retrieve your key material. Keys within the service can protect any type of data in your symmetric key based encryption solution.
+
+
