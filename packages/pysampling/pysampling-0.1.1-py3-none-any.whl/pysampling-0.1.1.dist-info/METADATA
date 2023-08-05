@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: pysampling
+Version: 0.1.1
+Summary: Multi-Objective Optimization in Python
+Home-page: https://www.egr.msu.edu/coinlab/blankjul/pysampling/
+Author: Julian Blank
+Author-email: blankjul@egr.msu.edu
+License: Apache License 2.0
+Keywords: optimization
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.15)
+
+pysampling
+====================================================================
+
+You can find the detailed documentation here: https://www.egr.msu.edu/coinlab/blankjul/pysampling/
+
+
+|travis| |python| |license|
+
+
+.. |travis| image:: https://travis-ci.com/julesy89/pysampling.svg?branch=master
+   :alt: build status
+   :target: https://travis-ci.com/msu-coinlab/pymoo
+
+.. |python| image:: https://img.shields.io/badge/python-3.6-blue.svg
+   :alt: python 3.6
+
+.. |license| image:: https://img.shields.io/badge/license-apache-orange.svg
+   :alt: license apache
+   :target: https://www.apache.org/licenses/LICENSE-2.0
+
+
+
+Installation
+============
+
+The framework is available at the PyPi Repository:
+
+.. code-block:: bash
+
+    pip install -U pysampling
+
+
+Usage
+=====
+
+The method to be used for sampling using different algorithm must be
+import from pysampling.sample. Here, we use Latin Hypercube Sampling to
+generate 50 points in 2 dimensions.
+
+.. code:: python
+
+    import matplotlib.pyplot as plt
+    from pysampling.sample import sample
+
+    X = sample("lhs", 50, 2)
+
+    plt.scatter(X[:, 0], X[:, 1], s=30, facecolors='none', edgecolors='r')
+    plt.show()
+
+
+
+Contact
+=======
+
+
+Feel free to contact me if you have any question:
+
+::
+
+    Julian Blank (blankjul [at] egr.msu.edu)
+    Michigan State University
+    Computational Optimization and Innovation Laboratory (COIN)
+    East Lansing, MI 48824, USA
+
+
+
+
