@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: heron-model
+Version: 0.2.5
+Summary: Heron is a machine learning package for Python
+Home-page: https://github.com/transientlunatic/heron
+Author: Daniel Williams
+Author-email: daniel.williams@ligo.org
+License: ISCL
+Keywords: heron
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: progressbar
+Requires-Dist: emcee
+Requires-Dist: pyyaml
+Requires-Dist: jinja2
+Requires-Dist: cython
+Requires-Dist: george
+Requires-Dist: nestle
+Requires-Dist: elk-waveform
+
+=====
+Heron
+=====
+
+
+The ``heron`` package is a python library for using Gaussian Process Regression (GPR) to emulate functions which are expensive to 
+
+It was originally built for producing a surrogate model for numerical
+relativity waveforms from binary black hole coalesences, but the code
+should be sufficiently general to allow other surrogate models to be
+built.
+
+In order to handle very large models, ``heron`` can use the `george`_
+python package to generate the underlying Gaussian Process, which can
+handle very large models thanks to its use of a hierarchical matrix
+inverter.
+
+..
+
+Features
+--------
+
+* Single-valued function surrogate production from multivalued inputs
+* Handling very large datasets.
+
+.. _george: http://dan.iel.fm/george/
+.. _emcee: http://dan.iel.fm/emcee/
+
+
+=======
+History
+=======
+
+0.1.0 (2016-1-22)
+------------------
+
+* First release on PyPI.
+
+

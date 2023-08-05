@@ -1,0 +1,13 @@
+"""
+test_regression
+---------------
+
+Tests for the `regression` module.
+"""
+
+import unittest
+
+from heron import data, regression
+import numpy.testing as nt
+import numpy as np
+
