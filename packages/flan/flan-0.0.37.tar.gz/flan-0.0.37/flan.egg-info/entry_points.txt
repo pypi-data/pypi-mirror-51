@@ -1,0 +1,3 @@
+[console_scripts]
+flan = flan.__main__:main
+
