@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fastscore
+Version: 1.10.1
+Summary: FastScore SDK
+Home-page: UNKNOWN
+Author: Open Data Group
+Author-email: support@opendatagroup.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: iso8601 (>=0.1.11)
+Requires-Dist: PyYAML (>=3.11)
+Requires-Dist: requests (>=2.11.1)
+Requires-Dist: tabulate (>=0.7.5)
+Requires-Dist: websocket-client (>=0.37.0)
+Requires-Dist: six
+Requires-Dist: urllib3 (>=1.20)
+Requires-Dist: certifi (>=2017.4.17)
+Requires-Dist: ordered-set
+
+UNKNOWN
+
+
