@@ -1,0 +1,17 @@
+README.md
+setup.py
+tutti_aisthetics/__init__.py
+tutti_aisthetics/data_generator.py
+tutti_aisthetics/keras_utils.py
+tutti_aisthetics/losses.py
+tutti_aisthetics/nima.py
+tutti_aisthetics/scoring.py
+tutti_aisthetics/utils.py
+tutti_aisthetics.egg-info/PKG-INFO
+tutti_aisthetics.egg-info/SOURCES.txt
+tutti_aisthetics.egg-info/dependency_links.txt
+tutti_aisthetics.egg-info/requires.txt
+tutti_aisthetics.egg-info/top_level.txt
+tutti_aisthetics.egg-info/zip-safe
+tutti_aisthetics/images/__init__.py
+tutti_aisthetics/model/__init__.py
