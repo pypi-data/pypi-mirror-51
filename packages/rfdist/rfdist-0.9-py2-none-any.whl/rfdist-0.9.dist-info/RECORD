@@ -1,0 +1,9 @@
+rfdist/RF.py,sha256=m7dty1ZgWIjlhTAEp5szH1Q6yFhyq9dsrDdn5QWVU54,10978
+rfdist/RF_NTT.py,sha256=ppQ-ulAs0DuqWx6ocCevzVQNtgmXWt9meOmq_bUSi-c,18770
+rfdist/__init__.py,sha256=GNrMv3xL03RO9kNuU5kU-AzffRnhomNO0RcLg4OrPwA,631
+rfdist/ntt.py,sha256=qv5gcXt461KZ9XmN6_I86FTyDaijkJV2q_EiHJQqp3I,1843
+rfdist-0.9.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rfdist-0.9.dist-info/METADATA,sha256=1XsqF1MxUucEYqD_YH2jKIcPI77VWD5qYZ775qfJxEw,449
+rfdist-0.9.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+rfdist-0.9.dist-info/top_level.txt,sha256=lTs14wgb7W4e667StZBmYBk0WEexzAhtvbWrQGlQgRY,7
+rfdist-0.9.dist-info/RECORD,,
