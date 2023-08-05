@@ -1,0 +1,8 @@
+karantools/__init__.py,sha256=2W9XFmyzEAT6UjrcUg6XiXEaVDbHBqAB0M_KcQsJzHw,10448
+karantools/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+karantools/tests/benchmark_concurrency.py,sha256=5AaDz8HZfZ6PZlnrW99h9lw_VpAOBuS1uaThuzGUdSI,1278
+karantools/tests/test_karantools.py,sha256=326AMrVfZQCkW4IJa1HywBv0I6ZOBdLheY_GYkF4ky4,7037
+karantools-0.1.5.dist-info/METADATA,sha256=qhVJbW3_ZIZ9SgHlOTdwLvsmRpFlGsunuR5SV0gR6eU,284
+karantools-0.1.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+karantools-0.1.5.dist-info/top_level.txt,sha256=Kzhquh9QU4XKhYFjycvLs_S6PfhOwAOTXsicJlbtwlo,11
+karantools-0.1.5.dist-info/RECORD,,
