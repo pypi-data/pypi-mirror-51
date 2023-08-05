@@ -1,0 +1,12 @@
+typecats/__about__.py,sha256=HcosVKOTTO80nAfVs8I6193nL1AM4YcPjEOIOg85xfc,105
+typecats/__init__.py,sha256=4O-bm87oIR3SfoyaUupjMUlzfj7HE1HeRLNcj8oBD7Q,88
+typecats/attrs_shim.py,sha256=iDJke22_VdGZ4Di8H_QquORC5HwRFK-JagNs06vTzkc,5276
+typecats/cats_mypy_plugin.py,sha256=LYt9tx9BtXyNSjfb-WxTCkBQFTfl8c-RIy7X_9blIfE,4232
+typecats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typecats/tc.py,sha256=ZJbzbxvC2uk6r9DVptrtRk8QO8uk9nO5XX3EJ8aGx8U,7416
+typecats/wildcat.py,sha256=ivNCB246qCEe7oNMUGjtEeSk2qOMLqlQdMdozyZXGds,3958
+typecats-1.1.1.dist-info/LICENSE,sha256=KDUfjRQbNHFu0L9Ew6I_KkJ246RfsCt2T0Q5IpTB1tg,1073
+typecats-1.1.1.dist-info/METADATA,sha256=DUB1axBzR83ncOx6-FrJd7dX1Avo_jNOWMa8MWzX_JI,10604
+typecats-1.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+typecats-1.1.1.dist-info/top_level.txt,sha256=O6Ut4jfNe5aSyTcZyka_GN9O9KMrHWp2-5a_cM5bQEI,9
+typecats-1.1.1.dist-info/RECORD,,
