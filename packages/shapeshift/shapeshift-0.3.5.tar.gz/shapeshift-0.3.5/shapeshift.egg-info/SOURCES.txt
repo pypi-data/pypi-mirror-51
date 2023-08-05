@@ -1,0 +1,14 @@
+CHANGES
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+shapeshift/__init__.py
+shapeshift/compat.py
+shapeshift/formatters.py
+shapeshift/generic.py
+shapeshift.egg-info/PKG-INFO
+shapeshift.egg-info/SOURCES.txt
+shapeshift.egg-info/dependency_links.txt
+shapeshift.egg-info/top_level.txt

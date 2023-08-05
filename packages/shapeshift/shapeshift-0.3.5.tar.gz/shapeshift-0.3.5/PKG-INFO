@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: shapeshift
+Version: 0.3.5
+Summary: A collection of python logging formats and helpers for transforming logs.
+Home-page: https://github.com/erbriones/shapeshift
+Author: erbriones
+Author-email: evan@evanbriones.com
+License: MIT License
+Description: shapeshift
+        ==========
+        A collection of python logging formats and helpers for transforming logs.
+        
+        ## Generic functions
+         - create_logger
+        
+        ## Formatters
+         - JSONFormatter
+         - KeyValueFormatter
+         - MessagePackFormatter
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Logging
