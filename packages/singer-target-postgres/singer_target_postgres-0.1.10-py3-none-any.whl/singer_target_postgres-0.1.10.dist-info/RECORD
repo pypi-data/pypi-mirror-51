@@ -1,0 +1,16 @@
+target_postgres/__init__.py,sha256=sGh74JzZuamKuphirXGnoNYqgi_hAoodFZg0r6hmPZg,1405
+target_postgres/denest.py,sha256=BMSAROZGfQGVu0Iq29hnYUtJ99DnW874fZ5wjOFgfiw,10982
+target_postgres/exceptions.py,sha256=_gr8y-tczvlhIqJ-i9852d9auDiu2Dr7tsWzcw3hNAw,481
+target_postgres/json_schema.py,sha256=YF7KFzbeKXkRGOi-ydOEfee0QNCwGZ1AgLKrUc7gQ2c,8417
+target_postgres/postgres.py,sha256=kU2vqCioh6USIKBfm1KJoO897rNJzc-9n8EO56lTV80,33526
+target_postgres/pysize.py,sha256=GjE3RVYtK_NXDRs8ih5_LZ_ltGjDrwDPYr8kvSeu0Bo,1077
+target_postgres/singer_stream.py,sha256=8Lej78XR_QPHnzl3Fr4-2PI_n7dPZLN88MK3JNS2Emc,6118
+target_postgres/sql_base.py,sha256=jjKXPlyrb3aSUNhZUb67v33LNi5jph-kpnwznJUvIRE,36064
+target_postgres/stream_tracker.py,sha256=SoxDccK4-qfimsDEag7qzpPoM20uXNZFfAhCsNfYouM,3698
+target_postgres/target_tools.py,sha256=tk8UI9wIv4-Nxxy61Xg3Kzi_WeBcAk_dNQ0HEhxAjqU,6727
+singer_target_postgres-0.1.10.dist-info/LICENSE,sha256=2N5ReRelkdqkR9a-KP-y-shmcD5P62XoYiG-miLTAzo,34519
+singer_target_postgres-0.1.10.dist-info/METADATA,sha256=4eXUMtnY0yJXvHXVQwfXfI6uHIFnJQraXH1pMQbx1Pw,14695
+singer_target_postgres-0.1.10.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+singer_target_postgres-0.1.10.dist-info/entry_points.txt,sha256=H7MTpmQalgLwo0dNqdYIzp2J6Zxwo8kxUeiI83jMi98,71
+singer_target_postgres-0.1.10.dist-info/top_level.txt,sha256=wSA1A3RhgAoHWsf7Z9wEigw4lQA5mfGW5d_qmpU7Pg4,16
+singer_target_postgres-0.1.10.dist-info/RECORD,,
