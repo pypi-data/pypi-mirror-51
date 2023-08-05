@@ -1,0 +1,6 @@
+invoke
+boto3
+pyyaml
+requests
+colorama
+setuptools-git-version
