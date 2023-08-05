@@ -1,0 +1,17 @@
+README.md
+setup.py
+test/test_argutils.py
+test/test_core.py
+test/test_hashutils.py
+test/test_integration.py
+yadupe/__init__.py
+yadupe/__main__.py
+yadupe/argutils.py
+yadupe/core.py
+yadupe/hashutils.py
+yadupe.egg-info/PKG-INFO
+yadupe.egg-info/SOURCES.txt
+yadupe.egg-info/dependency_links.txt
+yadupe.egg-info/entry_points.txt
+yadupe.egg-info/requires.txt
+yadupe.egg-info/top_level.txt
