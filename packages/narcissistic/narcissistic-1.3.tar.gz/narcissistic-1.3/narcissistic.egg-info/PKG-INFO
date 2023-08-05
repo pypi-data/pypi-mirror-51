@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: narcissistic
+Version: 1.3
+Summary: check if a number is narcissistic
+Home-page: https://github.com/DorcasYang/narcissistic/tree/master/narcissistic
+Author: DorcasYang
+Author-email: dorcasyangyijing@163.com
+License: UNKNOWN
+Description: Package "narcissistic" has one submodule also named "narcissistic".
+        The submodule "narcissistic" has one function "narcissistic".
+        You can enter a number to this function in order to check if it is a narcissistic number.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

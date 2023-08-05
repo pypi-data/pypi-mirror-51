@@ -1,0 +1,7 @@
+README.md
+setup.py
+narcissistic/narcissistic.py
+narcissistic.egg-info/PKG-INFO
+narcissistic.egg-info/SOURCES.txt
+narcissistic.egg-info/dependency_links.txt
+narcissistic.egg-info/top_level.txt
