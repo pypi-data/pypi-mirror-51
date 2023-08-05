@@ -1,0 +1,4 @@
+pyzmq
+redis
+pysftp
+pandas
