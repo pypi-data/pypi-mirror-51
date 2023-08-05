@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+django_ru_validators/__init__.py
+django_ru_validators/validators.py
+django_ru_validators.egg-info/PKG-INFO
+django_ru_validators.egg-info/SOURCES.txt
+django_ru_validators.egg-info/dependency_links.txt
+django_ru_validators.egg-info/requires.txt
+django_ru_validators.egg-info/top_level.txt
