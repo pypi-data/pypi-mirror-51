@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: faf-replay-parser
+Version: 0.3.1
+Summary: Supreme Commander Forged Alliance replay parser
+Home-page: https://gitlab.com/Askaholic/faf-replay-parser
+Author: Askaholic
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+
+UNKNOWN
+
+
