@@ -1,0 +1,292 @@
+Metadata-Version: 2.1
+Name: collective.elasticsearch
+Version: 3.0.4
+Summary: elasticsearch integration with plone
+Home-page: http://svn.plone.org/svn/collective/
+Author: Nathan Van Gheem
+Author-email: vangheem@gmail.com
+License: GPL
+Description: Introduction
+        ============
+        
+        See the full documentation on `readthedocs <http://collectiveelasticsearch.readthedocs.io/>`_.
+        
+        Install elasticsearch
+        ---------------------
+        
+        Less than 5 minutes:
+            - Download & install Java
+            - Download & install Elastic Search
+            - bin/elasticsearch
+        
+            Step by Step for Ubuntu:
+                - add-apt-repository ppa:webupd8team/java
+                - apt-get update
+                - apt-get install git curl oracle-java7-installer
+                - curl -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.3.0.tar.gz
+                - tar xfvz elasticsearch-6.3.0.tar.gz
+                - cd elasticsearch
+                - bin/elasticsearch &
+        
+        Does it work?
+            - curl http://localhost:9200/
+            - Do you see the Hudsucker Proxy reference? "You Know, for Search"
+        
+        Use Elastic Search in Plone:
+            - Add collective.elasticsearch to eggs & re-run buildout
+            - Restart Plone
+            - Goto Control Panel
+            - Add "Elastic Search" in Add-on Products
+            - Click "Elastic Search" in "Add-on Configuration"
+            - Enable
+            - Click "Convert Catalog"
+            - Click "Rebuild Catalog"
+        
+        You now have a insanely scalable modern search engine. Now live the life of the Mind!
+        
+        Overview
+        --------
+        
+        This package aims to index all fields the portal_catalog indexes
+        and allows you to delete the `Title`, `Description` and `SearchableText`
+        indexes which can provide significant improvement to performance and RAM usage.
+        
+        Then, ElasticSearch queries are ONLY used when Title, Description and SearchableText
+        text are in the query. Otherwise, Plone's default catalog will be used.
+        This is because Plone's default catalog is faster on normal queries than using
+        ElasticSearch.
+        
+        
+        Compatibility
+        -------------
+        
+        Only tested with Plone 5 with Dexterity types.
+        
+        It should also work with Plone 4.3 and archetypes.
+        
+        Deployed with Elasticsearch 6.3.0
+        
+        State
+        -----
+        
+        Support for all index column types is done EXCEPT for the DateRecurringIndex
+        index column type. If you are doing a full text search along with a query that
+        contains a DateRecurringIndex column, it will not work.
+        
+        
+        Celery support
+        --------------
+        
+        This package comes with Celery support where all indexing operations will be pushed
+        into celery to be run asynchronously.
+        
+        Please see instructions for collective.celery to see how this works.
+        
+        
+        Running tests
+        -------------
+        
+        Run elasticsearch for tests to utilize:
+        
+            docker run \
+                -e "cluster.name=docker-cluster" \
+                -e "ES_JAVA_OPTS=-Xms512m -Xmx512m" \
+                -p 9200:9200 \
+                docker.elastic.co/elasticsearch/elasticsearch-oss:6.3.0
+        
+        Then, you can use one of the travis buildout test files:
+        
+            python bootstrap.py -c travis-5.0.cfg
+            ./bin/buildout -c travis-5.0.cfg
+            ./bin/test -s collective.elasticsearch
+        
+        
+        Travis
+        ------
+        
+        .. image:: https://travis-ci.org/collective/collective.elasticsearch.png
+           :target: https://travis-ci.org/collective/collective.elasticsearch
+           :alt: Travis CI
+        
+        Changelog
+        =========
+        
+        3.0.4 (2019-08-21)
+        ------------------
+        
+        - `Issue#63 <https://github.com/collective/collective.elasticsearch/issues/63>`_ Now ensuring unicode value would for both python2 and python3 case. [nazrulworld]
+        
+        - Now possible to search by other than `Title`, `Description` and `SearchableText` indexes. [nazrulworld]
+        
+        
+        3.0.3 (2019-03-12)
+        ------------------
+        
+        - Add missing import logger
+          [nazrulworld]
+        
+        
+        3.0.2 (2019-01-31)
+        ------------------
+        
+        - Fix Zope DateTime convert to also handle the datetime.date type [ewohnlich]
+        
+        
+        3.0.1 (2019-01-28)
+        ------------------
+        
+        - Fix sortable_title search issue
+          [ewohnlich]
+        
+        
+        3.0.1 (2019-01-28)
+        ------------------
+        
+        - Fix sortable_title search issue
+          [ewohnlich]
+        
+        
+        3.0.0 (2019-01-28)
+        ------------------
+        
+        - Fix date queries to work with `min:max` as well as `minmax`
+          [vangheem]
+        
+        - Fix sort order parsing and implementation
+          [vangheem]
+        
+        - Handle upgrades with missing `es_only_indexes` properly
+          [vangheem]
+        
+        - Add IReindexActive to request as a flag for other code
+          [lucid-0]
+        
+        
+        2.0.2 (2018-11-27)
+        ------------------
+        
+        
+        - Python 3 Support
+          [vangheem]
+        
+        - Support ES 6
+          [lucid-0]
+        
+        - Fix error causing "Server Status" on @@elastic-controlpanel to be empty.
+          [fulv]
+        
+        
+        2.0.1 (2018-01-05)
+        ------------------
+        
+        - Prevent critical error when by chance query value is None.
+          [thomasdesvenain]
+        
+        - Minor code cleanup: readability, pep8, 80 cols, zca decorators.
+          [jensens]
+        
+        - Fix date criteria: 'minmax' instead of 'min:max' + string to date conversion
+          [ebrehault]
+        
+        
+        2.0.0a6 (2017-03-29)
+        --------------------
+        
+        - Gracefully handle upgrades in the settings interface so it doesn't break
+          for people upgrading.
+          [vangheem]
+        
+        
+        2.0.0a5 (2017-03-29)
+        --------------------
+        
+        - Running indexing as admin as it is possible to initiate reindex or index on an
+          object that you do not have permissions for
+          [vangheem]
+        
+        
+        2.0.0a4 (2017-03-27)
+        --------------------
+        
+        - released
+        
+        
+        2.0.0a3 (2017-03-27)
+        --------------------
+        
+        - Add a method to set the body of the request during index creation.
+          [Gagaro]
+        
+        - Fixed get brain in lazy list with negative indexes.
+          [thomasdesvenain]
+        
+        - The list of indexes that forces es search is configurable.
+          [thomasdesvenain]
+        
+        - Works under Plone 4.3.
+          [thomasdesvenain]
+        
+        - Works with archetypes contents.
+          [thomasdesvenain]
+        
+        2.0.0a2 (2016-07-19)
+        --------------------
+        
+        - We can pass a custom results factory and custom query parameters
+          to IElasticSearchCatalog.search() method.
+          So we can use it as a public interface for custom needs.
+          [thomasdesvenain]
+        
+        - Prevent from unindex before reindex when uid is unchanged, for instance at rename.
+          Use a set for to-remove list.
+          [thomasdesvenain]
+        
+        - Fix indexing when removing the Title and Description indexes from Plone
+          [vangheem]
+        
+        2.0.0a1 (2016-06-06)
+        --------------------
+        
+        - upgrade to elasticsearch 2.x
+          [vangheem]
+        
+        1.0.1a4 (2016-05-22)
+        --------------------
+        
+        - provide better search query
+          [vangheem]
+        
+        1.0.1a3 (2016-03-22)
+        --------------------
+        
+        - make sure to get alias definition right
+          [vangheem]
+        
+        1.0.1a2 (2016-03-18)
+        --------------------
+        
+        - create index as an alias so you can potentially work on an existing alias without needing
+          downtime
+          [vangheem]
+        
+        1.0.1a1 (2016-02-25)
+        --------------------
+        
+        - change default sorting to descending.
+          Closes: https://github.com/collective/collective.elasticsearch/issues/12
+          [neilferreira]
+        
+        1.0.0a1 (2016-02-25)
+        --------------------
+        
+        - Initial release
+        
+Keywords: plone elasticsearch search indexing
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 5.0
+Classifier: Framework :: Plone :: 5.1
+Provides-Extra: test
+Provides-Extra: test-archetypes
