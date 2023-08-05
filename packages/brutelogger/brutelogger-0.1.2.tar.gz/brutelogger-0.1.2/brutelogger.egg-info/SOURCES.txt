@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+brutelogger/__init__.py
+brutelogger/brutelogger.py
+brutelogger.egg-info/PKG-INFO
+brutelogger.egg-info/SOURCES.txt
+brutelogger.egg-info/dependency_links.txt
+brutelogger.egg-info/top_level.txt
