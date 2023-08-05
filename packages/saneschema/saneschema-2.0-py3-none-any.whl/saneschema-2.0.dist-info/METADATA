@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: saneschema
+Version: 2.0
+Summary: A simple JSON schema package
+Home-page: https://github.com/murto/saneschema
+Author: Murray Steele
+Author-email: contact@murto.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# saneschema
+
+saneschema is a JSON schema package for people who want an easier-to-parse schema than that provided by `jsonschema`.
+saneschema checks that a JSON file conforms to a given structure, or schema, which can be a very useful tool for data validation.
+
+## Installation
+
+### PyPi & Pip
+
+Installation with PyPi and Pip is the easier option and will ensure you have the most up to date, stable version
+The following command assumes that python 3 is your default version of python.
+
+```bash
+pip install saneschema
+```
+
+### Git & Pip
+
+Installation with Git and Pip is a bit more work but will ensure you have the most up to date version.
+The following commands assume that python 3 is your default version of python and pip.
+
+```bash
+git clone https://github.com/Murto/saneschema.git
+cd saneschema
+python3 setup.py
+pip dist/saneschema-2.0-py3-none-any.whl
+```
+
+
