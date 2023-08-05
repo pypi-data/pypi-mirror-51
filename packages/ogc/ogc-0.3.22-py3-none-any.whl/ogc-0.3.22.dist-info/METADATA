@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: ogc
+Version: 0.3.22
+Summary: ogc, a runner of things
+Home-page: https://github.com/battlemidget/ogc
+Author: Adam Stokes
+Author-email: adam.stokes@ubuntu.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click (<8.0,>=7.0)
+Requires-Dist: jinja2 (<3.0,>=2.10)
+Requires-Dist: dict-deep (==2.0.2)
+Requires-Dist: loguru (<1.0.0,>=0.3.2)
+Requires-Dist: kv (<0.4.0,>=0.3)
+Requires-Dist: melddict (<2.0,>=1.0)
+Requires-Dist: pyyaml-include (<2.0,>=1.1)
+Requires-Dist: pyyaml (<6.0.0)
+Requires-Dist: requests (<3.0,>=2.22)
+Requires-Dist: semver (<3.0,>=2.8)
+Requires-Dist: sh (<2.0,>=1.12)
+Requires-Dist: colorama (>=0.4.1)
+Requires-Dist: pytest (==5.0.1)
+Requires-Dist: python-dotenv (==0.10.3)
+Requires-Dist: ogc-plugins-runner (<2.0.0,>=1.0.0)
+Requires-Dist: ogc-plugins-env (<2.0.0,>=1.0.0)
+Requires-Dist: tabulate (==0.8.3)
+
+[![Build Status](https://travis-ci.org/battlemidget/ogc.svg?branch=master)](https://travis-ci.org/battlemidget/ogc)
+
+# OGC, a runner of things
+
+ogc - Task runner with a focus on deployment/testing/reporting.
+
+## Description
+
+OGC is powered by plugins that can be discovered on https://pypi.org with the
+prefix of `ogc-plugins`. With plugins installed different aspects of a run can
+be defined through a spec file, which is a yaml file setting up plugin
+configuration for the particular goal.
+
+## Usage
+
+```
+> pip install ogc
+> ogc --spec ogc-spec-runner.yml execute
+
+# Or with a ogc.yml file in same directory running ogc from
+> ogc execute
+```
+
+## Add plugins
+
+To make *OGC* a bit more useful, install a few plugins:
+
+```
+> pip install ogc-plugins-runner
+> pip install ogc-plugins-env
+```
+
+This will allow you to add functionality such as running scripts and preparing
+environment variables. Please see the plugins section of the docs for more
+information.
+
+```yaml
+
+meta:
+  name: A test spec
+  description: A simple spec showing how to run commands
+
+# Phases
+setup:
+  - runner:    # This is the plugin from ogc-plugins-runner
+      description: Clean out build directory
+      cmd: rm -rf build
+      tags: [clean]
+```
+
+### Show plugin dependencies
+
+OGC doesn't install plugin dependencies automatically, but will give you a
+summary that you can pass to whatever automation strategy you want.
+
+```
+> ogc --spec ogc-spec-runner.yml list-deps
+```
+
+Output:
+
+```
+Plugin dependency summary ::
+
+  - apt:python3-markdown
+  - snap:juju/latest/stable:classic
+  - snap:juju-wait/latest/stable:classic
+  - pip:pytest==5.0.1
+```
+
+To get the install commands for the plugin deps you can pass `--installable`:
+
+```
+> ogc --spec ogc-spec-runner.yml list-deps --installable
+```
+
+Output:
+
+```
+sudo apt install -qyf python3-markdown
+sudo snap install juju --channel=latest/stable --classic
+sudo snap install juju-wait --channel=latest/stable --classic
+pip install --user pytest==5.0.1
+```
+
+Or to handle installing those packages automatically (like in a CI run):
+
+```
+> ogc --spec ogc-spec-runner.yml list-deps --installable | sh -
+```
+
+## More information
+
+- [Website / Documentation](https://ogc.8op.org)
+
+
