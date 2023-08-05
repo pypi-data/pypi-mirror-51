@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: abode
+Version: 0.1.0
+Summary: Python Environment and Package Manager
+Home-page: https://github.com/mcleonard/abode
+Author: Mat Leonard
+Author-email: leonard.mat@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+
