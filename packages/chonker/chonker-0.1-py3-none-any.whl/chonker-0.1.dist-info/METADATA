@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: chonker
+Version: 0.1
+Summary: A utility package for NLP and Machine Learning
+Home-page: https://github.com/cmdowney88/chonker
+Author: C.M. Downey
+Author-email: cmdowney@uw.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+![alt text](logo.png)
+
+# Chonker
+## Utilities for NLP and Machine Learning 
+
+
