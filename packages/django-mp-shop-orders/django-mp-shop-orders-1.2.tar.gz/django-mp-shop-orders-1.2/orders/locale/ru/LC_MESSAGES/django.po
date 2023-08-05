@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-21 12:45+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: admin.py:11 models/order.py:12
+msgid "Customer"
+msgstr "Клиент"
+
+#: admin.py:15
+msgid "Delivery"
+msgstr "Доставка"
+
+#: admin.py:19
+msgid "Products"
+msgstr "Товары"
+
+#: admin.py:23 models/order_item.py:12
+msgid "Order"
+msgstr "Заказ"
+
+#: apps.py:12
+msgid "Orders"
+msgstr "Заказы"
+
+#: constants.py:6
+msgid "Monday"
+msgstr "Понедельник"
+
+#: constants.py:7
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: constants.py:8
+msgid "Wednesday"
+msgstr "Среда"
+
+#: constants.py:9
+msgid "Thursday"
+msgstr "Четверг"
+
+#: constants.py:10
+msgid "Friday"
+msgstr "Пятница"
+
+#: constants.py:11
+msgid "Saturday"
+msgstr "Суббота"
+
+#: constants.py:12
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: models/delivery_method.py:10 models/order_status.py:10
+#: models/payment_method.py:10
+msgid "Name"
+msgstr "Имя"
+
+#: models/delivery_method.py:25 models/order_status.py:25
+#: models/payment_method.py:25
+msgid "Code"
+msgstr "Код"
+
+#: models/delivery_method.py:41 models/order_status.py:41
+#: models/payment_method.py:41
+msgid "Description"
+msgstr "Описание"
+
+#: models/delivery_method.py:62 models/order.py:70
+#: templates/orders/admin/delivery.html:5
+#: templates/orders/new_order_email_for_manager.html:38
+msgid "Delivery method"
+msgstr "Способ доставки"
+
+#: models/delivery_method.py:63
+msgid "Delivery methods"
+msgstr "Способы доставки"
+
+#: models/order.py:34 models/payment_method.py:62
+#: templates/orders/admin/delivery.html:6
+#: templates/orders/new_order_email_for_manager.html:34
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+#: models/order.py:52 models/order_status.py:98
+msgid "Order status"
+msgstr "Статус заказа"
+
+#: models/order.py:87
+msgid "First name"
+msgstr "Имя"
+
+#: models/order.py:101
+msgid "Last name"
+msgstr "Фамилия"
+
+#: models/order.py:115
+msgid "Middle name"
+msgstr "Отчество"
+
+#: models/order.py:131 templates/orders/admin/delivery.html:4
+#: templates/orders/new_order_email_for_manager.html:55
+msgid "Address"
+msgstr "Адрес"
+
+#: models/order.py:147
+msgid "Mobile number"
+msgstr "Мобильный"
+
+#: models/order.py:161 templates/orders/new_order_email_for_manager.html:48
+msgid "Email"
+msgstr "Эл. адрес"
+
+#: models/order.py:177
+msgid "Date created"
+msgstr "Дата создания"
+
+#: models/order.py:193 models/order_item.py:63
+#: templates/orders/new_order_email_for_manager.html:63
+msgid "Comment"
+msgstr "Комментарий"
+
+#: models/order_item.py:30
+#: templates/orders/new_order_email_for_manager.html:73
+msgid "Product"
+msgstr "Продукт"
+
+#: models/order_item.py:47
+msgid "Quantity"
+msgstr "Количество"
+
+#: models/order_item.py:83
+msgid "Ordered product"
+msgstr "Заказанный товар"
+
+#: models/order_item.py:84
+msgid "Ordered products"
+msgstr "Заказанные товары"
+
+#: models/order_status.py:57
+msgid "Is default"
+msgstr "По умолчанию"
+
+#: models/order_status.py:99
+msgid "Order statuses"
+msgstr "Статусы заказа"
+
+#: models/payment_method.py:63
+msgid "Payment methods"
+msgstr "Способы оплаты"
+
+#: templates/orders/admin/products.html:23
+#: templates/orders/new_order_email_for_manager.html:93
+msgid "Total"
+msgstr "Всего"
+
+#: templates/orders/new_order_email_for_manager.html:15
+#: templates/orders/new_order_email_for_manager.html:84
+msgid "View on site"
+msgstr "Показать на сайте"
+
+#: templates/orders/new_order_email_for_manager.html:24
+msgid "Full name"
+msgstr "ФИО"
+
+#: templates/orders/new_order_email_for_manager.html:28
+msgid "Phone"
+msgstr "Телефон"
+
+#: templates/orders/new_order_email_for_manager.html:44
+msgid "Product count"
+msgstr "Количество товаров"
+
+#: templates/orders/new_order_email_for_manager.html:74
+msgid "Price"
+msgstr "Цена"
+
+#: templates/orders/new_order_message.html:1
+msgid "Thank you for your order!"
+msgstr "Спасибо за заказ!"
+
+#: templates/orders/new_order_message.html:2
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: templates/orders/new_order_message.html:2
+msgid "from"
+msgstr "от"
+
+#: templates/orders/new_order_message.html:3
+msgid "successfully accepted."
+msgstr "успешно принят."
+
+#: templates/orders/new_order_message.html:4
+msgid "We will get back to you shortly."
+msgstr "Мы свяжемся с вами в ближайшее время"
+
+#: templates/orders/new_order_message.html:5
+msgid "Thank you for being with us."
+msgstr "Спасибо что Вы с нами."
+
+#: utils.py:14
+msgid "New order"
+msgstr "Новый заказ"

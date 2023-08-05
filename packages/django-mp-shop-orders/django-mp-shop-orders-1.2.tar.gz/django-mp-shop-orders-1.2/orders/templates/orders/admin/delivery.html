@@ -1,0 +1,6 @@
+
+{% load i18n %}
+
+<b>{% trans 'Address' %}:</b> {{ object.address|default:'---' }} <br />
+<b>{% trans 'Delivery method' %}:</b> {{ object.delivery_method.name }} <br />
+<b>{% trans 'Payment method' %}:</b> {{ object.payment_method.name }}

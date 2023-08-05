@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: django-mp-shop-orders
+Version: 1.2
+Summary: Django shop orders apps
+Home-page: https://github.com/pmaigutyak/mp-shop-orders
+Author: Paul Maigutyak
+Author-email: pmaigutyak@gmail.com
+License: MIT
+Download-URL: https://github.com/pmaigutyak/mp-shop-orders/archive/1.2.tar.gz
+Description: # MP-Shop | Orders
+        
+        ## Installation
+        
+        ### Install using PIP:
+        ```
+        pip install django-mp-shop-orders
+        ```
+        
+        ### Order model requirements
+        * Property `count` - returns number of ordered items
+        * Property `full_name` - returns customer full name
+Platform: UNKNOWN
