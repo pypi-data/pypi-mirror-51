@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+gspread_formatting/__init__.py
+gspread_formatting/dataframe.py
+gspread_formatting.egg-info/PKG-INFO
+gspread_formatting.egg-info/SOURCES.txt
+gspread_formatting.egg-info/dependency_links.txt
+gspread_formatting.egg-info/requires.txt
+gspread_formatting.egg-info/top_level.txt
+gspread_formatting.egg-info/zip-safe
