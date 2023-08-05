@@ -1,0 +1,2 @@
+pdf-reports==0.2.4
+pandas==0.24.2
