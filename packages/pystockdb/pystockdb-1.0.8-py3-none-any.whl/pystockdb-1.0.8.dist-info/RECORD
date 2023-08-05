@@ -1,0 +1,16 @@
+pystockdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystockdb/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystockdb/db/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystockdb/db/schema/stocks.py,sha256=3nb0UgRFiyxLZwIdqj4edUcHPxAJ4_r0t6s5ucpbFus,6137
+pystockdb/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystockdb/tools/base.py,sha256=Wnz70VSibMrGsdoiFCcxGdLHVfb_m3k9qpXdIkTqnA4,6289
+pystockdb/tools/create.py,sha256=LUu8no7UxqC4geOMEkKwlBwocF6Nc6PXZnut97_xDiA,1786
+pystockdb/tools/data_crawler.py,sha256=XN91aETHuOgbGsqQp-2UM35jmlZ-T9Olwb0pFNRR5E0,3581
+pystockdb/tools/fundamentals.py,sha256=etqk_tKaFfuCZt17y99MOr3-2GRuqRONI2azTgO2qaI,3856
+pystockdb/tools/sync.py,sha256=3hr3YklJue4Za84PCMUc1zxyhPYATJwkP4ZruQ-fsuQ,1179
+pystockdb/tools/update.py,sha256=xlaEWC6DBiazgalboT38cAbulfvMNJhCmxo_EKlksN4,4629
+pystockdb-1.0.8.dist-info/LICENSE,sha256=1cM34L3LcZaZoSXHXMG8cI18eDUqnAyLBMVoxi9SO8w,1061
+pystockdb-1.0.8.dist-info/METADATA,sha256=tW_UeXAnXan-LvWbYUaEPVaOxdD7_KlrBCrhF3Gq-tc,4562
+pystockdb-1.0.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pystockdb-1.0.8.dist-info/top_level.txt,sha256=pkZkLf-C9Ex6239MXnyS5_3asljwvhE_NWL2-4IWqF8,10
+pystockdb-1.0.8.dist-info/RECORD,,
