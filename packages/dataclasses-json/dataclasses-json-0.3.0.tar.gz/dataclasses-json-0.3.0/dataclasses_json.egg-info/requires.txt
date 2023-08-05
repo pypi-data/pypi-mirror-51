@@ -1,0 +1,13 @@
+marshmallow==3.0.0rc6
+marshmallow-enum>=1.4.1
+typing-inspect>=0.4.0
+stringcase==1.2.0
+
+[:python_version == "3.6"]
+dataclasses
+
+[dev]
+pytest
+ipython
+mypy>=0.710
+hypothesis
