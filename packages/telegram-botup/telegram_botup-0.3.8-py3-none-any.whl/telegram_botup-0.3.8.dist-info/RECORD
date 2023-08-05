@@ -1,0 +1,14 @@
+botup/__init__.py,sha256=LTC6OJNqMKipwGXM5Vxmt5_TiP2r4kvTJJbTjD1X1BE,100
+botup/cli.py,sha256=nokt1lGi-jJ6FTiO_P1mnY3U5SPgg4IB4Spd3v5aM-4,4214
+botup/dispatcher.py,sha256=7S8mt_MiI_MMnB5dHR7j_6Zr3Hj5gm6u1OmDbqfKrBU,21079
+botup/form.py,sha256=fWw7oDV6NcWDdp07dj64z6zkv7iKFxfpAe9cxt6fDu8,2248
+botup/handlers.py,sha256=NEvVsomQHoJ5SQgoQWGxczxzXrmGsCz01-zH6XwJmjE,6173
+botup/mixins.py,sha256=twUJ3-UXggGqGwz6I6IHIrwHAFLfBCkMZbCCEHYHlaM,2477
+botup/sender.py,sha256=CUk8bBdEN_y4GgFJsL6Xf3tTWHZ-0cohYLz3qJKIMCM,41490
+botup/types.py,sha256=i4wyvLXG5fhmFyzwSDrYXj4ZAI29egWveWGCFTVq3-U,52933
+botup/utils.py,sha256=RFJgRHzA3xmp7W5xgp-gBnGXKpIf7_QPVgyCTCw6t6I,3122
+telegram_botup-0.3.8.dist-info/METADATA,sha256=-tIStZ7zzvJsFrDwEg-GNr_IQh64an4nzSiWKqUAXJI,2843
+telegram_botup-0.3.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+telegram_botup-0.3.8.dist-info/entry_points.txt,sha256=es0AcHSLk9AbjmRUSCSWUAUQgQtMMhmlmvpwht3G1Ck,41
+telegram_botup-0.3.8.dist-info/top_level.txt,sha256=Yv8efy2F1Ud4_cPm71qnnOUPpKl-pNyYNIwC6fnpAJg,6
+telegram_botup-0.3.8.dist-info/RECORD,,
