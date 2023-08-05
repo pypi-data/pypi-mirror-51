@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cornea
+Version: 0.0.1
+Summary: A PyPI package to extract insightful information about an image using Machine Intelligence
+Home-page: https://github.com/pravinba9495/cornea
+Author: Praveen Ravichandran
+Author-email: pravinba9495@gmail.com
+License: MIT
+Description: # Cornea
+        
+        ![GitHub](https://img.shields.io/github/license/pravinba9495/cornea)
+        [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ea8ff99a54fb4f51990ae09014fd0978)](https://www.codacy.com/app/pravinba9495/cornea?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pravinba9495/cornea&amp;utm_campaign=Badge_Grade)
+        
+        A PyPI package to extract insightful information about an image using Machine Intelligence
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
