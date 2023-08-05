@@ -1,0 +1,6 @@
+setup.py
+aft_parse_lib.egg-info/PKG-INFO
+aft_parse_lib.egg-info/SOURCES.txt
+aft_parse_lib.egg-info/dependency_links.txt
+aft_parse_lib.egg-info/requires.txt
+aft_parse_lib.egg-info/top_level.txt

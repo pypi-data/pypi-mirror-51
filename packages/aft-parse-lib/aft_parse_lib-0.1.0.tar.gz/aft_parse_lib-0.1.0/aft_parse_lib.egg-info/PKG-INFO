@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: aft-parse-lib
+Version: 0.1.0
+Summary: An util of parsing
+Home-page: https://github.com/LiangjunFeng/SICA
+Author: Xiaopeng
+Author-email: isharpener@163.com
+License: MIT Licence
+Description: An util of parsing, from origin to viewable
+Keywords: pip,aft-parse-lib,parseutil
+Platform: any
