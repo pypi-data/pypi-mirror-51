@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: omikuji
+Version: 0.1.2
+Summary: Python binding to Omikuji, an efficient implementation of Partioned Label Trees and its variations for extreme multi-label classification
+Home-page: https://github.com/tomtung/omikuji
+Author: Tom Dong
+Author-email: tom.tung.dyb@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Rust
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.5
