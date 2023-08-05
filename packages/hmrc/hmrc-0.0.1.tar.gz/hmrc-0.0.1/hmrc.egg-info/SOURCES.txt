@@ -1,0 +1,16 @@
+README.md
+setup.py
+hmrc/__init__.py
+hmrc.egg-info/PKG-INFO
+hmrc.egg-info/SOURCES.txt
+hmrc.egg-info/dependency_links.txt
+hmrc.egg-info/requires.txt
+hmrc.egg-info/top_level.txt
+hmrc/api/__init__.py
+hmrc/api/client.py
+hmrc/api/data.py
+hmrc/api/hello.py
+hmrc/api/testuser.py
+hmrc/api/vat.py
+test/__init__.py
+test/test_doc.py
