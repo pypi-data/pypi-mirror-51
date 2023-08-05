@@ -1,0 +1,8 @@
+README.md
+setup.py
+ipa2unicode/__init__.py
+ipa2unicode/ipa2unicode.py
+ipa2unicode.egg-info/PKG-INFO
+ipa2unicode.egg-info/SOURCES.txt
+ipa2unicode.egg-info/dependency_links.txt
+ipa2unicode.egg-info/top_level.txt
