@@ -1,0 +1,3 @@
+[console_scripts]
+batch_tar = batch_tar.batch_tar:main
+

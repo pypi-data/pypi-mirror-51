@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+changelog
+setup.py
+batch_tar/__init__.py
+batch_tar/batch_tar.py
+batch_tar.egg-info/PKG-INFO
+batch_tar.egg-info/SOURCES.txt
+batch_tar.egg-info/dependency_links.txt
+batch_tar.egg-info/entry_points.txt
+batch_tar.egg-info/top_level.txt
