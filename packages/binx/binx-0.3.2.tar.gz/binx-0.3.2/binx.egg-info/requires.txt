@@ -1,0 +1,2 @@
+pandas
+marshmallow==2.20.2
