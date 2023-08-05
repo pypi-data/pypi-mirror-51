@@ -1,0 +1,27 @@
+{
+	"commands": [
+		{
+			"name": "m",
+			"help": "Does the migration dance",
+			"execute": "./manage.py makemigrations && ./manage.py migrate",
+			"requires_virtualenv": true
+		},
+		{
+			"name": "r",
+			"help": "Runs all the servers",
+			"execute": "./manage.py runserver",
+			"long_running": true
+		},
+		{
+			"name": "ls",
+			"help": "Lists all the files, of course",
+			"execute": "ls",
+		},
+		{
+			"name": "up",
+			"help": "Up all the things",
+			"execute": "pip3 install -r requirements/development.txt && ./manage.py migrate && ./manage.py runserver",
+			"long_running": true
+		}
+	]
+}
