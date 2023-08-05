@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: djangocms-lang-chooser
+Version: 0.1.0
+Summary: Language chooser as a Django CMS plugin
+Home-page: https://github.com/georgema1982/djangocms-lang-chooser
+Author: George Ma
+Author-email: george.ma1982@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: django-cms (>=3.3.0)
+
+djangocms-lang-chooser
+======================
+
+Installation
+------------
+
+To get started using ``djangocms-lang-chooser``:
+
+- install it with ``pip``::
+
+    $ pip install djangocms-lang-chooser
+
+- add the app to ``INSTALLED_APPS``::
+
+    INSTALLED_APPS = (
+        ...
+        'djangocms_lang_chooser',
+        ...
+    )
+
+
