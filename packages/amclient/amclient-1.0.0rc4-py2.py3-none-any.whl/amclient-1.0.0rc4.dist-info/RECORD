@@ -1,0 +1,14 @@
+amclient/__init__.py,sha256=sLPWM93g0PXHEj9DY7WIF1LCQYVyvYcuCs1m-y7swaQ,220
+amclient/amclient.py,sha256=iFZp1YrpgrYQav35e1bdk5LZzS_fCYAjeSDZ7I_P3Qs,23229
+amclient/amclientargs.py,sha256=-sGbAbdz9r_dggb-CpXcyFSLS7kP2E5AkVHC_ThEpJs,11375
+amclient/defaults.py,sha256=_yZB1HaQlN14kWq3U2vj14ZYNoRSJLBZ-FWlB4Fiejk,813
+amclient/errors.py,sha256=076Vg1n6UBJhoqPye9nS2sQ7DB-y8QAZsAIoUQTvxRg,880
+amclient/loggingconfig.py,sha256=AOiCd-K2cGuD9PDMgsSG-zecB1SoajqyducVoz8Ssic,1504
+amclient/utils.py,sha256=RLJiYBHwjOYt9ii65n5HMYdjVR-4gbiJDbNjf3znEBQ,3462
+amclient/version.py,sha256=7z_ZCgHXXQWkcEIcNVwLJBbxaPwOp22zjzuGVLe8ebQ,134
+amclient-1.0.0rc4.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+amclient-1.0.0rc4.dist-info/METADATA,sha256=glWfl06JXfjWgMWkvYIKA3ItXoo_eRydLkcS4uu_coE,2290
+amclient-1.0.0rc4.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+amclient-1.0.0rc4.dist-info/entry_points.txt,sha256=arj4iKtAzWMRK6uenY7ks_ut6KLK8LI5naGSCblyELo,53
+amclient-1.0.0rc4.dist-info/top_level.txt,sha256=lStyY5lQDwZgxeM3QhQqoQKpUi7EL2AN5wEv4_r3W4Y,9
+amclient-1.0.0rc4.dist-info/RECORD,,
