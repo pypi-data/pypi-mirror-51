@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyogt
+Version: 0.1.0
+Summary: Retrieve departure information from OstgotaTrafiken
+Home-page: https://github.com/claha/pyogt
+Author: Claes Hallstrom
+Author-email: hallstrom.claes@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
