@@ -1,0 +1,3 @@
+[console_scripts]
+cit = conan_index_tools.command:run
+
