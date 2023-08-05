@@ -1,0 +1,7 @@
+README.md
+servra.py
+setup.py
+servra.egg-info/PKG-INFO
+servra.egg-info/SOURCES.txt
+servra.egg-info/dependency_links.txt
+servra.egg-info/top_level.txt
