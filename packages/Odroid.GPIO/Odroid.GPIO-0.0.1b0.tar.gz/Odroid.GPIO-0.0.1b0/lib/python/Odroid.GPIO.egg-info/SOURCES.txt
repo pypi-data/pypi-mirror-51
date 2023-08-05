@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+/home/odroid/odroid_gpio/lib/wrap/wiringPi_wrap.i
+lib/python/Odroid.GPIO.egg-info/PKG-INFO
+lib/python/Odroid.GPIO.egg-info/SOURCES.txt
+lib/python/Odroid.GPIO.egg-info/dependency_links.txt
+lib/python/Odroid.GPIO.egg-info/top_level.txt
+lib/wrap/wiringPi_wrap.i
