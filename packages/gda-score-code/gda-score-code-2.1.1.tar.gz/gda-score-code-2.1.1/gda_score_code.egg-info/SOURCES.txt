@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+gda_score_code.egg-info/PKG-INFO
+gda_score_code.egg-info/SOURCES.txt
+gda_score_code.egg-info/dependency_links.txt
+gda_score_code.egg-info/requires.txt
+gda_score_code.egg-info/top_level.txt
+gdascore/__init__.py
+gdascore/gdaScore.py
+gdascore/gdaUtilities.py
