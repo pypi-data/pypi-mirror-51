@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chalice-cognito-auth
+Version: 2.2.0
+Summary: Library for verifying cognito tokens.
+Home-page: UNKNOWN
+Author: John Carlyle
+Author-email: UNKNOWN
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: python-jose[cryptography] (<4.0.0)
+Requires-Dist: boto3 (<2.0,>=1.9)
+
+UNKNOWN
+
+
