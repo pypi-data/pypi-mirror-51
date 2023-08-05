@@ -1,0 +1,190 @@
+Metadata-Version: 1.1
+Name: oauth2-xfel-client
+Version: 5.1.1
+Summary: Python OAUTH 2.0 Client used for Backend Application strategy login against European XFEL Web Applications
+Home-page: https://git.xfel.eu/gitlab/ITDM/oauth2_xfel_client
+Author: Luís Maia
+Author-email: luis.maia@xfel.eu
+License: MIT
+Description-Content-Type: text/x-rst
+Description: Oauth2 Client
+        =============
+        
+        Small Python library responsible for managing users authentication using
+        OAUTH 2.0 Client Backend Application strategy (from non web software to
+        web Oauth2 providers)
+        
+        *Repository:*
+        
+        - https://git.xfel.eu/gitlab/ITDM/oauth2_xfel_client
+        
+        *Dependencies:*
+        
+        - oauthlib (https://pypi.python.org/pypi/oauthlib)
+        - requests (https://github.com/kennethreitz/requests)
+        - requests-oauthlib (https://github.com/requests/requests-oauthlib)
+        
+        
+        Installation
+        ------------
+        
+        Python project
+        """"""""""""""
+        
+        1. Install requirements, if never done before
+        
+         1.1. For OS X distributions::
+        
+            sudo port install python35
+            sudo port
+        
+            sudo port select --set python3 python35
+        
+            sudo port install py35-pip
+            sudo port select --set pip pip35
+        
+            sudo port install py35-nose
+            sudo port select --set nosetests nosetests-3.5
+        
+         1.2. For Linux distributions::
+        
+            sudo apt-get update
+            sudo apt-get install python3.5
+        
+        
+        2. Make oauth2_xfel_client library available in your python environment
+        
+         2.1. Install it via pip::
+        
+            # Install dependencies from local wheels files
+            pip install --no-index --upgrade --find-links ./external_dependencies/*
+        
+            # Install dependencies from the pypi
+            pip install -r requirements.txt
+        
+         Or as a normal python project (via .egg file)::
+        
+            python setup.py install
+        
+         Running this command the "compiled" `oauth2_xfel_client-5.1.1-py3.4.egg` file
+         is generated under the current Python installation site-packages folder.
+        
+         2.2. Install it as a normal python project (via Wheel)::
+        
+            python setup.py bdist_wheel
+        
+         Running this command 2 folders are generated under the current Python
+         installation site-packages folder:
+        
+         - `oauth2_xfel_client` with the sources;
+         - `oauth2_xfel_client-5.1.1.dist-info/` with Wheels configuration files.
+        
+        3. To identify your Python site-packages folder run::
+        
+            python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+        
+        
+        Usage
+        -----
+        
+        To use this project you need to import it.
+        
+        If you want interact directly with this Library you should import `Oauth2ClientBackend` class::
+        
+         from oauth2_xfel_client.oauth2_client_backend import Oauth2ClientBackend
+        
+        Or import everything::
+        
+         import oauth2_xfel_client
+        
+        1. Connection to the Oauth2Client::
+        
+            from oauth2_xfel_client.oauth2_client_backend import \
+            Oauth2ClientBackend as Oauth2Client
+        
+            # Necessary configuration variables to establish a connection
+            # Go to https://in.xfel.eu/metadata/oauth/applications to make a token for
+            # the metadata catalogue.
+            user_id = '201ed15ff071a63e76cb0b91a1ab17b36d5f92d24b6df4497aa646e39c46a324'
+            user_secret = 'a8ae80f5e96531f19bf2d2b6102f5a537196aca44a673ad36533310e07529757'
+            user_email = 'luis.maia@xfel.eu'
+        
+            # URLs for the metadata catalogue
+            token_url = 'https://in.xfel.eu/metadata/oauth/token'
+            refresh_url = 'https://in.xfel.eu/metadata/oauth/token'
+            auth_url = 'https://in.xfel.eu/metadata/oauth/authorize'
+            scope = ''
+        
+            # Generate the connection
+            oauth_client_valid = Oauth2Client(client_id=user_id,
+                                              client_secret=user_secret,
+                                              scope=scope,
+                                              token_url=token_url,
+                                              refresh_url=refresh_url,
+                                              auth_url=auth_url,
+                                              session_token=None)
+        
+        
+        2. Interaction with the oauth2Client:
+        
+         2.1 Example data_group_types::
+        
+            current_token = oauth_client_valid.get_session_token()
+        
+        
+        Development & Testing
+        ---------------------
+        
+        When developing, and before commit changes, please validate that:
+        
+        1. All tests continue passing successfully (to validate that run *nosetests*)::
+        
+            # Go to the source code directory
+            cd oauth2_xfel_client
+        
+            # Run all tests
+            nosetests .
+        
+            # Run all tests and get information about coverage for all files inside oauth2_xfel_client package
+            pip install nose-cov
+            nosetests --with-cov --cover-erase --cover-inclusive --cov-report term-missing --cov oauth2_xfel_client
+        
+            # Run all tests with xunit
+            nosetests --where=./oauth2_xfel_client/ --with-xunit --xunit-file=pythonTest.xml
+        
+            # If you don't want use nosetests you can simply run the test class
+            python oauth2_xfel_client/tests/oauth2_client_backend_test.py
+        
+        2. Code keeps respecting pycodestyle code conventions (to validate that run **pycodestyle**)::
+        
+            pycodestyle .
+        
+        3. To generate all the wheels files for the dependencies, execute::
+        
+            # Generate Wheels to its dependencies
+            pip wheel --wheel-dir=./external_dependencies -r requirements.txt
+            pip wheel --wheel-dir=./external_dependencies --find-links=./external_dependencies -r requirements.txt
+        
+            # Generate Wheels to itself and dependencies
+            pip wheel --wheel-dir=./external_dependencies .
+            pip wheel --wheel-dir=./external_dependencies --find-links=./external_dependencies .
+        
+        Guarantee that you have the desired versions in requirements.txt and setup.py files.
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
