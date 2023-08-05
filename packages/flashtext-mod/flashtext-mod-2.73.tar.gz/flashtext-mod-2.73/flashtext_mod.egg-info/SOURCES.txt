@@ -1,0 +1,5 @@
+flashtext-mod/setup.py
+flashtext_mod.egg-info/PKG-INFO
+flashtext_mod.egg-info/SOURCES.txt
+flashtext_mod.egg-info/dependency_links.txt
+flashtext_mod.egg-info/top_level.txt
