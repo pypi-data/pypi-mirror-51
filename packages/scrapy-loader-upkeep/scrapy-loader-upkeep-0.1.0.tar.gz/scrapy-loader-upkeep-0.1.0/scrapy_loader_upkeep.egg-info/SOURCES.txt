@@ -1,0 +1,10 @@
+README.rst
+setup.py
+scrapy_loader_upkeep/__init__.py
+scrapy_loader_upkeep/__version__.py
+scrapy_loader_upkeep/loader.py
+scrapy_loader_upkeep.egg-info/PKG-INFO
+scrapy_loader_upkeep.egg-info/SOURCES.txt
+scrapy_loader_upkeep.egg-info/dependency_links.txt
+scrapy_loader_upkeep.egg-info/requires.txt
+scrapy_loader_upkeep.egg-info/top_level.txt
