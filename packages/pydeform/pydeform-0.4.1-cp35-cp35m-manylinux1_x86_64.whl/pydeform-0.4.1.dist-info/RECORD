@@ -1,0 +1,13 @@
+libz.so,sha256=Sdxg0Lt8EYL6BqoWzUKPXmCwiCIjXtjXdM7rQWvoMLo,112576
+libz.so.1.2.11,sha256=Sdxg0Lt8EYL6BqoWzUKPXmCwiCIjXtjXdM7rQWvoMLo,112576
+_pydeform.cpython-35m-x86_64-linux-gnu.so,sha256=mQRDYF6ave7_V7Y4ydUQ0EfbPRw1Gxt2savkJR7Y4FY,1360912
+libz.so.1,sha256=Sdxg0Lt8EYL6BqoWzUKPXmCwiCIjXtjXdM7rQWvoMLo,112576
+.libslibz/libgomp-3300acd3.so.1.0.0,sha256=UeFYIEVyYUmIk-yi0ZDaTDMquk1yirgJwwQOQlWv1NU,63024
+pydeform/interruptible.py,sha256=ruYuruP7AgLpuKDuJYUML95uox2UJO15jb5KnofO3Wg,1472
+pydeform/sitk_api.py,sha256=-eW1ErIBc5NoIFHLSaskV2oHxorqiM2zXrSyl4LJuEU,10387
+pydeform/__init__.py,sha256=yNrgmCy4jecdRo6vj9InQu_llwopY61BpoWKETxHbQ8,24
+pydeform-0.4.1.dist-info/top_level.txt,sha256=aBQRorTXYrTPVzJK0EbsYcVssurF762DZXNI8rXtoJE,19
+pydeform-0.4.1.dist-info/RECORD,,
+pydeform-0.4.1.dist-info/METADATA,sha256=Enuup-lhfZWxjD2Mo5hfNV-7ipDiERVyqK83rBgJWYU,13904
+pydeform-0.4.1.dist-info/WHEEL,sha256=c8uKbdQypV832y6wpTaH7LmB9UQOPgqCSt-bcR7krHw,109
+.libs_pydeform/libgomp-3300acd3.so.1.0.0,sha256=UeFYIEVyYUmIk-yi0ZDaTDMquk1yirgJwwQOQlWv1NU,63024
