@@ -1,0 +1,9 @@
+README.md
+setup.py
+parpar/__init__.py
+parpar/parpar.py
+parpar/utils.py
+parpar.egg-info/PKG-INFO
+parpar.egg-info/SOURCES.txt
+parpar.egg-info/dependency_links.txt
+parpar.egg-info/top_level.txt
