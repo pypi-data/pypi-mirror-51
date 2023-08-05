@@ -1,0 +1,8 @@
+README.md
+setup.py
+keras_mdn_layer.egg-info/PKG-INFO
+keras_mdn_layer.egg-info/SOURCES.txt
+keras_mdn_layer.egg-info/dependency_links.txt
+keras_mdn_layer.egg-info/top_level.txt
+mdn/__init__.py
+mdn/version.py
