@@ -1,0 +1,14 @@
+proMAD/__init__.py,sha256=kJ9jmEgIs33tOr4nIwdbrOjy0mYYESb70sBIMZdrmqw,115
+proMAD/config.py,sha256=jOvZCH5RTSwTTnI25Jv4Pjzg4_el0B2hR6ZI0rm8iNM,322
+proMAD/core.py,sha256=4-nBHrHvwO_9iNL7OzlLkfILMew6PDNY6VKURpr9o64,45639
+proMAD/cut.py,sha256=_GgTgDMbOxm2WP8R0HAoW1Y1ctk6RsyC_q7nGdwoiew,11123
+proMAD/array_data/ARY007.json,sha256=2Ovb2KeOP9S82V9kh9zGMWlxrxJVQvujOdHi98jqsu0,7175
+proMAD/array_data/ARY015.json,sha256=9Z1KuYKs8XY0Qw0_WFBfBAUhgYciQgPowM6sFSZb2n0,6965
+proMAD/array_data/ARY022B.json,sha256=iIQUGK0qOqKnaRFwyH2ZUAocoB2lTIMRMg9567s3OJY,13175
+proMAD/array_data/ARY028.json,sha256=7ZB7h924Wg_vE9e5qDjowaWo2uOLrORExrT6VriBGAo,14511
+proMAD-0.1.0.dist-info/LICENSE.txt,sha256=zXIMcCzcDIRtaW7iYioUXKgZRew8QFLazNQHMSpJGbo,1083
+proMAD-0.1.0.dist-info/METADATA,sha256=a7RvsWxoLKaGsDkxMNdeeeX_AbNVB-nRXyVe1I9MDx4,3150
+proMAD-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+proMAD-0.1.0.dist-info/top_level.txt,sha256=YyZtM-HHfxxg5XviOyVkbPoBZ01cEbrhMuX7SIgtbyo,7
+proMAD-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+proMAD-0.1.0.dist-info/RECORD,,
