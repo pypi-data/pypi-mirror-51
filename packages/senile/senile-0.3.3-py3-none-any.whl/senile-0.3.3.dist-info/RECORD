@@ -1,0 +1,12 @@
+senile/__init__.py,sha256=PCwJLo8pkDeVOyROHIjY1m7XlDsSXE-bmo4bm0FVed4,478
+senile/__main__.py,sha256=D9zA986XLhpJwgkC_MzXqxRS89iSp5N2onB0akCd-v8,8198
+senile/database.py,sha256=Tt5ZgDrAWZfAOlaH0YiMokkQ0xAhD_0O9BrCENR-67E,1864
+senile/icons.py,sha256=tZoFlajFJkwF78SDdTGUZciEdAyalPQ8tNhY-DDZC_c,763
+senile/todo.py,sha256=KHrk63CXcss2cJDRNXLpiNdNbG-IGlDTKAmMRL9eX3A,12977
+senile-0.3.3.dist-info/AUTHORS,sha256=mSVu6bqXWkD-kK1eDPJDadOeFUD8rODf9_hi7S14Nmc,317
+senile-0.3.3.dist-info/LICENSE,sha256=PJU7gEFhT4HdLa6Tn1v_Vf1eJVgmaHtBjt-_R9whL9o,1524
+senile-0.3.3.dist-info/METADATA,sha256=vtxMt7nPAzrySu_-RSNggGsOlEpyTPFsKzPybYZOEUk,5028
+senile-0.3.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+senile-0.3.3.dist-info/entry_points.txt,sha256=LaPZDb-BLrCY43HGCaM799NfNAnBH0QjJiL2okw3k-Q,48
+senile-0.3.3.dist-info/top_level.txt,sha256=z3iKQ0wVQ1h0hqPSXXj_0QjpZws7vULmcFvP0usqsL4,7
+senile-0.3.3.dist-info/RECORD,,
