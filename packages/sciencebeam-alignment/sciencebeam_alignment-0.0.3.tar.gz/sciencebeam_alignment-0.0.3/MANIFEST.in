@@ -1,0 +1,2 @@
+include requirements.txt
+include sciencebeam_alignment/align_fast_utils.pyx
