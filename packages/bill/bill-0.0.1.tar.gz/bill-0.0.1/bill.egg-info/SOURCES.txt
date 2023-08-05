@@ -1,0 +1,7 @@
+README.rst
+setup.py
+bill.egg-info/PKG-INFO
+bill.egg-info/SOURCES.txt
+bill.egg-info/dependency_links.txt
+bill.egg-info/not-zip-safe
+bill.egg-info/top_level.txt
