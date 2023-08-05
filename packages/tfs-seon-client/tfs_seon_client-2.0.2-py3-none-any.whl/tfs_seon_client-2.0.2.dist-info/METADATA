@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tfs-seon-client
+Version: 2.0.2
+Summary: Responsible for integration tfs and seon
+Home-page: https://github.com/paulossjunior/tfs_integration_seon
+Author: Paulo Sergio dos Santo Junior
+Author-email: paulossjuniort@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: rabbitmqX
+
+UNKNOWN
+
+
