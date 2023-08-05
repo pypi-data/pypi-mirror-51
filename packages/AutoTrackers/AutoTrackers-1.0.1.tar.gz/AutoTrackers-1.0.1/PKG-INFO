@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: AutoTrackers
+Version: 1.0.1
+Summary: 为 torrent 文件增加 Tracker 地址
+Home-page: https://github.com/zaw007/AutoTrackers
+Author: zaw
+Author-email: zhangqishao007@foxmail.com
+License: LGPL
+Description: # AutoTracker
+        平时经常 BT 下载，有一些 BT 客户端不支持为种子自动添加 Tracker，例如 transmission，必须手动添加，很麻烦，于是便编写了本自动化脚本，可以快速的为种子添加 Tracker。
+        ## 使用要求
+        Python 3.5+
+        ## 使用方法
+        ```
+        > AutoTrackers.py torrent_file
+        ```
+        ### 可选参数
+        `-type`：添加哪种类型的 tracker，可选：best，all，udp，http，https，ws，best_ip，all_ip，默认为 best
+        
+        `-rt`：是否保留原有的 tracker 服务器地址，0：不保留，1：保留，默认为 1
+        
+        `-o`：文件输出路径，默认为覆盖原文件
+        ## 版权说明
+        本项目采用 LGPL 授权许可
+        ## 鸣谢
+        Trancker 数据源来自 [ngosang/trackerslist](https://github.com/ngosang/trackerslist) 项目，非常感谢此项目。
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

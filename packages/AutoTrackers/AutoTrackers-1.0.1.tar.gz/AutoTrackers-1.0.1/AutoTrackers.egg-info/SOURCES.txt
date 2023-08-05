@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+AutoTrackers/AutoTrackers.py
+AutoTrackers/__init__.py
+AutoTrackers/torrent.py
+AutoTrackers/tracker_list.py
+AutoTrackers.egg-info/PKG-INFO
+AutoTrackers.egg-info/SOURCES.txt
+AutoTrackers.egg-info/dependency_links.txt
+AutoTrackers.egg-info/not-zip-safe
+AutoTrackers.egg-info/top_level.txt
+AutoTrackers/bencode/BTL.py
+AutoTrackers/bencode/__init__.py
+AutoTrackers/bencode/exceptions.py
