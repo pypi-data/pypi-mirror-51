@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: django-allauth-fragdenstaat
+Version: 0.0.2
+Summary: Django applications addressing authentication with FragDenStaat.de as a django-allauth module
+Home-page: http://github.com/okfde/django-allauth-fragdenstaat
+Author: Stefan Wehrmeyer
+Author-email: stefan.wehrmeyer@okfn.de
+License: UNKNOWN
+Keywords: django auth account social oauth fragdenstaat registration
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Requires-Dist: django-allauth
+
+# FragDenStaat OAuth Provider for Django-Allauth
+
+
