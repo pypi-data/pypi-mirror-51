@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: papers-fork
+Version: 0.0.3
+Summary: utilities to keep your PDF library organized
+Home-page: https://github.com/perrette/papers
+Author: Mahe Perrette
+Author-email: mahe.perrette@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: bibtexparser
+Requires-Dist: crossrefapi
+Requires-Dist: fuzzywuzzy
+Requires-Dist: unidecode
+Requires-Dist: scholarly
+Requires-Dist: six
+
+UNKNOWN
+
+

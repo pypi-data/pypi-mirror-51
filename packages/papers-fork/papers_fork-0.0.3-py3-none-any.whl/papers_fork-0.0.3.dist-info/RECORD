@@ -1,0 +1,14 @@
+papers/__init__.py,sha256=lQ7k0BFHgESOm1dZd5Ckns0pPTW_89PW9ltUzZF-r0I,168
+papers/_version.py,sha256=vOrEN0RVmQw6PpCSDmoclaNwc_735aTm51eLF6pUds8,497
+papers/bib.py,sha256=8CZU8uvFetbbPnXvNTygqmSEH38TpwU26-zY5w1vPqo,51808
+papers/config.py,sha256=KuN6qvKwFKhiDqqPe2ERnwRHsU-WLxyrXPhcAIHOiMs,8902
+papers/duplicate.py,sha256=zsFOHeCPDLRT10MeL9TmFNW6eQevmedxnKpvTznEeWk,18884
+papers/encoding.py,sha256=o5VmP7dFj2dqK4WYcRLULT5p4fzFbj7tuXKr_pwfnsM,3132
+papers/extract.py,sha256=_mV-nZJ6QUxGtOnfq-xegG8LXR5RpuVl8Y9nouULJGA,11681
+papers/latexenc.py,sha256=EwJL2imNgPGmi9b-Q5YR9nvQCEuZLfNNx0MP8IUleCA,98547
+papers_fork-0.0.3.data/scripts/papers,sha256=S5-CnS28DcEpxpLrN2Z5H0ONVlict3vW9G9zf9LS1Ak,78
+papers_fork-0.0.3.dist-info/LICENSE,sha256=Uc7FclCyMqKU9cc366vVpOLy9gU2w5btUJX9EDzQVIw,1071
+papers_fork-0.0.3.dist-info/METADATA,sha256=XD-7OAbFnwKV31TnlytxCGjobVmjV5uXeZ0XwHAG8GQ,407
+papers_fork-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+papers_fork-0.0.3.dist-info/top_level.txt,sha256=sLdcLzjapCbtCY-yXhtEHZEniJB7I35rxRLLLURc8mo,7
+papers_fork-0.0.3.dist-info/RECORD,,
