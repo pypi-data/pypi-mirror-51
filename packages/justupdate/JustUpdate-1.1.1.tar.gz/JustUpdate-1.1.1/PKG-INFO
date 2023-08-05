@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: JustUpdate
+Version: 1.1.1
+Summary: Tired of complex updaters that doesn't work. Use JustUpdate, that uses os native solutions to perform the update.
+Home-page: https://github.com/NicklasMCHD/JustUpdate
+Author: NicklasMCHD
+License: GNU LGPLv3
+Description: # Just. Update
+        Just. Update, is a updater system, written in python, that utilizes each platforms native method of installing an application, to perform an update.
+        * On windows, JustUpdate uses NSIS (nullsoft scriptable install system) to perform the update.
+        * On Mac, JustUpdate uses the pkg flat installer archive format, to perform the update (productbuild).
+        
+        ### OS specific Requirements.
+        * Python3.
+        * For windows: NSIS version 3x.
+        * For Mac: the productbuild command available (can be installed by running the command in the terminal, or by installing xCode developer tools).
+        
+        ### Installation
+        JustUpdate can be installed through pip
+        * pip install justupdate
+        
+        or by cloning the repository
+        * git clone <https://github.com/NicklasMCHD/JustUpdate.git>
+        * cd JustUpdate
+        * python setup.py install
+        
+        ### Usage
+        Read the full documentation at https://NicklasMCHD.github.io/JustUpdate/
+        
+        
+        ### License
+                           GNU LESSER GENERAL PUBLIC LICENSE
+                               Version 3, 29 June 2007
+        					   For detailed license information, look in the license file.
+        
+        ### contributing
+        Need a feature or found a bug. Open an issue or submit a pull request.
+        
+Keywords: PyUpdater Pyinstaller Auto Update AutoUpdate Auto-Update Esky simple updater mac/updater windows/updater updater4pyi bbfreeze ccfreeze freeze cz_freeze pyupdate
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
