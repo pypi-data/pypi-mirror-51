@@ -1,0 +1,11 @@
+hip_data_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hip_data_tools/authenticate.py,sha256=5GxoxHaEaH_VnrI5Z2FsTEKr-lwLZcxsN1sRWRsGr-A,3143
+hip_data_tools/common.py,sha256=wN73m_cX1JFGx9PB-ErBfpwJVgJmdITwnAhrcStXa60,218
+hip_data_tools/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hip_data_tools/aws/athena.py,sha256=0zVkZ7paKzGTAOxaBNpyx2jp76usobdgUZxupirhKzw,12415
+hip_data_tools-1.2.1.dev1.dist-info/LICENSE.md,sha256=IVsl_GnzDUbor0UQfaF_4Z7FGY_uZ9m1-vQuxhk9rf0,10453
+hip_data_tools-1.2.1.dev1.dist-info/METADATA,sha256=qxZ0lN09PVOCoy4uqhovT_wnWbfvSC81R0ixk7GoZS8,417
+hip_data_tools-1.2.1.dev1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+hip_data_tools-1.2.1.dev1.dist-info/pbr.json,sha256=2UKR25ezjURER61wEbYWlmpDNlH5sX90btznGStOHzk,47
+hip_data_tools-1.2.1.dev1.dist-info/top_level.txt,sha256=c9MfQFt-ZY3gNvvrvdjN6Aa_K_KZb_hdeGDQq6b8OX0,15
+hip_data_tools-1.2.1.dev1.dist-info/RECORD,,
