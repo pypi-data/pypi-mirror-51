@@ -1,0 +1,16 @@
+MESSENGERuvvs/MESSENGERdata.py,sha256=fl_GfF8blyG_mNjGcJAwaP8GqSkwCdyxALmjC6v3Yy4,17368
+MESSENGERuvvs/__init__.py,sha256=8L-8hNi3FXskr_cbXrTRwZxRHVjj1yKqTiljhkgtU38,295
+MESSENGERuvvs/database_setup.py,sha256=oCj_gP1mrSVAFJMQFwN1IHjclxdkAA-IMvQuobSZ27I,5467
+MESSENGERuvvs/databasebackups.py,sha256=enq0AKNSQa-HBV7juZxenm3yK-nI9rKSr0-eVV2LIBs,1630
+MESSENGERuvvs/initialize_MESSENGERdata.py,sha256=uPRflywVrKMnzYAKrenJzOmzCgabIxWnTR6-3Nvys1g,13187
+MESSENGERuvvs/version.py,sha256=VHGOmXehFc8vHxJFRSpFDrjR0GKOFEJ042ZdiMCfNDk,7424
+MESSENGERuvvs/data/MESSENGER.orbitdata.pkl,sha256=YhQnIZAKFRDWbDCYJZBifNSnNK2ciByIi1CkVuGlEl4,446124
+MESSENGERuvvs/data/modeltest.pkl,sha256=_mbRvxGa1GJAXfRGx_TeFZM7HKL70DUJAzXeLecxSRk,177601
+MESSENGERuvvs/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MESSENGERuvvs/tests/test_MESSENGERdata.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MESSENGERuvvs/tests/test_database_connect.py,sha256=7KTzj3JnEyTo60aCB3XRKm9idxgVp8EjAsvYQJQurH4,711
+MESSENGERuvvs-1.2.0.dist-info/LICENSE.rst,sha256=P0TAMsfHeWDbDVt6Bh0ZpPjGoUFirS8XrhU25q-rlf4,1486
+MESSENGERuvvs-1.2.0.dist-info/METADATA,sha256=vXFbbpZa5UfKBmkJk762FgdLz8ZwCUG-JawT8pWQlB8,2926
+MESSENGERuvvs-1.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+MESSENGERuvvs-1.2.0.dist-info/top_level.txt,sha256=T0m5QLbiLykUal_Hbf8JT-BGRATk0H6NAyxsGLmPMEk,14
+MESSENGERuvvs-1.2.0.dist-info/RECORD,,
