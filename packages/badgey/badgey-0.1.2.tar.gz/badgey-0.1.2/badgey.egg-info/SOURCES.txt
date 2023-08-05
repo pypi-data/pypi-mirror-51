@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+badgey/__init__.py
+badgey/__version__.py
+badgey/_base.py
+badgey/badges.py
+badgey/colormap.py
+badgey/mixins.py
+badgey.egg-info/PKG-INFO
+badgey.egg-info/SOURCES.txt
+badgey.egg-info/dependency_links.txt
+badgey.egg-info/entry_points.txt
+badgey.egg-info/requires.txt
+badgey.egg-info/top_level.txt

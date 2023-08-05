@@ -1,0 +1,11 @@
+pybadges
+docopt
+Jinja2
+gitpython
+matplotlib
+
+[dev]
+pytest
+pytest-cov
+pytest-mypy
+pytest-flake8
