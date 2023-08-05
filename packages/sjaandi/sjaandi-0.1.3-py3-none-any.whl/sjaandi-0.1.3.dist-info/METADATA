@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sjaandi
+Version: 0.1.3
+Summary: Library for visual similarity search and visualization
+Home-page: https://github.com/pechyonkin/sjaandi
+Author: Max Pechyonkin
+Author-email: maxim.pechyonkin@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: fastai
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: python-dotenv
+Requires-Dist: click
+Requires-Dist: rasterfairy-py3
+
+UNKNOWN
+
+
