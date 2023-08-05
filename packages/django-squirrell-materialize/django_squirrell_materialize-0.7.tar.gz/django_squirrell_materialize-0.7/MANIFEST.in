@@ -1,0 +1,5 @@
+include *.rst
+include rawdata/data/*.*
+include *.html
+include *.js
+include *.md
