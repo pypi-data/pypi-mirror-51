@@ -1,0 +1,3 @@
+[lektor.plugins]
+scsscompile = lektor_scsscompile:SCSScompilePlugin
+
