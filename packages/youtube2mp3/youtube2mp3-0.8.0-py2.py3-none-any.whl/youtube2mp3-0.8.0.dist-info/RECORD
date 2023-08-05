@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=_BTqQm1RlSdspZGrtKNqJKLF6Fn5u0ZMiBBYsi58o5U,573
+youtube2mp3/__init__.py,sha256=JQiikWqkneOLz3IbKVs0your3JX31WBNnLbScpBGPAI,48
+youtube2mp3/cli.py,sha256=y0sU_kofj8LcRse3TyykuW_8DBqWPyoZODrZLrNYWjs,2721
+youtube2mp3/options.py,sha256=EwRzVySoOdarcEy-cV1VozHAFKHieP_jyWZcFFNtCcg,644
+youtube2mp3-0.8.0.dist-info/LICENSE.txt,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+youtube2mp3-0.8.0.dist-info/METADATA,sha256=5Qg7cAdIVJqsgQhHpyM6BgoS1F-mGJJoITykkfyi-mA,1989
+youtube2mp3-0.8.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+youtube2mp3-0.8.0.dist-info/entry_points.txt,sha256=S6u6JqzYDrni1ntEOY-sJ5OHW6Cb1Y14AlYdUgbGHnY,54
+youtube2mp3-0.8.0.dist-info/top_level.txt,sha256=gSIoBBk0r1vW6n3x9h2y24LLUAddYR5caow9A8964EU,18
+youtube2mp3-0.8.0.dist-info/RECORD,,
