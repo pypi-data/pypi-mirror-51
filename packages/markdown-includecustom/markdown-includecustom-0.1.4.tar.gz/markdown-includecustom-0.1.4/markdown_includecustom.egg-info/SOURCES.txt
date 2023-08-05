@@ -1,0 +1,8 @@
+setup.py
+markdown_include_custom/__init__.py
+markdown_include_custom/include_custom.py
+markdown_includecustom.egg-info/PKG-INFO
+markdown_includecustom.egg-info/SOURCES.txt
+markdown_includecustom.egg-info/dependency_links.txt
+markdown_includecustom.egg-info/requires.txt
+markdown_includecustom.egg-info/top_level.txt
