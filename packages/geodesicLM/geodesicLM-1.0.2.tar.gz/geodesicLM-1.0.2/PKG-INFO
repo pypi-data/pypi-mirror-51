@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: geodesicLM
+Version: 1.0.2
+Summary: Geodesic Levenberg-Marquardt minimization algorithm
+Home-page: https://github.com/mjwen/geodesicLM
+Author: Mingjian Wen
+Author-email: wenxx151@gmail.com
+License: UNKNOWN
+Description: Geodesic Levenberg-Marquardt minimization algorithm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Common Development and Distribution License 1.0 (CDDL-1.0)
+Classifier: Operating System :: OS Independent
