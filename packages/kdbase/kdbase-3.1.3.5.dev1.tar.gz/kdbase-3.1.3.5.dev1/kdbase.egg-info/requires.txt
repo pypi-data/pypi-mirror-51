@@ -1,0 +1,6 @@
+requests
+simplejson
+happybase
+psutil
+cat-sdk
+pykafka
