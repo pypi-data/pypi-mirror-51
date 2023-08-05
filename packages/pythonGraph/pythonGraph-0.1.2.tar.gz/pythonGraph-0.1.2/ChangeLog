@@ -1,0 +1,33 @@
+CHANGES
+=======
+
+0.1.2
+-----
+
+* Add wait\_for\_close function
+* Correct typo: It's -> Its
+
+0.1.1
+-----
+
+* Fix close\_window bug (#20)
+* Use pbr post-version to determine version
+
+0.1.0
+-----
+
+* Update version number and development status
+* Add sound support (#15)
+* Add support for mouse and keyboard events (#14)
+* Print version information when importing package (#13)
+* Add support for basic drawing commands (#11)
+* Ignore development and packaging files
+* Update setup configuration (#10)
+* Update author information
+* Add README (#6)
+* Delete LICENSE
+* Add "unlicense" to indicate work in public domain (#4)
+* Add Travis CI configuration (#3)
+* Use tox to manage automated testing (#2)
+* Add Setuptools configuration to package project
+* Initial commit
