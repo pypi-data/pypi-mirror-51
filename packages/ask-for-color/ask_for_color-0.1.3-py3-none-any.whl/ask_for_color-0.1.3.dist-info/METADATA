@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ask-for-color
+Version: 0.1.3
+Summary: A GUI interface to get from the user a color string in RGB system.
+Home-page: https://github.com/jeykun/AskForColor.git
+Author: Junior R. Ribeiro
+Author-email: juniorribeiro2013@gmail.com
+License: Free for non-commercial use
+Keywords: GUI,Tkinter,RGB,color,Interface
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Artistic Software
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sh (>=1.11)
+
+UNKNOWN
+
+
