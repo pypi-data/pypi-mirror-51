@@ -1,0 +1,31 @@
+{% load sekizai_tags %}
+{% load static%}
+<div id="controller_sidebar" class="sticky-top float-md-right open">
+    <span id="controller_sidebar_expander_box" class=""><div id="controller_sidebar_expander"> <<  </div></span>
+    <span id="controller_sidebar_content" class="open">
+    </span>
+</div>
+
+{% addtoblock "jss" %}
+    <script src="{% static 'django_arduino_controller/json_websocket.js' %}"></script>
+    <script type="application/javascript" src="{% static 'django_arduino_controller/arduino_api_controller.js' %}"></script>
+
+    <script>
+    $('#controller_sidebar_expander').click(
+        function () {
+            $('#controller_sidebar').toggleClass('open');
+            $('#controller_sidebar_content').toggleClass('open');
+        }
+    );
+    $(document).ready(function () {
+        if (arduino_api_controller.hidden) {
+            $('#controller_sidebar').hide()
+        }
+    });
+</script>
+
+{% endaddtoblock %}
+
+{% addtoblock "css" %}
+    <link rel="stylesheet" type="text/css" href="{% static 'django_arduino_controller/arduino_api_controller.css' %}">
+{% endaddtoblock %}
