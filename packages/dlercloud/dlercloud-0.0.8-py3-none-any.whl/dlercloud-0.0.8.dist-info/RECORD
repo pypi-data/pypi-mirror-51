@@ -1,0 +1,11 @@
+dlercloud/__init__.py,sha256=5GnqbTudSwO2lgXsM810z80v0tZnjdCPoULHiXKsvcw,153
+dlercloud/api.py,sha256=y_gElMru42KUuvYme0A_RvxV6gEdX2PbE0BTXlSijy8,3630
+dlercloud/exceptions.py,sha256=T2ccmywL-HfHC4MHf-BbdPggkgElckKmFM0r9wnYuFM,41
+dlercloud/models.py,sha256=thCWNZeLwFWRsdpIajdAhv9AwSkvW_wCKDpPxZuUA-Y,1983
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=NcreZKFywMc8faYfx9mi2TdZMBi419we9mGRiRIu9-M,2465
+dlercloud-0.0.8.dist-info/LICENSE,sha256=-1U3CfPb6kyOlEdWWPGivZ0qeqFl-LIFY9PYt2bzXr4,1063
+dlercloud-0.0.8.dist-info/METADATA,sha256=MTqfpakRaU1SSyS6IFyo0MWKFrunT5Kc_xl1Du_fSpc,3421
+dlercloud-0.0.8.dist-info/WHEEL,sha256=_6KLEkynAsMirRwaUJATK1lcUuc3usHkC0nDi_Yl22I,92
+dlercloud-0.0.8.dist-info/top_level.txt,sha256=BeluOZLNaSyy8YMQ0B3Bg-3pLBf2YlzRVte3yQEQSQk,16
+dlercloud-0.0.8.dist-info/RECORD,,
