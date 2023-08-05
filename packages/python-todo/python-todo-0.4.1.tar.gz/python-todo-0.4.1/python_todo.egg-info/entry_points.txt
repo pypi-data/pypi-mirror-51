@@ -1,0 +1,3 @@
+[console_scripts]
+python-todo = todo_app.todo:run
+
