@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: gregorian
+Version: 0.0.2
+Summary: A calendar wrapper
+Home-page: https://github.com/dschenck/gregorian
+Author: david.schenck@outlook.com
+Author-email: david.schenck@outlook.com
+License: UNKNOWN
+Description: # Gregorian
+        Gregorian provides a `Calendar` class to manage custom calendars.
+        
+        ## Installation
+        The best - and easiest - way to install `Gregorian` is by calling:
+        ```python
+        pip install gregorian 
+        ```
+        
+        ## Usage
+        ```python
+        import datetime
+        from gregorian import Calendar, utils
+        
+        #every day in 2019
+        calendar = Calendar.generate(datetime.date(2019,1,1), periods=365, freq="D")
+        
+        #weekends
+        weekends = calendar.weekends()
+        
+        #week days
+        weekdays = calendar.weekdays()
+        
+        #first and last date
+        weekdays.first(), weekdays.last()
+        
+        #or slice
+        weekdays[0], weekdays[-1]
+        
+        #10th weekday each month
+        b10 = weekdays.groupby("month").apply(lambda cal: cal[10])
+        
+        #5th to 10th weekday each month
+        b5to10 = weekdays.groupby("month").apply(lambda cal: cal[5:10])
+        
+        #set-like operations
+        holidays = [
+            datetime.date(2019, 1, 1), datetime.date(2019, 1, 21), 
+            datetime.date(2019, 2, 18), datetime.date(2019, 5, 27),
+            datetime.date(2019, 7, 4), datetime.date(2019, 9, 2), 
+            datetime.date(2019, 10, 14), datetime.date(2019, 11, 11), 
+            datetime.date(2019, 11, 28), datetime.date(2019, 12, 25)
+        ]
+        
+        #business days
+        workdays = weekdays.intersection(holidays)
+        
+        #... alternatively
+        workdays = holidays.inverse(datetime.date(2019, 1, 1), datetime.date(2019, 12, 31)).weekdays()
+        
+        #non-weekend holidays
+        offdays = weekdays.union(holidays)
+        
+        #is my birthday a weekday?
+        datetime.date(2019, 6, 17) in weekdays
+        >> True
+        
+        #summer workdays
+        summer = workdays[datetime.date(2019,6,21):datetime.date(2019,9,20)]
+        
+        #index of given date in given frequency
+        workdays.dayof(datetime.date(2019,8,14), "month")
+        >> 8
+        
+        #a few utilities
+        utils.isleap(2016), utils.isleap(datetime.date(2019,6,17))
+        >> True, False
+        
+        #end of month
+        utils.eom(datetime.date(2016,2,14), 0), utils.eom(datetime.date(2016,2,14), -1)
+        >> datetime.date(2019, 2, 29), datetime.date(2019, 1, 31)
+        ```
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
