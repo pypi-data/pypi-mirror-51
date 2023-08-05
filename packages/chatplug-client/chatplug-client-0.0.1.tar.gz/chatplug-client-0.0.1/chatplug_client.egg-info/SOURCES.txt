@@ -1,0 +1,8 @@
+README.md
+setup.py
+chatplug-client/__init__.py
+chatplug-client/client.py
+chatplug_client.egg-info/PKG-INFO
+chatplug_client.egg-info/SOURCES.txt
+chatplug_client.egg-info/dependency_links.txt
+chatplug_client.egg-info/top_level.txt
