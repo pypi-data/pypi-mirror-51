@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "fissle"
+author = "Joni Turunen"
+author-email = "rojun.itu@gmail.com"
+home-page = "https://github.com/d3rp/fissle.git"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = ["fire"]
+description-file = "README.md"
+requires-python = ">=3.5"
+keywords = "cli"
