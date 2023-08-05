@@ -1,0 +1,17 @@
+auto_modelling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_modelling/classification.py,sha256=aVHgZH2yT2o_N1srrKBbgL7AqYAl9QYd3x96lEge8Hs,2171
+auto_modelling/classifion.py,sha256=aVHgZH2yT2o_N1srrKBbgL7AqYAl9QYd3x96lEge8Hs,2171
+auto_modelling/preprocess.py,sha256=lG--9VTeX3aTW01Q_qQp6YCkHxsp53UfNIaiTTcuDI8,6366
+auto_modelling/regression.py,sha256=bOfih34b-BT3GX9BkzuDh5VC4JnjjkZU23sDU7Lxkjs,2221
+auto_modelling/stack.py,sha256=517fBWsnhLFxX901n5RJmMEv1Lu9OKXlXlLxI7H7ToQ,2171
+auto_modelling/config/__init__.py,sha256=ePP1u-CKCojn9pnEQdqq0-1pTQlJw1qs3BWF5qEfyQk,91
+auto_modelling/config/classifier.py,sha256=was8ltKs5DkGhmAcjsNaVeY40GPAR2YssyA0K7yWMHE,1290
+auto_modelling/config/regressor.py,sha256=uD7-d_f8KjXbO9tqgWzzN6MBRvWwibLb5vJhw6Lu3oQ,1721
+config/__init__.py,sha256=ePP1u-CKCojn9pnEQdqq0-1pTQlJw1qs3BWF5qEfyQk,91
+config/classifier.py,sha256=jf1AqfXvFnpBcAh0fuj9JB9drTETk0w9FsIto7_4bpo,1210
+config/regressor.py,sha256=gaudXcj1LWI7HpsQJUYvwWzFwawgiRohU7d86YDERF0,2448
+auto_modelling-1.2.5.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+auto_modelling-1.2.5.dist-info/METADATA,sha256=29kF6-_gmoiICQtlKT6m5vdEEG139vCRavngOqsq-zQ,4052
+auto_modelling-1.2.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+auto_modelling-1.2.5.dist-info/top_level.txt,sha256=0TvyTf_SHftM7kXQoQ6Sijz21vDCy1BsTgPolxNjVxY,15
+auto_modelling-1.2.5.dist-info/RECORD,,
