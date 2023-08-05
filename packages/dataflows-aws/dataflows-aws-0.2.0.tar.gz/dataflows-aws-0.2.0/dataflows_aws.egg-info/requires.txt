@@ -1,0 +1,11 @@
+six
+boto3
+dataflows
+
+[develop]
+moto[server]
+pytest-cov
+pytest
+pylama
+mock
+tox
