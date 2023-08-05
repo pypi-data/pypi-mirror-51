@@ -1,0 +1,9 @@
+_pydeform.pyd,sha256=zi4-6aJhj0_OILsJBfTNC1A-I0RUWNrCbha4JqQT_yM,755712
+pydeform/__init__.py,sha256=yNrgmCy4jecdRo6vj9InQu_llwopY61BpoWKETxHbQ8,24
+pydeform/interruptible.py,sha256=ruYuruP7AgLpuKDuJYUML95uox2UJO15jb5KnofO3Wg,1472
+pydeform/sitk_api.py,sha256=-eW1ErIBc5NoIFHLSaskV2oHxorqiM2zXrSyl4LJuEU,10387
+pydeform-0.4.1.dist-info/LICENSE,sha256=zmTN8X7pdHcCTmqfoM-xBdTAE_HEQSusyyoLcB4Gjdw,1071
+pydeform-0.4.1.dist-info/METADATA,sha256=Enuup-lhfZWxjD2Mo5hfNV-7ipDiERVyqK83rBgJWYU,13904
+pydeform-0.4.1.dist-info/WHEEL,sha256=QJHWA8ZtAaLn6gyCq-lyUdTH0SjlSmxDmoH6z7TE6sQ,106
+pydeform-0.4.1.dist-info/top_level.txt,sha256=aBQRorTXYrTPVzJK0EbsYcVssurF762DZXNI8rXtoJE,19
+pydeform-0.4.1.dist-info/RECORD,,
