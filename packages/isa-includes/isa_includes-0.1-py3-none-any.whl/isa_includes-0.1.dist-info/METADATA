@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: isa-includes
+Version: 0.1
+Summary: for self usage
+Home-page: https://github.com/isagadji/isa_includes
+Author: Isagadji
+Author-email: isagadji@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# isa_includes
+
+
