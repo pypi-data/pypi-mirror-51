@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+WardenBot/__init__.py
+WardenBot/warden_bot.py
+WardenBot.egg-info/PKG-INFO
+WardenBot.egg-info/SOURCES.txt
+WardenBot.egg-info/dependency_links.txt
+WardenBot.egg-info/requires.txt
+WardenBot.egg-info/top_level.txt
+logs/.gitkeep
