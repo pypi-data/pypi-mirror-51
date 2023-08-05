@@ -1,0 +1,12 @@
+cloud_detect/__init__.py,sha256=Kxzzub5p_LtZ9zUUL8P4N1K5h8I6Q3umq8qqzZ9GUEQ,863
+cloud_detect/providers/__init__.py,sha256=JOlYfWUmw3hq_3wz78wuuEBYdoYilf7XHrpEr7eHjAk,326
+cloud_detect/providers/aws_provider.py,sha256=-ogMuu-_R-shJCHmsI0_-swoUrjfM8MqRPkmkmuOW_I,1564
+cloud_detect/providers/azure_provider.py,sha256=kzRUfFV-xFCAaSV_Ec24jEX6dNm-IiMjsBcsO-LBDdE,1511
+cloud_detect/providers/do_provider.py,sha256=zyuuaX3robVHLu7Ojnowj1oyOVshim3KomlLEoSpgLk,1445
+cloud_detect/providers/gcp_provider.py,sha256=o-ZYQASmotywn2MLYPjfhQEaYxQvIjAwIgRY1KyJNEI,1542
+cloud_detect/providers/provider.py,sha256=NhlpI7LM3CKCB3dcWtVywEyoXW7t0J2ENXFH1FxsaPY,499
+cloud_detect-0.0.4.dist-info/LICENSE.md,sha256=am9NpuENDpGCg8IFc_Z2dTjUjAKR7vixwxZcpe05A40,1079
+cloud_detect-0.0.4.dist-info/METADATA,sha256=adUPzqzlUFiCjttHB06p9Ysa99aK66HxXiUVZFDAUQg,3089
+cloud_detect-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+cloud_detect-0.0.4.dist-info/top_level.txt,sha256=iHdE4Mld9ibEVOoJevrcdhJRrQyNc3keoBhasTV1-cI,13
+cloud_detect-0.0.4.dist-info/RECORD,,
