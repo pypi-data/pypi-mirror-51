@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+aliyun_python_sdk_ft_test.egg-info/PKG-INFO
+aliyun_python_sdk_ft_test.egg-info/SOURCES.txt
+aliyun_python_sdk_ft_test.egg-info/dependency_links.txt
+aliyun_python_sdk_ft_test.egg-info/requires.txt
+aliyun_python_sdk_ft_test.egg-info/top_level.txt
+aliyunsdkft/__init__.py
+aliyunsdkft/request/__init__.py
+aliyunsdkft/request/v20190802/RoaHttpStringResponseTestRequest.py
+aliyunsdkft/request/v20190802/TestPortalRequest.py
+aliyunsdkft/request/v20190802/__init__.py
