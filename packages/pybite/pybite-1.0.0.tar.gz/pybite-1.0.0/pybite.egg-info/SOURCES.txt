@@ -1,0 +1,7 @@
+README.md
+setup.py
+pybite/__init__.py
+pybite.egg-info/PKG-INFO
+pybite.egg-info/SOURCES.txt
+pybite.egg-info/dependency_links.txt
+pybite.egg-info/top_level.txt
