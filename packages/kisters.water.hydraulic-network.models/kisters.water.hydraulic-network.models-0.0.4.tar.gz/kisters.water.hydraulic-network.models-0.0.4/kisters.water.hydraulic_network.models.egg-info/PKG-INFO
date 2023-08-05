@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kisters.water.hydraulic-network.models
+Version: 0.0.4
+Summary: Model library for the Kisters Hydraulic Network Storage service
+Home-page: https://gitlab.com/kisters/water/hydraulic-network/models
+Author: Jesse VanderWees
+Author-email: jesse.vanderwees@kisters-bv.nl
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
