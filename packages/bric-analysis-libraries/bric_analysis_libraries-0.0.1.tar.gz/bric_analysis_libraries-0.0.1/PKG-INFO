@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bric_analysis_libraries
+Version: 0.0.1
+Summary: An assortment of analysis libraries.
+Home-page: https://github.com/bicarlsen/analysis-libraries.git
+Author: Brian Carlsen
+Author-email: carlsen.bri@gmail.com
+License: UNKNOWN
+Description: # Analysis Libraries
+        An assortment of analysis libraries.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
