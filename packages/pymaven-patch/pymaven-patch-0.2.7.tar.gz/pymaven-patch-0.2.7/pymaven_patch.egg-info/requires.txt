@@ -1,0 +1,17 @@
+lxml<5.0.0,>=4.0.0
+requests<3.0.0,>=2.7.0
+six<2.0,>=1.10
+
+[development]
+detox
+epdb
+flake8
+isort
+yapf
+
+[test]
+pytest
+pytest-cov
+
+[test:( python_version<'3.4')]
+mock
