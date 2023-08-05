@@ -1,0 +1,14 @@
+django_user_states/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_user_states/admin.py,sha256=Av-TbVuSjItR9aT8i6yS-PT1DNAl-gEN643-igUaVMM,115
+django_user_states/apps.py,sha256=2jy5r1PdBNvOz-cmKJF65ec8BizTu2ldoEluLVhhAzo,85
+django_user_states/managers.py,sha256=wWPxGIVqb-VtO_2Z44ycMIAqHIwfz3AQTLCK6KTWea8,871
+django_user_states/models.py,sha256=my4KyICc7ANej2RzY4YQ3KT6NfwEBkl3pvH0weuDBv8,738
+django_user_states/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_user_states/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_user_states/migrations/0001_initial.py,sha256=xHbuXsuL3HD8eUnEfY_6EEXx_CL23-aNinbAw5MV_TA,1336
+django_user_states/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_user_states-1.0.0.dist-info/LICENSE,sha256=S68TdoF4aneUofFx_60WWTdORUtN8trTgPPmOClI7Nc,1071
+django_user_states-1.0.0.dist-info/METADATA,sha256=3Ro6zTONbkEQA6aWEX9EjWINKN-CMNfWE09Z3yOfFkQ,1183
+django_user_states-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_user_states-1.0.0.dist-info/top_level.txt,sha256=UG2z8257rg6fPiFQ8eZhntIZOIeDHgFM175rY4pmv5w,19
+django_user_states-1.0.0.dist-info/RECORD,,
