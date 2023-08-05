@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: superdatabase3000
+Version: 0.1.1
+Summary: An awesome database!
+Home-page: https://github.com/JeanMax/SuperDatabase3000
+Author: JeanMax
+Author-email: max@rmrf.fr
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/JeanMax/SuperDatabase3000/issues
+Project-URL: Source, https://github.com/JeanMax/SuperDatabase3000/
+Description: # Super Database 3000
+        
+        | Branch | Build | Coverage | Package |
+        |-|-|-|-|
+        | `master` | [![Build Status](https://travis-ci.org/JeanMax/superdatabase3000.svg?branch=master)](https://travis-ci.org/JeanMax/superdatabase3000) | [![Coverage Status](https://coveralls.io/repos/github/JeanMax/superdatabase3000/badge.svg?branch=master)](https://coveralls.io/github/JeanMax/superdatabase3000?branch=master) | [![PyPI version](https://badge.fury.io/py/superdatabase3000.svg)](https://badge.fury.io/py/superdatabase3000) |
+        | `dev` | [![Build Status](https://travis-ci.org/JeanMax/superdatabase3000.svg?branch=dev)](https://travis-ci.org/JeanMax/superdatabase3000) | [![Coverage Status](https://coveralls.io/repos/github/JeanMax/superdatabase3000/badge.svg?branch=dev)](https://coveralls.io/github/JeanMax/superdatabase3000?branch=dev) |-|
+        
+        
+        
+        
+        ## Install:
+        * pip install superdatabase3000
+        
+        ## Usage:
+        * first, launch a server:
+        ```shell
+        from superdatabase3000 import DbServer
+        
+        server = DbServer()
+        server.read_loop()
+        ```
+        
+        * connect client:
+        ```shell
+        from superdatabase3000 import DbClient
+        
+        client = DbClient()
+        df = client.select("/toto")
+        ```
+        
+Keywords: super database
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
