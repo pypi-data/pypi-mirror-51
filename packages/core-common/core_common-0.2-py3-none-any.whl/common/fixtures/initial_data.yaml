@@ -1,0 +1,49 @@
+- model: common.Citizenship
+  pk: 1
+  fields:
+    name: Undefined
+- model: common.Citizenship
+  pk: 2
+  fields:
+    name: Portuguese
+
+- model: common.Country
+  pk: 1
+  fields:
+    name: Not defined
+    code: n/a
+- model: common.Country
+  pk: 2
+  fields:
+    name: Portugal
+    code: PT
+
+- model: common.City
+  pk: 1
+  fields:
+    name: Lisboa
+    country: 2
+
+
+- model: common.Currency
+  pk: 1
+  fields:
+    name: Euro
+    symbol: €
+- model: common.Currency
+  pk: 1
+  fields:
+    name: Dollar
+    symbol: $
+
+- model: common.Institution
+  pk: 1
+  fields:
+    name: Champalimaud Foundation
+    short: CF
+
+- model: common.Nationality
+  pk: 1
+  fields:
+    name: Portuguese
+
