@@ -1,0 +1,15 @@
+usagelogger/__init__.py,sha256=3Y7ARgSNMuQZmbRcDmq2cqygbDwmscT04lTcXiXZ-xQ,304
+usagelogger/base_logger.py,sha256=By0Vg72qSScUovDHT-MSK76LvwCR5St9TiRE6DQ1Rn0,3583
+usagelogger/http_logger.py,sha256=gfBWvgDh-DH1N8Avo_zKxs1nL7NkJ1RgPkhOvkBWQ6g,6531
+usagelogger/http_message.py,sha256=zcGa7YrrYyWexayAVfRer3G5n5kZopTWpCGsWVxytNI,1908
+usagelogger/http_request_impl.py,sha256=DBUEwA1W6Do5L0qSF0MqhYBXGhHvD9bF4ieEsRC89G8,5920
+usagelogger/http_response_impl.py,sha256=EGHlyA9S3Be3Mc8xUgzJvb3gIapzZHAmjQYs5VS9oww,900
+usagelogger/http_rule.py,sha256=KCPGqQ3Yy9IBh8NpiguOgkoDjmXgaCuR9WDRcUSo84o,709
+usagelogger/http_rules.py,sha256=kj9sH8Xemb6OPvBwNksJO2JLPRoGDBYQYwqwf_6al2Q,8253
+usagelogger/usage_loggers.py,sha256=f0ZYJeaogPTRyyMgy0xEuLKC5UmCwO6MFLOG_uomn4A,564
+usagelogger-0.2.1.dist-info/LICENSE.md,sha256=dP10lzOBffPMZhy6juKzyDEx_pd9sGzHn6TxuIdNG-s,574
+usagelogger-0.2.1.dist-info/METADATA,sha256=8JUfwk-k5PxeAN47z0w6lXChZFn6LefAXwjtGPjJvDQ,1902
+usagelogger-0.2.1.dist-info/NOTICES.md,sha256=IkRlA1rGbp-yYPyf6GBCC6WL22qPZJXpiFWeAOCP5YY,4892
+usagelogger-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+usagelogger-0.2.1.dist-info/top_level.txt,sha256=4_zxr-88rs7iEGouVNs0SA5hCVO7Ito6LwDgNJdpjYE,12
+usagelogger-0.2.1.dist-info/RECORD,,
