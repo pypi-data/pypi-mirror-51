@@ -1,0 +1,3 @@
+[console_scripts]
+hanime = hanime.__main__:main
+
