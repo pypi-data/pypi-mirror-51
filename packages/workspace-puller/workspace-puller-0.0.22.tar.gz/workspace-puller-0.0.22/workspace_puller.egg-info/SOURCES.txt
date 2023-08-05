@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+workspace_puller/__init__.py
+workspace_puller/client_secrets.json
+workspace_puller/main.py
+workspace_puller/tools.py
+workspace_puller/workspace_puller.py
+workspace_puller/wp_telegram_bot.py
+workspace_puller.egg-info/PKG-INFO
+workspace_puller.egg-info/SOURCES.txt
+workspace_puller.egg-info/dependency_links.txt
+workspace_puller.egg-info/entry_points.txt
+workspace_puller.egg-info/requires.txt
+workspace_puller.egg-info/top_level.txt
