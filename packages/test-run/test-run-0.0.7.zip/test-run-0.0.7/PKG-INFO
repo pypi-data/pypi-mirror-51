@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: test-run
+Version: 0.0.7
+Summary: A Python package to print
+Home-page: UNKNOWN
+Author: ANOOP SINGH RANA
+Author-email: apours986@gmail.com
+License: MIT
+Description: #Print Numbers
+        
+        A Python Package to Print Numbers
+        
+        ##Usage
+        
+        Following query on terminal will provide you the numbers
+        
+        test_run 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
