@@ -1,0 +1,5 @@
+build_debug/
+build_vs/
+build/
+.vscode/
+.ycm_extra_conf.py
