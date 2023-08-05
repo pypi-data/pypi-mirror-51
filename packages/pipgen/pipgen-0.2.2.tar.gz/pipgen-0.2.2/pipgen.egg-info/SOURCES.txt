@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+../README.md
+./bin/depipify.sh
+./bin/pipify.sh
+./bin/pippush.sh
+pipgen/__init__.py
+pipgen/wrapper.py
+pipgen.egg-info/PKG-INFO
+pipgen.egg-info/SOURCES.txt
+pipgen.egg-info/dependency_links.txt
+pipgen.egg-info/requires.txt
+pipgen.egg-info/top_level.txt
