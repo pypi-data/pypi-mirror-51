@@ -1,0 +1,8 @@
+gsd-1.8.1.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
+gsd-1.8.1.dist-info/RECORD,,
+gsd-1.8.1.dist-info/top_level.txt,sha256=g8OjMPQhTrUjuQyeawPdylxoBfs2Fmpz4qpBU_tW4Yc,4
+gsd-1.8.1.dist-info/METADATA,sha256=36h7IgCTrwzuoWOAikw-mxDHTWPrj4Vy6bgUUdhjNpw,3738
+gsd/__init__.py,sha256=wtubDuhAh5YICfVxBtsZmHNwlmqYPCSUV_b9zmK08i0,769
+gsd/fl.cpython-37m-x86_64-linux-gnu.so,sha256=mk_Ls-HhyBl_YxA3LHINfjVaO-gaquIRzNeJu91P0Lo,844371
+gsd/pygsd.py,sha256=Kw7PPAi6VT_dH8aFOCjrorTw9aYs9RTJ9HCzU_L22Lc,12539
+gsd/hoomd.py,sha256=UFh4RPDdyPbFpRVU_asTO-oAujBDiYsWZgS-YAXOsRo,38982
