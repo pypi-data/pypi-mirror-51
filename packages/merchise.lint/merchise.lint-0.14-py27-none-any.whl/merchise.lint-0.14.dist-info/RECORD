@@ -1,0 +1,17 @@
+merchise.lint-0.14-py3.6-nspkg.pth,sha256=5ddY_3dEW-OTH3CsxpAiAClFVwZtLcWJ1O0Pb87wjh4,549
+merchise/lint/__init__.py,sha256=orPsznraerWfjOlLiCrmtOxch49Ty1Y6G9dQIkkiSKc,21
+merchise/lint/engine.py,sha256=YPzTu_9QGYucgxlQ6E0YVFJlKgT_MjwV5dLlcCwmSio,2789
+merchise/lint/main.py,sha256=sqNxv7sK34VyCmIQL_NwFVSFVbIousTD_ZZPH7Vod8s,1566
+merchise/lint/checkers/__init__.py,sha256=bzOEUyioIdPMUSjL5cMvJLLP-MSRLn-VnErIAwGVVfE,629
+merchise/lint/checkers/absolute_import_check.py,sha256=qGFtKeIFzfPOTKMth_HNBnJgQ795YZwM4n-QXpG1Y3Y,1145
+merchise/lint/checkers/break_or_cont.py,sha256=5KK9GbXkgmQlfxqzfIXpZuIl-yuwhJqC7b_xW8IHfCM,1458
+merchise/lint/checkers/mock_check.py,sha256=BwoHRvOFdTZzS5VfkykUWaN8PVlCPINlPFSWCVAyvLo,948
+merchise/lint/checkers/odoo_i18n.py,sha256=g8clVbgiaSbOfCgIkVQrY4Yx4xhlRBr3tla0y1D0Sak,2136
+merchise/lint/checkers/pdb_check.py,sha256=K1Phs30jrk708nh-XCKVjcl3qAFQ12VFIU6QQ4ozhCw,1426
+merchise/lint/eslint/jsx-needs-il8n.js,sha256=7-X-F1e2HSqy2UTUPtjTfuGxWgsnGWCVr9fAPNC1GdU,1795
+merchise.lint-0.14.dist-info/METADATA,sha256=29g3e1Nypf3cLr0VbRySwMjClSoGJp9e_czXR-jPvcY,425
+merchise.lint-0.14.dist-info/WHEEL,sha256=Nuk8Pqkb8T93Td43Brt_p2zvtaFg9EXBjiWUJwGMYsY,93
+merchise.lint-0.14.dist-info/entry_points.txt,sha256=dqavmOa9FsKzQqkQmvCac2lW9fGRNgMZ1lqe7oudk4g,432
+merchise.lint-0.14.dist-info/namespace_packages.txt,sha256=2xnoJNDLmjSNJyeDLJK8eMmNzjdKmokYcF2PTCL1glw,9
+merchise.lint-0.14.dist-info/top_level.txt,sha256=2xnoJNDLmjSNJyeDLJK8eMmNzjdKmokYcF2PTCL1glw,9
+merchise.lint-0.14.dist-info/RECORD,,

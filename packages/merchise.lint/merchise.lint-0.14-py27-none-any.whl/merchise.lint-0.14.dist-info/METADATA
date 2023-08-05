@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: merchise.lint
+Version: 0.14
+Summary: Merchise Lint Checks (for CI)
+Home-page: http://www.merchise.org/
+Author: Merchise Autrement
+Author-email: info@merchise.org
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Dist: flake8 (<3.8,>=3.5)
+Requires-Dist: pycodestyle
+Requires-Dist: glob2 (>=0.4.1)
+
+Provide checkers to avoid common errors to check into your code.
+
+
