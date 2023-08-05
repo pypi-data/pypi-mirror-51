@@ -1,0 +1,14 @@
+cli.py,sha256=AD-5hg_OwvXBnMD963dqoFAmTMCK1f-1bkcDevPjdEc,3669
+model.py,sha256=0eJ-d63xA9ucRib-3VNAMPhGuQQUoDEOR2TWyQp1KEI,14269
+predict.py,sha256=KIWqvzLCGkTbaUDoYaJHw5FSWTDzI6EWaRrH3L0z93Y,8137
+dataspine_cli-0.2.5.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+dataspine_cli-0.2.5.dist-info/METADATA,sha256=d83RvKVgZVQMbLz0sTves-9OTUJ3ubIi1jEB58mu7hA,1633
+dataspine_cli-0.2.5.dist-info/RECORD,,
+dataspine_cli-0.2.5.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+dataspine_cli-0.2.5.dist-info/entry_points.txt,sha256=gL0lPxu5UIIHVPxlN1RA9C2XcXEmTBMhNqgt-2nAces,55
+dataspine_cli-0.2.5.dist-info/metadata.json,sha256=T9hB8yhR-HmMQSdkn0K_pIMOeaFg_8sRs6ovyEAu11o,1487
+dataspine_cli-0.2.5.dist-info/top_level.txt,sha256=kiDe6e_5aAPyYsuwsvpwOfKvs1mhdHdQ2-46CBApCcc,24
+utils/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+utils/__init__.py,sha256=Q64vAisSM5LIuNdFKLcBWUAxhYIAL-7ECHWPTM6uqbE,57
+utils/authenticators.py,sha256=IfUHDJFzzybyMj_9ZamSAiiJ4CETNoBXu2XOLqQuhV8,977
+utils/constants.py,sha256=YTQfjmf3QQRwEE9u2Anj3U2ZOqOhMbNZ06w82MaoVRo,540
