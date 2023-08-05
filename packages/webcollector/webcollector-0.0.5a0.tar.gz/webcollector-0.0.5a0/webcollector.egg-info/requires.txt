@@ -1,0 +1,5 @@
+html5lib
+aiohttp
+BeautifulSoup4
+redis
+requests
