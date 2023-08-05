@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ntripbrowser
+Version: 2.2.0
+Summary: NTRIP cli browser
+Home-page: https://github.com/emlid/ntripbrowser.git
+Author: Andrew Yushkevich, Alexander Yashin
+Author-email: andrew.yushkevich@emlid.com, alexandr.yashin@emlid.com
+License: BSD-3-Clause
+Description: UNKNOWN
+Platform: UNKNOWN
