@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stare
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://giordonstark.com.com
+Author: Giordon Stark
+Author-email: gstark@cern.ch
+License: BSD 3-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Provides-Extra: develop
+Provides-Extra: complete

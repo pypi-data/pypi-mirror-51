@@ -1,0 +1,6 @@
+setup.py
+src/stare.egg-info/PKG-INFO
+src/stare.egg-info/SOURCES.txt
+src/stare.egg-info/dependency_links.txt
+src/stare.egg-info/requires.txt
+src/stare.egg-info/top_level.txt
