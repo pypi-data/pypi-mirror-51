@@ -1,0 +1,6 @@
+setup.py
+pycloudsqlproxy/__init__.py
+pycloudsqlproxy.egg-info/PKG-INFO
+pycloudsqlproxy.egg-info/SOURCES.txt
+pycloudsqlproxy.egg-info/dependency_links.txt
+pycloudsqlproxy.egg-info/top_level.txt
