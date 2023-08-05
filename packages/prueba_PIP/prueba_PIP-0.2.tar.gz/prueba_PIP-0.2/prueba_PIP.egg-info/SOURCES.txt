@@ -1,0 +1,10 @@
+README.md
+prueba_PIP
+setup.py
+holacrack/__init__.py
+holacrack/holacrack2/__init__.py
+holacrack/holacrack2/holacrack2.py
+prueba_PIP.egg-info/PKG-INFO
+prueba_PIP.egg-info/SOURCES.txt
+prueba_PIP.egg-info/dependency_links.txt
+prueba_PIP.egg-info/top_level.txt
