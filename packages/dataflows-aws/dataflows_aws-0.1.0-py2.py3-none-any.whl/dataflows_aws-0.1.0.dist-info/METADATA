@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: dataflows-aws
+Version: 0.1.0
+Summary: A utility library for working with Table Schema in Python
+Home-page: https://github.com/frictionlessdata/dataflows-aws
+Author: Open Knowledge Foundation
+Author-email: info@okfn.org
+License: MIT
+Keywords: frictionless data,open data,json schema,table schema,data package,tabular data package
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: six (>=1.9)
+Requires-Dist: dataflows (>=0.0.57)
+Provides-Extra: develop
+Requires-Dist: pylama ; extra == 'develop'
+Requires-Dist: pytest ; extra == 'develop'
+Requires-Dist: mock ; extra == 'develop'
+Requires-Dist: tox ; extra == 'develop'
+
+# dataflows-aws
+
+[![Travis](https://travis-ci.org/frictionlessdata/dataflows-aws.svg?branch=master)](https://travis-ci.org/frictionlessdata/dataflows-aws)
+[![Coveralls](http://img.shields.io/coveralls/frictionlessdata/dataflows-aws.svg?branch=master)](https://coveralls.io/r/frictionlessdata/dataflows-aws?branch=master)
+

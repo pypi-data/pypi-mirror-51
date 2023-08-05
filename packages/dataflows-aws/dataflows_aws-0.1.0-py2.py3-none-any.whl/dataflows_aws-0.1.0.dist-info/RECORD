@@ -1,0 +1,8 @@
+dataflows_aws/VERSION,sha256=nKkNSsj76G2KykqjeoDg-YTAHfKB8l9ix3nnhP0VWiE,7
+dataflows_aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataflows_aws/processor.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataflows_aws-0.1.0.dist-info/LICENSE.md,sha256=cS_UdXfQ9_oNg_IwVRnSQ-aqixJK5WcSVs7uzUBcVAg,1082
+dataflows_aws-0.1.0.dist-info/METADATA,sha256=JwxfbcPnM6ObYFkFCpMAiHlATAHXnnSgAM0kh7-VVlg,1650
+dataflows_aws-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+dataflows_aws-0.1.0.dist-info/top_level.txt,sha256=nHJMe9DkhREqeeejGudt0B58HwA63VBnMntTAcDbFo8,14
+dataflows_aws-0.1.0.dist-info/RECORD,,
