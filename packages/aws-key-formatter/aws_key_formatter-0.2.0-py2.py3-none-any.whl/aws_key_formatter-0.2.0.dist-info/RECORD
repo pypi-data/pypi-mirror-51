@@ -1,0 +1,11 @@
+aws_key_formatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_key_formatter/__main__.py,sha256=ODzR0Klvu83cmwsMIVcIagTz4Bd2w8Le8cy3nvsEE_I,55
+aws_key_formatter/__version__.py,sha256=6-PRDkDOSpuwnF6rz7sXwPqkpbz7zuFsYPUhlPhiS6Y,47
+aws_key_formatter/aws_key_formatter.py,sha256=efeyyZS2CqdCyA28qMiA4gjExiy5vOiCXgrA4zvgHUw,1710
+aws_key_formatter/cli.py,sha256=f4gvpOC8X8TWmrbDt1MYBh3_2i__Aa2Ci29QDESxnNE,789
+aws_key_formatter-0.2.0.dist-info/LICENSE.md,sha256=CF580uib0A6XyHfZADiavXPshhzhWZuNKQ-xNA46Pzw,1067
+aws_key_formatter-0.2.0.dist-info/METADATA,sha256=GMo7j6vuqIHSG5m5X9GuJdRp_liXXaIBSBMHB3BzUj0,4841
+aws_key_formatter-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+aws_key_formatter-0.2.0.dist-info/entry_points.txt,sha256=hrw2TA9c2P7K2nfJg7IeflNn7TBDu7Q6PGe1t4zgU-8,66
+aws_key_formatter-0.2.0.dist-info/top_level.txt,sha256=O9jphVdKpiQJLHVo6LCy5bsY_OX8mafYUPEUywy2atM,18
+aws_key_formatter-0.2.0.dist-info/RECORD,,

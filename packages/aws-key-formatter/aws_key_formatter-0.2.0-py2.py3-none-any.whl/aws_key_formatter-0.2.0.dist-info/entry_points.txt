@@ -1,0 +1,3 @@
+[console_scripts]
+aws-key-formatter = aws_key_formatter.cli:main
+
