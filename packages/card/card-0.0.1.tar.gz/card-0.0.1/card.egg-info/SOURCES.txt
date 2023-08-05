@@ -1,0 +1,7 @@
+README.rst
+setup.py
+card.egg-info/PKG-INFO
+card.egg-info/SOURCES.txt
+card.egg-info/dependency_links.txt
+card.egg-info/not-zip-safe
+card.egg-info/top_level.txt
