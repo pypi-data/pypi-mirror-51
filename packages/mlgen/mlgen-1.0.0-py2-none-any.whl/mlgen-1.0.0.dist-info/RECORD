@@ -1,0 +1,16 @@
+mlgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlgen/__main__.py,sha256=LSnUPPWPcmiKN5nMQlIQkBRa1Hfaus7Rnvf5yGs8Vf0,9927
+mlgen/mlgen_code.py,sha256=Mx9SBG0Ag0Cq1aGIhBpn8rynTCiaLONf9WlcTo9Ab40,21950
+mlgen/mlm_templates/ann_keras.mlm,sha256=8jU-XWGGMMJmPdFt41oaJJtIm1flaNDNI4b7LNDVps0,1060
+mlgen/mlm_templates/ann_tensorflow2.mlm,sha256=OTvXWYS4AUoyIT0MlgHtOCr9Xo8ZpxedQ_Cspfk7n8g,1076
+mlgen/mlm_templates/cnn_keras.mlm,sha256=SAwWirHPY7WI6BEAaegtcO7iI6S1dRUTzHsYiHORJUM,1058
+mlgen/mlm_templates/cnn_tensorflow2.mlm,sha256=2IJ0TvfnptGK52O3phsPVGEY0B_Fyj_aIblGI8vdEFk,1078
+mlgen/mlm_templates/lstm_keras.mlm,sha256=HMzT2e-aiu9xlw6-yq6TbwRWn8yqosc2ZKPet66ky-I,1101
+mlgen/mlm_templates/lstm_tensorflow2.mlm,sha256=3SRWPWypSjE4JvpAsjqWqkziQIwIUxHN72QYfNGZkO0,1116
+mlgen/template/linreg.txt,sha256=LG45uLGNRwzMGfoiMXrTjtYJuzYWNJQOmP3a5j01C2M,395
+mlgen/template/python3_jup.ipynb,sha256=6rt_ByK2ReGbHvh9YrGYBTrQpsbzCEtX8Fi7DxwVYlc,1241
+mlgen-1.0.0.dist-info/METADATA,sha256=cNmGZrVG6KF6Hyl10zQkMq3C2YdLQ6tPVi-q_xEK8a4,3171
+mlgen-1.0.0.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+mlgen-1.0.0.dist-info/entry_points.txt,sha256=LCNMB2sTuP35OcZL145QKU-9yQFuKwVNzXxUp7EnQHc,47
+mlgen-1.0.0.dist-info/top_level.txt,sha256=cZT7UNjycmuy5MMYgyPYyUURYx5qcHsEGU8d529xBQc,6
+mlgen-1.0.0.dist-info/RECORD,,
