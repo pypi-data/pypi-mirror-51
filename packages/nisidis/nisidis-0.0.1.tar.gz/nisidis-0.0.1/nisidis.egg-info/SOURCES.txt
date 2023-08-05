@@ -1,0 +1,8 @@
+README.md
+setup.py
+nisidis.egg-info/PKG-INFO
+nisidis.egg-info/SOURCES.txt
+nisidis.egg-info/dependency_links.txt
+nisidis.egg-info/top_level.txt
+psol/__init__.py
+psol/psol.py
