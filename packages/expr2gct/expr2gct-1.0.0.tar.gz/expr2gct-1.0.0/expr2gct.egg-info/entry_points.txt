@@ -1,0 +1,3 @@
+[console_scripts]
+expr2gct = expr2gct:main
+

@@ -1,0 +1,41 @@
+# expr2gct
+
+generate gct file (version 1.2, for GSEA or ssGSEA) from gene expression matrix file.
+note that gene expression matrix file should be tab delimited file.
+
+## Installation
+
+### install from pip
+
+```
+$ pip install expr2gct
+```
+
+### install from source
+
+
+```
+$ git clone https://github.com/sxropensource/expr2gct.git
+$ cd expr2gct
+$ python setup.py install
+```
+
+## Usage
+
+
+```
+$ expr2gct --help
+usage: expr2gct [-h] -e EXPR [-d DESC] -g GCT
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -e EXPR, --expr EXPR  Gene expression matrix file(tab delimited only), first
+                        row is sample names, first column is gene symbols
+  -d DESC, --desc DESC  gct file need DESCRIPTION for column 2 for every gene,
+                        If not provided, default use gene symbol(column 1)
+                        instead. Note that if you provide a DESCRIPTION file,
+                        every row reprents a gene. eg, the first row in
+                        DESCRIPTION file represents the first gene in
+                        expression file.
+  -g GCT, --gct GCT     Where to save gct file
+```

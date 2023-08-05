@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+expr2gct.py
+setup.py
+expr2gct.egg-info/PKG-INFO
+expr2gct.egg-info/SOURCES.txt
+expr2gct.egg-info/dependency_links.txt
+expr2gct.egg-info/entry_points.txt
+expr2gct.egg-info/top_level.txt
