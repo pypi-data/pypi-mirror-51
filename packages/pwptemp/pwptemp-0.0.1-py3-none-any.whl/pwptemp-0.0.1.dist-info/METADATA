@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pwptemp
+Version: 0.0.1
+Summary: Well Temperature Distribution
+Home-page: https://github.com/pro-well-plan/pwptemp
+Author: jcamiloangarita
+Author-email: camiloangarita94@gmail.com
+License: LGPL v3
+Download-URL: https://github.com/pro-well-plan/pwptemp/archive/v0.0.1.tar.gz
+Keywords: well temperature distribution
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+UNKNOWN
+
+
