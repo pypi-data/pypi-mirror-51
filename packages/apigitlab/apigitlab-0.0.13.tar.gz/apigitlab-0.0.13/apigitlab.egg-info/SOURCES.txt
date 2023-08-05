@@ -1,0 +1,8 @@
+setup.py
+apigitlab/__init__.py
+apigitlab/apigitlab.py
+apigitlab.egg-info/PKG-INFO
+apigitlab.egg-info/SOURCES.txt
+apigitlab.egg-info/dependency_links.txt
+apigitlab.egg-info/requires.txt
+apigitlab.egg-info/top_level.txt
