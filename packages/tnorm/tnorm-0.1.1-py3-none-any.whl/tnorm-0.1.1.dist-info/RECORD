@@ -1,0 +1,15 @@
+tnorm/TN_wrapper.py,sha256=zlpqP7T8KrnbMQDSu3uv-jeeVNjhCvTwlnPu3aH8f58,17552
+tnorm/__init__.py,sha256=KazoMKBFgHrHU1m6_-7yRJ8wjPbmEq2owSwqi-vKQiM,150
+tnorm/app.py,sha256=3EecoP6ep48LMlJG79m5zmV9qVVg0UA9n6of-QGvDq0,333
+tnorm/constants.py,sha256=Sk9qt7ftdsSQO6V4V6OGYIRnpfwZeMOvWADyLo0CKow,135
+tnorm/hasse.py,sha256=Q2Oq7MntngnuaEbH355mDo4K3P2TB4JhN9EjrKCFlQM,2996
+tnorm/norm_ball.py,sha256=j6kpg1GZX2W3sQ4pUV3KWv8oKKU3jykLVeN2QLKNL7k,8977
+tnorm/sage_types.py,sha256=qC89hk5Tt10BSPpBTx6TJV9rs4SyqP2OqLQ3gYgWUaM,507
+tnorm/utilities.py,sha256=hAFZB8x2sfVGLVEpif7En-iw399WdX8ltEXeKRTBKyA,772
+tnorm/version.py,sha256=MZEh27kKMPHEHzRy-n_Tw0DI0lgO7QRTN8TqGe4guZc,126
+tnorm/x3d_to_html.py,sha256=tAMfbiUSWVKLv-spP9Mg3_iMNSc7BSTDGtt1-AjbUYY,6591
+tnorm-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tnorm-0.1.1.dist-info/METADATA,sha256=Nt5pNXT7EuzWEFTab26AXenWF90GyRICGXAJ1qb2nsg,399
+tnorm-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tnorm-0.1.1.dist-info/top_level.txt,sha256=wZ-ZnwbK8gGR-Eth_kiLu0fJliHCZr2YS5koT2z6P_s,6
+tnorm-0.1.1.dist-info/RECORD,,
