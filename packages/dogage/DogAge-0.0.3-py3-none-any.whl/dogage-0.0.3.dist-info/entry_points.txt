@@ -1,0 +1,3 @@
+[console_scripts]
+dogage_validate=DogAge:dogage_validate.main
+

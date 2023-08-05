@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dogage
+Version: 0.0.3
+Summary: Programms for DogAge Challenge
+Author: Aleksandr Sinitca
+Author-email: siniza.s.94@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: argparse
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sklearn
