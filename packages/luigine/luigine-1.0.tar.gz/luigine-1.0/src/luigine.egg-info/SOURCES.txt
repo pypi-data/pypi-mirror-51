@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/luigine/__init__.py
+src/luigine/abc.py
+src/luigine/utils.py
+src/luigine.egg-info/PKG-INFO
+src/luigine.egg-info/SOURCES.txt
+src/luigine.egg-info/dependency_links.txt
+src/luigine.egg-info/requires.txt
+src/luigine.egg-info/top_level.txt
