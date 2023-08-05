@@ -1,0 +1,9 @@
+atasker>=0.3.0
+psutil
+pygments
+pyyaml
+tabulate
+termcolor
+unipath
+wheel
+yappi
