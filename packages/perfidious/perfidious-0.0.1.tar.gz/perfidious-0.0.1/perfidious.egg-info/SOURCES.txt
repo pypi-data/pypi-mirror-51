@@ -1,0 +1,6 @@
+README.rst
+setup.py
+perfidious.egg-info/PKG-INFO
+perfidious.egg-info/SOURCES.txt
+perfidious.egg-info/dependency_links.txt
+perfidious.egg-info/top_level.txt
