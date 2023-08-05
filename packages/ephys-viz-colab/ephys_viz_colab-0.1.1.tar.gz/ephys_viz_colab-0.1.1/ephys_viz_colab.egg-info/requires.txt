@@ -1,0 +1,5 @@
+jupyter
+numpy
+mountaintools
+spikeforest
+scipy
