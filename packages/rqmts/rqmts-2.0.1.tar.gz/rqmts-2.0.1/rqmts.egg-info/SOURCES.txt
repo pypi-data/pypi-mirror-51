@@ -1,0 +1,10 @@
+README.md
+setup.py
+rqmts/__init__.py
+rqmts/__main__.py
+rqmts/parsing.py
+rqmts.egg-info/PKG-INFO
+rqmts.egg-info/SOURCES.txt
+rqmts.egg-info/dependency_links.txt
+rqmts.egg-info/entry_points.txt
+rqmts.egg-info/top_level.txt
