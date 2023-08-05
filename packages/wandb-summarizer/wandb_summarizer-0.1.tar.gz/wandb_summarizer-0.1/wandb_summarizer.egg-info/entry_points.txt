@@ -1,0 +1,3 @@
+[console_scripts]
+wandb-summarizer-to-csv = wandb_summarizer.export:main
+
