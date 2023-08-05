@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyoptimize/__init__.py
+pyoptimize/main.py
+pyoptimize/nn.py
+pyoptimize.egg-info/PKG-INFO
+pyoptimize.egg-info/SOURCES.txt
+pyoptimize.egg-info/dependency_links.txt
+pyoptimize.egg-info/requires.txt
+pyoptimize.egg-info/top_level.txt
