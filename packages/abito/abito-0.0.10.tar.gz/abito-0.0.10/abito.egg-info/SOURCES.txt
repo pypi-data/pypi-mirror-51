@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+abito/__init__.py
+abito/bootstrap.py
+abito/result_tuples.py
+abito/stats.py
+abito/utils.py
+abito.egg-info/PKG-INFO
+abito.egg-info/SOURCES.txt
+abito.egg-info/dependency_links.txt
+abito.egg-info/requires.txt
+abito.egg-info/top_level.txt
