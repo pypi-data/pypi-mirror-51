@@ -1,0 +1,2 @@
+
+recursive-include zhihu_question_autopass_thrift *.py

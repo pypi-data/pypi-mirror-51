@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+zhihu_question_autopass_thrift/ZhihuQuestionAutopassService.py
+zhihu_question_autopass_thrift/__init__.py
+zhihu_question_autopass_thrift/constants.py
+zhihu_question_autopass_thrift/ttypes.py
+zhihu_question_autopass_thrift.egg-info/PKG-INFO
+zhihu_question_autopass_thrift.egg-info/SOURCES.txt
+zhihu_question_autopass_thrift.egg-info/dependency_links.txt
+zhihu_question_autopass_thrift.egg-info/requires.txt
+zhihu_question_autopass_thrift.egg-info/top_level.txt
