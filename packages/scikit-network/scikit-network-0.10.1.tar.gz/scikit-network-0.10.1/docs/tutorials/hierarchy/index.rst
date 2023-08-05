@@ -1,0 +1,7 @@
+Hierarchical clustering
+***********************
+
+
+.. toctree::
+
+   paris
