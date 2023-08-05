@@ -1,0 +1,9 @@
+README.md
+setup.py
+agolutil/__init__.py
+agolutil/agolutil.py
+atd_agol_util.egg-info/PKG-INFO
+atd_agol_util.egg-info/SOURCES.txt
+atd_agol_util.egg-info/dependency_links.txt
+atd_agol_util.egg-info/requires.txt
+atd_agol_util.egg-info/top_level.txt
