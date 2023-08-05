@@ -1,0 +1,3 @@
+[console_scripts]
+beadpull = beadpull.__main__:main
+

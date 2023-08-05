@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Bead pull</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <script src="/usr/share/javascript/mathjax/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+<header>
+<h1 class="title">Bead pull</h1>
+</header>
+<h1 id="license">License</h1>
+<p>Copyright (C) 2019 S.V. Matsievskiy</p>
+<p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+<p>Program source files may be found at <a href="https://gitlab.com/matsievskiysv/beadpull" class="uri">https://gitlab.com/matsievskiysv/beadpull</a></p>
+<h1 id="equations">Equations</h1>
+<p>General equation:</p>
+<p><span class="math display">\[
+\frac{\Delta f}{f} = - \frac{V_1}{4 W}\left[
+\frac{
+\varepsilon_0 E_{0i}^2
+}{
+p_i + (\varepsilon-1)^{-1}
+}
++
+\frac{
+\mu_0 H_{0i}^2
+}{
+m_i + (\mu-1)^{-1}
+}
+\right].
+\]</span></p>
+<p>Simplified equation:</p>
+<p><span class="math display">\[
+\frac{\Delta f}{f} =
+\frac{
+- \displaystyle\sum_{i=1}^{N}{k^E_i E_{0i}^2} +
+\displaystyle\sum_{i=1}^{N}{k^H_i H_{0i}^2}
+}{W},
+\]</span></p>
+<p>where <span class="math display">\[
+k^E_i = \frac{V_1}{4}\frac{\varepsilon_0}
+{(\varepsilon - 1 + p_i)}
+\]</span> is an electric field form-factor, <span class="math display">\[
+k^H_i = \frac{V_1}{4}\frac{\mu_0}{(\mu - 1 + m_i)}
+\]</span> is a magnetic field form-factor.</p>
+<h2 id="direct-delta-f-measurements">Direct <span class="math inline">\(\Delta f\)</span> measurements</h2>
+<p>Normalized electric field:</p>
+<p><span class="math display">\[
+\xi = \frac{E}{\sqrt{P Q}} =
+\sqrt{\frac{\Delta f}{2 \pi k^E f_0^2}}
+\left[\frac{\text{Ohm}^{1/2}}{\text{m}}\right].
+\]</span></p>
+<p>Normalized magnetic field:</p>
+<p><span class="math display">\[
+\varsigma = \frac{H}{\sqrt{P Q}} =
+\sqrt{\frac{\Delta f}{2 \pi k^H f_0^2}}
+\left[\frac{\text{???}}{\text{???}}\right].
+\]</span></p>
+<h2 id="reflection-delta-dot-s_11-measurements">Reflection <span class="math inline">\(\Delta \dot S_{11}\)</span> measurements</h2>
+<p><span class="math display">\[
+\Delta \dot S_{11} = \dot S_{11} - \dot S_{11}^0 = \dot C \dot E^2,
+\]</span></p>
+<p>where <span class="math inline">\(\dot S_{11}^0\)</span> is a complex reflection in absence of bead.</p>
+<p>Formula for normalized electric field:</p>
+<p><span class="math display">\[
+\hat E_n = \sqrt{\frac{|\dot S_{11}^n - \dot S_{11}^0|}
+{2 \pi k^S f_0^2}}.
+\]</span></p>
+<p>Formula for electric field phase:</p>
+<p><span class="math display">\[
+\varphi_{n} = \frac{\varphi_{n} - \varphi_{0}}{2}.
+\]</span></p>
+<h2 id="transmission-delta-varphi-measurements">Transmission <span class="math inline">\(\Delta \varphi\)</span> measurements</h2>
+<p>Using the following equation: <span class="math display">\[\Delta f = \frac{f_0}{2 Q_{load}} \tan{\Delta \varphi}
+\approx \frac{f_0 \Delta \varphi}{2 Q_{load}}, |\Delta \varphi| \le 5^\circ\]</span></p>
+<p>Normalized electric field:</p>
+<p><span class="math display">\[
+\xi = \frac{E}{\sqrt{P Q}} =
+\sqrt{\frac{\Delta \varphi}{4 \pi k^E f_0 Q_{load}}}
+\left[\frac{\text{Ohm}^{1/2}}{\text{m}}\right].
+\]</span></p>
+<p>Normalized magnetic field:</p>
+<p><span class="math display">\[
+\varsigma = \frac{H}{\sqrt{P Q}} =
+\sqrt{\frac{\Delta \varphi}{4 \pi k^H f_0 Q_{load}}}
+\left[\frac{\text{???}}{\text{???}}\right].
+\]</span></p>
+<h1 id="frequency-response">Frequency response</h1>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Bead material</th>
+<th style="text-align: center;">E-field</th>
+<th style="text-align: center;">H-filed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Metallic bead</td>
+<td style="text-align: center;">↓</td>
+<td style="text-align: center;">↑</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Dielectric bead</td>
+<td style="text-align: center;">↓</td>
+<td style="text-align: center;">↓</td>
+</tr>
+</tbody>
+</table>
+<p>Dielectric bead with <span class="math inline">\(\varepsilon &gt; 1, \mu = 1\)</span> only measures electric field; with <span class="math inline">\(\varepsilon = 1, \mu &gt; 1\)</span> only measures magnetic field.</p>
+<p><strong>For <span class="math inline">\(\varepsilon \gg 1\)</span> or <span class="math inline">\(\mu \gg 1\)</span> some equation approximations do not hold!</strong></p>
+<h1 id="references">References</h1>
+<ol type="1">
+<li><a href="https://www.jlab.org/indico/event/98/contribution/7/material/slides/1.pdf">Bead-pulling Measurement Principle and Technique Used for the SRF Cavities at JLab, Haipeng Wang</a></li>
+<li>A.Yu. Smirnov PhD thesis</li>
+</ol>
+</body>
+</html>
