@@ -1,0 +1,39 @@
+{% extends "base.html" %} {% block content %}
+{%  if 'dr_data' in data and data['dr_data'] %}
+<div class="row">
+    <h3 class="mb-2">
+        <a class="text-body" href="https://github.com/jodyphelan/TBProfiler" target="_blank"
+            rel="noreferrer noopener">TBProfiler</a>
+        Drug Resistance Report
+    </h3>
+</div>
+<div class="row">
+    <table id="drug_resistance" class="table table-hover table-bordered table-striped table-sm" cellspacing="0">
+        <caption class="mb-3 text-info">
+            <strong>Disclaimer</strong>:
+            Drug resistance predictions are for <strong>Research Purposes Only</strong> and are produced by
+            <a class="text-info" href="https://github.com/jodyphelan/TBProfiler" target="_blank"
+                rel="noreferrer noopener">TBProfiler</a>.
+        </caption>
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Drug</th>
+                <th scope="col">Resistance</th>
+                <th scope="col">Supporting Mutations</th>
+            </tr>
+        </thead>
+        {%  for entry in data['dr_data'] %}
+        <tr>
+            <td>{{ entry['drug_human_name'] }}</td>
+            <td>{% if entry['resistant'] %}R{% else %}S{% endif %}</td>
+            <td>{% for mutation in entry['variants'] %}
+                <a target="_blank" href="https://explorer.sanbi.ac.za/gene?q={{ mutation[0] }}"
+                    rel="noreferrer noopener">{{ mutation[0] }}</a>
+                ({{ mutation[2] }} {{ mutation[1] }})
+                {% endfor %}</td>
+        </tr>
+        {%  endfor %}
+    </table>
+</div>
+{%  endif %}
+{% endblock %}
