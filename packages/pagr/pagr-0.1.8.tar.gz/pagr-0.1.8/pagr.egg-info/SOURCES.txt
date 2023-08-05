@@ -1,0 +1,10 @@
+README.md
+setup.py
+pagr/__init__.py
+pagr/configuration.py
+pagr/runner.py
+pagr/services.py
+pagr.egg-info/PKG-INFO
+pagr.egg-info/SOURCES.txt
+pagr.egg-info/dependency_links.txt
+pagr.egg-info/top_level.txt
