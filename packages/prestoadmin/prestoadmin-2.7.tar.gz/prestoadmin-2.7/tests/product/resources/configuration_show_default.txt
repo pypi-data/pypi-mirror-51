@@ -1,0 +1,129 @@
+master: Configuration file at /etc/presto/node.properties:
+node.id=.*
+catalog.config-dir=/etc/presto/catalog
+node.data-dir=/var/lib/presto/data
+node.environment=presto
+node.launcher-log-file=/var/log/presto/launcher.log
+node.server-log-file=/var/log/presto/server.log
+plugin.dir=/usr/lib/presto/lib/plugin
+
+
+master: Configuration file at /etc/presto/jvm.config:
+-server
+-Xmx16G
+-XX:\-UseBiasedLocking
+-XX:\+UseG1GC
+-XX:G1HeapRegionSize=32M
+-XX:\+ExplicitGCInvokesConcurrent
+-XX:\+HeapDumpOnOutOfMemoryError
+-XX:\+UseGCOverheadLimit
+-XX:\+ExitOnOutOfMemoryError
+-XX:ReservedCodeCacheSize=512M
+-DHADOOP_USER_NAME=hive
+
+
+master: Configuration file at /etc/presto/config.properties:
+coordinator=true
+discovery-server.enabled=true
+discovery.uri=http://master:7070
+http-server.http.port=7070
+node-scheduler.include-coordinator=false
+query.max-memory-per-node=512MB
+query.max-memory=50GB
+
+
+slave1: Configuration file at /etc/presto/node.properties:
+node.id=.*
+catalog.config-dir=/etc/presto/catalog
+node.data-dir=/var/lib/presto/data
+node.environment=presto
+node.launcher-log-file=/var/log/presto/launcher.log
+node.server-log-file=/var/log/presto/server.log
+plugin.dir=/usr/lib/presto/lib/plugin
+
+
+slave1: Configuration file at /etc/presto/jvm.config:
+-server
+-Xmx16G
+-XX:\-UseBiasedLocking
+-XX:\+UseG1GC
+-XX:G1HeapRegionSize=32M
+-XX:\+ExplicitGCInvokesConcurrent
+-XX:\+HeapDumpOnOutOfMemoryError
+-XX:\+UseGCOverheadLimit
+-XX:\+ExitOnOutOfMemoryError
+-XX:ReservedCodeCacheSize=512M
+-DHADOOP_USER_NAME=hive
+
+
+slave1: Configuration file at /etc/presto/config.properties:
+coordinator=false
+discovery.uri=http://master:7070
+http-server.http.port=7070
+query.max-memory-per-node=512MB
+query.max-memory=50GB
+
+
+slave2: Configuration file at /etc/presto/node.properties:
+node.id=.*
+catalog.config-dir=/etc/presto/catalog
+node.data-dir=/var/lib/presto/data
+node.environment=presto
+node.launcher-log-file=/var/log/presto/launcher.log
+node.server-log-file=/var/log/presto/server.log
+plugin.dir=/usr/lib/presto/lib/plugin
+
+
+slave2: Configuration file at /etc/presto/jvm.config:
+-server
+-Xmx16G
+-XX:\-UseBiasedLocking
+-XX:\+UseG1GC
+-XX:G1HeapRegionSize=32M
+-XX:\+ExplicitGCInvokesConcurrent
+-XX:\+HeapDumpOnOutOfMemoryError
+-XX:\+UseGCOverheadLimit
+-XX:\+ExitOnOutOfMemoryError
+-XX:ReservedCodeCacheSize=512M
+-DHADOOP_USER_NAME=hive
+
+
+slave2: Configuration file at /etc/presto/config.properties:
+coordinator=false
+discovery.uri=http://master:7070
+http-server.http.port=7070
+query.max-memory-per-node=512MB
+query.max-memory=50GB
+
+
+slave3: Configuration file at /etc/presto/node.properties:
+node.id=.*
+catalog.config-dir=/etc/presto/catalog
+node.data-dir=/var/lib/presto/data
+node.environment=presto
+node.launcher-log-file=/var/log/presto/launcher.log
+node.server-log-file=/var/log/presto/server.log
+plugin.dir=/usr/lib/presto/lib/plugin
+
+
+slave3: Configuration file at /etc/presto/jvm.config:
+-server
+-Xmx16G
+-XX:\-UseBiasedLocking
+-XX:\+UseG1GC
+-XX:G1HeapRegionSize=32M
+-XX:\+ExplicitGCInvokesConcurrent
+-XX:\+HeapDumpOnOutOfMemoryError
+-XX:\+UseGCOverheadLimit
+-XX:\+ExitOnOutOfMemoryError
+-XX:ReservedCodeCacheSize=512M
+-DHADOOP_USER_NAME=hive
+
+
+slave3: Configuration file at /etc/presto/config.properties:
+coordinator=false
+discovery.uri=http://master:7070
+http-server.http.port=7070
+query.max-memory-per-node=512MB
+query.max-memory=50GB
+

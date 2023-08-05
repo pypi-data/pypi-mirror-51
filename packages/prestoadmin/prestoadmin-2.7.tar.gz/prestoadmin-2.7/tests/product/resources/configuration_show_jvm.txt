@@ -1,0 +1,56 @@
+
+master: Configuration file at /etc/presto/jvm.config:
+-server
+-Xmx16G
+-XX:-UseBiasedLocking
+-XX:+UseG1GC
+-XX:G1HeapRegionSize=32M
+-XX:+ExplicitGCInvokesConcurrent
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:+UseGCOverheadLimit
+-XX:+ExitOnOutOfMemoryError
+-XX:ReservedCodeCacheSize=512M
+-DHADOOP_USER_NAME=hive
+
+
+slave1: Configuration file at /etc/presto/jvm.config:
+-server
+-Xmx16G
+-XX:-UseBiasedLocking
+-XX:+UseG1GC
+-XX:G1HeapRegionSize=32M
+-XX:+ExplicitGCInvokesConcurrent
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:+UseGCOverheadLimit
+-XX:+ExitOnOutOfMemoryError
+-XX:ReservedCodeCacheSize=512M
+-DHADOOP_USER_NAME=hive
+
+
+slave2: Configuration file at /etc/presto/jvm.config:
+-server
+-Xmx16G
+-XX:-UseBiasedLocking
+-XX:+UseG1GC
+-XX:G1HeapRegionSize=32M
+-XX:+ExplicitGCInvokesConcurrent
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:+UseGCOverheadLimit
+-XX:+ExitOnOutOfMemoryError
+-XX:ReservedCodeCacheSize=512M
+-DHADOOP_USER_NAME=hive
+
+
+slave3: Configuration file at /etc/presto/jvm.config:
+-server
+-Xmx16G
+-XX:-UseBiasedLocking
+-XX:+UseG1GC
+-XX:G1HeapRegionSize=32M
+-XX:+ExplicitGCInvokesConcurrent
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:+UseGCOverheadLimit
+-XX:+ExitOnOutOfMemoryError
+-XX:ReservedCodeCacheSize=512M
+-DHADOOP_USER_NAME=hive
+
