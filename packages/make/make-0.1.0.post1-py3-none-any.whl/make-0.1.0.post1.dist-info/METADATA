@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: make
+Version: 0.1.0.post1
+Summary: Create project layout from jinja2 templates.
+Home-page: https://bitbucket.org/fholmer/make
+Author: Frode Holmer
+Author-email: fholmer+netdef@gmail.com
+License: GNU Lesser General Public License v3 or later
+Project-URL: Source Code, https://bitbucket.org/fholmer/make
+Keywords: make project template
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: Jinja2
+
+Make
+====
+
+* Source Code: https://bitbucket.org/fholmer/make
+
+Summary
+-------
+
+Create project layout from jinja2 templates.
+
+Installation
+------------
+
+.. code-block:: console
+
+    $ pip install make
+
+Usage
+-----
+
+.. code-block:: console
+
+    $ python -m make project source-path target-path
+
+
+
