@@ -1,0 +1,9 @@
+README.md
+setup.py
+TP2Unicode/__init__.py
+TP2Unicode/轉換器.py
+TP2Unicode.egg-info/PKG-INFO
+TP2Unicode.egg-info/SOURCES.txt
+TP2Unicode.egg-info/dependency_links.txt
+TP2Unicode.egg-info/top_level.txt
+TP2Unicode/data/unicode.csv
