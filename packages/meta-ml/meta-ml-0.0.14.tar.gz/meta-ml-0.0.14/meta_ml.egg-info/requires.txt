@@ -1,0 +1,17 @@
+colorlover
+click==6.7
+dash
+dash-core-components
+dash-html-components
+dill
+floyd-cli
+kaggle
+matplotlib
+numpy
+openml==0.9.0
+pandas==0.24.2
+pynisher
+torch==1.2.0
+scikit-learn==0.21.2
+scipy
+yamlordereddictloader
