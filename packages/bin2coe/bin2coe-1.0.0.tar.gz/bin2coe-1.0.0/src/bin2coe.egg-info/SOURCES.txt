@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/bin2coe/__init__.py
+src/bin2coe/cli.py
+src/bin2coe/convert.py
+src/bin2coe.egg-info/PKG-INFO
+src/bin2coe.egg-info/SOURCES.txt
+src/bin2coe.egg-info/dependency_links.txt
+src/bin2coe.egg-info/entry_points.txt
+src/bin2coe.egg-info/top_level.txt
