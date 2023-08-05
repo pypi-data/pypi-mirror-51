@@ -1,0 +1,10 @@
+statmake/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+statmake/__main__.py,sha256=hvxy59RJykUQhzIYSbVRgwlQIOaoPGwwSfWxEFEFtxQ,95
+statmake/classes.py,sha256=yWA_OZIjHtpHHh6XJmAoc-rOM_aEQixX1FpBqDC74rA,8149
+statmake/cli.py,sha256=AIbSg178yavHlOJUjn2G4wwMe5-l5fW0gzKRhhwmNMI,1706
+statmake/lib.py,sha256=EKUOZVQxISDhrjmuPotcrSqKfUxMLl2LOEpah7VAwwM,7394
+statmake-0.2.0.dist-info/entry_points.txt,sha256=hOPb0p3f5C1t2dpDsox0OuAbyTa3XApZ2pFcWMMJl0Q,46
+statmake-0.2.0.dist-info/LICENSE,sha256=FBa3wO7fMYi4UQYQenWJPha26DRJ9V2fY_U6bmy-DRY,1068
+statmake-0.2.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+statmake-0.2.0.dist-info/METADATA,sha256=MbQRda8QZe8sfXr3f4KtPjKj2Kr_TczqejVd2I-WV7k,4161
+statmake-0.2.0.dist-info/RECORD,,
