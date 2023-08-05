@@ -1,0 +1,11 @@
+README.md
+setup.py
+cosmodiscovery/__init__.py
+cosmodiscovery/client.py
+cosmodiscovery/message.py
+cosmodiscovery/server.py
+cosmodiscovery/utils.py
+cosmodiscovery.egg-info/PKG-INFO
+cosmodiscovery.egg-info/SOURCES.txt
+cosmodiscovery.egg-info/dependency_links.txt
+cosmodiscovery.egg-info/top_level.txt
