@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: poly-pack
+Version: 0.16
+Summary: Some helpful functions for polymer stuff
+Home-page: https://github.com/reha54321/poly_pack
+Author: Reha Mathur
+Author-email: reha_mathur@horacemann.org
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pyFAI
+Requires-Dist: fabio
+Requires-Dist: tifffile
+
+UNKNOWN
+
+
