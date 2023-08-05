@@ -1,0 +1,17 @@
+include Readme.md
+include LICENSE
+include textgetter/*.py
+
+include textgetter/poppler/bin/*.dll
+include textgetter/poppler/bin/*.exe
+include textgetter/poppler/bin/AUTHORS
+include textgetter/poppler/bin/BINARIES
+include textgetter/poppler/bin/COPYING
+include textgetter/poppler/bin/COPYING3
+include textgetter/poppler/bin/README
+include textgetter/poppler/bin/README-XPDF
+
+include textgetter/poppler/include/poppler/cpp/*.h
+include textgetter/poppler/lib/*.a
+include textgetter/poppler/lib/pkgconfig/*.pc
+include textgetter/poppler/share/man/man1/*.1

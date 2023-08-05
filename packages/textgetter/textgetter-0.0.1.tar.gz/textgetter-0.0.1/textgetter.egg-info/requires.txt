@@ -1,0 +1,7 @@
+pdf2image
+scikit-image
+Pillow
+pytesseract
+numpy
+pandas
+python-docx
