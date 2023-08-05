@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: webcubers
+Version: 1.8.1
+Summary: webcubers python interface
+Home-page: https://github.com/webcubers/webcubers-pypi
+Author: WebCubers
+Author-email: python@webcubers.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: appdirs
+Requires-Dist: cutie
+Requires-Dist: PTable
+Requires-Dist: pyotp
+
+# WebCubers Package & CLI Tool
+
+this is interface package for WebCubers portal.
+
+# Usage
+```bash
+ __    __     _       ___      _
+/ / /\ \ \___| |__   / __\   _| |__   ___ _ __ ___
+\ \/  \/ / _ \ '_ \ / / | | | | '_ \ / _ \ '__/ __|
+ \  /\  /  __/ |_) / /__| |_| | |_) |  __/ |  \__ \
+  \/  \/ \___|_.__/\____/\__,_|_.__/ \___|_|  |___/
+             < WebCubers-CLI v1.8.1 >
+
+usage: cubers [-h] {login,snippets,logout,profile} ...
+
+WebCubers CLI Connector.
+
+positional arguments:
+  {login,snippets,logout,profile}
+
+optional arguments:
+  -h, --help            show this help message and exit
+```
+
+## Login
+```bash
+Cubers login MyUsername MyApiKey
+```
+## Profile
+```bash
+Cubers profile
+```
+## Leaders
+```bash
+Cubers snippets
+```
+## OTP
+```bash
+Cubers otp
+```
+## Connection
+```bash
+Cubers connection
+```
+## Snippets
+```bash
+Cubers snippets
+```
+## Repository
+```bash
+Cubers repo
+Cubers repo --download serverfile.py
+Cubers repo --upload localfile.py --force
+```
+## Logout
+```bash
+Cubers logout
+```
+
