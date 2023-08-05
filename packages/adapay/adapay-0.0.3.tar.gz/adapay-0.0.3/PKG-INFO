@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: adapay
+Version: 0.0.3
+Summary: adapay,the adapter to various pay channels
+Home-page: https://docs.adapay.tech/sdk/03-pythonsdkaccess.html
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Adapay Python SDK
+        ===================================
+        
+         Adapay 官方 Python SDK。
+        
+        下载
+        -----
+        
+        官网下载压缩包，下载地址：
+        - https://docs.adapay.tech/sdk/03-pythonsdkaccess.html
+        
+        
+        安装
+        -----
+        如果已下载至本地：
+        pip install local_sdk_path_url
+        
+        远程下载并安装：
+        pip install adapay
+        
+        API 文档及接入文档
+        --------------------
+        
+        - https://docs.adapay.tech/api/index.html
+        - https://docs.adapay.tech/sdk/03-pythonsdkaccess.html
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
