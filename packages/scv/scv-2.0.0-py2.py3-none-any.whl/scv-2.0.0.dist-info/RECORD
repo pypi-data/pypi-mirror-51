@@ -1,0 +1,9 @@
+scv/__init__.py,sha256=YwcWlpz_gE4uYuJ4odahQyFb18vreWflItVA-da2cCM,58
+scv/cli.py,sha256=MJsUwqm4GqVWze-DEvo-fjIo9jb9ctmrHJukWZFMky4,10813
+scv/utils.py,sha256=CZy723eBMtScSGLPDzFoddAYU7SAbj0vDoCwwmiFo6A,1307
+scv-2.0.0.dist-info/LICENSE,sha256=5Y1H8OU4vrKI3qVTEL9YiUx7qyrG360trfgMWsHljSA,1075
+scv-2.0.0.dist-info/METADATA,sha256=zXfRab33E5OkBUG5mbZrK8su-jmgTtb9wdMik-79v_s,533
+scv-2.0.0.dist-info/WHEEL,sha256=CihQvCnsGZQBGAHLEUMf0IdA4fRduS_NBUTMgCTtvPM,110
+scv-2.0.0.dist-info/entry_points.txt,sha256=0EVBP_3KSe-EoIzjsjBipc8rjPtavaj4SyIUE8MZoMY,38
+scv-2.0.0.dist-info/top_level.txt,sha256=WZREQ5AEJOQeDM-wLXp_bj9IsKcRGWG17yHRI5nZcKM,4
+scv-2.0.0.dist-info/RECORD,,
