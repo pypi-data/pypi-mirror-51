@@ -1,0 +1,7 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_aws_ssm/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+python_aws_ssm/parameters.py,sha256=l13p-NXQTUPXuo9RoEKbt9z4ni3SNc2eb6-WcABGXlY,4287
+python_aws_ssm-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_aws_ssm-0.1.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+python_aws_ssm-0.1.1.dist-info/METADATA,sha256=83al7-VQ7v-eva3mp3Us5YdkL8NjeX_YNhLstJXOBRA,4821
+python_aws_ssm-0.1.1.dist-info/RECORD,,
