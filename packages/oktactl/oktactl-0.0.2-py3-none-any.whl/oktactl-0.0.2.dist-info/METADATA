@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: oktactl
+Version: 0.0.2
+Summary: Sample Okta CLI tool in python
+Home-page: https://github.com/atul3015kr/oktactl
+Author: Atulya Kumar Pandey
+Author-email: atul3015@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: requests
+
+UNKNOWN
+
+
