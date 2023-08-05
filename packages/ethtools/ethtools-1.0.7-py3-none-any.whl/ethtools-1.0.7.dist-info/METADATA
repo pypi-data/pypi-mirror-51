@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ethtools
+Version: 1.0.7
+Summary: EthTools framework
+Home-page: https://github.com/TakeWingCo/eth-tools
+Author: TakeWing
+Author-email: n.ostroukhov@takewing.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# EthTools Package
+
+This is a EthTools package.
+
