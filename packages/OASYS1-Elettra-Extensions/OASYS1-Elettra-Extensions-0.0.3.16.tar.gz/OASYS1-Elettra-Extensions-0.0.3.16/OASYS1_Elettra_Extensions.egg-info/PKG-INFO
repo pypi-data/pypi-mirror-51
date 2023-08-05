@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: OASYS1-Elettra-Extensions
+Version: 0.0.3.16
+Summary: OASYS extensions for Elettra
+Home-page: https://github.com/oasys-elettra-kit/OASYS1-ELETTRA-Extensions
+Author: Matteo Altissimo
+Author-email: matteo.altissimo@elettra.eu
+License: GPLv3
+Download-URL: https://github.com/oasys-elettra-kit/OASYS1-ELETTRA-Extensions
+Description: # OASYS1-ELETTRA-Extensions
+        Container of the Oasys Extensions developed at Elettra 
+        
+        This is just a first test to try out the coding features. 
+        
+        The repository can be found at: 
+        
+        https://github.com/oasys-elettra-kit/OASYS1-ELETTRA-Extensions
+        
+Keywords: raytracing,simulator,oasys1
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research

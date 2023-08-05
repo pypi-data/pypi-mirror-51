@@ -1,0 +1,4 @@
+orangecontrib
+orangecontrib.elettra
+orangecontrib.elettra.shadow
+orangecontrib.elettra.shadow.widgets

@@ -1,0 +1,9 @@
+[oasys.addons]
+Shadow Elettra Extension = orangecontrib.elettra.shadow
+
+[oasys.menus]
+elettraoasysmenu = orangecontrib.elettra.menu
+
+[oasys.widgets]
+Shadow Elettra Extension = orangecontrib.elettra.shadow.widgets.extension
+
