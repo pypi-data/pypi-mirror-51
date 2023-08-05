@@ -1,0 +1,6 @@
+barker.py
+setup.py
+barker.egg-info/PKG-INFO
+barker.egg-info/SOURCES.txt
+barker.egg-info/dependency_links.txt
+barker.egg-info/top_level.txt
