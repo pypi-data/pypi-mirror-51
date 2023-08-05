@@ -1,0 +1,15 @@
+mlvis/__init__.py,sha256=10jK3ZK3kS-gFBC8NqqdlDRn4xZo6SYb2KZgYXO3ijM,232
+mlvis/class_builder.py,sha256=EUXqweH2o7TGu59JUenHN59-F3p2twHhaUhij5YYf0Y,879
+mlvis/widget.py,sha256=ravypwKqYByMtUWwQ2LBjuRwYll-L2GZ6S9x3I47Hl8,708
+mlvis/widget_builder.py,sha256=QtcD979mL-vnjsQfOrKOZwybN2zIdNAaCBbZ49p8q_8,725
+mlvis/static/extension.js,sha256=mmxSzpice7W-PccR9NVQqhLu3Djd97FpRMjGHHf8LdE,3650
+mlvis/static/index.js,sha256=6uib-2JMYYCBvCVZWv2ALGzGC3z3DtXbbR4aOqFVDTU,24688860
+mlvis/static/index.js.map,sha256=oIRPProevGRF35Z2rdpSmzp8g-FwPwhDnMEWyofty3A,27678186
+mlvis/static/styled-components.js,sha256=GWVP78iko_52hNF6YCW_ErjxcYPMwO17AXygK8rIyz4,56856
+mlvis/static/styled-components.js.map,sha256=Sr_rjNA5FWa5GFim5yKFt1muj928gdc1Cakx4SCJEqA,213845
+mlvis-0.0.5a1.dev3.data/data/share/jupyter/nbextensions/mlvis/extension.js,sha256=mmxSzpice7W-PccR9NVQqhLu3Djd97FpRMjGHHf8LdE,3650
+mlvis-0.0.5a1.dev3.data/data/share/jupyter/nbextensions/mlvis/index.js,sha256=6uib-2JMYYCBvCVZWv2ALGzGC3z3DtXbbR4aOqFVDTU,24688860
+mlvis-0.0.5a1.dev3.dist-info/METADATA,sha256=SCs-DWD5CU9nrSY5Sv2ZC8UAIBHBUv-rOj2Uy9pLEOE,2684
+mlvis-0.0.5a1.dev3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mlvis-0.0.5a1.dev3.dist-info/top_level.txt,sha256=BfS0RzSjsLOxEXuyh69GfpArUZPMNmPSYONbX10Aj8Y,6
+mlvis-0.0.5a1.dev3.dist-info/RECORD,,
