@@ -1,0 +1,399 @@
+Metadata-Version: 2.1
+Name: norgatedata
+Version: 1.0.3
+Summary: Python interface to financial data provided by Norgate Data
+Home-page: https://norgatedata.com
+Author: NorgateData Pty Ltd
+Author-email: support@norgatedata.com
+License: EULA
+Platform: UNKNOWN
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Python: >3.5.0
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: requests
+
+
+# Project description
+
+Interfaces to financial market data provided by Norgate Data.
+
+# Installation
+
+```sh
+pip install norgatedata
+```
+
+# Upgrades
+
+To receive upgrades/updates
+
+```sh
+pip install norgatedata --upgrade
+```
+
+
+# Requirements
+
+* Python 3.5 or above
+* Microsoft Windows
+* Either NumPy or Pandas
+* Active Norgate Data subscription
+* Writable local user folder named .norgatedata (or defined in environment variable NORGATEDATA_ROOT)
+
+# Usage
+
+```py
+import norgatedata
+```
+
+# Timeseries data
+
+
+## Price
+
+Price data is provided in multiple formats: NumPy recarray, NumPy ndarray or Pandas DataFrame.  This is determined through the format parameter.  If not specified, the default is NumPy recarray.
+
+Dates are determined by passing in any (or none) of the following named parameters:
+```py
+start_date = '1990-01-01'   # Date is in YYYY-MM-DD format
+end_date = '2000-01-01'   # If not specified, the end date is today
+limit = 50  # This provides the last X records
+```
+
+Price & Volume adjustment allows you to adjust historical stock prices and volumes to account for the effect of capital events and dividends.
+```py
+stock_price_adjustment_setting = norgatedata.StockPriceAdjustmentType.NONE
+stock_price_adjustment_setting = norgatedata.StockPriceAdjustmentType.CAPITAL
+stock_price_adjustment_setting = norgatedata.StockPriceAdjustmentType.CAPITALSPECIAL    
+stock_price_adjustment_setting = norgatedata.StockPriceAdjustmentType.TOTALRETURN        # Default, if not specified on timeseries calls
+```
+Date padding allows you to repeat the prior close on days where no price record would otherwise exist.
+```py
+padding_setting = norgatedata.PaddingType.NONE   # Default, if not specified on timeseries calls
+padding_setting = norgatedata.PaddingType.ALLMARKETDAYS
+padding_setting = norgatedata.PaddingType.ALLWEEKDAYS
+padding_setting = norgatedata.PaddingType.ALLCALENDARDAYS
+```
+
+### Examples
+```py
+import norgatedata
+stock_price_adjustment_setting = norgatedata.StockPriceAdjustmentType.TOTALRETURN 
+padding_setting = norgatedata.PaddingType.NONE   
+symbol = 'GOOG'
+start_date = '1990-01-01'
+timeseriesformat = 'numpy-recarray'
+# This provides data on GOOG from 1990 until today in a NumPy recarray format, with explicitly set stock price adjustment and padding settings
+pricedata_recarray = norgatedata.price_timeseries(symbol,
+                          stock_price_adjustment_setting = stock_price_adjustment_setting,
+                          padding_setting = padding_setting,
+                          start_date = start_date,
+                          format=timeseriesformat)
+
+timeseriesformat = 'pandas-dataframe'
+pricedata_dataframe = norgatedata.price_timeseries(symbol,
+                          stock_price_adjustment_setting = stock_price_adjustment_setting,
+                          padding_setting = padding_setting,
+                          start_date = start_date,
+                          format=timeseriesformat)
+
+timeseriesformat = 'numpy-ndarray'
+pricedata_ndarray = norgatedata.price_timeseries(symbol,
+                          stock_price_adjustment_setting = stock_price_adjustment_setting,
+                          padding_setting = padding_setting,
+                          start_date = start_date,
+                          format=timeseriesformat)
+
+pricedata_dataframe = norgatedata.price_timeseries(symbol,
+                          stock_price_adjustment_setting = stock_price_adjustment_setting,
+                          padding_setting = padding_setting,
+                          limit=500,
+                          format=timeseriesformat)
+
+
+end_date='1999-12-31'
+pricedata_dataframe = norgatedata.price_timeseries(symbol,
+                          stock_price_adjustment_setting = stock_price_adjustment_setting,
+                          padding_setting = padding_setting,
+                          start_date = start_date,
+                          end_date = end_date,
+                          format=timeseriesformat)
+
+timeseriesformat = 'pandas-dataframe'
+assetid = 129769
+pricedata_dataframe = norgatedata.price_timeseries(assetid,
+						  limit=500,
+                          format=timeseriesformat)
+
+
+```
+
+### Index Constituent
+
+To determine whether a stock was an index constituent on a particular date, you can use the index constituent timeseries function.  You can also pass in an existing
+NumPy ndarray or Pandas Dataframe and a new column will be added and returned
+
+```py
+
+symbol = 'AAPL'
+indexname = 'S&P 500'  # Can also be an index symbol, such as $SPX, $RUI etc.
+
+idx = norgatedata.index_constituent_timeseries(symbol,
+                          indexname,
+                          format = "numpy-recarray")
+
+idx = norgatedata.index_constituent_timeseries(symbol,
+                          indexname,
+                          padding_setting = padding_setting,
+                          start_date = start_date,
+                          limit = -1,
+                          format = "numpy-ndarray")
+
+idx = norgatedata.index_constituent_timeseries(symbol,
+                          indexname,
+                          padding_setting = padding_setting,
+                          start_date = start_date,
+                          limit = -1,
+                          format = "pandas-dataframe")
+
+pricedata_recarray2 = norgatedata.index_constituent_timeseries(symbol,
+                          indexname,
+                          padding_setting = padding_setting,
+                          start_date = start_date,
+                          limit = -1,
+                          numpy_recarray = pricedata_recarray,
+						  format = "numpy-recarray")
+
+```
+
+### Major Exchange Listed
+'major_exchange_listed_timeseries'
+
+```py
+majexch = norgatedata.major_exchange_listed_timeseries(symbol,
+                          format = "numpy-recarray")
+```
+
+Note:  Data is only available for this item from 2000 onwards.
+
+### Capital Event
+'capital_event_timeseries'
+
+```py
+capevent = norgatedata.capital_event_timeseries(symbol,
+                          format = "numpy-recarray")
+```
+
+
+### Dividend Yield
+'dividend_yield_timeseries'
+
+```py
+divyield = norgatedata.dividend_yield_timeseries(symbol,
+                          format = "numpy-recarray")
+```
+
+
+### Padding Status
+'padding_status_timeseries'
+
+```py
+paddingstatus = norgatedata.padding_status_timeseries(symbol,
+                          format = "numpy-recarray")
+```
+
+### Unadjusted Close
+'unadjusted_close_timeseries'
+
+This is not normally needed, as Unadjusted Close is provided in the price timeseries.  
+It is provided here to be used as a helper routine for other pyton libraries such
+as zipline-norgatedata.
+
+```py
+unadjclose = norgatedata.unadjusted_close_timeseries(symbol,
+                          format = "numpy-recarray")
+```
+
+# Watchlists
+
+The symbols of a watchlist can be retrieved into a python list using the watchlist_symbols function
+
+```py
+watchlistname = 'S&P 500'
+symbols = norgatedata.watchlist_symbols(watchlistname)
+
+watchlistname = 'Russell 3000 Current & Past'
+symbols = norgatedata.watchlist_symbols(watchlistname)
+```
+
+If you want the symbol, assetid and name of each security, use the watchlist function
+
+```py
+wlcontents = norgatedata.watchlist(watchlistname)
+````
+
+To retrieve the names of all of the watchlists within Norgate Data's watchlist library, use  the watchlists function
+
+```py
+allwatchlistnames = norgatedata.watchlists()
+```
+
+# Security metadata
+
+
+```py
+symbol = 'AMZN'
+assetid = norgatedata.assetid(symbol)
+```
+
+```py
+assetid = 129769 
+symbol = norgatedata.assetid(symbol)
+```
+
+```py
+base_type = norgatedata.base_type(symbol)
+```
+
+```py
+dopmcile = norgatedata.domicile(symbol)
+```
+
+```py
+currency = norgatedata.currency(symbol)
+```
+
+```py
+exchange_name = norgatedata.exchange_name(symbol)
+```
+
+```py
+exchange_name_full = norgatedata.exchange_name_full(symbol)
+```
+
+```py
+security_name = norgatedata.security_name(symbol)
+```
+
+```py
+subtype1 = norgatedata.subtype1(symbol)
+```
+
+```py
+subtype2 = norgatedata.subtype2(symbol)
+```
+
+```py
+subtype3 = norgatedata.subtype3(symbol)
+```
+
+```py
+financial_summary = norgatedata.financial_summary(symbol)
+```
+
+```py
+business_summary = norgatedata.business_summary(symbol)
+```
+
+```py
+last_quoted_date = norgatedata.last_quoted_date(symbol)
+```
+
+```py
+second_last_quoted_date = norgatedata.second_last_quoted_date(symbol)
+```
+
+
+# Futures metadata
+
+```py
+symbol='CL-2017X'
+lowest_ever_tick_size = norgatedata.lowest_ever_tick_size(symbol)
+```
+
+```py
+margin = norgatedata.margin(symbol)
+```
+
+```py
+point_value = norgatedata.point_value(symbol)
+```
+
+```py
+tick_size = norgatedata.tick_size(symbol)
+```
+
+```py
+first_notice_date = norgatedata.first_notice_date(symbol)
+```
+
+# Fundamental data
+
+```py
+fieldname = 'mktcap'
+fieldname = 'ttmepsxlcx'
+fieldname = 'peexclxor'
+fieldname = 'projepsq'
+field = norgatedata.fundamental(symbol,fieldname)
+```
+
+# Classifications
+
+```py
+schemename = 'NorgateFuturesClassification'
+schemename = 'TRBC'
+schemename = 'GICS'
+classificationresulttype = 'ClassificationId'
+classificationresulttype = 'Name'
+classification = norgatedata.classification(symbol,schemename,classificationresulttype)
+```
+
+```py
+schemename = 'TRBC'
+schemename = 'GICS'
+classificationresulttype = 'ClassificationId'
+classificationresulttype = 'Name'
+level = 1
+level = 4
+classificationatlevel = norgatedata.classification(symbol,schemename,classificationresulttype,level)
+```
+
+```py
+indexfamilycode = '$SPX'
+indexfamilycode = '$SP1500'
+level = 3
+indexreturntype = 'PR'
+indexreturntype = 'TR'
+indexsymbol = norgatedata.corresponding_industry_index(symbol,indexfamilycode,level,indexreturntype):
+```
+
+# Other informational functions
+norgatedata.last_database_update_time
+norgatedata.last_price_update_time
+
+
+# Accessing data by assetid instead of symbol
+
+Instead of using a security's symbol, you can obtain its unique Norgate-provided identity known as assetid.  This is an unchanging nuber.
+
+All of the calls above that reference 'symbol' can also take an assetid.  For example, MSFT = assetid 134016.  AMZN = assetid 129769.
+
+# Support
+
+[Norgate Data support](https://norgatedata.com/contact.php)
+
+
+
