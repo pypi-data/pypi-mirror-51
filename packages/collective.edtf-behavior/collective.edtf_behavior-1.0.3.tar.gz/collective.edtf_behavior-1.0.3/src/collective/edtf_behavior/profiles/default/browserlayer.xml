@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="collective.edtf_behavior"
+      interface="collective.edtf_behavior.interfaces.ICollectiveEdtfBehaviorLayer"
+      />
+</layers>

@@ -1,0 +1,6 @@
+
+    [z3c.autoinclude.plugin]
+    target = plone
+    [console_scripts]
+    update_locale = collective.edtf_behavior.locales.update:update_locale
+    

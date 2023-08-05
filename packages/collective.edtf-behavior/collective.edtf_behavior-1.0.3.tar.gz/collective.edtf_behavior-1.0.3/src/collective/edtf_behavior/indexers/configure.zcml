@@ -1,0 +1,37 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="saw.archive">
+
+  -*- extra stuff goes here -*-
+
+  <!-- dummy indexer, to prevent traversed indexing -->
+  <adapter
+    name="date_earliest"
+    factory=".edtf.dummy"
+    />
+
+  <!-- indexer -->
+  <adapter
+    name="date_earliest"
+    factory=".edtf.date_earliest"
+    />
+
+  <!-- indexer -->
+  <adapter
+    name="date_latest"
+    factory=".edtf.date_latest"
+    />
+
+  <!-- indexer -->
+  <adapter
+    name="date_sort_ascending"
+    factory=".edtf.date_sort_ascending"
+    />
+
+  <!-- indexer -->
+  <adapter
+    name="date_sort_descending"
+    factory=".edtf.date_sort_descending"
+    />
+
+</configure>
