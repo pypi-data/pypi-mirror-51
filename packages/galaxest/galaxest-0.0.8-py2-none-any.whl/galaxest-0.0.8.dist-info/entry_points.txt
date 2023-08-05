@@ -1,0 +1,3 @@
+[console_scripts]
+galaxest = galaxest.main:main
+
