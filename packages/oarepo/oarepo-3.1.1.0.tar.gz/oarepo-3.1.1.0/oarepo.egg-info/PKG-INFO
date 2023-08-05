@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: oarepo
+Version: 3.1.1.0
+Summary: Invenio Digital Library Framework.
+Home-page: https://github.com/inveniosoftware/invenio
+Author: UCT Prague, CESNET z.s.p.o., NTK
+Author-email: info@inveniosoftware.org
+License: MIT
+Description: ==================
+         OAREPO Invenio v3
+        ==================
+        
+        **Open Source framework for large-scale digital repositories.**
+        
+        .. image:: https://img.shields.io/pypi/v/oarepo.svg
+            :target: https://pypi.org/project/oarepo/
+        
+        .. image:: https://travis-ci.org/oarepo/oarepo.svg?branch=master
+            :target: https://travis-ci.org/oarepo/oarepo
+        
+        This package pulls together OAREPO modules and their versions.
+        
+Keywords: oarepo invenio
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 3 - Alpha
+Provides-Extra: acls
+Provides-Extra: deploy
+Provides-Extra: deploy-es7
+Provides-Extra: draft
+Provides-Extra: includes
+Provides-Extra: links
+Provides-Extra: models
+Provides-Extra: multisum
+Provides-Extra: openid
+Provides-Extra: taxonomies
+Provides-Extra: tests
