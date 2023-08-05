@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+jupytools/__init__.py
+jupytools/__main__.py
+jupytools/debug.py
+jupytools/export.py
+jupytools/syspath.py
+jupytools/version.py
+jupytools.egg-info/PKG-INFO
+jupytools.egg-info/SOURCES.txt
+jupytools.egg-info/dependency_links.txt
+jupytools.egg-info/top_level.txt
