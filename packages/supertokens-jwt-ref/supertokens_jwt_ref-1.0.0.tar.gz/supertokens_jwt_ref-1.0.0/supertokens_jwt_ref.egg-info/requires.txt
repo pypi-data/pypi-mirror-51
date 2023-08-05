@@ -1,0 +1,10 @@
+django
+djangorestframework
+pycryptodome
+
+[dev]
+pytest
+pytest-django
+jsonschema
+flake8
+autopep8
