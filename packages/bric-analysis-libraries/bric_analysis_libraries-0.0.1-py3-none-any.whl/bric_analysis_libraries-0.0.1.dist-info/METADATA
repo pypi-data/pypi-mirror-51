@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: bric-analysis-libraries
+Version: 0.0.1
+Summary: An assortment of analysis libraries.
+Home-page: https://github.com/bicarlsen/analysis-libraries.git
+Author: Brian Carlsen
+Author-email: carlsen.bri@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Analysis Libraries
+
+> python -m pip install bric-analysis-libraries 
+
+An assortment of analysis libraries.
+
+## Components
+There are four components of the libraries divided by experiemnt type.
+
+---
+
+### Standard
+Contains standard functions.
+
+#### Standard Functions
+
+```python
+from bric_analysis_libraries import standard_functions as std
+# or
+import bric_analysis_libraries.standard_functions as std
+```
+Provides standard function.
+
+---
+
+### JV
+Contains data prep and analysis packages for JV experiments.
+
+#### Aging Analysis
+Analysis of degradation mecahnisms
+
+#### Aging Data Prep
+Data prep from the stability lab.
+
+#### EC Lab Analysis
+Analysis of EC experiments
+
+#### EC Lab Data Prep
+Data prep of experiments form EC Lab.
+
+#### Igor JV Data Prep
+Data prep of JV experiments coming from the old IV setup.
+
+#### JV Analysis
+Analysis of JV experiments.
+
+---
+
+### PL
+Contains data prep and analysis packages for PL experiments.
+
+#### Andor Data Prep
+Data prep for PL experiments from Andor Solis software.
+
+#### Ocean Optics Data Prep
+Data prep for PL experiments from Ocean Optics.
+
+#### PL Analysis
+Analysis of PL experiments.
+
+---
+
+### Misc
+Contains other components.
+
+#### Function Matcher
+Creates a linear combination of basis functions to match a target function as close as possible.
+
+#### QSoft Data Prep
+Data prep for QSoft quartz crystal microbalance acquisition software.
+
+#### QCM Analysis
+Analysis of quartz crystal microbalance experiments. 
+
