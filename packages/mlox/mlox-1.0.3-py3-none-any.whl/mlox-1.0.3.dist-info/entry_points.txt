@@ -1,0 +1,3 @@
+[console_scripts]
+mlox = mlox.__main__:main
+
