@@ -1,0 +1,5 @@
+inotify
+libsass
+markdown
+pyyaml
+stencil-template
