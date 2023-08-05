@@ -1,0 +1,3 @@
+[tutor.plugin.v0]
+wagtail = tutorwagtail.plugin
+
