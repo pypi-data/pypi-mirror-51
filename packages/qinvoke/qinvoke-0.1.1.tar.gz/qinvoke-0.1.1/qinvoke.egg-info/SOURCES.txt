@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+qinvoke/__init__.py
+qinvoke/main.py
+qinvoke/program.py
+qinvoke/version.py
+qinvoke.egg-info/PKG-INFO
+qinvoke.egg-info/SOURCES.txt
+qinvoke.egg-info/dependency_links.txt
+qinvoke.egg-info/entry_points.txt
+qinvoke.egg-info/not-zip-safe
+qinvoke.egg-info/requires.txt
+qinvoke.egg-info/top_level.txt
+qinvoke/templates/base.html
+qinvoke/templates/home.html
+qinvoke/templates/task.html

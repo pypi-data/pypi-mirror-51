@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: qinvoke
+Version: 0.1.1
+Summary: A web gui for running invoke commands.
+Home-page: https://github.com/hydiant/qinvoke
+Author: Shaoqing Tan
+Author-email: tansq7@gmail.com
+License: MIT
+Description: # qinvoke
+        qinvoke - q stands for nothing particular.
+        
+        # summary
+        A web gui for running invoke commands.
+        
+        # install
+            pip install qinvoke
+        
+        # usage
+            use qinvoke in place of invoke or import Program from qinvoke instead of invoke.
+        
+        # develop
+        to release make a tag like v0.1.0 that matches package version.
+        
+            python3 setup.py sdist
+            python3 -m twine upload dist/*
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
