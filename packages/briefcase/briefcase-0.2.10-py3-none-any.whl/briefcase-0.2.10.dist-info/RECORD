@@ -1,0 +1,17 @@
+briefcase/__init__.py,sha256=iklPAZ58itOAA8imxoPu3CSqOluLjVGDxu9-V4Q7F-o,465
+briefcase/android.py,sha256=aKsMmtFZk9-Q-idjUyPl32uoYeEfe1ggfKN7EkSzMS8,5166
+briefcase/app.py,sha256=lq_29oTxWSRJaUl2B7fqxGl1mhxitCIIalJokSJH1ac,20334
+briefcase/django.py,sha256=8oTUt-5OkGgAJaNId9uC8abQqm4JGZrIHB3DUjYrjQI,4048
+briefcase/ios.py,sha256=VXsdIJySxS3SRsDFHhkL1L9MbBkxZxFxqCbVpNsJOqo,12392
+briefcase/linux.py,sha256=qT5ZCEZ01_wWWgdJA-untD--lT23VelM49u1aNEL-d8,1657
+briefcase/macos.py,sha256=PLuFc0DTCRAJum1mtz_lEGHwN4dRozCCYjPih5HXX_4,4387
+briefcase/tvos.py,sha256=JDwc-pPEUXpiJ4JzlVi79Q7GK8fF58STM4_I2ZGNSV8,2851
+briefcase/watchos.py,sha256=pPrbM1uJcgiLJE2t-GzbajOfMx7NJim-SeHVE5sgw8s,2851
+briefcase/windows.py,sha256=FqD4dEQxffucIYjWdPUN_thowuNKkk-71K5zSKdXF0A,8652
+briefcase-0.2.10.dist-info/AUTHORS,sha256=UlWyN3El-DDTSUU_dy-td3w8VEKwDqy4g4mK4ZTFwsA,345
+briefcase-0.2.10.dist-info/LICENSE.txt,sha256=WU9NnOR2Clz1PtCBhmiyFtsHLMWNry0wixPtMol_3Ag,1525
+briefcase-0.2.10.dist-info/METADATA,sha256=bOPAbSwvTi145mRT4IMJfCvn0zfNWCkAAy2Lp4QT0Rw,3855
+briefcase-0.2.10.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+briefcase-0.2.10.dist-info/entry_points.txt,sha256=7a2UweqZcTj_aPzZtW6Kcww-NJio6Wflor-EGyrmM0s,298
+briefcase-0.2.10.dist-info/top_level.txt,sha256=LZFM9bsFenmeZCZcrWcoXVcPTjuUhwxkjkmSGYUPtOw,10
+briefcase-0.2.10.dist-info/RECORD,,
