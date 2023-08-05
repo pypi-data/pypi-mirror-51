@@ -1,0 +1,6 @@
+click
+pyyaml
+
+[dev]
+pytest
+pytest-cov
