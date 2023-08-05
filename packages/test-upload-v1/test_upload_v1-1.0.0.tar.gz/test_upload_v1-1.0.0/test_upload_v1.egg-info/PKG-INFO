@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: test-upload-v1
+Version: 1.0.0
+Summary: an api of project olympus
+Home-page: https://github.com/gggggaoyu/olympus
+Author: gaoyu
+Author-email: xiangqukk@163.com
+License: SMO Licence
+Description: An api for olympus cmd ,that is a service for Programmer
+Keywords: pip,olympus,ffffff
+Platform: any
