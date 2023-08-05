@@ -1,0 +1,10 @@
+python_caltrain/__init__.py,sha256=rZ-l7ReSswVZVOXK9pCPjnq2nQYJW5ZeavXNGXE2fig,210
+python_caltrain/__version__.py,sha256=jeneIrSbE87tvdk4dZ-Q9A3kjYs_uQfmUrT_Jx1EVfM,25
+python_caltrain/caltrain.py,sha256=1oA_7Ag8AzbKuUzSSjdnsDY9mhJIaxfGWNdkUyBkZO4,15267
+python_caltrain/data/caltrain_gtfs_latest.zip,sha256=s7woo7glj_QhlZPHojgQkkMRhhQGVmCpAfWNql3NTdQ,441407
+python_caltrain-2019.4.0.dist-info/LICENSE,sha256=M7ocLhBiaY8wiR-LeXbR7_n7rz_FAzoZMau2JQ3LnaI,1079
+python_caltrain-2019.4.0.dist-info/METADATA,sha256=H0Up_ZCZN86JmHqsbT4SiBylPz_VibUiqP8YU3eMeZ8,572
+python_caltrain-2019.4.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+python_caltrain-2019.4.0.dist-info/top_level.txt,sha256=hqIkXOdsRtReBK3LYfXZRDDsY95UWBr44r-9B-SquXk,16
+python_caltrain-2019.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+python_caltrain-2019.4.0.dist-info/RECORD,,
