@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: cloudsat-object-manipulation
+Version: 0.1.3
+Summary: This package contains a set of packages and command line plugins that can identify indidual cloud objects along CloudSat's orbit and their associated properties (i.e. cloud type, size, precipitating)
+Home-page: https://github.com/kms22134/cloudsat_object_manipulation
+Author: Kevin Smalley
+Author-email: ksmalley@tamu.edu
+License: MIT license
+Keywords: cloudsat_object_manipulation
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: h5py
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: xarray
+Requires-Dist: netcdf4
+
+# CloudSat Object Manipulation
+
+[![Build Status](https://img.shields.io/pypi/v/cloudsat_object_manipulation.svg?branch=master)(https://pypi.python.org/pypi/cloudsat_object_manipulation)
+[![PyPI](https://pypi.python.org/pypi/cloudsat_object_manipulation)]
+[![PyPI - Python Version](https://pypi.python.org/pypi/cloudsat_object_manipulation)]
+[![PyPI - Implimentation](https://pypi.python.org/pypi/cloudsat_object_manipulation)]
+
+
+This package contains a set of packages and command line plugins that can identify indidual cloud objects along CloudSat's orbit and their associated properties (i.e. cloud type, size, precipitating)
+
+
+* Free software: MIT license
+* Documentation: https://cloudsat-object-manipulation.readthedocs.io.
+
+## Instalation
+To install cloudsat_object_manipulation
+
+```bash
+$ pip install git+https://github.com/kms22134/cloudsat_manipulation
+```
+
+# Features
+
+* TODO
+
+# Credits
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2019-08-18)
+------------------
+
+* First release on PyPI.
+
+0.1.1 (2019-08-19)
+------------------
+
+* Added land sea mask plugin
+
+0.1.2 (2019-08-20)
+------------------
+
+* Added pypi classifiers
+
+

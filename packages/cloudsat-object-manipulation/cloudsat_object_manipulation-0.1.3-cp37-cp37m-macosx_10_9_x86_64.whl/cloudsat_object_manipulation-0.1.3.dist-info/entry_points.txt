@@ -1,0 +1,4 @@
+[console_scripts]
+cloudSat_object_creator = cloudsat_object_manipulation.cldObj_creation:main
+lsmCreate = land_sea_mask.landSeaMaskCreate:main
+
