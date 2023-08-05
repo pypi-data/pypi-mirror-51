@@ -1,0 +1,10 @@
+{# django-xicon #}
+{# xicon/templates/xicon/templatetags/xicon_apple_touch_icons.html #}
+
+
+{% load xicon_tags %}
+
+
+{% for apple_touch_icon in XICON_APPLE_TOUCH_ICONS %}
+    {% xicon_apple_touch_icon apple_touch_icon %}
+{% endfor %}
