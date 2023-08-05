@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+
+echo "delete-dock has been deprecated, please use AWS Service Catalog"
