@@ -1,0 +1,9 @@
+mailroom/__init__.py,sha256=rGkiFKqevKw7nV6pq2cr12OBmVqv8nJ1b5XGYXLFPB0,96
+mailroom/email_client.py,sha256=zI7h6wzXETydlVF2DAL8ksaEYWyGNTL2osrgrz9IKEI,2967
+mailroom/report_utils.py,sha256=fExmc4UWbNHMrd-jZSN2A93OPBzDEtJtwTANzX0XbEU,7039
+tests/__init__.py,sha256=iVbQPj55jnyfj2-5fZkmi3Yxa6asqXTKCuP3VyBg0F0,920
+mailroom-0.0.1.dist-info/LICENSE,sha256=m3iecEFuQBbF54Imc0sk-Co0BbZ-jvvtWETCDk7fJEU,1071
+mailroom-0.0.1.dist-info/METADATA,sha256=viRrij1M7tpMdQihBEJ-gpRZjoBzJdtiT7n1JIYcqw4,572
+mailroom-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+mailroom-0.0.1.dist-info/top_level.txt,sha256=8CNdYxt2kooRql_ak7YOZmkBACosoIc0zwPmEv27O3c,15
+mailroom-0.0.1.dist-info/RECORD,,
