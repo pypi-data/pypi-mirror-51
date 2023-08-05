@@ -1,0 +1,11 @@
+MANIFEST.in
+README.PyPI.md
+README.md
+setup.py
+visoptslider/__init__.py
+visoptslider/visoptslider.py
+visoptslider.egg-info/PKG-INFO
+visoptslider.egg-info/SOURCES.txt
+visoptslider.egg-info/dependency_links.txt
+visoptslider.egg-info/requires.txt
+visoptslider.egg-info/top_level.txt
