@@ -1,0 +1,9 @@
+README.md
+setup.py
+SVRGoptimizerKeras/__init__.py
+SVRGoptimizerKeras/optimizer.py
+svrg_optimizer_keras.egg-info/PKG-INFO
+svrg_optimizer_keras.egg-info/SOURCES.txt
+svrg_optimizer_keras.egg-info/dependency_links.txt
+svrg_optimizer_keras.egg-info/requires.txt
+svrg_optimizer_keras.egg-info/top_level.txt
