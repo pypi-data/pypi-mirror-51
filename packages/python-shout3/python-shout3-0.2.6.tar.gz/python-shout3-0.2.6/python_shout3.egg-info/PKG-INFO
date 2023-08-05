@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: python-shout3
+Version: 0.2.6
+Summary: Bindings for libshout 2
+Home-page: https://github.com/yomguy/python-shout/
+Author: Guillaume Pellerin
+Author-email: yomguy@parisson.com
+License: UNKNOWN
+Description: This is a Python 3 version of the [python-shout](https://pypi.org/project/python-shout/) project.
+        
+        This package was created by [yomguy](https://github.com/yomguy/), check out the original source [here](https://github.com/yomguy/python-shout).
+        
+        _Please note: you must install `libshout3` and `libshout3-dev` before installing this package!_
+        
+        Below is the original README.
+        
+        ---
+        
+        This is shout-python, a set of bindings for libshout 2.
+        
+        shout-python allows you to act as a source for icecast 1 and 2, and
+        shoutcast. This module includes inline documentation, or see
+        the included example.py for a demonstration of its usage.
+        
+        shout-python is licensed under the GNU LGPL. See COPYING for details.
+        
+        > **NOTE**: This version supports both Python 2 and Python 3
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
