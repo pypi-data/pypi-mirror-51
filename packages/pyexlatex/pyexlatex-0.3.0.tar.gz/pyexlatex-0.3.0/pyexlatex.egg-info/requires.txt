@@ -1,0 +1,8 @@
+mixins
+pandas
+tempdir
+data
+latex
+future
+sympy
+shutilwhich
