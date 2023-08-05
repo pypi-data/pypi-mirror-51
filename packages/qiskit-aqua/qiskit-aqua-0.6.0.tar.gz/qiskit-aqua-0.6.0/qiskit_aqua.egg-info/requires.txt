@@ -1,0 +1,24 @@
+qiskit-terra<0.10.0,>=0.9.0
+qiskit-ignis<0.3.0,>=0.2.0
+scipy>=1.0
+sympy>=1.3
+numpy>=1.13
+psutil>=5
+jsonschema<2.7,>=2.6
+scikit-learn>=0.20.0
+cvxopt
+dlx
+docplex
+fastdtw
+quandl
+setuptools>=40.1.0
+h5py
+networkx>=2.2
+
+[:sys_platform != "win32"]
+pyscf
+
+[torch]
+
+[torch:sys_platform != "win32"]
+torch
