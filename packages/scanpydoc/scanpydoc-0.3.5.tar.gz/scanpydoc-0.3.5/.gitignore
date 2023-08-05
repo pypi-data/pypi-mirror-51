@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+/build/
+/dist/
+
+# Venvs
+/3.5
+
+# Docs
+/docs/_build/
+/docs/scanpydoc.*.rst
+
+# IDEs
+/.idea/
+/.coverage
