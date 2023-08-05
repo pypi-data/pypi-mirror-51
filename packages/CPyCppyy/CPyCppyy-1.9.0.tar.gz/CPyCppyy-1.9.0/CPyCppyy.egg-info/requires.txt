@@ -1,0 +1,2 @@
+cppyy-cling>=6.18.0.0
+cppyy-backend>=1.10.0
