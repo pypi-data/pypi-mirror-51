@@ -1,0 +1,3 @@
+[console_scripts]
+mytestscript = demo.test:main
+
