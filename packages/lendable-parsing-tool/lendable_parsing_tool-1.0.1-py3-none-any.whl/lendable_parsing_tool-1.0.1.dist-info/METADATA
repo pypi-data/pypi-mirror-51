@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: lendable-parsing-tool
+Version: 1.0.1
+Summary: Lendable parsing tool
+Home-page: UNKNOWN
+Author: Omar Diaz
+Author-email: omar.diaz@crosslend.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pony
+Requires-Dist: Click
+Requires-Dist: mysqlclient
+Requires-Dist: dsnparse
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+
