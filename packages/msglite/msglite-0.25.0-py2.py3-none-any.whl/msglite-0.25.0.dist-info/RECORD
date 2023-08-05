@@ -1,0 +1,13 @@
+msglite/__init__.py,sha256=ZcyBLmaaZNODYEMFVLgQculQEcJGe3XMbf-dHHgflGM,1390
+msglite/attachment.py,sha256=6L8rPMcGtLV_OMSMSuPB43XVdyqhcSbx7gWqSUsOV8s,3281
+msglite/constants.py,sha256=taPLCnSxya89YuLZbDndWJQFBIjkh68EM6DgMKd2gDs,10145
+msglite/message.py,sha256=UF4usuU1pglHuBmUtphxE0Znu9h3zGbZA30yVCg96eo,10754
+msglite/prop.py,sha256=ud3lDqMa9REN8ea1kg4kDSjiiYmzc5OYqstK34GnmxY,3816
+msglite/properties.py,sha256=MOoiwGQpGQz1XhY28WcDN_WXfR0NDLyhry5hgfcq4JA,5335
+msglite/recipient.py,sha256=MNWKQgPmRX-gi8L0gR8N6_3vcVz7L7fe6S7acolMKE8,1943
+msglite/utils.py,sha256=2CAQ32r0bDMIe-upl2jp3nTomYRI68bJU6AA8lvrBPs,4875
+msglite-0.25.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+msglite-0.25.0.dist-info/METADATA,sha256=aWHvlYkaRxR60kFyj8T9e5OzdFWH36_NiklzhcYhCXo,419
+msglite-0.25.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+msglite-0.25.0.dist-info/top_level.txt,sha256=dygRc5F_gyVxSeTWi_OzBxxWUKuCP-ISRI58zG8XG10,8
+msglite-0.25.0.dist-info/RECORD,,
