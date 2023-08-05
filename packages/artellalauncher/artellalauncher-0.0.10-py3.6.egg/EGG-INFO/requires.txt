@@ -1,0 +1,12 @@
+artellapipe
+pathlib2
+requests
+packaging
+beautifulsoup4
+lxml
+
+[dev]
+wheel
+
+[test]
+pytest
