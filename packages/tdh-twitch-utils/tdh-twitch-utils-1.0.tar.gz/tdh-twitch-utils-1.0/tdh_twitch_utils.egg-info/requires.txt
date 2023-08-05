@@ -1,0 +1,1 @@
+tdh-tcd==2.4streamlink>=1.0.0docopt>=0.6.2praat-parselmouth>=0.3.3
