@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pykeepass-cache
+Version: 2
+Summary: database caching for PyKeePass
+Home-page: https://github.com/evidlo/pykeepass-cache
+Author: Evan Widloski
+Author-email: evan@evanw.org
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
