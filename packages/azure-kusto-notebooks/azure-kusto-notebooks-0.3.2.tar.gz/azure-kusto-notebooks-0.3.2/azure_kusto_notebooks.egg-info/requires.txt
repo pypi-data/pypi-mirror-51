@@ -1,0 +1,4 @@
+azure-kusto-data[pandas]
+
+[:python_version<'3.0']
+azure-nspkg
