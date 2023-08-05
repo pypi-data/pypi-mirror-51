@@ -1,0 +1,11 @@
+locstats/__init__.py,sha256=sWapnPzPiAIG1bS4J-LvtRejg6nKqrWqlC0RfQ3AERA,18
+locstats/__main__.py,sha256=hkSReQK7KjjRasAaRnfEvMjcAFknBA9IvuJE9-ARRo8,2107
+locstats/definitions.py,sha256=Vrq07xFg6-2CngbxzEsbzLQm5BahJA0PgC7MFF7PwWw,398
+locstats/languages.json,sha256=GsKMl4zBoodyOTSbKSlKAAmNoW7pcLcst2A_ZkbuWXs,1049
+locstats/loc.py,sha256=U8UoQWH6TVIYlJUJQsmSpZxc7Asr9VIZHEQsMWUAtF0,1194
+locstats-0.0.1.dist-info/LICENSE,sha256=SSAupnTpUOh0OyCuJJR24-LoYhAdyinO12Edwvsrpn0,1073
+locstats-0.0.1.dist-info/METADATA,sha256=Beavr1T_N-7wH_jSE8JUIsC2feDk3lHvD3SDfGBrxHg,580
+locstats-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+locstats-0.0.1.dist-info/entry_points.txt,sha256=IDXuu2K5jZgkdlOdqnQCEsEjTx9-U6lukXj5kSoEqEU,53
+locstats-0.0.1.dist-info/top_level.txt,sha256=rspfhR65Ps2t2tCp1acWi5GrSWcb03C5qRoRWt2t434,9
+locstats-0.0.1.dist-info/RECORD,,

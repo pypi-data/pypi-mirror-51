@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: locstats
+Version: 0.0.1
+Summary: A statistics tool for your LOC per language
+Home-page: https://github.com/kokkonisd/locstats
+Author: Dimitri Kokkonis
+Author-email: kokkonisd@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# locstats
+
+A Python tool that tells you approximately how many LOC (Lines Of Code) you
+have written in a given language.
+
+
