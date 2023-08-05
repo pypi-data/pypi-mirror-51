@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: markov-cli
+Version: 0.0.2
+Summary: You can mix Plato and Goldratt for example.
+Home-page: https://github.com/strizhechenko/markov-cli
+Author: Oleg Strizhechenko
+Author-email: oleg.strizhechenko@gmail.com
+License: GPL
+Description: # Abstract
+        
+        CLI for pymarkovchain.
+        
+        # Install:
+        
+        ```
+        pip install markov-cli
+        ```
+        
+        # Examples
+        
+        ``` shell
+        $ markov-cli --files Biznes_Bez_Mba.txt Platon_Gosudarstvo.txt --encoding='cp1251' --count 100 --strip --seed Бизнес
+        Бизнес – это удовольствие, а прекращение удовольствия – страдание
+        ...
+        ```
+        
+Keywords: markov chain,fun,cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
