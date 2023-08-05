@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+Katna/__init__.py
+Katna/decorators.py
+Katna/frame_extractor.py
+Katna/image_selector.py
+Katna/video.py
+katna.egg-info/PKG-INFO
+katna.egg-info/SOURCES.txt
+katna.egg-info/dependency_links.txt
+katna.egg-info/not-zip-safe
+katna.egg-info/requires.txt
+katna.egg-info/top_level.txt
+tests/__init__.py
+tests/image_similarity.py
+tests/test_video.py
