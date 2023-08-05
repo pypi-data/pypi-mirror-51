@@ -1,0 +1,12 @@
+mkdocs_file_selector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_file_selector/plugin.py,sha256=UsMzYvgyJnXXSK7GOQBdYS9Yo8ajEWNbHohYCYxwu2o,1248
+mkdocs_multilang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_multilang/plugin.py,sha256=cH-xLdTWUcRdx2eb1YODK4pCezErOsSfxaEJBl3dIL0,3511
+mkdocs_your_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_your_plugin/plugin.py,sha256=C3eS7yInX88T4hn5B-Az1rGqXG-4GkFLM8-uGLqzKuc,1639
+mkdocs_multilang-0.1.0a0.dist-info/LICENSE,sha256=0ze1LaVc1-87CRYqBdTP8YukgbZP8M5UFbjcFzq0XQw,1053
+mkdocs_multilang-0.1.0a0.dist-info/METADATA,sha256=-SjPcd9TdBycrrp3RD0pYfsnAg7OhVFdpppYbIYchyc,765
+mkdocs_multilang-0.1.0a0.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+mkdocs_multilang-0.1.0a0.dist-info/entry_points.txt,sha256=175ql6sDau_BXA2OGU7KDu0wB6nLo102K2oegPHl_Oc,64
+mkdocs_multilang-0.1.0a0.dist-info/top_level.txt,sha256=NfxzX4JsC7yVFyX3zbZ0ekMLIfHrsdiyhPbufX12qVA,17
+mkdocs_multilang-0.1.0a0.dist-info/RECORD,,
