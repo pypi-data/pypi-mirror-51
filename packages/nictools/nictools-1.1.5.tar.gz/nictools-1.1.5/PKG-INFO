@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nictools
+Version: 1.1.5
+Summary: Python Tools for NICMOS Data
+Home-page: https://github.com/spacetelescope/nictools
+Author: Vicki Laidler, David Grumm
+Author-email: help@stsci.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: docs
