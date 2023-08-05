@@ -1,0 +1,5 @@
+flask
+flask_admin==1.5.2
+flask_security
+sqlalchemy
+sqlsoup
