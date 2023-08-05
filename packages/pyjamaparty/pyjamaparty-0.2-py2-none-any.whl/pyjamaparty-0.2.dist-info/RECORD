@@ -1,0 +1,17 @@
+pyjama/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjama/strutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjama/strutils/string_builder.py,sha256=oyOE9iEfTzUVswnd49mKPW1KNCGyVOjqDjhwKpjP--o,867
+pyjamaparty/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjamaparty/patterns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjamaparty/patterns/singleton_pattern.py,sha256=__yhzJtnqamBN-NoZ1oRsoyCPi8a8cZnYMudd1M2Ytw,681
+pyjamaparty/strutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjamaparty/strutils/string_builder.py,sha256=oyOE9iEfTzUVswnd49mKPW1KNCGyVOjqDjhwKpjP--o,867
+pyjamaparty/tests/patterns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjamaparty/tests/patterns/test_singleton_pattern.py,sha256=PvhgPLZsBKgP32MU7FNHOzoDGD4xD_koIZmdy2KtQP8,1812
+pyjamaparty/tests/strutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjamaparty/tests/strutils/test_string_builder.py,sha256=Zg2qpS3hrkIBIyPN5R9y6w6Nr7m_uUB0wrMiAT2u9Dk,2406
+pyjamaparty-0.2.dist-info/LICENSE,sha256=y2jHQAkJN1gDRoyM6WOuHMLB95FMqsxfd22WoI1bQP8,1076
+pyjamaparty-0.2.dist-info/METADATA,sha256=0eprml5LVnwQ1YYJoGNDuWB8whLZA3swnkPEPMtbOFI,386
+pyjamaparty-0.2.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+pyjamaparty-0.2.dist-info/top_level.txt,sha256=VUMa3K4skr_8tEk6INg1AXvsryB_DdwsiYzYKwY1KvU,12
+pyjamaparty-0.2.dist-info/RECORD,,
