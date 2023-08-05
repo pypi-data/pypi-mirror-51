@@ -1,0 +1,8 @@
+.travis.yml
+README.md
+setup.py
+interruptingboar/__init__.py
+interruptingboar.egg-info/PKG-INFO
+interruptingboar.egg-info/SOURCES.txt
+interruptingboar.egg-info/dependency_links.txt
+interruptingboar.egg-info/top_level.txt
