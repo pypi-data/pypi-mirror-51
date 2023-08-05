@@ -1,0 +1,3 @@
+[console_scripts]
+hanimestart = mymodule:app_requests
+
