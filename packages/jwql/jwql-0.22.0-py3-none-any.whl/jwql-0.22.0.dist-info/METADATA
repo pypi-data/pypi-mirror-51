@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: jwql
+Version: 0.22.0
+Summary: The James Webb Space Telescope Quicklook Project
+Home-page: https://github.com/spacetelescope/jwql.git
+Author: Matthew Bourque, Misty Cracraft, Joe Filippazzo, Bryan Hilbert, Graham Kanarek, Catherine Martlin, Johannes Sahlmann, Ben Sunnquist
+Author-email: jwql@stsci.edu
+License: BSD
+Keywords: astronomy,python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Dist: asdf (>=2.3.3)
+Requires-Dist: astropy (>=3.2.1)
+Requires-Dist: astroquery (>=0.3.9)
+Requires-Dist: authlib
+Requires-Dist: bokeh (>=1.0)
+Requires-Dist: codecov
+Requires-Dist: django (>=2.0)
+Requires-Dist: flake8
+Requires-Dist: inflection
+Requires-Dist: ipython
+Requires-Dist: jinja2
+Requires-Dist: jsonschema (==2.6.0)
+Requires-Dist: jwedb (>=0.0.3)
+Requires-Dist: jwst (==0.13.0)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: numpydoc
+Requires-Dist: pandas
+Requires-Dist: psycopg2
+Requires-Dist: pysiaf
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: scipy
+Requires-Dist: sphinx
+Requires-Dist: sqlalchemy
+Requires-Dist: stsci-rtd-theme
+Requires-Dist: twine
+
+UNKNOWN
+
+
