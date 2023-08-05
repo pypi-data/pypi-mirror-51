@@ -1,0 +1,10 @@
+orangecontrib
+orangecontrib.elettra
+orangecontrib.elettra.wofry
+orangecontrib.elettra.syned
+orangecontrib.elettra.shadow
+orangecontrib.elettra.srw
+orangecontrib.elettra.wofry.widgets
+orangecontrib.elettra.syned.widgets
+orangecontrib.elettra.shadow.widgets
+orangecontrib.elettra.srw.widgets
