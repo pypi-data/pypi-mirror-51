@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: social-ethosa
+Version: 0.0.1
+Summary: The social ethosa library for Python
+Home-page: https://github.com/SakiKawasaki/social_ethosa
+Author: Ethosa
+Author-email: social.ethosa@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# social_ethosa
+The social ethosa library using Python.
+
+
