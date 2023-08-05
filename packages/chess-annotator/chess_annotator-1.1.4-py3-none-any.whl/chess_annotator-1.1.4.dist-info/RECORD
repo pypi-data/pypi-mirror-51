@@ -1,0 +1,9 @@
+annotator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+annotator/__main__.py,sha256=V5qsS4hlwbGMIw51UfxVFpDB2FsligiWRNL0KroNdqc,26504
+annotator/eco/eco.json,sha256=VxmoNuS0lpL2MJ6OdDr_4Iz3hy3IModZ2_gSTUaIBM0,692983
+chess_annotator-1.1.4.dist-info/LICENSE,sha256=T9hlB8m0hnZDQwZangNSIoaaJ7V4nv60_ZPtyFQS16M,35149
+chess_annotator-1.1.4.dist-info/METADATA,sha256=zE2Hmi4AvtIAHslqGaQ67QuMEH5Bek9cEVF2Cm-Zh44,5422
+chess_annotator-1.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+chess_annotator-1.1.4.dist-info/entry_points.txt,sha256=chmyfDXDlA7czZ269pDaiTIaSKGIGmZOc8P54zckVWo,55
+chess_annotator-1.1.4.dist-info/top_level.txt,sha256=nmZaySVWzM-ck5ZS1EXCs0kYgJ_mTzC3IO3lPZ5X2EY,10
+chess_annotator-1.1.4.dist-info/RECORD,,
