@@ -1,0 +1,11 @@
+etl/__init__.py,sha256=Nf0ALAoa1XU0xnpK0FwIPjAwDAZqZxhx2q329jiwLKY,39
+etl/etl.py,sha256=6fUeqTS0WD-Oj631_PKySyV-D3wDHF8mPmshyd1h5B0,6378
+torchetl/__init__.py,sha256=HCIDhkjSkxn1EBDDJ5HDxt5n-RZLvJinNqqkqEsc1Mo,39
+torchetl/etl.py,sha256=UUpJzNIMjYb3TrUQCzalwBnScyebxCiCcwuIfX2gbBU,7119
+torchetl/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchetl/base/dataset.py,sha256=IK_2ZfXGsDS49HzGb-W_94Wm9EAsFAEkKz7p-Nsjmfg,6311
+torchetl-0.3.4.dist-info/LICENSE,sha256=KE_y4VCGDHziSx6MPYNCRElUD5Et7PJMH4juOARFRSk,1055
+torchetl-0.3.4.dist-info/METADATA,sha256=b3abKnGJuI4E78SbAAJbdz9P-a35UeG3YakGEs9M3mc,1389
+torchetl-0.3.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+torchetl-0.3.4.dist-info/top_level.txt,sha256=mUe5HcxvqoMVVvyIgp7QVJt-CW-KhTTAWdGbB-Cfu0c,9
+torchetl-0.3.4.dist-info/RECORD,,
