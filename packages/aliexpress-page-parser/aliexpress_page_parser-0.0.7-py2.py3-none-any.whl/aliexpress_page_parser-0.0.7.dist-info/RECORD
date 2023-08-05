@@ -1,0 +1,12 @@
+aliexpress_page_parser/VERSION,sha256=f1ZJodDSBedllUd695XkMIHn4PVZakWooPoRv_ogNDk,5
+aliexpress_page_parser/__init__.py,sha256=qAOg0Z36iNRlRvUPeHpkKVgfvqfSzxNWlbOqBiNMb2o,455
+aliexpress_page_parser/product_detail_parser.py,sha256=nXCoYlRRrMOFRqYRpguVRrxCNOmFtqVF1Y7rWI0UDqU,4959
+aliexpress_page_parser/product_list_parser.py,sha256=9wlGVtMbZnJ0fol1H_Jv9q6YhxnpIVQnXJJgI21LmuY,11156
+tests/__init__.py,sha256=vWXcS0rlzI2yo1e2pT9m0ZLiPjQEYrqz8ZKs97odFiM,135
+tests/conftest.py,sha256=yOH7t65hDEE3IhzKNOsAlwG_h8n6aC0K9o5HlhTG-5A,26720
+tests/test_product_detail_parser.py,sha256=FKGrC0bzi3enT6Qfup5JEDsBO-MkdOh0i3ZpYNmrKLc,603
+tests/test_product_list_parser.py,sha256=EXU_3BxHNiqEXOQJg2AD5X_eecVT8fY3x6MRekuW0BE,2933
+aliexpress_page_parser-0.0.7.dist-info/METADATA,sha256=W6cwPQnwBFBteJhqbfPACVRajUlRj64TYCwESpPFtlc,2549
+aliexpress_page_parser-0.0.7.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+aliexpress_page_parser-0.0.7.dist-info/top_level.txt,sha256=u-Qy-Y5h7gMRUM1scQ8BaYRVDOHEJdtsNJzojdgaUXc,29
+aliexpress_page_parser-0.0.7.dist-info/RECORD,,
