@@ -1,0 +1,3 @@
+[console_scripts]
+yadupe = yadupe.__main__:main
+
