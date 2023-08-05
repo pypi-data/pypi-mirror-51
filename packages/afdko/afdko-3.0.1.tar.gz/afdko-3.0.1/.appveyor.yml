@@ -1,0 +1,62 @@
+image: Visual Studio 2017
+
+environment:
+  global:
+    CIBW_BUILD: cp36-win_amd64
+    CIBW_TEST_REQUIRES: pytest
+    CIBW_TEST_COMMAND: cd {project} && pytest && pip uninstall --yes afdko
+    TWINE_USERNAME: adobe-type-tools-ci
+    # Note: TWINE_PASSWORD is set in AppVeyor settings
+    PYTHON_HOME: C:\Python36-x64
+
+matrix:
+  fast_finish: true
+
+# Do not build feature branch with open Pull Requests
+skip_branch_with_pr: true
+
+install:
+  - SET PATH=%PYTHON_HOME%;%PYTHON_HOME%\Scripts;%PATH%
+  - python --version
+  - python -c "import struct; print(struct.calcsize('P') * 8)"
+  - python -m pip install --disable-pip-version-check --upgrade pip
+  - python -m pip --version
+
+# to run your custom scripts instead of automatic MSBuild
+build_script:
+  # our setup.py requires 'wheel', which may not be already installed
+  - python -m pip install cibuildwheel wheel
+  - cibuildwheel --output-dir wheelhouse
+
+artifacts:
+  # archive the generated packages in the ci.appveyor.com build report
+  - path: wheelhouse\*.whl
+    name: Wheels
+
+on_success:
+  # deploy wheels to PyPI on tags
+  - ps: >-
+      if ($env:APPVEYOR_REPO_TAG -eq "true") {
+        Write-Output ("Deploying " + $env:APPVEYOR_REPO_TAG_NAME + " to PyPI...")
+        python -m pip install twine
+        python -m twine upload wheelhouse/*.whl
+      }
+
+deploy:
+  # deploy wheels to GitHub on tags
+  provider: GitHub
+  auth_token:
+    secure: UyKfsObr/shlpP+0U5Zb3EPvmXt0kyKYu940CFNFdNZ8J7Fu54k415R0UNP78t0j
+  artifact: Wheels
+  draft: false
+  prerelease: true
+  on:
+    appveyor_repo_tag: true
+
+notifications:
+  - provider: Email
+    to:
+      - afdko@adobe.com
+    on_build_success: false
+    on_build_failure: true
+    on_build_status_changed: false
