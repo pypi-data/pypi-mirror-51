@@ -1,0 +1,8 @@
+requests>=2.21.0
+Pygments>=2.3.1
+
+[:sys_platform == "win32"]
+colorama>=0.2.4
+
+[python_version == "3.0" or python_version == "3.1"]
+argparse>=1.2.1
