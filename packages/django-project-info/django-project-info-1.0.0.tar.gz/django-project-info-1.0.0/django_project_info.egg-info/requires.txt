@@ -1,0 +1,4 @@
+django>=1.11
+gitpython>=2.1.12
+click==7.0
+requests>=2.22.0
