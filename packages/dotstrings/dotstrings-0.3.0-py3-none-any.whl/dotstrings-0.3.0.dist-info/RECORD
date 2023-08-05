@@ -1,0 +1,9 @@
+dotstrings/__init__.py,sha256=QbdFhVL1bu47zHGy_k9QtOBmW5MSW8zgW81eLvp-P8U,228
+dotstrings/dot_strings_entry.py,sha256=YGclWSnxBb_4d09KRqcMDSHxxwaqwKzN3Vvut_yUZPA,984
+dotstrings/genstrings.py,sha256=0ep6Vll4i1FTYw881ZZYOG09AbRWsTsNgi9U6phs1EU,4448
+dotstrings/localized_string.py,sha256=3br2LTEo2G_mN2U-1qJL2RsokYmeTXIIpQO_VlzpMNE,6091
+dotstrings/parser.py,sha256=AxGvyMkAxovZzZ-vY5-JcvtWPcO7h7Z4i8xSd6Kswgk,5104
+dotstrings-0.3.0.dist-info/LICENSE,sha256=mQaUD2Gx8LUz-n2ZuvVReLKAj74RPqUd-_rYVyzNXys,1162
+dotstrings-0.3.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+dotstrings-0.3.0.dist-info/METADATA,sha256=COo0GUh-XXQ2o2F-1vgxJGwpjRmakr_Jvsdan4nItZQ,2161
+dotstrings-0.3.0.dist-info/RECORD,,
