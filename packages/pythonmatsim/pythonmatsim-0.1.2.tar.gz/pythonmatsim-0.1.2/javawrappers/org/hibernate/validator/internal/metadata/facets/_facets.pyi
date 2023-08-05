@@ -1,0 +1,36 @@
+################################################################################
+#          This file was automatically generated. Please do not edit.          #
+################################################################################
+
+import javawrappers.org.hibernate.validator.internal.metadata.facets
+import javawrappers.java.lang.reflect
+import javawrappers.java.lang
+import javawrappers.org.hibernate.validator.internal.metadata.aggregated
+import javawrappers.org.hibernate.validator.internal.engine.path
+import javawrappers.java.lang.annotation
+
+from jpype.types import *
+from typing import Union
+
+from typing import overload
+
+class Cascadable:
+	class Builder:
+		def build(self, ) -> javawrappers.org.hibernate.validator.internal.metadata.facets.Cascadable: ...
+		def mergeCascadingMetaData(self, arg0: javawrappers.org.hibernate.validator.internal.metadata.aggregated.CascadingMetaDataBuilder, ) -> None: ...
+
+
+	def getValue(self, arg0: javawrappers.java.lang.Object, ) -> javawrappers.java.lang.Object: ...
+	def getElementType(self, ) -> javawrappers.java.lang.annotation.ElementType: ...
+	def getCascadingMetaData(self, ) -> javawrappers.org.hibernate.validator.internal.metadata.aggregated.CascadingMetaData: ...
+	def build(self, ) -> javawrappers.org.hibernate.validator.internal.metadata.facets.Cascadable: ...
+	def mergeCascadingMetaData(self, arg0: javawrappers.org.hibernate.validator.internal.metadata.aggregated.CascadingMetaDataBuilder, ) -> None: ...
+	def appendTo(self, arg0: javawrappers.org.hibernate.validator.internal.engine.path.PathImpl, ) -> None: ...
+	def getCascadableType(self, ) -> javawrappers.java.lang.reflect.Type: ...
+
+
+class Validatable:
+	def getCascadables(self, ) -> javawrappers.java.lang.Iterable: ...
+	def hasCascadables(self, ) -> Union[int, JBoolean]: ...
+
+

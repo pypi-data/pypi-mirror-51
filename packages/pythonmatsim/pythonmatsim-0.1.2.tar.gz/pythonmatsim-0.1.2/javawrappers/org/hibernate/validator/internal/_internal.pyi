@@ -1,0 +1,19 @@
+################################################################################
+#          This file was automatically generated. Please do not edit.          #
+################################################################################
+
+import javawrappers.java.lang
+
+from jpype.types import *
+from typing import Union
+
+from typing import overload
+
+class IgnoreForbiddenApisErrors:
+	def reason(self, ) -> javawrappers.java.lang.String: ...
+	def hashCode(self, ) -> Union[int, JInt]: ...
+	def equals(self, arg0: javawrappers.java.lang.Object, ) -> Union[int, JBoolean]: ...
+	def annotationType(self, ) -> javawrappers.java.lang.Class: ...
+	def toString(self, ) -> javawrappers.java.lang.String: ...
+
+
