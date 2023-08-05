@@ -1,0 +1,8 @@
+djangomix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangomix/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangomix/templatetags/mix.py,sha256=sSBAHfDaUPwZY1WzYeoMOmCg0EaaalM5N4atKr1E9Ao,1332
+djangomix-1.1.1.dist-info/LICENSE,sha256=40cskuZF1ucT8KkBQ5a_Fem9Xzz4FbRmlax3mikk_P0,1069
+djangomix-1.1.1.dist-info/METADATA,sha256=coRw4ta7TFFtdxTOFBipvEr7HS16nlIQaCfInkTm6lA,2848
+djangomix-1.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+djangomix-1.1.1.dist-info/top_level.txt,sha256=f8-N31HA_MUh5zyhHwXWNnBF0LE5Pvc9JPYq8j-kk8k,10
+djangomix-1.1.1.dist-info/RECORD,,
