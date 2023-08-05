@@ -1,0 +1,9 @@
+{
+  "files": {
+    "main.js": "/static/js/main.9a432c57.js",
+    "main.js.map": "/static/js/main.9a432c57.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3142f3db071b2f3e64f2a36201e8c93d.js": "/precache-manifest.3142f3db071b2f3e64f2a36201e8c93d.js",
+    "service-worker.js": "/service-worker.js"
+  }
+}
