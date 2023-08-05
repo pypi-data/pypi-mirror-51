@@ -1,0 +1,15 @@
+COPYING.LGPL
+MANIFEST.in
+README.md
+setup.py
+asyncio_glib/__init__.py
+asyncio_glib/glib_events.py
+asyncio_glib/glib_selector.py
+asyncio_glib.egg-info/PKG-INFO
+asyncio_glib.egg-info/SOURCES.txt
+asyncio_glib.egg-info/dependency_links.txt
+asyncio_glib.egg-info/requires.txt
+asyncio_glib.egg-info/top_level.txt
+tests/__init__.py
+tests/test_glib_events.py
+tests/test_glib_selector.py
