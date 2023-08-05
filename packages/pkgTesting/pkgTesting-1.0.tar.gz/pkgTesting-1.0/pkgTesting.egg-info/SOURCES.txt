@@ -1,0 +1,8 @@
+README
+setup.py
+foo/__init__.py
+foo/itsAModule.py
+pkgTesting.egg-info/PKG-INFO
+pkgTesting.egg-info/SOURCES.txt
+pkgTesting.egg-info/dependency_links.txt
+pkgTesting.egg-info/top_level.txt
