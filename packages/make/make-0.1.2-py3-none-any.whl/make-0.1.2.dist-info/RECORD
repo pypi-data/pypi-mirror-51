@@ -1,0 +1,11 @@
+make/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+make/__main__.py,sha256=FwUsM_4Cn2yCGxmSfxoioRucjlNzTwLlCJHqkyDkNGs,1483
+make/make_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+make/make_project/make_project.py,sha256=Kdid20PtNlx_zGmqWtyysclFWjRWa5p47vJPEgmCbpM,3218
+make/make_project/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+make/make_project/parsers/ini_parser.py,sha256=ezv3_uPXYnaRd6Pjd1nrpAssnKj4iEWUa4D2sZwFC0Q,2339
+make/make_project/parsers/json_parser.py,sha256=bmiFgcWFI2Gc-qhcqsJR4sV45DrIdFJVP7jTbEuJCXU,2221
+make-0.1.2.dist-info/METADATA,sha256=cdLE6lwXL-LsX3czlSDz7J5l3IeeJoO9p-czDEkcF94,3473
+make-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+make-0.1.2.dist-info/top_level.txt,sha256=wRet6eqKAKvpJt_teSl6mjYy3vuXo__RuvM_6ScEqg8,5
+make-0.1.2.dist-info/RECORD,,
