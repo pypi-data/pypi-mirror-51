@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: wavedisp
+Version: 1.0.1
+Summary: Wave file generator for HDL waveform viewers
+Home-page: https://github.com/cclienti/wavedisp
+Author: Christophe Clienti
+Author-email: cclienti@wavecruncher.net
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
