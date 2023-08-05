@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: textsense
+Version: 0.1.2
+Summary: TextSense.ai a Text analytics platform.
+Home-page: UNKNOWN
+Author: TextSense Team
+Author-email: agambhire@algoanalytics.com
+License: UNKNOWN
+Description: TextSense
+        ----------
+        
+        To use, simply do::
+        
+            >>> form textsense.services import SERVICE
+            >>> api = SERVICE(userkey)
+            >>> text = 'The tea was not good. But it is better than coffee.'
+            >>> api.sentiment(text)
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
