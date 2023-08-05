@@ -1,0 +1,15 @@
+fastax/__init__.py,sha256=cwIQ-lttII8QpQFGHqCbVo_OkjGfDao1L3SI-tQ2xQc,165
+fastax/activations/__init__.py,sha256=h5pQvePL3w4w37Ps6oa5WG0TVcdBSJiP051j-lck01I,26
+fastax/activations/activations.py,sha256=JISRYINBEsFbX7AWE6iTOds6rZ9e7Npi-iRM03Q3V6E,1118
+fastax/initializers/__init__.py,sha256=erEgojQL9eKHxtxRWk6dpeh4JhitkdULK4UXIr04yyc,27
+fastax/initializers/initializers.py,sha256=Jdd9SVIpIPFSVaZuHjQyjzPiaDefa22JFp8GBLGQ8Vg,4198
+fastax/layers/__init__.py,sha256=eo1qQFwonHVGxoNMsJmQT2-AELjUzhokgFYo-bmavrQ,21
+fastax/layers/layers.py,sha256=DOUmqwjL8F7jpTF1mVEDH1Ou0dG1OUKpvRWt_dEBaG4,17200
+fastax/losses/__init__.py,sha256=ue6X6J4F9tu-SxAge-jyTnZCJ4T29KZPsEDKfoBewnY,21
+fastax/losses/losses.py,sha256=JL2tUoRZrFm9Ng5rsCGZU1E9j0lO40-Hk9NVGzFK62E,845
+fastax/optimizers/__init__.py,sha256=qm-2Ey5ci3SxTTwEkucBjPVM3w_tEoqFvlCLHdWBQOM,25
+fastax/optimizers/optimizers.py,sha256=_0mluxa74zA1-cDL4UNKRdtJBLIka4rUTbmrWxks7-E,17706
+fastax-0.1.0.dist-info/METADATA,sha256=et1rOSAyjEBopYbCni-72zCAf6QqQELGG6riAC39uiE,1282
+fastax-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+fastax-0.1.0.dist-info/top_level.txt,sha256=1JqHaJtR0G9QFg99m1Q_oLPe2TBwDrOyrDcOgLW5ySc,7
+fastax-0.1.0.dist-info/RECORD,,
