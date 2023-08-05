@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        vscod=vscod.scripts.vscod:cli
+    

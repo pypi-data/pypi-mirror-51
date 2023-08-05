@@ -1,0 +1,12 @@
+vscod/__init__.py,sha256=nEHZj8-r9XnuqK7pL3i8Cu7f600YMqaodxk1TTD3m-A,117
+vscod/extensions_downloader.py,sha256=dXdsi6JwPX0UC40JM2g2uWWjnGbZ_1m3KiIO4vwpzpc,11105
+vscod/utils.py,sha256=-vI4CerUQaTHiWOxtQNlUg886iC_r4MqHckl_BW1eHY,3064
+vscod/vscode_downloader.py,sha256=_Um3ncGVb2mAPovKvyCUsXC0hQKtaXoDpKVGMYntTnQ,7056
+vscod/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vscod/scripts/vscod.py,sha256=Webmx-1n44nb8lSAreCqMIo4SBQYAGGKENg_wz0SKSM,3737
+vscod-0.1.0.dist-info/LICENSE.txt,sha256=c3TEiMPtus4VaRvKJfMcvySeO0o4nAquOyNjOe682Nk,1068
+vscod-0.1.0.dist-info/METADATA,sha256=wrnITAuVBw3JZHZu9owctxUKA3iQfaqabDcvxCK_Xao,5948
+vscod-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+vscod-0.1.0.dist-info/entry_points.txt,sha256=lUaixdfimbdzIpqeqf11h4jPGs9aOynGMd7ITFzo_Qs,69
+vscod-0.1.0.dist-info/top_level.txt,sha256=ETU_8tGhUxXacsCFQ2904RDrA4siNLYqxM4mMWX87N4,6
+vscod-0.1.0.dist-info/RECORD,,
