@@ -1,0 +1,11 @@
+yadupe/__init__.py,sha256=nf12Oe6QCeGHOu1ni4Won8pbUeLN5I_x0_7h5kfulDI,817
+yadupe/__main__.py,sha256=bbCUZcwKRh1dtuPFdaPzOjeVnpmq9j2NcFrfvrVGk5I,1536
+yadupe/argutils.py,sha256=pElILgdzS5wYNTJ756tB_A5DhB0KPsdZusBUWtyB1ZE,2580
+yadupe/core.py,sha256=e35yT7OHRGiOuDN-tCqYq0oQEhm50inw-e_DfWgi7k4,11671
+yadupe/hashutils.py,sha256=23jry3Wq-QkJcTbKnIkjT0ejEvQC3And8c18sybE6J8,939
+yadupe-1.0.1.dist-info/LICENSE,sha256=c3iZEk7BaOU5XYXgETYe41DI75jbwS3e4wZuixRPDPo,1060
+yadupe-1.0.1.dist-info/METADATA,sha256=TGWfxkInria7Ud2qzoxDOwme46mLcJQY9BYTyY8d_5U,3279
+yadupe-1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+yadupe-1.0.1.dist-info/entry_points.txt,sha256=2c14xDJ6PiC_wwGl-7J99DGPrBm5Qgbke3GIYffbHi8,49
+yadupe-1.0.1.dist-info/top_level.txt,sha256=f3ulKkYupdvR3zh3b3nw8XFa9zhw1L_oVx9eVVpoFCc,7
+yadupe-1.0.1.dist-info/RECORD,,
