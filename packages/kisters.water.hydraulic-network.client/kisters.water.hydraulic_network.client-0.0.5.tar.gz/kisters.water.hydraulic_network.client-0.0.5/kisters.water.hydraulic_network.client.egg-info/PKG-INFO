@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: kisters.water.hydraulic-network.client
+Version: 0.0.5
+Summary: Client library for the Kisters Hydraulic Network Storage service
+Home-page: https://gitlab.com/kisters/water/hydraulic-network/client
+Author: Jesse VanderWees
+Author-email: jesse.vanderwees@kisters-bv.nl
+License: UNKNOWN
+Description: # Hydraulic Network Client Library
+        
+        This library allows connections to remote hydraulic network REST servers. It
+        supports authentication with OpenID Connect.
+        
+        ## Installation
+        
+        Install with `pip`:
+        
+        ```bash
+        > python -m pip install kisters.water.hydraulic_network.client
+        ```
+        
+        
+        ## Example Usage
+        
+        ### Create Client
+        
+        ```python
+        from kisters.water.hydraulic_network.client import (
+            OpenIDConnect,  # provides authentication tokens for the client
+            RESTClient,  # communicates with a network store service
+        )
+        
+        # Instantiate the authentication class with credentials
+        authentication = OpenIDConnect(
+            issuer_url="https://auth.kisters.cloud/auth/realms/external",
+            client_id="jesse-test",
+            client_secret="c4b0f70d-d2e6-497f-b11c-d49fe806c29b",
+        )
+        # Instantiate the client class with the service url and authentication
+        client = RESTClient(
+            url="https://jesse-test.hydraulic-network.kisters.cloud/",
+            authentication=authentication
+        )
+        # Verify the client is set up correctly
+        # Note: If you have not created any networks yet, this could be an empty list
+        client.get(("rest", "networks"))
+        # ['my-network', 'my-other-network', ...]
+        ```
+        
+        ### Connect to a Network
+        
+        ```python
+        from kisters.water.hydraulic_network.client import Network
+        
+        # Instantiate the Network class with the network name and client
+        network = Network("my-network", client)
+        
+        # You can now access the properties of the network
+        network.get_nodes()
+        # [
+        # FlowBoundary(
+        #     created=datetime.datetime(2019, 6, 27, 16, 53, 5),
+        #     uid='flow_boundary',
+        #     display_name='flow_boundary',
+        #     location={'x': 0.0, 'y': 0.0, 'z': 0.0},
+        #     schematic_location={'x': 0.0, 'y': 0.0, 'z': 0.0})
+        # ,
+        # ...
+        # ]
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

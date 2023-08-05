@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+kisters.water.hydraulic_network.client.egg-info/PKG-INFO
+kisters.water.hydraulic_network.client.egg-info/SOURCES.txt
+kisters.water.hydraulic_network.client.egg-info/dependency_links.txt
+kisters.water.hydraulic_network.client.egg-info/not-zip-safe
+kisters.water.hydraulic_network.client.egg-info/requires.txt
+kisters.water.hydraulic_network.client.egg-info/top_level.txt
+kisters/water/hydraulic_network/client/__init__.py
+kisters/water/hydraulic_network/client/_version.py
+kisters/water/hydraulic_network/client/auth.py
+kisters/water/hydraulic_network/client/clients.py
+kisters/water/hydraulic_network/client/network.py
+test/test_network.py

@@ -1,0 +1,2 @@
+include versioneer.py
+include kisters/water/hydraulic_network/client/_version.py
