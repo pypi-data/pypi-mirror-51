@@ -1,0 +1,5 @@
+[console_scripts]
+fitsbits-export = fitsbits.fits2export:main
+fitsbits-header = fitsbits.fitshdr:main
+fitsbits-movie = fitsbits.fits2mp4:main
+
