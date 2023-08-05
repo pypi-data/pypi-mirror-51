@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PyDbTool
+Version: 0.2
+Summary: Python all in one data-driver
+Home-page: UNKNOWN
+Author: Prabir Ghosh
+Author-email: mymail.prabir@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: psycopg2
+Requires-Dist: cassandra-driver
+Requires-Dist: pymongo
+
+# PyDbTool
+Python Database Driver Tool
+
+
