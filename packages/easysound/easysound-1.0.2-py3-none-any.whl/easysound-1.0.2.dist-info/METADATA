@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: easysound
+Version: 1.0.2
+Summary: A simple, easy sound programming in Python
+Home-page: https://github.com/ericzzer/Easy_Sound
+Author: Eric Zeng
+Author-email: ericchufengzeng@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyaudio
+Requires-Dist: playsound
+
+UNKNOWN
+
+
