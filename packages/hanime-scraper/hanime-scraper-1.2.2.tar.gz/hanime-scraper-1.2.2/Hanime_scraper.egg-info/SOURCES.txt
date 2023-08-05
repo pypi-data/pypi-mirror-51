@@ -1,0 +1,13 @@
+README.md
+setup.py
+Hanime_scraper.egg-info/PKG-INFO
+Hanime_scraper.egg-info/SOURCES.txt
+Hanime_scraper.egg-info/dependency_links.txt
+Hanime_scraper.egg-info/top_level.txt
+hanime_scraper.egg-info/PKG-INFO
+hanime_scraper.egg-info/SOURCES.txt
+hanime_scraper.egg-info/dependency_links.txt
+hanime_scraper.egg-info/entry_points.txt
+hanime_scraper.egg-info/top_level.txt
+hanimelib/__init__.py
+hanimelib/hanime_methods.py
