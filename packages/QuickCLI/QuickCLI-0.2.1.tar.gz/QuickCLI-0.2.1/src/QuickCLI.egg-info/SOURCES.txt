@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/QuickCLI.egg-info/PKG-INFO
+src/QuickCLI.egg-info/SOURCES.txt
+src/QuickCLI.egg-info/dependency_links.txt
+src/QuickCLI.egg-info/requires.txt
+src/QuickCLI.egg-info/top_level.txt
+src/quick_cli/__init__.py
+src/quick_cli/action_wrapper.py
+src/quick_cli/actions.py
+src/quick_cli/actions_test.py
+src/quick_cli/app.py
+src/quick_cli/app_info.py
+src/quick_cli/app_info_test.py
+src/quick_cli/context.py
+src/quick_cli/quick_cli_test.py
