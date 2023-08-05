@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ckipneutools
+Version: 0.0.11
+Summary: DEPRECATED, please shift to install and import 'ckiptagger'
+Home-page: https://github.com/ckiplab/ckiptagger
+Author: Peng-Hsuan Li
+Author-email: jacobvsdanniel@gmail.com
+License: CC BY-NC-SA 4.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+Requires-Dist: ckiptagger
+Provides-Extra: gdown
+Requires-Dist: gdown ; extra == 'gdown'
+Provides-Extra: tf
+Requires-Dist: tensorflow ; extra == 'tf'
+Provides-Extra: tfgpu
+Requires-Dist: tensorflow-gpu ; extra == 'tfgpu'
+
+DEPRECATED, please shift to install and import 'ckiptagger'
+
+
