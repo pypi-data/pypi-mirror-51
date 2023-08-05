@@ -1,0 +1,13 @@
+MANIFEST.in
+Makefile
+README.md
+pypotree.py
+requirements.txt
+setup.py
+pypotree.egg-info/PKG-INFO
+pypotree.egg-info/SOURCES.txt
+pypotree.egg-info/dependency_links.txt
+pypotree.egg-info/not-zip-safe
+pypotree.egg-info/requires.txt
+pypotree.egg-info/top_level.txt
+src/potree.colab.js
