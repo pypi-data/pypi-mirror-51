@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+kinetics/Model.py
+kinetics/__init__.py
+kinetics/model.py
+kinetics.egg-info/PKG-INFO
+kinetics.egg-info/SOURCES.txt
+kinetics.egg-info/dependency_links.txt
+kinetics.egg-info/requires.txt
+kinetics.egg-info/top_level.txt
