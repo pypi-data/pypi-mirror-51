@@ -1,0 +1,17 @@
+pysampling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysampling/measures.py,sha256=Psw6_o_KsbwqJ8n9L5lidU7AyG7VbwtWqTj8u4_krVA,2467
+pysampling/sample.py,sha256=j7xgLsfb-1h9Fxp2Of9JlOzYZUFZpRdCTDu2bVFGcPU,721
+pysampling/sampling.py,sha256=DWUWQoFVVCucsN_Aeh1xLJ3Zm-3AtpFGs1HJrSUMDuA,466
+pysampling/usage.py,sha256=W4vbyPTmWFUoy58Zfu7b10e0BpJEdj-MOGFcwaWnLbA,164
+pysampling/util.py,sha256=5Xq5QE47II80xsgMBPC-gqa80HJUVVYSkkY5Jx_g4uM,1140
+pysampling/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pysampling/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysampling/algorithms/halton.py,sha256=keQWvDq4SZR4LbXeVJlhR5jNGczKh5cJIzUC8C92syQ,582
+pysampling/algorithms/lhs.py,sha256=Ox1lx_2udRfE8czZrS8VQ__EsJHDalo443JulzqQYLo,1369
+pysampling/algorithms/random.py,sha256=s0rLhzBsGyd7ohmmNKH4YV4xmeEdF_qvvs8M4NJ2780,187
+pysampling/algorithms/sobol.py,sha256=ZBbsNfsqx6ffz40alnxqyuqzxqsBs8gTQ3o0noJ1sRg,3172
+pysampling-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pysampling-0.1.0.dist-info/METADATA,sha256=NwRmkUSgGnztraK8N7aUYy8SRGFpFVtphJyvsPVTr4M,2317
+pysampling-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pysampling-0.1.0.dist-info/top_level.txt,sha256=n6oFN7Szc3zFIqq-I6ZGlbspeLjTGK_2mPEHFdxqJuI,11
+pysampling-0.1.0.dist-info/RECORD,,
