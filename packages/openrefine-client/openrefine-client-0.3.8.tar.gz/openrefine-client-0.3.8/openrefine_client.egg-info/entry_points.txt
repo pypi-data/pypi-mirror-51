@@ -1,0 +1,3 @@
+[console_scripts]
+openrefine-client = google.refine.__main__:main
+
