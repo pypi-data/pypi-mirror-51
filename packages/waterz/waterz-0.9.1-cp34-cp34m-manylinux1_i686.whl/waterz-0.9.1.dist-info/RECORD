@@ -1,0 +1,13 @@
+waterz-0.9.1.dist-info/WHEEL,sha256=Tw3x8FyoUar3492cISWq7lBHsUFHyGB986JcxD9jR4Q,107
+waterz-0.9.1.dist-info/top_level.txt,sha256=0RC9fOo9qNUCbmQZfR4WFrn64RiShZZnc5cq-hF2C0E,7
+waterz-0.9.1.dist-info/METADATA,sha256=JIVpuMhUhku9aJ9cxgj93f5F0ZmsiuchEhQd5Ug5ycY,1846
+waterz-0.9.1.dist-info/RECORD,,
+waterz/agglomerate.pyx,sha256=gFJFLPRMna83pgK-x2iUwSasrBIwhUhCC6ZqnhfCBzU,4007
+waterz/frontend_agglomerate.h,sha256=7Y3ea7570GjeC02SdZpEqhvMv-I0EvgknrFqPKy8EcU,3237
+waterz/evaluate.pyx,sha256=i3ArvFwCALROTU2xVgiB2N_3XSVLaVJO0nw3lhSgmYk,1510
+waterz/evaluate.cpp,sha256=434EHk-bKlrYAvUG94VFKh7hh9RpLVl6J0Gn7aP1d84,338024
+waterz/__init__.py,sha256=sCmM_MMQyv0jiySrw9Gx2FRLKyPWkJL_VqOSHQofZyg,9195
+waterz/frontend_evaluate.cpp,sha256=KEoaI01k6AuYa5Zl2l2W8yVE4GRiM44BJty432H9gMM,702
+waterz/evaluate.cpython-34m.so,sha256=ILV580fYnHRJj5QN84ZR3z7XV6CfRZSBnxqfZf3fWWw,434209
+waterz/frontend_agglomerate.cpp,sha256=WHZMfTDiH3OSL5ia9ReqEZa6aWmTOJZPJL5gLInBksQ,4357
+waterz/frontend_evaluate.h,sha256=mITiQktibumlh7ka4be6nvAKNTQVl9IIGGxyhPNz7mM,357
