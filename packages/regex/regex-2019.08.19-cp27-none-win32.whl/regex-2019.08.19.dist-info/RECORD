@@ -1,0 +1,13 @@
+regex/__init__.py,sha256=9slNQEb4SCZ9LncNzcQvqmkyxXlcOAF7QwAwigxWjsw,65
+regex/_regex.pyd,sha256=Jgm_XaN2Exk1O8iUK2OpgMQ2fFrW3jai8ey_i949x3M,612777
+regex/_regex_core.py,sha256=Z2rjxgfeIrC07cYlnR74yaR1dm7X2CTerINvZVFFs7A,142323
+regex/regex.py,sha256=6YsuficdtUNdA1_6bYgFiJOqCpPkZzmseyfbQnHdkFA,31033
+regex-2019.08.19.dist-info/DESCRIPTION.rst,sha256=6YlNlGMepw5QdMRw5ctV_NDF9bGCHt9zv7I2WToK9CA,35419
+regex-2019.08.19.dist-info/METADATA,sha256=lYbUdGUx32DAt-B4Xx1se_AGb-WSmbzCSN2rBXy9-ls,36511
+regex-2019.08.19.dist-info/RECORD,,
+regex-2019.08.19.dist-info/WHEEL,sha256=Xful7Q1b77XHlTYxdWrV05Eb2DGHDg3TpgDGIUXVBsE,101
+regex-2019.08.19.dist-info/metadata.json,sha256=V2X8MsW3pymMbl0mZd0x7T7vePe2ovMJgWJzP_B9lhE,908
+regex-2019.08.19.dist-info/top_level.txt,sha256=aQmiDMhNTF26cCK4_7D-qaVvhbxClG0wyCTnEhkzYBs,6
+regex-2019.08.19.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+regex/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regex/test/test_regex.py,sha256=nOTtAmhTEqMY4fj9QMdlKMXePp5vnASl9fUaq7vt4Zw,201985
