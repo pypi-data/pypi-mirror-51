@@ -1,0 +1,4 @@
+lxml
+Pillow==5.4.1
+ocrd_utils==1.0.0b16
+ocrd_models==1.0.0b16
