@@ -1,0 +1,17 @@
+requests
+pandas
+xarray
+matplotlib
+lxml
+grequests
+gevent
+gspread
+siphon
+dask
+seaborn
+# Current fix to _fillmismatch problem described in https://github.com/cormorack/yodapy/issues/111
+netcdf4
+oauth2client
+progressbar2
+s3fs
+echopype

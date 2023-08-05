@@ -1,0 +1,16 @@
+requests
+pandas
+xarray
+matplotlib
+lxml
+grequests
+gevent
+gspread
+siphon
+dask
+seaborn
+netcdf4
+oauth2client
+progressbar2
+s3fs
+echopype
