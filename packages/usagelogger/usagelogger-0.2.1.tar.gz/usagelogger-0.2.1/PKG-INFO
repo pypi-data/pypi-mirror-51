@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: usagelogger
+Version: 0.2.1
+Summary: Logging usage of Python-based services, with user privacy by design.
+Home-page: https://github.com/resurfaceio/logger-python
+Author: Resurface Labs
+Author-email: admin@resurface.io
+License: Apache License 2.0
+Project-URL: Bug Reports, https://github.com/resurfaceio/logger-python/issues
+Project-URL: Source, https://github.com/resurfaceio/logger-python
+Description: Logging usage of Python-based services, with user privacy by design.
+        
+        Visit <a href="https://resurface.io">resurface.io</a> for general information on usage logging.
+        
+        ## Middleware Integrations
+        
+        These integrations allow usage logging from existing applications with only minor configuration changes.
+        
+        * Django - coming soon!
+        
+        ## Logging With API
+        
+        Loggers can be directly integrated into your application via our logging
+        <a href="https://github.com/resurfaceio/logger-python/blob/master/API.md">API</a>.
+        This requires more effort than middleware integrations, but also offers the greatest flexibility and control.
+        
+        ## Protecting User Privacy
+        
+        Loggers always have an active set of <a href="https://resurface.io/rules.html">rules</a> that control what data is logged
+        and how sensitive data is masked. By default, loggers apply a strict set of predefined rules, but logging rules are easily 
+        customized to meet the needs of any application.
+        
+        ---
+        &copy; 2016-2019 <a href="https://resurface.io">Resurface Labs Inc.</a>
+        
+Keywords: logging resurface
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Internet :: Log Analysis
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
