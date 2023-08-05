@@ -1,0 +1,6 @@
+[gui_scripts]
+notementum = notementum.__main__:main
+
+[pygments.styles]
+notementum = notementum.highlight_style:NotementumStyle
+
