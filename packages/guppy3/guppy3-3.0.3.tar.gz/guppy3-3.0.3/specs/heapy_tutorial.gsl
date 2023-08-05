@@ -1,0 +1,83 @@
+.macro:: header
+..header
+...link
+....rel=stylesheet
+....href=css/guppy.css
+
+.document: heapy_tutorial
+..output: html
+..document_title: Getting started with Heapy
+..use: header
+..h2: Getting started with Heapy
+
+..h3: Usage example
+
+..p: The following example shows
+
+..ol
+...li: How to create the session context: hp=hpy()
+...li: How to use the interactive help: hp.doc, hp.doc.doc
+...li: How to show the reachable objects in the heap: hp.heap()
+...li: How to create and show a set of objects: hp.iso(1,[],{})
+...li: How to show the shortest paths from the root to x: hp.iso(x).sp
+..pre
+>>> from guppy import hpy; hp=hpy()
+>>> hp
+Top level interface to Heapy.
+Use eg: hp.doc for more info on hp.
+>>> hp.doc
+Top level interface to Heapy. Available attributes:
+Anything            Rcs                 doc                 load
+Clodo               Root                findex              monitor
+Id                  Size                heap                pb
+Idset               Type                heapu               setref
+Module              Unity               idset               test
+Nothing             Via                 iso
+Use eg: hp.doc.<attribute> for info on <attribute>.
+>>> hp.doc.doc
+Overview documentation for top level Heapy object.
+Provides a listing of the available attributes.
+Accessing the attribute name on the doc objects gives further info, eg:
+
+    >>> hp.doc.heap
+
+gives doc for the heap method when hp is the top level Heapy object.
+
+References may be embedded in the documentations. To access a
+reference, opening up a web browser with the doc for it one can do eg:
+
+    >>> hp.doc.heap[1]
+
+The reference number 0 is special. If it is provided, it is the
+reference to the html doc for the described object itself. So to see
+in the web browser the doc for the heap method one can do:
+
+    >>> hp.doc.heap[0]
+
+References
+    [0] heapy_Use.html#heapykinds.Use.doc
+>>> hp.heap()
+Partition of a set of 36642 objects. Total size = 4298506 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0  10185  28   902186  21    902186  21 str
+     1   8958  24   727672  17   1629858  38 tuple
+     2    435   1   385632   9   2015490  47 type
+     3   4719  13   353328   8   2368818  55 bytes
+     4   2365   6   340560   8   2709378  63 types.CodeType
+     5   2177   6   313488   7   3022866  70 function
+     6    435   1   247552   6   3270418  76 dict of type
+     7    499   1   188168   4   3458586  80 dict (no owner)
+     8     91   0   161352   4   3619938  84 dict of module
+     9   1080   3    95040   2   3714978  86 types.WrapperDescriptorType
+<131 more rows. Type e.g. '_.more' to view.>
+>>> hp.iso(1,[],{})
+Partition of a set of 3 objects. Total size = 352 bytes.
+ Index  Count   %     Size   % Cumulative  % Kind (class / dict of class)
+     0      1  33      248  70       248  70 dict (no owner)
+     1      1  33       72  20       320  91 list
+     2      1  33       32   9       352 100 int
+>>> x=[]
+>>> hp.iso(x).sp
+ 0: hp.Root.i0_modules['__main__'].__dict__['x']
+>>> 
+..c: end pre
