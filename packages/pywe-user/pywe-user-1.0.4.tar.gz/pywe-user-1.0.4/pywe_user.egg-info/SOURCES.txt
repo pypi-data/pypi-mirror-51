@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+pywe_user/__init__.py
+pywe_user/pyweuser.py
+pywe_user.egg-info/PKG-INFO
+pywe_user.egg-info/SOURCES.txt
+pywe_user.egg-info/dependency_links.txt
+pywe_user.egg-info/requires.txt
+pywe_user.egg-info/top_level.txt
