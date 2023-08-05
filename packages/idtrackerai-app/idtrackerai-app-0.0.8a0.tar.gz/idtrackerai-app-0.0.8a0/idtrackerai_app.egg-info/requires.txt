@@ -1,0 +1,11 @@
+coloredlogs
+idtrackerai
+pyforms-terminal
+
+[gui]
+pyforms-gui
+python-video-annotator
+python-video-annotator-module-idtrackerai==0.6.64
+
+[only-gui]
+pyforms-gui

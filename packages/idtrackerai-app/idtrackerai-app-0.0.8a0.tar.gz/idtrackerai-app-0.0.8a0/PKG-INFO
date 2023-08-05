@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: idtrackerai-app
+Version: 0.0.8a0
+Summary: UNKNOWN
+Home-page: https://idtrackerai-app.readthedocs.org
+Author: ['Ricardo Ribeiro', 'Francisco Romero Ferrero']
+Author-email: idtrackerai@gmail.com, ricardojvr@gmail.com, paco.romero.ferrero@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: gui
+Provides-Extra: only-gui
