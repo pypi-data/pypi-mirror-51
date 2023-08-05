@@ -1,0 +1,15 @@
+piplates/DAQC2help.txt,sha256=dj6Bl9Hk_xNneKoNVpboOMt0x2jNdSELKbD_foGuJFY,5856
+piplates/DAQC2plate.py,sha256=B2J2GrtD_szqy0PDdW7auUJzp27IlhcEKV8LwCRS1Ew,25727
+piplates/DAQChelp.txt,sha256=GU8AdXyIPPYK7DPEHd23paEw5uXmEy0BWt7LZQbbjl8,4343
+piplates/DAQCplate.py,sha256=pCaXFp_CjHRknXFODTrRHJGLigzOdiY1r-rJiw-siSE,13396
+piplates/MOTORhelp.txt,sha256=WEWef16HPqyG0J00LV3JEkc71ux702y-34N2TqhlYyU,8219
+piplates/MOTORplate.py,sha256=dyaFEOCl_fyUmylum-XXae3PGoDynSwW9VEEK37BOqs,18203
+piplates/RELAYhelp.txt,sha256=mvNek2eHEVHYnOlmitU_stNxW01D0STD3SvViQTAdc0,1882
+piplates/RELAYplate.py,sha256=3uHicJjxbN5HS2BeHlpjbz6HGFq5kt2IgYBAmz8Lmmg,6325
+piplates/THERMOhelp.txt,sha256=0XJUmi3Far3Zyf47N1tlQT6mnpBkBD1m1NUKoRHZVBU,4675
+piplates/THERMOplate.py,sha256=m70ubk3DS-m-Or5JAllpCMp4tDXKdyvOy1JJP-VvI6Q,19677
+piplates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pi_plates-5.22.dist-info/METADATA,sha256=osfslLPqZ6jYEOi2LWNl3jUD1CXsmRwUHJ1AULip5YQ,327
+pi_plates-5.22.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+pi_plates-5.22.dist-info/top_level.txt,sha256=MmMOsDJwyllLPGLvoTvDEGAY5M_SDxXf5AG5rDZVfQU,9
+pi_plates-5.22.dist-info/RECORD,,
