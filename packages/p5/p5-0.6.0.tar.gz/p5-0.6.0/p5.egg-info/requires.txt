@@ -1,0 +1,5 @@
+vispy
+glfw
+numpy
+Pillow
+triangle
