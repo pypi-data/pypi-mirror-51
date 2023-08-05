@@ -1,0 +1,8 @@
+Cargo.toml
+README.md
+setup.py
+taxonomy.egg-info/PKG-INFO
+taxonomy.egg-info/SOURCES.txt
+taxonomy.egg-info/dependency_links.txt
+taxonomy.egg-info/not-zip-safe
+taxonomy.egg-info/top_level.txt
