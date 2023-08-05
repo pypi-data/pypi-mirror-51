@@ -1,0 +1,16 @@
+README.md
+setup.py
+nowyou_grafits_script_python.egg-info/PKG-INFO
+nowyou_grafits_script_python.egg-info/SOURCES.txt
+nowyou_grafits_script_python.egg-info/dependency_links.txt
+nowyou_grafits_script_python.egg-info/requires.txt
+nowyou_grafits_script_python.egg-info/top_level.txt
+script/__init__.py
+script/start.py
+script/tasks/__init__.py
+script/tasks/launch.py
+script/tasks/open_project.py
+script/ui_tools/UI_tools.py
+script/ui_tools/__init__.py
+script/utils/__init__.py
+script/utils/utils.py
