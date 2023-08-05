@@ -1,0 +1,3 @@
+[console_scripts]
+pleio-profile-sync-client = pleio_profile_sync_client.cli:main
+
