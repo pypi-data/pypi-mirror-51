@@ -1,0 +1,46 @@
+################################################################################
+#          This file was automatically generated. Please do not edit.          #
+################################################################################
+
+import javawrappers.org.matsim.core.api.experimental.events
+
+from jpype.types import *
+from typing import Union
+
+from typing import overload
+
+class VehicleArrivesAtFacilityEventHandler:
+	def handleEvent(self, arg0: javawrappers.org.matsim.core.api.experimental.events.VehicleArrivesAtFacilityEvent, ) -> None: ...
+	def reset(self, arg0: Union[int, JInt], ) -> None: ...
+
+
+class TeleportationArrivalEventHandler:
+	def handleEvent(self, arg0: javawrappers.org.matsim.core.api.experimental.events.TeleportationArrivalEvent, ) -> None: ...
+	def reset(self, arg0: Union[int, JInt], ) -> None: ...
+
+
+class AgentWaitingForPtEventHandler:
+	def handleEvent(self, arg0: javawrappers.org.matsim.core.api.experimental.events.AgentWaitingForPtEvent, ) -> None: ...
+	def reset(self, arg0: Union[int, JInt], ) -> None: ...
+
+
+class LaneLeaveEventHandler:
+	def handleEvent(self, arg0: javawrappers.org.matsim.core.api.experimental.events.LaneLeaveEvent, ) -> None: ...
+	def reset(self, arg0: Union[int, JInt], ) -> None: ...
+
+
+class VehicleDepartsAtFacilityEventHandler:
+	def handleEvent(self, arg0: javawrappers.org.matsim.core.api.experimental.events.VehicleDepartsAtFacilityEvent, ) -> None: ...
+	def reset(self, arg0: Union[int, JInt], ) -> None: ...
+
+
+class LaneEnterEventHandler:
+	def handleEvent(self, arg0: javawrappers.org.matsim.core.api.experimental.events.LaneEnterEvent, ) -> None: ...
+	def reset(self, arg0: Union[int, JInt], ) -> None: ...
+
+
+class BoardingDeniedEventHandler:
+	def handleEvent(self, arg0: javawrappers.org.matsim.core.api.experimental.events.BoardingDeniedEvent, ) -> None: ...
+	def reset(self, arg0: Union[int, JInt], ) -> None: ...
+
+
