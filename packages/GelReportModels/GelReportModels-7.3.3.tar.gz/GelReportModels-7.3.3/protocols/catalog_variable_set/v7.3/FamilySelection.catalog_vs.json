@@ -1,0 +1,28 @@
+[
+ {
+  "multiValue": false, 
+  "required": true, 
+  "type": "OBJECT", 
+  "name": "events", 
+  "description": "Dictionary of SelectionEvents, one for each test performed\n        Keys should be Test enum values"
+ }, 
+ {
+  "name": "status", 
+  "required": true, 
+  "allowedValues": [
+   "NOT_CHECKED", 
+   "REJECTED", 
+   "SELECTED"
+  ], 
+  "multiValue": false, 
+  "type": "CATEGORICAL", 
+  "description": "Overall family selection status"
+ }, 
+ {
+  "multiValue": false, 
+  "required": true, 
+  "type": "BOOLEAN", 
+  "name": "flagged", 
+  "description": "True if any flags are raised in the selection events"
+ }
+]
