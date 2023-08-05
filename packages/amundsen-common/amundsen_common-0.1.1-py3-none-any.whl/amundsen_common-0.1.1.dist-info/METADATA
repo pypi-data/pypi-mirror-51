@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: amundsen-common
+Version: 0.1.1
+Summary: Common code library for Amundsen
+Home-page: https://github.com/lyft/amundsencommon
+Maintainer: Lyft
+Maintainer-email: amundsen-dev@lyft.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flask (>=1.0.2)
+
+UNKNOWN
+
+
