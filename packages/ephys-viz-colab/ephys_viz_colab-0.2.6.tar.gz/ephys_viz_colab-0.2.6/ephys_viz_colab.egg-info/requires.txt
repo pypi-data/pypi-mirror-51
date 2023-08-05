@@ -1,0 +1,7 @@
+reactopya==0.3.5
+simplejson
+jupyter
+numpy
+mountaintools
+spikeforest
+scipy
