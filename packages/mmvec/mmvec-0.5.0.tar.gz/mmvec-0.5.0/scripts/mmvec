@@ -1,0 +1,174 @@
+#!/usr/bin/env python3
+import os
+import time
+import click
+import datetime
+from tqdm import tqdm
+import pandas as pd
+import numpy as np
+from biom import load_table, Table
+from biom.util import biom_open
+from skbio.stats.composition import clr, centralize, closure
+from skbio.stats.composition import clr_inv as softmax
+from scipy.stats import entropy, spearmanr
+from scipy.sparse import csr_matrix
+from mmvec.mmvec import run_mmvec
+from mmvec.dataset import PairedDataset, split_tables
+from torch.utils.data import DataLoader
+from decimal import Decimal
+
+
+@click.group()
+def mmvec():
+    pass
+
+
+@mmvec.command()
+@click.option('--input-abundances',
+              help=('Input abundances to use for prediction. '
+                    'These could be metabolite intensities or sequence counts.'
+              ))
+@click.option('--output-abundances',
+              help=('Output abundances to predict from input abundances. '
+                    'These could be metabolite intensities or sequence counts.'
+              ))
+@click.option('--metadata-file', default=None,
+              help='Input sample metadata file')
+@click.option('--training-column',
+              help=('Column in the sample metadata specifying which '
+                    'samples are for training and testing.'),
+              default=None)
+@click.option('--num-testing-examples',
+              help=('Number of samples to randomly select for testing'),
+              default=10)
+@click.option('--min-feature-count',
+              help=('Minimum number of samples a microbe needs to be observed '
+                    'in order to not filter out'),
+              default=10)
+@click.option('--epochs',
+              help=('Number of epochs to train, one epoch represents the '
+                    'number of samples to process an entire dataset.'), default=10)
+@click.option('--batch-size',
+              help='Number of samples to analyze per iteration.', default=10)
+@click.option('--latent-dim',
+              help=('Dimensionality of shared latent space. '
+                    'This is analogous to the number of PC axes.'),
+              default=3)
+@click.option('--input-prior',
+              help=('Scale of the normal prior on the input factor matrix. '
+                    'Smaller prior will yield stronger regularization.'),
+              default=1)
+@click.option('--output-prior',
+              help=('Scale of the normal prior on the output factor matrix. '
+                    'Smaller prior will yield stronger regularization.'),
+              default=1)
+@click.option('--arm-the-gpu', is_flag=True,
+              help=('Enables GPU support'),
+              default=False)
+@click.option('--num-workers',
+              help=('Number of processes for preprocessing tables.'),
+              default=1)
+@click.option('--learning-rate',
+              help=('Gradient descent learning rate.'),
+              default=1e-1)
+@click.option('--num-steps',
+              help=('Number of steps for learning rate decay.'),
+              default=10)
+@click.option('--decay-rate',
+              help=('Decay rate for learning'),
+              default=0.1)
+@click.option('--beta1',
+              help=('Gradient decay rate for first Adam momentum estimates'),
+              default=0.9)
+@click.option('--beta2',
+              help=('Gradient decay rate for second Adam momentum estimates'),
+              default=0.95)
+@click.option('--clip-norm',
+              help=('Normalization constant for gradient clipping.'),
+              default=10)
+@click.option('--seed',
+              help=('Random seed for the sake of reproducibility (optional).'),
+              default=None)
+@click.option('--checkpoint-interval',
+              help=('Number of seconds before a storing a checkpoint.'),
+              default=1000)
+@click.option('--summary-dir', default='summarydir',
+              help='Summary directory to save cross validation results.')
+@click.option('--embeddings-file', default=None,
+              help=('Path to save the embeddings learned from the model. '
+                    'If this is not specified, then this will be saved under '
+                    '`--summary-dir`.'))
+@click.option('--ranks-file', default=None,
+              help=('Path to save the ranks learned from the model. '
+                    'If this is not specified, then this will be saved under '
+                    '`--summary-dir`.'))
+@click.option('--ordination-file', default=None,
+              help=('Path to save the ordination learned from the model. '
+                    'If this is not specified, then this will be saved under '
+                    '`--summary-dir`.'))
+def mmvec(input_abundances, output_abundances,
+          metadata_file, training_column,
+          num_testing_examples, min_feature_count,
+          epochs, batch_size,  latent_dim,
+          input_prior, output_prior,
+          arm_the_gpu, num_workers, learning_rate,
+          num_steps, decay_rate,
+          beta1, beta2, clip_norm, seed,
+          checkpoint_interval, summary_dir,
+          embeddings_file, ranks_file, ordination_file):
+    # set random seed if specified
+    if seed is not None:
+        np.random.seed(seed)
+        torch.manual_seed(seed)
+
+    microbes = load_table(input_abundances)
+    metabolites = load_table(output_abundances)
+
+    if metadata_file is not None:
+        metadata = pd.read_table(metadata_file, index_col=0)
+    else:
+        metadata = None
+
+    embeds, ranks, ordination = run_mmvec(
+        microbes=microbes, metabolites=metabolites,
+        metadata=metadata,
+        training_column=training_column,
+        num_testing_examples=num_testing_examples,
+        min_feature_count=min_feature_count,
+        epochs=epochs,
+        batch_size=batch_size,
+        latent_dim=latent_dim,
+        input_prior=input_prior,
+        output_prior=output_prior,
+        beta1=0.9, beta2=0.99,
+        num_workers=num_workers,
+        clip_norm=clip_norm,
+        num_steps=num_steps,
+        decay_rate=decay_rate,
+        learning_rate=learning_rate,
+        arm_the_gpu=arm_the_gpu,
+        checkpoint_interval=checkpoint_interval,
+        summary_dir=summary_dir)
+
+    files = []
+    for f, ext in [(embeddings_file, 'embeddings.txt'),
+                   (ranks_file, 'ranks.csv'),
+                   (ordination_file, 'ordination.txt')]:
+        if f is None:
+            sname = '_'.join(
+                ['log_PC%d' % latent_dim,
+                 'lr%s' % "{:.2E}".format(Decimal(learning_rate)),
+                 'ipr%.2f' % input_prior,
+                 'opr%.2f' % output_prior,
+                 'b%.2f' % beta1,
+                 'bb%.2f' % beta2]
+            )
+            files.append(os.path.join(summary_dir, sname + '_' + ext))
+
+    embeds.to_csv(files[0])
+    ranks.to_csv(files[1])
+    ordination.write(files[2])
+
+
+if __name__ == '__main__':
+    mmvec()

@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: mmvec
+Version: 0.5.0
+Summary: Microbe-metabolite interactions through neural networks
+Home-page: UNKNOWN
+Author: gneiss development team
+Author-email: jamietmorton@gmail.com
+Maintainer: gneiss development team
+Maintainer-email: jamietmorton@gmail.com
+License: BSD-3-Clause
+Description: Microbe-metabolite interactions through neural networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
