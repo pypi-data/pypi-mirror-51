@@ -1,0 +1,3 @@
+#!/bin/sh
+#startup script for preppy-3.0.1
+exec "/home/rptlab/code/hg-repos/bin/python27" -m "preppy" $*
