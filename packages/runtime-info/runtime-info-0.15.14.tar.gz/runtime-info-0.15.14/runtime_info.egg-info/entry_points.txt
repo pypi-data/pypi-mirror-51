@@ -1,0 +1,3 @@
+[pytest11]
+runtime_info0 = runtime_info0.pytest_runtime_info
+

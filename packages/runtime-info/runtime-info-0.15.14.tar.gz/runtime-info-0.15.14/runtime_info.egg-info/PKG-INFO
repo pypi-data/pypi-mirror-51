@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: runtime-info
+Version: 0.15.14
+Summary: Python counterpart of a Pycharm plugin with the same name. https://plugins.jetbrains.com/plugin/11425-runtime-info
+Home-page: UNKNOWN
+Author: Tibor Arpas
+Author-email: tibor.arpas@infinit.sk
+License: MIT
+Description: Python counterpart of a Pycharm plugin with the same name. https://plugins.jetbrains.com/plugin/11425-runtime-info
+Platform: linux
+Platform: osx
+Platform: win32
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
