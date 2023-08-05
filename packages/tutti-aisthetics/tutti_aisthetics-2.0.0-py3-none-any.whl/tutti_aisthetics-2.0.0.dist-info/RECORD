@@ -1,0 +1,13 @@
+tutti_aisthetics/__init__.py,sha256=9MaxsRWNEkknBQ2pnhnbsqSaMdyL5d3lA16lsNgx4Us,84
+tutti_aisthetics/data_generator.py,sha256=ipzzw2uk0aLLKSYQa69wmZcC3LnVppUNjC7VuAlT4_s,6921
+tutti_aisthetics/keras_utils.py,sha256=mmJeKo_GcT2EckI1_OySXa6TpY4YxDLB1uhhNrl1qaM,1368
+tutti_aisthetics/losses.py,sha256=nv8V9fnjwzuIJ_Tc7qI1NJTZjBn9Jg8hTmQPB9KK-L4,467
+tutti_aisthetics/nima.py,sha256=Ap0QDgdA3FmcDuKG16Id1xY_tWJ7Zvj2ysh9qoWtVw8,10709
+tutti_aisthetics/utils.py,sha256=jSH-_NmPpkE78x6YuVy2VqxzvNHvk_85BD1NJkgrzQc,4060
+tutti_aisthetics/model/weights_aisthetics.hdf5,sha256=5WOtkbPUdBDkX3I48Hq49qvRvQxLGKSwr5xoGiGpHLI,13174216
+tutti_aisthetics-2.0.0.dist-info/LICENSE,sha256=0hTKG5tZR25PGf1PJsyuGHKVGUxH8gMmRye92JISZ8c,26
+tutti_aisthetics-2.0.0.dist-info/METADATA,sha256=k1QHbe56P7yssD_1ddFXi-_YH2uCDbZiltEfaMQDVWU,598
+tutti_aisthetics-2.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tutti_aisthetics-2.0.0.dist-info/top_level.txt,sha256=dOC3sQecQmSGACVqJLngH9f53frg_a9N-L1EUV0vFag,17
+tutti_aisthetics-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tutti_aisthetics-2.0.0.dist-info/RECORD,,
