@@ -1,0 +1,17 @@
+alv/__init__.py,sha256=c6VUatIzA2xV0JzGnkkCMfdQ9uebgwLi5swhXbJZ5mw,75
+alv/alignment.py,sha256=5lK8QnOwQooGuEbOy1NrI4N6WW7QdMdQzuLBFbqRwlY,8420
+alv/alignmentterminal.py,sha256=rnGujJdjwllv_FpF2tUCXaqUk2qmjDU4b7Szq3GOKng,4565
+alv/colorize.py,sha256=BORps4bFRmSyPUK7FNJwmJWkk979mFTU2tKdnl9lGbY,8008
+alv/exceptions.py,sha256=-A5qyef4fMkcAXPQ6GGXRT44GMZvgM-f_ZucMB4nCQY,343
+alv/io.py,sha256=z94lmA9oEYguszXzg95Jk5ta62dmph7U12it6hGBG6s,6715
+alv/version.py,sha256=66cJjfwyc8BDzeLplFUCtTrhs8Xo38-NQc181DmWm2Y,23
+alv-1.3.4.data/scripts/alv,sha256=X8dc4cfacdoPXXllm4r1mAa6F0dkAudg-IYcMTpBXg4,11285
+alv-1.3.4.dist-info/DESCRIPTION.rst,sha256=kx6EvS12sgFLiGIw39XgPGD7ph1DEtBemrWWK8Tlv2M,2559
+alv-1.3.4.dist-info/METADATA,sha256=FVSIUE2OSC7sHf9ugSDB0-WbqiYMIJ4M7Aq_5luU1uc,3154
+alv-1.3.4.dist-info/RECORD,,
+alv-1.3.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+alv-1.3.4.dist-info/metadata.json,sha256=6oKejaMclKBmTIKn0PCgLWXZoYAOMyCXcuALMCdMwMo,774
+alv-1.3.4.dist-info/top_level.txt,sha256=q3itnq8xJLZ71jU1f-xLTQpB_twTn1eBiliriu0Ece8,10
+tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/test_alignment.py,sha256=eBwjJ9STwxNNqETel2T-S3lu10qdREeo-QXG9HCZ6iY,1207
+tests/test_io.py,sha256=ZYbsQWK-u4ZpGbmTmkkNs5_Up3FbF-t6XBAcYWZG3d0,7202
