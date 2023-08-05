@@ -1,0 +1,9 @@
+README.md
+setup.py
+suede/__init__.py
+suede/bayesian_decoder_script.py
+suede/synthetic_data_script.py
+suede.egg-info/PKG-INFO
+suede.egg-info/SOURCES.txt
+suede.egg-info/dependency_links.txt
+suede.egg-info/top_level.txt
