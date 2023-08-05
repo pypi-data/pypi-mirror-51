@@ -1,0 +1,8 @@
+README.md
+setup.py
+bash/pipenv-shebang
+pipenv_shebang.egg-info/PKG-INFO
+pipenv_shebang.egg-info/SOURCES.txt
+pipenv_shebang.egg-info/dependency_links.txt
+pipenv_shebang.egg-info/top_level.txt
+py/pipenv-shebang
