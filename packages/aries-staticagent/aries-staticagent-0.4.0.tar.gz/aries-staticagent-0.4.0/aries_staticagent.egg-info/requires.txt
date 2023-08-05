@@ -1,0 +1,11 @@
+aiohttp
+base58
+msgpack
+pynacl
+semver
+sortedcontainers
+
+[test]
+flake8
+pytest
+pytest-asyncio
