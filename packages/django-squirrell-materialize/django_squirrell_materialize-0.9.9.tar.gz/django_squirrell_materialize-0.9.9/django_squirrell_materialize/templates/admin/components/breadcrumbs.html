@@ -1,0 +1,9 @@
+{% load i18n static %}
+<nav>
+    <div class="nav-wrapper material-breadcrumbs" style="margin-left: 4em;">
+        <div class="col s12">
+        <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+        {% if title %} &rsaquo; {{ title }}{% endif %}
+        </div>
+    </div>
+</nav>
