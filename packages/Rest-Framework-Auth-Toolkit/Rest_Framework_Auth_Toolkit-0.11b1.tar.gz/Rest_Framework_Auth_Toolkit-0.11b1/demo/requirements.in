@@ -1,0 +1,20 @@
+pip-tools
+
+django == 2.1.*
+djangorestframework
+django-debug-toolbar
+dj-database-url
+psycopg2
+
+django-model-utils
+django-shortuuidfield
+
+# TODO add develop install for rest-framework-auth-toolkit
+# (when pip supports PEP 517); see README for how to install rest-auth-toolkit
+#-e ..[facebook]
+# In the meantime we include facepy here to make sure requirements.txt
+# contains all transitive dependencies
+facepy
+
+# API docs
+coreapi

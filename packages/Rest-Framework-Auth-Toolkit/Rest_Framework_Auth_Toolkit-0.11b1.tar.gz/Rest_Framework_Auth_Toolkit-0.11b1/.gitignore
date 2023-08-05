@@ -1,0 +1,15 @@
+*.pyc
+__pycache__
+/demo/db.sqlite3
+/demo/.env
+
+# Test artifacts
+/.pytest_cache/
+/.coverage
+/.tox/
+/venv/
+
+# Packaging litter
+/*.egg-info
+/build/
+/dist/
