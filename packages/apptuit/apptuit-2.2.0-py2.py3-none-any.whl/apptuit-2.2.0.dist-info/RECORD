@@ -1,0 +1,13 @@
+apptuit/__init__.py,sha256=GNz4shJYAYRBhjT5sNgnXjDQASwZhS6EOEL6irGJum4,1097
+apptuit/apptuit_client.py,sha256=VlZ_Mb7kLf5Y4yK4cd6ifza_J0Dc54opAEsX6i8KvcY,24456
+apptuit/timeseries.py,sha256=C0N9F5AnZ1ccho4hHfFQJaZI0rhsp5P3csZPb_jFtU0,2750
+apptuit/utils.py,sha256=A7YmeNCH6FY-vOL44TC2EEb1_JuIkkr8W2qTSwFXsm4,4139
+apptuit/pyformance/__init__.py,sha256=9NtsjLQ7RkDz87C4Zs0gIcL2IBRWSnZWWgHUGvxq2e4,772
+apptuit/pyformance/apptuit_reporter.py,sha256=SsuwvaHTASBavM8kg1vow4xzVYV1h8hZEtO6NGXEr4w,9993
+apptuit/pyformance/process_metrics.py,sha256=R2z1CM4qdf4heNq2JGXzP5XDhKofp5TegXhwH48v2jY,8745
+apptuit-2.2.0.data/data/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+apptuit-2.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+apptuit-2.2.0.dist-info/METADATA,sha256=wwYyc8HFxJSo5Yc86y9XidmBdFYcjAIMnwHUBh2m6F4,27427
+apptuit-2.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+apptuit-2.2.0.dist-info/top_level.txt,sha256=G7_dmgFu7relX3u39nPJIEG2ymURokNGgYmp9TcCT0A,8
+apptuit-2.2.0.dist-info/RECORD,,
