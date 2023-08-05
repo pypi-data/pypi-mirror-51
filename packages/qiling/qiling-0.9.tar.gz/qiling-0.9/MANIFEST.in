@@ -1,0 +1,3 @@
+recursive-include qiling *
+include COPYING
+include AUTHORS.TXT

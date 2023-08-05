@@ -1,0 +1,11 @@
+AUTHORS.TXT
+COPYING
+MANIFEST.in
+setup.py
+qiling/__init__.py
+qiling/core.py
+qiling.egg-info/PKG-INFO
+qiling.egg-info/SOURCES.txt
+qiling.egg-info/dependency_links.txt
+qiling.egg-info/requires.txt
+qiling.egg-info/top_level.txt

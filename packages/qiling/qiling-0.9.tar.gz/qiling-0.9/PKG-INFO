@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: qiling
+Version: 0.9
+Summary: Qiling is an advanced binary emulation framework that cross-platform-architecture.
+Home-page: http://qiling.io
+Maintainer: Nguyen Anh Quynh
+Maintainer-email: aquynh@gmail.com
+License: GPLv2
+Description: UNKNOWN
+Keywords: qiling binary emulator framework
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
