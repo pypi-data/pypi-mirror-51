@@ -1,0 +1,8 @@
+README.rst
+setup.py
+src/robotlibcore/__init__.py
+src/robotlibcore/version.py
+src/robotlibcore_temp.egg-info/PKG-INFO
+src/robotlibcore_temp.egg-info/SOURCES.txt
+src/robotlibcore_temp.egg-info/dependency_links.txt
+src/robotlibcore_temp.egg-info/top_level.txt
