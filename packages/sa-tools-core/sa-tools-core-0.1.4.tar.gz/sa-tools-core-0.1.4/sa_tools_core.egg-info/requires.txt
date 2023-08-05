@@ -1,0 +1,16 @@
+setuptools
+six
+wechat3
+requests
+pydnspod2
+elasticsearch<7.0.0,>=6.0.0
+humanize
+sentry-sdk
+Mako
+icinga2py
+inflect
+
+[script]
+ansible>=2.8
+progressbar2
+terminaltables
