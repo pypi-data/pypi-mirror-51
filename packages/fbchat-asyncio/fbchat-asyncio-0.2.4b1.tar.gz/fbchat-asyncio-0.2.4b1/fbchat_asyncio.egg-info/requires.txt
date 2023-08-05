@@ -1,0 +1,5 @@
+aenum
+aiohttp
+attrs
+beautifulsoup4
+yarl
