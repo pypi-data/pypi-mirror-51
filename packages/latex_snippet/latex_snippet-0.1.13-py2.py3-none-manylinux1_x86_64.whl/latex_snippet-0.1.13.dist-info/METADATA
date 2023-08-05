@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: latex_snippet
+Version: 0.1.13
+Summary: Convert even erroneous LaTeX snippets into HTML
+Author: David Roundy <roundyd@physics.oregonstate.edu>
+Author-Email: David Roundy <roundyd@physics.oregonstate.edu>
+License: GPL-3.0-or-later
