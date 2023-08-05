@@ -1,0 +1,13 @@
+kwikapi/__init__.py,sha256=C5COD9N8-D1kV9Ny0CkLA7nf7MU2I3qu-IUu0wGxqpI,618
+kwikapi/api.py,sha256=oWXkseu5xJAfJYLK7yaaF-7nlXeB0psjZxX9dkwLV5E,18250
+kwikapi/apidoc.py,sha256=TVJMkSGi2edIKJLobDrPpF9yClvY25uChAxeBDusWCc,2294
+kwikapi/auth.py,sha256=6Lc2WirFGnZ8HrSazhINY_I4UaJFm6xOXSy-TF223u0,3420
+kwikapi/client.py,sha256=caiEYbXXHvL7GSBqibQ5ATwsZ9ejUj8zdDsE7_8j4bc,5682
+kwikapi/exception.py,sha256=LzcZX3D_QymSOciA7ezqlb95pV1NMMfD4HcF5HhKRRs,4256
+kwikapi/protocols.py,sha256=Htw8XlWWwR1MMmOEJmYdMA6e23F0s7GdbcJK7tOBamA,5254
+kwikapi/utils.py,sha256=2sbXzmGPspuO_B2H2CXqZ6dO1uiQO98zjWSUPk3i_Ac,1201
+kwikapi-0.5.10.dist-info/LICENSE,sha256=aq6vqC6e_KqOWcH1EszWwYfhM7a1w4q2V9yeS_xOufI,1068
+kwikapi-0.5.10.dist-info/METADATA,sha256=oHYy__C4gqH3ZsdjJtvejJC7A-1nrrJcj5Q6fQgEfms,1264
+kwikapi-0.5.10.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+kwikapi-0.5.10.dist-info/top_level.txt,sha256=YhodnbuvtMSbTsLHqp7QOCnJ_nay8IEWft8AK6_LDkQ,8
+kwikapi-0.5.10.dist-info/RECORD,,
