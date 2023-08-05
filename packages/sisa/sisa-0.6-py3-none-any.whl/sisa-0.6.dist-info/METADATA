@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: sisa
+Version: 0.6
+Summary: SISA APIs tools
+Home-page: https://github.com/cluster311/sisa
+Author: Andres Vazquez
+Author-email: andres@data99.com.ar
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+
+# SISA
+Conexión a las APIs de SISA (Sistema Integrado de Información Sanitario Argentino).  
+Más info de las APIs de SISA: https://sisa.msal.gov.ar/sisadoc/docs/0203/ws_sisa.jsp  
+
+## Padrón Unico Consolidado Operativo (PUCO)
+Más info: https://sisa.msal.gov.ar/sisadoc/docs/0204/puco_ws_131.jsp  
+
+### Uso
+
+```python
+from sisa.apis.puco import Puco
+
+puco = Puco(dni='26453653')
+resp = puco.get_info_ciudadano()
+print(resp)
+
+```
+
