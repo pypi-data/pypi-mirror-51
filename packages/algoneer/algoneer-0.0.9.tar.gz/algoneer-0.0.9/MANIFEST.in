@@ -1,0 +1,2 @@
+include req.py
+include requirements.txt

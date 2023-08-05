@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: algoneer
+Version: 0.0.9
+Summary: A Python toolkit for testing algorithmic systems and machine learning models.
+Home-page: https://github.com/algoneer/algoneer
+Author: Andreas Dewes
+Author-email: authors@algoneer.org
+License: Mozilla Public License (MPL)
+Description: A Python toolkit for testing algorithmic systems and machine learning models.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
