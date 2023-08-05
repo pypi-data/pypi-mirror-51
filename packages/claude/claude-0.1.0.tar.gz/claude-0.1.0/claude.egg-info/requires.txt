@@ -1,0 +1,7 @@
+aiohttp~=3.5
+Jinja2~=2.10
+configpp~=0.3
+lxml~=4.4
+pymemcache~=2.2
+cssselect~=1.1
+cachetools~=3.1
