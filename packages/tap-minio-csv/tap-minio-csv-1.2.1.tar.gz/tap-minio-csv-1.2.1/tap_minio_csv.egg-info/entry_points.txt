@@ -1,0 +1,4 @@
+
+          [console_scripts]
+          tap-minio-csv=tap_minio_csv:main
+      

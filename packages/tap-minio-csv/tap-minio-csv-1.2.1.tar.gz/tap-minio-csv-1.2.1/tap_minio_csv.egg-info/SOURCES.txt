@@ -1,0 +1,14 @@
+README.md
+setup.py
+tap_minio_csv/__init__.py
+tap_minio_csv/config.py
+tap_minio_csv/conversion.py
+tap_minio_csv/discover.py
+tap_minio_csv/s3.py
+tap_minio_csv/sync.py
+tap_minio_csv.egg-info/PKG-INFO
+tap_minio_csv.egg-info/SOURCES.txt
+tap_minio_csv.egg-info/dependency_links.txt
+tap_minio_csv.egg-info/entry_points.txt
+tap_minio_csv.egg-info/requires.txt
+tap_minio_csv.egg-info/top_level.txt
