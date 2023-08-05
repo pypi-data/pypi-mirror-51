@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gerardo
+Version: 0.0.1
+Summary: Simple decorator for multiprocessing and psql insertion
+Home-page: https://github.com/kevinywlui/gerardo
+Author: kevin lui
+Author-email: kevinywlui@gmail.com
+License: UNKNOWN
+Keywords: psql multiprocessing
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2-binary
+
+# gerardo
+
+
