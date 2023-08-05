@@ -1,0 +1,14 @@
+[maeguias.themes]
+amelia = maetema.amelia
+cerulean = maetema.cerulean
+cosmo = maetema.cosmo
+cyborg = maetema.cyborg
+flatly = maetema.flatly
+journal = maetema.journal
+readable = maetema.readable
+simplex = maetema.simplex
+slate = maetema.slate
+spacelab = maetema.spacelab
+united = maetema.united
+yeti = maetema.yeti
+

@@ -1,0 +1,5 @@
+# Config options for 'cosmo' theme
+
+extends: maeguias
+
+hljs_style: purebasic

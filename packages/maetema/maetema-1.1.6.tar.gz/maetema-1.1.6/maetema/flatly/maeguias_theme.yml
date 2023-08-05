@@ -1,0 +1,5 @@
+# Config options for 'flatly' theme
+
+extends: maeguias
+
+hljs_style: docco

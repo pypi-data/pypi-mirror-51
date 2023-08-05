@@ -1,0 +1,5 @@
+# Config options for 'cyborg' theme
+
+extends: maeguias
+
+hljs_style: darcula

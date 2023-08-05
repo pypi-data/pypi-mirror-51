@@ -1,0 +1,5 @@
+# Config options for 'readable' theme
+
+extends: maeguias
+
+hljs_style: mono-blue
