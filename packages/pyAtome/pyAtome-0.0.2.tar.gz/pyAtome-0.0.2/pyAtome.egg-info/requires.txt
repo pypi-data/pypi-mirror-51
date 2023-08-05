@@ -1,0 +1,6 @@
+simplejson
+requests
+fake_useragent
+
+[testing]
+pytest
