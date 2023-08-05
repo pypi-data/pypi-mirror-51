@@ -1,0 +1,14 @@
+names/__init__.py,sha256=_mqdFqZhWUrf0ovkEH_8wKv-ODVR916SaQKq1BYDJC8,1546
+names/admin.py,sha256=cLi4r4b7tIsy9Q10Oer1qDxnhJkc0BfSfHuoBOoaFKI,152
+names/apps.py,sha256=QJhVwCLwRGxF8chwTfA4VAP2BNwAmjDzBSXvVYbkad4,133
+names/conf.py,sha256=6441bn8KtaA1XonJIN3iQU52wc9gfpGvQ11VevtXDXU,3220
+names/fields.py,sha256=wIdXTjW-9zUagv2Fick91g_dARFlI9a007POdmnv51s,375
+names/mixins.py,sha256=iZU0m0Qtr24JwEA-PCum3f6R-nJe89ix2Z85Mt3Vzcc,2360
+names/models.py,sha256=wtw-LbROqchKypdtlPaP0d3x6MnXdL9rVMTwTpM787I,164
+names/migrations/0001_initial.py,sha256=4H0bdV4jZ2pzAjazcxQJ_TGNqRVlNHyPKnvCt50I614,1854
+names/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_names-1.0.5.dist-info/LICENSE.md,sha256=E3MkUhpVkxr0Z1QomlKQAKy72TiiFCwS4u_58-GVUrQ,1496
+django_names-1.0.5.dist-info/METADATA,sha256=rpfFxLR7ViLfri_nIFcEhMnA9Mct-cb3PXdfwIDmQ6k,6396
+django_names-1.0.5.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+django_names-1.0.5.dist-info/top_level.txt,sha256=FvYIm-WF1XWjx3AHhshsD9DHp0aWd_jxu7M_VICnZuE,6
+django_names-1.0.5.dist-info/RECORD,,
