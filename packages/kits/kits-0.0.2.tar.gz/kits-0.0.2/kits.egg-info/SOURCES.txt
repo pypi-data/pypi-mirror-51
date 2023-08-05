@@ -1,0 +1,10 @@
+README.rst
+setup.py
+kits/__init__.py
+kits.egg-info/PKG-INFO
+kits.egg-info/SOURCES.txt
+kits.egg-info/dependency_links.txt
+kits.egg-info/not-zip-safe
+kits.egg-info/top_level.txt
+kits/parser/__init__.py
+kits/parser/conf.py
