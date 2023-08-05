@@ -1,0 +1,6 @@
+setup.py
+deno/__init__.py
+deno.egg-info/PKG-INFO
+deno.egg-info/SOURCES.txt
+deno.egg-info/dependency_links.txt
+deno.egg-info/top_level.txt
