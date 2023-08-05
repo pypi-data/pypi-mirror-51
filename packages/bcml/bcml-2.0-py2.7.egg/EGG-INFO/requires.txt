@@ -1,0 +1,9 @@
+PySide2
+aamp==1.3.0.post1
+byml==2.3.0.post1
+diff-match-patch
+pyYaml
+rstb
+sarc
+wszst-yaz0
+xxhash
