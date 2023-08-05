@@ -1,0 +1,6 @@
+[console_scripts]
+intake-esm-builder = intake_esm.cli:main
+
+[intake.drivers]
+esm_metadatastore = intake_esm.core:ESMMetadataStoreCatalog
+
