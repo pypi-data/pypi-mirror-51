@@ -1,0 +1,16 @@
+pyjava/__init__.py,sha256=373RsQhOxgWcMzAUfCZ-ZCrjA_dyRvZsKwSn2d2km78,2444
+pyjava/cloudpickle.py,sha256=CMmREytpJ--GTSirvQJLaDNY8fDXRPaoxUh3ymu4O5M,41389
+pyjava/daemon.py,sha256=SwX9sqxyljh8rR7xUcR7-vTJGo7DRW9_vNpepXYFSRc,7048
+pyjava/serializers.py,sha256=2BZTx3G_44jleCRGrwbSC2VtjkGCvq9bQ-4mX27Vx9Q,29209
+pyjava/test.py,sha256=MvF0x_i7OekysEdKYBuZDgz8uW24QB9S8goIYRmY6vU,3283
+pyjava/utils.py,sha256=PzXLq0QIN8__Pix_x2nccG3I19RrtiirJtavZhQrBCg,3825
+pyjava/version.py,sha256=YxInq73F0aRZtU_xvxf5N1pgwzDmbzVQ2UctSorQAhs,828
+pyjava/worker.py,sha256=CWEsLz9DzeDFgwuoJnf02LFVz88cMOTOtDkIxqkQSlA,5441
+pyjava/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjava/api/mlsql.py,sha256=qN3WE6myZ32Gs7DMvZ_r-KBW3eqMe059pfuurlH4rS8,752
+pyjava/datatype/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjava/datatype/types.py,sha256=bE6TgxgrbAfSMFbY3EXVWiqxMmfctHJlOj8gWgCJFfw,65535
+pyjava-0.1.5.dist-info/METADATA,sha256=pt-2_ZCY7ZMqHAMCGUbJFYG_CCbwf_A6CfYRMnUI1yY,787
+pyjava-0.1.5.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+pyjava-0.1.5.dist-info/top_level.txt,sha256=dRA0GbsnnJQsA6TiYW9PZ62DPBZbSeH3zaL42Dg6Mvc,7
+pyjava-0.1.5.dist-info/RECORD,,
