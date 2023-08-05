@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+marketify/__init__.py
+marketify.egg-info/PKG-INFO
+marketify.egg-info/SOURCES.txt
+marketify.egg-info/dependency_links.txt
+marketify.egg-info/requires.txt
+marketify.egg-info/top_level.txt
+marketify/rest/__init__.py
+marketify/rest/client.py
+marketify/runner/__init__.py
+marketify/websocket/__init__.py
+marketify/websocket/client.py
+tests/__init__.py
