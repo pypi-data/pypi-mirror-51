@@ -1,0 +1,10 @@
+cpa/__init__.py,sha256=RpqND8fIuHG20fG48idYCLI3gS7p0aPJmaDtD5oY5fE,140
+cpa/cli.py,sha256=_GCIJm3tBJT_01avR2JciriXZ8MzDVgxGAwUeM1r2cE,4341
+cpa/project.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpa/pylintrc,sha256=cciM9jgdLJAnKJaW-rCjomxMjnmqtg3N9b71WblruFY,1211
+cpa-0.3.0.dist-info/LICENSE,sha256=XwUe46z9LsEVpQKHvCbN2EOhDgzfDPoR-gW4wx7924I,586
+cpa-0.3.0.dist-info/METADATA,sha256=iGSAztuL62pnXgoc3gcwD4aA7FEBZQolOqjRi3w1Cck,1986
+cpa-0.3.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+cpa-0.3.0.dist-info/entry_points.txt,sha256=69rtUHec_qbWfEcmV7XgCFClR_voC0ByERy6imPwtgM,52
+cpa-0.3.0.dist-info/top_level.txt,sha256=FsRI9iUeiI-_Z8AjC7Gl6aMcbfO8gON0RM45Mr2B2a8,4
+cpa-0.3.0.dist-info/RECORD,,
