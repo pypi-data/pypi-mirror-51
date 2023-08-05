@@ -1,0 +1,12 @@
+ocldev/__init__.py,sha256=xiw2I2bZYcSuPG-L9-DodwAk0_QOd9jAidpTosR0Hvs,16
+ocldev/oclbase.py,sha256=vjYr03wgqdAkjQ4WW7nIMonIYWrgxlHWVZUDXhyCqB8,114
+ocldev/oclconstants.py,sha256=mXoX4UwVBQvmpdwdQOtNm-xGdBw7ZLRQKjBMqjyEUYY,871
+ocldev/oclcsv.py,sha256=Wug5xsehnI5oSDuY9U683XHd2YLiohLJXI1bj8qUhEo,1295
+ocldev/oclcsvtojsonconverter.py,sha256=B0ctiDbESsbqmjocQR4MSOW49HjvmZVpG5-s3z88p2I,14170
+ocldev/oclexport.py,sha256=uIRynMNsAk66Iu1-zBUYGKdYZMqjTcztNwrw_sRacUc,4572
+ocldev/oclfleximporter.py,sha256=fMjJDVkkN_rnyM9AOm87h_iCnFE9T7tQvvO14FJlrdM,42809
+ocldev-0.1.24.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+ocldev-0.1.24.dist-info/METADATA,sha256=VOns40pBSXOkQPoQHZQD2B7x3-pDy2px3Yw1cpznqXw,1283
+ocldev-0.1.24.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+ocldev-0.1.24.dist-info/top_level.txt,sha256=ftJJC5oVibZDBsSDfOqYlXTq-BJr7_Ccc6ghrNGpdvI,7
+ocldev-0.1.24.dist-info/RECORD,,
