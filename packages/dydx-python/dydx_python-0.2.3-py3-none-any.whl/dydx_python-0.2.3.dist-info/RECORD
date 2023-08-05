@@ -1,0 +1,17 @@
+dydx/__init__.py,sha256=qjsKDHS54EKpu96-6_b1yIFI6pDk8Oxg5wb81FSkyRM,14
+dydx/client.py,sha256=P6b5v4Ruy-Ds05eURIO4mxRP0kq7covKsj09ENOURNo,14415
+dydx/constants.py,sha256=Ku9xRzREd45t3qUOHWxfSRrMdeT5wFWucgH36YblyO8,636
+dydx/exceptions.py,sha256=1RR6cBVkl2ynZT-0pp2vvuBPuO5DbHsdRcFVRHwslfc,661
+dydx/util.py,sha256=A8qR2AFPTPE4aIDDyhYAjoqswe7Xa4cXIxUopGGsaxg,4172
+dydx/abi/erc20.json,sha256=sOlxAmiy80euYOgzxyG-NHJvCppF26npQPqanzLUwK4,4841
+dydx/abi/payableproxy.json,sha256=smtfvf33hfkb8OKqNgzKukr6P3yCQxy-obEdg_vNqxo,1305
+dydx/abi/solomargin.json,sha256=yI6S1DykPd6dEp0ueT4262ZhyCnKAeOqmbZfBFWbMWw,15847
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=YBiwoVBAcb4iDx82QqM82dP5R5lhVHaE8C5RRrn0bXo,18501
+tests/test_json.py,sha256=pgHLhW_GhzbYIIxkFXxjJHIixpr8pw6OeVqG70BQWMc,11535
+tests/test_util.py,sha256=QD4ZD5G41YlqHV9L_7qoX1tzUT44sDebwDeWRi9YmuY,3590
+dydx_python-0.2.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dydx_python-0.2.3.dist-info/METADATA,sha256=gIHAkBwjHyM6p2A65ZVBYCIyz93rNlgTUJ4JHw7Kt-U,3799
+dydx_python-0.2.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dydx_python-0.2.3.dist-info/top_level.txt,sha256=CThJlzCTPY7OZk-niq9ay2sICym3m0bYrY1Fe7l3-J4,11
+dydx_python-0.2.3.dist-info/RECORD,,
