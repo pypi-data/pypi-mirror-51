@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+ucp9/__init__.py
+ucp9/conversion.py
+ucp9/cp932.conf
+ucp9/environment.py
+ucp9/main.py
+ucp9.egg-info/PKG-INFO
+ucp9.egg-info/SOURCES.txt
+ucp9.egg-info/dependency_links.txt
+ucp9.egg-info/top_level.txt
