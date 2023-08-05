@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+coolours/colour.py
+coolours.egg-info/PKG-INFO
+coolours.egg-info/SOURCES.txt
+coolours.egg-info/dependency_links.txt
+coolours.egg-info/top_level.txt
