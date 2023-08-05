@@ -1,0 +1,2 @@
+aioch==0.0.1
+infi.clickhouse-orm==1.2.0

@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: aiochorm
+Version: 0.1.11
+Summary: Async ClickHouse ORM.
+Home-page: https://github.com/qvp/aiochorm
+Author: Alexander Kuzmenko
+Author-email: mail@alexanderkuzmenko.com
+License: MIT
+Description: 
+        Async ClickHouse ORM.
+        
+        More information available on read the doc: https://github.com/qvp/aiochorm
+        
+Platform: UNKNOWN
