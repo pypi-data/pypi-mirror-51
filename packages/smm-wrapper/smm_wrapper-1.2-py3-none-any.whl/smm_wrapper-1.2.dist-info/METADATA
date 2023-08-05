@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: smm-wrapper
+Version: 1.2
+Summary: A light Python wrapper for the SMM API (Politicians Social Media Monitoring API)
+Home-page: https://github.com/gesiscss/smm_wrapper
+Author: Alexandra Stankevich, Roberto Ulloa
+Author-email: alexandra.stankevich@gesis.org,roberto.ulloa@gesis.org
+License: UNKNOWN
+Keywords: social media smm politicians
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# smm_wrapper
+A simple light wrapper for the SMM API
+
+
