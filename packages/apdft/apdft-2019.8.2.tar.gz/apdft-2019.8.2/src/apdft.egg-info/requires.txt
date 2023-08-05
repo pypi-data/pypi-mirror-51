@@ -1,0 +1,8 @@
+jinja2
+basis_set_exchange
+scipy
+numpy
+pandas
+pyscf
+structlog
+colorama
