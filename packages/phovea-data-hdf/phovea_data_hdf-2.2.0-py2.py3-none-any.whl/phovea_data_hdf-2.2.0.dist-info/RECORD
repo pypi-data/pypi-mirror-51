@@ -1,0 +1,11 @@
+phovea_data_hdf/__init__.py,sha256=JvbEmdvvJydJkb0E6PnsTazJMfskZ3Qr3KXsHZKIBSc,918
+phovea_data_hdf/calexport2hdf.py,sha256=MogXWMPlTdUF8lmWarqCS3d0NuEYEkfT_iEl2bNy-Wg,9440
+phovea_data_hdf/config.json,sha256=A7mu5c9Af-mpP9Oi1aXqep3wi6mrx_xJXRBiYCreDtY,21
+phovea_data_hdf/hdf.py,sha256=cDwzgi6ks16nEsQQhfpoBB0IM_VWqBiJ3lZseqfDesc,13715
+phovea_data_hdf/json_encoder.py,sha256=hGt5wKo3EAY4pZDO_mWDZNAqJgZYBU34m2C8sd2p5tU,468
+phovea_data_hdf-2.2.0.dist-info/LICENSE,sha256=zUOWuB3YdRESNBX1f-SrJQr-aFhEz2TWP35S5DTJXBg,1484
+phovea_data_hdf-2.2.0.dist-info/METADATA,sha256=A21F9MFZFvmAgiQd2x4htx8f-cmahfsBIfCuDRSfg3c,2145
+phovea_data_hdf-2.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+phovea_data_hdf-2.2.0.dist-info/entry_points.txt,sha256=k4GgPPmGJE4pPUKM8au44oRMlHSwVHK3PR26YzuwsZI,125
+phovea_data_hdf-2.2.0.dist-info/top_level.txt,sha256=Yy9aWlbnx2c3Gxsgp9qaHWHKlwKPadZeDuB4IJaEj1k,16
+phovea_data_hdf-2.2.0.dist-info/RECORD,,
