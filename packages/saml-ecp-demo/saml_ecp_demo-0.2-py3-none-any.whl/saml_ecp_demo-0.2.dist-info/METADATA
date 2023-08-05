@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: saml-ecp-demo
+Version: 0.2
+Summary: SAML ECP demo
+Home-page: https://github.com/jdennis/saml_ecp_demo
+Author: John Dennis
+Author-email: jdennis@sharpeye.com
+License: UNKNOWN
+Keywords: SAML ECP
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Utilities
+Classifier: Topic :: Security
+Classifier: Topic :: Internet
+Requires-Python: >=3.0
+Requires-Dist: requests
+Requires-Dist: lxml
+
+UNKNOWN
+
+
