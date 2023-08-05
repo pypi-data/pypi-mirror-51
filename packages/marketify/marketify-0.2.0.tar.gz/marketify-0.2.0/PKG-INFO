@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: marketify
+Version: 0.2.0
+Summary: A micro-library that pulls data from exchanges
+Home-page: https://github.com/mfranco1/marketify
+Author: Marcelino Franco
+Author-email: mcfranco16@gmail.com
+License: MIT
+Download-URL: https://github.com/mfranco1/marketify/archive/v_020.tar.gz
+Description: # marketify
+        micro-library for pulling market data from exchanges and doing something with it
+        
+        ## Rest
+        Client class for pulling market data from RESTful APIs
+        
+        ## Websocket
+        Client class for pulling market data from websocket APIs
+        
+        ## Runner
+        Class that asynchronously runs a collection of tasks
+Keywords: Trading,Market,Exchange,Websocket,Async
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
