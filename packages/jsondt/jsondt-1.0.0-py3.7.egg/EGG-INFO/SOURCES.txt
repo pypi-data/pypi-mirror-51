@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+jsondt.py
+setup.cfg
+setup.py
+test_jsondt.py
+jsondt.egg-info/PKG-INFO
+jsondt.egg-info/SOURCES.txt
+jsondt.egg-info/dependency_links.txt
+jsondt.egg-info/top_level.txt
