@@ -1,0 +1,14 @@
+vbiz/__init__.py,sha256=MF-EMsiCuc1Dk-EYEz-dlAiQjrRPobZF-nT-JNQQKso,5921
+vbiz/ciddict.json,sha256=kzbv3V0Wn-jf9tbPuUes-sacaFhzJL8u94v-lmJYo2w,3864
+vbiz/command_line.py,sha256=f1gUm4M0w54SKus2-J-XtOpkxLxwvq0GSF_WU4fcYQE,83
+vbiz/map.py,sha256=zNVGWM8P6Fu8geqawqCBrYAPN51ogUo_TUd5GabUUwE,617
+vbiz_fetcher/__init__.py,sha256=jjQ65oMj_mezagL67muNI-3Ij5oVTtT58SsoKh-W0J8,5926
+vbiz_fetcher/ciddict.json,sha256=xf5CmnaB6oVXzWn20x25wfMAFhq9CrlAeb19NoLa0FU,3945
+vbiz_fetcher/command_line.py,sha256=JNy1PoWfj3g2FkS7WrwLiBAVGVNhxuWAC7tGN9R4m8I,99
+vbiz_fetcher/map.py,sha256=H-V_emN-ZhsVpR-K9nCtawdhFI4qf7_F8AMl8As0Ais,619
+vbiz_fetcher-0.0.28.dist-info/LICENSE,sha256=tfY1TX15aRNFk2uEIbBtp-RH_Lx6qTc2Cm6hZA-UJV0,1536
+vbiz_fetcher-0.0.28.dist-info/METADATA,sha256=YbFL8qgaDfzKCbLPMJYLYYSJ6XZG4Ww_nu7_AWz-14M,910
+vbiz_fetcher-0.0.28.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+vbiz_fetcher-0.0.28.dist-info/entry_points.txt,sha256=PRom2EweIXtgIbiowlttI5wfI-NBLxvgWOKbSAW2WqU,65
+vbiz_fetcher-0.0.28.dist-info/top_level.txt,sha256=I7OumeYdkalCu2Vj9ZI9hGgXkc4ov4yRh8vGBX0CqTM,13
+vbiz_fetcher-0.0.28.dist-info/RECORD,,
