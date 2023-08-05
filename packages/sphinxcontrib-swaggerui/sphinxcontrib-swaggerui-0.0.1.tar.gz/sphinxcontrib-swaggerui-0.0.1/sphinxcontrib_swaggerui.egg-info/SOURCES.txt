@@ -1,0 +1,8 @@
+README.md
+README.rst
+setup.py
+sphinxcontrib_swaggerui.egg-info/PKG-INFO
+sphinxcontrib_swaggerui.egg-info/SOURCES.txt
+sphinxcontrib_swaggerui.egg-info/dependency_links.txt
+sphinxcontrib_swaggerui.egg-info/pbr.json
+sphinxcontrib_swaggerui.egg-info/top_level.txt
