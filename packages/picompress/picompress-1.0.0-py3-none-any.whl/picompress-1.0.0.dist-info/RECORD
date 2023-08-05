@@ -1,0 +1,8 @@
+picompress/__init__.py,sha256=NMl9R4iPiwhoXH0hpP-b0adWLV2lts6LG-pa9ML0_1Q,55
+picompress/compressor.py,sha256=AWwcekk6ZA2eJju2JEena2ogFBeMxPuxBbtJBX_zqwc,1684
+picompress/so/libcompressor.so.16.04,sha256=ODj_mNz56dlSGi9nQwtaVyM0sHKVwG7BCHtfwO2w6E4,102584
+picompress/so/libcompressor.so.18.04,sha256=1osCUAQEGHSO3vtzpY1dGn9Oe6gHuwO1dhjrsGSTEG8,101240
+picompress-1.0.0.dist-info/METADATA,sha256=CtiRzj7K565QeoswAqBBV9D5t_GfsTi4s58V5rx8DVw,239
+picompress-1.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+picompress-1.0.0.dist-info/top_level.txt,sha256=e22mcOG7ONkomNl3keGwPW7GceCKdHe42wjkHXlSqMc,11
+picompress-1.0.0.dist-info/RECORD,,
