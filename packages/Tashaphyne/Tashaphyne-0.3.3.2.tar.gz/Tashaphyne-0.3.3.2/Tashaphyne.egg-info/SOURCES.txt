@@ -1,0 +1,14 @@
+README.rst
+setup.py
+Tashaphyne.egg-info/PKG-INFO
+Tashaphyne.egg-info/SOURCES.txt
+Tashaphyne.egg-info/dependency_links.txt
+Tashaphyne.egg-info/requires.txt
+Tashaphyne.egg-info/top_level.txt
+tashaphyne/__init__.py
+tashaphyne/arabic_const.py
+tashaphyne/normalize.py
+tashaphyne/roots_const.py
+tashaphyne/rootsdict.py
+tashaphyne/stem_const.py
+tashaphyne/stemming.py
