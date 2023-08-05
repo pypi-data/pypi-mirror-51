@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+sql4housing/cli.py
+sql4housing/exceptions.py
+sql4housing/parsers.py
+sql4housing/source_classes.py
+sql4housing/sql4housing.py
+sql4housing/ui.py
+sql4housing/utils.py
+sql4housing.egg-info/PKG-INFO
+sql4housing.egg-info/SOURCES.txt
+sql4housing.egg-info/dependency_links.txt
+sql4housing.egg-info/entry_points.txt
+sql4housing.egg-info/requires.txt
+sql4housing.egg-info/top_level.txt

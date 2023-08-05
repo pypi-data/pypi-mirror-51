@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: sql4housing
+Version: 0.0.4b0
+Summary: Create housing databases with a command line interface.
+Home-page: https://github.com/sunlightpolicy/sql4housing
+Author: Krista Chan
+Author-email: kristacchan@gmail.com
+License: MIT
+Download-URL: https://github.com/sunlightpolicy/sql4housing/archive/v0.0.4-beta.tar.gz
+Description: UNKNOWN
+Keywords: CIVIC-TECH,HOUSING-DATA,HOUSING_ADVOCATES,CITIES,DATABASES,SODA,CENSUS,HUD,HOUSING,POSTGIS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
