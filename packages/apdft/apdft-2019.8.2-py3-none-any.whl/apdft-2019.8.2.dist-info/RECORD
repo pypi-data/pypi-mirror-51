@@ -1,0 +1,15 @@
+apdft/__init__.py,sha256=8CxuURobwDJ9Qey0oIeXvkwxXMbrwvuTSvrhhcSRivI,1861
+apdft/commandline.py,sha256=PoGx0nUbj95ViyiVM2ZDoSzxlrQ7Du2dlK9svtrFEyg,4654
+apdft/math.py,sha256=jIQpnvcK3t43F-dRxGcBnJ6vrmu4h8VjRXQee5CSULU,3178
+apdft/physics.py,sha256=RGgqMMb-Clb1LdtakV8paPGxcOMp8r7wclxYu2V3kPU,20898
+apdft/settings.py,sha256=BaDs-ABvZC1_Y_fc0oWypf18PgWYY_TJWr8dliTan3I,6258
+apdft/calculator/__init__.py,sha256=NN510J2p8CV5vuVm7zthIaG9wqYl5DBFMJbJevNTdcY,3125
+apdft/calculator/gaussian.py,sha256=jJauEBN0NUS6lC0TEotKRjZpdYme0o7CBPvdSfnV8N0,5788
+apdft/calculator/mrcc.py,sha256=BRIirf11u1WJ3_Vlihq5O8KEtBUxBIW0am4zTxaJs7I,5041
+apdft/calculator/pyscf.py,sha256=3NLw9l3SvrwrUxgIgY66AktMCAiYNgjm6uJXAZUuXF4,3103
+apdft-2019.8.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+apdft-2019.8.2.dist-info/METADATA,sha256=j9xe2I_iYmniredi61JxYDrPVT5NtcKv7-9j0Lz6hAE,1342
+apdft-2019.8.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+apdft-2019.8.2.dist-info/entry_points.txt,sha256=ILhzsaG9vs3_RrMTxFrrDGQZfRxHVpaoICNp00Fzwcc,55
+apdft-2019.8.2.dist-info/top_level.txt,sha256=9slyHKmU8M_OEAs4eBzxDDJmSZ3Ypf6Oo1QUBM8qhRg,6
+apdft-2019.8.2.dist-info/RECORD,,

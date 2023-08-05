@@ -1,0 +1,3 @@
+[console_scripts]
+apdft = apdft.commandline:entry_cli
+
