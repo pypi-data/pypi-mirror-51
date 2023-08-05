@@ -1,0 +1,11 @@
+clickntrack/__init__.py,sha256=RXbWhRvhZ7s21i2iMvyt_01c7xdvivocf95LEo8Bdng,172
+clickntrack/config.json,sha256=I48PZTzbsSze2W8040gHqRKvQxqyXBw4t1qtYRwjNrk,916
+clickntrack/persistence.py,sha256=Gth3nyJKkPX5-SHX54uhCA6ZceaXZVffy2qGSQMeqfg,3939
+clickntrack/services.py,sha256=UgHt82_fcTVGqGfWG-IzdEmtl5Mp2MrQvAYX-q1kv30,2112
+clickntrack/util.py,sha256=lWzUsGquyY7awVPmt0LeDb7pdzrV_X5MNNU_pnaHoeM,415
+clickntrack/webservices.py,sha256=O4vFUZzpHGL6JwV04QhV6JkFQEwIIG3_RwRneyP4-UI,6102
+clickntrack-0.0.2.dev2.dist-info/LICENSE.txt,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+clickntrack-0.0.2.dev2.dist-info/METADATA,sha256=MLQwkgc6gh5IQr2ssDWNFlHilHtpyJ-bz8bKlsWlDcA,3502
+clickntrack-0.0.2.dev2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+clickntrack-0.0.2.dev2.dist-info/top_level.txt,sha256=OnSj2s6lPVa6oh2FQFgF1WXQeNH2bSeFCtGS2FP6rWU,12
+clickntrack-0.0.2.dev2.dist-info/RECORD,,
