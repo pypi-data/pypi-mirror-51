@@ -1,0 +1,3 @@
+[console_scripts]
+hanime = hanime.app_requests:main
+
