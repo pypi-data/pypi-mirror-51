@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: pornstar
+Version: 0.3
+Summary: Make you become the next porn star!
+Home-page: https://github.com/yingshaoxo/pornstar
+Author: yingshaoxo
+Author-email: yingshaoxo@gmail.com
+License: MIT
+Description: # pornstar
+        
+        A Python library to make you become the next famous pornstar!
+        
+        > It's also a gift to www.pornhub.com
+        
+        
+        ### Features
+        * background blur
+        * skin smooth
+        * skin whitening
+        * add a mask to your face
+        * support both `tensorflow1.4` and `tensorflow2.0`
+        
+        ![Feature1](https://github.com/yingshaoxo/pornstar/raw/master/Feature_1.png)
+        
+        ![Feature2](https://github.com/yingshaoxo/pornstar/raw/master/Feature_2.png)
+        
+        
+        ### Installation
+        ```
+        sudo pip3 install git+https://github.com/yingshaoxo/pornstar
+        
+        or 
+        
+        sudo pip3 install pornstar
+        
+        and 
+        
+        install tensorflow-gpu2.0 or 1.4
+        ```
+        
+        
+        ### Usage
+        first:
+        ```
+        export TF_FORCE_GPU_ALLOW_GROWTH=true
+        ```
+        
+        then:
+        See [examples](https://github.com/yingshaoxo/pornstar/tree/master/example)
+        
+        
+        ### Author
+        
+        yingshaoxo#gmail.com
+        
+Keywords: pornstar
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
