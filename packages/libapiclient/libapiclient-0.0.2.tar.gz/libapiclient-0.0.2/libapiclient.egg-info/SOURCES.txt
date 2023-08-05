@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+lib_api_client/__init__.py
+lib_api_client/client.py
+lib_api_client/const.py
+lib_api_client/exception.py
+lib_api_client/session_pool.py
+lib_api_client/utils.py
+libapiclient.egg-info/PKG-INFO
+libapiclient.egg-info/SOURCES.txt
+libapiclient.egg-info/dependency_links.txt
+libapiclient.egg-info/requires.txt
+libapiclient.egg-info/top_level.txt
