@@ -1,0 +1,12 @@
+README.md
+setup.py
+gitlab_changelog_gen/__init__.py
+gitlab_changelog_gen/cmd.py
+gitlab_changelog_gen/config.py
+gitlab_changelog_gen/generator.py
+gitlab_changelog_gen.egg-info/PKG-INFO
+gitlab_changelog_gen.egg-info/SOURCES.txt
+gitlab_changelog_gen.egg-info/dependency_links.txt
+gitlab_changelog_gen.egg-info/entry_points.txt
+gitlab_changelog_gen.egg-info/requires.txt
+gitlab_changelog_gen.egg-info/top_level.txt

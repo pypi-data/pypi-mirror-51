@@ -1,0 +1,3 @@
+[console_scripts]
+chg-gen = gitlab_changelog_gen.cmd:main
+
