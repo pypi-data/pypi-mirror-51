@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yada
+Version: 0.9
+Summary: Yet another dotfile aggregator
+Home-page: https://github.com/apetresc/yada
+Author: Adrian Petrescu
+Author-email: adrian@apetre.sc
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click (<8.0,>=7.0)
+Requires-Dist: pyyaml (<6.0,>=5.1)
+Requires-Dist: pathlib2 (==2.3.3) ; python_version < "3.4"
+
+UNKNOWN
+
+
