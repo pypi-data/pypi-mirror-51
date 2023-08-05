@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: copebach
+Version: 0.0.2
+Summary: shop client
+Home-page: https://github.com/Vaziria/copebach
+Author: kampretcode
+Author-email: manorder123@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
