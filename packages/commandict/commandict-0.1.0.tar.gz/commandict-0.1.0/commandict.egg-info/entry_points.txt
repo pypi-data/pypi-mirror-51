@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        cmdct = commandict.get_result:main
+        cmd = commandict.get_result:main
+      
