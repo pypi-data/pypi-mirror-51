@@ -1,0 +1,9 @@
+README.md
+setup.py
+pidmanager/__init__.py
+pidmanager/pidmanager.py
+pidmanager.egg-info/PKG-INFO
+pidmanager.egg-info/SOURCES.txt
+pidmanager.egg-info/dependency_links.txt
+pidmanager.egg-info/requires.txt
+pidmanager.egg-info/top_level.txt
