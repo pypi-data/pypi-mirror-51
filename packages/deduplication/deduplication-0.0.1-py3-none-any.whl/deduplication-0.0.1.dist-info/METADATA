@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: deduplication
+Version: 0.0.1
+Summary: Remove duplicate documents via popular algorithms such as SimHash, SpotSig, Shingling, etc.
+Home-page: https://github.com/Marcnuth/deduplication
+Author: Marcnuth
+Author-email: hxianxian@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: spacy (>='2.1.4')
+
+# deduplication
+Remove duplicate documents via popular algorithms such as SimHash, SpotSig, Shingling, etc.
+
+## Install
+
+Run following commands:
+
+```
+python -m spacy download xx_ent_wiki_sm
+```
+
+
+
