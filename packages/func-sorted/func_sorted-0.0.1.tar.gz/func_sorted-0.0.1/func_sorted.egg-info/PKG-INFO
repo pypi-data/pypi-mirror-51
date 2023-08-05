@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: func-sorted
+Version: 0.0.1
+Summary: PyPI Tutorial
+Home-page: https://github.com/
+Author: xutao
+Author-email: xutaodyx@126.com
+License: UNKNOWN
+Description: list sorted and binary_search
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
