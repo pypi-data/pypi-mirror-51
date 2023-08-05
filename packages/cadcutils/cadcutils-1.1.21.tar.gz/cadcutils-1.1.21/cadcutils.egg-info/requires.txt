@@ -1,0 +1,11 @@
+requests>=2.8
+six
+html2text
+distro
+pyopenssl
+
+[:python_version == "3.4"]
+lxml<=4.3.0
+
+[:python_version >= "3.5"]
+lxml>=3.7.0
