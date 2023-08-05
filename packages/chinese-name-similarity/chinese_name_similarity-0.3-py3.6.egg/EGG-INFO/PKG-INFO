@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: chinese-name-similarity
+Version: 0.3
+Summary: Calculate similarity between chinese names
+Home-page: http://github.com/jasminehung/chinese_name_similarity
+Author: Jasmine Hung
+Author-email: jasmine_sg27@yahoo.com.tw
+License: MIT
+Download-URL: https://github.com/jasminehung/chinese_name_similarity/archive/v0.1-beta.tar.gz
+Description: # chinese_name_similarity
+        
+        Calculating the similarity between Chinese names.
+        ***
+        ## Requirements
+        
+        ```pip install python-Levenshtein```
+        
+        ```pip install opencc-python-reimplemented```
+        
+        ***
+        ## Usage
+        
+        ### Basic
+        ```chinese_name_similarity("name1", "name2")```
+        
+        
+        
+Keywords: CHINESE,NAME,SIMILARITY
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

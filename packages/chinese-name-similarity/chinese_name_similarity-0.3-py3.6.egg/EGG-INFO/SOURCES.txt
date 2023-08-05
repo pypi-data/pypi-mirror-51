@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+chinese_name_similarity/__init__.py
+chinese_name_similarity/chinese_name_similarity.py
+chinese_name_similarity.egg-info/PKG-INFO
+chinese_name_similarity.egg-info/SOURCES.txt
+chinese_name_similarity.egg-info/dependency_links.txt
+chinese_name_similarity.egg-info/not-zip-safe
+chinese_name_similarity.egg-info/requires.txt
+chinese_name_similarity.egg-info/top_level.txt
