@@ -1,0 +1,7 @@
+README.rst
+setup.py
+virgo.egg-info/PKG-INFO
+virgo.egg-info/SOURCES.txt
+virgo.egg-info/dependency_links.txt
+virgo.egg-info/not-zip-safe
+virgo.egg-info/top_level.txt
