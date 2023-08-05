@@ -1,0 +1,11 @@
+gkeepapi/__init__.py,sha256=X4xD1Mj0bP6QnIb781FneqBKkNpm9n2HP2kjGVoPbC0,32831
+gkeepapi/exception.py,sha256=ONmZyxpKeZlTRIYzHBWlgdlUUIu6srOROO4R8jxZQCE,1067
+gkeepapi/node.py,sha256=23TjmAuoU64cP4d6ptIHHTOK6jSla6FyMVqDJEcn51o,51816
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_nodes.py,sha256=N14TYemMN3b114Z62eTeidUjSD3yQ-n7BNGK0ZpB82o,13033
+test/test_note.py,sha256=SjLTizgcfasCHn-mOy2MCCPN-HF-8PMtejCH_cCRAVU,9260
+gkeepapi-0.11.6.dist-info/LICENSE.txt,sha256=smOl_Rnm9MnkApfFHmlDVAMxYh6ZSX0gLKh5MoSTnt0,1072
+gkeepapi-0.11.6.dist-info/METADATA,sha256=yAxCD0iQRpq5PCdQ-WKi2oL4lXGZPTWNeQMcYaX67iU,798
+gkeepapi-0.11.6.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+gkeepapi-0.11.6.dist-info/top_level.txt,sha256=d3QQ-9H4MBm37EL4JpIdhWb-3lsW8zBpufnVzjtNBVg,14
+gkeepapi-0.11.6.dist-info/RECORD,,
