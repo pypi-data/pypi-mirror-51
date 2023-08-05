@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: scrolldown
+Version: 1.0.0
+Summary: Keep long running notebook in jupyter scrolled to the bottom
+Home-page: http://cct.lsu.edu/~sbrandt/
+Author: Steven R. Brandt
+Author-email: steven@stevenrbrandt.com
+License: LGPL
+Description: Keep long running notebook in jupyter scrolled to the bottom
+Platform: UNKNOWN
