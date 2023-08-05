@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hiCPrediction-abajorat
+Version: 0.0.1
+Summary: Package to predict HiC-matrices based on proteins
+Home-page: https://github.com/abajorat/MasterProjekt
+Author: Andre Bajorat
+Author-email: abajorat@posteo.de
+License: UNKNOWN
+Description: # MasterProjekt
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

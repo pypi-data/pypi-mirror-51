@@ -1,0 +1,9 @@
+joblib
+intervaltree
+multiprocess
+pandas
+future
+scikit-learn
+unidecode
+matplotlib
+pyarrow
