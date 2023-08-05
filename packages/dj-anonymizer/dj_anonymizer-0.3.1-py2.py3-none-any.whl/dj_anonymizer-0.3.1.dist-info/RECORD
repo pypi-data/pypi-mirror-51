@@ -1,0 +1,15 @@
+dj_anonymizer/__init__.py,sha256=LSDiTO17bN05npM2fcIpoYnTz0dr8XHWUgTyak1F8_0,52
+dj_anonymizer/anonym_field.py,sha256=cAD0ucsOTx_u4e4xhr7ONb05Fu1obUUNUlJ_TQGIgCY,822
+dj_anonymizer/anonymizer.py,sha256=kPlaujAzupslOwSXh4FKpODT8cPDwnzGpqEgjPe6nqo,3113
+dj_anonymizer/apps.py,sha256=n_vATXG2-PoscthEAr5B9Q2q7D6YafHRkkN5fslQmWs,86
+dj_anonymizer/conf.py,sha256=Cg0KalgdUDmzzyFi4izYCRf2YV1bGwQ-SWLt9z-sI3k,418
+dj_anonymizer/register_models.py,sha256=lYQyIGthfY-kmTAF0suCNi3tr15A9FK3gTewUHnuPDs,3432
+dj_anonymizer/utils.py,sha256=28vjK7UIasF6QbHlFwgug45Jo9BNtnbMfOHPnuFsQwE,424
+dj_anonymizer/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dj_anonymizer/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dj_anonymizer/management/commands/anonymize_db.py,sha256=kPt2SOIXlMp9OnTp14cbhQUSb-raqH9SWaT8FdiXM9U,931
+dj_anonymizer-0.3.1.dist-info/LICENSE.txt,sha256=VysMNpohWqnQSchmhm69I9SrLX2mu9mtHf6XR9x16MI,1055
+dj_anonymizer-0.3.1.dist-info/METADATA,sha256=TtRIvwIc8ETo-mIOpFqysgFcWKpNYbCL9vIlilKfnmk,2217
+dj_anonymizer-0.3.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+dj_anonymizer-0.3.1.dist-info/top_level.txt,sha256=433iOlKNNFJFB7EU_tVfLx-8FGagd32I0moIPNORhHs,14
+dj_anonymizer-0.3.1.dist-info/RECORD,,
