@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: focused
+Version: 1.1.1
+Summary: Focused is a Python library that removes clutter from webpages. Read articles without distractions.
+Home-page: https://github.com/Imperator26/focused
+Author: Federico A. Corazza
+Author-email: federico.corazza@live.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (==7.0)
+Requires-Dist: requests (==2.22.0)
+
+# Focused
+
+Focused is a Python library that removes clutter from webpages. Read articles without distractions.
+
+Before: [medium.com](https://towardsdatascience.com/predicting-wine-quality-using-text-reviews-8bddaeb5285d)
+
+After: [focused](https://github.com/Imperator26/focused/blob/master/examples/Predicting%20Wine%20Quality%20using%20Text%20Reviews%20-%20Towards%20Data%20Science.pdf)
+
+
