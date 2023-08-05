@@ -1,0 +1,12 @@
+oaas_sdk/__init__.py,sha256=VOK2bhKeH7jrAP6nP4Dr2g8SJjrtKM_l6EJqGH2xLq0,354
+oaas_sdk/objects.py,sha256=4LJoi8NYyYd6_LXbyvGCLA1Tqny_9Ayx2A5A1JqmhJg,720
+oaas_sdk/sdk.py,sha256=C_kmSbeyuX6k-uP0UTd-4JDs7Ya0ASU7EjJedEx59Bo,5788
+oaas_sdk/util.py,sha256=ejvE2KHDXAXFW9mFXxC8CxTVH5h4Y2DfY5vE1BjBJSE,1862
+oaas_sdk/ws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oaas_sdk/ws/client.py,sha256=LAKj_MsHHCWk0HI89Ywd6JvOibpBV8sd3xW1UqATW0E,3515
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_roundtrip.py,sha256=vDhouksmRBE79SPArjfVB7G4H0587xciLqDhnh6Lyyg,1074
+oaas_sdk-1.0.0b1.dist-info/METADATA,sha256=vECUX6AFZK_V3OEeyPcOrOX5mAdAYf-QPvudRjLS_Ec,817
+oaas_sdk-1.0.0b1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+oaas_sdk-1.0.0b1.dist-info/top_level.txt,sha256=YM5sJEGu0BMTElil1uGgnPxHhFpDh9FW6RLNX9ZZGYI,15
+oaas_sdk-1.0.0b1.dist-info/RECORD,,
