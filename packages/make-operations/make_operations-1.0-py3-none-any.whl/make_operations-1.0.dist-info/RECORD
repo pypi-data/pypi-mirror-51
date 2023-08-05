@@ -1,0 +1,10 @@
+users_fast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+users_fast/create.py,sha256=eRW49l0HE9bXTtUL9nqu1atTGCPyTmj7PY_DK2SbxFY,284
+users_fast/delete.py,sha256=Zt5voLEIz9-wDFmVhA2zALgcFl5ocIGbsrBdiqP5NFo,352
+users_fast/read.py,sha256=xFXs8suQDwYJLObt2npCn7H4FyKG7EeueFq_lhpYvbQ,366
+users_fast/update.py,sha256=QWvwl0pDR9ljF5J6pXYR8Qlq6lxAj6JAJP_knoSbW3w,430
+users_fast/users.py,sha256=OLnIZOhZhmUN99wEptK-EKByrHrUGyll2UFURM_YKz8,119
+make_operations-1.0.dist-info/METADATA,sha256=pSLTPLMC5ormn917kxE_lJPB271vSyE8VcLUS4DyQ8Y,850
+make_operations-1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+make_operations-1.0.dist-info/top_level.txt,sha256=O1k6dtah3qrUu0OExODQ49mAZ30OY-yz2PnbKaU1WLU,11
+make_operations-1.0.dist-info/RECORD,,

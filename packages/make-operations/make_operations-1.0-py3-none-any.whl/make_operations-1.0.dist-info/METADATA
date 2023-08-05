@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: make-operations
+Version: 1.0
+Summary: Packe developé avec coeur par nafiou
+Home-page: UNKNOWN
+Author: Waidi Nafiou
+Author-email: nafiou94@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# User Editor
+
+Package python pour la gestion des utilisateurs.
+
+## Installation
+
+Utiliser pip pour l'installer
+
+```bash
+pip install user_editor
+```
+
+## Usage
+
+```python
+from user import create, read, update, delete
+
+user_create_route = create.router
+user_delete_route = delete.router
+user_update_route = update.router
+user_read_route = read.router
+```
+
+## Contributing
+Equipe Wefly Agri
+
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
