@@ -1,0 +1,4 @@
+[console_scripts]
+guniflask = guniflask.cli:main
+guniflask-manage = guniflask.manage:main
+
