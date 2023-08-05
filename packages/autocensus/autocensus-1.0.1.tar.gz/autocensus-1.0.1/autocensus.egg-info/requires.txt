@@ -1,0 +1,11 @@
+aiohttp>=3.0.0
+appdirs
+Fiona
+geopandas
+nest-asyncio
+pandas>=0.24.1
+Shapely
+socrata-py
+tenacity
+titlecase
+yarl
