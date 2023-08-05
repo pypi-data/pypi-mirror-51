@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Electrum-CHI
+Version: 3.3.8
+Summary: Lightweight Xaya Wallet
+Home-page: https://www.xaya.io/
+Author: The Xaya developers; based on Electrum by Thomas Voegtlin, Electrum-DOGE by The Electrum-DOGE contributors and Electrum-NMC by the Namecoin developers
+Author-email: info@xaya.io
+License: GNU GPLv3+ for Electrum-DOGE components; MIT Licence for all other components
+Description: Lightweight Xaya Wallet
+Platform: UNKNOWN
+Requires-Python: >=3.6.1
+Provides-Extra: full
+Provides-Extra: gui
+Provides-Extra: hardware
+Provides-Extra: fast
