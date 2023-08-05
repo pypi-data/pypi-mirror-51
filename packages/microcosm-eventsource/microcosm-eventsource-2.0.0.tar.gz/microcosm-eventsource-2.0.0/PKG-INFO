@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: microcosm-eventsource
+Version: 2.0.0
+Summary: Event-sourced state machines using microcosm
+Home-page: https://github.com/globality-corp/microcosm-eventsource
+Author: Globality Engineering
+Author-email: engineering@globality.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: microcosm
+Platform: UNKNOWN
+Requires-Python: >=3.6
