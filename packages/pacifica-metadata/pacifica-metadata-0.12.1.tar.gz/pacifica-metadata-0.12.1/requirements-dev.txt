@@ -1,0 +1,15 @@
+-r requirements.txt
+coverage
+httpretty
+mock
+pbs
+pep257
+pre-commit
+pylint<2.0
+pytest
+radon
+readthedocs-sphinx-ext
+recommonmark
+sh
+sphinx
+sphinx-rtd-theme
