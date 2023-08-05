@@ -1,0 +1,71 @@
+Subject: <DKIM> [PATCH] Pass relevant maildir filenames to newmail_hook
+From: gwn <dev@gwn.wtf>
+Date: Thu, 18 Jul 2019 13:34:46 +0300
+To: offlineimap-project@alioth-lists.debian.net
+Cc: gwn <dev@gwn.wtf>
+Message-Id: <20190718103445.6260-1-dev@gwn.wtf>
+Content-Type: text/plain; charset="utf-8"
+X-Mailer: git-send-email 2.22.0
+
+So that the hook can implement advanced features that acts on the
+newly synced mail content.
+
+...
+
+Greetings. I was looking for a way to automatically get the
+content of the newly synced emails after I run offlineimap.
+
+Initially I tried to parse the output of `offlineimap -u
+machineui` to generate the relevant maildir filenames, but I could
+not accomplish that.
+
+So here is an example solution using the "newmail_hook"
+configuration option.
+
+I implemented this patch just to get the idea across, I'd be very
+happy to hear alternative solutions that doesn't require patching
+offlineimap.
+
+Also please note that this patch is not backwards compatible as it
+causes "newmail_hook" lambdas with no arguments trigger
+exceptions.
+
+---
+ offlineimap/folder/Base.py | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+
+diff --git a/offlineimap/folder/Base.py b/offlineimap/folder/Base.py
+index 5f287fa..f1376b7 100644
+--- a/offlineimap/folder/Base.py
++++ b/offlineimap/folder/Base.py
+@@ -947,8 +947,18 @@ class BaseFolder(object):
+ 
+         # Execute new mail hook if we have new mail.
+         if self.have_newmail:
++            dstfolder_fullname = dstfolder.getfullname()
++
++            newmail_filenames = [
++                os.path.join(
++                    dstfolder_fullname,
++                    dstfolder.messagelist[uid]['filename']
++                )
++                    for uid in copylist
++            ]
++
+             if self.newmail_hook != None:
+-                self.newmail_hook()
++                self.newmail_hook(newmail_filenames)
+ 
+     def __syncmessagesto_delete(self, dstfolder, statusfolder):
+         """Pass 2: Remove locally deleted messages on dst.
+-- 
+2.22.0
+
+
+_______________________________________________
+OfflineIMAP-project mailing list: OfflineIMAP-project@alioth-lists.debian.net
+https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/offlineimap-project
+
+OfflineIMAP homepages:
+- https://github.com/OfflineIMAP
+- http://offlineimap.org
