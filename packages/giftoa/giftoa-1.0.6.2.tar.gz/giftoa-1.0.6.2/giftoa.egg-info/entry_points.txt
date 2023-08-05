@@ -1,0 +1,4 @@
+[console_scripts]
+giftoa = giftoa.giftoa:main
+rightgif = giftoa.rightgif:main
+

@@ -1,0 +1,10 @@
+README.rst
+setup.py
+giftoa/__init__.py
+giftoa/giftoa.py
+giftoa/rightgif.py
+giftoa.egg-info/PKG-INFO
+giftoa.egg-info/SOURCES.txt
+giftoa.egg-info/dependency_links.txt
+giftoa.egg-info/entry_points.txt
+giftoa.egg-info/top_level.txt
