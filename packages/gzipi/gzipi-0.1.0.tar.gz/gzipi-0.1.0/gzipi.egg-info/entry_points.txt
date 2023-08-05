@@ -1,0 +1,3 @@
+[console_scripts]
+gzipi = gzipi.cli:main
+
