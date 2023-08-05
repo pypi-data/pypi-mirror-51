@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: buiz
+Version: 0.1
+Summary: Pequeño programa de ejemplo que contiene preguntas variadas.
+Home-page: UNKNOWN
+Author: Luis Jiménez
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Este es un programa de ejemplo que contiene diversas preguntas.
+
+
+
+
