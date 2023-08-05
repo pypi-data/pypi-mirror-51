@@ -1,0 +1,15 @@
+README.md
+setup.py
+foliant/cli/meta/__init__.py
+foliant/cli/meta/classes.py
+foliant/cli/meta/meta.py
+foliant/cli/meta/utils.py
+foliant/meta_commands/__init__.py
+foliant/meta_commands/base.py
+foliant/meta_commands/generate.py
+foliant/preprocessors/meta.py
+foliantcontrib.meta.egg-info/PKG-INFO
+foliantcontrib.meta.egg-info/SOURCES.txt
+foliantcontrib.meta.egg-info/dependency_links.txt
+foliantcontrib.meta.egg-info/requires.txt
+foliantcontrib.meta.egg-info/top_level.txt
