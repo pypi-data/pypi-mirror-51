@@ -1,0 +1,3 @@
+[console_scripts]
+pwdmanager=pwdmanager.pwdmanager:main
+
