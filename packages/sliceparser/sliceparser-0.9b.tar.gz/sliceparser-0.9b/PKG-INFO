@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: sliceparser
+Version: 0.9b
+Summary: Parse numpy style advanced indexing notation from string.
+Home-page: https://github.com/kkew3/pysliceparser
+Author: Kaiwen Wu
+Author-email: kps6326@hotmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
