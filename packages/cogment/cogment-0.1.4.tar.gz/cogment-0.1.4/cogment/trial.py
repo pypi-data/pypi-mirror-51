@@ -1,0 +1,47 @@
+from types import SimpleNamespace
+from cogment.api.common_pb2 import Feedback
+
+
+class Actor:
+    def __init__(self, actor_class, actor_id):
+        self.actor_class = actor_class
+        self.actor_id = actor_id
+        self._feedback = []
+
+    def add_feedback(self, time, value, confidence, user_data=None):
+        self._feedback.append((time, value, confidence, user_data))
+
+
+class Trial:
+    def __init__(self, id, settings):
+        self.id = id
+        self.actors = SimpleNamespace(all=[])
+        self.settings = settings
+
+        actor_id = 0
+        for actor_class, count in self.settings.environment.actors:
+            actor_list = []
+            for i in range(count):
+                actor = Actor(actor_class, actor_id)
+                actor_list.append(actor)
+                self.actors.all.append(actor)
+                actor_id += 1
+
+            setattr(self.actors, actor_class.name, actor_list)
+
+    def _get_all_feedback(self):
+        for actor in self.actors.all:
+            a_fb = actor._feedback
+            actor._feedback = []
+
+            for fb in a_fb:
+                re = Feedback(
+                    actor_id=actor.actor_id,
+                    tick_id=fb[0],
+                    value=fb[1],
+                    confidence=fb[2]
+                )
+                if fb[3] is not None:
+                    re.content = fb[3].SerializeToString()
+
+                yield re
