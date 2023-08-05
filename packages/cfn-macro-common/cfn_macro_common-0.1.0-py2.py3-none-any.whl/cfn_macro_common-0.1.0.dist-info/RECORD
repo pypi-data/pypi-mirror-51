@@ -1,0 +1,15 @@
+cfn_macro_common/__init__.py,sha256=Ahe9riZQ9X0KqXQxeh72f9ppmj2CKANLiqFCicn8TG4,175
+cfn_macro_common/bucket.py,sha256=2X14UZIZMVgvxjS0lguClSlg09vNp1VQS6QD7z-8E74,1025
+cfn_macro_common/cfn_macro_common.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+cfn_macro_common/iam.py,sha256=sLg-LRNP0KVL6QRKlsRU1-33OWcPl9ozpJAowY4Mmoo,784
+cfn_macro_common/mappings.py,sha256=Zs1qRLP0FGUTG-r1eM4NKgK5UcYwT0sZlb5RGnFaUXs,785
+cfn_macro_common/outputs.py,sha256=LTKggpFC3ptfDOe8rYZaIKiwjjMMkxjQxlUVxZJPZdc,1240
+cfn_macro_common/parameters.py,sha256=mj46tMA0TT6sL8pQGbIxosypv7DLPlSbUUcjk3io_Pk,1311
+cfn_macro_common/templates.py,sha256=tt6TlH4EJivqJ9pCXnLaCd9dNDjGeNP7ztbhwcDA5DE,1049
+cfn_macro_common-0.1.0.dist-info/AUTHORS.rst,sha256=wGvBwt4tbdb6OCJzNbqxZG8cTMWJqHmpXbskahH92Qs,172
+cfn_macro_common-0.1.0.dist-info/LICENSE,sha256=sGCNqyaEXO8yb8gER4dwiYmUTA3-jUmnSDWGF1TSNhI,582
+cfn_macro_common-0.1.0.dist-info/METADATA,sha256=1QaspH1uyA6mrLocuFtkn7CgsGlA7LNHuEZX1X-ig60,1723
+cfn_macro_common-0.1.0.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+cfn_macro_common-0.1.0.dist-info/entry_points.txt,sha256=YIAn8NvxEoKicDwficdiaspJWcFL6GRqgAz3J5y2kfo,64
+cfn_macro_common-0.1.0.dist-info/top_level.txt,sha256=UaSlVigCeEe4A_Suuve0gcHQBGp6FT8pPtVEnPeHwNs,17
+cfn_macro_common-0.1.0.dist-info/RECORD,,
