@@ -1,0 +1,41 @@
+#api_programmer{
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+#api_programmer_api_selector_container{
+    border-bottom: 2px solid black;
+}
+
+.api-selector{
+    width: 100px;
+    height: 100px;
+    background-color: #ffdf1c;
+    border-radius: 10px 10px 10px 10px;
+    margin: 4px;
+    padding: 5px;
+}
+
+.api-function-selector{
+    background-color: #2dbeff;
+    border-radius: 10px 10px 10px 10px;
+    margin: 4px;
+    padding: 5px;
+}
+
+#api_programmer_api_function_selector{
+    border-right: 2px solid black;
+}
+
+#api_programmer_api_code_creator{
+    min-height: 400px;
+
+}
+#api_programmer_bottom{
+    margin-top: -1px;
+}
+
+#api_programmer_api_function_selecor_title{
+    margin: 4px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid black;
+}
