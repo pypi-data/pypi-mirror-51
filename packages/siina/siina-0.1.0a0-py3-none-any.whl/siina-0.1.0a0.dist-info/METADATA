@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: siina
+Version: 0.1.0a0
+Summary: Pure Python library for Ground Penetrating Radar (GPR): IO, processing and visualization
+Home-page: https://github.com/ahartikainen/siina
+Author: Ari Hartikainen
+Author-email: UNKNOWN
+License: Apache-2.0
+Keywords: ground penetrating radar gpr io
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
