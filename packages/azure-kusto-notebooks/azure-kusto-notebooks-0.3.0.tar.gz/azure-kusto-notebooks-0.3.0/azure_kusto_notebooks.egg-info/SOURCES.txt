@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+azure/__init__.py
+azure/kusto/__init__.py
+azure/kusto/notebooks/__init__.py
+azure/kusto/notebooks/nbclient.py
+azure/kusto/notebooks/utils.py
+azure_kusto_notebooks.egg-info/PKG-INFO
+azure_kusto_notebooks.egg-info/SOURCES.txt
+azure_kusto_notebooks.egg-info/dependency_links.txt
+azure_kusto_notebooks.egg-info/namespace_packages.txt
+azure_kusto_notebooks.egg-info/requires.txt
+azure_kusto_notebooks.egg-info/top_level.txt
