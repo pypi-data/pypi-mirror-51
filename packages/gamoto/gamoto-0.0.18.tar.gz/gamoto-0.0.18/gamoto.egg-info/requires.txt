@@ -1,0 +1,6 @@
+pyopenssl
+django>=2.2.3
+social-auth-app-django
+pyotp
+gunicorn
+django-crispy-forms
