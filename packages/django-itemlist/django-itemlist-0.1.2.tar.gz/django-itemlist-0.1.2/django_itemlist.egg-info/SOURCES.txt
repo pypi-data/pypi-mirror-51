@@ -1,0 +1,12 @@
+README.rst
+setup.py
+django_itemlist.egg-info/PKG-INFO
+django_itemlist.egg-info/SOURCES.txt
+django_itemlist.egg-info/dependency_links.txt
+django_itemlist.egg-info/top_level.txt
+itemlist/__init__.py
+itemlist/admin.py
+itemlist/apps.py
+itemlist/models.py
+itemlist/tests.py
+itemlist/views.py
