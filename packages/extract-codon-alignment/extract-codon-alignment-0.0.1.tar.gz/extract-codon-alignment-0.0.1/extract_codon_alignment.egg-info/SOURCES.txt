@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+extract_codon_alignment/__init__.py
+extract_codon_alignment/extract_codon_alignment.py
+extract_codon_alignment.egg-info/PKG-INFO
+extract_codon_alignment.egg-info/SOURCES.txt
+extract_codon_alignment.egg-info/dependency_links.txt
+extract_codon_alignment.egg-info/entry_points.txt
+extract_codon_alignment.egg-info/requires.txt
+extract_codon_alignment.egg-info/top_level.txt
