@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ACU
+Version: 0.2.1
+Summary: Automatically update AWS credentials file.
+Home-page: https://github.com/landmaj/aws_credentials_watcher
+Author: Michał Wieluński
+Author-email: michal@w-ski.dev
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyperclip (==1.7.0)
+Provides-Extra: dev
+Requires-Dist: importlib-resources (==1.0.2) ; extra == 'dev'
+Requires-Dist: pytest (==5.1.1) ; extra == 'dev'
+
+UNKNOWN
+
+
