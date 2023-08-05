@@ -1,0 +1,7 @@
+sklearn
+ipython
+numpy
+pandas
+setuptools
+xgboost
+joblib
