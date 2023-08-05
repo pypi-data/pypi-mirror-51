@@ -1,0 +1,17 @@
+README.md
+setup.py
+dictol/COPAR.py
+dictol/DLSI.py
+dictol/LRSDL.py
+dictol/ODL.py
+dictol/SRC.py
+dictol/__init__.py
+dictol/base.py
+dictol/optimize.py
+dictol/test_ODL.py
+dictol/test_utils.py
+dictol/utils.py
+dictol.egg-info/PKG-INFO
+dictol.egg-info/SOURCES.txt
+dictol.egg-info/dependency_links.txt
+dictol.egg-info/top_level.txt
