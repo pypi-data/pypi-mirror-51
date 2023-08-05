@@ -1,0 +1,13 @@
+osyris/__init__.py,sha256=lXxPB4xuniUOhd6V7yMlAO2wNQ1NdxQXo3BpAyJ7UDo,210
+osyris/config.py,sha256=RnIRLiXRWt0oUq2JNdbM_e71LafbfZuILO_Bwln4Dfo,4690
+osyris/engine.py,sha256=c2O-n9WwVXciVndWh90nlQ0QAFg-G_bEWFXU2rr8cRU,30729
+osyris/interpolate.py,sha256=mFCR6Iiqumv_c5-t-6I8UXOPwJc26B_7gR24Q74JxXo,6663
+osyris/ism_physics.py,sha256=LtTtbEalsthRvreN4lMbR_OVBIFmsnV4DodwiGWTeNs,13341
+osyris/load_ramses.py,sha256=m6NE9g-EtK7tmnRXHeNbcGajOkDORNol1jFx9MGy6CE,43874
+osyris/plot.py,sha256=KvB7ItwxlUKv-K-6bcodYM6rpFT_79uhO8_4S3dciSU,52370
+osyris/vtk.py,sha256=o2U9wRRJstuMWuTYf9ZjmRtCFashenlHqz1EDW5qXxg,8137
+osyris-1.0.4.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+osyris-1.0.4.dist-info/METADATA,sha256=KU_fPaDUTmrhJPnAs1c6t08-L6aUFcF9QfXw7uv7QvU,4076
+osyris-1.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+osyris-1.0.4.dist-info/top_level.txt,sha256=_7138fINpMb2GwHiTaVKlrYqe25vKx5wePxJsBgcUcs,7
+osyris-1.0.4.dist-info/RECORD,,
