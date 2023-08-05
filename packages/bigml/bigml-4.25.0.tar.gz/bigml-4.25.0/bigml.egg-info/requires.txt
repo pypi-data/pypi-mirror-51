@@ -1,0 +1,5 @@
+bigml-chronos
+poster
+requests
+unidecode
+urllib3==1.21.1
