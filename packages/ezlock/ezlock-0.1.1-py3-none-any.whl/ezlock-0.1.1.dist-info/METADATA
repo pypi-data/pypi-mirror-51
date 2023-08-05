@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ezlock
+Version: 0.1.1
+Summary: 
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: 0Hughman0
+Author-email: rammers2@hotmail.co.uk
+Requires-Python: >=3.5,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
