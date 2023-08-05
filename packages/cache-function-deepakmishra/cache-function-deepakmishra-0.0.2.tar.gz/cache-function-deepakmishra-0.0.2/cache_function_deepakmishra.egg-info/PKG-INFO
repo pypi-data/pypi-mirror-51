@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cache-function-deepakmishra
+Version: 0.0.2
+Summary: A small decorator which helps cache a result of a function
+Home-page: https://github.com/deepakmishra/cache_function
+Author: Deepak Mishra
+Author-email: deepakmishra117@gmail.com
+License: UNKNOWN
+Description: # Cache Function
+        
+        You can use this python decorator
+        [Github-flavored Markdown](https://github.com/deepakmishra/cache_function/)
+        to cache a result of a function.
+        
+        ## Installation
+        pip install -i https://test.pypi.org/simple/ cache-function-deepakmishra
+        
+        ## Usage
+        
+        ### Production Setting
+        ```python
+        from cache_function import cache_function
+        cache_function.cache = **your cache object which has get and set functions**
+        ```
+        
+        ### Development Setting
+        ```python
+        from cache_function import cache_function, test_cache_function
+        cache_function.cache = test_cache_function.DummyCache()
+        ```
+        
+        ### Usage: Cache a function result
+        ```python
+        from cache_function.cache_function import cache_function
+        
+        @cache_function(expiry=30) # time in seconds
+        def foo(a, b, c):
+            return a + b + c
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: Freeware
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
