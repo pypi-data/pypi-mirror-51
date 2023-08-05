@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+pyproject.toml
+setup.py
+autohooks/plugins/isort/__init__.py
+autohooks/plugins/isort/isort.py
+autohooks_plugin_isort.egg-info/PKG-INFO
+autohooks_plugin_isort.egg-info/SOURCES.txt
+autohooks_plugin_isort.egg-info/dependency_links.txt
+autohooks_plugin_isort.egg-info/requires.txt
+autohooks_plugin_isort.egg-info/top_level.txt
