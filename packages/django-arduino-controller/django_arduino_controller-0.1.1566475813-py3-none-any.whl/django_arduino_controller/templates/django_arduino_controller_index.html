@@ -1,0 +1,76 @@
+{% extends 'plug_in_django_basic.html' %}
+{% load static %}
+{% load sekizai_tags %}
+{% block contend %}
+    <div class="row">
+    <div class="col-md-4" style="height: 300px;">
+        {% include "logger_frame.html"%}
+    </div>
+    <div class="col-md-8">
+    <table id="portList" class="table">
+        <thead>
+        <tr id="portList_header">
+            <th name="port_port">Port</th>
+            <th name="port_status">Status</th>
+            <th name="port_baudrate">Baudrate</th>
+            <th name="port_firmware">Firmware</th>
+            <th name="port_class">Board Class</th>
+            <th name="port_name">Name</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+    </div>
+    <div id="boardList"></div>
+{% endblock %}
+
+{% block javascript %}
+    {% addtoblock "jss" %}
+    <script src="{% static 'django_arduino_controller/json_websocket.js'%}"></script>
+    <script src="{% static 'django_arduino_controller/django_arduino_controller.js'%}"></script>
+    <script>
+
+        django_arduino_controller.port_listener_ws_url = "ws://"+window.location.host+"{% url 'django_arduino_controller:websocket' socket_type="port_listener"%}";
+        django_arduino_controller.board_listener_ws_url = "ws://"+window.location.host+"{% url 'django_arduino_controller:websocket_arg' socket_type="board_data" arg="port_id"%}";
+
+        var $portList= $('#portList');
+        var $boardList= $('#boardList');
+        django_arduino_controller.port_template_generator = function (port_object){
+
+            var tr = $('<tr name="'+port_object.port+'"></tr>');
+
+            $portList.find('#portList_header').find("th").each(function (i, e) {
+                let name = e.getAttribute('name');
+                if(name !== undefined) {
+                    tr.append('<td name="' + name + '"></td>');
+                    port_object.data[name.replace("port_","")] = "-"
+                }
+            });
+            $portList.find('tbody').append(tr);
+            return tr
+        };
+
+        django_arduino_controller.board_template_generator = function (board_object) {
+            var board_div = $('<div board_port="board_'+board_object.port+'"><div><h6>'+board_object.port+'</h6></div><form class="form-inline" name="data_container"></form></div>');
+            $boardList.append(board_div);
+            return board_div
+        };
+
+
+
+
+
+    </script>
+    <style>
+        input[type=number]:read-only::-webkit-inner-spin-button,
+        input[type=number]:read-only::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number]:-moz-read-only {
+            -moz-appearance:textfield;
+        }
+    </style>
+    {% endaddtoblock %}
+{% endblock %}
