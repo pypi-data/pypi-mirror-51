@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+gopy/__init__.py
+gopy.egg-info/PKG-INFO
+gopy.egg-info/SOURCES.txt
+gopy.egg-info/dependency_links.txt
+gopy.egg-info/top_level.txt
