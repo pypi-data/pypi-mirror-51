@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyinfraformat
+Version: 0.1.0a0.dev0
+Summary: Python library for Finnish Infraformat
+Home-page: UNKNOWN
+Author: Ari Hartikainen & Taavi Dettenborn & Martti Hallipelto
+Author-email: UNKNOWN
+License: Apache-2.0
+Keywords: infraformat
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
