@@ -1,0 +1,7 @@
+six>=1.11.0
+banal>=0.4.1
+text-unidecode
+chardet
+
+[icu]
+pyicu>=1.9.3
