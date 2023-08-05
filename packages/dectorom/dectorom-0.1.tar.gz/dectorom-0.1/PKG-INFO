@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: dectorom
+Version: 0.1
+Summary: Module for converting numbers from decimal to roman
+Home-page: https://github.com/muradmurtuzaliev/dectorom
+Author: Murad Murtuzaliev
+Author-email: mur.murtuzaliev@yandex.ru
+License: UNKNOWN
+Download-URL: https://github.com/muradmurtuzaliev/dectorom
+Description: UNKNOWN
+Keywords: decimal,roman,convert
+Platform: UNKNOWN
