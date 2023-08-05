@@ -1,0 +1,12 @@
+ben_cogs/__init__.py,sha256=_BchM-Vt_644VKlaTcMolerjdIytuTCkjfkxOnnDaac,149
+ben_cogs/bot.py,sha256=c4I-T5Dzr1qWN5xHGIU6ovTR_wQNAdBfuPNk419wG_k,5773
+ben_cogs/debug.py,sha256=LHIsRFgmtPww6ipFKtHL4UI_TQmJ3IMijDLX0o7vMhQ,4171
+ben_cogs/ie_jishaku.py,sha256=qnvr3Lza-PDBtMFKdoo7eRHpj3xX5l_1YA0T2TCLDI8,461
+ben_cogs/misc.py,sha256=phfqFUk-eAlZSsje676QjjRSzaWncF8LLxvehn0Wam8,6482
+ben_cogs/sql.py,sha256=gwyuRLR1EgofY9aCai0HgpBfQV__UtliOG_kHHAzdcY,1882
+ben_cogs/stats.py,sha256=VbeNHrOenodeYiGKrsMZYXLSiK_bCJH8sJYhKJAtdqI,3210
+ben_cogs-0.14.dist-info/LICENSE,sha256=U2QxohdhxV7c7nG-oOGvAgDbe4wwADqNhLyQfIa588Q,1120
+ben_cogs-0.14.dist-info/METADATA,sha256=FNQ21sf32vlwJEuA-A0zk0bi3emEg0bdMjgsAeDz9Xk,934
+ben_cogs-0.14.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+ben_cogs-0.14.dist-info/top_level.txt,sha256=1_scP-Xkt3LngUAtcawDqG9QMF2-oBeQE3BL3z7EJdU,9
+ben_cogs-0.14.dist-info/RECORD,,
