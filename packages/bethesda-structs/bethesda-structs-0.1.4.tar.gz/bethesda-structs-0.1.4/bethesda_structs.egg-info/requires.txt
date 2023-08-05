@@ -1,0 +1,14 @@
+construct
+multidict
+attrs
+lz4
+
+[dev]
+ptpython
+flake8
+sphinx
+sphinx-autodoc-typehints
+pytest
+pytest-cov
+pytest-flake8
+pytest-sugar
