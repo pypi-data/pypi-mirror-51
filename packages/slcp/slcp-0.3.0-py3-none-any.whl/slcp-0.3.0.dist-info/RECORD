@@ -1,0 +1,10 @@
+slcp/__init__.py,sha256=GfyeIGtGNlDQmuheMhEuocVrvXzXsFfVEtNxbdHHfB0,649
+slcp/__main__.py,sha256=1MJH1OzFty7GgAYs-jy9Z4Uxxcc1ryFTcdSh5lVMTjQ,637
+slcp/cli.py,sha256=il8_83cXtocHSQLTzQa8OigKAlu0OSpiY70DEHAKla0,2962
+slcp/log.py,sha256=pVfCKe3xN5b78UJWXwfpi-D-Mx3h6vAm2HFJswwyznk,1485
+slcp/process.py,sha256=M8ha_sDMmM11RuRKiAa7LKmrI9FRQUCvqXiktfsgreo,7507
+slcp-0.3.0.dist-info/entry_points.txt,sha256=TB3VuBV0Xk6IOdE7uDK2Eqcnz3dgWKlCANa3qlj0524,43
+slcp-0.3.0.dist-info/LICENSE,sha256=AJht8IuZM9d_Vw8XOIQN5vsf_9sP_doyTkXB8smYLNg,1073
+slcp-0.3.0.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+slcp-0.3.0.dist-info/METADATA,sha256=5WITQzmIhl8nsSs2FMtPupzalsFiH8R3ZlrLklBSb6M,4601
+slcp-0.3.0.dist-info/RECORD,,
