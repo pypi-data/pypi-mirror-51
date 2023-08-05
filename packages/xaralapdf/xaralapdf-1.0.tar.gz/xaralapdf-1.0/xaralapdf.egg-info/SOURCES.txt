@@ -1,0 +1,9 @@
+README.md
+setup.py
+xaralapdf/__init__.py
+xaralapdf/pdf2text.py
+xaralapdf/pdftoimage.py
+xaralapdf.egg-info/PKG-INFO
+xaralapdf.egg-info/SOURCES.txt
+xaralapdf.egg-info/dependency_links.txt
+xaralapdf.egg-info/top_level.txt
