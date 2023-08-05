@@ -1,0 +1,10 @@
+README.md
+setup.py
+majime/__init__.py
+majime/__main__.py
+majime.egg-info/PKG-INFO
+majime.egg-info/SOURCES.txt
+majime.egg-info/dependency_links.txt
+majime.egg-info/entry_points.txt
+majime.egg-info/requires.txt
+majime.egg-info/top_level.txt
