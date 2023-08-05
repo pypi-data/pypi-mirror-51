@@ -1,0 +1,11 @@
+py_vmdetect/__init__.py,sha256=KAp5aczL6gpNZRN-MIaEkydP-UXrMyfn7PXA_B6oNWY,230
+py_vmdetect/cli.py,sha256=SVfUFTUwuzzV2VhRJmYbR6Kj-3E1WTvH98BPqpb7KY8,2164
+py_vmdetect/py_vmdetect.py,sha256=VwDAwdJ96wOKGJETnbPjb2ezUbLUxZjAJyQgPgCUCQc,1887
+py_vmdetect/vmdetect.so,sha256=DX3l8LrQv39fCIO-RPkq4U1VFMSZCi-7rnSKHEp_WuQ,9836
+py_vmdetect-0.1.0.dist-info/AUTHORS.rst,sha256=TYgzvAhDmr9NyAhSphjcdRyNAAPiJ3x3HeBvIXiHdZE,155
+py_vmdetect-0.1.0.dist-info/LICENSE,sha256=2yOPWqvI9xkatCYCyEjIggmelntK5d-GPTv_60krMPU,1072
+py_vmdetect-0.1.0.dist-info/METADATA,sha256=eZoRUeGf8gYbr7IhXEkn-8Zf-CLp5oLvXeyGCCNGUeA,2298
+py_vmdetect-0.1.0.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+py_vmdetect-0.1.0.dist-info/entry_points.txt,sha256=f7SpZHpTnqblx87K0qNypluKTx_OCwYAbK8m1uzVVuU,54
+py_vmdetect-0.1.0.dist-info/top_level.txt,sha256=wTPZOMlUcIzvPkybrafr74LDSCZAZ3Xki8KUT7Z5RXg,12
+py_vmdetect-0.1.0.dist-info/RECORD,,
