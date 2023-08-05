@@ -1,0 +1,14 @@
+discomp/__init__.py,sha256=3mvEab-DMn5-4lctS7hBe4nHrwDkRRbuPgIiskwbbUM,66
+discomp/analytics.py,sha256=LPTvOGLD_jgbnTYKlMqReliBEhHX7rZC7ACmDwud8nc,688
+discomp/disco_cli_wrapper.py,sha256=ryRBqQOtiRqMYvawxYY1WxpYrO4K9reW35vVXKqsvkY,3150
+discomp/job_file_handler.py,sha256=PxvPXS7BUaBi2U6Z_nuJIoecd_V0-U2iZLrDyfs3HEc,3490
+discomp/job_handler.py,sha256=LbgSrPR8H-R5d4go9UNxfhReg2LUg8L8NFmHoy-De24,1334
+discomp/pool.py,sha256=2J37xQ2QN5Nt0hvMvHOG-QgioghLewkzgbdxLhr4ksU,3032
+discomp/process.py,sha256=gCgO30AfXM3_Z7a_tQmOM6tQZyBcWDsFEZ1IDaPjtSU,2317
+discomp/utils.py,sha256=8pLETyhG0YNQZAoSz0Gaf43nLcpKWB1U8X_irjtGMY8,2035
+discomp-1.5.0.dist-info/LICENSE.txt,sha256=W7XBjUek9cmSQ_59tBEv6AZ_LiQ4swIVItcdCaD9seY,10287
+discomp-1.5.0.dist-info/METADATA,sha256=Ux4HDpC2iim2DfBYgFpXgoK4kTu2m0kceJ8jGgSVE88,4862
+discomp-1.5.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+discomp-1.5.0.dist-info/top_level.txt,sha256=ctimoar4XlApV2WLSQ1J_CeqNX5dsRoO1LzpMTf60ag,8
+discomp-1.5.0.dist-info/version.txt,sha256=H03AltWPfSHjh1ZxrubymxIKuEIY-kfbLLU7yetbTaw,5
+discomp-1.5.0.dist-info/RECORD,,
