@@ -1,0 +1,16 @@
+tuesday/File.py,sha256=Yvq9Faqtfy0llDYyhTR8ewLfiOW72oL6Bsgegeyulvo,3715
+tuesday/__init__.py,sha256=LmwVwhWqRdbYuFfOHWnlck6ZVdiVEFTZF7SHOHlGees,701
+tuesday/localweather.py,sha256=x6fblaUMfvmpF5i_buc05Fhidt9bx8KfyFe7i1F4_2E,1638
+tuesday/search.py,sha256=rdyuGtM3e3xc5ZX4cJ1cVcCUNj0To1Iw1nCsqw6ZiWk,2331
+tuesday/searchwiki.py,sha256=zAuqP886GaLet57gF7PegPaveyBqV7WBNP17nyDEaoI,1288
+tuesday/sendmail.py,sha256=qkKcQnRsMLyo-w2KBC88UV3R3e-nk9n4BKBYrFGOtrk,1404
+tuesday/social.py,sha256=nBCcxX7a8cvUAcLlpJTVibmi5gnUNeq08aYKbCfnFmY,3928
+tuesday/speech.py,sha256=5wyLp0GX2iCdodN_SKrHo0XOC60Aehyb6ATgTnFtodA,1657
+tuesday/system.py,sha256=AVwMmticSAflNuqoHhGfET7iAm2i75GNIfBiCLmAChE,505
+tuesday/websites.py,sha256=sMlShb46RRkpIHPRJFEvWaRw-ypDWxcFnriP1WgJAh8,749
+tuesday/whatisthetime.py,sha256=KrSxyHrNZvxD-fNjqt58x1Uj0oVDLDxxvLtMbb6zl2c,491
+tuesday-3.0.0.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+tuesday-3.0.0.dist-info/METADATA,sha256=2yOWnQdUrodrY6Y5iiKt05t-vvYdZAdox1yMxr0teHs,3671
+tuesday-3.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+tuesday-3.0.0.dist-info/top_level.txt,sha256=tTYFCpOo1YEkCsg4FYUFALADGafxlAN_Rrt1MMwH-7U,8
+tuesday-3.0.0.dist-info/RECORD,,
