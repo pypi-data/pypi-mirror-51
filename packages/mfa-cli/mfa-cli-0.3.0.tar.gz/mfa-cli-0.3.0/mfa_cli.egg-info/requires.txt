@@ -1,0 +1,5 @@
+pyotp==2.2.7
+pyyaml==5.1.1
+click==7.0
+pyaescrypt==0.4.3
+pyperclip==1.7.0
