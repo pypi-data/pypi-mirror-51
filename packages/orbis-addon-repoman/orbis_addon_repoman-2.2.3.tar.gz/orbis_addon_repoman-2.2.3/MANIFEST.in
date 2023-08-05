@@ -1,0 +1,5 @@
+recursive-include orbis_addon_repoman *.txt
+recursive-include orbis_addon_repoman *.json
+recursive-include orbis_addon_repoman *.yml
+recursive-include orbis_addon_repoman *.yaml
+global-exclude *.pyc
