@@ -1,0 +1,10 @@
+README.md
+setup.py
+gtfinder/ExtensiveFormGame.py
+gtfinder/InformationSet.py
+gtfinder/Node.py
+gtfinder/__init__.py
+gtfinder.egg-info/PKG-INFO
+gtfinder.egg-info/SOURCES.txt
+gtfinder.egg-info/dependency_links.txt
+gtfinder.egg-info/top_level.txt
