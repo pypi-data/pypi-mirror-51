@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+grg_mpdata/__init__.py
+grg_mpdata/cmd.py
+grg_mpdata/exception.py
+grg_mpdata/io.py
+grg_mpdata/struct.py
+grg_mpdata.egg-info/PKG-INFO
+grg_mpdata.egg-info/SOURCES.txt
+grg_mpdata.egg-info/dependency_links.txt
+grg_mpdata.egg-info/top_level.txt
