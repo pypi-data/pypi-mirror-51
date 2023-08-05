@@ -1,0 +1,11 @@
+[Unit]
+Description=MQTT to SQLite Storage
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env python3 -m mqttstore sqlite
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=default.target

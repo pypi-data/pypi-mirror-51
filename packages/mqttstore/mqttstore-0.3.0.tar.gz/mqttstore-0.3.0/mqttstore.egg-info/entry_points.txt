@@ -1,0 +1,3 @@
+[console_scripts]
+mqttstore = mqttstore.cli.commands.main:cli
+
