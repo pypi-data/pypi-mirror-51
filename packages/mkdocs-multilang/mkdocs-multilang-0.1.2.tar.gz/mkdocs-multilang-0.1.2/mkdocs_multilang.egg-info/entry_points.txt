@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+multilang = mkdocs_multilang.plugin:MultiLang
+
