@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+botoinator.egg-info/PKG-INFO
+botoinator.egg-info/SOURCES.txt
+botoinator.egg-info/dependency_links.txt
+botoinator.egg-info/top_level.txt
+src/botoinator/__init__.py
+src/botoinator/session.py
