@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: nifconverter
+Version: 0.1.2
+Summary: A tool to convert NIF files across identifier schemes (DBpedia, Wikidata, ...)
+Home-page: https://github.com/wetneb/nifconverter
+Author: Antonin Delpeuch
+Author-email: antonin@delpeuch.eu
+License: MIT
+Description: nifconverter
+        ============
+        
+        `Build Status <https://travis-ci.org/wetneb/nifconverter>`__ `Coverage
+        Status <https://coveralls.io/github/wetneb/nifconverter?branch=master>`__
+        
+        Utility to translate NIF files across identifier schemes, for instance
+        between DBpedia and Wikidata.
+        
+        It can be used both as a Python library or as a CLI utility.
+        
+        Example invocation:
+        
+        .. code:: bash
+        
+           nifconverter --mode dbr:wd -i my_dbpedia_nif_file.ttl -o my_wikidata_nif_file.ttl
+        
+Keywords: NIF NLP formats NER RDF Wikidata DBpedia
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: dev
+Provides-Extra: test
