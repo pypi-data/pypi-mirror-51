@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: dolibarr
+Version: 0.1.12
+Summary: Python wrapper for Dolibarr API
+Home-page: https://gitlab.com/mvmdata/dolibarr
+Author: Mark Meadows
+Author-email: mark@mvmdata.com
+License: MIT
+Description: Python wrapper for Dolibarr
+Keywords: Dolibarr,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
