@@ -1,0 +1,66 @@
+Kagi
+----
+
+.. image:: https://circleci.com/gh/justinmayer/kagi.svg?style=svg
+    :target: https://circleci.com/gh/justinmayer/kagi
+
+Kagi provides support for FIDO WebAuthn security keys and TOTP tokens in Django.
+
+Kagi is a working proof-of-concept and isn't yet production ready. There are
+many TODOs sprinkled around the code that should be fixed before relying on it.
+
+Installation
+============
+
+::
+
+    $ pip install kagi
+
+Add ``kagi`` to ``INSTALLED_APPS`` and include ``kagi.urls`` somewhere in your
+URL patterns. Set ``LOGIN_URL = 'kagi:login'``.
+
+Make sure that Django's built-in login view does not have a
+``urlpattern``, because it will authenticate users without their second
+factor. Kagi provides its own login view to handle that.
+
+Demo
+====
+
+To see a demo, use the test project included in the repo and perform the
+following steps (using a virtual environment is optional)::
+
+   git clone https://github.com/justinmayer/kagi
+   cd kagi
+   make install
+   make serve
+
+   cd testproj
+   python manage.py migrate
+   python manage.py createsuperuser
+
+Supported browsers and versions can be found here: https://caniuse.com/webauthn
+WebAuthn also requires that the site is served over a secure (HTTPS) connection.
+
+Start by going to https://localhost:8000/kagi/login. Since you
+haven't added any security keys yet, you will be logged in with just a
+username and password.
+
+Once logged in, click "Add another key" on the key management page and follow
+the instructions. Now your account is protected by multi-factor authentication,
+and when you log in again your WebAuthn key or TOTP token will be required.
+
+You can manage the keys attached to your account on the key
+management page as well, at the URL https://localhost:8000/kagi/keys.
+
+
+Using WebAuthn Keys on Linux
+============================
+
+Some distros don't come with udev rules to make USB HID /dev/
+nodes accessible to normal users. If your key doesn't light up
+and start flashing when you expect it to, this might be what is
+happening. See https://github.com/Yubico/libu2f-host/issues/2 and
+https://github.com/Yubico/libu2f-host/blob/master/70-u2f.rules for some
+discussion of the rule to make it accessible. If you just want a quick
+temporary fix, you can run ``sudo chmod 666 /dev/hidraw*`` every time
+after you plug in your key (the files disappear after unplugging).
