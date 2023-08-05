@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: owldata
+Version: 0.0.11
+Summary: Testing version for owl
+Home-page: https://owl.cmoney.com.tw/Owl/
+Author: Owl Corp.
+Author-email: owldb@cmoney.com.tw
+License: MIT
+Keywords: cmoney,financial data,owldata
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: request
+
+UNKNOWN
+
+
