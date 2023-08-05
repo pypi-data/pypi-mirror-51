@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: embedding-as-service
+Version: 0.0.1
+Summary: embedding-as-service: one-stop solution to encode sentence to vectors using various embedding methods
+Home-page: https://github.com/amansrivastava17/embedding-as-service
+Author: Aman Srivastava
+Author-email: amans.rlx@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
