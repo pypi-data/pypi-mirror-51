@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rishi_raj/DELETE.py
+rishi_raj/DISPLAY.py
+rishi_raj/MAIN.py
+rishi_raj/NEW_USER.py
+rishi_raj/REG.py
+rishi_raj/SEARCH.py
+rishi_raj/UPDATE.py
+student_rishiraj.egg-info/PKG-INFO
+student_rishiraj.egg-info/SOURCES.txt
+student_rishiraj.egg-info/dependency_links.txt
+student_rishiraj.egg-info/requires.txt
+student_rishiraj.egg-info/top_level.txt
