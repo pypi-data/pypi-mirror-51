@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: libapiclient
+Version: 0.0.3
+Summary: API client tools
+Home-page: https://github.com/caser789/libapiclient
+Author: jiao.xue
+Author-email: jiao.xuejiao@gmail.com
+License: UNKNOWN
+Description: # libapiclient
+        API client common
+        
+        ## v0.0.2
+        
+        * Log traceback when error
+        
+        ## v0.0.3
+        
+        * Support `DELETE` method
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
