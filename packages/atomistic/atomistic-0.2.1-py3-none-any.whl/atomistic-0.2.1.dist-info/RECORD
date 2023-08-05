@@ -1,0 +1,17 @@
+atomistic/__init__.py,sha256=hha72L3csuFIvrF-hjFXt3SdjFuw_-GNwauxR585-dw,219
+atomistic/_version.py,sha256=PmcQ2PI2oP8irnLtJLJby2YfW6sBvLAmL-VpABzTqwc,22
+atomistic/atomistic.py,sha256=7O51zNIsVtIsxYWqQdym7vqU2ROA1bFFvlRs1X7ozk8,17497
+atomistic/bicrystal.py,sha256=38bjW3CBFFY2nfehedQNlMF5Ruy2q1_S2LMSGTag93I,13658
+atomistic/crystal.py,sha256=h2nQCytNhhysrVUchz8nf939IbMFbuaCWJ3yZuCpWfM,21173
+atomistic/mathsutils.py,sha256=_kTo4G8st_bMC7I5UxTmxWfY3ET9TVDMKBY_eS9gx3E,1256
+atomistic/utils.py,sha256=VYKy5hGM6s5BqT-wdFIBZ7BKm84PK9qJ21hQ2__Up-0,2245
+atomistic/visualise.py,sha256=iEgzX1K_NiY2Uc_wIqs7AYtPmcY0NEVkc8obG4yFino,22655
+atomistic/api/__init__.py,sha256=JEcltzLeiWqlQiqlnGMbVtnPxWl5NyRkK9Aq7lAeob0,34
+atomistic/api/bicrystal.py,sha256=TdH9kqszxANSQWCICTHh4R0Zx-I6KS3T4aNYrncR8t8,12190
+atomistic/data/jmol_colours.pickle,sha256=VfwUFROusvYo1AWclAcbsmPN7E6he45rbBLnTTAZcNQ,1956
+atomistic/data/jmol_colours.txt,sha256=B3QChiVirhHPGMdJLVce3xoAqyUHZUBphT_xikq49_4,2264
+atomistic-0.2.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+atomistic-0.2.1.dist-info/METADATA,sha256=Vf4KEUa_O5FzFz7XNaGf-cwRceQSY6rYarEfSQ8ZRCQ,1225
+atomistic-0.2.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+atomistic-0.2.1.dist-info/top_level.txt,sha256=9j-uMR3A6-LUuAG8iXSoaLK8so-UcNZlbWA2EZK2gEA,10
+atomistic-0.2.1.dist-info/RECORD,,
