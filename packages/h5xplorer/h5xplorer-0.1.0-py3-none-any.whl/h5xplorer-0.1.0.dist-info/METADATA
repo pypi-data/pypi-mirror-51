@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: h5xplorer
+Version: 0.1.0
+Summary: A customizable HDF5 browser
+Home-page: https://github.com/DeepRank/h5xplorer
+Author: ['Nicolas Renaud']
+Author-email: n.renaud@esciencecenter.nl
+License: Apache Software License 2.0
+Keywords: h5xplorer
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
+Requires-Dist: h5py
+Requires-Dist: PyQt5
+Requires-Dist: matplotlib
+Requires-Dist: qtconsole
+Requires-Dist: IPython
+Provides-Extra: dev
+Requires-Dist: prospector[with_pyroma] ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: recommonmark ; extra == 'doc'
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: nose ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pycodestyle ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-runner ; extra == 'test'
+Requires-Dist: coveralls ; extra == 'test'
+
+# h5xplorer
+[![DOI](https://zenodo.org/badge/127908769.svg)](https://zenodo.org/badge/latestdoi/127908769)
+[![Documentation Status](https://readthedocs.org/projects/h5xplorer/badge/?version=latest)](http://h5xplorer.readthedocs.io/?badge=latest)
+
+
+**Customizable Framework for the Creation of HDF5 Browsers**
+
+![alt-text](./h5x.gif)
+
+For more information check out the documentation at: http://h5xplorer.readthedocs.io/en/latest/index.html
+
+
+
+
+

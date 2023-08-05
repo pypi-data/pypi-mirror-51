@@ -1,0 +1,11 @@
+h5xplorer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+h5xplorer/__version__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+h5xplorer/default_menu.py,sha256=3R3EQoopoJiZvalkoa2cNYfVc5P1rVibh-UaBO-0jVY,1685
+h5xplorer/h5xplorer.py,sha256=oqQCo0xet1KAU7De7EU5w9a4pSEWNgOsd-owKCf82K0,20108
+h5xplorer/menu_plot.py,sha256=WJp2rrbpvg43x5aLxKWSQHoeRmUTfKCDVIsXS6EchY4,4776
+h5xplorer/menu_tools.py,sha256=UR3FsoSG6MztKzg1iKdT8DQ2vOrw-fA8ib3NQoQeskI,4419
+h5xplorer/standarddialogs.py,sha256=uRS420T6jLGojXc14af7_Z9HCPs09P7yOW7JsZYcQRc,3648
+h5xplorer-0.1.0.dist-info/METADATA,sha256=zbF2_hDY0YerO98tg2M48HgVRoFomMegS3Wnvffh05k,1863
+h5xplorer-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+h5xplorer-0.1.0.dist-info/top_level.txt,sha256=VnTupJ2zOIyCzlnSovyG1zVWP73K1ldwmv0a9VxRCRQ,10
+h5xplorer-0.1.0.dist-info/RECORD,,
