@@ -1,0 +1,11 @@
+emailrep/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emailrep/api.py,sha256=KjdsdtyGHlPzYB7uGpHVA4HLkjlK6gb6EWplKssiADA,2237
+emailrep/cli.py,sha256=6-z3lx0IIObP1RFImtOxXLhJ01s5S34upV9DqO14ILY,585
+emailrep/exceptions.py,sha256=PPIcjTIrkWUmG1nJcvyFnP-wa7hq90xTTrXTx9iwyPI,44
+emailrep/utils.py,sha256=mL_b5sy2f_D2_RM93vOCViQR1h-YZWT2jQ9nqKiLSr0,3195
+emailrep-0.0.1.dist-info/LICENSE,sha256=lj8HqP4iQ1iImIOQMZorPJNpuMwn7q0Ym5xnnr0khVY,1056
+emailrep-0.0.1.dist-info/METADATA,sha256=dXCjiAOhxsAqYjNZcPIXbXj0tr3MBDsvgIGiIe1TRQQ,548
+emailrep-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+emailrep-0.0.1.dist-info/entry_points.txt,sha256=TEa0G7o0DXwtZ_qcMh7TNS41YBVv2bkCtgz2sSBU9Tk,48
+emailrep-0.0.1.dist-info/top_level.txt,sha256=l21nJ38xqwvTPMEyvK5LkOV_6HkKIXziAMzypMFEUiU,9
+emailrep-0.0.1.dist-info/RECORD,,
