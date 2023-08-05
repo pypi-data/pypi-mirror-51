@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wt-superset
+Version: 0.34.0
+Summary: A modern, enterprise-ready business intelligence web application
+Home-page: https://github.com/tongwu13/superset
+Author: wutong
+Author-email: wutong377@163.com
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: cors
+Provides-Extra: druid
+Provides-Extra: gsheets
+Provides-Extra: mysql
+Provides-Extra: hive
+Provides-Extra: presto
+Provides-Extra: postgres
+Provides-Extra: bigquery
