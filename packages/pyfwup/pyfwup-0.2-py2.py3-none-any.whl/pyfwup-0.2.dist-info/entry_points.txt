@@ -1,0 +1,5 @@
+[console_scripts]
+fwup-util = fwup_utils.fwup_util:main
+lpc-upload = fwup_utils.fwup_util:main
+microprog = fwup_utils.fwup_util:main
+

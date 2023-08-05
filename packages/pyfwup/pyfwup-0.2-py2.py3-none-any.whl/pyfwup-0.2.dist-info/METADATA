@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyfwup
+Version: 0.2
+Summary: Python library for programming various USB bootloaders
+Home-page: https://github.com/usb-tools/pyfwupd
+Author: Katherine J. Temkin
+Author-email: k@ktemkin.com
+License: BSD
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Security
+Requires-Dist: pyusb
+Requires-Dist: tqdm
+
+pyfwup (Python Firmware Uploader) is a set of libraries meant to facilitate uploading firmware to various devices directly from python.
+
+
