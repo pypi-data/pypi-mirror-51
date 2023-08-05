@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sacking
+Version: 0.0.1.dev0
+Summary: Yet another soft actor-critic implementation
+Home-page: https://github.com/jseppanen/sacking
+Author: Jarno Seppänen
+Author-email: sacking@meit.si
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: click
+
+
+# Soft actor-critic
+
+Yet another SAC implementation, for continuous and discrete action spaces.
+
+Reference implementation: https://github.com/rail-berkeley/softlearning
+
+
