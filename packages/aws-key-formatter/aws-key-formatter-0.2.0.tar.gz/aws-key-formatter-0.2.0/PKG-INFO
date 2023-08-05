@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: aws-key-formatter
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/KeltonKarboviak/aws-key-formatter
+Author: Kelton Karboviak
+Author-email: kelton.karboviak@gmail.com
+License: MIT
+Description: # aws-key-formatter
+        
+        Project/Repo:
+        
+        [![MIT License][license_img]][license_ref]
+        [![Supported Python Versions][pyversions_img]][pyversions_ref]
+        [![aws-key-formatter v0.0.4][version_img]][version_ref]
+        [![PyPI Releases][pypi_img]][pypi_ref]
+        [![PyPI Downloads][downloads_img]][downloads_ref]
+        
+        Code Quality/CI:
+        
+        [![Build Status][travis_img]][travis_ref]
+        
+        ## Overview
+        
+        This CLI will take your AWS credentials and output them in various formats.
+        
+        The initial use case is for displaying your AWS credentials for use as the
+        `Authorization` parameter in several AWS Redshift commands.
+        
+        See [Use Cases](#use-cases) for all possible output formats.
+        
+        ## Installation
+        
+        `aws-key-formatter` can be installed by running:
+        
+        ```bash
+        pip install aws-key-formatter
+        ```
+        
+        It requires Python 3.6+ to run.
+        
+        You can, also, install via [`pipx`](https://pipxproject.github.io/pipx/):
+        
+        ```bash
+        pipx install aws-key-formatter
+        ```
+        
+        ## Usage
+        
+        ### Redshift
+        
+        To use your AWS credentials as the `Authorization` parameter in a Redshift
+        command (See [the Redshift docs](https://docs.aws.amazon.com/redshift/latest/dg/copy-parameters-authorization.html#copy-access-key-id)):
+        
+        ```bash
+        $ aws-key-formatter redshift
+        ACCESS_KEY_ID '<access-key-id>'
+        SECRET_ACCESS_KEY '<secret-access-key>'
+        
+        # If you want the session token included as well
+        $ aws-key-formatter redshift --token
+        ACCESS_KEY_ID '<access-key-id>'
+        SECRET_ACCESS_KEY '<secret-access-key>'
+        SESSION_TOKEN '<temporary-token>'
+        ```
+        
+        ### Environment Variables
+        
+        To use your AWS credentials as [environment variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html):
+        
+        ```bash
+        $ aws-key-formatter env
+        AWS_ACCESS_KEY_ID=<access-key-id>
+        AWS_SECRET_ACCESS_KEY=<secret-access-key>
+        
+        # If you want the session token included as well
+        $ aws-key-formatter env --token
+        ACCESS_KEY_ID=<access-key-id>
+        SECRET_ACCESS_KEY=<secret-access-key>
+        SESSION_TOKEN=<temporary-token>
+        ```
+        
+        ## Contributing
+        
+        <!-- TODO: add some contributing guidelines -->
+        
+        <!-- References -->
+        
+        [downloads_img]: https://pepy.tech/badge/aws-key-formatter/month
+        [downloads_ref]: https://pepy.tech/project/aws-key-formatter
+        
+        [license_img]: https://img.shields.io/badge/License-MIT-blue.svg
+        [license_ref]: https://github.com/KeltonKarboviak/aws-key-formatter/blob/master/LICENSE.md
+        
+        [pypi_img]: https://img.shields.io/badge/PyPI-wheels-green.svg
+        [pypi_ref]: https://pypi.org/project/aws-key-formatter/#files
+        
+        [pyversions_img]: https://img.shields.io/pypi/pyversions/aws-key-formatter.svg
+        [pyversions_ref]: https://pypi.org/pypi/aws-key-formatter
+        
+        [travis_img]: https://travis-ci.org/KeltonKarboviak/aws-key-formatter.svg?branch=master
+        [travis_ref]: https://travis-ci.org/KeltonKarboviak/aws-key-formatter
+        
+        [version_img]: https://img.shields.io/static/v1.svg?label=aws-key-formatter&message=v0.2.0&color=blue
+        [version_ref]: https://pypi.org/project/aws-key-formatter/
+        
+        
+        # Changelog
+        
+        ## 0.1.0 (2019-08-09)
+        
+        * Made it to be `pip`-installable
+        * Added some initial installation/usage docs to README
+        * Setup to be built & deployed to pypi via Travis CI
+        
+        
+        # License
+        
+        Copyright 2019 Kelton Karboviak
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

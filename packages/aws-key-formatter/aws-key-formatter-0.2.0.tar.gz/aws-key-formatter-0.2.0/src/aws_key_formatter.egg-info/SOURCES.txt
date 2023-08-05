@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/aws_key_formatter/__init__.py
+src/aws_key_formatter/__main__.py
+src/aws_key_formatter/__version__.py
+src/aws_key_formatter/aws_key_formatter.py
+src/aws_key_formatter/cli.py
+src/aws_key_formatter.egg-info/PKG-INFO
+src/aws_key_formatter.egg-info/SOURCES.txt
+src/aws_key_formatter.egg-info/dependency_links.txt
+src/aws_key_formatter.egg-info/entry_points.txt
+src/aws_key_formatter.egg-info/requires.txt
+src/aws_key_formatter.egg-info/top_level.txt
