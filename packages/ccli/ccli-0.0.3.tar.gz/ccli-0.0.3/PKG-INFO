@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ccli
+Version: 0.0.3
+Summary: CLI for the Canvas LMS
+Home-page: https://github.com/jalgroy/canvascli
+Author: Joakim Algrøy and Petter Daae
+Author-email: petter.daae@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
