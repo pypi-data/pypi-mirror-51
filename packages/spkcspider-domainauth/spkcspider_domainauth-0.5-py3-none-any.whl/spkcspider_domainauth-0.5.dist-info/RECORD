@@ -1,0 +1,12 @@
+spider_domainauth/__init__.py,sha256=xlXf8K3__gWzogRB3Kkq12rOY_8yUtq3N7Y1hQJEbBg,63
+spider_domainauth/abstract_models.py,sha256=WZ9HagKEWPPVtZffUrmirw61irYhpKe1pHBJjBQqHTU,1470
+spider_domainauth/apps.py,sha256=Qf5Yl2q9kEHsG_7dYhb_ZobLETuZPqv4yggkqG-ki1Q,254
+spider_domainauth/migrations/0001_initial.py,sha256=B-WB2CgThbNAWy1ciNcmAVF87CD2zLBn4pFUG1fceec,902
+spider_domainauth/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spider_domainauth/models.py,sha256=uEsvGjOwRTEICtbYUDfOKy-7OGTPxuwyhsjkGZoJt1s,467
+spider_domainauth/urls.py,sha256=oseebuZ_2Txg8blmxjnIGY4Jm1uAj7vPjHLP_AJqLmg,214
+spider_domainauth/utils.py,sha256=Z83APp3heyhhdoc3HzeF4ethKSfYM0TFQ4-jPwnyYX8,542
+spider_domainauth/views.py,sha256=Pi2r6jwwty-SoyZWnouyWZvLZC2_Hxf1EBd_a_YoS0M,6690
+spkcspider_domainauth-0.5.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+spkcspider_domainauth-0.5.dist-info/METADATA,sha256=VvwmsScH_6ZtZR1TzBOkRHSksGI-CMUWxMiJQZgvFC8,1830
+spkcspider_domainauth-0.5.dist-info/RECORD,,
