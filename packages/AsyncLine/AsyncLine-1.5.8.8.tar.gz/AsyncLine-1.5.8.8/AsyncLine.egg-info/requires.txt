@@ -1,0 +1,11 @@
+aiohttp
+aiostomp
+async_timeout
+asyncio-nats-client
+frugal
+requests
+rsa
+ujson
+
+[uvloop]
+uvloop==0.13.0
