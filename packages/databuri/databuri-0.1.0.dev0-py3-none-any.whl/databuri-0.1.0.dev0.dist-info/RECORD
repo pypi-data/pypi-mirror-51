@@ -1,0 +1,11 @@
+databuri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databuri/configuration.py,sha256=R6sgxgV_tBIjxr4Ew_zXfnvQHpc3V9j6WNlyBaEvNOA,497
+databuri/logger.py,sha256=kz6v0GUb1tGFWZOYQWUmYEAQL1U35ZHZxMzvBUH2moM,432
+databuri/datasources/__init__.py,sha256=XNlk-hfOV2MTCkEijwjyzlcOtriN82wcK-BZkBbwohM,68
+databuri/datasources/air4thai.py,sha256=p4HOLBEvY148wQN-pXc14FZU5TJhrWSgyTYrvtLj6EQ,928
+databuri/datasources/govspending.py,sha256=K3DzqAplrPZn-ARSPVNPRbLThHu_eQ9WjzbypBa3EdU,1946
+databuri-0.1.0.dev0.dist-info/LICENSE,sha256=h2LLyTGOMud4ZQvGHI8vXTtrrjKz6qHhBDPYUk5uhHA,1073
+databuri-0.1.0.dev0.dist-info/METADATA,sha256=l2rANNQy0V9S0-OFe7mqmZY1EFL63zg2HOYPTZhKecE,2338
+databuri-0.1.0.dev0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+databuri-0.1.0.dev0.dist-info/top_level.txt,sha256=pGwC7ClOt5egkwYEeawHX9a2gpyTgKWmZZMcWOLzDOE,9
+databuri-0.1.0.dev0.dist-info/RECORD,,
