@@ -1,0 +1,11 @@
+README.md
+setup.py
+i3wins/__init__.py
+i3wins/i3lasts.py
+i3wins/i3wins.py
+i3wins.egg-info/PKG-INFO
+i3wins.egg-info/SOURCES.txt
+i3wins.egg-info/dependency_links.txt
+i3wins.egg-info/entry_points.txt
+i3wins.egg-info/requires.txt
+i3wins.egg-info/top_level.txt

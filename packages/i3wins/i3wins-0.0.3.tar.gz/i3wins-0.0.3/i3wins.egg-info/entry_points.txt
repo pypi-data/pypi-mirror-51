@@ -1,0 +1,5 @@
+[console_scripts]
+i3lastc = i3wins.i3lasts:client
+i3lasts = i3wins.i3lasts:server
+i3wins = i3wins.i3wins:main
+
