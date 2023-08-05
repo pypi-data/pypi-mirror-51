@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: asciinema-director
+Version: 0.1.1
+Summary: A way to record asciinema cast files like a pro.
+Author: Vinay Keerthi
+Author-email: ktvkvinaykeerthi@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: asciinema (>=2.0,<3.0)
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: pexpect (>=4.7,<5.0)
