@@ -1,0 +1,3 @@
+[console_scripts]
+adz = adz.cli:main
+
