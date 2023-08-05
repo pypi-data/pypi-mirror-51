@@ -1,0 +1,11 @@
+gopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gopy/search/__init__.py,sha256=ZgMTHdS78tBS2c4MdKaBrUMtk9mBUFaTCQr8LbwBRzo,61
+gopy/search/bsearch.py,sha256=-0DrloXF5khcgV1g9djcCJNVhUoIx_e1HYXD4L-wmJE,491
+gopy/search/lsearch.py,sha256=oGqRdQDFecNhOMUfYTLsQY4bhCF1h2nLgBrBqVGm0Jk,212
+gopy/sorting/__init__.py,sha256=DTgqfAtBKooHvG1nYJme-zhSDc2wCSLU07IQOsTHeLY,37
+gopy/sorting/bubble.py,sha256=TggpkJ_7CwHTWxiiGjiSQWKxK1_soAhTx_QIESAakIY,294
+gopy-0.5.dist-info/LICENSE.txt,sha256=mp1xbUWlO55WUipQO2YXC59CUPyGzllat5-QBq4KULY,1062
+gopy-0.5.dist-info/METADATA,sha256=B_lk4Ivie_r_yaoxGRbyHAnkAt6ODNu4EnGcXfOUA8w,628
+gopy-0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+gopy-0.5.dist-info/top_level.txt,sha256=l0gRwuh41_oZchZ_OWupxCrqGec2XMtWcHosSn3Ehuo,5
+gopy-0.5.dist-info/RECORD,,
