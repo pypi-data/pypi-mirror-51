@@ -1,0 +1,12 @@
+imgix/__init__.py,sha256=ki2P_PWmTrgnhhSIUjxs-doHqZB7tnJd-SOdQb6yfOc,812
+imgix/_version.py,sha256=i2h4A-zBq1z9ZRrc6Kso_mAbm_p1oSJsr_i7cYT9R6o,22
+imgix/compat.py,sha256=Evv3PukWv6b-Da-lMhKMLL8PN2vGtU8t71Bi8djX27E,511
+imgix/constants.py,sha256=mLgfWnDZ2rivQPTnIJ0qoZj7Enoe808b46HFERh-_VM,190
+imgix/urlbuilder.py,sha256=xjLpMiA6uD_2hlQfg9TRQJx9bHfQ8Oq1n0b2S_BCTSM,5671
+imgix/urlhelper.py,sha256=tOGqUYni_VT7sI2atfUKjz8NpnaEfTFXU6DJaevjwJE,4385
+imgix-3.1.0.dist-info/AUTHORS.txt,sha256=LMynZrMK4i4ksr1MRujD465B5qOCnrzli9vUpHeZ4Jg,120
+imgix-3.1.0.dist-info/LICENSE,sha256=jeIB76F12UUxLXnIFWQ3OFm4ePQQwjVKBh53Upxt7s8,1312
+imgix-3.1.0.dist-info/METADATA,sha256=9AhfrpRX4ZgfjJ3Kr1rrELCr0-7_N4MjzgufFgyP1jU,8524
+imgix-3.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+imgix-3.1.0.dist-info/top_level.txt,sha256=W0sP8nBRff8vql_Nm38fcD5gMCEYGijwM5Laqs0GDzY,6
+imgix-3.1.0.dist-info/RECORD,,
