@@ -1,0 +1,119 @@
+{
+  "type": ["object"],
+  "properties": {
+    "Id": {
+      "type": ["string"]
+    },
+    "CampaignId": {
+      "type": ["integer"]
+    },
+    "CampaignName": {
+      "type": ["string"]
+    },
+    "ProfileId": {
+      "type": ["string"]
+    },
+    "IpAddress": {
+      "type": ["string"]
+    },
+    "EventDate": {
+      "type": ["string"],
+      "format": "date-time"
+    },
+    "MediaId": {
+      "type": ["integer"]
+    },
+    "MediaName": {
+      "type": ["string"]
+    },
+    "AdId": {
+      "type": ["integer"]
+    },
+    "AdName": {
+      "type": ["string"]
+    },
+    "AdType": {
+      "type": ["string"]
+    },
+
+    "DealName": {
+      "type": ["string"]
+    },
+    "DealType": {
+      "type": ["string"]
+    },
+    "DealScope": {
+      "type": ["string"]
+    },
+    "ProductSku": {
+      "type": ["string"]
+    },
+    "CustomerArea": {
+      "type": ["string"]
+    },
+    "CustomerCity": {
+      "type": ["string"]
+    },
+    "CustomerRegion": {
+      "type": ["string"]
+    },
+    "CustomerCountry": {
+      "type": ["string"]
+    },
+    "DeviceType": {
+      "type": ["string"]
+    },
+    "DeviceFamily": {
+      "type": ["string"]
+    },
+    "Browser": {
+      "type": ["string"]
+    },
+    "Os": {
+      "type": ["string"]
+    },
+    "ReferringUrl": {
+      "type": ["string"]
+    },
+    "ReferringDomain": {
+      "type": ["string"]
+    },
+    "LandingPageUrl": {
+      "type": ["string"]
+    },
+    "SubId1": {
+      "type": ["string"]
+    },
+    "SubId2": {
+      "type": ["string"]
+    },
+    "SubId3": {
+      "type": ["string"]
+    },
+    "SharedId": {
+      "type": ["string"]
+    },
+    "TrafficCategory": {
+      "type": ["string"]
+    },
+    "TrafficSource": {
+      "type": ["string"]
+    },
+    "BidKeyword": {
+      "type": ["string"]
+    },
+    "SearchText": {
+      "type": ["string"]
+    },
+
+    "CpcBid": {
+      "type": ["number"]
+    },
+    "UniqueClick": {
+      "type": ["boolean"]
+    },
+    "Payout": {
+      "type": ["number", "null"]
+    }
+  }
+}
