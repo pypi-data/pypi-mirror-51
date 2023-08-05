@@ -1,0 +1,3 @@
+[console_scripts]
+semmatch = semmatch.__main__:main
+

@@ -1,0 +1,8 @@
+imageio
+numpy
+opencv-python
+PyQt5
+Pillow
+scikit-image
+scikit-learn
+scipy
