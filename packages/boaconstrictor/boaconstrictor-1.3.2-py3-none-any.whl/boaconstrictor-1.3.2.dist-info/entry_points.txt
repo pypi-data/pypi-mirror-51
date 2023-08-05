@@ -1,0 +1,5 @@
+[console_scripts]
+BoaConstrictor = BoaConstrictor.BoaConstrictor:main
+bc = BoaConstrictor.BoaConstrictor:main
+boaconstrictor = BoaConstrictor.BoaConstrictor:main
+
