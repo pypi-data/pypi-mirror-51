@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: msglite
+Version: 0.24.4
+Summary: Extracts emails and attachments saved in Microsoft Outlook's .msg files
+Home-page: https://github.com/alephdata/msglite
+Author: Originally: Matthew Walker & The Elemental of Creation
+Author-email: UNKNOWN
+License: GPL
+Platform: UNKNOWN
+Requires-Dist: imapclient (>=2.1.0)
+Requires-Dist: olefile (>=0.46)
+Requires-Dist: chardet
+Requires-Dist: pytz
+
+UNKNOWN
+
+
