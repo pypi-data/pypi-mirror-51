@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: skippylib
+Version: 1.5.0
+Summary: Python module and a Tango Device Server to gain control to instruments that support the scpi protocol. Brother project of the scpilib.
+Home-page: https://github.com/srgblnch/skippy
+Author: Sergi Blanch-Torne
+Author-email: sblanch@cells.es
+License: GPLv3+
+Description: 
+        This module has been developed to provide access to instruments that listen 
+        for SCPI protocol connections. It also provides a Tango Device Server.
+        
+        This code is the natural evolution of previous device servers that had provided
+        many functionalities to, with this device, merge them together and make easy
+        to develop many more.
+        
+        See more details in the doc directory of the sources repository.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
