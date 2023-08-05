@@ -1,0 +1,17 @@
+django_kerberos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_kerberos/app_settings.py,sha256=kgucKw4RxaMgKeoxQNMMtaZsh8HkJhKKWg13DmIJRqY,1382
+django_kerberos/backends.py,sha256=0iiWO6KEyJC1r0MFdKIE8msez89fCqPKHXQ1bR7wRGE,5018
+django_kerberos/hashers.py,sha256=maB7XjRK-nDCHiNt90Yxj6KEH4u7bw7UsRDJM2PiVUQ,2182
+django_kerberos/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_kerberos/urls.py,sha256=PxQi_H-kP_qR2K7cY2XVgYdv-FeE05yFMayApwkXfqM,902
+django_kerberos/views.py,sha256=HmeVSFKrHSg4OBBw9OTcRT1Wv4PCUDgkDW9xRdY2syM,6133
+django_kerberos/static/js/autologin.js,sha256=wEXZ-2KxbfKu66smfHT3ViHmmwp_TbFll5QzFyzfBuI,1497
+django_kerberos/templates/django_kerberos/autologin.html,sha256=cUW7PdofohUE5jJPhOBa7_VrxK51iFcMY2AKtbonN3Y,535
+django_kerberos/templates/django_kerberos/base.html,sha256=_XmhND6O4dWjOWHfEh7mmlECcqpSTO1EFOTuGkzTp_A,26
+django_kerberos/templates/django_kerberos/error.html,sha256=5dqkYJ9rMTfiArEYDcc60tayAL_-w_N5nkMa6ozGE18,271
+django_kerberos/templates/django_kerberos/unauthorized.html,sha256=EvdaBhB8vez4zVkZL079pBJ1a54mppfg06BqCvNy57k,131
+django_kerberos-1.4.4.dist-info/COPYING,sha256=JHrHDtYWSG4nIvJUgYg3emTSpLi06eyEp9f6oq6-isU,114
+django_kerberos-1.4.4.dist-info/METADATA,sha256=qQqwBVaA5DEvTtgi--Fo_GbmQbg_rDooFez2N1o8pVA,6000
+django_kerberos-1.4.4.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+django_kerberos-1.4.4.dist-info/top_level.txt,sha256=tqNjMYyZAPqgFizjyix2rFUzewc6PBjnB_24-C3AGl8,16
+django_kerberos-1.4.4.dist-info/RECORD,,
