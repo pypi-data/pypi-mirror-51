@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: rscli
+Version: 2019.1a5
+Summary: Reckonsys CLI toolchain
+Home-page: https://github.com/reckonsys/rscli
+Author: dhilipsiva
+Author-email: dhilipsiva@pm.me
+License: MIT
+Description: CLI Toolchain
+Keywords: rscli reckonsys cli toolchain
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rscli/__init__.py
+rscli/main.py
+rscli/tasks.py
+rscli/utils.py
+rscli/version.py
+rscli.egg-info/PKG-INFO
+rscli.egg-info/SOURCES.txt
+rscli.egg-info/dependency_links.txt
+rscli.egg-info/entry_points.txt
+rscli.egg-info/requires.txt
+rscli.egg-info/top_level.txt
+rscli/data/.infra.json
