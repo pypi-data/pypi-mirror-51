@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: twist
+Version: 0.0.1
+Summary: A network/graph based execution framework
+Home-page: https://github.com/mikemalinowski/twist
+Author: Mike Malinowski
+Author-email: mike@twisted.space
+License: UNKNOWN
+Description: Twist
+        =========
+        
+        Coming soon...
+Keywords: network graph node factory
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
