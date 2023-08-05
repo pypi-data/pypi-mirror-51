@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyeye/__init__.py
+pyeye.egg-info/PKG-INFO
+pyeye.egg-info/SOURCES.txt
+pyeye.egg-info/dependency_links.txt
+pyeye.egg-info/requires.txt
+pyeye.egg-info/top_level.txt
