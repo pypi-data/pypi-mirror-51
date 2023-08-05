@@ -1,0 +1,13 @@
+README.md
+setup.py
+Dedict.egg-info/PKG-INFO
+Dedict.egg-info/SOURCES.txt
+Dedict.egg-info/dependency_links.txt
+Dedict.egg-info/top_level.txt
+dedict/__init__.py
+dedict/interface.py
+dedict/optional_attribute.py
+dedict.egg-info/PKG-INFO
+dedict.egg-info/SOURCES.txt
+dedict.egg-info/dependency_links.txt
+dedict.egg-info/top_level.txt
