@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: aioamqp-beta
+Version: 0.0.1
+Summary: self-aioamqp version
+Home-page: UNKNOWN
+Author: hacfox
+Author-email: zz.hacfox@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.6
