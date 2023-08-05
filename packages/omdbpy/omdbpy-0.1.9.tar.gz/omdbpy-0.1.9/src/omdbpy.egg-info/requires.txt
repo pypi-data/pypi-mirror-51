@@ -1,0 +1,7 @@
+requests
+
+[testing]
+faker
+pytest-cov
+pytest
+tox
