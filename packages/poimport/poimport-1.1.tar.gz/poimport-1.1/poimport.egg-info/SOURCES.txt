@@ -1,0 +1,7 @@
+README.md
+poimport.py
+setup.py
+poimport.egg-info/PKG-INFO
+poimport.egg-info/SOURCES.txt
+poimport.egg-info/dependency_links.txt
+poimport.egg-info/top_level.txt
