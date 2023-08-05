@@ -1,0 +1,6 @@
+Django==1.11.23
+django-mongoengine==0.2.1
+enum34==1.1.6
+djangorestframework==3.9.1
+core-main-app==1.4.0
+core-website-app==1.4.0
