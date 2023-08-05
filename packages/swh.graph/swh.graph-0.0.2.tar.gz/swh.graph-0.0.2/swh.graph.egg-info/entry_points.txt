@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        swh-graph=swh.graph.cli:main
+    
