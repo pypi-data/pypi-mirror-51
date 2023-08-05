@@ -1,0 +1,3 @@
+[console_scripts]
+jmatch = jmatch:main
+
