@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/telemeter-reporter
+telemeter_reporter/__init__.py
+telemeter_reporter/reporter.py
+telemeter_reporter/uhc.py
+telemeter_reporter.egg-info/PKG-INFO
+telemeter_reporter.egg-info/SOURCES.txt
+telemeter_reporter.egg-info/dependency_links.txt
+telemeter_reporter.egg-info/requires.txt
+telemeter_reporter.egg-info/top_level.txt
