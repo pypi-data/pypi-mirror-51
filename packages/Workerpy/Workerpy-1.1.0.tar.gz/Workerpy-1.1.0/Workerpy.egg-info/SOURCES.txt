@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+Workerpy/Manager.py
+Workerpy/NatsBase.py
+Workerpy/RequestAgent.py
+Workerpy/__init__.py
+Workerpy/agent.py
+Workerpy/kafkaBase.py
+Workerpy/loggs.py
+Workerpy/options.py
+Workerpy.egg-info/PKG-INFO
+Workerpy.egg-info/SOURCES.txt
+Workerpy.egg-info/dependency_links.txt
+Workerpy.egg-info/requires.txt
+Workerpy.egg-info/top_level.txt
