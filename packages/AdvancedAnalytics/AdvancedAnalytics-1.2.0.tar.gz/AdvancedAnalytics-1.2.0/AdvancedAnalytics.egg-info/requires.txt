@@ -1,0 +1,9 @@
+scikit-learn
+scikit-image
+statsmodels
+nltk
+pydotplus
+python-graphviz
+wordcloud
+tinysegmenter
+newspaper3k
