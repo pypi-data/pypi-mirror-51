@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: parsejson
+Version: 0.0.2
+Summary: parse json file or strings
+Home-page: http://www.luima.ml
+Author: ludr
+Author-email: ludongran123@163.com
+License: ISC
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
