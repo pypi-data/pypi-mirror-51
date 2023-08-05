@@ -1,0 +1,3 @@
+[console_scripts]
+wdl-lsp = wdl_lsp.__main__:main
+
