@@ -1,0 +1,11 @@
+shrimpy/__init__.py,sha256=DW0tphskqT17TV-fRivf8u1-e6WGCaKNCyxzX1hkolY,83
+shrimpy/allocation.py,sha256=L7eAD7ppPO4IfKhkwUG9-xZbQ2VF2L8W6aZUDO6OyuQ,266
+shrimpy/auth_provider.py,sha256=3biShHPPnrYsHA2-k6t3pdmUmU8w55Txsm5bpgzybdw,1441
+shrimpy/shrimpy_api_client.py,sha256=882CA9Tp5iCYhKZPlAXSHdHdDjV8W3iQR1GU2XGmsZg,12792
+shrimpy/shrimpy_ws_client.py,sha256=3t2T2WlhmNu9bpGwZzpnH4iZWBpwGTA6IuiLlRQTuRw,6950
+shrimpy/strategy.py,sha256=CiOAaylIx1t6iviGHxFWFkqe4Nc1eKZdC1ICUafNoIM,1360
+shrimpy_python-0.0.6.dist-info/LICENSE,sha256=W73tsYt6lANUtf38xxzX5iizNb3pgLmCcIM02s-o1Ts,1089
+shrimpy_python-0.0.6.dist-info/METADATA,sha256=h5NtAXMoJd0iVNAJwFMIIcFYjFekqzGcw8F7S-x_YNI,14526
+shrimpy_python-0.0.6.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+shrimpy_python-0.0.6.dist-info/top_level.txt,sha256=-9I6N5Zlz6niGEpbxTI3cHwYnWjvc1xcMJkXVSD-YrU,8
+shrimpy_python-0.0.6.dist-info/RECORD,,
