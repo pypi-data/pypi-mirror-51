@@ -1,0 +1,3 @@
+[console_scripts]
+hor2vec=hor2vec.__main__:main
+
