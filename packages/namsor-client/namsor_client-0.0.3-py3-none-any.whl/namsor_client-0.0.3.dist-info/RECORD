@@ -1,0 +1,10 @@
+namsorclient/__init__.py,sha256=fYUs_SZWur0h-0pOkwx-YI0HXLYKcPQr6L56FcxU1AU,11274
+namsorclient/country_codes.py,sha256=xFV1H9cxIVDcmQFIf_zHt0kdu0sx4aljDQEJ_fEiJtg,6103
+namsorclient/helpers.py,sha256=8Rb9d-9YUl6lv7nesdZaBvQpMWBHo3YBIu5zm2V4zA0,1006
+namsorclient/models.py,sha256=joE6fhhMThmonFh1gTZ0naBc2LsKh_rsh2GkcprBypU,10117
+namsorclient/request_objects.py,sha256=XG6Xix9NAjsLlWWtTOolm595iKDCllVSgxvf0O-w2e8,1123
+namsor_client-0.0.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+namsor_client-0.0.3.dist-info/METADATA,sha256=ZzcnK7pD7AXlug8XQyG-B_jpVAu3ckwtZbDerrbX0R4,644
+namsor_client-0.0.3.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+namsor_client-0.0.3.dist-info/top_level.txt,sha256=BQMElAtckxAVlwR8IHMA7VuKPPuBuMlVWK4VEps_8WA,13
+namsor_client-0.0.3.dist-info/RECORD,,
