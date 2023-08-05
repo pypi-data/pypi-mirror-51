@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+ardilla
+setup.py
+django_squirrell_materialize/__init__.py
+django_squirrell_materialize.egg-info/PKG-INFO
+django_squirrell_materialize.egg-info/SOURCES.txt
+django_squirrell_materialize.egg-info/dependency_links.txt
+django_squirrell_materialize.egg-info/not-zip-safe
+django_squirrell_materialize.egg-info/top_level.txt
