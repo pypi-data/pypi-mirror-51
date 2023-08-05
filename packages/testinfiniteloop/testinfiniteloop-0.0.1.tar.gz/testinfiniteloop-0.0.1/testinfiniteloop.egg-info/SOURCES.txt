@@ -1,0 +1,6 @@
+setup.py
+testinfiniteloop.egg-info/PKG-INFO
+testinfiniteloop.egg-info/SOURCES.txt
+testinfiniteloop.egg-info/dependency_links.txt
+testinfiniteloop.egg-info/top_level.txt
+whl0/__init__.py
