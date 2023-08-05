@@ -1,0 +1,20 @@
+{
+  "num_cores": 1,
+  "path": {
+    "rel": true,
+    "path": "~/git/platform/applications"
+  },
+  "container": {
+    "name": "webpack",
+    "ports": {
+      "3000": 3000
+    },
+    "volumes": {
+      "service": {
+        "rel": true,
+        "path": "~/git/platform/webplatform-frontend"
+      }
+    },
+    "mem_limit": "1g"
+  }
+}

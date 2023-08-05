@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "container": {
+    "name": "nginx",
+    "ports": {
+      "8000": 8000
+    },
+    "mem_limit": "1g"
+  }
+}

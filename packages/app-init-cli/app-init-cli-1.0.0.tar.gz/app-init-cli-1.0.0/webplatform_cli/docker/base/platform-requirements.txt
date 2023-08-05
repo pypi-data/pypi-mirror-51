@@ -1,0 +1,3 @@
+webplatform-auth==1.0.3
+webplatform-backend==1.0.5
+webplatform-cli==1.2.1
