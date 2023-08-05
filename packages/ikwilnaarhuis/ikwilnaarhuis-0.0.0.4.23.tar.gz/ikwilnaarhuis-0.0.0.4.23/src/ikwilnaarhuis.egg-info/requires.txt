@@ -1,0 +1,8 @@
+pyinsults
+colorama
+termcolor
+pyfiglet
+
+[testing]
+pytest>=4.2.1
+pytest-cov
