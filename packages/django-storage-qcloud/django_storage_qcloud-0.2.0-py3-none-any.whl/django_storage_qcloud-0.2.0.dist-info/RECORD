@@ -1,0 +1,9 @@
+django_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_storage/qcloud.py,sha256=n4BpyBXCQ1hK9bsQn0FrQdEHo550qFJ2o2oN0d0ue4k,2478
+django_storage_qcloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_storage_qcloud/storage.py,sha256=wGVsR2B3IV2pu1WF-IRKnNmzg2dCoSmMJ7wHYagfWfs,2479
+django_storage_qcloud-0.2.0.dist-info/LICENSE,sha256=w6cyYRNlE5_cthM-B4N6Q2IZ3z6jVR-uFRmfzEH1Bxw,1065
+django_storage_qcloud-0.2.0.dist-info/METADATA,sha256=_IbLSQp9cl-HifBaLYqAnMEFzRBYo42CUoYyiRZke3I,1941
+django_storage_qcloud-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_storage_qcloud-0.2.0.dist-info/top_level.txt,sha256=WBQ8-Gt1qMUnJW2ef8sHNGrG014ar_H3gwBjoJg2Uyc,22
+django_storage_qcloud-0.2.0.dist-info/RECORD,,
