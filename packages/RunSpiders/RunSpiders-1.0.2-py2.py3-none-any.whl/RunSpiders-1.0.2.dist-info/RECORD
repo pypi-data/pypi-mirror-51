@@ -1,0 +1,17 @@
+RunSpiders/__init__.py,sha256=pVQZR1bxhnCKbaF4dY2qc_3TOx_M-tpdih6p6apTIJc,413
+RunSpiders/utils.py,sha256=ePSpAuq7iP1yELpmJrXZOI8L4OvxLibcR-ENz4HM7QU,2154
+RunSpiders/book/__init__.py,sha256=p3LDo7bOXGeB0SGIz1n-yvj0RewRtYrAjIHHpKUIp38,131
+RunSpiders/book/web_fiction.py,sha256=6SoV8ce99Hs8xQGySq43IlcItTbTZYtcKqfMf5qf20I,16637
+RunSpiders/music/__init__.py,sha256=B6VXu87xOD3XHqQlm-VX4PA8pRijvNHeJ2-rNC13GUc,208
+RunSpiders/templates/__init__.py,sha256=Ri75saFsnSq7X92Aw3SiicxcCRxfNiPQK9A945AwcvY,128
+RunSpiders/templates/template1.recipe,sha256=myIMR6wwNC9I-mPvl9ofEJPpa8yJMnsNd3pYzzg8qsQ,813
+RunSpiders/templates/template2.recipe,sha256=7Pia40_QoXOp1GE9iCXKv07HtfC8qXsYnjsk1XcYZcE,1130
+RunSpiders/video/__init__.py,sha256=4JNoWrKTIVCEvr6TuNoHXwJge3tiQdgz39WASc9EMB0,129
+RunSpiders/video/jav.py,sha256=RO_Ic2AG2pPQKBfHc6-JDkmCGksSU68U8QSq3M8B5DM,2396
+RunSpiders/video/m3u8.py,sha256=4ESB2OTszV-9czpoHmdSh4oHW8AIFTJgMjPDzZcagfo,9427
+RunSpiders-1.0.2.dist-info/DESCRIPTION.rst,sha256=okar8wUR2RMgIYrJby2aqWUF5ZyD3p_UFICLN1IJhK0,930
+RunSpiders-1.0.2.dist-info/METADATA,sha256=jfeHNVzDuMMMKjfxcIMTbVgqmUSl89Rd_lB95JlyIUY,1897
+RunSpiders-1.0.2.dist-info/RECORD,,
+RunSpiders-1.0.2.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+RunSpiders-1.0.2.dist-info/metadata.json,sha256=EGKfEZiMwcSI0OYw-mzYZV1b-De3AzB0eZoi_yfdjWk,1041
+RunSpiders-1.0.2.dist-info/top_level.txt,sha256=NrftFYgTS6PLHUa8GEKMfE7NmbWtMwu1amZmmh_4IV8,11
