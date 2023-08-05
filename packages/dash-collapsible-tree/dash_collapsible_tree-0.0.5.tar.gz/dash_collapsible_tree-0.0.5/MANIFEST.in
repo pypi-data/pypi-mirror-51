@@ -1,0 +1,7 @@
+include dash_collapsible_tree/dash_collapsible_tree.min.js
+include dash_collapsible_tree/dash_collapsible_tree.min.js.map
+include dash_collapsible_tree/metadata.json
+include dash_collapsible_tree/package-info.json
+include README.md
+include LICENSE
+include package.json
