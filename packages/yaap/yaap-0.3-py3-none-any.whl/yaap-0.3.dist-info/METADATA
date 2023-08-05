@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yaap
+Version: 0.3
+Summary: Yet another argument parser (Yaap)
+Home-page: https://github.com/kaniblu/yaap
+Author: Kang Min Yoo
+Author-email: kaniblurous@gmail.com
+License: UNKNOWN
+Keywords: argument parser config file
+Platform: UNKNOWN
+Requires-Dist: pyyaml
+Requires-Dist: jsonschema
+
+UNKNOWN
+
+
