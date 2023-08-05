@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dmd
+Version: 0.2.1
+Summary: Basic tools to transform gmbinder-style markdown to gmbinder-style html
+Home-page: https://gitlab.com/ivarkrabol/dmd
+Author: Ivar H. Kråbøl
+Author-email: dev@ivar.hk
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
