@@ -1,0 +1,48 @@
+Metadata-Version: 1.1
+Name: pbtools
+Version: 0.1.0
+Summary: Google protocol buffers tools.
+Home-page: https://github.com/eerimoq/pbtools
+Author: Erik Moqvist
+Author-email: erik.moqvist@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: About
+        =====
+        
+        Google protocol buffers tools in Python 3.
+        
+        - `C` source code generator.
+        
+        Project homepage: https://github.com/eerimoq/pbtools
+        
+        Documentation: http://pbtools.readthedocs.org/en/latest
+        
+        Installation
+        ============
+        
+        .. code-block:: python
+        
+            pip install pbtools
+        
+        Example usage
+        =============
+        
+        Command line tool
+        -----------------
+        
+        The generate C source subcommand
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        
+        Below is an example of how to generate C source code from a
+        proto-file.
+        
+        .. code-block:: text
+        
+           $ pbtools generate_c_source examples/address_book/address_book.proto
+           Successfully generated address_book.h and address_book.c.
+        
+Keywords: protobuf,proto,protocol buffers
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
