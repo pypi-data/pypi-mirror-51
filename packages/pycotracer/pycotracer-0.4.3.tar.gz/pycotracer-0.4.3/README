@@ -1,0 +1,25 @@
+Although Colorado enjoys excellent campaign finanance reporting regulation, the state publishes that data through single file archives containing CSV reports. The Colorado Secretary of State Elections Divison posts reports (contribution, expenditure, and loan data) through the Colorado Transparency in Contribution and Expenditure Reporting system. This micro-library provides programmatic access to that data source through automated URL generation, file download, archive extraction, and data interpretation.
+
+This is an un-official library for retrieving campaign finance data and is not supported or endorsed by the State of Colorado.
+
+IT IS NO LONGER SUPPORTED AND IS NOT RECOMMENDED FOR FUTURE USE. NOT PYTHON 3 COMPAT.
+
+>>> import pycotracer
+>>>
+>>> # Report types: REPORT_LOAN_DATA, REPORT_CONTRIB_DATA, REPORT_EXPEND_DATA
+>>> all_2013_reports = pycotracer.get_report(2013)
+>>> loan_data_2012 = pycotracer.get_report(2012, pycotracer.REPORT_LOAN_DATA)
+>>>
+>>>
+>>> all_2013_reports.keys()
+['ExpenditureData', 'LoanData', 'ContributionData']
+>>> len(all_2013_reports['ExpenditureData'])
+8513
+>>> all_2013_reports['ExpenditureData'][0].keys()
+['City', 'FirstName', 'LastName', 'ExpenditureAmount', 'Electioneering', ...]
+>>>
+>>>
+>>> len(loan_data_2012)
+470
+>>> loan_data_2012[0].keys()
+['City', 'Zip', 'CommitteeType', 'State', 'Type', 'Amended', ...]
