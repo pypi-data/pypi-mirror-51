@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: edgarapi
+Version: 0.1.0
+Summary: Download filings from SEC's Edgar using Python
+Home-page: https://github.com/whoopnip/py-edgar-api/
+Author: Nick DeRobertis
+Author-email: whoopnip@gmail.com
+License: MIT
+Project-URL: Code, https://github.com/whoopnip/py-edgar-api/
+Project-URL: Documentation, https://whoopnip.github.io/py-edgar-api/
+Description: 
+        Download filings from SEC's Edgar using Python
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

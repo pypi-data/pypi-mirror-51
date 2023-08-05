@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+conf.py
+setup.py
+version.py
+edgarapi/__init__.py
+edgarapi/edgar.py
+edgarapi.egg-info/PKG-INFO
+edgarapi.egg-info/SOURCES.txt
+edgarapi.egg-info/dependency_links.txt
+edgarapi.egg-info/requires.txt
+edgarapi.egg-info/top_level.txt
