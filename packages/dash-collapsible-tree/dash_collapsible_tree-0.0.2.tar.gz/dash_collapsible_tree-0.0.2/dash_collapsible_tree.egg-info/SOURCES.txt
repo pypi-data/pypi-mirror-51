@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_collapsible_tree/DashCollapsibleTree.py
+dash_collapsible_tree/__init__.py
+dash_collapsible_tree/_imports_.py
+dash_collapsible_tree/dash_collapsible_tree.min.js
+dash_collapsible_tree/dash_collapsible_tree.min.js.map
+dash_collapsible_tree/metadata.json
+dash_collapsible_tree/package-info.json
+dash_collapsible_tree.egg-info/PKG-INFO
+dash_collapsible_tree.egg-info/SOURCES.txt
+dash_collapsible_tree.egg-info/dependency_links.txt
+dash_collapsible_tree.egg-info/top_level.txt
