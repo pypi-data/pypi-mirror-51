@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+readme.md
+setup.py
+django_chart_compare/__init__.py
+django_chart_compare/charters.py
+django_chart_compare.egg-info/PKG-INFO
+django_chart_compare.egg-info/SOURCES.txt
+django_chart_compare.egg-info/dependency_links.txt
+django_chart_compare.egg-info/requires.txt
+django_chart_compare.egg-info/top_level.txt
