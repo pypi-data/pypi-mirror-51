@@ -1,0 +1,8 @@
+six>=1.9
+dataflows>=0.0.57
+
+[develop]
+pylama
+pytest
+mock
+tox
