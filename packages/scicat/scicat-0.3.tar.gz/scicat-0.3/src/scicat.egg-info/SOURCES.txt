@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/scicat.egg-info/PKG-INFO
+src/scicat.egg-info/SOURCES.txt
+src/scicat.egg-info/dependency_links.txt
+src/scicat.egg-info/requires.txt
+src/scicat.egg-info/top_level.txt
