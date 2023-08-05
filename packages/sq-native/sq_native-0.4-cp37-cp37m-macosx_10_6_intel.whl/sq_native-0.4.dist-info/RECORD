@@ -1,0 +1,10 @@
+sq_native/__about__.py,sha256=cv8U-L_ewBvHo24kdMzHqcM3GjXJZl6eLPLjdqjp5yc,412
+sq_native/__init__.py,sha256=aQr5pSkWXZ_hiv2GdnvVMwjvpfeWwkMu1TiuVqt6mGk,1575
+sq_native/_compat.py,sha256=P_05j_UjTSKez8jQqkMzm3Wd_Z_cOnsC3LdWrO8473A,488
+sq_native/input.py,sha256=mtIYkgpBHt61yN3nndbI4K3YgjdRMSKZV5GpLnh1ETA,4897
+sq_native/libSqreen.dylib,sha256=V9OIbzoDnxJq9qVZamduRodlew_ApiTPCrx1seXiuMw,1189704
+sq_native/waf.py,sha256=agNXt9T_K94bjIT1-xaf5AUlMVpaHd4cC_Ahc9YR4Fg,3499
+sq_native-0.4.dist-info/METADATA,sha256=Uv_LK2txgmqJiZEWMRU8tdZigyre9fXP8VQZsIkfFtI,706
+sq_native-0.4.dist-info/WHEEL,sha256=ZAPg4sh1IYHKqp2FoarXKab2VRxd7s7md0doFSVDALY,109
+sq_native-0.4.dist-info/top_level.txt,sha256=x5hD0k8hrIRW2jTMZYilCmEyUQqawx8Z4-6vcD8X6lM,10
+sq_native-0.4.dist-info/RECORD,,
