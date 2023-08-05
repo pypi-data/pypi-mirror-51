@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+medium/__init__.py
+python_medium.egg-info/PKG-INFO
+python_medium.egg-info/SOURCES.txt
+python_medium.egg-info/dependency_links.txt
+python_medium.egg-info/requires.txt
+python_medium.egg-info/top_level.txt

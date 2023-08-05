@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: python-medium
+Version: 1.0.2
+Summary: Python Medium API client
+Home-page: https://github.com/Porter97/Python-Medium
+Author: Spencer Porter
+Author-email: spencer.porter3@gmail.com
+License: http://www.apache.org/licenses/LICENSE-2.0
+Download-URL: https://github.com/Medium/medium-sdk-python/tarball/v0.3.0
+Description: UNKNOWN
+Keywords: medium,sdk,oauth,api
+Platform: UNKNOWN
