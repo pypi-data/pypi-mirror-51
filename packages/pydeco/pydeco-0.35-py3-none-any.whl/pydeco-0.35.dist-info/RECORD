@@ -1,0 +1,10 @@
+pydeco/__init__.py,sha256=-l_50sYEySWqnD9ktNpNDXxSfX8yhoc6gNf7Ozh7aPk,347
+pydeco/decorator.py,sha256=BRNtoAbXPiJO52CmEi5gYP6-yYvBSSGVCbg49vgVoV8,13154
+pydeco/utils/__init__.py,sha256=Eo9e3rGa-wj3kI8vyu6YLKR6Y0Up6CGFyaMOQf8VNDU,82
+pydeco/utils/misc.py,sha256=l_kPqHxJ9u-hW9kMurOprju3AH61XYWM8WgsSf1MuNA,899
+pydeco/utils/register.py,sha256=UpAeovHzafTxqe1oKLma1o1khk09eJroOIjitAOcNj4,1990
+pydeco-0.35.dist-info/LICENSE,sha256=qTqkhdNPnKmDcQ1vlcraLSI7yiX3xlPBnmHO0zlalkM,1070
+pydeco-0.35.dist-info/METADATA,sha256=RtxPB8TLMUWRqv7Xi7OipJzTjtf1JZEXOTD8kI6xDPU,2951
+pydeco-0.35.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pydeco-0.35.dist-info/top_level.txt,sha256=pAxtrlwJMPVI5Y6byihCmHQaT6W9tXMltKGoXo85Lzs,7
+pydeco-0.35.dist-info/RECORD,,
