@@ -1,0 +1,3 @@
+[console_scripts]
+lendable_parse_tool = landable_parse_tool:tool
+
