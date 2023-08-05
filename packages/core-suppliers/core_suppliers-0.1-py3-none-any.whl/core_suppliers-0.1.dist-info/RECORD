@@ -1,0 +1,14 @@
+suppliers/__init__.py,sha256=wF0O7R7UiceZKevD9Kdby0_PaYb3EzK_8WpI-l1piIc,39
+suppliers/apps/__init__.py,sha256=X2X4CZw1YdnCuadkiXDDFdkbEJzZbqs8xklcY06-FTs,89
+suppliers/apps/category_app.py,sha256=VGEMRezwHxdhpIDMKfr7SUow1pKrScUrh6mx8Ts3Idc,796
+suppliers/apps/supplier_list.py,sha256=QbcuU73SFxQN1eX_2Q5PgIy541zGmlBxn4Ty3IfJ2d8,2837
+suppliers/migrations/0001_initial.py,sha256=TAf-HQhapKY92XnWmll8OF_YWB_rJvZuBRJbgpSl9pM,3019
+suppliers/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suppliers/models/__init__.py,sha256=U3IekLraPashKMfCamOXRrl0lz3kcnKGPgcjFHoXGAo,94
+suppliers/models/category.py,sha256=CtcrvJDk_F6ZrC42gCUTdhPBcD83QTSoAqufL91tGig,437
+suppliers/models/history.py,sha256=vBmosUc8BCfydqtl89Ywm0goXi3-wt-X1Frw2w7WQq4,599
+suppliers/models/supplier.py,sha256=EbNNpl4oAB_f331VMStuFDr7TSJYUwUaT29_7Vn6xlQ,1790
+core_suppliers-0.1.dist-info/METADATA,sha256=kxyoJte3H8cuxhYUHS8UxHD7nPZsHTARs9xS6UYlqMU,1113
+core_suppliers-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+core_suppliers-0.1.dist-info/top_level.txt,sha256=uF5ecP5_ABwp88FFZCwRYT8kvJkiplIMHrmB4QhFD80,10
+core_suppliers-0.1.dist-info/RECORD,,
