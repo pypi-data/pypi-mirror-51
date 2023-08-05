@@ -1,0 +1,10 @@
+{% from 'macros.jinja2' import naturalclassifications, evidence_for,
+                               probability %}
+{% filter rewrap %}
+{% if classifications|length > 0 %}
+The {% if subject == 'Update' %}updated parameter estimation based {% endif %}classification of the GW signal, in order of descending probability,
+is {{naturalclassifications(classifications)}}.
+{% else %}
+{% endif %}
+
+{% endfilter %}
