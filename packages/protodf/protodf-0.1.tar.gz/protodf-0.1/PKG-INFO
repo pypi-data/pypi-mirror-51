@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: protodf
+Version: 0.1
+Summary: A package which lets you run PySpark SQL on your Protobuf data
+Home-page: https://github.com/aroch/protobuf-dataframe
+Author: Rafi Aroch
+Author-email: rafi@aroch.com
+License: MIT
+Download-URL: https://github.com/aroch/protobuf-dataframe/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: pyspark,dataframe,protobuf,spark-sql
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
