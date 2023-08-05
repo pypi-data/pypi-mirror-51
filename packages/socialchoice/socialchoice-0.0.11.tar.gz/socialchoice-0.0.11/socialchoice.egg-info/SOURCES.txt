@@ -1,0 +1,7 @@
+README.md
+setup.py
+socialchoice.egg-info/PKG-INFO
+socialchoice.egg-info/SOURCES.txt
+socialchoice.egg-info/dependency_links.txt
+socialchoice.egg-info/requires.txt
+socialchoice.egg-info/top_level.txt
