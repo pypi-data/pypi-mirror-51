@@ -1,0 +1,3 @@
+[console_scripts]
+yams = yams.__main__:main
+
