@@ -1,0 +1,10 @@
+.dj-config.json,sha256=81imeIWUtgY7_MKoq17SvzxeKd-PMR-0o6rttW9wOQo,589
+dj/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+dj/__main__.py,sha256=ISTcYIw8n3w0s46amqegvkpycoi8wXQ3ldDTjxN-AcY,4848
+dj/objects.py,sha256=EmkXC1wlbKprTZPq5Ce6owVJIy45Ay9lIi3_ZJTRiC0,548
+dj/process_runner.py,sha256=uFF7HpOucj2P4Qn-ULfzdkZwmKBccZ1cOiGebBL-jFI,3789
+dj_command-0.4.0.dist-info/entry_points.txt,sha256=KvUew1q-XXaMdDb93kck0GPh80KYnUADI1ks57l17XI,38
+dj_command-0.4.0.dist-info/LICENSE,sha256=6v78DBy4B9RM7zhibXpz84wo5353MeVK2BRNBdyXMRE,1066
+dj_command-0.4.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+dj_command-0.4.0.dist-info/METADATA,sha256=8ItuIAI016NnoXPjEXt4Tl00s7g2e1m8mlWnVTeejEo,3915
+dj_command-0.4.0.dist-info/RECORD,,
