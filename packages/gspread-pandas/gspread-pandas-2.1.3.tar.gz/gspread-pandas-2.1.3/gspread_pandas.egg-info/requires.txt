@@ -1,0 +1,30 @@
+gspread>=3.0.0
+pandas>=0.20.0
+decorator
+future
+google-auth
+google-auth-oauthlib
+
+[:python_version == "2.7"]
+pathlib2
+
+[dev]
+pip
+sphinx
+sphinx_rtd_theme
+coverage
+twine
+bump2version
+tox
+flake8
+pytest
+pre-commit
+isort
+pycrypto
+betamax
+betamax_serializers
+pytest_mock
+oauth2client
+
+[dev:python_version >= "3.6"]
+black
