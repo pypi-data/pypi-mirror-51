@@ -1,0 +1,3 @@
+[console_scripts]
+celery-graphite = celery_graphite.__main__:main
+
