@@ -1,0 +1,7 @@
+icalendar<5.0.0,>=4.0.1
+typing<4.0.0,>=3.7.0
+unicodecsv<0.15.0,>=0.14.1
+
+[dev]
+
+[test]
