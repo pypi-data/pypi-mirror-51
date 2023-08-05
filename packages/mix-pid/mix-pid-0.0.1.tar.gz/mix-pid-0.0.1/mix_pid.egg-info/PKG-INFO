@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: mix-pid
+Version: 0.0.1
+Summary: 锅炉压力的PID控制算法
+Home-page: https://github.com/xiangyangkan/pid
+Author: xiangyangkan
+Author-email: xiangyangkan@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.3
