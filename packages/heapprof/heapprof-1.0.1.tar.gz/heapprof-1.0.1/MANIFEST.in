@@ -1,0 +1,2 @@
+include README.md
+recursive-include _heapprof *.h *.cc
