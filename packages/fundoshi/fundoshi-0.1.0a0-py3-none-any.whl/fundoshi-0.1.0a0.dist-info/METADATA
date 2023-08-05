@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fundoshi
+Version: 0.1.0a0
+Summary: Extract data from manga sites
+License: MIT
+Author: nhanb
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: attrs (>=19.1,<20.0)
+Requires-Dist: beautifulsoup4 (>=4.8,<5.0)
+Requires-Dist: lxml (>=4.4,<5.0)
+Requires-Dist: requests (>=2.22,<3.0)

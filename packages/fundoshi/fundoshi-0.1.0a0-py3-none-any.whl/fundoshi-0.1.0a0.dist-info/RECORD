@@ -1,0 +1,16 @@
+fundoshi/__init__.py,sha256=E3oR-S50pMzvhH4MKFzeWPQg1qdrEzZk4y6SNzL5nUw,38
+fundoshi/api.py,sha256=puq068BWY464A0TZrlsgrPU8PBzbmiFgTi3c3gUUPGc,461
+fundoshi/classes.py,sha256=GEdAwWhErkmj-ZRUB5DteUnOhTlfBVXXQpA_8vtdoKA,465
+fundoshi/exceptions.py,sha256=sxMdvdPGUU_NL_SAw217ZpoEEpl6ca21dCMcmmjTZoU,48
+fundoshi/sites/__init__.py,sha256=QHUQexI-RSEV60l3ETNArJo93_rjpMLYW5-JwDgV93U,361
+fundoshi/sites/mangadex.py,sha256=XXBiWGzzCr7AIG_dYcqUbCKzP7hT8YLhdo-dRFsb7oU,4893
+fundoshi/sites/mangapanda.py,sha256=bzMUOkTwe5XzH3c4bVR3OJRWEo8upU847u9IXOKJDAI,6983
+fundoshi/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fundoshi/tests/cassettes/MangadexTestCase.test_scrape_chapter.yaml,sha256=OsVBrxVMiFzbA54a-ZY2LH9AtCQBIUWxf1JVo78347I,1935
+fundoshi/tests/cassettes/MangadexTestCase.test_scrape_title.yaml,sha256=OTdGe80A3LORA8dCv2S1ywiTOlKIEeSyjUBMS_3qj7k,196712
+fundoshi/tests/common.py,sha256=ypXEl0s5ws_wZ32YIVAL-3I-xD1dP5TpBO9BduDelQI,1719
+fundoshi/tests/test_mangadex.py,sha256=-hLivfTzRNqeIwRCDGOnpP1psW5d1V8rgDbiJRCAivA,7753
+fundoshi-0.1.0a0.dist-info/LICENSE,sha256=DCWS7zWcTVjGzKGjAXgbK2HDX_V_iTCsaV3uUyDEBwU,1084
+fundoshi-0.1.0a0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+fundoshi-0.1.0a0.dist-info/METADATA,sha256=gTtmd2aFFF4pRgh5o5J6fJimhnhsBTfvgfT5xs7PHVA,447
+fundoshi-0.1.0a0.dist-info/RECORD,,
