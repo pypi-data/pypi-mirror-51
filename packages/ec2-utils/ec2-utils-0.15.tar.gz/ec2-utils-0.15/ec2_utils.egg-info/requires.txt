@@ -1,0 +1,9 @@
+argcomplete
+awscli
+future
+python-dateutil
+requests
+retry
+termcolor
+threadlocal-aws==0.6
+win-inet-pton
