@@ -1,0 +1,12 @@
+README.md
+setup.py
+flexible_neural_network/ActivationFunctions.py
+flexible_neural_network/HiddenNode.py
+flexible_neural_network/InputNode.py
+flexible_neural_network/NeuralNet.py
+flexible_neural_network/OutputNode.py
+flexible_neural_network/__init__.py
+flexible_neural_network.egg-info/PKG-INFO
+flexible_neural_network.egg-info/SOURCES.txt
+flexible_neural_network.egg-info/dependency_links.txt
+flexible_neural_network.egg-info/top_level.txt
