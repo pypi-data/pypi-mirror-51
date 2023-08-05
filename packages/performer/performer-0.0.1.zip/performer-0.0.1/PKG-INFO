@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: performer
+Version: 0.0.1
+Summary: Lightweight benchmarking decorator.
+Home-page: https://github.com/KeisukeToyota/performer
+Author: KeisukeToyota
+Author-email: hm.pudding0715@gmail.com
+Maintainer: KeisukeToyota
+Maintainer-email: hm.pudding0715@gmail.com
+License: MIT
+Description: # performer
+        
+        Lightweight benchmarking decorator.
+        
+        ## Installation
+        ```
+        $ pip3 install performer
+        ```
+        
+        ## Usage
+        
+        All benchmark results are output after the program ends.  
+        The benchmark decorator does not affect the function output.
+        
+        ```python
+        from performer import benchmark
+        
+        @benchmark(1000)
+        def sum_range(n):
+            return sum(range(n))
+        
+        @benchmark(100)
+        def hello():
+            return "Hello"
+        
+        print(sum_range(100))
+        print(hello())
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
