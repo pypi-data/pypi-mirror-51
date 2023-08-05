@@ -1,0 +1,8 @@
+requests
+coincurve>=7.0.0
+pycryptodome<4,>=3.5.1
+py_ecc
+websockets>=4.0.0
+aiohttp>=2.3.0
+shortid>=0.1.2
+rlp>=0.6
