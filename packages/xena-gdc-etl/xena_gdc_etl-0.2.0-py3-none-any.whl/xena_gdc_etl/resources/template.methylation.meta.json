@@ -1,0 +1,18 @@
+{"cohort":"{{ xena_cohort }}",
+ "min":0.00000,
+ "url":"{% if gdc_release %}{{ gdc_release }}, {% endif %}https://api.gdc.cancer.gov/data/",
+ "dataSubType":"DNA methylation",
+ ":probeMap":"illuminaMethyl{{ platform_num }}_hg38_GDC",
+ "dataProducer":"Genomic Data Commons",
+ "label":"Illumina Human Methylation {{ platform_num }}",
+ "max":1.00000,
+ "wrangling_procedure":
+ "Beta_value from the same sample but from different vials/portions/analytes/aliquotes is averaged; beta_value from different samples is combined into genomicMatrix.",
+ "PLATFORM":"Illumina Human Methylation {{ platform_num }}",
+ "type":"genomicMatrix",
+ "wrangler":"Xena GDC ETL script",
+ "version":"{{ date }}",
+ "unit":"beta value"{% if notes %},
+ "notes":"{{ notes }}"{% endif %},
+ "description": "More information on the GDC pipeline used to generate this data: https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Methylation_LO_Pipeline/"
+}
