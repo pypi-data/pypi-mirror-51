@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: HootiePy
+Version: 0.0.1
+Summary: A python wrapper for the Hootsuite REST API
+Home-page: UNKNOWN
+Author: Spencer Porter
+Author-email: spencer.porter3@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: hootsuite,sdk,oauth,api
+Platform: UNKNOWN

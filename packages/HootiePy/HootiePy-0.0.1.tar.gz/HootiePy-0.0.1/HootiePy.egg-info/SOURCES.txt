@@ -1,0 +1,8 @@
+README.md
+setup.py
+HootiePy.egg-info/PKG-INFO
+HootiePy.egg-info/SOURCES.txt
+HootiePy.egg-info/dependency_links.txt
+HootiePy.egg-info/requires.txt
+HootiePy.egg-info/top_level.txt
+hootiepy/__init__.py
