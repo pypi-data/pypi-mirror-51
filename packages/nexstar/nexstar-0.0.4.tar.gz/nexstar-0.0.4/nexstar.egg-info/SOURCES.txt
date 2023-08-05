@@ -1,0 +1,8 @@
+README.md
+setup.py
+nexstar/__init__.py
+nexstar.egg-info/PKG-INFO
+nexstar.egg-info/SOURCES.txt
+nexstar.egg-info/dependency_links.txt
+nexstar.egg-info/requires.txt
+nexstar.egg-info/top_level.txt
