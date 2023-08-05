@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: dual-pairs
+Version: 0.1
+Summary: SageMath package for computing with dual pairs of algebras
+Home-page: http://gitlab.com/pbruin/dual_pairs
+Author: Peter Bruin
+Author-email: P.J.Bruin@math.leidenuniv.nl
+License: UNKNOWN
+Description: dual_pairs
+        ==========
+        
+        A Sage package for computing with dual pairs of algebras.
+        
+        
+        Author
+        ------
+        
+        Peter Bruin, <P.J.Bruin@math.leidenuniv.nl>
+        
+        
+        Prerequisites
+        -------------
+        
+        - SageMath, <http://www.sagemath.org/>.  This package has been tested
+          with SageMath 8.8; it may also work with older or newer versions.
+        
+        
+        Installation
+        ------------
+        
+            $ sage --pip install dual_pairs
+        
+        Documentation
+        -------------
+        
+        Currently, all documentation for this module is contained in the
+        source files.
+        
+        TODO
+        ----
+        
+        - Better documentation
+        
+        - More functionality for torsors
+        
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
