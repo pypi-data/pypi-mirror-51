@@ -1,0 +1,10 @@
+qcrit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qcrit/analyze_models.py,sha256=UnB_umTMDIxZ96FoaSxsGX5nx2o3_Z__HGypKrsWGik,4340
+qcrit/color.py,sha256=aqdLNEqrXDeN7FE98U6PNBg9n2qMr2tWRClhPA3HhxQ,360
+qcrit/extract_features.py,sha256=_FDJmHbw224wFmoLZ0z07rrwEXUpUegpY1shCakno1E,6271
+qcrit/model_analyzer.py,sha256=lpc_V-neIQ650imm29uxa-glHcr39cnht5ckmOU-G10,436
+qcrit/textual_feature.py,sha256=1UvCmnZGmIeRRsphfse3c9GbwyrhUqao8SizGdGgWo4,5717
+qcrit-0.0.12.dist-info/METADATA,sha256=RdQLHSWsoBp_8Lhf2pmLyyMw9mVH-J_-Pvu7rUSJyCA,8416
+qcrit-0.0.12.dist-info/RECORD,,
+qcrit-0.0.12.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+qcrit-0.0.12.dist-info/top_level.txt,sha256=p1xxAi6YMvdfyxsMOcCW5DJ6vih93tKxZVxcHl3pfqI,6
