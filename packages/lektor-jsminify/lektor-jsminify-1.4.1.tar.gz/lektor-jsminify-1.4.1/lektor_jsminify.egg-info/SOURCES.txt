@@ -1,0 +1,9 @@
+README.md
+lektor_jsminify.py
+setup.py
+lektor_jsminify.egg-info/PKG-INFO
+lektor_jsminify.egg-info/SOURCES.txt
+lektor_jsminify.egg-info/dependency_links.txt
+lektor_jsminify.egg-info/entry_points.txt
+lektor_jsminify.egg-info/requires.txt
+lektor_jsminify.egg-info/top_level.txt

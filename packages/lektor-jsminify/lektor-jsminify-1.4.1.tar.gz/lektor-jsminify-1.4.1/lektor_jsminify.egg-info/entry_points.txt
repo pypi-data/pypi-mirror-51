@@ -1,0 +1,3 @@
+[lektor.plugins]
+jsminify = lektor_jsminify:JsminifyPlugin
+
