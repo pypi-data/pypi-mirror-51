@@ -1,0 +1,109 @@
+CHANGES
+=======
+
+* Fixed problem with automatic fitting!
+* Working on fixing automatic fit
+* minor edits
+* CCorrected notebook code raising Zero Division errors
+* Major rewrite of demo notebook
+* Re-ordered notebook; curve\_fit not working yet
+* Fixed the plot\_scenario visualization
+* Cells all running, problem with fitting routine
+* Added calibration run
+* .travis update to address twine install problems
+* Fixed references to functions
+* updating DetectorDemo Notebook
+* Update README.md
+* Update setup.cfg
+* Update setup.cfg
+* Revised licence
+* Eliminate MarchMtgTalk and edit/rename of QuadCellDetectior
+* clarifying comment
+* added Kallee's figure into DetectorDemo notebook
+* removed unneeded notebooks
+* Travis update
+* made detector\_test better so Ben is happy!
+* Updated travis deploy to PyPi
+* Added deploy keys for PyPi
+* deleted this unneeded notebook
+* Updated requirements
+* finished first pass of signal\_over\_time test
+* Switched to PBR versioning
+* eliminated unneeded comment in signal\_over\_time
+* Edit of comments
+* Fleshed out function call
+* Final Centered Beam Test Notebook
+* Hopefully recovered notebook file
+* Removed un-needed file
+* Fixed this notebook
+* Documentation run
+* Fixed unit tests
+* beginning stage of testing
+* First commit of signal\_over\_time test notebook
+* Edit of signal\_over\_time function
+* fixed m.abs -> m.fabs in test\_laser
+* Further edits to test\_laser
+* Removed now unneeded print statement
+* removed extra end parenthesis
+* Finalizing test\_laser
+* Changed test to go to 0.99 of max gap
+* fixed indentation error
+* Create pull\_request\_template.md
+* Incremental changes
+* Improved comment on detector.py
+* Added an exception if gap is too large
+* Renamed more appropriately
+* Added commit rules, licence
+* Added reference to CONTRIBUTING.md
+* Create CONTRIBUTING.md
+* Update issue templates
+* Fixed error in mgrid
+* Still working on testing theory vs numerical
+* Changed laser function to recreate needed x,y arrays
+* Eliminated the square detector option
+* Minor edits looking for bugs!
+* Edited get\_detector change false to true in return
+* Replaced figure with Kallee's Version, edit to paper
+* New Figure, edit of paper
+* Added comment line in create\_detector
+* Omitted feature addition
+* Test was erroring because theoretical model did not account for outer circular detector bounds
+* working on detector test (unfinished)
+* Fisxed typos in paper
+* Edited the paper, and the bibliography
+* Updated unit tests
+* Updated testing methods, detector grid size
+* Linted tests
+* Updated unit tests
+* Updated notebook demo
+* Update .travis.yml
+* Update setup.py
+* Update .travis.yml
+* Update .travis.yml
+* Update setup.py
+* Refactored Windows tests
+* Refactored Windows tests
+* Added Windows tests
+* Updated unit tests
+* Added unit tests, removed unicode variables
+* Linted, unit tests
+* imports fix
+* imports fix
+* Added install instructions
+* Updated theme
+* Seperated modules on functionality
+* Basic Sphinx RTD setup
+* Initial Sphinx config
+* Update README.md
+* Update README.md
+* Basic laser and detector tests
+* Update .travis.yml
+* Create .travis.yml
+* Cleaned up files
+* Update README.md
+* Started testcases
+* Update README.md
+* Added updated demo
+* Redid laser, compute\_signals, signal\_over\_path
+* Updated setup file with correct directory names
+* Documented functions
