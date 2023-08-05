@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+dircolors/__init__.py
+dircolors/_defaults.py
+dircolors/_util.py
+dircolors/dircolors.py
+dircolors.egg-info/PKG-INFO
+dircolors.egg-info/SOURCES.txt
+dircolors.egg-info/dependency_links.txt
+dircolors.egg-info/entry_points.txt
+dircolors.egg-info/top_level.txt
