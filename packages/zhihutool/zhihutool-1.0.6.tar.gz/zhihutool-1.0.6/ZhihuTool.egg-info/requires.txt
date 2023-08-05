@@ -1,0 +1,4 @@
+pyQrcode==1.2.1
+requests==2.22.0
+zxing==0.9.3
+requests-toolbelt==0.9.1

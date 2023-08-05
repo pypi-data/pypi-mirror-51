@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: zhihutool
+Version: 1.0.6
+Summary: An easy way to control your zhihu account 
+Home-page: https://github.com/rcsupermanjob/ZhihuTool
+Author: rcsuperman
+Author-email: 269680244@qq.com
+License: GPLv3
+Description: An easy way to control your zhihu account
+Keywords: zhihu
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
