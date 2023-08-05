@@ -1,0 +1,7 @@
+README.md
+hawkserver.py
+setup.py
+hawk_server_asyncio.egg-info/PKG-INFO
+hawk_server_asyncio.egg-info/SOURCES.txt
+hawk_server_asyncio.egg-info/dependency_links.txt
+hawk_server_asyncio.egg-info/top_level.txt
