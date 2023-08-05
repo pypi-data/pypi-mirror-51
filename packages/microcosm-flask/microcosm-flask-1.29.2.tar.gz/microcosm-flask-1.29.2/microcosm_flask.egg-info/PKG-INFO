@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: microcosm-flask
+Version: 1.29.2
+Summary: Opinionated persistence with FlaskQL
+Home-page: https://github.com/globality-corp/microcosm-flask
+Author: Globality Engineering
+Author-email: engineering@globality.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: microcosm
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: spooky
+Provides-Extra: metrics
+Provides-Extra: profiling
