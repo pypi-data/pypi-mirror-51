@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Logen
+Version: 1.0.0
+Summary: Generates and converts between various localization formats.
+Home-page: https://github.com/DavidPiper94
+Author: David Piper
+Author-email: david@dpiper.de
+License: MIT
+Download-URL: https://github.com/DavidPiper94/Logen/archive/v_1.0.0.tar.gz
+Description: Generates and converts between various localization formats.
+Keywords: localization,converter,ios,android
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
