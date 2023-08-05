@@ -1,0 +1,14 @@
+pysqler/__init__.py,sha256=pD3mWwahmJXjk8c-HjyOE4lRnCqnEUo2D1nCfwnCiNU,119
+pysqler/__version__.py,sha256=AQontkYnMXRsxgSlxVqtGUQgqYy1F1T6FUZcJNUsekM,63
+pysqler/writer.py,sha256=n6LwIk1krQ5wA9T5HR5fOrBwHEndhF-vWAEjq_mWvTU,12629
+pysqler/helper/__init__.py,sha256=Fwhp7EJyFtaFLES6YHlRcVEflFvk7rIWvn-cRa7Cy9I,75
+pysqler/helper/expression.py,sha256=7VU_C6AKTj3a4D3eCUhQ6tvrMd4X3RnGCRjYFVub8yY,354
+pysqler/helper/filter.py,sha256=o1OqXxFswuUKmLb0AEOLXFrR4NYoW3sJWil-zHBeGBQ,1784
+pysqler/helper/into.py,sha256=4LHBj_mn24h66XWFLUUSFrkocCsjkdPENr8UtsEKaZ8,4244
+pysqler/helper/strings.py,sha256=ANCpTmvFX-kTf687QvicBdWAe8xOY90VcB-CeJLuOoQ,2204
+pysqler/helper/where.py,sha256=-8ZLiuBVdIWSSs6EQhYODeMyFT_z_A1UCFCZ15k6wTM,554
+pysqler-0.8.8.dist-info/LICENSE,sha256=XG_fV89J_gijinLmGZdBhlMgCqhML4h5KKJI67KDmUg,1063
+pysqler-0.8.8.dist-info/METADATA,sha256=KE9ZNtqR2XzGMCBI5N_OT_AOPEQTsFcPVhn2gjENztQ,4485
+pysqler-0.8.8.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+pysqler-0.8.8.dist-info/top_level.txt,sha256=CPR-ddNZ9GRU1uNyTPxknP9m6_kX9ywuHMudxy72jMg,8
+pysqler-0.8.8.dist-info/RECORD,,
