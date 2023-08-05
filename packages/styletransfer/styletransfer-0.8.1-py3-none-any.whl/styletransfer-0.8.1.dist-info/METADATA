@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: styletransfer
+Version: 0.8.1
+Summary: Transfer the style of one image to another using PyTorch
+Home-page: UNKNOWN
+Author: Lorenz Lehmann
+Author-email: apps.lal@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: atomicwrites (==1.3.0)
+Requires-Dist: attrs (==19.1.0)
+Requires-Dist: certifi (==2019.6.16)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: idna (==2.8)
+Requires-Dist: importlib-metadata (==0.19)
+Requires-Dist: more-itertools (==7.2.0)
+Requires-Dist: numpy (==1.17.0)
+Requires-Dist: packaging (==19.1)
+Requires-Dist: Pillow (==6.1.0)
+Requires-Dist: pluggy (==0.12.0)
+Requires-Dist: py (==1.8.0)
+Requires-Dist: pyparsing (==2.4.2)
+Requires-Dist: pytest (==5.1.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: torch (==1.2.0)
+Requires-Dist: torchvision (==0.4.0)
+Requires-Dist: urllib3 (==1.25.3)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: zipp (==0.5.2)
+
+# styletransfer
+A Python library to transfer the style of one picture to another using PyTorch.
+
+## Installation
+You can install styletransfer from PyPi using:
+
+`pip install styletransfer`
+
+This package requires Python 3.x
+
+## Basic usage
+The easiest way to get started is taking an online image for style transfer and just running with the default parameters:
+
+```python
+from styletransfer import StyleTransfer
+styleTransfer = StyleTransfer()
+
+#Set the content image from URL
+styleTransfer.setContentFromUrl('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Felis_silvestris_catus_lying_on_rice_straw.jpg/640px-Felis_silvestris_catus_lying_on_rice_straw.jpg')
+
+#Set the style image from URL
+styleTransfer.setStyleFromUrl('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/640px-Tsunami_by_hokusai_19th_century.jpg')
+
+#Use default settings and train the model
+#If you do not have a GPU that can take 30-60 minutes
+styleTransfer.apply()
+
+#Write the result image to a file
+styleTransfer.writeFinalImage('stylized_image.jpg')
+```
+
+## Advanced usage
+*TBD: Detailed instructions to follow*
+
+
