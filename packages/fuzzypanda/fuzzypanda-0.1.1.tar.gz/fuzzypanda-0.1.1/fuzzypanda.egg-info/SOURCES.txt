@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+fuzzypanda/__init__.py
+fuzzypanda/matching.py
+fuzzypanda/preprocess.py
+fuzzypanda.egg-info/PKG-INFO
+fuzzypanda.egg-info/SOURCES.txt
+fuzzypanda.egg-info/dependency_links.txt
+fuzzypanda.egg-info/not-zip-safe
+fuzzypanda.egg-info/requires.txt
+fuzzypanda.egg-info/top_level.txt
