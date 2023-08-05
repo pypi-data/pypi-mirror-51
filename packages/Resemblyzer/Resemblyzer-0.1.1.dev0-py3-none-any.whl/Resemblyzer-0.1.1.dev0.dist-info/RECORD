@@ -1,0 +1,10 @@
+resemblyzer/__init__.py,sha256=XzEZf7bAPq0JCC_rkNYi0JucfW5VClvkHHt0ePMnLMM,191
+resemblyzer/audio.py,sha256=9F2fxVHYjISHIIMrPrzjdQCZCaopZN46lTCeZzSrsoE,4426
+resemblyzer/hparams.py,sha256=URq-U7dRUmP_M-HA6vgvf_qhZfl3uQ3vMSGCoV37ga4,946
+resemblyzer/pretrained.pt,sha256=OTc7hlmPo9qfzd7mFCOC7-CXd-jTfcnAVh9B8AcPE04,17090379
+resemblyzer/voice_encoder.py,sha256=S6HodPk0aM3Lqk7qbJzIBFag6ugWdvWLPT4DvaEXWxo,9363
+Resemblyzer-0.1.1.dev0.dist-info/LICENSE,sha256=OyexFJFNGkKklXrBubIXDdn-Fk09o7pR4avuQUf7TYw,11542
+Resemblyzer-0.1.1.dev0.dist-info/METADATA,sha256=lrYG-aCzIrFlotvsBLjQHzrh1PfKRpxTCyh8_Rrcco8,3629
+Resemblyzer-0.1.1.dev0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+Resemblyzer-0.1.1.dev0.dist-info/top_level.txt,sha256=IpEn86WuURtFosS3Tg9s7LfkvGYOo9qJAueWdCejj4g,12
+Resemblyzer-0.1.1.dev0.dist-info/RECORD,,
