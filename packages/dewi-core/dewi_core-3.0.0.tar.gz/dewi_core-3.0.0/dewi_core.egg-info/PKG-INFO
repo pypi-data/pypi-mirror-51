@@ -1,0 +1,31 @@
+Metadata-Version: 1.2
+Name: dewi-core
+Version: 3.0.0
+Summary: DEWI Core: Plugin and Config Tree framework and Application
+Home-page: https://github.com/LA-Toth/dewi_core
+Author: Laszlo Attila Toth
+Author-email: python-dewi@laszloattilatoth.me
+Maintainer: Laszlo Attila Toth
+Maintainer-email: python-dewi@laszloattilatoth.me
+License: LGPLv3
+Description: UNKNOWN
+Keywords: tool framework development synchronization
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
