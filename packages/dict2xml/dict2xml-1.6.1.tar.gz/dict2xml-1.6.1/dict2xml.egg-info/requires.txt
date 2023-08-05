@@ -1,0 +1,6 @@
+six
+
+[tests]
+fudge
+noseOfYeti>=1.7.0
+nose
