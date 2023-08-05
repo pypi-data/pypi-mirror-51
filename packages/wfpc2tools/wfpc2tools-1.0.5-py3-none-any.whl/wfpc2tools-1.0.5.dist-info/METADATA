@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: wfpc2tools
+Version: 1.0.5
+Summary: Tools for use with WFPC2 (Wide Field and Planetary Camera 2)
+Home-page: https://github.com/spacetelescope/wfpc2tools
+Author: Warren Hack, Nadezhda Dencheva, David Grumm
+Author-email: help@stsci.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: astropy (>=0.3.1)
+Requires-Dist: numpy (>=1.5.1)
+Requires-Dist: scipy (>=0.14)
+Requires-Dist: stsci.imagestats
+Requires-Dist: stsci.tools
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: codecov ; extra == 'test'
+
+UNKNOWN
+
+

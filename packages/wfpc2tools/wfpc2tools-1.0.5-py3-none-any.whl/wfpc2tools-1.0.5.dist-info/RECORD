@@ -1,0 +1,13 @@
+wfpc2tools/__init__.py,sha256=Kf4EOGYUJ5B7E7A-Z115_W93uZKSIr8kqMZOcZta9Io,715
+wfpc2tools/cwdutil.py,sha256=_iZIvIQluo6JmKGf8W1eceD35oZFKyPzF2rV6uCb_ew,1112
+wfpc2tools/opusutil.py,sha256=kGuyd8ifhkUy_2SewyP9772ygk1FABHcHOm_Xh1mD3I,9090
+wfpc2tools/wfpc2cte.py,sha256=kqKCQoAnGWckp2LJwd_UYDT2cUsVGTE0o_IZgmfNgrs,7435
+wfpc2tools/wfpc2destreak.py,sha256=hOn8SfM7UX75J-TI2N5d8zw75pD-72YNYkD_inHwW9s,41651
+wfpc2tools/wfpc2util.py,sha256=JSoTgKLQHJUZNabD9CqdJID0Dl_nIhE824j1LETfBlE,3196
+wfpc2tools/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wfpc2tools/tests/test_noop.py,sha256=T07bGwI8btOv5C735lzS2oMrlwhVd0NgTzWhC2edEYQ,41
+wfpc2tools-1.0.5.dist-info/LICENSE.txt,sha256=_PM4nwafTzZz_p2Vl2HTotkmdG2ZfshYAr3hpXG6Ub0,1560
+wfpc2tools-1.0.5.dist-info/METADATA,sha256=uU-30sbbnh4l7DM6-NH2JDI8vFBfJEc2_0wkjhZB-nQ,988
+wfpc2tools-1.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+wfpc2tools-1.0.5.dist-info/top_level.txt,sha256=Fur5K1eaCV8Kc_VF3W6qH3UKEGqQZaqpzM7FHKlMF2c,11
+wfpc2tools-1.0.5.dist-info/RECORD,,
