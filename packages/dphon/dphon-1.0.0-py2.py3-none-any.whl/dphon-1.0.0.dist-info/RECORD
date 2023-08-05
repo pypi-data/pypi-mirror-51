@@ -1,0 +1,11 @@
+dphon/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+dphon/cli.py,sha256=mifOvbeYcWNWqUZczC0NZbm9xPzTz55Mn9O7len0rfA,1244
+dphon/commands.py,sha256=JcfaalejDVMgIVQJO2LrqdCCO6IiusHqUeiXK1pPIEc,1009
+dphon/lib.py,sha256=frbZb6RAxRB41j4jOp8BjiU3QIn6R9M7dczLgayOCD4,6802
+dphon/util.py,sha256=M5M7yemgbbWfPOTVFKSTrLvidVy3ua4fXHLBpJWenLI,1182
+dphon-1.0.0.dist-info/LICENSE,sha256=cOx2TWqEhLaQGjygw9d8Ly1C2I1_lk_NiVsagLtQmvU,1073
+dphon-1.0.0.dist-info/METADATA,sha256=5JG3U5pfo75CsTfKAO0rMB10MB7SxXEehFt-lbE95R0,4957
+dphon-1.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+dphon-1.0.0.dist-info/entry_points.txt,sha256=QIPECMil9N0BiChvKZ9hUOOZQWmc0ZnrLCDB9v7nxKw,41
+dphon-1.0.0.dist-info/top_level.txt,sha256=O3eWH7s3ZYSE2hgl-7QslOe-6d90YDOduknD5xvYyco,6
+dphon-1.0.0.dist-info/RECORD,,
