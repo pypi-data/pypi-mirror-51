@@ -1,0 +1,15 @@
+mutation {
+  delete_data_dataset_{{model_name}}s(where: {dataset_id: {_eq: {{dataset_id}} }, {{model_name}}_id: {_in: {{ids}} }}) {
+    returning {
+      data_{{model_name}} {
+        id
+        name
+        tag
+        url
+        version
+        metadata
+        md5
+      }
+    }
+  }
+}

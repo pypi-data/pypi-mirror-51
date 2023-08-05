@@ -1,0 +1,11 @@
+query {
+  data_{{model_name}}({{arguments}}) {
+    id
+    md5
+    name
+    metadata
+    url
+    version
+    tag
+  }
+}

@@ -1,0 +1,5 @@
+graphqlclient
+minio
+jinja2
+tqdm
+psutil

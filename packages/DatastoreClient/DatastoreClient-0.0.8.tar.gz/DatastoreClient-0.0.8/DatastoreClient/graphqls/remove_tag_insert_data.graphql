@@ -1,0 +1,40 @@
+mutation remove_tag_insert_data{
+  update_data_{{model_name}}(where: {
+    #metadata: {_neq: {{metadata}}}, 
+    #md5: {_eq: "{{file.md5}}"}, 
+    version: {_eq: {{file.version-1}}}
+    bucket: {_eq: "{{file.bucket}}"}, 
+    name: {_eq: "{{file.name}}"}
+    tag: {_eq: "latest"}},
+    _set: {tag: "latest_by_version_{{file.version}}"}) 
+  {
+    affected_rows
+    returning {
+      tag
+      md5
+      metadata
+      name
+      id
+      version
+    }
+  }
+  insert_data_{{model_name}}(
+    objects: {
+        md5: "{{file.md5}}", 
+        metadata: {{metadata}},
+        bucket: "{{file.bucket}}"
+        name: "{{file.name}}",
+        url: "{{file.url}}",
+        version: {{file.version}}
+        tag: "latest"
+    }) {returning {
+      id
+      md5
+      metadata
+      name
+      url
+    }
+  }
+}
+
+

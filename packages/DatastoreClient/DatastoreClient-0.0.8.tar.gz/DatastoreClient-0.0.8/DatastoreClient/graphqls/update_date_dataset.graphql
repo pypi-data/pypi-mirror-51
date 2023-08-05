@@ -1,0 +1,9 @@
+mutation {
+  update_data_dataset(where: {{where}}, _set: {metadata: {{metadata}}, name: {{name}}}) {
+    returning {
+      id
+      metadata
+      name
+    }
+  }
+}

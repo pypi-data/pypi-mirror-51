@@ -1,0 +1,11 @@
+mutation {
+  insert_data_dataset_{{model_name}}s(objects: {dataset_id: {{dataset_id}}, {{model_name}}_id: {{id}}}) {
+    returning {
+      data_{{model_name}} {
+        name
+        metadata
+        id
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+mutation {
+  insert_data_{{model_name}}(
+    objects: {
+        md5: "{{file.md5}}", 
+        metadata: {{metadata}},
+        bucket: "{{file.bucket}}"
+        name: "{{file.name}}",
+        url: "{{file.url}}",
+        version: {{file.version}}
+        tag: "latest"
+    }) {returning {
+      id
+      md5
+      metadata
+      name
+      url
+    }
+  }
+}
