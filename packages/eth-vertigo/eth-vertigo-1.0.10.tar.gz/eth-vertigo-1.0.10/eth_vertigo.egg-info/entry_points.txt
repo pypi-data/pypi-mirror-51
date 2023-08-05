@@ -1,0 +1,3 @@
+[console_scripts]
+eth_vertigo = eth_vertigo.cli.main:cli
+
