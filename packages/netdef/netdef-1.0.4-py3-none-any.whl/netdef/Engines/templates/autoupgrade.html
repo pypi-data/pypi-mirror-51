@@ -1,0 +1,67 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+{{ super() }}
+<div class="row-fluid">
+    <div>
+        {% if current_user.is_authenticated %}
+
+        <div class="panel panel-default">
+                <div class="panel-heading">Upgrade</div>
+                <div class="panel-body">
+                {% if auto_update_on %}
+
+                <a onclick="return window.confirm('Confirm upgrade')" href="./upgrade/" class="btn btn-default col-md-2" role="button">
+                    <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+                    Upgrade
+                </a>
+                    {% if manage_repo %}
+                    <a href="../../installationrepo/" class="btn btn-default col-md-2" role="button">
+                        <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+                       Manage local repo
+                    </a>
+                    {% endif %}
+
+                {% else %}
+                    <p>Auto update is not enabled.</p>
+                {% endif %}
+    
+                </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">upgrade options</div>
+            <div class="panel-body table-responsive">
+        
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th class="column-header col-key">
+                            Key
+                        </th>
+                        <th class="column-header col-val">
+                            Rule
+                        </th>
+                    </tr>
+                </thead>
+                {% for key, val in update_args: %}
+                <tr>
+                    <td class="col-key">
+                        {{key}}
+                    </td>
+                    <td class="col-val">
+                        {{val}}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+            </div>
+        </div>
+
+        {% else %}
+            Not logged in
+        {% endif %}
+    </div>
+
+</div>
+{% endblock body %}
