@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+version.properties
+azureips/__init__.py
+azureips/vacant_ips.py
+azureips.egg-info/PKG-INFO
+azureips.egg-info/SOURCES.txt
+azureips.egg-info/dependency_links.txt
+azureips.egg-info/requires.txt
+azureips.egg-info/top_level.txt
+azureips/utilities/__init__.py
+azureips/utilities/azure_apis.py
+azureips/utilities/ip_address_utils.py
