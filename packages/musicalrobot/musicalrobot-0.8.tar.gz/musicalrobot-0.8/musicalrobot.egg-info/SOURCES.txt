@@ -1,0 +1,13 @@
+README.md
+setup.py
+musicalrobot/DES.py
+musicalrobot/__init__.py
+musicalrobot/edge_detection.py
+musicalrobot/irtemp.py
+musicalrobot/pixel_analysis.py
+musicalrobot/post_data.py
+musicalrobot.egg-info/PKG-INFO
+musicalrobot.egg-info/SOURCES.txt
+musicalrobot.egg-info/dependency_links.txt
+musicalrobot.egg-info/not-zip-safe
+musicalrobot.egg-info/top_level.txt
