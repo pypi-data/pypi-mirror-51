@@ -1,0 +1,17 @@
+claim/__init__.py,sha256=lNsuAoPoaBgRUQ3TakHtQ3R3rsHKmlb6iytntNPZFuQ,23
+claim/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+claim/apps.py,sha256=JRnt4AmWRPdYLKoIUxfUqNFYKZNQzTaNmBaha7urUjk,85
+claim/models.py,sha256=qG3AGB9TwAPCTAKZcpUdE3PgD5-0vl-tRqbotJTBRF8,16178
+claim/schema.py,sha256=u8lCerXr5wS1YyNk8euXxo_deW3uc3OOZIZEJooKFg8,3575
+claim/services.py,sha256=j7LdFViw6GfmRmgP72CX_mBh69p-xH9j0Da4twUFk0o,11011
+claim/test_services.py,sha256=Y0iFLQFFbeMmtAcIRrDFAf-_cfbnQxStYWg_M7M6vIA,11288
+claim/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+claim/urls.py,sha256=2VZHO_d8F86pUF_4xeyFtSOr6-xpwltmk0L1szOBNEw,16
+claim/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+claim/migrations/0001_initial.py,sha256=OCTlY4FpKdYAlpiI0Oc4Xu1I5K23n8cgOBaSnHwIkKk,14751
+claim/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openimis_be_claim-0.0.9.dist-info/LICENSE.md,sha256=qv829pDgynxCyMDqJP9yACWRxhNQEP7jrTxY8U5m4gY,1852
+openimis_be_claim-0.0.9.dist-info/METADATA,sha256=hak4KtVTYwTMU1SiqmncEOTQNsBjQbczcG1vEspQd9Y,828
+openimis_be_claim-0.0.9.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+openimis_be_claim-0.0.9.dist-info/top_level.txt,sha256=1gJCQRwkl5CocdIl74owzsV4okvsaSIVJA-BzOljKyY,6
+openimis_be_claim-0.0.9.dist-info/RECORD,,
