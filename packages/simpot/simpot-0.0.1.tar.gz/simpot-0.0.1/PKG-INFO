@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: simpot
+Version: 0.0.1
+Summary: A simple Python object-triple mapping. ....
+Home-page: https://github.com/inovacampus/simpot
+Author: Sergio Souza Costa
+Author-email: prof.sergio.costa@gmail.com
+License: UNKNOWN
+Description: # Object-triple Mapping
+        
+        ## 1. Requirements 
+        This module requires the rdflib package installation:
+        > $ pip install rdflib
+        
+        ## 2. How to Install
+        For install this package execute the command in your environment:
+        > $ pip install simpot
+        
+        or:
+        > $ pip install -i https://test.pypi.org/simple/ simpot
+        
+        
+        ## 3. How to use
+        
+        ```python
+        import simpot
+        
+        from rdflib import Namespace, Literal, URIRef,RDF
+        from simpot import RdfsClass, BNamespace, graph
+        from rdflib.namespace import DC, FOAF
+        
+        
+        # exemplo do rdflib
+        class Person:
+            nick = FOAF.nick
+            name = FOAF.name
+            email = FOAF.mbox
+        
+            @RdfsClass(FOAF.Person, None) # blank node
+            @BNamespace("dc", DC)
+            @BNamespace("foaf", FOAF)
+            def __init__ (self, name, nick, email):
+                self.nick = Literal(nick, lang="foo")
+                self.name = Literal (name)
+                self.email = URIRef(email) 
+        
+        p = Person ("Donna Fales","donna", "mailto:donna@example.org")
+        print (graph(p).serialize())
+        ```
+        
+        https://docs.python-guide.org/writing/structure/#test-suite
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

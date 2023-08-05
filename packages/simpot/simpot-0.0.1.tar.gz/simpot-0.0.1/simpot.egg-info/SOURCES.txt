@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+simpot/BNamespace.py
+simpot/RdfsClass.py
+simpot/__init__.py
+simpot.egg-info/PKG-INFO
+simpot.egg-info/SOURCES.txt
+simpot.egg-info/dependency_links.txt
+simpot.egg-info/requires.txt
+simpot.egg-info/top_level.txt
