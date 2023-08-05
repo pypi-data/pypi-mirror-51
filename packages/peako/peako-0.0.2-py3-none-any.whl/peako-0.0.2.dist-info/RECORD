@@ -1,0 +1,17 @@
+peako/__init__.py,sha256=p191WoRxEF33WfWNw3jMwbmi_dqj1mybJrnxRDt9DQE,48
+peako/peako_snakemake_wrapper.py,sha256=1cMa56kv3PtCGv2R-y4yAkpJ9r-jOmmHg0Bnq5JH6Qs,10127
+peako/version.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+peako/data/add-pooled-de-novo-motifs-centrimo.py,sha256=pFH9XSPAH2pZ5HgVSiukOim0cDKusfBZ-3P8J0SplfY,5578
+peako/data/centrimo-neg-environment.yml,sha256=vvuQz9HwM1r5yEjI4ttHuY3EjjmqDKBNz8hdO0OXPh8,563
+peako/data/macs2-environment.yml,sha256=kW7AJUmD_ISHcy7dIQxw9_ymisbWpAqNAmoEI4lsfQE,1908
+peako/data/peako-only.py,sha256=WDgF8JyvNQLjNZEPDPpvhVr-o7d6qUqGm1ExUFQNIvQ,29371
+peako/data/pool-de-novo-motifs-before-centrimo.py,sha256=OuXSg1TdW2z7Oa3TE9mqGssEmV-E8K21WaFl5rm_Fs8,4476
+peako/data/py273-environment.yml,sha256=P4cwkCsXjLokhG6NfC0yufYD_fr5CXzUI3JH3aDLVRQ,1551
+peako/data/run_MEME-ChIP.sh,sha256=l8vsB7YKg18EjitdR5cMomBrtknf5yFjehjxXUxyXpI,4267
+peako/data/snakefile,sha256=8_VD46KlxLq2L2uRCEgnm_S95FssV3d91Rc63_9GCWI,8571
+peako-0.0.2.dist-info/LICENSE,sha256=lxMBVfB9YT7NJDisGk5AJvIwh6WdMK1upJcC1Hbbv0Y,4751
+peako-0.0.2.dist-info/METADATA,sha256=13-3l4CISYEia5nsVIHT8TEcAv8y152aPNkS60wsHRE,4936
+peako-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+peako-0.0.2.dist-info/entry_points.txt,sha256=sXcQ3Ozl-dBYHwHU7NuucfN2KpBPCA90ljrpDFvuEno,62
+peako-0.0.2.dist-info/top_level.txt,sha256=VrLr0h1nB_oMALrg633Qp6Au_fhJ9pzhDmGs31UnSaQ,6
+peako-0.0.2.dist-info/RECORD,,
