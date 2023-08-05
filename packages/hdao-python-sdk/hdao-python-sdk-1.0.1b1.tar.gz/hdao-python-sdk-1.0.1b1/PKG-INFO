@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hdao-python-sdk
+Version: 1.0.1b1
+Summary: Python3 implemented SDK for HyperDao
+Home-page: https://github.com/hyperdao/stable_coin_python_sdk
+Author: realm520
+Author-email: realm520@gmail.com
+License: UNKNOWN
+Description: # stable_coin_python_sdk
+        Python SDK for HyperDao Stable Coin System
+        
+        
+        # test
+        
+        ```
+        cd tests
+        pytest
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
