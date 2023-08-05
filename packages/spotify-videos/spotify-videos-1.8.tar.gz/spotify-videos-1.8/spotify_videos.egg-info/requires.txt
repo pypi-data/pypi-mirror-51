@@ -1,0 +1,6 @@
+youtube-dl
+python-vlc
+lyricwikia
+requests>=2.3.0
+six>=1.10.0
+pydbus
