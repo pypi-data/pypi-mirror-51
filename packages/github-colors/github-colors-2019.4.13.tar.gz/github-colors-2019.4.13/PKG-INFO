@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: github-colors
+Version: 2019.4.13
+Summary: Github colors for all the programming languages
+Home-page: https://github.com/andrewp-as-is/github-colors.py
+License: UNKNOWN
+Description: <!--
+        https://pypi.org/project/readme-generator/
+        https://pypi.org/project/python-readme-generator/
+        -->
+        
+        [![](https://img.shields.io/pypi/pyversions/github-colors.svg?longCache=True)](https://pypi.org/project/github-colors/)
+        
+        #### Installation
+        ```bash
+        $ [sudo] pip install github-colors
+        ```
+        
+        #### Examples
+        `COLORS` dict
+        ```python
+        >>> import github_colors
+        >>> github_colors.COLORS
+        {
+            '1C Enterprise': '#814CCC',
+            ...
+        }
+        ```
+        
+        `get(name)`
+        ```python
+        >>> github_colors.get('1c enterprise')
+        '#814CCC'
+        ```
+        
+        <p align="center">
+            <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+        </p>
+Keywords: github colors
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
