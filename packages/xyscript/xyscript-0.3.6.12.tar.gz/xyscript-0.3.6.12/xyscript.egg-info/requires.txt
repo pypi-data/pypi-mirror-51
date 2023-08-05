@@ -1,0 +1,6 @@
+requests
+GitPython
+setuptools
+configparser
+progressbar
+wxPython
