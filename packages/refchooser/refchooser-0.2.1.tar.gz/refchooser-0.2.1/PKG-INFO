@@ -1,0 +1,97 @@
+Metadata-Version: 1.1
+Name: refchooser
+Version: 0.2.1
+Summary: Tools to help choosing a reference assembly.
+Home-page: https://github.com/CFSAN-Biostatistics/refchooser
+Author: Steve Davis
+Author-email: steven.davis@fda.hhs.gov
+License: BSD
+Description: ===============================
+        refchooser
+        ===============================
+        
+        
+        .. Image showing the PyPI version badge - links to PyPI
+        .. image:: https://img.shields.io/pypi/v/refchooser.svg
+                :target: https://pypi.python.org/pypi/refchooser
+        
+        .. Image showing the Travis Continuous Integration test status, commented out for now
+        .. .. image:: https://img.shields.io/travis/CFSAN-Biostatistics/refchooser.svg
+        ..        :target: https://travis-ci.org/CFSAN-Biostatistics/refchooser
+        
+        
+        
+        Tools to help choose a reference from a list of assemblies.
+        
+        The refchooser project was developed by the United States Food
+        and Drug Administration, Center for Food Safety and Applied Nutrition.
+        
+        * Free software
+        * Documentation: https://refchooser.readthedocs.io
+        * Source Code: https://github.com/CFSAN-Biostatistics/refchooser
+        * PyPI Distribution: https://pypi.python.org/pypi/refchooser
+        
+        
+        Features
+        --------
+        
+        * Print a table of metrics to help choose an assembly from a collection.
+        * N50
+        * N90
+        * Number of contigs
+        * Assembly length
+        * Mean mash distance to all other assemblies
+        
+        
+        Citing refchooser
+        --------------------------------------
+        
+        To cite refchooser, please reference the refchooser GitHub repository:
+        
+            https://github.com/CFSAN-Biostatistics/refchooser
+        
+        
+        License
+        -------
+        
+        See the LICENSE file included in the refchooser distribution.
+        
+        
+        
+        
+        History
+        =======
+        
+        0.2.1 (2019-08-20)
+        ---------------------
+        
+        * Detect and exclude empty assemblies.
+        
+        
+        0.2.0 (2019-07-12)
+        ---------------------
+        
+        * Add N50 and N90 metrics.
+        * Calculate a simple "Score" for each assembly, the N50/Distance ratio.
+        * Combine all metrics in a single table sortable by any column.
+        
+        
+        0.1.0 (2019-06-21)
+        ---------------------
+        
+        * Initial version.
+        
+Keywords: bioinformatics,NGS,refchooser
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
