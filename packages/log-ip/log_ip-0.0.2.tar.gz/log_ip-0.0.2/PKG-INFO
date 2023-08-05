@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: log_ip
+Version: 0.0.2
+Summary: A script that dumps your IP into a log file
+Home-page: https://github.com/FrenchCommando/log_ip
+Author: FrenchCommando
+Author-email: martialren@gmail.com
+License: UNKNOWN
+Description: # log_ip
+        python script that dumps your IP into a log file
+        https://github.com/FrenchCommando/log_ip
+        
+        ## Format
+        
+        - filename is 'log-ip.txt' in current working directory - file is created if not exists, results are appended to the end of the file every time the script is run.
+        - One entry for Public IP - one for Private IP.
+        - Each entry is a line with timestamp - hostname - ip value.
+        
+        ## Dependency
+        - python 3 - currently working with 3.7
+        
+        ## Usage
+        
+        ### using pip
+        - pip install log-ip
+          - run in cmd : log-ip
+          
+        ## Contribution
+        Anything is always welcome
+        
+        
+        [Github](https://github.com/FrenchCommando/log_ip)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
