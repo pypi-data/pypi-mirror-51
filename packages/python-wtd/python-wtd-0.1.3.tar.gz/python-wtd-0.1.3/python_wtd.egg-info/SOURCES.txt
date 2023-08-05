@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+python_wtd/__init__.py
+python_wtd/python_wtd.py
+python_wtd.egg-info/PKG-INFO
+python_wtd.egg-info/SOURCES.txt
+python_wtd.egg-info/dependency_links.txt
+python_wtd.egg-info/not-zip-safe
+python_wtd.egg-info/requires.txt
+python_wtd.egg-info/top_level.txt
