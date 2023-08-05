@@ -1,0 +1,9 @@
+setup.py
+pqlpython3/__init__.py
+pqlpython3/aggregation.py
+pqlpython3/matching.py
+pqlpython3.egg-info/PKG-INFO
+pqlpython3.egg-info/SOURCES.txt
+pqlpython3.egg-info/dependency_links.txt
+pqlpython3.egg-info/requires.txt
+pqlpython3.egg-info/top_level.txt
