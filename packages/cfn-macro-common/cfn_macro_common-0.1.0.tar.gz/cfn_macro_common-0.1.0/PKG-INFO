@@ -1,0 +1,65 @@
+Metadata-Version: 1.1
+Name: cfn_macro_common
+Version: 0.1.0
+Summary: CFN Macro Common Lib
+Home-page: https://github.com/johnpreston/cfn_macro_common
+Author: John Mille
+Author-email: JohnPreston@users.noreply.github.com
+License: Apache Software License 2.0
+Description: ================
+        CFN Macro Common
+        ================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/cfn_macro_common.svg
+                :target: https://pypi.python.org/pypi/cfn_macro_common
+        
+        .. image:: https://img.shields.io/travis/johnpreston/cfn_macro_common.svg
+                :target: https://travis-ci.org/johnpreston/cfn_macro_common
+        
+        .. image:: https://readthedocs.org/projects/cfn-macro-common/badge/?version=latest
+                :target: https://cfn-macro-common.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        CFN Macro Common Lib
+        
+        
+        * Free software: Apache Software License 2.0
+        * Documentation: https://cfn-macro-common.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-08-24)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: cfn_macro_common
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

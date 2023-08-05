@@ -1,0 +1,1 @@
+cfn_macro_common

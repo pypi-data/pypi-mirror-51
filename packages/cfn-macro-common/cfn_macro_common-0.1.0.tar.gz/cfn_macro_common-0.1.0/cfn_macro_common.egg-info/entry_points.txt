@@ -1,0 +1,3 @@
+[console_scripts]
+cfn_macro_common = cfn_macro_common.cli:main
+
