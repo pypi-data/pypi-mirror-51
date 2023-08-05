@@ -1,0 +1,12 @@
+beautifulsoup4
+pelican
+
+[dev]
+autopep8
+black
+flake8
+invoke
+jedi
+rope
+twine
+yapf
