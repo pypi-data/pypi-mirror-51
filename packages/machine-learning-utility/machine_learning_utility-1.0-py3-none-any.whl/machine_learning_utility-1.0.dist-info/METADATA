@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: machine-learning-utility
+Version: 1.0
+Summary: A utility for kaggle machine learning projects
+Home-page: https://github.com/abdurrehman11/machine_learning_framework
+Author: Abdur Rehman Nadeem
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: scikit-learn (==0.20.3)
+Requires-Dist: pandas (==0.24.2)
+Requires-Dist: numpy (==1.16.3)
+Requires-Dist: xgboost (==0.90)
+
+UNKNOWN
+
+
