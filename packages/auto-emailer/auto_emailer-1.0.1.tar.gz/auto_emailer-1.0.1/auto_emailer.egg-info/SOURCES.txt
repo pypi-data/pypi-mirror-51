@@ -1,0 +1,9 @@
+README.rst
+setup.py
+auto_emailer/__init__.py
+auto_emailer/emailer.py
+auto_emailer.egg-info/PKG-INFO
+auto_emailer.egg-info/SOURCES.txt
+auto_emailer.egg-info/dependency_links.txt
+auto_emailer.egg-info/requires.txt
+auto_emailer.egg-info/top_level.txt
