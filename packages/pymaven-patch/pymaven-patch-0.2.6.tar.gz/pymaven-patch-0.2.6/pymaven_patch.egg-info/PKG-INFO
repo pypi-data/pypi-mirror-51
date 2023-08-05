@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pymaven-patch
+Version: 0.2.6
+Summary: Python access to maven
+Home-page: https://github.com/sassoftware/pymaven
+Author: Walter Scheper
+Author-email: Walter.Scheper@sas.com
+License: Apache-2
+Description: =======
+        Pymaven
+        =======
+        
+        Overview
+        ========
+        
+        Pymaven is a Python library for interfacing with the maven build system. There
+        are two major interfaces:
+        
+        * pymaven.client provides a basic maven repository client
+        * pymaven.pom provides a Pom object that can provide progromatic access to
+          a maven pom file
+        
+        
+Platform: UNKNOWN
+Provides-Extra: development
+Provides-Extra: test
