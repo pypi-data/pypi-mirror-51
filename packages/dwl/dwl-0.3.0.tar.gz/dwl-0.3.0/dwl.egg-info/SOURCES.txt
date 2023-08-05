@@ -1,0 +1,14 @@
+.gitignore
+README.md
+dwl.py
+requirements.txt
+setup.py
+bin/dwl
+dwl.egg-info/PKG-INFO
+dwl.egg-info/SOURCES.txt
+dwl.egg-info/dependency_links.txt
+dwl.egg-info/requires.txt
+dwl.egg-info/top_level.txt
+scripts/build.sh
+scripts/clean.sh
+scripts/publish.sh
