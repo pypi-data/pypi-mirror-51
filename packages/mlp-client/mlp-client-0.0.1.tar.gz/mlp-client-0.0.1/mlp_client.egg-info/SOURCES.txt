@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+api/api_pb2.py
+api/api_pb2.pyi
+api/api_pb2_grpc.py
+client/__init__.py
+mlp_client.egg-info/PKG-INFO
+mlp_client.egg-info/SOURCES.txt
+mlp_client.egg-info/dependency_links.txt
+mlp_client.egg-info/top_level.txt

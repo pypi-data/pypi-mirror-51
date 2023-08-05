@@ -1,0 +1,5 @@
+global-exclude *.py
+
+include api/api_pb2*
+include client/*.py
+include README.md
