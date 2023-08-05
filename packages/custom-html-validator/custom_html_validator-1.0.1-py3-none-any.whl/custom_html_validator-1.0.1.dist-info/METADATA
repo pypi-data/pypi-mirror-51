@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: custom-html-validator
+Version: 1.0.1
+Summary: customizable HTML validator
+Home-page: https://github.com/koan-u/custom_html_validator
+Author: fumihiko umeta
+Author-email: koan.u.f@gmail.com
+License: MIT license
+Requires-Dist: html.parser
+
+Custom_HTML_Validator for Python
+
+
