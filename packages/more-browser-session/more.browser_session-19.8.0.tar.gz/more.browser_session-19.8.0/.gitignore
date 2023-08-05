@@ -1,0 +1,12 @@
+*.pyc
+.settings
+.project
+.pydevproject
+.idea
+*.pot
+*.mo
+.babelcompiled
+more.browser_session.egg-info/
+.cache/
+.eggs/
+.pytest_cache/
