@@ -1,0 +1,4 @@
+[console_scripts]
+pdfcrack.py = pydf2json.scripts.pdfcrack:cl
+pydf.py = pydf2json.scripts.pydf:main
+

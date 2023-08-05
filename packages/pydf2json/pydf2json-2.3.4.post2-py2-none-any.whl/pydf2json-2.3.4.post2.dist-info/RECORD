@@ -1,0 +1,12 @@
+pydf2json/__init__.py,sha256=LL8P70sI5VfXGBGRYGp1sCQF_OieeVbE599I2FeKXCA,49
+pydf2json/pdfcrypt.py,sha256=uLdfLDhJYZIsiQ6bCuEg2EKvlrIVz2E-jKpnggTLZHg,18543
+pydf2json/pydf2json.py,sha256=offwlsypekU7HsMXwyomlO3W_8OIYeZNs_0azdUA3t0,171159
+pydf2json/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydf2json/scripts/pdfcrack.py,sha256=x9sSWA69eOO-NDUqMUo17AQ1qbbG_oxqqD8031uqNHk,5616
+pydf2json/scripts/pydf.py,sha256=oykIuCkS12jeRzcmk3S56h1R9cGhTf3Rwe-iHhj_1L4,8100
+pydf2json-2.3.4.post2.dist-info/LICENSE,sha256=U5J70Lc504yHoKgiNv2bBwwt__EcDBGb5QNyAF1QR60,35815
+pydf2json-2.3.4.post2.dist-info/METADATA,sha256=MaofgjAlnEps0LmliAXmYOBw88lpeZYHV1pSInC5kBM,3863
+pydf2json-2.3.4.post2.dist-info/WHEEL,sha256=2n5gfr2CmDNU5qrqPgO0uSe7oSWu-GEpPLFa0_ueMrk,97
+pydf2json-2.3.4.post2.dist-info/entry_points.txt,sha256=tsDY4ZaZ-01mBYuNXojyPuJCAXojgbHTeWcT4i9rMz4,101
+pydf2json-2.3.4.post2.dist-info/top_level.txt,sha256=Qc--yZMjDznHZkLmIO-HJqdPc16-17b3UzQeTO3e_80,10
+pydf2json-2.3.4.post2.dist-info/RECORD,,
