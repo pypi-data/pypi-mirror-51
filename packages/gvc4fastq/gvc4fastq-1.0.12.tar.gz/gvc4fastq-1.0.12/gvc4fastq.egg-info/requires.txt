@@ -1,0 +1,5 @@
+gvc4bam>=1.0.8
+docker==2.5.1
+pysam
+toil
+toil-runner
