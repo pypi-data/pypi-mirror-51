@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: maeham1
+Version: 1.0.0
+Summary: An plugin that simplifies configuring page titles and their order
+Home-page: https://maeorg.site/docs
+Author: Ham
+Author-email: lwonderlich@gmail.com
+License: MIT
+Description: The awesome-pages plugin allows you to customize how your pages show up the navigation of your without having to configure the full structure in your ``maeguias.yml``. It gives you detailed control using a small configuration file directly placed in the relevant directory of 
+Keywords: maeguias python markdown wiki
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
