@@ -1,0 +1,9 @@
+lineworks/__init__.py,sha256=9-VXUXbFIbIkhLutdu9raroVQ0AyJaQFCdwtkRuBnd8,165
+lineworks/action.py,sha256=vEAgbuI_nS5cV4EoK_AU77ZwR6RiZKvCDEvja7vxOOY,1683
+lineworks/quick_reply_items.py,sha256=XX001-LuMWmFPdY3NoaaiwNYuMwmTTlMqAXOj9U5PwE,571
+lineworks/server_api.py,sha256=mv3Kx-eqb1jTnz4ab1ipZjSKPhmw6X6nLadk-SdYwwM,6938
+lineworks/talkbot_api.py,sha256=AFo5m11Am3MKhK7k7aPJk-7l8D-ueAI4DlEJo6HQ1yk,18991
+lineworks-0.0.5.dist-info/METADATA,sha256=SeZXzREugvbirb3rEdmurUzQKD_Pw3c6cLxG20EMAxw,450
+lineworks-0.0.5.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+lineworks-0.0.5.dist-info/top_level.txt,sha256=YSM74MctbPlBYnFuMxZKkoO-mKqfA9LgqsoySz-TWOA,10
+lineworks-0.0.5.dist-info/RECORD,,
