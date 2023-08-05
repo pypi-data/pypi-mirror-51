@@ -1,0 +1,9 @@
+telemeter_reporter/__init__.py,sha256=EgR3xtbKuXvx2b_tyoLLKxg0Cek6SS0XgspKMo67jfM,70
+telemeter_reporter/reporter.py,sha256=YP8vu5VnqF0LBgTHmPvpA9BFsBe_9zZLvG2v_Z_TmZI,11611
+telemeter_reporter/uhc.py,sha256=OChHuZ-_IWi-iepOwLrrZ_x9k72nw3Fl8Th8tZIaxQk,3750
+telemeter_reporter-0.1.2.data/scripts/telemeter-reporter,sha256=-n7w7OT9-taN99Rl672wHOf14txQAPYC7_EhNaIzyR4,7523
+telemeter_reporter-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+telemeter_reporter-0.1.2.dist-info/METADATA,sha256=_k_gMti8GLtKcxIfNpAFDSEwmbj67LJFSZ6tQnoe8YE,7819
+telemeter_reporter-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+telemeter_reporter-0.1.2.dist-info/top_level.txt,sha256=4g7TxZ5_VICf67lC2DA-Yg6TKt06iyVhi_RIPHUGS-k,19
+telemeter_reporter-0.1.2.dist-info/RECORD,,
