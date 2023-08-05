@@ -1,0 +1,162 @@
+Metadata-Version: 1.2
+Name: GeophPy
+Version: 0.32
+Summary: Tools for sub-surface geophysical survey data processing
+Home-page: UNKNOWN
+Author: Lionel Darras, Philippe Marty & Quentin Vitale
+Author-email: lionel.darras@mom.fr
+Maintainer: Lionel Darras, Philippe Marty & Quentin Vitale
+Maintainer-email: lionel.darras@mom.fr
+License: GNU GPL v3
+Description: .. image:: https://img.shields.io/pypi/l/geophpy.svg
+           :target: ../../../../geophpy/LICENSE 
+           :alt: PyPI - License
+        
+        .. image:: https://img.shields.io/pypi/v/geophpy.svg
+           :target: https://pypi.org/project/GeophPy/
+           :alt: PyPI
+        
+        .. image:: https://img.shields.io/pypi/pyversions/geophpy.svg
+           :target: https://pypi.org/project/GeophPy/
+           :alt: PyPI - Python Version
+        
+        .. image:: https://img.shields.io/pypi/dm/geophpy.svg
+           :target: https://pypistats.org/packages/geophpy
+           :alt: PyPI - Downloads
+        
+        GeophPy is an open source python package that offers tools for sub-surface geophysical survey data processing.
+        
+        It mainly focuses on ground surveys data and offers tools to process the data and create geophysical maps that can be imported to GIS softwares.
+        
+        GeophPy contains `general tools`, such as data destaggering, destriping and `method-specific tools`, such as reduction to the pole or magnetic data continuaiton.
+        
+        +----------------------------------------------------+----------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+        | .. figure:: _static/figQuickStartScatterPlot.png   | .. figure:: _static/figQuickStartSurfacePlot.png   | .. figure:: _static/figQuickStartFestoonfilter.png | .. figure:: _static/figQuickStartDestrip.png       |
+        |    :height: 4cm                                    |    :height: 4cm                                    |    :height: 4cm                                    |    :height: 4cm                                    |
+        |    :align: center                                  |    :align: center                                  |    :align: center                                  |    :align: center                                  |
+        |                                                    |                                                    |                                                    |                                                    |
+        +----------------------------------------------------+----------------------------------------------------+----------------------------------------------------+----------------------------------------------------+
+        
+        Main Features
+        =============
+        
+        +----------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+        | * Build dataset from one or severals data files.                                       | * Export processed datasets into georeferenced format compatible with any GIS.  |
+        | * Display geophysical maps in 2-D or 3-D.                                              | * Compatible with Python 3.x.                                                   |
+        | * Processing datasets with `general` or `method-specific` geophysical processing step. |                                                                                 |
+        +----------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+        
+        The full on-line documentation can be found at: http://134.157.44.234/geophpydoc/
+        
+        Installing
+        ==========
+        
+        GeophPy is distributed on the `PyPI <https://pypi.org/project/GeophPy/>`_ repository and you can install it using ``pip``.
+        
+            >>>  pip install geophpy
+            >>>  or
+            >>>  python -m pip install geophpy
+        
+        See the `package documentation <http://134.157.44.234/geophpydoc/>`_ for more details.
+        
+        Feedback & Contribute
+        =====================
+        
+        Your feedback is more than welcome.
+        
+        If you would like to give a feedback or help improve this project, simply send an e-mail to 
+        lionel.darras@mom.fr, philippe.marty@upmc.fr or quentin.vitale@eveha.fr
+        
+        Links
+        =====
+        
+        **Package**
+        
+        * On-line documentation: http://134.157.44.234/geophpydoc/
+        * PyPI repository: https://pypi.org/project/GeophPy/
+        
+        **GUI**
+        
+        * WuMapPy on-line documentation: http://134.157.44.234/wumappydoc/
+        * WuMapPy PyPI repository: https://pypi.org/project/WuMapPy
+        
+        Changelog
+        *********
+        
+        Version 0.32
+        ============
+        
+        Released on 2019-08-01.
+        
+        * HTML documentation theme changed to Read the Docs theme.
+        * Reading Georeferencing Ground Control Points from CSV as been extended to any delimiter-value file.
+        * Georeferencing now works ungridded dataset values.
+        * Forced equal aspect ratio for map plots.
+        * Added Dataset linear/polynomial detrending of dataset profile.
+        * Constant destriping now works on ungridded dataset values.
+        * Changed the euler deconvolution implementation (now allow automatic sub-windowing).
+        * Changed the magnetic continuation implementation.
+        * Changed the analytic signal implementation.
+        * Added import/export from/to Surfer grids.
+        * Changed the reduction to the pole implementation.
+        * Added directional filter (plough filter).
+        * Added 2D-Fourier spectral plot.
+        * Added setmin/setmax range possibility for correlation calculation in festoon filter.
+        * Uptaded Dataset mean cross-track plot.
+        * Added Dataset zero-mean/zero-median profile filter (works on both gridded and ungridded dataset values). 
+        * Enhanced CSV opening file method for both dataset and geoposset.
+        * Added Datasets merging & edge matcing methods.
+        * Added Dataset translation & rotation.
+        * Added Label display option for 2-D plots.
+        * Added Scatter plot of raw values.
+        * Added number of levels or levels values specification for 2-D contour and filled contour plots.
+        * Fixed Filled 2-D contour plot bug.
+        
+        Version 0.31
+        ============
+        
+        Released on 2018-01-02.
+        
+        * Fixed GeophPy pip installation issues and updated documentation.
+        
+        Version 0.30
+        ============
+        
+        Released on 2017-12-01.
+        
+        * Updated GeophPy documentation.
+        * Added options for constant destriping filter.
+        * Added Mean cross-track profile plot for destripping filters.
+        * Implemented Wallis filter.
+        * Implemented replace by profile's median in peak filtering.
+        * Added automatic delimiter search in delimited files.
+        * Fixed reading delimited file issues.
+        * Added non uniform shift for Festoon.
+        * Fixed correlation and cross-correlation map calculation.
+        * Added color map for histogram plot.
+        * Fixed bug in histo.plot.
+        
+        Version 0.21
+        ============
+        
+        Released on 2016-05-01
+        
+        * Initial version.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

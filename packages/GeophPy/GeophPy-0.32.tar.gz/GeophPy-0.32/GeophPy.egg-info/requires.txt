@@ -1,0 +1,9 @@
+netcdf4
+matplotlib>=1.5
+numpy
+scipy
+pillow
+pyshp
+simplekml
+utm
+Sphinx>=1.4.3
