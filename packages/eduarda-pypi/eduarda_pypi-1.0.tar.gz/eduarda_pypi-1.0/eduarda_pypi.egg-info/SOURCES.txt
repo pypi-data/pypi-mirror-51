@@ -1,0 +1,5 @@
+setup.py
+eduarda_pypi.egg-info/PKG-INFO
+eduarda_pypi.egg-info/SOURCES.txt
+eduarda_pypi.egg-info/dependency_links.txt
+eduarda_pypi.egg-info/top_level.txt
