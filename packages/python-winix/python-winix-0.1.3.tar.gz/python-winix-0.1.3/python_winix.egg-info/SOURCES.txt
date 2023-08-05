@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+python_winix.egg-info/PKG-INFO
+python_winix.egg-info/SOURCES.txt
+python_winix.egg-info/dependency_links.txt
+python_winix.egg-info/top_level.txt
+winix/__init__.py
+winix/winixapi.py
+winix/devices/__init__.py
+winix/devices/purifier.py
+winix/util/__init__.py
+winix/util/cipher.py
+winix/util/discovery.py
