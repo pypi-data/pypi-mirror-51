@@ -1,0 +1,3 @@
+[console_scripts]
+decentralise = decentralise.parse_stan:main
+
