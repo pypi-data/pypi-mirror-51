@@ -1,0 +1,3 @@
+[console_scripts]
+folderplay = folderplay.__main__:main
+
