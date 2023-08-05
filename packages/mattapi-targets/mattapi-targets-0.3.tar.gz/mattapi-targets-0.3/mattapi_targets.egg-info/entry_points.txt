@@ -1,0 +1,5 @@
+[console_scripts]
+plz = plz:hi
+target1 = targets.test.main:main
+target2 = mattapi.targets.test.main:main
+
