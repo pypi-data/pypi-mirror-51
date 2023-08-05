@@ -1,0 +1,10 @@
+README.md
+setup.py
+focused/__init__.py
+focused/blocks.py
+focused/focused.py
+focused.egg-info/PKG-INFO
+focused.egg-info/SOURCES.txt
+focused.egg-info/dependency_links.txt
+focused.egg-info/requires.txt
+focused.egg-info/top_level.txt
