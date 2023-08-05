@@ -1,0 +1,10 @@
+chrys/__init__.py,sha256=RLVoZYmO36rJsTqGJRwxBQVr2Nn9RWp_N5NIdThftSM,15
+chrys/palettes.py,sha256=ZMf44yL6g2EApx5aozqCzvRkLLb324l8JijhX9MGtWw,11063
+chrys/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chrys/data/bokeh_palettes.py,sha256=JKZJu9RkNZrxrWPoTBwhVLHW3qzdMzHN94i_uSs7mnw,78043
+chrys/data/vega_palettes.py,sha256=4I5wW_Y6V25a4vbdBN6yWFxQuRrQRdlcSVZvJ8gzw6E,97142
+chrys-2.0.17.dist-info/LICENSE,sha256=0Fyhn-yshEJ8De66SJapsIt6A8z_QSad7ASkvvpeN40,1511
+chrys-2.0.17.dist-info/METADATA,sha256=fr5aD6K9cI_O3tpxQ6FS_FLCOvriC9uqLU0LvzO76YY,2518
+chrys-2.0.17.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+chrys-2.0.17.dist-info/top_level.txt,sha256=IW69uh1Q5v5IlUc8ZLq8pNmoiInqU6Z-yY8cJJWoQY4,6
+chrys-2.0.17.dist-info/RECORD,,
