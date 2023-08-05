@@ -1,0 +1,6 @@
+---
+vim-emu-nodes:
+  hosts:
+    tango5:  # fgcn-tango-5
+  vars:
+    ansible_user: tngbench

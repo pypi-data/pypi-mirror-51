@@ -1,0 +1,17 @@
+setuptools
+pytest==4.3
+pyyaml>=5.1
+pyaml
+jsonschema
+coloredlogs
+requests
+mock
+flask-restplus
+gevent==1.4.0
+docker
+numpy==1.16
+pandas==0.24
+flatten-dict
+pyangbind
+tngsdk.project
+tngsdk.package

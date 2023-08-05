@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: tngsdk.benchmark
+Version: 5.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/sonata-nfv/tng-sdk-benchmark
+Author: Manuel Peuster
+Author-email: manuel.peuster@uni-paderborn.de
+License: Apache License, Version 2.0
+Description: 
+        Component to automatically benchmark network services
+        and VNFs.
+        
+        See https://sndzoo.github.io for more details.
+        
+Platform: UNKNOWN

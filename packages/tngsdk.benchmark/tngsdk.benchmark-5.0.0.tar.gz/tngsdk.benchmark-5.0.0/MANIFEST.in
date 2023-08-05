@@ -1,0 +1,10 @@
+recursive-include src/tngsdk/benchmark/generator/template *
+recursive-include doc *
+recursive-include examples *
+recursive-include models *
+recursive-include node-installers *
+recursive-include prometheus *
+include .tng-bench.conf
+include README.md
+include LICENSE
+include requirements.txt
