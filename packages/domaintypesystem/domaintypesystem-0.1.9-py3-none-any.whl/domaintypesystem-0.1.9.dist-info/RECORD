@@ -1,0 +1,11 @@
+domaintypesystem/__init__.py,sha256=Be9fCBnT4ufALCs96u7if2eiBrb66vDG0o0SAcyPeHo,866
+domaintypesystem/dts.py,sha256=HCfZdCCp7IIEVICl7j9OzThHqVAW7lCbgvdFsr2HJEY,20427
+domaintypesystem/multicastgroups.py,sha256=RhcM1cGgOiwR-SybZBNoi2uJnQzEFDEGddzEoVm-uu4,717
+domaintypesystem/schema/domain_type_group_membership.capnp,sha256=UuS2k2Z89qVmfARTW68zjAWxOjDezbqutqKanTrjRDU,112
+domaintypesystem/schema/domain_type_group_message.capnp,sha256=046jZ98OzjajnjhqS2ifSAcxXxPUQ8QPz_CcTgVJOEU,292
+domaintypesystem-0.1.9.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+domaintypesystem-0.1.9.dist-info/METADATA,sha256=lHSG4KgkCNkl4SByeW9nnD5jyblSjiHRy3pQoWzdK6o,4062
+domaintypesystem-0.1.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+domaintypesystem-0.1.9.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+domaintypesystem-0.1.9.dist-info/top_level.txt,sha256=oN1AcICxIEiWOQ_TWyjezQQummlknxWox-8SN3XZCSk,17
+domaintypesystem-0.1.9.dist-info/RECORD,,
