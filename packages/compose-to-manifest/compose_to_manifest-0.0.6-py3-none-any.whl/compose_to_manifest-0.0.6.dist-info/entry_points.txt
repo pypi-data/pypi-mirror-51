@@ -1,0 +1,3 @@
+[console_scripts]
+compose-to-manifest = convertor.convertor:main
+
