@@ -1,0 +1,434 @@
+Metadata-Version: 2.1
+Name: pyux-track
+Version: 0.1.2
+Summary: Python ux tools to ease tracking scripts
+Home-page: https://pyux.readthedocs.io/en/stable/
+Author: Romain Damian
+Author-email: damian.romain@gmail.com
+License: UNKNOWN
+Description: Pyux - Python ux tools to ease tracking scripts
+        ===============================================
+        
+        **version** 0.1.2 **license** MIT
+        
+        *Pyux contains a set of functions and classes that help with keeping
+        track of what is happening during a script execution. It contains simple
+        but helpful classes.* 
+        `Contributions <https://pyux.readthedocs.io/en/stable/contributing.html>`__ *to the package are welcomed !*
+        
+        *Three modules are available :* console *provide tools to print
+        stuff to console while a script is executing ;* time *provide
+        tools in relation with time, which is measuring it or waiting for it
+        ;* logging *contains a wrapper around a logger from* ``logging``
+        *module to spare you configuring one.*
+        
+        Installation
+        ============
+        
+        You can download ``pyux`` from PyPi. There is only one requirement which
+        is package `colorama`_, which will be automatically installed with
+        ``pyux``.
+        
+        .. code:: bash
+        
+           pip install pyux-track
+        
+        Demonstration script
+        ~~~~~~~~~~~~~~~~~~~~
+        
+        Once installed, the package comes with a demonstration script that you
+        can use to see how the available classes behave. The demo is exhaustive
+        and interactive so you can skip some sections if you want, or quit it
+        if you get bored. Launch the demo by typing in a terminal :
+        
+        .. code:: bash
+        
+           python -m pyux
+        
+        Please note that the demo does not provide any information on how to
+        use the classes : that you will find below.
+        
+        --------------
+        
+        Module ``console``
+        ==================
+        
+        This module contains classes that print things to the terminal during
+        execution. Most of them are meant to be used as decorators of a for
+        statement, where they can help track where you are in the loop.
+        
+        You can also use them manually to customise behaviour within a loop
+        or anywhere else in your scripts.
+        
+        Wheel
+        ~~~~~
+        
+        Use ``Wheel`` as an iterable’s decoration to have a turning *wheel*
+        printed during a ``for`` loop, turning as fast as the iterations go. By
+        default the iteration index is printed next to the wheel, but you can
+        choose to print the iteration value instead of the iteration index with
+        argument ``print_value = True``.
+        
+        When used over a standard ``range(n)``, it accepts ``n`` as an argument
+        for the iterable.
+        
+        .. code:: python
+        
+           from pyux.console import Wheel
+           from time import sleep
+           
+           myrange = 'An iterable string'
+           for step in Wheel(myrange, print_value = True):
+              sleep(0.2)
+           
+           for step in Wheel(20):
+              sleep(0.1)
+        
+        If you must, you can also instantiate ``Wheel`` outside of a loop then
+        trigger it manually. It is useful mainly to customise the message you
+        want to print.
+        
+        Note that when using it manually, you may want to *close* the wheel when
+        you're done : it prints the length of the iterable or a message if provided,
+        and flushes a new line. Otherwise the console cursor is still on the
+        previous line. When decorating a for loop, it is automatically called when
+        the loop finishes.
+        
+        .. code:: python
+        
+           from time import sleep
+           from pyux.console import Wheel 
+        
+           wheel = Wheel()                  # no need for an iterator argument in that case
+           for index, word in enumerate(['coffee', 'vanilla', 'cocoa']):
+               wheel.print(step = index, message = 'Running on word %s            ' % word)
+               sleep(1)                  # renders best if iterations are not too fast
+           wheel.close(message = 'No more words to think about.')
+        
+        ``Wheel`` can also be used to decorate a generator object rather than an iterable,
+        which is especially useful with ``os.walk()``, for instance, to know both if
+        your script is still running and the total number of read paths. This also makes
+        it compatible with ``enumerate()``.
+        
+        Speak and wordy
+        ~~~~~~~~~~~~~~~
+        
+        ``wordy`` is a decorator function that prints a message at each call of the 
+        decorated function. You can catch exceptions from the decorated function with
+        ``catch = True`` and print a specific message when the exception is catch.
+        
+        By default, ``.`` is printed if the call is successful, and ``!`` if it isn't,
+        allowing easy and concise error tracking within loops. When catching an exception,
+        the exception is returned in place of the function response.
+        
+        .. code:: python
+        
+           from pyux.console import wordy
+        
+           @wordy(catch = True, failure_message = 'x')
+           def error_4(x):
+               if x == 4:
+                   raise ValueError
+           [error_4(x) for x in range(10)]
+        
+        Class ``Speak`` does roughly the same as ``wordy``, but decorates an iterable 
+        in a for loop rather than a function. It thus prints a message at each iteration or
+        every given number of iterations. It does not provide any exception catching
+        environment. For that, you'll have to decorate the function which you want to
+        catch from with ``wordy`` instead of using ``Speak``.
+        
+        As for all other iterable's decorators in this package, standard ``range(n)``
+        iterables can be given with just ``n`` as the ``iterable`` argument.
+        
+        .. code:: python
+        
+           from pyux.console import Speak
+        
+           for x in Speak(45, every = 5):
+               pass
+        
+        Both ``wordy`` and ``Speak`` print their messages with ``sys.stdout.write()``, 
+        and not ``print()``, so that the console cursor can stay on the same line within
+        the same loop. When using ``Speak`` on an iterable in a for loop, a ``close()``
+        method is automatically called when the loop finished to flush a new line. When
+        used *manually*, you'll have to flush ``\n`` (or ``print('')``) to make the
+        cursor go to the new line.
+        
+        ProgressBar
+        ~~~~~~~~~~~
+        
+        Use ``ProgressBar`` as an iteratable’s decoration to have a progress bar
+        printed during a ``for`` loop. It mimics, in a extremely simplified way,
+        the behavior of the great `tqdm`_ progress bar. As for ``Wheel``, you
+        can also use it manually.
+        
+        Integers for ``iterable`` argument are read as ``range(n)``.
+        
+        .. code:: python
+        
+           from pyux.console import ProgressBar
+           from time import sleep
+           
+           for index in ProgressBar(2500):     
+               sleep(0.001)
+        
+        Since ``ProgressBar`` needs to know at initialisation the total number
+        of iterations (to calculate the bar's width and the percentage),
+        it is not usable with generators. A workaround is to give it an approximate
+        number of iterations as ``iterable`` argument, and use it manually. Careful
+        though, should the approximation be too short, the bar will expand further
+        than the console width (or never reach 100% if too big).
+        
+        .. code:: python
+        
+           from pyux.console import ProgressBar
+           from time import sleep
+           
+           def simple_generator(n):
+              for i in range(n):
+                 yield i
+           
+           bar = ProgressBar(1000)
+           for value in simple_generator(1200):
+              sleep(0.002)
+              bar.print(step = value)
+           print('Too long !')
+           
+           bar.current_console_step = 0    # resetting bar to zero
+           for value in simple_generator(800):
+               sleep(0.002)
+               bar.print(step = value)
+           print('Too short !')
+        
+        A *manual* ProgressBar can also be used to track progression on scripts
+        with distinct stages that are not necessarily in the form of a loop,
+        should there be so many of them that it makes sense.
+        
+        Do use ``ProgressBar.close()`` method to be sure that the 100% iteration
+        will be printed and the console cursor flushed to a new line when you
+        use it manually. When decorating a for statement, it is automatically
+        called when the loop finishes.
+        
+        .. code:: python
+        
+           bar = ProgressBar()
+        
+           # here goes stage 1
+           bar.print(step = 1)
+        
+           # here goes ...
+           bar.print(step = ...)
+        
+           bar.close()
+        
+        ColourPen
+        ~~~~~~~~~
+        
+        Use ``ColourPen`` as its name indicates : to write colored text in
+        terminal. It uses ``colorama`` package. Use a single instance for
+        different styles thanks to the possibility of chaining ``write``
+        instructions.
+        
+        .. code:: python
+        
+           from pyux.console import ColourPen
+        
+           pen = ColourPen()
+           pen.write('Hello', color = 'cyan', style = 'normal')\
+               .write(' this is another', color = 'red')\
+               .write(' color on the same line.', color = 'green', newline = True)\
+               .write("The same color on a new line. I'm reseting styles after that.", newline = True, reset = True)\
+               .write('A normal goodbye.')\
+               .close()
+        
+        ``ColourPen.close()`` resets styles to normal, flushes to a new line and closes
+        ``colorama``, which means that if you do not initialise a pen instance again,
+        the colouring and styling won't work anymore.
+        
+        Module ``time``
+        ===============
+        
+        This module contains classes that handle time : either measure it, or
+        wait.
+        
+        Timer
+        ~~~~~
+        
+        ``Timer`` pause your script for the given number of seconds. With quite
+        the same design as wheel, you may add a message next to the timer.
+        
+        .. code:: python
+        
+           from pyux.time import Timer
+        
+           # A timer for 3 seconds with a message
+           Timer(delay = 3, message = 'Pausing 3 secs, tired')
+        
+           # A timer with no message
+           Timer(delay = 3)
+        
+        The timer can also be used as an iterable's decoration within a for statement,
+        when you repeatedly have to await the same delay at each iteration.
+        Specifying ``overwrite = True`` allows each iteration to be
+        rewritten on the same line, which is advised when used in that case.
+        
+        Note that the first argument to ``Timer`` is ``iterable`` and not ``delay``, and
+        all of them have default values, so ``Timer(5)`` won't have the expected
+        behaviour !
+        
+        By default, a timer in a for loop prints the iteration index next to the timer. 
+        Use ``pattern`` argument to specify a prefix to add to the default iteration
+        index (default to ``''``), or ``print_value`` to print the iteration
+        value rather than the index.
+        
+        .. code:: python
+           
+           from pyux.time import Timer
+           
+           for fruit in Timer(['banana', 'apple', 'tomato'], delay = 3, print_value = True):
+              pass
+        
+        Again, the ``Timer.close()`` makes the counter go to zero *included* and flushes
+        a new line. It is called automatically when used as a loop decoration.
+        
+        Wait
+        ~~~~
+        
+        Use ``wait`` to decorate a function that you want to pause for a given amount of
+        time before or after each execution. It can be useful for API calls in loops
+        where you have await a certain time between each API call. The pause can be made
+        before or after the function call, and ``Timer`` can be used instead of the built-in 
+        ``sleep`` function with ``timer = True``. 
+        
+        .. code:: python
+        
+           from pyux.time import wait
+        
+           @wait(delay = 3, before = True)
+           def do_nothing():
+              return
+           do_nothing()
+        
+        Chronos
+        ~~~~~~~
+        
+        Use ``Chronos`` to measure user execution time, for a script or a loop.
+        It works as a stopwatch : rather than wrapping around and timing an
+        expression, it triggers at start, then the method ``Chronos.lap()``
+        records time with ``timeit.default_timer()`` each time it is called (thus
+        resembling a lap button on a stopwatch).
+        
+        .. code:: python
+        
+           from time import sleep
+           from pyux.time import Chronos
+        
+           chrono = Chronos()
+           print('Step one with duration approx. 1.512 secs')
+           sleep(1.512)
+           chrono.lap(name = 'step 1')
+        
+           print('Step two with duration approx. 1.834 secs')
+           sleep(1.834)
+           chrono.lap(name = 'step 2')
+        
+           chrono.compute_durations(ms = True)
+        
+           print('\nNow printing durations :')
+           for name, time in chrono.durations.items():
+               print('Time for step %s : %d ms' % (name, time))
+        
+        Durations can be written in a tsv file with ``Chronos.write_tsv()``.
+        The method uses an append mode, so you can append times from different runs 
+        to the same tracking file, for instance. Argument ``run_name`` in that method
+        allows you to give a name to a run especially for that purpose (the name appears
+        as the first column of the written file).
+        
+        Three columns are written, with default names ``Execution`` (the one
+        presented just above), ``Step`` and ``Duration (secs)``. These names
+        can be changed with argument ``col_names``.
+        
+        If you want to time iterations in a for loop, you can use it as a
+        decoration for the iterable. Since you won't be able to assign the
+        object back when the loop finishes, you can choose to print durations
+        in console, or write them into a tsv file.
+        
+        .. code:: python
+        
+           from pyux.time import Chronos
+           from pyux.time import Timer
+           
+           for index, value in enumerate(Chronos(range(1, 4), console_print = True, ms = True)):
+              Timer(delay = value, message = 'At iteration %d' % index, overwrite = True)
+        
+        Depending on the number of arguments you provide, declaration in the for
+        statement can become rather verbose. Feel free to initiate the chrono outside of the
+        loop, in which case, the object remains available after the loop (if you need to add
+        steps from the rest of the code afterwards, for instance).
+        
+        .. code:: python
+        
+           from pyux.time import Chronos
+           from time import sleep
+           from os import unlink
+           
+           timed_iterable = Chronos(
+              iterable = range(25),
+              console_print = True,
+              write_tsv = True,
+              run_name = 'verbose_declaration',
+              path = 'example_times.tsv',
+              col_names = ('run', 'lap', 'duration (msecs)'),
+              ms = True
+           )
+           for value in timed_iterable:
+               sleep(value / 1000)
+           # unlink('example_times.tsv')
+        
+        Module ``logging``
+        ==================
+        
+        The module contains a function ``init_logger`` that returns a logger
+        from the `logging package`_ with a fixed formatting, but choice in the log
+        file name. The default name contains the date and time of execution.
+        
+        A different log file is created in the given folder at each code run, if the
+        default name for the log file is used. If you set an equal name
+        from one run to another, the various logs will be appended to the same log file.
+        
+        ``pyux`` comes with a default format for the logger, but you can specify
+        your own ``logging.conf``. Feel free to use ``ColourPen`` to color
+        logger messages :
+        
+        .. code:: python
+        
+           from pyux.logging import init_logger
+           from pyux.console import ColourPen
+           from shutil import rmtree
+        
+           logger = init_logger(folder = 'logs', filename = 'activity', run_name = 'exemple', time_format = '%Y%m%d')
+           pen = ColourPen
+        
+           # writes in green for debug
+           pen.write(color = 'green')
+           logger.debug('This ia a debug')
+        
+           # writes in red for critical
+           pen.write(color = 'red', style = 'bright')
+           logger.critical('This is a critical')
+        
+           # go back to normal for info
+           pen.write(style = 'RESET_ALL')
+           logger.info('This is an info')
+        
+           # rmtree('logs')
+        
+        The same logger can be used throughout a whole project by calling
+        ``logger = logging.getLogger(__name__)`` in submodules of the main script.
+        
+        .. _colorama: https://pypi.org/project/colorama
+        .. _tqdm: https://github.com/tqdm/tqdm
+        .. _logging package: https://docs.python.org/3/howto/logging.html
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
