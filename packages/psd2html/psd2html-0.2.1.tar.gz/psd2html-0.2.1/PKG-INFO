@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: psd2html
+Version: 0.2.1
+Summary: Convert PSD file to HTML
+Home-page: https://github.com/kimngei/psd2html
+Author: Andrew Ngei
+Author-email: andrew@kimngei.pro
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
