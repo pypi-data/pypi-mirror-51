@@ -1,0 +1,33 @@
+{% extends "cm_portal/geriatric_index.html" %}
+
+{% block title %}| {{ title }}{% endblock %}
+
+{% block page_title %}| {{ title }}{% endblock %}
+
+{% load static %}
+
+{% block search_form %}
+  <form class="navbar-form navbar-right" id="search-form" action="{% url 'search-drugs' %}" method="get">
+    {{ form.as_p }}            
+  </form>        
+{% endblock %}
+
+{% block content %}  
+  <div class="jumbotron"><div class="table-responsive">
+  <form id="search-form" action="{% url 'drugs' %}" method="get">
+      {{ form.as_p }}            
+  </form>
+  {% load django_tables2 %}
+  {% if search %}
+    {% render_table results %}
+  {% else %}
+    {% render_table table %}
+  {% endif %}
+  </div>    
+  <br>
+  {% if perms.cm_portal.add_drug %}
+    <a class="btn btn-primary" href="{% url 'drug-create' %}" role="button">Add a drug</a>
+  {% else %} 
+    <a class="btn btn-primary disabled" href="{% url 'drug-create' %}" role="button">Add a drug</a>
+  {% endif %}</div>  
+{% endblock %}
