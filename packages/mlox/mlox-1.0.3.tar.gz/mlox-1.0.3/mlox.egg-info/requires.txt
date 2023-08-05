@@ -1,0 +1,4 @@
+colorama
+appdirs
+pyqt5
+py7zr
