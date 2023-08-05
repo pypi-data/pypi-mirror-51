@@ -1,0 +1,11 @@
+osxphotos/__init__.py,sha256=-GRPYh2_rJYSvY_Z3hVJIfoe07d66FEUh0ee-UCbaP4,28639
+osxphotos/_applescript.py,sha256=59SJzle82ZrWZzR97sHW4I3_OrN4BLFbD2l-hAucSbU,6797
+osxphotos/aecodecs.py,sha256=QrJUO7jsCfbEyupNSqfKgI7GohpHY5FhtySafoO962U,9908
+osxphotos/cmd_line.py,sha256=hXSyu5P0bScedTjMfwgDFRxzxmSA1lTrEdP978MZg5A,5191
+osxphotos/kae.py,sha256=opLxyXUxlrv4a0-QlK4m0vHAJAsuUPafVa9OmPbhRFE,37868
+osxphotos-0.12.2.dist-info/LICENSE,sha256=BErJzcJjyzF1vsEVjmPeg9XKFHv_zFJM5BPnEP7K-f8,1070
+osxphotos-0.12.2.dist-info/METADATA,sha256=NCinqIvahfCG9fJRABkwsXDMos1EVKeJ7hFmyhrV04M,14694
+osxphotos-0.12.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+osxphotos-0.12.2.dist-info/entry_points.txt,sha256=RHyCzZ2JrCNj_icD14YcV5yXMldwsjyTUZsFhitl1s8,54
+osxphotos-0.12.2.dist-info/top_level.txt,sha256=qandbNCa2Gq-Q_PH8zqkKFbe_PMROhRzvmpHscUskCE,10
+osxphotos-0.12.2.dist-info/RECORD,,
