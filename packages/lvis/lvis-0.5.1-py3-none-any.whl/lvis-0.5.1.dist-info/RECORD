@@ -1,0 +1,11 @@
+lvis/__init__.py,sha256=w3bwST6eE7LMVqXyJpwnaxoO6KNe6dLgv8WIMkkZMTA,335
+lvis/colormap.py,sha256=ubFybyApxytUguev9BJcapTupBjKuBWr-IWm4XbJAz0,4831
+lvis/eval.py,sha256=1dubkWOEl0UVyiT02Z5dhVe0hycUAaQTOCP1PsIHfX0,20261
+lvis/lvis.py,sha256=c0xcQK3NS3OsWIWQuaCnEfKD_BE62imM17UzX6fdsIM,6084
+lvis/results.py,sha256=6E5AF4fEVRO9DuqOyjerCZjEqSznlQMevJODI5ZhzAo,3252
+lvis/vis.py,sha256=zHUWf37KYYvLNhaI8OwRLtaSEPjsLitaGDz-Lhe0fqo,6688
+lvis-0.5.1.dist-info/LICENSE,sha256=RkjJRM-crNxAUKor4Kbvwog-clsBkR3M85KYnvRuvzI,1529
+lvis-0.5.1.dist-info/METADATA,sha256=tAJuLhxHnoMjMUtUxNL3zXhzAf0tDamoSHH-NIia4tI,856
+lvis-0.5.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+lvis-0.5.1.dist-info/top_level.txt,sha256=hXotAvsvj73HyTQTYf0ezr17BnJHJiy3nAnNixVK_pE,5
+lvis-0.5.1.dist-info/RECORD,,
