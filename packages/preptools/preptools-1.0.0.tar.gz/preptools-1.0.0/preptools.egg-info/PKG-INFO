@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: preptools
+Version: 1.0.0
+Summary: Test suite for ICON SCORE development
+Home-page: UNKNOWN
+Author: ICON Foundation
+Author-email: foo@icon.foundation
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
