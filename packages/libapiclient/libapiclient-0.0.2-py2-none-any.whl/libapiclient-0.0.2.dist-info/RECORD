@@ -1,0 +1,11 @@
+lib_api_client/__init__.py,sha256=X41W9SoRir9NfTchwMubpd9Dk-NkQLbt05T2PSnlzko,403
+lib_api_client/client.py,sha256=bcr6f20jlGctfNIYTBZXMdRwzXXDGQqB7lwEfjvzRy4,808
+lib_api_client/const.py,sha256=itZOEGhRDRdt5nPQZLRst9L7gBtSmXyEu2X4Z3J9LC8,175
+lib_api_client/exception.py,sha256=QOlpDCsv5RAjM-bVXftLudenzpMjEvSzb-54H6OhbUA,154
+lib_api_client/session_pool.py,sha256=7vb5UpdUcl-qQO5K7_bSCXLopabmANrWFhXFNS3IZNU,542
+lib_api_client/utils.py,sha256=bg9b9XGXsZbowOOJtuYjh2NACBlFMC9KDwbgNunIbzg,5509
+libapiclient-0.0.2.dist-info/LICENSE,sha256=6w3npeDOBBAUCO_NABHQZroE_XLtildSud9BZmYqcWE,1061
+libapiclient-0.0.2.dist-info/METADATA,sha256=YrdMVhQiB0ohYQrbAcBO5D85GcEDUl01UGw4fJwgbx8,531
+libapiclient-0.0.2.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+libapiclient-0.0.2.dist-info/top_level.txt,sha256=QAWYH8z1Unqj0KUswIWklK9u0ThCvtW2v3XvQXOXGzo,15
+libapiclient-0.0.2.dist-info/RECORD,,
