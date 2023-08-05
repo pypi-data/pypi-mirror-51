@@ -1,0 +1,11 @@
+README.md
+setup.py
+WSO/UEM.py
+WSO/__init__.py
+WSO/configure.py
+WSO/configure_args.py
+WSO.egg-info/PKG-INFO
+WSO.egg-info/SOURCES.txt
+WSO.egg-info/dependency_links.txt
+WSO.egg-info/requires.txt
+WSO.egg-info/top_level.txt
