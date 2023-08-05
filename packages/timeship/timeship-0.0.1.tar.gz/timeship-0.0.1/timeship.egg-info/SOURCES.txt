@@ -1,0 +1,6 @@
+README.md
+setup.py
+timeship.egg-info/PKG-INFO
+timeship.egg-info/SOURCES.txt
+timeship.egg-info/dependency_links.txt
+timeship.egg-info/top_level.txt
