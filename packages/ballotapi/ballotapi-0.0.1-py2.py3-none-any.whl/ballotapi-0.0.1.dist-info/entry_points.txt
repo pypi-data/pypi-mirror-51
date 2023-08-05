@@ -1,0 +1,3 @@
+[console_scripts]
+ballotapi = ballotapi.cli:main
+
