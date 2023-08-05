@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+src/masonite/interfaces/Interface.py
+src/masonite/interfaces/__init__.py
+src/masonite/interfaces/exceptions.py
+src/masonite/interfaces/version.txt
+src/masonite_interfaces.egg-info/PKG-INFO
+src/masonite_interfaces.egg-info/SOURCES.txt
+src/masonite_interfaces.egg-info/dependency_links.txt
+src/masonite_interfaces.egg-info/top_level.txt
