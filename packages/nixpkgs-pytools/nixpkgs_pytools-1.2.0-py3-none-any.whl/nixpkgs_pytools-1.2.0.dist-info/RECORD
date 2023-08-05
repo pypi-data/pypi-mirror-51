@@ -1,0 +1,14 @@
+nixpkgs_pytools/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nixpkgs_pytools/dependency.py,sha256=XMyHlz74mcqagWjuOF8mbS_YVJeEibw6jsxs4ItAoRw,10199
+nixpkgs_pytools/download.py,sha256=vsLVWyV8dimh7nKVHTRjjPBN7NqGOYwU3OH7_2ySIfs,1241
+nixpkgs_pytools/format.py,sha256=_-WrYVvP_cBs7_yGISyJjvRjbpCaz3C9VeDw_5dduCw,4157
+nixpkgs_pytools/import_rewrite.py,sha256=XGQTGV1f8scmgw5i-DymV2PUUSTUjHy5yLnkSkgv_nM,1164
+nixpkgs_pytools/output.py,sha256=3MJkxHAPdeiNdo1FSSl4eWNm-2Lio5GjxuHLAoRpx5o,3403
+nixpkgs_pytools/python_package_init.py,sha256=Uju19WZb3vb6svl76kvx98edzMGXC1nC0v5gZWGc814,6524
+nixpkgs_pytools/utils.py,sha256=7FvLwypIDwm4SQrJeEx05Cvx4v2g0yiAaz9sdz1jl3M,359
+nixpkgs_pytools-1.2.0.dist-info/LICENSE,sha256=LV99NBfwb9-2J-1WuAEzyJ2PqNgYn_7o9XIu8gFTbhs,1094
+nixpkgs_pytools-1.2.0.dist-info/METADATA,sha256=pdMfOjABzUFUWAk_bQe3djt_Jggf8nQzineE5AmTgNw,3957
+nixpkgs_pytools-1.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nixpkgs_pytools-1.2.0.dist-info/entry_points.txt,sha256=S_p2Qn0tmPuTb5PPqte07vtyhw4s2CjY7_o127ClUxc,143
+nixpkgs_pytools-1.2.0.dist-info/top_level.txt,sha256=_bJgh_pAyzuBoGPFYfB_oFcd68t3GT5yKhfrLcqypUk,16
+nixpkgs_pytools-1.2.0.dist-info/RECORD,,
