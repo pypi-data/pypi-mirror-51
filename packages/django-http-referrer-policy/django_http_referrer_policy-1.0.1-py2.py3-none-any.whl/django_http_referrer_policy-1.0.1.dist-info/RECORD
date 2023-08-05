@@ -1,0 +1,9 @@
+django_http_referrer_policy/__init__.py,sha256=zlySr8Zk5c-T7SQ-cvZv9TbRGZo1HAAns437feOZO3w,114
+django_http_referrer_policy/apps.py,sha256=wPD-w_wr-kqioRJJ4dOPU_MZZrSbSae790jLNhKB-gY,146
+django_http_referrer_policy/middleware.py,sha256=9y_c_SXim3HJcQrhvcTpG6hkL2UTNtjSLaHv-s2n_rg,1747
+django_http_referrer_policy-1.0.1.dist-info/DESCRIPTION.rst,sha256=auDF06_38RZUKiazEDN2dIgy-VRcX-ycF1PLOwgBl9g,2577
+django_http_referrer_policy-1.0.1.dist-info/METADATA,sha256=ajhMmoCXs8sqzQ1Me2NIAGHQpI5MUkCkjaGzLDQZ7f8,3710
+django_http_referrer_policy-1.0.1.dist-info/RECORD,,
+django_http_referrer_policy-1.0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+django_http_referrer_policy-1.0.1.dist-info/metadata.json,sha256=sSeetlHA3LVHConyHV1nH4GCAu_ASn0QIAlWxmA9oj8,1177
+django_http_referrer_policy-1.0.1.dist-info/top_level.txt,sha256=UvK1ATeWtjVyYfZmu3ruxeM6y38w9JuuDUaUZ7uQ2is,28
