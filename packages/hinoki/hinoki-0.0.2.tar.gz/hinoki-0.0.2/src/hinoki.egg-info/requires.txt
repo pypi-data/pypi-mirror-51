@@ -1,0 +1,8 @@
+requests
+PyYAML
+urllib3
+Click
+
+[testing]
+pytest
+pytest-cov
