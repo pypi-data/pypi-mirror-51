@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+depgrep/__init__.py
+depgrep/depgrep.py
+depgrep.egg-info/PKG-INFO
+depgrep.egg-info/SOURCES.txt
+depgrep.egg-info/dependency_links.txt
+depgrep.egg-info/not-zip-safe
+depgrep.egg-info/requires.txt
+depgrep.egg-info/top_level.txt
