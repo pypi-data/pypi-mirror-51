@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rfpipe
+Version: 1.3.7
+Summary: Radio interferometric transient search pipeline for realfast
+Home-page: http://github.com/realfastvla/rfpipe
+Author: Casey Law
+Author-email: claw@astro.berkeley.edu
+License: BSD
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: sdmpy
+Requires-Dist: pyfftw
+Requires-Dist: bokeh
+Requires-Dist: cython
+Requires-Dist: scikit-learn (<0.21)
+Requires-Dist: attrs
+Requires-Dist: future
+Requires-Dist: astropy
+Requires-Dist: pyyaml
+Requires-Dist: numba
+Requires-Dist: fuzzywuzzy
+Requires-Dist: hdbscan (<0.8.19)
+Requires-Dist: matplotlib
+Requires-Dist: kalman-detector
+
+rfpipe supports fast transient searching of radio interferometric data.
+This is written as part of the realfast project will perform real-time commensal
+fast radio transient searches at the Very Large Array. rfpipe supports both
+real-time and offline searches, GPU and CPU algorithms, and reproducible analysis of
+transients found by realfast. More project info at http://realfast.io.
+
+
