@@ -1,0 +1,14 @@
+{% load static %}
+<!--<ul id="tabs" class="tabs">
+    <li class="tab col s3"><a class="active" href="#tab-1">Hola</a></li>
+    <li class="tab col s3"><a class="active" href="#tab-2">Hola2</a></li>
+    <li class="tab col s3"><a class="active" href="#tab-3">Hola3</a></li>
+</ul>-->
+
+<ul id="tabs" class="tabs">
+ <li class="tab col s3"><a class="active" href="#tab-1">Main</a></li>
+{% for inline_admin_formset in inline_admin_formsets %}
+  <li class="tab col s3"><a class="active" href="#tab-{{forloop.counter | add:'+1'}}">{{inline_admin_formset.opts.verbose_name}}</a></li> 
+{% endfor %}
+    
+</ul>
