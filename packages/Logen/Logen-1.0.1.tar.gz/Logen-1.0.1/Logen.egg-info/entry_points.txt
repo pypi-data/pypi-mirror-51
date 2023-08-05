@@ -1,0 +1,3 @@
+[console_scripts]
+logen = Logen.main:main
+
