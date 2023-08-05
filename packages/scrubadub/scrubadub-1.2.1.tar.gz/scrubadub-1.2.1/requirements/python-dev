@@ -1,0 +1,20 @@
+# install everything in the python requirements too. this may be
+# needed by readthedocs?!?!
+-r python
+
+# needed for tests/run.py script to read .travis.yml file
+PyYAML
+
+# needed to run the tests
+pep8
+coveralls
+nose
+
+# for documentation
+sphinx
+sphinx_rtd_theme
+
+# ipdb for convenience.
+# old versions needed for python 2.7 compatibility, despite what the docs say
+ipython==5.4
+ipdb==0.10.2
