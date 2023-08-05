@@ -1,0 +1,3 @@
+expandvars
+pyramid>=1.7
+requests
