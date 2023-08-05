@@ -1,0 +1,13 @@
+README.md
+setup.py
+styletransfer/__about__.py
+styletransfer/__init__.py
+styletransfer/exceptions.py
+styletransfer/model.py
+styletransfer/wrapper.py
+styletransfer.egg-info/PKG-INFO
+styletransfer.egg-info/SOURCES.txt
+styletransfer.egg-info/dependency_links.txt
+styletransfer.egg-info/not-zip-safe
+styletransfer.egg-info/requires.txt
+styletransfer.egg-info/top_level.txt
