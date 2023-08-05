@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: sudokumizer
+Version: 0.0.5
+Summary: The board() method returns a Sudoku board sollution. Use as a starting point for your own Sudoku creations.
+Home-page: https://github.com/tomasforsman/sudokumizer
+Author: Tomas Forsman
+Author-email: tomas@forsman.dev
+License: MIT
+Keywords: sudokumizer
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+
+=============================
+Sudokumizer
+=============================
+
+.. image:: https://badge.fury.io/py/sudokumizer.png
+    :target: http://badge.fury.io/py/sudokumizer
+
+.. image:: https://travis-ci.org/tomasforsman/sudokumizer.png?branch=master
+    :target: https://travis-ci.org/tomasforsman/sudokumizer
+
+Returns a Sudoku board sollution as a numpy 2d array. Use as a starting point for your own Sudoku creations.
+
+This is my Hello World project when starting to learn Python.
+
+
+
+Documentation
+-------------
+
+The full documentation is at http://sudokumizer.rtfd.org.
+
+
+
+History
+-------
+
+0.0.5 (2019-08-20)
+++++++++++++++++++++++++++++
+
+* Changed setup language to Python 3.7
+
+0.0.3 and 0.0.4 (2019-08-20)
+++++++++++++++++++++++++++++
+
+* Update to readme and documentation
+
+0.0.2 (2019-08-19)
+++++++++++++++++++
+
+* Refactoring
+
+0.0.1 (2019-08-19)
+++++++++++++++++++
+
+* First release on PyPI.
+
+
