@@ -1,0 +1,3 @@
+[console_scripts]
+prometheus-aws-configservice-exporter = prometheus_aws_configservice_exporter.cli:run
+
