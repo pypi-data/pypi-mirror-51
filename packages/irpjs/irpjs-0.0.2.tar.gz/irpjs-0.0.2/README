@@ -1,0 +1,35 @@
+# Websocket server for JS impress remote protocol
+
+# Installation
+
+This isn't meant to be run as a standalone project right now, instead it's run by [libresign](https://github.com/LibreOffice/libresign), but it can be installed thusly
+
+```
+pip install irpjs
+```
+
+and it will also be installed as a dependency when you install libresign
+
+```
+pip install libresign
+```
+
+# Development
+
+This is a simple one-file program. It simply starts a websocket server andreroutes requests sent from a client (using the [irpjs-client](https://github.com/rptr/irpjs-client) library) to a LibreOffice instance running on the same machine.
+
+dependencies (debian-based):
+
+`apt-get install python3 pip3`
+
+dependencies (python):
+
+`pip3 install gevent-websocket`
+
+run with:
+
+`./irp.py`
+
+# Contributors
+
+Rasmus P J <wasmus@zom.bi>

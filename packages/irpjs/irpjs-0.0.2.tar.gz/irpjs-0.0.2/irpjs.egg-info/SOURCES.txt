@@ -1,0 +1,9 @@
+README
+setup.py
+irpjs/__init__.py
+irpjs/irp.py
+irpjs.egg-info/PKG-INFO
+irpjs.egg-info/SOURCES.txt
+irpjs.egg-info/dependency_links.txt
+irpjs.egg-info/requires.txt
+irpjs.egg-info/top_level.txt
