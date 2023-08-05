@@ -1,0 +1,6 @@
+FCMHelpers
+MiscHelpers
+SOMsHelpers
+dataPreprocessing
+fuzzy_clustering
+minisom
