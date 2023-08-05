@@ -1,0 +1,16 @@
+[Unit]
+Description=sadm-listen
+After=syslog.target
+Requires=atd.service
+
+[Service]
+Type=notify
+NotifyAccess=all
+Restart=on-failure
+KillSignal=SIGQUIT
+StandardError=syslog
+PrivateTmp=true
+ExecStart=/usr/bin/uwsgi --need-plugin python3 --ini /etc/opt/sadm/uwsgi.ini
+
+[Install]
+WantedBy=multi-user.target
