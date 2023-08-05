@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>jupyterlab_celltests package &mdash; jupyterlab_celltests 0.0.7 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> jupyterlab_celltests
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.7
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">jupyterlab_celltests package</a><ul>
+<li><a class="reference internal" href="#module-jupyterlab_celltests.extension">Submodules</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">jupyterlab_celltests</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>jupyterlab_celltests package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/jupyterlab_celltests.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-jupyterlab_celltests">
+<span id="jupyterlab-celltests-package"></span><h1>jupyterlab_celltests package<a class="headerlink" href="#module-jupyterlab_celltests" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-jupyterlab_celltests.extension">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-jupyterlab_celltests.extension" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="jupyterlab_celltests.extension.RunCelltestsHandler">
+<em class="property">class </em><code class="descclassname">jupyterlab_celltests.extension.</code><code class="descname">RunCelltestsHandler</code><span class="sig-paren">(</span><em>application: tornado.web.Application</em>, <em>request: tornado.httputil.HTTPServerRequest</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#RunCelltestsHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.RunCelltestsHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">notebook.base.handlers.IPythonHandler</span></code></p>
+<dl class="attribute">
+<dt id="jupyterlab_celltests.extension.RunCelltestsHandler.executor">
+<code class="descname">executor</code><em class="property"> = &lt;concurrent.futures.thread.ThreadPoolExecutor object&gt;</em><a class="headerlink" href="#jupyterlab_celltests.extension.RunCelltestsHandler.executor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="jupyterlab_celltests.extension.RunCelltestsHandler.get">
+<code class="descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#RunCelltestsHandler.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.RunCelltestsHandler.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="jupyterlab_celltests.extension.RunCelltestsHandler.initialize">
+<code class="descname">initialize</code><span class="sig-paren">(</span><em>executable=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#RunCelltestsHandler.initialize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.RunCelltestsHandler.initialize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="jupyterlab_celltests.extension.RunCelltestsHandler.post">
+<code class="descname">post</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#RunCelltestsHandler.post"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.RunCelltestsHandler.post" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="jupyterlab_celltests.extension.RunLintsHandler">
+<em class="property">class </em><code class="descclassname">jupyterlab_celltests.extension.</code><code class="descname">RunLintsHandler</code><span class="sig-paren">(</span><em>application: tornado.web.Application</em>, <em>request: tornado.httputil.HTTPServerRequest</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#RunLintsHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.RunLintsHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">notebook.base.handlers.IPythonHandler</span></code></p>
+<dl class="attribute">
+<dt id="jupyterlab_celltests.extension.RunLintsHandler.executor">
+<code class="descname">executor</code><em class="property"> = &lt;concurrent.futures.thread.ThreadPoolExecutor object&gt;</em><a class="headerlink" href="#jupyterlab_celltests.extension.RunLintsHandler.executor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="jupyterlab_celltests.extension.RunLintsHandler.get">
+<code class="descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#RunLintsHandler.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.RunLintsHandler.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="jupyterlab_celltests.extension.RunLintsHandler.initialize">
+<code class="descname">initialize</code><span class="sig-paren">(</span><em>rules=None</em>, <em>executable=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#RunLintsHandler.initialize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.RunLintsHandler.initialize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="jupyterlab_celltests.extension.RunLintsHandler.post">
+<code class="descname">post</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#RunLintsHandler.post"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.RunLintsHandler.post" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.extension.load_jupyter_server_extension">
+<code class="descclassname">jupyterlab_celltests.extension.</code><code class="descname">load_jupyter_server_extension</code><span class="sig-paren">(</span><em>nb_server_app</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/extension.html#load_jupyter_server_extension"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.extension.load_jupyter_server_extension" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called when the extension is loaded.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>nb_server_app</strong> (<em>NotebookWebApplication</em>) – handle to the Notebook webserver instance.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<span class="target" id="module-jupyterlab_celltests.lint"></span><dl class="function">
+<dt id="jupyterlab_celltests.lint.lint_cell_coverage">
+<code class="descclassname">jupyterlab_celltests.lint.</code><code class="descname">lint_cell_coverage</code><span class="sig-paren">(</span><em>cell_coverage</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/lint.html#lint_cell_coverage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.lint.lint_cell_coverage" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.lint.lint_cells_per_notebook">
+<code class="descclassname">jupyterlab_celltests.lint.</code><code class="descname">lint_cells_per_notebook</code><span class="sig-paren">(</span><em>cells_per_notebook</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/lint.html#lint_cells_per_notebook"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.lint.lint_cells_per_notebook" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.lint.lint_class_definitions">
+<code class="descclassname">jupyterlab_celltests.lint.</code><code class="descname">lint_class_definitions</code><span class="sig-paren">(</span><em>class_definitions</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/lint.html#lint_class_definitions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.lint.lint_class_definitions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.lint.lint_function_definitions">
+<code class="descclassname">jupyterlab_celltests.lint.</code><code class="descname">lint_function_definitions</code><span class="sig-paren">(</span><em>function_definitions</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/lint.html#lint_function_definitions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.lint.lint_function_definitions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.lint.lint_lines_per_cell">
+<code class="descclassname">jupyterlab_celltests.lint.</code><code class="descname">lint_lines_per_cell</code><span class="sig-paren">(</span><em>lines_per_cell</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/lint.html#lint_lines_per_cell"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.lint.lint_lines_per_cell" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.lint.run">
+<code class="descclassname">jupyterlab_celltests.lint.</code><code class="descname">run</code><span class="sig-paren">(</span><em>notebook</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/lint.html#run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.lint.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.lint.runWithHTMLReturn">
+<code class="descclassname">jupyterlab_celltests.lint.</code><code class="descname">runWithHTMLReturn</code><span class="sig-paren">(</span><em>notebook</em>, <em>executable=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/lint.html#runWithHTMLReturn"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.lint.runWithHTMLReturn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.lint.runWithReturn">
+<code class="descclassname">jupyterlab_celltests.lint.</code><code class="descname">runWithReturn</code><span class="sig-paren">(</span><em>notebook</em>, <em>executable=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/lint.html#runWithReturn"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.lint.runWithReturn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<span class="target" id="module-jupyterlab_celltests.shared"></span><dl class="function">
+<dt id="jupyterlab_celltests.shared.extract_cellsources">
+<code class="descclassname">jupyterlab_celltests.shared.</code><code class="descname">extract_cellsources</code><span class="sig-paren">(</span><em>notebook</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/shared.html#extract_cellsources"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.shared.extract_cellsources" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.shared.extract_celltests">
+<code class="descclassname">jupyterlab_celltests.shared.</code><code class="descname">extract_celltests</code><span class="sig-paren">(</span><em>notebook</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/shared.html#extract_celltests"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.shared.extract_celltests" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.shared.extract_extrametadata">
+<code class="descclassname">jupyterlab_celltests.shared.</code><code class="descname">extract_extrametadata</code><span class="sig-paren">(</span><em>notebook</em>, <em>override=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/shared.html#extract_extrametadata"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.shared.extract_extrametadata" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.shared.get_coverage">
+<code class="descclassname">jupyterlab_celltests.shared.</code><code class="descname">get_coverage</code><span class="sig-paren">(</span><em>notebook</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/shared.html#get_coverage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.shared.get_coverage" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<span class="target" id="module-jupyterlab_celltests.tests"></span><dl class="function">
+<dt id="jupyterlab_celltests.tests.assemble_code">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">assemble_code</code><span class="sig-paren">(</span><em>sources</em>, <em>tests</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#assemble_code"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.assemble_code" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.run">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">run</code><span class="sig-paren">(</span><em>notebook</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.runWithHTMLReturn">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">runWithHTMLReturn</code><span class="sig-paren">(</span><em>notebook</em>, <em>executable=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#runWithHTMLReturn"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.runWithHTMLReturn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.runWithReturn">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">runWithReturn</code><span class="sig-paren">(</span><em>notebook</em>, <em>executable=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#runWithReturn"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.runWithReturn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.writeout_cell_coverage">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">writeout_cell_coverage</code><span class="sig-paren">(</span><em>fp</em>, <em>cell_coverage</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#writeout_cell_coverage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.writeout_cell_coverage" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.writeout_cells_per_notebook">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">writeout_cells_per_notebook</code><span class="sig-paren">(</span><em>fp</em>, <em>cells_per_notebook</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#writeout_cells_per_notebook"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.writeout_cells_per_notebook" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.writeout_class_definitions">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">writeout_class_definitions</code><span class="sig-paren">(</span><em>fp</em>, <em>class_definitions</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#writeout_class_definitions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.writeout_class_definitions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.writeout_function_definitions">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">writeout_function_definitions</code><span class="sig-paren">(</span><em>fp</em>, <em>function_definitions</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#writeout_function_definitions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.writeout_function_definitions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.writeout_lines_per_cell">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">writeout_lines_per_cell</code><span class="sig-paren">(</span><em>fp</em>, <em>lines_per_cell</em>, <em>metadata</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#writeout_lines_per_cell"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.writeout_lines_per_cell" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="jupyterlab_celltests.tests.writeout_test">
+<code class="descclassname">jupyterlab_celltests.tests.</code><code class="descname">writeout_test</code><span class="sig-paren">(</span><em>fp</em>, <em>cells</em>, <em>kernel_name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/jupyterlab_celltests/tests.html#writeout_test"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jupyterlab_celltests.tests.writeout_test" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Tim Paine
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>jupyterlab_celltests &mdash; jupyterlab_celltests 0.0.7 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> jupyterlab_celltests
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.7
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">jupyterlab_celltests</a></li>
+<li><a class="reference internal" href="#overview">Overview</a><ul>
+<li><a class="reference internal" href="#linearly-executed-notebooks">“Linearly executed notebooks?”</a></li>
+<li><a class="reference internal" href="#doesnt-this-already-exist">Doesn’t this already exist?</a></li>
+<li><a class="reference internal" href="#so-why-do-i-want-this-again">So why do I want this again?</a></li>
+<li><a class="reference internal" href="#so-what-does-this-do">So what does this do?</a><ul>
+<li><a class="reference internal" href="#writing-tests">Writing tests</a></li>
+<li><a class="reference internal" href="#running-tests">Running tests</a></li>
+<li><a class="reference internal" href="#extra-tests">Extra Tests</a></li>
+<li><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tests">Tests</a></li>
+<li><a class="reference internal" href="#lint">Lint</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">jupyterlab_celltests</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>jupyterlab_celltests</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="jupyterlab-celltests">
+<h1>jupyterlab_celltests<a class="headerlink" href="#jupyterlab-celltests" title="Permalink to this headline">¶</a></h1>
+<p>Cell-by-cell testing for production Jupyter notebooks in JupyterLab</p>
+<p><a class="reference external" href="https://travis-ci.org/timkpaine/jupyterlab_celltests"><img alt="Build Status" src="https://travis-ci.org/timkpaine/jupyterlab_celltests.svg?branch=master" /></a> <a class="reference external" href="https://pypi.python.org/pypi/jupyterlab_celltests"><img alt="PyPI" src="https://img.shields.io/pypi/v/jupyterlab_celltests.svg" /></a> <a class="reference external" href="https://pypi.python.org/pypi/jupyterlab_celltests"><img alt="PyPI" src="https://img.shields.io/pypi/v/jupyterlab_celltests.svg" /></a> <a class="reference external" href="https://www.npmjs.com/package/jupyterlab_celltests"><img alt="npm" src="https://img.shields.io/npm/v/jupyterlab_celltests.svg" /></a></p>
+</div>
+<div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">Celltests</span></code> is designed for writing tests for linearly executed
+notebooks. Its primary use is for report unit tests.</p>
+<div class="section" id="linearly-executed-notebooks">
+<h2>“Linearly executed notebooks?”<a class="headerlink" href="#linearly-executed-notebooks" title="Permalink to this headline">¶</a></h2>
+<p>When converting notebooks into html/pdf/email reports, they are executed
+from top-to-bottom one time, and are expected contain as little code as
+reasonably possible, focusing primarily on the plotting and markdown
+bits. Libraries for this type of thing include
+<a class="reference external" href="https://github.com/nteract/papermill">Papermill</a>, <a class="reference external" href="https://github.com/timkpaine/jupyterlab_email">JupyterLab
+Emails</a>, etc.</p>
+</div>
+<div class="section" id="doesnt-this-already-exist">
+<h2>Doesn’t this already exist?<a class="headerlink" href="#doesnt-this-already-exist" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/computationalmodelling/nbval">Nbval</a> is a great
+product and I recommend using it for notebook regression tests. But it
+compares the executed notebook’s outputs to its existing outputs, which
+doesn’t align well with dynamic reports which might be run everyday with
+different input/output data.</p>
+</div>
+<div class="section" id="so-why-do-i-want-this-again">
+<h2>So why do I want this again?<a class="headerlink" href="#so-why-do-i-want-this-again" title="Permalink to this headline">¶</a></h2>
+<p>This doesn’t necessarily help you if your data sources go down, but its
+likely you’ll notice this anyway. Where this comes in handy is:</p>
+<ul class="simple">
+<li>when the environment (e.g.&nbsp;package versions) are changing in your
+system</li>
+<li>when you play around in the notebook (e.g.&nbsp;nonlinear execution) but
+aren’t sure if your reports will still generate</li>
+<li>when your software lifecycle systems have a hard time dealing with
+notebooks (can’t lint/audit them as code unless integrated
+nbdime/nbconvert to script, tough to test, tough to ensure what works
+today works tomorrow)</li>
+</ul>
+</div>
+<div class="section" id="so-what-does-this-do">
+<h2>So what does this do?<a class="headerlink" href="#so-what-does-this-do" title="Permalink to this headline">¶</a></h2>
+<p>Given a notebook, you can write mocks and assertions for individual
+cells. You can then generate a testing script for this notebook,
+allowing you to hook it into your testing system and thereby provide
+unittests of your report.</p>
+<div class="section" id="writing-tests">
+<h3>Writing tests<a class="headerlink" href="#writing-tests" title="Permalink to this headline">¶</a></h3>
+<p>When you write tests for a cell, we create a new method on a
+<code class="docutils literal notranslate"><span class="pre">unittest</span></code> class corresponding to the index of your cell, and
+including the cumulative tests for all previous cells (to mimic what has
+happened so far in the notebook’s linear execution). You can write
+whatever mocking and asserts you like, and can call <code class="docutils literal notranslate"><span class="pre">%cell</span></code> to inject
+the contents of the cell into your test. <img alt="image4" src="https://raw.githubusercontent.com/timkpaine/jupyterlab_celltests/master/docs/demo.gif" /> The tests themselves
+are stored in the cell metadata, similar to celltags, slide information,
+etc.</p>
+</div>
+<div class="section" id="running-tests">
+<h3>Running tests<a class="headerlink" href="#running-tests" title="Permalink to this headline">¶</a></h3>
+<p>You can run the tests offline from an <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> file, or you can
+execute them from the browser and view the results of
+<code class="docutils literal notranslate"><span class="pre">pytest-html</span></code>’s html plugin. <img alt="image5" src="https://raw.githubusercontent.com/timkpaine/jupyterlab_celltests/master/docs/demo2.gif" /></p>
+</div>
+<div class="section" id="extra-tests">
+<h3>Extra Tests<a class="headerlink" href="#extra-tests" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Max number of lines per cell</li>
+<li>Max number of cells per notebook</li>
+<li>Max number of function definitions per notebook</li>
+<li>Max number of class definitions per notebook</li>
+<li>Percentage of cells tested</li>
+</ul>
+</div>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<p>In the committed <code class="docutils literal notranslate"><span class="pre">Untitled.ipynb</span></code> notebook, but modified so that cell
+0 has its import statement copied 10 times (to trigger test and lint
+failures):</p>
+</div>
+</div>
+<div class="section" id="tests">
+<h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_cell0</span> <span class="n">PASSED</span>                                                                                     <span class="p">[</span>  <span class="mi">8</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_cell1</span> <span class="n">PASSED</span>                                                                                     <span class="p">[</span> <span class="mi">16</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_cell2</span> <span class="n">PASSED</span>                                                                                     <span class="p">[</span> <span class="mi">25</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_cell3</span> <span class="n">PASSED</span>                                                                                     <span class="p">[</span> <span class="mi">33</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_cell_coverage</span> <span class="n">PASSED</span>                                                                             <span class="p">[</span> <span class="mi">41</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_cells_per_notebook</span> <span class="n">PASSED</span>                                                                        <span class="p">[</span> <span class="mi">50</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_class_definition_count</span> <span class="n">PASSED</span>                                                                    <span class="p">[</span> <span class="mi">58</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_function_definition_count</span> <span class="n">PASSED</span>                                                                 <span class="p">[</span> <span class="mi">66</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_lines_per_cell_0</span> <span class="n">FAILED</span>                                                                          <span class="p">[</span> <span class="mi">75</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_lines_per_cell_1</span> <span class="n">PASSED</span>                                                                          <span class="p">[</span> <span class="mi">83</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_lines_per_cell_2</span> <span class="n">PASSED</span>                                                                          <span class="p">[</span> <span class="mi">91</span><span class="o">%</span><span class="p">]</span>
+<span class="n">Untitled_test</span><span class="o">.</span><span class="n">py</span><span class="p">::</span><span class="n">TestExtension</span><span class="p">::</span><span class="n">test_lines_per_cell_3</span> <span class="n">PASSED</span>                                                                          <span class="p">[</span><span class="mi">100</span><span class="o">%</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="lint">
+<h2>Lint<a class="headerlink" href="#lint" title="Permalink to this headline">¶</a></h2>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Checking</span> <span class="n">lines</span> <span class="ow">in</span> <span class="n">cell</span> <span class="mi">0</span><span class="p">:</span>   <span class="n">FAILED</span>
+<span class="n">Checking</span> <span class="n">lines</span> <span class="ow">in</span> <span class="n">cell</span> <span class="mi">1</span><span class="p">:</span>   <span class="n">PASSED</span>
+<span class="n">Checking</span> <span class="n">lines</span> <span class="ow">in</span> <span class="n">cell</span> <span class="mi">2</span><span class="p">:</span>   <span class="n">PASSED</span>
+<span class="n">Checking</span> <span class="n">lines</span> <span class="ow">in</span> <span class="n">cell</span> <span class="mi">3</span><span class="p">:</span>   <span class="n">PASSED</span>
+<span class="n">Checking</span> <span class="n">cells</span> <span class="n">per</span> <span class="n">notebook</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">:</span>  <span class="n">PASSED</span>
+<span class="n">Checking</span> <span class="n">functions</span> <span class="n">per</span> <span class="n">notebook</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">:</span>  <span class="n">PASSED</span>
+<span class="n">Checking</span> <span class="n">classes</span> <span class="n">per</span> <span class="n">notebook</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">:</span>    <span class="n">PASSED</span>
+<span class="n">Checking</span> <span class="n">cell</span> <span class="n">test</span> <span class="n">coverage</span> <span class="o">&gt;=</span> <span class="mi">50</span><span class="p">:</span>  <span class="n">PASSED</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Tim Paine
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
