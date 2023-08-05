@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pytijo-api-client
+Version: 0.0.2
+Summary: Tijo API client
+Home-page: http://tijo.io
+Author: Jon Castro
+Author-email: jon@tijo.io
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Requires-Dist: requests
+
+UNKNOWN
+
+
