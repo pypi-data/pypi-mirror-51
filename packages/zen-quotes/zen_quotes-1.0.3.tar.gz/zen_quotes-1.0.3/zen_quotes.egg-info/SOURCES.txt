@@ -1,0 +1,5 @@
+setup.py
+zen_quotes.egg-info/PKG-INFO
+zen_quotes.egg-info/SOURCES.txt
+zen_quotes.egg-info/dependency_links.txt
+zen_quotes.egg-info/top_level.txt
