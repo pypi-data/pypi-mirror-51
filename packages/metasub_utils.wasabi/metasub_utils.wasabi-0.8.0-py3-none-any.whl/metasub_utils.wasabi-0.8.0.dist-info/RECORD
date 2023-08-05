@@ -1,0 +1,13 @@
+metasub_utils.wasabi-0.8.0-py3.6-nspkg.pth,sha256=7S4yU8K33I518h63RpME9OxHc4ZF8eWeDAEGqrA4bYg,574
+metasub_utils/wasabi/__init__.py,sha256=5AjXa1-q3m05cpTZUAIM2IEtTA7iVB5q_3yPC6iSXTI,65
+metasub_utils/wasabi/cli.py,sha256=MRDYIyNxJ6XDjK4qY1-US39m_3H0nJHi31v1kGo7vtE,8335
+metasub_utils/wasabi/constants.py,sha256=Hi4VvDemZw3ogZyoRvDgKt16FkNV_y0UIvXJzueniQc,122
+metasub_utils/wasabi/metasub_public_files.txt,sha256=4D8ytMlYKuWoOAeeCDZbNmIBk9w0D-Dkjy1T5VdwE_s,1317030
+metasub_utils/wasabi/public_files.py,sha256=lCk1LrudByDdWMqhmitpyrXwQe-NgYFqWxxZRJ8rRR0,1334
+metasub_utils/wasabi/wasabi_bucket.py,sha256=pGinpqhVQZW-kx1zowDh5hiPCe6oWltRTZbvzdwsDv8,8190
+metasub_utils.wasabi-0.8.0.dist-info/METADATA,sha256=u3K3ygWR_AKISkoNVjRb9Wv24jDFjjxHTkccPT9cx_g,445
+metasub_utils.wasabi-0.8.0.dist-info/RECORD,,
+metasub_utils.wasabi-0.8.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+metasub_utils.wasabi-0.8.0.dist-info/entry_points.txt,sha256=mlThMqv0iLH995I0hnroj8DjIZS7arK_TYJAmpTETm4,68
+metasub_utils.wasabi-0.8.0.dist-info/namespace_packages.txt,sha256=qtcLMMIizIZ0LcoBfm7fMmaolb6zmpgcRnnOGgEwmX0,14
+metasub_utils.wasabi-0.8.0.dist-info/top_level.txt,sha256=qtcLMMIizIZ0LcoBfm7fMmaolb6zmpgcRnnOGgEwmX0,14
