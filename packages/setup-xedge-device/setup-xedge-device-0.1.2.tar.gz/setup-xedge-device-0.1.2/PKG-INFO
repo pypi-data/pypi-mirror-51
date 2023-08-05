@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: setup-xedge-device
+Version: 0.1.2
+Summary: Command line to setup xedge-device
+Home-page: https://dev.azure.com/xompass/xompass-xedge/_git/xompass-xedge-device
+Author: Rodolfo Castillo Mateluna
+Author-email: rodolfo@xompass.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
