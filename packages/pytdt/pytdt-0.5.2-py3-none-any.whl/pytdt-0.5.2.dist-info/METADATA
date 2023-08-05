@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytdt
+Version: 0.5.2
+Summary: Tucker Davis Technologies tools
+Home-page: UNKNOWN
+Author: Logan Grado
+Author-email: grado.logan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: tabulate
+
+UNKNOWN
+
+
