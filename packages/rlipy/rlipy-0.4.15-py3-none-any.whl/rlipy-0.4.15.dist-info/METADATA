@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rlipy
+Version: 0.4.15
+Summary: rli common library
+Home-page: UNKNOWN
+Author: Ron Li
+Author-email: rli@veritionfund.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyzmq
+Requires-Dist: redis
+Requires-Dist: pysftp
+Requires-Dist: pandas
+
+UNKNOWN
+
+
