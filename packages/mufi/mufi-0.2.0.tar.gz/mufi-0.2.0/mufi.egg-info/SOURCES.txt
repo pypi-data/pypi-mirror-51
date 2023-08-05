@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+mufi/__init__.py
+mufi/mufi.py
+mufi/mufi_recs.py
+mufi.egg-info/PKG-INFO
+mufi.egg-info/SOURCES.txt
+mufi.egg-info/dependency_links.txt
+mufi.egg-info/entry_points.txt
+mufi.egg-info/not-zip-safe
+mufi.egg-info/requires.txt
+mufi.egg-info/top_level.txt
