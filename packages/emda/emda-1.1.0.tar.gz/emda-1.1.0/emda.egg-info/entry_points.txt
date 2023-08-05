@@ -1,0 +1,8 @@
+[console_scripts]
+emda_fourier_space_corr = emda.fouriersp_corr_3d:main
+emda_map2mtz = emda.mrc2mtz:main
+emda_normalised_fscw_maps = emda.calc_normalised_and_fsc_weighted_maps:main
+emda_real_space_corr = emda.realsp_corr_3d:main
+emda_test = emda.emda_test:main
+emda_truefsc_from_phasr = emda.fsc_true_from_phase_randomize:main
+
