@@ -1,0 +1,12 @@
+README.md
+setup.py
+guio/__init__.py
+guio/errors.py
+guio/event.py
+guio/kernel.py
+guio/traps.py
+guio.egg-info/PKG-INFO
+guio.egg-info/SOURCES.txt
+guio.egg-info/dependency_links.txt
+guio.egg-info/requires.txt
+guio.egg-info/top_level.txt
