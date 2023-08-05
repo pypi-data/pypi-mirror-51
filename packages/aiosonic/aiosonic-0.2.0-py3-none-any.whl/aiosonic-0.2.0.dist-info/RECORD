@@ -1,0 +1,13 @@
+aiosonic/__init__.py,sha256=bnvWY0zvCBxIjHUI4LPkqF_6zhhdZOaM0ic0b9_Ey2I,16473
+aiosonic/connectors.py,sha256=TOCpHGOTysznPFZqnmmppTwcW_oh9h8_ySbDew8ZTzM,3605
+aiosonic/exceptions.py,sha256=9Ze5q4Mhk69hOsXOnbox9DbsSdQzCo1F_ncTv3Qn-gk,249
+aiosonic/pools.py,sha256=d4Uo5TVYH1TkJaTQYUZSERiYz8mG-xUVOACMN6_gWVw,1396
+aiosonic/utils.py,sha256=sNAGExt8HWNIIWgUqynt60utK5zJT_SrKMV47DOHGFM,439
+aiosonic/version.py,sha256=y4Qls2rlrpBRfElePQUA5mFj07abTkFkpqm7Unw9kqc,19
+aiosonic_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiosonic_utils/structures.py,sha256=IsipiUgB7BLfLN2ZH4TkNRC3P92UrCCeyPyj5-a-GGs,2490
+aiosonic-0.2.0.dist-info/LICENSE,sha256=75gX19u8NOfiXOHkEr_cerdtdGdIrZ3SqS84YeVa7-g,1077
+aiosonic-0.2.0.dist-info/METADATA,sha256=LxhtUj3Gx1WV4vF1fo6QkXIJeG3SvoZF8wrI-mC0vZw,5213
+aiosonic-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+aiosonic-0.2.0.dist-info/top_level.txt,sha256=541dhNj6_oodBO_jVlSrFFx6d4pul5jpQ_Wm9IteO8U,24
+aiosonic-0.2.0.dist-info/RECORD,,
