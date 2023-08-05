@@ -1,0 +1,38 @@
+{% load i18n static %}
+<div class="col xl6">
+    <div class="module" id="nuevas-pantallas">
+      <ul class="actionlist">
+        <h2>Otras Pantallas</h2>
+        <li><a href="{% url 'admin:my_view' %}">kiko</a></li>
+      </ul>
+    </div>
+    
+    <div>
+      <h2>{% trans 'Recent actions' %}</h2>
+      <h3>{% trans 'My actions' %}</h3>
+      {% load log %}
+      {% get_admin_log 10 as admin_log for_user user %}
+      {% if not admin_log %}
+      <p>{% trans 'None available' %}</p>
+      {% else %}
+      <ul>
+        {% for entry in admin_log %}
+        <li class="{% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}{% if entry.is_deletion %}deletelink{% endif %}">
+          {% if entry.is_deletion or not entry.get_admin_url %}
+          {{ entry.object_repr }}
+          {% else %}
+          <a href="{{ entry.get_admin_url }}">{{ entry.object_repr }}</a>
+          {% endif %}
+          <br>
+          {% if entry.content_type %}
+          <span>{% filter capfirst %}{{ entry.content_type.name }}{% endfilter %}</span>
+          {% else %}
+          <span>{% trans 'Unknown content' %}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+ </div>
+</div>

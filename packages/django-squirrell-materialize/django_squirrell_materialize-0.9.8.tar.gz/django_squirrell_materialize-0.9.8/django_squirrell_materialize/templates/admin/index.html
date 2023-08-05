@@ -1,0 +1,60 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block extrastyle %}{{ block.super }}
+
+{% endblock %}
+
+        
+{% block coltype %}{% endblock %}
+
+{% block bodyclass %}{{ block.super }} {% endblock %}
+
+    {% block breadcrumbs %}
+        {% include 'admin/components/breadcrumbs.html' %}
+    {% endblock %}
+
+  {% block top %}
+  {% endblock top %}
+        
+  {% block header_tabs %}
+        {% include 'admin/components/header_tabs.html' %}
+  {% endblock header_tabs %}
+    
+
+  {% block content %}
+<div id="tab-1" class="col s12">
+  <div class="col xl6">
+       {% include 'admin/components/app_list.html' %}
+  </div>
+  <div class="col xl6">
+      {% block content_right %}
+      {% include 'admin/components/app_list.html' %}
+      {% endblock %}
+ </div>
+</div>
+<div id="tab-2" class="col s12">
+  <h1></h1>
+</div>
+<div id="tab-3" class="col s12">
+    <h1></h1>
+  </div>
+  {% endblock %}
+
+
+  {% block sidebar %}
+      {% include 'admin/components/sidebar.html' %}
+  {% endblock sidebar %}
+
+  
+  {% block sidebar_button %}
+      {% include 'admin/components/floating_button.html' %}
+  {% endblock sidebar_button %}
+    
+  {% block bottom %}
+  {% endblock bottom %}
+
+  {% block footer %}
+  {% endblock footer %}
+    
+ 
