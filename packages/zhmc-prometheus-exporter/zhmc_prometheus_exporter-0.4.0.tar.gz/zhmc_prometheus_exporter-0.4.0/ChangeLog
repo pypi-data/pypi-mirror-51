@@ -1,0 +1,49 @@
+CHANGES
+=======
+
+0.4.0
+-----
+
+* Release 0.4.0
+* Use safe\_load() instead of insecure load()
+* Avoid exception in exception handling
+
+0.3.0
+-----
+
+* Release 0.3.0
+* Reconnect in case of a connection drop
+* Updated requirements versions to newest
+
+0.2.0
+-----
+
+* Updated change log for 0.2.0 release. (#17)
+* Prefix 'zhmc\_' (#16)
+
+0.1.2
+-----
+
+* Updated change log for 0.1.2 release. (#15)
+* Changed RTD link to stable (#14)
+* Changed installation information to the remote package (#13)
+
+0.1.1
+-----
+
+* Updated change log for 0.1.1 release. (#12)
+* Ready to be pushed to PyPI
+* Coverage, coverage badge, and RTD badge
+* Restored flake8 compliancy in tests
+* Restored flake8 compliance
+* Added a Dockerfile
+* Added defaults for configuration files
+* Changed location of RTD link
+* Added RTD link to README
+* Increased textwidth of documentation
+* Unified docs style with other zhmcclient projects
+* Travis CI Badge (#4)
+* Default port 9291 (#3)
+* Changed default port to 9291
+* Initial release of zhmc-prometheus-exporter
+* Initial commit
