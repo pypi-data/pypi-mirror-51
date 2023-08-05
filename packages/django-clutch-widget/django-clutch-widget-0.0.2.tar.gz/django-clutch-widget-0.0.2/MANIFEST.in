@@ -1,0 +1,10 @@
+include AUTHORS
+include README.md
+include LICENSE
+include Makefile
+include tox.ini
+recursive-include docs *
+recursive-include requirements *
+recursive-include clutch/templates/clutch *.html
+recursive-include clutch/tests/media *.js *.css *.png *.coffee
+recursive-include clutch/tests/test_templates *.html
