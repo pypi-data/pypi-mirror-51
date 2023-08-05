@@ -1,0 +1,16 @@
+ipromise/__init__.py,sha256=4OF2unQ-VUiZa_JV1G6A8RN5ZOCGq3QxRmcRSCE4hIg,99
+ipromise/augments.py,sha256=AB9JOe93v67D22-Rflu1FIdmJnHHUYppZnPrYyDY2CU,2196
+ipromise/implements.py,sha256=0Jz2Mjx1isXUOAKSMpU8aNVxO7ihcTTdWUaTGFQWr0g,788
+ipromise/ipromise.py,sha256=u_WlcjoMKLcqUbsSGuH52PqijBL98GVlQLLe7dTKaeI,5204
+ipromise/overrides.py,sha256=wiafkRbc8mtvaqVFwkDEHM8vb1dADBMUeDdZG16ubGE,1339
+ipromise/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipromise/test/common.py,sha256=BWdVApzgVJ9xmCJNXbUZMyjfC-lpZKTIKWba7zlbe2M,404
+ipromise/test/test_abc.py,sha256=MivCyv2lSp-WlHQgek8lj-wqeQLmzJdGv94vKsVJ-PY,632
+ipromise/test/test_augments.py,sha256=gmfAJuOQxdqBx1dwNiv7ZpA6S2IxKslQUr1_8vbvPOU,1964
+ipromise/test/test_implements.py,sha256=bPYZIjHfbo4t_Y21AnZRFTmkwtO7ki2W4S_vCxqbpWA,1243
+ipromise/test/test_overrides.py,sha256=0MQlWiv_K4rhoJnMzuZQEDdmN4keFRW9rxhhR_TsXWo,3003
+ipromise-1.2.dist-info/LICENSE,sha256=BhrOJqmqpGBXQ-tMevXBuUFZ3fuVPi3pPyqWC55T5b4,1061
+ipromise-1.2.dist-info/METADATA,sha256=PhkCPGVLiTejOP0P9VAA_rpbdmZeTZMIjOWY7_vqN2U,3463
+ipromise-1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ipromise-1.2.dist-info/top_level.txt,sha256=yWHFMKnoMSycBFUSjRslLfrRMHX5ZLbQw4wDBZfIRHg,9
+ipromise-1.2.dist-info/RECORD,,
