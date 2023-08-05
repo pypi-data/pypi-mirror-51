@@ -1,0 +1,11 @@
+README.md
+setup.py
+deduplication/__init__.py
+deduplication/lsimhash.py
+deduplication/nlp.py
+deduplication/simhash.py
+deduplication.egg-info/PKG-INFO
+deduplication.egg-info/SOURCES.txt
+deduplication.egg-info/dependency_links.txt
+deduplication.egg-info/requires.txt
+deduplication.egg-info/top_level.txt
