@@ -1,0 +1,1 @@
+# A new cnn_finetune init package for pytorch

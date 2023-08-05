@@ -1,0 +1,3 @@
+requests
+pytorch
+cnn_finetune
