@@ -1,0 +1,11 @@
+[console_scripts]
+tng-descriptorgen = tngsdk.descriptorgen.descriptorgen:generate
+tng-dgn = tngsdk.descriptorgen.descriptorgen:generate
+tng-prj = tngsdk.project:main
+tng-project = tngsdk.project:main
+tng-sdk-descriptorgen = tngsdk.descriptorgen.descriptorgen:generate
+tng-sdk-project = tngsdk.project:main
+tng-sdk-workspace = tngsdk.project.workspace:init_workspace
+tng-wks = tngsdk.project.workspace:init_workspace
+tng-workspace = tngsdk.project.workspace:init_workspace
+
