@@ -1,0 +1,16 @@
+tutti_aisthetics/__init__.py,sha256=xb510nst850fj3gB8Pwr_Mv9SFyw1Bfso_SXQd1FZ58,67
+tutti_aisthetics/data_generator.py,sha256=ipzzw2uk0aLLKSYQa69wmZcC3LnVppUNjC7VuAlT4_s,6921
+tutti_aisthetics/keras_utils.py,sha256=mmJeKo_GcT2EckI1_OySXa6TpY4YxDLB1uhhNrl1qaM,1368
+tutti_aisthetics/losses.py,sha256=nv8V9fnjwzuIJ_Tc7qI1NJTZjBn9Jg8hTmQPB9KK-L4,467
+tutti_aisthetics/nima.py,sha256=NohuZqgS65yyEiI4762pWYoQV6E1JfLdBEYEekb93Fg,10258
+tutti_aisthetics/scoring.py,sha256=idVU5RSwz2aNVpbHvT04Ey79KDJtNytBbjWSW0CLVks,1502
+tutti_aisthetics/utils.py,sha256=jSH-_NmPpkE78x6YuVy2VqxzvNHvk_85BD1NJkgrzQc,4060
+tutti_aisthetics/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutti_aisthetics/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutti_aisthetics/model/weights_aisthetics.hdf5,sha256=5WOtkbPUdBDkX3I48Hq49qvRvQxLGKSwr5xoGiGpHLI,13174216
+tutti_aisthetics-3.0.0.dist-info/LICENSE,sha256=0hTKG5tZR25PGf1PJsyuGHKVGUxH8gMmRye92JISZ8c,26
+tutti_aisthetics-3.0.0.dist-info/METADATA,sha256=MLOHt_dLz20IWTGW6rIAIqZ3Q8rBzKCK1_tDFFXU6K8,680
+tutti_aisthetics-3.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tutti_aisthetics-3.0.0.dist-info/top_level.txt,sha256=dOC3sQecQmSGACVqJLngH9f53frg_a9N-L1EUV0vFag,17
+tutti_aisthetics-3.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tutti_aisthetics-3.0.0.dist-info/RECORD,,
