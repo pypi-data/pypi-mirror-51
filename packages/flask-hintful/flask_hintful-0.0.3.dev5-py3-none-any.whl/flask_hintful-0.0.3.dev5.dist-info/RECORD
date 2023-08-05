@@ -1,0 +1,12 @@
+flask_hintful/__init__.py,sha256=4GYag8O6CiBeJKDlT65jQmJMmQySktawAoY-r4RA36M,114
+flask_hintful/deserializer.py,sha256=WngNzh0rIL_PRCcqqTNjF3BtiDeq9H7HXT5DoxAqwZI,6881
+flask_hintful/flask_hintful.py,sha256=rDMqH-Y8zeVoVruZ2lf10Z_DIrYKKmiaYK8FS5HX4g0,3084
+flask_hintful/openapi.py,sha256=ggyY0E7WbZ5Kc8X4hq2Je4D7QxVI9alWFMcEFXZBBmE,4617
+flask_hintful/serializer.py,sha256=w5rsiJVfzJqgDtsOmD47qBGOWo0j27YlsI_BLgwVbgw,5554
+flask_hintful/utils.py,sha256=ZdA4FQlr-oTHoi_Rcy58vAh6PldYRvaLd9nn0q2tU4o,307
+flask_hintful/wrapper.py,sha256=Cy7_3NA4jfzNnMvVd_NY16YavDvcTEOxBcncAHamenQ,2127
+flask_hintful-0.0.3.dev5.dist-info/LICENSE,sha256=LpPBgGy6TZ_4r9hfcwj8H4AHKw4GJLbZJ-rXD9xR-0Q,1072
+flask_hintful-0.0.3.dev5.dist-info/METADATA,sha256=PxaQxMSZ9plhoarPGut6KakZJZ73g7ZwPrqqiKPVjiM,2236
+flask_hintful-0.0.3.dev5.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+flask_hintful-0.0.3.dev5.dist-info/top_level.txt,sha256=v2Zfd_tf57eYFQswLC50nEee5ZPjoONgf1uImaU6hs4,14
+flask_hintful-0.0.3.dev5.dist-info/RECORD,,
