@@ -1,0 +1,21 @@
+pandas
+loguru
+scipy
+matplotlib
+graphviz
+pygraphviz
+seaborn
+numpy
+xlrd
+
+[Additional support for parsing files]
+beautifulsoup4
+
+[List similar annotations when selecting genotypes]
+fuzzywuzzy
+
+[Show progressbar for large datasets]
+tqdm
+
+[To run tests]
+pytest
