@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: tdserver
+Version: 1.5.4
+Summary: dddz.cvding's tdserver
+Home-page: UNKNOWN
+Author: dddz
+Author-email: cvchina@163.com
+License: UNKNOWN
+Description: using tornado to deploy Image Sever and Get result from Server URL
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Utilities
