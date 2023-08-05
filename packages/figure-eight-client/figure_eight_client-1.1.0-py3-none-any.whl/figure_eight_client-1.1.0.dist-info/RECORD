@@ -1,0 +1,9 @@
+figure_eight_client/__init__.py,sha256=kJt1H1tsyTwgZeUBvLMcr4QYc-7hoJcfG5eGdcZ4zAw,35
+figure_eight_client/figure_eight_client.py,sha256=SDsxb8Nqip3o-n7xhQPPA32gSt0TIzr-v3qw2mYVvRw,7080
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_figure_eight_client.py,sha256=4aeUsqvb86r2558Vnkm-ejZdtQSRd6UhLNn2nygaN1A,2775
+figure_eight_client-1.1.0.dist-info/LICENSE,sha256=dXVwqvZwmrcFr7grFCzRf2JVdAWiJUxvoAV-UJODz8U,1069
+figure_eight_client-1.1.0.dist-info/METADATA,sha256=B81pYJNco_irmLovfQX9uD9gGJQOfh73NIXuvpvLVPY,1670
+figure_eight_client-1.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+figure_eight_client-1.1.0.dist-info/top_level.txt,sha256=1_mJDku1q1GT_5dHXVcpu3IpPylS5xsRihy3DnnLq6k,26
+figure_eight_client-1.1.0.dist-info/RECORD,,
