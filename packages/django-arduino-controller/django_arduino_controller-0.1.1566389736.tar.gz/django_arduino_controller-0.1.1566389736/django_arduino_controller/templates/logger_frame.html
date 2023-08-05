@@ -1,0 +1,49 @@
+{% load sekizai_tags %}
+{% load static %}
+
+<canvas id="datachart"></canvas>
+{% addtoblock "jss" %}
+    <script src="{% static 'django_arduino_controller/json_websocket.js'%}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js" integrity="sha256-xKeoJ50pzbUGkpQxDYHD7o7hxe0LaOGeguUidbq6vis=" crossorigin="anonymous"></script>
+
+    <script>
+        var chart_remove_equal_points=true;
+        colors =["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22","#17becf"]
+        $(document).ready(function() {
+            var ctx = $('#datachart');
+
+            chart = new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    labels: [],
+                    datasets: []
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                },
+            });
+        });
+
+        var dataloggersocket = new JsonWebsocket("Data Logger Websocket","ws://"+window.location.host+"{% url 'django_arduino_controller:dataloggersocket' %}");
+        dataloggersocket.add_cmd_funcion("data_point",function (data) {add_data_point(data.key,data.x,data.y);});
+
+        function add_data_point(key, x, y) {
+            let index = chart.data.labels.indexOf(key);
+            if(index === -1){
+                chart.data.labels.push(key);
+                chart.data.datasets.push({data:[{x:x,y:y}],lineTension: 0,label: key,fill: false,showLine: true,pointRadius: 0,borderColor:colors[chart.data.datasets.length%colors.length]});
+            }else{
+                chart.data.datasets[index].data.push({x:x,y:y});
+                if(chart_remove_equal_points){
+                    let i = chart.data.datasets[index].data.length;
+                    if(i>=3)
+                        if(chart.data.datasets[index].data[i-1].y  === chart.data.datasets[index].data[i-2].y)
+                            if(chart.data.datasets[index].data[i-2].y === chart.data.datasets[index].data[i-3].y)
+                                chart.data.datasets[index].data.splice(i-2, 1);
+                }
+            }
+            chart.update();
+        }
+    </script>
+{% endaddtoblock %}

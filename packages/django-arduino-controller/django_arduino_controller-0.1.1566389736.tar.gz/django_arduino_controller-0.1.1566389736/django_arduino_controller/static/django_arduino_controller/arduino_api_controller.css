@@ -1,0 +1,76 @@
+#controller_sidebar{
+    background-color: aliceblue;
+    max-width: 300px;
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 1s ease;
+    width: 10px;
+    margin-left: 30px;
+    min-height: 100px;
+}
+#controller_sidebar.open{
+    width: 300px;
+}
+#controller_sidebar_expander_box{
+    background-color: aqua;
+    margin-left: -30px;
+    position: absolute;
+}
+#controller_sidebar_content{
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 1s linear, visibility 0s;
+    -moz-transition: opacity 1s linear, visibility 0s;
+    -o-transition: opacity 1s linear, visibility 0s;
+    transition: opacity 1s linear, visibility 0s;
+}
+#controller_sidebar_content.open{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear, visibility 1s;
+    -moz-transition: opacity 1s linear, visibility 1s;
+    -o-transition: opacity 1s linear, visibility 1s;
+    transition: opacity 1s linear, visibility 1s;
+}
+[name="board_selector"]{
+    max-width: 100%;
+}
+
+[name="status_indicator"]{
+    background-color: #ffdf1c;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+[name="status_indicator"].invalid{
+    background-color: #ff0000;
+}
+[name="status_indicator"].valid{
+    background-color: #00ff00;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    /* Position the tooltip text - see examples below! */
+    bottom: 100%;
+    left: 50%;
+    opacity: 0.6;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+:hover > .tooltiptext {
+    visibility: visible;
+}
