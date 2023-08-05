@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: student-rishiraj
+Version: 1.0.0
+Summary: A Python package to manage student details easy
+Home-page: https://github.com/wabrishi/student
+Author: Rishiraj
+Author-email: rishiraj.python@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: mysql.connector
+Requires-Dist: tkcalendar
+Requires-Dist: tkinter
+
+# Student Management System Developed by Rishiraj Singh
+
+A Python package to manage many student easy 
+
+
