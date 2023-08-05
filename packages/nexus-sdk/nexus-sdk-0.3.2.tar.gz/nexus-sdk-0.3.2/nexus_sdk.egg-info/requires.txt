@@ -1,0 +1,10 @@
+puremagic
+requests
+sseclient
+
+[doc]
+sphinx
+
+[test]
+pytest
+pytest-cov
