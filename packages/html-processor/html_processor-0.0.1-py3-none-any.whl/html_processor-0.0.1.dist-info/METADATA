@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: html-processor
+Version: 0.0.1
+Summary: 
+Author: Дмитрий
+Author-email: acrius@mail.ru
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
