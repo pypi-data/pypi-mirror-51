@@ -1,0 +1,16 @@
+[Unit]
+Description=docker-compose-{serviceName}
+Requires=docker.service
+After=docker.service
+AssertFileIsExecutable=/usr/bin/docker-compose
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+SuccessExitStatus=0
+WorkingDirectory={servicePath}
+ExecStart=/usr/bin/docker-compose up --detach --build
+ExecStop=/usr/bin/docker-compose down
+
+[Install]
+WantedBy=multi-user.target
