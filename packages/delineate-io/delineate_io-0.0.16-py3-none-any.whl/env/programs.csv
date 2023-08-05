@@ -1,0 +1,11 @@
+Git,git,git,brew,version,extract,2
+Terraform,terraform,terraform,brew,--version,extract,1
+Packer,packer,packer,brew,--version,extract,0
+Vagrant,vagrant,vagrant,brew cask,--version,
+Docker,docker,docker,brew,--version,extract_docker,0
+MiniKube,minikube,minikube,brew cask,version,extract,2
+Go,go,go,brew,version,extract_go,0
+Python3,python3,python3,brew,--version,extract,1
+Node,node,node,brew,--version,extract,0
+gCloud,gcloud,google-cloud-sdk,brew cask,version,extract,3
+VSCode,code,visual-studio-code,brew cask,--version,extract,0
