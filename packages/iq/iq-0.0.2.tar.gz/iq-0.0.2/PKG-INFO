@@ -1,0 +1,56 @@
+Metadata-Version: 1.2
+Name: iq
+Version: 0.0.2
+Summary: IQ SDK.
+Home-page: https://github.com/pipname/iq
+Author: Longniao
+Author-email: longniao@gmail.com
+Maintainer: Longniao
+Maintainer-email: longniao@gmail.com
+License: MIT
+Description: Pay
+        ===
+        
+        .. image:: https://img.shields.io/pypi/v/iq.svg
+            :target: https://pypi.python.org/pypi/iq/
+            :alt: Latest Version
+        
+        .. image:: https://img.shields.io/pypi/wheel/iq.svg
+            :target: https://pypi.python.org/pypi/iq/
+        
+        .. image:: https://img.shields.io/pypi/pyversions/iq.svg
+            :target: https://pypi.python.org/pypi/iq/
+        
+        .. image:: https://img.shields.io/pypi/l/iq.svg
+            :target: https://pypi.python.org/pypi/iq/
+        
+        
+        
+        IQ SDK.
+        
+        
+        Installing
+        ----------
+        
+        Install and update using `pip`_:
+        
+        .. code-block:: text
+        
+            pip install -U iq
+        
+        
+        
+        .. _pip: https://pip.pypa.io/en/stable/quickstart/
+        
+Keywords: iq sdk
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
