@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: plsnocrash
+Version: 0.1.0
+Summary: Ever had your code crash after 10 hours of heavy computation because of a dumb mistake?
+Home-page: https://github.com/HenryWConklin/plsnocrash
+Author: Henry Conklin
+Author-email: henrywconklin@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
