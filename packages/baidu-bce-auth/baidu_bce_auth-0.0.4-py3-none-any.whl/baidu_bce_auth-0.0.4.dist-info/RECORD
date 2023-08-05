@@ -1,0 +1,11 @@
+bceauth/__init__.py,sha256=_JjQRpahW-S7RsWWJrONHz4L9OqXYmx_uCytVwIUOPE,47
+bceauth/auth.py,sha256=iRnXBaZP4aU17PZ9HYa4MD2ObgId2iD_5iDe01I6jbs,2147
+bceauth/utils.py,sha256=m7xSwzGcp-5m2KW9dDWYDSplojIoVhR4p9AxyNv5tto,264
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_auth.py,sha256=-X8ykP4adfffbvW-5pQUr-gSuIKpuvN21LbXDGdAdFI,1307
+tests/test_utils.py,sha256=aWy-Wl6gETKBDvtptT0r9RTiKWO5zKUlRpuJWamIQl8,904
+baidu_bce_auth-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+baidu_bce_auth-0.0.4.dist-info/METADATA,sha256=uoEqjR6WmoqtjmTN3OA9_11adBmjkkANPBOgHvMqjJ0,2137
+baidu_bce_auth-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+baidu_bce_auth-0.0.4.dist-info/top_level.txt,sha256=GJ5W79xWy6WB5rBrxQyz2JgaGrS2oxYgTiDhTyFb7jo,14
+baidu_bce_auth-0.0.4.dist-info/RECORD,,
