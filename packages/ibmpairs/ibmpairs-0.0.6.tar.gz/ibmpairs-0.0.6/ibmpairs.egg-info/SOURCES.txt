@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MAINTAINERS.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ibmpairs/__init__.py
+ibmpairs/paw.py
+ibmpairs/version.py
+ibmpairs.egg-info/PKG-INFO
+ibmpairs.egg-info/SOURCES.txt
+ibmpairs.egg-info/dependency_links.txt
+ibmpairs.egg-info/not-zip-safe
+ibmpairs.egg-info/requires.txt
+ibmpairs.egg-info/top_level.txt

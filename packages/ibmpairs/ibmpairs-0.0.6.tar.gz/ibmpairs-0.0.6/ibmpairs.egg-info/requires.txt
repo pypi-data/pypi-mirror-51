@@ -1,0 +1,7 @@
+numpy
+Pillow>=1.6
+pandas
+future
+requests>=2.4
+shapely
+fs
