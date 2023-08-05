@@ -1,0 +1,15 @@
+directory_api_client/__init__.py,sha256=SJLUDJSKQ1Ym2hCh2G7402Y0mOP_BUdIt1lgzc8kFHg,77
+directory_api_client/base.py,sha256=Nc4bOVsmZWv8-b2pey7v5nKFxjRL9VKNHRPdeK9IGZs,623
+directory_api_client/buyer.py,sha256=XgaJmvsAq0uZrlYO1vlTIvoDbPlJG6pAFu2xJUnxPn0,527
+directory_api_client/client.py,sha256=6xGDmWdFtPcihnV05lI4oQPL4s-hfTiQw-O66MoZbFE,1337
+directory_api_client/company.py,sha256=T7by105mIp1vj3VZrH822vxjKo6IvcjixD6Y47TdZho,8082
+directory_api_client/enrolment.py,sha256=UAL6SFSf19fXwwMMuNWseOcBTXdNd37vYpEpOlcQ_9Y,997
+directory_api_client/exporting.py,sha256=CNRhGKrKlmMAb6VZxTlcwOyPcXwcgoKsJPIceP0rBQg,406
+directory_api_client/notifications.py,sha256=acfHrZFP-Jsv4L_nrm7HtMoXgTn-bHjT7YGFX-qRx44,383
+directory_api_client/supplier.py,sha256=xQ7iFbqclsOsQvI2HK2Cfr9gsWjLZQbe-c6LL-dK-wE,1143
+directory_api_client/testapiclient.py,sha256=S_W2KQ1QHiZp9-PMhEvV1WWsh5Nkc32aS87TOPjLLmw,967
+directory_api_client-16.1.0.dist-info/LICENSE,sha256=y-ArErAQz98OorLek2xntwEp9bo3ZcqfQMtAIcjBdvQ,1091
+directory_api_client-16.1.0.dist-info/METADATA,sha256=rLisj4qOgyLByTfwf0gwpGCfdh_wCuynl5ZFsSXj7cY,5415
+directory_api_client-16.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+directory_api_client-16.1.0.dist-info/top_level.txt,sha256=0ST-scu7VwiAYsJrFHulc6Y7C56yZzm23giLbSIcuYs,21
+directory_api_client-16.1.0.dist-info/RECORD,,
