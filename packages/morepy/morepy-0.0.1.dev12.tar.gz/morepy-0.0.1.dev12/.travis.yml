@@ -1,0 +1,33 @@
+sudo: false
+git:
+  depth: false
+
+language: python
+python:
+  - '2.7'
+  - '3.5'
+  - '3.6'
+  - pypy
+
+install:
+  - python -m pip install -U pip setuptools six wheel
+  - python -m pip install -U -e .
+  - python -m pip install -U -r test-requirements.txt
+  - python -m pip install -U tox tox-travis
+
+script:
+  - python -m robot test
+  - python -m tox -r -v
+
+  - python -m pip install zetup[all]
+  - python -m zetup install
+  - python -m zetup sdist
+  - python -m zetup tox
+
+deploy:
+  provider: pypi
+  user: userzimmermann
+  password:
+    secure: uAgQqxfCU9tzELZ0kzAEqXX/NsYmOGOvsHzChpbWepLbDvV0BNgUTUwkiQ57ha3boq46sd+OcLYJkA5skK+PmRDDGr5lZeymjU744O7XOBGBDXZ+N1AcpDfovdGdfay0AuavG6FNdwA2KZbrfErNRdV+drW25ith5O6dzM78mx7dKy50z4lUjjuWV1rXZ32IutJ5qRUEJp35CdQR7Hs0cNekyP9O4q6Vc+By3lK11EbkSSeYjiYUZgb/HTXKtzRJmdXFDlT3CfXm/B//Bgz5ognN3iO7JYIweCia4FYfnoTr+nJShnlkAKrGo+Jwbbw463R6La3XiZbmzSws4mNarQM9Awe4SCniKoRL/Nv3wi2E1CwjD0VJeRBCQNSMg22QixiPvHejbcMjj63VwGZhtDsVoN+AUtFEKj26X4Apv2PJOExKQxUaI28NkfYt/o0u0ohyRPX3Hz8+jqr80SQuMPmdW3B5bqgoq/8MBzQdIl1UeR+DwvGqdnRpBZNf5CTx0al4pDcipQTlB+dyx6+LsnuoP9XJd3ArGes69vKUdifBKAJWn1VeSqgBzo/Uzi5Mj8I+UjKSseTzVWHn+Sl77CD2+jziQwYfmt5D6FlEQFL+ovP+vY0HrHlyVf/PMAjNMP6RnaulagIEUvTjsBu+DcMorLLS4J/PnP45s7tikTA=
+  on:
+    python: '2.7'
