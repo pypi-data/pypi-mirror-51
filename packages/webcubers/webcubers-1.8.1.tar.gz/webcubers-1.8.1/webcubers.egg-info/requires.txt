@@ -1,0 +1,5 @@
+requests
+appdirs
+cutie
+PTable
+pyotp

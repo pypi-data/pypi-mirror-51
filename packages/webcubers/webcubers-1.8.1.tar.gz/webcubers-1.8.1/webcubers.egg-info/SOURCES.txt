@@ -1,0 +1,11 @@
+README.md
+setup.py
+webcubers/__init__.py
+webcubers/cubers.py
+webcubers/webcubers.py
+webcubers.egg-info/PKG-INFO
+webcubers.egg-info/SOURCES.txt
+webcubers.egg-info/dependency_links.txt
+webcubers.egg-info/entry_points.txt
+webcubers.egg-info/requires.txt
+webcubers.egg-info/top_level.txt
