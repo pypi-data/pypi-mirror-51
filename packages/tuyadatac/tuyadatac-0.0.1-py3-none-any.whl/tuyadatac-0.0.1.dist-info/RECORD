@@ -1,0 +1,11 @@
+client/__init__.py,sha256=dyApO56tUzMeRdMBf0TwWQRs_vGcecamCrr8RC5ihEk,18
+client/client_ftp.py,sha256=iJw8yvkPoPg0mELYXFLF1v1VmlUGDaNnHPq30F_iEt4,982
+server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server/server_config.py,sha256=QeCuawgGTvG-tSVAw78NLOyQsAKsJKARj4-5eYQMRI8,295
+server/server_ftp.py,sha256=KVFYZalVa0cWTTkSYihcHmxR9ic51kzXSGjXUwNY1DU,725
+server/server_handler.py,sha256=dFJSIbMLpAxXZ-dmEE6kKwaLLaGBlsR8xXZF7RxWf5k,1851
+tuyadatac-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+tuyadatac-0.0.1.dist-info/METADATA,sha256=JSOVBhC7Ls-5x28DD6mhovFTDWRljYN0WWGblii4xYU,448
+tuyadatac-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tuyadatac-0.0.1.dist-info/top_level.txt,sha256=KwhQx6Np9abTSEPy-jGTR0d0L38g9ZW1Io1VGoS9ejE,14
+tuyadatac-0.0.1.dist-info/RECORD,,

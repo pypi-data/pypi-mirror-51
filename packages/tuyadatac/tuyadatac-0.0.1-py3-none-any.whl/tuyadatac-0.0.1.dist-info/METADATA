@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tuyadatac
+Version: 0.0.1
+Summary: A tuya data package
+Home-page: https://registry.code.tuya-inc.top/datacenter/FTPServer.git
+Author: fangdong
+Author-email: fangdong@tuya.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+data center for tuya:
+
+
