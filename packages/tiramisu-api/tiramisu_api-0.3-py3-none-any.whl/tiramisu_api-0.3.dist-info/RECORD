@@ -1,0 +1,10 @@
+tiramisu_api/__init__.py,sha256=RIRKsfopk6qwoPBnuNbDLAp8WvQ3jWWITUFxjXBqWdM,68
+tiramisu_api/api.py,sha256=_dEdEVZ0nLDWU6pe_R8-02lpun8EeVEkfbwb3eBKjho,56348
+tiramisu_api/error.py,sha256=Z6ey_VR0fqwaC-1Jo1CKzlI31phSl2e0G7OS-xzwFyU,6314
+tiramisu_api/i18n.py,sha256=48tO7K-V_4ZMicGz5On4K2Lzxi1zYp0CUTYbQeShMcA,104
+tiramisu_api/setting.py,sha256=o1-JIm-GuUZyHtCa_q8M53qLGfGSqZ7juHK0jpi5HBc,213
+tiramisu_api-0.3.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+tiramisu_api-0.3.dist-info/METADATA,sha256=UJXYK99iGmjYDCfrv5BB_KT6hcBtISQ448vx6pq-Z9U,691
+tiramisu_api-0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+tiramisu_api-0.3.dist-info/top_level.txt,sha256=BKy3uwukWfpGt_BgKOPKD_gkwWWlQWn5p3bASAmPfTg,13
+tiramisu_api-0.3.dist-info/RECORD,,
