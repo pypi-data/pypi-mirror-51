@@ -1,0 +1,14 @@
+maeguias
+maeguias\commands
+maeguias\config
+maeguias\contrib
+maeguias\contrib\search
+maeguias\structure
+maeguias\tests
+maeguias\tests\config
+maeguias\tests\structure
+maeguias\tests\utils
+maeguias\themes
+maeguias\themes\maeguias
+maeguias\themes\readthedocs
+maeguias\utils
