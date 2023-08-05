@@ -1,0 +1,39 @@
+{% extends "bee_django_course/base.html" %}
+{% load bee_django_course_filter %}
+{% block content %}
+    <h4>录制视频详情</h4>
+    <div class="video">
+        {% if can_view %}
+            {% if user_live.provider_name == 'cc' %}
+                {#                            <iframe src="{{ user_live.record_video_id | get_video_src }}" frameborder="0" width="100%"#}
+                {#                                    height="100%"></iframe>#}
+                {% if live_url %}
+                    <div align="center" class="embed-responsive embed-responsive-16by9">
+                        <video width='320' height='240' controls class="embed-responsive-item">
+                            <source src="{{ live_url }}" type="video/mp4">
+                            你的浏览器不支持video标签.
+                        </video>
+                    </div>
+                {% else %}
+                    获取播放地址失败
+                {% endif %}
+            {% elif user_live.provider_name == 'tencent' %}
+                <div align="center" class="embed-responsive embed-responsive-16by9">
+                    <video width='320' height='240' controls class="embed-responsive-item">
+                        <source src="{{ user_live.replay_url }}" type="video/mp4">
+                        你的浏览器不支持video标签.
+                    </video>
+                </div>
+            {% elif user_live.provider_name == 'gensee' %}
+                gensee视频未配置
+            {% else %}
+                未配置录播供应商
+            {% endif %}
+        {% else %}
+            该视频超过时间，无法观看，如有疑问，请联系客服
+        {% endif %}
+    </div>
+
+    {% include 'bee_django_course/_user_live_comments.html' with comment_form=comment_form comments=comments %}
+
+{% endblock %}
