@@ -1,0 +1,10 @@
+README.md
+setup.py
+pytermcolor/__init__.py
+pytermcolor/ansiTermcolor.py
+pytermcolor/pytermcolor.py
+pytermcolor/winTermcolor.py
+pytermcolor.egg-info/PKG-INFO
+pytermcolor.egg-info/SOURCES.txt
+pytermcolor.egg-info/dependency_links.txt
+pytermcolor.egg-info/top_level.txt
