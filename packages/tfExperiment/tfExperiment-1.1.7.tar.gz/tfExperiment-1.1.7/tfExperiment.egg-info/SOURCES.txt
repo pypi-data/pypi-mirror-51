@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+test/test.py
+tfExperiment/__init__.py
+tfExperiment/cacheManager.py
+tfExperiment/dispossableSession.py
+tfExperiment/errors.py
+tfExperiment/experiment.py
+tfExperiment/initNew.py
+tfExperiment/withinPath.py
+tfExperiment.egg-info/PKG-INFO
+tfExperiment.egg-info/SOURCES.txt
+tfExperiment.egg-info/dependency_links.txt
+tfExperiment.egg-info/requires.txt
+tfExperiment.egg-info/top_level.txt
