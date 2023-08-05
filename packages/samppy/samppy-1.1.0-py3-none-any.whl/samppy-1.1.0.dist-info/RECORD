@@ -1,0 +1,9 @@
+samppy/__init__.py,sha256=4z3hN5foh1lTdMZUPN7S9Q4yGi-cVYsI7g1coHFysMY,662
+samppy/credibility.py,sha256=7EOnpcDSorOo9lzxfB7yJuOAyClI9ktkFp3uOg9QEUs,15654
+samppy/hamiltonian_sampler.py,sha256=X0KuWNErl8DowZPNEfke3itYxnlR1GRyGHvxrQaNtXQ,29565
+samppy/sample_entropy.py,sha256=q53IJGuZp8znqt5yjkFSjd-KAHD6rmAawdMDUrMk2XM,4517
+samppy-1.1.0.dist-info/LICENSE.txt,sha256=_nFiHX3cFvcCXkWOlHwyTUjzuJCiOyE-DfvbnJkUwro,1083
+samppy-1.1.0.dist-info/METADATA,sha256=dKr31oDRf5AMxEZrvTLQ_7nyIimc5mGFOO3eJElQNuI,3341
+samppy-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+samppy-1.1.0.dist-info/top_level.txt,sha256=3DS0VDiAYdibzN2jMYcuFUIwZcN7Ap1jRJmBvHCNj0E,39
+samppy-1.1.0.dist-info/RECORD,,
