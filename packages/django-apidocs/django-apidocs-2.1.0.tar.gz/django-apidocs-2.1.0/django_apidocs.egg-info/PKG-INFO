@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: django-apidocs
+Version: 2.1.0
+Summary: Web API docs for Django
+Home-page: https://github.com/lyonyang/django-apidocs
+Author: Lyon Yang
+Author-email: lyon.yang@qq.com
+License: BSD
+Description: # Django Docs
+        
+        ![django-version](https://img.shields.io/badge/django%20version-1.x-blue.svg)
+        ![python-version](https://img.shields.io/badge/python-3.4%2C%203.5%2C%203.6-blue.svg)
+        ![django-docs](https://img.shields.io/badge/django--docs-2.1.0-blue)
+        
+        
+        ## 安装
+        
+        ```shell
+        $ pip install django-apidocs
+        ```
+        
+        
+        
+Platform: any
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
