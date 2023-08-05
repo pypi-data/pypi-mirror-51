@@ -1,0 +1,12 @@
+README.md
+setup.py
+flyingsnake/__init__.py
+flyingsnake/__main__.py
+flyingsnake/default_colors.py
+flyingsnake/get_colors.py
+flyingsnake.egg-info/PKG-INFO
+flyingsnake.egg-info/SOURCES.txt
+flyingsnake.egg-info/dependency_links.txt
+flyingsnake.egg-info/not-zip-safe
+flyingsnake.egg-info/requires.txt
+flyingsnake.egg-info/top_level.txt
