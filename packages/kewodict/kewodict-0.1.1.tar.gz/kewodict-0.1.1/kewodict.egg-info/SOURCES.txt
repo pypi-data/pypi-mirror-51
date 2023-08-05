@@ -1,0 +1,10 @@
+setup.py
+kewodict/__init__.py
+kewodict/main.py
+kewodict/orm.py
+kewodict/word.py
+kewodict.egg-info/PKG-INFO
+kewodict.egg-info/SOURCES.txt
+kewodict.egg-info/dependency_links.txt
+kewodict.egg-info/requires.txt
+kewodict.egg-info/top_level.txt
