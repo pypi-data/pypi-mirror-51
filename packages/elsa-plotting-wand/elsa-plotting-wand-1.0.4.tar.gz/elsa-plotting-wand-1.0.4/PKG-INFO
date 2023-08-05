@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: elsa-plotting-wand
+Version: 1.0.4
+Summary: Plot experimental results
+Home-page: https://github.com/elsa-lab/plotting-wand
+Author: Shawn Chang
+Author-email: shawn420@gapp.nthu.edu.tw
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/elsa-lab/plotting-wand/issues
+Project-URL: Source, https://github.com/elsa-lab/plotting-wand
+Description: # Plotting Wand
+        
+        Plot experimental results.
+        
+        This project mainly uses [Plotly](https://plot.ly/python/) configurations and have limited compatibility with [Seaborn](https://seaborn.pydata.org/index.html).
+        
+        ![subplots/plot_line_plotly.py.png](https://github.com/elsa-lab/plotting-wand/raw/master/examples/subplots/images/plot_line_plotly.py.png)
+        
+        ## Features
+        
+        * Friendly API interface
+        * Plotting examples
+        
+        ## Prerequisites
+        
+        1. Linux-based terminals (For Windows, I recommend using [git-sdk](https://github.com/git-for-windows/build-extra/releases))
+        2. Python 3.5 or higher
+        3. [Orca](https://github.com/plotly/orca) (For saving image when plotting with Plotly)
+        
+        ## Installation
+        
+        Run the following command:
+        
+        ```bash
+        pip install elsa-plotting-wand
+        ```
+        
+        ## Examples
+        
+        To get started, see the example [Minimalist](https://github.com/elsa-lab/plotting-wand/tree/master/examples/minimalist). For practical usage, see the example [Subplots](https://github.com/elsa-lab/plotting-wand/tree/master/examples/subplots).
+        
+Keywords: data-visualization plotting plotly tool
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: examples
+Provides-Extra: dev
