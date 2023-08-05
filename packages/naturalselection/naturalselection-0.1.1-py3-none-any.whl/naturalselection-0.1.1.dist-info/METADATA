@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: naturalselection
+Version: 0.1.1
+Summary: An all-purpose pythonic genetic algorithm
+Home-page: https://github.com/saattrupdan/naturalselection
+Author: Dan Saattrup Nielsen
+Author-email: saattrupdan@gmail.com
+License: UNKNOWN
+Keywords: genetic algorithm neural network
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: functools
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: multiprocessing
+Requires-Dist: contextlib
+Requires-Dist: time
+Requires-Dist: itertools
+Requires-Dist: tensorflow
+Requires-Dist: sklearn
+Requires-Dist: os
+Requires-Dist: sys
+
+# naturalselection
+
+An all-purpose pythonic genetic algorithm.
+
+
