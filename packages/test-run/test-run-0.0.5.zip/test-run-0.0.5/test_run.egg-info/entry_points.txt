@@ -1,0 +1,3 @@
+[console_scripts]
+test-run = test_run.test1:main
+
