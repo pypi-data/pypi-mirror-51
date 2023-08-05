@@ -1,0 +1,9 @@
+README.md
+setup.py
+discordlabs.py.egg-info/PKG-INFO
+discordlabs.py.egg-info/SOURCES.txt
+discordlabs.py.egg-info/dependency_links.txt
+discordlabs.py.egg-info/requires.txt
+discordlabs.py.egg-info/top_level.txt
+discordlabspy/__init__.py
+discordlabspy/client.py
