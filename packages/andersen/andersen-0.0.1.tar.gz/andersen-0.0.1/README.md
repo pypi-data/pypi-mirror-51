@@ -1,0 +1,176 @@
+# Andersen
+一个Python的日志库的封装
+
+# 使用方式
+
+## 安装
+```
+pip install andersen
+```
+
+## 代码使用
+### 直接使用
+```python
+import andersen
+
+
+andersen.debug('debug')
+andersen.info('info')
+andersen.warn('warn')
+andersen.error('error')
+```
+系统自带了一个输出到控制台的handler，日志级别为info，因此上边的代码会输出：
+![默认日志](default_log.png)
+
+### 自定义配置
+可以自己指定配置的文件，有两种指定方式：环境变量和函数指定
+
+#### 指定环境变量
+```python
+import os
+os.environ.setdefault('ANDERSEN_CONFIG', 'log_config.toml')
+# 必须在导入前设置环境变量
+import andersen
+andersen.debug('debug')
+andersen.info('info')
+andersen.warn('warn')
+andersen.error('error')
+```
+
+#### 函数加载
+```python
+import andersen
+andersen.init('log_config.toml')
+
+andersen.debug('debug')
+andersen.info('info')
+andersen.warn('warn')
+andersen.error('error')
+```
+
+目前只支持toml的自定义配置文件，示例文件如下
+```toml
+[log.common]
+    # 可选参数
+    name = "common"
+
+    # 必要参数
+    level = "info"
+
+    # 可选参数，这里如果配置的话则handler处没有配置的话会到这里查找。如果都找不到则会抛出异常
+    format = "[%(asctime)s] [%(levelname)s] %(message)s"
+
+# 输出到控制台的配置
+[[log.common.handlers]]
+    type = "std"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "info"
+
+# 输出到文件的配置
+[[log.common.handlers]]
+    type = "file"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "info"
+
+    # 必要参数
+    log_file = "log/common.log"
+
+# 输出到按大小迭代的文件的配置
+[[log.common.handlers]]
+    type = "rotate"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "info"
+
+    # 必要参数
+    log_file = "log/common1.log"
+    max_bytes = 1024
+
+# 输出到按时间迭代的文件的配置
+[[log.common.handlers]]
+    type = "time_rotate"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "info"
+
+    # 必要参数
+    log_file = "log/common2.log"
+    when = 'h'
+
+# 如果需要配置另一个，修改log后边的key名称即可，然后需要配置哪些类型的handler，从上边复制后修改即可
+[log.sample]
+    name = "sample"
+    level = "debug"
+    format = "[%(asctime)s] [%(levelname)s] %(message)s"
+
+# 输出到控制台的配置
+[[log.sample.handlers]]
+    type = "std"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "debug"
+```
+
+# 相关函数
+## 日志配置
+```python
+init(conf=None, default_logger='common')
+```
+初始化函数。可重复调用，只会实际执行一次。
+* conf 如果为None则从环境变量读取配置文件，如果不存在则使用默认配置，即创建一个输出到控制台的日志对象
+* default_logger 初始化后默认使用的日志对象
+
+```python
+generate_sample_config(filename)
+```
+将示例配置写入一个toml文件。写入内容见上文
+* filename 目标文件
+
+```python
+get_logger(key='common')
+```
+获取日志对象。key必须在配置文件里已经定义。返回的是一个python的logging.Logger对象
+* key 日志的key值，即配置中log后边所跟的参数，默认是common
+
+## 日志输出
+```python
+debug(*args, **kwargs)
+```
+输出调试信息。kwargs中**可选参数**
+* logger 要使用哪个日志输出信息，未指定的话使用默认日志输出
+* sep 默认分隔符，如果指定该参数那么下边三个参数的默认值是该值
+* list_sep 列表分隔符，即使用该参数连接参数args
+* para_sep 参数分隔符，即使用该参数连接args和kwargs生成的字符串
+* dict_sep 字典分隔符，即使用该参数连接参数kwargs
+
+```python
+info(*args, **kwargs)
+```
+输出信息。kwargs中**可选参数**
+* logger 要使用哪个日志输出信息，未指定的话使用默认日志输出
+* sep 默认分隔符，如果指定该参数那么下边三个参数的默认值是该值
+* list_sep 列表分隔符，即使用该参数连接参数args
+* para_sep 参数分隔符，即使用该参数连接args和kwargs生成的字符串
+* dict_sep 字典分隔符，即使用该参数连接参数kwargs
+
+```python
+warn(*args, **kwargs)
+```
+输出警告信息。kwargs中**可选参数**
+* logger 要使用哪个日志输出信息，未指定的话使用默认日志输出
+* sep 默认分隔符，如果指定该参数那么下边三个参数的默认值是该值
+* list_sep 列表分隔符，即使用该参数连接参数args
+* para_sep 参数分隔符，即使用该参数连接args和kwargs生成的字符串
+* dict_sep 字典分隔符，即使用该参数连接参数kwargs
+
+```python
+error(*args, **kwargs)
+```
+输出错误信息。kwargs中**可选参数**
+* logger 要使用哪个日志输出信息，未指定的话使用默认日志输出
+* sep 默认分隔符，如果指定该参数那么下边三个参数的默认值是该值
+* list_sep 列表分隔符，即使用该参数连接参数args
+* para_sep 参数分隔符，即使用该参数连接args和kwargs生成的字符串
+* dict_sep 字典分隔符，即使用该参数连接参数kwargs

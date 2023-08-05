@@ -1,0 +1,66 @@
+[log.common]
+    # 可选参数
+    name = "common"
+
+    # 必要参数
+    level = "info"
+
+    # 可选参数，这里如果配置的话则handler处没有配置的话会到这里查找。如果都找不到则会抛出异常
+    format = "[%(asctime)s] [%(levelname)s] %(message)s"
+
+# 输出到控制台的配置
+[[log.common.handlers]]
+    type = "std"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "info"
+
+# 输出到文件的配置
+[[log.common.handlers]]
+    type = "file"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "info"
+
+    # 必要参数
+    log_file = "log/common.log"
+
+# 输出到按大小迭代的文件的配置
+[[log.common.handlers]]
+    type = "rotate"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "info"
+
+    # 必要参数
+    log_file = "log/common1.log"
+    max_bytes = 1024
+
+# 输出到按时间迭代的文件的配置
+[[log.common.handlers]]
+    type = "time_rotate"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "info"
+
+    # 必要参数
+    log_file = "log/common2.log"
+    when = 'h'
+
+# 如果需要配置另一个，修改log后边的key名称即可，然后需要配置哪些类型的handler，从上边复制后修改即可
+[log.sample]
+    name = "sample"
+    level = "debug"
+    format = "[%(asctime)s] [%(levelname)s] %(message)s"
+
+# 输出到控制台的配置
+[[log.sample.handlers]]
+    type = "std"
+    # 可选参数
+    format = "%(asctime)s %(levelname)s %(message)s"
+    level = "debug"
+
+
+
+
+
