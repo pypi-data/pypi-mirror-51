@@ -1,0 +1,16 @@
+make/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+make/__main__.py,sha256=4b41Q6pR9iPQuFMsHwetooCi4Af0_5bkjSz0jBJ51xA,1517
+make/errors.py,sha256=UEwVan-B5a5fEBcciYUjwX72Ppjvfq9SKlp_OpE15zo,116
+make/template.py,sha256=ybyRYjmRvH3Gbt8Htp6duoKJs2xE-pGts541c-0ggL4,260
+make/make_get/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+make/make_get/make_get.py,sha256=_aZUbsA0qs9ZNcpHxmtUhzQCql11ufNnsubUYzdoZwE,452
+make/make_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+make/make_project/make_project.py,sha256=RESVCBIMq0wKxo3w8En8LeoSFmkWTaOgUy8jyu6iiuo,4224
+make/make_project/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+make/make_project/parsers/cookiecutter_parser.py,sha256=WuOkFjZ55Z9AiTaG4JB-5qzyc61yDLjBziodhcZHCRc,1132
+make/make_project/parsers/ini_parser.py,sha256=0_np1dusFExj7FLYYAxZFQqBoL3cOwBWJ7ymmE8FSkw,2365
+make/make_project/parsers/json_parser.py,sha256=Xac_QQ6Hh-ACLgpblb-tNOXv53tP0bK5cmdypu7hZ7A,2515
+make-0.1.4.dist-info/METADATA,sha256=PE9Himkmkp2SFYxSi01wgoWfZlBvVxppAesRY593kj4,4196
+make-0.1.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+make-0.1.4.dist-info/top_level.txt,sha256=wRet6eqKAKvpJt_teSl6mjYy3vuXo__RuvM_6ScEqg8,5
+make-0.1.4.dist-info/RECORD,,
