@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: awsbw
+Version: 0.1.5
+Summary: A small CLI utility to view jobs in an AWS batch queue      
+Home-page: https://github.com/jgolob/awsbw
+Author: Jonathan Golob
+Author-email: j-dev@golob.org
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: boto3
+
+UNKNOWN
+
+
