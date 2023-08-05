@@ -1,0 +1,10 @@
+setup.py
+cosmostables.egg-info/PKG-INFO
+cosmostables.egg-info/SOURCES.txt
+cosmostables.egg-info/dependency_links.txt
+cosmostables.egg-info/not-zip-safe
+cosmostables.egg-info/top_level.txt
+tableextractions/__init__.py
+tableextractions/pdf_table_extractions.py
+tableextractions/utils.py
+test/test_table_extractions.py
