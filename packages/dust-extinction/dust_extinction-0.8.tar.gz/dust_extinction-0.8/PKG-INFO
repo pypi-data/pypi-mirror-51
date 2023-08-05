@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dust_extinction
+Version: 0.8
+Summary: Interstellar Dust Extinction Models
+Home-page: http://dust-extinction.readthedocs.io/
+Author: Karl Gordon
+Author-email: kgordon@stsci.edu
+License: BSD 3-Clause
+Description: interstellar dust extinction curves in the astropy modeling framework
+Platform: UNKNOWN
