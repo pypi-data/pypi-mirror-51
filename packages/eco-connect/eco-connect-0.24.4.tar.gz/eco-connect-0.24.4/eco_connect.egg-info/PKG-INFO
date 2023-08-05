@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: eco-connect
+Version: 0.24.4
+Summary: Ecorithm's connector to Facts Service
+Home-page: https://ecorithm.com
+Author: Ecorithm
+Author-email: support@ecorithm.com
+License: MIT
+Project-URL: Documentation, http://eco-connect.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/ecorithm/eco_connect
+Description: Eco-Connect @ Ecorithm
+        ======================
+        
+        .. image:: https://circleci.com/gh/ecorithm/eco_connect.svg?style=svg
+            :target: https://circleci.com/gh/ecorithm/eco_connect
+        
+        .. image:: https://codecov.io/gh/ecorithm/eco_connect/branch/master/graph/badge.svg
+          :target: https://codecov.io/gh/ecorithm/eco_connect
+        
+        .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+            :target: https://github.com/ambv/black
+        
+        A wrapper for connecting to Ecorithm’s API Platform through Python
+        
+        
+        Documentation
+        -------------
+        
+        Available at https://eco-connect.readthedocs.io/en/latest/index.html
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: docs
