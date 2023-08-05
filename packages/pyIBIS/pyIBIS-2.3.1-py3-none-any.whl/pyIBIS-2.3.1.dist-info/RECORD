@@ -1,0 +1,9 @@
+ibis/__init__.py,sha256=hHRshMlJ0PrhOzfsZWZMxjvMzWWuOXVBc9By87qrxcQ,933
+ibis/ibis_protocol.py,sha256=sJDtjOytVbhd1idoH3T6RJGi71CXZtPexkVfIJdW9Xs,22387
+ibis/ibis_serial.py,sha256=hicv1eyWwaqLMOpvc1fKK0Q49zSxjPfx_7haYTEUsl0,1232
+ibis/ibis_tcp.py,sha256=r8jyNiXxX7IyNfUpbdQRyaEGbtqs73BExVUlT5mgqOw,1097
+ibis/metadata.py,sha256=pvGEcn086LbSTsdTpo2ZzhUpm46f7RdGQmNOGNteZ64,372
+pyIBIS-2.3.1.dist-info/METADATA,sha256=xK5pJn6njsi4WGRTrGjamOTsmk4BaUsJpFRnO6ZeCaw,394
+pyIBIS-2.3.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pyIBIS-2.3.1.dist-info/top_level.txt,sha256=EklSoRMKb8kR0dcmcXyiHUyiWzuzOMOWnY9V1bGI3GU,5
+pyIBIS-2.3.1.dist-info/RECORD,,
