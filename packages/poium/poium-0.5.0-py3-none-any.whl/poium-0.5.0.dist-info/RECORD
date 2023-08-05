@@ -1,0 +1,10 @@
+poium/__init__.py,sha256=PTtph6CneC2L4LERjqLigT7Ut1ekQidJzpbQ-47sQSs,1065
+poium/javascript.py,sha256=oKZXPkkvHELKzawfcJIiZR9aoOLE4TVT1MtNHTwOeWw,4945
+poium/page_objects.py,sha256=nyw1mcveGWH5kUB2LuPF7CL-L9xe9_OEB22ngw4_UaM,7267
+poium/poium.py,sha256=ePO2PisbPu1rMs3XPJAn3bNXK8vVzXsA3MeDjviyPbI,10835
+poium/webdriver.py,sha256=2mz64FkqnGiu_bNyGZ3EO4O7ZRardc_wbRr7bme48IY,7169
+poium-0.5.0.dist-info/LICENSE,sha256=tAA9mbdrITAG0jyNDtWDHX6EF922IYz6U5IIRry09M0,11364
+poium-0.5.0.dist-info/METADATA,sha256=M5sD3a9Ab_5r0pauxBS2K6H7kjPkWZL1ucJgbW_S-9s,3704
+poium-0.5.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+poium-0.5.0.dist-info/top_level.txt,sha256=u4OcOFadXyQs_tN6hdHcDlYS0cbLPwl6dZTjSMqj9HM,6
+poium-0.5.0.dist-info/RECORD,,
