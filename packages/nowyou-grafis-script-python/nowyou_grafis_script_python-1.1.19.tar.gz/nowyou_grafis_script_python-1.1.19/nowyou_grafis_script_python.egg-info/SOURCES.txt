@@ -1,0 +1,17 @@
+README.md
+setup.py
+nowyou_grafis_script_python/__init__.py
+nowyou_grafis_script_python/start.py
+nowyou_grafis_script_python.egg-info/PKG-INFO
+nowyou_grafis_script_python.egg-info/SOURCES.txt
+nowyou_grafis_script_python.egg-info/dependency_links.txt
+nowyou_grafis_script_python.egg-info/requires.txt
+nowyou_grafis_script_python.egg-info/top_level.txt
+nowyou_grafis_script_python/static/__init__.py
+nowyou_grafis_script_python/tasks/__init__.py
+nowyou_grafis_script_python/tasks/launch.py
+nowyou_grafis_script_python/tasks/open_project.py
+nowyou_grafis_script_python/ui_tools/UI_tools.py
+nowyou_grafis_script_python/ui_tools/__init__.py
+nowyou_grafis_script_python/utils/__init__.py
+nowyou_grafis_script_python/utils/utils.py
