@@ -1,0 +1,100 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "clima"
+author = "Joni Turunen"
+author-email = "rojun.itu@gmail.com"
+home-page = "https://github.com/d3rp/clima.git"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS :: MacOS X",
+]
+requires = ["fire==0.1.3"]
+description-file = "README.md"
+requires-python = ">=3.5"
+keywords = "cli template command schema fire quick simple command-line"
+
+[tool.flit.metadata.requires-extra]
+dev = ["pytest"]
+test = ["pytest"]
+
+
+[tool.flit.scripts]
+
+[tool.flit.entrypoints]
+[tool.poetry]
+name = "clima"
+version = "0.1.0"
+description = "Simple boilerplate for cli scripts"
+keywords = ["cli"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS :: MacOS X",
+]
+homepage = "https://github.com/d3rp/clima.git"
+authors = ["Joni Turunen <rojun.itu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.5"
+fire = "==0.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[tool.poetry.extras]
+tests = ["pytest"]
+
+[tool.dephell.main]
+from = {format = "flit", path = "pyproject.toml"}
+to = {format = "poetry", path = "pyproject.toml"}
+
+# dephell deps convert --env flit
+[tool.dephell.flit]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "flit", path = "pyproject.toml"}
+
+# dephell deps convert --env pip
+[tool.dephell.pip]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "pip", path = "requirements.txt"}
+
+# dephell deps convert --env setuppy
+[tool.dephell.setuppy]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}
+
+# dephell deps convert --env pipenv
+[tool.dephell.pipenv]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "pipfile", path = "Pipfile"}
+
+[tool.dephell.pytest]
+from = {format = "poetry", path = "pyproject.toml"}
+envs = ["main", "tests"]
+tests = ["tests"]
+command = "python -m pytest tests"
