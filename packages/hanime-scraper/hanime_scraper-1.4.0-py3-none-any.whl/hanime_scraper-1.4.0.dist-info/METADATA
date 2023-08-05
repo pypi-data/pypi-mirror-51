@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hanime-scraper
+Version: 1.4.0
+Summary: A small commandline script for hanime community image scraping.
+Home-page: https://github.com/worstgamedev/hanime-scraper
+Author: WorstGameDev
+Author-email: worstgamedev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free For Educational Use
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# hanime
+hanime image scraper
+
+this is an educational journey in making webscraping for himages.
+this is my first time using python
+this is for educational purposes only
+
+
