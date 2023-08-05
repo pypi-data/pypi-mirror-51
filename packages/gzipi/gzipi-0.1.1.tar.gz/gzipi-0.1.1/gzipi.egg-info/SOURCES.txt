@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+gzipi/VERSION
+gzipi/__init__.py
+gzipi/cli.py
+gzipi/lib.py
+gzipi.egg-info/PKG-INFO
+gzipi.egg-info/SOURCES.txt
+gzipi.egg-info/dependency_links.txt
+gzipi.egg-info/entry_points.txt
+gzipi.egg-info/not-zip-safe
+gzipi.egg-info/requires.txt
+gzipi.egg-info/top_level.txt
+tests/test_lib.py
