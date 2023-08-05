@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ddbsizemetric
+Version: 0.1.0a6
+Summary: Lambda Custom Resource that emits a metric on the size of your DynamoDB Tables.
+Home-page: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/ConstructRepo.git
+Author: Richard Boyd<Richard@rboyd.dev>
+License: UNKNOWN
+Project-URL: Source, https://git-codecommit.us-east-1.amazonaws.com/v1/repos/ConstructRepo.git
+Description: # Python
+        ```
+        from aws_cdk import core
+        from ddbsizemetric import DDBSizeLib
+        
+        
+        class MyStack(core.Stack):
+        
+            def __init__(self, scope: core.Construct, id: str, **kwargs) -> None:
+                super().__init__(scope, id, **kwargs)
+        
+                DDBSizeLib(self, "MyDynamoTableScanner")
+        ```
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
