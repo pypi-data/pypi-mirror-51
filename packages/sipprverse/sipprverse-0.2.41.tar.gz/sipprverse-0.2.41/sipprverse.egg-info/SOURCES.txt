@@ -1,0 +1,16 @@
+README.md
+setup.py
+sipprverse/__init__.py
+sipprverse.egg-info/PKG-INFO
+sipprverse.egg-info/SOURCES.txt
+sipprverse.egg-info/dependency_links.txt
+sipprverse.egg-info/top_level.txt
+sipprverse/sippr/__init__.py
+sipprverse/sippr/method.py
+sipprverse/sippr/sippr.py
+sipprverse/validation/__init__.py
+sipprverse/validation/genesippr_validation.py
+sipprverse/validation/validate_data.py
+tests/__init__.py
+tests/test_imports.py
+tests/test_method.py
