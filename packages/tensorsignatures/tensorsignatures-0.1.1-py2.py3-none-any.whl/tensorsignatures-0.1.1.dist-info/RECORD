@@ -1,0 +1,16 @@
+tensorsignatures/__init__.py,sha256=DcTo2ktGjqRNRUD2oTWbnipPV2TfL9JbzryixYuq3Sg,294
+tensorsignatures/benchmark.py,sha256=4vlslRhfOLWk9CXNyuldg1NICycTzlgxCHaI20GwZOs,12485
+tensorsignatures/bootstrap.py,sha256=4enJjkacaPJPh7-P46BX4JT5EvjohzRI3d3TUuSVFow,27528
+tensorsignatures/cli.py,sha256=lTrQ1dYB6JopZEwlnPQfBPJB--OXw2_H8p3VR7tKLn8,6037
+tensorsignatures/config.py,sha256=uFJYaWJTYOMCrg7nyxBIbXGoXCP42A0GZrdfx2ij64A,6716
+tensorsignatures/tensorsignatures.py,sha256=qsNBll8uX6LUpxaXWlw1IuFu5Kw3VJ_TqLcWNQDLKVU,24277
+tensorsignatures/train.py,sha256=5Hi2eJNIMjacoJgpnWmszIusi5t1uz_YLWwfKPHsOK0,13157
+tensorsignatures/util.py,sha256=0sPBk-4lJgqIMpbkURDUoJFZlIbYwO4uO5D1UYUHdz8,55049
+tensorsignatures/writer.py,sha256=LUkSDuen857CnBIYZ2no3jlXztCntahabrlFUhnHyyY,6360
+tensorsignatures-0.1.1.dist-info/AUTHORS.rst,sha256=gPHV8G0IbtceGBgwh2SJYEyZXivPNVBQ3M98Kp2tm-s,169
+tensorsignatures-0.1.1.dist-info/LICENSE,sha256=8InjaPm4lSQhXbqIaz-DMJx35XauHjcPIcvDBk018k4,1081
+tensorsignatures-0.1.1.dist-info/METADATA,sha256=TmCTJB2m3DYT8d-GwQQnNOQhHQoHwETgwkDGH1wVEoM,1606
+tensorsignatures-0.1.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+tensorsignatures-0.1.1.dist-info/entry_points.txt,sha256=aeLDzjNrg_IgDLNoWKD7tdtrVhJDGft8Q0A7cGQhw1A,184
+tensorsignatures-0.1.1.dist-info/top_level.txt,sha256=Ku65SrK543-8b_Pp42UvCfskqHakFldfbtH-f51ZHv8,17
+tensorsignatures-0.1.1.dist-info/RECORD,,
