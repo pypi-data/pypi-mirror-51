@@ -1,0 +1,3 @@
+[console_scripts]
+log-ip = log_ip.log_ip:main
+
