@@ -1,0 +1,5 @@
+matplotlib
+QT.py
+numexpr
+geophpy>=0.32
+PySide2

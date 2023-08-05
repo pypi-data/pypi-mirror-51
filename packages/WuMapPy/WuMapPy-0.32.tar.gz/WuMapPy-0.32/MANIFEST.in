@@ -1,0 +1,9 @@
+recursive-include wumappy/resources *
+recursive-include wumappy/help/html *
+recursive-include wumappy/help/pdf *
+recursive-include example files *
+recursive-include docs *
+include AUTHORS.rst
+include CHANGES.rst
+include README.rst
+include COPYING
