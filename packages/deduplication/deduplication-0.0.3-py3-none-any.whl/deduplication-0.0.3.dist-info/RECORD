@@ -1,0 +1,9 @@
+deduplication/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deduplication/lsimhash.py,sha256=BIVuVLim9xA90Gr1QCIA-Camny9jp5bKuJuw81QVK9w,392
+deduplication/nlp.py,sha256=d6A85TXex4RXkYNuY9lJzgF_3aQeACHBdk4XipPagBc,863
+deduplication/simhash.py,sha256=q4BZx7D0j8JDy5nfYJ9JTvNmkcQApyGItDTf8o4fXvU,901
+deduplication-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deduplication-0.0.3.dist-info/METADATA,sha256=XjXeK32CCqn9RIYEDrpAqXGwqGmR6TdqOxnUn2yPfN4,1343
+deduplication-0.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+deduplication-0.0.3.dist-info/top_level.txt,sha256=EP3DRwBKyZlMm8qQoJV9pDspKpHWAC7sBZxAWPvn1lQ,14
+deduplication-0.0.3.dist-info/RECORD,,
