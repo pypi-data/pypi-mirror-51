@@ -1,0 +1,6 @@
+loguru
+aiohttp
+aiofiles
+cchardet
+aiodns
+click

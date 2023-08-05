@@ -1,0 +1,14 @@
+README.md
+setup.py
+vscod/__init__.py
+vscod/extensions_downloader.py
+vscod/utils.py
+vscod/vscode_downloader.py
+vscod.egg-info/PKG-INFO
+vscod.egg-info/SOURCES.txt
+vscod.egg-info/dependency_links.txt
+vscod.egg-info/entry_points.txt
+vscod.egg-info/requires.txt
+vscod.egg-info/top_level.txt
+vscod/scripts/__init__.py
+vscod/scripts/vscod.py
