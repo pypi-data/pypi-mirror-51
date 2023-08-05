@@ -1,0 +1,5 @@
+# Config options for 'united' theme
+
+extends: maeguias
+
+hljs_style: github

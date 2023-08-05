@@ -1,0 +1,5 @@
+# Config options for 'cerulean' theme
+
+extends: maeguias
+
+hljs_style: color-brewer

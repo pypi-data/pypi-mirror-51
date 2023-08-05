@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: maetema
+Version: 1.1.3
+Summary: Tema de MaeDocs
+Home-page: https://docs.maeorg.site
+Author: Ham Won Trikru
+Author-email: lwonderlich@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7.9,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*

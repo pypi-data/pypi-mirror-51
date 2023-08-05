@@ -1,0 +1,5 @@
+# Config options for 'amelia' theme
+
+extends: maeguias
+
+hljs_style: agate
