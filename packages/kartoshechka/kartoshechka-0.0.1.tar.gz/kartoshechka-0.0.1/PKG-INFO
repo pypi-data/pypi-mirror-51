@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: kartoshechka
+Version: 0.0.1
+Summary: Configure applications with environment variables
+Home-page: https://github.com/kotyakov/envconf
+Author: Maxim Kotyakov
+Author-email: m.a.kotyakov@yandex.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
