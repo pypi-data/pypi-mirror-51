@@ -1,0 +1,7 @@
+README.md
+setup.py
+actionfreeze/__init__.py
+actionfreeze.egg-info/PKG-INFO
+actionfreeze.egg-info/SOURCES.txt
+actionfreeze.egg-info/dependency_links.txt
+actionfreeze.egg-info/top_level.txt
