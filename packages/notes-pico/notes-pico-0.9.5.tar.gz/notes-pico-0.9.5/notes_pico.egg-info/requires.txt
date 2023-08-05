@@ -1,0 +1,5 @@
+picoweb
+utemplate
+pycopy-ulogging
+pycopy-pkg_resources
+pycopy-btreedb
