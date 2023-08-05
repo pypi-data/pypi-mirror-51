@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: numpyworld
+Version: 0.1
+Summary: Use numpy to create a world that you dreamed about!
+Home-page: https://github.com/yingshaoxo/numpyworld
+Author: yingshaoxo
+Author-email: yingshaoxo@gmail.com
+License: MIT
+Description: # Numpy World
+        
+        Draw this world with numpy.  [(start now)](https://github.com/yingshaoxo/numpyworld/blob/master/Example.ipynb)
+        
+Keywords: numpyworld
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
