@@ -1,0 +1,3 @@
+[console_scripts]
+run-config = resource_manager.console:render_config_resource
+
