@@ -1,0 +1,9 @@
+README.md
+setup.py
+easy_scpi/__init__.py
+easy_scpi/scpi_instrument.py
+easy_scpi.egg-info/PKG-INFO
+easy_scpi.egg-info/SOURCES.txt
+easy_scpi.egg-info/dependency_links.txt
+easy_scpi.egg-info/requires.txt
+easy_scpi.egg-info/top_level.txt
