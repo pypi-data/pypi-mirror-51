@@ -1,0 +1,9 @@
+README.md
+setup.py
+mspdf/__init__.py
+mspdf/pdf2image.py
+mspdf/pdf2text.py
+omspdf.egg-info/PKG-INFO
+omspdf.egg-info/SOURCES.txt
+omspdf.egg-info/dependency_links.txt
+omspdf.egg-info/top_level.txt
