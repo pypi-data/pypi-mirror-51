@@ -1,0 +1,13 @@
+sci_api_req/__init__.py,sha256=MV8NFLuYDB8XX7fDgbS97xwaQDrEW2xAFZvkolDQK5c,20
+sci_api_req/config.py,sha256=bmPRg9wLHr0VwjyFvhI5ougei4j5O2bSVqVJ1P5awvY,254
+sci_api_req/providers/__init__.py,sha256=C5dLPkM5SVpBnXFNw3nZKq-9NDOQZ8NV1I8iJ5rdhGQ,26
+sci_api_req/providers/api_provider.py,sha256=gy3rA62odXmK4Z7g2HQCi_Nebz_fp_JGSI8zgqL2n0E,1187
+sci_api_req/providers/NASA/__init__.py,sha256=_LMx1gdxghja3qxHqwzztOZRyP5hVWLlHCrfaDRdks8,63
+sci_api_req/providers/NASA/apod_provider.py,sha256=gzM6CFMp0QfzpB4_T0HYFYXwmxHtJEYKf4vpgAIbCXg,665
+sci_api_req/providers/NASA/donki_provider.py,sha256=rk3ik81LVStSGHUWeB5s3quG0hJRoDF6UdEOEgDtmHQ,5006
+sci_api_req/providers/NASA/neows_provider.py,sha256=l0cmqPVxPWex2SfiYLHw7eBCPNvH37PvKKvtvRDrFIw,2515
+sci_api_req-0.1.1.dist-info/LICENSE,sha256=MbdtN1ZuwsxsfI22I7XtGRJn7GUvgHxwrQm6PK_PVbw,1521
+sci_api_req-0.1.1.dist-info/METADATA,sha256=nCBDm4mCX1nJ36nLdzxmuy9dGudssTRJWP9Ks7vVgbY,427
+sci_api_req-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sci_api_req-0.1.1.dist-info/top_level.txt,sha256=xYfm5EonmVjzfeXxFiyGSt0cSLEToxTcYdLjd6g3POg,12
+sci_api_req-0.1.1.dist-info/RECORD,,
