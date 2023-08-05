@@ -1,0 +1,3 @@
+[console_scripts]
+rstwatch = rstwatch.__main__:main
+
