@@ -1,0 +1,97 @@
+/* Schéma */
+
+    /* Position */
+
+    /* Dimensions */
+
+    /* Style */
+
+    /* For child properties */
+
+
+/*
+    ##################################################
+    ##################### GENERAL ####################
+    ##################################################
+*/
+
+html {
+
+    body {
+
+        main#principal-main {
+            /* Position */
+
+            /* Dimensions */
+            padding-top: 100px;
+
+            /* Style */
+
+            /* For child properties */
+            display: flex;
+            justify-content: center;
+
+
+            table, th, td {
+                /* Position */
+
+                /* Dimensions */
+
+                /* Style */
+                border-style: solid;
+                border-width: 1px;
+                border-color: #505050;
+                border-collapse: collapse;
+
+                /* For child properties */
+            }
+
+
+            th {
+                /* Position */
+                padding: 10px;
+
+                /* Dimensions */
+
+                /* Style */
+                background-color: #505050;
+                color: white;
+                border-color: white;
+
+                /* For child properties */
+            }
+
+
+            td.true_td {
+                background-color: lightgreen;
+            }
+
+
+            td.false_td {
+                background-color: lightpink;
+            }
+
+
+            td a {
+                /* Position */
+                padding: 10px;
+
+                /* Dimensions */
+                display: block;
+
+                /* Style */
+                color: black;
+                text-align: center;
+                transition-duration: 50ms;
+
+                /* For child properties */
+            }
+
+
+            td a:hover {
+                color: #3f56ff;
+                transform: scale(1.05);
+            }
+        }
+    }
+}

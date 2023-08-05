@@ -1,0 +1,33 @@
+// VARIABLES :
+
+  // Media queries:
+    $small-screen: only screen and (max-width: 650px);
+    // The unquote() function is used to disable SCSS media queries formatting.
+    // Without unquote(), 'only screen and (min-width: 650px) and (max-width: 950px)' will be transformed in 'only screen and (max-width: 950px)'.
+    $medium-screen: unquote("only screen and (min-width: 650px) and (max-width: 950px)");
+    $large-screen: only screen and (min-width: 950px);
+
+  // Fonts-sizes:
+    $base-font-size: 16px;
+    $small-fs: 1rem;
+    $medium-fs: 1.5rem;
+    $big-fs: 2rem;
+
+
+
+
+// FUNCTIONS :
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+  @return $number;
+}
+
+@function rem($size, $base-size) {
+  @return 1rem * (strip-unit($size) / strip-unit($base-size))
+}
+
+@function em($size, $base-size) {
+  @return 1em * (strip-unit($size) / strip-unit($base-size))
+}

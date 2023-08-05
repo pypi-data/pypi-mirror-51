@@ -1,0 +1,329 @@
+{% extends "admin/background_pages/base.html" %}
+
+{% load static bulb_static admin_extras compress %}
+
+{% block title %}Gestion{% endblock title %}
+
+{% block head %}
+    {% if DEBUG %}
+        {% compress css %}
+            <link rel="stylesheet" type="text/x-scss" href="{% static "handling/css/style/node_handling_and_creation_pages.scss" %}"/>
+        {% endcompress %}
+
+    {% elif not DEBUG %}
+        <link rel="stylesheet" href="{% static_bundled_src "handling/bundle_node_handling.css" %}"/>
+
+    {% endif %}
+{% endblock head %}
+
+{% block administration_part_name %}
+    >
+    <a class="nav-link" href="{% url "handling_home" %}">Gestion</a>
+    >
+    <a class="nav-link" href="{% url "node_model_home" node_model_name=node_model_name %}">{{ node_model_name }}</a>
+
+    {% if node_uuid != "None" %}
+    >
+    <a class="nav-link" href="{% url "node_handling" node_model_name=node_model_name node_uuid=node_uuid %}">{{ node_uuid }}</a>
+    {% endif %}
+{% endblock administration_part_name %}
+
+{% block content %}
+    <br/>
+    <br/>
+
+    <form id="handling-form" action="{% url "node_handling" node_model_name=node_model_name node_uuid=node_uuid %}" method="post" enctype="multipart/form-data" novalidate>
+        {% csrf_token %}
+        <input type="hidden" name="action" value="update"/>
+
+        {% for field_name, field_properties in admin_fields_dict.items %}
+
+            {% if field_properties.type == "locked" %}
+                <label for="{{ field_name }}">
+                {{ field_properties.label }} =
+
+                {{ instance|get:field_name }}
+                </label>
+
+            {% elif field_properties.type == "select" %}
+                <label for="{{ field_name }}">{{ field_properties.label }}</label>
+
+                <select id="{{ field_name }}" name="{{ field_name }}">
+                    {% for choice in field_properties.choices %}
+                        <option value="{{ choice.0 }}" {% if instance|get:field_name == choice.1 %}selected="selected"{% endif %}>{{ choice.1 }}</option>
+                    {% endfor %}
+                </select>
+
+            {% elif field_properties.type == "checkbox" %}
+                <div class="checkbox-div">
+                    <label class="checkbox-label" for="{{ field_name }}">{{ field_properties.label }}&nbsp;&nbsp;&nbsp;</label>
+
+                    <div class="onoffswitch">
+                        <input id="{{ field_name }}" type="{{ field_properties.type }}" name="{{ field_name }}" class="onoffswitch-checkbox" {% if instance|get:field_name == True %}checked="checked"{% endif %}>
+                        <label class="onoffswitch-label" for="{{ field_name }}">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+
+                    <input id="{{ field_name }}-hidden" type="hidden" name="{{ field_name }}" value="off"/>
+                </div>
+
+            {% elif field_properties.type == "text" %}
+                <label for="{{ field_name }}">{{ field_properties.label }}</label>
+                <input id="{{ field_name }}" type="{{ field_properties.type }}" name="{{ field_name }}" value="{{ instance|get:field_name }}"/>
+
+            {% elif field_properties.type == "date" %}
+                <label for="{{ field_name }}">{{ field_properties.label }}</label>
+                <input id="{{ field_name }}" class="date-hidden" type="hidden" name="{{ field_name }}" value="{{ instance|get:field_name }}"/>
+
+                <div class="date-box">
+                    <input id="{{ field_name }}-day" class="date-day date-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                    <p class="date-indicator">/</p>
+
+                    <input id="{{ field_name }}-month" class="date-month date-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                    <p class="date-indicator">/</p>
+
+                    <input id="{{ field_name }}-year" class="date-year date-input" type="text" name="{{ field_name }}" size="3" maxlength="4"/>
+                </div>
+
+            {% elif field_properties.type == "time" %}
+            <label for="{{ field_name }}">{{ field_properties.label }}</label>
+            <input id="{{ field_name }}" class="time-hidden" type="hidden" name="{{ field_name }}" value="{{ instance|get:field_name }}"/>
+
+            <div class="time-box">
+                <input id="{{ field_name }}-hour" class="time-hour time-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                <p class="time-indicator">:</p>
+
+                <input id="{{ field_name }}-minute" class="time-minute time-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                <p class="time-indicator">:</p>
+
+                <input id="{{ field_name }}-second" class="time-second time-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+            </div>
+
+            {% elif field_properties.type == "datetime" %}
+                <label for="{{ field_name }}">{{ field_properties.label }}</label>
+                <input id="{{ field_name }}" class="datetime-hidden" type="hidden" name="{{ field_name }}" value="{{ instance|get:field_name }}"/>
+
+                <div class="datetime-box">
+                    <input id="{{ field_name }}-day" class="datetime-day datetime-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                    <p class="datetime-indicator">/</p>
+
+                    <input id="{{ field_name }}-month" class="datetime-month datetime-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                    <p class="datetime-indicator">/</p>
+
+                    <input id="{{ field_name }}-year" class="datetime-year datetime-input" type="text" name="{{ field_name }}" size="3" maxlength="4"/>
+                    <p class="datetime-indicator">&nbsp;</p>
+
+                    <input id="{{ field_name }}-hour" class="datetime-hour datetime-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                    <p class="datetime-indicator">:</p>
+
+                    <input id="{{ field_name }}-minute" class="datetime-minute datetime-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                    <p class="datetime-indicator">:</p>
+
+                    <input id="{{ field_name }}-second" class="datetime-second datetime-input" type="text" name="{{ field_name }}" size="1" maxlength="2"/>
+                </div>
+
+            {% elif field_properties.type == "file" %}
+                <label for="{{ field_name }}">{{ field_properties.label }}</label>
+                <input id="{{ field_name }}" type="{{ field_properties.type }}" name="{{ field_name }}"/>
+
+                <button class="file-reset-button" id="{{ field_name }}-reset-button" type="button">Reset</button>
+
+                {% if instance|get:field_name != "None" and instance|get:field_name != "" %}
+                    <br/>
+
+                    <label for="{{ field_name }}-removing-helper">
+                        {% if field_properties.format == "image" %}
+                            Supprimer l'image actuelle
+
+                        {% elif field_properties.format == "pdf" %}
+                            Supprimer le document PDF actuel
+
+                        {% endif %}
+                    </label>
+
+                    <input class="file-removing-helper" id="{{ field_name }}-removing-helper" type="checkbox" name="{{ field_name }}" value="None"/>
+
+                    <br/>
+
+                    {% if field_properties.format == "image" %}
+                        <a href="{{ instance|get:field_name }}">
+                            <img src="{{ instance|get:field_name }}" width=250 alt="image"/>
+                        </a>
+
+                    {% elif field_properties.format == "pdf" %}
+                        <a href="{{ instance|get:field_name }}">Voir le document PDF</a>
+
+                     {% else %}
+                        <p>No preview availables.</p>
+
+                     {% endif %}
+                {% endif %}
+
+            {% elif field_properties.type == "password" %}
+                <input name="password-info" type="hidden" value="{{ field_name }}"/>
+
+                <label for="{{ field_name }}">{{ field_properties.label }}</label>
+                <input id="{{ field_name }}" type="{{ field_properties.type }}" name="{{ field_name }}"/>
+
+                <br/>
+                <br/>
+
+                <label for="{{ field_name }}-confirmation">Confirmez le {{ field_properties.label|lower }}</label>
+                <input id="{{ field_name }}-confirmation" type="{{ field_properties.type }}" name="{{ field_name }}-confirmation"/>
+
+            {% elif field_properties.type == "relationship" %}
+                <label for="{{ field_name }}">{{ field_properties.label }}</label>
+
+                {% if not field_properties.rel.unique %}
+                    <select id="{{ field_name }}" class="dual-listbox-rel" multiple>
+                        {% for selected_object in selected_objects_dict|get:field_name %}
+                            <option value="{{ selected_object.0 }}" selected>
+                                {% for value in selected_object %}
+                                    {% if value != selected_object.0 %}
+                                        {{ value }}
+                                    {% endif %}
+                                {% endfor %}
+                            </option>
+                        {% endfor %}
+                        {% for available_object in available_objects_dict|get:field_name %}
+                            <option value="{{ available_object.0 }}">
+                                {% for value in available_object %}
+                                    {% if value != available_object.0 %}
+                                        {{ value }}
+                                    {% endif %}
+                                {% endfor %}
+                            </option>
+                        {% endfor %}
+                    </select>
+
+                {% elif field_properties.type == "html" %}
+                    <label for="{{ field_name }}">{{ field_properties.label }}</label>
+                    <input id="{{ field_name }}" type="{{ field_properties.type }}" name="{{ field_name }}"/>
+
+                    <script>
+                        CKEDITOR.replace('editor', {customConfig: "cke_config.js"});
+
+                        CKEDITOR.stylesSet.add('my_styles', [
+                            // Block-level styles
+                            {name: 'Red Title', element: 'h3', styles: {'color': 'Red'}},
+
+                            // Inline styles
+                            {name: 'Lato Title', element: 'span', attributes: {'class': 'paragraph'}},
+                            {name: 'Marker: Yellow', element: 'span', styles: {'background-color': 'Yellow'}}
+                        ]);
+
+                        CKEDITOR.on('instanceCreated', function (e) {
+                            // e.editor.addCss("@font-face {font-family: \"lator\"; font-style: normal; font-weight: 400; font-display: swap; src: local('lator'), local('lator'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2'); unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}");
+
+                            // "@font-face {font-family: \"lator\"; font-style: normal; font-weight: 400; font-display: swap; src: local('lator'), local('lator'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}"
+                        });
+
+                        CKEDITOR.on('instanceReady', function (ev) {
+                            console.log(ev);
+                            editor = ev.editor
+                        });
+
+                        document.addEventListener('keypress', function () {
+                            console.log(editor.getData())
+                        })
+                    </script>
+
+
+                {% else %}
+                    {% if selected_object|get:field_name %}
+                        <p>
+                            {% for tuple in selected_objects_dict|get:field_name %}
+                                {% for value in tuple %}
+                                    {% if value != tuple.0 %}
+                                        {{ value }},
+
+                                    {% else %}
+                                        uuid = '{{ value }}',
+
+                                    {% endif %}
+                                {% endfor %}
+                                <input id="{{ field_name }}" name="unique-relationship-helper" type="checkbox" value="{{ field_name }},{{ tuple.0 }}"/>
+                            {% endfor %}
+                        </p>
+
+                    {% else %}
+                        <select id="{{ field_name }}" class="dual-listbox-rel" multiple>
+                            {% for selected_object in selected_objects_dict|get:field_name %}
+                            <option value="{{ selected_object.0 }}" selected>
+                                {% for value in selected_object %}
+                                {% if value != selected_object.0 %}
+                                {{ value }}
+                                {% endif %}
+                                {% endfor %}
+                            </option>
+                            {% endfor %}
+                            {% for available_object in available_objects_dict|get:field_name %}
+                            <option value="{{ available_object.0 }}">
+                                {% for value in available_object %}
+                                {% if value != available_object.0 %}
+                                {{ value }}
+                                {% endif %}
+                                {% endfor %}
+                            </option>
+
+                            {% endfor %}
+                        </select>
+                    {% endif %}
+                {% endif %}
+
+
+            {% else %}
+                <label for="{{ field_name }}">{{ field_properties.label }}</label>
+                <input id="{{ field_name }}" type="{{ field_properties.type }}" name="{{ field_name }}"/>
+
+            {% endif %}
+
+            {% if field_properties.description %}
+                <div>
+                    <i class="fas fa-info-circle"></i>
+                    <small>{{ field_properties.description }}</small>
+                </div>
+            {% endif %}
+
+            <br/>
+            <br/>
+
+        {% endfor %}
+
+        <input type="submit" value="Sauvegarder"/>
+    </form>
+
+    <form action="{% url "node_handling" node_model_name=node_model_name node_uuid=node_uuid %}" method="post" novalidate>
+        {% csrf_token %}
+        <input type="hidden" name="action" value="delete"/>
+        <input type="submit" value="Supprimer"/>
+    </form>
+{% endblock content %}
+
+{% block scripts %}
+    {% if DEBUG %}
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=blissfuljs%2Cdefault%2Ces2015%2Ces2016%2Ces2017%2Ces5%2Ces6%2Ces7"></script>
+        <script src="{% static "handling/js/checkbox_fields.js" %}"></script>
+        <script src="{% static "handling/js/datetime_fields.js" %}"></script>
+        <script src="{% static "handling/js/file_fields.js" %}"></script>
+        <script src="{% static "handling/js/dual-listbox.js" %}"></script>
+        <script src="https://kit.fontawesome.com/203fc2ba4b.js"></script>
+
+        {% for field_name, field_properties in admin_fields_dict.items %}
+            {% if field_properties.type == "html" %}
+                {% if field_properties.ckeditor %}
+                    <script>console.log("aaaaaa")</script>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+
+    {% elif not DEBUG %}
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=blissfuljs%2Cdefault%2Ces2015%2Ces2016%2Ces2017%2Ces5%2Ces6%2Ces7"></script>
+        <script src="{% static_bundled_src "handling/bundle_node_handling.js" %}"></script>
+        <script src="https://kit.fontawesome.com/203fc2ba4b.js"></script>
+
+    {% endif %}
+{% endblock scripts %}
