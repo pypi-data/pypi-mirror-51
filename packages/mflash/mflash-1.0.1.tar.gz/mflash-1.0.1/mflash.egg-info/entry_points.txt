@@ -1,0 +1,3 @@
+[console_scripts]
+mflash = mflash.main:main
+
