@@ -1,0 +1,4 @@
+pyautogui
+win32com
+win32event
+os
