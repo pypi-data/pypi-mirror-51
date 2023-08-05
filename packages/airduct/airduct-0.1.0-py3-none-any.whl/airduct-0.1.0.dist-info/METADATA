@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: airduct
+Version: 0.1.0
+Summary: 
+Author: Skyler Lewis
+Author-email: skyler.lewis@canopytax.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: crontab (>=0.22.6,<0.23.0)
+Requires-Dist: pyyaml (>=5.1,<6.0)
+Requires-Dist: sqlalchemy (>=1.3,<2.0)
