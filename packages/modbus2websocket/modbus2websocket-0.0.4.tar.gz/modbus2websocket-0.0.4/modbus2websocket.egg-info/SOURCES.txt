@@ -1,0 +1,13 @@
+README.txt
+setup.py
+modbus2websocket/__init__.py
+modbus2websocket/async_modbus_client.py
+modbus2websocket/async_modbus_server.py
+modbus2websocket/async_websocket_server.py
+modbus2websocket/router.py
+modbus2websocket.egg-info/PKG-INFO
+modbus2websocket.egg-info/SOURCES.txt
+modbus2websocket.egg-info/dependency_links.txt
+modbus2websocket.egg-info/not-zip-safe
+modbus2websocket.egg-info/requires.txt
+modbus2websocket.egg-info/top_level.txt
