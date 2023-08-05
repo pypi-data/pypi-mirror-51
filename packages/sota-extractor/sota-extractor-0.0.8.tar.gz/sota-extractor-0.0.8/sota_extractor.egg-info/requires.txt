@@ -1,0 +1,9 @@
+beautifulsoup4
+click
+dataclasses
+lxml
+marshmallow
+nltk
+pandas
+requests
+soupsieve
