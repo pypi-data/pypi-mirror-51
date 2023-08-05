@@ -1,0 +1,31 @@
+#! /usr/bin/env python3
+import argparse
+import dendropy
+from dendropy.calculate import treecompare
+import sys
+
+parser = argparse.ArgumentParser(description='Compute the Robinson-Foulds symmetric distance between two trees.')
+parser.add_argument('treefile1')
+parser.add_argument('treefile2')
+parser.add_argument('-r', '--rooted', action='store_true', default=False,
+                    help='Assume rooted trees')
+
+args = parser.parse_args()
+
+t1 = None
+t2 = None
+try:
+    tns = dendropy.TaxonNamespace()
+    t1 = dendropy.Tree.get_from_path(args.treefile1, schema='Newick', taxon_namespace=tns)
+    t2 = dendropy.Tree.get_from_path(args.treefile2, schema='Newick', taxon_namespace=tns)
+
+except Exception as e:
+    print('Problems reading tree file(s):\n' + str(e), file=sys.stderr)
+    sys.exit(1)
+
+try:
+    res = treecompare.symmetric_difference(t1,t2)
+    print(res)
+except Exception as e:
+    print('Error when computing the Robinson-Foulds distances:\n' + str(e), file=sys.stderr)
+    sys.exit(2)

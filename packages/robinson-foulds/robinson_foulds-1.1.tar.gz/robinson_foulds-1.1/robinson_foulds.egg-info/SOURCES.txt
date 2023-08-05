@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/rf
+bin/rf2
+robinson_foulds.egg-info/PKG-INFO
+robinson_foulds.egg-info/SOURCES.txt
+robinson_foulds.egg-info/dependency_links.txt
+robinson_foulds.egg-info/requires.txt
+robinson_foulds.egg-info/top_level.txt
