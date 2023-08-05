@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: function-chain
+Version: 0.1.0
+Summary: Python function chaining
+Home-page: https://github.com/ashafer01/chain
+Author: Alex Shafer
+Author-email: ashafer@pm.me
+License: MIT
+Platform: UNKNOWN
+
+Python function chaining in a minimalist module
+
+
