@@ -1,0 +1,7 @@
+suede/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suede/bayesian_decoder_script.py,sha256=A9mbQ8-N9CCeTo3QN43szKhS_1rgVPubylNAa4QNsPE,4083
+suede/synthetic_data_script.py,sha256=DlIxOMdWrG5Occc9MdcZiLvM1M2gWzJJ1Zh0F83aLnk,1782
+suede-0.1.0.dist-info/METADATA,sha256=CGjuUPDqO097FkIwK1iXlAcJf6D0CA4fwRzQSinK1K8,4635
+suede-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+suede-0.1.0.dist-info/top_level.txt,sha256=0UmJ5VQ5b5MByrT2J4SsktiPiY0Ter4soC-NAlXkZDM,6
+suede-0.1.0.dist-info/RECORD,,
