@@ -1,0 +1,16 @@
+libvirt-python
+
+[dev]
+check-manifest
+coverage
+doc8
+docutils
+flake8
+ipdb
+libvirt-python
+pep8
+pydocstyle
+stdeb3
+twine
+unittest-xml-reporting
+wheel
