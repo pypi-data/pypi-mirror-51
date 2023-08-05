@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: libmpgsapiclient
+Version: 0.0.1
+Summary: MPGS API client tools
+Home-page: https://github.com/caser789/libmpgsapiclient
+Author: jiao.xue
+Author-email: jiao.xuejiao@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: libenum
+
+# libmpgsapiclient
+Lib MPGS API client
+
+
