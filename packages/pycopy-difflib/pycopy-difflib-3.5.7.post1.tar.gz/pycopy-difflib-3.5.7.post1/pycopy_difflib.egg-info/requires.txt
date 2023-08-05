@@ -1,0 +1,4 @@
+pycopy-collections
+pycopy-heapq
+pycopy-re-pcre
+pycopy-string
