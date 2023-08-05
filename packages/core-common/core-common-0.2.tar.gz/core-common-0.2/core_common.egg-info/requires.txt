@@ -1,0 +1,3 @@
+pyforms-web
+notifications-central
+django>=2.2
