@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: attacut
+Version: 0.0.2.dev0
+Summary: Yet Another Tokenizer for Thai
+Home-page: UNKNOWN
+Author: Man Foo
+Author-email: foomail@foo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: fire (==0.1.3)
+Requires-Dist: nptyping (==0.2.0)
+Requires-Dist: numpy (==1.17.0)
+Requires-Dist: python-crfsuite (==0.9.6)
+Requires-Dist: pyyaml (==5.1.2)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: ssg (==0.0.4)
+Requires-Dist: torch (==1.2.0)
+
+UNKNOWN
+
+
