@@ -1,0 +1,5 @@
+wagtail>=2.0
+
+[testing]
+tox
+django-cors-headers
