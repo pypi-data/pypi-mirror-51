@@ -1,0 +1,3 @@
+[console_scripts]
+namecli = namecom.cli:cli
+
