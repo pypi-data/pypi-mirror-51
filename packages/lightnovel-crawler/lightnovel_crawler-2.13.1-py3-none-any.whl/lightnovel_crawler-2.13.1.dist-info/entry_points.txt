@@ -1,0 +1,4 @@
+[console_scripts]
+lightnovel-crawler = src:main
+lncrawl = src:main
+
