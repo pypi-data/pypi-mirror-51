@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pidmanager
+Version: 1.5
+Summary: Module for managing PID files for Python scripts
+Home-page: https://github.com/n0mjs710/pidmanager
+Author: Cortney T. Buffington
+Author-email: n0mjs@me.com
+License: GPLv3
+Keywords: PID pid pidfile
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: psutil (>=5.6.3)
+
+Module for creating, managing, deleting PID files for Python scripts, inclduing management of old PID files without a current matching process
+
+
