@@ -1,0 +1,93 @@
+# Soupstars :stew: :star: :boom:
+
+[![Build Status](https://travis-ci.org/tjwaterman99/soupstars-client.svg?branch=master)](https://travis-ci.org/tjwaterman99/soupstars)
+[![Coverage Status](https://coveralls.io/repos/github/tjwaterman99/soupstars/badge.svg?branch=master)](https://coveralls.io/github/tjwaterman99/soupstars?branch=master)
+[![Docs](https://readthedocs.org/projects/soupstars/badge/?version=latest)](https://soupstars.readthedocs.io/en/latest/?badge=latest)
+[![Version](https://badge.fury.io/py/soupstars.svg)](https://badge.fury.io/py/soupstars)
+[![Image](https://img.shields.io/pypi/pyversions/soupstars.svg)](https://pypi.org/project/soupstars/)
+
+Soupstars makes it fast and easy to build web parsers in Python.
+
+It supports python 3.7+
+
+## Quickstart
+
+Install it with pip.
+
+```
+pip install soupstars
+```
+
+Create a new parser in the file `myparser.py`.
+
+```
+soupstars create -m myparser.py
+```
+
+Parsers are python modules that can be executed directly. For a tutorial on building your own see the [documentation](https://soupstars.readthedocs.io/en/latest/).
+
+```
+cat myparser.py
+```
+
+...
+
+
+You can test that the parser functions correctly.
+
+```
+soupstars test myparser.py
+```
+
+More feature are available in the CLI.
+
+```
+soupstars --help
+```
+
+Additional help is available in the [documentation](https://soupstars.readthedocs.io/en/latest/).
+
+## Deploying to soupstars.cloud
+
+You can deploy your parsers to be ran on our managed infrastructure.
+
+Use the CLI to create an account. You'll be prompted for a username and password.
+
+```
+soupstars register
+```
+
+Upload your parser.
+
+```
+soupstars push myparser.py
+```
+
+You can now run the parser from our service.
+
+```
+soupstars run myparser.py
+```
+
+## Development
+
+Clone this repo.
+
+```
+git clone git@github.com:tjwaterman99/soupstars.git &&
+cd soupstars
+```
+
+Install the package in development mode.
+
+```
+python setup.py develop
+```
+
+To develop against a local install of the latest version of the web API,
+download and run the `soupstars-api` package.
+
+```
+git clone ...
+docker-compose up --build --detach
+```
