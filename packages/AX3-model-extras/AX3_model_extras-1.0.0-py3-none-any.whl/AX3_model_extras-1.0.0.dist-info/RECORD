@@ -1,0 +1,9 @@
+ax3_model_extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ax3_model_extras/fields.py,sha256=8_lkXpbifxoVSJs6O3Ax0kF9h7VsU86OCVDGaVNUqUE,2213
+ax3_model_extras/storages.py,sha256=Lu3at3zS6biJz5UE43WtLvAV-GUANxatL6Sefv_G7KQ,739
+ax3_model_extras/validators.py,sha256=XyhYDNOKCKMMTS8ZAOQkXpfJl1eyL7abTQ2Ev5qvzRQ,663
+AX3_model_extras-1.0.0.dist-info/LICENSE,sha256=CTfSwCyOG9_rOOsvx5JhD2bo5KxCiDgQ8n_K6TmcUaM,1065
+AX3_model_extras-1.0.0.dist-info/METADATA,sha256=YcmSeF9tmXNED2SlWQUkEAj-7Jlyyd3sbYVf1AIC6xc,1960
+AX3_model_extras-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+AX3_model_extras-1.0.0.dist-info/top_level.txt,sha256=Fmke2zIQJruoHJ4QjhEqGa-_NOTXXXbO-kuVFcFq1AU,17
+AX3_model_extras-1.0.0.dist-info/RECORD,,
