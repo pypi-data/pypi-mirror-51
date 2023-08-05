@@ -1,0 +1,13 @@
+hmrc/__init__.py,sha256=ym37qqYrGysmWDBWK_dOBuJnnCnkyKoZggtGe8LMzEQ,45
+hmrc/api/__init__.py,sha256=64_4QsMnfQy7Qwjimhp8HQL78Ezo_o8AtUHMO_HiYTs,58
+hmrc/api/client.py,sha256=oIv57ToHGDH31biqpA2dbkL12rst_iEjNoyOiv3_2NM,5397
+hmrc/api/data.py,sha256=iWHsnAS5iUPSwDAaBIFzwu-oInhEs-V2HijDnmpqc_s,7037
+hmrc/api/hello.py,sha256=77cuqyTsBV1pFzepmqvoHp_sL_Gtf0LR8157fbkKw3w,607
+hmrc/api/testuser.py,sha256=sQ2puo76s9TBjN-VwWUiaOnrdG8oMVWC9kE_iGM6uL0,2761
+hmrc/api/vat.py,sha256=2grMHD7NgiTw1uiEwhr2b7VLckfrk-GxVU1FaPB-Evs,3436
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_doc.py,sha256=cKibUkNGC0b7wkrdq0fu7ef3qNl942vWwrJHrTFrnYs,290
+hmrc-0.0.1.dist-info/METADATA,sha256=V0IwN_He_9reUl8oVJoU8ifZb7e_d_MSLJjkuogt2Y8,1153
+hmrc-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+hmrc-0.0.1.dist-info/top_level.txt,sha256=yUjq7y0WS98UyZIbcQRVTA2O51Xiwf-axpenSqSer4s,10
+hmrc-0.0.1.dist-info/RECORD,,
