@@ -1,0 +1,12 @@
+README.md
+setup.py
+py2vega/__init__.py
+py2vega/constants.py
+py2vega/main.py
+py2vega/math.py
+py2vega.egg-info/PKG-INFO
+py2vega.egg-info/SOURCES.txt
+py2vega.egg-info/dependency_links.txt
+py2vega.egg-info/requires.txt
+py2vega.egg-info/top_level.txt
+test/test_py2vega.py
