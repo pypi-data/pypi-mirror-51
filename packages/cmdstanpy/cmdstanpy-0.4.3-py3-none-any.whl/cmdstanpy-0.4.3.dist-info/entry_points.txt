@@ -1,0 +1,3 @@
+[console_scripts]
+install_cmdstan = cmdstanpy.install_cmdstan:main
+
