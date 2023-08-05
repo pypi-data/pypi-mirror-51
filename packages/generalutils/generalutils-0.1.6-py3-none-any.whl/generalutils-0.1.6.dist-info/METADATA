@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: generalutils
+Version: 0.1.6
+Summary: This package contains some common general utilisations modules
+Home-page: https://github.com/Tomekske/generalutils
+Author: Tomek Joostens
+Author-email: joostenstomek@gmail.com
+License: MIT license
+Keywords: generalutils
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+
+============
+GeneralUtils
+============
+
+
+.. image:: https://img.shields.io/pypi/v/generalutils.svg
+        :target: https://pypi.python.org/pypi/generalutils
+
+.. image:: https://img.shields.io/travis/Tomekske/generalutils.svg
+        :target: https://travis-ci.org/Tomekske/generalutils
+
+
+This package contains some comon general utilisations modules
+
+
+* Free software: MIT license
+* Documentation: https://generalutils.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2019-07-08)
+------------------
+
+* First release on PyPI.
+* Guard method to check whether a path exists
+* Unit test to check whether guard method works
+
+0.1.1 (2019-07-20)
+------------------
+
+* Guard method to test whether an object is none or empty
+* Unit test to check whether guard method works
+
+0.1.2 (2019-07-21)
+------------------
+
+* Guard method to test whether the returned HTTP responses are correct
+* Added a list of basic HTTP status codes
+* Unit test to check whether guard method works
+
+0.1.3 (2019-07-23)
+------------------
+
+* Guard method to test whether a command line argument is valid or invalid
+* Unit test to check whether guard method works
+
+0.1.4 (2019-07-28)
+------------------
+
+* Guard method to check whether a path exists (returns boolean)
+* Unit test to check whether guard method works
+* Changed method name: Valid -> IsValid
+* Changed method name: IsNotNoneOrEmpty -> NotNoneOrEmpty
+* Updated unit tests with the correct method name
+
+0.1.5 (2019-08-20)
+------------------
+
+* Guard method to check whether the current working directory is within the base path
+* Unit tets to check whether guard method exists
+
+0.1.6 (2019-08-20)
+------------------
+
+* Bug fix: Check whether cwd and base path are equal
+
