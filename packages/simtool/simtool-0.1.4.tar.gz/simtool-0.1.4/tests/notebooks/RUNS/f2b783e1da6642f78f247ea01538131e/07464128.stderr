@@ -1,0 +1,48 @@
+/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/papermill/iorw.py:328: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  return yaml.load(papermill_io.read(path, ['.json', '.yaml', '.yml']))
+Input Notebook:  ./test_simtool.ipynb
+Output Notebook: test_simtool_out.ipynb
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [00:03<00:51,  3.68s/it] 13%|█▎        | 2/15 [00:10<01:00,  4.62s/it]
+Traceback (most recent call last):
+  File "/depot/nanohub/apps/rice/share64/anaconda/anaconda-6/bin/papermill", line 10, in <module>
+    sys.exit(papermill())
+  File "/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/papermill/cli.py", line 165, in papermill
+    cwd=cwd,
+  File "/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/papermill/execute.py", line 97, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/papermill/execute.py", line 181, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [1]":
+---------------------------------------------------------------------------
+ModuleNotFoundError                       Traceback (most recent call last)
+<ipython-input-1-e0a22b979dbd> in <module>
+      1 get_ipython().run_line_magic('load_ext', 'yamlmagic')
+      2 import numpy as np
+----> 3 from simtool import DB
+
+/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/simtool/__init__.py in <module>
+      1 __version__ = '0.1.3'
+      2 
+----> 3 from .utils import get_inputs, parse, get_outputs
+      4 from .run import Run, DB
+      5 from .experiment import Experiment, set_experiment, get_experiment
+
+/depot/nanohub/apps/HUBapps/share64/anaconda/rice7/anaconda-6/lib/python3.7/site-packages/simtool/utils.py in <module>
+      3 from papermill.iorw import load_notebook_node
+      4 import yaml
+----> 5 import jsonpickle
+      6 from .params import Params
+      7 
+
+ModuleNotFoundError: No module named 'jsonpickle'
+

@@ -1,0 +1,18 @@
+height: 200
+myarray:
+- - 1.0
+  - 2.0
+  - 3.14
+- - 4.0
+  - 5.0
+  - 6.0
+options:
+  Background: black
+  FontColor: red
+  FontSize: 28
+position:
+- 20
+- 20
+some_text: Default Text
+volts: 42.0
+width: 400
