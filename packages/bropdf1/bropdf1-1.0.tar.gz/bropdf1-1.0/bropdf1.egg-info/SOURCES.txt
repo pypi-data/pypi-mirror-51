@@ -1,0 +1,9 @@
+README.md
+setup.py
+bropdf1/__init__.py
+bropdf1/pdf2image.py
+bropdf1/pdf2text.py
+bropdf1.egg-info/PKG-INFO
+bropdf1.egg-info/SOURCES.txt
+bropdf1.egg-info/dependency_links.txt
+bropdf1.egg-info/top_level.txt
