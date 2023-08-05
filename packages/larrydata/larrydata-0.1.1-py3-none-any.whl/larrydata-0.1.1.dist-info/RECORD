@@ -1,0 +1,11 @@
+larrydata/__init__.py,sha256=kHzCJOclXRLkC2CHYodopC9ekrPLFdtYUpyyb6vFFy4,614
+larrydata/mturk.py,sha256=kNO0OB46OsW39pjdFQRy7Usl9umu3vBusMx9Wnnz9ew,15277
+larrydata/s3.py,sha256=lKfv8JcgdNO0WDX0BP4UvI_VSHiDX6TcfDFIgpkdIAM,21833
+larrydata/sagemaker.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+larrydata/sqs.py,sha256=MOo5faq-tYUWYkewnTI8WeKZCU5fBip1XU2mZjIlvng,395
+larrydata/sts.py,sha256=YdTEbtL1XT7op1BoEcZVsYvTeoaSSDERDanr6erYaWA,267
+larrydata-0.1.1.dist-info/LICENSE,sha256=LIqcHRp4CjnBJWqE1hEMC3nibw1xrOhXM7hf9Rdxvf4,1087
+larrydata-0.1.1.dist-info/METADATA,sha256=RsUITOPGvXh4QYfXmuUWFwgaIcRyy-2eKSXHvn5iIqo,3245
+larrydata-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+larrydata-0.1.1.dist-info/top_level.txt,sha256=WemJdaiP3-64yC3XEsvbuA6oDc5vzbrd5d5amRSvZE8,10
+larrydata-0.1.1.dist-info/RECORD,,
