@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: anticipython
+Version: 1.0.1
+Summary: Create .ics calendars for upcoming CPython releases 🐍👀
+Home-page: https://github.com/brcrista/Anticipython
+Author: Brian Cristante
+License: MIT
+Description: # Anticipython
+        
+        [![Build Status](https://dev.azure.com/briancristante/Anticipython/_apis/build/status/Anticipython?branchName=master)](https://dev.azure.com/briancristante/Anticipython/_build/latest?definitionId=10&branchName=master)
+        
+        Create .ics calendars for upcoming CPython releases 🐍👀
+        
+        ## Usage
+        
+        Requires Python 3.6 or later.
+        
+        ```bash
+        pip install https://github.com/brcrista/Anticipython.git
+        python -m anticipython
+        # Produces an output file named `cpython_releases.ics`
+        ```
+        
+        ### Power user configuration
+        Edit `peps.py` to include the version and PEPs you want to use.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
