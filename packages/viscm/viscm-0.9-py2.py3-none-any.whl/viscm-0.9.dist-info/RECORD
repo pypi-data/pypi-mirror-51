@@ -1,0 +1,17 @@
+viscm/__init__.py,sha256=jG8Je-Yd_k4Rn6Ozg0iksC3zivLbTeSOyE1mRpRjsQs,210
+viscm/__main__.py,sha256=0MtMB6lor8a1cy0CK3l3MblhgdjgE-UGcfRBewZf1nU,247
+viscm/bezierbuilder.py,sha256=symcpoOjX-b3WhyBlQBGhGtkHpv3lkwFdFkyARYZoK4,11745
+viscm/gui.py,sha256=6ADsIU5NA-8Phx2_xWhG1P3bgnkbMiBda6dSAj7szgQ,53264
+viscm/minimvc.py,sha256=uq7oB3ewdS6Q18C9pbbiqSk6MxtHFOINZBwdHMVJLQ8,755
+viscm/examples/README,sha256=EtE0keadb2mh_kVOL2DFfxwv7M8q2cqw2EwCPqdw2NM,723
+viscm/examples/colourmaptest.npy,sha256=bXAw8SeyoZAJhb0ZYY_dMPcyfbHgDZ58sNtmUNqDaRA,65616
+viscm/examples/hist2d.txt,sha256=BxclR__Jd09_CAsVnOk6keZdwz6OABfftdBaBN-C200,10000
+viscm/examples/sample_diverging.jscm,sha256=M4IATdQRkL4FQZUOYB0RvqEvjf3GIImb82UhSqcWJQQ,2630
+viscm/examples/sample_diverging_continuous.jscm,sha256=9drCv3NoEQrhV5iBZZ2QFU4OYBitaCjn9Ic71yFTfU8,2591
+viscm/examples/sample_linear.jscm,sha256=8c5sTyrrlJ_oxo63QSEL-To3oYHLuk7Wn0hFSlaTmq4,2592
+viscm/examples/st-helens_before-modified.txt.gz,sha256=OnvaEp1OJ2Xfq9FzS-MgK6dpF3AYE1p1tbr4Bi9BS3c,263964
+viscm-0.9.dist-info/LICENSE.txt,sha256=ZasSVt9Pfnliyq4af03-_kmMohPGE4gLXWPplCzF66M,1092
+viscm-0.9.dist-info/METADATA,sha256=n_mfUECnpn5ZudSfzDNBSSsIvNLn5In9S0iKr3is2Gg,1328
+viscm-0.9.dist-info/RECORD,,
+viscm-0.9.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+viscm-0.9.dist-info/top_level.txt,sha256=d1fEBGeNCoLUvyK1kxVJz-sQ3ziOy8N6vUDyKoIGaPg,6
