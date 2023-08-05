@@ -1,0 +1,10 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.8.7
+    is_jupyter_run: false
+epochs:
+  desc: null
+  value: 2

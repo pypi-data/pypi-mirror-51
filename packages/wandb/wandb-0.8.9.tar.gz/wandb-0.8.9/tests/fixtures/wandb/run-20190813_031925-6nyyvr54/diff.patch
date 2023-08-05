@@ -1,0 +1,706 @@
+diff --git a/conftest.py b/conftest.py
+index 63295b8..a373c80 100644
+--- a/conftest.py
++++ b/conftest.py
+@@ -12,6 +12,7 @@ import json
+ import sys
+ import threading
+ import logging
++from multiprocessing import Process
+ from vcr.request import Request
+ from wandb import wandb_socket
+ from wandb import env
+@@ -20,10 +21,12 @@ from wandb.wandb_run import Run
+ from tests import utils
+ from tests.mock_server import create_app
+ 
++
+ def pytest_runtest_setup(item):
+     # This is used to find tests that are leaking outside of tmp directories
+     os.environ["WANDB_DESCRIPTION"] = item.parent.name + "#" + item.name
+ 
++
+ def request_repr(self):
+     try:
+         body = json.loads(self.body)
+@@ -33,11 +36,14 @@ def request_repr(self):
+         render = "BINARY"
+     return "({}) {} - {}".format(self.method, self.uri, render)
+ 
++
+ Request.__repr__ = request_repr
+ # To enable VCR logging uncomment below
+ #logging.basicConfig() # you need to initialize logging, otherwise you will not see anything from vcrpy
+ #vcr_log = logging.getLogger("vcr")
+ #vcr_log.setLevel(logging.INFO)
++
++
+ @pytest.fixture(scope='module')
+ def vcr_config():
+     def replace_body(request):
+@@ -63,6 +69,7 @@ def vcr_config():
+         "before_record_response": replace_response_body,
+     }
+ 
++
+ @pytest.fixture(scope='module')
+ def vcr(vcr):
+     def vcr_graphql_matcher(r1, r2):
+@@ -77,6 +84,7 @@ def vcr(vcr):
+     vcr.register_matcher('graphql', vcr_graphql_matcher)
+     return vcr
+ 
++
+ @pytest.fixture
+ def local_netrc(monkeypatch):
+     # TODO: this seems overkill...
+@@ -189,6 +197,7 @@ def wandb_init_run(request, tmpdir, request_mocker, upsert_run, query_run_resume
+                             @property
+                             def port(self):
+                                 return 123
++
+                             def listen(self, secs):
+                                 return False, None
+                         monkeypatch.setattr("wandb.wandb_socket.Server", Error)
+@@ -366,6 +375,7 @@ def request_mocker(request):
+     request.addfinalizer(m.stop)
+     return m
+ 
++
+ @pytest.fixture
+ def mock_server(mocker, request_mocker):
+     app = create_app()
+@@ -374,3 +384,13 @@ def mock_server(mocker, request_mocker):
+     mocker.patch("wandb.apis.file_stream.requests", mock)
+     mocker.patch("wandb.apis.internal.requests", mock)
+     return mock
++
++
++@pytest.fixture
++def live_mock_server(port=8765):
++    app = create_app()
++    server = Process(target=app.run, kwargs={"port": port, "debug": True, "use_reloader": False})
++    server.start()
++    yield server
++    server.terminate()
++    server.join()
+diff --git a/tests/fixtures/train.py b/tests/fixtures/train.py
+index 22209ba..155e408 100644
+--- a/tests/fixtures/train.py
++++ b/tests/fixtures/train.py
+@@ -8,8 +8,9 @@ import signal
+ parser = argparse.ArgumentParser()
+ parser.add_argument('--epochs', type=int, default=2)
+ args = parser.parse_args()
+-
++print("Calling init")
+ wandb.init(config=args)
++print("Init called")
+ 
+ #raise ValueError()
+ #os.kill(os.getpid(), signal.SIGINT)
+@@ -18,5 +19,4 @@ for i in range(0, wandb.config.epochs):
+     print("loss: %s" % loss)
+     wandb.log({"loss": loss}, commit=False)
+     wandb.log({"cool": True})
+-
+ print("Finished")
+diff --git a/tests/mock_server.py b/tests/mock_server.py
+index 19f04a7..491af70 100644
+--- a/tests/mock_server.py
++++ b/tests/mock_server.py
+@@ -3,6 +3,7 @@
+ from flask import Flask, request
+ import json
+ 
++
+ def create_app():
+     app = Flask(__name__)
+ 
+@@ -12,12 +13,12 @@ def create_app():
+         if body["variables"].get("files"):
+             file = body["variables"]["files"][0]
+             return json.dumps({
+-                "data":{
+-                    "model":{
+-                        "bucket":{
++                "data": {
++                    "model": {
++                        "bucket": {
+                             "id": "storageid",
+-                            "files":{
+-                                "edges":[{"node":{"name": file,"url": request.url_root + "/storage?file=%s" % file}}]
++                            "files": {
++                                "edges": [{"node": {"name": file, "url": request.url_root + "/storage?file=%s" % file}}]
+                             }
+                         }
+                     }
+@@ -25,7 +26,7 @@ def create_app():
+             })
+         if "query Viewer" in body["query"]:
+             return json.dumps({
+-                "data":{
++                "data": {
+                     "viewer": {
+                         "entity": "vanpelt"
+                     }
+@@ -48,6 +49,18 @@ def create_app():
+                     }
+                 }
+             })
++        if "stopped" in body["query"]:
++            return json.dumps({
++                "data": {
++                    "Model": {
++                        "project": {
++                            "run": {
++                                "stopped": False
++                            }
++                        }
++                    }
++                }
++            })
+         return json.dumps({"error": "Not implemented"})
+ 
+     @app.route("/storage", methods=["PUT"])
+@@ -56,6 +69,10 @@ def create_app():
+ 
+     @app.route("/files/<entity>/<project>/<run>/file_stream", methods=["POST"])
+     def file_stream(entity, project, run):
+-        return json.dumps({"exitcode":None,"limits":{}})
++        return json.dumps({"exitcode": None, "limits": {}})
+ 
+     return app
++
++
++if __name__== '__main__':
++    app = create_app()
+diff --git a/tests/test_data_types.py b/tests/test_data_types.py
+index c6c9384..e51365c 100644
+--- a/tests/test_data_types.py
++++ b/tests/test_data_types.py
+@@ -183,6 +183,42 @@ def test_matplotlib_image():
+     img = wandb.Image(plt)
+     assert img._image.width == 640
+ 
++def test_video_numpy():
++    run = wandb.wandb_run.Run()
++    video = np.random.randint(255, size=(10,3,28,28))
++    vid = wandb.Video(video)
++    vid.bind_to_run(run, "videos", 0)
++    assert vid.to_json(run)["path"].endswith(".gif")
++
++def test_video_numpy_multi():
++    run = wandb.wandb_run.Run()
++    video = np.random.random(size=(2,10,3,28,28))
++    vid = wandb.Video(video)
++    vid.bind_to_run(run, "videos", 0)
++    assert vid.to_json(run)["path"].endswith(".gif")
++
++def test_video_numpy_invalid():
++    run = wandb.wandb_run.Run()
++    video = np.random.random(size=(3,28,28))
++    with pytest.raises(ValueError):
++        vid = wandb.Video(video)
++
++def test_video_path():
++    run = wandb.wandb_run.Run()
++    with CliRunner().isolated_filesystem():
++        with open("video.mp4", "w") as f:
++            f.write("00000")
++        vid = wandb.Video("video.mp4")
++        vid.bind_to_run(run, "videos", 0)
++        assert vid.to_json(run)["path"].endswith(".mp4")
++
++def test_video_path_invalid():
++    run = wandb.wandb_run.Run()
++    with CliRunner().isolated_filesystem():
++        with open("video.avi", "w") as f:
++            f.write("00000")
++        with pytest.raises(ValueError):
++            vid = wandb.Video("video.avi")
+ 
+ def test_html_str():
+     with CliRunner().isolated_filesystem():
+diff --git a/tests/test_headless.py b/tests/test_headless.py
+index 66db6d4..628dd7b 100644
+--- a/tests/test_headless.py
++++ b/tests/test_headless.py
+@@ -6,6 +6,7 @@ import json
+ import time
+ import signal
+ import tempfile
++import pytest
+ 
+ train_py = open(os.path.join(os.path.dirname(
+     __file__), "fixtures/train.py")).read()
+@@ -96,4 +97,65 @@ def test_dry_run_kill(runner):
+         assert meta["exitcode"] == 255
+         assert meta["args"] == ["--epochs=10"]
+ 
+-# TODO: test server communication
++
++def test_mock_server_no_internet(runner):
++    with runner.isolated_filesystem():
++        with open("train.py", "w") as f:
++            f.write(train_py)
++        environ = {
++            "WANDB_BASE_URL": "http://localhost:%i" % 8765,
++            "WANDB_API_KEY": "a" * 40,
++            "WANDB_HTTP_TIMEOUT": 1
++        }
++
++        res = sh.python("train.py", epochs=10, _bg=True, _env=environ)
++        stdout, stderr = "", ""
++        try:
++            time.sleep(10)
++            res.kill()
++            stdout = res.stdout
++            stderr = res.stderr
++        except (sh.ErrorReturnCode, ProcessLookupError):
++            pass
++        print("SHIT", res)
++        print(stdout)
++        if os.path.exists("wandb/debug.log"):
++            print(open("wandb/debug.log").read())
++        assert "Finished" in stdout
++        assert "wandb: Network error" in stderr
++        run_dir = glob.glob(os.path.join("wandb", "run*"))[0]
++        meta = json.loads(
++            open(os.path.join(run_dir, "wandb-metadata.json")).read())
++        assert meta["state"] == "killed"
++
++
++def test_mock_server_with_internet(runner, live_mock_server):
++    with runner.isolated_filesystem():
++        with open("train.py", "w") as f:
++            f.write(train_py)
++        environ = {
++            "WANDB_BASE_URL": "http://localhost:%i" % 8765,
++            "WANDB_API_KEY": "a" * 40,
++            "WANDB_HTTP_TIMEOUT": 1
++        }
++
++        res = sh.python("train.py", epochs=10, _bg=True, _env=environ)
++        stdout, stderr = "", ""
++        try:
++            #time.sleep(3)
++            res.wait()
++        except (sh.ErrorReturnCode, ProcessLookupError):
++            pass
++        print(res)
++        stdout = res.stdout
++        stderr = res.stderr
++        print(stdout)
++        if os.path.exists("wandb/debug.log"):
++            print(open("wandb/debug.log").read())
++        assert "Finished" in stdout
++        assert "wandb: Network error" not in res.stderr
++        assert "wandb: shinasd" not in res.stderr
++        run_dir = glob.glob(os.path.join("wandb", "run*"))[0]
++        meta = json.loads(
++            open(os.path.join(run_dir, "wandb-metadata.json")).read())
++        assert meta["state"] == "finished"
+diff --git a/tests/test_wandb.py b/tests/test_wandb.py
+index 0c157c3..f1817f1 100644
+--- a/tests/test_wandb.py
++++ b/tests/test_wandb.py
+@@ -56,6 +56,14 @@ def test_log_only_strings_as_keys(wandb_init_run):
+     with pytest.raises(ValueError):
+         wandb.log({('tup', 'idx'): 1000})
+ 
++def test_async_log(wandb_init_run):
++    for i in range(100):
++        wandb.log({"cool": 1000}, sync=False)
++    wandb.shutdown_async_logger()
++    wandb.log({"cool": 100}, sync=False)
++    wandb.shutdown_async_logger()
++    assert wandb.run.history.rows[-1]['cool'] == 100
++    assert len(wandb.run.history.rows) == 101
+ 
+ def test_nice_log_error():
+     with pytest.raises(ValueError):
+diff --git a/wandb/__init__.py b/wandb/__init__.py
+index 88add43..3cebde6 100644
+--- a/wandb/__init__.py
++++ b/wandb/__init__.py
+@@ -29,6 +29,8 @@ import traceback
+ import tempfile
+ import re
+ import glob
++import threading
++from six.moves import queue
+ from importlib import import_module
+ 
+ from . import env
+@@ -46,6 +48,7 @@ from wandb import streaming_log
+ from wandb import util
+ from wandb.run_manager import LaunchError
+ from wandb.data_types import Image
++from wandb.data_types import Video
+ from wandb.data_types import Audio
+ from wandb.data_types import Table
+ from wandb.data_types import Html
+@@ -336,7 +339,11 @@ def _init_jupyter(run):
+         global START_TIME
+         START_TIME = time.time()
+     ipython.events.register("pre_run_cell", reset_start)
+-    ipython.events.register('post_run_cell', run._stop_jupyter_agent)
++    def cleanup():
++        # shutdown async logger because _user_process_finished isn't called in jupyter
++        shutdown_async_logger()
++        run._stop_jupyter_agent()
++    ipython.events.register('post_run_cell', cleanup)
+ 
+ 
+ join = None
+@@ -349,6 +356,7 @@ def _user_process_finished(server, hooks, wandb_process, stdout_redirector, stde
+         return
+     _user_process_finished_called = True
+     trigger.call('on_finished')
++    shutdown_async_logger()
+ 
+     stdout_redirector.restore()
+     if not env.is_debug():
+@@ -508,7 +516,38 @@ def monitor(options={}):
+     return Monitor(options)
+ 
+ 
+-def log(row=None, commit=True, step=None, *args, **kwargs):
++_async_log_queue = queue.Queue()
++_async_thread_shutdown_event = threading.Event()
++_async_thread_complete_event = threading.Event()
++_async_thread = None
++def _async_thread_target():
++    """Consumes async logs from our _async_log_queue and actually logs them"""
++    global _async_thread
++    shutdown_requested = False
++    while not shutdown_requested:
++        try:
++            kwargs = _async_log_queue.get(True)
++            log(**kwargs)
++        except queue.Empty:
++            shutdown_requested = _async_thread_shutdown_event.wait(1) and _async_log_queue.empty()
++    _async_thread_complete_event.set()
++    _async_thread = None
++
++def _ensure_async_thread_started():
++    """Ensures our log consuming thread is started"""
++    global _async_thread
++
++    if _async_thread is None:
++        _async_thread = threading.Thread(target=_async_thread_target)
++        _async_thread.daemon = True
++        _async_thread.start()
++
++def shutdown_async_logger():
++    """Shuts down our async logging thread"""
++    _async_thread_shutdown_event.set()
++    _async_thread_complete_event.wait(1)
++    
++def log(row=None, commit=True, step=None, sync=True, *args, **kwargs):
+     """Log a dict to the global run's history.
+ 
+     wandb.log({'train-loss': 0.5, 'accuracy': 0.9})
+@@ -517,11 +556,16 @@ def log(row=None, commit=True, step=None, *args, **kwargs):
+         row (dict, optional): A dict of serializable python objects i.e str: ints, floats, Tensors, dicts, or wandb.data_types
+         commit (boolean, optional): Persist a set of metrics, if false just update the existing dict
+         step (integer, optional): The global step in processing. This sets commit=True any time step increases
++        sync (boolean, True): If set to False, process calls to log in a seperate thread
+     """
+ 
+     if run is None:
+         raise ValueError(
+             "You must call `wandb.init` in the same process before calling log")
++    
++    if sync == False:
++        _ensure_async_thread_started()
++        return _async_log_queue.put({"row": row, "commit": commit, "step": step})
+ 
+     tensorboard_patched = len(patched["tensorboard"]) > 0
+ 
+diff --git a/wandb/apis/file_stream.py b/wandb/apis/file_stream.py
+index 87b09e3..c4167e8 100644
+--- a/wandb/apis/file_stream.py
++++ b/wandb/apis/file_stream.py
+@@ -83,7 +83,7 @@ class FileStreamApi(object):
+     """
+     Finish = collections.namedtuple('Finish', ('exitcode'))
+ 
+-    HTTP_TIMEOUT = 10
++    HTTP_TIMEOUT = env.get_http_timeout(10)
+     MAX_ITEMS_PER_PUSH = 10000
+ 
+     def __init__(self, api, run_id):
+diff --git a/wandb/apis/internal.py b/wandb/apis/internal.py
+index 282e419..5e7e1f5 100644
+--- a/wandb/apis/internal.py
++++ b/wandb/apis/internal.py
+@@ -52,7 +52,7 @@ class Api(object):
+         Override the settings here.
+     """
+ 
+-    HTTP_TIMEOUT = 10
++    HTTP_TIMEOUT = env.get_http_timeout(10)
+ 
+     def __init__(self, default_settings=None, load_settings=True, retry_timedelta=datetime.timedelta(days=1), environ=os.environ):
+         self._environ = environ
+diff --git a/wandb/apis/public.py b/wandb/apis/public.py
+index f7ad9c0..2afc3f5 100644
+--- a/wandb/apis/public.py
++++ b/wandb/apis/public.py
+@@ -19,8 +19,7 @@ from wandb import Error, __version__
+ from wandb import util
+ from wandb.retry import retriable
+ from wandb.summary import HTTPSummary, download_h5
+-from wandb.env import get_dir
+-from wandb.env import get_base_url
++from wandb import env
+ from wandb.apis import normalize_exceptions
+ 
+ logger = logging.getLogger(__name__)
+@@ -88,14 +87,14 @@ class Api(object):
+         username, project, and run here as well as which api server to use.
+     """
+ 
+-    HTTP_TIMEOUT = 9
++    HTTP_TIMEOUT = env.get_http_timeout(10)
+ 
+     def __init__(self, overrides={}):
+         self.settings = {
+             'username': None,
+             'project': None,
+             'run': "latest",
+-            'base_url': get_base_url("https://api.wandb.ai")
++            'base_url': env.get_base_url("https://api.wandb.ai")
+         }
+         self.settings.update(overrides)
+         self._runs = {}
+@@ -365,7 +364,7 @@ class Run(Attrs):
+         self.username = username
+         self.project = project
+         self._files = {}
+-        self._base_dir = get_dir(tempfile.gettempdir())
++        self._base_dir = env.get_dir(tempfile.gettempdir())
+         self.id = run_id
+         self.dir = os.path.join(self._base_dir, *self.path)
+         try:
+diff --git a/wandb/data_types.py b/wandb/data_types.py
+index 22ae405..9b4927d 100644
+--- a/wandb/data_types.py
++++ b/wandb/data_types.py
+@@ -979,6 +979,120 @@ class Html(BatchableMedia):
+         }
+         return meta
+ 
++class Video(BatchableMedia):
++    EXTS = ("gif", "mp4", "webm", "ogg")
++    
++    def __init__(self, data_or_path, caption=None, fps=4, format="gif"):
++        self._fps = fps
++        self._format = format
++        self._width = None
++        self._height = None
++        self._channels = None
++        self._caption = caption
++
++        if isinstance(data_or_path, six.string_types):
++            ext = data_or_path.split(".")[-1]
++            if ext not in Video.EXTS:
++                raise ValueError("wandb.Video accepts %s formats" % ", ".join(Video.EXTS))
++            super(Video, self).__init__(data_or_path, is_tmp=False)
++        else:
++            if hasattr(data_or_path, "numpy"): # TF data eager tensors
++                self.data = data_or_path.numpy()
++            elif is_numpy_array(data_or_path):
++                self.data = data_or_path
++            else:
++                raise ValueError("wandb.Video accepts a file path or numpy like data as input")
++            self.encode()
++            
++    def encode(self):
++        mpy = util.get_module("moviepy.editor", required='wandb.Video requires moviepy and imageio when passing raw data.  Install with "pip install moviepy imageio"')
++        tensor = self._prepare_video(self.data)
++        _, self._height, self._width, self._channels = tensor.shape
++
++        # encode sequence of images into gif string
++        clip = mpy.ImageSequenceClip(list(tensor), fps=self._fps)
++
++        filename = os.path.join(MEDIA_TMP.name, util.generate_id() + '.'+ self._format)
++        try:  # older version of moviepy does not support progress_bar argument.
++            if self._format == "gif":
++                clip.write_gif(filename, verbose=False, progress_bar=False)
++            else:
++                clip.write_videofile(filename, verbose=False, progress_bar=False)
++        except TypeError:
++            if self._format == "gif":
++                clip.write_gif(filename, verbose=False)
++            else:
++                clip.write_videofile(filename, verbose=False)
++        super(Video, self).__init__(filename, is_tmp=True)
++
++    @classmethod
++    def get_media_subdir(cls):
++        return os.path.join('media', 'videos')
++
++    def to_json(self, run):
++        json_dict = super(Video, self).to_json(run)
++        json_dict['_type'] = 'video-file'
++
++        if self._width is not None:
++            json_dict['width'] = self._width
++        if self._height is not None:
++            json_dict['height'] = self._height
++        if self._caption:
++            json_dict['caption'] = self._caption
++
++        return json_dict
++
++    def _prepare_video(self, V):
++        np = util.get_module(
++                "numpy", required='wandb.Video requires numpy when passing raw data. To get it, run "pip install numpy".')
++        if V.ndim < 4:
++            raise ValueError("Video must be atleast 4 dimensions: time, channels, height, width")
++        if V.ndim == 4:
++            V = V.reshape(1, *V.shape)
++        b, t, c, h, w = V.shape
++
++        if V.dtype == np.uint8:
++            V = np.float32(V) / 255.
++
++        def is_power2(num):
++            return num != 0 and ((num & (num - 1)) == 0)
++
++        # pad to nearest power of 2, all at once
++        if not is_power2(V.shape[0]):
++            len_addition = int(2**V.shape[0].bit_length() - V.shape[0])
++            V = np.concatenate(
++                (V, np.zeros(shape=(len_addition, t, c, h, w))), axis=0)
++
++        n_rows = 2**((b.bit_length() - 1) // 2)
++        n_cols = V.shape[0] // n_rows
++
++        V = np.reshape(V, newshape=(n_rows, n_cols, t, c, h, w))
++        V = np.transpose(V, axes=(2, 0, 4, 1, 5, 3))
++        V = np.reshape(V, newshape=(t, n_rows * h, n_cols * w, c))
++        return V
++
++    @classmethod
++    def seq_to_json(cls, videos, run, key, step):
++        base_path = os.path.join(run.dir, cls.get_media_subdir())
++        util.mkdir_exists_ok(base_path)
++        for i, v in enumerate(videos):
++            if not v.is_bound():
++                v.bind_to_run(run, key, step, id_=i)
++        meta = {
++            "_type": "videos",
++            "count": len(videos),
++            'videos': [v.to_json(run) for v in videos],
++            "captions": Video.captions(videos)
++        }
++        return meta
++
++    @classmethod
++    def captions(cls, videos):
++        if videos[0]._caption != None:
++            return [v._caption for v in videos]
++        else:
++            return False
++
+ 
+ class Image(BatchableMedia):
+     MAX_THUMBNAILS = 100
+diff --git a/wandb/env.py b/wandb/env.py
+index 189488f..4cea6fa 100644
+--- a/wandb/env.py
++++ b/wandb/env.py
+@@ -38,6 +38,7 @@ RUN_STORAGE_ID = 'WANDB_RUN_STORAGE_ID'
+ RUN_GROUP = 'WANDB_RUN_GROUP'
+ RUN_DIR = 'WANDB_RUN_DIR'
+ SWEEP_ID = 'WANDB_SWEEP_ID'
++HTTP_TIMEOUT = 'WANDB_HTTP_TIMEOUT'
+ API_KEY = 'WANDB_API_KEY'
+ JOB_TYPE = 'WANDB_JOB_TYPE'
+ DISABLE_CODE = 'WANDB_DISABLE_CODE'
+@@ -56,7 +57,8 @@ def immutable_keys():
+     """These are env keys that shouldn't change within a single process.  We use this to maintain
+     certain values between multiple calls to wandb.init within a single process."""
+     return [DIR, ENTITY, PROJECT, API_KEY, IGNORE, DISABLE_CODE, DOCKER, MODE, BASE_URL,
+-        ERROR_REPORTING, CRASH_NOSYNC_TIME, MAGIC, USERNAME, DIR, SILENT, CONFIG_PATHS]
++            ERROR_REPORTING, CRASH_NOSYNC_TIME, MAGIC, USERNAME, DIR, SILENT, CONFIG_PATHS]
++
+ 
+ def is_debug(default=None, env=None):
+     if env is None:
+@@ -102,6 +104,13 @@ def get_docker(default=None, env=None):
+     return env.get(DOCKER, default)
+ 
+ 
++def get_http_timeout(default=10, env=None):
++    if env is None:
++        env = os.environ
++
++    return int(env.get(HTTP_TIMEOUT, default))
++
++
+ def get_ignore(default=None, env=None):
+     if env is None:
+         env = os.environ
+diff --git a/wandb/keras/__init__.py b/wandb/keras/__init__.py
+index e953f1c..4037d71 100644
+--- a/wandb/keras/__init__.py
++++ b/wandb/keras/__init__.py
+@@ -229,10 +229,6 @@ class WandbCallback(keras.callbacks.Callback):
+ 
+     def set_model(self, model):
+         self.model = model
+-        if self.input_type is None and len(model.inputs) == 1:
+-            self.input_type = wandb.util.guess_data_type(model.inputs[0].shape)
+-        if self.output_type is None and len(model.outputs) == 1:
+-            self.output_type = wandb.util.guess_data_type(model.outputs[0].shape)
+ 
+     def on_epoch_end(self, epoch, logs={}):
+         if self.log_weights:
+diff --git a/wandb/run_manager.py b/wandb/run_manager.py
+index 103f454..3ccd626 100644
+--- a/wandb/run_manager.py
++++ b/wandb/run_manager.py
+@@ -892,7 +892,6 @@ class RunManager(object):
+         Returns the initial step of the run, or None if we didn't create a run
+         """
+         io_wrap.init_sigwinch_handler()
+-
+         self._check_update_available(__version__)
+ 
+         if self._output:
+diff --git a/wandb/wandb_run.py b/wandb/wandb_run.py
+index a8e8106..92a5a6a 100644
+--- a/wandb/wandb_run.py
++++ b/wandb/wandb_run.py
+@@ -111,12 +111,11 @@ class Run(object):
+         if self.args is None:
+             self.args = sys.argv[1:]
+         self.wandb_dir = wandb_dir
+-
+         with configure_scope() as scope:
+             self.project = self.api.settings("project")
+             scope.set_tag("project", self.project)
+             scope.set_tag("entity", self.entity)
+-            scope.set_tag("url", self.get_url(self.api))
++            scope.set_tag("url", self.get_url(self.api, network=False))
+ 
+         if self.resume == "auto":
+             util.mkdir_exists_ok(wandb.wandb_dir())
+@@ -431,10 +430,10 @@ class Run(object):
+         api = api or self.api
+         return api.settings('project') or self.auto_project_name(api) or "uncategorized"
+ 
+-    def get_url(self, api=None):
++    def get_url(self, api=None, network=True):
+         api = api or self.api
+         if api.api_key:
+-            if api.settings('entity') is None:
++            if api.settings('entity') is None and network:
+                 viewer = api.viewer()
+                 if viewer.get('entity'):
+                     api.set_setting('entity', viewer['entity'])

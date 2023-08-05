@@ -1,0 +1,23 @@
+{
+    "root": "/Users/vanpelt/Development/client",
+    "program": "train.py",
+    "git": {
+        "remote": "git@github.com:wandb/client.git",
+        "commit": "63573a9f5e701071aa7c755d53a112543a2a7b2b"
+    },
+    "email": "vanpelt@gmail.com",
+    "startedAt": "2019-08-13T03:19:25.629388",
+    "host": "CVP.lan",
+    "username": "vanpelt",
+    "os": "Darwin-18.6.0-x86_64-i386-64bit",
+    "python": "3.6.4",
+    "executable": "/Users/vanpelt/.pyenv/versions/3.6.4/envs/wubhub-3.6/bin/python",
+    "cpu_count": 4,
+    "args": [],
+    "state": "finished",
+    "jobType": null,
+    "mode": "run",
+    "project": "client-tests_fixtures",
+    "heartbeatAt": "2019-08-13T03:19:30.697968",
+    "exitcode": 0
+}
