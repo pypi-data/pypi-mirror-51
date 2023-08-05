@@ -1,0 +1,12 @@
+{
+    "xaya.domob.eu": {
+        "pruning": "-",
+        "s": "50002",
+        "version": "1.4"
+    },
+    "seeder.xaya.io": {
+        "pruning": "-",
+        "s": "50002",
+        "version": "1.4"
+    }
+}
