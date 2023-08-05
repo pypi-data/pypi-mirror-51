@@ -1,0 +1,5 @@
+setup.py
+ericacastro_pypi.egg-info/PKG-INFO
+ericacastro_pypi.egg-info/SOURCES.txt
+ericacastro_pypi.egg-info/dependency_links.txt
+ericacastro_pypi.egg-info/top_level.txt
