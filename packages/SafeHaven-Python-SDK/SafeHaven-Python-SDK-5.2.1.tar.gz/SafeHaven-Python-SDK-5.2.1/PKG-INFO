@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: SafeHaven-Python-SDK
+Version: 5.2.1
+Summary: SafeHaven Python SDK (GRPC API)
+Home-page: https://ca.ctl.io/cloud-application-manager
+Author: Shi Jin
+Author-email: Shi.Jin@ctl.io
+License: MIT
+Description: SafeHaven Python SDK with example programs in dgpy/test_commands
+Keywords: SafeHaven DRaaS CAM AWS CLC Azure
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
