@@ -1,0 +1,15 @@
+semmatch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semmatch/__main__.py,sha256=HfLRiQdKEUkYVBA7q6lHLz2q8es0eTWcz35PQnwdYgE,6484
+semmatch/autodoc.py,sha256=EGTDNl_W5y0FkIzY3C97M-AldeNoGK1PF5nHfIO984A,7189
+semmatch/core.py,sha256=ub3K5BvuxLZLyKqNqQjMve7OYDgCw-Mkc8VcaF2amQ8,8350
+semmatch/groups.py,sha256=w5_U7iNjcPiYvZKq-69cj0uATVrKYZ5fYhYcEyu0ms0,3399
+semmatch/gui.py,sha256=yWhcT7OOKLlWwDbhFPXIlxHTVcdftcuCVYQx7asesnw,21118
+semmatch/image.py,sha256=Yyp_5WfxYmfeN5S4IVHtNDTcT6MYRLrHO-KF9bls3uo,1031
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_templateMatch.py,sha256=4oc4xa_F5Dsuzff0uftVxjc60lh8BUCBT0h4dijIGGo,1596
+semmatch-0.0.12.dist-info/LICENSE.txt,sha256=_WMm9ntupQBzzAuXh9iReqxfpBS89a1QXGZ7ySSQe_g,1066
+semmatch-0.0.12.dist-info/METADATA,sha256=3gVuN2m7ph8HebXCXUtdWrNEz0gcH9eA4J5oZILuR_I,556
+semmatch-0.0.12.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+semmatch-0.0.12.dist-info/entry_points.txt,sha256=i_DSlKT7Wy4fhVp4VG5CasTeLUTc2sTneTpti9mXgvo,53
+semmatch-0.0.12.dist-info/top_level.txt,sha256=EgUq-alpvfEIcDm18nkGxlcDwvWHXGv3HhKJq0HmVOo,15
+semmatch-0.0.12.dist-info/RECORD,,
