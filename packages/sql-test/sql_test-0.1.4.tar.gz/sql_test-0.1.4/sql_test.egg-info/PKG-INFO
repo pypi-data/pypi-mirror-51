@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: sql-test
+Version: 0.1.4
+Summary: Conduct quality assurance testing on database tables
+Home-page: https://github.com/rebeccaebarnes/sql_analysis
+Author: Rebecca Barnes
+Author-email: rebeccaebarnes@gmail.com
+License: UNKNOWN
+Description: The SQL Test module assists in testing of data between SQL database tables. This is the development version of the module.
+        
+        Use examples include comparing data in a view to those in a table derived from a star schema, or comparing results from a table derived from an external source to a table built via ETL.
+        
+        ## Main Features
+        
+        - **Class: SQLTest**
+            1. Creates and runs SQL database queries based on attributes provided with class instantiation or custom SQL query string.
+            2. Completes five built in tests based on field-type categorizations of `count`, `low_distinct`, `high_distinct`, `numeric`, `id_check`.
+            3. Flags fields above a specified difference threshold for "priority review".
+            4. Displays a summary of results.
+            5. Saves results and summary as specified.
+        
+        - **Function: compare_tables**
+            1. Auto-detects the type of test to be run.
+            2. Utilizes methods of SQLUnitTest to complete a full comparison of table values.
+        
+        - **Function: sql_query**
+            1. Conducts basic database queries
+        
+        
+        ## Functionality Overview
+        The concept behind the testing is that database information can often be segmented by a field, such as dates. Testing can be done by comparing field values across these groupings. For a more detailed description of the available functionality, check out the [development page](https://github.com/rebeccaebarnes/sql_analysis).
+        
+        ### Basic Query
+        
+        <p align="left">
+          <img src="https://raw.githubusercontent.com/rebeccaebarnes/sql_analysis/master/img/rental_view.PNG">
+        </p>
+        
+        ### Run Test Battery
+        
+        **Setup Code**
+        <p align="center">
+          <img src="https://raw.githubusercontent.com/rebeccaebarnes/sql_analysis/master/img/compare_tables_code.PNG">
+        </p>
+        
+        A summarized version of results (as a DataFrame or image), indicating the percentage difference between table fields (and the test type used), is available via the test battery.
+        
+        **Visual Summary**
+        <p align="center">
+          <img src="https://raw.githubusercontent.com/rebeccaebarnes/sql_analysis/master/img/results.png">
+        </p>
+        
+        ## Setup
+        ### First Installation
+        The files `sql_secrets.py` and `sql_config.py` provide examples of how the SQLAlchemy engines can be configured. These files should be customized for personal use.
+        
+        ### Updating SQL Test
+        Unfortunately, updating via pip will likely overwrite your customized configuration files. (As soon as I can work out a way to avoid this I'll be updating this section!) Before updating, make sure to store your custom configuration files in a new directory or rename them. You can find these files in your Anaconda directory under Lib/site-packages/sql_test/. You can then replace the "updated" versions with your original ones.
+        
+        ## Dependencies
+        All dependencies are downloaded on installation if not already present. This module utilizes:
+        - Python v 3.5+
+        - [SQLAlchemy](https://www.sqlalchemy.org/)
+        - [pandas](https://pandas.pydata.org/)
+        - [NumPy](https://numpy.org/)
+        - [Matplotlib](https://matplotlib.org/)
+        - [Seaborn](https://seaborn.pydata.org/)
+        - [cx_Oracle](https://oracle.github.io/python-cx_Oracle/)
+        - [Psycopg](http://initd.org/psycopg/)
+        
+        ## Acknowledgements
+        Testing is completed using the [PostgreSQL DVD Rental](http://www.postgresqltutorial.com/postgresql-sample-database/) sample database.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
