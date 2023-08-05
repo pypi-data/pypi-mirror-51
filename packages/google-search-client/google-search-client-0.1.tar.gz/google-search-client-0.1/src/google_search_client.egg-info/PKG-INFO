@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: google-search-client
+Version: 0.1
+Summary: A python client to scrape google search results
+Home-page: https://github.com/justoy/google-search-client
+Author: justoy
+Author-email: li.justoy@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

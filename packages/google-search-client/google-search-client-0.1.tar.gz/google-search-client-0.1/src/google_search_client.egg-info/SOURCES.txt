@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/google_search_client/__init__.py
+src/google_search_client/search_client.py
+src/google_search_client/search_response.py
+src/google_search_client.egg-info/PKG-INFO
+src/google_search_client.egg-info/SOURCES.txt
+src/google_search_client.egg-info/dependency_links.txt
+src/google_search_client.egg-info/requires.txt
+src/google_search_client.egg-info/top_level.txt
