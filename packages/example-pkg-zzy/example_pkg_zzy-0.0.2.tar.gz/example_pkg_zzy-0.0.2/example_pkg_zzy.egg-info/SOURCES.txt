@@ -1,0 +1,9 @@
+README.md
+setup.py
+example_pkg/__init__.py
+example_pkg/help.py
+example_pkg_zzy.egg-info/PKG-INFO
+example_pkg_zzy.egg-info/SOURCES.txt
+example_pkg_zzy.egg-info/dependency_links.txt
+example_pkg_zzy.egg-info/requires.txt
+example_pkg_zzy.egg-info/top_level.txt
