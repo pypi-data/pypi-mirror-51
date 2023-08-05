@@ -1,0 +1,5 @@
+{
+    "data":"./test_dataset",
+    "classes": ["Young", "Adult", "Senior"],
+    "results":"./result.csv"
+}

@@ -1,0 +1,4 @@
+[console_scripts]
+dogage_mct=DogAge:mct2.main
+dogage_validate=DogAge:dogage_validate.main
+
