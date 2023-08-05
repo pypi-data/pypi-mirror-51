@@ -1,0 +1,13 @@
+README.md
+setup.py
+gitea_auto_update.egg-info/PKG-INFO
+gitea_auto_update.egg-info/SOURCES.txt
+gitea_auto_update.egg-info/dependency_links.txt
+gitea_auto_update.egg-info/entry_points.txt
+gitea_auto_update.egg-info/requires.txt
+gitea_auto_update.egg-info/top_level.txt
+update/__init__.py
+update/build.py
+update/download.py
+update/update.py
+update/version.py
