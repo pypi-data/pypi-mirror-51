@@ -1,0 +1,46 @@
+{
+  "mongodb_connection": {
+    "module": "pymongo",
+    "class": "MongoClient",
+    "parameters": [
+      {
+        "name": "connection_string",
+        "type": "ref",
+        "value": "cnt_connection_string"
+      }
+    ]
+  },
+  "database": {
+    "factory": "mongodb_connection",
+    "method": "get_database",
+    "parameters": [
+      {
+        "name": "database_name",
+        "type": "ref",
+        "value": "cnt_database_name"
+      }
+    ]
+  },
+  "entry_dao": {
+    "module": "clickntrack.persistence",
+    "class": "EntryDAO",
+    "parameters": [
+      {
+        "name": "database",
+        "type": "ref",
+        "value": "database"
+      }
+    ]
+  },
+  "entry_service": {
+    "module": "clickntrack.services",
+    "class": "EntryService",
+    "parameters": [
+      {
+        "name": "dao",
+        "type": "ref",
+        "value": "entry_dao"
+      }
+    ]
+  }
+}
