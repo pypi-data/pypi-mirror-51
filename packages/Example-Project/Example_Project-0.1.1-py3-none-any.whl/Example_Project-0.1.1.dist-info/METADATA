@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: Example-Project
+Version: 0.1.1
+Summary: An example Python project
+Home-page: https://github.com/Hakonmh/example-project
+Author: Håkon Magne Holmen
+Author-email: haakonholmen@outlook.com
+License: MIT
+Project-URL: Funding, https://donate.pypi.org
+Keywords: sample development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# An example Python project
+
+This is an example project that is used as practice for learning [packaging][pcking].
+
+----
+
+Most of the configuration for the project is done in the `setup.py` file.
+
+This is the `README` file for the project.
+
+[pcking]: https://packaging.python.org
+"# example-project"
+
+
