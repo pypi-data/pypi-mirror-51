@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyxbos-dbcli
+Version: 0.1.2
+Summary: 
+Author: Gabe Fierro
+Author-email: gtfierro225@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy (>=1.17,<2.0)
+Requires-Dist: prompt_toolkit (>=2.0,<3.0)
+Requires-Dist: pygments (>=2.4,<3.0)
