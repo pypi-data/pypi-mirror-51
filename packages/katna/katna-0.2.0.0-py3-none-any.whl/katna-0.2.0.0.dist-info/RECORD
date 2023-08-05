@@ -1,0 +1,13 @@
+Katna/__init__.py,sha256=8CIrlPI0Or92l9xTYcYywrmMkbULrzUyjaB-weQSSto,30
+Katna/decorators.py,sha256=smSfKY8_gm2PJ8ApFY3WeMQ8wwdgZPh9Z2olJooobs8,3356
+Katna/frame_extractor.py,sha256=r_nprYJvV0Yyco6G_Dn3CXjiv5DUi4hTfgndVDxFjB0,6651
+Katna/image_selector.py,sha256=FekcAxNtEAE8py9wnlbceBVasWrxyjmS_kb301kCbno,8569
+Katna/video.py,sha256=-9P3IgyqgswcrsbGYXBaioXk7o6vtc3IPnanhqekPzo,2171
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/image_similarity.py,sha256=UWsXiURPYntQNunZikA9h165EilnYZvtvKSrWYi3z_Q,5350
+tests/test_video.py,sha256=iOuZOXa9ZFf2Hqjt8rrf7V-33N6-iuflF9RAPqF0j5Y,5981
+katna-0.2.0.0.dist-info/LICENSE.txt,sha256=gAbNSrlW_vVorCi62cmXpPCE7EqTFhMNGg4XZ3fovwA,1076
+katna-0.2.0.0.dist-info/METADATA,sha256=9md4XlqGMm7TbHukPUbo-vSJZw6ORmcaGHezHugDpAI,2507
+katna-0.2.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+katna-0.2.0.0.dist-info/top_level.txt,sha256=Rr4WmWNd7y9c9GABMFHhjEp0Nr9Wi_JxjJsuS4BU2IM,12
+katna-0.2.0.0.dist-info/RECORD,,
