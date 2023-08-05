@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pycocotools-fix
+Version: 2.0
+Summary: Fixed pycocotools package installation error of numpy or cython not installed
+Home-page: https://github.com/junjuew/cocoapi
+Author: Junjue Wang
+Author-email: junjuew@cs.cmu.edu
+License: UNKNOWN
+Description: Created due to the inactivity of the original repo: https://github.com/cocodataset/cocoapi
+Platform: UNKNOWN
