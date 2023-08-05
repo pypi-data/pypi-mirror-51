@@ -1,0 +1,17 @@
+README.rst
+setup.py
+copt/__init__.py
+copt/datasets.py
+copt/frank_wolfe.py
+copt/line_search.py
+copt/proximal_gradient.py
+copt/randomized.py
+copt/splitting.py
+copt/tv_prox.py
+copt/utils.py
+copt.egg-info/PKG-INFO
+copt.egg-info/SOURCES.txt
+copt.egg-info/dependency_links.txt
+copt.egg-info/requires.txt
+copt.egg-info/top_level.txt
+copt/data/img1.csv
