@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+clutch/__init__.py
+clutch/templatetags/__init__.py
+clutch/templatetags/clutch_tags.py
+django_clutch_widget.egg-info/PKG-INFO
+django_clutch_widget.egg-info/SOURCES.txt
+django_clutch_widget.egg-info/dependency_links.txt
+django_clutch_widget.egg-info/top_level.txt
