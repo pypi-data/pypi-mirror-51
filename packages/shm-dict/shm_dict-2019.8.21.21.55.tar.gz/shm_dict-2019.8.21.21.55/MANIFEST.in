@@ -1,0 +1,18 @@
+include *.md
+include .isort.cfg
+include .pre-commit-config.yaml
+include .pylintrc
+include LICENSE
+include LICENSE.LESSER
+include pyproject.toml
+include requirements*
+include tox.ini
+include docs/source/conf.py
+include docs/source/coverage/extract_source.py
+include docs/source/coverage/*.source.html
+include docs/[mM]ake*
+recursive-include . *.gitkeep
+recursive-include docs/source *.rst
+recursive-include tests *.py
+graft docs/source/_static
+prune docs/source/api

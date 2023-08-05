@@ -1,0 +1,35 @@
+posix_ipc
+six
+
+[dev]
+check-manifest
+coverage
+docutils
+flake8
+isort
+mock
+pre-commit
+pur
+pygments
+pyOpenSSL
+pytest
+pytest-cov
+pytest-mock
+pytest-runner
+pytest-sugar
+pytest-xdist
+python-language-server[all]
+readme-renderer[md]
+sphinx
+sphinx-automodapi
+tox
+twine
+
+[dev:python_version >= "2.7" and python_version < "3.0"]
+pylint==1.9.4
+
+[dev:python_version >= "3.4"]
+pylint
+
+[dev:python_version >= "3.6"]
+black

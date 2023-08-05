@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: shm_dict
+Version: 2019.8.21.21.55
+Summary: Shared Memory Dictionary
+Home-page: https://natrinicle.com
+Author: Nate Bohman
+Author-email: natrinicle@natrinicle.com
+License: LGPL-3
+Project-URL: Source, https://git.natrinicle.com/natrinicle/shm_dict.git
+Description: # shm_dict
+        
+        Shared Memory Dictionary utilizing Posix IPC semaphores and shared memory segments and offering permanent disk storage of data if required.
+Keywords: posix ipc semaphore shm shared memory dict dictionary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Provides-Extra: dev
