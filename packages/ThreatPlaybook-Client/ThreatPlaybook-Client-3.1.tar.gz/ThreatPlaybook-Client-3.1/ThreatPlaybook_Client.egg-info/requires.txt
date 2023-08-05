@@ -1,0 +1,7 @@
+docopt
+requests
+huepy
+pickledb
+pyyaml
+pyjq
+jinja2
