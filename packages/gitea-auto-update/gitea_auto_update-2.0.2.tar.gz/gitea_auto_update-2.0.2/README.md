@@ -1,0 +1,66 @@
+# Gitea Auto Update
+
+[![Build Status](https://travis-ci.org/CMiksche/gitea-auto-update.svg?branch=master)](https://travis-ci.org/CMiksche/gitea-auto-update)
+
+Script for a automatic update of gitea. Should be run locally on the gitea server. Has options for updating via new binary file or build from source.
+
+## Procedure
+* Get Gitea Version from the Gitea CLI and if that fails from the Gitea API
+* Get latest Release via GitHub API
+* Check if there is a newer Version
+* If there is a newer Version:
+    * If binary file was selected: 
+        * Download new version
+        * Check sha256
+        * Overwrite old version
+    * If build from source is active: 
+        * Checkout new release branch
+        * Build binary
+        * Overwrite old binary
+        
+
+## General Information
+License: GNU General Public License
+
+Author: Christoph Daniel Miksche (m5e.de)
+
+Uses python version 3
+
+## Installation
+
+Create a settings.ini file on your system. Example:
+
+  ````
+[Gitea]
+site=https://your-gitea-instance.com/api/v1/version
+apiUrl=https://api.github.com/repos/go-gitea/gitea/releases/latest
+system=linux-amd64
+file=/usr/local/bin/gitea
+tmpDir=/tmp/
+buildFromSource=None
+sourceDir=/home/git/go/src/code.gitea.io/gitea
+logFile=update.log
+  ````
+
+Use the following command to install all gitea-auto-update.
+
+  ```
+  sudo pip install gitea-auto-update
+  ```
+
+Enter the command `gite-auto-update --settings=/path/to/settings.ini` in your commandline.
+
+If you want to schedule your updates, edit your /etc/crontab file.
+
+## Tutorials
+
+* English: http://blog.m5e.de/gitea/update/upgrade/bash/script/2018/11/26/gitea-auto-update-script.html
+* German: https://blog.wronnay.net/automatische-gitea-updates/
+
+## Contributors
+
+ - [@Eideen](https://github.com/Eideen)
+
+Thank you for your support!
+
+Interested in contributing to this project? Check out the [Contribution Guidelines](CONTRIBUTING.md).
