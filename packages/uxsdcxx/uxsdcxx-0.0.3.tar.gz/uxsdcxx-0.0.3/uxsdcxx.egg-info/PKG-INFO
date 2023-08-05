@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: uxsdcxx
+Version: 0.0.3
+Summary: generate PugiXML reader/writer from XSD schema
+Home-page: https://github.com/duck2/uxsdcxx
+Author: duck2
+Author-email: duck2@protonmail.com
+License: Apache-2.0
+Project-URL: Source Code, https://github.com/duck2/uxsdcxx
+Project-URL: Bug Tracker, https://github.com/duck2/uxsdcxx/issues
+Description: UNKNOWN
+Platform: UNKNOWN

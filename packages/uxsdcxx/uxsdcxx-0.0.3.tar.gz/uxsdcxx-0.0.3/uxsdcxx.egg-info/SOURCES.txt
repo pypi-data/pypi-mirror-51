@@ -1,0 +1,13 @@
+README.md
+setup.py
+uxsdcxx.py
+uxsdcxx/__init__.py
+uxsdcxx/dfa.py
+uxsdcxx/schema.py
+uxsdcxx/templates.py
+uxsdcxx/utils.py
+uxsdcxx.egg-info/PKG-INFO
+uxsdcxx.egg-info/SOURCES.txt
+uxsdcxx.egg-info/dependency_links.txt
+uxsdcxx.egg-info/requires.txt
+uxsdcxx.egg-info/top_level.txt
