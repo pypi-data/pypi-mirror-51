@@ -1,0 +1,16 @@
+colorama
+prettytable
+uncertainties
+astroquery
+ezsheets
+Pillow
+mendeleev
+wget
+requests
+chempy
+pyserial
+scikit-image
+sti-LabJackPython
+text2art
+cirpy
+jcamp
