@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+anticipython/__init__.py
+anticipython/__main__.py
+anticipython/anticipython.py
+anticipython/peps.py
+anticipython.egg-info/PKG-INFO
+anticipython.egg-info/SOURCES.txt
+anticipython.egg-info/dependency_links.txt
+anticipython.egg-info/top_level.txt
