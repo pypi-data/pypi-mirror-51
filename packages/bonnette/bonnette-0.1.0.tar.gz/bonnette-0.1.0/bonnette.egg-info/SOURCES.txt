@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+bonnette/__init__.py
+bonnette/__version__.py
+bonnette/py.typed
+bonnette.egg-info/PKG-INFO
+bonnette.egg-info/SOURCES.txt
+bonnette.egg-info/dependency_links.txt
+bonnette.egg-info/entry_points.txt
+bonnette.egg-info/requires.txt
+bonnette.egg-info/top_level.txt

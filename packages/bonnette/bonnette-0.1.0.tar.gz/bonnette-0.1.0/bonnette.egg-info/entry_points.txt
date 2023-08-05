@@ -1,0 +1,3 @@
+[console_scripts]
+cli = bonnette.__main__:main
+
