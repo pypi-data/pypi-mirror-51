@@ -1,0 +1,67 @@
+Click'n'Track
+=============
+
+Multi-domain permalink management engine.
+-
+
+**Click'n'Track** provides simple REST API to manage permalinks_ with multi-domain web hosts capabilities.
+
+Every permalink is defined by a hostname and a single path segment and a target URL. Hostname and path segment compose the permalink URL regardless the protocol scheme.
+
+For instance, using the default hostname from domain ``mydomain.io`` and ``clickntrack`` you can compose permalink URLs ``http:\mydomain.io\clickntrack`` or ``https:\mydomain.io\clickntrack`` depending on the web host configuration.
+
+When activating a permalink, **Click'n'Track** engine lookups at the database to retrieve the target URL, store few *'hit'* data et redirect the HTTP client to the target URL using an ``HTTP 302`` response.
+
+For every *'hit'*, **Click'n'Track** grabs some basics data like the timestamp, the user-agent_, the referer_ and  the remote address of the client.
+
+DISCLAIMER
+----------
+**Click'n'Track** is not an enterprise class application: You run it in production at your own risk.
+
+**Click'n'Track** is a sandbox project, I develop to learn Python_ programming and to discover MongoDB_ capabilities.
+
+REST API
+--------
+TODO: Coming soon !
+
+INSTALLATION NOTES
+------------------
+
+Software requirements
+;;;;;;;;;;;;;;;;;;;;;
+* MongoDB_ database
+* Python_ 3.5+ runtime with dependencies on
+    * PyMongo_
+    * `Bottle framework`_
+    * `Monkey IoC`_
+    * `Monkey DAO PyMongo`_
+
+Setup recommendations
+;;;;;;;;;;;;;;;;;;;;;
+As MongoDB engine, we recommend to use the `MongoBD Atlas`_ platform.
+
+Unless **Click'n'Track** can run standalone, we recommend to the application a WSGI_ compliant web server like `Apache HTTP server`_
+on a Linux server. When hosting **Click'n'Track** on an `Apache HTTP server`_, it is required to enable mod_wsgi_.
+
+Configuration
+;;;;;;;;;;;;;
+TODO: Coming soon !
+
+Running *Click'n'Track* standalone
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TODO: Coming soon !
+
+
+.. _Apache HTTP server: https://httpd.apache.org/
+.. _Bottle framework: https://bottlepy.org/docs/dev/
+.. _mod_wsgi: https://modwsgi.readthedocs.io/en/latest/
+.. _MongoDB: https://www.mongodb.com
+.. _MongoBD Atlas: https://cloud.mongodb.com/
+.. _Monkey Ioc: https://bitbucket.org/monkeytechnologies/monkey-ioc/
+.. _Monkey DAO PyMongo: https://bitbucket.org/monkeytechnologies/monkey-dao-pymongo
+.. _permalinks: https://en.wikipedia.org/wiki/Permalink
+.. _PyMongo: https://api.mongodb.com/python/current/
+.. _Python: https://www.python.org/
+.. _referer: https://en.wikipedia.org/wiki/HTTP_referer
+.. _user-agent: https://en.wikipedia.org/wiki/User_agent
+.. _WSGI: https://wsgi.readthedocs.io/en/latest/
