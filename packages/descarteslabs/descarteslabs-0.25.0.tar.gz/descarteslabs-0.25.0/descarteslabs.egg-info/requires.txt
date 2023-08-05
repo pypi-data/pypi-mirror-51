@@ -1,0 +1,24 @@
+cloudpickle==0.4.0
+six
+cachetools>=2.0.1
+geojson>=2.4.1
+shapely<2,>=1.6.3
+affine>=2.2.1
+pyarrow==0.13.0
+grpcio<2,>=1.16.1
+protobuf<4,==3.8.0
+requests<3,>=2.20.1
+
+[:python_version == "2.7"]
+futures
+
+[complete]
+numpy>=1.10.0
+matplotlib>=2.1.0
+mercantile>=1.0.4
+ipyleaflet>=0.11.1
+ipywidgets>=7.5.1
+traitlets==4.3.2
+
+[complete:platform_system != "Windows"]
+blosc
