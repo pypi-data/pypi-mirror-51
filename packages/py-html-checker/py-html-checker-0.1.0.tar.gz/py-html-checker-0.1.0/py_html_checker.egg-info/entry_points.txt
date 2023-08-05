@@ -1,0 +1,3 @@
+[console_scripts]
+html-checker = html_checker.cli.console_script:cli_frontend
+

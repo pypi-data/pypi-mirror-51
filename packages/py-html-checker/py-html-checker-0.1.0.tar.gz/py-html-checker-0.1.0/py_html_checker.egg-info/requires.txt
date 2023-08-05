@@ -1,0 +1,11 @@
+six
+requests
+
+[cli]
+click<8.0,>=7.0
+colorama
+colorlog
+
+[dev]
+flake8
+pytest
