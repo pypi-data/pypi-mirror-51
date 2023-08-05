@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ttl-cache
+Version: 1.5
+Summary: Decorator to wrap a function with a memoizing callable that has TTL result
+Home-page: https://github.com/lwzm/ttl-cache
+Author: lwzm
+Author-email: lwzm@qq.com
+License: UNKNOWN
+Description: # ttl-cache
+        
+        ### How to use it
+        
+        ```sh
+        pip install ttl-cache
+        ```
+        
+        ```python
+        import ttl_cache
+        
+        
+        # use ttl_cache directly
+        @ttl_cache
+        def expensive_operation(a, b):
+            ...
+            ...
+            return SOME_RESULT
+        
+        expensive_operation(xx, yy)
+        expensive_operation(xx, yy)  # prefer cached result
+        # ... 60 seconds later
+        expensive_operation(xx, yy)  # compute again
+        
+        
+        # or
+        @ttl_cache(2.0)  # cache the result in the next 2 seconds, default is 60.0 seconds
+        def expensive_operation(a, b):
+            ...
+            ...
+        
+        ```
+        
+Keywords: cache,ttl,decorator,functools
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
