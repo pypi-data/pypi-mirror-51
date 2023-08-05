@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shrek
+Version: 0.0.2
+Summary: A package for scATAC-seq pre-processing
+Home-page: https://github.com/mvinyard/shrek
+Author: Michael E. Vinyard
+Author-email: mvinyard@mgh.harvard.com
+License: UNKNOWN
+Description: Stringing togeter several common and currently used tools for scATAC-seq preprocessing. From this simple command line interface, one can quicky and easily initiate commands to create all tht is needed to perform downstream analysis such as clustering, trajectory inference, etc.)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

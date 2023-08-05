@@ -1,0 +1,7 @@
+README.md
+setup.py
+SHREK_pkg/__init__.py
+shrek.egg-info/PKG-INFO
+shrek.egg-info/SOURCES.txt
+shrek.egg-info/dependency_links.txt
+shrek.egg-info/top_level.txt
