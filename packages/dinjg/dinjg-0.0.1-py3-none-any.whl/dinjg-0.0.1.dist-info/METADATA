@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dinjg
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Borodin Gregory
+Author-email: grihabor@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: typed-ast
+Requires-Dist: click
+Requires-Dist: graphviz
+Provides-Extra: develop
+Requires-Dist: pytest ; extra == 'develop'
+Requires-Dist: coverage ; extra == 'develop'
+
+UNKNOWN
+
+
