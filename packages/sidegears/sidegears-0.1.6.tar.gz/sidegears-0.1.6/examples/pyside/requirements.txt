@@ -1,0 +1,12 @@
+apply-defaults==0.1.1
+asyncqt==0.7.0
+attrs==19.1.0
+jsonrpcserver==4.0.4
+jsonschema==3.0.1
+pop==6.0.0
+pyrsistent==0.15.2
+PySide2==5.12.4
+shiboken2==5.12.4
+# -e git+git@gitlab.com:john.tourtellott/sidegears.git@b48d365ce9079dbcbdc0476002504b99841ff0d2#egg=sidegears
+six==1.12.0
+websockets==7.0

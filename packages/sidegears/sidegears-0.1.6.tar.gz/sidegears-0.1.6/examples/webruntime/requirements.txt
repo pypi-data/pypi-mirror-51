@@ -1,0 +1,15 @@
+altgraph==0.16.1
+apply-defaults==0.1.1
+attrs==19.1.0
+dialite==0.5.2
+future==0.17.1
+jsonrpcserver==4.0.4
+jsonschema==2.6.0
+macholib==1.11
+pefile==2019.4.18
+PyInstaller==3.4
+pyrsistent==0.15.2
+# -e git+git@gitlab.com:john.tourtellott/sidegears.git@f6546e707b8857089961c7225cedc56128b67665#egg=sidegears
+six==1.12.0
+webruntime==0.5.6
+websockets==7.0

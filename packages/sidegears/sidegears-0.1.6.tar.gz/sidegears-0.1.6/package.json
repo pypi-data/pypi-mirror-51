@@ -1,0 +1,38 @@
+{
+  "name": "sidegears",
+  "description": "Desktop apps using html/js/css UI with python backend",
+  "version": "0.1.6",
+  "author": "jat",
+  "main": "dist/sidegears.js",
+  "module": "dist/sidegears.esm.js",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "dist/*.js",
+    "examples/client/",
+    "examples/vue-client/"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "ava --verbose"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "esm": "^3.2.25",
+    "mock-socket": "^8.0.5",
+    "rollup": "^1.16.3",
+    "rollup-plugin-copy": "^3.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "vue": "^2.6.10",
+    "ws": "^7.0.1"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  }
+}
