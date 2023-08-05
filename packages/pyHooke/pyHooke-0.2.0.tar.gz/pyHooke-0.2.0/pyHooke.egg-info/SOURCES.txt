@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+Hooke/__init__.py
+Hooke/compare.py
+Hooke/extract.py
+Hooke/order.py
+Hooke/search.py
+Hooke/test/test.txt
+pyHooke.egg-info/PKG-INFO
+pyHooke.egg-info/SOURCES.txt
+pyHooke.egg-info/dependency_links.txt
+pyHooke.egg-info/not-zip-safe
+pyHooke.egg-info/requires.txt
+pyHooke.egg-info/top_level.txt
