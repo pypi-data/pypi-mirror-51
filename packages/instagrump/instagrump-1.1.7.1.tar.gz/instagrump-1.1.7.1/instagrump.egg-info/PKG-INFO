@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: instagrump
+Version: 1.1.7.1
+Summary: Instagram public API wrapper
+Home-page: https://github.com/anandakelvin/instagrump
+Author: Kelvin Ananda
+Author-email: ananda.kelvin@gmail.com
+License: MIT
+Description: # Instagrump
+        Just a simple Instagram Public API wrapper. The codes are self-explanatory.
+        
+        ### Example usage
+        Installing:
+        ```sh
+        pip3 install instagrump 
+        ```
+        
+        Importing:
+        ```sh
+        from instagrump import Profile,  Content 
+        ```
+        
+        Initialize Profile class:
+        ```sh
+        profile = Profile('ig_username')
+        ```
+        
+        Initialize Content class:
+        ```sh
+        content = Content('url_with_shortcode_from_Profile')
+        ```
+        
+        Example to get profile contents:
+        ```sh
+        [Content(i).get_content() for i in Profile('justinbieber').get_posts()]
+        ```
+        #### Helpful tip
+        To get all class attribute:
+        ```sh
+        dir(your_class_here)
+        ```
+        
+        ### Todos
+        
+         - Write MORE Documentations
+         - Sleep
+        
+        License
+        ----
+        MIT
+        
+        
+Keywords: Instagram,wrapper,public,API,scraping
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
