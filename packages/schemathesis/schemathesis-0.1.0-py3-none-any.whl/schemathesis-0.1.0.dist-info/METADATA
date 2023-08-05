@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: schemathesis
+Version: 0.1.0
+Summary: Hypothesis strategies for Open API
+Home-page: https://github.com/kiwicom/schemathesis
+License: MIT
+Keywords: pytest,hypothesis,openapi,swagger,testing
+Author: Dmitry Dygalo
+Author-email: dmitry.dygalo@kiwi.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Hypothesis
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: attrs (>=19.1,<20.0)
+Requires-Dist: hypothesis (>=4.32,<5.0)
+Requires-Dist: hypothesis_jsonschema (>=0.9.7,<0.10.0)
+Requires-Dist: pytest (>4.6.4)
+Requires-Dist: pyyaml (>=5.1,<6.0)
+Project-URL: Repository, https://github.com/kiwicom/schemathesis
+Description-Content-Type: text/markdown
+
+# Schemathesis
+
+Schemathesis is a tool that generates test cases for your Open API / Swagger schemas.
+
+The main goal is to verify if all values allowed by the schema are processed correctly
+by the application.
+
+Empowered with `Hypothesis`, `hypothesis_jsonschema` and `pytest`.
+
+**NOTE**: The library is WIP, the API is a subject to change.
+
+## Usage
+
+To generate test cases for your schema you need:
+
+- Create a parametrizer;
+- Wrap a test with `Parametrizer.parametrize` method
+
+```python
+from schemathesis import Parametrizer
+
+
+schema = Parametrizer.from_path("path/to/schema.yaml")
+
+
+@schema.parametrize()
+def test_users_endpoint(client, case):
+    response = client.request(
+        case.method, 
+        case.formatted_path,
+        params=case.query,
+        json=case.body
+    )
+    assert response.status_code == 200
+```
+
+Each wrapped test will have the `case` fixture, that represents a hypothesis test case.
+
+Case consists of:
+
+- `method`
+- `formatted_path`
+- `query`
+- `body`
+
+This data could be used to verify that your application works in the way as described in the schema.
+For example the data could be send against running app container via `requests` and response is checked
+for an expected status code or error message.
+
+
