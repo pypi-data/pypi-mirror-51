@@ -1,0 +1,39 @@
+# **suede**
+## _**Single Unit Electrode DEcoders**_
+
+This package comprises three single-unit electrode related modules. The first, is a single-unit electrode synthetic data generator where you can set neurons’ preferred directions, base firing rate, trial length times, etc. This synthetic data can then be supplied as input to the following two modules, both of which are decoders. The first decoder (second module) is a bayesian decoder, and the second decoder (third module) is an optimal linear estimator. The bayesian decoder can be run solely on the synthetic single-unit electrode data generated from the first module, but the optimal linear estimator in addition to single-unit electrode spiking data requires cursor position data, which is not provided. This package is therefore best suited for offline analysis of existing single-unit electrode datasets.
+
+---
+These decoders are designed for and will work best for center-out reach tasks with one unique target per reach direction. In the following images each red dot signifies a reach target:
+<p align="center"> 4-, 8-, and 16-Target Reach Tasks <br>
+<img     src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/4_target_spread.png?raw=true" width="280" height="260" /> <img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/8_target_spread.png?raw=true" width="280" height="260" /> <img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/16_target_spread.png?raw=true" width="280" height="260" /> </p>
+
+---
+### 1) Synthetic Data Generation: `/synthetic_data`
+_Example script available:_ `synthetic_data_script.py`  
+Generates single-unit electrode spike data for a set of neurons with self-specified preferred directions. The result can be visualized with the following set of tools located in `/visualization_tools`:
+
+* #### Histogram of Average Spike Counts Over Time + Average Firing Rates by Direction:
+<p align="center"> 4-Target Reach Task <br>
+<img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/4_target_hist.gif?raw=true" width="360" height="280" /> <img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/4_target_avg_firing.gif?raw=true" width="360" height="280" /> </p>  
+
+<p align="center"> 8-Target Reach Task <br>
+<img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/8_target_hist.gif?raw=true" width="360" height="280" /> <img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/8_target_avg_firing.gif?raw=true" width="360" height="280" /> </p>  
+
+<p align="center"> 16-Target Reach Task <br>
+<img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/16_target_hist.gif?raw=true" width="360" height="280" /> <img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/16_target_avg_firing.gif?raw=true" width="360" height="280" /> </p>  
+
+---
+### 2) Bayesian Decoder: `/bayesian`
+_Example script available:_ `bayesian_decoder_script.py`  
+_In the following plots, T-int = T integration or integration time, represents the time window of data that is being used by the decoder for training and testing on a per trial basis._    
+
+This module uses a bayesian classifier to predict the target direction given the spike activity of neurons in the given training data.  
+* #### Accuracy Plots:
+<p align="center"> 4-, 8-, and 16-Target Reach Tasks <br>
+<img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/4_bayesian.png?raw=true" width="280" height="210" /> <img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/8_bayesian.png?raw=true" width="280" height="210" /> <img src="https://github.com/czbiohub/suede/blob/master/suede/visualization_tools/sample_images/16_bayesian.png?raw=true" width="280" height="210" /> </p>
+
+---
+### 3) Optimal Linear Estimator: `/ole`
+_No example script currently available_  
+This module uses spike activity in conjunction with cursor position to train an optimal linear estimator. The trained model can then predict the intended cursor position movement at a specified time.
