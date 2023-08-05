@@ -1,0 +1,3 @@
+[console_scripts]
+strace-process-tree = strace_process_tree:main
+
