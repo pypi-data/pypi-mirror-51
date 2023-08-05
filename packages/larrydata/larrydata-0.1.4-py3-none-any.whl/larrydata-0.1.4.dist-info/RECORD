@@ -1,0 +1,11 @@
+larrydata/__init__.py,sha256=NNBqNnnlkyc9ew39kRB2Yr64OWLnlBSvW4CG5IAOO4s,168
+larrydata/mturk.py,sha256=ohX0clbn5a4c5vC15X3D6BqXxS7JDEyL_NqcqGpLDAU,18370
+larrydata/s3.py,sha256=yEQnMPT8YAk2i0uAkurXDdEHig_xux3A0WYV5eFK5ZI,22959
+larrydata/sagemaker.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+larrydata/sqs.py,sha256=_RjEH07DVD028CTaUKKLN0WEq-HoGEOjNnAypzXoGK4,1498
+larrydata/sts.py,sha256=6u6gwgQ9DjNgLgVgCm2klmfMQLvyEOlrRu7UPsA0FII,1370
+larrydata-0.1.4.dist-info/LICENSE,sha256=LIqcHRp4CjnBJWqE1hEMC3nibw1xrOhXM7hf9Rdxvf4,1087
+larrydata-0.1.4.dist-info/METADATA,sha256=try1Y01ymJeSR8eURIJ2W0Yw_7e7q_vq64Dz_zY4FNU,3245
+larrydata-0.1.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+larrydata-0.1.4.dist-info/top_level.txt,sha256=WemJdaiP3-64yC3XEsvbuA6oDc5vzbrd5d5amRSvZE8,10
+larrydata-0.1.4.dist-info/RECORD,,
