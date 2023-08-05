@@ -1,0 +1,7 @@
+README.rst
+setup.py
+sagittarius.egg-info/PKG-INFO
+sagittarius.egg-info/SOURCES.txt
+sagittarius.egg-info/dependency_links.txt
+sagittarius.egg-info/not-zip-safe
+sagittarius.egg-info/top_level.txt
