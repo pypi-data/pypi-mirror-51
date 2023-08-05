@@ -1,0 +1,14 @@
+gimmebio.sample_seqs-0.2.1-py3.6-nspkg.pth,sha256=pxTb1jWsCspdqoPmV2TGBVot_a6QmHbVwKXbDN4rHTs,549
+gimmebio/sample_seqs/__init__.py,sha256=RFdqXN7nYCqNhXOdi7V_24vcYUfE7Xu0lrOrazYe-KY,102
+gimmebio/sample_seqs/constants.py,sha256=ASE6pDc0jsfLp9DOmiGK_mse-hmBNcoFKTnRNaLY6fI,591
+gimmebio/sample_seqs/sample_seqs.py,sha256=sVHx1K3jkUMfmu0FucKyFUZQ7pmKw1PuxBE7M4WrvWQ,1180
+gimmebio/sample_seqs/data/c_acnes.GCF_000008345.1_ASM834v1_feature_table.txt,sha256=vm5n-yK08iXeWGE2gVqAAJPVwEoxDsVYnkOBhR35BJM,829917
+gimmebio/sample_seqs/data/c_acnes.GCF_000008345.1_ASM834v1_genomic.fna,sha256=3cG9HFHZZ-NNFIYuimgHS4yHW-KiZLCmRKEuwVxoQPU,2592333
+gimmebio/sample_seqs/data/e_coli.GCF_000005845.2_ASM584v2_feature_table.txt,sha256=XR7VszbBrI2M1ulMPV3SSgp7LVBKjdbpaOT7oBeQihM,1382835
+gimmebio/sample_seqs/data/e_coli.GCF_000005845.2_ASM584v2_genomic.fna,sha256=U7tqUbbpITnO0eOPdLeTh4ECfFIgCSL_A3GMIjfSO7Q,4699745
+gimmebio/sample_seqs/data/sample_fastq_zymo_control.fq,sha256=soi_8B05kh7roXdzuchchgt-ZugpekPt6usfOJO0r6E,3438756
+gimmebio.sample_seqs-0.2.1.dist-info/METADATA,sha256=b0rRoVAguJbvI5Alq1lQ8vXj7U1WPw0MmYqYN7xnBNc,390
+gimmebio.sample_seqs-0.2.1.dist-info/RECORD,,
+gimmebio.sample_seqs-0.2.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+gimmebio.sample_seqs-0.2.1.dist-info/namespace_packages.txt,sha256=ZtXh7YhZv8YK6bNlKCHwVooOVbYqdaS6-ibUenEYqgA,9
+gimmebio.sample_seqs-0.2.1.dist-info/top_level.txt,sha256=ZtXh7YhZv8YK6bNlKCHwVooOVbYqdaS6-ibUenEYqgA,9
