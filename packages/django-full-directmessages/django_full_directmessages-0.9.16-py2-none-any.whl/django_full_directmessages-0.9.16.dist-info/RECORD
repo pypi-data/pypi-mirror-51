@@ -1,0 +1,15 @@
+directmessages/__init__.py,sha256=dzM_6e4F6smlW7ZL14_luWbkJLQQ0Q4H5KaK05n8RRw,311
+directmessages/admin.py,sha256=f4oBVy6IG7wTvW2YGxv2fTMxPtsJcfM-BnhyCZuQNaQ,223
+directmessages/apps.py,sha256=k7KQKXqYI_SKkzUaoI2sp0mrd84jhIfpaJolRxvh7Bs,638
+directmessages/models.py,sha256=PsCYBRcalDOeluASJPpqfR4paJ5_gmnjs89zEf7kVnc,1895
+directmessages/services.py,sha256=uR3bA7itAFtqk0r_DfJerAAWfJKXJbV-kPpULTkXb60,4403
+directmessages/signals.py,sha256=AIcg3cTQoLsK1N3AUFs8XB2Y6BewHwJtKsbrMMUZSRE,154
+directmessages/tests.py,sha256=PdRfTxUfWD9fYec2__I9Pabq82HyUq3s6K2qrSsMJrk,4628
+directmessages/migrations/0001_initial.py,sha256=UBRiZwQrXwhZAPiJ01o9Q0Ruh8NJ7PbIIpsn0JdkZTg,1237
+directmessages/migrations/0002_auto_20190821_1010.py,sha256=LpH30zVR1M90FUPUw1n0xkoamkuEiFTiDJ1nzoWn3Ng,948
+directmessages/migrations/0003_message_sender_user.py,sha256=N27uDc54598t_uQ9e7kq3_Ar4TsZYuAN7O5veSSHhRI,660
+directmessages/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_full_directmessages-0.9.16.dist-info/METADATA,sha256=-DIf5imNuwRHSagaR61z5dWsRpwjyWfSPaSy_UY4gPY,3377
+django_full_directmessages-0.9.16.dist-info/RECORD,,
+django_full_directmessages-0.9.16.dist-info/WHEEL,sha256=9xUnOISuCvrSyfu9GlFZT4i2TZ_2OLkwLNqcDvIo3zM,92
+django_full_directmessages-0.9.16.dist-info/top_level.txt,sha256=82YRnJ-MI5jkBnkWIhS6IKmCZbswMYDj0KAjW7r53xE,15
