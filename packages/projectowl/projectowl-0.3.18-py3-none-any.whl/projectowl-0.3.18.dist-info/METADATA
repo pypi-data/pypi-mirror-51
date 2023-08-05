@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: projectowl
+Version: 0.3.18
+Summary: Utility library for building python app
+Home-page: https://github.com/flyfj/projectowl.git
+Author: Jie Feng
+Author-email: jiefeng@perceptance.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pymongo
+Requires-Dist: boto3
+Requires-Dist: tinyimage
+Requires-Dist: dnspython
+Requires-Dist: sendgrid (==6.0.4)
+Requires-Dist: requests
+Requires-Dist: python-http-client
+Requires-Dist: jinja2
+
+UNKNOWN
+
+
