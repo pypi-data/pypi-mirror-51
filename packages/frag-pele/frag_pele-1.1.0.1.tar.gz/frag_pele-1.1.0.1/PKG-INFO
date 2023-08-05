@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: frag_pele
+Version: 1.1.0.1
+Summary: FrAG, a new tool for in silico hit-to-lead drug design, capable of growing a frag_pelement into a core while exploring the protein-ligand conformational space
+Home-page: https://github.com/carlesperez94/frag_pele/
+Author: Carles Perez Lopez, Daniel Soler Viladrich
+Author-email: daniel.soler@nostrumbiodiscovery.com, carlesperez@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://carlesperez94.github.io/frag_pele/
+Project-URL: Source, https://carlesperez94.github.io/frag_pele/
+Project-URL: Tracker, https://github.com/carlesperez94/frag_pele/issues
+Description: FrAG-PELE: 
+        ===========
+        
+        A novel fragment-based growing tool for hit-to-lead in drug design
+        
+        .. image:: docs/_images/movie_growing_phenyl.gif
+            :height: 100px
+            :width: 200 px
+            :scale: 100%
+            :align: center
+        
+        Installation
+        =============
+        
+        https://carlesperez94.github.io/frag_pele/installation.html
+        
+        Getting Started:
+        =================
+        
+        https://carlesperez94.github.io/frag_pele/first_steps.html
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Science/Research
