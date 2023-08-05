@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: BatchManager
+Version: 0.0.1
+Summary: A general purpose batch manager.
+Home-page: https://github.com/Ehsan-MAE/BatchManager
+Author: Ehsan Montahaei
+Author-email: ehsan.montahaei@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# BatchManager
+A general purpose batch manager.
+
+Installation
+------------
+
+Latest PyPI stable release
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+pip install --user BatchManager
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
