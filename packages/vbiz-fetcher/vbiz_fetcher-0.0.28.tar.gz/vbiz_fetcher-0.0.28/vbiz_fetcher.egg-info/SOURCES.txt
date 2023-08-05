@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+vbiz_fetcher/__init__.py
+vbiz_fetcher/ciddict.json
+vbiz_fetcher/command_line.py
+vbiz_fetcher/map.py
+vbiz_fetcher.egg-info/PKG-INFO
+vbiz_fetcher.egg-info/SOURCES.txt
+vbiz_fetcher.egg-info/dependency_links.txt
+vbiz_fetcher.egg-info/entry_points.txt
+vbiz_fetcher.egg-info/not-zip-safe
+vbiz_fetcher.egg-info/requires.txt
+vbiz_fetcher.egg-info/top_level.txt
