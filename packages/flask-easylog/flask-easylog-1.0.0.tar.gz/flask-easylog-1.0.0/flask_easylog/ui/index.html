@@ -1,0 +1,290 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+                font-family: "Droid Sans", sans-serif;
+            }
+            #header {
+                background-color: #89bf04;
+            }
+            .header-title {
+                padding: 10px;
+            }
+            #test, .bodyTest, .subtitle, .resultTest {
+                margin: 10px;
+            }
+            .test {
+                border-style: solid;
+                border-radius: 5px;
+                border-width: 2px;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+            .get {
+                border-color: #0f6ab4;
+            }
+            .delete {
+                border-color: deeppink;
+            }
+            .put {
+                border-color: darkorange
+            }
+            button {
+                padding: 6px 8px;
+                margin-top: 5px;
+            }
+            .heading {
+                display: inline-flex;
+                width: 100%;
+            }
+            .method-put {
+                background-color: darkorange;
+            }
+            .method-delete {
+                background-color: deeppink;
+            }
+            .method-get {
+                background-color: #0f6ab4;
+            }
+            .method {
+                color: white;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .path {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+            }
+            .explain {
+                padding: 5px;
+                width: 100%;
+                text-align: right;
+                color: grey;
+                font-style: italic;
+            }
+            table {
+                width: 100%;
+            }
+            textarea {
+                width: 100%;
+            }
+            .title-param {
+                margin-right: 5px;
+            }
+            .value-param {
+                width:50%;
+            }
+            .ok {
+                color: #89bf04;
+                font-style: italic;
+            }
+            .error {
+                color: red;
+                font-style: italic;
+            }
+            h1   {color: white;}
+            
+        </style>
+    </head>    
+    <body>
+        <script type="text/javascript">
+        function clear(id){
+            var elt = document.getElementById(id);
+            while( elt.firstChild ) {
+                elt.removeChild(elt.firstChild);
+            }
+        }
+        function logs(){
+            clear('resultLogs');
+            clear('errorLogs');
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('resultLogs').textContent = this.responseText; 
+                };
+                if (this.readyState == 4 && this.status != 200) {
+                    document.getElementById('errorLogs').textContent = this.responseText; 
+                };
+            };
+            xhttp.open("GET", "/api/logs", true);
+            xhttp.setRequestHeader("Content-type", "application/json");
+            xhttp.send()//"Your JSON Data Here");
+        }
+        function log(endpoint){
+            clear('resultLog');
+            clear('errorLog');
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('resultLog').textContent = this.responseText; 
+                }
+                if (this.readyState == 4 && this.status != 200) {
+                    document.getElementById('errorLog').textContent = this.responseText; 
+                }
+            };
+            xhttp.open("GET", "/api/log/"+endpoint, true);
+            xhttp.setRequestHeader("Content-type", "application/json");
+            xhttp.send()//"Your JSON Data Here");
+        }
+        function rm(endpoint){
+            clear('resultRm');
+            clear('errorRm');
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('resultRm').textContent = this.responseText; 
+                }
+                if (this.readyState == 4 && this.status != 200) {
+                    document.getElementById('errorRm').textContent = this.responseText; 
+                }
+            };
+            xhttp.open("DELETE", "/api/log/"+endpoint, true);
+            xhttp.setRequestHeader("Content-type", "application/json");
+            xhttp.send()//"Your JSON Data Here");
+        }
+        function put(endpoint, data){
+            clear('resultPut');
+            clear('errorPut');
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('resultPut').textContent = this.responseText; 
+                }
+                if (this.readyState == 4 && this.status != 200) {
+                    document.getElementById('errorPut').textContent = this.responseText; 
+                }
+            };
+            xhttp.open("PUT", "/api/log/"+endpoint, true);
+            xhttp.setRequestHeader("Content-type", "application/json");
+            xhttp.send(data);
+        }
+
+
+
+        </script>
+        <div id="header">
+            <div class="header-title">
+                <h1>Flask EasyLog</h1>
+            </div>
+        </div>
+        <div id="test">
+            <div class="subtitle">
+                <span>API for management log by Flask</span>
+            </div>
+            <div class="test get">
+                <div class="heading">
+                    <h4 class="method method-get">GET</h4>
+                    <h3 class="path">/api/logs</h3>
+                    <h4 class="explain">configuration of endpoint</h4>
+                </div>
+                <div class="bodyTest">
+                    <div>Response content-type: application/json</div>
+                    <button type="submit" onclick="logs()">Try it out!</button>
+                </div>
+                <div class="resultTest">
+                    <pre id="resultLogs" class="ok"></pre>
+                    <pre id="errorLogs" class="error"></pre>
+                </div>
+            </div>
+
+            <div class="test get">
+                <div class="heading">
+                    <h4 class="method method-get">GET</h4>
+                    <h3 class="path">/api/log/{endpoint}</h3>
+                    <h4 class="explain">configuration of specific endpoint</h4>
+                </div>
+                <div class="bodyTest">
+                    <div>Response content-type: application/json</div>
+                    <h4>Parameters</h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <span class="title-param">endpoint</span>
+                            </td>
+                            <td>
+                                <input id="endpoint-get" class="value-param" value="hello"></input>
+                            </td>
+                        </tr>
+                    </table>
+                    <button type="submit" onclick="log(document.getElementById('endpoint-get').value)">Try it out!</button>
+                </div>
+                <div class="resultTest">
+                    <pre id="resultLog" class="ok"></pre>
+                    <pre id="errorLog" class="error"></pre>
+                </div>
+            </div>
+
+            <div class="test delete">
+                <div class="heading">
+                    <h4 class="method method-delete">DELETE</h4>
+                    <h3 class="path">/api/log/{endpoint}</h3>
+                    <h4 class="explain">delete specific configuration of endpoint</h4>
+                </div>
+                <div class="bodyTest">
+                    <div>Response content-type: application/json</div>
+                    <h4>Parameters</h4>
+                     <table>
+                        <tr>
+                            <td>
+                                <span class="title-param">endpoint</span>
+                            </td>
+                            <td>
+                                <input id="endpoint-delete" class="value-param" value="hello"></input>
+                            </td>
+                        </tr>
+                    </table>
+                    <button type="submit" onclick="rm(document.getElementById('endpoint-delete').value)">Try it out!</button>
+
+                </div>
+                <div class="resultTest">
+                   <pre id="resultRm" class="ok"></pre>
+                   <pre id="errorRm" class="error"></pre>
+                </div>
+            </div>
+
+            <div class="test put">
+                <div class="heading">
+                    <h4 class="method method-put">PUT</h4>
+                    <h3 class="path">/api/log/{endpoint}</h3>
+                    <h4 class="explain">add or change specific configuration of endpoint</h4>
+                </div>
+                <div class="bodyTest">
+                    <div>Response content-type: application/json</div>
+                    <h4>Parameters</h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <span class="title-param">endpoint</span>
+                            </td>
+                            <td>
+                                <input id="endpoint-put" class="value-param" value="hello"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="title-param">body</span>
+                            </td>
+                            <td>
+                            <textarea id="body-put" rows="5">{
+    "endpoint":"hello",
+    "level":"INFO"
+}
+                            </textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <button type="submit" onclick="put(document.getElementById('endpoint-put').value,document.getElementById('body-put').value)">Try it out!</button>
+
+                </div>
+                <div class="resultTest">
+                    <pre id="resultPut" class="ok"></pre>
+                    <pre id="errorPut" class="error"></pre>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
