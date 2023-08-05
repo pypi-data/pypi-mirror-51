@@ -1,0 +1,5 @@
+click
+requests
+appdirs
+dms2dec
+pyexcel_ods
