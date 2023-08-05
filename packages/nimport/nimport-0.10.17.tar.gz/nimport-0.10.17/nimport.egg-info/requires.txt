@@ -1,0 +1,4 @@
+IPython
+PyGithub
+nbformat
+websocket-client
