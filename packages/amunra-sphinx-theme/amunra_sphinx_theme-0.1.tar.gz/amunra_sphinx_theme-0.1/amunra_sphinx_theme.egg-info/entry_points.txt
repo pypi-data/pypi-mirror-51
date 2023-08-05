@@ -1,0 +1,3 @@
+[sphinx.html_themes]
+amunra_sphinx_theme = amunra_sphinx_theme
+
