@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: manolyaconfig
+Version: 0.2
+Summary: The simplest config reader in the world
+Home-page: https://github.com/kuttamuwa/PythonHandy/tree/master/configs
+Author: Umut Ucok
+Author-email: ucok.umut@gmail.com
+License: MIT
+Description: It reads your confs.ini file and read - list your sections and return your section infoas dictionary.
+Keywords: simplest config reader
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Text Processing :: Linguistic

@@ -1,0 +1,9 @@
+setup.py
+manolyaconfig/__init__.py
+manolyaconfig/configobj.py
+manolyaconfig.egg-info/PKG-INFO
+manolyaconfig.egg-info/SOURCES.txt
+manolyaconfig.egg-info/dependency_links.txt
+manolyaconfig.egg-info/not-zip-safe
+manolyaconfig.egg-info/requires.txt
+manolyaconfig.egg-info/top_level.txt
