@@ -1,0 +1,1 @@
+Pi-Plates installation page for THERMOplate, DAQCplate, DAQC2plate, MOTORplate, and RELAYplate modules.
