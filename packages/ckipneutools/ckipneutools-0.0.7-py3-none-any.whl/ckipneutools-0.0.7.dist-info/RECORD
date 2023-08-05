@@ -1,0 +1,11 @@
+ckipneutools/__init__.py,sha256=NVbSAKKlDezqsAvGaFIq5Nn8aUeT4chbo0uNuMJ6Ql0,179
+ckipneutools/api.py,sha256=-6IAxG04jkM-_R8nwMyEpUhpPL-885pUBSCuAbwL0zA,23013
+ckipneutools/data_utils.py,sha256=pxZT787ext8cbD_1ZbTNr0rtC7HrnaFvcvHwcl9caAA,492
+ckipneutools/model_ner.py,sha256=8YvPnXT5-mV-YOBuPDqOryGnEWPEasoK-XIy3N434gY,17492
+ckipneutools/model_pos.py,sha256=dshX-Nls8MRFmJjTA-BA3wH1zzivtaaLAcrTy6zmIlg,17187
+ckipneutools/model_ws.py,sha256=mpVqTtNzn8THsvfr66p6Iuc-24ZNlfbeNMyzGDtfbhA,16559
+ckipneutools-0.0.7.dist-info/LICENSE,sha256=qm9pJgw2tn_6wj9f5o_yQwdxkIJu1086z3qoxpgWX9k,808
+ckipneutools-0.0.7.dist-info/METADATA,sha256=85rke-YYXOb1_1MNBp_r6mxHzdlkHcR57aUXOMnoS9A,8122
+ckipneutools-0.0.7.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ckipneutools-0.0.7.dist-info/top_level.txt,sha256=ci4HQk_k5u4fklbvusA7YeS4-1Ax55CSr0Vajg6-SQQ,13
+ckipneutools-0.0.7.dist-info/RECORD,,
