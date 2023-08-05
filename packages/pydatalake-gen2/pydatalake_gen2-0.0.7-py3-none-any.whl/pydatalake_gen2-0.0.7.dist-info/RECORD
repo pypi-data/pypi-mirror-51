@@ -1,0 +1,11 @@
+azure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure/datalake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure/datalake/gen2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure/datalake/gen2/client.py,sha256=Nkd8KHdP9g7x-seFtPG1kia5w9Lg-F9sgYOKxVkeLWw,19294
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_filesystem.py,sha256=wtvUmkXO4xhE-g51Bsblim4Eul60FKRdFGt5mfJ90wI,1825
+pydatalake_gen2-0.0.7.dist-info/LICENSE,sha256=MvJ5IHEYWBFOPuUSZdlBsK0H2HBaL2CrYrAovLxyzAY,11345
+pydatalake_gen2-0.0.7.dist-info/METADATA,sha256=v-qprRyMW_xuBly6WLJ1kcZQ5f12LX1AT_06FcxaPUY,1435
+pydatalake_gen2-0.0.7.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pydatalake_gen2-0.0.7.dist-info/top_level.txt,sha256=h-L8XDVPJ9YzBbHlPvM7FVo1cqNGToNK9ix99ySGOUY,12
+pydatalake_gen2-0.0.7.dist-info/RECORD,,
