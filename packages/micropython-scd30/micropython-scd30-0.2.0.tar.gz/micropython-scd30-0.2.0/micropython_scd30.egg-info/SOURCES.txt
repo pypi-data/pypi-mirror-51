@@ -1,0 +1,8 @@
+README.md
+scd30.py
+setup.cfg
+setup.py
+micropython_scd30.egg-info/PKG-INFO
+micropython_scd30.egg-info/SOURCES.txt
+micropython_scd30.egg-info/dependency_links.txt
+micropython_scd30.egg-info/top_level.txt
