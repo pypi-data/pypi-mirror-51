@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: webanalyzer-api
+Version: 1.0
+Summary: Package for analysing website
+Home-page: UNKNOWN
+Author: Dhnesh Dhingra
+Author-email: dhanesh@esferasoft.com
+License: UNKNOWN
+Description: #Webanalyzer
+        
+        This a python package for analysing your website 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
