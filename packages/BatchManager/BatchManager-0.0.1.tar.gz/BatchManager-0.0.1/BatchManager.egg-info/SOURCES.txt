@@ -1,0 +1,8 @@
+README.md
+setup.py
+BatchManager/__init__.py
+BatchManager/batch_manager.py
+BatchManager.egg-info/PKG-INFO
+BatchManager.egg-info/SOURCES.txt
+BatchManager.egg-info/dependency_links.txt
+BatchManager.egg-info/top_level.txt
