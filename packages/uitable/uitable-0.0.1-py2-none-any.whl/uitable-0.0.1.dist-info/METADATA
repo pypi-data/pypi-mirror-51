@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: uitable
+Version: 0.0.1
+Summary: display data by table format
+Home-page: https://github.com/yxxhero/uitable
+Author: yxxhero
+Author-email: aiopsclub@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+
+##### uitable
+---
+```shell
+from uitable import UiTable
+uitable_ins = UiTable()
+uitable_ins.add_header("name", "age")
+uitable_ins.add_row("yxx", "12")
+print(uitable_ins)
+
+# output:
+name   age    
+yxx    12  
+```
+
+
