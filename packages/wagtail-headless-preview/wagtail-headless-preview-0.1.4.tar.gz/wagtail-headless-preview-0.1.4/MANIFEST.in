@@ -1,0 +1,8 @@
+include LICENSE *.rst *.txt *.md
+
+recursive-include wagtail_headless_preview/templates *
+recursive-include wagtail_headless_preview/static *
+
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
