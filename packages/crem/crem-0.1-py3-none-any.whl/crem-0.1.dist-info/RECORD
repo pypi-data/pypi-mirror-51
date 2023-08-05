@@ -1,0 +1,14 @@
+crem/__init__.py,sha256=acsWAhxOa7xwsfdZiTcnQu8q5k4XfGrAqOL39t-RfbQ,377
+crem/crem.py,sha256=pk_Li3GA9Yw8ZSzk152eaATbYtnifpubvZQgCt82QCw,34268
+crem/frag_to_env_mp.py,sha256=RrFF4ovOC9DEGx2e3qRP0PjmAdt3JUyppd-B80D1Ztk,6389
+crem/fragmentation.py,sha256=RfCflRP5KmMoT7DoNxuCxzn9RCqjS6870ShSahH5kt0,2805
+crem/functions.py,sha256=bnldqIp8ghfIpr_bO3uaBYeFXCNjgTTknfN0Z3dnNiA,1396
+crem/guacamol_crem_test.py,sha256=T68Lp6S6zZE-vRaALDhZ89Vp3KA32lpgbpLxwzmKngc,12414
+crem/import_env_to_db.py,sha256=R91222o1DDyi6Y8J0ZGPJjmgEAPC7YkK5ECskQOXb2c,5590
+crem/mol_context.py,sha256=kTOkwqBW9RG3NNxgg40G_AHOcL5Tw67nJWM1NyViVwk,11778
+crem-0.1.dist-info/LICENSE.txt,sha256=J5u8bkBt7tBuCfdjoSH7EQBJnMvO6gywiXhdz4E5PMs,1516
+crem-0.1.dist-info/METADATA,sha256=o6Y3QmJJOsxvxKbCgJ5bkka5DS_e5hl1GP3Zwd6EkZg,7023
+crem-0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+crem-0.1.dist-info/entry_points.txt,sha256=y96poVvzGEqLMK4djdt84zX5Pi9xCZ7UV8g7Vywgec8,210
+crem-0.1.dist-info/top_level.txt,sha256=JHmoIalbFwEuaFH_n7UGwoK2CzuE1rmMjPfzknWKrCY,5
+crem-0.1.dist-info/RECORD,,
