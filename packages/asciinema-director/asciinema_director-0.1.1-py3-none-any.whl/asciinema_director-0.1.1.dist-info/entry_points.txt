@@ -1,0 +1,3 @@
+[console_scripts]
+asciinema-director=asciinema_director:cli.cli
+
