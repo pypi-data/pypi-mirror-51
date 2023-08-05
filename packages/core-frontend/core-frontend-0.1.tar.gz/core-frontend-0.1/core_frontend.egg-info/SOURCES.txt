@@ -1,0 +1,10 @@
+README.md
+setup.py
+core_frontend.egg-info/PKG-INFO
+core_frontend.egg-info/SOURCES.txt
+core_frontend.egg-info/dependency_links.txt
+core_frontend.egg-info/top_level.txt
+frontend/__init__.py
+frontend/apps/__init__.py
+frontend/apps/dashboard.py
+frontend/apps/external_links.py
