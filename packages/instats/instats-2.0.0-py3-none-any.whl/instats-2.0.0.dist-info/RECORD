@@ -1,0 +1,11 @@
+instats/__init__.py,sha256=h7q4GSd9InHkpxYf27OtccQRmFiwXtx5o2qu9hnvxwc,17
+instats/engagement.py,sha256=jY-Rr7gibTTEcw9_iQfyE-vbp530RYR87gdx1ihhcPo,3039
+instats/feedmatch.py,sha256=BYKA1Ze_ZXGaKwt4PBHSg9uTmoa-7nslFn7edIgO5F4,6066
+instats/feedmatch_utils.py,sha256=1txtlEIUFwqJhg6Vcefkq8G11nsCmEGWI5csvu0Wio8,2699
+instats/instatsprofile.py,sha256=QltiflcR8HoTNuXQxkfnPG1bUjy4qbDOSBhKuZ2XU5g,3982
+instats/timeofpost.py,sha256=ENXLVBDHkKmlVuYqPHJyUDhoDXKFdahSokFnv2pkEPQ,5318
+instats-2.0.0.dist-info/LICENSE.txt,sha256=Omj0AcLdw9JCiAZ8lVb9L7ymHEimCdswlt32nfA85m0,1041
+instats-2.0.0.dist-info/METADATA,sha256=uUxPIHHytYkVGIVthQYETpB-PikMdrkge0W82L3EVuk,2712
+instats-2.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+instats-2.0.0.dist-info/top_level.txt,sha256=kDgmPeAFDFZnQoxFxmrPBztM4gi6P4DmcIgIMkn4ht8,8
+instats-2.0.0.dist-info/RECORD,,
