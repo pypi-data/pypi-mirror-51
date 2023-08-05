@@ -1,0 +1,11 @@
+README.md
+setup.py
+awsbw/awsbw.py
+awsbw.egg-info/PKG-INFO
+awsbw.egg-info/PKG-INFO-MacBook
+awsbw.egg-info/SOURCES.txt
+awsbw.egg-info/dependency_links.txt
+awsbw.egg-info/entry_points.txt
+awsbw.egg-info/not-zip-safe
+awsbw.egg-info/requires.txt
+awsbw.egg-info/top_level.txt
