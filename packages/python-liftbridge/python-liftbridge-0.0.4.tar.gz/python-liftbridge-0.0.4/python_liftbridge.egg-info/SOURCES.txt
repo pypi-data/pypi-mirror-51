@@ -1,0 +1,7 @@
+README.md
+setup.py
+python_liftbridge.egg-info/PKG-INFO
+python_liftbridge.egg-info/SOURCES.txt
+python_liftbridge.egg-info/dependency_links.txt
+python_liftbridge.egg-info/requires.txt
+python_liftbridge.egg-info/top_level.txt
