@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: flake8-tabs
+Version: 2.1.0
+Summary: Tab (or Spaces) indentation style checker for flake8
+Home-page: https://gitlab.com/ntninja/flake8-tabs
+Author: Alexander Schlarb
+Author-email: alexander@ninetailed.ninja
