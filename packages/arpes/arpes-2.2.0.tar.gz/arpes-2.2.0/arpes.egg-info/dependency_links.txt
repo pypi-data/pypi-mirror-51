@@ -1,0 +1,1 @@
+https://github.com/chstan/igorpy/tarball/712a4c4#egg=igor-0.3.1
