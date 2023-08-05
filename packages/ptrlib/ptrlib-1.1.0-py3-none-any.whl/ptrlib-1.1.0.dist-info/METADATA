@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ptrlib
+Version: 1.1.0
+Summary: CTF library
+Home-page: https://bitbucket.org/ptr-yudai/ptrlib/
+Author: ptr-yudai
+Author-email: ptr.yudai@gmail.com
+License: UNKNOWN
+Keywords: pwn crypto
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: pycrypto
+Requires-Dist: capstone
+
+ptrlib
+====
+
+Python library which bundles security-related utilities.
+
+## Description
+Ptrlib is a Python library for CTF players.
+It's designed to make it easy to write a complex program of cryptohraphy, networking, exploit and so on.
+
+## Requirement
+Supports: Python 3.7
+
+## Usage
+Basic examples are available at [/examples](https://bitbucket.org/ptr-yudai/ptrlib/src/master/examples/).
+
+## Install
+Run `pip install ptrlib` or `python setup.py install`.
+
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
+## Author
+
+[ptr-yudai](https://github.com/ptr-yudai)
+
