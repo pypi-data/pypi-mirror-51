@@ -1,0 +1,10 @@
+README.md
+setup.py
+rede/__init__.py
+rede/api.py
+rede/exceptions.py
+rede_api.egg-info/PKG-INFO
+rede_api.egg-info/SOURCES.txt
+rede_api.egg-info/dependency_links.txt
+rede_api.egg-info/requires.txt
+rede_api.egg-info/top_level.txt
