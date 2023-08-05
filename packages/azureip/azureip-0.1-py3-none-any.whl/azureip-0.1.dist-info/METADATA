@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: azureip
+Version: 0.1
+Summary: A Simple tool to check if an IP address is within an Zure subnet
+Home-page: https://github.com/deanobalino/azureip
+Author: Dean Bryen
+Author-email: dean.bryen@microsoft.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#Azure IP Check
+
+
