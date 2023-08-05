@@ -1,0 +1,6 @@
+[console_scripts]
+bioconvert = bioconvert.scripts.converter:main
+bioconvert_init = bioconvert.scripts.init_convert:main
+bioconvert_sniffer = bioconvert.scripts.sniffer:main
+bioconvert_stats = bioconvert.scripts.stats:main
+
