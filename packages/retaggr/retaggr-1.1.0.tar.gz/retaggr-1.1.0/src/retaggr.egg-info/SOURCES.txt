@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/retaggr/__init__.py
+src/retaggr/config.py
+src/retaggr/core.py
+src/retaggr/errors.py
+src/retaggr.egg-info/PKG-INFO
+src/retaggr.egg-info/SOURCES.txt
+src/retaggr.egg-info/dependency_links.txt
+src/retaggr.egg-info/top_level.txt
+src/retaggr/boorus/__init__.py
+src/retaggr/boorus/base.py
+src/retaggr/boorus/danbooru.py
+src/retaggr/boorus/e621.py
+src/retaggr/boorus/iqdb.py
+src/retaggr/boorus/paheal.py
