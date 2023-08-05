@@ -1,0 +1,12 @@
+{% extends 'core_main_app/_render/admin/theme/tools/box.html' %}
+{%load get_attribute%}
+
+{% block box_title %}
+    Error
+{% endblock %}
+
+{% block box_body %}
+    <div>
+        {{ data|get_attribute:'error' }}
+    </div>
+{% endblock %}
