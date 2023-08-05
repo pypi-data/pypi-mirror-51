@@ -1,0 +1,3 @@
+[console_scripts]
+makey=makey.__main__:main
+
