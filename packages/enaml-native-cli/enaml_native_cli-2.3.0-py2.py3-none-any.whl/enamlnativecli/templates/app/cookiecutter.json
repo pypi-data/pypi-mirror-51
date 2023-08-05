@@ -1,0 +1,22 @@
+{
+  "python_version": "3.7",
+  "author": "",
+  "app_name": "Hello World",
+  "domain": "com.example",
+  "bundle_id": "{{ cookiecutter.domain }}.{{ cookiecutter.app_name.replace(' ','').lower() }}",
+  "project_name": "{{ cookiecutter.app_name.replace(' ', '') }}",
+  "bundle_path": "{{ cookiecutter.bundle_id.replace('.', '/') }}",
+  "app_version": "1",
+  "app_version_code": "1",
+  "color_primary": "#3574a3",
+  "color_primary_dark": "#004981",
+  "color_accent": "#97c024",
+  "user_home": "/home/<username>/",
+  "android_sdk": "{{ cookiecutter.user_home}}/Android/Sdk/",
+  "android_ndk": "{{ cookiecutter.android_sdk}}/ndk-bundle",
+  "android_sdk_version": "29",
+  "android_min_sdk_version": "21",
+  "android_target_sdk_version": "29",
+  "google_maps_api_key": "none",
+  "_copy_without_render": ["android/gradlew", "android/gradlew.bat"]
+}
