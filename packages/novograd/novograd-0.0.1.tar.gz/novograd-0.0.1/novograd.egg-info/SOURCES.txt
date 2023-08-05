@@ -1,0 +1,11 @@
+README.md
+setup.py
+novograd/__init__.py
+novograd/novograd.py
+novograd.egg-info/PKG-INFO
+novograd.egg-info/SOURCES.txt
+novograd.egg-info/dependency_links.txt
+novograd.egg-info/requires.txt
+novograd.egg-info/top_level.txt
+test/test_cifar10.py
+test/test_mnist.py
