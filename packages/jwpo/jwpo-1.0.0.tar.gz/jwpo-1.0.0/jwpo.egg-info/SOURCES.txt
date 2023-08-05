@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+jwpo/__init__.py
+jwpo/__main__.py
+jwpo.egg-info/PKG-INFO
+jwpo.egg-info/SOURCES.txt
+jwpo.egg-info/dependency_links.txt
+jwpo.egg-info/requires.txt
+jwpo.egg-info/top_level.txt
