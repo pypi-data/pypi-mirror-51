@@ -1,0 +1,4 @@
+<registry>
+	<records interface="visaplan.plone.ajaxnavigation.controlpanel.IAjaxNavigationSettings"
+	         />
+</registry>

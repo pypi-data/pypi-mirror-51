@@ -1,0 +1,70 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:zcml="http://namespaces.plone.org/zcml"
+    i18n_domain="visaplan.plone.ajaxnavigation">
+
+  -*- extra stuff goes here -*-
+
+  <browser:page
+     name="ajax-nav"
+     for="Products.CMFCore.interfaces.IContentish"
+     class=".AjaxnavBaseBrowserView"
+     permission="zope2.View"
+     />
+
+  <browser:page
+     name="ajax-nav"
+     for="Products.CMFCore.interfaces.IFolderish"
+     class=".folder.AjaxnavBrowserView"
+     permission="zope2.View"
+     />
+
+  <browser:page
+     name="embed"
+     for="Products.CMFCore.interfaces.IContentish"
+     class=".EmbedBaseBrowserView"
+     template="embed.pt"
+     permission="zope2.View"
+     />
+
+  <browser:page
+     name="embed"
+     for="Products.CMFCore.interfaces.IFolderish"
+     class=".folder.EmbedBrowserView"
+     template="embed_folderish.pt"
+     permission="zope2.View"
+     />
+
+  <browser:page
+     name="embed"
+     for="Products.ATContentTypes.interfaces.interfaces.ITextContent"
+     zcml:condition="installed Products.Archetypes"
+     class=".EmbedBaseBrowserView"
+     template="embed.pt"
+     permission="zope2.View"
+     />
+
+  <browser:page
+     name="ajaxnav-options-default"
+     for="Products.CMFCore.interfaces.ISiteRoot"
+     class=".ajaxnav_options.AjaxnavOptions"
+     permission="zope2.View"
+     />
+
+  <browser:page
+      name="ajaxnav-settings"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      permission="cmf.ManagePortal"
+      class="visaplan.plone.ajaxnavigation.controlpanel.AjaxNavigationSettingsControlPanel"
+      />
+
+  <browser:page
+      name="ajax-siteinfo"
+      for="*"
+      permission="zope.Public"
+      class="visaplan.plone.ajaxnavigation.views.siteroot.SiteInfoView"
+      />
+
+</configure>
