@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.optional.txt
+requirements.txt
+setup.cfg
+setup.py
+datanator_query_python/VERSION
+datanator_query_python/__init__.py
+datanator_query_python/__main__.py
+datanator_query_python/core.py
+datanator_query_python.egg-info/PKG-INFO
+datanator_query_python.egg-info/SOURCES.txt
+datanator_query_python.egg-info/dependency_links.txt
+datanator_query_python.egg-info/entry_points.txt
+datanator_query_python.egg-info/requires.txt
+datanator_query_python.egg-info/top_level.txt
