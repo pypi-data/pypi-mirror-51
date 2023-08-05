@@ -1,0 +1,11 @@
+rasterfairy/__init__.py,sha256=vZwtO5sa3yl36hpVysXH59teWkTZypIN1-iNeommbQE,193
+rasterfairy/coonswarp.py,sha256=ybfVUza0l4lOEACB0l2EYpO1oZKtIbV3gQ-uF4_Pu3Q,13205
+rasterfairy/prime.py,sha256=GPhqidB20YDOBw_ukdNsUhR3lju5QZ6e4IjW3QK4AHY,6070
+rasterfairy/rasterfairy.py,sha256=8RsrhaGq2D8cSEec6H4js6AT-MNmX32QR1sSjiyG_zY,21439
+rasterfairy/rfoptimizer.py,sha256=AQvurRRzDVMC-TY6VhMIDBDjUEddztQioqEPsfiiXZ4,27374
+rasterfairy/utils.py,sha256=8LDBV67ioPUvoTWEgFy5mM3G-81EJLArazQsP6NYTsI,1114
+rasterfairy_py3-1.0.5.dist-info/LICENSE,sha256=V3KWQVQZNk_jHEPBPORXJYZ2SdwhnQseOx6L4nbU2rs,1485
+rasterfairy_py3-1.0.5.dist-info/METADATA,sha256=8tJk3iFepIvv5_fYRQmv9IMyIN8Wd3bz4sljDUUhRLU,1472
+rasterfairy_py3-1.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+rasterfairy_py3-1.0.5.dist-info/top_level.txt,sha256=My3ccMOMfWPjVotflIQV2U4xjSC2Ms2lvmjOZ2e_yRE,12
+rasterfairy_py3-1.0.5.dist-info/RECORD,,
