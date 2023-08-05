@@ -1,0 +1,15 @@
+ibis_vega_transform/__init__.py,sha256=qxrQIqyKN8yN7HsAhhFth-lF6pDntULqQaT-JXaMb08,332
+ibis_vega_transform/altair.py,sha256=lsUeLuVW46fJMBQI57cbOvVRFN1e_a44B0mjU9kTuys,11596
+ibis_vega_transform/core.py,sha256=6HEHYgTLUZsx9NBi3XOZYK3L-T9lkkg7rBLOmbH-Vxo,1540
+ibis_vega_transform/util.py,sha256=Sga5v-0slls9s8qyYlpDlz6tvxQ75VtsmgQ17arjYBQ,252
+ibis_vega_transform/vegaexpr.py,sha256=LT1H6Il5cNuoj4uMLIEgfokrRgHxlikpXEfVt6ThPC0,12944
+ibis_vega_transform/transforms/__init__.py,sha256=2iaH_9T1bRnOXaJZCUeRoL3MV4UZwN7lnQcc6PTOCts,118
+ibis_vega_transform/transforms/aggregate.py,sha256=qDSZUtDg6q-PkA80o2nIshyYA1SaY-yxQydFz2jg-Qo,2481
+ibis_vega_transform/transforms/collect.py,sha256=W146yvx2PtjWM8_NAKrNQTSNO-pKu1DEguOnScM6jws,859
+ibis_vega_transform/transforms/filter.py,sha256=x7mICwiI7fDSF-1rdM-YDG0_gHO5RAwvjAqwrHHJ81A,764
+ibis_vega_transform/transforms/formula.py,sha256=oMgiRHM0x7fouraTAyQujcnU_nYdxGgYi35dwJXDOns,775
+ibis_vega_transform-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ibis_vega_transform-1.0.0.dist-info/METADATA,sha256=kM5vbMTazxAlATCSKpZscPXSu2qZPnC0eEdaz4njZMw,1626
+ibis_vega_transform-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ibis_vega_transform-1.0.0.dist-info/top_level.txt,sha256=svZbvlg2MzSDMR58VR1I1dfD0Z0PsIHkrAeQbrS9bGQ,20
+ibis_vega_transform-1.0.0.dist-info/RECORD,,
