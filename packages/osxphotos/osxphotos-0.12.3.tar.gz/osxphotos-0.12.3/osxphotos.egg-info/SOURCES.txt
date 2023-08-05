@@ -1,0 +1,13 @@
+README.md
+setup.py
+osxphotos/__init__.py
+osxphotos/_applescript.py
+osxphotos/aecodecs.py
+osxphotos/cmd_line.py
+osxphotos/kae.py
+osxphotos.egg-info/PKG-INFO
+osxphotos.egg-info/SOURCES.txt
+osxphotos.egg-info/dependency_links.txt
+osxphotos.egg-info/entry_points.txt
+osxphotos.egg-info/requires.txt
+osxphotos.egg-info/top_level.txt
