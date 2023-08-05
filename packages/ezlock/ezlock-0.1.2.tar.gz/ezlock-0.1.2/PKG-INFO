@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ezlock
+Version: 0.1.2
+Summary: Super simple file based locking
+Home-page: https://github.com/0Hughman0/ezlock
+Author: 0Hughman0
+Author-email: rammers2@hotmail.co.uk
+Keywords: locking,process,simple
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
