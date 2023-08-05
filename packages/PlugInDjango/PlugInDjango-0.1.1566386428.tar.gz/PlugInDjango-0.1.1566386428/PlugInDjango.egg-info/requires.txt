@@ -1,0 +1,6 @@
+Django
+django-bootstrap4
+django-glrm
+Json-Dict
+channels
+django-sekizai
