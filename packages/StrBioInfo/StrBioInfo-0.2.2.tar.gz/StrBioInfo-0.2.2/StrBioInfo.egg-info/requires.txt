@@ -1,0 +1,5 @@
+numpy<2.0.0,>=1.8.1
+scipy<1.0.0,>=0.14.0
+beautifulsoup4<5.0.0,>=4.3.2
+pynion>=0.0.4
+lxml
