@@ -1,0 +1,12 @@
+README.md
+setup.py
+serietvapi_bot/API_main.py
+serietvapi_bot/__init__.py
+serietvapi_bot/download_episode.py
+serietvapi_bot/music.py
+serietvapi_bot.egg-info/PKG-INFO
+serietvapi_bot.egg-info/SOURCES.txt
+serietvapi_bot.egg-info/dependency_links.txt
+serietvapi_bot.egg-info/entry_points.txt
+serietvapi_bot.egg-info/requires.txt
+serietvapi_bot.egg-info/top_level.txt
