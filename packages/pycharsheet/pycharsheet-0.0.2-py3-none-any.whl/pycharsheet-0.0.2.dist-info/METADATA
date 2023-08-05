@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: pycharsheet
+Version: 0.0.2
+Summary: A library and utility for managing a role playing game character sheet and some character state as well
+Home-page: https://gitlab.com/Taywee/pycharsheet
+Author: Taylor C. Richberger and Brandon Phillips
+License: MIT
+Keywords: dnd dungeons dragons rpg game utility
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Games/Entertainment :: Role-Playing
+Description-Content-Type: text/x-rst
+Requires-Dist: lupa (==1.8)
+Requires-Dist: setuptools (==41.0.1)
+
+pycharsheet
+###########
+
+Python program and library for managing character sheets, status, equipment, and other aspects of Wizards of the Coasts Dungeons and Dragons fifth edition.  Includes data from the SRD, but none other and is not affiliated with Wizards or DnD.
+
+
