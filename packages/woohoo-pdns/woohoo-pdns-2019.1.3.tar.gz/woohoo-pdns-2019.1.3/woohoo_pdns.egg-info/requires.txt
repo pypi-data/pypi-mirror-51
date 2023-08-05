@@ -1,0 +1,10 @@
+alembic
+flask
+flask-httpauth
+gunicorn
+psycopg2-binary
+python-dateutil
+pyyaml
+requests
+sphinx
+sqlalchemy
