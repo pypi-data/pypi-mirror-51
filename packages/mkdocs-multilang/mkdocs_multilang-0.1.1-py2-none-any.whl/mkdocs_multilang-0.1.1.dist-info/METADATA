@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mkdocs-multilang
+Version: 0.1.1
+Summary: A MkDocs plugin
+Home-page: UNKNOWN
+Author: Avente LLC
+Author-email: support@avente.com
+License: MIT
+Keywords: mkdocs
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Requires-Dist: mkdocs (>=1.0.4)
+
+UNKNOWN
+
+
