@@ -1,0 +1,14 @@
+quick_cli/__init__.py,sha256=RnO4KRi4-IBqhdz9UCuNdA2U2dww8T7FXAsOiDYwHkQ,175
+quick_cli/action_wrapper.py,sha256=PlxxQeeJsxvvEMgJ7XGGOnoycu2NLPvTLFHSUudA1Zg,3817
+quick_cli/actions.py,sha256=lREELJopBvJrGcC5hHDXgKLu2p5DcnH6xH2cbNGLkQw,4940
+quick_cli/actions_test.py,sha256=PteL3PspxxNn_dMieLGSm25hyr4MCrKSIT1ZOWk1Nmk,3065
+quick_cli/app.py,sha256=Fcr908FhjBP7qPdslbMBhQU-RBtPzoay0AnoQw86lDI,5298
+quick_cli/app_info.py,sha256=CFPCOspQyK0PwfDD7HViNtaLk-w8FAIzs785T3xafLE,4163
+quick_cli/app_info_test.py,sha256=kGG5DM_pM3Hvmj7uutJxnOLgUFZPFlpX0V8zvFeriMA,3993
+quick_cli/context.py,sha256=WYNu_KK0Nnhbi4oBgkO9jlpMkImEmnXDN8IkBAzPbRk,3544
+quick_cli/quick_cli_test.py,sha256=VvrswFCuWVcB_EhY-ZKoSp5SPHu1LbHd5jP9U_gnABw,342
+QuickCLI-0.2.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+QuickCLI-0.2.2.dist-info/METADATA,sha256=oZTji3kUe1Fb8hNGzAWq0r4LPL8XVRpVR2jAhQ01Ofk,1713
+QuickCLI-0.2.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+QuickCLI-0.2.2.dist-info/top_level.txt,sha256=2ZCyLNrIeyHBWQ39NgCMdLbOyDwRBa-fMH-RWUO1K44,10
+QuickCLI-0.2.2.dist-info/RECORD,,
