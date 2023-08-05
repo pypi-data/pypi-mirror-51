@@ -1,0 +1,10 @@
+datafilter/__init__.py,sha256=830YjmcO3Yed80SYr742f7NxDozd88lRkz4-uCcSK_U,760
+datafilter/base.py,sha256=oDs_WBalC8-aripBFZj3jbRHErYarALWP_QIoz8JjHE,2242
+datafilter/config.py,sha256=kFmm6ygmflO3PsUN_EfHCvHCg7tViC5IKX1W0GWsR9E,186
+datafilter/filters.py,sha256=muSL6s9IAQeVAPqvRJUW_zKUoTby9xe026TpXBBOirc,2884
+datafilter/mixins.py,sha256=Y2kgZvPTv1PuR2VfD1foDdNgwvUGh7Jx7udBdxKCp_0,403
+datafilter-0.4.2.dist-info/LICENSE.md,sha256=E3MkUhpVkxr0Z1QomlKQAKy72TiiFCwS4u_58-GVUrQ,1496
+datafilter-0.4.2.dist-info/METADATA,sha256=c-fs4ExFaDRg_5XOLpPGHkXlth3jroOshQPqVV1Jc-E,7256
+datafilter-0.4.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+datafilter-0.4.2.dist-info/top_level.txt,sha256=fyDJOCRoL9vAiAnVyFpCUz6OJCvC87_vRmxY9VzRnZo,11
+datafilter-0.4.2.dist-info/RECORD,,
