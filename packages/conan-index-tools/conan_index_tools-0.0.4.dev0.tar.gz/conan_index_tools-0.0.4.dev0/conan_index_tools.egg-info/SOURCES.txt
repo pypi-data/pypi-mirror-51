@@ -1,0 +1,15 @@
+README.rst
+setup.py
+conan_index_tools/__init__.py
+conan_index_tools/command.py
+conan_index_tools/index_storage.py
+conan_index_tools/new_recipe.py
+conan_index_tools/requirements.txt
+conan_index_tools/runner.py
+conan_index_tools/tools.py
+conan_index_tools.egg-info/PKG-INFO
+conan_index_tools.egg-info/SOURCES.txt
+conan_index_tools.egg-info/dependency_links.txt
+conan_index_tools.egg-info/entry_points.txt
+conan_index_tools.egg-info/requires.txt
+conan_index_tools.egg-info/top_level.txt

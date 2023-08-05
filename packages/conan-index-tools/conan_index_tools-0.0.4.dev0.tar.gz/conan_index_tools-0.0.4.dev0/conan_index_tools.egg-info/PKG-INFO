@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: conan-index-tools
+Version: 0.0.4.dev0
+Summary: conan_index_tool is a tool for helping contributing Conan recipes in theconan center index repository
+Home-page: https://conan.io
+Author: JFrog LTD
+Author-email: luism@jfrog.com
+License: MIT
+Description: conan-index-tools tool
+        ======================
+        
+        The ``conan-index-tools`` helps with the process of preparing the Pull Request to the ``conan-center-index`` repository.
+        You can install it running ``pip install conan-index-tools``. 
+        
+        Read more at the `Conan center index repository <https://github.com/conan-io/conan_index>`_
+        
+        
+        
+        
+Keywords: C/C++,package,libraries,developer,manager,dependency,tool,c,c++,cpp
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/x-rst
