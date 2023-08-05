@@ -1,0 +1,10 @@
+README.md
+setup.py
+flexi_hash_embedding/__init__.py
+flexi_hash_embedding/flexi_hash_embedding.py
+flexi_hash_embedding.egg-info/PKG-INFO
+flexi_hash_embedding.egg-info/SOURCES.txt
+flexi_hash_embedding.egg-info/dependency_links.txt
+flexi_hash_embedding.egg-info/requires.txt
+flexi_hash_embedding.egg-info/top_level.txt
+test/test_flexi_hash_embedding.py
