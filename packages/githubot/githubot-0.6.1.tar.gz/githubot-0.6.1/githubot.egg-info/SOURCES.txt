@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+githubot/__init__.py
+githubot/file.py
+githubot/githubot.py
+githubot/release.py
+githubot.egg-info/PKG-INFO
+githubot.egg-info/SOURCES.txt
+githubot.egg-info/dependency_links.txt
+githubot.egg-info/entry_points.txt
+githubot.egg-info/requires.txt
+githubot.egg-info/top_level.txt
