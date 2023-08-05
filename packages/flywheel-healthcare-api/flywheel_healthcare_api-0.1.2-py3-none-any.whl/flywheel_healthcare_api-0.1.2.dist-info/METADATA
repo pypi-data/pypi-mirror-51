@@ -1,0 +1,174 @@
+Metadata-Version: 2.1
+Name: flywheel-healthcare-api
+Version: 0.1.2
+Summary: Google Cloud Healthcare API client library
+Home-page: https://github.com/flywheel-io/healthcare-api
+Author-email: support@flywheel.io
+License: MIT
+Project-URL: Source, https://github.com/flywheel-io/healthcare-api
+Keywords: Flywheel,flywheel,google,healthcare,api
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests (~=2.22.0)
+Requires-Dist: google-api-python-client (~=1.7.9)
+Requires-Dist: google-auth (~=1.6.3)
+Provides-Extra: dev
+Requires-Dist: pycodestyle (~=2.4.0) ; extra == 'dev'
+Requires-Dist: pylint (~=2.3.0) ; extra == 'dev'
+Requires-Dist: pytest (~=3.6.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (~=2.5.0) ; extra == 'dev'
+Requires-Dist: pytest-mock (~=1.10.4) ; extra == 'dev'
+Provides-Extra: dicomweb
+Requires-Dist: dicomweb-client ; extra == 'dicomweb'
+
+# Google Cloud Healthcare API client library
+
+A client library to interact with Google Cloud Healthcare API.
+
+
+# Quickstart
+
+## Install
+
+```
+git clone
+pip install -e .
+```
+
+Optionally install the `dicomweb_client` package if you would like to use the integration with it.
+
+## Using the client
+
+```
+from healthcare_api.client import Client
+c = Client() # will use your default gcloud credentials, use the token parameter to override it
+
+# list available locations
+locations = c.locations.list(name='projects/YOUR_PROJECT_ID') # TODO: change YOUR_PROJECT_ID
+# NOTE: locations is a generator
+for location in locations:
+    print(location)
+```
+
+See the table below for the available methods. Check the official Healthcare API documentation for the parameters of the methods.
+
+https://cloud.google.com/healthcare/docs/reference/rest/
+
+NOTE: Annotations API only available in `v1alpha2`
+
+# Examples
+
+- [locations](docs/examples/locations.md) (get, list)
+
+# Testing
+
+```
+pipenv install --dev
+pipenv run pip install --no-deps dicomweb_client
+# set GCLOUD_AUTH_TOKEN env var with your auth token
+# or set application default credential using gcloud
+# gcloud auth application-default login
+pipenv run tests/bin/tests.sh
+```
+
+# Method matrix
+
+| HC Api version  | HC Method                                                                                 | Equivalent client method                                |
+|-----------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| v1beta1         | projects.locations.get                                                                    | locations.get                                           |
+| v1beta1         | projects.locations.list                                                                   | locations.list                                          |
+| v1beta1         | projects.locations.datasets.create                                                        | datasets.create                                         |
+| v1beta1         | projects.locations.datasets.deidentify                                                    | datasets.deidentify                                     |
+| v1beta1         | projects.locations.datasets.delete                                                        | datasets.delete                                         |
+| v1beta1         | projects.locations.datasets.get                                                           | datasets.get                                            |
+| v1beta1         | projects.locations.datasets.getIamPolicy                                                  | datasets.getIamPolicy                                   |
+| v1beta1         | projects.locations.datasets.list                                                          | datasets.list                                           |
+| v1beta1         | projects.locations.datasets.patch                                                         | datasets.patch                                          |
+| v1beta1         | projects.locations.datasets.setIamPolicy                                                  | datasets.setIamPolicy                                   |
+| v1beta1         | projects.locations.datasets.testIamPermissions                                            | datasets.testIamPermissions                             |
+| v1alpha2        | projects.locations.datasets.annotationStores.create                                       | annotationStores.create                                 |
+| v1alpha2        | projects.locations.datasets.annotationStores.delete                                       | annotationStores.delete                                 |
+| v1alpha2        | projects.locations.datasets.annotationStores.get                                          | annotationStores.get                                    |
+| v1alpha2        | projects.locations.datasets.annotationStores.getIamPolicy                                 | annotationStores.getIamPolicy                           |
+| v1alpha2        | projects.locations.datasets.annotationStores.list                                         | annotationStores.list                                   |
+| v1alpha2        | projects.locations.datasets.annotationStores.patch                                        | annotationStores.patch                                  |
+| v1alpha2        | projects.locations.datasets.annotationStores.setIamPolicy                                 | annotationStores.setIamPolicy                           |
+| v1alpha2        | projects.locations.datasets.annotationStores.testIamPermissions                           | annotationStores.testIamPermissions                     |
+| v1alpha2        | projects.locations.datasets.annotationStores.annotations.create                           | annotations.create                                      |
+| v1alpha2        | projects.locations.datasets.annotationStores.annotations.delete                           | annotations.delete                                      |
+| v1alpha2        | projects.locations.datasets.annotationStores.annotations.list                             | annotations.list                                        |
+| v1alpha2        | projects.locations.datasets.annotationStores.annotations.patch                            | annotations.patch                                       |
+| v1beta1         | projects.locations.datasets.dicomStores.create                                            | dicomStores.create                                      |
+| v1beta1         | projects.locations.datasets.dicomStores.delete                                            | dicomStores.delete                                      |
+| v1beta1         | projects.locations.datasets.dicomStores.export                                            | dicomStores.export                                      |
+| v1beta1         | projects.locations.datasets.dicomStores.get                                               | dicomStores.get                                         |
+| v1beta1         | projects.locations.datasets.dicomStores.getIamPolicy                                      | dicomStores.getIamPolicy                                |
+| v1beta1         | projects.locations.datasets.dicomStores.import                                            | dicomStores.import                                      |
+| v1beta1         | projects.locations.datasets.dicomStores.list                                              | dicomStores.list                                        |
+| v1beta1         | projects.locations.datasets.dicomStores.patch                                             | dicomStores.patch                                       |
+| v1beta1         | projects.locations.datasets.dicomStores.searchForInstances                                | dicomStores.dicomWeb.search_for_instances               |
+| v1beta1         | projects.locations.datasets.dicomStores.searchForSeries                                   | dicomStores.dicomWeb.search_for_series                  |
+| v1beta1         | projects.locations.datasets.dicomStores.searchForStudies                                  | dicomStores.dicomWeb.search_for_studies                 |
+| v1beta1         | projects.locations.datasets.dicomStores.setIamPolicy                                      | dicomStores.setIamPolicy                                |
+| v1beta1         | projects.locations.datasets.dicomStores.storeInstances                                    | dicomStores.dicomWeb.store_instances                    |
+| v1beta1         | projects.locations.datasets.dicomStores.testIamPermissions                                | dicomStores.testIamPermissions                          |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.delete                                    | dicomStores.studies.delete                              |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.retrieveMetadata                          | dicomStores.dicomWeb.retrieve_study_metadata            |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.retrieveStudy                             | dicomStores.dicomWeb.retrieve_study                     |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.searchForInstances                        | dicomStores.dicomWeb.search_for_instances               |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.searchForSeries                           | dicomStores.dicomWeb.search_for_series                  |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.storeInstances                            | dicomStores.dicomWeb.store_instances                    |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.delete                             | dicomStores.studies.series.delete                       |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.retrieveMetadata                   | dicomStores.dicomWeb.retrieve_series_metadata           |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.retrieveSeries                     | dicomStores.dicomWeb.retrieve_series                    |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.searchForInstances                 | dicomStores.dicomWeb.search_for_instances               |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.instances.delete                   | dicomStores.studies.series.instances.delete             |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.instances.retrieveInstance         | dicomStores.dicomWeb.retrieve_instance                  |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.instances.retrieveMetadata         | dicomStores.dicomWeb.retrieve_instance_metadata         |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.instances.retrieveRendered         | dicomStores.dicomWeb.retrieve_instance_rendered         |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.instances.frames.retrieveFrames    | dicomStores.dicomWeb.retrieve_instance_frames           |
+| v1beta1         | projects.locations.datasets.dicomStores.studies.series.instances.frames.retrieveRendered  | dicomStores.dicomWeb.retrieve_instance_frames_rendered  |
+| v1beta1         | projects.locations.datasets.fhirStores.create                                             | fhirStores.create                                       |
+| v1beta1         | projects.locations.datasets.fhirStores.delete                                             | fhirStores.delete                                       |
+| v1beta1         | projects.locations.datasets.fhirStores.export                                             | fhirStores.export                                       |
+| v1beta1         | projects.locations.datasets.fhirStores.get                                                | fhirStores.get                                          |
+| v1beta1         | projects.locations.datasets.fhirStores.getIamPolicy                                       | fhirStores.getIamPolicy                                 |
+| v1beta1         | projects.locations.datasets.fhirStores.import                                             | fhirStores.import                                       |
+| v1beta1         | projects.locations.datasets.fhirStores.list                                               | fhirStores.list                                         |
+| v1beta1         | projects.locations.datasets.fhirStores.patch                                              | fhirStores.patch                                        |
+| v1beta1         | projects.locations.datasets.fhirStores.setIamPolicy                                       | fhirStores.setIamPolicy                                 |
+| v1beta1         | projects.locations.datasets.fhirStores.testIamPermissions                                 | fhirStores.testIamPermissions                           |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.Observation-lastn                             | fhirStores.fhir.observationLastn                        |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.Patient-everything                            | fhirStores.fhir.patientEverything                       |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.Resource-purge                                | fhirStores.fhir.resourcePurge                           |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.capabilities                                  | fhirStores.fhir.capabilities                            |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.conditionalDelete                             | fhirStores.fhir.conditionalDelete                       |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.conditionalPatch                              | fhirStores.fhir.conditionalPatch                        |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.conditionalUpdate                             | fhirStores.fhir.conditionalUpdate                       |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.create                                        | fhirStores.fhir.create                                  |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.delete                                        | fhirStores.fhir.delete                                  |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.executeBundle                                 | fhirStores.fhir.executeBundle                           |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.history                                       | fhirStores.fhir.history                                 |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.patch                                         | fhirStores.fhir.patch                                   |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.read                                          | fhirStores.fhir.read                                    |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.search                                        | fhirStores.fhir.search                                  |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.update                                        | fhirStores.fhir.update                                  |
+| v1beta1         | projects.locations.datasets.fhirStores.fhir.vread                                         | fhirStores.fhir.vread                                   |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.create                                            | hl7V2Stores.create                                      |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.delete                                            | hl7V2Stores.delete                                      |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.get                                               | hl7V2Stores.get                                         |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.getIamPolicy                                      | hl7V2Stores.getIamPolicy                                |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.list                                              | hl7V2Stores.list                                        |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.patch                                             | hl7V2Stores.patch                                       |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.setIamPolicy                                      | hl7V2Stores.setIamPolicy                                |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.testIamPermissions                                | hl7V2Stores.testIamPermissions                          |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.messages.create                                   | hl7V2Stores.messages.create                             |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.messages.delete                                   | hl7V2Stores.messages.delete                             |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.messages.get                                      | hl7V2Stores.messages.get                                |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.messages.ingest                                   | hl7V2Stores.messages.ingest                             |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.messages.list                                     | hl7V2Stores.messages.list                               |
+| v1beta1         | projects.locations.datasets.hl7V2Stores.messages.patch                                    | hl7V2Stores.messages.patch                              |
+| v1beta1         | projects.locations.datasets.operations.get                                                | operations.get                                          |
+| v1beta1         | projects.locations.datasets.operations.list                                               | operations.list                                         |
+
+
