@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: mercury-toolkit
+Version: 0.9.41
+Summary: Mercury: a framework for fluid ETL and data management
+Home-page: http://github.com/binarymachines/mercury
+Author: Dexter Taylor
+Author-email: binarymachineshop@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: ETL data pipeline framework
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
