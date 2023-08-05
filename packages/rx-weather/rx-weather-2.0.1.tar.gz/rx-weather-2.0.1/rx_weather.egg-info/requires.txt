@@ -1,0 +1,10 @@
+certifi
+chardet
+funcy
+idna
+pytz
+requests
+rx
+rx-weather
+tzlocal
+urllib3
