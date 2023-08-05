@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ndmg
+Version: 0.2.1
+Summary: Neuro Data MRI to Graphs Pipeline
+Home-page: https://github.com/neurodata/ndmg
+Author: Derek Pisner, Greg Kiar, Eric Bridgeford, Alex Loftus, and Will Gray Roncal
+Author-email: dpisner@utexas.edu, aloftus2@jhu.edu, gkiar@jhu.edu, wgr@jhu.edu, ebridge2@jhu.edu
+License: UNKNOWN
+Download-URL: https://github.com/neurodata/ndmg/tarball/0.2.1
+Keywords: connectome,mri,pipeline
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: numpy
+Requires-Dist: nibabel
+Requires-Dist: dipy (==0.16.0)
+Requires-Dist: scipy
+Requires-Dist: python-dateutil
+Requires-Dist: pandas
+Requires-Dist: boto3
+Requires-Dist: awscli
+Requires-Dist: matplotlib
+Requires-Dist: nilearn
+Requires-Dist: sklearn
+Requires-Dist: vtk
+Requires-Dist: pyvtk
+Requires-Dist: fury
+Requires-Dist: requests
+Requires-Dist: plotly (==1.12.9)
+Requires-Dist: pybids (==0.6.4)
+Requires-Dist: setuptools (>=40.0)
+Requires-Dist: scikit-image
+Requires-Dist: networkx
+Requires-Dist: configparser (>=3.7.4)
+Requires-Dist: pytest
+
+UNKNOWN
+
+
