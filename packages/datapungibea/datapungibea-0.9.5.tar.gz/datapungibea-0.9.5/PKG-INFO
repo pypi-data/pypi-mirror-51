@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: datapungibea
+Version: 0.9.5
+Summary: Connects to Bureau of Economic Analysis (BEA) API and enriches data output; get vintage BEA data
+Home-page: https://github.com/jjotterson/datapungibea
+Author: James Otterson
+Author-email: jjotterson@gmail.com
