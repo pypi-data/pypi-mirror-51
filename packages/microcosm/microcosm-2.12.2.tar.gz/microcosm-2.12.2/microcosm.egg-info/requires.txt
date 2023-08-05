@@ -1,0 +1,6 @@
+contextdecorator>=0.10.0
+inflection>=0.3.1
+tornado<5
+jaeger-client>=4.0.0
+lazy>=1.3
+opentracing-instrumentation>=3.0.1
