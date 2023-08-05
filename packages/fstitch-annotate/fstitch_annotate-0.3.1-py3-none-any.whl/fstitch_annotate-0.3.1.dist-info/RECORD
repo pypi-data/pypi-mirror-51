@@ -1,0 +1,8 @@
+annotate/__init__.py,sha256=l6UH_geHg8P_KmakJ7HGgwa5y4AV79IySKjULNq4kKo,119
+annotate/bidir.py,sha256=ifqeih3IVK4ORG--otuo6AxQUuWxKTMVq7AnbMXOscM,14191
+annotate/expand.py,sha256=prLRUHlHBwl3vH_mMirGkVw14MSOka-GjIuo8IUzed0,11980
+fstitch_annotate-0.3.1.dist-info/METADATA,sha256=-0BzIsdFq3Xuypk46w3TOMOWNTd4KjLvDURyKK8xxfo,994
+fstitch_annotate-0.3.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+fstitch_annotate-0.3.1.dist-info/entry_points.txt,sha256=Ci4qZbmEYPt_gIhDWRfPAd1PEyxE9KBDVNDERJ-YUmU,67
+fstitch_annotate-0.3.1.dist-info/top_level.txt,sha256=V1eFoTdJeeb8ijeptboWdlsyZxZgAQri-tmdC0RxGrI,9
+fstitch_annotate-0.3.1.dist-info/RECORD,,
