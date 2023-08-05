@@ -1,0 +1,59 @@
+Metadata-Version: 1.2
+Name: pointer
+Version: 0.0.2
+Summary: SDK For Pointer.
+Home-page: https://github.com/longniao/pointer
+Author: Longniao
+Author-email: longniao@gmail.com
+Maintainer: Longniao
+Maintainer-email: longniao@gmail.com
+License: MIT
+Description: Torstack
+        ========
+        
+        .. image:: https://travis-ci.org/longniao/pointer.svg
+            :target: https://travis-ci.org/longniao/pointer
+            :alt: Travis CI
+        
+        .. image:: https://img.shields.io/pypi/v/pointer.svg
+            :target: https://pypi.python.org/pypi/pointer/
+            :alt: Latest Version
+        
+        .. image:: https://img.shields.io/pypi/wheel/pointer.svg
+            :target: https://pypi.python.org/pypi/pointer/
+        
+        .. image:: https://img.shields.io/pypi/pyversions/pointer.svg
+            :target: https://pypi.python.org/pypi/pointer/
+        
+        .. image:: https://img.shields.io/pypi/l/pointer.svg
+            :target: https://pypi.python.org/pypi/pointer/
+        
+        
+        SDK for pointer.
+        
+        
+        Installing
+        ----------
+        
+        Install and update using `pip`_:
+        
+        .. code-block:: text
+        
+            pip install -U pointer
+        
+        
+        
+        .. _pip: https://pip.pypa.io/en/stable/quickstart/
+        
+Keywords: pointer sdk
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
