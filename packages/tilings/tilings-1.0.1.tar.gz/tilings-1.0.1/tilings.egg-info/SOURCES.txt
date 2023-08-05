@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+tilings/__init__.py
+tilings/db_conf.py
+tilings/griddedperm.py
+tilings/misc.py
+tilings/obstruction.py
+tilings/requirement.py
+tilings/tiling.py
+tilings.egg-info/PKG-INFO
+tilings.egg-info/SOURCES.txt
+tilings.egg-info/dependency_links.txt
+tilings.egg-info/requires.txt
+tilings.egg-info/top_level.txt
