@@ -1,0 +1,15 @@
+CHANGELOG.rst
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+ask_sdk_jinja_renderer/__init__.py
+ask_sdk_jinja_renderer/__version__.py
+ask_sdk_jinja_renderer/jinja_template_renderer.py
+ask_sdk_jinja_renderer.egg-info/PKG-INFO
+ask_sdk_jinja_renderer.egg-info/SOURCES.txt
+ask_sdk_jinja_renderer.egg-info/dependency_links.txt
+ask_sdk_jinja_renderer.egg-info/not-zip-safe
+ask_sdk_jinja_renderer.egg-info/requires.txt
+ask_sdk_jinja_renderer.egg-info/top_level.txt
