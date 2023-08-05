@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: StockTrackr
+Version: 0.2.4
+Summary: A basic stock data puller/monitor
+Home-page: https://github.com/jwalshdev/StockTrackr
+Author: Jack Walsh
+Author-email: jwalshdev@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jwalshdev/StockTrackr/archive/0.2.3.tar.gz
+Description: # StockTrackr
+        
+        This is a basic application that uses alpha_vantages API to pull stock data as well as monitor it real-time.
+        
+        ----
+        ### Installation
+        
+        You can use pip to download the package directly:
+        
+        > pip install StockTrackr
+        
+        
+        Setup the venv by first installing/activating it with:
+        
+        > ./venv.bat
+        
+        
+        Then, initialize the venv with superset with:
+        
+        > ./initialize_venv.bat
+        
+        This creates a new file "run_superset.bat" which can be used to start the server.
+        
+        ----
+        
+        ### Usage
+        
+        Use the Stox() class to gain access to all methods
+        
+        >import StockTrackr
+        
+        >stox = StockTrackr.Stox()
+        
+        The UI() method provides an easy-to-use, command-line entry point to run the program
+        
+        >fx.UI()
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

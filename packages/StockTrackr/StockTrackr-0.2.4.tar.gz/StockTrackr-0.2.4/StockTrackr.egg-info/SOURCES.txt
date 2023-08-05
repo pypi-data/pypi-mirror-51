@@ -1,0 +1,8 @@
+README.md
+setup.py
+StockTrackr/__init__.py
+StockTrackr/av_api.py
+StockTrackr.egg-info/PKG-INFO
+StockTrackr.egg-info/SOURCES.txt
+StockTrackr.egg-info/dependency_links.txt
+StockTrackr.egg-info/top_level.txt
