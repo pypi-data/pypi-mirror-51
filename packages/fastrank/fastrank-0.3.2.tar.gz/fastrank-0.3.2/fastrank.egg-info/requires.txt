@@ -1,0 +1,6 @@
+cfastrank==0.3.2
+attrs
+cffi
+numpy
+scikit-learn
+ujson
