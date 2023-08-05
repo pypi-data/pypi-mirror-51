@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+eth_vertigo/__init__.py
+eth_vertigo.egg-info/PKG-INFO
+eth_vertigo.egg-info/SOURCES.txt
+eth_vertigo.egg-info/dependency_links.txt
+eth_vertigo.egg-info/entry_points.txt
+eth_vertigo.egg-info/requires.txt
+eth_vertigo.egg-info/top_level.txt
+eth_vertigo/mutation/templates/mutation_template.jinja2
+eth_vertigo/mutation/templates/report_template.jinja2
