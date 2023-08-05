@@ -1,0 +1,14 @@
+README.md
+setup.py
+pydeplist/__init__.py
+pydeplist/pydeplist.py
+pydeplist.egg-info/PKG-INFO
+pydeplist.egg-info/SOURCES.txt
+pydeplist.egg-info/dependency_links.txt
+pydeplist.egg-info/entry_points.txt
+pydeplist.egg-info/requires.txt
+pydeplist.egg-info/top_level.txt
+pydeplist/cli/__init__.py
+pydeplist/cli/cli.py
+pydeplist/utils/__init__.py
+pydeplist/utils/setup_load.py
