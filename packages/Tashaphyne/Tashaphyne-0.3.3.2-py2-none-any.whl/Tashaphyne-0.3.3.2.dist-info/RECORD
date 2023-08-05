@@ -1,0 +1,11 @@
+Tashaphyne-0.3.3.2.dist-info/METADATA,sha256=YaWIClrrbKmwssHIVJplHTXMhzMKNeZYe7X36AgzpcQ,17829
+Tashaphyne-0.3.3.2.dist-info/RECORD,,
+Tashaphyne-0.3.3.2.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+Tashaphyne-0.3.3.2.dist-info/top_level.txt,sha256=DZUc_VYHMyAnonxUL534RBE8XsNxiUaxDWPIKUS1ZRQ,11
+tashaphyne/__init__.py,sha256=hRLYNInzdqm7YXNtrzrtT3hzdL5Iq4wsPsZiYfkghn4,303
+tashaphyne/arabic_const.py,sha256=QEm0Lrmbj7u1Wf1ss5CsOraG9a--d-woF7I4SbuYnmE,2901
+tashaphyne/normalize.py,sha256=celvkYUJDxnNL-2RPWw-Gg--BB1E6U2a4Swfb6rTqCc,5061
+tashaphyne/roots_const.py,sha256=HfiP9zAiod29HzxA9jfB1x0SA64dhhbJ8kTXDTqiSBw,56281
+tashaphyne/rootsdict.py,sha256=51x6I7p4-ElwpSnS8Pa0v5A5wcUJvXX0SZxLZnnTahc,13468
+tashaphyne/stem_const.py,sha256=hBTJB7UZVqw5TORsi_FTtAYE5hKu1oLU1yWxNNWtIUU,9420
+tashaphyne/stemming.py,sha256=gqcIdhCLwqg_o8cgTnRskdw_qPt7QbVr2s_o8i2b5Is,37657
