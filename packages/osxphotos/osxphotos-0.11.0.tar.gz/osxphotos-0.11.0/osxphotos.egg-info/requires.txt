@@ -1,0 +1,3 @@
+pyobjc
+click
+pyyaml

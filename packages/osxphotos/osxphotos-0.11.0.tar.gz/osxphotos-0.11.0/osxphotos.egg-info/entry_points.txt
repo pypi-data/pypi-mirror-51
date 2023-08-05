@@ -1,0 +1,3 @@
+[console_scripts]
+osxphotos = osxphotos.cmd_line:cli
+
