@@ -1,0 +1,310 @@
+#!python
+from subprocess import Popen, PIPE, getoutput
+import re
+from functools import wraps
+import errno
+import os
+import signal
+import sys
+import psutil
+from time import time
+from datetime import datetime
+import logging.handlers
+from slack_logger import SlackHandler, SlackFormatter
+
+from colorama import Fore, Back, Style
+import pysnooper
+
+from models.Ne import Ne
+from db import DB
+
+db = DB()
+
+DEBUG = False
+LOG = 0
+
+""" Логирование """
+SLACK_WEB_HOOK_URL = 'https://hooks.slack.com/services/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'
+
+
+class MySlackFormatter(SlackFormatter):
+    """
+    Класс для форматирвания сообщения в slack.
+    """
+    def format(self, record):
+        ret = {}
+        if record.levelname == 'INFO':
+            ret['color'] = 'good'
+        elif record.levelname == 'WARNING':
+            ret['color'] = 'warning'
+        elif record.levelname == 'ERROR':
+            ret['color'] = '#E91E63'
+        elif record.levelname == 'CRITICAL':
+            ret['color'] = 'danger'
+
+        ret['author_name'] = record.levelname
+        ret['title'] = '{}: Line {}'.format(record.filename, record.lineno)
+        # ret['title'] = record.name
+        # record.filename, record.lineno, record.name
+        ret['ts'] = record.created
+        ret['text'] = super(SlackFormatter, self).format(record)
+        return ret
+
+
+log = logging.getLogger('ran')
+log.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter(u'%(levelname)-5s'
+                              u'[%(asctime)s]'
+                              u'[%(filename)-15s]'
+                              u'[%(lineno)-4d]: '
+                              u'%(message)s')
+
+# To slack.
+sh = SlackHandler(username='cmcore',
+                  icon_emoji=':robot_face:',
+                  url=SLACK_WEB_HOOK_URL)
+sh.setLevel(logging.ERROR)
+sh.setFormatter(MySlackFormatter())
+
+# На консоль.
+handler = logging.StreamHandler(sys.stderr)
+handler.setFormatter(formatter)
+handler.setLevel(logging.DEBUG)
+
+log.addHandler(handler)
+log.addHandler(sh)
+
+
+def popen_cmd(cmd: str, ne: Ne = False) -> str:
+    """
+    Выполнение комманды в операционной системе и возврат результата вывода.
+    :param ne: Ne
+    :param cmd:
+    :return:
+    """
+
+    if ne:
+        pass
+    else:
+        ne = cmd
+
+    if DEBUG:
+        print(cmd)
+    if LOG:
+        print(ne.name)
+        print(cmd)
+
+    data = ''
+    try:
+        data = Popen(cmd, shell=True, stdout=PIPE,).communicate()[0].decode()
+    except TimeoutError as e:
+        log.error(e)
+    except Exception as e:
+        log.error(e)
+        raise
+
+    """ Обработка ошибок.
+    Если возникла ошибка при получении данных то ошибка записывается в таблицу
+    """
+    errors = ["YOUR PASSWORD HAS EXPIRED", "no such file or directory"]
+    error = False
+    for e in errors:
+        if data.find(e) > 0:
+            error = e
+
+    if error:
+        if ne:
+            ne_name = ne.name
+        else:
+            ne_name = ''
+        try:
+            sql = 'INSERT INTO alarms.ne_status ' \
+                  '(name, error_description, cmd, status) ' \
+                  'VALUES (%s, %s, %s, 0)'
+            db.exec(sql, [ne_name, error, cmd])
+        except Exception:
+            pass
+
+    return data
+
+
+def plain_to_multi_array(data: str) -> list:
+    """
+    Разбивает PlaintText на переносы и пробелы и создает многмерный масив.
+    Например передано в функцию:
+        A1/APT "VCB07BEL/A55G14" 425 190320   0919
+        DIGITAL PATH FAULT SUPERVISION
+
+        DIP      DIPEND   FAULT     SECTION   HG  DATE    TIME
+        12_BSC7           AIS                     190320  091957
+
+    на выходе получим:
+        [
+            ['A1/APT', '"VCB07BEL/A55G14"', '425', '190320', '0919'],
+            ['DIGITAL', 'PATH', 'FAULT', 'SUPERVISION'],
+            [''],
+            ['DIP', 'DIPEND', 'FAULT', 'SECTION', 'HG', 'DATE', 'TIME'],
+            ['12_BSC7', 'AIS', '190320', '091957'],
+        ]
+
+    :param data:
+    :return:
+    """
+    result = []
+    data = re.split(r'\r\n', data)
+    for d in data:
+        d = re.split(r'\s+', d)
+        result.append(d)
+
+    return result
+
+
+def plain_line_to_list(data: str) -> list:
+    """
+    Разбивает PlaintText на пробелы и создает список из результата.
+    Например, передано в функцию:
+        A1/APT "VCB07BEL/A55G14" 425 190320   0919
+
+    на выходе получим:
+        ['A1/APT', '"VCB07BEL/A55G14"', '425', '190320', '0919'],
+
+    :param data:
+    :return: list
+    """
+    return re.split(r'\s+', data)
+
+
+class TimeOutError(Exception):
+    pass
+
+
+def timeout(seconds=10, error_message=os.strerror(errno.ETIME)):
+    """
+    Декоратор
+    Указав этот декоратор перед функциией с заданием количества секунд.
+    Позволяет выполнять функцию не больше заданной секунды в декораторе.
+    :param seconds:
+    :param error_message:
+    :return:
+    """
+    def decorator(func):
+        def _handle_timeout(signum, frame):
+            raise TimeoutError(error_message)
+
+        def wrapper(*args, **kwargs):
+            signal.signal(signal.SIGALRM, _handle_timeout)
+            signal.alarm(seconds)
+            try:
+                result = func(*args, **kwargs)
+            finally:
+                signal.alarm(0)
+            return result
+
+        return wraps(func)(wrapper)
+
+    return decorator
+
+
+def timeit(name='main'):
+    """
+    Декоратор
+    Расчет времени выполнения функции.
+    :param name:
+    :return:
+    """
+
+    def decorator(func):
+        """Decorator"""
+        def wrapper(*args, **kwargs):
+            start_time = time()
+
+            sql = 'INSERT INTO alarms.scripts_time (name, status, exec_time) ' \
+                  'VALUES (%s, %s, 0)'
+            db_id = db.exec(sql, [name, 'in progress'])
+
+            print(Back.GREEN + Fore.BLACK, end='')
+            print('============== START ===========', end='')
+            print(Style.RESET_ALL)
+
+            """ Функция """
+            try:
+                result = func(*args, **kwargs)
+                result_time_sec = time() - start_time
+                sql = 'UPDATE alarms.scripts_time ' \
+                      'SET exec_time = %s, status = \'success\'' \
+                      'WHERE id = %s'
+                db.exec(sql, [result_time_sec, db_id])
+                sql = 'UPDATE alarms.scripts_time ' \
+                      'SET exec_time = %s, status = \'success\'' \
+                      'WHERE id = %s'
+                db.exec(sql, [result_time_sec, db_id])
+            except Exception as e:
+                sql = "UPDATE alarms.scripts_time " \
+                      "SET status = \"error\", error = \"{}\" " \
+                      "WHERE id = {}".format(e, db_id)
+                db.exec(sql)
+                msg = '{} - {}'.format(name, e)
+                log.error(msg)
+                raise
+
+            result_time = 0
+            if result_time_sec > 60:
+                result_time = result_time_sec / 60
+            msg = ('Execute time {:.0f} sec or ~{:.0f} min'.format(
+                result_time_sec, result_time))
+
+            print(Back.BLUE + Fore.BLACK, end='')
+            print(Style.RESET_ALL)
+            print(Back.YELLOW + Fore.BLACK, end='')
+            print('============== %s ===========' % msg, end='')
+            print(Style.RESET_ALL)
+            print('-')
+            return result
+        return wrapper
+
+    return decorator
+
+
+def timeit_light(func):
+    """
+    Декоратор
+    Расчет времени выполнения функции. Только секунды
+    :param func:
+    :return:
+    """
+
+    def wrapper(*args, **kwargs):
+        start_time = time()
+        result = func(*args, **kwargs)
+        result_time_sec = time() - start_time
+        print('{:.0f} sec'.format(result_time_sec))
+        return result
+
+    return wrapper
+
+
+def protect_duplicates(name='main'):
+    """ protection from running copies of the program! """
+
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            pid = os.getpid()
+            lock_file = '/tmp/{}.lock'.format(name)
+            if os.path.exists(lock_file):
+                with open(lock_file, 'r') as lock:
+                    pid_from_file = lock.readline()
+                    current_pids = psutil.pids()
+                    if int(pid_from_file) in current_pids:
+                        exit('Отмена: Программа уже запущена')
+                    else:
+                        os.remove(lock_file)
+
+            with open(lock_file, 'w') as lock:
+                lock.write(str(pid))
+
+            result = func(*args, **kwargs)
+
+            return result
+        return wrapper
+    return decorator
