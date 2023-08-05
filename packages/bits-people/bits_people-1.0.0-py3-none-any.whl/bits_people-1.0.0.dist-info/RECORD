@@ -1,0 +1,10 @@
+bits/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+bits/people/__init__.py,sha256=NyT9-3LK66bTSo3a9kYpJ3te20dz_ZlJerEVW7waXbk,16964
+bits/people/api_v1.py,sha256=cS7vSD2R2hSdu837H1XO4pfEEcMe0zmIA4AgXrfMIi8,36
+bits/people/mysql.py,sha256=Rxo52qr_R9PZb3mFcgTb4dM4cbE-Pw2zkl9MSm-GGeA,2292
+bits/people/people.py,sha256=jweyx0MHmBTxZHgmGS-GV2h3eIisbtEAYA82pHtsM4E,4344
+bits/people/person.py,sha256=Ui2J9BJFrKbm327gXW6tDmJTVMtNpYu5Cx8gUpqDNmU,395
+bits_people-1.0.0.dist-info/METADATA,sha256=d-it0uYCBd5nwIoRvcvpsgxE9z6VgldBLvU_XyHyXqY,356
+bits_people-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bits_people-1.0.0.dist-info/top_level.txt,sha256=r0CPtEdvhPhtNI1RzFMKlSds-wmUFadHdR_o8lZNEOg,5
+bits_people-1.0.0.dist-info/RECORD,,
