@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: rfdist
+Version: 0.9
+Summary: Python package implementing an improved version of the RF distribution computation by Bryant et al.
+Home-page: UNKNOWN
+Author: Frank Hui
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
