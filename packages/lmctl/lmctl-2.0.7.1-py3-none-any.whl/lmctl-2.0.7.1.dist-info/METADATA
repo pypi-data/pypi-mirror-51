@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: lmctl
+Version: 2.0.7.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: paramiko
+Requires-Dist: urllib3
+Requires-Dist: oyaml
+Requires-Dist: requests
+
+UNKNOWN
+
+
