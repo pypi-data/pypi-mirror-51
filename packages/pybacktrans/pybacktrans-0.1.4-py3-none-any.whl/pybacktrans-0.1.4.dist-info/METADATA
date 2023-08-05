@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pybacktrans
+Version: 0.1.4
+Summary: PyBacktrans: Python library for backtranslation
+Home-page: https://github.com/monologg/py-backtrans
+Author: Jangwon Park
+Author-email: adieujw@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: googletrans
+Requires-Dist: nltk
+
+# Py-Backtrans
+
+Python library for backtranslation
+
+## Installation
+
+```bash
+$ pip install pybacktrans
+```
+
+## Usage
+
+### Basic Usage
+
+```python
+>>> from pybacktrans import BackTranslator
+>>> translator = BackTranslator()
+>>> result = translator.backtranslate('Good Morning', src='en', mid='fr')
+>>> result
+# <BackTranslated src=en, mid=fr, text=Hello>
+>>> result.src_text
+# 'Good Morning'
+>>> result.mid_text
+# 'Bonjour'
+>>> result.text
+# 'Hello'
+```
+
+## Reference
+
+- [googletrans](https://github.com/ssut/py-googletrans)
+- [QANet](https://arxiv.org/abs/1804.09541)
+
+

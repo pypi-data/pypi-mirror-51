@@ -1,0 +1,9 @@
+pybacktrans/__init__.py,sha256=K5xYT5ofZbTmUnG9qcXr0ecdDzUtapQcZkm2l4pgap4,51
+pybacktrans/constants.py,sha256=8G9Jc0Smu03el8iVQz_ZTht51JVU1xOqjCMVZhMlB3E,2496
+pybacktrans/models.py,sha256=glMp0qd9aSVbWeiyQRx1xajpoVAQB1C6FIE0Qk236sM,852
+pybacktrans/translator.py,sha256=K3AwCtIs2jzhu13IOOhSEEiM7P0meIvzQhkNZzwEg-c,5282
+pybacktrans-0.1.4.dist-info/LICENSE,sha256=-VbJEPXI6zQ8sWMZgxuycICva7fcEHdeKuqn5nh-69Y,1091
+pybacktrans-0.1.4.dist-info/METADATA,sha256=qgrnFdvfSgUN8wqIN96x-vq9VzV9gQu-tafHf0a45Zs,1072
+pybacktrans-0.1.4.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+pybacktrans-0.1.4.dist-info/top_level.txt,sha256=NuKNKSaRjkn-dh6CXY5ROsxAYMaokFCf3Rg1rxqqtcA,12
+pybacktrans-0.1.4.dist-info/RECORD,,
