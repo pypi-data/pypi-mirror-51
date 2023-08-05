@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: PyDbTool
+Version: 0.2.1
+Summary: Python all in one data-driver
+Home-page: UNKNOWN
+Author: Prabir Ghosh
+Author-email: mymail.prabir@gmail.com
+License: MIT
+Description: # PyDbTool
+        Python Database Driver Tool
+        
+Platform: UNKNOWN
