@@ -1,0 +1,11 @@
+tdam_api/__init__.py,sha256=ZF_6Sw2C9kjE6OnYEnmf1Ub7Wz1Vxn3bz9CfIZD-ng4,192
+tdam_api/client.py,sha256=YwsOB7ilqfoqZ5ZZ24JbH5Y875aC9jXg1chKfjlQecU,9763
+tdam_api/common.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdam_api/entities.py,sha256=GMgZRnqpahN-9v6x6pm9KF0nKjJCeaXKnTl-1cv5Ui0,2846
+tdam_api/urls.py,sha256=asJ25O6NGgQQReWts1trwAdVvrp59fytccdb4R_KuFU,573
+tdam_api-0.1.0.dist-info/AUTHORS.rst,sha256=aobaVVVGU1D_jK_KxdqAh-uP5LSvuM7Cjs_zU7RxjPI,136
+tdam_api-0.1.0.dist-info/LICENSE,sha256=uJ0rTE6jey7DyxK7eRP8sk8YC48M0oxMPom73uXyUVc,1075
+tdam_api-0.1.0.dist-info/METADATA,sha256=XkcSAOpfQseMbKtizefs2ulnrdDFaCdF2eXpjqzHUiE,3227
+tdam_api-0.1.0.dist-info/WHEEL,sha256=53VSps8MltPLN_x9Ib61FU2ZSaJKzgrWQqu9rS-Dkgk,116
+tdam_api-0.1.0.dist-info/top_level.txt,sha256=JHeWKJzOCCsrYmALgn_yCr7ZCE44WDAsjMIo6g5zapc,9
+tdam_api-0.1.0.dist-info/RECORD,,
