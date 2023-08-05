@@ -1,0 +1,7 @@
+gap_stat-1.7.1.dist-info/METADATA,sha256=n-JspfyCOdw0GIIHdEKKcIHCioc3uVZ9MVMapFngFos,1246
+gap_stat-1.7.1.dist-info/RECORD,,
+gap_stat-1.7.1.dist-info/WHEEL,sha256=RAKZceQadgvsh5lTcite2djFea5bPggV_oZLUtgekwY,111
+gap_stat-1.7.1.dist-info/top_level.txt,sha256=vyzCrgnXjw3vE2IEDCQyUd6_0lvz8V5kEfPnvncNv24,14
+gap_statistic/__init__.py,sha256=nz9ujigNgzYIFAwo6OgPxE2nE6Dn3fqYq7x1DnJygfg,70
+gap_statistic/optimalK.py,sha256=ELT_YXAyyYEM8ivNCHl2yrCB0Rd5KYdp8WS1ExvPCPE,14683
+gap_statistic/rust/gapstat.cpython-36m-darwin.so,sha256=nRI33DR-0ip67GKn0m8QBn3tgNfPjPaUyyTFYnlt6-8,598820
