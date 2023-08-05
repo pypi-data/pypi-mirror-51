@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+oidc_validators/__init__.py
+oidc_validators/validators.py
+oidc_validators.egg-info/PKG-INFO
+oidc_validators.egg-info/SOURCES.txt
+oidc_validators.egg-info/dependency_links.txt
+oidc_validators.egg-info/not-zip-safe
+oidc_validators.egg-info/requires.txt
+oidc_validators.egg-info/top_level.txt
