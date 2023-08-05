@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: strong-aws-lambda.contract
+Version: 0.1.0
+Summary: Create static type event
+License: MIT
+Author: Rodrigo Farias Rezino
+Author-email: rodrigofrezino@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
+Requires-Dist: aws-lambda-context (>=1.1,<2.0)
+Requires-Dist: dacite (>=1.0,<2.0)
+Description-Content-Type: text/markdown
+
+# strong-lambda
+AWS Lambda enhancements
+
+Python 3 introduced some very interesting things when it comes to static typing programming.
+This package uses these new features in order to make AWS Lambda more static type driven.
+
+
+## External links
+1. [The benefits of static typing without static typing in Python](https://pawelmhm.github.io/python/static/typing/type/annotations/2016/01/23/typing-python3.html
+) 
+1. [AWS Lambda](https://aws.amazon.com/lambda/)
+1. [typing Python — Support for type hints](https://docs.python.org/3/library/typing.html)
+
