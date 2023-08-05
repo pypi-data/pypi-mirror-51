@@ -1,0 +1,9 @@
+
+[gdown]
+gdown
+
+[tf]
+tensorflow
+
+[tfgpu]
+tensorflow-gpu
