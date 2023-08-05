@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+btmhdw/__init__.py
+btmhdw/ed25519.py
+btmhdw/segwit.py
+btmhdw.egg-info/PKG-INFO
+btmhdw.egg-info/SOURCES.txt
+btmhdw.egg-info/dependency_links.txt
+btmhdw.egg-info/requires.txt
+btmhdw.egg-info/top_level.txt
