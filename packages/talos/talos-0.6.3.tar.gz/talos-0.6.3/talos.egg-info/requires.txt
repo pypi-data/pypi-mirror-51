@@ -1,0 +1,10 @@
+wrangle
+numpy
+pandas
+keras
+astetik
+sklearn
+tqdm
+chances
+kerasplotlib
+requests
