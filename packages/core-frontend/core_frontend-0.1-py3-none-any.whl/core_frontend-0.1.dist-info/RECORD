@@ -1,0 +1,8 @@
+frontend/__init__.py,sha256=wF0O7R7UiceZKevD9Kdby0_PaYb3EzK_8WpI-l1piIc,39
+frontend/apps/__init__.py,sha256=2euE2MzRssMWzR8c6rBVyrQrMLqAkC4thKkHs_RWp48,592
+frontend/apps/dashboard.py,sha256=v-x0gnBcjdKJFVY53pE_ABh7iT-KjYU91dGWKjuHOu8,1607
+frontend/apps/external_links.py,sha256=W3pMS8uWz6v9OBcLM3Dyr7asJcI9Qn25AKNbYMYvHDQ,1831
+core_frontend-0.1.dist-info/METADATA,sha256=f84hS5T8o7fELskdbl0cMohd1QH1wIP9Up06_SDpYHI,1155
+core_frontend-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+core_frontend-0.1.dist-info/top_level.txt,sha256=PqYVS3-YFgm6PaA3CFiN65TIrNSJkrAsNSmI0SKBeAU,9
+core_frontend-0.1.dist-info/RECORD,,
