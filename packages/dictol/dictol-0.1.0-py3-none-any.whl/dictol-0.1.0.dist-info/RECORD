@@ -1,0 +1,16 @@
+dictol/COPAR.py,sha256=G8risGlZ1n0-t28UNB_HSuR-AN1VTJcFnbB3-9shnVc,10367
+dictol/DLSI.py,sha256=gAS68fo53sIylwNIjE_yThLS2x8YiuK-v-34Ja876hU,4548
+dictol/LRSDL.py,sha256=jMcoC613QiCoZb0ktMmrdPu40w-bGmWDvd7-AqFqTTA,12052
+dictol/ODL.py,sha256=zfrIUETGuk7CZeFJtoBGHa0391dzV-SiTOEvtS7KUVE,1669
+dictol/SRC.py,sha256=s7Zmrv8ZO4Rm4OlwPHLEZr8yt33oLAPBxFCpQtsAxh4,1860
+dictol/__init__.py,sha256=u8ccDkDx6XSJxtU3aMH83aTdQB2ABMKIoeosTjimw1g,432
+dictol/base.py,sha256=S_6vOb1kdsqghPPyS2LU9OjklPonYo9qiscegaC1Aig,444
+dictol/optimize.py,sha256=1HkWXDVm1MPKfk89gCeEjkCMsU6hkVqmM9GbhCJexZM,9168
+dictol/test_ODL.py,sha256=j-xbr723pikAF17CaF0v7-TC3QXE6AKQok33sWuwC_I,361
+dictol/test_utils.py,sha256=8-fMb7VUe2WUJbIaM85UDpWs-JEi7PKHgaa2cBCxAD8,5384
+dictol/utils.py,sha256=5MQVtYNh4YDxRrgEUTdr6llQDuHZW0IUomis4Xod4I0,15927
+dictol-0.1.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+dictol-0.1.0.dist-info/METADATA,sha256=9YHrO81l3ZENV3TZpqzgKOx_i-9iMfMHI1rVb1FOr3s,1739
+dictol-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dictol-0.1.0.dist-info/top_level.txt,sha256=7AGbJGcZ2eQpKDHk6fe99PR82i8WITIYjVnPd9WDVvw,7
+dictol-0.1.0.dist-info/RECORD,,
