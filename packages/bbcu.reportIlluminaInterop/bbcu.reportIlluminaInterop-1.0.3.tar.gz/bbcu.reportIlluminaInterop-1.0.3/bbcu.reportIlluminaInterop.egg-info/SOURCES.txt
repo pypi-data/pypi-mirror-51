@@ -1,0 +1,15 @@
+MANIFEST.in
+README.txt
+VERSION.txt
+setup.py
+tox.ini
+bbcu.reportIlluminaInterop.egg-info/PKG-INFO
+bbcu.reportIlluminaInterop.egg-info/SOURCES.txt
+bbcu.reportIlluminaInterop.egg-info/dependency_links.txt
+bbcu.reportIlluminaInterop.egg-info/requires.txt
+bbcu.reportIlluminaInterop.egg-info/top_level.txt
+reportIlluminaInterop/__init__.py
+reportIlluminaInterop/logging_conf.py
+reportIlluminaInterop/settings.py
+reportIlluminaInterop/summary_stat.py
+scripts/run-sav-stat.py

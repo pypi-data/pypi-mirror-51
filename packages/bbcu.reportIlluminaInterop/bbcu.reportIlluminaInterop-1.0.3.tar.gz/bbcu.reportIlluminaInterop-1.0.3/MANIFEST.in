@@ -1,0 +1,6 @@
+include *.txt
+include tox.ini
+prune illuminaInterop/MiSeqDemo
+recursive-include illuminaInterop *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
