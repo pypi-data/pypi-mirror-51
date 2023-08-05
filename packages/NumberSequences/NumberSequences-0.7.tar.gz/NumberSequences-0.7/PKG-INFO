@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: NumberSequences
+Version: 0.7
+Summary: Tools for generating number sequences
+Home-page: http://staticola.com
+Author: Robbie Dee
+Author-email: admin@staticola.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: Tools for generating number sequences and learning more about them
+Keywords: MATH,NUMBERS,FUN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
