@@ -1,0 +1,4 @@
+dotmap
+pyyaml
+paho-mqtt
+Adafruit_DHT
