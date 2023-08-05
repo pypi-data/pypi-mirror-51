@@ -1,0 +1,11 @@
+more/babel_i18n/__init__.py,sha256=BZf5KtCP9gAP5EBwD7vCMpaSB7sFmHPnbvPL52sL-wM,431
+more/babel_i18n/app.py,sha256=2I91MW81404FksWwzR01NA-rRJCZH1rM0egB0M9hf0I,4935
+more/babel_i18n/constants.py,sha256=oEM0v9VnkmAv9WFLX6v4YRNiOGPwa9YlO35D4wLhO-g,745
+more/babel_i18n/domain.py,sha256=tZAQCv5S83ODKkWY2g8lchUORngD374rkcpQjR0U9aU,5491
+more/babel_i18n/request_utils.py,sha256=YneAkA_dkG5fEILB-HncnLSTded5gZmQZ05JuWBv7B4,12725
+more/babel_i18n/speaklater.py,sha256=uVKxqqpW9fJPBclxTA7nggC_S5aj6BWgXHuBNdLNmvo,2280
+more.babel_i18n-0.1.dev2.dist-info/LICENSE,sha256=7NszuwltSqqxOvSNn1TnNiqlM00tK-pJW8sSsklwMOs,1616
+more.babel_i18n-0.1.dev2.dist-info/METADATA,sha256=-bW3Hh827n6O4jkAbdJ-O3YWC_O2zZCYRMAPrRUDDFo,978
+more.babel_i18n-0.1.dev2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+more.babel_i18n-0.1.dev2.dist-info/top_level.txt,sha256=I5YJnGwIT6S5vqyfDVLPO-nPjUcEDvEniD1TK1eQzXQ,5
+more.babel_i18n-0.1.dev2.dist-info/RECORD,,
