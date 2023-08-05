@@ -1,0 +1,4 @@
+
+
+class InvalidPattern(Exception):
+    pass
