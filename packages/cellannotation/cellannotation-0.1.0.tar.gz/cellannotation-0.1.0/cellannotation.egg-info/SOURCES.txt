@@ -1,0 +1,23 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+cellannotation/__init__.py
+cellannotation/annotate_samples.py
+cellannotation/utils.py
+cellannotation.egg-info/PKG-INFO
+cellannotation.egg-info/SOURCES.txt
+cellannotation.egg-info/dependency_links.txt
+cellannotation.egg-info/requires.txt
+cellannotation.egg-info/top_level.txt
+cellannotation/examples/Dendritic-cells-MWU.ipynb
+cellannotation/examples/Mouse Pancreas-MWU.ipynb
+cellannotation/examples/Pancreas-cells-MWU.ipynb
+cellannotation/tests/__init__.py
+cellannotation/tests/test_annotate_samples.py
+docs/Makefile
+docs/annotator.rst
+docs/conf.py
+docs/index.rst
+docs/make.bat
