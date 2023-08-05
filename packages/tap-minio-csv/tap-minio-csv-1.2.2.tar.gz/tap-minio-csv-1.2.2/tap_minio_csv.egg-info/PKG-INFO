@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tap-minio-csv
+Version: 1.2.2
+Summary: Singer.io tap for extracting CSV files from minio
+Home-page: https://github.com/rongfengliang/tap-minio-csv
+Author: rongfengliang
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: dev
