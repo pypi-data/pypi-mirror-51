@@ -1,0 +1,8 @@
+[console_scripts]
+toxicbuild = toxicbuild.script:main
+toxicintegrations = toxicbuild.integrations:main
+toxicmaster = toxicbuild.master:main
+toxicoutput = toxicbuild.output:main
+toxicslave = toxicbuild.slave:main
+toxicweb = toxicbuild.ui:main
+
