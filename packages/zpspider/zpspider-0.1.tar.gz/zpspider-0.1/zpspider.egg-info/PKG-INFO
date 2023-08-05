@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: zpspider
+Version: 0.1
+Summary: A high-level Web Crawling and Web Scraping framework
+Home-page: http://www.monetware.com/
+Author: zengcd
+Author-email: author@example.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Scrapy
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
