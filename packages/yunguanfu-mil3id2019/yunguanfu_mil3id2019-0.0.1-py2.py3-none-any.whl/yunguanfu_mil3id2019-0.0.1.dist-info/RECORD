@@ -1,0 +1,16 @@
+yfmil3id2019/__init__.py,sha256=q63ePzWaG7UtKhBFyCCW6XPDsqsJnxE1Ntkc7jBBL_c,135
+yfmil3id2019/_version.py,sha256=msT0OmhJepBE3EFHslWMO4uszN9HYipwL0WlfPuKiYQ,18470
+yfmil3id2019/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yfmil3id2019/algorithms/addition.py,sha256=DMOpFLSFWC_B4Ay6e40yt3K1P2W8gFYoQbr6bGGa-J4,148
+yfmil3id2019/algorithms/multiplication.py,sha256=QtBolsENQzpW4kRi1-s_wWw0LmA9w8c56s4vhoga6MA,163
+yfmil3id2019/ui/__init__.py,sha256=yd6zES3tRRvVijeITfSeuUTerI1tgy8lAjhjfNFFMtA,43
+yfmil3id2019/ui/yfmil3id2019_test_app.py,sha256=WonbJU3dhfLiSIIofskiTef6nlGtGJYvc5u7OjHSlSI,464
+yfmil3id2019/ui/yfmil3id2019_test_command_line.py,sha256=4-c1x2JxGIL4jWCnyKoCo6LIqzs8JbRLNA-bXM3kowg,1599
+yfmil3id2019/ui/yfmil3id2019_train_app.py,sha256=HR5QJyDIYTSqJ6vRetR3DI9-UAlHRLD8fgl99P98O4Y,614
+yfmil3id2019/ui/yfmil3id2019_train_command_line.py,sha256=kYvEJgwxgFhgcyWne7j3KmxO7DflIg_RxwkGZPr67No,1323
+yunguanfu_mil3id2019-0.0.1.dist-info/LICENSE,sha256=7wpfDletNujEyNBU-yonB3tdpYYZFHbksv88t4RzgfI,1519
+yunguanfu_mil3id2019-0.0.1.dist-info/METADATA,sha256=LXvdzS9LEQ8LJ5YgbBTOie5XchB-ys_WEwluio0_VYg,4421
+yunguanfu_mil3id2019-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+yunguanfu_mil3id2019-0.0.1.dist-info/entry_points.txt,sha256=wzZ_KuUHEVigxl8sahIDcyFDV2T8Oq4JJEgVUIxfy_s,165
+yunguanfu_mil3id2019-0.0.1.dist-info/top_level.txt,sha256=dDEDQMb0oIvv-K-KCXL-FZ6tJsHlX4Cy6b5QLJShTTA,13
+yunguanfu_mil3id2019-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+yfmil3id2019_test = yfmil3id2019.ui.yfmil3id2019_test_command_line:main
+yfmil3id2019_train = yfmil3id2019.ui.yfmil3id2019_train_command_line:main
+
