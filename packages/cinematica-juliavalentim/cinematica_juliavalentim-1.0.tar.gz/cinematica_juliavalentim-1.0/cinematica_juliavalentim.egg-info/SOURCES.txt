@@ -1,0 +1,5 @@
+setup.py
+cinematica_juliavalentim.egg-info/PKG-INFO
+cinematica_juliavalentim.egg-info/SOURCES.txt
+cinematica_juliavalentim.egg-info/dependency_links.txt
+cinematica_juliavalentim.egg-info/top_level.txt
