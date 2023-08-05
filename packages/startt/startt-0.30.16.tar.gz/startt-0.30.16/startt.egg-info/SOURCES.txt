@@ -1,0 +1,14 @@
+README.md
+setup.py
+scripts/startt
+startt/__init__.py
+startt/analyze.py
+startt/config.py
+startt/process.py
+startt.egg-info/PKG-INFO
+startt.egg-info/SOURCES.txt
+startt.egg-info/dependency_links.txt
+startt.egg-info/namespace_packages.txt
+startt.egg-info/requires.txt
+startt.egg-info/top_level.txt
+startt.egg-info/zip-safe

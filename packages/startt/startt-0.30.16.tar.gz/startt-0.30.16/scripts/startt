@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+
+from docopt import docopt
+import os
+from startt import version
+from startt.analyze import get_template_folder, get_available_templates
+from startt.process import copy_template
+
+doc = """
+tmpl version {}
+
+Usage:
+    startt [options] [<filename>]
+
+Options:
+    -t <TEMPLATE_FOLDER>, --template-folder=<TEMPLATE_FOLDER>
+        Folder of available templates [default: ~/templates]
+""".format(version)
+
+
+if __name__ == '__main__':
+    args = docopt(doc, version=version)
+
+    template_folder = get_template_folder(args)
+    if args['<filename>']:
+        copy_template(args['<filename>'], template_folder)
+    else:
+        for fname in sorted(get_available_templates(template_folder)):
+            print(os.path.basename(fname))
