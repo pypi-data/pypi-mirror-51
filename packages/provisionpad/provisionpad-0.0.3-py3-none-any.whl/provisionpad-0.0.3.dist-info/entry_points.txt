@@ -1,0 +1,3 @@
+[console_scripts]
+propad = provisionpad.bin.propad:main
+
