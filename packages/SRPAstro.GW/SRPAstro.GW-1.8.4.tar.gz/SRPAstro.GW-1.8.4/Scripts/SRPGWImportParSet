@@ -1,0 +1,43 @@
+""" Code to create SRP SExtractor parameter set
+
+Context : SRP
+Module  : SRPGWImportParSet
+Author  : Stefano Covino
+Date    : 31/10/2015
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Manage to provide information for catalog file import
+
+Usage   : SRPGWImportParSet [-h] -p arg [-v]
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -p PREDEFFILE, --predef=PREDEFFILE
+                        Pre-defined import file
+  -v, --verbose         Fully describe operations
+
+
+History : (31/10/2015) First version.
+"""
+
+
+
+from optparse import OptionParser
+import os.path, shutil
+import SRPGW as GW
+
+
+parser = OptionParser(usage="usage: %prog [-h] -p arg [-v]", version="%prog 1.0.0")
+parser.add_option("-p", "--predef", action="store", nargs=1, type="string", dest="predeffile", help="Pre-defined import file")
+parser.add_option("-v", "--verbose", action="store_true", dest="verbose", help="Fully describe operations")
+(options, args) = parser.parse_args()
+
+
+if options.predeffile:
+    if options.verbose:
+        print("Creating import parameter set: %s." % options.predeffile)
+    shutil.copyfile(os.path.join(GW.__path__[0],GW.DATADIR,GW.PREDEFFILE),options.predeffile)
+else:
+    parser.error("An output file must be indicated.")
+    

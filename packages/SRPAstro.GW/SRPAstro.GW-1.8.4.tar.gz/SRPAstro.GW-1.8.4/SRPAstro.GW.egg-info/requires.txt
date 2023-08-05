@@ -1,0 +1,12 @@
+SRPAstro>=4.2.13
+PyPrind
+mysql-connector-python
+sep>=0.5
+photutils
+astropy>=1.1.1
+aplpy
+pyds9
+SRPAstro.FITS>=2.4.3
+astlib
+feets
+pydl

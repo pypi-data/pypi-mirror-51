@@ -1,0 +1,61 @@
+""" Code to query catalogues
+    Context : SRP.GW
+    Module  : SRPGWVSTPointing
+    Author  : Stefano Covino
+    Date    : 18/05/2017
+    E-mail  : stefano.covino@brera.inaf.it
+    URL:    : http://www.merate.mi.astro.it/utenti/covino
+    Purpose : Check if coordinates are in any pointing.
+    
+    usage: 
+    
+    
+    History : (02/04/2016) First version.
+            : (18/05/2017) Minor update.
+"""
+
+__version__ = '1.0.1'
+
+
+import argparse
+from SRP.SRPSystem.PyFind import PyFind
+from SRPFITS.Fits.IsFits import IsFits
+import SRPGW as GW
+from SRPGW.IsCoordIn import IsCoordIn
+
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-e", "--exclpattern", action="store", nargs='*', default=['*weight*','*flag*'], help="Exclusion pattern", metavar='epatt1')
+parser.add_argument("-o", "--object", action="store", nargs=2, type=float, required=True, help="Object coordinates (hh.ddd dd.ddd)", metavar=('RA','DEC'))
+parser.add_argument("-p", "--framepath", action="store", required=True, help="Base path for FITS frames", metavar='frpath')
+parser.add_argument("-s", "--selpattern", action="store", default='*.fits', help="Selection pattern", metavar='spatt')
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.object and options.framepath:
+    #
+    flist = PyFind(options.framepath,options.selpattern,options.exclpattern)
+    #
+    gfiles = []
+    for f in flist:
+        if IsFits(f) and IsCoordIn(options.object[0],options.object[1],f):
+            gfiles.append(f)
+    #
+    if len(gfiles) > 0:
+        if options.verbose:
+            print ("Coordinates RA=%.5f, DEC=%.5f are in frame(s):" % (options.object[0],options.object[1]))
+            for gf in gfiles:
+                print("\t",gf)
+        else:
+            msg = ""
+            for gf in gfiles:
+                msg = msg + gf + ' '
+            print(msg)
+else:
+    parser.print_help()
+#

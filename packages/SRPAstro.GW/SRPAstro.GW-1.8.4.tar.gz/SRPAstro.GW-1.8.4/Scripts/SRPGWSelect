@@ -1,0 +1,87 @@
+""" Code to select FITS tables
+Context : SRP.GW
+Module  : SRPGWSelect
+Author  : Stefano Covino
+Date    : 03/02/2017
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Select FITS tables
+
+usage: SRPGWSelect [-h] [-d] -i inputfile -o outfile -s selstr [-v]
+                   [--version]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --debug           Debug information
+  -i inputfile, --inputfile inputfile
+                        Input table
+  -o outfile, --outfile outfile
+                        Output table
+  -s selstr, --selstr selstr
+                        Selection string
+  -v, --verbose         Fully describe operations
+  --version             show program's version number and exit
+
+
+History : (31/10/2015) First version.
+        : (25/02/2016) Better management of metadata.
+        : (02/03/2017) Update.
+"""
+
+__version__ = '1.0.2'
+
+
+import argparse, os
+import numpy
+from astropy.table import Table
+import SRPGW as GW
+from SRPGW.GetCommandStr import GetCommandStr
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-d", "--debug", action="store_true", help="Debug information")
+parser.add_argument("-i", "--inputfile", action="store", help="Input table", required=True, metavar='inputfile')
+parser.add_argument("-o", "--outfile", action="store", help="Output table", required=True, metavar='outfile')
+parser.add_argument("-s", "--selstr", action="store", help="Selection string", required=True, metavar='selstr')
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfile and options.outfile and options.selstr:
+    #
+    if not os.path.isfile(options.inputfile):
+        parser.error ("Input file list does not exist.")
+    #
+    if options.verbose:
+        print ("Reading table ", options.inputfile)
+    dt = Table.read(options.inputfile, format='ascii.ecsv')
+    #
+    selstr = GetCommandStr (options.selstr, dt.columns.keys(), "dt")
+    #selstr = options.selstr
+    #for en in options.selstr.split():
+    #    if en in dt.columns.keys():
+    #        newselstr = selstr.replace(en,"dt['"+en+"']")
+    #        selstr = newselstr
+    if options.verbose:
+        print("Selecting...")
+    if options.debug:
+        print("Applied selection: ", selstr)
+    #
+    try:
+        sel = dt[eval(selstr)]
+    except SyntaxError:
+        parser.error ("Syntax error in command.")
+    except NameError:
+        parser.error ("Column not recognized.")
+    #
+    sel.write(options.outfile,format='ascii.ecsv', overwrite=True)
+    if options.verbose:
+        print ("Table %s with %d entries saved." % (options.outfile, len(sel)))
+    else:
+        print (options.outfile, len(sel))
+else:
+    parser.print_help()
+#

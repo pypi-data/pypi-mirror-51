@@ -1,0 +1,202 @@
+""" Code to generate siurce catalogues
+    
+Context : SRP.GW
+Module  : SRPGWSourceFinder
+Author  : Stefano Covino
+Date    : 11/05/2019
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Import sextractor catalogues
+
+usage: SRPGWImportCats [-h] [-c RA DEC] -i ifilelist -o outfile [-p parfile]
+[-r] [-v] [--version]
+
+optional arguments:
+-h, --help            show this help message and exit
+-c RA DEC, --coordcols RA DEC
+Coordinate column labels
+-i ifilelist, --inputfilelist ifilelist
+File with catfiles to be imported (one per line)
+-o outfile, --outfile outfile
+Output file with all the imported data
+-p parfile, --parfile parfile
+Parameter file for imported catalogue
+-r, --reducesize      Reduce file size (flota64 to float32)
+-v, --verbose         Fully describe operations
+--version             show program's version number and exit
+
+
+
+History : (02/02/2016) First version.
+        : (09/03/2016) FWHM computation added.
+        : (10/05/2016) Management of SCAMP astrometry.
+        : (11/05/2016) Management of different data arrays in input.
+        : (02/03/2017) Update.
+        : (16/05/2017) Minor update.
+        : (18/05/2017) Minor update.
+        : (03/10/2017) Better management of too many objects with sex.
+        : (11/05/2019) More cycles in object search.
+"""
+
+__version__ = '1.3.1'
+
+
+
+import argparse, os, sys
+import numpy
+from astropy.table import Column, Table
+from astropy.io.fits import getdata
+from astropy.stats import sigma_clipped_stats
+from astropy.wcs import WCS
+import astropy.wcs
+from photutils import DAOStarFinder
+import sep
+import SRPGW as GW
+from SRPFITS.Fits.IsFits import IsFits
+import astLib.astWCS as aLW
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-c", "--conv", action="store_true", help="Convolved image search for SExtractor")
+parser.add_argument("-d", "--daofind", action="store_true", help="DAOFIND algorithm")
+parser.add_argument("-f", "--fwhm", type=float, default=5, action="store", help="FWHM of typical sources (pixel)", metavar='fwhm')
+parser.add_argument("-i", "--inputfitsfile", action="store", help="FITS file to be analyzed", required=True, metavar='fitsfile')
+parser.add_argument("-o", "--outfile", action="store", help="Output catalogue", required=True, metavar='outfile')
+parser.add_argument("-s", "--sextractor", action="store_true", help="SExtractor algorithm")
+parser.add_argument("-t", "--threshold", type=float, default=5, action="store", help="Threshold for extraction", metavar='threshold')
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfitsfile and options.outfile:
+    #
+    if not (options.daofind or options.sextractor) or (options.daofind and options.sextractor):
+        parser.error("One only option between daofind/sextractor must be selected.")
+    #
+    if not IsFits(options.inputfitsfile):
+        parser.error ("Input FITS file does not exist.")
+    #
+    if options.fwhm <= 0.0:
+        parser.error("FWHM must be positive.")
+    #
+    if options.threshold <= 0.0:
+        parser.error("Threshold must be positive.")
+    #
+    if options.verbose:
+        print ("Reading FITS file %s" % options.inputfitsfile)
+    data = getdata(options.inputfitsfile)
+    APYWCS = False
+    try:
+        w = WCS(options.inputfitsfile)
+        APYWCS = True
+    except astropy.wcs._wcs.InvalidTransformError:
+        w = aLW.WCS(options.inputfitsfile)
+        w.NUMPY_MODE = False
+    #
+    if options.daofind:
+        if options.verbose:
+            print ("DAOFIND algorithm")
+            print ("Derive frame statistics...")
+        mean, median, std = sigma_clipped_stats(data, sigma=3.0, iters=5)
+        #
+        if options.verbose:
+            print ("Source extraction...")
+        daofind = DAOStarFinder(fwhm=round(options.fwhm), threshold=options.threshold*std)
+        sources = daofind(data - median)
+        #
+        sources.rename_column('xcentroid',GW.XCOL)
+        sources.rename_column('ycentroid',GW.YCOL)
+        #
+        if options.verbose:
+            print ("Computing RA, DEC...")
+        if APYWCS:
+            RA, DEC = w.all_pix2world(sources[GW.XCOL], sources[GW.YCOL], 1)
+        else:
+            RADEC = w.pix2wcs(sources[GW.XCOL].data, sources[GW.YCOL].data)
+            RA = [i[0] for i in RADEC]
+            DEC = [i[1] for i in RADEC]
+        racol = Column(RA, name=GW.RACOL)
+        deccol = Column(DEC, name=GW.DECCOL)
+        sources.add_column(racol)
+        sources.add_column(deccol)
+    elif options.sextractor:
+        if issubclass(data.dtype.type, numpy.integer):
+            data = data.astype(numpy.float)
+            if options.verbose:
+                print ('Data converted to float...')
+        border = sys.byteorder
+        dorder = data.dtype.byteorder
+        if (dorder == GW.bendian) or (border == GW.big and dorder == GW.native):
+            data = data.byteswap().newbyteorder()
+            if options.verbose:
+                print ('Data byte order swapped...')
+        #
+        if options.verbose:
+            print ("SExtractor algorithm")
+            print ("Derive frame statistics...")
+        bkg = sep.Background(data, bw=64, bh=64, fw=round(options.fwhm), fh=round(options.fwhm))
+        bkg.subfrom(data)
+        #
+        if options.verbose:
+            print ("Source extraction...")
+        thresh = options.threshold * bkg.globalrms
+        #
+        if options.conv:
+            if options.fwhm <= 4.5:
+                skernel = GW.gauss_4_0_7x7
+            else:
+                skernel = GW.gauss_5_0_9x9
+        else:
+            skernel=None
+        #
+        natt = 0
+        while natt < 5:
+            try:
+                objects = sep.extract(data, thresh, filter_kernel=skernel, minarea=GW.minarea, deblend_nthresh=GW.deblend_nthresh,
+                              deblend_cont=GW.deblend_cont, clean=GW.clean, clean_param=GW.clean_param)
+                break
+            except:
+                thresh = thresh + thresh/3.
+                if options.verbose:
+                    print("Threshold chnaged to: {:.2f}".format(thresh))
+                natt = natt + 1
+        #
+        sources = Table(objects)
+        #
+        sources.rename_column('x',GW.XCOL)
+        sources.rename_column('y',GW.YCOL)
+        #
+        if options.verbose:
+            print ("Computing FWHM...")
+        sources[GW.FWCOL] = 2 * numpy.sqrt ( numpy.log(2) * ( sources['a']**2 + sources['b']**2 ))
+        #
+        if options.verbose:
+            print ("Computing RA, DEC...")
+        if APYWCS:
+            RA, DEC = w.all_pix2world(sources[GW.XCOL], sources[GW.YCOL], 1)
+        else:
+            RADEC = w.pix2wcs(sources[GW.XCOL].data, sources[GW.YCOL].data)
+            RA = [i[0] for i in RADEC]
+            DEC = [i[1] for i in RADEC]
+        racol = Column(RA, name=GW.RACOL)
+        deccol = Column(DEC, name=GW.DECCOL)
+        sources.add_column(racol)
+        sources.add_column(deccol)
+    #
+    if options.verbose:
+        print ("Sorting table...")
+    sources.sort([GW.RACOL,GW.DECCOL])
+    #
+    if options.verbose:
+        print ("Saving...")
+    sources.write(options.outfile,format='ascii.commented_header',overwrite=True)
+    if options.verbose:
+        print ("Table %s with %d entries saved." % (options.outfile, len(sources)))
+    else:
+        print (options.outfile, len(sources))
+else:
+    parser.print_help()
+#

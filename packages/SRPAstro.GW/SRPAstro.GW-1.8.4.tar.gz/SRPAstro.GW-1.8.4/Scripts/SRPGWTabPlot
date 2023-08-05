@@ -1,0 +1,110 @@
+""" Code to plot columns
+Context : SRP.GW
+Module  : SRPGWAnalysis
+Author  : Stefano Covino
+Date    : 15/02/2016
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Data Analysis
+
+usage: SRPGWTabPlot [-h] -i inputfile [-o outfile] -p [plotcol [plotcol ...]]
+                    [-s symbsize] [-v] [--version]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i inputfile, --inputfile inputfile
+                        Input table
+  -o outfile, --outfile outfile
+                        Output plot
+  -p [plotcol [plotcol ...]], --plotcols [plotcol [plotcol ...]]
+                        Columns to be used in plotting (first x-axis)
+  -s symbsize, --symbolsize symbsize
+                        Plot symbol size
+  -v, --verbose         Fully describe operations
+  --version             show program's version number and exit
+
+
+History : (08/11/2015) First version.
+        : (13/02/2016) Non-interactive back-end.
+        : (15/02/2016) Histograms added.
+"""
+
+__version__ = '1.1.0'
+
+
+#import matplotlib
+#matplotlib.use('Agg')
+import argparse, os
+import numpy, pylab
+from astropy.table import Table
+import SRPGW as GW
+
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-H", "--histogram", action="store_true", help="Histogram plot")
+parser.add_argument("-i", "--inputfile", action="store", help="Input table", required=True, metavar='inputfile')
+parser.add_argument("-l", "--limits", action="store", nargs=2, type=float, help="Plot limits", metavar=('ymin','ymax'))
+parser.add_argument("-o", "--outfile", action="store", help="Output plot", metavar='outfile')
+parser.add_argument("-p", "--plotcols", action="store", nargs='*', help="Columns to be used in plotting (first x-axis)", required=True, metavar='plotcols')
+parser.add_argument("-s", "--symbolsize", action="store", type=int, default=5, help="Plot symbol size", metavar='symbsize')
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfile and options.plotcols:
+    #
+    if len(options.plotcols) < 2 and not options.histogram:
+        parser.error ("For a plot at least two columns are required.")
+    elif len(options.plotcols) < 1 and options.histogram:
+        parser.error ("For a histogram at least one column is required.")
+    #
+    if options.symbolsize < 1:
+        parser.error ("Symbol size is at least 1.")
+    #
+    if not os.path.isfile(options.inputfile):
+        parser.error ("Input file list does not exist.")
+    #
+    if options.verbose:
+        print ("Reading table ", options.inputfile)
+    dt = Table.read(options.inputfile, format='ascii.ecsv')
+    #
+    if options.histogram:
+        nbin = int(len(dt)/1000)
+        if nbin < 10:
+            nbin = 10
+    #
+    for cl in range(len(options.plotcols)):
+        if options.plotcols[cl] in dt.columns.keys():
+            if cl == 0:
+                p = pylab.figure()
+                px = p.add_subplot(111)
+                [i.set_linewidth(2) for i in px.spines.values()]
+                pylab.title(options.inputfile,fontsize='x-large')
+                pylab.xlabel(options.plotcols[cl],fontsize='xx-large')
+                pylab.ylabel('Column(s)',fontsize='xx-large')   
+                if options.histogram:
+                    pylab.hist(dt[options.plotcols[0]],nbin,label=options.plotcols[0])
+            else:
+                if options.histogram:
+                    pylab.hist(dt[options.plotcols[cl]],nbin,label=options.plotcols[cl])
+                else:
+                    pylab.plot(dt[options.plotcols[0]],dt[options.plotcols[cl]],'o',
+                        ms=options.symbolsize,label=options.plotcols[cl])
+        else:
+            parser.error ("Column %s does not exist." % options.plotcols[cl]) 
+    if options.limits:
+        pylab.ylim((options.limits[0],options.limits[1]))
+    pylab.legend(loc='best',numpoints=1)
+    if options.outfile:
+        pylab.savefig(os.path.splitext(options.outfile)[0]+'.png')
+        if options.verbose:
+            print ("Saving %s" % (os.path.splitext(options.outfile)[0]+'.png'))
+    else:
+        pylab.show()
+else:
+    parser.print_help()
+#

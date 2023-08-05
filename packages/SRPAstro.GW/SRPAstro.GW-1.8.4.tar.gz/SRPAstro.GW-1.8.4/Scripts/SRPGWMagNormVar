@@ -1,0 +1,216 @@
+""" Code to do computations on columns
+Context : SRP.GW
+Module  : SRPGWMagNorm
+Author  : Stefano Covino
+Date    : 26/03/2019
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Do computations on columns
+
+usage: SRPGWCalc [-h] -c calc [-d] -i inputfile -o outfile [-v] [--version]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c calc, --calc calc  Computation to be execjuted
+  -d, --debug           Debug information
+  -i inputfile, --inputfile inputfile
+                        Input table
+  -o outfile, --outfile outfile
+                        Output table
+  -v, --verbose         Fully describe operations
+  --version             show program's version number and exit
+
+
+History : (17/01/2016) First version.
+        : (18/01/2016) Ranges added.
+        : (25/01/2016) No more weights considered in the script.
+        : (10/02/2016) Gooddata considered in the computations.
+        : (22/02/2016) Gooddata selectable.
+        : (25/02/2016) Calibration delta(m) in metadata.
+        : (03/03/2016) Always generate a variability index.
+        : (23/12/2016) Chi2 for each source.
+        : (02/03/2017) Update.
+        : (19/03/2019) Additional variability indices (feets package).
+        : (26/03/2019) Better Chi2 computation and more variability indices.
+"""
+
+
+__version__ = '1.5.1'
+
+
+import argparse, copy, os
+import numpy
+from astropy.table import Table
+import SRPGW as GW
+from SRPGW.Chi2 import Chi2
+import feets
+
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-G", "--gooddata", action="store_true", help="Gooddata statistics")
+parser.add_argument("-i", "--inputfile", action="store", help="Input table", required=True, metavar='inputfile')
+parser.add_argument("-m", "--magcol", action="store", nargs=2, help="Mag col ecol", default=(GW.SRPMAG,GW.eSRPMAG),metavar=('magcol','emagcol'))
+parser.add_argument("-o", "--outfile", action="store", help="Output table", required=True, metavar='outfile')
+parser.add_argument("-r", "--range", action="store", nargs=2, type=float, help="Range for calibration", metavar=('min','max'))
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+
+
+#
+if options.inputfile and options.outfile:
+    #
+    if not os.path.isfile(options.inputfile):
+        parser.error ("Input file list does not exist.")
+    #
+    if options.verbose:
+        print ("Reading table ", options.inputfile)
+    dt = Table.read(options.inputfile, format='ascii.ecsv')
+    #
+    if options.range:
+        if options.range[0] >= options.range[1]:
+            parser.error("Range values are not in the right order.")
+    #
+    magcol = options.magcol[0]
+    emagcol = options.magcol[1]
+    #
+    mags = []
+    for e in dt.columns.keys():
+        if magcol in e and e.find(magcol) == 0:
+            mags.append(e)
+    if len(mags) == 0:
+        parser.error('Magnitude column(s) not present.')
+    emags = []
+    for e in dt.columns.keys():
+        if emagcol in e:
+            emags.append(e)
+    if len(emags) == 0:
+        parser.error('Magnitude error column(s) not present.')
+    if len(mags) != len(emags):
+        parser.error('Magnitude and magnitude error column(s) do not match.')
+    #
+    flux = []
+    for e in dt.columns.keys():
+        if GW.FLUX in e and e.find(GW.FLUX) == 0:
+            flux.append(e)
+    if len(flux) == 0:
+        print("Flux column(s) not present.")
+        fluxflag = False
+    else:
+        fluxflag = True
+    #
+    eflux = []
+    for e in dt.columns.keys():
+        if GW.eFLUX in e:
+            eflux.append(e)
+    if len(eflux) == 0:
+        print("Flux error column(s) not present.")
+        fluxflag = False
+    if len(flux) != len(eflux):
+        print("Flux and Flux error column(s) do not match.")
+        fluxflag = False
+    #
+    epochs = []
+    for e in dt.columns.keys():
+        if GW.DATECOL in e:
+            epochs.append(e)
+    if len(epochs) == 0:
+        parser.error('Epoch column(s) not present.')
+    #
+    if options.gooddata:
+        print ("Good data statistics selected.")
+    gdatas = []
+    for g in dt.columns.keys():
+        if GW.GDATACOL in g:
+            gdatas.append(g)
+    gdflag = True
+    if len(gdatas) == 0:
+        gdflag = False
+        if options.verbose and options.gooddata:
+            print('Good data column(s) not present.')
+    if len(gdatas) != len(mags):
+        gdflag = False
+        if options.verbose and options.gooddata:
+            print('Good data and magnitude column(s) do not match.')
+    #
+    for i in range(1,len(mags)):
+        if gdflag and options.gooddata:
+            tbcl = dt[(dt[emags[0]] <= 0.5) & (dt[emags[i]] <= 0.5) & (dt[gdatas[0]] == True) & (dt[gdatas[i]] == True)]
+        else:
+            tbcl = dt[(dt[emags[0]] <= 0.5) & (dt[emags[i]] <= 0.5)]
+        if options.range:
+            tbcl = tbcl[(tbcl[mags[0]] >= options.range[0]) & (tbcl[mags[i]] >= options.range[0]) & (tbcl[mags[0]] <= options.range[1]) & (tbcl[mags[i]] <= options.range[1])]
+        dm = tbcl[mags[0]] - tbcl[mags[i]]
+        med = numpy.median(dm)
+        if options.verbose:
+            print ("DeltaMag between %s and %s: %.3f" % (mags[0], mags[i], med))
+        dt[mags[i]] = dt[mags[i]] + med
+        if fluxflag:
+            dt[flux[i]] = dt[flux[i]] * 10**(-med/2.5)
+            dt[eflux[i]] = dt[eflux[i]] * 10**(-med/2.5)
+        dt.meta[mags[i]] = "%.3f" % med
+    dt.meta[mags[0]] = "%.3f" % 0.0
+    #
+    if options.verbose:
+        print ("Generating variability indices...")
+    #
+    if gdflag and options.gooddata:
+        c = [dt[i[1]] for i in enumerate(mags) if dt[gdatas[i[0]] == True]]
+    else:
+        c = [dt[i] for i in mags]
+    lM = numpy.apply_along_axis(numpy.max, 0, c)
+    lm = numpy.apply_along_axis(numpy.min, 0, c)
+    mn = numpy.apply_along_axis(numpy.mean, 0, c)
+    #lv = numpy.apply_along_axis(numpy.var, 0, c)
+    dt[GW.VARINDCOL] = lM-lm
+    #dt[GW.VARINDCOL] = lv
+    dt[GW.AVEMAG] = mn
+    dt[GW.MINMAG] = lm
+    #
+    res = Chi2(dt)
+    if GW.CHI2 in dt.columns.keys():
+        dt.remove_column(GW.Chi2)
+    dt[GW.CHI2] = res
+    #
+    fedescr = GW.fedescr
+    for i in dt:
+        tm = []
+        fl = []
+        efl = []
+        if options.gooddata and gdflag:
+            for t,f,e,g in zip(epochs,flux,eflux,gdatas):
+                if i[f] > 0 and i[e] > 0 and g == True:
+                    tm.append(i[t])
+                    fl.append(i[f])
+                    efl.append(i[e])
+        else:
+            for t,f,e in zip(epochs,flux,eflux):
+                if i[f] > 0 and i[e] > 0:
+                    tm.append(i[t])
+                    fl.append(i[f])
+                    efl.append(i[e])
+        #
+        for d in fedescr:
+            if len(tm) > d['nmin']:
+                fs = feets.FeatureSpace(only=[d['name']])
+                fea,val = fs.extract(time=tm,magnitude=fl,error=efl)
+                c = dict(zip(fea, val))
+                d['tnk'].append(c[d['name']])
+            else:
+                d['tnk'].append(numpy.nan)
+    #
+    for d in fedescr:
+        dt[d['name']] = numpy.array(d['tnk'])
+    #
+    dt.write(options.outfile,format='ascii.ecsv', overwrite=True)
+    if options.verbose:
+        print ("Table %s with %d entries saved." % (options.outfile, len(dt)))
+    else:
+        print (options.outfile, len(dt))
+else:
+    parser.print_help()
+#

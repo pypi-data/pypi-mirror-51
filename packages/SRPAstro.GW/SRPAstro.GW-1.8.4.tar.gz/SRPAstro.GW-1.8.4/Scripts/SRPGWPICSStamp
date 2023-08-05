@@ -1,0 +1,75 @@
+""" Code to query catalogues
+    Context : SRP.GW
+    Module  : SRPGWPICSStamp
+    Author  : Stefano Covino
+    Date    : 23/01/2016
+    E-mail  : stefano.covino@brera.inaf.it
+    URL:    : http://www.merate.mi.astro.it/utenti/covino
+    Purpose : Query catalogues
+    
+    usage: SRPGWQuery [-h] [-B] [-c RA DEC] [-d] [-g gaiarad] -i inputfile -o
+    outfile [-s simbadrad] [-v] [-w wsubpath] [--version]
+    
+    optional arguments:
+    -h, --help            show this help message and exit
+    -B, --BoMySQL         IGAIA query to MySQL server in Bologna
+    -c RA DEC, --coordcols RA DEC
+    Coordinate column labels
+    -d, --debug           Debug information
+    -g gaiarad, --gaia gaiarad
+    GAIA catalogue query radius (arcsec)
+    -i inputfile, --inputfile inputfile
+    Input table
+    -o outfile, --outfile outfile
+    Output table
+    -s simbadrad, --simbad simbadrad
+    Simbad catalogue query radius (arcsec)
+    -v, --verbose         Fully describe operations
+    -w wsubpath, --weight wsubpath
+    Get weight frame value (substitute path)
+    --version             show program's version number and exit
+    
+    
+    History : (23/01/2016) First version.
+    """
+
+__version__ = '1.0.0'
+
+
+import matplotlib
+matplotlib.use('Agg')
+import argparse, os
+import numpy
+from astropy.table import Table
+import SRPGW as GW
+from SRPGW.GetPics import GetPics
+
+
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-i", "--inputfitsfile", action="store", help="FITS file", required=True, metavar='inputfitsfile')
+parser.add_argument("-n", "--newstamp", action="store", help="New stamp file prefix", required=True, metavar="newstamp")
+parser.add_argument("-o", "--object", action="store", nargs=2, type=float, required=True, help="Object coordinates (hh.ddd dd.ddd)", metavar=('RA','DEC'))
+parser.add_argument("-s", "--size", action="store", type=float, help="Stamp size (arcmin)", default=1, metavar='size')
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfitsfile and options.object and options.newstamp:
+    #
+    if not os.path.isfile(options.inputfitsfile):
+        parser.error ("Input file does not exist.")
+    #
+    if options.size <= 0.0:
+        parser.error ("Size must be positive.")
+    #
+    res = GetPics(options.object[0],options.object[1],options.newstamp,options.inputfitsfile,options.size*60.)
+    if options.verbose:
+        print("File %s created." % res)
+else:
+    parser.print_help()
+#

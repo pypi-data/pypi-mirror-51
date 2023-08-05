@@ -1,0 +1,121 @@
+""" Code to query catalogues
+    Context : SRP.GW
+    Module  : SRPGWQuery
+    Author  : Stefano Covino
+    Date    : 02/03/2017
+    E-mail  : stefano.covino@brera.inaf.it
+    URL:    : http://www.merate.mi.astro.it/utenti/covino
+    Purpose : Query catalogues
+    
+    usage: SRPGWQuery [-h] [-B] [-c RA DEC] [-d] [-g gaiarad] -i inputfile -o
+    outfile [-s simbadrad] [-v] [-w wsubpath] [--version]
+    
+    optional arguments:
+    -h, --help            show this help message and exit
+    -B, --BoMySQL         IGAIA query to MySQL server in Bologna
+    -c RA DEC, --coordcols RA DEC
+    Coordinate column labels
+    -d, --debug           Debug information
+    -g gaiarad, --gaia gaiarad
+    GAIA catalogue query radius (arcsec)
+    -i inputfile, --inputfile inputfile
+    Input table
+    -o outfile, --outfile outfile
+    Output table
+    -s simbadrad, --simbad simbadrad
+    Simbad catalogue query radius (arcsec)
+    -v, --verbose         Fully describe operations
+    -w wsubpath, --weight wsubpath
+    Get weight frame value (substitute path)
+    --version             show program's version number and exit
+    
+    
+    History : (30/12/2015) First version.
+            : (05/02/2016) Bug correction for angles.
+            : (02/03/2017) Update.
+    """
+
+__version__ = '1.0.2'
+
+
+import argparse, os
+import numpy
+from astropy.table import Column, Table, vstack
+import pyprind
+import SRPGW as GW
+from astropy.coordinates import SkyCoord
+from astropy import units as u
+import astropy.units.core
+
+
+
+
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-c", "--coordcols", action="store", nargs=2, default=('X_WORLD','Y_WORLD'), help="Coordinate column labels", metavar=('RA','DEC'))
+parser.add_argument("-i", "--inputfile", action="store", help="Input table", required=True, metavar='inputfile')
+parser.add_argument("-n", "--newtab", action="store", help="New table with selection (if it exists already selection is appended)", metavar="newtab")
+parser.add_argument("-o", "--object", action="store", nargs=2, type=float, required=True, help="Object coordinates (hh.ddd dd.ddd)", metavar=('RA','DEC'))
+parser.add_argument("-s", "--separation", action="store", type=float, help="Separation (arcsec)", default=0.5, metavar='separation')
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfile and options.object:
+    #
+    if options.newtab:
+    	if os.path.isfile(options.newtab):
+        	if options.verbose:
+            	    print ("Reading table ", options.newtab)
+        	nt = Table.read(options.newtab, format="ascii.ecsv")
+        	newold = True
+    	else:
+        	newold = False
+    #
+    if not os.path.isfile(options.inputfile):
+        parser.error ("Input file does not exist.")
+    #
+    if options.separation <= 0.0:
+        parser.error ("Separation must be positive.")
+    #
+    if options.verbose:
+        print ("Reading table ", options.inputfile)
+    dt = Table.read(options.inputfile, format='ascii.ecsv')
+    #
+    if (options.coordcols[0]+'_1' in dt.columns.keys()) and (options.coordcols[1]+'_1' in dt.columns.keys()):
+        racol = options.coordcols[0]+'_1'
+        deccol = options.coordcols[1]+'_1'
+    elif (options.coordcols[0] in dt.columns.keys()) and (options.coordcols[1] in dt.columns.keys()):
+        racol = options.coordcols[0]
+        deccol = options.coordcols[1]
+    else:
+        parser.error ("Coordinate columns not recognized.")
+    #
+    #    coords = AstroCoordInput(options.object[0], options.object[1])
+    try:
+        ct = SkyCoord(ra=dt[racol], dec=dt[deccol])
+    except astropy.units.core.UnitsError:
+        ct = SkyCoord(ra=dt[racol]*u.deg, dec=dt[deccol]*u.deg)
+    #
+    cs = SkyCoord(ra=options.object[0]*u.deg, dec=options.object[1]*u.deg)
+    id2 = cs.separation(ct) < options.separation*u.arcsec
+    seldt = dt[id2]
+    #
+    if options.newtab:
+        if newold:
+            ntt = vstack([nt,seldt])
+        else:
+            ntt = seldt
+        ntt.write(options.newtab,format="ascii.ecsv",overwrite=True)
+        #
+        if options.verbose:
+            print ("Table %s with %d entries saved." % (options.newtab, len(ntt)))
+    else:
+        seldt.pprint(max_width=-1)
+else:
+    parser.print_help()
+#

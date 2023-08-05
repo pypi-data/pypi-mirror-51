@@ -1,0 +1,151 @@
+""" Code to match FITS tables
+    
+Context : SRP.GW
+Module  : SRPGWMatch
+Author  : Stefano Covino
+Date    : 02/03/2017
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Coordinate match of FITS tables
+
+SRPGWMatch -husage: SRPGWMatch [-h] [-c RA DEC] -f firstcat -o outfilematch outfiledisapp
+                  outfileapp -r radius -s secondcat [-v] [--version]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c RA DEC, --coordcols RA DEC
+                        Coordinate column labels
+  -f firstcat, --firstcat firstcat
+                        First table
+  -o outfilematch outfiledisapp outfileapp, --outfile outfilematch outfiledisapp outfileapp
+                        Output tables for matched, disappeared and appeared
+                        sources
+  -r radius, --radius radius
+                        Radius for matching (arcsec)
+  -s secondcat, --secondcat secondcat
+                        Second table
+  -v, --verbose         Fully describe operations
+  --version             show program's version number and exit
+
+
+History : (13/11/2015) First version.
+        : (02/02/2016) Minor correction.
+        : (20/02/2016) Better angle management.
+        : (07/12/2016) Nore general table matching tool.
+        : (02/03/2017) Update.
+"""
+
+__version__ = '2.0.1'
+
+
+import argparse, os
+import numpy
+from astropy.table import hstack, Table
+from astropy.coordinates import SkyCoord
+from astropy.coordinates import search_around_sky
+from astropy import units as u
+import SRPGW as GW
+from SRPGW.FindPathes import FindPathes
+import astropy.units.core
+
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-c", "--coordcols", action="store", nargs=2, default=('X_WORLD','Y_WORLD'), help="Coordinate column labels", metavar=('RA','DEC'))
+#parser.add_argument("-d", "--deltamag", action="store", type=float, nargs=4, help="Add Delta(Mag) column and normalize to the first table.", metavar=('colmag', 'ecolmag', 'minmag', 'maxmag'))
+parser.add_argument("-f", "--firstcat", action="store", help="First table", required=True, metavar='firstcat')
+parser.add_argument("-o", "--outfile", action="store", nargs=3, help="Output tables for matched, disappeared and appeared sources", required=True, metavar=('outfilematch', 'outfiledisapp', 'outfileapp'))
+parser.add_argument("-r", "--radius", action="store", type=float, help="Radius for matching (arcsec)", required=True, metavar='radius')
+parser.add_argument("-s", "--secondcat", action="store", help="Second table", required=True, metavar='secondcat')
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.firstcat and options.secondcat and options.radius:
+    #
+    if not os.path.isfile(options.firstcat):
+        parser.error ("First input file does not exist.")
+    if not os.path.isfile(options.secondcat):
+        parser.error ("Second input file does not exist.")
+    if options.radius < 0.0:
+        parser.error ("Radius must be positive.")
+    #
+    if options.verbose:
+        print ("Reading table ", options.firstcat)
+    dt1 = Table.read(options.firstcat, format='ascii.ecsv')
+    if options.verbose:
+        print ("Reading table ", options.secondcat)
+    dt2 = Table.read(options.secondcat, format='ascii.ecsv')
+    #
+    ra = options.coordcols[0]
+    dec = options.coordcols[1]
+    if ra in dt1.columns.keys() and dec in dt1.columns.keys():
+        try:
+            c1 = SkyCoord(ra=dt1[ra]*u.degree, dec=dt1[dec]*u.degree)
+        except astropy.units.core.UnitsError:
+            c1 = SkyCoord(ra=dt1[ra], dec=dt1[dec])
+    else:
+        parser.error("RA,DEC coordinates not found in table ", options.firstcat)
+    if ra in dt2.columns.keys() and dec in dt2.columns.keys():
+        try:
+            c2 = SkyCoord(ra=dt2[ra]*u.degree, dec=dt2[dec]*u.degree)
+        except astropy.units.core.UnitsError:
+            c2 = SkyCoord(ra=dt2[ra], dec=dt2[dec])
+    else:
+        parser.error("RA,DEC coordinates not found in table ", options.secondcat)
+    #
+    if options.verbose:
+        print ("Tables contain %d and %d entries, respectively." % (len(c1),len(c2)))
+        print ("Matching...")
+    id1, id2, d2d, d3d = search_around_sky(c1, c2, options.radius*u.arcsec)
+    #
+    ind1 = numpy.unique(id1)
+    ind2 = numpy.unique(id2)
+    mask1 = numpy.ones(len(c1), dtype=numpy.bool)
+    mask2 = numpy.ones(len(c2), dtype=numpy.bool)
+    mask1[ind1] = False
+    mask2[ind2] = False
+    noid1 = numpy.arange(len(c1))[mask1]
+    noid2 = numpy.arange(len(c2))[mask2]
+    #
+    if options.verbose:
+        print ("Saving results...")
+    d1 = dt1[id1]
+    d2 = dt2[id2]
+    restabm = hstack([d1,d2],metadata_conflicts='warn')
+    restabm.meta['COMMENT'] = ["Table resulting from match between %s and %s with radius %.2f arcsec" % (options.firstcat, options.secondcat, options.radius),]
+    if options.verbose:
+        print ("%d matches found." % len(restabm))
+    restabm.write(options.outfile[0],format='ascii.ecsv', overwrite=True)
+    #
+    d1 = dt1[noid1]
+    d1.meta['COMMENT'] = ["Table resulting from entries disappeared between %s and %s with radius %.2f arcsec" % (options.firstcat, options.secondcat, options.radius),]
+    cc = []
+    for c in d1.keys():
+        cc.append(c)
+    cc.reverse()
+    for c in cc:
+        d1.rename_column(c,c+'_1')
+    #
+    if options.verbose:
+        print ("%d entries disappeared." % len(d1))
+    d1.write(options.outfile[1],format='ascii.ecsv', overwrite=True)
+    #
+    d2 = dt2[noid2]
+    d2.meta['COMMENT'] = ["Table resulting from entries appeared between %s and %s with radius %.2f arcsec" % (options.firstcat, options.secondcat, options.radius),]
+    cc = []
+    for c in d2.keys():
+        cc.append(c)
+    cc.reverse()
+    for c in cc:
+        d2.rename_column(c,c+'_1')
+    #
+    if options.verbose:
+        print ("%d entries appeared." % len(d2))
+    d2.write(options.outfile[2],format='ascii.ecsv', overwrite=True)
+else:
+    parser.print_help()
+#

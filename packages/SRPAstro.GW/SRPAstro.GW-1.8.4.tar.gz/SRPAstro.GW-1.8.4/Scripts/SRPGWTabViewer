@@ -1,0 +1,142 @@
+""" Code to show tables
+Context : SRP.GW
+Module  : SRPGWTabViewer
+Author  : Stefano Covino
+Date    : 07/08/2019
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Data Analysis
+
+usage: SRPGWTabViewer [-h] [-b] [-H] -i inputfile [-t] [-v] [--version]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b, --browser         Table shown in browser
+  -H, --html            HTML output
+  -i inputfile, --inputfile inputfile
+                        Input table
+  -t, --text            Table shown in terminal
+  -v, --verbose         Fully describe operations
+  --version             show program's version number and exit
+
+History : (13/11/2015) First version.
+        : (14/12/2015) Minor cosmetic change.
+        : (26/01/2016) skycat output.
+        : (03/02/2016) Execution meter.
+        : (11/05/2019) Overwrite.
+        : (07/08/2019) Better VO extension.
+"""
+
+__version__ = '1.2.2'
+
+
+import argparse, os
+import numpy
+import pyprind
+from astropy.table import Table
+import SRP.SRPTables.HTML as HTML
+import SRPGW as GW
+
+
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-b", "--browser", action="store_true", help="Table shown in browser")
+parser.add_argument("-F", "--fits", action="store_true", help="FITS output")
+parser.add_argument("-H", "--html", action="store_true", help="HTML output")
+parser.add_argument("-i", "--inputfile", action="store", help="Input table", required=True, metavar='inputfile')
+parser.add_argument("-S", "--skycat", action="store_true", help="GAIA (skycat) output")
+parser.add_argument("-t", "--text", action="store_true", help="Table shown in terminal")
+parser.add_argument("-V", "--vo", action="store_true", help="VO output")
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfile:
+    #
+    if not os.path.isfile(options.inputfile):
+        parser.error ("Input file does not exist.")
+    #
+    if not (options.browser or options.text or options.html or options.skycat or options.fits or options.vo):
+        parser.error ("At least one option (browser/text/html/skycat/fits/vo) should be set.")
+    #
+    if options.verbose:
+        print ("Reading table ", options.inputfile)
+    dt = Table.read(options.inputfile, format='ascii.ecsv')
+    #
+    if options.browser:
+        #dt.show_in_browser(max_lines=-1, jsviewer=True)
+        dt.show_in_browser(jsviewer=True)
+    #
+    if options.text:
+        dt.pprint(max_lines=-1, max_width=-1)
+    #
+    if options.html:
+        if options.verbose:
+            print ("Converting table to HTML...")
+        gwout = open(os.path.splitext(options.inputfile)[0]+'.html',"w")
+        hrow = dt.columns.keys()
+        thtml = HTML.Table(header_row=hrow)
+        for en in range(len(dt)):
+            tr = []
+            for cl in range(len(dt.columns)):
+                tr.append(dt.columns[cl][en])
+            thtml.rows.append(tr)
+        htmlcode = str(thtml)
+        gwout.write(htmlcode)
+        gwout.close()
+        if options.verbose:
+            print ("Saving %s" % (os.path.splitext(options.inputfile)[0]+'.html'))
+    #
+    if options.skycat:
+        if options.verbose:
+            print ("Converting table to skycat...")
+        ofname = os.path.splitext(options.inputfile)[0]+'.skycat'
+        gwout = open(ofname,"w")
+        #
+        msg = ''
+        msg = msg + "long_name: SRP catalog for file %s\n" % (ofname)
+        msg = msg + "short_name: %s\n" % (ofname)
+        msg = msg + "url: ./%s\n" % (ofname)
+        msg = msg + "symbol: {} {circle blue} 10\n"
+        msg = msg + "id_col: 0\n"
+        msg = msg + "ra_col: %d\n" % dt.columns.keys().index(GW.RACOL)
+        msg = msg + "dec_col: %d\n" % dt.columns.keys().index(GW.DECCOL)
+        for cl in dt.columns.keys():
+            msg = msg + "%s\t" % cl
+        msg = msg + "\n"
+        msg = msg + "---------\n"
+        gwout.write(msg)
+        if options.verbose:
+            dtpbar = pyprind.prog_bar(dt)
+        else:
+            dtpbar = dt
+        for en in dtpbar:
+            msg = ''
+            for cl in dt.columns.keys():
+                msg = msg + str(en[cl])+"\t"
+            msg = msg + "\n"
+            gwout.write(msg)
+        msg = "EOD\n"
+        #
+        gwout.write(msg)
+        gwout.close()
+        if options.verbose:
+            print ("Saving %s" % ofname)
+    #
+    if options.fits:
+        if options.verbose:
+            print ("Converting table to FITS...")
+        dt.write(os.path.splitext(options.inputfile)[0]+'.fits',format='fits',overwrite=True)
+    #
+    if options.vo:
+        if options.verbose:
+            print ("Converting table to VO table...")
+        dt.write(os.path.splitext(options.inputfile)[0]+'.vot',format='votable',overwrite=True)
+    # 
+else:
+    parser.print_help()
+#

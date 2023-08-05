@@ -1,0 +1,107 @@
+""" Code to compute colum stats
+Context : SRP.GW
+Module  : SRPGWStat
+Author  : Stefano Covino
+Date    : 28/04/2019
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Compute column stats
+
+usage: SRPGWStat [-h] -c col -i inputfile [-v] [--version]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c col, --col col     Column to be analyzed
+  -i inputfile, --inputfile inputfile
+                        Input table
+  -v, --verbose         Fully describe operations
+  --version             show program's version number and exit
+
+History : (11/12/2015) First version.
+		: (02/01/2016) Limits for the analysis.
+        : (09/02/2016) Highest zero in histogram.
+        : (13/02/2016) Better bin width.
+        : (15/02/2016) Safer bin width.
+        : (16/02/2016) Again about the histogram valley.
+        : (20/02/2016) Bug correction.
+        : (26/02/2016) Bug correction.
+        : (15/08/2017) Removed computation of the highest zero.
+        : (28/04/2019) Computation of the 25% and 75% percentile. Computation of sigma_clipped_stats.
+"""
+
+__version__ = '1.4.2'
+
+import argparse, os
+import numpy
+from astropy.table import Table
+import astropy.stats
+import SRPGW as GW
+from SRP.SRPStatistics.MAD import MAD
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-c", "--col", action="store", help="Column to be analyzed", required=True, metavar='col')
+parser.add_argument("-i", "--inputfile", action="store", help="Input table", required=True, metavar='inputfile')
+parser.add_argument("-l", "--limits", action="store", type=float, nargs=2, help="Limits for the analysis", metavar=('min','max'))
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfile and options.col:
+    #
+    if not os.path.isfile(options.inputfile):
+        parser.error ("Input file list does not exist.")
+    #
+    if options.verbose:
+        print ("Reading table ", options.inputfile)
+    dtt = Table.read(options.inputfile, format='ascii.ecsv')
+    #
+    if options.col in dtt.columns.keys():
+        if options.limits:
+            dt = dtt[(dtt[options.col] >= options.limits[0]) & (dtt[options.col] <= options.limits[1])]
+        else:
+            dt = dtt
+        #
+        mean, median, std = astropy.stats.sigma_clipped_stats(dt[options.col])
+        #mean = numpy.mean(dt[options.col])
+        #std = numpy.std(dt[options.col])
+        #median = numpy.median(dt[options.col])
+        nr = len(dt[options.col]) 
+        max = numpy.max(dt[options.col])
+        min = numpy.min(dt[options.col])
+        perc25 = numpy.nanpercentile(dt[options.col],25)
+        perc75 = numpy.nanpercentile(dt[options.col],75)
+        #
+        #st = dt[options.col]
+        #hist = astropy.stats.histogram(st,bins='freedman')
+        #pkmax = hist[0].max()
+        #for i in range(len(hist[0]),0,-1):
+        #    lm = i
+        #    if hist[0][i-1] >= pkmax/3.:
+        #        break
+        #try:
+        #    pk = hist[1][:lm][hist[0][:lm] < 5].max()
+        #except ValueError:
+        #    pk = -99
+        #
+        if options.verbose:
+            print ("Mean: ", mean)
+            print ("Stddev: ", std)
+            print ("Median: ", median)
+            print ("Max: ", max)
+            print ("Min: ", min)
+            print ("25%Perc: ", perc25)
+            print ("75%Perc: ", perc75)
+            #print ("Highest zero: ", pk)
+            print ("Count: ", nr)
+        else:
+        #    print (mean, std, median, max, min, pk, nr)
+            print (mean, std, median, max, min, perc25, perc75, nr)
+    else:
+        parser.error ("Column %s not recognized." % options.col)
+else:
+    parser.print_help()
+#

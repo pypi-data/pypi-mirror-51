@@ -1,0 +1,395 @@
+""" Code to query catalogues
+Context : SRP.GW
+Module  : SRPGWAnalysis
+Author  : Stefano Covino
+Date    : 14/03/2019
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Data Analysis
+
+usage: SRPGWAnalysis [-h] [-a] [-A {my,sex,apy}] [-c RA DEC] [-d] -i inputfile
+-o outfile [-p] [-r ph1 is1 os1 ph2 is2 os2] [-v]
+[--version]
+
+optional arguments:
+-h, --help            show this help message and exit
+-a, --apphot          Compute aperture photometry
+-A {my,sex,apy}, --apphottype {my,sex,apy}
+Aperture photometry algorithm
+-c RA DEC, --coordcols RA DEC
+Coordinate column labels
+-d, --debug           Debug information
+-i inputfile, --inputfile inputfile
+Input table
+-o outfile, --outfile outfile
+Output table
+-p, --pics            Get pictures
+-r ph1 is1 os1 ph2 is2 os2, --radii ph1 is1 os1 ph2 is2 os2
+Radii for photometry
+-v, --verbose         Fully describe operations
+--version             show program's version number and exit
+
+
+History : (13/11/2015) First version.
+        : (18/12/2015) Adaptive photometry annuli.
+        : (21/12/2015) Photometric radii addeable on the command line.
+        : (22/12/2015) Minor bug.
+        : (01/02/2016) One more minor bug.
+        : (07/01/2016) Possibility to generate FITS stamps.
+        : (16/01/2016) Better managment of multiple entries.
+        : (23/01/2016) 'gravitown' workaround.
+        : (25/01/2016) Minor bugs.
+        : (28/01/2016) Possible centering before photometry.
+        : (02/02/2016) Minor improvement.
+        : (04/02/2016) Bug correction.
+        : (09/02/2016) Possibility not to subtract local background.
+        : (12/02/2016) First step in transition to a more efficient tool.
+        : (13/02/2016) Bug correction.
+        : (25/02/2016) DaoPhot-like photometry added.
+        : (26/02/2016) Recompute centers if requested.
+        : (27/07/2016) More correct information in output.
+        : (13/12/2016) astropy PSF photometry.
+        : (14/12/2016) Better output messages.
+        : (15/12/2016) Meta data for median FWHM
+        : (16/12/2016) FWHM for PSF computation.
+        : (22/02/2017) Names more distinguishable for pics and FITS files.
+        : (02/03/2017) Update.
+        : (03/10/2017) Bug in PSF object selection.
+        : (06/12/2017) Simpler code.
+        : (05/03/2019) Zero-point in photometry.
+        : (11/03/2019) Better management of PSF stars.
+        : (14/03/2019) Fluxes in tables.
+"""
+
+__version__ = '3.3.0'
+
+
+import matplotlib
+matplotlib.use('Agg')
+import argparse, os, sys
+import numpy
+import pyprind
+from astropy.table import Column, Table
+import SRPGW as GW
+from SRPGW.GetPics import GetPics
+from SRPGW.GetFits import GetFits
+from SRPGW.GetApPhot import GetApPhot
+from SRPGW.GetPSFPhot import GetPSFPhot
+import gc
+from SRP.SRPMath.FastAngularDistance import FastAngularDistance
+
+
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-a", "--apphot", action="store_true", help="Compute aperture photometry")
+parser.add_argument("-A", "--apphottype", action="store", default='my', choices=['my','sex','apy', 'dao'], help="Aperture photometry algorithm")
+parser.add_argument("-c", "--coordcols", action="store", nargs=2, default=('X_WORLD','Y_WORLD'), help="Coordinate column labels", metavar=('RA','DEC'))
+parser.add_argument("-C", "--center", action="store_true", help="Center object for photometry")
+parser.add_argument("-f", "--fits", action="store_true", help="Generate FITS stamps")
+parser.add_argument("-F", "--fitssize", action="store", type=float, default=1.0, help="FITS stamp size (arcmin)", metavar='stampsize')
+parser.add_argument("-i", "--inputfile", action="store", help="Input table", required=True, metavar='inputfile')
+parser.add_argument("-j", "--jpeg", action="store_true", help="Generate jpeg pictures")
+parser.add_argument("-N", "--nobackground", action="store_true", help="No background subtraction")
+parser.add_argument("-o", "--outfile", action="store", help="Output table", required=True, metavar='outfile')
+parser.add_argument("-p", "--psfphot", action="store", help="Compute PSF photometry (table with psf objects)", metavar='psfobjs')
+parser.add_argument("-r", "--radii", action="store", type=float, nargs=3, help="Radii for photometry", metavar=('ph1','is1','os1'))
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("-z", "--zeropoint", action="store", type=float, default=30.0, help="Magnitude zero-point")
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfile and options.outfile:
+    #
+    if not os.path.isfile(options.inputfile):
+        parser.error ("Input file does not exist.")
+    #
+    if not (options.jpeg or options.apphot or options.fits or options.psfphot):
+        parser.error ("At least one option between jpeg/apphot/fits/psfphot should be selected.")
+    #
+    if options.radii:
+        if options.radii[0] <= 0:
+            parser.error("Radii must be positive.")
+        elif options.radii[2] <= options.radii[1] or options.radii[1] < options.radii[0]:
+            parser.error("Radii must be increasing.")
+    #
+    if options.fits:
+        if options.fitssize <= 0:
+            parser.error("FITS stamp size must be positive.")
+    #
+    if options.center:
+        ccent = True
+    else:
+        ccent = False
+    #
+    if options.nobackground:
+        bback = False
+    else:
+        bback = True
+    #
+    if options.verbose:
+        print ("Reading table ", options.inputfile)
+    dt = Table.read(options.inputfile, format='ascii.ecsv')
+    if len(dt) == 0:
+        if options.verbose:
+            print("No entries in table ", options.inputfile)
+            sys.exit(0)
+    #
+    if (options.coordcols[0]+'_1' in dt.columns.keys()) and (options.coordcols[1]+'_1' in dt.columns.keys()):
+        racol = options.coordcols[0]+'_1'
+        deccol = options.coordcols[1]+'_1'
+    elif (options.coordcols[0] in dt.columns.keys()) and (options.coordcols[1] in dt.columns.keys()):
+        racol = options.coordcols[0]
+        deccol = options.coordcols[1]
+    else:
+        parser.error ("Coordinates columns not recognized.")
+    #
+    if options.apphot:
+        septool = options.apphottype
+        if options.apphottype == 'sex':
+            if options.verbose and options.apphot:
+                print ("SExtractor photometric tool enabled.")
+        elif options.apphottype == 'my':
+            if options.verbose and options.apphot:
+                print ("Native photometric tool enabled.")
+        elif options.apphottype == 'apy':
+            if options.verbose and options.apphot:
+                print ("astropy photometric tool enabled.")
+        elif options.apphottype == 'dao':
+            if options.verbose and options.apphot:
+                print ("daophot photometric tool enabled.")
+    #
+    if options.psfphot:
+        septool = options.apphottype
+        if options.apphottype == 'apy':
+            if options.verbose:
+                print ("astropy photometric tool enabled.")
+        elif options.apphottype == 'dao':
+            if options.verbose:
+                print ("daophot photometric tool enabled.")
+        else:
+            parser.error ("PSF photometric tool not available.")
+        #
+        if not os.path.isfile(options.psfphot):
+            parser.error ("PSF object table does not exist.")
+        #
+        if options.verbose:
+            print ("Reading PSF object table ", options.psfphot)
+        pt = Table.read(options.psfphot, format='ascii.ecsv')
+        #
+        if GW.NEICOL in pt.columns.keys() and GW.SRPMAG+'_1' in pt.columns.keys():
+            sepnei = 30.
+            highmag = 17.5+options.zeropoint-30.0
+            lowmag = 20.+options.zeropoint-30.0
+            while True:
+                ptn = pt[(pt[GW.NEICOL] > sepnei) & (pt[GW.SRPMAG+'_1'] >= highmag) & (pt[GW.SRPMAG+'_1'] <= lowmag)]
+                if len(ptn) > 50:
+                    sepnei = sepnei + sepnei/100.
+                elif len(ptn) < 10:
+                    sepnei = sepnei - sepnei/100.
+                    if sepnei < 1.0:
+                        parser.error("No suitable PSF candidates found.")
+                else:
+                    if options.verbose:
+                        print ("Identified %d PSF objects within mags [%.2f, %.2f] and separation > %.0f arcsec" % (len(ptn), highmag,lowmag,sepnei))
+                    break
+        else:
+            print ("No selection of PSF objects could be performed.")
+            ptn = pt
+    #
+    fnames = []
+    for e in dt.columns.keys():
+        if GW.FNAMECOLF in e:
+            fnames.append(e)
+    if len(fnames) == 0:
+        parser.error('FITS filename column(s) not present.')
+    #
+    for fn in fnames:
+        try:
+            nfn = fn.split('_')[1]
+            nfn = '_'+nfn
+        except IndexError:
+            nfn = ''
+        #
+        if options.jpeg:
+            if not os.path.isdir(GW.PICDIR):
+                os.mkdir(GW.PICDIR)
+            if options.verbose:
+                print ("Drawing pictures...")
+            wei = []
+            if options.verbose:
+                dtpbar = pyprind.prog_bar(dt)
+            else:
+                dtpbar = dt
+            if options.verbose:
+                print ("Epoch %s..." % fn)
+            for en in dtpbar:
+                fname = en[fn]
+                if GW.IDCOL+nfn in dt.columns.keys():
+                    idcol = GW.IDCOL+nfn
+                else:
+                    idcol = GW.IDCOL
+                if os.path.isfile(fname):
+                    res = GetPics(en[racol],en[deccol],os.path.join(GW.PICDIR,en[idcol]+nfn),fname)
+                else:
+                    res = 'No'
+                wei.append('<img src="%s">' % res)
+            weiq = Column(wei, name=GW.PICCOL+nfn)
+            if GW.PICCOL+nfn in dt.columns.keys():
+                dt.remove_column(GW.PICCOL+nfn)
+            dt.add_column(weiq)
+        #
+        if options.apphot:
+            if options.verbose:
+                print ("Aperture photometry: epoch %s..." % fn)
+            mag = []
+            emag = []
+            #
+            if options.radii:
+                fw0 = int(round(options.radii[0]))
+                fw1 = int(round(options.radii[1]))
+                fw2 = int(round(options.radii[2]))
+            else:
+                if GW.FWCOL+nfn in dt.meta:
+                    fw0 = int(round(dt.meta[GW.FWCOL+nfn]))
+                    fw1 = 2*fw0
+                    fw2 = 3*fw0
+                else:
+                    fw0 = 5
+                    fw1 = 10
+                    fw2 = 15
+            #
+            if options.verbose:
+                print("Photometry radii: %d %d %d" % (fw0,fw1,fw2))
+            #
+            fname = dt[fn][0]
+            if os.path.isfile(fname):
+                res = GetApPhot(dt[GW.XCOL+nfn],dt[GW.YCOL+nfn],fname,(fw0,fw1,fw2),sept=septool,cent=ccent,bck=bback,zp=options.zeropoint)
+            else:
+                res = (99,99,-99,-99)
+            #
+            if GW.SRPMAG+nfn in dt.columns.keys():
+                dt.remove_column(GW.SRPMAG+nfn)
+            if GW.eSRPMAG+nfn in dt.columns.keys():
+                dt.remove_column(GW.eSRPMAG+nfn)
+            if GW.FLUX+nfn in dt.columns.keys():
+                dt.remove_column(GW.FLUX+nfn)
+            if GW.eFLUX+nfn in dt.columns.keys():
+                dt.remove_column(GW.eFLUX+nfn)
+            if GW.SRPMAG+nfn in dt.meta:
+                med = float(dt.meta[GW.SRPMAG+nfn])
+                if options.verbose:
+                    print ("%s calibration found: %.3f.\n" % (GW.SRPMAG+nfn, med))
+            else:
+                med = 0.0
+            dt[GW.SRPMAG+nfn] = res[0] + med
+            dt[GW.eSRPMAG+nfn] = res[1]
+            dt[GW.FLUX+nfn] = res[2] * 10**(-med/2.5)
+            dt[GW.eFLUX+nfn] = res[3]           
+        #
+        if options.psfphot:
+            if options.verbose:
+                print ("PSF photometry: epoch %s..." % fn)
+            pmag = []
+            pemag = []
+            amag = []
+            aemag = []
+            #
+            if options.radii:
+                fw0 = int(round(options.radii[0]))
+                fw1 = int(round(options.radii[1]))
+                fw2 = int(round(options.radii[2]))
+            else:
+                if GW.FWCOL+nfn in dt.meta:
+                    fw0 = int(round(dt.meta[GW.FWCOL+nfn]))
+                    fw1 = 2*fw0
+                    fw2 = 3*fw0
+                else:
+                    fw0 = 5
+                    fw1 = 10
+                    fw2 = 15
+            #
+            if options.verbose:
+                print("Photometry radii: %d %d %d" % (fw0,fw1,fw2))
+            #
+            if GW.FWCOL+nfn in dt.meta:
+                fwhmpsf = float(dt.meta[GW.FWCOL+nfn])
+            else:
+                fwhmpsf = fw0
+            if options.verbose:
+                print("Adopted PSF FWHM %.1f" % fwhmpsf)
+            #
+            fname = dt[fn][0]
+            if os.path.isfile(fname):
+                res = GetPSFPhot(dt[GW.XCOL+nfn],dt[GW.YCOL+nfn],ptn[GW.XCOL+nfn],ptn[GW.YCOL+nfn],fname,(fw0,fw1,fw2),fwhmpsf,sept=septool,cent=ccent,bck=bback,zp=options.zeropoint)
+            else:
+                res = (99,99,99,99,-99,-99)
+            if septool != 'apy':
+                if GW.SRPMAG+nfn in dt.columns.keys():
+                    dt.remove_column(GW.SRPMAG+nfn)
+                if GW.eSRPMAG+nfn in dt.columns.keys():
+                    dt.remove_column(GW.eSRPMAG+nfn)
+            if GW.PSFMAG+nfn in dt.columns.keys():
+                dt.remove_column(GW.PSFMAG+nfn)
+            if GW.ePSFMAG+nfn in dt.columns.keys():
+                dt.remove_column(GW.ePSFMAG+nfn)
+            if GW.FLUX+nfn in dt.columns.keys():
+                dt.remove_column(GW.FLUX+nfn)
+            if GW.eFLUX+nfn in dt.columns.keys():
+                dt.remove_column(GW.eFLUX+nfn)
+            if GW.SRPMAG+nfn in dt.meta:
+                med = float(dt.meta[GW.SRPMAG+nfn])
+                if options.verbose:
+                    print ("%s calibration found: %.3f.\n" % (GW.SRPMAG+nfn, med))
+            else:
+                med = 0.0
+            if septool != 'apy':
+                dt[GW.SRPMAG+nfn] = res[0] + med
+                dt[GW.eSRPMAG+nfn] = res[1]
+            dt[GW.PSFMAG+nfn] = res[2] + med
+            dt[GW.ePSFMAG+nfn] = res[3]
+            dt[GW.FLUX+nfn] = res[4] * 10**(-med/2.5)
+            dt[GW.eFLUX+nfn] = res[5]
+
+        #
+        if options.fits:
+            if not os.path.isdir(GW.FITSDIR):
+                os.mkdir(GW.FITSDIR)
+            if options.verbose:
+                print ("Getting FITS stamps...")
+            fits = []
+            if options.verbose:
+                dtpbar = pyprind.prog_bar(dt)
+            else:
+                dtpbar = dt
+            if options.verbose:
+                print ("Epoch %s..." % fn)
+            for en in dtpbar:
+                fname = en[fn]
+                if GW.IDCOL+nfn in dt.columns.keys():
+                    idcol = GW.IDCOL+nfn
+                else:
+                    idcol = GW.IDCOL
+                if os.path.isfile(fname):
+                    res = GetFits(en[racol],en[deccol],os.path.join(GW.FITSDIR,en[idcol]+nfn),fname,options.fitssize)
+                else:
+                    res = 'No'
+                fits.append(res)
+            fitsq = Column(fits, name=GW.FITSCOL+nfn)
+            if GW.FITSCOL+nfn in dt.columns.keys():
+                dt.remove_column(GW.FITSCOL+nfn)
+            dt.add_column(fitsq)
+        #
+        gc.collect()
+    #
+    dt.write(options.outfile,format='ascii.ecsv', overwrite=True)
+    if options.verbose:
+        print ("Table %s with %d entries saved." % (options.outfile, len(dt)))
+    else:
+        print (options.outfile, len(dt))
+else:
+    parser.print_help()
+#

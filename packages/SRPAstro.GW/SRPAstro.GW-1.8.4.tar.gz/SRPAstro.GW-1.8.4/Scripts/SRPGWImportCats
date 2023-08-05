@@ -1,0 +1,141 @@
+""" Code to import sextractor catalogues
+    
+Context : SRP.GW
+Module  : SRPGWImportCats
+Author  : Stefano Covino
+Date    : 07/08/2019
+E-mail  : stefano.covino@brera.inaf.it
+URL:    : http://www.merate.mi.astro.it/utenti/covino
+Purpose : Import sextractor catalogues
+
+usage: SRPGWImportCats [-h] [-c RA DEC] -i ifilelist -o outfile [-p parfile]
+[-r] [-v] [--version]
+
+optional arguments:
+-h, --help            show this help message and exit
+-c RA DEC, --coordcols RA DEC
+Coordinate column labels
+-i ifilelist, --inputfilelist ifilelist
+File with catfiles to be imported (one per line)
+-o outfile, --outfile outfile
+Output file with all the imported data
+-p parfile, --parfile parfile
+Parameter file for imported catalogue
+-r, --reducesize      Reduce file size (flota64 to float32)
+-v, --verbose         Fully describe operations
+--version             show program's version number and exit
+
+
+
+History : (04/11/2015) First version.
+        : (18/01/2016) Better managment of parfile.
+        : (02/02/2016) FITS and weight filenames in tables.
+        : (23/02/2016) Meta information for files.
+        : (17/05/2016) Id prefix can be chosen.
+        : (02/03/2017) Update.
+        : (02/05/2019) Standard object name.
+        : (07/08/2019) Weight filename extension is 'flag'.
+"""
+
+__version__ = '1.2.5'
+
+
+import argparse, copy, os
+import numpy
+from astropy.table import vstack, Column, Table
+from SRP.SRPTables.ReadCleanedTextFile import ReadCleanedTextFile
+import SRPGW as GW
+import pydl.pydlutils.misc
+
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-c", "--coordcols", action="store", nargs=2, default=('X_WORLD','Y_WORLD'), help="Coordinate column labels", metavar=('RA','DEC'))
+parser.add_argument("-f", "--fitsfile", action="store", help="Original FITS file", metavar='fitsfile')
+parser.add_argument("-i", "--inputfile", action="store", help="File to be imported", required=True, metavar='ifile')
+parser.add_argument("-I", "--Id", action="store", help="Id prefix", default=GW.VSTID, metavar='Idpref')
+parser.add_argument("-o", "--outfile", action="store", help="Output file with all the imported data", required=True, metavar='outfile')
+parser.add_argument("-p", "--parfile", action="store", help="Parameter file for imported catalogue", metavar='parfile')
+parser.add_argument("-r", "--reducesize", action="store_true", help="Reduce file size (flota64 to float32)")
+parser.add_argument("-v", "--verbose", action="store_true", help="Fully describe operations")
+parser.add_argument("-w", "--weightfile", action="store", help="Original weight FITS file", metavar='weightfile')
+parser.add_argument("--version", action="version", version=__version__)
+options = parser.parse_args()
+
+
+#
+if options.inputfile and options.outfile:
+    #
+    if not os.path.isfile(options.inputfile):
+        parser.error ("Input file does not exist.")
+    if options.parfile:
+        if not os.path.isfile(options.parfile):
+            parser.error ("Parameter file does not exist.")
+    #
+    if options.parfile:
+        parlist = ReadCleanedTextFile(options.parfile)
+    #
+    if options.verbose:
+        print ("Processing file:", options.inputfile)
+    dt = Table.read(options.inputfile, format='ascii')
+    dt[GW.FNAMECOL] = options.inputfile
+    dt.meta[GW.FNAMECOL] = options.inputfile
+    #
+    if options.fitsfile:
+        dt[GW.FNAMECOLF] = options.fitsfile
+        dt.meta[GW.FNAMECOLF] = options.fitsfile
+    else:
+        dt[GW.FNAMECOLF] = os.path.splitext(options.inputfile)[0]+'.fits'
+        dt.meta[GW.FNAMECOLF] = os.path.splitext(options.inputfile)[0]+'.fits'
+    #
+    if options.weightfile:
+        dt[GW.FNAMECOLW] = options.weightfile
+        dt.meta[GW.FNAMECOLW] = options.weightfile
+    else:
+        dt[GW.FNAMECOLW] = os.path.splitext(options.inputfile)[0]+'.flag.fits'
+        dt.meta[GW.FNAMECOLW] = os.path.splitext(options.inputfile)[0]+'.flag.fits'
+    #
+    if options.reducesize:
+        for cl in dt.columns:
+            if cl.dtype == numpy.dtype('float64'):
+                cl.astype(numpy.dtype('float32'))
+            elif cl.dtype == numpy.dtype('int64'):
+                cl.astype(numpy.dtype('int32'))
+    #
+    if options.parfile:
+        if len(parlist) != len(dt.columns)-3:
+            print ("Number of columns in parameter file is not coincident with catalogue columns.")
+            print ("Columns not renamed.")
+        else:
+            coltab = copy.copy(dt.columns)
+            for cl,ncl in zip(parlist,coltab):
+                dt.rename_column(ncl,cl.strip())
+    #
+    if options.coordcols[0] in dt.columns.keys() and options.coordcols[1] in dt.columns.keys():
+        if options.verbose:
+            print ("Sorting table...")
+        dt.sort([options.coordcols[0],options.coordcols[1]])
+        if options.verbose:
+            print ("Source name...")
+        cooint = []
+        for ra, dec in zip(dt[options.coordcols[0]],dt[options.coordcols[1]]):
+            #cooint.append("%s%.5f%+.5f" % (options.Id, ra, dec))
+            cooint.append(pydl.pydlutils.misc.hogg_iau_name(ra,dec,options.Id))
+        sname = Column(cooint, name=GW.IDCOL)
+        dt.add_column(sname, index=0)
+    else:
+        if options.verbose:
+            print ("%s and %s columns not found. Table not sorted and source name not created." % (options.coordcols[0], options.coordcols[1]))
+    #
+    dt.meta['COMMENT'] = 'Table created by SRPAstro.GW version %s' % GW.__version__
+    #
+    if options.verbose:
+        print ("Saving...")
+    dt.write(options.outfile,format='ascii.ecsv', overwrite=True)
+    if options.verbose:
+        print ("Table %s with %d entries saved." % (options.outfile, len(dt)))
+    else:
+        print (options.outfile, len(dt))
+else:
+    parser.print_help()
+#
