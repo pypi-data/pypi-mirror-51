@@ -1,0 +1,10 @@
+README.md
+setup.py
+lib_mpgs_api_client/__init__.py
+lib_mpgs_api_client/client.py
+lib_mpgs_api_client/const.py
+libmpgsapiclient.egg-info/PKG-INFO
+libmpgsapiclient.egg-info/SOURCES.txt
+libmpgsapiclient.egg-info/dependency_links.txt
+libmpgsapiclient.egg-info/requires.txt
+libmpgsapiclient.egg-info/top_level.txt
