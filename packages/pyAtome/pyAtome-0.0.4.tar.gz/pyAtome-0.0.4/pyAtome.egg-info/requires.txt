@@ -1,0 +1,8 @@
+requests
+simplejson
+fake_useragent
+requests-mock
+logging
+
+[testing]
+pytest
