@@ -1,0 +1,2 @@
+PyGithub
+gitator==0.1.36
