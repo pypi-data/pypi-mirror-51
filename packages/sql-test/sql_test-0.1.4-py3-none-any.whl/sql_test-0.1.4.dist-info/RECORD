@@ -1,0 +1,9 @@
+sql_test/__init__.py,sha256=G_TYwcXu30jeCeaEhibgHeDWCDfgZVEemCo0UBV-4Uc,616
+sql_test/sql_config.py,sha256=KAcVB7zMcQFPR6nYl6TuU3G21XVCheLrMHu_sKfBm8A,476
+sql_test/sql_input_tests.py,sha256=esi87RnAJM2w5qhpPWX9U9eZpFEExLxXf4m6bLzmQhE,4687
+sql_test/sql_secrets.py,sha256=hsbYtKIZPaatE3XLobhchXNY5rF2JjnJTPnTlqxq2qo,179
+sql_test/sql_test.py,sha256=1a4UJkpUznH1ITgNpYbehhGPQ1rUp6rxhxX41IowYwA,50533
+sql_test-0.1.4.dist-info/METADATA,sha256=55CtPqEMnag7X8bY_JEgLi7nbPhC6LUCCZMsfukf0vE,3931
+sql_test-0.1.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+sql_test-0.1.4.dist-info/top_level.txt,sha256=M-qCcfoBODBlhNKvqY030tua05k3S2YHVjTp6uH_WFA,9
+sql_test-0.1.4.dist-info/RECORD,,
