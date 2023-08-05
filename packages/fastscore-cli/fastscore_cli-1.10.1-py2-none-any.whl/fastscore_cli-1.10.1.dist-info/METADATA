@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fastscore-cli
+Version: 1.10.1
+Summary: FastScore CLI
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fastscore (>=1.6.1)
+Requires-Dist: avro (>=1.7.6)
+Requires-Dist: parse (>=1.8.2)
+Requires-Dist: requests-oauthlib (>=0.8.0)
+
+UNKNOWN
+
+
