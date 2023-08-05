@@ -1,0 +1,14 @@
+gluejobutils/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+gluejobutils/.ipynb_checkpoints/cleaning-checkpoint.py,sha256=y7uyt4M4bbAxT5HQjKJI2_HsXzPsChWpDIgbaXhkT6c,443
+gluejobutils/.ipynb_checkpoints/datatypes-checkpoint.py,sha256=vZo3Puhi3vDhUjJ82Zb72bdmD4ENIWgiu2ZuYqtwLvg,3212
+gluejobutils/.ipynb_checkpoints/start_spark-checkpoint.sh,sha256=Nq2H_e8cKVuTIKvgRTk9wobwDapa_Ffpk1kZp-Ax5mU,121
+gluejobutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gluejobutils/data/data_type_conversion.json,sha256=oFSP4vAFXGoURZ18rL2qRvT9FVU8KuSkfgatb_n4B_I,666
+gluejobutils/datatypes.py,sha256=8mXgmQs2vDeYBfRmYC9ZAupMFisrU9kSLauVpPZTuf8,3853
+gluejobutils/df_transforms.py,sha256=RAxRjSADPtDpjHslJx0Dvc1bXkar8mHZznOGOqi6D0U,1161
+gluejobutils/record_datetimes.py,sha256=SuU8sGFwe6S29n3zVWEdJ7qY_NdTN85Bfda-lnUGAO4,3827
+gluejobutils/s3.py,sha256=V0oQwcAhFLs1dUYdsdZjuXqfa80er0GVMpcyLmW730s,4961
+gluejobutils/utils.py,sha256=JPPrSqSCQzPBwddVMJ4Z2VPxm0Iog-OXbI1c1UIYeAo,1330
+gluejobutils-3.0.0.dist-info/WHEEL,sha256=xPOQkOKMN3351_3nliYUOZ4djpDcLlPG4HXOBRXrERg,89
+gluejobutils-3.0.0.dist-info/METADATA,sha256=VgOgXOYir1o-S-_3R9ciG5M_l9wDYceP4v7Lc5cxVwA,701
+gluejobutils-3.0.0.dist-info/RECORD,,
