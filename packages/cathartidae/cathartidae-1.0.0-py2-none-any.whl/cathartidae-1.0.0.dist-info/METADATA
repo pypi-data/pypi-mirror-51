@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cathartidae
+Version: 1.0.0
+Summary: decorators for reducing nesting
+Home-page: https://github.com/MATTHEWFRAZER/cathartidae
+Author: Matthew Frazer
+Author-email: mfrazeriguess@gmail.com
+License: UNKNOWN
+Keywords: code reuse nesting reduction
+Platform: UNKNOWN
+Requires-Dist: attr
+Requires-Dist: mock
+Requires-Dist: pytest
+Requires-Dist: six
+
+UNKNOWN
+
+
