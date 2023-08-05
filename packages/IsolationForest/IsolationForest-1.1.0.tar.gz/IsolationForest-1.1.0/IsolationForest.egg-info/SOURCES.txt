@@ -1,0 +1,7 @@
+setup.py
+IsolationForest.egg-info/PKG-INFO
+IsolationForest.egg-info/SOURCES.txt
+IsolationForest.egg-info/dependency_links.txt
+IsolationForest.egg-info/top_level.txt
+isolationforest/IsolationForest.py
+isolationforest/__init__.py
