@@ -1,0 +1,16 @@
+README.rst
+setup.py
+dewi/__init__.py
+dewi/__main__.py
+dewi.egg-info/PKG-INFO
+dewi.egg-info/SOURCES.txt
+dewi.egg-info/dependency_links.txt
+dewi.egg-info/entry_points.txt
+dewi.egg-info/requires.txt
+dewi.egg-info/top_level.txt
+dewi.egg-info/zip-safe
+dewi/codesync/__init__.py
+dewi/codesync/mapping.py
+dewi/sysinfo/__init__.py
+dewi/workspace/__init__.py
+dewi/workspace/productlist_loader.py

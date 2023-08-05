@@ -1,0 +1,2 @@
+dewi_core>=3.0.0
+dewi_commands>=2.0.0
