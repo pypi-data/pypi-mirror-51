@@ -1,0 +1,8 @@
+README.md
+setup.py
+han_solo/__init__.py
+pyHanSolo.egg-info/PKG-INFO
+pyHanSolo.egg-info/SOURCES.txt
+pyHanSolo.egg-info/dependency_links.txt
+pyHanSolo.egg-info/requires.txt
+pyHanSolo.egg-info/top_level.txt
