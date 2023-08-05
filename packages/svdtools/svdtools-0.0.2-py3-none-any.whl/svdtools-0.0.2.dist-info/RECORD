@@ -1,0 +1,10 @@
+svdtools/VERSION,sha256=pd00ZUajhDYpNrl6TC9dotPSUwQ-qWeap7l9iVUN_b0,6
+svdtools/__init__.py,sha256=Glcd-_SSJq0LLJCws0EX9uuL-vgJrNi6dgjj3s2pT2k,148
+svdtools/cli.py,sha256=HkMs_1NklW1ELFBNJ0Ah-rVXlgb1fHpm-R2xiKE_bgs,443
+svdtools/patch.py,sha256=jK90Ovojhyxh21MExMHx2V8rRnMcsA26tDTOwl8tr_Y,34025
+svdtools-0.0.2.dist-info/entry_points.txt,sha256=FRei9jgTesxg9zQOLOq6b4VyGL6T8Z7zUae-SSOk-hk,49
+svdtools-0.0.2.dist-info/LICENSE-APACHE,sha256=TRD-XzqhdrBbIpokiGa61wuDTBc_ElKoFP9HSNihODc,10255
+svdtools-0.0.2.dist-info/LICENSE-MIT,sha256=I_GOA9xJ35FiL-KnYXZJdATkbO2KcV2dK2enRGVxzKM,1023
+svdtools-0.0.2.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+svdtools-0.0.2.dist-info/METADATA,sha256=cGN9V2rXck0GAGe91mmAB3TXRKbYOPqeQGG5AJ9Ui5w,686
+svdtools-0.0.2.dist-info/RECORD,,
