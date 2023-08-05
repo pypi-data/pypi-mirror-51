@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+./hsmfile.py
+hsmfile.egg-info/PKG-INFO
+hsmfile.egg-info/SOURCES.txt
+hsmfile.egg-info/dependency_links.txt
+hsmfile.egg-info/top_level.txt

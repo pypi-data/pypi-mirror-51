@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hsmfile
+Version: 0.1
+Summary: Expedite access to files on a slow network volume
+Home-page: https://github.com/hadfieldnz/hsmfile
+Author: Mark Hadfield
+Author-email: mark.hadfield@niwa.co.nz
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
