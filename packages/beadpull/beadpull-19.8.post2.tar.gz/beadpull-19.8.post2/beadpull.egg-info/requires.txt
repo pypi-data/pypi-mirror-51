@@ -1,0 +1,10 @@
+numpy
+PyQt5
+PyQtWebEngine
+matplotlib
+pysmithplot-fork
+PyYAML
+PyVISA
+
+[dev]
+check-manifest

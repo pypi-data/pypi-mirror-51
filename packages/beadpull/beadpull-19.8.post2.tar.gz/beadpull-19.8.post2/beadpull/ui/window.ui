@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>917</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bead Pull</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="Tabs">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="motorTab">
+       <attribute name="title">
+        <string>Motor control</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Serial port</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_7">
+           <item row="1" column="1">
+            <widget class="QComboBox" name="motorBaud">
+             <property name="toolTip">
+              <string>connection baud rate</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QPushButton" name="actionMotorDisconnect">
+             <property name="toolTip">
+              <string>Disconnect motor (Ctrl+u)</string>
+             </property>
+             <property name="text">
+              <string>Disconnect</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+U</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QPushButton" name="actionMotorHold">
+             <property name="toolTip">
+              <string>enable motor H-bridge (Ctrl+e)</string>
+             </property>
+             <property name="text">
+              <string>Enable</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+E</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QPushButton" name="actionMotorRelease">
+             <property name="toolTip">
+              <string>disable motor H-bridge (Ctrl+d)</string>
+             </property>
+             <property name="text">
+              <string>Disable</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+D</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="motorPort">
+             <property name="toolTip">
+              <string>motor serial port</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QPushButton" name="actionMotorConnect">
+             <property name="toolTip">
+              <string>connect to motor (Ctrl+c)</string>
+             </property>
+             <property name="text">
+              <string>Connect</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+C</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="title">
+           <string>Movement settings</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>Return speed</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QDoubleSpinBox" name="motorReturnSpeed">
+             <property name="toolTip">
+              <string>maximum return to origin speed</string>
+             </property>
+             <property name="suffix">
+              <string> [mm/s]</string>
+             </property>
+             <property name="minimum">
+              <double>0.010000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>10.000000000000000</double>
+             </property>
+             <property name="value">
+              <double>10.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Acceleration period</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Forward speed</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QDoubleSpinBox" name="motorDeceleration">
+             <property name="toolTip">
+              <string>period in which motor will gradually stop</string>
+             </property>
+             <property name="suffix">
+              <string> [s]</string>
+             </property>
+             <property name="decimals">
+              <number>3</number>
+             </property>
+             <property name="minimum">
+              <double>0.001000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>60.000000000000000</double>
+             </property>
+             <property name="value">
+              <double>0.500000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QDoubleSpinBox" name="motorAcceleration">
+             <property name="toolTip">
+              <string>period in which motor will accelerate to maximum forward speed</string>
+             </property>
+             <property name="suffix">
+              <string> [s]</string>
+             </property>
+             <property name="decimals">
+              <number>3</number>
+             </property>
+             <property name="minimum">
+              <double>0.001000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>60.000000000000000</double>
+             </property>
+             <property name="value">
+              <double>2.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QDoubleSpinBox" name="motorMoveSpeed">
+             <property name="toolTip">
+              <string>maximum forward speed</string>
+             </property>
+             <property name="suffix">
+              <string> [mm/s]</string>
+             </property>
+             <property name="minimum">
+              <double>0.010000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>10.000000000000000</double>
+             </property>
+             <property name="value">
+              <double>1.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>Deceleration period</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QPushButton" name="actionMotorSet">
+             <property name="toolTip">
+              <string>apply motor movement settings (Ctrl+a)</string>
+             </property>
+             <property name="text">
+              <string>Apply</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+A</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="actionMotorStatus">
+             <property name="toolTip">
+              <string>show motor status (Ctrl+i)</string>
+             </property>
+             <property name="text">
+              <string>Status</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+I</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>Measure stand</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Step</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Total length</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QDoubleSpinBox" name="projStep">
+             <property name="toolTip">
+              <string>measure step length</string>
+             </property>
+             <property name="suffix">
+              <string> [mm]</string>
+             </property>
+             <property name="decimals">
+              <number>1</number>
+             </property>
+             <property name="maximum">
+              <double>20.000000000000000</double>
+             </property>
+             <property name="value">
+              <double>1.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QDoubleSpinBox" name="projTotalLength">
+             <property name="toolTip">
+              <string>total length of measurement stand</string>
+             </property>
+             <property name="suffix">
+              <string> [mm]</string>
+             </property>
+             <property name="decimals">
+              <number>1</number>
+             </property>
+             <property name="minimum">
+              <double>5.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>999.000000000000000</double>
+             </property>
+             <property name="value">
+              <double>20.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="title">
+           <string>Motion</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="1" column="2">
+            <widget class="QPushButton" name="actionMotorSetOrigin">
+             <property name="toolTip">
+              <string>define current position as origin (Ctrl+o)</string>
+             </property>
+             <property name="text">
+              <string>Set origin</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+O</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QCheckBox" name="motorDirection">
+             <property name="toolTip">
+              <string>reverse movement direction (Ctrl+b)</string>
+             </property>
+             <property name="text">
+              <string>Reverse direction</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+B</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QDoubleSpinBox" name="motorGotoPositionVal">
+             <property name="toolTip">
+              <string>desired position coordinate</string>
+             </property>
+             <property name="suffix">
+              <string> [mm]</string>
+             </property>
+             <property name="minimum">
+              <double>-500.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>500.000000000000000</double>
+             </property>
+             <property name="value">
+              <double>10.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QPushButton" name="actionMotorGotoPosition">
+             <property name="toolTip">
+              <string>go to desired position (Ctrl+g)</string>
+             </property>
+             <property name="text">
+              <string>Go to position</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+G</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="3">
+            <widget class="QDoubleSpinBox" name="motorStepVal">
+             <property name="toolTip">
+              <string>step length</string>
+             </property>
+             <property name="suffix">
+              <string> [mm]</string>
+             </property>
+             <property name="minimum">
+              <double>-99.989999999999995</double>
+             </property>
+             <property name="value">
+              <double>10.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="4">
+            <widget class="QPushButton" name="actionMotorStep">
+             <property name="toolTip">
+              <string>step (Ctrl+s)</string>
+             </property>
+             <property name="text">
+              <string>Step</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+S</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QPushButton" name="actionMotorReturn">
+             <property name="toolTip">
+              <string>return motor to origin (Ctrl+r)</string>
+             </property>
+             <property name="text">
+              <string>Return to origin</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+R</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="4">
+            <widget class="QPushButton" name="actionMotorStop">
+             <property name="toolTip">
+              <string>stop movement (Ctrl+Space)</string>
+             </property>
+             <property name="text">
+              <string>Stop</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+Space</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="title">
+           <string>Calibrate</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Conversion ratio</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="actionMotorCalibrate">
+             <property name="toolTip">
+              <string>calibrate motor conversion ratio (Ctrl+k)</string>
+             </property>
+             <property name="text">
+              <string>Calibrate</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+K</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QDoubleSpinBox" name="motorConversionRatio">
+             <property name="toolTip">
+              <string>unit over mm ratio</string>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="suffix">
+              <string> [unit/mm]</string>
+             </property>
+             <property name="decimals">
+              <number>5</number>
+             </property>
+             <property name="minimum">
+              <double>0.000010000000000</double>
+             </property>
+             <property name="maximum">
+              <double>1000.000000000000000</double>
+             </property>
+             <property name="value">
+              <double>1.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="analyzerTab">
+       <attribute name="title">
+        <string>Analyzer settings</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="title">
+           <string>GPIB</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_9">
+           <item row="0" column="5">
+            <widget class="QPushButton" name="actionVaReset">
+             <property name="toolTip">
+              <string>reset analyzer settings to factory defaults (Ctrl+t)</string>
+             </property>
+             <property name="text">
+              <string>Reset</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+T</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QPushButton" name="actionVaConnect">
+             <property name="toolTip">
+              <string>connect to analyzer (Ctrl+c)</string>
+             </property>
+             <property name="text">
+              <string>Connect</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+C</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QPushButton" name="actionVaStatus">
+             <property name="toolTip">
+              <string>show analyzer status (Ctrl+i)</string>
+             </property>
+             <property name="text">
+              <string>Status</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+I</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="actionVaDisconnect">
+             <property name="toolTip">
+              <string>disconnect from analyzer (Ctrl+u)</string>
+             </property>
+             <property name="text">
+              <string>Disconnect</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+U</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QPushButton" name="actionVaRelease">
+             <property name="toolTip">
+              <string>push analyzer to local control mode (Ctrl+r)</string>
+             </property>
+             <property name="text">
+              <string>Release</string>
+             </property>
+             <property name="shortcut">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="5">
+            <widget class="QPushButton" name="actionVaRestart">
+             <property name="toolTip">
+              <string>restart analyzer (Ctrl+w)</string>
+             </property>
+             <property name="text">
+              <string>Restart</string>
+             </property>
+             <property name="shortcut">
+              <string>Ctrl+W</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QComboBox" name="vaName"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_18">
+          <property name="title">
+           <string>Project info</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_15">
+           <item>
+            <widget class="QLineEdit" name="projInfo">
+             <property name="toolTip">
+              <string>Project info (Ctrl+i)</string>
+             </property>
+             <property name="placeholderText">
+              <string>Project name and information</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="title">
+           <string>Power</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QCheckBox" name="vaPower">
+             <property name="toolTip">
+              <string>analyzer RF source power</string>
+             </property>
+             <property name="text">
+              <string>Enable</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="vaPowerVal">
+             <property name="toolTip">
+              <string>power level</string>
+             </property>
+             <property name="suffix">
+              <string> [dBm]</string>
+             </property>
+             <property name="minimum">
+              <number>-20</number>
+             </property>
+             <property name="maximum">
+              <number>5</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_6" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
+           <property name="spacing">
+            <number>6</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_11">
+          <property name="title">
+           <string>Curve processing</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Smoothing</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Averaging</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QDoubleSpinBox" name="vaSmoothingVal">
+             <property name="toolTip">
+              <string>trace smoothing rate</string>
+             </property>
+             <property name="suffix">
+              <string> %</string>
+             </property>
+             <property name="minimum">
+              <double>0.050000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>20.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QCheckBox" name="vaAveraging">
+             <property name="toolTip">
+              <string>average across multiple measurements </string>
+             </property>
+             <property name="text">
+              <string>Enable</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QSpinBox" name="vaAveragingVal">
+             <property name="toolTip">
+              <string>number of averaging passes</string>
+             </property>
+             <property name="minimum">
+              <number>1</number>
+             </property>
+             <property name="maximum">
+              <number>999</number>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QCheckBox" name="vaSmoothing">
+             <property name="toolTip">
+              <string>trace smoothing</string>
+             </property>
+             <property name="text">
+              <string>Enable</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>Integration bandwidth</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="4">
+            <widget class="QComboBox" name="vaIntBand">
+             <property name="toolTip">
+              <string>Integration bandwidth</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_9">
+          <property name="title">
+           <string>Sweep</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="1" column="1">
+            <widget class="QComboBox" name="vaNOP">
+             <property name="toolTip">
+              <string>number of measurement points</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>Number of points</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Type</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QComboBox" name="vaSweepType">
+             <property name="toolTip">
+              <string>sweep type</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Unit</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QComboBox" name="vaFreqUnit">
+             <property name="toolTip">
+              <string>frequency units</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_14">
+          <property name="title">
+           <string>MIscellaneous</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_13">
+           <item row="1" column="0">
+            <widget class="QCheckBox" name="vaDisplayEnable">
+             <property name="toolTip">
+              <string>display control</string>
+             </property>
+             <property name="text">
+              <string>Enable</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_21">
+             <property name="text">
+              <string>Display</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_22">
+             <property name="text">
+              <string>Phase offset</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QSpinBox" name="vaPhaseOffset">
+             <property name="toolTip">
+              <string>set analyzer phase offset</string>
+             </property>
+             <property name="maximum">
+              <number>360</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="actionVaSettingsApply">
+          <property name="toolTip">
+           <string>apply settings (Ctrl+a)</string>
+          </property>
+          <property name="text">
+           <string>Apply</string>
+          </property>
+          <property name="shortcut">
+           <string>Ctrl+A</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="scatteringTab">
+       <attribute name="title">
+        <string>Scattering measure</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QWidget" name="widget_2" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QGroupBox" name="groupBox_5">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>200</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="title">
+              <string>Measure</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_10">
+              <item row="1" column="0">
+               <widget class="QComboBox" name="scatMeasurePart">
+                <property name="toolTip">
+                 <string>scattering parameter representation</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QComboBox" name="scatMeasureType">
+                <property name="toolTip">
+                 <string>scattering parameter</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_12">
+             <property name="title">
+              <string>Markers</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <item row="1" column="1">
+               <widget class="QCheckBox" name="scatMarkerMax">
+                <property name="toolTip">
+                 <string>search for maximum value (Ctrl+x)</string>
+                </property>
+                <property name="text">
+                 <string>Maximum</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+X</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QCheckBox" name="scatMarkerQ">
+                <property name="toolTip">
+                 <string>compute Q from selected value (Ctrl+w)</string>
+                </property>
+                <property name="text">
+                 <string>Measure Q</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+W</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="QDoubleSpinBox" name="scatMarkerQVal">
+                <property name="toolTip">
+                 <string>value for Q computation</string>
+                </property>
+                <property name="decimals">
+                 <number>3</number>
+                </property>
+                <property name="minimum">
+                 <double>-500.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>500.000000000000000</double>
+                </property>
+                <property name="value">
+                 <double>-3.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QCheckBox" name="scatMarkerMin">
+                <property name="toolTip">
+                 <string>search for minimum value (Ctrl+n)</string>
+                </property>
+                <property name="text">
+                 <string>Minimum</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+N</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_13">
+             <property name="title">
+              <string>Frequency range</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_11">
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_17">
+                <property name="text">
+                 <string>Span</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_16">
+                <property name="text">
+                 <string>Center</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QDoubleSpinBox" name="scatFreqCenter">
+                <property name="toolTip">
+                 <string>central frequency</string>
+                </property>
+                <property name="suffix">
+                 <string> [MHz]</string>
+                </property>
+                <property name="decimals">
+                 <number>0</number>
+                </property>
+                <property name="maximum">
+                 <double>6000000000.000000000000000</double>
+                </property>
+                <property name="value">
+                 <double>2856.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QDoubleSpinBox" name="scatFreqSpan">
+                <property name="toolTip">
+                 <string>frequency span</string>
+                </property>
+                <property name="suffix">
+                 <string> [MHz]</string>
+                </property>
+                <property name="decimals">
+                 <number>0</number>
+                </property>
+                <property name="minimum">
+                 <double>1.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>6000000000.000000000000000</double>
+                </property>
+                <property name="value">
+                 <double>10.000000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QPushButton" name="actionScatFreqGet">
+                <property name="toolTip">
+                 <string>get frequency range from analyzer (Ctrl+f)</string>
+                </property>
+                <property name="text">
+                 <string>Get from analyzer</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+F</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_10">
+             <property name="title">
+              <string>Actions</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QPushButton" name="actionScatMeasure">
+                <property name="toolTip">
+                 <string>perform measure (Ctrl+m)</string>
+                </property>
+                <property name="text">
+                 <string>Measure</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+M</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="actionScatContinious">
+                <property name="toolTip">
+                 <string>set analyzer to continuous measure mode (Ctrl+c)</string>
+                </property>
+                <property name="text">
+                 <string>Display continuous</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+C</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="actionScatRelease">
+                <property name="toolTip">
+                 <string>push analyzer to local control mode (Ctrl+r)</string>
+                </property>
+                <property name="text">
+                 <string>Release control</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+R</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="actionScatDownload">
+                <property name="toolTip">
+                 <string>download measured data (Ctrl+d)</string>
+                </property>
+                <property name="text">
+                 <string>Download data</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+D</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="scatterPlotFrameDec">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7"/>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="scatterPlotFramePol">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_8"/>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="scatterPlotFrameSmt">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_9"/>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="labelScatMarkerMin">
+          <property name="text">
+           <string>Minimum:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="labelScatMarkerMax">
+          <property name="text">
+           <string>Maximum:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="labelScatMarkerQ">
+          <property name="text">
+           <string>Q: Loss:</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="formFactorTab">
+       <attribute name="title">
+        <string>Postprocessing settings</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QGroupBox" name="groupBox_15">
+          <property name="title">
+           <string>Settings</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QWidget" name="widget" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <widget class="QComboBox" name="eqBeadMaterial">
+                <property name="toolTip">
+                 <string>bead material. only appear in download data notes</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="eqFieldPart">
+                <property name="toolTip">
+                 <string>measure field part</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_16">
+             <property name="toolTip">
+              <string>electric formfactor</string>
+             </property>
+             <property name="title">
+              <string>kE</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QDoubleSpinBox" name="eqKEMantissa">
+                <property name="toolTip">
+                 <string>electric formfactor mantissa</string>
+                </property>
+                <property name="decimals">
+                 <number>5</number>
+                </property>
+                <property name="maximum">
+                 <double>1.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+                <property name="value">
+                 <double>0.374000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_14">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>x 10^</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="eqKEExponent">
+                <property name="toolTip">
+                 <string>electric formfactor exponent</string>
+                </property>
+                <property name="minimum">
+                 <number>-15</number>
+                </property>
+                <property name="maximum">
+                 <number>15</number>
+                </property>
+                <property name="value">
+                 <number>-11</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_17">
+             <property name="toolTip">
+              <string>magnetic formfactor</string>
+             </property>
+             <property name="title">
+              <string>kH</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QDoubleSpinBox" name="eqKHMantissa">
+                <property name="toolTip">
+                 <string>magnetic formfactor mantissa</string>
+                </property>
+                <property name="decimals">
+                 <number>5</number>
+                </property>
+                <property name="maximum">
+                 <double>1.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+                <property name="value">
+                 <double>0.374000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_19">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>x 10^</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="eqKHExponent">
+                <property name="toolTip">
+                 <string>magnetic formfactor exponent</string>
+                </property>
+                <property name="minimum">
+                 <number>-15</number>
+                </property>
+                <property name="maximum">
+                 <number>15</number>
+                </property>
+                <property name="value">
+                 <number>-11</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_19">
+             <property name="toolTip">
+              <string>formfactor for indirect reflection measurements</string>
+             </property>
+             <property name="title">
+              <string>kS</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <item>
+               <widget class="QDoubleSpinBox" name="eqKSMantissa">
+                <property name="toolTip">
+                 <string>formfactor mantissa for indirect reflection measurements</string>
+                </property>
+                <property name="decimals">
+                 <number>5</number>
+                </property>
+                <property name="maximum">
+                 <double>1.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+                <property name="value">
+                 <double>0.374000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_15">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>x 10^</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="eqKSExponent">
+                <property name="toolTip">
+                 <string>formfactor exponent for indirect reflection measurements</string>
+                </property>
+                <property name="minimum">
+                 <number>-15</number>
+                </property>
+                <property name="maximum">
+                 <number>15</number>
+                </property>
+                <property name="value">
+                 <number>-11</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="QloadValue">
+             <property name="title">
+              <string>Qload</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_9">
+              <item>
+               <widget class="QSpinBox" name="eqQLoad">
+                <property name="toolTip">
+                 <string>loaded Q</string>
+                </property>
+                <property name="maximum">
+                 <number>10000000</number>
+                </property>
+                <property name="value">
+                 <number>1000</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>98</width>
+             <height>36</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_14">
+            <item>
+             <widget class="QWidget" name="webPageWidget" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_13"/>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="fieldTab">
+       <attribute name="title">
+        <string>Field measure</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <item>
+            <widget class="QWidget" name="widget_3" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QWidget" name="widget_5" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                 <item>
+                  <widget class="QProgressBar" name="fieldProgressBar">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="maximum">
+                    <number>15</number>
+                   </property>
+                   <property name="value">
+                    <number>0</number>
+                   </property>
+                   <property name="format">
+                    <string>%v</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_4" native="true">
+                <layout class="QGridLayout" name="gridLayout_12">
+                 <item row="2" column="3">
+                  <widget class="QPushButton" name="actionFieldReturn">
+                   <property name="toolTip">
+                    <string>return motor to origin (Ctrl+r)</string>
+                   </property>
+                   <property name="text">
+                    <string>Return to origin</string>
+                   </property>
+                   <property name="shortcut">
+                    <string>Ctrl+R</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="4">
+                  <widget class="QPushButton" name="actionFieldMeasure">
+                   <property name="toolTip">
+                    <string>perform measure (Ctrl+m)</string>
+                   </property>
+                   <property name="text">
+                    <string>Measure</string>
+                   </property>
+                   <property name="shortcut">
+                    <string>Ctrl+M</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="4">
+                  <widget class="QPushButton" name="actionFieldDownload">
+                   <property name="toolTip">
+                    <string>download measured data (Ctrl+d)</string>
+                   </property>
+                   <property name="text">
+                    <string>Download data</string>
+                   </property>
+                   <property name="shortcut">
+                    <string>Ctrl+D</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QPushButton" name="actionFieldStop">
+                   <property name="toolTip">
+                    <string>stop current measurement, redraw plot (Ctrl+Space)</string>
+                   </property>
+                   <property name="text">
+                    <string>Stop / Redraw</string>
+                   </property>
+                   <property name="shortcut">
+                    <string>Ctrl+Space</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="2">
+                  <widget class="QComboBox" name="fieldPlotType">
+                   <property name="toolTip">
+                    <string>measurement display style</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QComboBox" name="fieldStrategy">
+                   <property name="toolTip">
+                    <string>measurement strategy</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_18">
+                   <property name="text">
+                    <string>Average before</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="0">
+                  <widget class="QLabel" name="label_20">
+                   <property name="text">
+                    <string>Average after</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QDoubleSpinBox" name="fieldDriftFirst">
+                   <property name="toolTip">
+                    <string>Replace previous points with average</string>
+                   </property>
+                   <property name="suffix">
+                    <string> [mm]</string>
+                   </property>
+                   <property name="decimals">
+                    <number>1</number>
+                   </property>
+                   <property name="maximum">
+                    <double>999.000000000000000</double>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QDoubleSpinBox" name="fieldDriftLast">
+                   <property name="toolTip">
+                    <string>Replace following points with average</string>
+                   </property>
+                   <property name="suffix">
+                    <string> [mm]</string>
+                   </property>
+                   <property name="decimals">
+                    <number>1</number>
+                   </property>
+                   <property name="maximum">
+                    <double>999.000000000000000</double>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="fieldPlotFrame">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_12"/>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>917</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuClose">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuMotor">
+     <property name="title">
+      <string>Motor</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuAnalyzer">
+     <property name="title">
+      <string>Analyzer</string>
+     </property>
+    </widget>
+    <addaction name="menuMotor"/>
+    <addaction name="menuAnalyzer"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <addaction name="menuClose"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionset">
+   <property name="text">
+    <string>Placeholder</string>
+   </property>
+  </action>
+  <action name="actionPlaceholder">
+   <property name="text">
+    <string>Placeholder</string>
+   </property>
+  </action>
+  <action name="actiondsfg">
+   <property name="text">
+    <string>dsfg</string>
+   </property>
+  </action>
+  <action name="action6546">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>6546</string>
+   </property>
+   <property name="priority">
+    <enum>QAction::HighPriority</enum>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>motorPort</tabstop>
+  <tabstop>motorBaud</tabstop>
+  <tabstop>actionMotorConnect</tabstop>
+  <tabstop>actionMotorDisconnect</tabstop>
+  <tabstop>actionMotorHold</tabstop>
+  <tabstop>actionMotorRelease</tabstop>
+  <tabstop>motorMoveSpeed</tabstop>
+  <tabstop>motorReturnSpeed</tabstop>
+  <tabstop>motorAcceleration</tabstop>
+  <tabstop>motorDeceleration</tabstop>
+  <tabstop>actionMotorStatus</tabstop>
+  <tabstop>actionMotorSet</tabstop>
+  <tabstop>projTotalLength</tabstop>
+  <tabstop>projStep</tabstop>
+  <tabstop>motorDirection</tabstop>
+  <tabstop>actionMotorSetOrigin</tabstop>
+  <tabstop>actionMotorReturn</tabstop>
+  <tabstop>actionMotorStop</tabstop>
+  <tabstop>motorGotoPositionVal</tabstop>
+  <tabstop>actionMotorGotoPosition</tabstop>
+  <tabstop>motorStepVal</tabstop>
+  <tabstop>actionMotorStep</tabstop>
+  <tabstop>motorConversionRatio</tabstop>
+  <tabstop>actionMotorCalibrate</tabstop>
+  <tabstop>actionVaConnect</tabstop>
+  <tabstop>actionVaDisconnect</tabstop>
+  <tabstop>actionVaStatus</tabstop>
+  <tabstop>actionVaRelease</tabstop>
+  <tabstop>actionVaReset</tabstop>
+  <tabstop>actionVaRestart</tabstop>
+  <tabstop>projInfo</tabstop>
+  <tabstop>vaPower</tabstop>
+  <tabstop>vaPowerVal</tabstop>
+  <tabstop>vaAveragingVal</tabstop>
+  <tabstop>vaAveraging</tabstop>
+  <tabstop>vaSmoothingVal</tabstop>
+  <tabstop>vaSmoothing</tabstop>
+  <tabstop>vaIntBand</tabstop>
+  <tabstop>vaSweepType</tabstop>
+  <tabstop>vaNOP</tabstop>
+  <tabstop>vaFreqUnit</tabstop>
+  <tabstop>vaDisplayEnable</tabstop>
+  <tabstop>actionVaSettingsApply</tabstop>
+  <tabstop>scatMeasureType</tabstop>
+  <tabstop>scatMeasurePart</tabstop>
+  <tabstop>scatMarkerMin</tabstop>
+  <tabstop>scatMarkerMax</tabstop>
+  <tabstop>scatMarkerQ</tabstop>
+  <tabstop>scatMarkerQVal</tabstop>
+  <tabstop>scatFreqCenter</tabstop>
+  <tabstop>scatFreqSpan</tabstop>
+  <tabstop>actionScatFreqGet</tabstop>
+  <tabstop>actionScatMeasure</tabstop>
+  <tabstop>actionScatContinious</tabstop>
+  <tabstop>actionScatRelease</tabstop>
+  <tabstop>actionScatDownload</tabstop>
+  <tabstop>eqBeadMaterial</tabstop>
+  <tabstop>eqFieldPart</tabstop>
+  <tabstop>eqKEMantissa</tabstop>
+  <tabstop>eqKEExponent</tabstop>
+  <tabstop>eqKHMantissa</tabstop>
+  <tabstop>eqKHExponent</tabstop>
+  <tabstop>eqKSMantissa</tabstop>
+  <tabstop>eqKSExponent</tabstop>
+  <tabstop>eqQLoad</tabstop>
+  <tabstop>scrollArea</tabstop>
+  <tabstop>fieldDriftFirst</tabstop>
+  <tabstop>fieldDriftLast</tabstop>
+  <tabstop>fieldStrategy</tabstop>
+  <tabstop>fieldPlotType</tabstop>
+  <tabstop>actionFieldStop</tabstop>
+  <tabstop>actionFieldReturn</tabstop>
+  <tabstop>actionFieldMeasure</tabstop>
+  <tabstop>actionFieldDownload</tabstop>
+  <tabstop>Tabs</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
