@@ -1,0 +1,8 @@
+molecule_azure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+molecule_azure/driver.py,sha256=1otogNYZFiFxtB25lGfs6yQSk3IZmeA-NAS5MQsZDkI,4432
+molecule_azure-0.1.dist-info/LICENSE,sha256=H4BSMa9OW-3Ut-HIOTZweAAuqQT1q3jgbX720cr8LPo,1081
+molecule_azure-0.1.dist-info/METADATA,sha256=oKvLWcE44AHA1EFBk6zZYzhOgmms2aJ3lwxBNrhos8I,4425
+molecule_azure-0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+molecule_azure-0.1.dist-info/entry_points.txt,sha256=BnZ9zi_15V0ofODzejpbpN7ZDELb_CzixmysiQ1f92A,50
+molecule_azure-0.1.dist-info/top_level.txt,sha256=NwEkYSpoTfDnsrM4KJslcL7pXlqw6FitBprovqy3mpk,15
+molecule_azure-0.1.dist-info/RECORD,,
