@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: vup
+Version: 1.0.1
+Summary: VUP: Version UPdater: Version management system
+Home-page: https://github.com/SiLeader/vup
+Author: SiLeader
+License: GPLv3.0
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Code Generators
+Description-Content-Type: text/markdown
+
+# VUP: Version UPdater
+
+&copy; 2019 SiLeader and Cerussite.
+
+## features
++ version number management
++ support some version type
+  + auto increment
+  + manual increment (increment by command execute)
+  + year, month, day
+  + number of days from specified date
++ dependent only standard Python libraries
+
+## version string format
+`MAJOR.MINOR.BUILD.REVISION`
+
+## usage
+1. run `init` sub command to initialize project
+1. run `generate` sub command to generate header file
+1. run `update` sub command to update version number
+
+`T` is position of version string.
+`T` is `major`, `minor`, `build`, or `revision`.
+
+### `init` sub command
++ `--T-type` is type of version number
++ `--T` is initial value
++ `--T-from` is starting point
+
+#### Type
+| type | meaning |
+|:----:|:--------|
+| `auto` | auto increment by update sub command |
+| `manual` | manual increment by update sub command |
+| `days` | number of days from specified date (`--T-from`) |
+| `year` | year |
+| `month` | month |
+| `day` | day |
+| `none` | not use this field |
+
+### `generate` sub command
++ `--language` or `-x`: target language (C++ or C)
++ `--output` or `-o`: output basename
++ `--pre-update`: update before generate
++ `--post-update`: update after generate
++ `--standard` or `--std`: C++ standard version
+
+## License
+GNU General Public License version 3.0 (GPLv3.0)
+
+See LICENSE.
+
+
