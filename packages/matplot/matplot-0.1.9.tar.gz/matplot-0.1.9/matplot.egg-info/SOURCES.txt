@@ -1,0 +1,10 @@
+setup.py
+matplot/__init__.py
+matplot/__main__.py
+matplot/matplot.py
+matplot.egg-info/PKG-INFO
+matplot.egg-info/SOURCES.txt
+matplot.egg-info/dependency_links.txt
+matplot.egg-info/entry_points.txt
+matplot.egg-info/requires.txt
+matplot.egg-info/top_level.txt
