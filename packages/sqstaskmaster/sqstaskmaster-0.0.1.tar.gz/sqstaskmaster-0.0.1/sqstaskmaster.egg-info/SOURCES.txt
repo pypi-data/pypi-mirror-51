@@ -1,0 +1,14 @@
+README.rst
+setup.py
+sqstaskmaster/__init__.py
+sqstaskmaster/message_handler.py
+sqstaskmaster/task_manager.py
+sqstaskmaster/version.py
+sqstaskmaster.egg-info/PKG-INFO
+sqstaskmaster.egg-info/SOURCES.txt
+sqstaskmaster.egg-info/dependency_links.txt
+sqstaskmaster.egg-info/requires.txt
+sqstaskmaster.egg-info/top_level.txt
+sqstaskmaster/tests/__init__.py
+sqstaskmaster/tests/test_message_handler.py
+sqstaskmaster/tests/test_task_manager.py
