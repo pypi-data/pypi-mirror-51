@@ -1,0 +1,6 @@
+colorama
+boto3
+psutil
+pluggy
+pyyaml
+xmltodict
