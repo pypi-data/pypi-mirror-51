@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: iats
+Version: 0.0.2
+Summary: minimal ats jupyter kernel
+Home-page: https://github.com/sparverius/iats/
+Author: Richard K
+Author-email: qpotizo@gmail.com
+License: MIT
+Download-URL: https://api.github.com/repos/sparverius/iats/tarball/0.0.2
+Description: UNKNOWN
+Keywords: ats,jupyter,notebook,kernel
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
