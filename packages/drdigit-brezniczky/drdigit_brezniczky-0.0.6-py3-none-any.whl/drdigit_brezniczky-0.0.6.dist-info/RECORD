@@ -1,0 +1,17 @@
+drdigit/__init__.py,sha256=YhkeVULQlygoCoe8sXTjxKBpzqdi8o4sNVbnaRh0Mi8,2694
+drdigit/digit_correlations.py,sha256=g7Fv7zoziuFp8phCEPhmFLrvT6uBz9gFXvBEZ0-umpM,6772
+drdigit/digit_distribution_charts.py,sha256=xZBGhreYdwLXohdvBhRaU4y7TcYxqS8_wbaVOVvh6XM,4878
+drdigit/digit_entropy_distribution.py,sha256=PokLZ9wDM4ZsOCa_vtr4m9afNZNQb-xXsMHwyC4TcLk,17035
+drdigit/digit_filtering.py,sha256=WSMpkQ2IFoXJubHU_nChIaqE7OWPK3Seq2o15RNJ3Vs,2944
+drdigit/fingerprint_plots.py,sha256=6SzD7A1yH7nt6DPXiH1Su81R8MGNDh2wkPWohabkCbE,5248
+drdigit/scoring.py,sha256=FWlhyEsO2K5Xur1jdnDzsn_ZwxezqFhKNKWN2nblO00,3992
+drdigit/twin_digits.py,sha256=taz4pxVc5Yh_AwF0NrvadcFAm2tCjyHoeVDidRZNLTs,570
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_digit_correlations.py,sha256=DwzA3CJ15DpdAFNfz5dxAk7LK_fpu9LW2AImD9A1POc,1747
+tests/test_digit_entropy.py,sha256=T87dFWSrmo49bQPNUANRGL8prFZ3slBgcOec5MLiqmI,248
+tests/test_twin_digits.py,sha256=XLMiCVBlfEjtKgdjvKpLA5ddkt336SSBQp-nFg0rpiI,633
+drdigit_brezniczky-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+drdigit_brezniczky-0.0.6.dist-info/METADATA,sha256=qFQ1y2tc8BRWKce8U-exlbK9kOOIXpMoYrzWqlIt0Fc,4000
+drdigit_brezniczky-0.0.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+drdigit_brezniczky-0.0.6.dist-info/top_level.txt,sha256=6RidKYp0o3xfdyWlxXOXS6MyG_nf8-g6AzXeOPPLUwY,14
+drdigit_brezniczky-0.0.6.dist-info/RECORD,,
