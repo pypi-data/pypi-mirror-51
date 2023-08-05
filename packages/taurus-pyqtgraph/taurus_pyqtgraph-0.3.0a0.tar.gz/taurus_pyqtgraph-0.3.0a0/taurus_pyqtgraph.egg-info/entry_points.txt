@@ -1,0 +1,6 @@
+[taurus.cli.subcommands]
+tpg = taurus_pyqtgraph.cli:tpg
+
+[taurus.qt.qtgui]
+tpg = taurus_pyqtgraph
+
