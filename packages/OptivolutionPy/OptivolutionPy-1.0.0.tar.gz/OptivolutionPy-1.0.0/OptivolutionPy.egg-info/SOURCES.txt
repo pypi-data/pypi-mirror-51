@@ -1,0 +1,9 @@
+README.md
+setup.py
+OptivolutionPy.egg-info/PKG-INFO
+OptivolutionPy.egg-info/SOURCES.txt
+OptivolutionPy.egg-info/dependency_links.txt
+OptivolutionPy.egg-info/top_level.txt
+optivolution/__init__.py
+optivolution/chromosome.py
+optivolution/population.py
