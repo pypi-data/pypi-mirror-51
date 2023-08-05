@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyoptimize
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Andrew Barisser
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.15.0)
+
+UNKNOWN
+
+
