@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+sliceparser/__init__.py
+sliceparser/advsliceparser.py
+sliceparser.egg-info/PKG-INFO
+sliceparser.egg-info/SOURCES.txt
+sliceparser.egg-info/dependency_links.txt
+sliceparser.egg-info/top_level.txt
+test/test_advsliceparser.py
