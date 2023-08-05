@@ -1,0 +1,14 @@
+fsource/__init__.py,sha256=kawo1s6ESpz4SWK3thO3sSOAYkCtfD1ykooEpZrBA-g,293
+fsource/__main__.py,sha256=eY61d1M2UFPLomb-Ca1bTfM6NXTj3A99oZJZzGiPf68,6070
+fsource/analyzer.py,sha256=miSJXSPyhQfX8dRhiXjUgql6dcLizFEqaD1L9z1PK7M,224
+fsource/common.py,sha256=cBZf-kghSLOlIDzFgXMtHvmRK-cudF7zjdllafxFMcQ,2388
+fsource/lexer.py,sha256=imGjuALYkwh7Cxe4OdVYOdDhElYCPZhvq5yV_fPPvXQ,8383
+fsource/parser.py,sha256=SFVYc6PUPa4xbJOx5JfVa1KdMW5IDUUzSZzD4LflEAE,52994
+fsource/splicer.py,sha256=9c7uAoP4gyA5UCTUW3CZvDWKzk7daAcvtOAHVV5tz_0,8155
+fsource-0.3.1.dist-info/.editorconfig,sha256=6jnkB2phmesy0i58txKZvHSe0MdG2TT8e-bUcwf9HNM,251
+fsource-0.3.1.dist-info/LICENSE.txt,sha256=xQbmYqOD_snN43w0O-dQQUjIScteX3vU6yVXn7qpiSc,42852
+fsource-0.3.1.dist-info/METADATA,sha256=weBomKvBQCEjLiKWYC3vlRSGjTe3CnJF3cnBckrrYD0,1981
+fsource-0.3.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+fsource-0.3.1.dist-info/entry_points.txt,sha256=GCIc_9f6zZUS2DQjG-H-U3qbq9-Nu2I9oWn5yTB4kIU,51
+fsource-0.3.1.dist-info/top_level.txt,sha256=JiKeCSHRtEuz6LwBXo8QnRklSDtl1g_jeC0anfJFHhY,8
+fsource-0.3.1.dist-info/RECORD,,
