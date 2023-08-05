@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: py3status-omegav
+Version: 0.1
+Summary: py3status module to check door status at Omega Verksted
+Home-page: https://github.com/jakoblover/py3status-omegav
+Author: Jakob Løver
+License: UNKNOWN
+Description: # py3status-omegav
+        py3status module for viewing the door status at Omega Verksted
+        
+        Install the module
+        
+        `pip install py3status-omegav`
+        
+        Add the following line to your py3status config
+        
+        `order += "omegav"`
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

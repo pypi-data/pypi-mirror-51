@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/py3status_omegav/__init__.py
+src/py3status_omegav/omegav.py
+src/py3status_omegav.egg-info/PKG-INFO
+src/py3status_omegav.egg-info/SOURCES.txt
+src/py3status_omegav.egg-info/dependency_links.txt
+src/py3status_omegav.egg-info/entry_points.txt
+src/py3status_omegav.egg-info/requires.txt
+src/py3status_omegav.egg-info/top_level.txt
