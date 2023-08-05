@@ -1,0 +1,9 @@
+setuptools
+pytest
+pyaml
+jsonschema
+coloredlogs
+requests
+flask-restplus
+mock
+pyrfc3339
