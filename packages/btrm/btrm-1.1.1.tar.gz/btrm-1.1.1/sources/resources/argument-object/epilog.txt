@@ -1,0 +1,13 @@
+By default, btrm does not remove directories.  Use the --recursive (-r or -R)
+option to remove each listed directory, too, along with all of its contents.
+
+To remove a file whose name starts with a '-', for example '-foo',
+use one of these commands:
+  btrm -- -foo
+
+  btrm ./-foo
+
+Note that if you use btrm to remove a file, it always be possible to recover all 
+of its contents within 60 days, looking for deleted file at trash directory and
+and use --recover options to recover whatever you want. For greater assurance 
+that the contents are truly unrecoverable, consider using shred.

@@ -1,0 +1,5 @@
+btrm v1.0.0
+Copyright (C) 2019 VNG Corp, GT team.
+License MIT.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
