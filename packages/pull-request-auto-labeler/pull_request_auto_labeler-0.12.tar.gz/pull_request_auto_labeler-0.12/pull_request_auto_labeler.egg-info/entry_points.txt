@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pull_request_auto_labeler=pull_request_auto_labeler:add_labels_for_project_names_from_pr_titles
+    
