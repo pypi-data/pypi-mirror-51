@@ -1,0 +1,14 @@
+bistring/__init__.py,sha256=OpnfT3CPMys693WcfKdIa9VhpzCuTJ5vEOdAtdahI78,189
+bistring/_alignment.py,sha256=cBhYX8X2O3q7OwGdg8Nx2kqair6JyvQ6sqQTDeoVZUY,19839
+bistring/_bistr.py,sha256=2CMxmgyXkBqccDsoPaBlHrF_dm6Hv8UIFtgC-kKoy3A,25433
+bistring/_builder.py,sha256=T34u0fCJ0yWj3FFQDGPej2Mev7bJUNQKXey7KyvD4V0,9574
+bistring/_icu.py,sha256=LHJtCGaY-Qfa_gIERxekzahHkZfPYZ_-NK1vhoNBz6g,2193
+bistring/_infer.py,sha256=BmC04cBUySJ11OyvCFGzaBpt2fyXLK6elDzIeYkoYd0,3724
+bistring/_regex.py,sha256=Qr0pjNu0NyNBctG0I4z-e2OM-4utRYeGL8LKPjFnPYg,488
+bistring/_token.py,sha256=L4Gzq8IwJZcIz6-QJ2X1DFyDazyw7T0kdM_hixHmBZM,13550
+bistring/_typing.py,sha256=OzcFWSCWwR-E3iWxlBb5c6yXOEYaBNGKnZ7gwocpCEM,379
+bistring/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bistring-0.3.0.dist-info/METADATA,sha256=2rPSNaFN8fJaDecw1nbnWaw0bguBLnjO1690XdZOX-I,1935
+bistring-0.3.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+bistring-0.3.0.dist-info/top_level.txt,sha256=0jFgTCrb_nABFt2ek6k3_6igwtYhQJchvHUbBJLApcg,9
+bistring-0.3.0.dist-info/RECORD,,
