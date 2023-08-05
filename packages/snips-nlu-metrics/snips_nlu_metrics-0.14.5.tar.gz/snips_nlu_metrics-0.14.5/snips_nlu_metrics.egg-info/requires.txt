@@ -1,0 +1,13 @@
+future
+numpy<2.0,>=1.7
+scipy<2.0,>=1.0
+joblib<0.14,>=0.13
+
+[:python_version < "3.5"]
+scikit-learn<0.21,>=0.19
+
+[:python_version >= "3.5"]
+scikit-learn<0.22,>=0.21.0
+
+[test]
+mock<3.0,>=2.0
