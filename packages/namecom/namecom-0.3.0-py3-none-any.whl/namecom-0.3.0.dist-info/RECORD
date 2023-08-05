@@ -1,0 +1,11 @@
+bin/__init__.py,sha256=ofanI22CD3HvWBQl4vn90-cQFcsKpkdwFu6e8cpLS1A,78
+namecom/__init__.py,sha256=hSmzPOA5_b8z5GmKi3GbNFPP7q04-vP0l0nVSe1GSAw,4039
+namecom/cli.py,sha256=0f_i0yl-ORBMkDW7Y7_MIissGd23kqpkgqqWkQedGgc,3647
+namecom/compat.py,sha256=o5rze55cEnn7Yiu78QgUNO8VCicPw90vtSfFafp0CnM,250
+namecom/helpers.py,sha256=WBayF9arFnTMeGnoxVWnNawnWiJyDxexaA6r9-o--Fw,801
+namecom-0.3.0.data/scripts/namecli,sha256=Qhf4hrbFg8ybfke1cZyLUIAX-D9udQbh7-spVeDc_6E,3627
+namecom-0.3.0.dist-info/LICENSE.txt,sha256=2b6KKHfmBx0GuU2Q1sduLUVLqb0XKTnCUBO-4WfCnjA,1051
+namecom-0.3.0.dist-info/METADATA,sha256=N_TqSjMuobsSUASMpnxL1rtsoXLcGScFeLcokEGKIno,2253
+namecom-0.3.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+namecom-0.3.0.dist-info/top_level.txt,sha256=XBDIFbKHMfR7EjZV00SPmyGMq7g04nMC020eYDDdRGY,8
+namecom-0.3.0.dist-info/RECORD,,
