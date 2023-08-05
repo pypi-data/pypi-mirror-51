@@ -1,0 +1,10 @@
+six
+future
+sqlparse
+csv23
+pythonnet
+pyodbc
+pymysql
+vertica_python
+cx_Oracle
+pymongo
