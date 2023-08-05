@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cipcore
+Version: 1.0.21
+Summary: CIP core classes.
+Home-page: UNKNOWN
+Author: CIP Team
+Author-email: gustavo.oliveira@tvlgobo.com.br
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: mock (==2.0.0)
+Requires-Dist: requests (==2.18.4)
+Requires-Dist: ciperror (==1.0.51)
+Requires-Dist: pytest (==5.0.1)
+Requires-Dist: responses (==0.10.6)
+Requires-Dist: coverage (==4.5.3)
+Requires-Dist: cip-workflow-status (==0.0.19)
+Requires-Dist: PyHamcrest (==1.9.0)
+Requires-Dist: redis (==3.1.0)
+Requires-Dist: fakeredis (==1.0.2)
+
+UNKNOWN
+
+
