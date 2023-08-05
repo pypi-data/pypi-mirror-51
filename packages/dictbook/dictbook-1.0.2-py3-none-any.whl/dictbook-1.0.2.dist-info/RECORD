@@ -1,0 +1,10 @@
+dictbook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dictbook/clear_html.py,sha256=DfYLdc9iGhBycMJVO7nmCuPEGPHf8FO7TIK9uFkfxyk,880
+dictbook/database.py,sha256=ysZZjD6IzTOV27VX7Hf88RdMZbBEwNR5i8Lhhfib4zQ,1316
+dictbook/exceptions.py,sha256=ZTmsL10wJ83MximBJ9lqcfXk2pFmnEsSIhfdjSsI0oo,53
+dictbook/test_word.py,sha256=h_p5qI_MOeBHKd3XJ05yInrp7kQV_xMj1_JEtIREteY,2437
+dictbook/word.py,sha256=LaDlSEl-7851es1S8mpCopRxXx2Z314knqItpRH4dTw,2867
+dictbook-1.0.2.dist-info/METADATA,sha256=OwQBqXbYB9jRvhGrH58un1TpmAYzCfo54QtxySJ7ZrU,452
+dictbook-1.0.2.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+dictbook-1.0.2.dist-info/top_level.txt,sha256=JnmgT3Sn7sfl4JkV0xsoM0p8-2KLYB-qdWQjvTlQA2g,9
+dictbook-1.0.2.dist-info/RECORD,,
