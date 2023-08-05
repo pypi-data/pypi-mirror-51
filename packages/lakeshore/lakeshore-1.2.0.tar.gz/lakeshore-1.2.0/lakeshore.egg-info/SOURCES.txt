@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+lakeshore/__init__.py
+lakeshore/fast_hall.py
+lakeshore/precision_source.py
+lakeshore/requires_firmware_version.py
+lakeshore/teslameter.py
+lakeshore/xip_instrument.py
+lakeshore.egg-info/PKG-INFO
+lakeshore.egg-info/SOURCES.txt
+lakeshore.egg-info/dependency_links.txt
+lakeshore.egg-info/requires.txt
+lakeshore.egg-info/top_level.txt
