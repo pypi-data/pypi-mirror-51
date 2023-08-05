@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: makey
+Version: 0.0.7
+Summary: Make libraries from GIT/url/tarball with CMAKE, and install using checkinstall.
+License: MIT
+Author: Angus Hollands
+Author-email: goosey15@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: plumbum (>=1.6.7,<2.0.0)
