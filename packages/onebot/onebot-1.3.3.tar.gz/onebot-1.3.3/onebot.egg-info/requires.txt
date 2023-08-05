@@ -1,0 +1,7 @@
+irc3>=1.1.3
+wheel
+lfmh
+musicbrainzngs
+beautifulsoup4
+html5lib!=0.99999999
+requests
