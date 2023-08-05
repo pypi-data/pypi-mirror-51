@@ -1,0 +1,13 @@
+pyreadstat/__init__.py,sha256=tooTNA5FfKCxHF4HIat7GB5fWGmBrRB3gELYATisas8,1096
+pyreadstat/_readstat_parser.cp36-win32.pyd,sha256=U3y6oiC-TPzFgC73sgm3kMDDCIUx61p_Y-KnCSTeTnQ,308736
+pyreadstat/_readstat_writer.cp36-win32.pyd,sha256=QMpA3zBxpK4JyYo44I3m8_TLIvKCNQuT4bod6n0qZ-0,408064
+pyreadstat/pyreadstat.cp36-win32.pyd,sha256=HpQ8TMWfBYswDT-MyuWT7Z710TIbjSxCaNSHHnbrV0M,336384
+pyreadstat-0.2.9.data/data/libgcc_s_dw2-1.dll,sha256=vWQyB_P0WpCFu9rqPmjUlmYt1Mirlq2dRu18bhrLMd4,119988
+pyreadstat-0.2.9.data/data/libiconv-2.dll,sha256=vRO6t5dSwN7t-8igwF8-E6-l_sRQMWLcrs4STsiWjhA,1055929
+pyreadstat-0.2.9.data/data/libwinpthread-1.dll,sha256=Hwqw0JPtGXnPI-YsmoO501Qo0lJ-4TqkYG_YU9gBLfI,65693
+pyreadstat-0.2.9.data/data/zlib1.dll,sha256=cvMLqEKNHF-1pkz7eTMmFoqmpLnse1gvOfeTqKOUo5s,95046
+pyreadstat-0.2.9.dist-info/LICENSE,sha256=Tjohfl1RlkuDoTF5ctnLvkGnr8TU27PEy7PhOHjRz5c,12903
+pyreadstat-0.2.9.dist-info/METADATA,sha256=kJofdVtGhjS0azKAwW-y5nVjMvsthAq6t3yUESj5-4s,996
+pyreadstat-0.2.9.dist-info/WHEEL,sha256=wmPDZ4YlYYeN7oO3FufAnVVnuyeW39IdWpCEXybTMGY,102
+pyreadstat-0.2.9.dist-info/top_level.txt,sha256=7LlluhR4SADp00dJTEVpKMet_Jki7JHA6abJ-wu831E,11
+pyreadstat-0.2.9.dist-info/RECORD,,
