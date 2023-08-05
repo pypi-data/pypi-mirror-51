@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/config.py,sha256=bmjkvM8OGqmrGzU06wq_1iBPH4yHRs_qGcMMGPEZhzs,734
+src/image_process.py,sha256=qvnQ1OyQCuHok-2YFfc4yTkB7oSJwQfxOS7F0N4Ligg,10838
+src/image_reco.py,sha256=6OJWDZRTaQ8BDwx6_2xzvUQXpxil4bmhALL1-9EQ-Fs,1204
+src/test.py,sha256=3NQpzbef0d4Og0HRuWDUu8silvpetnhVcI-BXfLxd9E,3413
+src/text_process.py,sha256=uNNZdRJtSVQR7pMGzt6e_cVxqzvOFHOOEWV7MG2UEKE,1854
+src/video_process.py,sha256=GDpVzvMzjNU9lJiF_q1vlsFqhoSLKwirwh0Jywmwxh8,1281
+videoTotext-1.0.dist-info/METADATA,sha256=Xt85VTItlLwLLT5KFwnsgBLYXpqkBapTZsSclwRblSg,536
+videoTotext-1.0.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+videoTotext-1.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+videoTotext-1.0.dist-info/RECORD,,
