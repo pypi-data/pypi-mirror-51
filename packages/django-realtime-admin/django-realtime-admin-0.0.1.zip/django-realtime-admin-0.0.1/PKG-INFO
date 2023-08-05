@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: django-realtime-admin
+Version: 0.0.1
+Summary: Django Realtime Admin refresh UI without page refresh
+Home-page: https://github.com/devova/django-realtime-admin
+Author: Volodymyr Trotsyshyn
+Author-email: devova@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: testing,pytest
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7

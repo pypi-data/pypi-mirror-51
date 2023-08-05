@@ -1,0 +1,26 @@
+{% extends "admin/change_list.html" %}
+{% load i18n admin_urls static admin_list %}
+
+{% block extrastyle %}
+  {{ block.super }}
+    <link rel="stylesheet" href="{% static 'django_realtime_admin/updates.css' %}">
+{% endblock %}
+
+{% block extrahead %}
+{{ block.super }}
+    <script src="{% static 'django_eventstream/eventsource.min.js' %}"></script>
+    <script src="{% static 'django_eventstream/reconnecting-eventsource.js' %}"></script>
+    <script type="text/javascript" src="{% static 'django_realtime_admin/updates.js' %}"></script>
+    <script type="text/javascript">
+    const updatesUrls = [{% for obj in cl.result_list %}"{% url opts|admin_urlname:'updates' obj.pk|admin_urlquote %}"{% if not forloop.last %}, {% endif %}{% endfor %}];
+    const modelName = '{{ opts.model_name }}';
+    </script>
+{% endblock %}
+
+{% block bodyclass %}{{ block.super }} auto-updated{% endblock %}
+
+{% block content %}
+    {% csrf_token %}
+    {{ block.super }}
+    <div class="enable_real_time_updates"><input type="checkbox" id="real_time_updates"><label for="real_time_updates"> Real Time updates</label></div>
+{% endblock %}
