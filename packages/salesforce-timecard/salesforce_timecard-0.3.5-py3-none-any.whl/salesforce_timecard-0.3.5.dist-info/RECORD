@@ -1,0 +1,9 @@
+salesforce_timecard/__init__.py,sha256=1ojV0-yi6q3q4SCyqjmna2GuSpXwKY5cZ-uHooKIfD8,421
+salesforce_timecard/cli.py,sha256=SUhahvGHJRXkWdPJRJMahtlsaVdwNt0fIvY1q6zvYLk,4105
+salesforce_timecard/core.py,sha256=DNQ4_eHfBS49crIvfvSUK_BphTaXlX2Cgn51IbQmgqg,6378
+salesforce_timecard-0.3.5.dist-info/LICENSE,sha256=dYChp6ZeaY68-Nq-cUcXeGlJEunKICNZsuG35BNBWjk,1073
+salesforce_timecard-0.3.5.dist-info/METADATA,sha256=SSHFog3dHW5Q0bvEDxSeDGI-C5wJFNb8Ue-3XMJPK5s,751
+salesforce_timecard-0.3.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+salesforce_timecard-0.3.5.dist-info/entry_points.txt,sha256=Jn1gc1cxLRba7Ztb12Ffwo5gy0Fiv9bEpnbhMiwuiOQ,76
+salesforce_timecard-0.3.5.dist-info/top_level.txt,sha256=C406A9IbLgrwdJtOWycIGoS9yVxSD2SN9OPH1GhzW7Q,20
+salesforce_timecard-0.3.5.dist-info/RECORD,,
