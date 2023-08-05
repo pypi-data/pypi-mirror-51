@@ -1,0 +1,11 @@
+predicode/__init__.py,sha256=Z7dwPlv98psk9CsAHZx-bR7FuzKuHjQ4KSLVXJCV9Ow,178
+predicode/datasets/__init__.py,sha256=9bgLDbm_LapHwd9AdJQX9l5c2lNt8Sr1wPfBTVhbEkE,97
+predicode/datasets/cifar10.py,sha256=7Hjxd91ZWZbzpWkydrEw5lx6vFxxaLSyf0Pbeiv8GwY,596
+predicode/datasets/imagedata.py,sha256=yN1I-zoiSf-jtNBgsg_-UdnayqJUjw0UGNokLvDu5hc,3123
+predicode/simulations/__init__.py,sha256=QU-pup14khRcJIPKylLF1r6Ysywidar1GQdSAu7Jf9Y,110
+predicode-0.0.0.9000.dist-info/DESCRIPTION.rst,sha256=nmxyVY928noHjyOasfCGO7kKRp1oKWhifzISoCQzBeU,85
+predicode-0.0.0.9000.dist-info/METADATA,sha256=msh13TyABy41RodJWEHtlkUg66ZwLFAT3vY7plOdpEc,499
+predicode-0.0.0.9000.dist-info/RECORD,,
+predicode-0.0.0.9000.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+predicode-0.0.0.9000.dist-info/metadata.json,sha256=aUSN8APF-KS-dEMuDZ-Mydd5ad6riX5Qh8d_Wcpbz1Y,582
+predicode-0.0.0.9000.dist-info/top_level.txt,sha256=5u0fDa-FYfvK4djZEWHWR_q8W-yfMu7ndVG-aJNgXtA,10

@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: predicode
+Version: 0.0.0.9000
+Summary: Simulations and interface to analytical solutions of predictive coding
+Home-page: https://github.com/sflippl/predicode
+Author: Samuel Lippl
+Author-email: sfc.lippl@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Predicode: Simulations and analytical solutions of predictive coding algorithms
+
+
+
