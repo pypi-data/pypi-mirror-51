@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "py_jaeger_tracing"
+version = "1.1.8"
+
+description = "Ultimate Python Package for Distribution Tracing"
+readme = "README.md"
+license = "MIT License"
+
+homepage = "https://github.com/mrk-andreev/py_jaeger_tracing"
+repository = "https://github.com/mrk-andreev/py_jaeger_tracing"
+documentation = "https://github.com/mrk-andreev/py_jaeger_tracing/wiki"
+
+authors = [
+    "Mark Andreev <mark.andreev@gmail.com>",
+]
+
+classifiers = [
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.20.0"
+jaeger-client = "^4.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
