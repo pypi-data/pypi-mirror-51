@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pyjamaparty
+Version: 0.2
+Summary: Set of casual python utilities
+Home-page: http://github.com/krajasek/pyjamaparty
+Author: Karthik Rajasekaran
+Author-email: krajasek@gmail.com
+License: MIT
+Description: Set of casual python utilities, written standing on shoulders of giants. Tools include a string builder, singleton decorator
+Platform: UNKNOWN
+Requires-Python: >=2.7
