@@ -1,0 +1,10 @@
+README.md
+setup.py
+compose_to_manifest.egg-info/PKG-INFO
+compose_to_manifest.egg-info/SOURCES.txt
+compose_to_manifest.egg-info/dependency_links.txt
+compose_to_manifest.egg-info/entry_points.txt
+compose_to_manifest.egg-info/requires.txt
+compose_to_manifest.egg-info/top_level.txt
+convertor/__init__.py
+convertor/convertor.py
