@@ -1,0 +1,6 @@
+azure-common>=1.1.12
+azure-mgmt-nspkg>=3.0.0
+azure
+molecule
+pytest>=3.50
+pyyaml<6,>=5.1
