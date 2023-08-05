@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: reproserver
+Version: 0.0
+Summary: A web application reproducing ReproZip packages in the cloud
+Home-page: https://www.reprozip.org/
+Author: Remi Rampin
+Author-email: remirampin@gmail.com
+Maintainer: Remi Rampin
+Maintainer-email: remirampin@gmail.com
+License: BSD-3-Clause
+Project-URL: Homepage, https://gitlab.com/ViDA-NYU/reproserver
+Project-URL: Say Thanks, https://saythanks.io/to/remram44
+Project-URL: Source, https://gitlab.com/ViDA-NYU/reproserver
+Project-URL: Tracker, https://gitlab.com/ViDA-NYU/reproserver/issues
+Description: [![Matrix](https://img.shields.io/badge/chat-matrix.org-blue.svg)](https://riot.im/app/#/room/#reprozip:matrix.org)
+        
+        .. image:: https://img.shields.io/badge/chat-matrix.org-blue.svg
+           :alt: Matrix
+           :target: https://riot.im/app/#/room/#reprozip:matrix.org
+        
+        ReproServer
+        ===========
+        
+        Goals
+        -----
+        
+        - Import something we can build a Docker image from (currently only a ReproZip package)
+        - Build a Docker image from it
+        - Allow the user to change experiment parameters and input files
+        - Run the experiment
+        - Show the log and output files to the user
+        
+Keywords: reprozip,reprounzip,docker,kubernetes,reproducibility,reproducible-research,linux,science,nyu
+Platform: UNKNOWN
