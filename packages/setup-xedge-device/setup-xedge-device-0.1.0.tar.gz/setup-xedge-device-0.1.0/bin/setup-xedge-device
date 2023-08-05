@@ -1,0 +1,71 @@
+#!/usr/bin/env pyhton
+
+import requests
+import getpass
+import docker
+
+
+def handle_res(res):
+    if res.status_code == 401:
+        print('E: Auth failed')
+    elif res.status_code != 200:
+        print(f'E: Unexpected response: {res.status_code} {res.text}')
+    else:
+        try:
+            return res.json()
+        except Exception as e:
+            print(f'Response JSON decode error: {e}, response={res}')
+
+
+def start_device(device_id, token):
+    res = requests.get(
+        f'https://api.xompass.com/api/Devices/{device_id}/token?access_token={token}')
+    data = handle_res(res)
+    if data is None:
+        return
+    try:
+        device_token = data['id']
+    except Exception:
+        print(f'E: Could not retrieve device token from: {data}')
+        return
+    try:
+        cli = docker.from_env()
+        print('Forcing pull :latest')
+        cli.images.pull('xompassdevregistry.azurecr.io/xedge-device:latest')
+        cli.containers.run(
+            'xompassdevregistry.azurecr.io/xedge-device:latest',
+            name=f'xedge-device',
+            detach=True,
+            restart_policy={
+                'Name': 'always',
+                'MaximumRetryCount': 0
+            },
+            volumes={
+                '/var/run/docker.sock': {
+                    'bind': '/var/run/docker.sock',
+                    'mode': 'rw'
+                }
+            },
+            environment=[
+                'DOCKER_API_VERSION=1.24',
+                f'XEDGE_DEVICE_ID={device_id}',
+                f'XEDGE_DEVICE_TOKEN={device_token}'
+            ])
+        print(f'OK: xedge-device')
+    except Exception as e:
+        print(f'E: Could not create container: {e}')
+
+
+if __name__ == '__main__':
+    device_id = input('deviceid: ')
+    username = input('username: ')
+    password = getpass.getpass(prompt='password: ')
+    login_info = {'username': username, 'password': password}
+    res = requests.post(
+        'https://api.xompass.com/api/SuperAdmins/login', json=login_info)
+    data = handle_res(res)
+    if data is not None:
+        try:
+            start_device(device_id, data['id'])
+        except Exception:
+            print(f'E: Could not retrieve auth token from: {data}')

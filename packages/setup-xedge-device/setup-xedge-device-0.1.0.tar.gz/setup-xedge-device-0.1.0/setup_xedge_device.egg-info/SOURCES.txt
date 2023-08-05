@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/setup-xedge-device
+setup_xedge_device.egg-info/PKG-INFO
+setup_xedge_device.egg-info/SOURCES.txt
+setup_xedge_device.egg-info/dependency_links.txt
+setup_xedge_device.egg-info/not-zip-safe
+setup_xedge_device.egg-info/requires.txt
+setup_xedge_device.egg-info/top_level.txt
