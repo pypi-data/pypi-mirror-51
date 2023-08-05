@@ -1,0 +1,2 @@
+include dmd/templates/*.html
+include dmd/templates/*.md
