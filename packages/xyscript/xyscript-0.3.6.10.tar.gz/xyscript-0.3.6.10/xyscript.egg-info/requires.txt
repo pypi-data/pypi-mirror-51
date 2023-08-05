@@ -1,0 +1,5 @@
+requests
+GitPython
+setuptools
+configparser
+progressbar
