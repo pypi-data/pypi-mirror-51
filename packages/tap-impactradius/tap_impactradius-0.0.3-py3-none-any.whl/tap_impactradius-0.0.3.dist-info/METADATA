@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tap-impactradius
+Version: 0.0.3
+Summary: Singer.io tap for extracting data from api.impactradius.com
+Home-page: https://github.com/onedox/tap-impactradius
+Author: Onedox
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: requests (>=2.13.0)
+Requires-Dist: singer-python (>=1.4.2)
+
+UNKNOWN
+
+
