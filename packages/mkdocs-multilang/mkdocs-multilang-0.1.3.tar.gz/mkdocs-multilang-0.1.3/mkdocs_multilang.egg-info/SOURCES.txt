@@ -1,0 +1,10 @@
+README.md
+setup.py
+mkdocs_multilang/__init__.py
+mkdocs_multilang/plugin.py
+mkdocs_multilang.egg-info/PKG-INFO
+mkdocs_multilang.egg-info/SOURCES.txt
+mkdocs_multilang.egg-info/dependency_links.txt
+mkdocs_multilang.egg-info/entry_points.txt
+mkdocs_multilang.egg-info/requires.txt
+mkdocs_multilang.egg-info/top_level.txt
