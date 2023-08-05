@@ -1,0 +1,6 @@
+include AUTHORS
+include AUTHORS_ORIGINAL_WORK
+include LICENSE
+include LICENSE_ORIGINAL_WORK
+include README.rst
+include run_tests.py
