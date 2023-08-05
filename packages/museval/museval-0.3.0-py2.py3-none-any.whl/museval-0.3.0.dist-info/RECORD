@@ -1,0 +1,13 @@
+museval/__init__.py,sha256=ebIJ47h37VR5asIvbh5EEyeCIA93pKnIPCRwYNctHpc,11527
+museval/aggregate.py,sha256=_kW4J6SVA5F46YYiOpq79EHFOq4OLMI8Yt-Ag8tYbbI,12833
+museval/cli.py,sha256=Q4XmQhrojZ_VARBuxMnx6aE3WoUL5GsNMQQSZOKEcQk,2276
+museval/metrics.py,sha256=qqKOWXCZ0hB90NBBGPWnEcPGfFCtGg_Axk9HEyXZr0Y,25577
+museval/musdb.schema.json,sha256=dpUeQUUZlneNaJ3HiWln0XxrG2yRIIn08LiTzU8FJDE,1136
+museval/util.py,sha256=b8EL8Ed16QxZXCVq-b-wXZtuOBEgNyfkipcatIFtGY8,1710
+museval/version.py,sha256=ZwO2hEFQf1m272KpzxfH-9uAgtDq9i6H2waQUSaPxp8,19
+museval-0.3.0.dist-info/LICENSE,sha256=0Jj3-ZxLqp-1iGtahTxpMx30TLKyxUCdS2FvAB41-98,1063
+museval-0.3.0.dist-info/METADATA,sha256=K3mSdCzaMi8JQ90ngrVaANcplE0P-rFqai6nVavHw_A,9671
+museval-0.3.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+museval-0.3.0.dist-info/entry_points.txt,sha256=pM9KeIKUYKYjZONY4XgVNqcoUTN7O7vu77jcCtFidnc,79
+museval-0.3.0.dist-info/top_level.txt,sha256=VPT4O7IqPASowZyE6QMynKDmILjZAXUpyA4sh9FnC80,8
+museval-0.3.0.dist-info/RECORD,,
