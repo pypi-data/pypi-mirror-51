@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: oauth2-xfel-client
+Version: 5.1.0
+Summary: Python OAUTH 2.0 Client using Backend Application strategy
+Home-page: https://git.xfel.eu/gitlab/ITDM/oauth2_xfel_client
+Author: Luís Maia
+Author-email: luis.maia@xfel.eu
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
