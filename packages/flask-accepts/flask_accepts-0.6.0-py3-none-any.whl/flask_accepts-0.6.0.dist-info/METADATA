@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flask-accepts
+Version: 0.6.0
+Summary: Easy Flask input validation
+Home-page: UNKNOWN
+Author: Alan "AJ" Pryor, Jr.
+Author-email: apryor6@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: marshmallow (>=2.19.5)
+Requires-Dist: flask-restplus (>=0.12.1)
+
+UNKNOWN
+
+
