@@ -1,0 +1,9 @@
+README.md
+setup.py
+musicgen/__init__.py
+musicgen/musicgen.py
+musicgen.egg-info/PKG-INFO
+musicgen.egg-info/SOURCES.txt
+musicgen.egg-info/dependency_links.txt
+musicgen.egg-info/requires.txt
+musicgen.egg-info/top_level.txt
