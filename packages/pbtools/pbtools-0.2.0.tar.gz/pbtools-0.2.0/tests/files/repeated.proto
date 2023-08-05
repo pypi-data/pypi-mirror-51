@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package repeated;
+
+message Message {
+    // Packed by default.
+    repeated int32 int32s = 1;
+
+    // Can not be packed.
+    repeated Message messages = 2;
+}
