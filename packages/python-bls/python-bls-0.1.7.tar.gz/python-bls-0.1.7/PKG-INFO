@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: python-bls
+Version: 0.1.7
+Summary: BLS12-381 and Signatures in python
+Home-page: https://github.com/zebra-lucky/python-bls
+License: Apache License 2.0
+Description: Implements the BLS12 curve and optimal ate pairing, as well as BLS signatures and aggregation. Use for reference / educational purposes only. Based on reference implementation from Chia BLS Signatures
+Platform: any
+Requires-Python: >=3.6
