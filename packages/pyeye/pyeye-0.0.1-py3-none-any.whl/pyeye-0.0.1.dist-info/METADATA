@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyeye
+Version: 0.0.1
+Summary: Integrated Object Detectors
+Home-page: https://github.com/aitrek/pyeye
+Author: aitrek
+Author-email: aitrek.zh@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+
+# pyeye
+Integrated Object Detectors
+
+
