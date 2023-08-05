@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: portalnews
+Version: 0.1.1
+Summary: 대한민국 3대 포털뉴스(네이버, 다음, 네이트)의 기사, 반응, 댓글, 답글 수집기
+Home-page: https://github.com/j1wan/portalnews
+Author: Jiwan Jeong
+Author-email: jiwanjeong@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# portalnews
+
+대한민국 3대 포털뉴스(네이버, 다음, 네이트)의 기사, 반응, 댓글, 답글 수집기
+
+## 설치
+
+```
+pip install portalnews
+```
+
+## 예시
+
+```
+from portalnews.naver import NaverNewsCrawler
+
+articles = NaverNewsCrawler.get_daily_articles_by_category('20180511')
+```
+
+## 공통 지원 함수 목록
+
+| Method                   | Parameters | Naver | Daum | Nate |
+| :-                       |:-:                   |:-:|:-:|:-:|
+| get_daily_articles_by_category    | date, category id |O|O|O|
+| get_daily_most_read_articles      | date, category id |O|O|O|
+| get_daily_most_commented_articles | date, category id |O|O|O|
+| get_main_articles                 | date, category id |O|O|-|
+| get_article_content               | article id        |O|O|O|
+| get_article_reactions             |article id         |O|O|O|
+| get_comment_metadata              |article id         |O|O|O|
+| get_all_comments                  |article id         |O|O|O|
+| get_all_replies              | article id, comment id |O|O|X|
+
+공통 지원 함수에 대한 더 더 자세한 설명, 그리고 각 모듈별로 다르게 지원하는 함수는 각 모듈의 README에 작성할 예정입니다. 
+
+

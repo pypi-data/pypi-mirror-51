@@ -1,0 +1,17 @@
+portalnews/__init__.py,sha256=7zdyDZzwX9QhEt__adkryAWIVIaraZ2HV02w7mABmDU,1488
+portalnews/daum/__init__.py,sha256=EVzmPw9ZOQwT1qjhz4PgxIXeUoWwtvQKYucM8GCKhRM,37
+portalnews/daum/_crawler.py,sha256=UrpO6LYcB75SaYOkeLYt9UWSMhTn4leYrPYRMnr5wzk,8119
+portalnews/daum/const.py,sha256=m2BpuxvfA_yWkQL_XGLs5fYqXln3BzIE5n5AmpMKWM4,46
+portalnews/daum/parser.py,sha256=_DPHg-06-itTclxxoUUtjeNbe6ymV76BDl6YEFztJ1A,3221
+portalnews/nate/__init__.py,sha256=34qRxNNrhtToM-yk7Xc_Itx-lQ75G08Fg6NKl6a0AJs,37
+portalnews/nate/crawler.py,sha256=CiWP4oj51yO4ZOvAUi2fY7e8kV4Z21LAhKcR1ut2Fj4,7280
+portalnews/nate/parser.py,sha256=NYR9iSjDnVCgWNujRjMd7AGAO_dG7zBwpdEE5TDLHBI,6478
+portalnews/naver/__init__.py,sha256=DkqlL11jkKRm7xNrVCd_-Z6LATTrW_1KmiegWFHvOYU,39
+portalnews/naver/_crawler.py,sha256=LT1zJ2aoQOoiVhHVBL9DfZTWFTTFMDriAhlU3LDDrBY,9829
+portalnews/naver/const.py,sha256=6zI-9PZLvKiqVdp4xpUONxoqyz3zYPjgv5cBAZYvI8M,401
+portalnews/naver/nnkit.py,sha256=WFqxlUv3BjZAV5NCNcNmud9ErgXJuC_SJbiucgvxD7o,536
+portalnews/naver/parser.py,sha256=QzSjJWHhNFHe7FY9ssHhWffB8JA3lxyUAnED7G2BX50,10581
+portalnews-0.1.1.dist-info/METADATA,sha256=niblALkD7_p9R7RMTHc9H4acar3cvS5vTIlTWDL6FWw,1555
+portalnews-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+portalnews-0.1.1.dist-info/top_level.txt,sha256=cJYS_v8JNw61WwLSX7zoCT6wbWKSYoez2bnizoj14Yo,11
+portalnews-0.1.1.dist-info/RECORD,,
