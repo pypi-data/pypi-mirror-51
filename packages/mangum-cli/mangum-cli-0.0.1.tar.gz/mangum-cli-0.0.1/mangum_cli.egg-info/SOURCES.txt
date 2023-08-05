@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+mangum_cli/__init__.py
+mangum_cli/__main__.py
+mangum_cli/commands.py
+mangum_cli/config.py
+mangum_cli.egg-info/PKG-INFO
+mangum_cli.egg-info/SOURCES.txt
+mangum_cli.egg-info/dependency_links.txt
+mangum_cli.egg-info/entry_points.txt
+mangum_cli.egg-info/requires.txt
+mangum_cli.egg-info/top_level.txt
