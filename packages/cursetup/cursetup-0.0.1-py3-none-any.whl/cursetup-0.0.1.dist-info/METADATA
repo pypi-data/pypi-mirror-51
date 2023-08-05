@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cursetup
+Version: 0.0.1
+Summary: avoid cursing at curses
+Home-page: https://github.com/paperbenni/cursetup
+Author: paperbenni
+Author-email: paperbenni@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# cursetup
+sets up curses to avoid cursing at curses. 
+
+
