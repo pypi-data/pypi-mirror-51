@@ -1,0 +1,11 @@
+setup.py
+dnnnlp/__init__.py
+dnnnlp/exec.py
+dnnnlp/layer.py
+dnnnlp/model.py
+dnnnlp/utils.py
+dnnnlp.egg-info/PKG-INFO
+dnnnlp.egg-info/SOURCES.txt
+dnnnlp.egg-info/dependency_links.txt
+dnnnlp.egg-info/requires.txt
+dnnnlp.egg-info/top_level.txt
