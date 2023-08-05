@@ -1,0 +1,8 @@
+boto3
+python-dateutil
+future
+argcomplete
+colorclass
+terminaltables
+tzlocal
+requests
