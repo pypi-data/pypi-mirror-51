@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rapidtables
+Version: 0.0.1
+Summary: Format/create and print tables from lists of dicts
+Home-page: https://github.com/alttch/rapidtables
+Author: Altertech
+Author-email: div@altertech.com
+License: MIT
+Description: rapid tables
+        ************
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup
+Description-Content-Type: text/markdown
