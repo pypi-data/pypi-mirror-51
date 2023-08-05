@@ -1,0 +1,22 @@
+current:
+  autoReduction: true
+  limit: 0.5
+MCR:
+  advancedMotion: true
+  doneNotify: true
+  originNotify: false
+  accelerationPeriod: true
+  decelerationPeriod: true
+microsteps: 4
+advancedMotion:
+  startSpeed: 0
+  cessateSpeed: 0
+initial:
+  moveSpeed: 200.0
+  returnSpeed: 200.0
+  reverceDirection: True
+  unit_over_mm: 100
+speedLimit: 1000
+calibration:
+  speed: 1000
+waitDelay: 0.05

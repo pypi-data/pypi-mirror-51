@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="RFLab_logo_icon.svg"
+   inkscape:export-filename="/tmp/2.png"
+   inkscape:export-xdpi="470.31693"
+   inkscape:export-ydpi="470.31693">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4244"
+       inkscape:collect="always">
+      <stop
+         id="stop4246"
+         offset="0"
+         style="stop-color:#00d6ff;stop-opacity:1" />
+      <stop
+         id="stop4248"
+         offset="1"
+         style="stop-color:#000eff;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4258"
+       cx="266.53525"
+       cy="509.86481"
+       fx="266.53525"
+       fy="509.86481"
+       r="212.68823"
+       gradientTransform="matrix(1.2513597,-0.02273404,0.02189133,1.2049742,-39.836718,-73.563341)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0146293"
+     inkscape:cx="299.93174"
+     inkscape:cy="507.06665"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1064"
+     inkscape:window-x="0"
+     inkscape:window-y="16"
+     inkscape:window-maximized="1"
+     borderlayer="false"
+     inkscape:showpageshadow="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       id="path6044-5-1-5"
+       style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#radialGradient4258);stroke-width:9.13044262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 341.78852,384.06584 c -81.65024,2e-4 -147.84078,65.16718 -147.84097,145.55478 0.065,35.83795 13.55678,70.39258 37.8912,97.04538 72.10726,-59.99251 163.2412,-93.29119 257.64336,-94.13818 0.059,-0.96856 0.1081,-1.93767 0.14738,-2.9072 -1.9e-4,-80.3876 -66.19073,-145.55458 -147.84097,-145.55478 z m 0,0 c -81.65024,2e-4 -147.84078,65.16718 -147.84097,145.55478 0.065,35.83795 13.55678,70.39258 37.8912,97.04538 72.10726,-59.99251 163.2412,-93.29119 257.64336,-94.13818 0.059,-0.96856 0.1081,-1.93767 0.14738,-2.9072 -1.9e-4,-80.3876 -66.19073,-145.55458 -147.84097,-145.55478 z m 32.95777,32.44816 c -63.44949,-6.5e-4 -114.88563,50.64008 -114.88498,113.10839 0.0377,22.57511 6.93604,44.62265 19.80738,63.30553 62.99012,-38.69212 135.57359,-59.58711 209.81342,-60.4001 0.0618,-0.96781 0.11091,-1.93637 0.14738,-2.90543 6.5e-4,-62.46762 -51.43441,-113.10807 -114.8832,-113.10839 z m 38.5077,37.91218 c -42.18104,-2e-5 -76.37554,33.66568 -76.37554,75.19444 0.032,10.7821 2.41874,21.43134 6.99845,31.22545 46.34815,-18.19186 95.71245,-27.79255 145.60521,-28.31825 0.0682,-0.96804 0.11731,-1.93729 0.14738,-2.9072 0,-41.52874 -34.19448,-75.19444 -76.3755,-75.19444 z m 79.78524,78.03904 c -111.21635,3.69966 -245.96316,32.00804 -345.60244,80.79189 10.14582,20.91894 24.36568,39.67252 41.85232,55.19612 70.40827,-78.98064 169.62513,-127.37264 276.04604,-134.70155 0.69019,-0.0475 27.0133,-1.24238 27.70408,-1.28646 z m -367.80376,-0.12594 368.07477,0 M 375.18662,372.39988 c -0.18779,0.49603 -0.37231,0.99325 -0.55354,1.49164 -1.22373,3.89535 -2.24883,7.84852 -3.07147,11.84469 -0.82317,3.99662 -1.44279,8.03128 -1.85655,12.08885 -0.41327,4.05701 -0.62022,8.13183 -0.62007,12.2092 -1.2e-4,2.88691 0.10359,5.77292 0.31092,8.6526 0.29322,4.06759 0.79287,8.11819 1.4971,12.13663 0.70389,4.0181 1.61144,7.99903 2.71923,11.92788 1.10753,3.92925 2.41396,7.8015 3.9144,11.60226 1.50122,3.80032 3.19453,7.52435 5.0736,11.15814 1.8788,3.63396 3.94101,7.17315 6.17891,10.60429 2.23724,3.43121 4.64736,6.75012 7.22133,9.94431 2.57456,3.19433 5.30978,6.25989 8.1954,9.1852 2.88597,2.92484 5.91871,5.70576 9.08685,8.33232 3.16758,2.62731 6.46663,5.097 9.8848,7.39983 3.4182,2.30223 6.95119,4.43472 10.58575,6.38949 3.63453,1.95478 7.36607,3.72939 11.18065,5.31718 3.81521,1.58788 7.7087,2.98689 11.66587,4.1918 3.95651,1.20541 7.97177,2.21527 12.03074,3.02578 4.05884,0.80979 8.15627,1.41924 12.27694,1.82607 2.6705,0.1576 5.34253,0.28913 8.01568,0.39458 -2.01571,-70.85719 -46.76532,-133.70006 -113.73654,-159.72274 z m 0,0 c -20.97476,-8.22752 -43.3357,-12.49249 -65.91377,-12.57192 -42.23153,0.0637 -83.09297,14.75943 -115.42235,41.51124 2.94708,3.41692 5.9525,6.78466 9.01496,10.10178 9.40501,9.53344 19.28839,18.59785 29.61311,27.15925 10.32411,8.56174 21.07665,16.60981 32.21734,24.11405 11.1413,7.50408 22.65682,14.45489 34.50339,20.82639 11.84649,6.37175 24.00924,12.15623 36.44266,17.33175 12.43307,5.17565 25.12125,9.7359 38.01702,13.66367 12.89625,3.92741 25.98392,7.21738 39.21399,9.85758 13.22995,2.64028 26.58574,4.6275 40.01733,5.95421 9.32006,0.77854 18.66473,1.23887 28.01718,1.38016 -4.12067,-0.40683 -8.2181,-1.01628 -12.27694,-1.82607 -4.05896,-0.81051 -8.07422,-1.82037 -12.03072,-3.02578 -3.95718,-1.20491 -7.85067,-2.60392 -11.66589,-4.1918 -3.81457,-1.58779 -7.54611,-3.3624 -11.18063,-5.31718 -3.63456,-1.95477 -7.16755,-4.08726 -10.58574,-6.38949 -3.41818,-2.30283 -6.71724,-4.77252 -9.88483,-7.39983 -3.16814,-2.62656 -6.20088,-5.40748 -9.08685,-8.33232 -2.88562,-2.92531 -5.62084,-5.99087 -8.1954,-9.1852 -2.57397,-3.19419 -4.98408,-6.5131 -7.22132,-9.94431 -2.2379,-3.43114 -4.30012,-6.97033 -6.17892,-10.60429 -1.87907,-3.63379 -3.57238,-7.35782 -5.0736,-11.15814 -1.50044,-3.80076 -2.80687,-7.67301 -3.9144,-11.60226 -1.10779,-3.92885 -2.01533,-7.90978 -2.71922,-11.92788 -0.70422,-4.01844 -1.20388,-8.06904 -1.49709,-12.13663 -0.20734,-2.87968 -0.31105,-5.76569 -0.31094,-8.6526 -1.5e-4,-4.07737 0.2068,-8.15219 0.62007,-12.2092 0.41376,-4.05757 1.03338,-8.09223 1.85655,-12.08885 0.82264,-3.99617 1.84775,-7.94934 3.07148,-11.84469 0.18124,-0.49839 0.36576,-0.99561 0.55355,-1.49164 z M 193.8505,401.3392 c -40.75452,33.58682 -64.33036,83.2029 -64.39871,135.52908 0.0815,50.23315 21.83376,98.06738 59.83732,131.58495 75.7581,-85.12748 184.70028,-134.53548 299.65023,-135.89887 -0.005,-0.14392 -0.0106,-0.28783 -0.0162,-0.43174 -12.03176,-0.0642 -24.05464,-0.65634 -36.03284,-1.77474 -13.4316,-1.32671 -26.7874,-3.31393 -40.01736,-5.95421 -13.23006,-2.6402 -26.31774,-5.93017 -39.21398,-9.85758 -12.89578,-3.92776 -25.58397,-8.48802 -38.01705,-13.66367 -12.43341,-5.17552 -24.59615,-10.96 -36.44263,-17.33175 -11.84658,-6.3715 -23.3621,-13.32231 -34.50341,-20.82639 -11.14068,-7.50424 -21.89321,-15.55231 -32.21731,-24.11405 -10.32473,-8.5614 -20.20811,-17.62581 -29.61312,-27.15925 -3.06245,-3.31712 -6.06785,-6.68486 -9.01492,-10.10178 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="1966.6801"
+       inkscape:export-ydpi="1966.6801"
+       inkscape:export-filename="/home/bulka3/Desktop/Logo_final"
+       sodipodi:nodetypes="sccccssccccssccccssccccscccsccccccccccccccccccscccccccccccccccscccccsccccccccccccccccccccccscccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:TeXGyreAdventor;-inkscape-font-specification:'TeXGyreAdventor Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="549.17059"
+       y="445.60864"
+       id="text6110"><tspan
+         sodipodi:role="line"
+         id="tspan6112"
+         x="549.17059"
+         y="445.60864"
+         style="font-size:40px;line-height:1.25"> </tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4221"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion4223"><rect
+           id="rect4225"
+           width="5.3954496"
+           height="99.276276"
+           x="558.96863"
+           y="522.52905" /></flowRegion><flowPara
+         id="flowPara4227"
+         style="font-size:40px;line-height:1.25"> </flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.21669769px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.68472475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="195.8564"
+       y="654.01562"
+       id="text6106-76-71-3"
+       inkscape:export-filename="/home/bulka3/Desktop/Logo_final"
+       inkscape:export-xdpi="1966.6801"
+       inkscape:export-ydpi="1966.6801"
+       transform="scale(0.98669376,1.0134857)"><tspan
+         sodipodi:role="line"
+         id="tspan6108-6-65-5"
+         x="195.8564"
+         y="654.01562"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:109.49472046px;line-height:1.25;font-family:'AR PL KaitiM Big5';-inkscape-font-specification:'AR PL KaitiM Big5 Bold';letter-spacing:2.51230526px;stroke-width:0.68472475px"
+         dx="15.770821 0 0 0 4.1504426">RFLab</tspan></text>
+  </g>
+</svg>

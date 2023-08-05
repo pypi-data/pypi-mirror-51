@@ -1,0 +1,91 @@
+driver:
+  options:
+    - FakeAnalyzer
+    - RandomlyFailing
+    - Agilent8753et
+  selected: FakeAnalyzer
+connection:
+  name: ""
+power:
+  enable: true
+  value: 0
+averaging:
+  enable: false
+  value: 1
+smoothing:
+  enable: false
+  value: 1
+intBand:
+  options:
+    - 10
+    - 30
+    - 100
+    - 300
+    - 1000
+    - 3000
+    - 3700
+    - 6000
+  selected: 1000
+numberOfPoints:
+  options:
+    - 3
+    - 11
+    - 21
+    - 26
+    - 51
+    - 101
+    - 201
+    - 401
+    - 801
+    - 1601
+  selected: 101
+sweepTypes:
+  options:
+    - Linear
+    - Logarithmic
+  selected: Linear
+frequencyUnits:
+  options:
+    - Hz
+    - kHz
+    - MHz
+    - GHz
+  selected: MHz
+display:
+  enable: True
+phaseOffset: 0
+measureType:
+  options:
+    - Reflection
+    - Transmission
+  selected: Reflection
+measurePart:
+  options:
+    Real: [real, null]
+    Imaginary: [imag, null]
+    Linear magnitude: [mag, null]
+    Logarithmic magnitude: [dB, null]
+    Phase: [deg, null]
+    Delay: [sec, null]
+    Polar: [real, imag]
+    Smith: [real, imag]
+    Standing wave ratio: [SWR, null]
+  selected: Logarithmic magnitude
+markers:
+  max: false
+  min: false
+  Q: false
+  QLevel: -3
+frequency:
+  center: 2856
+  span: 100
+fieldPlotType:
+  options:
+    - Raw data
+    - Processed data
+  selected: Processed data
+fieldStrategy:
+  options:
+    - Direct
+    - Indirect
+  selected: Direct

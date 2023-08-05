@@ -1,0 +1,28 @@
+docs: doc/doc.html
+kE:
+  mantissa: 0.374
+  exponent: -11
+kH:
+  mantissa: 0.374
+  exponent: -11
+kS:
+  mantissa: 0.374
+  exponent: -11
+Qload: 1000
+beadMaterial:
+  options:
+    - Metal
+    - Dielectric
+  selected: Metal
+fieldPart:
+  options:
+    - Electric
+    - Magnetic
+    - Electric Phase
+  selected: Electric
+fieldDrift:
+  first: 0
+  last: 500
+stand:
+  length: 100
+  step: 5

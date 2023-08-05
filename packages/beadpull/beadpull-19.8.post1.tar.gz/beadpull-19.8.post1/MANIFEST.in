@@ -1,0 +1,8 @@
+include README.md LICENSE contributors.txt run
+recursive-include beadpull *.py
+recursive-include beadpull *.yaml
+recursive-include beadpull/ui *.ui
+recursive-include beadpull/doc *
+recursive-include beadpull/icon *
+exclude *.pyc
+exclude *__pycache__
