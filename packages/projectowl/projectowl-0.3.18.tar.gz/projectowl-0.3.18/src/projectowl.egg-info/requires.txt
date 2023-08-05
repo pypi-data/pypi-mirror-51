@@ -1,0 +1,8 @@
+pymongo
+boto3
+tinyimage
+dnspython
+sendgrid==6.0.4
+requests
+python-http-client
+jinja2
