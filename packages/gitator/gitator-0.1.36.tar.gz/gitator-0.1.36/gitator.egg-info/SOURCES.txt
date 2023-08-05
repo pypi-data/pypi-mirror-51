@@ -1,0 +1,10 @@
+README.md
+gitator.py
+setup.py
+gitator.egg-info/PKG-INFO
+gitator.egg-info/SOURCES.txt
+gitator.egg-info/dependency_links.txt
+gitator.egg-info/not-zip-safe
+gitator.egg-info/requires.txt
+gitator.egg-info/top_level.txt
+test/test_gitator.py
