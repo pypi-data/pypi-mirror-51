@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: uniblock
+Version: 1.0.0
+Summary: uniblock, scoring and filtering corpus with Unicode block information (and more)
+Home-page: https://github.com/ringoreality/uniblock
+Author: Ringo
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: joblib
+Requires-Dist: sklearn
+
+# uniblock
+uniblock, scoring and filtering corpus with Unicode block information (and more).
+
+
