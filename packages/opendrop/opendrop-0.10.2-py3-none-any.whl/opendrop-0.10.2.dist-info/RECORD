@@ -1,0 +1,15 @@
+opendrop/__init__.py,sha256=ZRY5uj0RdK_qq_d_dQqPGCmWEbrIEkfl48lGePSICPo,819
+opendrop/__main__.py,sha256=tIIkG4tLa49MGFx2iQJ3H4PLdghArA-VoCvuipV3EIA,779
+opendrop/cli.py,sha256=EE3GQrtw73L6DilLODnk3kkQjWK8qGrsfC-B3Gc5cYA,7551
+opendrop/client.py,sha256=Xk9fswzIKytWrYCZozTw8Mai7_lzDZkAo8FuQONR4Ag,10383
+opendrop/config.py,sha256=9AN4Q75vVzOf74LsaPsHU1BC8c9YY2pUYeZk_6gGHdc,4496
+opendrop/server.py,sha256=ba4Biu9YezIiPYmKxQbsCSjBsSOf7Dsc6qChMqRcd6s,11256
+opendrop/util.py,sha256=I1iUl1kED5uqnN1RqyzjBhrLaImd7VEJJeYU5g8j0Io,10143
+opendrop/zeroconf.py,sha256=5oGSUvLGjS_ASZDRNE07Ko1Z5sFxHuj0-_LPrYageGg,76167
+opendrop/certs/apple_root_ca.pem,sha256=9Ha1yOvmRoCUmB-2qYbj2TD9Ag9vN5JIAAOVoahUwSU,1700
+opendrop-0.10.2.dist-info/LICENSE,sha256=YN5ConELJZcjfOXXODN--PkjwhE4V-IYr1r-YGPVBk4,56961
+opendrop-0.10.2.dist-info/METADATA,sha256=CB9IO-DvY8SsNLRLkCjdV4gMKHtfx259DV4w7wY6kfg,6798
+opendrop-0.10.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+opendrop-0.10.2.dist-info/entry_points.txt,sha256=DyFIzwtOYCLk2qAvmS4zUHppYcc5wUAIKEkZ6tdr_CY,48
+opendrop-0.10.2.dist-info/top_level.txt,sha256=yTcazJhsd9aHxrtjNjuytsUD8VKL9dqNJicpSGnM3q0,9
+opendrop-0.10.2.dist-info/RECORD,,
