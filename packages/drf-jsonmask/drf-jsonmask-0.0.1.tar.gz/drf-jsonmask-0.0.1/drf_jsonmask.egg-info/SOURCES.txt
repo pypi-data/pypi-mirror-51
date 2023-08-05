@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+drf_jsonmask/__init__.py
+drf_jsonmask/constants.py
+drf_jsonmask/decorators.py
+drf_jsonmask/serializers.py
+drf_jsonmask/utils.py
+drf_jsonmask/views.py
+drf_jsonmask.egg-info/PKG-INFO
+drf_jsonmask.egg-info/SOURCES.txt
+drf_jsonmask.egg-info/dependency_links.txt
+drf_jsonmask.egg-info/requires.txt
+drf_jsonmask.egg-info/top_level.txt
