@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: homer
+Version: 0.0.1a0
+Summary: Configuration manager for network devices
+Home-page: https://gerrit.wikimedia.org/r/plugins/gitiles/operations/software/homer
+Author: Riccardo Coccioli
+Author-email: rcoccioli@wikimedia.org
+License: GPLv3+
+Keywords: network,switch,router,configuration,deploy
+Platform: GNU/Linux
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Networking
+Description-Content-Type: text/x-rst
+Provides-Extra: tests
+Requires-Dist: bandit (>=1.1.0) ; extra == 'tests'
+Requires-Dist: flake8 (>=3.2.1) ; extra == 'tests'
+Requires-Dist: flake8-import-order (>=0.18.1) ; extra == 'tests'
+Requires-Dist: mypy (>=0.470) ; extra == 'tests'
+Requires-Dist: prospector[with_everything] (>=0.12.4) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=1.8.0) ; extra == 'tests'
+Requires-Dist: pytest-xdist (>=1.15.0) ; extra == 'tests'
+Requires-Dist: pytest (>=3.0.3) ; extra == 'tests'
+Requires-Dist: requests-mock (>=1.3.0) ; extra == 'tests'
+Requires-Dist: sphinx-rtd-theme (>=0.1.6) ; extra == 'tests'
+Requires-Dist: sphinx-argparse (>=0.1.15) ; extra == 'tests'
+Requires-Dist: Sphinx (>=1.4.9) ; extra == 'tests'
+
+Homer - Configuration manager for network devices
+-------------------------------------------------
+
+Homer allows to manage the lifecycle of the configuration for network devices, generating and deploying their
+configuration.
+The configuration generation is based on ``YAML`` files to define variables and ``Jinja2`` templates.
+The ``YAML`` files allow for hierarchical override of variables based on the device role, site or hostname.
+Once generated, the configuration can also be deployed to their devices.
+
+
