@@ -1,0 +1,6 @@
+wcwidth
+pygments
+ptpython
+ipython
+psutil
+doge
