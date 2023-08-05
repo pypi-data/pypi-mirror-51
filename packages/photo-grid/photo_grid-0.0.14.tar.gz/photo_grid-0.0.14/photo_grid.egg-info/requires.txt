@@ -1,0 +1,9 @@
+numpy
+pandas>=0.19.2
+sklearn
+scipy
+opencv-python
+image
+rasterio
+PyQt5
+tqdm
