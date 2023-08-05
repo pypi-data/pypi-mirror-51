@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nodely
+Version: 0.4.0
+Summary: putMORE Node.js into Python
+Home-page: https://github.com/zimmermanncode/nodely
+Author: Stefan Zimmermann
+Author-email: user@zimmermann.co
+License: LGPLv3
+Description: UNKNOWN
+Keywords: nodely,nodejs,node,npm,npmjs,nodejspackages,nodejspackage,nodejsmodules,nodejsmodule,nodepackages,nodepackage,nodemodules,nodemodule,npmpackages,npmpackage,npmmodules,npmmodule,packages,package,nodemodules,modules,module,bin,javascript,js,ecmascript,ecma,es,install,uninstall,which,subprocess,popen,call,more,tools,tool,python3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
+Provides-Extra: all
