@@ -1,0 +1,56 @@
+Metadata-Version: 1.2
+Name: too
+Version: 0.0.1
+Summary: A bundle of most common useful class.
+Home-page: https://github.com/longniao/too
+Author: Longniao
+Author-email: longniao@gmail.com
+Maintainer: Longniao
+Maintainer-email: longniao@gmail.com
+License: MIT
+Description: Too
+        ========
+        
+        .. image:: https://img.shields.io/pypi/v/too.svg
+            :target: https://pypi.python.org/pypi/too/
+            :alt: Latest Version
+        
+        .. image:: https://img.shields.io/pypi/wheel/too.svg
+            :target: https://pypi.python.org/pypi/too/
+        
+        .. image:: https://img.shields.io/pypi/pyversions/too.svg
+            :target: https://pypi.python.org/pypi/too/
+        
+        .. image:: https://img.shields.io/pypi/l/too.svg
+            :target: https://pypi.python.org/pypi/too/
+        
+        
+        
+        A bundle of most common useful class.
+        
+        
+        Installing
+        ----------
+        
+        Install and update using `pip`_:
+        
+        .. code-block:: text
+        
+            pip install -U too
+        
+        
+        
+        .. _pip: https://pip.pypa.io/en/stable/quickstart/
+        
+Keywords: too python class lib library
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5

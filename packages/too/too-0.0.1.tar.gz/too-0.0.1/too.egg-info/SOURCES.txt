@@ -1,0 +1,7 @@
+README.rst
+setup.py
+too.egg-info/PKG-INFO
+too.egg-info/SOURCES.txt
+too.egg-info/dependency_links.txt
+too.egg-info/not-zip-safe
+too.egg-info/top_level.txt
