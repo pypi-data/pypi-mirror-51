@@ -1,0 +1,11 @@
+singstat/__init__.py,sha256=UOOKk5VlZTX0jwdQP1nXaSgKslKp221LG_ezq97PnpI,731
+singstat/client.py,sha256=IkreR-haVnqG_JoJglxqHckluBmVGvGncAlJldhb3E0,4351
+singstat/constants.py,sha256=nNGmpcCy2-1vwDLHUb6wJcxI_4UrYnIGY1hSw9oQLnA,1199
+singstat/exceptions.py,sha256=Zhz7rKchjTFEulNd8yJgBDlLMMv6GjWgIJWasnLYAws,1054
+singstat/net.py,sha256=jCqUvGWEML6015SLA1Y0XEde6k6-MY34xlabEcMMSoc,3725
+singstat/timezone.py,sha256=RN-YFyaycP7hb0GhgBOVvH4RUzJGw7C18mQ3D3uZhF0,1956
+singstat-1.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+singstat-1.0.dist-info/METADATA,sha256=QWrShzR6KC50VrtLhnq5yayQN8r-zmB2PD0zCgpELGA,2842
+singstat-1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+singstat-1.0.dist-info/top_level.txt,sha256=x0bXGtC8jLfP4e_M9uRxSx6ZRo5fH5O8ItbDuvIFmyQ,9
+singstat-1.0.dist-info/RECORD,,
