@@ -1,0 +1,31 @@
+[console_scripts]
+repoguard = repoguard.main:main
+
+[repoguard.checks]
+AccessRights = repoguard.checks.accessrights:AccessRights
+ASCIIEncoded = repoguard.checks.asciiencoded:ASCIIEncoded
+CaseInsensitiveFilenameClash = repoguard.checks.caseinsensitivefilenameclash:CaseInsensitiveFilenameClash
+Checkout = repoguard.checks.checkout:Checkout
+Checkstyle = repoguard.checks.checkstyle:Checkstyle
+Keywords = repoguard.checks.keywords:Keywords
+Log = repoguard.checks.log:Log
+Mantis = repoguard.checks.mantis:Mantis [mantis]
+PyLint = repoguard.checks.pylint_:PyLint [pylint]
+RejectTabs = repoguard.checks.rejecttabs:RejectTabs
+UnitTests = repoguard.checks.unittests:UnitTests
+XMLValidator = repoguard.checks.xmlvalidator:XMLValidator
+
+[repoguard.handlers]
+Mail = repoguard.handlers.mail:Mail
+Console = repoguard.handlers.console:Console
+File = repoguard.handlers.file:File
+Mantis = repoguard.handlers.mantis:Mantis [mantis]
+BuildBot = repoguard.handlers.buildbot:BuildBot [buildbot]
+Hudson = repoguard.handlers.hudson:Hudson
+ViewVC = repoguard.handlers.viewvc:ViewVC
+
+[repoguard.tools]
+Checker = repoguard.tools.checker:Checker
+Configuration = repoguard.tools.config:Configuration
+Repository = repoguard.tools.repository:Repository
+
