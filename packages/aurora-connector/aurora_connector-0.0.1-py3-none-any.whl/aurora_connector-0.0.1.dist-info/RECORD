@@ -1,0 +1,9 @@
+aurora_connector/Database.py,sha256=tJCgz0A7RSAglZd4MHG2GgC8YSxXirnrw4zYmJUE6QI,10269
+aurora_connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aurora_connector/helpers/Exceptions.py,sha256=nVaNMSmbCS5L711_iR5Q0m3TU6PoIcTo_G8UICnCtUc,111
+aurora_connector/helpers/Utils.py,sha256=v_arzj75NP6ptqOjnuDdjczdLGviuCDXuzGrBAzVG_Q,4981
+aurora_connector/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aurora_connector-0.0.1.dist-info/METADATA,sha256=YOuqi73pygP8Ek_i8Bg6wB3UjdlG9AfwkOKIzfu3rKI,417
+aurora_connector-0.0.1.dist-info/RECORD,,
+aurora_connector-0.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+aurora_connector-0.0.1.dist-info/top_level.txt,sha256=q5snUnRwaCrfEJWF-cwgAk3LHxkx3Tm6GrrBHBteQ8o,17
