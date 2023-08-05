@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: pytinsel
+Version: 0.0.1
+Summary: Decorators for Python
+Home-page: https://github.com/dweemx/pytinsel
+Author: Maxime De Waegeneer
+Author-email: mdewaegeneer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
