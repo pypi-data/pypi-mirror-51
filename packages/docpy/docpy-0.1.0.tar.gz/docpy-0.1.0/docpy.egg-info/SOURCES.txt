@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/docpy
+docpy/__init__.py
+docpy/regexes.py
+docpy.egg-info/PKG-INFO
+docpy.egg-info/SOURCES.txt
+docpy.egg-info/dependency_links.txt
+docpy.egg-info/top_level.txt
+test/test.py
