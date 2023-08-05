@@ -1,0 +1,10 @@
+tardis_client/__init__.py,sha256=WTUWxsL4qf6jkibA6oFfEfOq7GDmLEMDRgaaJvHag3s,120
+tardis_client/channel.py,sha256=6T54VIScEuy6hb0SqX1r-dt8AW2A_WqTKoYqlLprBh4,205
+tardis_client/consts.py,sha256=WSql41Ehp0XpzwXogUI-Bj5DSvAHevy2xPL4kCmv2m0,2404
+tardis_client/data_downloader.py,sha256=IB-gE640BTtr3B8jtbcorL9uzDEgjr_L_CF0Z1szRsw,6254
+tardis_client/handy.py,sha256=aCwBSYGgqwdPeyWKq2BLswjC64y0h6dS7DOsCSbdA-M,1314
+tardis_client/tardis_client.py,sha256=1A6kfJ9QFuGJQMC5NOtb762zYNpxPDx4saYII-UUBUc,8392
+tardis_client-1.1.0.dist-info/LICENSE,sha256=k0P1sbYupRWlxoESvbYq2UzoMW6MXA84LltqR-4mEo4,17096
+tardis_client-1.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+tardis_client-1.1.0.dist-info/METADATA,sha256=yEeDNTPqEk0ioi-MHwkik3-pCWiL_i2mjNCI0kq5OB8,7639
+tardis_client-1.1.0.dist-info/RECORD,,
