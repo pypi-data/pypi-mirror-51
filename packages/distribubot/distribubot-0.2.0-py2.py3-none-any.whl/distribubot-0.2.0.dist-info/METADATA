@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: distribubot
+Version: 0.2.0
+Summary: Distribution of steem-engine Token through comments
+Home-page: http://github.com/steem-engine-exchange/distribubot
+Author: Holger Nahrstaedt
+Author-email: holgernahrstaedt@gmx.de
+Maintainer: Holger Nahrstaedt
+Maintainer-email: holgernahrstaedt@gmx.de
+License: UNKNOWN
+Keywords: steem,token,steem-engine
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Dist: beem
+Requires-Dist: steemengine
+
+UNKNOWN
+
+
