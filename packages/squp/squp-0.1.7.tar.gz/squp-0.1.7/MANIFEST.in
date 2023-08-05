@@ -1,0 +1,5 @@
+include README.md
+include chromedriver.exe
+include companyemail.txt
+include example_items.json
+include LICENSE.txt

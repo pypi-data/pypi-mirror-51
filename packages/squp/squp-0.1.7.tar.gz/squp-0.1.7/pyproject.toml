@@ -1,0 +1,50 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "squp"
+author = "Jonathan Hoyle"
+author-email = "jonathanhoyle314@gmail.com"
+requires = [
+    "addict",
+    "ahk",
+    "appJar",
+    "arrow",
+    "beautifulsoup4",
+    "bottle",
+    "colour",
+    "dataset",
+    "docker",
+    "dominate",
+    "ftfy",
+    "lxml",
+    "pillow",
+    "pyautogui",
+    "pypiwin32",
+    "pywebview",
+    "pywin32",
+    "scrapy",
+    "selenium",
+    "splinter",
+    "urllib3",
+]
+requires-python=">=3.3"
+description-file="README.md"
+classifiers=[
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.7",
+    "Intended Audience :: End Users/Desktop",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: Customer Service",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Internet :: WWW/HTTP :: Session",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Internet :: WWW/HTTP :: Site Management :: Link Checking"
+]
+
+[tool.flit.entrypoints."pygments.lexers"]
+squp="squp.command_line:main"
