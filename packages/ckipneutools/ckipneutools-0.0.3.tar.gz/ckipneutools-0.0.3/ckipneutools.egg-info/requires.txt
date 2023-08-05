@@ -1,0 +1,6 @@
+
+[tf]
+tensorflow
+
+[tfgpu]
+tensorflow-gpu
