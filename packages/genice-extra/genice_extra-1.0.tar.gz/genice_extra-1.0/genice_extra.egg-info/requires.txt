@@ -1,0 +1,6 @@
+genice-vpython>=0.4
+genice-rdf>=0.3
+genice-svg>=0.4
+genice-twist>=0.1
+genice-cif>=0.2
+GenIce>=1.0rc5
