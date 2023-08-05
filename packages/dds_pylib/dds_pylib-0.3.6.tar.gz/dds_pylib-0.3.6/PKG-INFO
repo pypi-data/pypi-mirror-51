@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: dds_pylib
+Version: 0.3.6
+Summary: Diversified Data Python Utilities Library
+Home-page: https://bitbucket.org/ddspython/dds_pylib
+Author: Stephen Funkhouser
+Author-email: it@ddssoft.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: Diversified Data Python Utilities Library
+Keywords: integer julian date pyext
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
