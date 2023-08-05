@@ -1,0 +1,10 @@
+kerasmodels/__init__.py,sha256=JKQwh61qruF6XWljoyaE6EDb4Apt9aPgiXmVVpTb070,301
+kerasmodels/mnasnet.py,sha256=a2yvCh9-kpWRJoUaPI4RVS5jP48_rwb0gKU2zt3qopY,5899
+kerasmodels/mobilenetv2.py,sha256=E0kQYomRdcLMFowFUB83G45oXkp-4yA6FVZ831loBAU,4468
+kerasmodels/shufflenetv2.py,sha256=JUAd1GW74rrQQfqhlj19-VDvPkeqlwM8dY_9qHRF_qA,6996
+kerasmodels/squeezenet.py,sha256=imo_2vK0LccSAA6ZM-XaBd8sme1LL2MxzX6orvsKEys,4721
+kerasmodels-0.1.1.dist-info/LICENSE,sha256=AjHrg1_ujav2KKQxCY_7fOSWTqMUbwIo5in4KceKhvk,1510
+kerasmodels-0.1.1.dist-info/METADATA,sha256=V90sV_SbCQLrB_GxPbECpybA4iI6O1z6MuAA9FmCc1w,296
+kerasmodels-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+kerasmodels-0.1.1.dist-info/top_level.txt,sha256=pfuP2rmjGFXicQwt5hq_ZS2qkiaeuFlmaWpSR7cyjcw,12
+kerasmodels-0.1.1.dist-info/RECORD,,
