@@ -1,0 +1,13 @@
+LICENSE.md
+README.rst
+setup.cfg
+setup.py
+fmcapi/__init__.py
+fmcapi/api_objects.py
+fmcapi/fmc.py
+fmcapi/helper_functions.py
+fmcapi.egg-info/PKG-INFO
+fmcapi.egg-info/SOURCES.txt
+fmcapi.egg-info/dependency_links.txt
+fmcapi.egg-info/requires.txt
+fmcapi.egg-info/top_level.txt
