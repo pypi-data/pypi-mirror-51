@@ -1,0 +1,7 @@
+README.rst
+setup.py
+tip.egg-info/PKG-INFO
+tip.egg-info/SOURCES.txt
+tip.egg-info/dependency_links.txt
+tip.egg-info/not-zip-safe
+tip.egg-info/top_level.txt
