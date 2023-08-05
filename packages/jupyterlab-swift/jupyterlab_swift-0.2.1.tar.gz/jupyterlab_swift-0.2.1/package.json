@@ -1,0 +1,76 @@
+{
+  "name": "@chameleoncloud/jupyterlab_swift",
+  "version": "1.0.0",
+  "description": "JupyterLab viewer for Swift containers",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "openstack",
+    "swift"
+  ],
+  "homepage": "https://github.com/chameleoncloud/jupyterlab-swift",
+  "bugs": {
+    "url": "https://github.com/chameleoncloud/jupyterlab-swift/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "University of Chicago",
+  "files": [
+    "lib/*/*d.ts",
+    "lib/*/*.js",
+    "lib/*.d.ts",
+    "lib/*.js",
+    "schema/*.json",
+    "style/**/*.*"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "directories": {
+    "lib": "lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chameleoncloud/jupyterlab-swift.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prettier": "prettier --write '**/*{.ts,.tsx,.js,.jsx,.css,.json,.md}'",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^1.0.0",
+    "@jupyterlab/apputils": "^1.0.0",
+    "@jupyterlab/coreutils": "^3.0.0",
+    "@jupyterlab/docmanager": "^1.0.0",
+    "@jupyterlab/docregistry": "^1.0.0",
+    "@jupyterlab/filebrowser": "^1.0.0",
+    "@jupyterlab/services": "^4.0.0",
+    "@phosphor/signaling": "^1.2.0",
+    "@phosphor/widgets": "^1.8.0",
+    "base64-js": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/base64-js": "^1.2.5",
+    "@types/text-encoding": "^0.0.35",
+    "prettier": "^1.18.0",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.0",
+    "typescript": "^3.5.0"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "discovery": {
+      "server": {
+        "managers": [
+          "pip"
+        ],
+        "base": {
+          "name": "jupyterlab_swift"
+        }
+      }
+    },
+    "schemaDir": "schema"
+  }
+}
