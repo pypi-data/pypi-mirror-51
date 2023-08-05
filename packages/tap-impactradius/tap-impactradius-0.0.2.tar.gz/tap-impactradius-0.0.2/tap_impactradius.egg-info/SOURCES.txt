@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tap_impactradius/__init__.py
+tap_impactradius.egg-info/PKG-INFO
+tap_impactradius.egg-info/SOURCES.txt
+tap_impactradius.egg-info/dependency_links.txt
+tap_impactradius.egg-info/entry_points.txt
+tap_impactradius.egg-info/requires.txt
+tap_impactradius.egg-info/top_level.txt
+tap_impactradius/schemas/actions.json
+tap_impactradius/schemas/clicks.json
+tap_impactradius/schemas/invoices.json
