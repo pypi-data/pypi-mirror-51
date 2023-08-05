@@ -1,0 +1,9 @@
+altair-transform
+altair
+vega_datasets
+ibis-framework
+mypy_extensions
+typing_extensions
+
+[dev]
+black
