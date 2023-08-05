@@ -1,0 +1,6 @@
+ojuara.py
+setup.py
+fundao.egg-info/PKG-INFO
+fundao.egg-info/SOURCES.txt
+fundao.egg-info/dependency_links.txt
+fundao.egg-info/top_level.txt
