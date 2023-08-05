@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+README.rst
+dset.py
+setup.py
+dset.egg-info/PKG-INFO
+dset.egg-info/SOURCES.txt
+dset.egg-info/dependency_links.txt
+dset.egg-info/top_level.txt
