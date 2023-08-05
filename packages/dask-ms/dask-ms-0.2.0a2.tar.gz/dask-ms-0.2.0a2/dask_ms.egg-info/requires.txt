@@ -1,0 +1,23 @@
+six>=1.10.0
+numpy>=1.14.0
+python-casacore>=2.2.1
+
+[:python_version < "3.0"]
+dask[array]==1.2.2
+futures>=3.2.0
+
+[:python_version >= "3.5"]
+dask[array]>=2.2.0
+
+[testing]
+mock
+pytest
+pytest-flake8
+
+[xarray]
+
+[xarray:python_version < "3.0"]
+xarray>0.10.0
+
+[xarray:python_version >= "3.5"]
+xarray>0.12.0
