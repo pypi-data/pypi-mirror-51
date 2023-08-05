@@ -1,0 +1,12 @@
+README.md
+setup.py
+client/__init__.py
+client/client_ftp.py
+server/__init__.py
+server/server_config.py
+server/server_ftp.py
+server/server_handler.py
+tuyadatac.egg-info/PKG-INFO
+tuyadatac.egg-info/SOURCES.txt
+tuyadatac.egg-info/dependency_links.txt
+tuyadatac.egg-info/top_level.txt
