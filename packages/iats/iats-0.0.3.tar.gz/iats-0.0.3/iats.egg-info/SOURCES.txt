@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+iats/__init__.py
+iats/__main__.py
+iats/install_ats_kernel
+iats/kernel.py
+iats.egg-info/PKG-INFO
+iats.egg-info/SOURCES.txt
+iats.egg-info/dependency_links.txt
+iats.egg-info/top_level.txt
+iats/resources/master.c
