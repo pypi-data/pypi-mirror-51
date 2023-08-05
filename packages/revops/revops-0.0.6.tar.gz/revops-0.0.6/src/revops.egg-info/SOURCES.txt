@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+src/revops/__init__.py
+src/revops/exceptions.py
+src/revops/schema.py
+src/revops.egg-info/PKG-INFO
+src/revops.egg-info/SOURCES.txt
+src/revops.egg-info/dependency_links.txt
+src/revops.egg-info/requires.txt
+src/revops.egg-info/top_level.txt
+src/revops/api/__init__.py
+src/revops/resources/__init__.py
+src/revops/resources/usage.py
