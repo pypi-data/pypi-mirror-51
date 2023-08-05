@@ -1,0 +1,8 @@
+umwelt/__init__.py,sha256=DqfdAsXvhYhjardsLJZEN_WVAY2JYl7lgwwkfm_ctK8,107
+umwelt/decoders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+umwelt/decoders/jsonlike.py,sha256=f5Lq_h5bDVLcwvUNyuDGJdcxUwBw8RD-i5x9NOGZGUk,1347
+umwelt/errors.py,sha256=MicHjVwnOsmL1_gNYWlyghqR_PEZ-DNHU4LwTnU7cy0,829
+umwelt/interface.py,sha256=jE9YmeM06qLOfvn-z4fxm4q893EbkTy9s2YPyDSOmY4,2534
+umwelt-2019.8.1.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+umwelt-2019.8.1.dist-info/METADATA,sha256=uI6d3SgaonFmfQeEQV5buHcmGh4z1w0wrnsYUY3vc-w,4870
+umwelt-2019.8.1.dist-info/RECORD,,
