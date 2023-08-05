@@ -1,0 +1,13 @@
+astropy>=0.3.1
+numpy>=1.5.1
+scipy>=0.14
+stsci.imagestats
+stsci.tools
+
+[docs]
+sphinx
+
+[test]
+pytest
+pytest-cov
+codecov
