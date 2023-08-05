@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: anticipython
+Version: 1.0.0
+Summary: Create .ics calendars for upcoming CPython releases 🐍👀
+Home-page: https://github.com/brcrista/Anticipython
+Author: Brian Cristante
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
