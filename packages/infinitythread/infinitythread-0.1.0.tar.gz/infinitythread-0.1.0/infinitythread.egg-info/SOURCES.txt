@@ -1,0 +1,9 @@
+README.md
+setup.py
+infinitythread/__init__.py
+infinitythread/infinitythread.py
+infinitythread.egg-info/PKG-INFO
+infinitythread.egg-info/SOURCES.txt
+infinitythread.egg-info/dependency_links.txt
+infinitythread.egg-info/not-zip-safe
+infinitythread.egg-info/top_level.txt
