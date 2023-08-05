@@ -1,0 +1,5 @@
+[console_scripts]
+inicheck = inicheck.cli:main
+inidiff = inicheck.cli:inidiff
+inimake = inicheck.cli:inimake
+
