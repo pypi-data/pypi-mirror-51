@@ -1,0 +1,3 @@
+[console_scripts]
+splc = SimPyLC.splc:main
+
