@@ -1,0 +1,10 @@
+foliant/backends/confluence/__init__.py,sha256=D5bfJVNoFprD4q2GIMFlIF8YCu21DQ10RwYkE8ILxcs,31
+foliant/backends/confluence/classes.py,sha256=WHMb6Jy1XVrNYDjJR21kPzTr-5uea-TPdI0BHQiM1dM,5583
+foliant/backends/confluence/confluence.py,sha256=iMSfmOU6s8yH_gdm1NtoNmQ5bd9mmjCQfaaP0flDV_s,14400
+foliant/backends/confluence/ref_diff.py,sha256=p3U85NLbEhfds8_8qoO-37LpKwmX_lSIH56kxpg9dWs,5639
+foliant/preprocessors/confluence.py,sha256=cYAtaw5ZPQVEos-D_HJ0UM8dTszEw6lBep4D2cl895Q,757
+foliantcontrib.confluence-0.4.0.dist-info/LICENSE,sha256=8i3JTH7iEbx62LVMw-C5FGHfjpFEf8nWRABOE-enpMQ,1069
+foliantcontrib.confluence-0.4.0.dist-info/METADATA,sha256=YFKgS7TEwRtHeIS__79xq10v3ICL72TcCF-iHLQrtQI,6973
+foliantcontrib.confluence-0.4.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+foliantcontrib.confluence-0.4.0.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.confluence-0.4.0.dist-info/RECORD,,
