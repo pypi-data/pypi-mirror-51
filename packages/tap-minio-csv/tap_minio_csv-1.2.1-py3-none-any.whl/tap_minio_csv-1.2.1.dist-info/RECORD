@@ -1,0 +1,12 @@
+tap_minio_csv/__init__.py,sha256=tx-SIy4cJjfKX6ElkvhUbJTsvCO---qyIsBjhLaQp1o,3324
+tap_minio_csv/config.py,sha256=3zcluEmebWj2Rl1S893brrXZ-a-Xq89UPB2qLtUi_SI,298
+tap_minio_csv/conversion.py,sha256=i6u0ZPb3vNE51OiirdUkexWBKhMQuQmuUTtSt3mmB9E,2344
+tap_minio_csv/discover.py,sha256=mKBzR6ve21l6pmmlk7AZhE9JuCF_2NHr-bpVe0Ym2UE,1094
+tap_minio_csv/s3.py,sha256=M37a4h1SZd8_iaOFIUizQO1l5dDQcPa97WT8Yqw5zeI,7999
+tap_minio_csv/sync.py,sha256=3uulrDx0SsWG6Te0MhdplvvKP2pzN4bYMaHX3yCqUss,2954
+tap_minio_csv-1.2.1.dist-info/LICENSE,sha256=xNuDgLmykYhajKZueHKWS9ZgnCFZ47hzbPCyI5-hs9c,32393
+tap_minio_csv-1.2.1.dist-info/METADATA,sha256=SHbO5EzbeeVUuDqjCsOn40pKOZdIevGrTz1qreBRR88,533
+tap_minio_csv-1.2.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+tap_minio_csv-1.2.1.dist-info/entry_points.txt,sha256=GHGs6Pxey_tdJOrivDccyBIk2Kzed5UTZMZRzdoCWWg,78
+tap_minio_csv-1.2.1.dist-info/top_level.txt,sha256=trloQjZplTQZrmt20gbX5L9oFyLcPGAAh_z4pgYTY3E,14
+tap_minio_csv-1.2.1.dist-info/RECORD,,
