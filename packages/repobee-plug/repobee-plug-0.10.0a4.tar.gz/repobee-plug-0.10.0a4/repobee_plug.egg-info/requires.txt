@@ -1,0 +1,8 @@
+pluggy>=0.8.0
+maya>=0.6.1
+
+[TEST]
+pytest>=4.0.0
+pytest-cov
+codecov
+tox
