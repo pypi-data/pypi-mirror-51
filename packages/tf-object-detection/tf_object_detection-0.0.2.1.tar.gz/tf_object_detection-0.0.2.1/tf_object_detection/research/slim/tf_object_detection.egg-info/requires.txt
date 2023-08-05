@@ -1,0 +1,9 @@
+tensorflow-gpu<2.0
+numpy
+Cython
+contextlib2
+pillow
+lxml
+pycocotools
+jupyter
+matplotlib
