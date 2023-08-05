@@ -1,0 +1,206 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "cedar configuration file",
+  "type": "object",
+
+  "definitions": {
+    "tracker": {
+      "export_image_kwds": {
+        "description": "Additional keyword arguments to pass to toCloudStorage",
+        "type": "object",
+        "default": {},
+        "properties": {
+          "shardSize": {
+            "type": "integer"
+          },
+          "fileDimensions": {
+            "type": "integer"
+          }
+        },
+        "not": {
+          "anyOf": [
+            { "required": ["crs" ] },
+            { "required": [ "crsTransform" ] },
+            { "required": [ "dimensions" ]}
+          ]
+        }
+      }
+    },
+    "filter": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {
+          "function": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number"
+          }
+        },
+        "required": ["function"]
+      }
+    }
+  },
+
+  "properties": {
+    "tile_grid": {
+      "description": "Tile grid to use for ARD",
+      "type": "object",
+      "properties": {
+        "grid_name": {
+          "description": "Name of the grid to use.",
+          "type": "string"
+        },
+        "grid_filename": {
+            "description": "Filename to load grid definitions from",
+            "type": "string"
+        },
+        "name": {
+          "description": "Name of the grid to create",
+          "type": "string"
+        },
+        "ul": {
+          "description": "Upper left X/Y of grid to create",
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "crs": {
+          "description": "Coordinate reference system of grid to create (as WKT or other)",
+          "type": "string"
+        },
+        "res": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "number"
+          }
+        },
+        "size": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "integer"
+          }
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "oneOf": [
+        {
+          "required": ["grid_name"]
+        },
+        {
+          "required": ["ul", "crs", "res", "size", "limits"]
+        }
+      ]
+    },
+    "tracker": {
+      "type": "object",
+      "properties": {
+        "store": {
+          "type": "string",
+          "enum": ["gdrive", "gcs"]
+        },
+        "name_template": {
+          "type": "string"
+        },
+        "tracking_template": {
+          "type": "string"
+        },
+        "prefix_template": {
+          "type": "string"
+        },
+        "export_image_kwds": {
+          "$ref": "#/definitions/tracker/export_image_kwds"
+        },
+        "filters": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/filter"
+              }
+            }
+          }
+        }
+      },
+      "required": ["store"]
+    },
+    "gcs": {
+      "type": "object",
+      "properties": {
+        "bucket_name": {
+          "description": "Name of GCS bucket to use",
+          "type": "string"
+        },
+        "credentials_file": {
+          "description": "Filename of service account credentials for GCS",
+          "type": "string"
+        },
+        "project": {
+          "description": "Name of GCS project to use",
+          "type": "string"
+        }
+      },
+      "required": ["bucket_name", "project"]
+    },
+    "gdrive": {
+      "type": "object",
+      "properties": {
+        "client_secrets_file": {
+          "description": "Filename of 'client secrets' file for OAuth2 authentication",
+          "type": "string"
+        },
+        "credentials_file": {
+          "description": "Filename of user OAuth2 credentials for cedar",
+          "type": "string"
+        }
+      },
+      "required": []
+    },
+    "ard": {
+      "type": "object",
+      "properties": {
+        "destination": {
+          "type": "string"
+        },
+        "encoding": {
+          "default": {},
+          "properties": {
+            "chunks": {
+              "type": "object",
+              "patternProperties": {
+                ".*": {
+                    "type": "integer"
+                }
+              }
+            },
+            "zlib": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "required": ["destination"]
+    }
+  },
+  "required": ["tile_grid", "tracker", "ard"]
+}

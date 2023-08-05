@@ -1,0 +1,205 @@
+Metadata-Version: 2.1
+Name: cedar-datacube
+Version: 0.0.4
+Summary: Creator for Analysis Ready Data (ARD)
+Home-page: https://github.com/ceholden/cedar-datacube
+Author: Chris Holden
+Author-email: ceholden@gmail.com
+License: ('BSD license',)
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.6
+Requires-Dist: earthengine-api
+Requires-Dist: affine
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: rasterio
+Requires-Dist: shapely
+Requires-Dist: xarray
+Requires-Dist: jsonschema
+Requires-Dist: pyyaml
+Requires-Dist: click (>=6.0)
+Requires-Dist: click-plugins
+Requires-Dist: cligj (>=0.5)
+Provides-Extra: all
+Requires-Dist: affine ; extra == 'all'
+Requires-Dist: click-plugins ; extra == 'all'
+Requires-Dist: click (>=6.0) ; extra == 'all'
+Requires-Dist: cligj (>=0.5) ; extra == 'all'
+Requires-Dist: coverage ; extra == 'all'
+Requires-Dist: earthengine-api ; extra == 'all'
+Requires-Dist: google-api-python-client ; extra == 'all'
+Requires-Dist: google-auth-httplib2 ; extra == 'all'
+Requires-Dist: google-auth-oauthlib ; extra == 'all'
+Requires-Dist: google-cloud-storage ; extra == 'all'
+Requires-Dist: jsonschema ; extra == 'all'
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: numpydoc ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest-lazy-fixture ; extra == 'all'
+Requires-Dist: pyyaml ; extra == 'all'
+Requires-Dist: rasterio ; extra == 'all'
+Requires-Dist: shapely ; extra == 'all'
+Requires-Dist: sphinx ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'all'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'all'
+Requires-Dist: stems ; extra == 'all'
+Requires-Dist: xarray ; extra == 'all'
+Provides-Extra: core
+Requires-Dist: earthengine-api ; extra == 'core'
+Requires-Dist: affine ; extra == 'core'
+Requires-Dist: numpy ; extra == 'core'
+Requires-Dist: pandas ; extra == 'core'
+Requires-Dist: rasterio ; extra == 'core'
+Requires-Dist: shapely ; extra == 'core'
+Requires-Dist: xarray ; extra == 'core'
+Requires-Dist: jsonschema ; extra == 'core'
+Requires-Dist: pyyaml ; extra == 'core'
+Requires-Dist: click (>=6.0) ; extra == 'core'
+Requires-Dist: click-plugins ; extra == 'core'
+Requires-Dist: cligj (>=0.5) ; extra == 'core'
+Provides-Extra: gcs
+Requires-Dist: google-cloud-storage ; extra == 'gcs'
+Provides-Extra: gdrive
+Requires-Dist: google-api-python-client ; extra == 'gdrive'
+Requires-Dist: google-auth-httplib2 ; extra == 'gdrive'
+Requires-Dist: google-auth-oauthlib ; extra == 'gdrive'
+Provides-Extra: tests
+Requires-Dist: stems ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-lazy-fixture ; extra == 'tests'
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: sphinx ; extra == 'tests'
+Requires-Dist: sphinx-rtd-theme ; extra == 'tests'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'tests'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'tests'
+Requires-Dist: numpydoc ; extra == 'tests'
+
+==================================================================
+``cedar`` - Create Earth engine Data cubes of Analytical Readiness
+==================================================================
+
+cedar is a library and application to help download and preprocess
+satellite data to be "analysis ready data" (ARD) "data cube" as quickly as
+possible. cedar has been designed primarily to preprocess Landsat data, and can
+help acquire data from the Google Earth Engine (GEE). It is based on tools
+within the Python ecosystem for geospatial data processing (rasterio_), saving
+and working with N-dimensional data (netCDF4_ and xarray_), and parallelization
+(dask_ and distributed_).
+
+
++------------+-------------+--------------+--------------+
+| Branch     |  Tests      | Coverage     |   Docs       |
++------------+-------------+--------------+--------------+
+| ``master`` | |ci_master| | |cov_master| | |doc_master| |
++------------+-------------+--------------+--------------+
+
+
+.. |ci_master| image:: https://travis-ci.com/ceholden/cedar-datacube.svg?token=fpEUL8V3obFi2DonCumW&branch=master
+    :target: https://travis-ci.com/ceholden/cedar-datacube
+    :alt: Continuous integration test status
+
+.. |cov_master| image:: https://ceholden.github.io/cedar-datacube/master/coverage_badge.svg
+    :target: https://ceholden.github.io/cedar-datacube/master/coverage/index.html
+    :alt: Test coverage
+
+.. |doc_master| image:: https://travis-ci.com/ceholden/cedar-datacube.svg?token=fpEUL8V3obFi2DonCumW&branch=master
+    :target: https://ceholden.github.io/cedar-datacube/master/
+    :alt: Documentation
+
+
+.. _rasterio: https://rasterio.readthedocs.io
+.. _xarray: http://xarray.pydata.org
+.. _dask: http://docs.dask.org/en/latest/
+.. _distributed: http://distributed.dask.org/en/latest/
+.. _netCDF4: http://unidata.github.io/netcdf4-python/
+
+==========
+Change Log
+==========
+
+All notable changes will appear in this log.
+
+For information on the style of this change log, see
+`keepachangelog.com <http://keepachangelog.com/>`__.
+
+
+v0.0.4
+======
+
+* **Fixed** bug in ``cedar clean`` command
+* The ``cedar convert`` program will now copy "pre-ARD" image metadata JSON
+  files to the destination directory alongside the "pre-ARD" images (GeoTIFFs
+  converted to NetCDF files). To prevent this behavior, pass
+  ``--skip-metadata`` to the program.
+* Changes were made in where exceptions are handled for the case where a user
+  requests a "pre-ARD" image that returns 0 search results (e.g., wrong time
+  period for sensor, bad historic coverage, etc). By default, ``Order.add``
+  will not raise an ``EmptyCollectionError`` when you try to add a "pre-ARD"
+  image that had 0 image results. You can force an error to be raised by
+  setting ``error_if_empty=True`` in either ``Order.add`` or
+  ``Tracker.submit``.
+
+
+v0.0.3
+======
+
+
+* **BREAKING CHANGE** - Require image collection filters to be specified in
+  the configuration file according to the image collection. This change
+  has been made to prepare for using image collections that do not
+  have the same filters (e.g., more than just ``LANDSAT/*/C01/T1_SR`` data)
+* Add a check to make sure that ``Order.name_template`` creates unique names
+  for pre-ARD before continuing. If there are duplicate names, raises ValueError
+* Fix warning when calculating mean/std runtime of tasks that haven't been
+  updated (``RuntimeWarning: Mean of empty slice``...)
+* Provide better info in ``cedar status list`` when nothing is tracked because
+  the tracking folder doesn't exist
+* Fix bug when ordering but not using filters that resulted in 0 images being
+  found
+* Validate image collection names using ``click`` argument callback
+  in ``cedar submit`` CLI
+* Improve error propagation inside ``cedar.ordering.Order`` and
+  ``cedar.tracker.Tracker``. ``Order.add`` no longer catches and swallows
+  ``EmptyCollectionError``, which now is handled in ``Tracker.submit``
+
+
+v0.0.2
+======
+
+* Fix bug in jsonschema validation by allowing tuples & lists to count
+  as 'array'
+* Added ``cedar status cancel`` command to cancel orders
+* Refactor internals to use ``TrackingMetadata`` model
+
+v0.0.1.post1
+============
+
+* Fix packaging issue (missing package data)
+
+
+v0.0.1.post0
+============
+
+* Fix packaging issue
+
+
+v0.0.1
+======
+
+* First public release
+
+
