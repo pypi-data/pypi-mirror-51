@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pypackaging
+Version: 0.1.0
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/nirajKpanda/pypackaging
+Author: Niraj Kumar Panda
+Author-email: nirajpanda@outlook.com
+License: MIT license
+Keywords: pypackaging
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click (>=6.0)
+
+===========
+pyPackaging
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/pypackaging.svg
+        :target: https://pypi.python.org/pypi/pypackaging
+
+.. image:: https://img.shields.io/travis/nirajKpanda/pypackaging.svg
+        :target: https://travis-ci.org/nirajKpanda/pypackaging
+
+.. image:: https://readthedocs.org/projects/pypackaging/badge/?version=latest
+        :target: https://pypackaging.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Python Boilerplate contains all the boilerplate you need to create a Python package.
+
+
+* Free software: MIT license
+* Documentation: https://pypackaging.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2019-08-20)
+------------------
+
+* First release on PyPI.
+
+

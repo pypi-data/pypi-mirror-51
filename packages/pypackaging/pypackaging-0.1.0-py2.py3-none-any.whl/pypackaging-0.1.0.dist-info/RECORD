@@ -1,0 +1,10 @@
+pypackaging/__init__.py,sha256=1zbwRhmDn4qx7Q-nr5TLfkDwQJWSXJrJrrKl8v7q0mo,163
+pypackaging/cli.py,sha256=XPoq0pv2ttRePHXuYtMwSJRgNrYFQaYVWMF1wczNqPA,425
+pypackaging/pypackaging.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+pypackaging-0.1.0.dist-info/AUTHORS.rst,sha256=02ak4fzS8zqfCOXfRZLnZNcRYEWw3t9fzIJtF9NLrZw,165
+pypackaging-0.1.0.dist-info/LICENSE,sha256=C2VHDoCtlFQjy9svmYmFBWviMn6pCnJmckLEwSCh69o,1076
+pypackaging-0.1.0.dist-info/METADATA,sha256=_1gyfXMIyou_U6XkfHvV7cfh9HBAqBYWMs-EeZFK2tc,1925
+pypackaging-0.1.0.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+pypackaging-0.1.0.dist-info/entry_points.txt,sha256=d4N8oi2EA99SbBA47ppk15aDSD8Iz7bAL-od9eAt4GE,54
+pypackaging-0.1.0.dist-info/top_level.txt,sha256=K3PGjMM2ofqLEzDNsFxl9ZGFk_csZvTkQqx4jJRf7SQ,12
+pypackaging-0.1.0.dist-info/RECORD,,
