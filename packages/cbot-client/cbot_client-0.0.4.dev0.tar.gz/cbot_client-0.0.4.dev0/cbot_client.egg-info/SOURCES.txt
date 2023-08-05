@@ -1,0 +1,15 @@
+README.rst
+setup.py
+cbot_client/__init__.py
+cbot_client/command.py
+cbot_client/index_storage.py
+cbot_client/new_recipe.py
+cbot_client/requirements.txt
+cbot_client/runner.py
+cbot_client/tools.py
+cbot_client.egg-info/PKG-INFO
+cbot_client.egg-info/SOURCES.txt
+cbot_client.egg-info/dependency_links.txt
+cbot_client.egg-info/entry_points.txt
+cbot_client.egg-info/requires.txt
+cbot_client.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+cbot = cbot_client.command:run
+
