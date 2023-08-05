@@ -1,0 +1,9 @@
+README.md
+setup.py
+qgriff/__init__.py
+qgriff/qgriff.py
+quaggagriff.egg-info/PKG-INFO
+quaggagriff.egg-info/SOURCES.txt
+quaggagriff.egg-info/dependency_links.txt
+quaggagriff.egg-info/requires.txt
+quaggagriff.egg-info/top_level.txt
