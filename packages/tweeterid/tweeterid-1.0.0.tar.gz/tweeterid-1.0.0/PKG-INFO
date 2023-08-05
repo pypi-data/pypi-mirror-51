@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: tweeterid
+Version: 1.0.0
+Summary: Get twitter handles based on user ID's and vice-versa via tweeterid.com in python
+Home-page: https://github.com/sl4vkek/python-tweeterid
+Author: sl4v
+Author-email: iamsl4v@protonmail.com
+License: WTFPL
+Description: Get twitter handles based on user ID's and vice-versa via tweeterid.com in python
+Platform: UNKNOWN
