@@ -1,0 +1,17 @@
+<!-- js and  resources -->
+
+<span class="ontop">
+<input    tal:attributes="id string:${view/id};
+                       name view/name;
+                       value view/value;
+                       title view/title;
+                       lang view/lang;
+                       alt view/alt;
+                       accesskey view/accesskey;
+                       onselect view/onselect;
+                       size view/size;
+                       maxlength view/maxlength"
+                       class="jscolor ontop" />
+
+<script type="text/javascript" src="++resource++medialog.iconpicker/jscolor.js"></script>
+</span>
