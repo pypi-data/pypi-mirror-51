@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: acrawler_prometheus
+Version: 0.0.2
+Summary: The handler working with aCrawler and Prometheus
+Home-page: https://github.com/wooddance/acrawler-prometheus
+Author: wooddance
+Author-email: zireael.me@gmail.com
+License: UNKNOWN
+Description: # acrawler-prometheus
+        
+        The handler working with [aCrawler](https://github.com/wooddance/aCrawler) and [Prometheus](http://prometheus.io/).
+        
+        Export statistics for:
+        
+        - Concurrent requests
+        - Task (Requests, Items) counts
+        - Queue status
+        
+        ## Installation
+        
+        ```bash
+        $ pip install acrawler_prometheus
+        ```
+        
+        ## Usage
+        
+        Add Handler:
+        
+        ```python
+        class MyCrawler(Crawler):
+            middleware_config = {
+                "acrawler_prometheus.PromExporter": 100,
+            }
+        
+            config = {
+                PROMETHEUS_INTERVAL = 5
+            }
+        ```
+        
+        Avaliable Config:
+        
+        ```python
+        PROMETHEUS_ADDR = "localhost"
+        PROMETHEUS_PORT = 8000
+        PROMETHEUS_INTERVAL = 1  # exporting interval, in second
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
