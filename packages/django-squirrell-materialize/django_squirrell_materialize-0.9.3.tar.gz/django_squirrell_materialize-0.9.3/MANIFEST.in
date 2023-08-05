@@ -1,0 +1,10 @@
+include *.rst
+include rawdata/data/*.*
+include templates/admin*.html
+include static/js/*.js
+include static/admin/js/*.js
+include *.js
+include *.md
+
+graft templates
+graft static
