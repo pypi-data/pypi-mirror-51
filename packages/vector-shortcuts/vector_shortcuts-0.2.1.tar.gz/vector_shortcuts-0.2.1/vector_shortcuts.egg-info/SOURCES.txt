@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+vector_shortcuts.egg-info/PKG-INFO
+vector_shortcuts.egg-info/SOURCES.txt
+vector_shortcuts.egg-info/dependency_links.txt
+vector_shortcuts.egg-info/requires.txt
+vector_shortcuts.egg-info/top_level.txt
+vx/__init__.py
+vx/core.py
+vx/test_angle.py
+vx/test_core.py
