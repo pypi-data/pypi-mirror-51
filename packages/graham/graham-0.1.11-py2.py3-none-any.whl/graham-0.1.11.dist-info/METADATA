@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: graham
+Version: 0.1.11
+Summary: Graham, making s'mores with attrs and marshmallow.
+Home-page: https://github.com/altendky/graham
+Author: Kyle Altendorf
+Author-email: sda@fstab.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: attrs
+Requires-Dist: marshmallow (<3)
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-issues ; extra == 'docs'
+Provides-Extra: gitignore
+Requires-Dist: click ; extra == 'gitignore'
+Requires-Dist: requests ; extra == 'gitignore'
+Provides-Extra: tests
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: tox ; extra == 'tests'
+
+graham
+======
+
+|PyPI| |Pythons| |Read the Docs| |Travis| |AppVeyor| |codecov| |GitHub|
+
+Graham, making s'mores with attrs and marshmallow.
+
+Well, it's trying to.  This is used in my `parameter management program`_ and is
+intended to become a public use library but fitness for such use can not be
+claimed at this time.
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/graham.svg
+   :alt: PyPI version
+   :target: https://pypi.python.org/pypi/graham
+
+.. |Pythons| image:: https://img.shields.io/pypi/pyversions/graham.svg
+   :alt: Supported Python versions
+   :target: https://pypi.python.org/pypi/graham
+
+.. |Read the Docs| image:: https://readthedocs.org/projects/graham/badge/?version=latest
+   :alt: Read the Docs status
+   :target: https://graham.readthedocs.io/en/latest/?badge=latest
+
+.. |Travis| image:: https://travis-ci.org/altendky/graham.svg?branch=develop
+   :alt: Travis build status
+   :target: https://travis-ci.org/altendky/graham
+
+.. |AppVeyor| image:: https://ci.appveyor.com/api/projects/status/w23w5pa18rsj7wld/branch/develop?svg=true
+   :alt: AppVeyor build status
+   :target: https://ci.appveyor.com/project/KyleAltendorf/graham
+
+.. |codecov| image:: https://codecov.io/gh/altendky/graham/branch/develop/graph/badge.svg
+   :alt: codecov coverage status
+   :target: https://codecov.io/gh/altendky/graham
+
+.. |GitHub| image:: https://img.shields.io/github/last-commit/altendky/graham/develop.svg
+   :alt: Source on GitHub
+   :target: https://github.com/altendky/graham
+
+.. _parameter management program: https://github.com/altendky/pm
+
+
