@@ -1,0 +1,10 @@
+README.md
+setup.py
+globefish_openapi2jsonschema.egg-info/PKG-INFO
+globefish_openapi2jsonschema.egg-info/SOURCES.txt
+globefish_openapi2jsonschema.egg-info/dependency_links.txt
+globefish_openapi2jsonschema.egg-info/entry_points.txt
+globefish_openapi2jsonschema.egg-info/requires.txt
+globefish_openapi2jsonschema.egg-info/top_level.txt
+openapi2jsonschema/__init__.py
+openapi2jsonschema/command.py

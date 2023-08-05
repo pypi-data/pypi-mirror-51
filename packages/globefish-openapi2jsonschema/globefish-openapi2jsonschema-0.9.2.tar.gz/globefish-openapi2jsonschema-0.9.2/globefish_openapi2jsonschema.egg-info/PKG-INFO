@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: globefish-openapi2jsonschema
+Version: 0.9.2
+Summary: A utility to extract JSON Schema from a valid OpenAPI specification.
+Home-page: https://github.com/ufonion/openapi2jsonschema
+Author: Marshall Ma
+Author-email: mayongcong@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: openapi,jsonschema
+Platform: UNKNOWN
