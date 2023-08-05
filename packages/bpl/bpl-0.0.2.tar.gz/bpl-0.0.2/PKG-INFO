@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: bpl
+Version: 0.0.2
+Summary: Simple Bayesian models for football leagues
+Home-page: https://github.com/anguswilliams91/FPL
+Author: Angus Williams <anguswilliams91@gmail.com>
+Author-email: anguswilliams91@gmail.com
+License: GPL-3.0
+Description: 
+            A package for fitting Bayesian models to football leagues. Models are reminiscent of Dixon \& Coles
+            (1997) , but have been cast into a hierarchical Bayesian form, with the option of team-level covariates in the
+            prior.
+Platform: UNKNOWN
