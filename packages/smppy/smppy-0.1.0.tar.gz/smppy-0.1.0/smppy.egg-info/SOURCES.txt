@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.cfg
+setup.py
+smppy/__init__.py
+smppy/app.py
+smppy/client.py
+smppy/example.py
+smppy/server.py
+smppy.egg-info/PKG-INFO
+smppy.egg-info/SOURCES.txt
+smppy.egg-info/dependency_links.txt
+smppy.egg-info/requires.txt
+smppy.egg-info/top_level.txt
