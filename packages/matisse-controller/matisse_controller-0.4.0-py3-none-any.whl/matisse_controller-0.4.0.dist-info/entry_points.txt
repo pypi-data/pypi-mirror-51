@@ -1,0 +1,4 @@
+[gui_scripts]
+matisse-config = matisse_controller.gui.dialogs.configuration_dialog:main
+matisse-controller = matisse_controller.gui.control_application:main
+
