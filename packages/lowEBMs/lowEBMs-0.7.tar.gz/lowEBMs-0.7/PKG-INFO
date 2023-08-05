@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: lowEBMs
+Version: 0.7
+Summary: A python implementation of low-dimensional EBMs
+Home-page: https://github.com/BenniSchmiedel/Low-dimensional-EBMs
+Author: Benjamin Schmiedel
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha

@@ -1,0 +1,10 @@
+include lowEBMs/Tutorials/*
+include lowEBMs/Tutorials/Config/*
+include lowEBMs/Tutorials/Config/Data/*
+include lowEBMs/Tutorials/Notebooks/*
+include lowEBMs/Forcings/*
+include lowEBMs/Forcings/TSI/*
+include lowEBMs/Forcings/Orbital/*
+include lowEBMs/Forcings/Volcanic/*
+include lowEBMs/Config/*
+include lowEBMs/Config/Parameters/*
