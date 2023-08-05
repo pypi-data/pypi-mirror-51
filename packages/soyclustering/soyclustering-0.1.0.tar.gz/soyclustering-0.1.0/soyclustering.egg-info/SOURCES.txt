@@ -1,0 +1,13 @@
+README.md
+setup.py
+soyclustering/__init__.py
+soyclustering/_keyword.py
+soyclustering/_kmeans.py
+soyclustering/_postprocess.py
+soyclustering/_utils.py
+soyclustering/_visualize.py
+soyclustering.egg-info/PKG-INFO
+soyclustering.egg-info/SOURCES.txt
+soyclustering.egg-info/dependency_links.txt
+soyclustering.egg-info/requires.txt
+soyclustering.egg-info/top_level.txt
