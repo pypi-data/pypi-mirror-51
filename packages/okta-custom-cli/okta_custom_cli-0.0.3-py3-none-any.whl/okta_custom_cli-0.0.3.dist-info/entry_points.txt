@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            okta-custom-cli=okta_custom_cli.okta:okta
+        
