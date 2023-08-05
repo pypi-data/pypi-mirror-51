@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: html-processor
+Version: 0.0.2
+Summary: Package for creating HTML content processing templates
+Home-page: https://github.com/brogency/html-processor
+License: MIT
+Keywords: html,processing,bs4
+Author: Дмитрий
+Author-email: acrius@mail.ru
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Project-URL: Repository, https://github.com/brogency/html-processor
+Description-Content-Type: text/x-rst
+
+
