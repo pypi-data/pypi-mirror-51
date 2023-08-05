@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: django-data-seeder
+Version: 0.1.0
+Summary: A data seeder for models for Django.
+Home-page: https://github.com/kbernst30/django-data-seeder/
+Author: Kyle Bernstein
+Author-email: kbernst30@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+
+==================
+django-data-seeder
+==================
+
+This app provides a simple way of seeding data for your data models into your
+development or test database. This can be achieved through the Admin site, via
+a management command, or by writing your own scripts that use a seeder object.
+
+It is often necessary to be able to seed large datasets, especially in complex
+projects, where having pre-loaded data can save time in the development
+lifecycle. Additionally, by allowing simple data seeding, you can more
+effectively conduct load tests or test complex edge case scnearios.
+
+Requirements
+============
+
+* Django 2.2+
+* Python 3.6+
+
+Installation
+============
+
+You can install ``data_seeder`` using ``pip``
+
+.. code-block:: bash
+
+    pip install django-data-seeder
+
+
+Quick Start
+===========
+
+1. Add ``data_seeder`` to your ``INSTALLED_APPS`` in ``settings.py``
+
+   .. code-block:: python
+
+     INSTALLED_APPS = [
+       ...
+
+       'data_seeder',
+     ]
+
+2. Seed data with the following command
+
+   .. code-block:: bash
+
+     python manage.py seeddata [options] app.models.Model [app.models.Model2, ...]
+
+   This will generate a single seed for each model provided.
+
+
