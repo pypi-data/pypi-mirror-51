@@ -1,0 +1,5 @@
+[console_scripts]
+quicklib-get-git-version = quicklib.versioning:calculate_git_version
+quicklib-lock = quicklib.cli.quickliblock:main
+quicklib-setup = quicklib.cli.quicklibsetup:main
+
