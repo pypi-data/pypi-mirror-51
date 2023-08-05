@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: external-task-api-client
+Version: 2.0.1
+Summary: A client for external task api of process-engine.io
+Home-page: https://github.com/process-engine/external_task_api_client
+Author: Robin Lenz
+Author-email: robin.lenz@5minds.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
