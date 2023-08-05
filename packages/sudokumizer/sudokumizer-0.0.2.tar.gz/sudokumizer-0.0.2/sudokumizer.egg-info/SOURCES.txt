@@ -1,0 +1,16 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sudokumizer/__init__.py
+sudokumizer/board.py
+sudokumizer.egg-info/PKG-INFO
+sudokumizer.egg-info/SOURCES.txt
+sudokumizer.egg-info/dependency_links.txt
+sudokumizer.egg-info/not-zip-safe
+sudokumizer.egg-info/top_level.txt
+test/test_sudokumizer.py
