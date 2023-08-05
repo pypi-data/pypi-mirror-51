@@ -1,0 +1,12 @@
+celery
+jsonschema
+nezha
+muzha
+pandas
+pymongo
+redis
+flower
+blinker
+gevent
+openpyxl
+ipython
