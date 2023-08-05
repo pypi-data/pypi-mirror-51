@@ -1,0 +1,10 @@
+tap_impactradius/__init__.py,sha256=kSlX4upjKSc-cXrz0QxNCBh2hObhHovmGEwMRE2Lt1g,3598
+tap_impactradius/schemas/actions.json,sha256=HxNpuqD68pdVzff-QjT7AQ6zX5nk8rbuf9-rV9yHLJg,1860
+tap_impactradius/schemas/clicks.json,sha256=a4YiZdFoeszJ18bx-K4aRIuL7N4n_ssjumMNTISJ7h8,1984
+tap_impactradius/schemas/invoices.json,sha256=ktwFc8G0h7lqh59Pmh6Sc-rPUnmguCtteBcOdg_lQvI,1479
+tap_impactradius-0.1.0.dist-info/LICENSE.md,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+tap_impactradius-0.1.0.dist-info/METADATA,sha256=lOzSRQup1NLyFU74igiQ99XBRMRHqLFyT0GyUiFmfn8,396
+tap_impactradius-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tap_impactradius-0.1.0.dist-info/entry_points.txt,sha256=ucfx0-ySvbZxEEszpMvnMSegX-BWU7PRVOlEx2ZVKiM,84
+tap_impactradius-0.1.0.dist-info/top_level.txt,sha256=eDiUOjORyMHrYxYGiiLU3HuCh_Sgah_94Xbsugwpi4Q,17
+tap_impactradius-0.1.0.dist-info/RECORD,,
