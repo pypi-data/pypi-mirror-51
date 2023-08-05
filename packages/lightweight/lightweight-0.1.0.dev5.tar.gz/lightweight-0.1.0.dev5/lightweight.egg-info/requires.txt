@@ -1,0 +1,6 @@
+Jinja2>=2.10.1
+misaka>=2.1.1
+
+[dev]
+pytest
+mypy
