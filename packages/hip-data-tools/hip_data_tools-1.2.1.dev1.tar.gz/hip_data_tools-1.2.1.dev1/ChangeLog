@@ -1,0 +1,44 @@
+CHANGES
+=======
+
+* chore: Read long description using readme file (#8)
+
+v1.2.0
+------
+
+* feat: Add long description and fix pbr (#7)
+
+v1.1.1
+------
+
+* fix: unquote the url in setup.cfg (#6)
+* chore: refactored to use pbr in setuptools (#4)
+* ci: Updated by github.com/hipagesgroup/repo-man [ci skip]
+* ci: Updated by github.com/hipagesgroup/repo-man [ci skip]
+
+v1.1.0
+------
+
+* feat: Refactored to add more details of usage and add coverage (#3)
+
+v1.0.0
+------
+
+* feat: Added the ability to use git version for pypi releases (#2)
+* ci: Updated by github.com/hipagesgroup/repo-man [ci skip]
+* Added Circle CI config
+* Added Circle CI config
+* Added Circle CI config
+* Added Circle CI config
+* Update LICENSE.md
+* Added Circle CI config
+* Updated Readme with circle badge
+* Updated Readme
+* Tested with pypi upload
+* Added athena utilities and basic project structure with authentication
+* ci: Updated by github.com/hipagesgroup/repo-man [ci skip]
+* ci: Updated by github.com/hipagesgroup/repo-man [ci skip]
+* ci: Updated by github.com/hipagesgroup/repo-man [ci skip]
+* ci: Updated by github.com/hipagesgroup/repo-man [ci skip]
+* ci: Updated by github.com/hipagesgroup/repo-man [ci skip]
+* Initial commit
