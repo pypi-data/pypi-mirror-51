@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: xenqore-project
+Version: 0.1
+Summary: xenqore
+Home-page: https://github.com/kojunhyun/xenqore_project
+Author: kojunhyun
+Author-email: skykjh20@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/kojunhyun/xenqore_project
+Keywords: xenqore_project
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
+
