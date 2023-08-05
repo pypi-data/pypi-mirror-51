@@ -1,0 +1,15 @@
+confiddler/__init__.py,sha256=YcuSy62VEkQ3pk2WVaoXVjC3LG8PaslxRUesMkhxr9I,182
+confiddler/__main__.py,sha256=NmtkrSqJF0VA-OlEvlOHy-eVIsRBhXR_3sik2AttXEo,38
+confiddler/_version.py,sha256=g3RFgsITQQnpm4hAiTUlC-W37GAf1HF7bkMPeawhdH8,497
+confiddler/cli.py,sha256=OXp-dHfWG7hkprkWDvoAYvl34Vc-2enzzS0XL4_79Yo,194
+confiddler/core.py,sha256=EJocrOwoAOFPrR4omhdeLPtC1ovgLj120Zpl5W4s-IY,17604
+confiddler/json.py,sha256=0Xd9d0ZojxCtTlrjRoS7NTf6s8wcxzJy6QnQwUkHDQs,1679
+confiddler/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confiddler/tests/test_cli.py,sha256=JHVde953iGLEw-9zb1gcIc5dJV5QhhYVbFlh8x8aCyM,82
+confiddler/tests/test_core.py,sha256=3PwCWkfirCjpdmrfAOSY5WGpc07HS4cPf0akhuhkGiY,7980
+confiddler/tests/test_json.py,sha256=YT1fftuoaYU-81-v51Z8UOXsdzssH15oX6J64NRUCzQ,700
+confiddler-0.1.2.dist-info/LICENSE,sha256=PF-nuCoFjWWi6X4dzAX2UI_43e3_IQtg87ELG8TTpcY,1462
+confiddler-0.1.2.dist-info/METADATA,sha256=Bu-j8k4xILiit6sGH9WnmC_R6aUBYcFcQMMQuHYD_Uo,498
+confiddler-0.1.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+confiddler-0.1.2.dist-info/top_level.txt,sha256=nWh6BoieIEtVGLzDa_QnKBScAMy2Y4WaByoO3_U9sR4,11
+confiddler-0.1.2.dist-info/RECORD,,
