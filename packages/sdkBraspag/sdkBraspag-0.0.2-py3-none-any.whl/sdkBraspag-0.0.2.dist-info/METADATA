@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sdkBraspag
+Version: 0.0.2
+Summary: Projeto de SDK para o Split de Pagamentos
+Home-page: UNKNOWN
+Author: Diego Faria
+Author-email: diego.rdfaria@gmail.com
+License: MIT
+Keywords: SDK Braspag Split
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Projeto de SDK para o Split de Pagamentos
+
+
