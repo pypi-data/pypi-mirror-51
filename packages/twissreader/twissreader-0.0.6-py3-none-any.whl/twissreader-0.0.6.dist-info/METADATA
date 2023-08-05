@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: twissreader
+Version: 0.0.6
+Summary: Reading Twiss-files created by MAD-X
+Home-page: https://gitlab.cern.ch/cstaufen/twissreader
+Author: Christian Staufenbiel
+Author-email: christian.staufenbiel@cern.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# TwissReader
+
+Read Twiss files produced by MAD and converts it to dictionary and pandas-dataframe. <br>
+For examples see the [examples.ipynb - notebook](https://gitlab.cern.ch/cstaufen/twissreader/blob/master/examples.ipynb) included in the repository.
+
