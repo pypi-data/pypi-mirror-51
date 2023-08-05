@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+dart_fss_classifier/__init__.py
+dart_fss_classifier/_version.py
+dart_fss_classifier/classifier.py
+dart_fss_classifier/fs_search.py
+dart_fss_classifier.egg-info/PKG-INFO
+dart_fss_classifier.egg-info/SOURCES.txt
+dart_fss_classifier.egg-info/dependency_links.txt
+dart_fss_classifier.egg-info/requires.txt
+dart_fss_classifier.egg-info/top_level.txt
+dart_fss_classifier/data/dict.json
+dart_fss_classifier/data/model.h5
