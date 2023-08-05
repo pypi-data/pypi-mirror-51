@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: survey-monkey-api
+Version: 0.0.2
+Summary: A simple Python client for the Survey Monkey API (v3).
+Home-page: UNKNOWN
+Author: Alistair O'Brien
+Author-email: alistair@duneroot.co.uk
+License: UNKNOWN
+Description: # Survey Monkey API Client
+        
+        > A simple Python client for the Survey Monkey API (v3)
+        
+        TODO
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

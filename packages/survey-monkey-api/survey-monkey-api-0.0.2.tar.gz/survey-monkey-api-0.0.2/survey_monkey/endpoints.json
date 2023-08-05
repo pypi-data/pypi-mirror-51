@@ -1,0 +1,132 @@
+[
+  {
+    "identifier": "get_account_details",
+    "method": "GET",
+    "endpoint path": "users/me"
+  },
+  {
+    "identifier": "get_groups",
+    "method": "GET",
+    "endpoint path": "groups"
+  },
+  {
+    "identifier": "get_group",
+    "method": "GET",
+    "endpoint path": "groups/{group_id}"
+  },
+  {
+    "identifier": "get_group_members",
+    "method": "GET",
+    "endpoint path": "groups/{group_id}/members"
+  },
+  {
+    "identifier": "get_group_member",
+    "method": "GET",
+    "endpoint path": "groups/{group_id}/members/{member_id}"
+  },
+  {
+    "identifier": "get_surveys",
+    "method": "GET",
+    "endpoint path": "surveys"
+  },
+  {
+    "identifier": "create_survey",
+    "method": "POST",
+    "endpoint path": "surveys"
+  },
+  {
+    "identifier": "get_survey",
+    "method": "GET",
+    "endpoint path": "surveys/{survey_id}"
+  },
+  {
+    "identifier": "delete_survey",
+    "method": "DELETE",
+    "endpoint path": "surveys/{survey_id}"
+  },
+  {
+    "identifier": "get_survey_details",
+    "method": "GET",
+    "endpoint path": "surveys/{survey_id}/details"
+  },
+  {
+    "identifier": "get_survey_categories",
+    "method": "GET",
+    "endpoint path": "survey_categories"
+  },
+  {
+    "identifier": "get_survey_templates",
+    "method": "GET",
+    "endpoint path": "survey_templates"
+  },
+  {
+    "identifier": "get_survey_languages",
+    "method": "GET",
+    "endpoint path": "survey_languages"
+  },
+  {
+    "identifier": "get_survey_pages",
+    "method": "GET",
+    "endpoint path": "surveys/{survey_id}/pages"
+  },
+  {
+    "identifier": "create_survey_page",
+    "method": "POST",
+    "endpoint path": "survey/{survey_id}/pages"
+  },
+  {
+    "identifier": "get_survey_page",
+    "method": "GET",
+    "endpoint path": "survey/{survey_id}/pages/{page_id}"
+  },
+  {
+    "identifier": "delete_survey_page",
+    "method": "DELETE",
+    "endpoint path": "survey/{survey_id}/pages/{page_id}"
+  },
+  {
+    "identifier": "get_survey_page_questions",
+    "method": "GET",
+    "endpoint path": "survey/{survey_id}/pages/{page_id}/questions"
+  },
+  {
+    "identifier": "create_survey_page_question",
+    "method": "POST",
+    "endpoint path": "survey/{survey_id}/pages/{page_id}/questions"
+  },
+  {
+    "identifier": "get_survey_page_question",
+    "method": "GET",
+    "endpoint path": "survey/{survey_id}/pages/{page_id}/{question_id}"
+  },
+  {
+    "identifier": "delete_survey_page_question",
+    "method": "DELETE",
+    "endpoint path": "survey/{survey_id}/pages/{page_id}/{question_id}"
+  },
+  {
+    "identifier": "get_survey_responses",
+    "method": "GET",
+    "endpoint path": "surveys/{survey_id}/responses"
+  },
+  {
+    "identifier": "bulk_get_survey_responses",
+    "method": "GET",
+    "endpoint path": "surveys/{survey_id}/responses/bulk"
+  },
+  {
+    "identifier": "get_survey_response",
+    "method": "GET",
+    "endpoint path": "surveys/{survey_id}/responses/{response_id}"
+  },
+  {
+    "identifier": "delete_survey_response",
+    "method": "DELETE",
+    "endpoint path": "surveys/{survey_id}/responses/{response_id}"
+  },
+  {
+    "identifier": "get_survey_response_details",
+    "method": "GET",
+    "endpoint path": "surveys/{survey_id}/responses/{response_id}/details"
+  }
+]
