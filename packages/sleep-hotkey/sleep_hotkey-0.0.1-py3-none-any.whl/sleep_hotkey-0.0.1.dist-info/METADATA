@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sleep-hotkey
+Version: 0.0.1
+Summary: Sleep Hotkey
+Home-page: https://github.com/HenleyKuang/sleep-hotkey
+Author: Henley Kuang
+Author-email: hekuang@ucdavis.edu
+License: GPL
+Keywords: python sleep hotkey smart controlled
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: keyboard
+
+Sleep Hotkey
+============
+
+Installation
+------------
+
+.. code-block:: bash
+
+    pip install sleep-hotkey
+
+How to Use
+----------
+
+Call the *sleep* function and hold onto the *ESC* key if you want to stop the sleeping at any time.
+
+
+Examples
+--------
+
+.. code-block:: python
+
+    from sleep_hotkey.sleep_hotkey import sleep
+    sleep(10)
+
+
