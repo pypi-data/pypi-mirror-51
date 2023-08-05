@@ -1,0 +1,16 @@
+#!/usr/bin/python2
+
+import sys, os
+sys.path.insert(0,
+  os.path.join(
+   os.path.dirname(__file__),
+   os.path.pardir,
+   "lib",
+  )
+)
+import musictoolbox
+import logging
+logging.basicConfig(level=logging.DEBUG)
+
+args = sys.argv[1:]
+musictoolbox.viewtags(args)
