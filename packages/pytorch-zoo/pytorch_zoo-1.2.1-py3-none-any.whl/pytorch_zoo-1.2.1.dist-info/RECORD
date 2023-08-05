@@ -1,0 +1,12 @@
+pytorch_zoo/__init__.py,sha256=AjggErm5Zun8qkE5DD3ua9-Akj7O4ZF7eJorft_L1xk,44
+pytorch_zoo/data.py,sha256=YNTP8wxPISr6pq63IZYWPz2n0iQvZCF8XzZIYiZD3HY,2245
+pytorch_zoo/loss.py,sha256=vIBg6gPMTI-smS4ImpyZsg6TgsCsHVuoNwyFHKF8YKg,4067
+pytorch_zoo/metrics.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytorch_zoo/modules.py,sha256=WxUHyogFnLidg_ifgSTw9Nfdrn6Dg_Nox6NIE3x_rvY,3956
+pytorch_zoo/schedulers.py,sha256=neWUjwYcmDWtwUbtqxAF0weI9DST7BH-5becuTgcH1U,6168
+pytorch_zoo/utils.py,sha256=VLUUq6s0cyLBDjKK5guDFMNIaT0rQ4tuHF6j0jRtFQQ,9026
+pytorch_zoo-1.2.1.dist-info/LICENSE,sha256=ApGMEoPvxkp50hnIm0w8zMdtxVNXr_23dQqdBlWjX40,1069
+pytorch_zoo-1.2.1.dist-info/METADATA,sha256=i02a_qWLcQMs7Qm-hRCBU1lQh0dqY_OWFFvkC6sWA_8,19705
+pytorch_zoo-1.2.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pytorch_zoo-1.2.1.dist-info/top_level.txt,sha256=xGoxunz4p8n3Pgs8ZJCMbFIXLU3oy0oMlKIQGFsq8Dc,12
+pytorch_zoo-1.2.1.dist-info/RECORD,,
