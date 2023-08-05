@@ -1,0 +1,13 @@
+setup.py
+django_apidocs.egg-info/PKG-INFO
+django_apidocs.egg-info/SOURCES.txt
+django_apidocs.egg-info/dependency_links.txt
+django_apidocs.egg-info/not-zip-safe
+django_apidocs.egg-info/requires.txt
+django_apidocs.egg-info/top_level.txt
+django_docs/__init__.py
+django_docs/apps.py
+django_docs/default.py
+django_docs/handler.py
+django_docs/urls.py
+django_docs/view.py
