@@ -1,0 +1,153 @@
+Calibration Client
+==================
+
+Dependency responsible for encapsulating and managing the interaction with the
+Calibration Constants Catalogue Web Application throw RESTful API calls.
+
+**Repository:**
+
+ * https://git.xfel.eu/gitlab/ITDM/calibration_client
+
+*Dependencies:*
+
+- oauthlib (https://pypi.python.org/pypi/oauthlib)
+- requests (https://github.com/kennethreitz/requests)
+- requests-oauthlib (https://github.com/requests/requests-oauthlib)
+- oauth2_xfel_client (https://git.xfel.eu/gitlab/ITDM/oauth2_xfel_client)
+
+
+Installation
+------------
+
+Python project
+""""""""""""""
+
+1. Install requirements, if never done before
+
+ 1.1. For OS X distributions::
+
+    sudo port install python35
+    sudo port
+
+    sudo port select --set python3 python35
+
+    sudo port install py35-pip
+    sudo port select --set pip pip35
+
+    sudo port install py35-nose
+    sudo port select --set nosetests nosetests-3.5
+
+    pip install pycodestyle
+
+ 1.2. For Linux distributions::
+
+    sudo apt-get update
+    sudo apt-get install python3.5
+
+2. Make calibration_client library available in your python environment
+
+ 2.1. Install it via pip::
+
+    # Install dependencies from local wheels files
+    pip install --no-index --upgrade --find-links ./external_dependencies/*
+
+    # Install dependencies from the pypi
+    pip install -r requirements.txt
+
+ Or as a normal python project (via .egg file)::
+
+    python setup.py install
+    python setup.py install --user
+
+ Running this command the "compiled" `calibration_client-6.1.3-py3.4.egg` file
+ is generated under the current Python installation site-packages folder.
+
+ 2.2. Install it as a normal python project (via Wheel)::
+
+    python setup.py bdist_wheel
+
+ Running this command 2 folders are generated under the current Python
+ installation site-packages folder:
+
+ - `calibration_client` with the sources;
+ - `calibration_client-6.1.3.dist-info/` with Wheels configuration files.
+
+3. To identify your Python site-packages folder run::
+
+    python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+
+
+Usage
+-----
+
+To use this project you need to import it.
+
+If you want interact directly with API methods you should import `CalibrationClientApi` class:
+ ``from calibration_client.calibration_client_api import CalibrationClientApi``
+
+If you want interact with Model classes you should import `CalibrationClient` class:
+ ``from calibration_client.calibration_client import CalibrationClient``
+
+Or import everything:
+ ``import calibration_client``
+
+
+Development & Testing
+---------------------
+
+When developing, and before commit changes, please validate that:
+
+1. All tests continue passing successfully (to validate that run *nosetests*)::
+
+    # Go to the source code directory
+    cd calibration_client
+
+    # Run all tests
+    nosetests .
+
+    # Run all tests and get information about coverage for all files inside calibration_client package
+    pip install python-dateutil
+    pip install nose-cov
+    nosetests --with-cov --cover-erase --cover-inclusive --cov-report term-missing --cov calibration_client
+
+    # Run all tests with xunit
+    nosetests --where=./calibration_client/ --with-xunit --xunit-file=pythonTest.xml
+
+    # If you don't want use nosetests you can simply run the test class
+    python -m calibration_client.tests.modules.calibration_constant_version
+
+2. Code keeps respecting pycodestyle code conventions (to validate that run **pycodestyle**)::
+
+    pycodestyle .
+
+3. To generate all the wheels files for the dependencies, execute::
+
+    # Generate Wheels to its dependencies
+    pip wheel --wheel-dir=./external_dependencies -r requirements.txt
+    pip wheel --wheel-dir=./external_dependencies --find-links=./external_dependencies -r requirements.txt
+
+    # Generate Wheels to itself and dependencies
+    pip wheel --wheel-dir=./external_dependencies .
+    pip wheel --wheel-dir=./external_dependencies --find-links=./external_dependencies .
+
+Guarantee that you have the desired versions in requirements.txt and setup.py files.
+
+
+Registering library on https://pypi.org
+---------------------------------------
+
+To register this python library, the following steps are necessary::
+
+    # Install twine
+    python -m pip install --upgrade twine
+
+    # Generates egg file in the dist/ folder
+    python setup.py install
+
+    # Upload new version
+    twine upload dist/*
+
+    # In case a teste is necessary, it is possible to test it against test.pypi.org
+    twine upload --repository-url https://test.pypi.org/legacy/ dist/* --verbose
+
+
