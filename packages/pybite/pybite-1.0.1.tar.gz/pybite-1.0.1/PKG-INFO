@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pybite
+Version: 1.0.1
+Summary: Chunk by chunk iteration made easier
+Home-page: https://github.com/metadeta96/pybite
+Author: metadeta96
+Author-email: metadeta96@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/metadeta96/pybite
+Description: # PyBite
+        
+        Chunk by chunk iteration made easier
+        
+        ## Installation
+        
+            pip install pybite
+        
+        ## Methods
+        
+        ### iterate_by
+        
+        Return a iterator of chunks for the iterable
+        
+        #### Parameters
+            
+        **iterable**: *iter*
+        
+        Any iterable data e.g. list, tuple, dict, iter, ...
+        
+        **chunk_size**: *int*
+        
+        The size of each chunk
+        
+        **map**: *callable* optional, defaults *None*
+        
+        A map function for transform the data before dividing in chunks
+        
+        #### Returns
+        
+        **iter**
+            
+        New iterable for the chunked data
+        
+        #### Examples
+        
+        ```
+        >>> iterate_by([1, 2, 3, 4, 5], 2)
+        iter([[1, 2], [3, 4], [5])
+        >>> iterate_by([1, 2, 3, 4, 5], 2, map=lambda x: x * 2)
+        iter([[2, 4], [6, 8], [10])
+        ```
+        
+Keywords: iteration,iter,iterable,sequence,list,tuple,dict,array,chunk,block,processing,data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
