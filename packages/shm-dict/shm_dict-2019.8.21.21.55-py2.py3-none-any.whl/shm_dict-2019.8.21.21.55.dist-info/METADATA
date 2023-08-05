@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: shm-dict
+Version: 2019.8.21.21.55
+Summary: Shared Memory Dictionary
+Home-page: https://natrinicle.com
+Author: Nate Bohman
+Author-email: natrinicle@natrinicle.com
+License: LGPL-3
+Project-URL: Source, https://git.natrinicle.com/natrinicle/shm_dict.git
+Keywords: posix ipc semaphore shm shared memory dict dictionary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: posix-ipc
+Requires-Dist: six
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: docutils ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pur ; extra == 'dev'
+Requires-Dist: pygments ; extra == 'dev'
+Requires-Dist: pyOpenSSL ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest-runner ; extra == 'dev'
+Requires-Dist: pytest-sugar ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: python-language-server[all] ; extra == 'dev'
+Requires-Dist: readme-renderer[md] ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-automodapi ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pylint (==1.9.4) ; (python_version >= "2.7" and python_version < "3.0") and extra == 'dev'
+Requires-Dist: pylint ; (python_version >= "3.4") and extra == 'dev'
+Requires-Dist: black ; (python_version >= "3.6") and extra == 'dev'
+
+# shm_dict
+
+Shared Memory Dictionary utilizing Posix IPC semaphores and shared memory segments and offering permanent disk storage of data if required.
+
