@@ -1,0 +1,942 @@
+/*
+    General tweaks
+*/
+.small {
+    font-size: 17px;
+}
+
+.header {
+    height: 5rem;
+}
+
+.page-lead {
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+input[data-street-search] {
+    background: $input-bg-color;
+    border: 0 inset $input-border-color;
+    border-radius: 2px;
+    box-shadow: $input-box-shadow;
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+}
+
+form input[type="radio"] {
+    margin: .55rem .5rem 0 0 !important;
+}
+
+input[data-street-search]::placeholder {
+    color: $input-placeholder-color;
+}
+
+/*
+    Edit bar
+*/
+.edit-bar {
+    .new-report::before {
+        @include icon('\f0f6');
+    }
+
+    .vehicles::before,
+    .new-vehicle::before {
+        @include icon('\f0f9');
+    }
+
+    .upload-images::before {
+        @include icon('\f083');
+    }
+}
+
+/*
+    Sidepanel
+*/
+.side-panel.highlighted {
+    &.without-title {
+        > ul li:first-child {
+            background: $gray-light;
+            color: $body-font-color;
+            font-weight: bold;
+            margin-bottom: 0;
+            padding: .75rem 1rem 0;
+            text-transform: none;
+        }
+    }
+}
+
+/*
+    Directory search
+*/
+#inline-search {
+    $border-width: 0 0 3px;
+    $border-color: $gray;
+
+    input[type="text"],
+    input[type="text"]:focus,
+    input[type="text"]:active {
+        background-color: $gray-light;
+        border-color: $border-color;
+        border-width: $border-width;
+        box-shadow: none;
+    }
+
+    button[type="submit"] {
+        background: transparent;
+        border-color: $border-color;
+        border-width: $border-width;
+        color: $red;
+        padding-right: .75rem;
+        text-align: right;
+    }
+
+    .reset-button {
+        color: $gray-dark;
+
+        &::after {
+            @include icon('\f00d');
+        }
+    }
+}
+
+/*
+    Filter panel
+*/
+.filter-panel {
+    background: $gray-light;
+    padding: 1rem 1.1rem;
+
+    h2 {
+        border-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .tags {
+        margin-bottom: 0 !important;
+
+        span,
+        a {
+            background-color: $gray-light;
+            font-size: .85rem;
+            line-height: 1.3em;
+        }
+
+        span.active,
+        span.active a,
+        li:hover span,
+        span:hover,
+        span:hover a {
+            background-color: $gray-ultra-light !important;
+            border-color: $gray !important;
+            color: $primary-color !important;
+        }
+    }
+
+    .filter-periods + .filter-periods {
+        margin-top: 1rem;
+    }
+}
+
+/*
+    Streets view
+*/
+.streetname {
+    font-size: $h3-font-size - $h3-font-reduction;
+    margin-bottom: 1rem;
+}
+
+.streetlist {
+    @media #{$small-up} {
+        @include prefix(column-count, 1);
+    }
+
+    @media #{$medium-up} {
+        @include prefix(column-count, 3);
+    }
+
+    @media #{$large-up} {
+        @include prefix(column-count, 4);
+    }
+
+    list-style-position: inside;
+
+    li {
+        list-style-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjkiIHZpZXdCb3g9IjAgMCA3IDkiPgogIDxjaXJjbGUgY3g9IjMuNSIgY3k9IjMuNSIgcj0iMi41IiBmaWxsPSIjNDQ0NDNGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==");
+        overflow: hidden;
+        padding-bottom: .273em;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.streettable {
+    width: 100%;
+
+    thead th {
+        background: $table-head-bg;
+        border-color: $table-head-border-color;
+        font-size: 20px;
+    }
+
+    tbody td {
+        border: 0;
+        font-size: 20px;
+    }
+
+    tbody tr:nth-fo-type(even) {
+        background: $table-even-bg-color;
+    }
+}
+
+/*
+    Custom thumbnails
+*/
+.directory-entry-collection-layout .with-lead {
+    border-bottom: 1px solid $gray-light;
+    border-top: 1px solid $gray-light;
+    margin-left: 0;
+
+    li {
+        display: block;
+        padding: 4px 12px;
+        transition: .3s ease all;
+
+        &::after {
+            clear: both;
+            content: " ";
+            display: block;
+            font-size: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .list-lead {
+            max-width: 100%;
+        }
+
+        .thumbnail {
+            border-radius: 0;
+            float: right;
+            margin-right: 0;
+            padding-right: 0;
+            text-align: center;
+
+            img {
+                border-radius: 0;
+                width: auto;
+            }
+        }
+
+        & + li {
+            border-top: 1px solid $gray-light;
+            margin-top: 0;
+            padding-top: .25rem;
+        }
+
+        &:hover {
+            background-color: $gray-light;
+            cursor: pointer;
+        }
+    }
+}
+
+/*
+    Views inside iFrames
+*/
+.framed-only {
+    display: none;
+}
+
+.framed {
+    .framed-only {
+        display: block;
+    }
+
+    .unframed-only {
+        display: none;
+    }
+
+    #inner-body {
+        height: auto;
+        min-height: 1px;
+    }
+
+    .globals,
+    .locals,
+    .header,
+    .main-navigation,
+    .main-title,
+    nav,
+    footer {
+        display: none;
+    }
+
+    &.directory-entry-layout .main-title {
+        display: block;
+        font-size: $h2-font-size;
+        margin-top: 0;
+    }
+
+    .content {
+        margin: 0;
+        max-width: 100%;
+
+        > .columns {
+            padding: 0;
+        }
+    }
+
+    .alerts > .columns {
+        padding: 0;
+    }
+}
+
+/*
+    Roadworks List
+*/
+.roadwork-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    > dt,
+    > dd {
+        flex: 0 0 100%;
+    }
+
+    > dd {
+        border-bottom: 1px solid $gray-light;
+        padding-bottom: 15px;
+    }
+
+    > dd:last-of-type {
+        border-bottom: 0;
+    }
+
+    .date-label {
+        color: darken($secondary-color, 40%);
+        display: inline-block;
+        width: 4ex;
+    }
+}
+
+.roadwork-sections {
+    padding-left: 4.5ex;
+
+    h2 {
+        font-size: .875rem;
+        margin-top: 15px;
+    }
+
+    dl {
+        font-size: .875rem;
+        margin-bottom: -5px;
+
+        a {
+            font-weight: normal;
+        }
+    }
+}
+
+/*
+    Datetime Picker
+*/
+
+.datetimepicker {
+    background: $primary-color !important;
+    border: 0;
+    color: $white !important;
+
+    &:hover {
+        background: darken($primary-color, 10%) !important;
+    }
+}
+
+/*
+    Mission report list
+*/
+.total-missions {
+    @include label($text-size: .875rem, $bg: $gray-pastel, $radius: true);
+
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}
+
+td.mission-nature {
+    padding-right: 2.25rem;
+    position: relative;
+
+    .pictures-link {
+        color: $body-font-color;
+        position: absolute;
+        right: 1rem;
+        top: .5rem;
+
+        &:hover {
+            color: $anchor-font-color;
+        }
+    }
+
+    .used-vehicles + .pictures-link {
+        top: 1.75rem;
+    }
+}
+
+/*
+    Tables
+*/
+.min-width-column {
+    white-space: nowrap;
+    width: 1%;
+}
+
+.valign-top {
+    th,
+    td {
+        vertical-align: top;
+    }
+}
+
+table.two-column {
+    td:first-child {
+        font-weight: bold;
+    }
+
+    td,
+    tr {
+        border: 0;
+    }
+}
+
+table.responsive {
+    @media #{$small-only} {
+        thead {
+            display: none;
+        }
+
+        tr {
+            display: block;
+            padding: 1.2em 0;
+            position: relative;
+        }
+
+        tr:first-of-type {
+            border-top: 1px solid $gray;
+        }
+
+        td {
+            display: table-row;
+
+            &::before {
+                content: attr(data-label);
+                display: table-cell;
+                font-weight: bold;
+                padding: .2em .6em .2em 0;
+                text-align: right;
+            }
+
+            &:last-child::after {
+                border-bottom: 1px solid $gray;
+                bottom: 0;
+                content: "";
+                left: 0;
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+}
+
+/*
+    Vehicles
+*/
+.vehicle-icon {
+    color: $body-font-color !important;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.civil-defence-icon {
+    margin-top: 5px;
+    max-height: 22px;
+    max-width: 22px;
+}
+
+.used-vehicles {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin-right: 5px;
+    }
+
+    li:last-child {
+        margin-right: 0;
+    }
+}
+
+/*
+    Mission report images
+*/
+.mission-report-layout .orbit-container {
+    margin: 0 auto;
+    width: calc(100% - 2vw);
+}
+
+.mission-report-layout .slider,
+.mission-report-layout .slider li {
+    height: 45vw !important;
+}
+
+/*
+    Mission reports legend
+*/
+.mission-report-legend {
+    background: $gray-pastel;
+    padding: 1rem 1rem .5rem;
+
+    * {
+        font-size: .8rem;
+    }
+
+    p {
+        margin-bottom: .5rem;
+        max-width: $max-line-width;
+    }
+}
+
+/*
+    Daycare calculator
+*/
+.daycare-calculator {
+    max-width: 725px;
+
+    form {
+        margin-bottom: 1rem;
+
+        .field-help {
+            max-width: $max-line-width;
+        }
+    }
+
+    .daycare-services {
+        width: 100%;
+
+        thead th {
+            vertical-align: top;
+        }
+
+        td,
+        tr {
+            padding: 0;
+        }
+
+        input {
+            cursor: pointer;
+        }
+
+        & + .error {
+            margin-top: calc(-1.25rem - 1px);
+        }
+
+        label {
+            cursor: pointer;
+            display: flex;
+            height: 1.5rem;
+            justify-content: center;
+        }
+
+        @media #{$small-only} {
+            & {
+                th {
+                    font-size: .8rem;
+                    padding: .5rem;
+                }
+            }
+        }
+    }
+
+    .privacy-notice .panel {
+        font-size: .875rem;
+    }
+}
+
+.daycare-calculator-result {
+    max-width: 725px;
+
+    .show-details {
+        background: $gray-ultra-light;
+        border-bottom: 2px solid $gray;
+        color: $body-font-color;
+        display: block;
+        font-size: .875rem;
+        margin-bottom: 2rem;
+        padding: .5rem;
+
+        &.toggled {
+            border-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        &::before {
+            @include icon('\f055');
+            color: $gray-dark;
+            margin-right: 1ex;
+        }
+
+        &.toggled::before {
+            content: '\f056';
+        }
+
+        &:hover {
+            color: $anchor-font-color;
+        }
+    }
+
+    .show-details.toggled {
+        margin-bottom: 0;
+    }
+
+    .show-details.toggled + .calculation-details {
+        border-bottom-color: $gray;
+        border-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .calculation-explanation {
+        font-size: .875rem;
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .calculation-details {
+        border: 2px solid $gray-ultra-light;
+        margin-bottom: 1rem;
+        padding: 1rem;
+
+        @media #{$small-only} {
+            border-width: 2px 0;
+            padding: 0;
+        }
+
+        h2 {
+            font-size: $h3-font-size;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table.summary-agenda {
+            border: 0;
+
+            td {
+                background: transparent;
+                border: 0;
+            }
+
+            td:nth-child(1) {
+                width: 24.5%;
+            }
+
+            td:nth-child(2) {
+                width: 50.5%;
+            }
+
+            td:nth-child(3) {
+                text-align: right;
+                white-space: nowrap;
+                width: 20%;
+            }
+
+            tr:last-child {
+                td {
+                    border-bottom: 3px double $gainsboro;
+                    border-top: 1px solid $gainsboro;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .panel.warning {
+        background: $yellow-light;
+        border: 0;
+        font-size: 1rem;
+        padding: .75rem;
+    }
+
+    .summary-header {
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            flex: 0 0 50%;
+        }
+
+        a {
+            display: inline-block;
+            font-size: .875rem;
+            line-height: 1.75rem;
+            padding: 4px;
+            right: 0;
+
+            &::before {
+                @include icon('\f02f');
+                margin-right: 1ex;
+            }
+        }
+    }
+
+    .summary {
+
+        dl.summary-amounts {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: .9rem;
+            justify-content: space-between;
+
+            > div {
+                background: $gray-ultra-light;
+                border: 0;
+                border-radius: 3px;
+                display: inline-block;
+                line-height: 2rem;
+                padding: .25rem .5rem .75rem;
+                position: relative;
+                width: calc(33% - .75rem);
+
+                &:nth-child(1)::after,
+                &:nth-child(2)::after {
+                    font-weight: bold;
+                    height: 1rem;
+                    line-height: 1rem;
+                    position: absolute;
+                    right: -1.125rem;
+                    text-align: center;
+                    top: 3.33rem;
+                    width: 1rem;
+                }
+
+                &:nth-child(1)::after {
+                    content: "+";
+                }
+
+                &:nth-child(2)::after {
+                    content: "=";
+                }
+
+                @media #{$small-only} {
+                    & {
+                        width: 100%;
+                    }
+
+                    & + div {
+                        margin-top: 1.5rem;
+                    }
+
+                    &:nth-child(1)::after,
+                    &:nth-child(2)::after {
+                        display: block;
+                        position: absolute;
+                        right: 0;
+                        text-align: center;
+                        top: 5.8rem;
+                        width: 100%;
+                    }
+                }
+
+                dt {
+                    font-weight: normal;
+                }
+
+                dd {
+                    background: $white;
+                    border-radius: 1px;
+                    box-shadow: 0 4px 0 darken($gray, 10%);
+                    color: $body-font-color;
+                    display: block;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    padding: 0 .5rem;
+                }
+
+                &.success dd {
+                    box-shadow: 0 4px 0 $green-light;
+                }
+
+                &.info dd {
+                    box-shadow: 0 4px 0 $blue-light;
+                }
+
+                &.warning dd {
+                    box-shadow: 0 4px 0 $orange;
+                }
+            }
+        }
+    }
+
+    table {
+        border: 1px solid $gray-light;
+
+        td {
+            border-bottom-color: $gray-light;
+        }
+
+        tr:last-child td {
+            border-bottom: 0;
+        }
+    }
+
+    .important-result td:nth-child(2),
+    .important-result td:nth-child(4) {
+        font-weight: bold;
+    }
+
+    td {
+        vertical-align: top;
+
+        &:nth-child(1) {
+            background: $gray-light;
+            width: 35%;
+        }
+
+        &:nth-child(2) {
+            border-right: 1px solid $gray-light;
+            width: 35%;
+        }
+
+        &:nth-child(3) {
+            border-right: 1px solid $gray-light;
+            text-align: center;
+            width: 10%;
+        }
+
+        &:nth-child(4) {
+            text-align: right;
+            width: 20%;
+        }
+    }
+
+    table.summary-blocks {
+        border: 0;
+
+        /* border */
+        tr td:last-child {
+            border-right: 1px solid $gray-light;
+        }
+
+        tr td:first-child {
+            border-left: 1px solid $gray-light;
+        }
+
+        .block-head + tr td {
+            border-top: 1px solid $gray-light;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: 1px solid $gray-light;
+        }
+
+        @media #{$small-only} {
+            tr td:nth-child(2) {
+                border-left: 1px solid $gray-light;
+            }
+        }
+
+        /* block headings that look like normal headings */
+        .block-head th {
+            border: 0;
+            padding: 1.25rem 0 .5rem;
+        }
+
+        thead + tbody tr th {
+            padding-top: 0 !important;
+        }
+    }
+}
+
+/*
+    Daycare calculator print output
+*/
+@media print {
+    .daycare-subsidy-calculator-layout {
+        .summary-amounts > div {
+            font-size: .875rem !important;
+            padding: 0 !important;
+        }
+
+        .daycare-calculator-result {
+            max-width: 100%;
+        }
+
+        table tr td,
+        table tr th {
+            font-size: .8rem;
+            padding: .2rem;
+        }
+
+        h2 {
+            border: 0;
+        }
+
+        .daycare-calculator form * {
+            font-size: .8rem !important;
+        }
+
+        .show-details {
+            display: none !important;
+        }
+
+        .daycare-services .show-for-small-only {
+            display: none;
+        }
+
+        .calculation-details {
+            border: 0 !important;
+            padding: 0 !important;
+        }
+
+        .calculation-explanation {
+            display: none;
+        }
+
+        input {
+            background: none !important;
+            border: 0 !important;
+            box-shadow: none !important;
+            font-size: 1rem !important;
+            font-weight: bold;
+            padding: 0 !important;
+        }
+
+        /* Hide HTML5 Up and Down arrows. */
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .summary-header a {
+            display: none;
+        }
+
+        .privacy-notice {
+            display: none;
+        }
+    }
+}
