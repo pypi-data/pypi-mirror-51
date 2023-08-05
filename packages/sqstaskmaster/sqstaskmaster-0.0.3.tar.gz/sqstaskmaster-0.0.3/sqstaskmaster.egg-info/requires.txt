@@ -1,0 +1,8 @@
+boto3
+botocore
+
+[dev]
+callee
+flake8
+black
+cython
