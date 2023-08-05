@@ -1,0 +1,16 @@
+wo/__init__.py,sha256=8hZonI-RToc1g7-an3OvL35y7WkmUCzQTxm4GFhJHfo,51
+wo/cloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wo/cloud/aws.py,sha256=-xZMgnFVIV5qBJP7el-mUVJx8bIu9BS2L0t-NbktICI,3721
+wo/cloud/gcp.py,sha256=nFTw8Q8vEC5l1r_TUvWyLGPcjm-1iaRVue5XQdNyb9c,2183
+wo/orchestrator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wo/orchestrator/_kubeflow.py,sha256=kzXGFclrRTgnDX4IyUtFZKmO4pOK9037RB8zaZSIXHA,1088
+wo/orchestrator/_kubernetes.py,sha256=coQ734mOJL1dw5j0v0lAVYdmLujsTOSrtenp8yE7XoQ,1222
+wo/orchestrator/orchestrator.py,sha256=zzzIKOBHHEMYWYNLGEye1G5le1I4d8lTu3iWLsDByig,4220
+wo/orchestrator/storage.py,sha256=k16NF-0PZI9gcm_in3J5NfzKP-p7PXTrPCkXfe3lK1Q,4490
+wo/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wo/utils/config.py,sha256=byEWIXiIXuuZZEU0ePix5KoQYCzMGUORH6NOF0SZwbM,197
+wo/utils/io.py,sha256=xJhIwgIiEpwDo2rVgZjbv6x12TD5eaW5Nn20cpqt2hM,801
+wo-0.1.1.dist-info/METADATA,sha256=49BL8uDKiOGp2Sm15LHrGzkithDcdqwyZRMxq_UBnHo,482
+wo-0.1.1.dist-info/RECORD,,
+wo-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+wo-0.1.1.dist-info/top_level.txt,sha256=cuJ9d1Wl6UsmSBocL24UBqTXVxB3TzcWAw3VEO8G83w,3
