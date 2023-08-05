@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: wdl-lsp
+Version: 0.0.68
+Summary: Language Server Protocol (LSP) implementation for Workflow Definition Language (WDL)
+Home-page: https://github.com/broadinstitute/wdl-ide
+Author: Broad Institute
+License: BSD 3-clause "New" or "Revised" License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7.0
+Requires-Dist: cromwell-tools (==2.2.0)
+Requires-Dist: miniwdl (==0.3.0)
+Requires-Dist: pygls (==0.8.0)
+
+UNKNOWN
+
+
