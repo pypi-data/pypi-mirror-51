@@ -1,0 +1,12 @@
+numpy
+scipy
+ipython
+matplotlib
+h5py
+pandas
+astropy
+cython
+betagen
+tqdm
+numba
+hypothesis
