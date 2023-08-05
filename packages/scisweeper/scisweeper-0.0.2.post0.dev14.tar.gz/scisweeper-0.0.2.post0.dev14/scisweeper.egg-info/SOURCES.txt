@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+scisweeper/__init__.py
+scisweeper/_version.py
+scisweeper/cli.py
+scisweeper/scisweeper.py
+scisweeper.egg-info/PKG-INFO
+scisweeper.egg-info/SOURCES.txt
+scisweeper.egg-info/dependency_links.txt
+scisweeper.egg-info/requires.txt
+scisweeper.egg-info/top_level.txt
