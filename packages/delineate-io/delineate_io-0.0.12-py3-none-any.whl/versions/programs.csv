@@ -1,0 +1,11 @@
+Git,git version,extract,2
+Terraform,terraform --version
+Packer,packer --version,extract,0
+Vagrant,vagrant --version
+Docker,docker --version,extract_docker
+MiniKube,minikube version,extract,2
+Go,go version,extract_go
+Java,java --version
+Python3,python3 --version
+Node,node --version,extract,0
+gCloud,gcloud version,extract,3
