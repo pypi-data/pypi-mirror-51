@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+# pyqt=4.11.*
+pyqt=5.*
