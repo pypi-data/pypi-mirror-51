@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vae2
+Version: 0.1
+Summary: A VAE MNIST package
+Home-page: UNKNOWN
+Author: Shuvam Ghosal
+Author-email: shuvamghosal98@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# VAE-Keras
+Implementation of Variational Autoencoders using Keras and Tensorflow
+
+
