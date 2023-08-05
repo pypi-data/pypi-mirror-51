@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<registry
+  xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+  i18n:domain="collective.gnd">
+
+<!-- -*- extra stuff goes here -*- -->
+  <records interface="collective.gnd.controlpanels.gnd_settings.IGndSettings">
+      <value key="message" purge="False"></value>
+      <value key="contact" purge="False"></value>
+      <value key="institution" purge="False"></value>
+      <value key="description" purge="False"></value>
+  </records>
+
+  <records prefix="plone.app.querystring.field.gnd_id"
+           interface='plone.app.querystring.interfaces.IQueryField'>
+    <value key="title" i18n:translate="">GND ID</value>
+    <value key="description" i18n:translate=""></value>
+    <value key="enabled">True</value>
+    <value key="sortable">True</value>
+    <value key="operations">
+      <element>plone.app.querystring.operation.int.is</element>
+      <element>plone.app.querystring.operation.boolean.isTrue</element>
+      <element>plone.app.querystring.operation.boolean.isFalse</element>
+      <element>plone.app.querystring.operation.string.contains</element>
+      <element>plone.app.querystring.operation.string.is</element>
+    </value>
+    <value key="group" i18n:translate="">Text</value>
+  </records>
+</registry>

@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.gnd">
+
+  -*- extra stuff goes here -*-
+
+    <browser:page
+       name="beacon-gnd.txt"
+       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+       class=".beacon_gnd.BeaconGnd"
+       permission="zope2.View"
+       />
+
+    <browser:page
+       name="resolvegnd"
+       for="Products.CMFCore.interfaces.IFolderish"
+       class=".gnd_resolver.GndResolver"
+       permission="zope2.View"
+       />
+
+
+</configure>

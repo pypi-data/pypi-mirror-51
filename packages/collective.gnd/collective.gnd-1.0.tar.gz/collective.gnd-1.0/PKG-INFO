@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: collective.gnd
+Version: 1.0
+Summary: Plone addon which provides a GND resolver and a BEACON API.
+Home-page: https://github.com/collective/collective.gnd
+Author: Maik Derstappen
+Author-email: md@derico.de
+License: GPL version 2
+Project-URL: Source, https://github.com/collective/collective.gnd
+Project-URL: Tracker, https://github.com/collective/collective.gnd/issues
+Project-URL: PyPI, https://pypi.python.org/pypi/collective.gnd
+Description: ==============
+        collective.gnd
+        ==============
+        
+        Plone addon which provides a `GND ID <https://www.wikidata.org/wiki/Property:P227>`_ resolver and a `BEACON <http://gbv.github.io/beaconspec/>`_ API.
+        
+        Features
+        --------
+        
+        - GND ID resolver: ``/resolvegnd/08151111``
+        - GND ID Behavior, which provides a ``gnd_id`` field
+        - Provides a ``gnd_id`` index
+        - BEACON API (BEACON List): /beacon-gnd.txt
+        
+        
+        Installation
+        ------------
+        
+        Install collective.gnd by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                collective.gnd
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/collective/collective.gnd/issues
+        - Source Code: https://github.com/collective/collective.gnd
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        
+        Contributors
+        ============
+        
+        - Maik Derstappen (MrTango), md@derico.de
+        
+        
+        Changelog
+        =========
+        
+        1.0 (2019-08-26)
+        ----------------
+        
+        - Fix default in gnd_id property in behavior
+          [MrTango]
+        
+        
+        1.0b2 (2019-06-20)
+        ------------------
+        
+        - Fix target (gnd resolver) URL in BEACON file
+          [MrTango]
+        
+        
+        1.0b1 (2019-06-20)
+        ------------------
+        
+        - prevent None entries in gnd_ids
+          [MrTango]
+        
+        
+        1.0a2 (2019-06-20)
+        ------------------
+        
+        - Fix README RST syntax
+          [MrTango]
+        
+        1.0a1 (2019-06-20)
+        ------------------
+        
+        - Initial release.
+          [MrTango]
+        
+Keywords: Python Plone
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: ==2.7, >=3.6
+Provides-Extra: test

@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="example.dexterityforms">
+
+    <browser:page
+        name="gnd-settings"
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        class=".gnd_settings.GndSettingsView"
+        permission="cmf.ManagePortal"
+        />
+
+</configure>

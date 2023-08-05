@@ -1,0 +1,5 @@
+==============
+collective.gnd
+==============
+
+User documentation
