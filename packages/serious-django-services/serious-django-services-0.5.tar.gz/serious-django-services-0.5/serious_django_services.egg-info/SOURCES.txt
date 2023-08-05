@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+serious_django_services/__init__.py
+serious_django_services.egg-info/PKG-INFO
+serious_django_services.egg-info/SOURCES.txt
+serious_django_services.egg-info/dependency_links.txt
+serious_django_services.egg-info/requires.txt
+serious_django_services.egg-info/top_level.txt
+tests/__init__.py
+tests/forms.py
+tests/models.py
+tests/test_crud_mixin.py
+tests/test_settings.py
