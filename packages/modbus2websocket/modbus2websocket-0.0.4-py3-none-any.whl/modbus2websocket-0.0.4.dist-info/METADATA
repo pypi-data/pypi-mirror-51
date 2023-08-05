@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: modbus2websocket
+Version: 0.0.4
+Summary: Modbus/TCP to websocket router.
+Home-page: https://github.com/PakshNina/modbus2websocket
+Author: Nina Pakshina
+Author-email: ninucium@gmail.com
+License: MIT
+Keywords: modbus tcp websocket asyncio socket
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pyModbusTCP
+Requires-Dist: websockets
+
+# Modbus2Websocket
+Modbus2Websocket (further, M2W) is an python-based application that routes data between Modbus TCP protocol and Websockets.
+
+![m2w logo](http://ninucium.ru/modbus2websocket/logo.png)
+
+## Purpose
+The main goal of M2W router is to deliver data between industrial system and web application. Modbus TCP - industrial protocol, used to exchange information between industrial devices and HMIs. Usually, to visualize data engineers have to use heavy and expensive SCADA or HMI. On other hand web technologies provide easy and powerful tools for data visualization in your own web browser, without any thick client. That is why M2W was created in first place - to make simple webHMI server that works with Industrial systems.
+
+
+## Components
+- async Modbus TCP server `async_modbus_server.py`
+- async Modbus TCP client `async_modbus_client.py`
+- async Websocket server `async_websocket_server.py`
+- Router `router.py`
+
+
+## Future development:
+- [x] Async Modbus Server
+- [x] Async Modbus Client
+- [x] Async Websocket Server
+- [x] Router
+- [x] Html example page
+- [ ] Database connection
+
+
+## Installation steps
+* [Module installation](#module-installation)
+* [Details](#details)
+* [Creating app](#creating-app)
+* [Example](#example)
+* [Modbus details](#modbus-details)
+
+## Installation
+### Module installation
+
+Modbus2websocket library installs with pip:
+```
+pip install modbus2websocket
+```
+
+### Details
+Before creating you application you have to specify following:
+* Websocket server IP, for example, 192.168.220.10
+* Websocket port, by default, it is 8888
+* Modbus/TCP server's IP, for example, 192.168.220.5
+
+
+### Modbus server
+If you don't have running Modbus/TCP server, you can use server simulator.
+
+### Creating app
+Class Router will manage data between Modbus/TCP and websockets client, that runs in your browser
+```python
+from modbus2websocket.router import Router
+```
+Router has two public methods:
+* `Router.add_modbus_reg()` - that adds registers you want to read
+* `Router.run()` - that runs router.
+
+You should add registers that you want to read, as a list of dictionaries.
+Structure of single registers looks like that:
+```python
+Input_register_1 = {'ir':
+    {
+        'adr': 0,
+        'num': 1,
+        'name': 'Input Register 1',
+        },
+    },
+```
+Where:
+* `ir` - registers type. (see [Modbus details](#modbus-details)).
+* `adr` - regsiter's address. It starts from 0 to 65535.
+* `num` - number of registers to read. It is limited between 1 to 2000.
+* `name` - unique name for your register.
+
+
+### Example
+
+```python
+from modbus2websocket.router import Router
+
+
+if __name__ == '__main__':
+    ws_ip = '192.168.220.10'         # websocket ip address
+    ws_port = 8888              # websocket port
+    modbus_ip = '192.168.220.5'     # Modbus ip address
+    router = Router(ws_ip, ws_port, modbus_ip)
+    # Modbus registers to read
+    regs = [
+        {'ir':
+            {
+                'adr': 0,
+                'num': 1,
+                'name': 'Reg1',
+            },
+         },
+        {'hr':
+            {
+                'adr': 1,
+                'num': 1,
+                'name': 'Reg2',
+            },
+         },
+        {'ir':
+            {
+                'adr': 2,
+                'num': 1,
+                'name': 'Reg3',
+            },
+         },
+    ]
+    router.add_modbus_reg(regs)
+    router.run()
+```
+
+### Modbus details
+
+Registers type   | Short name | Description
+-----------------|------------|-------------
+Digital Input    | DI         | Read only, bool, 1-bit
+Input Register   | IR         | Read only, float/int, 16-bit
+Coil             | C          | Read/write, bool, 1-bit
+Holding register | HR         | Read/write, float/int, 16-bit
+
+

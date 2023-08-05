@@ -1,0 +1,10 @@
+modbus2websocket/__init__.py,sha256=SPtbdwG3TiBeYEzFAtQl5XkicZTaPyR0nphjzkH-kU4,27
+modbus2websocket/async_modbus_client.py,sha256=Zkq_Pu-QLzw2X9TDta-FMMf13OW8LB7cvxY7UP4eQ68,4823
+modbus2websocket/async_modbus_server.py,sha256=m0HYAuTm0BNG1WUgUnuTSA3lnKAcJ1ln9xtkonYEqoA,2723
+modbus2websocket/async_websocket_server.py,sha256=cyjL75EiTWNK1MwZY4ySo5jbRs6uN1S1J7UO_0oM0mI,1490
+modbus2websocket/router.py,sha256=pGrre0HBWRhQjaiROGVsfP_lGmcT876uoVbR4bWTWGI,1958
+modbus2websocket-0.0.4.dist-info/LICENSE,sha256=UnMc9DaTvnr6W38SSKAqnBdYuraR65Sm6osoSC6gA9A,1083
+modbus2websocket-0.0.4.dist-info/METADATA,sha256=OtY3oD_WK3YNAIRGAQWJjhdWrnn9VldXUYn_Yc_krbg,4239
+modbus2websocket-0.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+modbus2websocket-0.0.4.dist-info/top_level.txt,sha256=tV_bRqT_DLszawstGaAQZTGPGYQyv9vFNDoh1VVe8aM,17
+modbus2websocket-0.0.4.dist-info/RECORD,,
