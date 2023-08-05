@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ehelply-cacher
+Version: 0.1.0
+Summary: eHelply Cacher
+Home-page: https://github.com/ehelply/Cacher
+Author: Shawn Clake
+Author-email: shawn.clake@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: cachetools (==3.1.1)
+
+# Cacher
+Extended caching tools
+
+## Usage
+* https://github.com/tkem/cachetools
+* https://cachetools.readthedocs.io/en/latest/
+* Can also read the test file in this repo
+
+`pip install ehelply-cacher`
+
+
