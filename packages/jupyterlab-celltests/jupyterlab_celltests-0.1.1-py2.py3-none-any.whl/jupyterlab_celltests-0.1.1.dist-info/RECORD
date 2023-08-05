@@ -1,0 +1,13 @@
+jupyterlab_celltests/__init__.py,sha256=8HhtUEmb4mP16lor1TDK4IOv4gvYKPSD-fm8dp6kkYU,161
+jupyterlab_celltests/_version.py,sha256=hqqQpT8vMyuIjL6eG9hQbbjsvAwv-TnLUknXWSZtCI8,677
+jupyterlab_celltests/extension.py,sha256=oEmu01RGSCB_aZRIp7dee2TvgHBKjAUNTlvezZ4nel4,3566
+jupyterlab_celltests/lint.py,sha256=tg0maGGM1Pt5PLNLzLSQl8Jg4exxe7D0mo8mdFEvHEk,6450
+jupyterlab_celltests/shared.py,sha256=ea7mE9RC0M3d1MRHJGumrV4ED5LLcq_KE7RfBiF8V2g,1675
+jupyterlab_celltests/tests.py,sha256=8g_SF9Jbv7EAZQQbXtVQxm3VXczd82TGtNzB60YA1Kg,14525
+jupyterlab_celltests-0.1.1.data/data/etc/jupyter/jupyter_notebook_config.d/jupyterlab_celltests.json,sha256=H3R0t_FQxICyaEBDYCa4BeBNSl-thifdrlsSZjWko6I,97
+jupyterlab_celltests-0.1.1.data/data/share/jupyter/lab/extensions/jupyterlab_celltests-0.1.1.tgz,sha256=BPxpj49f005ReMgq_-RNbfWFSSrRz-Izfly5Ingax5Q,12613
+jupyterlab_celltests-0.1.1.dist-info/LICENSE,sha256=yR0RjmXQEnEqIaMOqZoKeg-zTfq7whg1-auBuGVNHL8,11363
+jupyterlab_celltests-0.1.1.dist-info/METADATA,sha256=lBjrKTXa56N8COvb4B518BojBDhoX5ByPhbNc2jF50Q,6791
+jupyterlab_celltests-0.1.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+jupyterlab_celltests-0.1.1.dist-info/top_level.txt,sha256=eEbhglnswcT_DGHxlrYz1b1SJtWTMDj7nR95a3v2QNU,21
+jupyterlab_celltests-0.1.1.dist-info/RECORD,,
