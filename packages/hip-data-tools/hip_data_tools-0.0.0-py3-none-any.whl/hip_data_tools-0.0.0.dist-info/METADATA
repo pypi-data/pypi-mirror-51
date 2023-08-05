@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hip-data-tools
+Version: 0.0.0
+Summary: Common utility functions for data engineering usecases
+Home-page: https://github.com/hipagesgroup/data-tools
+Author: hipages Data Science Team
+Author-email: datascience@hipagesgroup.com.au
+License: osl-3.0
+Platform: UNKNOWN
+Requires-Python: ~=3.6
+Requires-Dist: boto3 (==1.9.206)
+
+UNKNOWN
+
+
