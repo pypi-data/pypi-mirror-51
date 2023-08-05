@@ -1,0 +1,15 @@
+ria_remote/__init__.py,sha256=RGuXL5pAgp0eTRb1QbzWts6SJeF5_oTQ43PB27_lwJI,123
+ria_remote/_version.py,sha256=BL0uu77PuYNoUsKCkNQgtDcvosJvuKFiUPHt78g__-E,495
+ria_remote/remote.py,sha256=d7o5M80OC41bp4w28HI7beFyzZSy-EXQDKN2Xu6uo8k,23772
+ria_remote/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ria_remote/tests/test_basics.py,sha256=mXFG4PSlb-F_uFZg9_60X_GBdQc3astZ_LyEo6ia7jo,6750
+ria_remote/tests/test_config.py,sha256=CvnryD7UlLZGYP6O4W1o-ejK0Rew9aGVjC9p9Wu4CAY,1673
+ria_remote/tests/test_git_remote.py,sha256=rcPJOrNYzvGjcZl-yHaZ9VNjFK-Fwzhs0hAtardtZb8,8601
+ria_remote/tests/test_gitannex.py,sha256=vwrdPWBUJvO1L0MUIWd3Q8JiDQo0XBQLa7v1hq454O0,906
+ria_remote/tests/utils.py,sha256=ezZG8qKdjBo2nv9RfKIat8qnlH1Y6nAGc3WdSyKtaes,3694
+ria_remote-0.4.data/scripts/git-annex-remote-ria,sha256=AiJw8S0aMqGdHdIvrLAQUikHoOFAPqHwZ_l0BhMU8xU,231
+ria_remote-0.4.dist-info/LICENSE,sha256=paKMPGvnNKuM1v0fKebw3h2ltiPTZ-dGNCkYK3uMlVE,1094
+ria_remote-0.4.dist-info/METADATA,sha256=0URsoV3yQ5R6lz8bYZjhYKneeQeXxgFOyPm2hIpl0lI,5962
+ria_remote-0.4.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+ria_remote-0.4.dist-info/top_level.txt,sha256=3rZY91VFP9unHOPv81fX4GstsgqqWbTEbB9lZtWS7jg,11
+ria_remote-0.4.dist-info/RECORD,,
