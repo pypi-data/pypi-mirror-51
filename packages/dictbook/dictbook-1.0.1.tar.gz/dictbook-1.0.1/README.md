@@ -1,0 +1,1 @@
+# get the ch meaning of the english word from iciba.com, then parse it to the local database

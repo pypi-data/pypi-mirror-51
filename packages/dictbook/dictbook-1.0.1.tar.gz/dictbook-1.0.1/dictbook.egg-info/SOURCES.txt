@@ -1,0 +1,12 @@
+README.md
+setup.py
+dictbook/__init__.py
+dictbook/clear_html.py
+dictbook/database.py
+dictbook/exceptions.py
+dictbook/test_word.py
+dictbook/word.py
+dictbook.egg-info/PKG-INFO
+dictbook.egg-info/SOURCES.txt
+dictbook.egg-info/dependency_links.txt
+dictbook.egg-info/top_level.txt
