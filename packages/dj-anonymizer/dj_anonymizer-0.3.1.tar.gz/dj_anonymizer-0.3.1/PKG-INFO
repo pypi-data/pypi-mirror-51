@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: dj_anonymizer
+Version: 0.3.1
+Summary: This project helps anonymize production database with fake data of any kind.
+Home-page: https://github.com/preply/dj_anonymizer
+Author: Tim Pagurets
+License: MIT
+Description: dj_anonymizer [![Build Status](https://travis-ci.com/preply/dj_anonymizer.svg?branch=master)](https://travis-ci.com/preply/dj_anonymizer) [![codecov.io](https://codecov.io/github/preply/dj_anonymizer/coverage.svg?branch=master)](https://codecov.io/github/preply/dj_anonymizer?branch=master) [![PyPI version](https://badge.fury.io/py/dj-anonymizer.svg)](https://badge.fury.io/py/dj_anonymizer)
+        ==================================
+        dj_anonymizer requires Django 1.11 or greater and Python 2.7 or greater.
+        This project helps anonymize production database with fake data of any kind.
+        
+        dj_anonymizer uses [django-bulk-update](https://github.com/aykut/django-bulk-update) library for Django<2.2 to be able to process huge massive of data.
+        
+        Documentation
+        ==================================
+        [https://dj-anonymizer.readthedocs.io/en/latest/](https://dj-anonymizer.readthedocs.io/en/latest/)
+        
+Keywords: django,data,database,anonymization,dj-anonymizer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Topic :: Database
+Description-Content-Type: text/markdown
+Provides-Extra: bulk
