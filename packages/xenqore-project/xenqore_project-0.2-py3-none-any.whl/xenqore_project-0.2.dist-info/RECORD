@@ -1,0 +1,10 @@
+xenqore/__init__.py,sha256=s36TEksScHzmsUXXeS4hf8EEZuTZJ4ROSlmEmZrWPTY,1879
+xenqore/apps.py,sha256=OR0RuWAsusni5AMozATYU5FSM4picqk8qH5rcrbWsxM,13253
+xenqore/device.py,sha256=8_2VqgZ6r6vsh-ilxlj0tN6BaGf1b_lsREuDSfifVbw,5053
+xenqore/layers.py,sha256=_pGiF9S-3eJpNbmhRrNqL14XLIwuBBGU93KU6a2n06s,14889
+xenqore/math.py,sha256=ni-ImOSCOPViMZbXGmVxCXxipHblcf4nRcivlgylOlU,1904
+xenqore/utils.py,sha256=wYhq1zO9sXs9CkVLKIXh5NrXTLGKPtky4dpdl_jv2GM,3234
+xenqore_project-0.2.dist-info/METADATA,sha256=OLG81aB3r0fo8ZaEFjdJQSoNhVZWk71YTX1d8nYFQ2Q,681
+xenqore_project-0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+xenqore_project-0.2.dist-info/top_level.txt,sha256=G4mUmDX_vgcoXV9m4Zhg37ZouwKNk5-s1zcjypM1t2I,8
+xenqore_project-0.2.dist-info/RECORD,,
