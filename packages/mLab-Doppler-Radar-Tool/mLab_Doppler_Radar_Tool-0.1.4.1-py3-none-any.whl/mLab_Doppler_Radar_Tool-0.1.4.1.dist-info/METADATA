@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mLab-Doppler-Radar-Tool
+Version: 0.1.4.1
+Summary: mLab Doppler Radar UART tool and example code
+Home-page: UNKNOWN
+Author: Alex Kuan
+Author-email: agathakuannew@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: pyserial
+Requires-Dist: pyqtgraph
+Requires-Dist: opencv-python
+
+UNKNOWN
+
+
