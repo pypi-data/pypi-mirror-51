@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+datafilter/__init__.py
+datafilter/base.py
+datafilter/config.py
+datafilter/filters.py
+datafilter/mixins.py
+datafilter.egg-info/PKG-INFO
+datafilter.egg-info/SOURCES.txt
+datafilter.egg-info/dependency_links.txt
+datafilter.egg-info/not-zip-safe
+datafilter.egg-info/top_level.txt
