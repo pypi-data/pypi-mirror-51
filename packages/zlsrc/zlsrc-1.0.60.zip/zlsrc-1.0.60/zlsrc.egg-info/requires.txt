@@ -1,0 +1,21 @@
+pandas >= 0.13
+beautifulsoup4>=4.6.3
+cx-Oracle
+numpy
+psycopg2-binary
+selenium
+xlsxwriter
+xlrd
+requests
+lxml
+sqlalchemy
+pymssql
+jieba
+mysqlclient
+pymssql
+lmf>=2.0.6
+lmfscrap>=1.1.2
+zlhawq>=1.8.3
+zltask>=1.2.37
+opencv-python
+scikit-learn
