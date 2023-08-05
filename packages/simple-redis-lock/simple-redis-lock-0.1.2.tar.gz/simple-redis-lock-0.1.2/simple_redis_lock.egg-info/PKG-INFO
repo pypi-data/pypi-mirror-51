@@ -1,0 +1,34 @@
+Metadata-Version: 1.0
+Name: simple-redis-lock
+Version: 0.1.2
+Summary: A simple redis lock.
+Home-page: https://github.com/codeif/simple-redis-lock
+Author: codeif
+Author-email: me@codeif.com
+License: MIT
+Description: A simple redis lock.
+        =========================
+        
+        Installation
+        ---------------
+        
+        .. code-block:: sh
+        
+            pip install simple-redis-lock
+        
+        
+        Usage
+        -------
+        
+        .. code-block:: py
+        
+            from simple_redis_lock import get_simple_lock
+            import your_redis_client
+        
+            with get_imple_lock(your_redis_client, 'my_lock_name', ex=30) as lock:
+                if lock:
+                    print('get the lock, and do something, finish release the lock')
+                else:
+                    print('do not get lock, return')
+        
+Platform: UNKNOWN
