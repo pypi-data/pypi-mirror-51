@@ -1,0 +1,16 @@
+parallax/__init__.py,sha256=gG_lN-cnLRIQ6PPP7Azwwwkk2Dq_zLAAhPNuOitFnmc,11916
+parallax/askpass_client.py,sha256=mINwwvKkrgXeiIy3i3cgBRTp_ZwLGGOvOBcOKTtqtF4,3683
+parallax/askpass_server.py,sha256=PU7YyFP4ctZOdGfpCzAySQTLvT2UqP87NW6dIs_D5wA,3026
+parallax/callbacks.py,sha256=TAgLF2dFlJTmYuF1MFDRVfSHE3YRjoA0jMf8RfiMLEc,2200
+parallax/color.py,sha256=eDc8KQyqWSLKFMQF-_N8ocuj_Omxw576Hcas_T1OVuY,1426
+parallax/manager.py,sha256=ha0Ivhix35YTvlnDTcRM1KT9OdD9I2Bvw7IYAr4kQDI,14995
+parallax/psshutil.py,sha256=NIs2NVxOUchaA50E899SbeXMlUzv7S9JVXgzAr_-8hM,4018
+parallax/task.py,sha256=YZwp2tfwkR0eVRatX-BUMa1zNn6rxL5MZXDIy8Co39o,9293
+parallax/version.py,sha256=_Aq_k2wMynEoatH1qItrby2V5xy3i9zaiQa8QepxGfs,18
+parallax-1.0.5.data/scripts/parallax-askpass,sha256=HEFM_hy4lHqp5x3JWWLGzUgrFFivaN_gO16g0kHNpmU,259
+parallax-1.0.5.dist-info/AUTHORS,sha256=9g7ojMZg49hEEPJspFnPdZEGWPVJJQC9b9O3oK70QQc,152
+parallax-1.0.5.dist-info/COPYING,sha256=-v0_gpAW3fHnKRakALenddjed5LfdAPrY5SmP4p3TnU,1527
+parallax-1.0.5.dist-info/METADATA,sha256=Nf1tgADONEe1attZFlyPoFHwX2Bul7o0fr0tDebiQEI,1381
+parallax-1.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+parallax-1.0.5.dist-info/top_level.txt,sha256=ehIZU--5JftNc2EEBFK763PV1j5rUG2ptLzXz5dfF8o,9
+parallax-1.0.5.dist-info/RECORD,,
