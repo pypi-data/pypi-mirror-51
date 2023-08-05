@@ -1,0 +1,7 @@
+README.md
+setup.py
+DetectorColor.egg-info/PKG-INFO
+DetectorColor.egg-info/SOURCES.txt
+DetectorColor.egg-info/dependency_links.txt
+DetectorColor.egg-info/top_level.txt
+app/__init__.py

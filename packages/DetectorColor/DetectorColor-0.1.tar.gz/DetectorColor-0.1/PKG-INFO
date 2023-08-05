@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: DetectorColor
+Version: 0.1
+Summary: Este modulo nos permite detectar colores, mediante el uso de la camara y imagenes
+Home-page: https://gitlab.com/sebastianrza/detector-de-color
+Author: Sebastian Zambrano, David Diaz, Rey de la Rosa, Bertilio Gonzales, Yorlenis Arroyo
+Author-email: Sebastianrza@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
