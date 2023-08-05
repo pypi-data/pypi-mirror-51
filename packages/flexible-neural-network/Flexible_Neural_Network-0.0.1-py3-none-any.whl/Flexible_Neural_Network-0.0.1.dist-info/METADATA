@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Flexible-Neural-Network
+Version: 0.0.1
+Summary: A simple and flexible python library that allows you to build custom Neural Networks where you can easily tweak parameters to change how your network behaves
+Home-page: https://github.com/Mohamed-512/Flexible_Neural_Net
+Author: Mohamed Abdou
+Author-email: matex512@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
