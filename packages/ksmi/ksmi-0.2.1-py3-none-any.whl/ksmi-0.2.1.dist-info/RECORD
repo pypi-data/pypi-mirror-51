@@ -1,0 +1,10 @@
+ksmi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ksmi/__main__.py,sha256=EejcBCdCvb-_RMuyaXoG-2X2gL_cKNJ-CBXww_vzxHM,43
+ksmi/add_env.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ksmi/copy_id.py,sha256=6OhdKvAIqp7nuVkEBMy7T-cER_RMfPCIe_lumJiJcrQ,1775
+ksmi/kairos_smi.py,sha256=Aj7jAFLxRehCopZvVtK4TnEWpCJKAytEzR2g8tAdgFU,3757
+ksmi-0.2.1.dist-info/LICENSE,sha256=LpEQTwUxR7ZXKK2vfClISAEgLNEIfvixrNESDyDOY2U,1069
+ksmi-0.2.1.dist-info/METADATA,sha256=78BApyB2TWH5q9O7oetS-u4lP6mCZiJlUzwxVuj4Bqg,2513
+ksmi-0.2.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ksmi-0.2.1.dist-info/top_level.txt,sha256=pjmNVdNdYdV3WKqzOp31HRwfpaHB35FB2PCORSDX2sg,5
+ksmi-0.2.1.dist-info/RECORD,,
