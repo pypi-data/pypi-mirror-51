@@ -1,0 +1,13 @@
+build/
+dist/
+.eggs/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+result_images/
+.DS_Store
+*.pyc
+*.so
+*.swp
+.python-version
+.vscode
