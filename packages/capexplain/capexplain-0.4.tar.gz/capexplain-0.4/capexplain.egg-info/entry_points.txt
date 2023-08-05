@@ -1,0 +1,4 @@
+[console_scripts]
+capegui = capexplain.gui.Cape_GUI:main
+capexplain = capexplain.cape:main
+
