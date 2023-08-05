@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+mlvis/__init__.py
+mlvis/widget.py
+mlvis/widget_builder.py
+mlvis.egg-info/PKG-INFO
+mlvis.egg-info/SOURCES.txt
+mlvis.egg-info/dependency_links.txt
+mlvis.egg-info/not-zip-safe
+mlvis.egg-info/requires.txt
+mlvis.egg-info/top_level.txt
+mlvis/static/extension.js
+mlvis/static/index.js
+mlvis/static/index.js.map
