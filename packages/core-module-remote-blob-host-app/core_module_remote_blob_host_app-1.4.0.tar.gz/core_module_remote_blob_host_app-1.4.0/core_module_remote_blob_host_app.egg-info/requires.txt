@@ -1,0 +1,4 @@
+Django==1.11.23
+core-main-app==1.4.0
+core-parser-app==1.4.0
+core-module-blob-host-app==1.4.0
