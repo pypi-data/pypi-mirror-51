@@ -1,0 +1,3 @@
+[console_scripts]
+fuga = fuga.cli:main
+
