@@ -1,0 +1,6 @@
+setup.py
+frida_util.egg-info/PKG-INFO
+frida_util.egg-info/SOURCES.txt
+frida_util.egg-info/dependency_links.txt
+frida_util.egg-info/requires.txt
+frida_util.egg-info/top_level.txt
