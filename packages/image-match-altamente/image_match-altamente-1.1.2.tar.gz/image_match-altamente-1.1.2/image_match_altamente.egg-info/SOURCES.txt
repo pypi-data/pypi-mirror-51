@@ -1,0 +1,17 @@
+README.md
+setup.py
+image_match/__init__.py
+image_match/elasticsearch_driver.py
+image_match/goldberg.py
+image_match/mongodb_driver.py
+image_match/signature_database_base.py
+image_match_altamente.egg-info/PKG-INFO
+image_match_altamente.egg-info/SOURCES.txt
+image_match_altamente.egg-info/dependency_links.txt
+image_match_altamente.egg-info/requires.txt
+image_match_altamente.egg-info/top_level.txt
+image_match_altamente.egg-info/zip-safe
+tests/__init__.py
+tests/test_elasticsearch_driver.py
+tests/test_elasticsearch_driver_metadata_as_nested.py
+tests/test_goldberg.py
