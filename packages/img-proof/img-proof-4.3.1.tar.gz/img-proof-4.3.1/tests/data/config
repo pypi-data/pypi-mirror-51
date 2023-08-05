@@ -1,0 +1,8 @@
+[img_proof]
+test_dirs = tests/data/tests
+
+[azure]
+region = West US
+
+[ec2]
+region = us-west-1
