@@ -1,0 +1,8 @@
+canal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canal/client.py,sha256=N8kKaUNz3h54SG8t00ivoTwWLR-op7P_LXdvSTd41T0,7337
+canal/connector.py,sha256=ghlB-XDq2xqB33VfWMSFZBdenwhrghjBRQEhyj-PjvE,1278
+canal/example.py,sha256=VjJEdPxElo_gxaCix1_rCUKJRDgqniPTng5Wz0DTsMo,1870
+canal_python-0.1.dist-info/METADATA,sha256=pBn8ypkfoprmny3gUL9CSlaPfheZsuY6N_gWtS6BlOw,216
+canal_python-0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+canal_python-0.1.dist-info/top_level.txt,sha256=Xbub908Gstr2jzqUJ8FrYb7JYCQtdDwR5QYVwk-lcZo,6
+canal_python-0.1.dist-info/RECORD,,
