@@ -1,0 +1,3 @@
+[console_scripts]
+delineate-io = console:cli
+
