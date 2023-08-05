@@ -1,0 +1,19 @@
+graft docs
+graft src
+prune ci
+prune tests
+
+exclude .bumpversion.cfg
+exclude .coveragerc
+exclude .cookiecutterrc
+exclude .editorconfig
+
+include AUTHORS.rst
+include CHANGELOG.rst
+include CONTRIBUTING.rst
+include LICENSE
+include README.rst
+
+exclude tox.ini .travis.yml
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib

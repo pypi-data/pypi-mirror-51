@@ -1,0 +1,5 @@
+requests>=2.22.0
+attrs>=19.1.0
+
+[pandas]
+pandas>=0.25.0
