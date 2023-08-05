@@ -1,0 +1,411 @@
+Metadata-Version: 1.0
+Name: chroma-feedback
+Version: 5.0.1
+Summary: Turn your RGB powered hardware into an extreme feedback device for continuous integration
+Home-page: https://github.com/redaxmedia/chroma-feedback
+Author: Henry Ruhs
+Author-email: info@redaxmedia.com
+License: GPL-3.0
+Description: Chroma Feedback
+        ===============
+        
+            Turn your RGB powered hardware into an extreme feedback device for
+            continuous integration.
+        
+        |Build Status Travis| |Build Status AppVeyor| |Build Status Circle|
+        |Coverage Status| |PyPI| |License|
+        
+        Preview
+        -------
+        
+        .. figure:: https://cdn.rawgit.com/redaxmedia/media/master/chroma-feedback/terminal-session.svg
+           :alt: Terminal Session
+        
+           Terminal Session
+        
+        Installation
+        ------------
+        
+        Install Chroma Feedback:
+        
+        ::
+        
+            pip3 install chroma-feedback
+        
+        Install ``openrazer-meta`` for Razer Chroma:
+        
+        ::
+        
+            add-apt-repository ppa:openrazer/stable
+            apt-get update
+        
+        ::
+        
+            apt install openrazer-meta
+        
+        Install ``libusb-dev`` and ``libudev-dev`` for ThingM Blink:
+        
+        ::
+        
+            apt-get install libusb-dev libudev-dev
+        
+        Usage
+        -----
+        
+        Combine providers and consumers as needed:
+        
+        ::
+        
+            chroma-feedback [options]
+        
+            -V, --version
+            -P, --provider <provider>
+            -C, --consumer <consumer>
+            -I, --background-interval <background-interval>
+            -B, --background-run
+            -D, --dry-run
+            -h, --help
+        
+        Consumers
+        =========
+        
+        Lifx Light
+        ----------
+        
+        +---------+-------------+
+        | Name    | Mandatory   |
+        +=========+=============+
+        | Light   | optional    |
+        +---------+-------------+
+        | Group   | optional    |
+        +---------+-------------+
+        
+        Indicate status via lights:
+        
+        ::
+        
+            chroma-feedback --consumer=lifx_light
+        
+            --lifx-light-light <light-name>
+        
+        Indicate status via groups:
+        
+        ::
+        
+            chroma-feedback --consumer=lifx_light
+        
+            --lifx-light-group <group-name>
+        
+        Philips Hue
+        -----------
+        
+        +---------+-------------+
+        | Name    | Mandatory   |
+        +=========+=============+
+        | IP      | optional    |
+        +---------+-------------+
+        | Light   | optional    |
+        +---------+-------------+
+        | Group   | optional    |
+        +---------+-------------+
+        
+        Indicate status via lights:
+        
+        ::
+        
+            chroma-feedback --consumer=philips_hue
+        
+            --philips-hue-light <light-name>
+        
+        Indicate status via groups:
+        
+        ::
+        
+            chroma-feedback --consumer=philips_hue
+        
+            --philips-hue-group <group-name>
+        
+        Razer Chroma
+        ------------
+        
+        +----------+-------------+
+        | Name     | Mandatory   |
+        +==========+=============+
+        | Device   | optional    |
+        +----------+-------------+
+        
+        Indicate status via devices:
+        
+        ::
+        
+            chroma-feedback --consumer=razer_chroma
+        
+            --razer-chrome-device <device-name>
+        
+        ThingM Blink
+        ------------
+        
+        +----------+-------------+
+        | Name     | Mandatory   |
+        +==========+=============+
+        | Device   | optional    |
+        +----------+-------------+
+        
+        Indicate status via devices:
+        
+        ::
+        
+            chroma-feedback --consumer=thingm_blink
+        
+            --thingm-blink-device <device-serial>
+        
+        Xiaomi Yeelight
+        ---------------
+        
+        +--------+-------------+
+        | Name   | Mandatory   |
+        +========+=============+
+        | IP     | optional    |
+        +--------+-------------+
+        
+        Indicate status via lights:
+        
+        ::
+        
+            chroma-feedback --consumer=xiaomi_yeelight
+        
+        Providers
+        =========
+        
+        AppVeyor
+        --------
+        
+        +---------+---------------------------+-------------+
+        | Name    | Default                   | Mandatory   |
+        +=========+===========================+=============+
+        | Host    | https://ci.appveyor.com   | optional    |
+        +---------+---------------------------+-------------+
+        | Slug    |                           | optional    |
+        +---------+---------------------------+-------------+
+        | Token   |                           | optional    |
+        +---------+---------------------------+-------------+
+        
+        Monitor a single project:
+        
+        ::
+        
+            chroma-feedback --provider=appveyor
+        
+            --appveyor-slug <username/repository>
+        
+        Monitor multiple projects:
+        
+        ::
+        
+            chroma-feedback --provider=appveyor
+        
+            --appveyor-token <token>
+        
+        Circle
+        ------
+        
+        +---------+------------------------+-------------+
+        | Name    | Default                | Mandatory   |
+        +=========+========================+=============+
+        | Host    | https://circleci.com   | optional    |
+        +---------+------------------------+-------------+
+        | Slug    |                        | optional    |
+        +---------+------------------------+-------------+
+        | Token   |                        | optional    |
+        +---------+------------------------+-------------+
+        
+        Monitor a single project:
+        
+        ::
+        
+            chroma-feedback --provider=circle
+        
+            --circle-slug <username/repository>
+        
+        Monitor multiple projects:
+        
+        ::
+        
+            chroma-feedback --provider=circle
+        
+            --circle-token <token>
+        
+        GitHub
+        ------
+        
+        +------------+--------------------------+-------------+
+        | Name       | Default                  | Mandatory   |
+        +============+==========================+=============+
+        | Host       | https://api.github.com   | optional    |
+        +------------+--------------------------+-------------+
+        | Slug       |                          | required    |
+        +------------+--------------------------+-------------+
+        | Username   |                          | required    |
+        +------------+--------------------------+-------------+
+        | Token      |                          | required    |
+        +------------+--------------------------+-------------+
+        
+        Monitor a single project:
+        
+        ::
+        
+            chroma-feedback --provider=github
+        
+            --github-slug <username/repository>
+            --github-username <username>
+            --github-token <token>
+        
+        Monitor multiple projects:
+        
+        ::
+        
+            chroma-feedback --provider=github
+        
+            --github-slug <username/repository>
+            --github-slug <username/repository>
+            --github-username <username>
+            --github-token <token>
+        
+        GitLab
+        ------
+        
+        +---------+----------------------+-------------+
+        | Name    | Default              | Mandatory   |
+        +=========+======================+=============+
+        | Host    | https://gitlab.com   | optional    |
+        +---------+----------------------+-------------+
+        | Slug    |                      | required    |
+        +---------+----------------------+-------------+
+        | Token   |                      | required    |
+        +---------+----------------------+-------------+
+        
+        Monitor a single project:
+        
+        ::
+        
+            chroma-feedback --provider=gitlab
+        
+            --gitlab-slug <project-id>
+            --gitlab-token <token>
+        
+        Monitor multiple projects:
+        
+        ::
+        
+            chroma-feedback --provider=gitlab
+        
+            --gitlab-slug <project-id>
+            --gitlab-slug <project-id>
+            --gitlab-token <token>
+        
+        Jenkins
+        -------
+        
+        +--------+-------------+
+        | Name   | Mandatory   |
+        +========+=============+
+        | Host   | required    |
+        +--------+-------------+
+        | Slug   | required    |
+        +--------+-------------+
+        
+        Monitor a single project:
+        
+        ::
+        
+            chroma-feedback --provider=jenkins
+        
+            --jenkins-host <host>
+            --jenkins-slug <job>
+        
+        Monitor multiple projects:
+        
+        ::
+        
+            chroma-feedback --provider=jenkins
+        
+            --jenkins-host <host>
+            --jenkins-slug <job>
+            --jenkins-slug <job>
+        
+        TeamCity
+        --------
+        
+        +------------+----------------------------------+-------------+
+        | Name       | Default                          | Mandatory   |
+        +============+==================================+=============+
+        | Host       | https://teamcity.jetbrains.com   | optional    |
+        +------------+----------------------------------+-------------+
+        | Slug       |                                  | optional    |
+        +------------+----------------------------------+-------------+
+        | Username   |                                  | required    |
+        +------------+----------------------------------+-------------+
+        | Password   |                                  | required    |
+        +------------+----------------------------------+-------------+
+        
+        Monitor a single project:
+        
+        ::
+        
+            chroma-feedback --provider=teamcity
+        
+            --teamcity-slug <project-id>
+            --teamcity-username <username>
+            --teamcity-password <password>
+        
+        Monitor multiple projects:
+        
+        ::
+        
+            chroma-feedback --provider=teamcity
+        
+            --teamcity-username <username>
+            --teamcity-password <password>
+        
+        Travis
+        ------
+        
+        +--------+-----------------------------+-------------+
+        | Name   | Default                     | Mandatory   |
+        +========+=============================+=============+
+        | Host   | https://api.travis-ci.org   | optional    |
+        +--------+-----------------------------+-------------+
+        | Slug   |                             | required    |
+        +--------+-----------------------------+-------------+
+        
+        Monitor a single project:
+        
+        ::
+        
+            chroma-feedback --provider=travis
+        
+            --travis-slug <username/repository>
+        
+        Monitor multiple projects:
+        
+        ::
+        
+            chroma-feedback --provider=travis
+        
+            --travis-slug <username>
+        
+        .. |Build Status Travis| image:: https://img.shields.io/travis/redaxmedia/chroma-feedback.svg
+           :target: https://travis-ci.org/redaxmedia/chroma-feedback
+        .. |Build Status AppVeyor| image:: https://img.shields.io/appveyor/ci/redaxmedia/chroma-feedback.svg
+           :target: https://ci.appveyor.com/project/redaxmedia/chroma-feedback
+        .. |Build Status Circle| image:: https://img.shields.io/circleci/project/github/redaxmedia/chroma-feedback.svg
+           :target: https://circleci.com/gh/redaxmedia/chroma-feedback
+        .. |Coverage Status| image:: https://img.shields.io/coveralls/redaxmedia/chroma-feedback.svg
+           :target: https://coveralls.io/r/redaxmedia/chroma-feedback
+        .. |PyPI| image:: https://img.shields.io/pypi/v/chroma-feedback.svg
+           :target: https://pypi.org/project/chroma-feedback
+        .. |License| image:: https://img.shields.io/pypi/l/chroma-feedback.svg
+           :target: https://pypi.org/project/chroma-feedback
+        
+Keywords: appveyor circle github gitlab jenkins teamcity travis ci notification indication
+Platform: UNKNOWN
