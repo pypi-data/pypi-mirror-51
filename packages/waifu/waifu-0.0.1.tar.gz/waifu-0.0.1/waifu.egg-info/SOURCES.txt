@@ -1,0 +1,9 @@
+README.md
+setup.py
+waifu/__init__.py
+waifu.egg-info/PKG-INFO
+waifu.egg-info/SOURCES.txt
+waifu.egg-info/dependency_links.txt
+waifu.egg-info/entry_points.txt
+waifu.egg-info/not-zip-safe
+waifu.egg-info/top_level.txt
