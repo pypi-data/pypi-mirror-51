@@ -1,0 +1,15 @@
+
+[ci]
+flake8
+pep257
+pylint
+tox
+
+[test]
+beautifulsoup4
+coverage<5
+decorator
+pytest
+pytest-cov
+docutils
+pelican
