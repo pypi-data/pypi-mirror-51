@@ -1,0 +1,6 @@
+[vaex.dataframe.accessor]
+astro = vaex.astro.transformations:DataFrameAccessorAstro
+
+[vaex.plugin]
+astro = vaex.astro.legacy:add_plugin
+
