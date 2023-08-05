@@ -1,0 +1,63 @@
+body {
+    background: #5897fb url("images/background.jpg") repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+a, a:visited, a:active, a:hover, a:focus {
+    color: #f6f6f6;
+    outline: none;
+}
+
+input[value="Vote"] {
+    font-size: 85%;
+}
+
+label {
+    font-size: 120%;
+}
+
+li a, .littleLarge {
+    font-size: larger;
+}
+.globalContainer {
+    text-align: center;
+}
+
+.formContainer {
+    display: inline-block;
+    text-align: left;
+}
+
+.globalContainer h1 {
+    color: #f5dd5d; /*#efefef*/
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.formContainer input[value="Vote"], .again {
+    display:block;
+    margin:0 auto;
+}​
+
+.formContainer input[name="choice"], li {
+    margin-bottom: 10px;
+}
+
+.again {
+    font-size: 130%;
+    color: #efefef;
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 100%;
+  }
+  li a, .littleLarge {
+    font-size: 100%;
+  }
+}
