@@ -1,0 +1,8 @@
+asm_cli/__init__.py,sha256=S93CMXLTm_S_kSnJ5M09CeF51Ac8GbX7KL14vGA9TrE,420
+asm_cli/asm.py,sha256=JQqMnlDCdegBlhhWgvu8f4ktVAw5LBuR30pyJcFClzc,21978
+asm_cli/clparser.py,sha256=XkFnFD5P-C9K9xsrtGG2pxd_j8flUoQjT_InacWSgus,16534
+asm_cli-0.0.20.data/data/README/README.md,sha256=ixX18c8X13f7ZCuFt_0xzrzpvMV1XlK3Qjr6G2EdFvY,309
+asm_cli-0.0.20.dist-info/METADATA,sha256=bEQHpcgaPG-g6ci6St7x7uayiD2tfNIfIBnbwDGjs6E,747
+asm_cli-0.0.20.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+asm_cli-0.0.20.dist-info/top_level.txt,sha256=MqbiwV877kYP0tgmsdHBkGJ-Vwf3Pf7-Qo4uAwKL1PY,46
+asm_cli-0.0.20.dist-info/RECORD,,
