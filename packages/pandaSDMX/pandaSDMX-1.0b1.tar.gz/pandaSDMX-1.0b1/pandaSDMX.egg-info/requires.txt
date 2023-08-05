@@ -1,0 +1,17 @@
+lxml>=3.6
+pandas>=0.20
+pydantic>=0.31
+requests>=2.7
+setuptools>19
+
+[cache]
+requests_cache
+
+[docs]
+ipython
+sphinx>=1.5
+
+[tests]
+pytest-remotedata>=0.3.1
+pytest>=3.3
+requests-mock>=1.4
