@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+dvc_ml/__init__.py
+dvc_ml.egg-info/PKG-INFO
+dvc_ml.egg-info/SOURCES.txt
+dvc_ml.egg-info/dependency_links.txt
+dvc_ml.egg-info/requires.txt
+dvc_ml.egg-info/top_level.txt
+dvc_ml/compare_data/__init__.py
+dvc_ml/compare_data/compare_data.py

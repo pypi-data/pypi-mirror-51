@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dvc-ml
+Version: 0.1
+Summary: Data Validation and Version Control
+Home-page: https://github.com/EricSchles/dvc_ml
+Author: Eric Schles
+Author-email: ericschles@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
