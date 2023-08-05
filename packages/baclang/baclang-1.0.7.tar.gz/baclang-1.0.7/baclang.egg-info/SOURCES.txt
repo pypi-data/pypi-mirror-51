@@ -1,0 +1,5 @@
+setup.py
+baclang.egg-info/PKG-INFO
+baclang.egg-info/SOURCES.txt
+baclang.egg-info/dependency_links.txt
+baclang.egg-info/top_level.txt
