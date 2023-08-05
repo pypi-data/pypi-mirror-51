@@ -1,0 +1,11 @@
+gitlab_changelog_gen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitlab_changelog_gen/changelog.py,sha256=YooC1hHC_Zkyp3UuNLvBVdoz7S6jlG5biSqdBkopUIk,3263
+gitlab_changelog_gen/cmd.py,sha256=Fn-lMFseEk_ZJAuZZfI7UzArxup3H7VM2qL3jFsiw5w,896
+gitlab_changelog_gen/config.py,sha256=aZkvE5qyW7YuzUcQ76Oe4O26yOT6bCEyk1HQRCk2Sps,1731
+gitlab_changelog_gen/generator.py,sha256=WmFsZmhPJ6Oli5pa8GemsN6ozBGnv4EOqizGcpXtR0g,3384
+gitlab_changelog_gen-0.0.3.dist-info/LICENSE,sha256=76paMQFGdgxCCye3_kri7_-CgpY2TPJvmn1gbXl_FIg,1064
+gitlab_changelog_gen-0.0.3.dist-info/METADATA,sha256=qIcxoWMIbqTsAPgeHrowA8KLGEJe7D0IB5XSwIqhXIw,2456
+gitlab_changelog_gen-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+gitlab_changelog_gen-0.0.3.dist-info/entry_points.txt,sha256=M8_6rP7cmEQZOEW80041QLDHTN44n_K6cXhvmcdO0qo,59
+gitlab_changelog_gen-0.0.3.dist-info/top_level.txt,sha256=hevo-EpwMNasVAVAC5YPidIgYj9cXAq0ueSp9qRm66E,21
+gitlab_changelog_gen-0.0.3.dist-info/RECORD,,
