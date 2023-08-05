@@ -1,0 +1,12 @@
+README.md
+setup.py
+castep_parse/__init__.py
+castep_parse/_version.py
+castep_parse/readers.py
+castep_parse/utils.py
+castep_parse/writers.py
+castep_parse.egg-info/PKG-INFO
+castep_parse.egg-info/SOURCES.txt
+castep_parse.egg-info/dependency_links.txt
+castep_parse.egg-info/requires.txt
+castep_parse.egg-info/top_level.txt

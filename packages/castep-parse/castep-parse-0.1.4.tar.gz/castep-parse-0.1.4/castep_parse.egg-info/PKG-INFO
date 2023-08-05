@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: castep-parse
+Version: 0.1.4
+Summary: Input file writers and output file parsers for the density functional theory code CASTEP.
+Home-page: UNKNOWN
+Author: Adam J. Plowman
+Author-email: adam.plowman@manchester.ac.uk
+License: UNKNOWN
+Project-URL: Github, https://github.com/aplowman/castep-parse
+Description: [![PyPI version](https://badge.fury.io/py/castep-parse.svg)](https://badge.fury.io/py/castep-parse)
+        
+        # castep-parse
+        Input file writers and output file readers for the density functional theory code CASTEP.
+        
+        ## Installation
+        
+        `pip install castep-parse`
+        
+        ## Notes
+        
+        This code has generally been used for `task=singlepoint` and `task=geometryoptimisation` simulations. Consequently, input and output files associated with other simulation types are not yet supported.
+        
+        ## Functionality
+        
+        ### Readers:
+        
+        - ✅ `read_castep_file`
+        - ️✅ `read_geom_file`
+        - ✅ `read_cell_file`
+        - ✅ `read_output_files`
+        
+        ### Writers:
+        
+        - ✅ `write_cell_file`
+        - ✅ `write_input_files`
+        
+        ### Utilities:
+        
+        - ✅ `map_species_to_castep`
+        - ✅ `get_castep_cell_constraints`
+        
+        ## Examples
+        
+        ### Do something useful
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
