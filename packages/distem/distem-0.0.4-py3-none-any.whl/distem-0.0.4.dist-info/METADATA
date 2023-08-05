@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: distem
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: https://gitlab.inria.fr/myriads-team/python-distem
+Author: Olivo Romain
+Author-email: olivo.romain@laposte.net
+License: UNKNOWN
+Keywords: Grid'5000,testing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests[socks]
+
+python-distem
+-------------
+
+
+see https://myriads-team.gitlabpages.inria.fr/python-distem
+
+
