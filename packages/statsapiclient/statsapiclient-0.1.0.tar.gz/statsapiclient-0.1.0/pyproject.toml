@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "statsapiclient"
+version = "0.1.0"
+description = ""
+homepage="https://github.com/hockeymonkeys/statsapiclient"
+repository="git@github.com:hockeymonkeys/statsapiclient.git"
+documentation="https://github.com/hockeymonkeys/statsapiclient#README.rst"
+license="MPL-2.0"
+authors = ["Brett LaBombarda <bplabombarda@gmail.com>"]
+readme = "README.rst"
+keywords = ["nhl", "hockey"]
+classifiers = [
+    "Environment :: Web",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: API Wrapper",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Hockey Data",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyter = "^1.0"
+jupyterthemes = "^0.20.0"
+requests = "^2.21"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+pdoc3 = "^0.6.3"
+pylint = "^2.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
