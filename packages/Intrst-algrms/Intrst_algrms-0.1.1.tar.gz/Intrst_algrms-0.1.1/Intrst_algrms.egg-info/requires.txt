@@ -1,0 +1,6 @@
+Cython
+iteration-utilities
+line-profiler
+matplotlib
+memory-profiler
+more-itertools
