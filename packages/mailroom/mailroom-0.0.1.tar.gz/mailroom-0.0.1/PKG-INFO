@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mailroom
+Version: 0.0.1
+Summary: Toolkit to generate & distribute html email reports
+Home-page: https://github.com/MikeStrenk/mailroom
+Author: Michael Strenk
+License: UNKNOWN
+Description: # mailroom
+        Toolkit to generate &amp; distribute html email reports
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

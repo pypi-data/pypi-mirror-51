@@ -1,0 +1,11 @@
+README.md
+setup.py
+mailroom/__init__.py
+mailroom/email_client.py
+mailroom/report_utils.py
+mailroom.egg-info/PKG-INFO
+mailroom.egg-info/SOURCES.txt
+mailroom.egg-info/dependency_links.txt
+mailroom.egg-info/requires.txt
+mailroom.egg-info/top_level.txt
+tests/__init__.py
