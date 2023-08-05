@@ -1,0 +1,4 @@
+[console_scripts]
+bidir = annotate:bidir
+expand = annotate:expand
+
