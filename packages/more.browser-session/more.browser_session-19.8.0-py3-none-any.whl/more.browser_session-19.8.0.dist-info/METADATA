@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: more.browser-session
+Version: 19.8.0
+Summary: Session support for Morepath applications
+Home-page: https://github.com/dpausp/more.browser_session
+Author: Tobias dpausp and Pyramid contributors
+Author-email: dpausp@posteo.de
+License: BSD
+Keywords: morepath,session,web,http
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: itsdangerous (>=0.21)
+Requires-Dist: morepath (>=0.18)
+Requires-Dist: werkzeug (>=0.9)
+
+more.browser_session
+====================
+
+WARNING: This is an early version that works for me. Please don't rely on it ;)
+
+Implements (HTTP, browser) session support for Morepath applications based on cookies signed by itsdangerous.
+Most code is taken from the Flask project.
+
+The session data is signed, not encrypted! Don't store sensitive data in the session!
+Support for encryption will be added soon.
+
+
