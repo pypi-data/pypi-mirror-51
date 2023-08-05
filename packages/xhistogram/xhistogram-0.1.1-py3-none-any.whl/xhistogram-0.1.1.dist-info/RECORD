@@ -1,0 +1,16 @@
+xhistogram/__init__.py,sha256=Pw849BCIoK8wb6fn7N97sJcluD9pxSDv-qW4P91KKRg,122
+xhistogram/_version.py,sha256=-bXgR38Ej7NwD5D5JBHDElQtC2NYexdIy6E975Q4nvo,497
+xhistogram/core.py,sha256=a-tyU0GArvpUm1t2MrCEJdJnd1r7RIb4wQu_nOsdFQY,9800
+xhistogram/duck_array_ops.py,sha256=uj2l9piqEVsg5P1hVsTUa7cU03AXKZRwdy5PwGAJfCY,2652
+xhistogram/xarray.py,sha256=DSYMMKfiP0ZyjQjhxndrNMVBdrKRKg0GSSaGTqFjqk4,6789
+xhistogram/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xhistogram/test/fixtures.py,sha256=XTJw_0RbbvM8qRB-n95uUeVn7Vo_cEe6snwJGlMj3n4,403
+xhistogram/test/test_core.py,sha256=ugOJYBCZLJRsXoFQ104xEjfcGQjbNdxwef5zM4ZZBaM,3948
+xhistogram/test/test_duck_array_ops.py,sha256=mQqenMR-1hszaUSD18bPTGe7qLGaRsCgiNq8UC11nRA,2238
+xhistogram/test/test_xarray.py,sha256=0qPPUVCt8YlXhSfzzNh-dgxxGqSnOkubytmq8eQqYeU,4856
+xhistogram-0.1.1.dist-info/DESCRIPTION.rst,sha256=aGTdFEffbn7jcY6vELMPPmsGK8UrVS486qk_pR6bfI4,1609
+xhistogram-0.1.1.dist-info/METADATA,sha256=KpOI_fFD3PrWXPxoYXuQJNDhSmvixdKdZ55NMM0ITEo,2370
+xhistogram-0.1.1.dist-info/RECORD,,
+xhistogram-0.1.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+xhistogram-0.1.1.dist-info/metadata.json,sha256=x46DmmcaWDko3HAiGQ-Tm2D0Yi4a_r552WHPyWYCJ0Q,909
+xhistogram-0.1.1.dist-info/top_level.txt,sha256=qw_H7yhC7xtTEeMRZ_3iC9sLtCw0A-y41_uTDbsYV-E,11
