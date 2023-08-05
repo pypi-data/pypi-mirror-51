@@ -1,0 +1,11 @@
+README.md
+setup.py
+vitality/__init__.py
+vitality/__main__.py
+vitality/presentation.py
+vitality.egg-info/PKG-INFO
+vitality.egg-info/SOURCES.txt
+vitality.egg-info/dependency_links.txt
+vitality.egg-info/entry_points.txt
+vitality.egg-info/requires.txt
+vitality.egg-info/top_level.txt
