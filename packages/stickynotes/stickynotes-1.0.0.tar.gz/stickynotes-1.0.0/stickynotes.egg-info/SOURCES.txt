@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+initsticky
+setup.py
+icons/bgcolor.png
+icons/color.png
+icons/decrease.png
+icons/increase.png
+icons/main.png
+icons/new.png
+sticky/__init__.py
+sticky/sticky.py
+stickynotes.egg-info/PKG-INFO
+stickynotes.egg-info/SOURCES.txt
+stickynotes.egg-info/dependency_links.txt
+stickynotes.egg-info/requires.txt
+stickynotes.egg-info/top_level.txt
