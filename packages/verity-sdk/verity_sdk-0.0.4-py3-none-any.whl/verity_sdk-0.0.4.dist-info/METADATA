@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: verity-sdk
+Version: 0.0.4
+Summary: The official Python SDK for Evernym's Verity
+Home-page: UNKNOWN
+Author: Evernym, Inc.
+Author-email: dev@evernym.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+# Verity SDK
+
+This is the official Python SDK for Evernym's Verity application. For more information about Evernym products, visit https://www.evernym.com/products/.
+
+
