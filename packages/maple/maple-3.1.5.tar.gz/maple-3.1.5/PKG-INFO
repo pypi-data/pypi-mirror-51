@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: maple
+Version: 3.1.5
+Summary: reliable, scalable, distributed server framework
+Home-page: https://github.com/dantezhu/maple
+Author: dantezhu
+Author-email: zny2008@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
