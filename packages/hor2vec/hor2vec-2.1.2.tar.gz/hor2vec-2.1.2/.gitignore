@@ -1,0 +1,23 @@
+# Vim
+*.sw*
+
+# Python
+*.py+
+__pycache__/
+dist/
+
+# pyenv
+.python-version
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+test-reports/
