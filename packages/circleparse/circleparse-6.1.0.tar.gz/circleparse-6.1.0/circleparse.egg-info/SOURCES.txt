@@ -1,0 +1,14 @@
+README.md
+setup.py
+circleparse/__init__.py
+circleparse/beatmap.py
+circleparse/constants.py
+circleparse/curves.py
+circleparse/enums.py
+circleparse/hitobject.py
+circleparse/mathhelper.py
+circleparse/replay.py
+circleparse.egg-info/PKG-INFO
+circleparse.egg-info/SOURCES.txt
+circleparse.egg-info/dependency_links.txt
+circleparse.egg-info/top_level.txt
