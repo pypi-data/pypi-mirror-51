@@ -1,0 +1,7 @@
+README.md
+setup.py
+pmacs/__init__.py
+pmacs.egg-info/PKG-INFO
+pmacs.egg-info/SOURCES.txt
+pmacs.egg-info/dependency_links.txt
+pmacs.egg-info/top_level.txt
