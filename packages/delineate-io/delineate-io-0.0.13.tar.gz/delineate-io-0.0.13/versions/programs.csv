@@ -1,0 +1,10 @@
+Git,brew,version,extract,2
+Terraform,brew,--version
+Packer,brew,--version,extract,0
+Vagrant,brew cask,--version,
+Docker,brew,--version,extract_docker
+MiniKube,brew cask,version,extract,2
+Go,brew,version,extract_go
+Python3,brew,--version
+Node,brew,--version,extract,0
+gCloud,brew cask,version,extract,3
