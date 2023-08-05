@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyapollos/__init__.py
+pyapollos/apollo_client.py
+pyapollos.egg-info/PKG-INFO
+pyapollos.egg-info/SOURCES.txt
+pyapollos.egg-info/dependency_links.txt
+pyapollos.egg-info/not-zip-safe
+pyapollos.egg-info/requires.txt
+pyapollos.egg-info/top_level.txt

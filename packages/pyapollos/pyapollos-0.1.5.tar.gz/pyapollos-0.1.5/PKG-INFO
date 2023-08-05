@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pyapollos
+Version: 0.1.5
+Summary: pyapollos
+Home-page: https://github.com/filamoon/pyapollo
+Author: monashe
+Author-email: monashe@163.com
+License: UNKNOWN
+Description: 
+        
+        There is a python client for the Apollo Configuration Center (https://github.com/ctripcorp/apollo) . The original author is filamoon , emial is filamoon@gmail.com. 
+        Since there is no pypi package, upload it to pypi. If you have any copyright issues, please contact us at momashe@163.com 
+        
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
