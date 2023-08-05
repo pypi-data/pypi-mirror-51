@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: easy-keras
+Version: 0.1.2
+Summary: An easy wrapper around Keras models
+Home-page: UNKNOWN
+Author: Duan Uys
+Author-email: duan.uys@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Easy Keras
+
+
