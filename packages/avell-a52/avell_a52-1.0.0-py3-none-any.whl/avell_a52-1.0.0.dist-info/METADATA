@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: avell-a52
+Version: 1.0.0
+Summary: A Project to provide a driver and interface to control keyboard rgb led of ITE 8291 V0.2 like Avell laptops
+Home-page: https://github.com/petryx/avell-a52-ligths
+Author: Petryx
+Author-email: marlonpetry@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/petryx/avell-a53-ligths/issues
+Project-URL: Source, https://github.com/petryx/avell-a53-ligths
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: pyusb
+
+# Driver para as luzes do teclado do Notebook Avell G1513 BS MUV / A52 BS MUV
+
+O notebook Avell A52 é equipado com um teclado retroiluminido com leds RGB, contudo a Avell não fornece suporte Linux infelizmente.
+
+O chip utilizado para controlar esse recurso é ITE 8291 V0.2, o qual é listado como um dispositivo USB. Através de engenharia reversa e pesquisa em outros projetos - litados nas referências - foi possível desenvolver um Driver para a versão 0.02 do dispostivo ITE 8291.
+
+Para verificar se o seu notebook utiliza este dispositivo use o comando abaixo:
+
+```console
+$lsusb
+
+Bus 001 Device 003: ID 048d:ce00 Integrated Technology Express, Inc.
+
+
+```
+
+
+## Como instalar?
+
+```console
+
+pip3 install avell-a53-ligths
+
+```
+Configurar udev rules, para utilizar o driver sem necessidade de usar sudo.
+
+Criar o arquivo  **/etc/udev/rules.d/50.ite.rules** com o seguinte conteudo:
+
+```
+
+SUBSYSTEM !="usb_device", ACTION !="add", GOTO="ite8291_rules_end"
+
+SYSFS{idVendor} =="048d", SYSFS{idProduct} =="ce00", SYMLINK+="ite8291"
+
+MODE="0666", OWNER="SUBSTITUIR_POR_SUA_CONTA_DE_USUARIO", GROUP="root"
+
+LABEL="ite8291_rules_end"
+
+```
+
+
+
+
+
+
