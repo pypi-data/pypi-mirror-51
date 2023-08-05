@@ -1,0 +1,9 @@
+numpy
+PyQt5
+scipy
+pandas
+pyqtgraph
+matplotlib
+tables
+pymba==0.3.1
+PyYAML

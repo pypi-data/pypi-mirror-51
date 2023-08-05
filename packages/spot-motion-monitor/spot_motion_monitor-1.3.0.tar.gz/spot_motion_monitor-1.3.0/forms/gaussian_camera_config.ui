@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GaussianCameraConfigForm</class>
+ <widget class="QWidget" name="GaussianCameraConfigForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>301</width>
+    <height>261</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCheckBox" name="spotOscillationCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>42</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Do Spot Oscillation</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="spotOscillationGroupBox">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>59</y>
+     <width>282</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Spot Oscillation Parameters</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="xAmpLabel">
+        <property name="text">
+         <string>X Amplitude:</string>
+        </property>
+        <property name="buddy">
+         <cstring>xAmpLineEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="xAmpLineEdit">
+        <property name="toolTip">
+         <string>Valid Range: 1 to 20 pixels as an integer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="xAmpUnits">
+        <property name="text">
+         <string>pixel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="xFreqLabel">
+        <property name="text">
+         <string>X Frequency:</string>
+        </property>
+        <property name="buddy">
+         <cstring>xFreqLineEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="xFreqLineEdit">
+        <property name="toolTip">
+         <string>Valid Range: 0.1 to 100 with an allowed precision of 1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="xFreqUnits">
+        <property name="text">
+         <string>Hz</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="yAmpLabel">
+        <property name="text">
+         <string>Y Amplitude:</string>
+        </property>
+        <property name="buddy">
+         <cstring>yAmpLineEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="yAmpLineEdit">
+        <property name="toolTip">
+         <string>Valid Range: 1 to 20 pixels as an integer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="yAmpUnits">
+        <property name="text">
+         <string>pixel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="yFreqLabel">
+        <property name="text">
+         <string>Y Frequency:</string>
+        </property>
+        <property name="buddy">
+         <cstring>yFreqLineEdit</cstring>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="yFreqLineEdit">
+        <property name="toolTip">
+         <string>Valid Range: 0.1 to 100 with an allowed precision of 1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="yFreqUnits">
+        <property name="text">
+         <string>Hz</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>238</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <widget class="QLabel" name="roiSizeLabel">
+      <property name="text">
+       <string>ROI Size:</string>
+      </property>
+      <property name="buddy">
+       <cstring>roiSizeLineEdit</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="roiSizeLineEdit">
+      <property name="toolTip">
+       <string>Valid Range: 20 to 200 as an integer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>38</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

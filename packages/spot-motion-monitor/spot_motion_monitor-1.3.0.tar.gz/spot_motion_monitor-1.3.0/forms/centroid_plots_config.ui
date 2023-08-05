@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CentroidPlotsConfigForm</class>
+ <widget class="QWidget" name="CentroidPlotsConfigForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>287</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="xCentroidGroupBox">
+     <property name="title">
+      <string>X 1D</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QLabel" name="autoscaleXLabel">
+          <property name="text">
+           <string>Autoscale:</string>
+          </property>
+          <property name="buddy">
+           <cstring>autoscaleXComboBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="autoscaleXComboBox">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>OFF</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PARTIAL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ON</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLabel" name="pixelAdditionXLabel">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Pixel Addition:</string>
+          </property>
+          <property name="buddy">
+           <cstring>pixelAdditionXLineEdit</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="pixelAdditionXLineEdit">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="toolTip">
+           <string>Valid Range: 1 to 10000 as an integer</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="minXLimitLabel">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Minimum:</string>
+          </property>
+          <property name="buddy">
+           <cstring>minXLimitLineEdit</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="minXLimitLineEdit">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="toolTip">
+           <string>Valid Range: 0 to 1e9 as an integer</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="maxXLimitLabel">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Maximum:</string>
+          </property>
+          <property name="buddy">
+           <cstring>maxXLimitLineEdit</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="maxXLimitLineEdit">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="toolTip">
+           <string>Valid Range: 0 to 1e9 as an integer</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="yCentroidGroupBox">
+     <property name="title">
+      <string>Y 1D</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="autoscaleYLabel">
+          <property name="text">
+           <string>Autoscale:</string>
+          </property>
+          <property name="buddy">
+           <cstring>autoscaleYComboBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="autoscaleYComboBox">
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>OFF</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PARTIAL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ON</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="pixelAdditionYLabel">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Pixel Addition:</string>
+          </property>
+          <property name="buddy">
+           <cstring>pixelAdditionYLineEdit</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="pixelAdditionYLineEdit">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="toolTip">
+           <string>Valid Range: 1 to 10000 as an integer</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="minYLimitLabel">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Minimum:</string>
+          </property>
+          <property name="buddy">
+           <cstring>minYLimitLineEdit</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="minYLimitLineEdit">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="toolTip">
+           <string>Valid Range: 0 to 1e9 as an integer</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="maxYLimitLabel">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Maximum:</string>
+          </property>
+          <property name="buddy">
+           <cstring>maxYLimitLineEdit</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="maxYLimitLineEdit">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="toolTip">
+           <string>Valid Range: 0 to 1e9 as an integer</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="numHistoBinsLabel">
+       <property name="text">
+        <string>Num Histogram Bins:</string>
+       </property>
+       <property name="buddy">
+        <cstring>numHistoBinsLineEdit</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="numHistoBinsLineEdit">
+       <property name="toolTip">
+        <string>Valid Range: 1 to 1e9 as an integer</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+  <zorder>yCentroidGroupBox</zorder>
+  <zorder>xCentroidGroupBox</zorder>
+  <zorder>verticalSpacer</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
