@@ -1,0 +1,8 @@
+README.md
+setup.py
+Project/__init__.py
+Project/mython3.py
+mython3.egg-info/PKG-INFO
+mython3.egg-info/SOURCES.txt
+mython3.egg-info/dependency_links.txt
+mython3.egg-info/top_level.txt

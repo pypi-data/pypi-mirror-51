@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mython3
+Version: 0.0.1
+Summary: LOTS OF NEW METHODS!!!
+Home-page: UNKNOWN
+Author: Will F
+Author-email: forsbergw82@gmail.com
+License: UNKNOWN
+Description: # Installation
+        `pip install mython3`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
