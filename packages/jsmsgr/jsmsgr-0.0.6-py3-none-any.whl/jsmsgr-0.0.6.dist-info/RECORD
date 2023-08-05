@@ -1,0 +1,16 @@
+jsmsgr/__init__.py,sha256=5vNi0Vs3bohbusuEDJ_-81jGLEHJy6w70Q7OrUa-w60,54
+jsmsgr/api.py,sha256=52qsmILINuZOjDBPnBFBNF-cPrLmM3rJUZzQ4cLnAu0,2239
+jsmsgr/apps.py,sha256=1o_QQiUTHfFa0vyRbzsNUL1PLvOlvRzDwmMb07CEwfw,165
+jsmsgr/sanity_check.py,sha256=dgYeLuymsscYwYyWCAZNBDYZ_ZBupNwoStJCLUqs8TM,2024
+jsmsgr/settings.py,sha256=sCrCXOSi0iPJaDAQAWgx5x45hHIctF0G1hU2YUxivts,315
+jsmsgr/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsmsgr/core/messaging.py,sha256=giPZTsv5w59JeVbpj1hneCKO4oeiw7m3H-c2XNiNI7g,2668
+jsmsgr/core/msg_builders.py,sha256=hGbaC_ag2zuSYL-oVEOao6BJTqftIB8RiDpClKS5LNM,1811
+jsmsgr/core/msg_processing.py,sha256=pYN7x3h8j_UuplI13BC76mla8fQKcir1BVzDUmNVPG4,612
+jsmsgr/support/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsmsgr/support/misc.py,sha256=l5PlVq6et3lNune9a_KDe0YT9M3h7ALGGj1VDaNOkic,292
+jsmsgr/support/user.py,sha256=2oK6WmTHQl_73aiJusr9XgbPbkkwbKiznaBfcilciTg,897
+jsmsgr-0.0.6.dist-info/METADATA,sha256=n9uK3q3ZM3Um5UYqDd5vCZiuvlJdMh_rf6q-p7tzAOc,3919
+jsmsgr-0.0.6.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+jsmsgr-0.0.6.dist-info/top_level.txt,sha256=ux49AmYmHc3JElOIzXeELYS87PTr4VuRtsjpAU-MEmM,7
+jsmsgr-0.0.6.dist-info/RECORD,,
