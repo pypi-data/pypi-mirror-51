@@ -1,0 +1,14 @@
+dydx/__init__.py,sha256=qjsKDHS54EKpu96-6_b1yIFI6pDk8Oxg5wb81FSkyRM,14
+dydx/client.py,sha256=8K6GSP4fng4BKkut8IsUnT9a_XjDuDFrLzMoS9ndJ2Y,14018
+dydx/constants.py,sha256=Ku9xRzREd45t3qUOHWxfSRrMdeT5wFWucgH36YblyO8,636
+dydx/exceptions.py,sha256=1RR6cBVkl2ynZT-0pp2vvuBPuO5DbHsdRcFVRHwslfc,661
+dydx/util.py,sha256=A8qR2AFPTPE4aIDDyhYAjoqswe7Xa4cXIxUopGGsaxg,4172
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=nroVCSdp3UQI1ioVls3JL__P0-LqfciS1APQfJ9b0r0,18236
+tests/test_json.py,sha256=pgHLhW_GhzbYIIxkFXxjJHIixpr8pw6OeVqG70BQWMc,11535
+tests/test_util.py,sha256=QD4ZD5G41YlqHV9L_7qoX1tzUT44sDebwDeWRi9YmuY,3590
+dydx_python-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dydx_python-0.2.0.dist-info/METADATA,sha256=9-W6Cdg8nBnHToXpQNqiQzOHns1lUWToqbV3vrAhRrw,3040
+dydx_python-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dydx_python-0.2.0.dist-info/top_level.txt,sha256=CThJlzCTPY7OZk-niq9ay2sICym3m0bYrY1Fe7l3-J4,11
+dydx_python-0.2.0.dist-info/RECORD,,
