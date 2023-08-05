@@ -1,0 +1,12 @@
+README.md
+setup.py
+uitable/__init__.py
+uitable/main.py
+uitable/test.py
+uitable.egg-info/PKG-INFO
+uitable.egg-info/SOURCES.txt
+uitable.egg-info/dependency_links.txt
+uitable.egg-info/not-zip-safe
+uitable.egg-info/top_level.txt
+uitable/utils/__init__.py
+uitable/utils/exceptions.py
