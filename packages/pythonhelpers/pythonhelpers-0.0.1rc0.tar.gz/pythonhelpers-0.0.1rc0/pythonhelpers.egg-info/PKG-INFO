@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pythonhelpers
+Version: 0.0.1rc0
+Summary: A collection of Python tools. So far, just a test.
+Home-page: https://github.com/pypa/sampleproject
+Author: Thomas Kastl
+Author-email: thomas.kastl@daimler.com
+License: UNKNOWN
+Description: # PysparkHelpers
+        Make it easier to use PySpark for data science by providing often-used functions that are not implemented in PySpark natively (yet).
+        
+        This is currently just a test and no guarantee that any of it works as expected is provided. Test for yourself :-)
+        
+        ## Installation instruction:
+        todo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
