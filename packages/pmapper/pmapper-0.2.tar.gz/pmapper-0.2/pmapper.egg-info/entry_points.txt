@@ -1,0 +1,3 @@
+[console_scripts]
+get_pharm_counts = pmapper.get_pharm_counts:entry_point
+

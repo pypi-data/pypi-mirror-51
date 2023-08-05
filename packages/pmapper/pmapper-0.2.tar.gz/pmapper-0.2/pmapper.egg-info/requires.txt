@@ -1,0 +1,6 @@
+
+[networkx]
+networkx>=1.11
+
+[rdkit]
+rdkit>=2017.09
