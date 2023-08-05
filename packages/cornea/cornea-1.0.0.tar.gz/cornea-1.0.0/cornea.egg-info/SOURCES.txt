@@ -1,0 +1,8 @@
+README.md
+setup.py
+cornea/__init__.py
+cornea.egg-info/PKG-INFO
+cornea.egg-info/SOURCES.txt
+cornea.egg-info/dependency_links.txt
+cornea.egg-info/requires.txt
+cornea.egg-info/top_level.txt
