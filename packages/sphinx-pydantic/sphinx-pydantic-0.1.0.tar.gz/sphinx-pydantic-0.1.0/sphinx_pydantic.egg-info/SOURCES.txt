@@ -1,0 +1,10 @@
+README.md
+setup.py
+sphinx-pydantic/__init__.py
+sphinx-pydantic/__version__.py
+sphinx-pydantic/directive.py
+sphinx_pydantic.egg-info/PKG-INFO
+sphinx_pydantic.egg-info/SOURCES.txt
+sphinx_pydantic.egg-info/dependency_links.txt
+sphinx_pydantic.egg-info/requires.txt
+sphinx_pydantic.egg-info/top_level.txt
