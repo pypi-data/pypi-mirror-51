@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flai
+Version: 0.1.0
+Summary: flask like socket server framework
+Home-page: https://github.com/moreal/flai
+Author: moreal
+Author-email: dev.moreal@gmail.com
+License: UNKNOWN
+Description: # flai
+        simple socket server framework written in python.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

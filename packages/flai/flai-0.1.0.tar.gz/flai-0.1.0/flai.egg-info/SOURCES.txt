@@ -1,0 +1,8 @@
+README.md
+setup.py
+flai/__init__.py
+flai/signal.py
+flai.egg-info/PKG-INFO
+flai.egg-info/SOURCES.txt
+flai.egg-info/dependency_links.txt
+flai.egg-info/top_level.txt
