@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cm-service-library
+Version: 0.0.3
+Summary: Just another module library
+Home-page: https://gitlab.com/cloudmicro/pypi/service_library
+Author: Trent Murray
+Author-email: trent@cloudmicro.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: secure
+
+# Service Library
+
+Just another helper library - mainly for sanic.
+
+
