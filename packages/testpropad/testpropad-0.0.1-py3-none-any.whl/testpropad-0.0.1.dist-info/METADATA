@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: testpropad
+Version: 0.0.1
+Summary: The easiest way to create and connect to secure cloud instances
+Home-page: https://www.provisionpad.com/
+Author: Amir Zainali
+Author-email: provisionpad@gmail.com
+License: Apache-2.0
+Project-URL: Source Code, https://github.com/provisionpad/provisionpad
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: boto3
+Requires-Dist: python-dateutil
+Requires-Dist: future
+Requires-Dist: argcomplete
+Requires-Dist: colorclass
+Requires-Dist: terminaltables
+Requires-Dist: tzlocal
+Requires-Dist: requests
+
+UNKNOWN
+
+
