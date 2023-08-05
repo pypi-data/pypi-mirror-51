@@ -1,0 +1,15 @@
+README.md
+setup.py
+netQuil/__init__.py
+netQuil/agents.py
+netQuil/clock.py
+netQuil/connections.py
+netQuil/devices.py
+netQuil/distributedGates.py
+netQuil/noise.py
+netQuil/simulator.py
+netQuil.egg-info/PKG-INFO
+netQuil.egg-info/SOURCES.txt
+netQuil.egg-info/dependency_links.txt
+netQuil.egg-info/requires.txt
+netQuil.egg-info/top_level.txt

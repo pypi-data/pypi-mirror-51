@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: netQuil
+Version: 1.0.1
+Summary: A Distributed Quantum Network Simulator
+Home-page: https://github.com/att-innovate/netQuil
+Author: Zac Espinosa, Matt Radzihovsky
+Author-email: zespinosa97@gmail.com, mattradz@stanford.edu
+License: MIT
+Description: NetQuil is an open-source Python framework built on pyQuil designed specifically for simulating quantum networks.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
