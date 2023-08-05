@@ -1,0 +1,3 @@
+[mopidy.ext]
+mqtt = mopidy_mqtt:Extension
+
