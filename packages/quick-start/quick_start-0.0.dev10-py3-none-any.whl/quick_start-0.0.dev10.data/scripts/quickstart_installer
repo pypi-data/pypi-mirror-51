@@ -1,0 +1,40 @@
+#!python
+
+import shutil
+from pathlib import Path
+
+from appdirs import user_data_dir
+from appdirs import user_config_dir
+
+
+NAME = "quick-start"
+
+
+def wizard():
+
+    user_data = Path(user_data_dir())
+    user_config = Path(user_config_dir())
+
+    user_data = user_data / NAME
+    user_config = user_config / NAME
+
+    print("*" * 80)
+
+    if not user_data.is_dir():
+        user_data.mkdir()
+        shutil.copytree("data", user_data / "data")
+        print("Installing data files in {} ".format(Path.home()))
+    else:
+        print("Data files already exist in {}".format(Path.home()))
+
+    if not user_config.is_dir():
+        user_config.mkdir()
+        shutil.copy("config.ini", user_config)
+        print("Installing config file in {}".format(user_config))
+    else:
+        print("Config file already exist in {}".format(user_config))
+
+    print("*" * 80)
+
+
+wizard()
