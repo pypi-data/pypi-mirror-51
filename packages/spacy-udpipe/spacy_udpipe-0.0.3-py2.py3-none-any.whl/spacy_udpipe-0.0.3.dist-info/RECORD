@@ -1,0 +1,10 @@
+spacy_udpipe/__init__.py,sha256=vB3Pt1V5-2OW2sWuzTSCj5n_X6bL6OUVrBMbZuREVmo,193
+spacy_udpipe/language.py,sha256=ODt6HALZws_oTwb8U__8jjwrVgvIeyG8vaW-Kd0SoDM,11825
+spacy_udpipe/languages.json,sha256=DrQKRtDIphynkOcOdh__SaKv8IMtIL6tvuqbBnD_FlE,4538
+spacy_udpipe/util.py,sha256=Mj8xrSMcxnSz4FsCtK5-xFLjJV08V8PGYOYC2mKxJpw,2492
+spacy_udpipe-0.0.3.dist-info/LICENSE,sha256=nmdnkL5MEiZUrVT-TDxfTnRQFB6uhc0a00VVUHNRdVI,1110
+spacy_udpipe-0.0.3.dist-info/METADATA,sha256=SEzGG6__kr8D1-zAFEn2lWXq4tSma6kwcEfCCrmWYnE,4389
+spacy_udpipe-0.0.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+spacy_udpipe-0.0.3.dist-info/entry_points.txt,sha256=5stM8nn54GBSnqobSI612BsFpvLzDaO4w4DbMxy36Rw,2428
+spacy_udpipe-0.0.3.dist-info/top_level.txt,sha256=LabVdt2youeJzA7yDRyzKaAmfO-6x0VgjyWD7nq9e6g,13
+spacy_udpipe-0.0.3.dist-info/RECORD,,
