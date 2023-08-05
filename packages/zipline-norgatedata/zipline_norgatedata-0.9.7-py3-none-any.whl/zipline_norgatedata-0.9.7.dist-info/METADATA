@@ -1,0 +1,232 @@
+Metadata-Version: 2.1
+Name: zipline-norgatedata
+Version: 0.9.7
+Summary: Zipline extension to provide bundles of data from Norgate Data into the Zipline algorithmic trading library for the Python programming language
+Home-page: https://norgatedata.com
+Author: NorgateData Pty Ltd
+Author-email: support@norgatedata.com
+License: EULA
+Platform: UNKNOWN
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Python: >=3.5.0,<3.6
+Description-Content-Type: text/markdown
+Requires-Dist: zipline
+Requires-Dist: pandas
+Requires-Dist: norgatedata
+Requires-Dist: numpy
+
+
+# Project description
+
+Creates an interface between Norgate data and Zipline, the pythonic algorithmic trading library, to create bundles.
+
+This is currently in alpha stage testing to selected users of Norgate Data.
+
+Currently, equities and futures are supported.
+
+# Installation
+
+```sh
+pip install zipline-norgatedata
+```
+
+# Upgrades
+
+To receive upgrades/updates (highly recommended, especially while this is in alpha test):
+
+```sh
+pip install zipline-norgatedata --upgrade
+```
+
+# Requirements
+
+* Python 3.5 (Note: 3.6 and 3.7 will be supported only when Zipline supports this)
+* Zipline 1.3
+* Microsoft Windows
+* An active Norgate Data subscription
+* Writable local user folder named .norgatedata (or defined in environment variable NORGATEDATA_ROOT)
+
+# Usage
+
+Add the following lines at the top of your extension.py file (typically located at c:\users\<username>\.zipline)
+
+```py
+from pandas import Timestamp
+from norgatedata import StockPriceAdjustmentType
+from zipline_norgatedata import register_norgatedata_equities_bundle,register_norgatedata_futures_bundle
+```
+
+Then create as many bundles as you desire.  These bundles will use one or more watchlists from your Norgate Data installation.
+
+Here are some examples:
+
+```py
+bundlename = 'norgatedata-sp500-backtest'
+watchlists = ['S&P 500 Current & Past']
+stock_price_adjustment_setting = StockPriceAdjustmentType.TOTALRETURN
+start_session = Timestamp("1990-01-01",tz='utc') 
+end_session = Timestamp.now(tz='utc')
+calendar_name = 'NYSE'
+register_norgatedata_equities_bundle(bundlename,stock_price_adjustment_setting,watchlists,start_session,end_session,calendar_name)
+
+
+bundlename = 'norgatedata-russell3000-backtest'
+watchlists = ['Russell 3000 Current & Past','Russell 3000 indexes']
+stock_price_adjustment_setting = StockPriceAdjustmentType.TOTALRETURN
+start_session = Timestamp("1990-01-01",tz='utc') 
+end_session = Timestamp.now(tz='utc')
+calendar_name = 'NYSE'
+register_norgatedata_equities_bundle(bundlename,stock_price_adjustment_setting,watchlists,start_session,end_session,calendar_name)
+
+
+bundlename = 'norgatedata-cme-futures'
+watchlists = ['CME Futures']
+start_session = Timestamp("2000-01-01",tz='utc') # Start date of data ingestion - NOTE: zipline cannot handle dates prior to 1990
+end_session = Timestamp.now(tz='utc')
+calendar_name = 'us_futures'
+register_norgatedata_futures_bundle(bundlename,watchlists,start_session,end_session,calendar_name)
+```
+
+Note:  You'll need to create your own watchlist(s) for use with futures as there's no default watchlists for futures.  This is done from within the Norgate Data Updater app.
+
+In the above example, we also have a static watchlist called Russell 3000 indexes that contain $RUA and $RUATR.  This is useful for trading systems where you want to look at the overall index and not just the constituents.
+
+# Metadata
+
+The following fields are available in the metadata dataframe: start_date, end_date, ac_date, symbol, asset_name, exchange, exchange_full, asset_type, norgate_data_symbol, norgate_data_assetid.  
+
+# Zipline Limitations
+
+- Zipline can only handle equities data from 1990 onwards.
+- Zipline can only handle futuress data from 2000 onwards.
+- Zipline has unnecessarily complicated futures contracts by restricting symbols to 2 characters.  We hope they see the light and allow variable at least 5 characters.
+- Zipline doesn't define all futures markets and doesn't provide any extensibility in this area - you will need to add them to site-packages\zipline\finance\constants.py if they are not defined.  Be sure to backup this file as it will be overwritten any time you update zipline.
+- Zipline assumes that there are bars of every day of trading.  If a security doesn't trade for a given day (e.g. it was halted/suspended, or simply nobody wanted to trade it), it will be padded with the previous close repeated in the OHLC fields, with volume set to zero.  Consider how this might affect your trading calculations.
+- Index volumes cannot be ingest due to Zipline trying to convert large volumes to UINTs which are out-of-bounds for UINT32.  Index volumes will be divided by 1000.
+- Any stock whose adjusted volume exceeds the bounds of UINT32 will be set to the maximum UINT32 value (4294967295).  This only occurs for stocks with crazy amounts of splits.
+- Zipline benchmarks do not work off the bundle - rather they use hardcoded logic that attempts to download the symbol SPY from an IEX API (which is now retired).  See the "Zipline 1.3.0 Benchmark patch" below for fixes.
+
+# Assumptions
+- Stocks are automatically set an auto_close_date of the last quoted date 
+- Futures are automatically set an auto_close_date to the earlier of following: Last trading date (for cash settled futures, and physically delivered futures that only allow delivery after the last trading date), or 1 trading day prior to first notice date for futures that have a first notice date prior to the last trading date.
+
+# Zipline 1.3.0 Benchmark patch
+
+Strangely, by default, Zipline attempts to obtain benchmark data for for the symbol SPY from IEX (even if you define another symbol as the benchmark).  The IEX API was retired in June 2019 so this causes all backtests to fail.  A workaround is to simply return a benchmark that shows no return, as shown:
+
+Within zipline/data/benchmarks.py:
+
+```py
+def get_benchmark_returns(symbol):
+    cal = get_calendar('NYSE')
+    first_date = pd.Timestamp('1896-01-01', tz='utc')
+    last_date = pd.Timestamp.today(tz='utc')
+    dates = cal.sessions_in_range(first_date, last_date)
+    data = pd.DataFrame(0.0, index=dates, columns=['close'])
+    data = data['close']
+    return data.sort_index().iloc[1:]
+```
+
+Within zipline/data/loader.py, search for the method ensure_benchmark_data, and comment out the following two lines as shown:
+
+```py
+    #if data is not None:
+    #    return data
+```
+
+Thanks to Andreas Clenow for this workaround, found here: https://github.com/quantopian/zipline/issues/2480
+
+# Zipline installation notes
+
+Zipline can be difficult to install.
+
+We've found that attempting to use Conda v4.7 has issues (as at Aug 2019) and downgrading to Conda v4.6.11 allows installation to proceed:
+
+```sh
+conda config —set allow_conda_downgrades true
+conda install conda=4.6.11
+```
+
+
+# Ingest data
+
+To ingest data from one of the bundles you've defined in extension.py, you simply run 
+
+```sh 
+zipline ingest -b <bundlename>
+```
+
+For example:
+
+```sh
+zipline ingest -b norgatedata-sp500-backtest
+zipline ingest -b norgatedata-russell3000-backtest
+zipline ingest -b norgatedata-cme-futures
+
+```
+
+# Incorporating other Norgate Data capabilities into Zipline backtesting
+
+For backtesting against the bundle that was ingested, and using the additional timeseries dataframes and metadata, firstly add a dependency to the top of your code:
+
+```py
+import norgatedata
+```
+
+## Defining the Universe
+
+For backtesting you need to define your universe.  For statstically valid results, this must be survivorship bias-free.
+
+In your run_algorithm's initialize function:
+
+```py
+    watchlistname = 'Russell 3000 Current & Past'
+	context.universe = norgatedata.watchlist_symbols(watchlistname)
+```
+
+If you use multiple watchlists, this code snippet may be helpful
+
+```py
+    symbols = []
+    watchlists = ['Dow Jones Industrial Average Current & Past', 'Nasdaq 100 Current & Past']
+    for watchlistname in watchlists:
+        symbols.extend(norgatedata.watchlist_symbols(watchlistname))
+	symbols = list(set(symbols)) # Remove dupes
+    context.universe = symbols
+```
+
+Note:  Any watchlists used must also be part of the ingested bundle (e.g. you can't test on the S&P 500 Current & Past stocks if your bundle only ingested the current S&P 500 stocks).
+
+## Incorporating timeseries data
+
+To incorporate timeseries data from Norgate:
+
+TODO:  Documentation here about how to use Factor pipeline that contain timeseries data
+
+### Historical index constituent data
+
+TODO:  Documentation here about how to use Filter pipeline that contain timeseries data
+
+### Dividend yield
+
+TODO:  Documentation here about how to use Factor pipeline that contain timeseries data
+
+
+# Support
+
+[Norgate Data support](https://norgatedata.com/contact.php)
+
+# Thanks
+
+Thanks to [Andreas Clenow](https://www.followingthetrend.com) for his pioneering work in documenting Zipline bundles in his latest book [Trading Evolved: Anyone can Build Killer Trading Strategies in Python](https://amzn.to/2SphnLr).  We used many of the techniques described in the book to build our bundle code.
+
+
+
