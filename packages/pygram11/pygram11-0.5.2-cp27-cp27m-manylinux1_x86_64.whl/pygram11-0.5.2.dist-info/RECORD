@@ -1,0 +1,9 @@
+pygram11/__init__.py,sha256=Hf9HfloeGIi-N1_l6j2y_bw1f-aKqKn1AwcCjIpscP0,387
+pygram11/_core.so,sha256=gFV_Ng1AvfdDGEccWoeSlbgQeegAw83YYcPHugYfu4U,6154880
+pygram11/hist.py,sha256=oRQPCBVPK8rgVe2eaxjcw_mvmTbHrWPfAB8JYFs2w6c,21604
+pygram11/utils.py,sha256=GRXn04o2B4bD3xduVPYWHZ35Wf_yUXJLl1bX9Nh2OvE,1226
+pygram11/.libs/libgomp-b070ce0b.so.1.0.0,sha256=HmoKOCUwEo5FzEvqRxaENSX9gKkm5B-IVLRG7BhAOo8,237408
+pygram11-0.5.2.dist-info/top_level.txt,sha256=1nqyEb7cAhEuPssMWY9rd6ipJ9E1KnaXxIFDQsK4-ao,9
+pygram11-0.5.2.dist-info/WHEEL,sha256=CKrsQRZNKddeqWkqlP4DoIBo-Lb-ExiV2oTN8bWPh84,109
+pygram11-0.5.2.dist-info/METADATA,sha256=AXffrSjC15Tsw2pcb1Nu7lM_O4U05C2TCEESe9ShwkM,6110
+pygram11-0.5.2.dist-info/RECORD,,
