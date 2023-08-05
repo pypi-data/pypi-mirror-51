@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: oss-ar
+Version: 0.114
+Summary: Lista de Obras Sociales Argentinas
+Home-page: https://github.com/cluster311/obras-sociales-argentinas
+Author: Andres Vazquez
+Author-email: andres@data99.com.ar
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>2)
+
+# Obras sociales argentinas
+Lista de las obras sociales argentinas
+
+La lista oficial de obras sociales argentinas puede obtenerse por dos vías:
+ - Desde el [sitio web de la superintendencia de sistemas de salud](https://www.sssalud.gob.ar/?page=listRnosc&tipo=7) (SSSalud)
+ - Desde la página de [SISA](https://sisa.msal.gov.ar/sisa/#sisa) 
+
+Estas listas son diferentes y tienen alrededor de 300 elementos. No cambia mucho al parecer.  
+
+```python
+from oss_ar.oss import ObraSocialArgentina
+import json
+rnoss = ['900103', '800501', '117702']
+for rnos in rnoss:
+    oss = ObraSocialArgentina(rnos=rnos)
+    nice_dict = json.dumps(oss.as_dict(), indent=2)
+    print(nice_dict)
+```
+
+```js
+{
+  "rnos": "900102",
+  "nombre": "OBRA SOCIAL DEL PERSONAL DE EMPRESAS FIAT Y EMPRESAS PEUGEOT CITROEN ARGENTINA",
+  "tipo_de_cobertura": "Obra social",
+  "sigla": "OSPEF Y EPCA",
+  "provincia": "CABA",
+  "localidad": "CIUDAD DE BUENOS AIRES",
+  "domicilio": "AVDA CORDOBA 487 6\u00ba PISO OFICINA \"L\"",
+  "cp": "",
+  "telefonos": [
+    "4 312-8261",
+    "4 312-8269"
+  ],
+  "email": "obrasocial@osfp.com.ar",
+  "web": null
+}
+{
+  "rnos": "800501",
+  "nombre": "OBRA SOCIAL ACEROS PARANA",
+  "tipo_de_cobertura": "Obra social",
+  "sigla": "",
+  "provincia": "Buenos Aires",
+  "localidad": "SAN NICOLAS DE LOS ARROYOS",
+  "domicilio": "AVDA. MORENO 187",
+  "cp": "",
+  "telefonos": [
+    "03461-425632",
+    "03461-43-7600"
+  ],
+  "email": "info@osap.org.ar",
+  "web": null
+}
+{
+  "rnos": "117801",
+  "nombre": " OBRA SOCIAL DEL PERSONAL DE PRENSA DE MENDOZA",
+  "tipo_de_cobertura": "Obra social",
+  "sigla": "",
+  "provincia": "Mendoza",
+  "localidad": "MENDOZA",
+  "domicilio": "CHILE 1661",
+  "cp": "5500",
+  "telefonos": [
+    "0261-4-251179",
+    "0261-4-251469"
+  ],
+  "email": "prensaludmza@hprensaludmza.org.ar",
+  "web": null
+}
+```
+
+## Funcionamiento interno
+
+Esta librería usa los CSVs de origen de estas dos fuentes y mezcla los datos. Expone tambien las clases internas
+
+
+
+## Descarga automatizada
+
+Desde SSSalud: Hacer un post a https://www.sssalud.gob.ar/ con los parámetros:  
+`{'obj': 'listRnosc', 'tipo': 7}`
+
+Desde SISA se requiere un scpae un poco más complejo.  
+
+
+
+
