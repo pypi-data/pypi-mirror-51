@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+excel_template/Writer.py
+excel_template/WriterTemplate.py
+excel_template/__init__.py
+excel_template.egg-info/PKG-INFO
+excel_template.egg-info/SOURCES.txt
+excel_template.egg-info/dependency_links.txt
+excel_template.egg-info/not-zip-safe
+excel_template.egg-info/requires.txt
+excel_template.egg-info/top_level.txt
