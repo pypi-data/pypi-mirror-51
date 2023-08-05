@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: handygeometry
+Version: 0.12
+Summary: A collection of handy geometry functions.
+Home-page: https://github.com/ahmetserguns/geometry
+Author: ahmetserguns
+Author-email: ahmetserguns@gmail.com
+License: MIT
+Download-URL: https://github.com/ahmetserguns/geometry/archive/0.11.tar.gz
+Description: UNKNOWN
+Keywords: geometry,easy,triangle,surface,collection,angle,perimeter,volume
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
