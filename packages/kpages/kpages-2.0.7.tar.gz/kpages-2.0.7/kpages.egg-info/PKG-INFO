@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: kpages
+Version: 2.0.7
+Summary: kpages is api-centric web application framework for the Tornado and Mongodb
+Home-page: http://github.com/comger/kpages
+Author: comger@gmail.com
+Author-email: comger@gmail.com
+License: http://www.apache.org/licenses/LICENSE-2.0
+Description: UNKNOWN
+Keywords: pymongo,gridfs,profile,tornado,redis,session,router,MQ
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
