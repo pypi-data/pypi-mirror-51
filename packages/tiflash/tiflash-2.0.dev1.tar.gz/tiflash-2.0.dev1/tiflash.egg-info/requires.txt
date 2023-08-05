@@ -1,0 +1,4 @@
+dsclient
+
+[:platform_system != "Windows"]
+pyserial>=3.4
