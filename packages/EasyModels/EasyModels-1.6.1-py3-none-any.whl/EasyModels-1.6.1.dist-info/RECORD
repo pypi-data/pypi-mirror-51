@@ -1,0 +1,12 @@
+easymodels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easymodels/__main__.py,sha256=vK8mk_lByiCurS3kObDLiDkxLe9aYjsPASTV5PoBPWQ,2514
+easymodels/utils/__init__.py,sha256=XxFzFo5GkuSWEXhzqqgLa-lYHPUKtEtnmhGddfxcW9E,78
+easymodels/utils/categories.py,sha256=u2GRHLVavPgVl-Tvjr8Nmf3fxUrTydlk-ANP4h2il6Q,4598
+easymodels/utils/constants.py,sha256=bb_1Pmm0t4Cm9LQ1uKC9AUKjm9AMNUdsVVm6QHEyq24,211
+easymodels/utils/gui.py,sha256=dVvdAsc_9AYzvad8Gqtbj56-6YNIzKkMcZOqq2OWBZA,4092
+easymodels/utils/menu.py,sha256=cwGCsXWPDCtbqYdQzkXjsE8oz5RRmXgYQj09DtXDyEw,4048
+EasyModels-1.6.1.dist-info/METADATA,sha256=war-9V7BC_xu_fviG1osXlUdbsMkm4WpNnuyVfj9-B0,3247
+EasyModels-1.6.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+EasyModels-1.6.1.dist-info/entry_points.txt,sha256=41CcqU5nEC6lq21qjFWFb5PURE1t5OaH1bg_sRFYpgI,58
+EasyModels-1.6.1.dist-info/top_level.txt,sha256=_BkSc7TM5DvwxMCRwbzIgE4rSfFeo07o3k7WVwbVntw,11
+EasyModels-1.6.1.dist-info/RECORD,,
