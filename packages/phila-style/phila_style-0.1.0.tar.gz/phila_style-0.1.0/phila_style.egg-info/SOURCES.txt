@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+phila_style/__init__.py
+phila_style/core.py
+phila_style.egg-info/PKG-INFO
+phila_style.egg-info/SOURCES.txt
+phila_style.egg-info/dependency_links.txt
+phila_style.egg-info/requires.txt
+phila_style.egg-info/top_level.txt
+phila_style/altair/__init__.py
+phila_style/matplotlib/__init__.py
+phila_style/matplotlib/theme.py

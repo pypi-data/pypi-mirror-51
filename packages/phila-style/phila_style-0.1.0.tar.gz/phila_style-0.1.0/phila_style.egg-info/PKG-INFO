@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: phila-style
+Version: 0.1.0
+Summary: Python visualization styles based on the City of Philadelphia Digital Standards
+Home-page: UNKNOWN
+Author: Nick Hand
+Maintainer: Nick Hand
+Maintainer-email: nick.hand@phila.gov
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
