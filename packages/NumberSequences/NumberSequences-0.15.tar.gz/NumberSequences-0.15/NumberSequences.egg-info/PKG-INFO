@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: NumberSequences
+Version: 0.15
+Summary: Tools for working with number sequences
+Home-page: https://pypi.org/project/NumberSequences/
+Author: Robbie Dee
+Author-email: admin@staticola.com
+License: MIT
+Description: # NumberSequences
+        
+        NumberSequences is a library for working with various number sequences. Current features:
+        
+          - Calculate the Nth triangular number
+          - Learn more about triangular numbers
+          - Unit tests
+        
+        # In Development!
+        
+          - Produce a triangular number range
+          - Display a visual representation of a triangular number
+        
+        ### Installation
+        
+        ```sh
+        $ import NumberSequences
+        ```
+        
+        License
+        ----
+        
+        MIT
+        
+        
+Keywords: MATH,NUMBERS,FUN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

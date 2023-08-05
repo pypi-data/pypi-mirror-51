@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+NumberSequences/TriangularNumbers.py
+NumberSequences/__init__.py
+NumberSequences/test_TriangularNumbers.py
+NumberSequences.egg-info/PKG-INFO
+NumberSequences.egg-info/SOURCES.txt
+NumberSequences.egg-info/dependency_links.txt
+NumberSequences.egg-info/top_level.txt
