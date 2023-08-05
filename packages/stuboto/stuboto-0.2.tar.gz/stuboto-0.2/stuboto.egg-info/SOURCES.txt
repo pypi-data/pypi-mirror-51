@@ -1,0 +1,9 @@
+README.md
+setup.py
+stuboto/__init__.py
+stuboto/stuboto.py
+stuboto.egg-info/PKG-INFO
+stuboto.egg-info/SOURCES.txt
+stuboto.egg-info/dependency_links.txt
+stuboto.egg-info/requires.txt
+stuboto.egg-info/top_level.txt
