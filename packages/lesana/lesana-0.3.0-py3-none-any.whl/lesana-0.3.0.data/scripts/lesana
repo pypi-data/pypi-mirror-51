@@ -1,0 +1,39 @@
+#!python
+
+import argparse
+
+from lesana.command import New, Edit, Index, Search, Init, Remove
+
+class Lesana():
+    """
+    Manage collections
+    """
+
+    commands = (
+        ('new', New()),
+        ('edit', Edit()),
+        ('index', Index()),
+        ('search', Search()),
+        ('init', Init()),
+        ('rm', Remove()),
+        )
+
+    def _main(self):
+        self.parser.print_help()
+
+    def main(self):
+        self.parser = argparse.ArgumentParser()
+        self.parser.set_defaults(func=self._main)
+        self.subparsers = self.parser.add_subparsers()
+        for name, sub in self.commands:
+            s_parser = self.subparsers.add_parser(name, help=sub.help)
+            for arg in sub.arguments:
+                s_parser.add_argument(*arg[0], **arg[1])
+            s_parser.set_defaults(func=sub._main)
+        self.args = self.parser.parse_args()
+        self.args.func(self.args)
+
+
+
+if __name__ == '__main__':
+    Lesana().main()
