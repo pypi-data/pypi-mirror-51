@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+bin/dmd
+dmd/__init__.py
+dmd/__main__.py
+dmd/core.py
+dmd/extensions.py
+dmd.egg-info/PKG-INFO
+dmd.egg-info/SOURCES.txt
+dmd.egg-info/dependency_links.txt
+dmd.egg-info/requires.txt
+dmd.egg-info/top_level.txt
+dmd/templates/main.html
