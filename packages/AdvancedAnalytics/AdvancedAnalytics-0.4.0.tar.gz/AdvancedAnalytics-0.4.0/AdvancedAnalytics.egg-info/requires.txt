@@ -1,0 +1,7 @@
+statsmodels>=0.9.0
+nltk>=3.4
+pydotplus>=2.0.2
+graphviz>=2.40.1
+wordcloud>=1.5.0
+newspaper3k>=0.2.8
+newsapi-python>=0.2.5
