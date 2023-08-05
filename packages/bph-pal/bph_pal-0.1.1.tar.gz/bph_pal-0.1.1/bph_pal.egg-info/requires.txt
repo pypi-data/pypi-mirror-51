@@ -1,0 +1,5 @@
+pyserial
+wiringpi
+smbus
+deepdiff
+readline

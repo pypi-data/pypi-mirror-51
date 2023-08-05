@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bph_pal/__init__.py
+bph_pal/__main__.py
+bph_pal/bph_shell.py
+bph_pal/driver_ina226.py
+bph_pal/pin_control.py
+bph_pal/stm32uartboot.py
+bph_pal.egg-info/PKG-INFO
+bph_pal.egg-info/SOURCES.txt
+bph_pal.egg-info/dependency_links.txt
+bph_pal.egg-info/entry_points.txt
+bph_pal.egg-info/requires.txt
+bph_pal.egg-info/top_level.txt
+bph_pal/config/bph_pinout_v2c.json

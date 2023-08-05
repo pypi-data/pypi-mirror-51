@@ -1,0 +1,4 @@
+[console_scripts]
+bootload_philip = bph_pal.stm32uartboot:main
+bph_shell = bph_pal.bph_shell:main
+

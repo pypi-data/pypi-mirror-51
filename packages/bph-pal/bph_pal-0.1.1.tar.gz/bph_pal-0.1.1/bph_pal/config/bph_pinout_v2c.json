@@ -1,0 +1,86 @@
+{
+    "shunt_res": {
+      "high_range": {
+        "name": "R10",
+        "val": 0.1,
+        "description": "Connects the led0 pin of PHiLIP"
+      },
+      "low_range": {
+        "name": "R11",
+        "val": 220.0,
+        "description": "Connects the led0 pin of PHiLIP"
+      }
+  },
+  "gpio": {
+    "led0": {
+      "name": "LED0",
+      "pin": 19,
+      "description": "Connects the led0 pin of PHiLIP",
+      "mode": 0
+    },
+    "debug0": {
+      "name": "DEBUG0",
+      "pin": 13,
+      "description": "Debug pin used for reading or writing PHiLIP or the DUT",
+      "mode": 0
+    },
+    "debug1": {
+      "name": "DEBUG1",
+      "pin": 6,
+      "description": "Debug pin used for reading or writing PHiLIP or the DUT",
+      "mode": 0
+    },
+    "debug2": {
+      "name": "DEBUG2",
+      "pin": 5,
+      "description": "Debug pin used for reading or writing PHiLIP or the DUT",
+      "mode": 0
+    },
+    "boot1": {
+      "name": "BOOT1",
+      "pin": 24,
+      "description": "PHiLIP boot pin to control the type of bootloader",
+      "mode": 1,
+      "state": 0
+    },
+    "boot0": {
+      "name": "BOOT0",
+      "pin": 22,
+      "description": "PHiLIP boot pin to control if bootloader is enabled",
+      "mode": 1,
+      "state": 0
+    },
+    "bp_reset": {
+      "name": "BP_RST",
+      "pin": 23,
+      "description": "Pin to hard reset PHiLIP",
+      "mode": 0
+    },
+    "trig": {
+      "name": "RPI_TRIG",
+      "pin": 27,
+      "description": "Triggers when current measument is ready",
+      "mode": 0
+    },
+    "user_btn": {
+      "name": "USER_BTN",
+      "pin": 18,
+      "description": "User button with no function I guess",
+      "mode": 0
+    },
+    "current_range": {
+      "name": "RES_BYP",
+      "pin": 17,
+      "description": "Selects the shunt resistor - 0:1mA range - 1:200mA range",
+      "mode": 1,
+      "state": 1
+    },
+    "ext_volt_enable": {
+      "name": "EXT_V_EN",
+      "pin": 4,
+      "description": "Enables DUT power though the connector",
+      "mode": 1,
+      "state": 0
+    }
+  }
+}
