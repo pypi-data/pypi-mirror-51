@@ -1,0 +1,6 @@
+jieba
+sqlalchemy
+
+# ext
+python-forecastio
+geocoder
