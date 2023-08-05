@@ -1,0 +1,11 @@
+django-environ
+ruamel.yaml<0.16
+gitpython
+
+[dev]
+pytest
+pytest-cov
+pytest-mock
+
+[maintainer]
+zest.releaser[recommended]
