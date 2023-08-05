@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-clutch-widget
+Version: 0.0.2
+Summary: Easily include your Clutch Widget tag in your Django site
+Home-page: https://github.com/bravelab/django-clutch-widget
+Author: Bravelab.io team
+Author-email: office@bravelab.io
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
+
