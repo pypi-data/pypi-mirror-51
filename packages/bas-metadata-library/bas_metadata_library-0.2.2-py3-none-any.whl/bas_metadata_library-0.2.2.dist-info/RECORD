@@ -1,0 +1,13 @@
+bas_metadata_library/__init__.py,sha256=jRq9wMhsFcqY8djyUN_I6RP3w0AC2vBoUwaoQcx4y3Y,5788
+bas_metadata_library/standards/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bas_metadata_library/standards/iso_19115_v1/__init__.py,sha256=tPlmBs5nfw9tFZwiQQrunoooiIAGuIIUR957fb-RtDo,112322
+bas_metadata_library/standards/iso_19115_v1/profiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bas_metadata_library/standards/iso_19115_v1/profiles/inspire_v1_3.py,sha256=To9K4Mm8d5UFA_zZQR5KBkRMoIqrk4LTIFyZ9bz2kGw,9931
+bas_metadata_library/standards/iso_19115_v1/profiles/uk_pdc_discovery_v1.py,sha256=X4rwtaF5o71xuGIU7t6-uy2PKZ-3FMrFmhx1-n4X8rk,15674
+tests/standards/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/standards/test_standard/__init__.py,sha256=azezfh6p8HALzdlnVHLwfw5c3DkbtsinVTSrN-lOiH8,3892
+bas_metadata_library-0.2.2.dist-info/LICENSE.md,sha256=vsKZHtTmKeD076SAwthIF-AJNsHTZgn3_wT3G9ieaZg,369
+bas_metadata_library-0.2.2.dist-info/METADATA,sha256=PT8-XjcQBjypr0BBLDNV_JydsnIRGzHY8DhnrWoD_nQ,21303
+bas_metadata_library-0.2.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+bas_metadata_library-0.2.2.dist-info/top_level.txt,sha256=E2DwKpHn8px74VByGWMjSWKCkYW5XowLzVaOtd6dc5I,27
+bas_metadata_library-0.2.2.dist-info/RECORD,,
