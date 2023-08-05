@@ -1,0 +1,56 @@
+Metadata-Version: 1.2
+Name: cancer
+Version: 0.0.1
+Summary: cancer
+Home-page: https://github.com/pipname/cancer
+Author: Longniao
+Author-email: longniao@gmail.com
+Maintainer: Longniao
+Maintainer-email: longniao@gmail.com
+License: MIT
+Description: SDK
+        ===
+        
+        .. image:: https://img.shields.io/pypi/v/cancer.svg
+            :target: https://pypi.python.org/pypi/cancer/
+            :alt: Latest Version
+        
+        .. image:: https://img.shields.io/pypi/wheel/cancer.svg
+            :target: https://pypi.python.org/pypi/cancer/
+        
+        .. image:: https://img.shields.io/pypi/pyversions/cancer.svg
+            :target: https://pypi.python.org/pypi/cancer/
+        
+        .. image:: https://img.shields.io/pypi/l/cancer.svg
+            :target: https://pypi.python.org/pypi/cancer/
+        
+        
+        
+        SDK.
+        
+        
+        Installing
+        ----------
+        
+        Install and update using `pip`_:
+        
+        .. code-block:: text
+        
+            pip install -U cancer
+        
+        
+        
+        .. _pip: https://pip.pypa.io/en/stable/quickstart/
+        
+Keywords: cancer
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
