@@ -1,0 +1,9 @@
+pseudoflow/__init__.py,sha256=bsKXYqHFGAnY05epTczFGcTZ5FUeO_BW9LY9R3ChFAI,38
+pseudoflow/libhpf.so,sha256=fRBMog_Om-4bC8rm3cNbH_qxoSxOMxyKApNEJoEaRac,27136
+pseudoflow/python/__init__.py,sha256=Rbh--iUteXPyalP4Ft8lnVeFJNEj0ZJZP2EMVn9lv6M,29
+pseudoflow/python/hpf.py,sha256=Nu8hAZ2oQIIyQeHVN8fOO7cudNt44kbAu7qTjqzDoMA,4609
+pseudoflow-2019.8.3.dist-info/LICENSE.md,sha256=KChxzpAO_L9cmjH5ucMCA9Cb34XwWy9MjpJNh6QyF_Q,1572
+pseudoflow-2019.8.3.dist-info/METADATA,sha256=xQkkum1i0_PTO8gUm8yVO4B5A_v9baeObFQx5BtQzO8,6330
+pseudoflow-2019.8.3.dist-info/WHEEL,sha256=S_mX8sP6H8AMjLVRL5jkNlK73uf4g6NGqiKQ98w1PV0,106
+pseudoflow-2019.8.3.dist-info/top_level.txt,sha256=di7U7cucZFFenLumEYZGOjwV21a74pkI37PYOBPP0iw,11
+pseudoflow-2019.8.3.dist-info/RECORD,,
