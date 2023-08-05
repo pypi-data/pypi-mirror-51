@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pyflor
+Version: 0.0.3a48
+Summary: A diagnostics and sharing system for ML
+Home-page: https://github.com/ucbrise/flor
+Author: Rolando Garcia
+Author-email: rogarcia@berkeley.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: GitPython (>=2.1.7)
+Requires-Dist: jsonpickle (>=0.9.5)
+Requires-Dist: jsonschema (>=2.6.0)
+Requires-Dist: pandas (>=0.21.0)
+Requires-Dist: requests (>=2.20)
+Requires-Dist: requests-oauthlib (>=0.8.0)
+Requires-Dist: msgpack (>=0.5.6)
+Requires-Dist: msgpack-python (>=0.5.6)
+Requires-Dist: cloudpickle (>=0.5.3)
+Requires-Dist: astor (>=0.6)
+Requires-Dist: astunparse (>=1.6.1)
+Requires-Dist: ipykernel
+Requires-Dist: notebook
+Requires-Dist: conda
+Requires-Dist: cytoolz
+Requires-Dist: boto3
+
+![Travis](https://travis-ci.com/ucbrise/flor.svg?branch=master)
+![Python37](https://img.shields.io/badge/python-3.7-blue.svg)
+[![](https://badge.fury.io/py/pyflor.svg)](https://pypi.org/project/pyflor/)
+[![codecov](https://codecov.io/gh/ucbrise/flor/branch/master/graph/badge.svg)](https://codecov.io/gh/ucbrise/flor)
+
+Flor
+======
+
+Flor is a diagnostics and sharing system for the Machine Learning Lifecycle.
+Flor transparently captures complete execution traces (CETs) and surfaces them as relational tables with minimal human guidance.
+You can run SQL queries over CETs by annotating your code with log statements --- after your code executes.
+Run your ML code with confidence: you won't forget to track something important.
+When you need the value of some expression in your code, just click on it and give it a name, we'll do ETL.
+Ask your questions in SQL.
+
+Flor is a work in progress.
+You are welcome to try it now and give us feedback via Github Issues.
+We're working on making Flor run faster, without sacrificing completeness, transparency, or ease of use.
+[Learn more](https://flor.readthedocs.io)
+
+## License
+Flor is licensed under the [Apache v2 License](https://www.apache.org/licenses/LICENSE-2.0).
+
+
