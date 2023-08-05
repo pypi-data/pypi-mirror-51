@@ -1,0 +1,10 @@
+castep_parse/__init__.py,sha256=O1-CYoG5b36Si9T1x2x9HAOYSyvd1LXBLC8NI2yD6MA,150
+castep_parse/_version.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+castep_parse/readers.py,sha256=RTdrvJCEg7LCJ8I1YxRoe_dfDqARez43jSSqvmOvc68,38852
+castep_parse/utils.py,sha256=TJ7dfMrcJT3uYIDufQ_m80lhhPK-QBaxzKvMO7TpGKo,11478
+castep_parse/writers.py,sha256=-R7tGR-GFFvwaY0M-1n4JoUsWdKTizFDscHu-3Yx8LM,14553
+castep_parse-0.1.4.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+castep_parse-0.1.4.dist-info/METADATA,sha256=lHoiZcTSQTIqQRyiJXhE9D6WLpwaVCgMsbOc0KSTqqM,1620
+castep_parse-0.1.4.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+castep_parse-0.1.4.dist-info/top_level.txt,sha256=CurHN0hGk476FP1dAvQ5ENqwnBpIN783wYEDT38TNAI,13
+castep_parse-0.1.4.dist-info/RECORD,,
