@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: gorpyter
+Version: 0.6.0
+Summary: Python wrapper for GOR's R SDK with Pandas serialization.
+Home-page: https://pypi.org/project/gorpyter/
+Author: Layne Sadler
+Author-email: layne.sadler@gmail.com
+License: WXNC
+Description: ---
+        # GORpyter
+         
+        1. Python package (with pandas serialization) that wraps the R SDK of the GOR Query API.
+        2. Docker image for JupyterLab (Python & R kernels) with both the Python & R SDK dependencies installed.
+        
+        * `gp.query()` converts the R tibble dataframe into a pandas dataframe on the fly.
+        * rpy2 package is used to wrap the gorr R library functions in Python.
+        * Jupyter R kernel has tidyverse (tricky install) and gorr (non-CRAN) packages installed.
+        * Docker image also includes OpenJDK 1.8 in case users want to install Spark.
+        
+        
+        ##### TLDR 
+        ```
+        $ docker pull hashrocketsyntax/gorpyter:aug22
+        $ docker run -it -p 8888:8888 hashrocketsyntax/gorpyter:aug22
+        ```
+        Read the rest of the documentation for complete setup & usage.
+        
+        ---
+        
+        # 1. Docker Environment
+        ##### LOCAL NOTEBOOK FOLDER
+        Create a folder on your local machine's desktop where you will store your notebooks. Keep the output of `pwd` handy as we will use it with the `volumes` yml keys below.
+        ```
+        $ cd ~/Desktop
+        $ mkdir notebooks
+        $ pwd
+        '<PATH_TO_YOUR_NEW_FOLDER>'
+        ```
+        
+        ##### DOCKER IMAGE & MANIFEST
+        Pull in this pre-built image which contains a Jupyter environment equipped with R and Python 3.7 kernels as well as the GORpyter dependencies. It's built on top of Jupyter's latest DockerHub image `jupyter/datascience-notebook:2ce7c06a61a1`. If you want to customize this image your self, see Section 3.
+        ```
+        $ docker pull hashrocketsyntax/gorpyter:aug22
+        ```
+        Create a file named `docker-compose.yml` and open it with a text editor (nano or SublimeText). 
+        ```
+        $ touch docker-compose.yml
+        $ nano docker-compose.yml
+        ```
+        Paste the text below into that file. Under the `volumes` key, paste in the output of `pwd` from above.
+        ```
+        #docker-compose.yml
+        version: "3"
+        services:
+          jupyter:
+            image: "hashrocketsyntax/gorpyter:aug22"
+            ports:
+              - "8888:8888"
+            volumes:
+              - <PATH_TO_YOUR_NEW_FOLDER>:/usr/local/share/man/user_notebooks
+        ```
+        Make sure you are in the same directory as the .yml file and run it like so.
+        ```
+        $ docker-compose up
+        ```
+        From the console output, grab the URL that looks like this `http://127.0.0.1:8888/?token=<YOUR_TOKEN>` and paste it into a browser.
+        
+        ---
+        
+        # 2. JupyterLab Notebooks
+        ##### PYTHON PACKAGE
+        ```
+        pip install gorpyter --upgrade
+        ```
+        * `conda install` will *not* work as this package has not been published to conda-forge.
+        * Latest version number can be seen here `https://pypi.org/project/gorpyter`, as compared to output of `pip show gorpyter`.
+        * Installing gorpyter will also install these dependencies: rpy2>=3.0.5, tzlocal>=2.0.0, pandas>=0.25.0, numpy>=1.17.0.
+        
+        
+        ##### GOR QUERY LANGUAGE
+        > http://docs.wuxinextcode.com/gor/basicGORqueries.html
+        
+        
+        ##### TUTORIAL NOTEBOOK
+        The Docker environment includes this notebook as a tutorial which is available as a gist `http://bit.ly/gp-ipynb`.
+        
+        You'll notice that the notebooks you create in the JupyterLab web interface will be saved to the folder we created on your desktop.
+        
+        ```
+        #jupyter_notebook.ipynb
+        
+        
+        pip install gorpyter --upgrade
+        import gorpyter as gp
+        
+        
+        gp.setup()
+        """
+          CHECKLIST
+          =============================================
+        
+        	✓ -- The version of your Jupyter Python environment is '3.7.3'.
+        	✓ -- The path of the Jupyter R enviroment being accessed by `rpy2` is '/opt/conda/lib/R'.
+        
+        	✓ -- The Python dependencies of `gorpyter` are installed.
+        	✓ -- The `tidyverse` R library is installed in your R environment.
+        	✓ -- The `gorr` R library is installed in your R environment.
+        	✓ -- Python was able to successfully load `gorr` as a module via `rpy2`.
+        
+          =============================================
+        """
+        
+        
+        project = "<YOUR_PROJECT_NAME>"
+        api_key = "<YOUR_API_KEY>"
+        conn = gp.connect(project=project, api_key=api_key)
+        
+        
+        gp.query(query="<YOUR_GOR_QUERY>", conn=conn)
+        """
+        	nor example -- "nor ./"
+        	gor example -- "gor -p chr10 #dbsnp# | TOP 100"
+        
+        	Tested successfully on a 1,000,000 row result.
+        
+        	Despite being run in Python, interupting the client's execution 
+          of this function in `ctrl+c` manner is surprisingly still gracefully 
+          intercepted by the gorr R library, and thus the server-side 
+          execution of the query is simultaneously cleaned up.
+        """
+        ```
+        
+        ---
+        
+        # 3. Optional -- Customizing the Docker Image
+        In order to create your own Docker image based on `jupyter/datascience-notebook:latest`, follow these instructions.
+        
+        With these files in the same directory:
+        * Dockerfile
+        * gorpyter_tutorial.ipynb
+        
+        Run `docker build -t your-image-name:your-new-tag .` from within that directory.
+        
+        Here are the commands contained in the Dockerfile.
+        ```
+        #Dockerfile
+        FROM jupyter/datascience-notebook:latest
+        MAINTAINER layne sadler <lsadler@wuxinextcode.com>
+        
+        
+        # ====== PRE SUDO ======
+        ENV JUPYTER_ENABLE_LAB=yes
+        
+        # If you run pip as sudo it continually prints errors.
+        # Tidyverse is already installed, and installing gorpyter installs the correct versions of other Python dependencies.
+        RUN pip install gorpyter
+        RUN Rscript -e "install.packages('https://cdn.nextcode.com/public/libraries/gorr_0.2.5.tar.gz', repos = NULL, type = 'source')"
+        ENV R_HOME=/opt/conda/lib/R
+        
+        # https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch04s09.html
+        # Looks like /usr/local/man is symlinking all R/W toward /usr/local/share/man instead
+        COPY gorpyter_tutorial.ipynb /usr/local/share/man
+        ENV NOTEBOOK_DIR=/usr/local/share/man
+        WORKDIR /usr/local/share/man
+        
+        
+        # ====== SUDO ======
+        USER root
+        
+        # Spark requires Java 8.
+        RUN sudo apt-get update && sudo apt-get install openjdk-8-jdk -y
+        ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+        
+        # If you COPY files into the same VOLUME that you mount in docker-compose.yml, then those files will disappear at runtime.
+        # `user_notebooks/` is the folder that gets mapped as a VOLUME to the user's local folder during runtime.
+        RUN mkdir /usr/local/share/man/user_notebooks
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
