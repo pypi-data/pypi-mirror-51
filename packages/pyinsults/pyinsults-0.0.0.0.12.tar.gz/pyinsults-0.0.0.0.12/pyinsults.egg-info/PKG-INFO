@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyinsults
+Version: 0.0.0.0.12
+Summary: A Python module, allowing you to cuss at your users.
+Home-page: https://github.com/lucassel/pyinsults
+Author: Lucas Selfslagh
+License: MIT
+Description: # pyinsults
+        
+        That's right, harness the power of `Python` to dynamically call your users really inapropriate names.
+        
+        # Installation
+        
+        Install using ```pip install pyinsults```
+        
+        Upgrade *frequently* using ```pip install pyinsults --upgrade```
+        
+        
+        # Usage
+        
+        ```from pyinsults import insults ```
+        > Done in [.01s]
+        
+        ``` print(insults.short_insult()) ```
+        > dickwad
+        
+        ``` print(insults.long_insult()) ```
+        > stinking dickwad
+        
+        ``` print(insults.insultify("Have a nice day, you {}!")) ```
+        > Have a nice day, you stinking dickwad!
+        
+        
+        # Deployment
+        
+        Build using ```python setup.py sdist bdist_wheel```
+        
+        Upload using ```twine upload dist/*```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/plain

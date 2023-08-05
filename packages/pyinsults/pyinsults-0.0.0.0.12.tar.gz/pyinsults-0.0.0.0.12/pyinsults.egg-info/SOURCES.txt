@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyinsults/insults.py
+pyinsults.egg-info/PKG-INFO
+pyinsults.egg-info/SOURCES.txt
+pyinsults.egg-info/dependency_links.txt
+pyinsults.egg-info/entry_points.txt
+pyinsults.egg-info/top_level.txt
