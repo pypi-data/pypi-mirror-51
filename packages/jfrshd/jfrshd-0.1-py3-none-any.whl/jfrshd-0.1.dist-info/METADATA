@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jfrshd
+Version: 0.1
+Summary: A utility package combining various useful functions
+Home-page: https://github.com/jfr-shd/Utilities
+Author: Jaafar Shhade
+Author-email: jfrshd94@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Done by Jaafar Shhade
+
+
