@@ -1,0 +1,15 @@
+gltf/__init__.py,sha256=xhcU7mivmCdHIbpYifTU4wNI7hitzTlj5_oSv-AwRNE,945
+gltf/cli.py,sha256=60gK04F3XJTd9BeOWDP2NNSmW2BkdhMe4O0cIVO1KxI,1155
+gltf/converter.py,sha256=HTHVNEmBSvmDDU7tlzg7QOY6L1w6N6EE1ZfCGoT5rjE,49852
+gltf/loader.py,sha256=obz8DQmM4Ao-8Rpaco4XIzGpUwszUPiGDYhrDY0uIBE,535
+gltf/post.vert,sha256=uQXYsVkkiP0lk1FfueEsOoJqi6Tbskg_o0-cA4ipXH4,245
+gltf/simplepbr.frag,sha256=0bSLq9rH4jQp0HudkztMIAUK-P9Mcs3MB2SiRDOdG3M,4137
+gltf/simplepbr.vert,sha256=_KEOie9SlOlk_H3mZ8DSSUxkjWQqoJwUcadgKHXLCKw,485
+gltf/tonemap.frag,sha256=K9si3qxZMvENh9kK-_rm0_FBf0TspGvdTCS-J4UBMkA,336
+gltf/viewer.py,sha256=hLclbiLmAxfd3m8LES7mfKCncQD13NxO1JiQ8p5kx1c,2512
+panda3d_gltf-0.1.1.dist-info/LICENSE.txt,sha256=IP4eZ3VLODdKz-ZzoSnmBM_z4wdDWxbV-VBE3p8xgd0,1515
+panda3d_gltf-0.1.1.dist-info/METADATA,sha256=EGl3ABm52AsW0moQaKMmMo4BIXtG5kG807umJraKnNo,3186
+panda3d_gltf-0.1.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+panda3d_gltf-0.1.1.dist-info/entry_points.txt,sha256=aXKP9n1kL4sSaGg-QxkQlK0RJ4UygH4y4w7Wd8v75ic,139
+panda3d_gltf-0.1.1.dist-info/top_level.txt,sha256=5SdftPAVwgiPp585NcUNJ2oKG6IZfApMchxkwhe1uBA,5
+panda3d_gltf-0.1.1.dist-info/RECORD,,
