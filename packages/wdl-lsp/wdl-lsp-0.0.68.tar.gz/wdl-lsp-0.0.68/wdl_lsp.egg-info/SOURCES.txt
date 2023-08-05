@@ -1,0 +1,14 @@
+requirements.txt
+setup.py
+wdl_lsp/__init__.py
+wdl_lsp/__main__.py
+wdl_lsp/server.py
+wdl_lsp.egg-info/PKG-INFO
+wdl_lsp.egg-info/SOURCES.txt
+wdl_lsp.egg-info/dependency_links.txt
+wdl_lsp.egg-info/entry_points.txt
+wdl_lsp.egg-info/requires.txt
+wdl_lsp.egg-info/top_level.txt
+wdl_lsp/tests/__init__.py
+wdl_lsp/tests/unit/__init__.py
+wdl_lsp/tests/unit/test_features.py
