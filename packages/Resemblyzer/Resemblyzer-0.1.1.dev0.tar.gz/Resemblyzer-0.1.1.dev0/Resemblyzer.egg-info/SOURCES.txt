@@ -1,0 +1,12 @@
+README.md
+setup.py
+Resemblyzer.egg-info/PKG-INFO
+Resemblyzer.egg-info/SOURCES.txt
+Resemblyzer.egg-info/dependency_links.txt
+Resemblyzer.egg-info/requires.txt
+Resemblyzer.egg-info/top_level.txt
+resemblyzer/__init__.py
+resemblyzer/audio.py
+resemblyzer/hparams.py
+resemblyzer/pretrained.pt
+resemblyzer/voice_encoder.py
