@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: plprofiler
+Version: 4.1
+Summary: PL/pgSQL Profiler module and command line tool
+Home-page: https://bitbucket.org/openscg/plprofiler/overview
+Author: Jan Wieck
+Author-email: jan@wi3ck.info
+License: Artistic License and CDDL
+Platform: UNKNOWN
+Requires-Dist: configparser
+Requires-Dist: psycopg2-binary
+
+UNKNOWN
+
+

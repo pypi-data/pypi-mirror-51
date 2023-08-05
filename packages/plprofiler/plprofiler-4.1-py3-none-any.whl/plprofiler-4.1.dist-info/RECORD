@@ -1,0 +1,15 @@
+plprofiler/__init__.py,sha256=bIjczLpCXV_joQcy13R3TxqrJSvu8R4ayc6NHETRQD8,69
+plprofiler/plprofiler.py,sha256=G_D6CYiqzLTr3erhCZ1Vvyr7t69-ImJrHQAvOpf3uTc,43293
+plprofiler/plprofiler_report.py,sha256=CQRUKxfjp965G4g1CA-zQDE8cPZF46n6wiQIhVlU0HY,9861
+plprofiler/plprofiler_tool.py,sha256=secyOFDMd-dbsT1APi3R2wbuBEkZhnAFqBmPVGdsTEs,37497
+plprofiler/sql_split.py,sha256=Mw0jwFJq-ok7iTgHSaFCax179hV5YLqgQNxNhLULjJ4,5988
+plprofiler/lib/FlameGraph/README,sha256=OIEVvQJOx-PPv_Go1vqkwpOw-vBdhxhoV8MXAIOrXO4,5813
+plprofiler/lib/FlameGraph/README-plprofiler,sha256=MFuI3ToizBZPNm36yp_5gBM41ip0XBgxLHsjDQII8c8,407
+plprofiler/lib/FlameGraph/flamegraph.pl,sha256=0_wTt2yw6ajXXJDkE3Kdf6CyVizV2Hq97Pv0MVdUbj8,25703
+plprofiler-4.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+plprofiler-4.1.dist-info/METADATA,sha256=uSdxC1IByBw6fZ6JZ4Y9kTAItVaA8fi477KhH_3-D2c,339
+plprofiler-4.1.dist-info/RECORD,,
+plprofiler-4.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+plprofiler-4.1.dist-info/entry_points.txt,sha256=UGOpajo3sZkCTqBQPJxZ6bxueRMQ4nc0kAIm_baz0u0,48
+plprofiler-4.1.dist-info/metadata.json,sha256=mqbT60dgMD5vF1siQ7wvbG8n_5WAJpl_zBB5CMpw_LU,685
+plprofiler-4.1.dist-info/top_level.txt,sha256=kDOwhmo24TcTv8HYJQ0efu9EBniRFkzxh5KDko9CXAg,11
