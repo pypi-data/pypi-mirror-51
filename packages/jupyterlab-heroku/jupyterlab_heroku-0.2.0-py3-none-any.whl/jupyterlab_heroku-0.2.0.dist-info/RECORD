@@ -1,0 +1,8 @@
+jupyterlab_heroku/__init__.py,sha256=DiOv09Ow9N2sMF99rECpuQ9lqcD6AEe1Xmag89Ap8Eo,414
+jupyterlab_heroku/_version.py,sha256=eLWH0OHzSRHNn3YkmUYN3jLSjiElgUkIePY2UD0z814,72
+jupyterlab_heroku/handlers.py,sha256=vdjxLNHShJ_ucn3xjvHbvRXEvAoSmh-xY2fqRlazBKQ,2448
+jupyterlab_heroku/heroku.py,sha256=n9IWzT1JO27XIDH5l-8GyBwv8pLm292bJnNw8o5O1qw,5650
+jupyterlab_heroku-0.2.0.dist-info/METADATA,sha256=roeJlau67U_VD5I6SQNPZz_S9L5vkYwJRYtl0OWm0JY,3354
+jupyterlab_heroku-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+jupyterlab_heroku-0.2.0.dist-info/top_level.txt,sha256=KMovT_J_xu1NXh7upzGqo3CEB3H33ReS3ZSyHjWe_nQ,18
+jupyterlab_heroku-0.2.0.dist-info/RECORD,,
