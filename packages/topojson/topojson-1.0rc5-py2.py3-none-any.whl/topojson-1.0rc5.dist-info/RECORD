@@ -1,0 +1,14 @@
+topojson/__init__.py,sha256=uarmMO-joStHDYVPHJ6EbVE2608-QXtmbKDVf7yKCGg,1180
+topojson/ops.py,sha256=z2WQIz45tZ-jYvKmYTQu8Yi2WcDqJpPvK7WsQW6gSg0,20902
+topojson/utils.py,sha256=FIYVqYzgPklvJPZ4kkKaCgkfIVbpIu6OudY3mc0BjU8,7753
+topojson/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+topojson/core/cut.py,sha256=BbVjMj6OpxhlGzjLNmtr93t1KkBLBuhK6JoCfEXAsac,6432
+topojson/core/dedup.py,sha256=wREz3MvvxcI5Bvn7zqQ-hIozKaQhUThj_8jgknCI4Nc,8953
+topojson/core/extract.py,sha256=26gYzfFM44q2nHgqD-rHitmOf3ib2iHAAzbkswPRYS0,17390
+topojson/core/hashmap.py,sha256=95pNCnIPUINMm89o_Et71xtd1Dof6rxL40hGwmqzTYQ,13531
+topojson/core/join.py,sha256=q90k-1r6lPhRCq4voVJZSrOk1s3sXwaAbQemtPplakM,8473
+topojson/core/topology.py,sha256=1aW9b9IUVoK4HfGHVSJIyKoYi3FtohyYdhBifkjS5kA,9807
+topojson-1.0rc5.dist-info/LICENSE,sha256=SVQyICdcz1u-qYDbdMmcs2RWyceYXdSNlFeq7z1Xb04,1522
+topojson-1.0rc5.dist-info/WHEEL,sha256=usNa9Fq6mCRPjU0ni2GkKTRNslEQMRmf71yu-hUF958,99
+topojson-1.0rc5.dist-info/METADATA,sha256=VNolkKM5inruyd70lJ61pmrM4g3GT1VXswnHbZD8ypQ,14496
+topojson-1.0rc5.dist-info/RECORD,,
