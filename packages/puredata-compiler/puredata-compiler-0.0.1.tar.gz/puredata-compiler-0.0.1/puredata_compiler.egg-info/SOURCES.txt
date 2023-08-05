@@ -1,0 +1,8 @@
+README.md
+setup.py
+puredata_compiler/__init__.py
+puredata_compiler/api.py
+puredata_compiler.egg-info/PKG-INFO
+puredata_compiler.egg-info/SOURCES.txt
+puredata_compiler.egg-info/dependency_links.txt
+puredata_compiler.egg-info/top_level.txt
