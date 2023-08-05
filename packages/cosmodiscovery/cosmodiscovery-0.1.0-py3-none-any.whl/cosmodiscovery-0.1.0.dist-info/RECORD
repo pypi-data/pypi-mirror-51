@@ -1,0 +1,10 @@
+cosmodiscovery/__init__.py,sha256=BLLAjs8Fc3XAoUZHc12RtofgqjER9YIHa104Sw7keHQ,93
+cosmodiscovery/client.py,sha256=cDzcXWePi4QgWbfTKaWVmE2Orvi8bAL8r3W3CU-yRZ0,2252
+cosmodiscovery/message.py,sha256=9q5lX9PyC9b8Ca5_ijg0I3QlewIDuBW85Q_ZqqGYzgg,1576
+cosmodiscovery/server.py,sha256=-WjsRqIRG1nUyEQeWmEmyL6ewT7uuN2zzEUMKJePm9M,1965
+cosmodiscovery/utils.py,sha256=ZpCUib4hp2TIIWhBFa39HFXfRBZHvoh4UyXc_wOLyGE,464
+cosmodiscovery-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cosmodiscovery-0.1.0.dist-info/METADATA,sha256=K8PNZ41tBON1UMvd3AgWtpa9OuLOGeX_NbKaUQnc4fw,2271
+cosmodiscovery-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cosmodiscovery-0.1.0.dist-info/top_level.txt,sha256=HzGk7LMMleRBVjcCUb3yqVKx16hcFSrD69xlsAZKwuw,15
+cosmodiscovery-0.1.0.dist-info/RECORD,,
