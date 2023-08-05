@@ -1,0 +1,13 @@
+pyred/__init__.py,sha256=tA6T9AIGKG_ISlDX-eEJtfSxuPjOpSIj5BaxdadKskc,169
+pyred/create.py,sha256=oz9tAfn260P-Zy024Ci8PYe_HxOPbR6UqT2YUKe0Rek,8131
+pyred/execute.py,sha256=T4ocpMgQAsVV9mGXtt8XZgaheet4rm_z7eurKEp6iDs,1353
+pyred/redshift_credentials.py,sha256=XXyQGokiIK-vGdO5KUdC-6sIbYMZGna8gUlcav2Gm_c,374
+pyred/send.py,sha256=jZLB5arZTU9KSlLPWpGxHE-Sg15VEzUmgF5OTIXI-QU,4609
+pyred/tunnel.py,sha256=lAYzD4ZXvpSIvfndRQ5-zDDzEweWFWWKFN-H8vTFKTQ,1281
+pyred/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyred/tools/print_colors.py,sha256=d4K3XFal0eUn2rJO23XOmwb1ka1qn5CxeRhOdCQ_oao,196
+pyred-0.2.7.dist-info/LICENSE,sha256=q1jZyTIZpHrstbFQRrQznA8hU13VfN-TbmtDEh1w1Kw,1049
+pyred-0.2.7.dist-info/METADATA,sha256=UJQe2mR5smZNOtWS3BI5IvPvpZU5jn61-z2qrj1pb3Q,3282
+pyred-0.2.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyred-0.2.7.dist-info/top_level.txt,sha256=zxL5uFpXronAHX06fTv1mZCgbNGE4pn_GzAkJoUkbSY,6
+pyred-0.2.7.dist-info/RECORD,,
