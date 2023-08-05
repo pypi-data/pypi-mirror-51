@@ -1,0 +1,8 @@
+README.rst
+setup.py
+server_dev.egg-info/PKG-INFO
+server_dev.egg-info/SOURCES.txt
+server_dev.egg-info/dependency_links.txt
+server_dev.egg-info/top_level.txt
+serverdev/__init__.py
+serverdev/model.py
