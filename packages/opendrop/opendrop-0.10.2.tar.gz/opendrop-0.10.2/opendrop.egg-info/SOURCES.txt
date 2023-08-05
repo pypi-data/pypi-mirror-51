@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+opendrop/__init__.py
+opendrop/__main__.py
+opendrop/cli.py
+opendrop/client.py
+opendrop/config.py
+opendrop/server.py
+opendrop/util.py
+opendrop/zeroconf.py
+opendrop/certs/apple_root_ca.pem
