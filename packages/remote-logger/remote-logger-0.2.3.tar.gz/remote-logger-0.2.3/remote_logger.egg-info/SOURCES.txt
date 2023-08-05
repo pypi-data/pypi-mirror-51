@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+remote_logger/__init__.py
+remote_logger/remote_logger_handler.py
+remote_logger.egg-info/PKG-INFO
+remote_logger.egg-info/SOURCES.txt
+remote_logger.egg-info/dependency_links.txt
+remote_logger.egg-info/requires.txt
+remote_logger.egg-info/top_level.txt
+remote_logger/clients/__init__.py
+remote_logger/clients/logger_client.py
+remote_logger/clients/sentry_logger_client.py
+remote_logger/clients/stackdriver_logger_client.py
+remote_logger/util/__init__.py
+remote_logger/util/definitions.py
+remote_logger/util/excepts.py
