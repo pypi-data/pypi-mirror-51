@@ -1,0 +1,12 @@
+README.md
+setup.py
+devutils/__init__.py
+devutils/utils.py
+devutils.egg-info/PKG-INFO
+devutils.egg-info/SOURCES.txt
+devutils.egg-info/dependency_links.txt
+devutils.egg-info/top_level.txt
+devutils/tests/__init__.py
+devutils/tests/test_devutils.py
+devutils/tests/test_module/__init__.py
+devutils/tests/test_module/test_module.py
