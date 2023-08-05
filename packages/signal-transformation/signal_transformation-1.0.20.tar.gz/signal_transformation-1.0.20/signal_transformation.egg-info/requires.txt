@@ -1,0 +1,6 @@
+numpy
+pydub
+tensorflow
+pylint
+librosa
+ffmpeg
