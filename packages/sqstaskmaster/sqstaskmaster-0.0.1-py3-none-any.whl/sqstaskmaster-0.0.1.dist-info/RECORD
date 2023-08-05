@@ -1,0 +1,12 @@
+sqstaskmaster/__init__.py,sha256=uGwR29yJdEgbEBc3MkYaASpkBKv2IF9iGINP4V_2Wew,58
+sqstaskmaster/message_handler.py,sha256=q2XIKbpg5oP0FA4UVrTvRWNlNAjqRQxmCgMnuzFXVBg,5374
+sqstaskmaster/task_manager.py,sha256=rDgYtYNioHrGuWRTL2NnrQVkDg_3qe4m3fiKXjbevik,4999
+sqstaskmaster/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+sqstaskmaster/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqstaskmaster/tests/test_message_handler.py,sha256=fNKv0WNiQT-EZA0IAKG5vU3n9F5oC88mdGgpemFB7Ws,10003
+sqstaskmaster/tests/test_task_manager.py,sha256=YokkDyyn0vwQxbFBJ5vtma7DO3KfK0XwqtsmSCDP5AE,5308
+sqstaskmaster-0.0.1.dist-info/LICENSE,sha256=3urjyqIlf7UG6DKuZwlL4b5n4L8JoKiqvQ7v6CyyvvQ,1070
+sqstaskmaster-0.0.1.dist-info/METADATA,sha256=5OspphFmAWKXONpX7FXnUFDdYpK9S80tHg3Gk5YiMaM,1856
+sqstaskmaster-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sqstaskmaster-0.0.1.dist-info/top_level.txt,sha256=bx5lmN4gGOkXJx0zg6eQoo18crdesbf_Rnd-WqtD4og,14
+sqstaskmaster-0.0.1.dist-info/RECORD,,
