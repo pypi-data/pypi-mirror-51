@@ -1,0 +1,7 @@
+statsmodels
+nltk
+pydotplus
+python-graphviz
+wordcloud
+newspaper3k
+newsapi-python
