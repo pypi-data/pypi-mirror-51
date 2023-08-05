@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+confiddler/__init__.py
+confiddler/_version.py
+confiddler/core.py
+confiddler/json.py
+confiddler.egg-info/PKG-INFO
+confiddler.egg-info/SOURCES.txt
+confiddler.egg-info/dependency_links.txt
+confiddler.egg-info/requires.txt
+confiddler.egg-info/top_level.txt
+confiddler/tests/__init__.py
+confiddler/tests/test_core.py
+confiddler/tests/test_json.py

@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: confiddler
+Version: 0.1.2
+Summary: Utilities for defining, reading, and writing config files
+Home-page: https://github.com/stuarteberg/confiddler
+Author: Stuart Berg
+Author-email: bergs@janelia.hhmi.org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: confiddler
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
