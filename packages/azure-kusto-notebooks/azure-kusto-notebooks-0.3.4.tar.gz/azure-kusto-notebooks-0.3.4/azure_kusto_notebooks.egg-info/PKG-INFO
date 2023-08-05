@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: azure-kusto-notebooks
+Version: 0.3.4
+Summary: utilities for working with kusto from notebooks
+Home-page: https://github.com/zachariahcox/azure-kusto-notebooks
+Author: zachariah.cox@gmail.com
+Author-email: zachariah.cox@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
