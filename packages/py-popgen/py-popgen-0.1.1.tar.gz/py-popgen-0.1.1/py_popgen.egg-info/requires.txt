@@ -1,0 +1,6 @@
+Cython
+pysam
+pandas
+pybedtools
+scikit-learn
+matplotlib
