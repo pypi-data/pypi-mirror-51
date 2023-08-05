@@ -1,0 +1,7 @@
+README.md
+setup.py
+aya/__init__.py
+snapshotserengeti_aya.egg-info/PKG-INFO
+snapshotserengeti_aya.egg-info/SOURCES.txt
+snapshotserengeti_aya.egg-info/dependency_links.txt
+snapshotserengeti_aya.egg-info/top_level.txt
