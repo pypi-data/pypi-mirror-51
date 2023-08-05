@@ -1,0 +1,13 @@
+zsh_jupyter_kernel/__init__.py,sha256=VmMpXXYUYIsEM5pSNtpfQuG0Agmoo2Ni-tw8MG8GZxU,42
+zsh_jupyter_kernel/__main__.py,sha256=K0ZkwgPHTzZvCu6lc38BSGG1mP3BleN-cq7Mp61AAB4,129
+zsh_jupyter_kernel/banner.txt,sha256=e9QqUFSD0GtDtNb7E7oov4fCFAlt4eGXU_Y3h72hcK8,279
+zsh_jupyter_kernel/capture.zsh,sha256=ibzfMmsaEsTEH0EfXw7DnedTHGg2SvRI-0BoGbb4HO8,5164
+zsh_jupyter_kernel/config.py,sha256=BYNEXlwtpV7k4jL4anUl-LrYGrdqlChD6fd-YmEFjQA,6161
+zsh_jupyter_kernel/install.py,sha256=NleK3t5BDhD_BCM73_mLM-ztps3-lMPvOoeC3wcdVVQ,1646
+zsh_jupyter_kernel/kernel.py,sha256=46snWgxAISoKFq0S1HFTSBNOywWXggItky-rjAhe4T4,10331
+zsh_jupyter_kernel/kernel_test.py,sha256=cP60b8X5poUvwmF1_bEdaezHIXnxAXzk-51wj81SZBw,4518
+zsh_jupyter_kernel/readme.md,sha256=z77fHP3wdjgLRgqVBg_GY_aHIXttPjHFZ6oMnyIq974,1775
+zsh_jupyter_kernel-3.1.dist-info/METADATA,sha256=CntIvh0SIJKwgjKkAGh5-sB2swBFjwXn6g7GU1lIhLY,2729
+zsh_jupyter_kernel-3.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+zsh_jupyter_kernel-3.1.dist-info/top_level.txt,sha256=kD3oDxAgM5OdBgQosASgdA1s7yg8j-wrihbuGUOq5jU,19
+zsh_jupyter_kernel-3.1.dist-info/RECORD,,
