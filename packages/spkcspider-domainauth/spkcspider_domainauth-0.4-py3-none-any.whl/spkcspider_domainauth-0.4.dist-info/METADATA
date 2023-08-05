@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: spkcspider-domainauth
+Version: 0.4
+Summary: Helper for spkcspiders domain authentication
+Home-page: https://github.com/spkcspider/spkcspider-domainauth
+Author: Alexander Kaftan
+Requires-Python: >=3.5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: spkcspider
+Provides-Extra: test
+Requires-Dist: django (>=2.0)
+Project-URL: Repository, https://github.com/spkcspider/spkcspider-domainauth
+Description-Content-Type: text/markdown
+
+
+
+Helper for db based domain auth
+
+# Installation
+
+~~~~ sh
+pip install spkcspider-domainauth
+~~~~
+
+settings:
+
+~~~~
+...
+INSTALLED_APPS = [
+...
+    spider_domainauth
+...
+]
+~~~~
+
+# Usage:
+
+~~~~ python
+from spider_domainauth.models import ReverseToken
+
+# overloaded method
+ReverseToken.object.create(secret="kskls")
+~~~~
+
+
+# TODO:
+* overload other manager methods
+* better examples
+
