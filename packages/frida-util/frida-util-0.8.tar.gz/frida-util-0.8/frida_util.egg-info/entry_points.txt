@@ -1,0 +1,3 @@
+[console_scripts]
+frida-util = frida_util.cli.cli:main
+

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: frida-util
+Version: 0.8
+Summary: Silly python wrapper around Frida.
+Home-page: https://github.com/bannsec/frida-util
+Author: Michael Bann
+Author-email: self@bannsecurity.com
+License: MIT
+Description: See website for more info.
+Keywords: frida stalker python3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Provides-Extra: dev
