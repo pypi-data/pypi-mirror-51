@@ -1,0 +1,34 @@
+Metadata-Version: 1.0
+Name: djangocms-light-gallery
+Version: 1.0.0
+Summary: Light Gallery plugin for django CMS
+Home-page: https://github.com/andyklimczak/djangocms-light-gallery
+Author: Andy Klimczak
+Author-email: andyklimczak@fastmail.com
+License: MIT
+Description: |PyPI version|
+        
+        DjangoCMS plugin for `Light Gallery
+        1.4.0 <https://github.com/sachinchoolur/lightGallery>`__
+        
+        `Example with default
+        settings <https://andy-djangocms-test.herokuapp.com/light-gallery/>`__
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install djangocms-light-gallery
+        
+            INSTALLED_APPS = [
+            // ...
+            'light_gallery',
+            // ...
+        
+            python manage.py migrate
+        
+        .. |PyPI version| image:: https://badge.fury.io/py/djangocms-light-gallery.svg
+           :target: https://badge.fury.io/py/djangocms-light-gallery
+        
+Platform: UNKNOWN
