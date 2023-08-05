@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ckipneutools
+Version: 0.0.4
+Summary: Neural implementation of CKIP WS, POS, NER tools
+Home-page: https://github.com/jacobvsdanniel/ckipneutools
+Author: Peng-Hsuan Li
+Author-email: jacobvsdanniel@gmail.com
+License: UNKNOWN
+Description: # ckipneutools
+        
+        author: Peng-Hsuan Li (jacobvsdanniel@gmail.com)
+        
+        This is open-source neural implementation for
+        * CKIP-style Chinese word segmentation
+        * CKIP-style Chinese part-of-speech tagging
+        * CKIP-style Chinese named entity recognition
+        
+        ### License
+        CC BY-NC-SA 4.0
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: gdown
+Provides-Extra: tf
+Provides-Extra: tfgpu
