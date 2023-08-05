@@ -1,0 +1,5 @@
+include README.md
+include webplatform_auth/container/data/README.md
+recursive-include webplatform_auth/container *
+recursive-include webplatform_auth/app *
+exclude webplatform_auth/app/__pycache__/*
