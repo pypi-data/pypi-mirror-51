@@ -1,0 +1,56 @@
+Metadata-Version: 1.2
+Name: kits
+Version: 0.0.1
+Summary: kits
+Home-page: https://github.com/pipname/kits
+Author: Longniao
+Author-email: longniao@gmail.com
+Maintainer: Longniao
+Maintainer-email: longniao@gmail.com
+License: MIT
+Description: SDK
+        ===
+        
+        .. image:: https://img.shields.io/pypi/v/kits.svg
+            :target: https://pypi.python.org/pypi/kits/
+            :alt: Latest Version
+        
+        .. image:: https://img.shields.io/pypi/wheel/kits.svg
+            :target: https://pypi.python.org/pypi/kits/
+        
+        .. image:: https://img.shields.io/pypi/pyversions/kits.svg
+            :target: https://pypi.python.org/pypi/kits/
+        
+        .. image:: https://img.shields.io/pypi/l/kits.svg
+            :target: https://pypi.python.org/pypi/kits/
+        
+        
+        
+        SDK.
+        
+        
+        Installing
+        ----------
+        
+        Install and update using `pip`_:
+        
+        .. code-block:: text
+        
+            pip install -U kits
+        
+        
+        
+        .. _pip: https://pip.pypa.io/en/stable/quickstart/
+        
+Keywords: kits
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
