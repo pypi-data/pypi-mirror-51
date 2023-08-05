@@ -1,0 +1,4 @@
+pytorch-transformers>=1.1.0
+fastai
+pytorch-lamb
+tensorboardX
