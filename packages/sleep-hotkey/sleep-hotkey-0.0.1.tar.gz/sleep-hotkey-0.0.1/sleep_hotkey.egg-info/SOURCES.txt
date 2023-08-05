@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+sleep_hotkey/__init__.py
+sleep_hotkey/sleep_hotkey.py
+sleep_hotkey.egg-info/PKG-INFO
+sleep_hotkey.egg-info/SOURCES.txt
+sleep_hotkey.egg-info/dependency_links.txt
+sleep_hotkey.egg-info/requires.txt
+sleep_hotkey.egg-info/top_level.txt
