@@ -1,0 +1,6 @@
+numpy==1.12
+autologging
+
+[:python_version == "2.7"]
+enum34
+backports.functools_lru_cache
