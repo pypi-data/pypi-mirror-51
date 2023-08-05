@@ -1,0 +1,14 @@
+numpy
+scipy
+ipython
+matplotlib
+h5py
+pandas
+seaborn
+astropy
+ipywidgets
+Cython
+stan_utility
+betagen
+popsynth
+tqdm

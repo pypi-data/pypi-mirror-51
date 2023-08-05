@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bs_synth
+Version: 0.1.0
+Summary: A population synthesis code for the blazar sequence
+Home-page: https://github.com/grburgess/blazar_seq_synth
+Author: J. Michael Burgess
+Author-email: jmichaelburgess@gmail.com
+License: BSD
+Description: 
+        # blazar_seq_synth
+        A population synth for the blazar sequence
+        
+Platform: UNKNOWN
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
