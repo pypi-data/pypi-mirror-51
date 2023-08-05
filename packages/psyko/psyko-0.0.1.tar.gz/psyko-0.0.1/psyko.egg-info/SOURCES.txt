@@ -1,0 +1,13 @@
+README.md
+setup.py
+psyko/__init__.py
+psyko/browser_fetcher.py
+psyko/psyko.py
+psyko.egg-info/PKG-INFO
+psyko.egg-info/SOURCES.txt
+psyko.egg-info/dependency_links.txt
+psyko.egg-info/entry_points.txt
+psyko.egg-info/not-zip-safe
+psyko.egg-info/requires.txt
+psyko.egg-info/top_level.txt
+psyko/cli/__init__.py

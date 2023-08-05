@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: psyko
+Version: 0.0.1
+Summary: A Python port of Taiko
+Home-page: https://github.com/BugDiver/taiko-py
+Author: BugDiver
+Author-email: vinayshankar00@gmail.com
+License: MIT license
+Description: # taiko-py
+        
+        A python port of [Taiko](taiko.gauge.org)
+Keywords: psyko
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
