@@ -1,0 +1,3 @@
+[console_scripts]
+zeroscale = zeroscale.__main__:main
+
