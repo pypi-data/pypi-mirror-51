@@ -1,0 +1,5 @@
+include distribute_setup.py
+recursive-include cfg *.conf
+recursive-exclude dev/* *
+prune doc
+graft doc/html

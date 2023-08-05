@@ -1,0 +1,49 @@
+RepoGuard is a framework for Subversion commit hooks in order to
+implement checks of the to be committed files before they are committed.
+For example, you can check for the code style or unit tests. The output
+of the checks can be send by email or be written into a file or simply
+print to the console.
+
+See http://repoguard.tigris.org
+
+Requirements:
+ * Python: 2.4, 2.5, 2.6, 2.7
+
+The following requirements can be automatically resolved by the setup script.
+ * RepoGuard core dependencies:
+  * configobj >= 4.6.0
+  * setuptools >=0.6
+   
+ * Pylint check dependencies (for Python 2.4 compatibility, otherwise a greater version can be used as well):
+   * pylint<=0.21.3
+   * logilab-astng<=0.20.3
+   * logilab-common<=0.52
+   
+ * Mantis check and handler dependencies:
+   * suds >= 0.4
+    
+ * Experimental BuildBot handler dependencies:
+   * twisted >= 8.1.0
+
+Installation options:
+You can set the following environment variables before you install RepoGuard:
+ * REPOGUARD_CONFIG_HOME: Set this variable to the path which should contain the default configuration files. The default is "~/.repoguard" on Windows and "/usr/local/share/repoguard" on Linux platforms.
+ * REPOGUARD_DEBUG: Set this variable to any value to install RepoGuard in debug mode. I.e., it is installed the "repoguard-debug" executable to allow a parallel installation of RepoGuard for test purposes. 
+
+You have the following installation options:
+ * Install from source:
+  * Download the source package from http://repoguard.tigris.org/servlets/ProjectDocumentList
+  * tar -xf repoguard-x.y.z.tar / unzip repoguard-x.y.z.zip
+  * cd repoguard-x.y.z
+  * python setup.py install # Ensures that configobj and setuptools (provides the easy_install command) is installed
+  * To automatically install the Mantis / BuildBot dependencies see below.
+ 
+ * Install with easy_install from PyPi
+  * Core installation: easy_install repoguard
+  * Install with Mantis support: easy_install repoguard[mantis]
+  * Install with BuildBot support: easy_install repoguard[buildbot]
+
+ * Install with pip from PyPi
+  * Core installation: pip install repoguard
+  * Install with Mantis support: pip install repoguard[mantis]
+  * Install with BuildBot support: pip install repoguard[buildbot]
