@@ -1,0 +1,111 @@
+<div class="header">
+  <div class="title">
+    <div class="submenu">
+      <a ui-sref="users.user.list" class="btn btn-sm btn-default">
+        <i class="fa fa-angle-double-left fa-lg"></i>
+        <translate>Back to overview</translate>
+      </a>
+        <a ng-click="openDialog()" class="btn btn-primary btn-sm">
+          <i class="fa fa-plus fa-lg"></i>
+          <translate>New</translate>
+        </a>
+      <a ui-sref="openslides_voting.shares.import" class="btn btn-default btn-sm">
+        <i class="fa fa-download fa-lg"></i>
+        <translate>Import voting shares</translate>
+      </a>
+    </div>
+    <h1 translate>Voting shares</h1>
+  </div>
+</div>
+
+<div class="details">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="form-inline text-right">
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-addon"><i class="fa fa-search"></i></div>
+            <input type="text" ng-model="search" class="form-control"
+               placeholder="{{ 'Search' | translate}}">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="italic">
+    {{ delegatesFiltered.length }} / {{ delegates.length }} {{ "Voting shares" | translate }}
+  </div>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>
+          <strong translate>
+            Delegates
+          </strong>
+        </th>
+        <th ng-repeat="principle in principles"
+          ng-mouseover="principle.headhover=true" ng-mouseleave="principle.headhover=false">
+          <div>
+            <a href="" ng-click="openDialog(principle)">
+              {{ principle.name }}
+            </a>
+          </div>
+          <div>
+            <small style="color: #555;">
+              {{ principle.decimal_places }}
+              <translate>places</translate>
+            </small>
+            <span class="pull-right pointer" ng-if="principle.headhover"
+              ng-bootbox-confirm="{{ 'Are you sure you want to delete this principle?' | translate }}<br>
+              <b>{{ principle.name | translate }}</b>"
+              ng-bootbox-confirm-action="delete(principle)">
+
+              <i class="fa fa-trash text-danger"></i>
+            </span>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="delegate in delegatesFiltered = (delegates
+        | filter: {full_name: search}
+        | orderBy: 'full_name')
+        | limitTo: pagination.itemsPerPage : pagination.limitBegin"
+        ng-mouseover="delegate.hover=true" ng-mouseleave="delegate.hover=false">
+        <td>
+          {{ delegate.full_name }}
+        </td>
+        <td ng-repeat="principle in principles"
+          ng-mouseover="principle.hover=true" ng-mouseleave="principle.hover=false">
+
+          <div ng-style="{'visibility': (getShare(delegate, principle) || (delegate.hover && principle.hover)) ? 'visible' : 'hidden'}">
+            <div class="popover-wrapper">
+              <span editable-text="newShares[delegate.id][principle.id]"
+                onaftersave="saveShare(newShares[delegate.id][principle.id], delegate, principle)">
+                <small ng-if="!getShare(delegate, principle)" translate>Set share ...</small>
+                <span ng-if="getShare(delegate, principle)">
+                  {{ getShare(delegate, principle).shares | number: principle.decimal_places }}
+                </span>
+              </span>
+            </div>
+          </div>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <ul uib-pagination
+      ng-show="delegatesFiltered.length > pagination.itemsPerPage"
+      total-items="delegatesFiltered.length"
+      items-per-page="pagination.itemsPerPage"
+      ng-model="pagination.currentPage"
+      ng-change="pagination.pageChanged()"
+      class="pagination-sm"
+      direction-links="false"
+      boundary-links="true"
+      first-text="&laquo;"
+      last-text="&raquo;">
+  </ul>
+</div>

@@ -1,0 +1,18 @@
+<div ng-controller="DelegateUpdateCtrl">
+  <h1 translate>Edit participant</h1>
+
+  <div uib-alert ng-show="$parent.alert.show" ng-class="'alert-' + $parent.alert.type" close="$parent.alert={}">
+    {{ $parent.$parent.alert.msg }}
+  </div>
+
+  <form name="delegateForm" ng-submit="delegateSave(model)">
+    <formly-form model="model" fields="delegateFormFields">
+      <button type="submit" ng-disabled="delegateForm.$invalid" class="btn btn-primary" translate>
+        Save
+      </button>
+      <button type="button" ng-click="closeThisDialog()" class="btn btn-default" translate>
+        Cancel
+      </button>
+    </formly-form>
+  </form>
+</div>

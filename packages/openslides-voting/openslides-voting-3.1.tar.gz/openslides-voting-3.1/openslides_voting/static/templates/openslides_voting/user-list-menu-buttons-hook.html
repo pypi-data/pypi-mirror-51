@@ -1,0 +1,36 @@
+<span class="dropdown" os-perms="openslides_voting.can_manage" uib-dropdown>
+  <button type="button" class="btn btn-default btn-sm"
+    id="votingMenu" uib-dropdown-toggle>
+    <i class="fa fa-bullseye fa-lg"></i>
+    OpenSlides-Voting
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="votingMenu">
+    <li>
+      <a ui-sref="openslides_voting.tokens">
+        <i class="fa fa-key"></i>
+        <translate>Voting tokens</translate>
+      </a>
+    </li><li ng-if="config('voting_enable_votecollector')">
+      <a ui-sref="openslides_voting.keypad.list">
+        <i class="fa fa-calculator"></i>
+        <translate>Keypads</translate>
+      </a>
+    </li><li ng-if="config('voting_enable_votecollector')">
+      <a ui-sref="openslides_voting.attendance">
+        <i class="fa fa-check-square-o"></i>
+        <translate>Attendance</translate>
+      </a>
+    </li><li ng-if="config('voting_enable_proxies')">
+      <a ui-sref="openslides_voting.absenteeVote.list">
+        <i class="fa fa-file-text-o"></i>
+        <translate>Absentee votes</translate>
+      </a>
+    </li><li ng-if="config('voting_enable_principles')">
+      <a ui-sref="openslides_voting.shares.list">
+        <i class="fa fa-pie-chart"></i>
+        <translate>Voting shares</translate>
+      </a>
+    </li>
+  </ul>
+</span>

@@ -1,0 +1,21 @@
+<div os-perms="openslides_voting.can_manage">
+  <div class="spacer-top" ng-if="poll.has_votes && showSingleVotes">
+    <span class="spacer" ng-if="config('voting_enable_principles')">
+      <button type="button" ng-click="countVotes()"
+        class="btn btn-xs btn-default">
+        <i class="fa fa-repeat" aria-hidden="true"></i>
+        {{ 'Recount votes' | translate }}
+      </button>
+    </span>
+    <span class="spacer">
+      <a ui-sref="openslides_voting.assignmentPoll.detail({id: poll.id})" role="button"
+        class="btn btn-xs btn-default">
+        <i class="fa fa-table" aria-hidden="true"></i>
+        {{ 'Single votes' | translate }}
+      </a>
+    </span>
+  </div>
+  <small>
+    {{ pollType | translate }}
+  </small>
+</div>

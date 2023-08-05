@@ -1,0 +1,195 @@
+<ng-include src="'static/templates/openslides_voting/submit-buttons-css.html'"></ng-include>
+
+<div class="header">
+  <div class="title">
+    <div class="submenu">
+      <!-- Back to motion -->
+      <a ui-sref="motions.motion.detail({id: motion.id})" class="btn btn-sm btn-default">
+        <i class="fa fa-angle-double-left fa-lg"></i>
+        <translate>Back to motion</translate>
+      </a>
+      <!-- pdf -->
+      <a ng-click="pdfExport()" class="btn btn-default btn-sm">
+        <i class="fa fa-file-pdf-o fa-lg"></i>
+        PDF
+      </a>
+      <!-- Anonymize -->
+      <a os-perms="openslides_voting.can_manage"
+        class="btn btn-sm btn-default"
+        ng-bootbox-confirm="{{ 'Are you sure you want to anonymize all votes?' | translate }}"
+        ng-bootbox-confirm-action="anonymizeVotes()">
+        <i class="fa fa-exclamation-triangle fa-lg"></i>
+        <translate>Anonymize votes</translate>
+      </a>
+    </div>
+    <h1>{{ motion.getTitle() }}</h1>
+    <h2><translate>Motion</translate> {{ motion.identifier }} &middot;
+      <translate>Voting result</translate></h2>
+  </div>
+</div>
+
+<div class="details">
+  <!-- Result table -->
+  <table class="table table-bordered" id="resultTable">
+    <!-- yes -->
+    <tr>
+      <td>
+        <button type="button" class="btn btn-default btn-voting-xs btn-yes">
+          <i class="fa fa-thumbs-o-up fa-2x"></i>
+        </button>
+        <translate>Yes</translate>
+      <td class="bold-left">
+        {{ poll.getVote(poll.yes, 'yes').value | number:votesPrecision }}
+        {{ poll.getVote(poll.yes, 'yes').percentStr }}
+    <!-- no -->
+    <tr>
+      <td>
+        <button type="button" class="btn btn-default btn-voting-xs btn-no">
+          <i class="fa fa-thumbs-o-down fa-2x"></i>
+        </button>
+        <strong translate>No</strong>
+      <td class="bold-left">
+        {{ poll.getVote(poll.no, 'no').value | number:votesPrecision }}
+        {{ poll.getVote(poll.yes, 'no').percentStr }}
+
+    <!-- abstain -->
+    <tr>
+      <td>
+        <button type="button" class="btn btn-default btn-voting-xs btn-abstain">
+          <i class="fa fa-circle-o fa-2x"></i>
+        </button>
+        <strong translate>Abstain</strong>
+      <td class="bold-left">
+        {{ poll.getVote(poll.abstain, 'abstain').value | number:votesPrecision }}
+        {{ poll.getVote(poll.abstain, 'abstain').percentStr }}
+
+    <!-- valid votes -->
+    <tr>
+      <td><strong translate>Valid votes</strong>
+      <td class="bold-left middle">
+        {{ poll.getVote(poll.votesvalid, 'votesvalid').value | number:votesPrecision }}
+        {{ poll.getVote(poll.votesvalid, 'votesvalid').percentStr }}
+  </table>
+
+  <!-- Single votes -->
+  <div class="row">
+    <div class="col-sm-6"><h3 translate>Single votes</h3></div>
+    <div class="col-sm-4 pull-right">
+      <!-- Search/filter -->
+      <input type="text" ng-model="filter.filterString" class="form-control"
+          ng-change="filter.save()"
+          placeholder="{{ 'Search' | translate }}">
+    </div>
+  </div>
+
+  <div class="italic row">
+    <div class="col-md-6">
+      {{ ballotsFiltered.length }} / {{ ballots.length }} {{ "Single votes" | translate }}
+    </div>
+
+    <div class="col-md-6" ng-show="ballotsFiltered.length > pagination.itemsPerPage">
+      <span class="pull-right">
+        <a href="" class="pagination-arrow" ng-click="pagination.prevPage()"
+          ng-if="pagination.showPrevPageArrow()">
+          &laquo;
+        </a>
+        <translate>Page</translate> {{ pagination.currentPage }} /
+        {{ pagination.getPageCount(ballotsFiltered) }}
+        <a href="" class="pagination-arrow" ng-click="pagination.nextPage(ballotsFiltered)"
+          ng-if="pagination.showNextPageArrow(ballotsFiltered)">
+          &raquo;
+        </a>
+      </span>
+    </div>
+  </div>
+
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+        <!-- Delegate column -->
+        <th ng-click="sort.toggle('user.full_name')" class="sortable"
+          ng-if="pollType !== 'token_based_electronic'">
+          <translate>Delegate</translate>
+          <i class="pull-right fa" ng-show="sort.column === 'user.full_name'"
+              ng-class="sort.reverse ? 'fa-sort-desc' : 'fa-sort-asc'">
+          </i>
+        </th>
+
+        <!-- Voting device column -->
+        <th ng-click="sort.toggle('device')" class="sortable"
+            ng-if="!pollType.indexOf('votecollector')">
+          <translate>Keypad serial number</translate>
+          <i class="pull-right fa" ng-show="sort.column === 'device'"
+              ng-class="sort.reverse ? 'fa-sort-desc' : 'fa-sort-asc'">
+          </i>
+          <i class="fa fa-info-circle"
+             uib-tooltip="{{ 'Press \'Fn+6\' on keypad to display the serial number.' | translate}}"></i>
+        </th>
+
+        <!-- Result number column -->
+        <th ng-click="sort.toggle('result_token')" class="sortable" ng-if="pollType === 'token_based_electronic'">
+          <translate>Result number</translate>
+          <i class="pull-right fa" ng-show="sort.column === 'result_token'"
+              ng-class="sort.reverse ? 'fa-sort-desc' : 'fa-sort-asc'">
+          </i>
+        </th>
+
+        <!-- Vote column -->
+        <th ng-click="sort.toggle('vote')" class="sortable">
+          <translate>Casted vote</translate>
+          <i class="pull-right fa" ng-show="sort.column === 'vote'"
+              ng-class="sort.reverse ? 'fa-sort-desc' : 'fa-sort-asc'">
+          </i>
+        </th>
+    </thead>
+
+    <tbody>
+      <tr ng-repeat="ballot in (ballotsFiltered = (ballots
+        | osFilter : filter.filterString : filter.getObjectQueryString
+        | orderBy : sort.column : sort.reverse)
+        | limitTo : pagination.itemsPerPage : pagination.limitBegin)"
+        class="animate-item" ng-class="{'selected':ballot.selected}">
+
+        <!-- Delegate -->
+        <td ng-if="pollType !== 'token_based_electronic'">
+          <a href="" ng-if="ballot.user" ui-sref="users.user.detail({id: ballot.user.id})">
+            {{ ballot.user.full_name }}
+          </a>
+          <span ng-if="!ballot.user"><i><translate>Anonymous</translate></i></span>
+        </td>
+
+        <!-- Voting device -->
+        <td ng-if="!pollType.indexOf('votecollector')">
+          {{ ballot.device }}
+        </td>
+
+        <!-- Result token-->
+        <td ng-if="pollType === 'token_based_electronic'">
+          <span ng-if="ballot.result_token > 0">
+            {{ ballot.result_token }}
+          </span>
+          <span ng-if="ballot.result_token === 0" translate>
+            anonymous
+          </span>
+        </td>
+
+        <!-- Vote -->
+        <td>
+          <i class="fa fa-{{ ballot.getVoteIcon() }}"></i>
+          <span style="margin-left: 5px">{{ ballot.getVote() | translate }}</span>
+        </td>
+  </table>
+  <ul uib-pagination
+      ng-show="ballotsFiltered.length > pagination.itemsPerPage"
+      total-items="ballotsFiltered.length"
+      items-per-page="pagination.itemsPerPage"
+      ng-model="pagination.currentPage"
+      ng-change="pagination.pageChanged()"
+      class="pagination-sm"
+      direction-links="false"
+      boundary-links="true"
+      first-text="&laquo;"
+      last-text="&raquo;">
+  </ul>
+
+</div>

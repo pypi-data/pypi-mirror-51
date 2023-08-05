@@ -1,0 +1,104 @@
+<style type="text/css">
+  #attendance-table, #history-table {
+    width: auto;
+  }
+  #attendance-table, #history-table td:first-child {
+    white-space: nowrap;
+  }
+</style>
+
+<div class="header">
+  <div class="title">
+    <div class="submenu">
+      <a ui-sref="users.user.list" class="btn btn-sm btn-default">
+        <i class="fa fa-angle-double-left fa-lg"></i>
+        <translate>Back to overview</translate>
+      </a>
+    </div>
+    <h1 translate>Attendance</h1>
+  </div>
+</div>
+
+<div class="details">
+  <div class="scroll-x-container">
+    <table class="table table-bordered" id="attendance-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="text-right">
+            <translate>Heads</translate>
+          </th>
+
+          <!-- Voting principle columns -->
+          <th ng-repeat="principle in (principles | orderBy: 'id')" class="text-right">
+            {{ principle.name }}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="i in [0, 1, 2, 3]" ng-init="principle = ['Total', 'Present', 'Present in person', 'Represented']">
+          <td>
+            {{ principle[i] | translate }}
+          </td>
+          <td class="text-right">
+            {{ attendance.heads[i] }}
+          </td>
+          <!-- Voting principle columns. Categories must be sorted in the same order as the header. -->
+          <td ng-repeat="principle in (principles | orderBy: 'id')" class="text-right">
+            {{ attendance[principle.id][i] | number: principle.decimal_places }}
+          </td>
+          <!-- TODO: Show percentages and indicate if attendance drops below 50 % -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="spacer">
+    <button type="button" class="btn btn-sm btn-default" ng-click="historyVisible = !historyVisible" translate>
+      Show attendance history
+    </button>
+    <button type="button" class="btn btn-sm btn-default" ng-if="historyVisible" ng-click="pdfExport()">
+      <i class="fa fa-file-pdf-o fa-lg"></i>
+      PDF
+    </button>
+    <button type="button" class="btn btn-sm btn-default" ng-if="historyVisible"
+            ng-bootbox-confirm="{{ 'Are you sure you want to delete the attendance history?' | translate }}"
+            ng-bootbox-confirm-action="deleteHistory()">
+      <i class="fa fa-remove fa-lg"></i>
+      <translate>Delete</translate>
+    </button>
+  </div>
+
+  <div class="spacer scroll-x-container well well-sm" uib-collapse="!historyVisible">
+    <table class="table table-striped table-bordered table-condensed small" id="history-table">
+      <thead>
+        <tr>
+          <th>
+            <translate>Time</translate>
+          </th>
+          <th class="text-right">
+            <translate>Heads</translate>
+          </th>
+
+          <!-- Shares columns -->
+          <th ng-repeat="principle in (principles | orderBy: 'id')" class="text-right">
+            {{ principle.name }}
+          </th>
+
+      <tbody>
+        <tr ng-repeat="log in attendanceLogs | orderBy:'-created'">
+          <!-- TODO: Use localized time format -->
+          <td>
+            {{ log.created | date:'yyyy-MM-dd HH:mm:ss' }}
+          </td>
+          <td class="text-right">
+            {{ log.json().heads }}
+          </td>
+
+          <!-- Shares collection, categories must be sorted in the same order as the header -->
+          <td ng-repeat="principle in (principles | orderBy: 'id')" class="text-right">
+            {{ log.json()[principle.id] | number: principle.decimal_places }}
+          </td>
+    </table>
+  </div>
+</div>
