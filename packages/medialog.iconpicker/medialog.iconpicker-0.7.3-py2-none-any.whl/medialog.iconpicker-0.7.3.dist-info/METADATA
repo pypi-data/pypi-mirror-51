@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: medialog.iconpicker
+Version: 0.7.3
+Summary: Iconpicker for Plone
+Home-page: http://github.com/espenmn/medialog.iconpicker
+Author: Espen Moe-Nilssen
+Author-email: espen@medialog.no
+License: GPL
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 5.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
+Requires-Dist: plone.behavior
+Requires-Dist: collective.js.bootstrap
+Requires-Dist: medialog.controlpanel
+Requires-Dist: plone.api
+Requires-Dist: collective.z3cform.datagridfield
+Requires-Dist: lineage.registry
+
+Iconpicker add on for Plone based on bootstrap iconpicker
+
+
