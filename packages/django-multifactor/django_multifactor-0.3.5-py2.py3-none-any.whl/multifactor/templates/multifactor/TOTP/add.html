@@ -1,0 +1,42 @@
+{% extends "multifactor/base.html" %}{% load static %}
+
+{% block card_title %}Add TOTP Authenticator{% endblock %}
+
+{% block content %}
+{% block preform %}
+<p>Start by downloading an Authenticator App on your phone. <a href='https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2' target='_blank'>Google Authenticator for Android</a> or <a href='https://itunes.apple.com/us/app/authy/id494168017' target='_blank'>Authy for iPhones</a>.</p>
+
+<div class="qr-block">
+	<img id="qr" />
+	<p><code>{{secret_key}}</code></p>
+</div>
+
+<p>Scan the barcode above with your Authenticator. It will give you a rotating 6-digit code.</p>
+<p>Copy that code into the box below and click Verify.</p>
+{% endblock preform %}
+
+<form action="" method="POST">
+	{% csrf_token %}
+	<input type="hidden" name="key" value="{{secret_key|safe}}">
+
+	<div class="field"><div class="control">
+		<input class="input is-primary has-text-centered is-large" type="text" maxlength="6" size="6"  name="answer" placeholder="e.g 123456" autocomplete="off" autofocus>
+	</div></div>
+
+	<button type="submit" class="button is-primary is-large is-fullwidth">Verify</button>
+</form>
+{% endblock %}
+
+{% block head %}
+<script src="{% static 'multifactor/js/qrious.min.js' %}" type="text/javascript"></script>
+<script type="text/javascript">
+var key="{{secret_key|safe}}";
+
+var qr = new QRious({
+	element: document.getElementById('qr'),
+	value: "{{qr|safe}}",
+	size: 300,
+});
+
+</script>
+{% endblock %}
