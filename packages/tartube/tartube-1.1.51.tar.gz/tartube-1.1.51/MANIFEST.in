@@ -1,0 +1,15 @@
+include AUTHORS
+include CHANGES
+include LICENSE
+include README.rst
+include docs/*
+include docs/screenshots/*
+include icons/dialogue/*
+include icons/large/*
+include icons/locale/*
+include icons/small/*
+include icons/template/*
+include icons/toolbar/*
+include icons/win/*
+include screenshots/*
+include share/man/*
