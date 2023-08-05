@@ -1,0 +1,4 @@
+#!python
+import runpy
+
+runpy.run_module('dmd', run_name='__main__', alter_sys=True)
