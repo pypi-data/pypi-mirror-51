@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: timeslicer
+Version: 1.0.0
+Summary: Package for creating timeslice images from time lapses
+Home-page: https://github.com/nramkissoon/Time-Slice
+Author: Nicholas Ramkissoon
+License: UNKNOWN
+Description: # Time Slicer
+        
+        A Python package for creating timeslice images from time lapses.
+        
+        Contains a module for importing the time slice function into other Python projects and a main 
+        script for creating a timeslice from the terminal.
+        
+        ## Sample Output Images
+        
+        ### Standard Timeslice
+        
+        ![standard](https://raw.githubusercontent.com/nramkissoon/Time-Slice/master/samples/test.jpg)
+        
+        ### Randomized Timeslice
+        
+        ![randomized](https://raw.githubusercontent.com/nramkissoon/Time-Slice/master/samples/test-randomized.jpg)
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown

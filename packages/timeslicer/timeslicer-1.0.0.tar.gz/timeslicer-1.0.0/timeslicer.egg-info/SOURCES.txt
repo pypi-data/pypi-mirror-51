@@ -1,0 +1,8 @@
+README.md
+setup.py
+timeslicer/__init__.py
+timeslicer/timeslicer.py
+timeslicer.egg-info/PKG-INFO
+timeslicer.egg-info/SOURCES.txt
+timeslicer.egg-info/dependency_links.txt
+timeslicer.egg-info/top_level.txt
