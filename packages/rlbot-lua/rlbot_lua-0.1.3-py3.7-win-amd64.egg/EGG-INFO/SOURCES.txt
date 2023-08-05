@@ -1,0 +1,8 @@
+README.md
+setup.py
+rlbot_lua.egg-info/PKG-INFO
+rlbot_lua.egg-info/SOURCES.txt
+rlbot_lua.egg-info/dependency_links.txt
+rlbot_lua.egg-info/requires.txt
+rlbot_lua.egg-info/top_level.txt
+src/main.cpp
