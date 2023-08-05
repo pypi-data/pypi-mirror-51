@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>somlearn.SOM &mdash; som-learn 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/js/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/som-learn.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="General" href="../auto_examples/index.html" />
+    <link rel="prev" title="API" href="../api.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> som-learn
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../test.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contribute.html">Contribute</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user_guide.html">User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html">API</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../api.html#somlearn-over-sampling-algorithm"><code class="docutils literal notranslate"><span class="pre">somlearn</span></code>: Over-sampling algorithm</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">somlearn</span></code>.SOM</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#examples-using-somlearn-som">Examples using <code class="docutils literal notranslate"><span class="pre">somlearn.SOM</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../auto_examples/index.html">General</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Additional Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../release_history.html">Release History</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">som-learn</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../api.html">API</a> &raquo;</li>
+        
+      <li><code class="docutils literal notranslate"><span class="pre">somlearn</span></code>.SOM</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/generated/somlearn.SOM.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="somlearn-som">
+<h1><code class="xref py py-mod docutils literal notranslate"><span class="pre">somlearn</span></code>.SOM<a class="headerlink" href="#somlearn-som" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="somlearn.SOM">
+<em class="property">class </em><code class="descclassname">somlearn.</code><code class="descname">SOM</code><span class="sig-paren">(</span><em>n_columns=5</em>, <em>n_rows=5</em>, <em>initialcodebook=None</em>, <em>kerneltype=0</em>, <em>maptype='planar'</em>, <em>gridtype='rectangular'</em>, <em>compactsupport=True</em>, <em>neighborhood='gaussian'</em>, <em>std_coeff=0.5</em>, <em>random_state=None</em>, <em>verbose=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/somlearn/som.html#SOM"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#somlearn.SOM" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class to fit and visualize a Self-Organizing Map (SOM).</p>
+<p>The implementation uses SOM from Somoclu.</p>
+<p>Read more in the <a class="reference internal" href="../user_guide.html#user-guide"><span class="std std-ref">User Guide</span></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first last docutils">
+<dt><strong>n_columns</strong> <span class="classifier-delimiter">:</span> <span class="classifier">int, optional (default=5)</span></dt>
+<dd><p class="first last">The number of columns in the map.</p>
+</dd>
+<dt><strong>n_rows</strong> <span class="classifier-delimiter">:</span> <span class="classifier">int, optional (default=5)</span></dt>
+<dd><p class="first last">The number of rows in the map.</p>
+</dd>
+<dt><strong>initialcodebook</strong> <span class="classifier-delimiter">:</span> <span class="classifier">2D numpy.array of float32, str or None, optional (default=None)</span></dt>
+<dd><p class="first last">Define the codebook to start the training. If <code class="docutils literal notranslate"><span class="pre">initialcodebook='pca'</span></code> then
+the codebook is initialized from the first subspace spanned by the first two
+eigenvectors of the correlation matrix.</p>
+</dd>
+<dt><strong>kerneltype</strong> <span class="classifier-delimiter">:</span> <span class="classifier">int, optional (default=0)</span></dt>
+<dd><p class="first last">Specify which kernel to use. If <code class="docutils literal notranslate"><span class="pre">kerneltype=0</span></code> use dense CPU kernel.
+Else if <code class="docutils literal notranslate"><span class="pre">kerneltype=1</span></code> use dense GPU kernel if compiled with it.</p>
+</dd>
+<dt><strong>maptype</strong> <span class="classifier-delimiter">:</span> <span class="classifier">str, optional (default=’planar’)</span></dt>
+<dd><p class="first last">Specify the map topology. If <code class="docutils literal notranslate"><span class="pre">maptype='planar'</span></code> use planar map.
+Else if <code class="docutils literal notranslate"><span class="pre">maptype='toroid'</span></code> use toroid map.</p>
+</dd>
+<dt><strong>gridtype</strong> <span class="classifier-delimiter">:</span> <span class="classifier">str, optional (default=’rectangular’)</span></dt>
+<dd><p class="first last">Specify the grid form of the nodes. If <code class="docutils literal notranslate"><span class="pre">gridtype='rectangular'</span></code>
+use rectangular neurons. Else if <code class="docutils literal notranslate"><span class="pre">gridtype='hexagonal'</span></code> use
+hexagonal neurons.</p>
+</dd>
+<dt><strong>compactsupport</strong> <span class="classifier-delimiter">:</span> <span class="classifier">bool, optional (default=True)</span></dt>
+<dd><p class="first last">Cut off map updates beyond the training radius with the Gaussian neighborhood.</p>
+</dd>
+<dt><strong>neighborhood</strong> <span class="classifier-delimiter">:</span> <span class="classifier">str, optional (default=’gaussian’)</span></dt>
+<dd><p class="first last">Specify the neighborhood. If <code class="docutils literal notranslate"><span class="pre">neighborhood='gaussian'</span></code> use
+Gaussian neighborhood. Else if <cite>neighborhood=’bubble’`</cite> use
+bubble neighborhood function.</p>
+</dd>
+<dt><strong>std_coeff</strong> <span class="classifier-delimiter">:</span> <span class="classifier">float, optional (default=0.5)</span></dt>
+<dd><p class="first last">Set the coefficient in the Gaussian neighborhood <img class="math" src="../_images/math/45a7017e36600b24b0900475d9a1d22c27bb0e1e.png" alt="exp(-||x-y||^2/(2*(coeff*radius)^2))"/>.</p>
+</dd>
+<dt><strong>random_state</strong> <span class="classifier-delimiter">:</span> <span class="classifier">int, RandomState instance or None, optional (default=None)</span></dt>
+<dd><p class="first">Control the randomization of the algorithm by specifying the
+codebook initalization. It is ignored when <code class="docutils literal notranslate"><span class="pre">initialcodebook</span></code> is
+not <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<ul class="last simple">
+<li>If int, <code class="docutils literal notranslate"><span class="pre">random_state</span></code> is the seed used by the random number
+generator.</li>
+<li>If <code class="docutils literal notranslate"><span class="pre">RandomState</span></code> instance, random_state is the random number
+generator.</li>
+<li>If <code class="docutils literal notranslate"><span class="pre">None</span></code>, the random number generator is the <code class="docutils literal notranslate"><span class="pre">RandomState</span></code>
+instance used by <code class="docutils literal notranslate"><span class="pre">np.random</span></code>.</li>
+</ul>
+</dd>
+<dt><strong>verbose</strong> <span class="classifier-delimiter">:</span> <span class="classifier">int, optional (default=0)</span></dt>
+<dd><p class="first last">Specify verbosity level (0, 1, or 2).</p>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="somlearn.SOM.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>self</em>, <em>n_columns=5</em>, <em>n_rows=5</em>, <em>initialcodebook=None</em>, <em>kerneltype=0</em>, <em>maptype='planar'</em>, <em>gridtype='rectangular'</em>, <em>compactsupport=True</em>, <em>neighborhood='gaussian'</em>, <em>std_coeff=0.5</em>, <em>random_state=None</em>, <em>verbose=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/somlearn/som.html#SOM.__init__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#somlearn.SOM.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="somlearn.SOM.fit">
+<code class="descname">fit</code><span class="sig-paren">(</span><em>self</em>, <em>X</em>, <em>y=None</em>, <em>**fit_params</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/somlearn/som.html#SOM.fit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#somlearn.SOM.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Train the self-organizing map.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first last docutils">
+<dt><strong>X</strong> <span class="classifier-delimiter">:</span> <span class="classifier">array-like or sparse matrix, shape=(n_samples, n_features)</span></dt>
+<dd><p class="first last">Training instances to cluster.</p>
+</dd>
+<dt><strong>y</strong> <span class="classifier-delimiter">:</span> <span class="classifier">Ignored</span></dt>
+<dd></dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="somlearn.SOM.fit_predict">
+<code class="descname">fit_predict</code><span class="sig-paren">(</span><em>self</em>, <em>X</em>, <em>y=None</em>, <em>**fit_params</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/somlearn/som.html#SOM.fit_predict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#somlearn.SOM.fit_predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Train the self-organizing map and assign a cluster label to each sample.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first docutils">
+<dt><strong>X</strong> <span class="classifier-delimiter">:</span> <span class="classifier">{array-like, sparse matrix}, shape = [n_samples, n_features]</span></dt>
+<dd><p class="first last">New data to transform.</p>
+</dd>
+<dt><strong>u</strong> <span class="classifier-delimiter">:</span> <span class="classifier">Ignored</span></dt>
+<dd></dd>
+</dl>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><dl class="first last docutils">
+<dt><strong>labels</strong> <span class="classifier-delimiter">:</span> <span class="classifier">array, shape [n_samples,]</span></dt>
+<dd><p class="first last">Index of the cluster each sample belongs to.</p>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="somlearn.SOM.get_params">
+<code class="descname">get_params</code><span class="sig-paren">(</span><em>self</em>, <em>deep=True</em><span class="sig-paren">)</span><a class="headerlink" href="#somlearn.SOM.get_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get parameters for this estimator.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first docutils">
+<dt><strong>deep</strong> <span class="classifier-delimiter">:</span> <span class="classifier">boolean, optional</span></dt>
+<dd><p class="first last">If True, will return the parameters for this estimator and
+contained subobjects that are estimators.</p>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><dl class="first last docutils">
+<dt><strong>params</strong> <span class="classifier-delimiter">:</span> <span class="classifier">mapping of string to any</span></dt>
+<dd><p class="first last">Parameter names mapped to their values.</p>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="somlearn.SOM.set_params">
+<code class="descname">set_params</code><span class="sig-paren">(</span><em>self</em>, <em>**params</em><span class="sig-paren">)</span><a class="headerlink" href="#somlearn.SOM.set_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the parameters of this estimator.</p>
+<p>The method works on simple estimators as well as on nested objects
+(such as pipelines). The latter have parameters of the form
+<code class="docutils literal notranslate"><span class="pre">&lt;component&gt;__&lt;parameter&gt;</span></code> so that it’s possible to update each
+component of a nested object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><dl class="first last docutils">
+<dt>self</dt>
+<dd></dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<div class="section" id="examples-using-somlearn-som">
+<h2>Examples using <code class="docutils literal notranslate"><span class="pre">somlearn.SOM</span></code><a class="headerlink" href="#examples-using-somlearn-som" title="Permalink to this headline">¶</a></h2>
+<div class="sphx-glr-thumbcontainer" tooltip="This example illustrates the fitted Self-Organizing Map for various datasets as well as the res..."><div class="figure" id="id1">
+<img alt="../_images/sphx_glr_plot_som_thumb.png" src="../_images/sphx_glr_plot_som_thumb.png" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="../auto_examples/plot_som.html#sphx-glr-auto-examples-plot-som-py"><span class="std std-ref">Clustering using Self-Organizing Map</span></a></span></p>
+</div>
+</div><div style='clear:both'></div></div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../auto_examples/index.html" class="btn btn-neutral float-right" title="General" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../api.html" class="btn btn-neutral float-left" title="API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Georgios Douzas
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

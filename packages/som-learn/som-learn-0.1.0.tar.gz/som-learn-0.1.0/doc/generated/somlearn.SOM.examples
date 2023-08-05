@@ -1,0 +1,22 @@
+
+
+Examples using ``somlearn.SOM``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example illustrates the fitted Self-Organizing Map for various datasets as well as the res...">
+
+.. only:: html
+
+    .. figure:: /auto_examples/images/thumb/sphx_glr_plot_som_thumb.png
+
+        :ref:`sphx_glr_auto_examples_plot_som.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+    * :ref:`sphx_glr_auto_examples_plot_som.py`
