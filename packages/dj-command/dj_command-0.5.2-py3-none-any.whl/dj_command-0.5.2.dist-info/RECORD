@@ -1,0 +1,11 @@
+.dj-config.json,sha256=JsotXGplqBzTrMLxG85PEEdrmgkF5GsmOP8PyCxfjpE,1244
+dj/__init__.py,sha256=isJrmDBLRag7Zc2UK9ZovWGOv7ji1Oh-zJtJMNJFkXw,22
+dj/__main__.py,sha256=hZvy8tr4gMCcil4fcrvZMKUGD3cdie7nGUvJAwMDG8k,2619
+dj/config_loader.py,sha256=j1XNKr5w1NpZDk4ljj4Asx7-q0JFY0Qu09zlANGW0Sw,3675
+dj/objects.py,sha256=hBCFRO_SVzi3ymdWvmS7ofhgh5PXO0lINRSSrcCKI-A,2554
+dj/process_runner.py,sha256=uFF7HpOucj2P4Qn-ULfzdkZwmKBccZ1cOiGebBL-jFI,3789
+dj_command-0.5.2.dist-info/entry_points.txt,sha256=KvUew1q-XXaMdDb93kck0GPh80KYnUADI1ks57l17XI,38
+dj_command-0.5.2.dist-info/LICENSE,sha256=6v78DBy4B9RM7zhibXpz84wo5353MeVK2BRNBdyXMRE,1066
+dj_command-0.5.2.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+dj_command-0.5.2.dist-info/METADATA,sha256=vqjvj8wh9CGxMcW1hiINdyN-UxYn4QtLHTO-KL2kW_0,5292
+dj_command-0.5.2.dist-info/RECORD,,
