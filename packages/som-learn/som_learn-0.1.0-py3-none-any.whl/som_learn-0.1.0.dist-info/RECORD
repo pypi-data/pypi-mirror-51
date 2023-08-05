@@ -1,0 +1,10 @@
+somlearn/__init__.py,sha256=aSZ1we2Y0I2wX7Cid6yeww-8WpMrTX6GDiDOmuxDiA0,170
+somlearn/_version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+somlearn/som.py,sha256=GJ53j4CdWlKzkh7dQQb2ULnKrOYMPaadfaPjmmAfULM,9030
+somlearn/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+somlearn/tests/test_som.py,sha256=viHVCQ0xLrx6TWXE86xC9gOr84D4FJaOx5zRONOyK94,1764
+som_learn-0.1.0.dist-info/LICENSE,sha256=iVpyjkAkGZlNNDa_mnNH1jEMzYlgnTlPRBtflrJN6-0,1083
+som_learn-0.1.0.dist-info/METADATA,sha256=elHgqVR5RFocVSywnv4cSDXJ0guPtEbdiUeR6ZpwQnU,3972
+som_learn-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+som_learn-0.1.0.dist-info/top_level.txt,sha256=xBq7ijGaZy0uu12CLJ6OinAmWqpHcRze6VaKIcZo3-4,9
+som_learn-0.1.0.dist-info/RECORD,,
