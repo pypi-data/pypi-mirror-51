@@ -1,0 +1,7 @@
+ner_d-0.2.dist-info/METADATA,sha256=mDeCxmBGu4DeUE5Z-UH9s36ABe159Nk0vS6Icy3e0rw,3936
+ner_d-0.2.dist-info/RECORD,,
+ner_d-0.2.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+ner_d-0.2.dist-info/top_level.txt,sha256=GATdg9ceZq60gW3f3A67JFLOTF86Ye6z_aU7gDu9xXc,5
+nerd/__init__.py,sha256=L23-zPx_MP-HCZc-aqZ-rJYJnR38zX4HlAE3kbim41o,539
+nerd/__main__.py,sha256=M4K0laCKgh4szP3SNI7ruHMip4Pfn0PGJv-usrxa_e8,1028
+nerd/ner.py,sha256=0r88V4I_uwLMZRiQ6Z92FeUZE4MF5IqmsFcgw1j7NwQ,2519
