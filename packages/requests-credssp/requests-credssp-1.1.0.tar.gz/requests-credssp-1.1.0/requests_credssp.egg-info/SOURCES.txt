@@ -1,0 +1,16 @@
+CHANGES.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+requests_credssp/__init__.py
+requests_credssp/asn_structures.py
+requests_credssp/credssp.py
+requests_credssp/exceptions.py
+requests_credssp/spnego.py
+requests_credssp.egg-info/PKG-INFO
+requests_credssp.egg-info/SOURCES.txt
+requests_credssp.egg-info/dependency_links.txt
+requests_credssp.egg-info/requires.txt
+requests_credssp.egg-info/top_level.txt
