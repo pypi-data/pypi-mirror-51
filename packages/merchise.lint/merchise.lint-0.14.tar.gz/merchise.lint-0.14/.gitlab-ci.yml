@@ -1,0 +1,83 @@
+---
+# Standard gitlab ci configuration file.
+stages:
+  - check
+  - build
+  - publish
+
+check signature of tag:
+  image: alpine
+  stage: check
+  script:
+    - apk add git gnupg
+    - gpg --recv-key $GNUPG_KEY
+    - git verify-tag $CI_COMMIT_REF_NAME
+  only:
+    - tags
+
+
+build source distribution:
+  image: python:3.6-alpine
+  stage: build
+  script:
+    - apk add git
+    - python setup.py sdist
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - master
+    - tags
+
+build binary distribution:
+  image: python:3.6-alpine
+  stage: build
+  script:
+    - apk add git
+    - python setup.py bdist_wheel
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - master
+    - tags
+
+
+publish_locally:
+  variables:
+    GIT_STRATEGY: none
+  stage: publish
+  script:
+    - ssh-keyscan -H gestion.lahavane.com >> ~/.ssh/known_hosts
+    - ssh manu@gestion.lahavane.com "mkdir -p Repos/merchise.lint"
+    - scp dist/* manu@gestion.lahavane.com:Repos/merchise.lint/
+  tags:
+    - repo.lahavane.com
+  only:
+    - tags
+  dependencies:
+    - check signature of tag
+    - build source distribution
+    - build binary distribution
+  environment:
+    name: repo.lahavane.com
+    url: http://repo.lahavane.com/pypi/$CI_PROJECT_NAME
+
+
+publish in pypi:
+  image: python:3.6-alpine
+  variables:
+    GIT_STRATEGY: none
+  stage: publish
+  script:
+    - pip install twine
+    - twine upload --skip-existing -u "$PYPI_USERNAME" -p "$PYPI_PASSWORD" dist/*
+  only:
+    - tags
+  dependencies:
+    - check signature of tag
+    - build source distribution
+    - build binary distribution
+  environment:
+    name: pypi
+    url: https://pypi.org/project/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME
