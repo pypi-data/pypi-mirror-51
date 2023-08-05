@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bem
+Version: 0.1.8
+Summary: Random forest for exoplanets
+Home-page: https://github.com/soleneulmer/bem
+Author: Solène Ulmer-Moll
+Author-email: solene.ulmer-moll@astro.up.pt
+License: MIT
+Description: # Bem
+        
+        [![Build Status](https://travis-ci.org/soleneulmer/bem.svg?branch=master)](https://travis-ci.org/soleneulmer/bem)
+        
+        Beyond the Exoplanet Mass-radius relation with random forest
+        
+        Branca Edmée Marques, a portuguese scientist who did her PhD in nuclear physics in France
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
