@@ -1,0 +1,6 @@
+setup.py
+src/spammer.py
+src/spammer.egg-info/PKG-INFO
+src/spammer.egg-info/SOURCES.txt
+src/spammer.egg-info/dependency_links.txt
+src/spammer.egg-info/top_level.txt
