@@ -1,0 +1,10 @@
+django_feather/__init__.py,sha256=QN_dGOxGIPs0U6DCXC182nylZqAkwfY9rXgaoAazDRk,23
+django_feather/icons.py,sha256=Ts9eS9WxY4ibIQcqYuBKscGM17Zp5xAcg5gD9qjb-Jw,88664
+django_feather/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_feather/templatetags/icon.py,sha256=h6Ah7iKDZRHZPSLNB-vd10W_AHz8ytuBS0IbbuLOUSU,2458
+django_feather-0.2.1.dist-info/AUTHORS,sha256=hGJYbjt21qme1-w7LF7nMVTx6g6tCqzm1Wm9VIIUd0I,39
+django_feather-0.2.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+django_feather-0.2.1.dist-info/METADATA,sha256=cvQuldpQmrulse4NuKFXgZWLQ3VkBZyuJpmwhaj5IwQ,2761
+django_feather-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_feather-0.2.1.dist-info/top_level.txt,sha256=MhJ75_XTxhxa4tjE2zAU2xN-ifPG1KIWRfc6B7ep2PI,15
+django_feather-0.2.1.dist-info/RECORD,,
