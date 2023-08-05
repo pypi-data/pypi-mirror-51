@@ -1,0 +1,10 @@
+disposable_emails/__init__.py,sha256=sYfuQsx1sqHPcjTdp-Knv94FbaHENzdy4cUKyYw0s1g,726
+disposable_emails/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+disposable_emails/contrib/django/__init__.py,sha256=4eDh5uUqHY7F08OEQbrvj5ntT0mMKca07htet9g6xOo,397
+disposable_emails/data/domains.txt,sha256=lYEQXLRF7Z6SIZkuoP68HNF3h0x-4r2P9mBtA7fsYts,321135
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+disposable_emails-1.0.1.dist-info/LICENSE,sha256=B2TlwY8m-PEs-w2Xx5JksH0qbnJ-5W0OyPDqJX0gE8M,1067
+disposable_emails-1.0.1.dist-info/METADATA,sha256=wTPv_nPRWWDcX7kmmaW5k-S1lqYgdYt2rUBlqkn43OQ,1987
+disposable_emails-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+disposable_emails-1.0.1.dist-info/top_level.txt,sha256=hBXv_Mm8cdccaP8wSQLpiFk18zC15hVdyToHlROYUBk,24
+disposable_emails-1.0.1.dist-info/RECORD,,
