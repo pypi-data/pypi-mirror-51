@@ -1,0 +1,7 @@
+certifi
+ipython
+matplotlib
+numpy
+pandas
+six
+urllib3

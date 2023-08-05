@@ -1,0 +1,5 @@
+/.pytest_cache
+/build
+/dist
+/seeq.egg-info
+/setup.py
