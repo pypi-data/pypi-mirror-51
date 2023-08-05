@@ -1,0 +1,3 @@
+[console_scripts]
+pyls = dircolors.pyls.__main__:main
+

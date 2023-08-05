@@ -1,0 +1,10 @@
+dircolors/__init__.py,sha256=rE60LHCYEmnA7fe5_YKCl9FEIRvJ5Jmi3cmVO45tv04,330
+dircolors/_defaults.py,sha256=ahcteQvoWZrO5iTU68zkIY1Zex6iX5uR5ubwI4CCYBk,6170
+dircolors/_util.py,sha256=Df73imXhHx3HzcPHiRcHAoea0e3HURdLcrolUsMhOFs,1783
+dircolors/dircolors.py,sha256=yIaCeTJM0vkr2Kd5Q7sicxJmYB7Nby7nkQeMqYcn0vI,11712
+dircolors-0.0.1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+dircolors-0.0.1.dist-info/METADATA,sha256=XAcK2E49ex9c_mplBAtjuMHtWcLxHCu5s7e2GjE7S4k,5044
+dircolors-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dircolors-0.0.1.dist-info/entry_points.txt,sha256=c0nAJYxKhxvh_EzoHwVLXQbM8ibVz0doZaecule_oKU,55
+dircolors-0.0.1.dist-info/top_level.txt,sha256=TBM6aDGGAc1r3OqyTtYzI6j3GRw2ZbZEaKn4_aURd-c,10
+dircolors-0.0.1.dist-info/RECORD,,
