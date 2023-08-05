@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ddbsizemetric
+Version: 0.1.0a8
+Summary: Lambda Custom Resource that emits a metric on the size of your DynamoDB Tables.
+Home-page: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/ConstructRepo.git
+Author: Richard Boyd<Richard@rboyd.dev>
+License: UNKNOWN
+Project-URL: Source, https://git-codecommit.us-east-1.amazonaws.com/v1/repos/ConstructRepo.git
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: jsii (~=0.15.1)
+Requires-Dist: publication (>=0.0.3)
+Requires-Dist: aws-cdk.aws-events (>=1.5.0,~=1.5)
+Requires-Dist: aws-cdk.aws-events-targets (>=1.5.0,~=1.5)
+Requires-Dist: aws-cdk.aws-iam (>=1.5.0,~=1.5)
+Requires-Dist: aws-cdk.aws-lambda (>=1.5.0,~=1.5)
+Requires-Dist: aws-cdk.core (>=1.5.0,~=1.5)
+
+# Python
+```python
+from aws_cdk import core
+from ddbsizemetric import DDBSizeLib
+
+
+class MyStack(core.Stack):
+
+    def __init__(self, scope: core.Construct, id: str, **kwargs) -> None:
+        super().__init__(scope, id, **kwargs)
+
+        # The polling frequency defaults to once every 6 hours, which is how frequently DynamoDB updates the
+        # Table information. In this example, we set it to once every 12 hours.
+        DDBSizeLib(self, "MyDynamoTableScanner", polling_frequency=core.Duration.hours(12))
+```
+
+# Javascript
+```js
+
+```
+
+
