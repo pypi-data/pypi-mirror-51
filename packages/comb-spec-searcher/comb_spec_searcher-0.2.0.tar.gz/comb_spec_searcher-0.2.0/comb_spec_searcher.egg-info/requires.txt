@@ -1,0 +1,4 @@
+permuta==1.1.0
+logzero==1.5.0
+sympy==1.1.1
+psutil==5.4.7
