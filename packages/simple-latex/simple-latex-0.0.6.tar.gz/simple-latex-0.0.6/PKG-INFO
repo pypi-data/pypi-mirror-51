@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: simple-latex
+Version: 0.0.6
+Summary: A way to write LaTeX in python without being bound to existing higher level structures.
+Home-page: https://github.com/hackla-engage/simple-pylatex
+Author: Engage
+Author-email: eli.j.selkin@gmail.com
+License: UNKNOWN
+Description: # simple_latex
+        
+        A very simple way to write latex using python. It is not object oriented and interpreted line by line
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
