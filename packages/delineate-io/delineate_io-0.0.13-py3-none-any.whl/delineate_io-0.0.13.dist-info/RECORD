@@ -1,0 +1,13 @@
+app.py,sha256=3KjKNmIW8Y6K0ABNpSOhhPj5ELYyegV1nOkJMZssue8,1131
+versions/__init__.py,sha256=b1ktINBJCtlmHuBS6LdDkg2GYYzTzdglLdGUj4QnJhA,40
+versions/config.py,sha256=sDHGohLSeXtSdse1EYLlmq_ycYG6iRipGb23GWM2HB8,744
+versions/output.py,sha256=QWKn-ZIHO-9cdi3QO_O10ZHtLnQJFai4rCCUIa-BhSM,1621
+versions/program.py,sha256=zVo-JSD2W66B7SllHxmDO04RfaxR_DQH4mqUxeuBYS0,356
+versions/programs.csv,sha256=O8GftpWTZUBzXHBmsZkfYCfHfwakl8aYTUxWL3Hd-k4,302
+versions/versions.py,sha256=O0-SaN7ynbat5cJG0zAa5IFgpru98HqeB4DflQTXy34,2026
+delineate_io-0.0.13.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+delineate_io-0.0.13.dist-info/METADATA,sha256=FfngZ43X5Qy5rVh1DpVeoyFb2yynv9CZTXa9iXgE_e4,1113
+delineate_io-0.0.13.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+delineate_io-0.0.13.dist-info/entry_points.txt,sha256=lqH8YIGT1W-st-v5M6CDAPgf1ip4ZEVsPtLeYmTEWeI,43
+delineate_io-0.0.13.dist-info/top_level.txt,sha256=CYgPlZi0C1nARvN-IL2LLbusYP6eG4SyLSNdtzA4740,13
+delineate_io-0.0.13.dist-info/RECORD,,
