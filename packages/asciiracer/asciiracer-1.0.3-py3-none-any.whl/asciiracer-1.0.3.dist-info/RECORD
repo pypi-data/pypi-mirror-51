@@ -1,0 +1,15 @@
+asciiracer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asciiracer/__main__.py,sha256=qqrvMnJqeidbZJ2aMrXteEfe9i4nyBOuC2t0JQspT3w,57
+asciiracer/ascii_factory.py,sha256=2TPi8z0mqwVTTOhWErTcC1L4SHUY-g5dNeVT8-0EsLU,1575
+asciiracer/config.py,sha256=fFIk7H2B-b89ze2AiJ6dwJi_zWhmVOTaKyVDDWLH0N0,519
+asciiracer/environment.py,sha256=AfL93TuEpEKez7UHCjlT_Ztj7mw-C8gpLqiGPp-mxeM,5636
+asciiracer/game.py,sha256=3wmFx7lsSTPRECfCadMcgVZXOgwElbmdYBINBuBEbwI,1496
+asciiracer/hud.py,sha256=_PNZUAXEnoy3LDbcC7iB9K6P3Lq0g33mUlriE8lQlPY,925
+asciiracer/mechanics.py,sha256=6AHg2FY6a-QOT8osgRxOxfolqlDWNtB3bluz5wWqU4Q,2145
+asciiracer/misc.py,sha256=hQSHJ0kPX9yvear5CVw2N7CHKR-Js1HweOr8w_02rB0,1856
+asciiracer-1.0.3.dist-info/LICENSE,sha256=yigXknoNWcrUHKYl-e20Z8H_-gMVVGYt6AI82-F2Fmw,1067
+asciiracer-1.0.3.dist-info/METADATA,sha256=S-pGoKAHTKNuemaPiYMOdB8uLlzN9mKvsdBccBxcbmw,2416
+asciiracer-1.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+asciiracer-1.0.3.dist-info/entry_points.txt,sha256=JQ67kRf-hZ65RZEWMny1bFKlf7zqlh-BE9s589O5LD0,57
+asciiracer-1.0.3.dist-info/top_level.txt,sha256=B0anvykLeGnM4HWQ8xz0nm7c4l8sTbsLvhmWCWj8sIA,11
+asciiracer-1.0.3.dist-info/RECORD,,
