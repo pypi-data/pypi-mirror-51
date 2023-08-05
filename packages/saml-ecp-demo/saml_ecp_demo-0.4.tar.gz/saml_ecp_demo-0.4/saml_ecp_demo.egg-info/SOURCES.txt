@@ -1,0 +1,12 @@
+LICENSE
+README.md
+saml_ecp_demo_log.txt
+setup.py
+saml_ecp_demo/__init__.py
+saml_ecp_demo/saml_ecp_demo.py
+saml_ecp_demo.egg-info/PKG-INFO
+saml_ecp_demo.egg-info/SOURCES.txt
+saml_ecp_demo.egg-info/dependency_links.txt
+saml_ecp_demo.egg-info/entry_points.txt
+saml_ecp_demo.egg-info/requires.txt
+saml_ecp_demo.egg-info/top_level.txt
