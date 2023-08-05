@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+textsense/__init__.py
+textsense/services.py
+textsense.egg-info/PKG-INFO
+textsense.egg-info/SOURCES.txt
+textsense.egg-info/dependency_links.txt
+textsense.egg-info/not-zip-safe
+textsense.egg-info/requires.txt
+textsense.egg-info/top_level.txt
