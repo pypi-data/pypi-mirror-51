@@ -1,0 +1,7 @@
+setup.py
+logipar/__init__.py
+logipar/logipar.py
+logipar.egg-info/PKG-INFO
+logipar.egg-info/SOURCES.txt
+logipar.egg-info/dependency_links.txt
+logipar.egg-info/top_level.txt
