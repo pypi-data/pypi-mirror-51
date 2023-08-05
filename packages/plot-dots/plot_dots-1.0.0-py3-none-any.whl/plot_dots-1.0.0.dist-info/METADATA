@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: plot-dots
+Version: 1.0.0
+Summary: plot dots on 2D plane
+Home-page: https://github.com/green-green-green/plot_dots
+Author: green-green-green
+Author-email: w6ok3i@gmail.com
+License: MIT
+Keywords: plot
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: matplotlib
+
+# plot_dots
+
+
