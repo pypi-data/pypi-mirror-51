@@ -1,0 +1,8 @@
+README.md
+setup.py
+cursetup/__init__.py
+cursetup/tester.py
+cursetup.egg-info/PKG-INFO
+cursetup.egg-info/SOURCES.txt
+cursetup.egg-info/dependency_links.txt
+cursetup.egg-info/top_level.txt
