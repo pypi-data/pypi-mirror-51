@@ -1,0 +1,6 @@
+click==7.*
+colorama==0.*
+gTTS==2.0.*
+beautifulsoup4==4.*
+html2text
+lxml
