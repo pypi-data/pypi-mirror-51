@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: brutifus
+Version: 2019.8.2
+Summary: Python module to process IFU datacubes.
+Home-page: http://fpavogt.github.io/brutifus/
+Author: F.P.A. Vogt
+Author-email: frederic.vogt@alumni.anu.edu.au
+License: GNU General Public License
+Download-URL: https://github.com/fpavogt/brutifus/archive/master.zip
+Description: For the corresponding documentation, go to:
+        
+        http://fpavogt.github.io/brutifus
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
