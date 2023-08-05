@@ -1,0 +1,17 @@
+d6tflow/__init__.py,sha256=6dKO1bIQIqXW99h4plmzWAMNUNxEUe6gBS8Y2HZGJwA,7006
+d6tflow/cache.py,sha256=q6mjbSKd5qBw6UJJYC14H2WuFp1RMb23XxUUUVzlAaU,63
+d6tflow/pipes.py,sha256=HBc0v03luZzYWH2ImvuCWGi4dklsRjUc9cHVpVOmrMo,4542
+d6tflow/settings.py,sha256=hY0CJMdw37hdsCOxjvhwxpgltyty2tDlXfRn1QEqpFo,356
+d6tflow/utils.py,sha256=wti6NxhVGjkUqmcce0Nfwpq3Qft2L9CjI8v53sugvAg,1366
+d6tflow/targets/__init__.py,sha256=yC1X7A6Q_utSh99_LSBiQlqU9uPez5RFH-nG10qIdDA,7992
+d6tflow/targets/dt.py,sha256=q2pIrPwx9p9v7LLXZSbv6o0YrHS4eBewh1IuwKc_Wi0,355
+d6tflow/targets/h5.py,sha256=GFJ2CLZk709fE_z50jQXtGe2HdtyS_vFdmD83rRUe68,681
+d6tflow/tasks/__init__.py,sha256=s-OTiCCSDPh5a_SNPTk5b44z5pxF0rW8pPax-B3raDA,8023
+d6tflow/tasks/dask.py,sha256=83BCW-HobTUyBWP195MijNfSyoaEDRlWZRaLbWJMAWU,373
+d6tflow/tasks/dt.py,sha256=6MDJuC6PDO6_CA3xVHIub4f3Vjut7Llhhf-US3CeC5g,238
+d6tflow/tasks/h5.py,sha256=AHQBZqIDRj_qohu5sqsYJyEfU1cqND2hV07jMbMQgCQ,376
+d6tflow-0.1.6.dist-info/LICENSE,sha256=HkOB6QzwnZlOOZqPcapzB5noqOuG8tZ2EA83fGQr_nk,1086
+d6tflow-0.1.6.dist-info/METADATA,sha256=jxGOVh_NNspti6x1WyOuVFqTru10OhTjj86SQ9gYSYU,665
+d6tflow-0.1.6.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+d6tflow-0.1.6.dist-info/top_level.txt,sha256=kn40TZ8-Sj5Sn8h3aoSq2NUmfc9LGY_izNxhlmTDk3Q,8
+d6tflow-0.1.6.dist-info/RECORD,,
