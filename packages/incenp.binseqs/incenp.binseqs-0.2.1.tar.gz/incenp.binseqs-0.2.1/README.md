@@ -1,0 +1,64 @@
+BinSeqs - Support for binary sequence formats in Bioython
+=========================================================
+
+BinSeqs is a Python package intended to enrich the SeqIO
+framework from [Biopython](https://biopython.org/) by adding
+support for some binary sequence formats.
+
+
+Deprecation Warning
+-------------------
+
+This code has now been merged into Biopython. Starting from
+Biopython release 1.75, all you need to do to support the formats
+below is to load the `Bio.SeqIO` module.
+
+Consequently, this project will no longer be maintained. It will
+remain available online but will not be updated. All improvements
+and bug fixes will occur in the Biopython repository.
+
+You can still use this module until Biopython 1.75 is released and
+available on your system. After that, loading the `incenp.bio.seqio`
+module will be a no-op and a DeprecationWarning will be emitted.
+
+
+Formats supported
+-----------------
+
+* `xdna` format, used by _DNA Strider_ and
+  [Serial Cloner](http://serialbasics.free.fr/Serial_Cloner.html):
+  reading and writing supported
+* `snapgene` format, used by [SnapGene](https://www.snapgene.com/):
+  reading support only
+* `gck` format, used by [Gene Construction Kit](http://www.textco.com/gene-construction-kit.php):
+  reading support only
+
+
+Usage
+-----
+The BinSeqs parsers and writers are not designed to be used
+independently and should instead be used through the Biopython's
+SeqIO module.
+
+Simply import the `incenp.bio.seqio` module to make the parsers
+and writers available to Biopython's SeqIO:
+
+    from Bio import SeqIO
+    import incenp.bio.seqio
+
+    records = list(SeqIO.parse('snapgene_file.dna', 'snapgene'))
+    SeqIO.write(records, 'serialcloner_file.xdna', 'xdna')
+
+
+Copying
+-------
+BinSeqs is free software and distributed under the terms of
+a BSD-like license. The full license is included in the
+[LICENSE.txt file](LICENSE.txt) of the source distribution.
+
+
+Homepage
+--------
+The project is located at https://incenp.org/dvlpt/binseqs.html
+(homepage) and https://git.incenp.org/damien/binseqs (repository
+and bug tracker).

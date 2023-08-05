@@ -1,0 +1,13 @@
+Changes in binseqs-0.2.1 (2019-08-??)
+-------------------------------------
+
+  * Check for native Biopython support before loading the parsers.
+  * Always fill the SeqRecord's description field from free-form comment.
+  * Set the SeqRecord's name field to the comment's first word.
+  * Emit warnings when dropping data in XdnaWriter.
+
+
+Changes in binseqs-0.2.0 (2019-07-29)
+-------------------------------------
+
+  * Add read support for the GCK file format.

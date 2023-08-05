@@ -1,0 +1,17 @@
+AUTHORS
+LICENSE.txt
+MANIFEST.in
+NEWS
+README.md
+setup.py
+incenp/__init__.py
+incenp.binseqs.egg-info/PKG-INFO
+incenp.binseqs.egg-info/SOURCES.txt
+incenp.binseqs.egg-info/dependency_links.txt
+incenp.binseqs.egg-info/requires.txt
+incenp.binseqs.egg-info/top_level.txt
+incenp/bio/__init__.py
+incenp/bio/seqio/GckIO.py
+incenp/bio/seqio/SnapGeneIO.py
+incenp/bio/seqio/XdnaIO.py
+incenp/bio/seqio/__init__.py
