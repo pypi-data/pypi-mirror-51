@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: phishdetect-admin
+Version: 2.0
+Summary: Web application to administer a PhishDetect Node
+Home-page: UNKNOWN
+Author: Claudio Guarnieri
+Author-email: nex@nex.sx
+License: GPLv3
+Keywords: security phishing phishdetect
+Platform: UNKNOWN
+Requires-Dist: Flask
+Requires-Dist: PyYAML
+Requires-Dist: requests
+
+Web application to administer a PhishDetect Node
+
+
