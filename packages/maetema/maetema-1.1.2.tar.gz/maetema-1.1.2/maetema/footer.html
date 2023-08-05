@@ -1,0 +1,18 @@
+<footer>
+  {%- block next_prev %}
+  {%- if page and page.next_page or page.previous_page %}
+    <div class="footer-buttons">
+      {%- if page.previous_page %}
+        <div class="previous"><a href="{{ page.previous_page.url|url }}" title="{{ page.previous_page.title }}"><span>Anterior</span></a></div>
+      {%- endif %}
+      {%- if page.next_page %}
+        <div class="next"><a href="{{ page.next_page.url|url }}" title="{{ page.next_page.title }}"><span>Siguiente</span></a></div>
+      {%- endif %}
+    </div>
+  {%- endif %}
+  {%- endblock %}
+  <div class="footer-note"><p>
+    Built with <a href="http://www.maeorg.info">Mae ORG</a> using
+    <a href="https://docs.maeorg.site">MaeDocs theme</a>.
+  </p></div>
+</footer>
