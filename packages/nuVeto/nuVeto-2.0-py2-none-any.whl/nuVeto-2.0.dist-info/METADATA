@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nuVeto
+Version: 2.0
+Summary: Package implements the formalism for calculating passing fraction as discussed in JCAP07(2018)047.
+Home-page: https://github.com/tianluyuan/nuVeto.git
+Maintainer: Tianlu Yuan
+Maintainer-email: tyuan@icecube.wisc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: functools32
+Requires-Dist: scipy (<1.3.0)
+Requires-Dist: numpy (<1.17.0)
+Requires-Dist: MCEq[mkl]
+Provides-Extra: plotting
+Requires-Dist: matplotlib ; extra == 'plotting'
+Provides-Extra: resources
+Requires-Dist: pythia8 ; extra == 'resources'
+Requires-Dist: matplotlib ; extra == 'resources'
+Requires-Dist: argparse ; extra == 'resources'
+Requires-Dist: pandas ; extra == 'resources'
+
+This package calculates the effect of a detector veto on the high-energy atmospheric neutrino flux via detection of muons that reach the detector. The result calculated is the passing-flux or passing-fraction of atmospheric neutrinos as a function of energy and zenith angle.
+
+
