@@ -1,0 +1,3 @@
+[console_scripts]
+serietvapi_bot = serietvapi_bot.API_main:main
+
