@@ -1,0 +1,4 @@
+[console_scripts]
+nanome-url-loader = nanome_loaders.URLLoader:main
+nanome-web-loader = nanome_loaders.WebLoader:main
+

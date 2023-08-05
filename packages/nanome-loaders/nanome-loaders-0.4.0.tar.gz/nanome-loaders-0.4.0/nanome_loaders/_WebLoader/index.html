@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Nanome Loader</title>
+    <script src="vue.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="container">
+        <header>
+          <img src="img/logo.png" />
+          <h1>Vault</h1>
+        </header>
+        <h2 class="subheader">Upload files to make them available in Nanome!</h2>
+
+        <div class="text-center">
+          <div class="file new-file">
+            <label class="icon">
+              +
+              <input @change="onChange" :accept="validExt.toString()" type="file" multiple hidden />
+            </label>
+            <div class="filename">new file</div>
+          </div>
+        </div>
+
+        <p>
+          Drag and drop or click the new file button to upload files.<br />
+          Supports <b>{{ validExt.join(' ') }}</b>
+        </p>
+
+        <h1>Files Available</h1>
+        <div id="files" :class="{ 'grid': !!files.length }">
+          <div v-if="!files.length">
+            no files uploaded yet
+          </div>
+          <div v-for="file in files" :key="file.name" class="file">
+            <img :src="`img/icon-${file.ext}.png`" class="icon" />
+            <button @click="deleteFile(file.full)" class="delete">&times;</button>
+            <div class="filename">
+              {{ file.name }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        v-show="isDroppable || isUploading"
+        @dragover.prevent
+        @dragenter.prevent
+        @dragleave="isDroppable = false"
+        @drop.prevent="drop"
+        id="dropzone"
+      >
+        <div v-if="isDroppable" class="banner">
+          drop {{ numDropping ? numDropping : '' }} files to upload
+        </div>
+        <div v-else-if="isUploading" class="banner">
+          uploading files...<br />
+          <small>please wait</small>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
