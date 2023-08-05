@@ -1,0 +1,9 @@
+pandas
+numpy
+emoji
+nltk
+pprint
+gensim
+spacy
+tsm
+matplot
