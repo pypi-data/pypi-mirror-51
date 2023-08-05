@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: scrapyd_dash
+Version: 0.1.2
+Summary: A dashboard for scrapy project using scrapyd and logparser
+Home-page: https://github.com/Dainius-P/scrapyd-dash
+Author: Dainius Preimantas
+Author-email: preimantasd@gmail.com
+License: BSD License
+Description: # Scrapyd Dashboard
+        
+        A dashboard specifically used for scrapyd servers to manipulate scrapy spiders (start, stop, check status).
+        
+        ### Features
+        
+        - [x] Scrapyd server status
+        - [x] Tasks (add, remove, list)
+        - [x] Authentification (Using the Django authentication system)
+        - [ ] Scheduled tasks (add, remove, list)
+        - [ ] View logs
+        - [ ] Multiple independent user support
+        - [ ] Task performance details
+        
+        ### Demo
+        
+        [Demo website](https://scrapyddash.herokuapp.com/)
+        
+        Username: **demo**
+        
+        Password: **demo**
+        
+        ### Installing
+        
+        1. Install the package
+        
+        ```
+        pip install scrapyd_dash
+        ```
+        
+        2. Add urls to your projects urls.py
+        
+        ```
+        from django.urls import include
+        
+        urlpatterns = [
+            ...
+            path('scrapyd_dash/', include('scrapyd_dash.urls')),
+        ]
+        
+        ```
+        
+        
+        ### Built With
+        
+        * [Django](https://www.djangoproject.com/) - The web framework used.
+        * [ScrapyD](https://github.com/scrapy/scrapyd) - A service daemon to run Scrapy spiders.
+        * [LogParser](https://github.com/my8100/logparser) - A tool for parsing Scrapy log files.
+        
+        ### Authors
+        
+        * **Dainius Preimantas** - *Initial work* - [Dainius-P](https://github.com/Dainius-P)
+        
+        ### Contributing
+        
+        1. Fork it
+        2. Create your feature branch (```git checkout -b feature/fooBar```)
+        3. Commit your changes (```git commit -am 'Add some fooBar'```)
+        4. Push to the branch (```git push origin feature/fooBar```)
+        5. Create a new Pull Request
+        
+        
+        ### License
+        
+        This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
