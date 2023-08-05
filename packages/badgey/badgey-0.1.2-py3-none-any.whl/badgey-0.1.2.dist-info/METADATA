@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: badgey
+Version: 0.1.2
+Summary: A library to locally generate repo badges
+Home-page: https://gitlab.com/rubendibattista/badgey
+Author: Ruben Di Battista
+Author-email: rubendibattista@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pybadges
+Requires-Dist: docopt
+Requires-Dist: Jinja2
+Requires-Dist: gitpython
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mypy ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+
+# Badgey
+[![pipeline status](https://gitlab.com/rubendibattista/badgey/badges/master/pipeline.svg)](https://gitlab.com/rubendibattista/badgey/commits/master)
+[![loc](https://gitlab.com/rubendibattista/badgey/-/jobs/artifacts/master/raw/loc.svg?job=badges)](https://gitlab.com/rubendibattista/badgey/master)
+[![version](https://gitlab.com/rubendibattista/badgey/-/jobs/artifacts/master/raw/version.svg?job=badges)](https://gitlab.com/rubendibattista/badgey/-/releases)
+
+
+

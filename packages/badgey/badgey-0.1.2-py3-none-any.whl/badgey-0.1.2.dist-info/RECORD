@@ -1,0 +1,11 @@
+badgey/__init__.py,sha256=5Eso5ng99zMDjRGg52tg0WdxGwPzKHTcBSld2yzL26w,1254
+badgey/__version__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+badgey/_base.py,sha256=JCP2fmBblTOgG_y7rKe87v_DgEsRFKV6WXfIqu6Unls,2328
+badgey/badges.py,sha256=9lOBL00WAvgVxgoBMjIlGs39ne9Iu778m70qZmWuUZM,1740
+badgey/colormap.py,sha256=hEOTyGiZGUQC-1Esrlr-XwbbW_QoLsARvhBb-YBHklA,2364
+badgey/mixins.py,sha256=VEQ3l_qSBom-IGoEDti_t_jClpQlq7mgumvOVVmea0A,279
+badgey-0.1.2.dist-info/METADATA,sha256=vQo9mF1ZNamnUPsF1JCT15aSMQ-tBLwchQozO524ceM,1512
+badgey-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+badgey-0.1.2.dist-info/entry_points.txt,sha256=NN8f18BKv0cGVv2Bu1Whpy6yStX4tucJyWLlTjukUiE,40
+badgey-0.1.2.dist-info/top_level.txt,sha256=Tnw8OzERr4hTxQfD7DaDZFyRDXQXCwmJBy_nuxK03vk,7
+badgey-0.1.2.dist-info/RECORD,,
