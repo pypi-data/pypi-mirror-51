@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: oidc_validators
+Version: 0.5.1
+Summary: Validates OIDC token
+Home-page: http://github.com/unit9/oidc-validators-python
+Author: Abirafdi Raditya Putra
+Author-email: raditya.putra@unit9.com
+License: MIT
+Description: # OIDC Validators
+        
+        ## Usage
+        
+            >>> import oidc_validators
+            
+            >>> oidc_validators.Google.validate(token, email, audience)
+            
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
