@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/more.browser_session.egg-info/PKG-INFO
+src/more.browser_session.egg-info/SOURCES.txt
+src/more.browser_session.egg-info/dependency_links.txt
+src/more.browser_session.egg-info/requires.txt
+src/more.browser_session.egg-info/top_level.txt
+src/more/browser_session/__init__.py
+src/more/browser_session/app.py
+src/more/browser_session/sessions.py
