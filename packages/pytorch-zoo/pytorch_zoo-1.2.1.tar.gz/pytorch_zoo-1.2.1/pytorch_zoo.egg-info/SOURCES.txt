@@ -1,0 +1,13 @@
+README.md
+setup.py
+pytorch_zoo/__init__.py
+pytorch_zoo/data.py
+pytorch_zoo/loss.py
+pytorch_zoo/metrics.py
+pytorch_zoo/modules.py
+pytorch_zoo/schedulers.py
+pytorch_zoo/utils.py
+pytorch_zoo.egg-info/PKG-INFO
+pytorch_zoo.egg-info/SOURCES.txt
+pytorch_zoo.egg-info/dependency_links.txt
+pytorch_zoo.egg-info/top_level.txt
