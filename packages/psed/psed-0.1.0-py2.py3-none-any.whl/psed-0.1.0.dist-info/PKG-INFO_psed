@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: psed
+Version: 0.1.0
+Summary: CLI utility for text search / replace.
+Home-page: https://github.com/aklajnert/psed
+Author: Andrzej Klajnert
+Author-email: py@aklajnert.pl
+License: MIT license
+Description: ====
+        psed
+        ====
+        
+        
+        CLI utility for text search / replace.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-08-23)
+        ------------------
+        
+        * First test-rel on PyPI.
+        
+Keywords: psed
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: test
+Provides-Extra: dev

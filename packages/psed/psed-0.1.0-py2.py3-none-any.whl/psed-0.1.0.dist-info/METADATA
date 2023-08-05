@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: psed
+Version: 0.1.0
+Summary: CLI utility for text search / replace.
+Home-page: https://github.com/aklajnert/psed
+Author: Andrzej Klajnert
+Author-email: py@aklajnert.pl
+License: MIT license
+Keywords: psed
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Click (>=7.0)
+Provides-Extra: dev
+Requires-Dist: tox (==3.12.1) ; extra == 'dev'
+Requires-Dist: black (==19.3b0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=5.1.0) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.7.0) ; extra == 'test'
+Requires-Dist: pyfakefs (==3.6) ; extra == 'test'
+Requires-Dist: pytest-azurepipelines (==0.8.0) ; extra == 'test'
+
+====
+psed
+====
+
+
+CLI utility for text search / replace.
+
+This project is a simple replacement for the ``sed`` in Linux. I had enough issues with
+debugging the regular expressions, especially a few months after they were written, so I
+have created a replacement in Python. Feel free to use it, but the project aimed to cover
+my use case so it might not fit everybody. I plan to improve functionality in the future.
+
+Installation and usage
+======================
+
+To install, simply run ``pip install`` command. You need at least Python 3.6 interpreter.
+
+.. code-block::
+
+    pip install psed
+
+Usage:
+
+.. code-block::
+
+    $ psed --help
+
+    Usage: psed [OPTIONS]
+
+      Console script for psed.
+
+    Options:
+      -i, --input TEXT    Path to the input file / directory.  [required]
+      -f, --find TEXT     String to find.
+      -r, --replace TEXT  String to replace.
+      --inplace           Modify the file(s) in place.
+      -v, --verbose       Increase verbosity.
+      --version           Show the version and exit.
+      --help              Show this message and exit.
+
+
+
+Usage example
+=============
+
+Input file:
+
+.. code-block::
+
+    [ERROR] Some error
+    [INFO] Some info
+    [WARNING] Some warning
+    [ERROR] Other error
+    [ERROR] There's a lot of errors
+    [DEBUG] And one debug
+
+Run psed:
+
+.. code-block::
+
+    psed --input ./sample \
+         --find '\[(ERROR)\]' \
+         --find '\[(INFO)\]' \
+         --find '\[(WARNING)\]' \
+         --replace '[LIGHT_\1]'
+
+Output file:
+
+.. code-block::
+
+    [LIGHT_ERROR] Some error
+    [LIGHT_INFO] Some info
+    [LIGHT_WARNING] Some warning
+    [LIGHT_ERROR] Other error
+    [LIGHT_ERROR] There's a lot of errors
+    [DEBUG] And one debug
+
+
+=======
+History
+=======
+
+0.1.0 (2019-08-26)
+==================
+
+* First release on PyPI.
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+psed = psed.__main__:main
+
