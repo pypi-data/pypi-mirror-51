@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ddbsizemetric
+Version: 0.1.0a4
+Summary: Lambda Custom Resource that emits a metric on the size of your DynamoDB Tables.
+Home-page: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/ConstructRepo.git
+Author: Richard Boyd<Richard@rboyd.dev>
+License: UNKNOWN
+Project-URL: Source, https://git-codecommit.us-east-1.amazonaws.com/v1/repos/ConstructRepo.git
+Description: # Useful commands
+        
+         * `npm run build`   compile typescript to js
+         * `npm run watch`   watch for changes and compile
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/ddbsizemetric/__init__.py
+src/ddbsizemetric/py.typed
+src/ddbsizemetric.egg-info/PKG-INFO
+src/ddbsizemetric.egg-info/SOURCES.txt
+src/ddbsizemetric.egg-info/dependency_links.txt
+src/ddbsizemetric.egg-info/requires.txt
+src/ddbsizemetric.egg-info/top_level.txt
+src/ddbsizemetric/_jsii/__init__.py
+src/ddbsizemetric/_jsii/ddbsizemetric@0.1.0-alpha.4.jsii.tgz
