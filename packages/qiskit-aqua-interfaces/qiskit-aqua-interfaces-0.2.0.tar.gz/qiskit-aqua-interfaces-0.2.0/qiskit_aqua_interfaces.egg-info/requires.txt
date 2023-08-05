@@ -1,0 +1,5 @@
+qiskit-aqua>=0.6.0
+
+[:sys_platform == "darwin"]
+pyobjc-core
+pyobjc-framework-Cocoa
