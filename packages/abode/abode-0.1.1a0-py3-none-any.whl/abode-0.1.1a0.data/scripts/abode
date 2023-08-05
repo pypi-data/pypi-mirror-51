@@ -1,0 +1,31 @@
+#!python
+
+import argparse
+import sys
+import textwrap
+
+import abode
+
+def get_command():
+    parser = argparse.ArgumentParser(
+                        prog='Abode',
+                        formatter_class=argparse.RawDescriptionHelpFormatter,
+                        description=textwrap.dedent('''
+                            Available commands
+                            --------------------------------
+                            create    ->  create a new conda environment
+                            install   ->  install packages in the current environment
+                            export    ->  write current environment file to stdout
+                            list      ->  list packages installed in current environment
+                            '''))
+    parser.add_argument("command", help='Abode command') 
+    args = parser.parse_args(sys.argv[1:2])
+    return args.command
+
+# Call abode command
+command = get_command()
+try:
+    command_func = getattr(abode, command)
+    command_func()
+except AttributeError:
+    print(f"The command 'abode {command}' doesn't exist. Check available commands with abode -h")
