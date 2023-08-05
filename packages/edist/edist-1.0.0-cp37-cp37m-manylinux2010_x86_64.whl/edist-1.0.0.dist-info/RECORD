@@ -1,0 +1,15 @@
+edist/alignment.py,sha256=91A1I3C2x039e38OO5_6GJ7G_t5QMFRRB5WoAOiJVlI,6986
+edist/bedl.py,sha256=ZUaRS76ezeBt3_j8NpCydGSPX41i3tZiuj5hdo6heeA,16527
+edist/tree_edits.py,sha256=ZzpkO-fAsYp9L-XjUrQIg6zkbTvK2-mdZqQFFf0Nnrs,15424
+edist/tree_utils.py,sha256=U6ecY-QBYNjbIz2YhV7f6cv1FLwHFXR0nyIRjx2JTpY,10352
+edist/dtw.cpython-37m-x86_64-linux-gnu.so,sha256=BaTKso42qjH4EC8_knlgMNkKNjXGwayj9AfdALiKHw8,1692336
+edist/ted.cpython-37m-x86_64-linux-gnu.so,sha256=NENZ2BD2MXxvFFV1xEBl_Zivcuo0Nc2iLMzo1aQTf7M,3115008
+edist/sed.cpython-37m-x86_64-linux-gnu.so,sha256=CLb-sqh7QBYMJ6UK90yGDZ9oUQVcyFGeTVOshE90vSg,2509896
+edist/edits.py,sha256=31GpmvOHvgAWSGr-KlG9o1HIuk8og8iq-KScknnmMrg,7075
+edist/multiprocess.py,sha256=miPyindz6nSSR3F5edO2o4-m7QSQbIncduHtfwq-9Cw,10643
+edist/adp.cpython-37m-x86_64-linux-gnu.so,sha256=5HkxUM3BfBM9MKXiDlMhupEW8vuV5RtAcnjUx_KOFmc,3120536
+edist/aed.py,sha256=0MBVoM1ZCqVQsB8cGUim3IdmXabdYPO4iN9VM60-bfM,7939
+edist-1.0.0.dist-info/RECORD,,
+edist-1.0.0.dist-info/WHEEL,sha256=Wzr7ustLd3r5KN3AVdAm7EECHYuYQiejXMdpS694wLU,112
+edist-1.0.0.dist-info/METADATA,sha256=w9MeSw2Xb-RBXE4v-xgUx9W6n8kest3tMZO47mmBVzw,20795
+edist-1.0.0.dist-info/top_level.txt,sha256=XCdxZfWngtADWDJ_ifiqqqEMORBS3xGxpttZRGaW8f8,6
