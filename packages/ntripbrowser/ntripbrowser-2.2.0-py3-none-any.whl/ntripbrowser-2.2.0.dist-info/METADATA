@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ntripbrowser
+Version: 2.2.0
+Summary: NTRIP cli browser
+Home-page: https://github.com/emlid/ntripbrowser.git
+Author: Andrew Yushkevich, Alexander Yashin
+Author-email: andrew.yushkevich@emlid.com, alexandr.yashin@emlid.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Dist: cchardet (>=2.1.4)
+Requires-Dist: geopy (>=1.14)
+Requires-Dist: texttable
+Requires-Dist: pager
+Requires-Dist: pycurl
+Requires-Dist: cachecontrol (>=0.12.4)
+
+UNKNOWN
+
+
