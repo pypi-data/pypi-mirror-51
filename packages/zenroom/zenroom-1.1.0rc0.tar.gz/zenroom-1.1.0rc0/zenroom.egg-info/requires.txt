@@ -1,0 +1,7 @@
+capturer==2.4
+
+[test]
+pytest
+pytest-cov
+codecov
+pre-commit
