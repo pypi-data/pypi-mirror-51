@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: oop-ext
+Version: 0.3.2
+Summary: OOP Extensions is a set of utilities for object oriented programming which is missing on Python core libraries.
+Home-page: http://github.com/ESSS/oop-ext
+Author: ESSS
+Author-email: foss@esss.co
+License: MIT license
+Description: ======================================================================
+        OOP Extensions
+        ======================================================================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/oop-ext.svg
+            :target: https://pypi.python.org/pypi/oop-ext
+        
+        .. image:: https://img.shields.io/pypi/pyversions/oop-ext.svg
+            :target: https://pypi.org/project/oop-ext
+        
+        .. image:: https://img.shields.io/travis/ESSS/oop-ext.svg
+            :target: https://travis-ci.com/ESSS/oop-ext
+        
+        .. image:: https://ci.appveyor.com/api/projects/status/github/ESSS/oop-ext?branch=master
+            :target: https://ci.appveyor.com/project/ESSS/oop-ext/?branch=master&svg=true
+        
+        .. image:: https://codecov.io/gh/ESSS/oop-ext/branch/master/graph/badge.svg
+            :target: https://codecov.io/gh/ESSS/oop-ext
+        
+        .. image:: https://img.shields.io/readthedocs/pip.svg
+            :target: https://oop-ext.readthedocs.io/en/latest/
+        
+        What is OOP Extensions ?
+        ================================================================================
+        
+        OOP Extensions is a set of utilities for object oriented programming which is missing on Python core libraries.
+        
+        
+        Contributing
+        ------------
+        
+        For guidance on setting up a development environment and how to make a
+        contribution to oop_ext, see the `contributing guidelines`_.
+        
+        .. _contributing guidelines: https://github.com/ESSS/oop-ext/blob/master/CONTRIBUTING.rst
+        
+        
+        Release
+        -------
+        A reminder for the maintainers on how to make a new release.
+        
+        Note that the VERSION should follow the semantic versioning as X.Y.Z
+        Ex.: v1.0.5
+        
+        1. Create a ``release-VERSION`` branch from ``upstream/master``.
+        2. Update ``CHANGELOG.rst``.
+        3. Push a branch with the changes.
+        4. Once all builds pass, push a ``VERSION`` tag to ``upstream``.
+        5. Merge the PR.
+        
+        
+        0.3.2 (2019-08-22)
+        ------------------
+        
+        * Interface and implementation methods can no longer contain mutable defaults, as this is considered
+          a bad practice in general.
+        
+        * ``Null`` instances are now hashable.
+        
+        
+        0.3.1 (2019-08-16)
+        ------------------
+        
+        * Fix mismatching signatures when creating "interface stubs" for instances:
+        
+          .. code-block:: python
+        
+              foo = IFoo(Foo())
+        
+        
+        0.3.0 (2019-08-08)
+        ------------------
+        
+        * Interfaces now support keyword-only arguments.
+        
+        0.2.4 (2019-03-22)
+        ------------------
+        
+        * Remove ``FunctionNotRegisteredError`` exception, which has not been in use for a few years.
+        
+        
+        0.2.3 (2019-03-22)
+        ------------------
+        
+        * Fix issues of ignored exception on nested callback.
+        
+        
+        0.2.1 (2019-03-14)
+        ------------------
+        
+        * Fix issues and remove obsolete code.
+        
+        
+        0.1.8 (2019-03-12)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: oop_ext
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Provides-Extra: testing
+Provides-Extra: docs
