@@ -1,0 +1,3 @@
+[console_scripts]
+choly = choly.__main__:main
+

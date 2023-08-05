@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: choly
+Version: 0.0.2
+Summary: Holy Lambda Command Line Application
+Home-page: https://github.com/FieryCod/holy-lambda
+Author: Fierycod
+Author-email: karol.wojcik@tuta.io
+License: UNKNOWN
+Description: # Choly
+        
+        Simple utility providing commands for development of lambda functions on Clojure Holy Lambda micro framework.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
