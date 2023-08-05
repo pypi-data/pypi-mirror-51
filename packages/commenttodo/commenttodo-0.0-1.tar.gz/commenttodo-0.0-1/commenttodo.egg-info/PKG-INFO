@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: commenttodo
+Version: 0.0-1
+Summary: CLI that shows all TODO comments in your files
+Home-page: https://github.com/BalenD/TODO-cli
+Author: BalenD
+Author-email: Balen1996@hotmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/BalenD/TODO-cli
+Project-URL: Issue Tracker, https://github.com/BalenD/TODO-cli/issues
+Description: <h1 align="center">
+          <br>
+          TODO-cli
+          <br>
+        </h1>
+        
+        <p align="center">
+          <a href="#about">About</a>
+        </p>
+        
+        #About
+        This project is about making a console program that will read every "TODO" mark in your file(s), and print out all of them in the terminal so you can begin working on them.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

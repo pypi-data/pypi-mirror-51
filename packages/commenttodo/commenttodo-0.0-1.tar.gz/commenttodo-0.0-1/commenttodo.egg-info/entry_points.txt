@@ -1,0 +1,3 @@
+[console_scripts]
+todo-cli = todocli.todo_cli:main
+
