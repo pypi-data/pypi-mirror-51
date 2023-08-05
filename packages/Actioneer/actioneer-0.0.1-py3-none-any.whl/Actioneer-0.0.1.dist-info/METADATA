@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Actioneer
+Version: 0.0.1
+Summary: An extensible framework for building and consuming generic 'actions'
+Home-page: UNKNOWN
+Author: Isylys
+Author-email: tomsputz@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+=========
+Actioneer
+=========
+
+An extensible framework for building and consuming generic 'actions'
+
