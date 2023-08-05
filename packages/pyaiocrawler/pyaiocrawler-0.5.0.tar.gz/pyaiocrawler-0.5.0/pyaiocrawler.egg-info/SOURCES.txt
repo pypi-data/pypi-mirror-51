@@ -1,0 +1,9 @@
+README.md
+aiocrawler.py
+setup.py
+pyaiocrawler.egg-info/PKG-INFO
+pyaiocrawler.egg-info/SOURCES.txt
+pyaiocrawler.egg-info/dependency_links.txt
+pyaiocrawler.egg-info/requires.txt
+pyaiocrawler.egg-info/top_level.txt
+pyaiocrawler.egg-info/zip-safe
