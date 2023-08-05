@@ -1,0 +1,75 @@
+include LICENSE.txt
+include jupyter_wysiwyg/static/index.js
+include jupyter_wysiwyg/static/tinymce/jquery.tinymce.min.js
+include jupyter_wysiwyg/static/tinymce/license.txt
+include jupyter_wysiwyg/static/tinymce/tinymce.min.js
+include jupyter_wysiwyg/static/tinymce/langs/readme.md
+include jupyter_wysiwyg/static/tinymce/plugins/advlist/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/anchor/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/autolink/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/autoresize/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/autosave/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/bbcode/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/charmap/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/code/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/codesample/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/colorpicker/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/contextmenu/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/directionality/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/emoticons/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/emoticons/js/emojis.js
+include jupyter_wysiwyg/static/tinymce/plugins/emoticons/js/emojis.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/fullpage/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/fullscreen/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/help/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/hr/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/image/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/imagetools/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/importcss/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/insertdatetime/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/legacyoutput/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/link/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/lists/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/media/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/nonbreaking/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/noneditable/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/pagebreak/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/paste/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/preview/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/print/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/quickbars/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/save/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/searchreplace/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/spellchecker/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/tabfocus/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/table/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/template/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/textcolor/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/textpattern/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/toc/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/visualblocks/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/visualchars/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/plugins/wordcount/plugin.min.js
+include jupyter_wysiwyg/static/tinymce/skins/content/default/content.min.css
+include jupyter_wysiwyg/static/tinymce/skins/content/document/content.min.css
+include jupyter_wysiwyg/static/tinymce/skins/content/writer/content.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide/content.inline.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide/content.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide/content.mobile.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide/skin.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide/skin.mobile.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide-dark/content.inline.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide-dark/content.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide-dark/content.mobile.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide-dark/skin.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide-dark/skin.mobile.min.css
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide-dark/fonts/tinymce-mobile.woff
+include jupyter_wysiwyg/static/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff
+include jupyter_wysiwyg/static/tinymce/themes/mobile/theme.min.js
+include jupyter_wysiwyg/static/tinymce/themes/silver/theme.min.js
+recursive-include jupyter_wysiwyg/static *.js
+recursive-include jupyter_wysiwyg/static *.css
+recursive-include jupyter_wysiwyg/static *.png
+recursive-include jupyter_wysiwyg/static *.gif
+recursive-include jupyter_wysiwyg/static *.html
+recursive-include jupyter_wysiwyg/static *.md
