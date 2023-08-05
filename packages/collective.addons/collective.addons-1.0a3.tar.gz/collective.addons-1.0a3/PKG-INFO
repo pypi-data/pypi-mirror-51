@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: collective.addons
+Version: 1.0a3
+Summary: Plone add-on to host add-ons / extensions of a software
+Home-page: https://github.com/collective/collective.addons
+Author: Andreas Mantke
+Author-email: maand@gmx.de
+License: GPL version 2
+Project-URL: PyPI, https://pypi.python.org/pypi/collective.addons
+Project-URL: Source, https://github.com/collective/collective.addons
+Project-URL: Tracker, https://github.com/collective/collective.addons/issues
+Description: .. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
+           If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
+           This text does not appear on pypi or github. It is a comment.
+        
+        =================
+        collective.addons
+        =================
+        
+        Tell me what your product does
+        
+        Features
+        --------
+        
+        - Can be bullet points
+        
+        
+        Examples
+        --------
+        
+        This add-on can be seen in action at the following sites:
+        - Is there a page on the internet where everybody can see the features?
+        
+        
+        Documentation
+        -------------
+        
+        Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+        
+        
+        Translations
+        ------------
+        
+        This product has been translated into
+        
+        - Klingon (thanks, K'Plai)
+        
+        
+        Installation
+        ------------
+        
+        Install collective.addons by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                collective.addons
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/collective/collective.addons/issues
+        - Source Code: https://github.com/collective/collective.addons
+        - Documentation: https://docs.plone.org/foo/bar
+        
+        
+        Support
+        -------
+        
+        If you are having issues, please let us know.
+        We have a mailing list located at: project@example.com
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        
+        Contributors
+        ============
+        
+        - Andreas Mantke, maand@gmx.de
+        
+        
+        Changelog
+        =========
+        
+        
+        1.0a3 (2019-08-23)
+        ------------------
+        
+        - Pep8, isort and code-analysis fixes. [Andreas Mantke]
+        
+        
+        
+        1.0b1 (2019-08-23)
+        ------------------
+        
+        - Add notifications module [Andreas Mantke]
+        - Fix css-class names in addonrelease and addonlinkedrelease
+          view [Andreas Mantke]
+        - Move a css inline style to the style sheet file [Andreas Mantke]
+        - Pep8 fixes [Andreas Mantke]
+        - Update localization template file and localization files,
+          update German translation. [Andreas Mantke
+        
+        
+        
+        1.0a2 (2019-08-16)
+        ------------------
+        
+        - Fix regular expressions for file extension validation [Andreas Mantke]
+        - Add import for Invalid to the addoncenter module [Andreas Mantke]
+        - Add necessary imports for virus scanning with
+          collective.clamaav [Andreas Mantke]
+        - Fix title strings and field namings [Andreas Mantke]
+        - Update localization template file and localization files and
+          add the missing German localization strings [Andreas Mantke]
+        
+        
+        
+        1.0a1 (2019-08-13)
+        ------------------
+        
+        - Initial release.
+          [andreasma]
+        
+Keywords: Python Plone
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: ==2.7, >=3.6
+Provides-Extra: test
