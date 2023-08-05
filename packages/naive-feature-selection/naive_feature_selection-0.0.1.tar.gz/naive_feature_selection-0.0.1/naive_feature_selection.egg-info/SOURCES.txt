@@ -1,0 +1,9 @@
+README.md
+setup.py
+naive_feature_selection/__init__.py
+naive_feature_selection/naive_feature_selection.py
+naive_feature_selection.egg-info/PKG-INFO
+naive_feature_selection.egg-info/SOURCES.txt
+naive_feature_selection.egg-info/dependency_links.txt
+naive_feature_selection.egg-info/requires.txt
+naive_feature_selection.egg-info/top_level.txt
