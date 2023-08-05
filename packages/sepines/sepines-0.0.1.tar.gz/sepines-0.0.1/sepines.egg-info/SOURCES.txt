@@ -1,0 +1,7 @@
+README.md
+setup.py
+sepines/__init__.py
+sepines.egg-info/PKG-INFO
+sepines.egg-info/SOURCES.txt
+sepines.egg-info/dependency_links.txt
+sepines.egg-info/top_level.txt

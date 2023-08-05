@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sepines
+Version: 0.0.1
+Summary: This package lets you separate text in lines
+Home-page: UNKNOWN
+Author: Rafael Rayes
+Author-email: rafa@rayes.com.br
+License: UNKNOWN
+Description: 
+        Use 
+        ```
+        max_words(text, lines)
+        ```
+        To separate text in number of words.
+        
+        And:
+        ```
+        max_chars(text, lines)
+        ```
+        to separate text in number of characters
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
