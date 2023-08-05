@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: torrent-client
+Version: 1.2
+Summary: A Python BitTorrent client for downloading from torrents. 
+Home-page: UNKNOWN
+Author: OpenWorm.org authors and contributors
+Author-email: jaideepnseth@gmail.com
+License: UNKNOWN
+Description: This is the component for downloading contents described by a DataSource torrent_file_informational
+Platform: UNKNOWN
