@@ -1,0 +1,9 @@
+docker
+click
+delegator.py
+google-auth
+flask
+
+[test]
+pytest
+flake8
