@@ -1,0 +1,11 @@
+lazytools/__init__.py,sha256=1zwD8BYEqiGNGlpz0sGHIiRyE4A4EN0O9hTz6NI244U,271
+lazytools/exceptions.py,sha256=nGbKlUGEXjkIu1gx7C9RYtvsY-LiM7Mo7C8kA75xTwc,606
+lazytools/spyder.py,sha256=fR69FlS1vxQMq3afZJk4SNVYdorfg8U3ndjcd7TBYMo,321
+lazytools/to_dataframe.py,sha256=mPZQVuiLimCI0aUuqKpA40HVzlnUDnBLULidF4hTtTE,496
+lazytools/visualizations.py,sha256=JbHJ7g5pwyP6kxrEDVUlVkWjyBr9XKctvsFYIu1LpvI,782
+lazytools_sflippl-0.0.0.9000.dist-info/DESCRIPTION.rst,sha256=Y-ISPNl4aSIkagqWuWdAdADC6zBmAZWW1MGvmBVih8s,26
+lazytools_sflippl-0.0.0.9000.dist-info/METADATA,sha256=edX-y6chXRYu_OHPFPqvCj1IVWuilCRCb4axC152PNY,407
+lazytools_sflippl-0.0.0.9000.dist-info/RECORD,,
+lazytools_sflippl-0.0.0.9000.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+lazytools_sflippl-0.0.0.9000.dist-info/metadata.json,sha256=nokIM4CUOlDPrG8MYCdJ3zdlIlV1c2SWjt6cjsBD0os,549
+lazytools_sflippl-0.0.0.9000.dist-info/top_level.txt,sha256=SZWB5Q_gIm-0ac68wx9GkcYGvXY0J5yXNgofYDc5Mwc,10

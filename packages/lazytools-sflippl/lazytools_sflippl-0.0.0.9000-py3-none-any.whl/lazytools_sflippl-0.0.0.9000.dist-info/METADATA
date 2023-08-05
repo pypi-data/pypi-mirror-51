@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: lazytools-sflippl
+Version: 0.0.0.9000
+Summary: A few handy tools for Python.
+Home-page: https://github.com/sflippl/lazytools
+Author: Samuel Lippl
+Author-email: sfc.lippl@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Lazy Tools for Python
+
+
