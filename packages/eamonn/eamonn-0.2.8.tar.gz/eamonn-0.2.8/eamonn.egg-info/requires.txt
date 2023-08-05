@@ -1,0 +1,8 @@
+requests
+flask
+records
+twine
+PyMySQL
+pymongo
+threadpool
+pprint
