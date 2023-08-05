@@ -1,0 +1,14 @@
+click>=6
+rasterio~=1.0
+rio-mucho>=1.0rc1
+scipy>=0.18
+mock>=2
+
+[plot]
+matplotlib
+
+[test]
+codecov
+hypothesis
+pytest
+pytest-cov
