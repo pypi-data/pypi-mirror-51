@@ -1,0 +1,18 @@
+include README.rst
+recursive-include admin_city/templates *
+recursive-include templates *
+recursive-include */templates
+graft css
+graft js
+graft css
+graft locale
+graft plugins
+graft qiniu
+graft static
+graft templatetags
+graft vendor
+graft vendor
+graft views
+global-include *.py
+
+global-exclude *.pyc
