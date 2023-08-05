@@ -1,0 +1,5 @@
+pony
+Click
+mysqlclient
+dsnparse
+beautifulsoup4
