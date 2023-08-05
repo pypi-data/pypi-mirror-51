@@ -1,0 +1,16 @@
+scipy
+matplotlib
+imageio
+scikit-image
+qtpy
+qtawesome
+qimage2ndarray
+pillow
+peewee
+imageio
+natsort
+tifffile
+sortedcontainers
+psutil
+imageio-ffmpeg
+quamash
