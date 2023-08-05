@@ -1,0 +1,4 @@
+[console_scripts]
+punchcard = punchcards.punchcard:main
+punchcards = punchcards.cli:main
+
