@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sdkBraspag
+Version: 0.0.3
+Summary: Projeto de SDK para o Split de Pagamentos
+Home-page: UNKNOWN
+Author: Diego Faria
+Author-email: diego.rdfaria@gmail.com
+License: MIT
+Keywords: SDK Braspag Split
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+#SDK Braspag
+
+###Gerar Token de autenticaÃ§Ã£o
+
+```
+from Auth import Auth
+
+
+client_id = {{client Id fornecido pela Braspag}}
+client_secret = {{client Secret fornecido pela Braspag}}
+
+auth = Auth(client_id, client_secret)
+
+# Gera o token de autenticaÃ§Ã£o
+auth.generate_token()
+
+# Retorna o token gerado
+print(bp.token)
+
+# Verifica se o token ainda Ã© vÃ¡lido
+print(bp.expired_token())
+```
+
+
+
