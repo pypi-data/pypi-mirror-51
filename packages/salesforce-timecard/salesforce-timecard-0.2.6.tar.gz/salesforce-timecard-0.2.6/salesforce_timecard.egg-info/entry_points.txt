@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        timecard=salesforce_timecard.cli:cli
+    
