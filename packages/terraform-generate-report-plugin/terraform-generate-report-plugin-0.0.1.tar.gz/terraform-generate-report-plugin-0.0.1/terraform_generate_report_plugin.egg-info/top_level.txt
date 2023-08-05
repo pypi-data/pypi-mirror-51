@@ -1,0 +1,1 @@
+terraform-generate-report-plugin

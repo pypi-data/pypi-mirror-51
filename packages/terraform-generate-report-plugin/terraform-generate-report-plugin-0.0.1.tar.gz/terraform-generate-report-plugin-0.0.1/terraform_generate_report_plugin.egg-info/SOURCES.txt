@@ -1,0 +1,5 @@
+terraform-generate-report-plugin/setup.py
+terraform_generate_report_plugin.egg-info/PKG-INFO
+terraform_generate_report_plugin.egg-info/SOURCES.txt
+terraform_generate_report_plugin.egg-info/dependency_links.txt
+terraform_generate_report_plugin.egg-info/top_level.txt

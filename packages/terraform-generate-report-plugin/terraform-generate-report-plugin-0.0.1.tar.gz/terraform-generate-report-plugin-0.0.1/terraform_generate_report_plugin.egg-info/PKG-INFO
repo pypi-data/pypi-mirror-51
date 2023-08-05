@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: terraform-generate-report-plugin
+Version: 0.0.1
+Summary: This is a python module provide reports of terraform plan
+Home-page: https://github.com/ramitsurana/terraform-generate-report-plugin
+Author: Ramit Surana
+Author-email: ramitsurana@gmail.com
+License: MIT
+Description: This is a python module provide reports of terraform plan
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
