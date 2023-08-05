@@ -1,0 +1,7 @@
+[console_scripts]
+bqp2hfs = bqpjson.cli:bqp2hfs
+bqp2mzn = bqpjson.cli:bqp2mzn
+bqp2qh = bqpjson.cli:bqp2qh
+bqp2qubo = bqpjson.cli:bqp2qubo
+spin2bool = bqpjson.cli:spin2bool
+

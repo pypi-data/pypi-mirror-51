@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+bqpjson/__init__.py
+bqpjson/bqpjson-schema.json
+bqpjson/cli.py
+bqpjson/core.py
+bqpjson.egg-info/PKG-INFO
+bqpjson.egg-info/SOURCES.txt
+bqpjson.egg-info/dependency_links.txt
+bqpjson.egg-info/entry_points.txt
+bqpjson.egg-info/requires.txt
+bqpjson.egg-info/top_level.txt
