@@ -1,0 +1,13 @@
+gdal<3,>=2.4
+llvmlite
+matplotlib
+numba
+numexpr
+numpy
+pandas
+pillow
+pyopengl
+pyqt5
+scikit_learn
+scipy
+setuptools

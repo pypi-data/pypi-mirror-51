@@ -1,0 +1,121 @@
+2019-08-22 11:38:29 +0200, Bugfixes
+
+Fixed bug with exporting profile data from modeller
+
+2019-08-21 13:42:04 +0200, Update tab_prof.py
+
+fix bug in applying regional to all output gravity channels
+
+2019-08-15 11:33:41 +0200, Update
+
+Removed regional gravity estimation
+
+2019-08-14 15:30:47 +0200, Bugfix
+
+Adjusted borehole log position slightly to the right.
+
+2019-08-14 13:51:21 +0200, Modification
+
+simplified regional dataset. Added better potential field test.
+
+2019-08-13 14:24:59 +0200, Minor changes
+
+2019-08-06 15:49:51 +0200, Bugfixes
+
+Cluster bugfixes relating to export and imports. RGB Images now imported separately.
+
+2019-08-02 15:43:03 +0200, Bugfixes
+
+2019-08-02 08:15:07 +0200, Bugfixes
+
+2019-07-31 12:03:23 +0200, Bugfixes
+
+Multiple bugfixes
+
+2019-07-30 12:57:15 +0200, Feature add
+
+Added MT  processing and inversion
+Fixed indexing on fuzzy cluster
+
+2019-06-26 15:49:34 +0200, Feature addition
+
+Added older crisp and fuzzy cluster routines
+
+2019-06-18 08:06:53 +0200, Update graphs.py
+
+minor update
+
+2019-05-27 08:38:26 +0200, Formatting Update
+
+2019-05-23 09:04:38 +0200, Update graphs.py
+
+add line numbers to line map.
+
+2019-05-21 07:30:47 +0200, Update
+
+Added line data import and display.
+Tidied pyqt menu code.
+
+2019-05-15 11:08:16 +0200, Housekeeping
+
+Neatening some code
+
+2019-05-14 15:36:44 +0200, Bugfix
+
+Show metadata for RGB data
+
+2019-05-14 14:19:59 +0200, Bugfixes
+
+Added ESRI ascii import.
+Added error message to some graphs.
+Fixed normalisation error.
+Fixed options appearing on gradients.
+Fixed tilt angle error.
+Fixed null values not being correct after RTP.
+Fixed cut raster with polygon error.
+Gridding now has an option for a null value.
+Clustering to show error if required number of classes is not found.
+Fixed icons on messageboxes.
+
+2019-05-10 07:58:46 +0200, Bugfixes
+
+Bugfixes
+
+2019-05-09 13:50:49 +0200, Bugfixes
+
+Fixed a layout bug with graphs. Fixed a bug adding "Other" data to modelling software.  Added internal 'dist_point_to_segment' since it is being depreciated by Matplotlib.
+
+2019-04-24 08:13:57 +0200, Bugfix
+
+Removed imports of libraries which were not necessary. Fixed a bug in modeller which caused lithologies added to not display. Fixed resizing bug for images on interpretation module.
+
+2019-03-12 08:07:11 +0200, Update
+
+Updates for Linux
+
+2019-03-06 13:43:44 +0200, Feature addition
+
+added tilt depth to 3D model functionality.
+
+2019-01-30 15:19:21 +0200, Update
+
+Various updates, including bugfix to RGB output from raster data interpretation when viewed in ArcGIS
+
+2018-11-06 13:48:27 +0200, Bugfix
+
+Bugfix and code neatening
+
+2018-11-06 08:05:36 +0200, bugfixes
+
+Misc
+
+2018-11-01 09:37:29 +0200, Bugfix
+
+2018-10-25 15:40:47 +0200, Bugfixes
+
+Bugfixes in raster graphs, and new modelling interface.
+
+2018-10-08 08:43:28 +0200, Bugfix
+
+Fixed bug relating to limited number of layers.
+Fixed bug relating to quarry event calculations
