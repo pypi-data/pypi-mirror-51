@@ -1,0 +1,10 @@
+validate_docbr/BaseDoc.py,sha256=Xawc-jZJJaZzOJy9OHKiZgmINeqklFZCSUyK1s3Rlfk,1217
+validate_docbr/CNPJ.py,sha256=izYGAzQuRGlAgnGNcYK6m5d2Vo5esSmBHSduzVExUSU,2111
+validate_docbr/CNS.py,sha256=mvp-JWKlnxgy6X44-JLa0YtxMsTcSx0-faVTMWjIbuc,4015
+validate_docbr/CPF.py,sha256=fmuwgPcoJh5SStYyKc8VNg7BUdtcS8p7lVIHoXbokR0,1687
+validate_docbr/__init__.py,sha256=kqC31NyJ3ipFMWOzH-EaBB9dXCwXq02tnR_UgBZHmBc,94
+validate_docbr-1.2.1.dist-info/LICENSE,sha256=KLEKUxCGXIvT4gFjcpieHqDcqvtwu2mIW061WKUwloM,29
+validate_docbr-1.2.1.dist-info/METADATA,sha256=aL6IzxT4QItdwS_PdoVEMa4EA_A37SkTTn2rg7-gEig,3528
+validate_docbr-1.2.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+validate_docbr-1.2.1.dist-info/top_level.txt,sha256=nHknVjsHltJy48aJ4BBYiy3GIsGexm0gRqiggpMlg20,15
+validate_docbr-1.2.1.dist-info/RECORD,,
