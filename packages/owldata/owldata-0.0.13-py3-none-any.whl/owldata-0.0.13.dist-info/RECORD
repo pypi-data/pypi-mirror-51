@@ -1,0 +1,12 @@
+owldata/__init__.py,sha256=vwjrsE7Azy63FHpv-Bf-iR-aJYrwRBqQIvM6M_koTSc,601
+owldata/__version__.py,sha256=SVOHVo8qvioHvy0Xmn45FL-Qp9nNYbkB791NdCpPv78,291
+owldata/_owlerror.py,sha256=XwqzjS85u-588oGZ52Qc9omudx_rh-ifmYSzvon-ThM,6215
+owldata/_owltime.py,sha256=QCK0MVv-k89qcqxgdvGDmWPOlhD7jUrUaXWBBOHo8oA,3260
+owldata/api.py,sha256=7zuDo0FvEHC-zV-ZI2-U626omlpraRUqGGQrg8rnzjs,32722
+owldata/config.py,sha256=qI-8Ho899yb6ENoAalLXB9B846ODuWu-_mJQwXT5Mt0,7302
+owldata/欄位區分.py,sha256=wu6vWQqLdpWCoTtVC9fqsczTQo8-rAvwBxLXMw8cy88,1453
+owldata-0.0.13.dist-info/LICENSE,sha256=UzNqPfHYe9V3FGNgBKaej47fh5LtAcNtdny1jh5scfQ,1116
+owldata-0.0.13.dist-info/METADATA,sha256=LQLhJohMYzL1X12hrSCYui6eIIUdVJbkqyeu32rWej0,42258
+owldata-0.0.13.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+owldata-0.0.13.dist-info/top_level.txt,sha256=WyS28Yi8Vg9oLS2T8KTgw2fFNK8i2qpiPIhMVtdFJ1Y,8
+owldata-0.0.13.dist-info/RECORD,,
