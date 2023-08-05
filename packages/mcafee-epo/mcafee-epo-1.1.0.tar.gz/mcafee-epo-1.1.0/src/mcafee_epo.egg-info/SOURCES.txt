@@ -1,0 +1,12 @@
+CHANGES.rst
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/mcafee_epo.py
+src/mcafee_epo.egg-info/PKG-INFO
+src/mcafee_epo.egg-info/SOURCES.txt
+src/mcafee_epo.egg-info/dependency_links.txt
+src/mcafee_epo.egg-info/requires.txt
+src/mcafee_epo.egg-info/top_level.txt
