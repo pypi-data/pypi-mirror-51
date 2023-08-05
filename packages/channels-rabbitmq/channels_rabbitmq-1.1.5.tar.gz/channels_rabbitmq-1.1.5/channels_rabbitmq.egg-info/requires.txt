@@ -1,0 +1,4 @@
+aioamqp~=0.13.0
+asgiref~=3.1
+msgpack~=0.6.1
+channels~=2.2
