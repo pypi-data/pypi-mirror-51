@@ -1,0 +1,10 @@
+django
+djangorestframework
+cryptography
+
+[qr]
+qrcode
+pillow
+
+[test]
+factory-boy
