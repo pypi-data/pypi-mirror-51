@@ -1,0 +1,83 @@
+=========
+Changelog
+=========
+
+0.5.0 <2019-08-18>
+------------------
+- Add ``project_urls`` to setup.py
+- Installation is now done via ``pip --user install cihai[cli]``
+- README Fixed to use plain reStructuredText
+- Miscellaneous package updates for pytest, other support packages
+- Loosening of version requirements
+
+0.5.0a <2018-09-08>
+-------------------
+- :issue:`91`  ``-V`` / ``-version`` now shows the cihai backend version.
+
+0.4.1 <2018-07-21>
+------------------
+- Update Sphinx 1.7.5. to 1.7.6
+- Update cihai 0.8.0 to 0.8.1
+
+  This should fix dependency issues with kaptan / pyyaml
+
+0.4.0 <2018-06-24>
+------------------
+- Add vietnamese phonetic to default output in ``info`` command
+- Switch tmuxp config to use pipenv
+- Add configuration / make tests for isort, flake8
+- Add *Pipfile*
+- Add ``make sync_pipfile`` task to sync *requirements/\*.txt* files
+  with *Pipfile*
+- Base package updates
+
+  - cihai 0.7.4 to 0.8.0
+
+- Developer package updates (linting / docs / testing)
+
+  New:
+
+  - sphinx-click 1.2.0
+  - sphinxcontrib-napoleon 0.6.1
+
+  Updated:
+
+  - isort 4.2.5 to 4.3.4
+  - flake8 3.3.0 to 3.5.0
+  - vulture 0.14 to 0.27
+  - sphinx 1.5.6 to 1.7.5
+  - alagitpull 0.0.4 to 0.0.21
+  - releases 1.3.1 to 1.6.0
+  - pytest 3.0.7 to 3.6.2
+
+- Move documentation over to numpy-style
+- Update LICENSE New BSD to MIT
+- All future commits and contributions are licensed to the
+  *cihai software foundation*. This includes commits by Tony Narlock (creator).
+
+0.3.2 <2017-05-26>
+------------------
+- Bump cihai version to 0.7.4
+
+0.3.1 <2017-05-20>
+------------------
+- Bump cihai version to 0.7.2
+
+0.3.0 <2017-05-20>
+------------------
+- Output human-friendly fields only by default
+- Use ``-a`` or ``--all`` to show all fields
+- Rename ``lookup`` command to ``reverse``
+- Remove newlines, use click.echo for printing to CLI
+- Fix unicode issues on 2.7 in tests and cli
+
+0.2.1 <2017-05-20>
+------------------
+- CLI variable tweaks
+- Fix package dependency
+
+0.2.0 <2017-05-20>
+------------------
+- Initial project
+
+.. vim: set filetype=rst:
