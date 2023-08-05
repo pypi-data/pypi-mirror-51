@@ -1,0 +1,26 @@
+---
+type: object
+required:
+  - name
+additionalProperties: false
+properties:
+  name:
+    type: string
+    description: The symbolic name of this input. This must be unique within a Step.
+    maxLength: 64
+  description:
+    type: string
+    description: Describes the input. This is shown as a help text in the user interface.
+  default:
+    oneOf:
+      - type: string
+      - type: array
+        items:
+          type: string
+    description: The default URL(s) for the input.
+  optional:
+    type: boolean
+    default: false
+    description: |
+      Whether this input is optional.
+      Optional inputs may be disabled in the user interface.
