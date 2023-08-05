@@ -1,0 +1,15 @@
+README.md
+setup.py
+igcoccebot/__init__.py
+igcoccebot/action.py
+igcoccebot/algo.py
+igcoccebot/coccebot.py
+igcoccebot/data.py
+igcoccebot/navigation.py
+igcoccebot/tools.py
+igcoccebot/yolo.py
+igcoccebot.egg-info/PKG-INFO
+igcoccebot.egg-info/SOURCES.txt
+igcoccebot.egg-info/dependency_links.txt
+igcoccebot.egg-info/requires.txt
+igcoccebot.egg-info/top_level.txt
