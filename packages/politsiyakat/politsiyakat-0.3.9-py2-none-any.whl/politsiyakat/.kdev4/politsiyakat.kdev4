@@ -1,0 +1,42 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x18\x00p\x00o\x00l\x00i\x00t\x00s\x00i\x00y\x00a\x00k\x00a\x00t)
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=New Script Application Launcher
+Type=Script Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=-m politsiyakat flag_autocorr_drifts "{\\"msname\\":\\"/home/bhugo/Downloads/1477074305.ms\\",\\"data_column\\":\\"DATA\\",\\"nrows_chunk\\":5000,\\"field\\":\\"0,1,2\\",\\"cal_field\\":\\"0\\",\\"simulate\\":false,\\"output_dir\\":\\"/tmp\\",\\"scan_to_scan_threshold\\":2.1,\\"antenna_to_group_threshold\\":2.1,\\"nio_threads\\":1,\\"nproc_threads\\":4}"\n
+EnvironmentGroup=default
+Executable=
+Execute on Remote Host=false
+Interpreter=python
+Output Filtering Mode=0
+Remote Host=
+Working Directory=
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Application Launcher
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=-m politsiyakat flag_phase_drifts "{\\"msname\\":\\"/home/bhugo/Downloads/1477074305.ms\\",\\"data_column\\":\\"DATA\\",\\"nrows_chunk\\":5000,\\"field\\":\\"0\\",\\"cal_field\\":\\"0\\",\\"simulate\\":true,\\"output_dir\\":\\"/tmp\\",\\"scan_to_scan_threshold\\":2.1,\\"baseline_to_group_threshold\\":2.1,\\"nio_threads\\":1,\\"nproc_threads\\":8}"\n
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=file:///home/bhugo/workspace/politsiyakatvenv/bin/python
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=
+Use External Terminal=false
+Working Directory=
+isExecutable=true
+
+[Project]
+VersionControlSupport=kdevgit
