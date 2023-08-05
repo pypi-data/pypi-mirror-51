@@ -1,0 +1,10 @@
+scanpydoc/__init__.py,sha256=luG449a1US5-Q00flC5D0OC4Oi2usNsr3s9fxHojw24,1258
+scanpydoc/autosummary_generate_imported.py,sha256=P6pDfoukz-tygWc2RSVejQUGOJ5fqTCsReUNWGctNc0,1976
+scanpydoc/definition_list_typed_field.py,sha256=aYsmfFrhcxoIpfjpkF8qxruilJk2NZRA8AUfhS0q5Ls,3602
+scanpydoc/elegant_typehints.py,sha256=Eim6bHZ7u5x4cpSNRrYMb3tp0Bequ3NPob0NWNsRbm0,7414
+scanpydoc/rtd_github_links.py,sha256=sjDqzyHQHHTtkWaQy35zbcHf9YNHciIcklcoWbroPuI,4986
+scanpydoc/static/typehints.css,sha256=RQtxQSY3XAdaizSTOIQHQt7MApx5AEsDkFkvWMo7yus,104
+scanpydoc-0.3.5.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+scanpydoc-0.3.5.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+scanpydoc-0.3.5.dist-info/METADATA,sha256=Nn8ceW0nR7lkPfYrGtbFZJtQ4-GFSeEbgD9c7H40aB8,1897
+scanpydoc-0.3.5.dist-info/RECORD,,
