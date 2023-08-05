@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: sidanwebframework
+Version: 1.0.2
+Summary: sidanwebframework
+Home-page: https://bitbucket.org/muhammedsidan/sidanwebframework/
+Author: sidan
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#sidanwebframework
+
+##this framework can be used to develop python based web applications
+
+```
+from sidanwebframework import Server, Response, route, Render
+```
+
+```
+@route('/index')
+def index(request):
+    return Response('Hello world')
+```
+
+```
+@route('/home')
+def home(request):
+    return Render('home.html')
+```
+
+```
+app = Server()
+app.serve()
+```
+
+
