@@ -1,0 +1,12 @@
+pycharsheet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycharsheet/__main__.py,sha256=A5d_DCdqFGprqQJvtMlP-UBeyZCUNPRI-yzahwOFKK4,1368
+pycharsheet/_meta.py,sha256=AY7SeEJth74VQNdcfMTROG2nvGVp47I0aY517Z3zqmw,1324
+pycharsheet/charsheet.py,sha256=Cvf1zukyvkLN5GczqUSz6ieUEqw4P89eX5Bnmis9EZ0,261
+pycharsheet/error.py,sha256=JX_1D1HK_WabFonPZ0LgiwbAmxTaeJiU9qbtgxWntqc,205
+pycharsheet-0.0.3.dist-info/DESCRIPTION.rst,sha256=X6rWJ1IPcL6tzYM_B_R-iOdkYAcKjEboS-UAHk51Ah0,270
+pycharsheet-0.0.3.dist-info/METADATA,sha256=NLYviTuShzgiNKP3GkPZ46rKZqJKS1heOn61lK_gntk,1143
+pycharsheet-0.0.3.dist-info/RECORD,,
+pycharsheet-0.0.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pycharsheet-0.0.3.dist-info/entry_points.txt,sha256=8_kQISbDMyQ1DdAWD2oW13UTKPtTHaO0RmEFMfMbSII,59
+pycharsheet-0.0.3.dist-info/metadata.json,sha256=EnR34fbq1bDmzW1gZQWEB9TIFSSa6Z4MtkYsRLZHxdQ,1216
+pycharsheet-0.0.3.dist-info/top_level.txt,sha256=4V8H7znDATIy9m6bbBIQvPScD0fOJmVIODWjclaGgUk,12
