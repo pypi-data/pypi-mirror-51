@@ -1,0 +1,27 @@
+{% extends "multifactor/base.html" %}{% load static %}
+
+{% block card_title %}Verify Authenticator{% endblock %}
+{% block card_classes %}card-login mx-auto{% endblock %}
+
+
+{% block content %}
+<form method="post" action="" id="formLogin" onSubmit="">
+	{% csrf_token %}
+	<fieldset>
+		<p>Enter the 6-digits on your authenticator.</p>
+
+		<div class="form-group">
+			<div class="input-group">
+				<span class="input-group-addon">
+					<i class="glyphicon glyphicon-lock"></i>
+				</span>
+				<input class="form-control" size="6" MaxLength="6" value="" placeholder="e.g 123456" name="answer" type="text" autocomplete="off" autofocus>
+			</div>
+		</div>
+
+		<button class="btn btn-lg btn-success btn-block" type="submit">Sign in</button>
+	</fieldset>
+</form>
+{% endblock %}
+
+{% block head %}{% endblock %}
