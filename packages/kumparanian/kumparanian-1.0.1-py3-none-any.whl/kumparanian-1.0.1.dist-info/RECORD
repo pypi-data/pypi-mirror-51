@@ -1,0 +1,16 @@
+kumparanian/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kumparanian/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+kumparanian/cli.py,sha256=gpugY_jVGag2L4Fp_9vDjU_b9TmXKTBB69gkji36Ybo,3214
+kumparanian/de/__init__.py,sha256=is6jqmPtWI12Pn6T4jjgvkEk6PJvxrpyUNeqbZZXbiI,666
+kumparanian/de/dataset.py,sha256=JRCTfQsszkhO29jpcCLa5euq-uX5UeXhWverxtA5ixU,2396
+kumparanian/de/help_text.py,sha256=8O2Hi31NyA7W6FQehJvuPz06Dh_MkIC_26JjbWYgjFY,1480
+kumparanian/de/submission.py,sha256=mW48-6KZcgxLTXHPWhcwHmwH9KYuQEGHLUDgTdjL4hw,5471
+kumparanian/ds/__init__.py,sha256=swkFMpfaf8cWrgJWaKs0LcN557rX7gmyN_lBA1n8lG0,435
+kumparanian/ds/help_text.py,sha256=gTnDWPgu3cSGdSlxC7YNAVbfld3ZJ-i-i__kyXR8GKs,647
+kumparanian/ds/model.py,sha256=_6tS_aJ8H-uuIrgKROpXDt11svtpa09ZylekQkLO1eU,2319
+kumparanian-1.0.1.dist-info/LICENSE,sha256=OL0n9HsyeaLL2lH5GwNIEzKW6S4wTRQm2b2EbHMffjM,1486
+kumparanian-1.0.1.dist-info/METADATA,sha256=Xw89hRt5sKDu2FS7-0imufz1JdTRBlnGlqqQBTjURts,3437
+kumparanian-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+kumparanian-1.0.1.dist-info/entry_points.txt,sha256=Q_fLiY-knabC_YZf1vLwyBzW5mxntMtfebl04pLGNP0,54
+kumparanian-1.0.1.dist-info/top_level.txt,sha256=K7edHNT15wiwyUxIqQaJj5n7OHV-PMjFFUYAJ2iEgU8,12
+kumparanian-1.0.1.dist-info/RECORD,,
