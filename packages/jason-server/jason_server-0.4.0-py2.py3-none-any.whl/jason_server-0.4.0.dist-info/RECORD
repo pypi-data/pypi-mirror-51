@@ -1,0 +1,11 @@
+jason_server/__init__.py,sha256=8i3YYLWu7l1hRgzAuCssS6eF4fEmwqQyM97SIGl1u4I,246
+jason_server/cli.py,sha256=01olv1w2sG_cu1VudVoL_9SUxE_Vx-bLGubsInk6Ulk,895
+jason_server/database.py,sha256=53Pqw32ItPtcKRVLhUFeVOJ5J6lflDzPfGtdXbHwcKM,758
+jason_server/derulo.py,sha256=bj-3HQmtnncrlCpe_V-IlYS0k5yO7hfTzuOaQqxhNB8,4610
+jason_server/utils.py,sha256=rVhkHD2gJJ0cy13O9j9D1HxV4uGdxJGwbSmhYbv0tgs,472
+jason_server-0.4.0.dist-info/LICENSE,sha256=g_0_zVafDsFcvlY1U8KhCOYjT3lg_kOD6UYlzo3Mcmg,1070
+jason_server-0.4.0.dist-info/METADATA,sha256=7aD1eVAzgFcMMgE5d2FOkL62rXWnlmvERUdt-OwXHaE,2360
+jason_server-0.4.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+jason_server-0.4.0.dist-info/entry_points.txt,sha256=pZn_SENuBjicLhrzw6pw5IFCPCPomiAM1cdIychNMGA,55
+jason_server-0.4.0.dist-info/top_level.txt,sha256=i4CEZ-IRjM6H_wFYEUunUCzOOIyC54ouAKxpLfpLOyM,13
+jason_server-0.4.0.dist-info/RECORD,,
