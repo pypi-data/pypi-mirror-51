@@ -1,0 +1,3 @@
+[console_scripts]
+abridge=abridge.cli:main
+
