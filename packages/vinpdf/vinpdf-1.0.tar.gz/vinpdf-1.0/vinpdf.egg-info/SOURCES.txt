@@ -1,0 +1,5 @@
+setup.py
+vinpdf.egg-info/PKG-INFO
+vinpdf.egg-info/SOURCES.txt
+vinpdf.egg-info/dependency_links.txt
+vinpdf.egg-info/top_level.txt
