@@ -1,0 +1,12 @@
+README.md
+setup.py
+tad/__init__.py
+tad/anomaly_detect_ts.py
+tad/anomaly_detect_vec.py
+tad/dynamic_cusum.py
+tad/settings.py
+tad.egg-info/PKG-INFO
+tad.egg-info/SOURCES.txt
+tad.egg-info/dependency_links.txt
+tad.egg-info/requires.txt
+tad.egg-info/top_level.txt
