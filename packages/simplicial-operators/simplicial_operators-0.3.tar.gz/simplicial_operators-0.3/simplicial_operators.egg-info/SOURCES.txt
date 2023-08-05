@@ -1,0 +1,9 @@
+README.md
+setup.py
+simplicial_operators/Simplicial_operators.py
+simplicial_operators/__init__.py
+simplicial_operators.egg-info/PKG-INFO
+simplicial_operators.egg-info/SOURCES.txt
+simplicial_operators.egg-info/dependency_links.txt
+simplicial_operators.egg-info/not-zip-safe
+simplicial_operators.egg-info/top_level.txt
