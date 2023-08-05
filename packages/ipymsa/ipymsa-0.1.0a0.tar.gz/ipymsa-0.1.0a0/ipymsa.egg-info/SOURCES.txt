@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+ipymsa.json
+setup.cfg
+setup.py
+ipymsa/__init__.py
+ipymsa/_version.py
+ipymsa/ipymsa.py
+ipymsa.egg-info/PKG-INFO
+ipymsa.egg-info/SOURCES.txt
+ipymsa.egg-info/dependency_links.txt
+ipymsa.egg-info/not-zip-safe
+ipymsa.egg-info/requires.txt
+ipymsa.egg-info/top_level.txt
+ipymsa/static/extension.js
+ipymsa/static/index.js
+ipymsa/static/index.js.map

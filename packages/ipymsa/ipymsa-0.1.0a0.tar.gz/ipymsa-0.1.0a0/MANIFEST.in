@@ -1,0 +1,2 @@
+recursive-include ipymsa/static *.*
+include ipymsa.json
