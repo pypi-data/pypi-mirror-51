@@ -1,0 +1,12 @@
+boto3
+diskcache
+packaging
+numpy
+requests
+scikit-image
+
+[:python_version < "3.0"]
+pathlib
+
+[:python_version < "3.4"]
+enum34
