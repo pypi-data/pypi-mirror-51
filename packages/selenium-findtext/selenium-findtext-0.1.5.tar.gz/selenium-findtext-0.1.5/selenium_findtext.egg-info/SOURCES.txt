@@ -1,0 +1,8 @@
+README.md
+findtext.py
+setup.py
+selenium_findtext.egg-info/PKG-INFO
+selenium_findtext.egg-info/SOURCES.txt
+selenium_findtext.egg-info/dependency_links.txt
+selenium_findtext.egg-info/top_level.txt
+selenium_findtext.egg-info/zip-safe
