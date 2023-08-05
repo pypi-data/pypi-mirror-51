@@ -1,0 +1,11 @@
+README.rst
+setup.py
+sumgram/__init__.py
+sumgram/sumgram.py
+sumgram/util.py
+sumgram.egg-info/PKG-INFO
+sumgram.egg-info/SOURCES.txt
+sumgram.egg-info/dependency_links.txt
+sumgram.egg-info/entry_points.txt
+sumgram.egg-info/requires.txt
+sumgram.egg-info/top_level.txt
