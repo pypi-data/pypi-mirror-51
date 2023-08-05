@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: earthplot
+Version: 0.1.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ncplot
+Requires-Dist: cartopy
+Requires-Dist: pyloco (>=0.0.134)
+Requires-Dist: Cartopy (>=0.17.0)
+
+UNKNOWN
+
+
