@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+scv/__init__.py
+scv/cli.py
+scv/utils.py
+scv.egg-info/PKG-INFO
+scv.egg-info/SOURCES.txt
+scv.egg-info/dependency_links.txt
+scv.egg-info/entry_points.txt
+scv.egg-info/requires.txt
+scv.egg-info/top_level.txt

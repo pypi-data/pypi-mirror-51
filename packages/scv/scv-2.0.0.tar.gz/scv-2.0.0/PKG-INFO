@@ -1,0 +1,32 @@
+Metadata-Version: 1.0
+Name: scv
+Version: 2.0.0
+Summary: better package manager - python package manager
+Home-page: https://github.com/SmilingXinyi/scv
+Author: blaite
+Author-email: smilingxinyi@gmail.com
+License: MIT
+Description: # SCV
+        Python package manager like npm
+        
+        #### Install
+        
+        > pip install scv
+        
+        or
+        
+        > pip install --user virtualenv
+        
+        #### Uninstall
+        
+        
+        create a package.yml file
+        
+        
+        ## Options
+        
+        ### Version
+        
+        ### help
+Keywords: package-manager requirements
+Platform: UNKNOWN
