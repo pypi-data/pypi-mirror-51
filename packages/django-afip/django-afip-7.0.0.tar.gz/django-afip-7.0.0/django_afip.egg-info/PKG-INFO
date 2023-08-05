@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: django-afip
+Version: 7.0.0
+Summary: AFIP integration for django
+Home-page: https://github.com/WhyNotHugo/django-afip
+Author: Hugo Osvaldo Barrera
+Author-email: hugo@barrera.io
+License: ISC
+Description: django-afip
+        ===========
+        
+        .. image:: https://travis-ci.com/WhyNotHugo/django-afip.svg?branch=master
+          :target: https://travis-ci.com/WhyNotHugo/django-afip
+          :alt: build status
+        
+        .. image:: https://codecov.io/gh/WhyNotHugo/django-afip/branch/master/graph/badge.svg
+          :target: https://codecov.io/gh/WhyNotHugo/django-afip
+          :alt: Build coverage
+        
+        .. image:: https://readthedocs.org/projects/django-afip/badge/?version=latest
+          :target: http://django-afip.readthedocs.io/en/latest/?badge=latest
+          :alt: Documentation Status
+        
+        .. image:: https://img.shields.io/pypi/v/django-afip.svg
+          :target: https://pypi.python.org/pypi/django-afip
+          :alt: version on pypi
+        
+        .. image:: https://img.shields.io/pypi/l/django-afip.svg
+          :target: https://github.com/WhyNotHugo/django-afip/blob/master/LICENCE
+          :alt: licence
+        
+        **django-afip** is a django application for interacting with AFIP's
+        web-services (and models all related data). For the moment only WSFE and WSAA
+        are implemented.
+        
+        Features
+        --------
+        
+        * Validate invoices and other receipt types with AFIP's WSFE service.
+        * Generate valid PDF files for those receipts to send to clients.
+        
+        Documentation
+        -------------
+        
+        For detailed configuration, have a look at the latest docs at readthedocs_.
+        
+        .. _readthedocs: https://django-afip.readthedocs.io/
+        
+        Licence
+        -------
+        
+        This software is distributed under the ISC licence. See LICENCE for details.
+        
+        Copyright (c) 2015-2018 Hugo Osvaldo Barrera <hugo@barrera.io>
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: docs
+Provides-Extra: postgres
+Provides-Extra: factories
+Provides-Extra: mysql
