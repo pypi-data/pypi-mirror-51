@@ -1,0 +1,7 @@
+django_ask_sdk/__init__.py,sha256=IcoO9pX-nozlYUnlElCiO8wqGpqxzPftaJzYujSHWbc,593
+django_ask_sdk/__version__.py,sha256=GZsU0cxbycP_kRcLxHoPFyxjOjYtd6Au5-4hyjM5YLU,1170
+django_ask_sdk/skill_adapter.py,sha256=M72SevZHRBf5_57gfdCInTRmHx3ZUpsYYE70A132erk,9081
+django_ask_sdk-1.0.0.dist-info/METADATA,sha256=p8Eqc3Xw-kc7XsDIx5-XMwzA-FMDOT7MEH2Tznneupg,5921
+django_ask_sdk-1.0.0.dist-info/RECORD,,
+django_ask_sdk-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_ask_sdk-1.0.0.dist-info/top_level.txt,sha256=doBGUpHercfgxQpVW3d9_Axq64DryoHMz_OqipxqJAs,15
