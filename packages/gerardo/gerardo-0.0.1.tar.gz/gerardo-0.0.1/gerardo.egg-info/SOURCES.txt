@@ -1,0 +1,11 @@
+README.md
+setup.py
+gerardo/__init__.py
+gerardo/__version__.py
+gerardo/example.py
+gerardo/psql_insert.py
+gerardo.egg-info/PKG-INFO
+gerardo.egg-info/SOURCES.txt
+gerardo.egg-info/dependency_links.txt
+gerardo.egg-info/requires.txt
+gerardo.egg-info/top_level.txt
