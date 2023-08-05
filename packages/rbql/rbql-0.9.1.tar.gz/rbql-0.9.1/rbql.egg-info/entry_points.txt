@@ -1,0 +1,3 @@
+[console_scripts]
+rbql-py = rbql.rbql_main:main
+
