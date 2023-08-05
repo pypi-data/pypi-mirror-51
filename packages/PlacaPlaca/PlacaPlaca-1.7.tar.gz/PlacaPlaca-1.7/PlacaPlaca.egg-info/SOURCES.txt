@@ -1,0 +1,8 @@
+README.md
+setup.py
+PlacaPlaca.egg-info/PKG-INFO
+PlacaPlaca.egg-info/SOURCES.txt
+PlacaPlaca.egg-info/dependency_links.txt
+PlacaPlaca.egg-info/top_level.txt
+placaplaca/Placas.py
+placaplaca/__init__.py
