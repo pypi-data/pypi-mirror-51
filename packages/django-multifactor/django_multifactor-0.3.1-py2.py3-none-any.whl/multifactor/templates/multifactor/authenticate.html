@@ -1,0 +1,19 @@
+{% extends "multifactor/base.html" %}
+
+{% block card_title %}Which factor would you like to authenticate with?{% endblock %}
+
+{% block content %}
+<p class="has-text-centered">We need to verify one of your secondary factors to continue. Please pick one.</p>
+{% for link, label in methods %}
+<a class="button is-primary is-large is-fullwidth" href="{% url link %}">{{label}} →</a>
+{% endfor %}
+
+{% if fallbacks %}
+</div>
+<div class="card-footer">
+<a href="{% url 'multifactor:fallback_auth' %}" class="button is-100 button-ml is-light">
+	<strong>Send Fallback Token</strong>
+	<small>{{fallbacks|join:" + "}}</small>
+</a>
+{% endif %}
+{% endblock %}
