@@ -1,0 +1,7 @@
+xxhash/__init__.py,sha256=hgTaeYIcGqm7Y5UZp7GbfmFH9KLOiGLRWYjaCKgGtYk,515
+xxhash/_xxhash.cpython-36m-darwin.so,sha256=7DnLZKBMkJCHAsEW_zxfZqkoe7YQUxfTPTor54nIG48,179016
+xxhash-1.4.0.dist-info/LICENSE,sha256=bnw6W9YpPmX8SUdSyFdKzhQ_WG36euJDOI7-3rn8AnU,1313
+xxhash-1.4.0.dist-info/METADATA,sha256=6Kueqa_rmIGlMrM_IVGuHEfcBkJ6CwTFgx62NVBqYnQ,8310
+xxhash-1.4.0.dist-info/WHEEL,sha256=NALWuZoyU1AH-adYaiMj2ia9Gibn5jcQQ6LL9rSLAE4,109
+xxhash-1.4.0.dist-info/top_level.txt,sha256=1PPSBP-gnjG59E5bigzMTzmT6BVWjHwnpzMiisPWZ5I,15
+xxhash-1.4.0.dist-info/RECORD,,
