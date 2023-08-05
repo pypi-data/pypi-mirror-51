@@ -1,0 +1,16 @@
+canonicalwebteam/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+canonicalwebteam/blog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canonicalwebteam/blog/app.py,sha256=yG4sOg8nmYUjlGcHmE3autKPV2g396ZUkC9adMyXBZs,941
+canonicalwebteam/blog/common_view_logic.py,sha256=OrRyyQr097BJiQp1Qfn8Iol588UZHmyYtgBFkLEJdbo,13810
+canonicalwebteam/blog/django/__init__.py,sha256=lFC8nF_rlnAfg36atH_VgT89qEX2svyXi_i-8_NGJz4,74
+canonicalwebteam/blog/django/apps.py,sha256=nRlkEG2oYJ9qMg1drBYf1zvK6UX65Otiz9haMBGbT2w,178
+canonicalwebteam/blog/django/urls.py,sha256=02rKQ47suEe0_730VIc6Pmdek7xn8fv4pbTsb-XDGIA,1526
+canonicalwebteam/blog/django/views.py,sha256=XElnVv7lcON-LfsJqI0lQAo7jEI4ddlio5apUczBers,5589
+canonicalwebteam/blog/feeds.py,sha256=pEm0BqHlME5EfD6Kuq6k9H59KzzIpCg6ivUEtzbmCo0,1323
+canonicalwebteam/blog/flask/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canonicalwebteam/blog/flask/views.py,sha256=9jnJW3dfQ1QMJisl5gOjs5vQg9f_xD1pLX53CBaGgzw,6399
+canonicalwebteam/blog/logic.py,sha256=1YVks9IX5GIVBWQpt8iu1bBoaI4Fxv8X7FLqJuPIx10,6558
+canonicalwebteam/blog/wordpress_api.py,sha256=MWxWWm_YJRgfaee_VsP5P0LrGVo-r1zXItteKWGZb5U,5489
+canonicalwebteam.blog-2.4.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+canonicalwebteam.blog-2.4.1.dist-info/METADATA,sha256=Jc3arcGFOVBeyhk3OqA5JBBPWTbvA9jNKdD5wMhq1mE,4248
+canonicalwebteam.blog-2.4.1.dist-info/RECORD,,
