@@ -1,0 +1,6 @@
+beautifulsoup4
+configparser
+defusedxml
+future
+pathlib2
+requests
