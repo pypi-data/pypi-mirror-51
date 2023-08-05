@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/__init__.py
+bin/sougou_fenci
+fenci/__init__.py
+sougou_fenci.egg-info/PKG-INFO
+sougou_fenci.egg-info/SOURCES.txt
+sougou_fenci.egg-info/dependency_links.txt
+sougou_fenci.egg-info/requires.txt
+sougou_fenci.egg-info/top_level.txt
