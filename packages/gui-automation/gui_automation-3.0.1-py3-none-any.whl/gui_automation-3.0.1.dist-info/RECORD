@@ -1,0 +1,16 @@
+gui_automation/__init__.py,sha256=ejWHPlSfiZ-PwjUkMxEdKBiTgetYVdEija63GYq2UP8,224
+gui_automation/background_handler.py,sha256=P8xLxfgGV3OCdiy5qzjTerUGYwfO_pKYwzaT60EgjPI,5867
+gui_automation/detector.py,sha256=S-V4oANrbggSdYwgqAcpd4EI_gEovpMv3eEjEzd32BA,153
+gui_automation/foreground_handler.py,sha256=cs1mJeXbfstPXPzNl-42wT_XoQZmWNt_z04eBmShmtE,1230
+gui_automation/gui_automation.py,sha256=WdTQZRxnz9WMx6A6hnCtpKIC_mJss3eRRJsM04qLxMU,5061
+gui_automation/handler.py,sha256=Hio-m7iERw_SYld8lfjDI5W61QlHI4C4hyRQVbd-1rg,345
+gui_automation/image_detection.py,sha256=028b7yTaELoTRuPZTgZLq4h0eHGLyFTemgUVWbJ4Bfg,2898
+gui_automation/image_detector.py,sha256=w4cqfL0Lea0RaQaOTTd7N4OYdR0Wh4sqenyAeuDE8Mc,5452
+gui_automation/image_loader.py,sha256=hWINeoBarGScgeS0a3UfoRhATPL1GHcuXrQIEDlERDY,862
+gui_automation/mouse.py,sha256=lpwL0YsAXH9E7qOVxSU1LNpXOnSR6ytdu27_B6CvIL4,839
+gui_automation/spot.py,sha256=mwCb6Ip0EWAqEz7SwMIpbU7YJo174kR7FKyGZRAO0iE,2601
+gui_automation-3.0.1.dist-info/LICENSE,sha256=X4cjllBPVnwUfgiq6bTYQWKbFzpglrnQ_-8fLVOa1sE,1093
+gui_automation-3.0.1.dist-info/METADATA,sha256=-Wk_SKvoko90ztMiOR-sROj1GPHqCWlUZh2ekNOunc4,6586
+gui_automation-3.0.1.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+gui_automation-3.0.1.dist-info/top_level.txt,sha256=oOrVg8MJxhG2xUgCbzZgH6hlhtKBTeHIuiMq3jl_VrQ,15
+gui_automation-3.0.1.dist-info/RECORD,,
