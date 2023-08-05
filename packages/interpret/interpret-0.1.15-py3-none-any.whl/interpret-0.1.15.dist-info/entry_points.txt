@@ -1,0 +1,3 @@
+[interpret_ext_blackbox]
+BlackboxExplainerExample = interpret.ext.blackbox.example_blackbox_explainer_ext:ExampleExplainer
+
