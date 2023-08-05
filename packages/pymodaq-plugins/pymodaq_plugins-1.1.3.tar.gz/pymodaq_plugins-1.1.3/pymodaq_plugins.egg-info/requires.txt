@@ -1,0 +1,8 @@
+pyvisa
+pyDAQmx
+opencv-python
+clr
+harvesters
+phconvert
+pillow
+serial
