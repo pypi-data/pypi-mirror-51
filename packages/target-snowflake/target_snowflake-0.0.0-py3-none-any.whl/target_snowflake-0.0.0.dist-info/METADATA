@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: target-snowflake
+Version: 0.0.0
+Summary: Singer.io target for loading data into Snowflake
+Home-page: https://github.com/datamill-co/target-snowflake
+Author: datamill
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: singer-python (==5.6.1)
+Requires-Dist: singer-target-postgres (==0.1.9)
+Requires-Dist: snowflake-connector-python (==1.8.7)
+Provides-Extra: tests
+Requires-Dist: chance (==0.110) ; extra == 'tests'
+Requires-Dist: Faker (==1.0.8) ; extra == 'tests'
+Requires-Dist: pytest (==4.5.0) ; extra == 'tests'
+
+# Target Snowflake
+
+Placeholder for `target-snowflake`
+
+## Snowflake Connector
+
+[Docs](https://docs.snowflake.net/manuals/user-guide/python-connector.html)
+
+## TODO
+
+Implement.
+
+## Sponsorship
+
+Target Snowflake is sponsored by Data Mill (Data Mill Services, LLC) [datamill.co](https://datamill.co/).
+
+Data Mill helps organizations utilize modern data infrastructure and data science to power analytics, products, and services.
+
+---
+
+Copyright Data Mill Services, LLC 2018
+
+
