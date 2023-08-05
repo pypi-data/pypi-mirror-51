@@ -1,0 +1,15 @@
+AUTHORS.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+disable_cache_headers/__init__.py
+disable_cache_headers/apps.py
+disable_cache_headers/middleware.py
+django_disable_cache_headers.egg-info/PKG-INFO
+django_disable_cache_headers.egg-info/SOURCES.txt
+django_disable_cache_headers.egg-info/dependency_links.txt
+django_disable_cache_headers.egg-info/not-zip-safe
+django_disable_cache_headers.egg-info/top_level.txt
