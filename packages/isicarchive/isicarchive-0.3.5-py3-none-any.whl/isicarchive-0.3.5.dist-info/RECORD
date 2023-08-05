@@ -1,0 +1,14 @@
+isicarchive/__init__.py,sha256=BlhxfkU4dZUys5USyd4Ez9x3MJjtpdZnLEWode7d_bM,932
+isicarchive/annotation.py,sha256=TlUs7w7Mdd8Bu23UhyR5YVsJnUhe0e4NTQE1bKhEWAQ,8566
+isicarchive/api.py,sha256=2AnTusChCoJoTmRURBL9P5_EvVQZ27QW8VgwdPnmx-k,21098
+isicarchive/dataset.py,sha256=x10pw2r3ZXiD4qeeD8n-PVcuiaqhClwcCpQBnakQGUU,9484
+isicarchive/func.py,sha256=mJxJXPMOg91GUu4JeTw4haR9GWNTnVvvhJYzWZ5ypaQ,11558
+isicarchive/image.py,sha256=DDVxEpfxu4HMa-m0NzlncJD_HGOGaUYx0c9WihcLUnI,13757
+isicarchive/study.py,sha256=se2maUvkzpG0csypflQ4xNlRHF5jDqj6WpdMAaLG0XI,13462
+isicarchive/vars.py,sha256=mQZpBdbj_9Q58A50m8kdj39lZLSl5l8uKmavhOPGnwk,262
+isicarchive/tests/__init__.py,sha256=m_MpiDZGXgAGHvAZbpsVsdCpEm4_JXg4GMO3IjpGWgw,549
+isicarchive-0.3.5.dist-info/LICENSE,sha256=-89bmXU71cultWW_0eI71m6xy6YmtrM-Wlj1SpHZ0L4,1069
+isicarchive-0.3.5.dist-info/METADATA,sha256=eVoE7z2MaGJGwD9fgFO5IfRxER6QcQiaLDlBO7Ag-GU,4626
+isicarchive-0.3.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+isicarchive-0.3.5.dist-info/top_level.txt,sha256=iYGKV1CwexJVwk67II3eKCmZk4ZLBm_ZGgM765cvle8,12
+isicarchive-0.3.5.dist-info/RECORD,,
