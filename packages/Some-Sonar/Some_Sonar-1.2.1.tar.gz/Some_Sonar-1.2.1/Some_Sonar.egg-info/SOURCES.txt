@@ -1,0 +1,10 @@
+README.txt
+setup.py
+Some_Sonar/Some_Sonar.py
+Some_Sonar/__init__.py
+Some_Sonar.egg-info/PKG-INFO
+Some_Sonar.egg-info/SOURCES.txt
+Some_Sonar.egg-info/dependency_links.txt
+Some_Sonar.egg-info/not-zip-safe
+Some_Sonar.egg-info/requires.txt
+Some_Sonar.egg-info/top_level.txt
