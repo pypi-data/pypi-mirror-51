@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: mt4-hst
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: https://github.com/fx-kirin/mt4_hst
+Author: fx-kirin
+Author-email: fx.kirin@gmail.com
+License: MIT
+Description: 
+        mt4_hst
+        =======
+        
+        
+        .. image:: https://img.shields.io/pypi/v/package_name.svg
+           :target: https://pypi.python.org/pypi/mt4_hst
+           :alt: Latest PyPI version
+        
+        
+        Usage
+        -----
+        
+        .. code-block::
+        
+           import mt4_hst
+           df = mt4_hst.read_hst('pass to hst file')
+        
+        This method returns ``pandas.DataFrame``.
+        
+        Installation
+        ------------
+        
+        .. code-block::
+        
+           pip install mt4_hst
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        package_name was written by `fx-kirin <fx.kirin@gmail.com>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
