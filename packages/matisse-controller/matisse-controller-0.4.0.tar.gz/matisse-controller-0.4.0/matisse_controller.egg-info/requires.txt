@@ -1,0 +1,7 @@
+pyvisa<2,>=1
+pyserial<4,>=3
+scipy<2,>=1
+matplotlib<4,>=3
+pyqt5>=5
+bidict>=0.18
+glom>=19.2
