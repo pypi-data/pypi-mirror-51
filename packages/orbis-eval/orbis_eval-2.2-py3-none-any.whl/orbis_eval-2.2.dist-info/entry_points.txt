@@ -1,0 +1,4 @@
+[console_scripts]
+orbis-addons = orbis_eval.interfaces.addons.main:run
+orbis-eval = orbis_eval.__main__:run
+
