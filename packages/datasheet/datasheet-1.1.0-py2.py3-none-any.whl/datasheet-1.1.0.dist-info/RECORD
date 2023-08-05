@@ -1,0 +1,13 @@
+datasheet/__init__.py,sha256=iOjB2qR1KMuC3doBm9NW9-kwIw8XkLO6PEcsD_6mCnk,234
+datasheet/html_renderer.py,sha256=oXTackaBlWQF4p_fk1CjTuXcBSLGGlGQp2esdp-SQwA,6176
+datasheet/sheet.py,sha256=hKgsLC-dMqLFkZI-5hJhpyTeTfTWQHRNhIPrP7DZ0GM,5127
+datasheet/types.py,sha256=MqjvuZ8_80ojlXgDa06GkFhWRvWDVc-OrTLyPYs9HdA,5339
+datasheet/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasheet/data/default.css,sha256=nPMtrjY2b885ohkSFFGWhtVpDqJ9Ew5mvxHaMuBKIWw,5537
+datasheet/data/papaya.js,sha256=YD3v0tUPiUp35CEStWu7XPk2sNjCdftc4lk71Yl6tbY,2247582
+datasheet/data/papaya_css_additions.txt,sha256=cVF_LLmj9VwsciC5torsa69SVfFUIrmUv_ClabbCxwQ,5501
+datasheet/data/papaya_header.html,sha256=WkFezo1Fi7qQJRlObva7HxwKotijuF_hD9tK4VWGl5Y,471
+datasheet-1.1.0.dist-info/LICENSE,sha256=hbZir6JIKT7dl7QM6wsuKJ4OwDP8ZNMUkYte6ZbQWv4,1099
+datasheet-1.1.0.dist-info/WHEEL,sha256=RFGpeSWy2MhnOH7MbIZmX9ZR0evWl2eJvsMO-yF-tDc,97
+datasheet-1.1.0.dist-info/METADATA,sha256=gQCRxRlHdGtdLRDDgUp3GH1CUxtICCu_A1HN1hk9PJs,967
+datasheet-1.1.0.dist-info/RECORD,,
