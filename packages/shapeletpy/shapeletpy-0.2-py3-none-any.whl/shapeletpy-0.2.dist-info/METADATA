@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: shapeletpy
+Version: 0.2
+Summary: Time series classification Using Shapelets
+Home-page: https://github.com/rohitvincent/shapeletpy
+Author: Rohit Vincent
+Author-email: rohit.vincent@ucdconnect.ie
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: markdown
+Requires-Dist: collections
+Requires-Dist: itertools
+Requires-Dist: operator
+Requires-Dist: pickle
+Requires-Dist: random
+Requires-Dist: threading
+Requires-Dist: time
+Requires-Dist: sklearn
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: progressbar
+Requires-Dist: seaborn
+Requires-Dist: saxpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
