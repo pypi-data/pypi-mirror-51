@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ros1_fuzzer
+Version: 1.0.0
+Summary: A ROS subscriber fuzzing tool for ROS systems
+Home-page: https://www.aliasrobotics.com
+Author: Alias Robotics
+Author-email: contact@aliasrobotics.com
+License: GPLv2
+Description: UNKNOWN
+Keywords: network,fuzzing,ros
+Platform: UNKNOWN
