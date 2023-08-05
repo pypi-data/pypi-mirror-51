@@ -1,0 +1,63 @@
+<div class="navbar-spacer"></div>
+<nav class="navbar">
+<div class="container">
+  <ul class="navbar-list">
+    <li class="navbar-item"><a class="navbar-link" href="/">Home</a></li>
+    <li class="navbar-item">
+      <a class="navbar-link" href="javascript:;" data-popover="#tickerNavPopover">Tickers</a>
+      <div id="tickerNavPopover" class="popover">
+        <ul class="popover-list">
+          {% for f in frequencies %}
+          <li class="popover-item">
+            <a class="popover-link" href="{{url_for(url, frequency=f, **params)}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{f}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    <li class="navbar-item">
+      <a class="navbar-link" href="javascript:;" data-popover="#tokensNavPopover">Tokens</a>
+      <div id="tokensNavPopover" class="popover">
+        <ul class="popover-list">
+          {% for t in tokens %}
+          <li class="popover-item">
+            <a class="popover-link" href="{{url_for('ticker_token', frequency=frequency, token=t)}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{t}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    <li class="navbar-item">
+      <a class="navbar-link" href="javascript:;" data-popover="#pairsNavPopover">Pairs</a>
+      <div id="pairsNavPopover" class="popover">
+        <ul class="popover-list">
+          {% for p in pairs %}
+          <li class="popover-item">
+            <a class="popover-link" href="{{url_for('ticker_pair', frequency=frequency, pair=p) if p != 'ALL' else url_for('ticker', frequency=frequency)}}">{{p}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+    <li class="navbar-item">
+      <a class="navbar-link" href="javascript:;" data-popover="#projectNavPopover">Project</a>
+      <div id="projectNavPopover" class="popover">
+        <ul class="popover-list">
+          <li class="popover-item">
+            <a class="popover-link" href="https://bitbucket.org/pantunes/xtcryptosignals">On Bitbucket</a>
+          </li>
+          <li class="popover-item">
+            <a class="popover-link" href="https://pypi.org/project/XTCryptoSignals/">On Pypi</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="navbar-right-item">
+      <a class="navbar-link" style="margin-right: 0;">XTCryptoSignals v{{version}}</a>
+    </li>
+    <li class="navbar-right-item">
+      <span class="navbar-countdown">(updating in <span id="countdown">-</span>s)</span>
+    </li>
+  </ul>
+</div>
+</nav>
