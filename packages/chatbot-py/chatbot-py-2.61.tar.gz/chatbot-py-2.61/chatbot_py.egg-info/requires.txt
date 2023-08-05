@@ -1,0 +1,4 @@
+jieba
+sqlalchemy
+python-forecastio
+geocoder
