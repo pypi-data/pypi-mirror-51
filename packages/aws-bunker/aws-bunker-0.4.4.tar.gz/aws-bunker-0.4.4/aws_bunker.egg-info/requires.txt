@@ -1,0 +1,5 @@
+setuptools
+boto3
+inquirer
+paramiko
+tqdm
