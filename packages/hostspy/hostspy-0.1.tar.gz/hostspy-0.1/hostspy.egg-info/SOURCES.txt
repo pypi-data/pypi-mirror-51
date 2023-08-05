@@ -1,0 +1,7 @@
+README.md
+setup.py
+hostspy/__init__.py
+hostspy.egg-info/PKG-INFO
+hostspy.egg-info/SOURCES.txt
+hostspy.egg-info/dependency_links.txt
+hostspy.egg-info/top_level.txt
