@@ -1,0 +1,11 @@
+README.md
+setup.py
+datasetutils/__init__.py
+datasetutils/datasets.py
+datasetutils/mutations.py
+datasetutils/pasting.py
+datasetutils.egg-info/PKG-INFO
+datasetutils.egg-info/SOURCES.txt
+datasetutils.egg-info/dependency_links.txt
+datasetutils.egg-info/requires.txt
+datasetutils.egg-info/top_level.txt
