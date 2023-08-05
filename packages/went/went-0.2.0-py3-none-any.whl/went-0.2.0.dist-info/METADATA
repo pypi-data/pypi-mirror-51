@@ -1,0 +1,45 @@
+Metadata-Version: 2.0
+Name: went
+Version: 0.2.0
+Summary: Tools for implementing a webmention enpoint.
+Home-page: UNKNOWN
+Author: fiatjaf
+Author-email: fiatjaf@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: PyYAML (==3.11)
+Requires-Dist: beautifulsoup4 (==4.3.2)
+Requires-Dist: gunicorn (==19.2.1)
+Requires-Dist: html5lib (==0.999)
+Requires-Dist: mf2py (==0.2.4)
+Requires-Dist: pyaml (==15.02.1)
+Requires-Dist: redis (==2.10.3)
+Requires-Dist: requests (==2.5.3)
+Requires-Dist: six (==1.9.0)
+Requires-Dist: wsgiref (==0.1.2)
+Requires-Dist: html2text (==2015.2.18)
+
+**went** stands for *webmention endpoint tools*.
+
+.. code-block:: python
+
+    import went
+
+    try:
+        webmention = went.Webmention(source_url, target=target_url)
+        # or webmention = went.Webmention(source_html, target=target_url)
+    except (went.NoContent, went.NoURLInSource):
+        webmention = None
+
+    webmention.date == '2015-02-26'
+    webmention.url == 'http://someone.com/blog/hello.html'
+    webmention.name == 'Hello world'
+    webmention.html == '<a href="http://otherpage.com/">to see my <i>hello world</i> go to this other page</a>'
+    webmention.body == '[to see my _hello world_ go to this other page](http://otherpage.com/)'
+    webmention.via == 'twitter.com' # bridgy-specific
+    webmention.like == False # like and like-of become this.
+    webmention.author.name == 'Someone'
+    webmention.author.url == 'http://someone.com/'
+    webmention.author.photo == 'http://someone.com/photo.jpg'
+
+
