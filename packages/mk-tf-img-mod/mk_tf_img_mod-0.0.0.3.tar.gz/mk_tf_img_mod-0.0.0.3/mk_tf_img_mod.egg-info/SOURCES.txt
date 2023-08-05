@@ -1,0 +1,8 @@
+README.md
+setup.py
+mk_tf_img_mod.egg-info/PKG-INFO
+mk_tf_img_mod.egg-info/SOURCES.txt
+mk_tf_img_mod.egg-info/dependency_links.txt
+mk_tf_img_mod.egg-info/requires.txt
+mk_tf_img_mod.egg-info/top_level.txt
+tf_img_mod/__init__.py
