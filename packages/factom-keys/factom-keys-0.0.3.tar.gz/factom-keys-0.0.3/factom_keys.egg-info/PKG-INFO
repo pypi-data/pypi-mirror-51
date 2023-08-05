@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: factom-keys
+Version: 0.0.3
+Summary: A small library for using Factom's factoid and entry-credit keys
+Home-page: https://github.com/sambarnes/factom-keys
+Author: Sam Barnes
+Author-email: mistersamuelbarnes@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: factom,keys
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
