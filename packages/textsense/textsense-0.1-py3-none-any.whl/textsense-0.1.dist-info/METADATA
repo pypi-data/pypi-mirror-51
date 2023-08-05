@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: textsense
+Version: 0.1
+Summary: TextSense.ai a Text analytics platform.
+Home-page: UNKNOWN
+Author: TextSense Team
+Author-email: agambhire@algoanalytics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
