@@ -1,0 +1,12 @@
+README.md
+setup.py
+namecom/__init__.py
+namecom/cli.py
+namecom/compat.py
+namecom/helpers.py
+namecom.egg-info/PKG-INFO
+namecom.egg-info/SOURCES.txt
+namecom.egg-info/dependency_links.txt
+namecom.egg-info/entry_points.txt
+namecom.egg-info/requires.txt
+namecom.egg-info/top_level.txt
