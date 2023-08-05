@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: morepy
+Version: 0.0.1.dev16
+Summary: getMORE out of your everyday Python experience
+Home-page: https://github.com/zimmermanncode/morepy
+Author: Stefan Zimmermann
+Author-email: user@zimmermann.co
+License: LGPLv3
+Description: UNKNOWN
+Keywords: more,reusable,essentials,shell,moretools,ipython,magic,magics,linemagic,linemagics,cellmagic,cellmagics,pdb,ipdb,integration,python3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
