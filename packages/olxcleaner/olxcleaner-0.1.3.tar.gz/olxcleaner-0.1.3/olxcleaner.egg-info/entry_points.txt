@@ -1,0 +1,4 @@
+[console_scripts]
+edx-cleaner = olxcleaner.entries.edxcleaner:main
+edx-reporter = olxcleaner.entries.edxreporter:main
+
