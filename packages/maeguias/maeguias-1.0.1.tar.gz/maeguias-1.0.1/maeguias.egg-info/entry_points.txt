@@ -1,0 +1,10 @@
+[console_scripts]
+maeguias = maeguias.__main__:cli
+
+[maeguias.plugins]
+search = maeguias.contrib.search:SearchPlugin
+
+[maeguias.themes]
+maeguias = maeguias.themes.maeguias
+readthedocs = maeguias.themes.readthedocs
+
