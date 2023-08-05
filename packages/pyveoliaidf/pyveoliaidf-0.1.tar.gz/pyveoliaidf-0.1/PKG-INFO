@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pyveoliaidf
+Version: 0.1
+Summary: Retrieve water consumption from Veolia Ile-de-France web site (French Water Company)
+Home-page: https://github.com/ssenart/PyGazpar
+Author: Stéphane Senart
+Author-email: stephane.senart@gmail.com
+License: MIT
+Download-URL: https://github.com/ssenart/PyGazpar/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: RESOURCE,WATER,CONSUMPTION
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
