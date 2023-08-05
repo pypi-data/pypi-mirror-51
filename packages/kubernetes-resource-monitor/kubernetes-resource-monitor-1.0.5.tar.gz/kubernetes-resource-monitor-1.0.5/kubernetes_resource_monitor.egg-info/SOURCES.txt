@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+krm_client/__init__.py
+krm_client/krm_client.py
+kubernetes_resource_monitor.egg-info/PKG-INFO
+kubernetes_resource_monitor.egg-info/SOURCES.txt
+kubernetes_resource_monitor.egg-info/dependency_links.txt
+kubernetes_resource_monitor.egg-info/requires.txt
+kubernetes_resource_monitor.egg-info/top_level.txt
