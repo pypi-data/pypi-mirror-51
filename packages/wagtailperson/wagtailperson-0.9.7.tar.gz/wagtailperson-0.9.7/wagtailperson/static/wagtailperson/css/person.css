@@ -1,0 +1,78 @@
+/* Style for person page */
+
+.template-personpage {
+    margin: 30px;
+}
+
+.person.full_description {
+    
+}
+
+.person.full_description .picture img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.person.full_description .description {
+    margin-top: 30px;
+}
+
+.person .description ul.titles {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.person .description ul.titles li {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 750px) {
+    
+}
+
+/* Style for person index page */
+
+.template-personindexpage {
+    margin: 30px;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+a.person.short_description {
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a.person.short_description:hover {
+    text-decoration: underline;
+}
+
+div.person.short_description {
+    display: flex;
+}
+
+.person.short_description .picture img {
+    border-radius: 10px;
+}
+
+.person.short_description .description {
+    margin-left: 30px;
+}
+
+.person.short_description h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Style for person block */
+
+.block-person {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
