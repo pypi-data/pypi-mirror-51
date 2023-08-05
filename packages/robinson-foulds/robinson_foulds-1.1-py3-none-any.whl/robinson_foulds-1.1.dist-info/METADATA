@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: robinson-foulds
+Version: 1.1
+Summary: A simple utility for comparing phylogenetic trees
+Home-page: https://github.com/arvestad/robinson_foulds
+Author: Lars Arvestad
+Author-email: arve@math.su.se
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: ete3
+
+# robinson_foulds
+A simple command line tool, `rf`, for computing the Robinson-Foulds distance given two trees, using the ETE toolkit.
+
+## Usage
+
+```
+rf t1.tree t2.tree
+```
+
+## Output
+
+The normalised Robinson-Foulds symmetric distance, as implemented in the ETE3 package.
+
+

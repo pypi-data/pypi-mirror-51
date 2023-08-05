@@ -1,0 +1,76 @@
+#!python
+import argparse
+from ete3 import Tree
+import sys
+
+
+parser = argparse.ArgumentParser(description='Compute the Robinson-Foulds symmetric distance between two trees.')
+parser.add_argument('treefile1')
+parser.add_argument('treefile2')
+parser.add_argument('-a', '--absolute', action='store_true',
+                    help='Output the absolute number RF symmetric distance, not the relative which is default.')
+parser.add_argument('-j', '--json', action='store_true',
+                    help='Output more extensive description of differences in JSON format.')
+parser.add_argument('-r', '--rooted', action='store_true', default=False,
+                    help='Assume rooted trees')
+parser.add_argument('-s', '--show-difference', action='store_true',
+                    help='Enumerate the edges unique to the two input trees.')
+parser.add_argument('-sm', '--show-difference-minor', action='store_true',
+                    help='Like -s, but only showing the smaller part of the bipartition for an edge')
+args = parser.parse_args()
+
+t1 = None
+t2 = None
+try:
+    t1 = Tree(args.treefile1)
+    t2 = Tree(args.treefile2)
+
+except Exception as e:
+    print('Problems reading tree file(s):\n' + str(e), file=sys.stderr)
+    sys.exit(1)
+
+try:
+ #   rf, rf_max, x1, x2, x3, x4, x5 = t1.robinson_foulds(t2, unrooted_trees= not args.rooted)
+#    print(rf / rf_max)
+    res = t1.compare(t2, unrooted= not args.rooted)
+
+    common = res['common_edges']
+    ref_edges = res['ref_edges']
+    src_edges = res['source_edges']
+
+    ref_difference = ref_edges - common
+    src_difference = src_edges - common
+    
+    del res['common_edges']
+    del res['ref_edges']
+    del res['source_edges']
+    if args.json:
+        print(res)
+    elif args.show_difference or args.show_difference_minor:
+        print(f'\nEdges unique to {args.treefile1}:')
+        for i, edge in enumerate(src_difference):
+            if args.show_difference_minor:
+                a, b = edge
+                if len(a) < len(b):
+                    edge = a
+                else:
+                    edge = b
+            print(f'{i}:\t', edge)
+
+        print(f'\nEdges unique to {args.treefile2}:')
+        for i, edge in enumerate(ref_difference):
+            if args.show_difference_minor:
+                a, b = edge
+                if len(a) < len(b):
+                    edge = a
+                else:
+                    edge = b
+            print(f'{i}:\t', edge)
+    elif args.absolute:
+        print(res['rf'])
+    else:
+        print(res['rf'] / res['max_rf'])
+            
+except Exception as e:
+    print('Error when computing the Robinson-Foulds distances:\n' + str(e), file=sys.stderr)
+    sys.exit(2)
