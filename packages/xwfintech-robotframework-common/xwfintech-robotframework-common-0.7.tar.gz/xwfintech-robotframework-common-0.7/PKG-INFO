@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: xwfintech-robotframework-common
+Version: 0.7
+Summary: xwfintech-robotframework-common is a Robot Framework test library in xwfnitech
+Home-page: https://github.com/houfy-github/xwfintech-robotframework-common.git
+Author: bryanhou
+Author-email: bryanhou@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: robotframework commonlibrary in xwfintech
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
