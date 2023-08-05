@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: uceasy
+Version: 0.1.1
+Summary: Wrapper for the Phyluce phylogenomics software package
+License: MIT
+Author: Caio Raposo
+Author-email: caioraposo@protonmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: flask (>=1.1,<2.0)
+Requires-Dist: pandas (>=0.25.0,<0.26.0)
