@@ -1,0 +1,8 @@
+README.md
+setup.py
+intellihub/__init__.py
+intellihub/core.py
+intellihub.egg-info/PKG-INFO
+intellihub.egg-info/SOURCES.txt
+intellihub.egg-info/dependency_links.txt
+intellihub.egg-info/top_level.txt
