@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Pecho
+Version: 0.1.0
+Summary: Pecho makes it easy to write things like status bars
+Home-page: https://github.com/OrangutanGaming/pecho
+Author: Nihaal Sangha (Orangutan)
+License: MIT
+Project-URL: Issue tracker, https://github.com/OrangutanGaming/pecho/issues
+Description: # pecho
+        Pecho makes it easy to write things like status bars.
+        
+        ## Usage
+        ```python
+        from pecho import echo
+        
+        echo('1%')  # 1%
+        echo('2%')  # Replaces with 2%
+        echo('3%', newline=True)  # Replaces with 3% and appends a newline
+        echo('4%')  # 3%\n4%
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown

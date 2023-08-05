@@ -1,0 +1,8 @@
+README.md
+setup.py
+Pecho.egg-info/PKG-INFO
+Pecho.egg-info/SOURCES.txt
+Pecho.egg-info/dependency_links.txt
+Pecho.egg-info/requires.txt
+Pecho.egg-info/top_level.txt
+pecho/__init__.py
