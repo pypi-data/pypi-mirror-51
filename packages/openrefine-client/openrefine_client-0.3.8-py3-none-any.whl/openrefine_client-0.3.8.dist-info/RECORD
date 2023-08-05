@@ -1,0 +1,13 @@
+google/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google/refine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google/refine/__main__.py,sha256=TwRSmuAwWLYAV3gTZHTo4U3eUcbrvis9huiYneSxMY8,13277
+google/refine/cli.py,sha256=hWSVI46eKvRsPm2UyItubKlo1yfgSd066WmqLsTNvGI,13009
+google/refine/facet.py,sha256=BTdnljtsJRaHaOsY_FIRuR0gabvRT8HLVNWQLkdK7T0,9575
+google/refine/history.py,sha256=paRY8h64654ha2HZWxcsntKwJXJ9Pj2qXNh6D20NUTs,1201
+google/refine/refine.py,sha256=q8-QYgZ53VypdXx0pD0FyNK5AJBiTFBtjqwqCZNuiio,27436
+openrefine_client-0.3.8.dist-info/COPYING.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+openrefine_client-0.3.8.dist-info/METADATA,sha256=hQcWH3Jvm_f1TlR25toVS61lEu1dsFi0Ir3yRm_DSLM,26388
+openrefine_client-0.3.8.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+openrefine_client-0.3.8.dist-info/entry_points.txt,sha256=FZ0obSMh4nbZ6L-Mn94OXumAD8hP0KI2KmNwtBEJQiQ,67
+openrefine_client-0.3.8.dist-info/top_level.txt,sha256=_1QvSJIhFAGfxb79D6DhB7SUw2X6T4rwnz_LLrbcD3c,7
+openrefine_client-0.3.8.dist-info/RECORD,,
