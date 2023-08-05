@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% block body_class %}template-personpage{% endblock %}
+
+{% block content %}
+    <div class="person">
+        {% if page.picture %}
+            <div class="picture">
+                {% image page.picture original  %}
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

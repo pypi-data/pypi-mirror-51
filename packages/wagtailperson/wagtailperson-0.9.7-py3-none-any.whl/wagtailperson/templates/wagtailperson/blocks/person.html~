@@ -1,0 +1,25 @@
+{% load wagtailcore_tags %}
+
+<a href="{% pageurl person %}">
+    <div class="person short_description">
+        {% if person.picture %}
+            <div class="picture">
+                {% image person.picture original %}
+            </div>
+        {% endif %}
+        <div class="description">
+            <h2>{{ person.name }}</h1>
+                <ul class="titles">
+                    {% for title in person.titles.all %}
+                        <li>{{ title.title }}</li>
+                    {% endfor %}
+                    {% for title in person.custom_titles_list %}
+                        <li>{{ title }}</li>
+                    {% endfor %}
+                </ul>
+                <p class="intro">
+                    {{ person.intro }}
+                </p>
+        </div>
+    </div>
+</a>

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'wagtailperson/css/person.css' %}" type="text/css"/>
+{% endblock %}
+
+{% block body_class %}template-personindexpage{% endblock %}
+
+{% block content %}
+    <h1>{{ page.title }}</h1>
+
+    <div class="intro">{{ page.intro|richtext }}</div>
+
+    {% for person in person_pages %}
+        <a class="person short_description" href="{% pageurl person %}">
+            <div class="person short_description">
+                {% if person.picture %}
+                    <div class="picture">
+                        {% image person.picture fill-100x150 %}
+                    </div>
+                {% endif %}
+                <div class="description">
+                    <h2>{{ person.name }}</h2>
+                    <ul class="titles">
+                        {% for title in person.titles.all %}
+                            <li>{{ title.title }}</li>
+                        {% endfor %}
+                        {% for title in person.custom_titles_list %}
+                            <li>{{ title }}</li>
+                        {% endfor %}
+                    </ul>
+                    <p class="intro">
+                        {{ person.intro }}
+                    </p>
+                </div>
+            </div>
+        </a>  
+    {% endfor %}
+
+{% endblock %}

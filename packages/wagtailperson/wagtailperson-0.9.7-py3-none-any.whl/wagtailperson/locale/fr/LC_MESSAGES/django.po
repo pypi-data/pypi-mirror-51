@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-21 23:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:7
+msgid "Wagtail Person"
+msgstr "Wagtail Persone"
+
+#: blocks.py:24
+msgid "Header level"
+msgstr "Niveau d'en-tête"
+
+#: blocks.py:27
+msgid "Text"
+msgstr "Text"
+
+#: blocks.py:33
+msgid "Header"
+msgstr "Header"
+
+#: blocks.py:39
+msgid "Description"
+msgstr "Description"
+
+#: blocks.py:42
+msgid "URL"
+msgstr "URL"
+
+#: blocks.py:61
+msgid "Link"
+msgstr "Link"
+
+#: blocks.py:67
+msgid "Person page"
+msgstr "Page de personne"
+
+#: blocks.py:74 models.py:83
+msgid "Person"
+msgstr "Persone"
+
+#: models.py:35
+msgid "Picture"
+msgstr "Photo"
+
+#: models.py:38
+msgid "Name"
+msgstr "Nom"
+
+#: models.py:42
+msgid "Custom titles"
+msgstr "Titres personnalisés"
+
+#: models.py:45
+msgid "Some custom titles, separated by commas"
+msgstr "Quelques titres personnalisés, séparés par des virgules"
+
+#: models.py:48
+msgid "Introduction"
+msgstr "Introduction"
+
+#: models.py:51
+msgid "Shown on the short descriptions"
+msgstr "Montré sur les descriptions courtes"
+
+#: models.py:55
+msgid "Abstract"
+msgstr "Résumé"
+
+#: models.py:68
+msgid "Extra informations"
+msgstr "Informations supplémentaires"
+
+#: models.py:75
+msgid "Titles"
+msgstr "Titres"
+
+#: models.py:84
+msgid "Persons"
+msgstr "Personnes"
+
+#: models.py:108
+msgid "Title"
+msgstr "Title"
+
+#: models.py:113
+msgid "Person title"
+msgstr "Titre de la personne"
+
+#: models.py:114
+msgid "Person titles"
+msgstr "Titres de personne"
+
+#: models.py:138
+msgid "Person Title Page"
+msgstr "Page de titre de personne"
+
+#: models.py:139
+msgid "Person Title Pages"
+msgstr "Pages de titre de personne"
+
+#: models.py:149
+msgid "Intro"
+msgstr "Intro"
+
+#: models.py:159
+msgid "Person Index Page"
+msgstr "Page d'index des personnes"
+
+#: models.py:160
+msgid "Person Index Pages"
+msgstr "Pages d'index des personnes"

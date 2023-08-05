@@ -1,0 +1,29 @@
+/* Style for person page */
+
+.template-personpage {
+  margin: 30px;
+}
+
+.person.full_description {
+  display: flex;
+}
+
+.person.full_description .picture img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.person.full_description .description {
+  margin-left: 10px;
+}
+
+.person.full_description .description ul.titles {
+  list-style-type: none;
+  padding: 0;
+}
+
+.person.full_description .description ul.titles li {
+  font-weight: bold;
+}
+
