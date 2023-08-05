@@ -1,0 +1,6 @@
+python-dateutil
+cchardet
+typing
+
+[file-magic]
+file-magic
