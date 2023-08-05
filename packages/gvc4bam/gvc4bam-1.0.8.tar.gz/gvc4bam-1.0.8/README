@@ -1,0 +1,40 @@
+GVC_VCF Pipeline:
+
+GVC_VCF is a pipeline developed at Genowis for germline and somatic mutation(snv, indel, sv) in next generation sequencing data.
+
+Basic Command Line Parameters Options:
+
+	Positional Arguments:
+		input_json: The json file stores names and paths of both normal and tumor samples. 
+				eg: {"N": ["/disk/N.sort.dup.bam"], "T": ["/disk/T.sort.dup.bam"]}
+		reference: The reference fasta file.
+		outpath: The output folder.
+	Optional Arguments:
+		-h: Print help messages.
+		--dbsnp: The Single Nucleotide Polymorphism Database(dbSNP) file has three columns(chr, position, rsID), Values on each line of the file are separated by tab.
+		--bed: The WES file need to provide bed region, The bed region has at least three columns(chr,start,end), Values on each line of the file are separated by tab.
+		--gvc_lib: The library folder has configuration file.
+			The docker volume file needs to be modified. A dictionary to configure volumes mounted inside the container. The key is either the host path or a volume name, and the value is a dictionary with the keys: 
+					bind: The path to mount the volume inside the container(the host path needs same with the container path).
+					mode: rw to mount the volume read/write.
+					eg: {"/disk": {"bind": "/disk","mode": "rw"}}
+		--strategy: choose WES or WGS.
+		--mutantType: Getting Germline mutation or Somatic mutaion.
+		--sample_name: The Sample name.
+
+Note: the pipeline was writed by toil, so when running the programe, you need to provide jobStore(one dir name, eg: first_gvc_run or /home/first_gvc_run). A job store holds persistent information about the jobs and files in a workflow.
+Eg：
+	python gvc_vcf_pipeline.py first_gvc_run /disk/gvc_vcf_pipeline/bam.json /disk/db/ref/human.fa /disk/gvc_vcf_pipeline/outpath/ --dbsnp /disk/db/dbsnp/dbsnp_frequency  --bed  /disk/data/no_ref.ccd --gvc_lib /disk/gvc_vcf_pipeline/gvc_lib/ --mutantType Somatic --mutantType Germline --sample_name test_data --strategy WES
+
+
+demo: 192.168.75.200 
+/disk/chenfs/gvc_vcf_pipeline/demo, the demo taked 4 minutes.
+python /disk/chenfs/gvc_vcf_pipeline/src/gvc_vcf_pipeline.py \
+first_gvc_run \
+/disk/chenfs/gvc_vcf_pipeline/demo/demo.json \
+/disk/db/ref/human.fa \
+/disk/chenfs/gvc_vcf_pipeline/demo/test/ \
+--dbsnp  /disk/db/dbsnp/dbsnp_frequency  \
+--bed  /disk/chenfs/gvc_vcf_pipeline/demo/demo.bed \
+--gvc_lib /disk/chenfs/gvc_vcf_pipeline/gvc_lib/ \
+--mutantType Somatic --mutantType Germline --strategy WES
