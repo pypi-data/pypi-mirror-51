@@ -1,0 +1,8 @@
+README.md
+setup.py
+api/__init__.py
+api/soma_api.py
+pysoma.egg-info/PKG-INFO
+pysoma.egg-info/SOURCES.txt
+pysoma.egg-info/dependency_links.txt
+pysoma.egg-info/top_level.txt
