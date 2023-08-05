@@ -1,0 +1,11 @@
+tensorboard_logger
+docopt
+gensim
+numpy
+sklearn
+click
+stanfordcorenlp==3.8.0.1
+spacy
+nltk
+statsmodels
+allennlp
