@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+testing/__init__.py
+testing/rabbitmq.py
+testing.rabbitmq.egg-info/PKG-INFO
+testing.rabbitmq.egg-info/SOURCES.txt
+testing.rabbitmq.egg-info/dependency_links.txt
+testing.rabbitmq.egg-info/namespace_packages.txt
+testing.rabbitmq.egg-info/requires.txt
+testing.rabbitmq.egg-info/top_level.txt
