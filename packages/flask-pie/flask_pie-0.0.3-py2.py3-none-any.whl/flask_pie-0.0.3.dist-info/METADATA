@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: flask-pie
+Version: 0.0.3
+Summary: Web API for NLP tagger PIE
+Home-page: https://github.com/ponteineptique/flask_pie
+Author: Thibault Clérice
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: regex
+Requires-Dist: nlp-pie (==0.2.2)
+
+
+# pie-flask
+Flask API for Pie
+
+
