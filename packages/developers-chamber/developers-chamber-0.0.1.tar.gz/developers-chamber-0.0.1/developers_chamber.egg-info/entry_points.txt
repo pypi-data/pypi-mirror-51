@@ -1,0 +1,5 @@
+[console_scripts]
+release-bitbucket = developers_chamber.bin.release_bitbucket:cli
+release-git = developers_chamber.bin.release_git:cli
+release-version = developers_chamber.bin.release_version:cli
+
