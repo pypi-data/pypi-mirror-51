@@ -1,0 +1,4 @@
+six>=1.11.0
+banal>=0.4.1
+pyicu>=1.9.3
+chardet
