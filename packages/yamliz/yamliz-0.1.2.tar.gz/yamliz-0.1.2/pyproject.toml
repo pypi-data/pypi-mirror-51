@@ -1,0 +1,6 @@
+# We need to define a this file to accomplish PEP-0518
+# to ensure we have the required version of setuptools.
+#
+# For more information, refer to the setuptools issue #1002: https://github.com/pypa/setuptools/issues/1002
+[build-system]
+requires = ["setuptools>=30.3.0", "wheel", "setuptools_scm"]
