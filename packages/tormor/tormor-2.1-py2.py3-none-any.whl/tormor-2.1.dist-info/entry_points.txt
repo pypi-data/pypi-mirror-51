@@ -1,0 +1,3 @@
+[console_scripts]
+tormor=tormor.main_script:script
+
