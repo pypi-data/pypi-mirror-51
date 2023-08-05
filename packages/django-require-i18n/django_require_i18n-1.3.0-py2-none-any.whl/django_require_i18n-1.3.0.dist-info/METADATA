@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: django-require-i18n
+Version: 1.3.0
+Summary: Django management command for extracting and compiling localization strings used in the require.js i18n plugin.
+Home-page: https://github.com/collab-project/django-require-i18n
+Author: Thijs Triemstra
+Author-email: info@collab.nl
+License: MIT
+Keywords: django requirejs i18n plugin require.js
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Software Development :: Localization
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: Jinja2
+Requires-Dist: Babel
+Requires-Dist: polib (>=1.0.6)
+Requires-Dist: pybabel-json (>=0.2.0)
+Requires-Dist: tower (>=0.4.1)
+Provides-Extra: docs
+Requires-Dist: sphinx (>=1.5.1) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: translate-toolkit ; extra == 'test'
+
+UNKNOWN
+
+

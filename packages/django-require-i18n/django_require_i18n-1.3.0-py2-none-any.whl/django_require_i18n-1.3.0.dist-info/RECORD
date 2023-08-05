@@ -1,0 +1,11 @@
+require_i18n/__init__.py,sha256=oNULIlEwLEOJrubWofnvACWNrqUREGaaxcL7OItRg9c,666
+require_i18n/core.py,sha256=znf6pTFUUhdaBSwazeE129_T9Kler-QXCpEWrv7C94Y,9461
+require_i18n/util.py,sha256=tsy10E8815O2fbPEd-qfYEoHPrpBUm56AFReIb9J52U,485
+require_i18n/management/__init__.py,sha256=KRFP4PguJpgZMHEc9v3ZSs4Nk552ldlw3dij1XmXeWo,56
+require_i18n/management/commands/__init__.py,sha256=KRFP4PguJpgZMHEc9v3ZSs4Nk552ldlw3dij1XmXeWo,56
+require_i18n/management/commands/compile_js.py,sha256=1GvgNRttXsbUm10u9aZ_m1f3iGWRuPDRk4tKMSIISgs,3848
+django_require_i18n-1.3.0.dist-info/LICENSE,sha256=yqydiJa-Wgi05qlivjBoNPg95qdk_2T5D9iC7O26znY,1055
+django_require_i18n-1.3.0.dist-info/METADATA,sha256=sxhL31P-8UeeDMM3SomCrwClaovuHBbA0t_XrlbF3mo,1538
+django_require_i18n-1.3.0.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+django_require_i18n-1.3.0.dist-info/top_level.txt,sha256=ClcbTGVUq-Eo-dIBUj3KokngH8Tb3OPPV9aDK2bL5MQ,13
+django_require_i18n-1.3.0.dist-info/RECORD,,
