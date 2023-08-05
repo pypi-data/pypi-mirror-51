@@ -1,0 +1,27 @@
+driver:
+  options:
+    - FakeMotor
+    - RandomlyFailing
+    - UIRobot
+  selected: FakeMotor
+connection:
+  name: ""
+  baudrates:
+    - 9600
+    - 19200
+    - 38400
+    - 57600
+  baudrate: 57600
+movement:
+  moveSpeed: 5
+  returnSpeed: 10
+  acceleration: 1
+  deceleration: 0.5
+motion:
+  reverseDirection: false
+  position: 10
+  step: 10
+calibration:
+  ratio: 100
+  step: 3000
+  length: 10
