@@ -1,0 +1,12 @@
+README.md
+setup.py
+aurora_connector/Database.py
+aurora_connector/__init__.py
+aurora_connector.egg-info/PKG-INFO
+aurora_connector.egg-info/SOURCES.txt
+aurora_connector.egg-info/dependency_links.txt
+aurora_connector.egg-info/requires.txt
+aurora_connector.egg-info/top_level.txt
+aurora_connector/helpers/Exceptions.py
+aurora_connector/helpers/Utils.py
+aurora_connector/helpers/__init__.py
