@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: publish-notifier
+Version: 1.0.7
+Summary: Python library to notify a service of the published/consumed data
+Home-page: https://github.com/anmolagarwal001/publish-notifier-py
+Author: Anmol Agarwal
+Author-email: anmol.agarwal001@gmail.com
+License: LICENSE
+Download-URL: https://github.com/anmolagarwal001/publish-notifier-py/archive/v1.0.7.tar.gz
+Description: Installation:
+        
+        pip install publish-notifier
+        
+        Description:
+        
+        Receives the message which was published to Kafka. It is used to transfer that message to another service which uses a data storage and stores the published message along with it's status.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
