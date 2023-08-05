@@ -1,0 +1,14 @@
+README.md
+setup.py
+pysh/__init__.py
+pysh/cmd.py
+pysh/filters.py
+pysh/subprocess.py
+pysh/words.py
+pysh_lib.egg-info/PKG-INFO
+pysh_lib.egg-info/SOURCES.txt
+pysh_lib.egg-info/dependency_links.txt
+pysh_lib.egg-info/requires.txt
+pysh_lib.egg-info/top_level.txt
+test/test_cmd.py
+test/test_words.py
