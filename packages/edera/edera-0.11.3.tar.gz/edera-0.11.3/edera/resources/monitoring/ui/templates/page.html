@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Edera Monitoring UI{% if core %} @ {{ core.timestamp|formatdatetime }}{% endif %}</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='shortcut icon' href='{{ url_for("static", filename="favicon.ico") }}'>
+        <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="theme.css") }}'>
+        <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono'>
+    </head>
+    <body>
+        <a href='{{ url_for("index") }}'><div class='header'>{{ caption|safe }}</div></a>
+        <div id='content'>{% block content %}{% endblock %}</div>
+    </body>
+</html>
