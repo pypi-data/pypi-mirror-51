@@ -1,0 +1,13 @@
+pandas
+coverage
+ipython
+ipywidgets
+matplotlib
+tqdm
+seaborn
+jsonpickle
+deprecated
+sklearn
+keras
+tensorflow
+pydot
