@@ -1,0 +1,13 @@
+doppyo/__init__.py,sha256=Rxjpc4dVcEIHmabAy_F9YYRxr6BZkjkgJRkGJtAFGI4,100
+doppyo/diagnostic.py,sha256=n9j1GoeIVbtqVZzya7ocmC447uS0tPUs3TnACO_2cF8,112597
+doppyo/skill.py,sha256=VH2jigY1Lx9a4YMW5RhLybAADCQ5rlIngftLS_Md0zM,77396
+doppyo/sugar.py,sha256=mEjFCENjJF6tMUUJj78J5ESNv2TmgfQu2SchGy0pqWc,74965
+doppyo/utils.py,sha256=XQbpOlQnPV2eJujhoev-VEQgNEoplUKYg3Xhioi-KZo,89078
+doppyo/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doppyo/test/test_utils.py,sha256=LjZXZst3T0BDVG_ICYL198X86b2su3fTg0Y7aXx_Pqs,1875
+doppyo-0.0.2.dist-info/DESCRIPTION.rst,sha256=Qcb5FzBw5wIVleLe02CYwZDwAPCkAiKtuP7O5k8u0rQ,2064
+doppyo-0.0.2.dist-info/METADATA,sha256=zhlYeP5lfGPX-LTJptvABbLJR7ztj-EeGoUa6wLTZQ8,2923
+doppyo-0.0.2.dist-info/RECORD,,
+doppyo-0.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+doppyo-0.0.2.dist-info/metadata.json,sha256=kFNjOKb6VyAdXSwF2JocqQrc_B3lHcFpEFDoFvF7EXM,910
+doppyo-0.0.2.dist-info/top_level.txt,sha256=c5NM6yopp7dZSB6H2mFy_9-XWGltOrHQQU7CyLCbF-g,7
