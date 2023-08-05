@@ -1,0 +1,15 @@
+README.md
+setup.py
+bas_metadata_library/__init__.py
+bas_metadata_library.egg-info/PKG-INFO
+bas_metadata_library.egg-info/SOURCES.txt
+bas_metadata_library.egg-info/dependency_links.txt
+bas_metadata_library.egg-info/requires.txt
+bas_metadata_library.egg-info/top_level.txt
+bas_metadata_library/standards/__init__.py
+bas_metadata_library/standards/iso_19115_v1/__init__.py
+bas_metadata_library/standards/iso_19115_v1/profiles/__init__.py
+bas_metadata_library/standards/iso_19115_v1/profiles/inspire_v1_3.py
+bas_metadata_library/standards/iso_19115_v1/profiles/uk_pdc_discovery_v1.py
+tests/standards/__init__.py
+tests/standards/test_standard/__init__.py
