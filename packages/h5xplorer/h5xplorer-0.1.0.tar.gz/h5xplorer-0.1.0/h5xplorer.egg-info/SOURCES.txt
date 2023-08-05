@@ -1,0 +1,15 @@
+README.md
+setup.py
+h5xplorer/__init__.py
+h5xplorer/__version__.py
+h5xplorer/default_menu.py
+h5xplorer/h5xplorer.py
+h5xplorer/menu_plot.py
+h5xplorer/menu_tools.py
+h5xplorer/standarddialogs.py
+h5xplorer.egg-info/PKG-INFO
+h5xplorer.egg-info/SOURCES.txt
+h5xplorer.egg-info/dependency_links.txt
+h5xplorer.egg-info/not-zip-safe
+h5xplorer.egg-info/requires.txt
+h5xplorer.egg-info/top_level.txt

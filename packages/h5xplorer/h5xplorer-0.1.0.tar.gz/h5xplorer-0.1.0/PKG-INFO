@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: h5xplorer
+Version: 0.1.0
+Summary: A customizable HDF5 browser
+Home-page: https://github.com/DeepRank/h5xplorer
+Author: ['Nicolas Renaud']
+Author-email: n.renaud@esciencecenter.nl
+License: Apache Software License 2.0
+Description: # h5xplorer
+        [![DOI](https://zenodo.org/badge/127908769.svg)](https://zenodo.org/badge/latestdoi/127908769)
+        [![Documentation Status](https://readthedocs.org/projects/h5xplorer/badge/?version=latest)](http://h5xplorer.readthedocs.io/?badge=latest)
+        
+        
+        **Customizable Framework for the Creation of HDF5 Browsers**
+        
+        ![alt-text](./h5x.gif)
+        
+        For more information check out the documentation at: http://h5xplorer.readthedocs.io/en/latest/index.html
+        
+        
+        
+        
+Keywords: h5xplorer
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
