@@ -1,0 +1,17 @@
+spaghetr/__init__.py,sha256=FZk9hm7vBsK8G16pNugputbrrEciYqJc_XRAhTCcojI,46
+spaghetr/client.py,sha256=URQVtzZkz3ADeZFkXP5yksHtWI7woz6Ha5ef6HLUGPw,2241
+spaghetr/compile_pb.py,sha256=gNlcfljInZ0jZV5czAmq485XFSyF0c2zZ-yLlgDFTKE,3225
+spaghetr/server.py,sha256=-eGmlMfE53Nr1oV_jSysTHHGIiej8gLfAbmC4kpXP_M,2189
+spaghetr/util.py,sha256=skhgkfAFWtQxNU_ZeZCsFO862Boa_4_pd9NsTEgcbA4,164
+spaghetr/version.py,sha256=R2qc9OBFE6DtU5DvAdYNtZ829qa1hcKXXoWiwWKStho,67
+spaghetr/protos/__init__.py,sha256=FZk9hm7vBsK8G16pNugputbrrEciYqJc_XRAhTCcojI,46
+spaghetr/protos/basic_subproc.proto,sha256=-AmSPhWugw7K4wKX-EQ--SLu2RFJTFjnp8cG-MNFQhc,844
+spaghetr/protos/basic_subproc_pb2.py,sha256=yw25E97iEu6LdWMeG3jdk08CLssAk3FXjs7HoVL0EJs,12346
+spaghetr/protos/basic_subproc_pb2_grpc.py,sha256=fsfrutV1PL5fB3BdriQzu4opOnnLfPgnN0jurnsh_Bg,2394
+spaghetr/protos/status.proto,sha256=1uMev0qhnhSzqtO3UfyL5ak9NRBjRm4dSGNFKjVo1zo,460
+spaghetr/protos/status_pb2.py,sha256=I_Q9DJMfQLEf_B8DQwaK0D8YpQuDNhI9Ls20HoG55BM,6007
+spaghetr/protos/status_pb2_grpc.py,sha256=k9zh59GFE2cu7ThjAH9A2m524q6OflcDfQWEHpWBMKk,2339
+spaghetr-0.0.3.dist-info/METADATA,sha256=RzxhAsRgF8bKj9LxsI1ccMhCvKktg-pfNx1Zt2h0zDo,209
+spaghetr-0.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+spaghetr-0.0.3.dist-info/top_level.txt,sha256=WqEbM3zH9-9HPGlT_BM35U8lcgoQrZw6Y2u4zOGWGOc,9
+spaghetr-0.0.3.dist-info/RECORD,,
