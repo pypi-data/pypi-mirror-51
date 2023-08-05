@@ -1,0 +1,8 @@
+README.md
+setup.py
+deepsight/__init__.py
+deepsight.egg-info/PKG-INFO
+deepsight.egg-info/SOURCES.txt
+deepsight.egg-info/dependency_links.txt
+deepsight.egg-info/requires.txt
+deepsight.egg-info/top_level.txt
