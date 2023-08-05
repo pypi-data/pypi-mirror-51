@@ -1,0 +1,12 @@
+emp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emp/emp_ide.py,sha256=zK7G2U-d9C6AwY9ssNS_c8krx9v3r_FDc1Nrpy8ZyqY,3048
+emp/emp_utils.py,sha256=nw5QRfY3AdSF0xPG409lbdvwHRYGkQejnJ9ewLfE4lQ,8991
+emp/emp_webide.py,sha256=g5AFm4_oDbs9mgHWHi51bE5dBayzIZt-jDZG-72ufA4,143
+emp/emp_wifi.py,sha256=edWe6BZanXQfNmNgf5PyRCkx-9tr7VMIA94r-x6k7rc,8976
+emp_ide_ext-0.0.1.dev21.dist-info/AUTHORS,sha256=mZYvaS-m46pp_lGXyCm0tEfAsU_Y-4JjEidoqsMa2UQ,92
+emp_ide_ext-0.0.1.dev21.dist-info/LICENSE,sha256=KefoFHyLEj6tpgXgYTC7LSBxE06O18boc39-7cg3dxM,1094
+emp_ide_ext-0.0.1.dev21.dist-info/METADATA,sha256=bEgQp39JyEVF_nbHcNgCl07mRIY24RCzCJozfSf2gP8,649
+emp_ide_ext-0.0.1.dev21.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+emp_ide_ext-0.0.1.dev21.dist-info/pbr.json,sha256=m36VQgrB-AB9JIUmWQAa53V1SQH_Hg6gA7T2wBneoVA,47
+emp_ide_ext-0.0.1.dev21.dist-info/top_level.txt,sha256=Rq7nm9_ePaDtykXW6c05b4kLha-0dczdffRaukuTBfU,4
+emp_ide_ext-0.0.1.dev21.dist-info/RECORD,,
