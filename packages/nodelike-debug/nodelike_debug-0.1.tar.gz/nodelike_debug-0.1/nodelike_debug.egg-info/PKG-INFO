@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nodelike-debug
+Version: 0.1
+Summary: nodelike_debug: a python version of debug package for node
+Home-page: https://github.com/grabantot/nodelike_debug
+Author: Anatol Grabowski
+License: MIT
+Description: descr
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/plain

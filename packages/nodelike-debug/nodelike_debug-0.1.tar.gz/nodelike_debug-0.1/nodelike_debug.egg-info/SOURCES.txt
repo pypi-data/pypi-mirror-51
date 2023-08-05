@@ -1,0 +1,7 @@
+setup.py
+nodelike_debug/__init__.py
+nodelike_debug/debug.py
+nodelike_debug.egg-info/PKG-INFO
+nodelike_debug.egg-info/SOURCES.txt
+nodelike_debug.egg-info/dependency_links.txt
+nodelike_debug.egg-info/top_level.txt
