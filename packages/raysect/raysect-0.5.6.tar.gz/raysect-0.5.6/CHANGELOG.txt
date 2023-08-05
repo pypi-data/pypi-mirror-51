@@ -1,0 +1,160 @@
+Raysect Changelog
+=================
+
+Release 0.5.6 (24 Aug 2019)
+---------------------------
+
+Bug fixes:
+* Surface normal calculation for the Cone primitive was incorrect, this has been fixed.
+* Parabola tip intersection case was not handled fully, this has been fixed
+* Increased size of integers holding ray counts as they could overflow for extremely long renders.
+
+New:
+* Added quaternions to the core math package.
+* Added low level cython functions to calculate mininum, maximum and peak_to_peak for memoryviews. (contributor: Dr Jack Lovell)
+* Added a material blending modifier to the raysect.optical.material.modifiers package.
+
+
+Release 0.5.5 (4 Mar 2019)
+--------------------------
+
+API Changes:
+* LoggingRay now logs the full intersection object, not just the hit point.
+
+Bug fixes:
+* Fixed recursive call bug triggered by inspecting the process attribute of MulticoreEngine.
+* Added zip_safe=False to setup.py as installing Raysect as a zip file prevents access to cython .pxd files.
+
+New:
+* Improved behaviour of pipeline displays when raysect used in a jupyter notebook.
+* Added ability to directly sample the BSDF of ContinuousBSDF materials.
+* Added to_cylindrical and from_cylindrical coordinate system conversion functions.
+* All spectral functions are now callable. Calling a spectral function evaluates it at the specified wavelength.
+
+
+Release 0.5.4 (1 Oct 2018)
+--------------------------
+
+Bug Fixes:
+* Spectrum class samples attribute is now publically accessible again, not readonly.
+
+New:
+* Optimised materials significantly by avoiding unnecessary memoryview creation, ~10-20% speedups depending on material.
+* Optimised observers leading to less overhead per pixel.
+* Added caching to 2D mesh interpolator evaluations.
+
+
+Release 0.5.3 (30 Aug 2018)
+---------------------------
+
+Bug Fixes:
+* Mesh load() not correctly populating vertex and triangle data arrays.
+* Missing import guard for OpenCV camera, users no longer forced to install OpenCV!
+* VTK importer no longer crashes when mesh name is None.
+
+New:
+* Pickle support added to all scenegraph objects. It is now possible to pickle a scenegraph.
+* Mesh normals can be flipped during import/creation with new flip_normals argument.
+* Optimised ImportanceManager gaining a 7% speedup for Cornell Box test case.
+* Optimised method call in optical.Ray gaining a 2% speedup for Cornell Box test case.
+
+
+Release 0.5.2 (7 Aug 2018)
+--------------------------
+
+API Changes:
+* Etendue replaced with sensitivity in the observers. [#202]
+
+Bug Fixes:
+* Raysect now builds with Cython 0.28.
+* Fixed pixel geometry changes not triggering a recalculation of the TargettedCCD pixel sensitivity. [#219]
+
+New:
+* Added MeshCamera. A camera that uses the triangles of a mesh as pixels. [#204]
+* Added Spectral and Monochromatic 1D pipelines. [supporting #204]
+* Added STL and OBJ mesh exporters. [#176]
+* Added limited support for PLY and VTK mesh importing/exporting. [#209, #224]
+* Added OpenCV camera. [#109]
+* Added sub-sampling (anti-aliasing) to VectorCamera. [#222]
+* Added masked samplers that allow users to limit the region being rendered. [#223]
+* Added meta dictionary attribute to scene-graph nodes to allow users to attach their own data. [#218]
+* Added is_identity() and is_close() comparison methods to AffineMatrix3D. [#199]
+* Added angle() to vector objects to compute angle between vectors. [#205]
+
+
+Release 0.5.0, 0.5.1 (7 Aug 2018)
+---------------------------------
+
+Bug Fixes:
+* setup.py broke installation in pip.
+
+
+Release 0.4.0 (11 Dec 2017)
+---------------------------
+
+API Changes:
+* VolumeEmitterHomogeneous renamed HomogeneousVolumeEmitter.
+* VolumeEmitterInhomogeneous renamed InhomogeneousVolumeEmitter.
+
+Bug Fixes:
+* Fixed normalisation bug in FibreOptic observer.
+
+New:
+* InhomogeneousVolumeEmitter integrator now pluggable.
+* Added cosine weighted cone random vector sampler.
+* Added cython utility for determining polygon winding order for n-sided polygons.
+* Added triangulate2d function for splitting N-sided polygon into triangles.
+* Added lerp and slerp functions to Vector3D.
+* Added new utility methods to BoundingBox2D and 3D.
+* Added AnisotropicSurfaceEmitter material.
+* Added BoundingSphere3D.
+* Added MeshPixel. A pixel that uses a mesh as a collecting surface.
+* Added TargettedPixel. A pixel that fires additional samples at specific target primitives.
+* Added TargettedCCDArray. A CCD that fires additional samples at specific target primitives.
+* Added radiance pipelines.
+* Added instancing to primitives.
+* Added bounding sphere to primitives.
+* Tidied up samplers.
+
+
+Release 0.3.1 (17 Mar 2017)
+---------------------------
+
+Fixed:
+* max_wavelength property of optical ray was broken.
+
+New:
+* Diamond demo.
+
+
+Release 0.3.0 (8 Mar 2017)
+--------------------------
+
+New:
+* Added multiple importance sampling (MIS).
+* Added micro-facet based materials.
+* Added 2D kd-tree and 2D mesh utilities
+* Added parabola primitive.
+* Added spherical lens primitives.
+* Added render engine workflow model with engines targetting single core and multicore rendering.
+* Added StatsBin and StatsArray objects.
+* Added a set of utility containers (linked-lists etc..) for use in cython.
+* Added metals and coloured emission spectra to the optical library.
+
+Changes:
+* Completely re-engineered optical observers.
+  - New pipeline architecture.
+  - Adaptive sampling.
+  - Framework simplifies development of new observers.
+* Re-engineered spectral functions (API changes are minimal).
+* Renamed num_samples and spectral_samples to bins and spectral_bins.
+* Renamed ray_min_depth to ray_extinction_min_depth.
+* Optimised the codebase for greater rendering performance.
+* Updated lambert material to support MIS.
+* Tidied up numerous internal interfaces.
+
+
+Release 0.1.0 (16 Aug 2015) / Release 0.2.0 (2 Feb 2016)
+--------------------------------------------------------
+
+* initial development releases
