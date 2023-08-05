@@ -1,0 +1,12 @@
+atomicwrites<2,>=1.2.1
+click<8,>=7.0
+click-log<1,>=0.3.2
+filelock<4,>=3.0.8
+implements<1,>=0.1.4
+jsonschema<4,>=3.0.2
+pynacl<2,>=1.3.0
+py-ubjson<1,>=0.14.0
+
+[aws]
+boto3<2,>=1.9.210
+python_dynamodb_lock<1,>=0.9.1

@@ -1,0 +1,3 @@
+[console_scripts]
+with-cloud-blob = with_cloud_blob._cli:main
+
