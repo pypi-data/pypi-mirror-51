@@ -1,0 +1,4 @@
+include MANIFEST.in
+graft templates
+graft static
+
