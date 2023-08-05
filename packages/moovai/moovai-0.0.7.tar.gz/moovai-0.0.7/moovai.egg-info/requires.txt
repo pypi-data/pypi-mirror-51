@@ -1,0 +1,10 @@
+google-cloud-error-reporting==0.31.0
+google-cloud-bigquery==1.15.0
+google-cloud-storage==1.16.1
+joblib
+pandas
+scikit-learn
+pysnooper
+tensorflow
+keras
+matplotlib
