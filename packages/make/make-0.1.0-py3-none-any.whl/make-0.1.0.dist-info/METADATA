@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: make
+Version: 0.1.0
+Summary: Create project layout from jinja2 templates.
+Home-page: https://bitbucket.org/fholmer/make
+Author: Frode Holmer
+Author-email: fholmer+netdef@gmail.com
+License: GNU Lesser General Public License v3 or later
+Project-URL: Source Code, https://bitbucket.org/fholmer/make
+Keywords: Networking Monitoring
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: Jinja2
+
+make
+====
+
+author: Frode Holmer
+
+Overview
+--------
+
+Create project layout from jinja2 templates.
+
+Installation / Usage
+--------------------
+
+To install use pip:
+
+    $ pip install make
+
+
