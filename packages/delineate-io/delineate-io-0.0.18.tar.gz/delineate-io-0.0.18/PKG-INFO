@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: delineate-io
+Version: 0.0.18
+Summary: Tools to simplify the management of local environments
+Home-page: https://github.com/delineateio/delineateio.tools
+Author: https://www.delineate.io
+Author-email: oss@delineate.io
+License: MIT
+Download-URL: https://github.com/delineateio/delineateio.tools/tarball/0.0.18
+Description: # delineate-io
+        ## Purpose
+        The purpose of package is to provide tools to manage a local development machine environment.
+        ## Versions
+        ### Commands
+        To run the utility and output the results to the console run:
+        ```console
+        # Outputs the version info to the console
+        delineate-io versions
+        
+        # Outputs the version info to a file
+        delineate-io versions --out file.json
+        ```
+        ## Programs
+        The current version of the `delineate-io versions` collects the version information for the following programs:
+        * Git
+        * Terraform
+        * Packer
+        * Vagrant
+        * Docker
+        * MiniKube
+        * Go
+        * Java
+        * Python3
+        * Node
+        * gCloud
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,17 @@
+MANIFEST.in
+console.py
+setup.py
+delineate_io.egg-info/PKG-INFO
+delineate_io.egg-info/SOURCES.txt
+delineate_io.egg-info/dependency_links.txt
+delineate_io.egg-info/entry_points.txt
+delineate_io.egg-info/requires.txt
+delineate_io.egg-info/top_level.txt
+dep/__init__.py
+dep/click.py
+dep/commands.py
+dep/config.py
+dep/dependency.py
+dep/formatters.py
+dep/outputters.py
+dep/values.py
