@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: django-apiview
+Version: 0.1.0
+Summary: Restful API view utils.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # django-apiview
+        
+        Restful API view utils.
+        
+        
+        ## Install
+        
+            pip install django-apiview
+        
+        
+        ## Settings
+        
+            INSTALLED_APPS = [
+                ......
+                'apiview',
+                ......
+            ]
+        
+        
+        ## Exports
+        
+        - apiview.annotations
+            - String
+            - Integer
+            - Boolean
+            - Bytes
+        
+        - apiview.views
+            - apiview
+        
+        - apiviews.utils
+            - DjangoJsonEncoder
+        
+        
+        ## Releases
+        
+        ### v0.1.0
+        
+        - First release
+        
+Keywords: django-apiview
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
