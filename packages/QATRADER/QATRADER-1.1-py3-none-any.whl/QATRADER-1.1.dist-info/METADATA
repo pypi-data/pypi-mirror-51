@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: QATRADER
+Version: 1.1
+Summary: QUANTAXIS TRADER
+Home-page: https://github.com/yutiansut/QATRADER
+Author: yutiansut
+Author-email: yutiansut@qq.com
+License: MIT
+Keywords: quantaxis,quant,finance,Backtest,Framework
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Dist: pika
+Requires-Dist: quantaxis (>=1.5.3)
+Requires-Dist: quantaxis-pubsub
+Requires-Dist: quantaxis-otgbroker (>=1.6)
+
+trader
+
+

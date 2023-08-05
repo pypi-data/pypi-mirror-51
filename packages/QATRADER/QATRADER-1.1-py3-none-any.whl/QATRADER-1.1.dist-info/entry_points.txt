@@ -1,0 +1,4 @@
+[console_scripts]
+qatrader = QATRADER.__init__:single_trade
+qatraderserver = QATRADER.webhandler:webserver
+
