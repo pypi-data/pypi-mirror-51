@@ -1,0 +1,7 @@
+[console_scripts]
+tng-bench = tngsdk.benchmark:main
+tng-bench-emusrv = tngsdk.benchmark.pdriver.vimemu.server:main
+tng-bench-result = tngsdk.benchmark:main_result_processor
+tng-benchmark = tngsdk.benchmark:main
+tng-sdk-benchmark = tngsdk.benchmark:main
+
