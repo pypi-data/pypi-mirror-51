@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: keyframe-tools
+Version: 0.0.1
+Summary: Generate movement from keyframes
+Home-page: https://github.com/audrow/keyframe-tools
+Author: Audrow Nash
+Author-email: audrowna@usc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+README
+======
+
+A way of creating and playing movements from keyframes.
+
+
