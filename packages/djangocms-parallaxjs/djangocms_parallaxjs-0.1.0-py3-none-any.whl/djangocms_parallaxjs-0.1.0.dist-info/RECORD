@@ -1,0 +1,17 @@
+djangocms_parallaxjs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocms_parallaxjs/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+djangocms_parallaxjs/apps.py,sha256=HnKCM63KWKD5sZBx99SGwfa0xGPYCr4wkY6ePehimFw,114
+djangocms_parallaxjs/cms_plugins.py,sha256=aTXqFrcAzhxYyHZATvFTVAZqJWA0tI_EZE36Yh75gWU,930
+djangocms_parallaxjs/forms.py,sha256=8XlSGSdyn4NbQhlDMzik2QhuD2fle0lI8RfQzFU_HAw,242
+djangocms_parallaxjs/models.py,sha256=lfDopFuEXOnatOEpQ-d0mb_D_AijpBBCJHAE5a6jU5U,1370
+djangocms_parallaxjs/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+djangocms_parallaxjs/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+djangocms_parallaxjs/migrations/0001_initial.py,sha256=dP5XU2m5q12QirhNcqs_Lz6Puf1TlvLwSE7Frnhh394,2316
+djangocms_parallaxjs/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocms_parallaxjs/static/parallaxjs/js/parallax.min.js,sha256=Jhqqct9kdspgS5FC1W1f_cBOkdDoWMV3eWhU14cqzoY,6864
+djangocms_parallaxjs/templates/djangocms_parallaxjs/parallax.html,sha256=I8ifXfk7ODVkRwknXph559t18CMqm9O_ZofpC84WLZQ,1882
+djangocms_parallaxjs-0.1.0.dist-info/LICENSE,sha256=4y6sMIxR-MfIy35dA96qnLcalcwuxWq2uOIIygrKHg8,1079
+djangocms_parallaxjs-0.1.0.dist-info/METADATA,sha256=0DSYQO0FWBAnUx3zQoyTNEys7t1oFAoOkYKCwMZYBWg,1036
+djangocms_parallaxjs-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+djangocms_parallaxjs-0.1.0.dist-info/top_level.txt,sha256=Ajm85YGf65X7-MohG2i7dq94cvEwlAbyincmj4kB_FE,21
+djangocms_parallaxjs-0.1.0.dist-info/RECORD,,
