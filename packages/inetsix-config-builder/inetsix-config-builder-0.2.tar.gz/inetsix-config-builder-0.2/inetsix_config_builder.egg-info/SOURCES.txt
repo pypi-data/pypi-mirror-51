@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/inetsix-config-builder
+inetsix_config_builder.egg-info/PKG-INFO
+inetsix_config_builder.egg-info/SOURCES.txt
+inetsix_config_builder.egg-info/dependency_links.txt
+inetsix_config_builder.egg-info/not-zip-safe
+inetsix_config_builder.egg-info/requires.txt
+inetsix_config_builder.egg-info/top_level.txt
