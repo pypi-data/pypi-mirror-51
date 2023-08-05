@@ -1,0 +1,15 @@
+retaggr/__init__.py,sha256=MHYEVWO0Ulz_Wj5Ewk28dyqULM0jLN2xEDvbqQVYKlA,140
+retaggr/config.py,sha256=5UKWr8zYogFtWHVmFqAbwxo6HbTM2Ljlzp4XrOCO2YU,938
+retaggr/core.py,sha256=NGYpMZR5B9yyaT0hRKJmGAeWBSpdtSbwlipdtF436GE,3509
+retaggr/errors.py,sha256=N1dbCsulNgZnZfG791WnzxyK8qCqV2ksUOL7YnuGWMI,218
+retaggr/boorus/__init__.py,sha256=Fg8OoKR8xLf1AnQm9ybGPC17OBmYIwsY9vNusn0lUW8,128
+retaggr/boorus/base.py,sha256=WXxOzfUw6PL9Ll3fdynwtOvKeYX9cb8OQOznGza6C4w,1009
+retaggr/boorus/danbooru.py,sha256=t317s61RthrqgAphHV0L1BtErUocpDgku8Q8gbFZLF0,1604
+retaggr/boorus/e621.py,sha256=f3JVqVKrZzmaOzlXpUipMGUC6r89OzI6fKMBIZCWb1k,2456
+retaggr/boorus/iqdb.py,sha256=K3YyakATREhhZexXGfVV2oUVWS34xOcCdi39YyTJGII,2289
+retaggr/boorus/paheal.py,sha256=uKNBYw9Xzk96XnTS3fkuHea5VupLUG6YCJA_ivjfTZA,1281
+retaggr-1.0.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+retaggr-1.0.0.dist-info/METADATA,sha256=bvSsxQVZm5-giWOBIPXpadcCPsJ9cCpIcJaAYgxnRs8,1509
+retaggr-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+retaggr-1.0.0.dist-info/top_level.txt,sha256=YxBg6-ctzG7KIMwAlq6aL-__8SXITzpvYi3AuGOIhwI,8
+retaggr-1.0.0.dist-info/RECORD,,
