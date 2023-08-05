@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+ncvis.egg-info/PKG-INFO
+ncvis.egg-info/SOURCES.txt
+ncvis.egg-info/dependency_links.txt
+ncvis.egg-info/top_level.txt
+recipe/meta.yaml
+src/knntable.cpp
+src/knntable.hpp
+src/ncvis.cpp
+src/ncvis.hpp
+wrapper/__init__.py
+wrapper/cncvis.pxd
+wrapper/ncvis.cpp
+wrapper/ncvis.pyx
