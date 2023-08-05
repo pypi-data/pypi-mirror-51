@@ -1,0 +1,10 @@
+awscli
+boto3
+halo
+inquirer
+keyring
+requests
+selenium
+
+[:platform_system == "Linux"]
+secretstorage
