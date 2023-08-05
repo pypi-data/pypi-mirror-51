@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ZITPyVAT
+Version: 1.0.10
+Summary: ZIT python vat common packages
+Home-page: http://www.tjzit.com/
+Author: Liugang
+Author-email: liugang@gosusncn.com
+Maintainer: Liugang
+Maintainer-email: liugang@gosusncn.com
+License: None
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: PyVISA (>=1.8)
+Requires-Dist: requests (>=2.20.1)
+Requires-Dist: pyserial (==3.0)
+Requires-Dist: pandas (>=0.20.3)
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: ntplib (>=0.3.3)
+
+# Title: PyVAT
+
+## Author: Liu Gang
+
+## Description: For ZIT VAT Test
+
+## Update History:
+
+* V1.0.1  - 20181203 Liugang
+    * Improve install requires
+
+* V1.0.2  - 20190108 Liugang
+    * Add E4438C support
+
+* V1.0.3 - 20190110 Liugang
+    * Add SQLite Operation,fix SG operation BUG
+
+* V1.0.4 - 20190520 Liugang
+    * Add Python3 Support
+
+* V1.0.5 - 20190521 Liugang
+    * Fix Vatbase setvalue exception handle
+
+* V1.0.6 - 20190521 Liugang
+    * Add Python Version recognize
+
+* V1.0.7 - 20190524 Liugang
+    * fix bugs
+
+* V1.0.8 - 20190521 Liugang
+    * Add sqlite ts_resutl table creation
+
+* V1.0.9 - 20190806 Liugang
+    * Add T900 Operations
+
+* V1.0.10 - 20190820 Liugang
+    * Add Network Analyzer Operations.
+    * fix Vatbase bug
+
