@@ -1,0 +1,8 @@
+README.md
+setup.py
+necstdb/__init__.py
+necstdb/necstdb.py
+necstdb.egg-info/PKG-INFO
+necstdb.egg-info/SOURCES.txt
+necstdb.egg-info/dependency_links.txt
+necstdb.egg-info/top_level.txt
