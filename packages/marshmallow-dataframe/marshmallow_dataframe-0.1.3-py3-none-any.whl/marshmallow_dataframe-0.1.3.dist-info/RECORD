@@ -1,0 +1,10 @@
+marshmallow_dataframe/__init__.py,sha256=IIg3VWIWpoN_a9asXsU0ieuez_O6sCdcbkH6eA6IZjk,125
+marshmallow_dataframe/base.py,sha256=0vJTvKJXa_w_YVOR2eo4xukZbT5Sbzq5uxW7ygHfkcQ,2714
+marshmallow_dataframe/converters.py,sha256=dqGof0erlCUtMqMrzGa6Y5tl2FVT4St27hcBAS0d-ws,2045
+marshmallow_dataframe/records.py,sha256=zzn3LgWHVjvGVz5ZVeZ7gerlIIQu9ReKRQb9ce9pA_c,1493
+marshmallow_dataframe/split.py,sha256=SqJokLLs9osGZ6wUCgn6LfimpUEUWSVIp6-EROY7Kco,1940
+marshmallow_dataframe-0.1.3.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+marshmallow_dataframe-0.1.3.dist-info/METADATA,sha256=ksoo9XlQC-1aQNSZZaB03aDJknmYd0b2KLVTXfh7e2Q,4717
+marshmallow_dataframe-0.1.3.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+marshmallow_dataframe-0.1.3.dist-info/top_level.txt,sha256=agCpZ4ljMmyY7270ihi39luzxSMsPOO2LmNcqbvtQM0,22
+marshmallow_dataframe-0.1.3.dist-info/RECORD,,
