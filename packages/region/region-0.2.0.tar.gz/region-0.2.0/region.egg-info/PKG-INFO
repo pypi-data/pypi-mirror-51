@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: region
+Version: 0.2.0
+Summary: Package offering regionalization algorithms
+Home-page: https://github.com/pysal/region
+Maintainer: PySAL Developers
+Maintainer-email: pysal-dev@googlegroups.com
+License: BSD 3-clause
+Description: Region
+        ---------
+        
+        This is a Python 3 package for spatially-explicit regionalization. It is currently under active development.
+        
+Keywords: regionalization spatial clustering
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >3.4

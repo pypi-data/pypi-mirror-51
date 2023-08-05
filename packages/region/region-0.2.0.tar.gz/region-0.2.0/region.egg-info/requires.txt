@@ -1,0 +1,8 @@
+geopandas
+libpysal
+networkx>=2.0.0
+numpy>=1.10.4
+pulp
+pytest
+scipy
+sklearn
