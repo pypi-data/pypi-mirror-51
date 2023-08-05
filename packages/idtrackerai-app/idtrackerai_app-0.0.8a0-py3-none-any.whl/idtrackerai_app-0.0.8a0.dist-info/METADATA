@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: idtrackerai-app
+Version: 0.0.8a0
+Summary: UNKNOWN
+Home-page: https://idtrackerai-app.readthedocs.org
+Author: ['Ricardo Ribeiro', 'Francisco Romero Ferrero']
+Author-email: idtrackerai@gmail.com, ricardojvr@gmail.com, paco.romero.ferrero@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: coloredlogs
+Requires-Dist: idtrackerai
+Requires-Dist: pyforms-terminal
+Provides-Extra: gui
+Requires-Dist: pyforms-gui ; extra == 'gui'
+Requires-Dist: python-video-annotator ; extra == 'gui'
+Requires-Dist: python-video-annotator-module-idtrackerai (==0.6.64) ; extra == 'gui'
+Provides-Extra: only-gui
+Requires-Dist: pyforms-gui ; extra == 'only-gui'
+
+UNKNOWN
+
+

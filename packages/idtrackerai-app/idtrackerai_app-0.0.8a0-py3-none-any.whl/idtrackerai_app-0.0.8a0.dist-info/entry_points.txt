@@ -1,0 +1,3 @@
+[console_scripts]
+idtrackerai = idtrackerai_app.__main__:start
+

@@ -1,0 +1,2 @@
+idtrackerai_app
+pyforms-gui
