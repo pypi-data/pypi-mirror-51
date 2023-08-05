@@ -1,0 +1,2 @@
+_pycdio.cpython-33m.so
+_pyiso9660.cpython-33m.so
