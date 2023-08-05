@@ -1,0 +1,11 @@
+soph/__init__.py,sha256=gKINpZKJyof9J0lNOnhIj2X8KV51BIzyh3n_F8PJjiI,44
+soph/nn/__init__.py,sha256=6gF8DSwwy4KXtviQQCW5llGgls29t7gHoHD2m9--hr4,18
+soph/nn/nn.py,sha256=4O4GGzS8KmuyEc5lOqTCRMs8x3rQnwSdXFJ6SIcjQFg,21575
+soph/utils/__init__.py,sha256=alIDGBnxWH4JvP-UW-7N99seBBi0r1GV1h8f1ERFBec,21
+soph/utils/utils.py,sha256=42LN2ynQl277BOdBpVu9UxTQM782zKMgUcZuzzCEXTM,4555
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soph-0.2.1.dist-info/LICENSE-MIT,sha256=Dl5xQNlA9bt-swb6qEge_6rAR3QDgnp3ENRp0AbGTiU,1071
+soph-0.2.1.dist-info/METADATA,sha256=uP5T_3AZbT8Nf5VKBrDDoQoQupbwiNH4F8x6BdNEuRU,938
+soph-0.2.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+soph-0.2.1.dist-info/top_level.txt,sha256=vvS-KQCK3Dm0RIcGixRPZA0Ve30tEsQhih-UxMbqDSw,11
+soph-0.2.1.dist-info/RECORD,,
