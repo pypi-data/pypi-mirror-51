@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: samplema
+Version: 0.1
+Summary: A simple pip package
+Home-page: http://10.211.55.3/samplemahe
+Author: mahendran
+Author-email: abc@abc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Chumma readme
+
+
