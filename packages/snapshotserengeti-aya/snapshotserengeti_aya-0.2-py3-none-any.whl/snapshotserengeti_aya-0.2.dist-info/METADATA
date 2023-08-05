@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: snapshotserengeti-aya
+Version: 0.2
+Summary: Snapshot Serengeti Dataset
+Home-page: https://github.com/Aya-S/Snapshot_Serengeti
+Author: Aya Salama
+Author-email: aya_salama@aucegypt.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#Snapshot Serengeti Dataset
+This package wraps the Snapshot Serengeti dataset 
+
+
