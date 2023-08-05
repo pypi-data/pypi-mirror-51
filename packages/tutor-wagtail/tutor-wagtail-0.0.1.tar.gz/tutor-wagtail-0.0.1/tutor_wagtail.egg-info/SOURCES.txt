@@ -1,0 +1,9 @@
+README.md
+setup.py
+tutor_wagtail.egg-info/PKG-INFO
+tutor_wagtail.egg-info/SOURCES.txt
+tutor_wagtail.egg-info/dependency_links.txt
+tutor_wagtail.egg-info/entry_points.txt
+tutor_wagtail.egg-info/top_level.txt
+tutorwagtail/__init__.py
+tutorwagtail/plugin.py
