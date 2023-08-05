@@ -1,0 +1,4 @@
+uwsgi
+psycopg2
+redis
+pyyaml
