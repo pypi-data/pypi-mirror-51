@@ -1,0 +1,3 @@
+sportsreference
+matplotlib
+pandas
