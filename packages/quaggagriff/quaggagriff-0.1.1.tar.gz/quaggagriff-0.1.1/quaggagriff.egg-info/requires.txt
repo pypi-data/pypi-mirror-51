@@ -1,0 +1,2 @@
+ebird-api<4,>=3.0.4
+discord.py<2,>=1.2.3
