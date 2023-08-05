@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: nifconverter
+Version: 0.2.2
+Summary: A tool to convert NIF files across identifier schemes (DBpedia, Wikidata, ...)
+Home-page: https://github.com/wetneb/nifconverter
+Author: Antonin Delpeuch
+Author-email: antonin@delpeuch.eu
+License: MIT
+Keywords: NIF NLP formats NER RDF Wikidata DBpedia
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pynif
+Requires-Dist: requests
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: requests-mock ; extra == 'test'
+
+nifconverter
+============
+
+`Build Status <https://travis-ci.org/wetneb/nifconverter>`__ `Coverage
+Status <https://coveralls.io/github/wetneb/nifconverter?branch=master>`__
+`PyPI version <https://pypi.org/project/nifconverter/>`__
+
+Utility to translate NIF files across identifier schemes, for instance
+between DBpedia and Wikidata.
+
+It can be used both as a Python library or as a CLI utility.
+
+Install it with ``pip install nifconverter``.
+
+Example invocation:
+
+.. code:: bash
+
+   nifconverter -i my_dbpedia_nif_file.ttl -o my_wikidata_nif_file.ttl
+
+By default we use the `DBpedia SameThing
+service <http://dev.dbpedia.org/Global_IRI_Resolution_Service>`__ to
+convert URIs. It is also possible to query the DBpedia SPARQL endpoint
+instead using the ``--converter`` parameter:
+
+.. code:: bash
+
+   nifconverter --converter FromDBpediaSparqlConverter -i my_dbpedia_nif_file.ttl -o my_wikidata_nif_file.ttl
+
+The target URI space to convert to can be changed with the ``--target``
+option:
+
+.. code:: bash
+
+   nifconverter --target https://en.wikipedia.org/wiki/ -i my_wikidata_nif_file.ttl -o my_wikipedia_nif_file.ttl
+
+
