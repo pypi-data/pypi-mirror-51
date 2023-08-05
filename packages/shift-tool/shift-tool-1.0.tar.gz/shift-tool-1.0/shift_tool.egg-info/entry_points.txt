@@ -1,0 +1,3 @@
+[console_scripts]
+shift = shift.__main__:main
+
