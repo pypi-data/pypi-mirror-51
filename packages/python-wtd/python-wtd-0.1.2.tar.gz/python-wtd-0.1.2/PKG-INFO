@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: python-wtd
+Version: 0.1.2
+Summary: Python wrapper for World Trading Data API
+Home-page: https://github.com/russellromney/python-wtd
+Author: Russell Romney
+Author-email: russellromney@gmail.com
+License: MIT
+Download-URL: https://github.com/russellromney/python-wtd/archive/v0.1.2.tar.gz
+Description: UNKNOWN
+Keywords: python finance trading stocks prices worldtradingdata wtd alphavantage iex
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
