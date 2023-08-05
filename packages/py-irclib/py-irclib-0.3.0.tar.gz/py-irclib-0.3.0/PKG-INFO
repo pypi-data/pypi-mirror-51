@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: py-irclib
+Version: 0.3.0
+Summary: A simple library for working with the IRC protocol
+Home-page: https://github.com/TotallyNotRobots/py-irclib
+Author: linuxdaemon
+Author-email: linuxdaemon.irc@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: irc irc-parser
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5
