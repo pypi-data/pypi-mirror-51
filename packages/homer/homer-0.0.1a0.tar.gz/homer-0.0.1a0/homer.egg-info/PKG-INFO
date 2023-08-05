@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: homer
+Version: 0.0.1a0
+Summary: Configuration manager for network devices
+Home-page: https://gerrit.wikimedia.org/r/plugins/gitiles/operations/software/homer
+Author: Riccardo Coccioli
+Author-email: rcoccioli@wikimedia.org
+License: GPLv3+
+Description: Homer - Configuration manager for network devices
+        -------------------------------------------------
+        
+        Homer allows to manage the lifecycle of the configuration for network devices, generating and deploying their
+        configuration.
+        The configuration generation is based on ``YAML`` files to define variables and ``Jinja2`` templates.
+        The ``YAML`` files allow for hierarchical override of variables based on the device role, site or hostname.
+        Once generated, the configuration can also be deployed to their devices.
+        
+Keywords: network,switch,router,configuration,deploy
+Platform: GNU/Linux
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Networking
+Description-Content-Type: text/x-rst
+Provides-Extra: tests
