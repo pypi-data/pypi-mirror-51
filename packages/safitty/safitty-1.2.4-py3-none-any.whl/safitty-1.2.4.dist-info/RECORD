@@ -1,0 +1,11 @@
+safitty/__init__.py,sha256=LWBc2c-bgHCzOFgHe8P9uy8t9sCDNtfCeoddxUJSFYU,453
+safitty/__version__.py,sha256=XBKH8E1LmDxv06U39yqMBbXZapOERFgICEDYZs_kRso,22
+safitty/core.py,sha256=cph2seMrEYNmEaqX2MEdUUDwBnAFfu_N0XtfG0dQOS0,10813
+safitty/dict.py,sha256=z0jas2b-rkbah4hL7FLOprRuS3nZVDC8aewxWKrlJsQ,3822
+safitty/parser.py,sha256=153BmdLlSLd8o3jWWr-ngFBT-EgL2_k5HbVevLAcSyI,9063
+safitty/types.py,sha256=eEsRe_pApyDNcJTT-AWisVf3eFdzNWsO3kEfQ_kiHNU,1232
+safitty-1.2.4.dist-info/LICENSE,sha256=B7ziIvatna39hN8SPukvZe8aP4zt66XmxAZSE5f9FIw,1070
+safitty-1.2.4.dist-info/METADATA,sha256=2Z5UN9r-7rcoT3r69L5NWsFJ4lRyKG2BfbOc3MTljtQ,1955
+safitty-1.2.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+safitty-1.2.4.dist-info/top_level.txt,sha256=C1YghWYsvVzRsUZNarlLFDWf0VGwEBr7BxSVEqe5v1g,8
+safitty-1.2.4.dist-info/RECORD,,
