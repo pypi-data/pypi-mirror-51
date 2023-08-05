@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pydsb
+Version: 0.3
+Summary: Python API for DSBmobile
+Home-page: https://github.com/sn0wmanmj/pydsb
+Author: Moritz Jannasch
+Author-email: contact@moritzj.de
+License: MIT
+Description: # pydsb
+        Python API for DSBmobile
+        
+        ## Installation
+        
+            pip install pydsb
+        
+        ## Usage
+        
+            import pydsb
+            
+            dsb = pydsb.PyDSB("username", "password")
+            dsb.login()
+            
+            dsb.get_plans()
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

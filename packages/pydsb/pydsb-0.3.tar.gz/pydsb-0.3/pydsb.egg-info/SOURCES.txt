@@ -1,0 +1,8 @@
+README.md
+setup.py
+pydsb/__init__.py
+pydsb.egg-info/PKG-INFO
+pydsb.egg-info/SOURCES.txt
+pydsb.egg-info/dependency_links.txt
+pydsb.egg-info/requires.txt
+pydsb.egg-info/top_level.txt
