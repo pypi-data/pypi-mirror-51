@@ -1,0 +1,14 @@
+djangocms_redirect/__init__.py,sha256=ZirXxZijbladZg0WjMZA0ZMo1vfezD0HM_IR1iSFuao,120
+djangocms_redirect/admin.py,sha256=9AYOIvfnMZgm0toEbWh4SAZPDLQTKT-D4hpp3zj41Hg,1033
+djangocms_redirect/middleware.py,sha256=-u4q643QdwVynnLVrg_KTqPSaxViCYgTIdUG_kPDmdo,4471
+djangocms_redirect/models.py,sha256=fuqcPQXBJQYpNvdoLU-rGksJqm6J1EGNLjYpqmgZp_U,2564
+djangocms_redirect/utils.py,sha256=qxtXYADnk8e7_1wE5z-F01uJWPZWY603-M98izjBRa4,386
+djangocms_redirect/migrations/0001_initial.py,sha256=lT7et2KdG9AWhy_i1lLJU_sExj9Uu7Y995iVT0lfgGs,1774
+djangocms_redirect/migrations/0002_auto_20170321_1807.py,sha256=SqFnN0yWv8gPDbab8V5TBRDxAU52lpj8dnCHdbc8MtY,1268
+djangocms_redirect/migrations/0003_auto_20190810_1009.py,sha256=M6MTZkFm9GavaXqHpLI4PLzYcKM8iNdrPzPbjLih3Zs,910
+djangocms_redirect/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocms_redirect-0.4.0.dist-info/LICENSE,sha256=bQHTrSwW9EAcFT6QPaxTaFEkiffvyyofl_q9RBs4AwY,1479
+djangocms_redirect-0.4.0.dist-info/METADATA,sha256=9eU4MprPrittppN-2EDt3XccGiM-vVGp9s7HyxPjJ0c,4985
+djangocms_redirect-0.4.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+djangocms_redirect-0.4.0.dist-info/top_level.txt,sha256=TCbfd5rp15GeKc9y00E5_1uWoflqVdQwAoVx9NnwZqo,19
+djangocms_redirect-0.4.0.dist-info/RECORD,,
