@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pytest-aoc
+Version: 1.3a0
+Summary: Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures
+Home-page: https://github.com/j0057/pytest_aoc
+Author: Joost Molenaar
+Author-email: j.j.molenaar@gmail.com
