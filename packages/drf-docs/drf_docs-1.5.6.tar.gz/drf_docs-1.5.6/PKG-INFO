@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: drf_docs
+Version: 1.5.6
+Summary: 增加文档错误代码配置
+Home-page: https://github.com/MAOA-L/docs_drf/tree/master/drf_docs
+Author: MAOA-L
+Author-email: chanzhouyun@gmail.com
+License: MIT Licence
+Description: django restframework api docs
+Keywords: pip,api,docs
+Platform: any
