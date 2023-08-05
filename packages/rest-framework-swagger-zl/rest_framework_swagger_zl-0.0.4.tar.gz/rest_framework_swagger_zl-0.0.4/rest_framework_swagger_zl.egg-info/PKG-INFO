@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: rest-framework-swagger-zl
+Version: 0.0.4
+Summary: generate api doc html,Swagger UI for Django REST Framework 3.5+
+Home-page: https://github.com/zhangliu520/rest_framework_swagger_zl.git
+Author: mrzl
+Author-email: 752477168@qq.com
+License: FreeBSD License
+Description: generate api doc html,Swagger UI for Django REST Framework 3.5+
+Keywords: pip,rest_framework_swagger_zl
+Platform: any
