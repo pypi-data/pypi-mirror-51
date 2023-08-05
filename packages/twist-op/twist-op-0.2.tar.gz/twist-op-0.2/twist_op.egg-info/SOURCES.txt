@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+twist_op.py
+twist_op.egg-info/PKG-INFO
+twist_op.egg-info/SOURCES.txt
+twist_op.egg-info/dependency_links.txt
+twist_op.egg-info/top_level.txt
