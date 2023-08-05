@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: BounceClassifier
+Version: 0.3.2
+Summary: Classify email content by key-word mapping
+Home-page: https://github.com/Weizhang2017/Email-tools/tree/master/Bounce_classifier
+Author: Zhang Wei
+Author-email: zhangw1.2011@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

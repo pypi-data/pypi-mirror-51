@@ -1,0 +1,8 @@
+README.md
+setup.py
+BounceClassifier/__init__.py
+BounceClassifier/bounce_classifier.py
+BounceClassifier.egg-info/PKG-INFO
+BounceClassifier.egg-info/SOURCES.txt
+BounceClassifier.egg-info/dependency_links.txt
+BounceClassifier.egg-info/top_level.txt
