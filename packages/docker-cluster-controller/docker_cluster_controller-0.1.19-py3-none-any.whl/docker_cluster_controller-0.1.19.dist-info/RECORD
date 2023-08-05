@@ -1,0 +1,7 @@
+clustercontroller/__init__.py,sha256=E_iP2Kb-in3dJvXIMmvTbcBz6OrHVHDGFEwC-Qakdj0,14
+clustercontroller/backup.py,sha256=9iQGVcCLHxFC8qcfAlalvK24u5n5xP6mUqIBYJSwxWE,7164
+clustercontroller/clustercontroller.py,sha256=CvWO6NFnOyYgtyR2MKmoy_ip-ypE45LcJG1Iio8uOgw,34624
+docker_cluster_controller-0.1.19.dist-info/METADATA,sha256=Tjk6PPWvZJtLOzToV-NiNAXw0PzEMULgodQQeVJPLFc,4404
+docker_cluster_controller-0.1.19.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+docker_cluster_controller-0.1.19.dist-info/top_level.txt,sha256=9Xka4cT_vHo3QGj3MP0SaOVIh3woyygjoLWBx7NS1uU,18
+docker_cluster_controller-0.1.19.dist-info/RECORD,,
