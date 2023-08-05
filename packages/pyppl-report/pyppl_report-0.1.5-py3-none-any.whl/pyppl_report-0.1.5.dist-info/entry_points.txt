@@ -1,0 +1,3 @@
+[console_scripts]
+pyppl-report=pyppl_report.console:main
+
