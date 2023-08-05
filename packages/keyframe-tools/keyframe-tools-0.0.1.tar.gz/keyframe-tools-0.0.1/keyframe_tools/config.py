@@ -1,0 +1,12 @@
+from math import pi
+
+
+IS_ONLY_JUMP_FORWARD_ON_FOLLOWER = True
+IS_REMOVE_UNCHANGING_KEYFRAMES = True
+IS_DEGREES = False
+
+
+if IS_DEGREES:
+    STEP_SIZE = 360/200
+else:
+    STEP_SIZE = 2*pi/200
