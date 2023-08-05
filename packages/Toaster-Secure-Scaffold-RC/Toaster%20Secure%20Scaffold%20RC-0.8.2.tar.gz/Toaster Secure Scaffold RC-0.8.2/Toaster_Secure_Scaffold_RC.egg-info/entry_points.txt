@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        secure_scaffold=secure_scaffold.commands:cli
+    

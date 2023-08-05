@@ -1,0 +1,11 @@
+flask==1.0.2
+click==7.0
+
+[datastore]
+google-cloud-datastore==1.8.0
+
+[firestore]
+google-cloud-firestore==1.2.0
+
+[tasks]
+google-cloud-tasks==1.1.0
