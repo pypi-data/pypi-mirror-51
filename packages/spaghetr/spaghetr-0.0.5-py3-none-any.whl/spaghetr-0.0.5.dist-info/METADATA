@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: spaghetr
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.5
+Requires-Dist: grpcio (>=1.22)
+Requires-Dist: protobuf
+Requires-Dist: vprint
+
+UNKNOWN
+
+
