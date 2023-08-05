@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+lanelet2_parser/__init__.py
+lanelet2_parser/exceptions.py
+lanelet2_parser/parser.py
+lanelet2_parser.egg-info/PKG-INFO
+lanelet2_parser.egg-info/SOURCES.txt
+lanelet2_parser.egg-info/dependency_links.txt
+lanelet2_parser.egg-info/requires.txt
+lanelet2_parser.egg-info/top_level.txt
