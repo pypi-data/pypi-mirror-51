@@ -1,0 +1,11 @@
+shipdataprocess/__init__.py,sha256=ObPXNIsLkKMKkJzTOwGBsUGYgPoF7WfzzHpdWLtSb5A,844
+shipdataprocess/collapse.py,sha256=INeRPp784i1cu8kleqpgJYJz-NinyxRCZ1chzJFhC-4,3645
+shipdataprocess/normalize.py,sha256=wKqQF4Ms7PvZQ2owPNqDSbnH2sbCHJHC1Zwlyud_G7c,7166
+shipdataprocess/shiptype.py,sha256=_eQxh1EgmPMf395UxB63jVu-gyckGFqnaE90oxqe6PA,14554
+shipdataprocess/standardize.py,sha256=MWb0Yd0gXoKZrIM_kxHAXzggJnmX772AN8Ryd4MYGAY,11041
+shipdataprocess-0.6.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+shipdataprocess-0.6.13.dist-info/METADATA,sha256=NclM99iUCBhauB-0tt9AXpZVfzVKrW473Choet9YO3I,1751
+shipdataprocess-0.6.13.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+shipdataprocess-0.6.13.dist-info/top_level.txt,sha256=Isy-K71G02UFtQTCwq7OC9BisnG9j8fcde2SughEZY8,16
+shipdataprocess-0.6.13.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+shipdataprocess-0.6.13.dist-info/RECORD,,
