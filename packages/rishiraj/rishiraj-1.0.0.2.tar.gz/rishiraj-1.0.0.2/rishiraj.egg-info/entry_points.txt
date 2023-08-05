@@ -1,0 +1,3 @@
+[console_scripts]
+rishiraj = rishi_raj.cli:main
+
