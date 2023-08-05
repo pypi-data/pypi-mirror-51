@@ -1,0 +1,74 @@
+#!/usr/bin/env python3
+from i3dstatus.block import Block
+
+import time
+import json
+import os
+import asyncio
+
+block = Block(os.path.basename(__file__))
+import_error = None
+
+try:
+    import netifaces
+except ImportError as e:
+    import_error = e
+
+default_up = '%iface: %ip'
+default_down = '%iface: <b>down</b>'
+
+
+async def show_iface(iface, opts):
+    addr = netifaces.ifaddresses(iface)
+    if netifaces.AF_INET in addr:
+        # device is up
+        ip = 'no ip'
+
+        if 'addr' in addr[netifaces.AF_INET][0]:
+            ip = addr[netifaces.AF_INET][0]['addr']
+
+        context = {
+            'ip': ip,
+            'iface': iface,
+        }
+
+        await block.show(opts['format-up'], instance=iface, context=context, markup='pango')
+    else:
+        # device is down
+        context = {
+            'iface': iface,
+        }
+        await block.show(opts['format-down'], instance=iface, context=context, markup='pango')
+
+
+async def show_ifaces(config):
+    await asyncio.gather(*(show_iface(iface, opts) for iface, opts in config.items()))
+
+
+async def main():
+    await block.connect()
+
+    if import_error is not None:
+        await block.error('could not import module "netifaces"')
+        sys.exit(1)
+
+    config = dict(block.config)
+
+    if not config:
+        config = {}
+        # find the first interface
+        for iface in netifaces.interfaces():
+            if iface.startswith('lo'):
+                # loopback device
+                continue
+
+            config[iface] = {'format-up': default_up, 'format-down': default_down}
+            break
+
+    while True:
+        await show_ifaces(config)
+        await asyncio.sleep(10)
+
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
