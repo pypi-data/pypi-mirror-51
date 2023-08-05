@@ -1,0 +1,9 @@
+setuptools
+typing
+
+[color]
+colorama
+termcolor
+
+[run_command]
+gevent

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: augustine
+Version: 1.0.0
+Summary: Tools for creating Python packages
+Home-page: https://github.com/mbrennan/augustine
+Author: Michael Brennan
+Author-email: michael@michaelbrennan.net
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: package tools
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: run_command
+Provides-Extra: color
