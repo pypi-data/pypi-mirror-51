@@ -1,0 +1,10 @@
+bitshares
+Flask
+Flask-Login
+Flask-Security
+Flask-Session
+SQLAlchemy
+WTForms
+Werkzeug
+uuid
+blinker
