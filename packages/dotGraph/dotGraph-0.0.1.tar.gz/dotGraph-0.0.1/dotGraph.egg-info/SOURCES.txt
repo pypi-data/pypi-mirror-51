@@ -1,0 +1,7 @@
+README.md
+setup.py
+dotGraph/__init__.py
+dotGraph.egg-info/PKG-INFO
+dotGraph.egg-info/SOURCES.txt
+dotGraph.egg-info/dependency_links.txt
+dotGraph.egg-info/top_level.txt
