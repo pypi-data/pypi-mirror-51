@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ckipneutools
+Version: 0.0.11
+Summary: DEPRECATED, please shift to install and import 'ckiptagger'
+Home-page: https://github.com/ckiplab/ckiptagger
+Author: Peng-Hsuan Li
+Author-email: jacobvsdanniel@gmail.com
+License: CC BY-NC-SA 4.0
+Description: DEPRECATED, please shift to install and import 'ckiptagger'
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+Provides-Extra: gdown
+Provides-Extra: tfgpu
+Provides-Extra: tf
