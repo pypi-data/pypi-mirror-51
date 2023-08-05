@@ -1,0 +1,2 @@
+gitator==0.1.36
+slackclient==1.0.5

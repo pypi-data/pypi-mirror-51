@@ -1,0 +1,12 @@
+README.md
+setup.py
+mergefier/__init__.py
+mergefier/__main__.py
+mergefier/mergefier.py
+mergefier.egg-info/PKG-INFO
+mergefier.egg-info/SOURCES.txt
+mergefier.egg-info/dependency_links.txt
+mergefier.egg-info/not-zip-safe
+mergefier.egg-info/requires.txt
+mergefier.egg-info/top_level.txt
+test/test_mergefier.py
