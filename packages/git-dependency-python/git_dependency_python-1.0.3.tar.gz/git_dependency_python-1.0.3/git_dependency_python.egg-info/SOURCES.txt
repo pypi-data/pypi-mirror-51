@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+git_dependency_python/__init__.py
+git_dependency_python/dependency_lock_manager.py
+git_dependency_python/dependency_manager.py
+git_dependency_python/git_dependency.py
+git_dependency_python/pip_helper.py
+git_dependency_python/setup_helper.py
+git_dependency_python/tools.py
+git_dependency_python/version_resolver.py
+git_dependency_python.egg-info/PKG-INFO
+git_dependency_python.egg-info/SOURCES.txt
+git_dependency_python.egg-info/dependency_links.txt
+git_dependency_python.egg-info/top_level.txt
