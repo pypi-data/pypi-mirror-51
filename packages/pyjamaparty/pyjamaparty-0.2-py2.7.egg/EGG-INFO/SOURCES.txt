@@ -1,0 +1,15 @@
+README.md
+setup.py
+pyjamaparty/__init__.py
+pyjamaparty.egg-info/PKG-INFO
+pyjamaparty.egg-info/SOURCES.txt
+pyjamaparty.egg-info/dependency_links.txt
+pyjamaparty.egg-info/top_level.txt
+pyjamaparty/patterns/__init__.py
+pyjamaparty/patterns/singleton_pattern.py
+pyjamaparty/strutils/__init__.py
+pyjamaparty/strutils/string_builder.py
+pyjamaparty/tests/patterns/__init__.py
+pyjamaparty/tests/patterns/test_singleton_pattern.py
+pyjamaparty/tests/strutils/__init__.py
+pyjamaparty/tests/strutils/test_string_builder.py
