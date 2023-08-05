@@ -1,0 +1,6 @@
+README.md
+setup.py
+dectyptmodel_dragonfly.egg-info/PKG-INFO
+dectyptmodel_dragonfly.egg-info/SOURCES.txt
+dectyptmodel_dragonfly.egg-info/dependency_links.txt
+dectyptmodel_dragonfly.egg-info/top_level.txt

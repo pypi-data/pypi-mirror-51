@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dectyptmodel-dragonfly
+Version: 0.0.1
+Summary: A small example package
+Home-page: UNKNOWN
+Author: dragonfly.Lu
+Author-email: 329964085@qq.com
+License: UNKNOWN
+Description: print test 111 222
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
