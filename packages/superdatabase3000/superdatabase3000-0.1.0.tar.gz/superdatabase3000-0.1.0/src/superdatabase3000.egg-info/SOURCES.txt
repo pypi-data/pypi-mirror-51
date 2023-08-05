@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+src/superdatabase3000/__init__.py
+src/superdatabase3000/hdf.py
+src/superdatabase3000/packet.py
+src/superdatabase3000/signal.py
+src/superdatabase3000/socket.py
+src/superdatabase3000/superdatabase3000.py
+src/superdatabase3000.egg-info/PKG-INFO
+src/superdatabase3000.egg-info/SOURCES.txt
+src/superdatabase3000.egg-info/dependency_links.txt
+src/superdatabase3000.egg-info/requires.txt
+src/superdatabase3000.egg-info/top_level.txt

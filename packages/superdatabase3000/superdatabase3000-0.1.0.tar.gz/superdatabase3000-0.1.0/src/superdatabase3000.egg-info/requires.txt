@@ -1,0 +1,13 @@
+numpy
+pandas
+tables
+
+[dev]
+pytest-runner
+pytest
+pylint
+flake8
+flake8-bugbear
+coverage
+coveralls
+sphinx
