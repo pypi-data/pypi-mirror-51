@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: codaio
+Version: 0.1.0
+Summary: Python wrapper for Coda.io API
+Home-page: https://github.com/Blasterai/codaio
+License: MIT
+Author: MB
+Author-email: mb@blaster.ai
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: attrs (>=19.1,<20.0)
+Requires-Dist: python-dateutil (>=2.8,<3.0)
+Requires-Dist: requests (>=2.22,<3.0)
+Description-Content-Type: text/markdown
+
+# Python wrapper for Coda.io API
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
