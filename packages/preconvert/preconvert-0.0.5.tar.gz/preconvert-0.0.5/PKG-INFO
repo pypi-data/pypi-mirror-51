@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: preconvert
+Version: 0.0.5
+Summary: A Library to enable preconversion of any Python type into one that is easily serializable
+Home-page: https://github.com/timothycrosley/preconvert
+Author: Timothy Edmund Crosley
+Author-email: timothy.crosley@gmail.com
