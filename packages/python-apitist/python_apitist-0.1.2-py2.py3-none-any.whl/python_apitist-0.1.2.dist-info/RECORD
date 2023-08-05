@@ -1,0 +1,14 @@
+apitist/__init__.py,sha256=zLENJWO2SMppIkcd0Nu5SmA9XqCtSCVAt4MxS0lFafU,371
+apitist/apitist.py,sha256=I8DdHf51AJMXM_DjKji-ms1AlTdtAhb_8Wb8U9eky6M,109
+apitist/constructor.py,sha256=pvFFu41X33bhL64GmvPBnMGy7F7PSKDoWqNflKeAjxg,2954
+apitist/hooks.py,sha256=SFU1cijRcvhqG7xGWaH_Ersa4Hq42i5nBE4n6CUpiNE,2881
+apitist/logging.py,sha256=ufkbENHCz2RW_u19wv1PDHhEZGvhcwbhWLwiehsqAWI,955
+apitist/random.py,sha256=gPeojiwsWNKwR9CbFzobI5MrYFYtLz1aZTkgIZ-g02w,5474
+apitist/requests.py,sha256=6Z9KBhzJpIJt6ZRuFTx5pPSd57zvgHAQf3unuhvqU80,5504
+apitist/utils.py,sha256=yNgdEMNFs6DFFMuL5ZSDRXK6jH2IzttSSmHj_tAaIx8,2479
+python_apitist-0.1.2.dist-info/AUTHORS.rst,sha256=9BQAXBinc6bp_2JDJRJyaEooQQ97yOr6VqU3dDuqGFw,78
+python_apitist-0.1.2.dist-info/LICENSE.txt,sha256=xh8S2nza1Sa9y-1HpMCmA-YNu_2vi2aTPNCI6RMsMD8,32472
+python_apitist-0.1.2.dist-info/METADATA,sha256=lK7YrpqYoDh0JpsI9w7P8d9kcrhnCXm0KuUaKeYZorY,5040
+python_apitist-0.1.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+python_apitist-0.1.2.dist-info/top_level.txt,sha256=RPVycFVnQKkJOdEjmGfNLFvsxyNbikfD49fmhunmFm8,8
+python_apitist-0.1.2.dist-info/RECORD,,
