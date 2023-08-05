@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+install_requires.sh
+setup.cfg
+setup.py
+src/Odroid/__init__.py
+src/Odroid.GPIO.egg-info/PKG-INFO
+src/Odroid.GPIO.egg-info/SOURCES.txt
+src/Odroid.GPIO.egg-info/dependency_links.txt
+src/Odroid.GPIO.egg-info/top_level.txt
+src/Odroid/GPIO/__init__.py
+src/RPi/__init__.py
+src/RPi/GPIO/__init__.py
+wrap/wiringPi.i
