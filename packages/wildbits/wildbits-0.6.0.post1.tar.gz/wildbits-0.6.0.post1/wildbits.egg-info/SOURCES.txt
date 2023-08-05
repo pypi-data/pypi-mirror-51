@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+wildbits/__init__.py
+wildbits/addrstb.py
+wildbits/maingui.py
+wildbits/name_hashes
+wildbits/updaterstb.py
+wildbits.egg-info/PKG-INFO
+wildbits.egg-info/SOURCES.txt
+wildbits.egg-info/dependency_links.txt
+wildbits.egg-info/entry_points.txt
+wildbits.egg-info/requires.txt
+wildbits.egg-info/top_level.txt
