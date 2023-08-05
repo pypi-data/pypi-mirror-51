@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: OmicsTools
+Version: 0.3.6
+Summary: UNKNOWN
+Home-page: https://github.com/fraenkel-lab/OmicsTools
+Author: iamjli
+Author-email: iamjli@mit.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
