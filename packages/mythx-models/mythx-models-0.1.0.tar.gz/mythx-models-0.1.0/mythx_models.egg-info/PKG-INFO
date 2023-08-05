@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: mythx-models
+Version: 0.1.0
+Summary: Python domain model classes for the MythX platform
+Home-page: https://github.com/dmuhs/mythx-models
+Author: Dominik Muhs
+Author-email: dominik.muhs@consensys.net
+License: MIT license
+Description: MythX Domain Models
+        ===================
+        
+        Do it.
+        
+        
+        =======
+        History
+        =======
+        
+Keywords: mythx
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
