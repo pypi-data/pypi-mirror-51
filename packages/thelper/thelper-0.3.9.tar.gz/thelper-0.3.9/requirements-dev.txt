@@ -1,0 +1,8 @@
+pyopenssl
+pytest
+pytest-travis-fold
+pytest-cov
+pytest-mock
+mock
+flake8
+tox
