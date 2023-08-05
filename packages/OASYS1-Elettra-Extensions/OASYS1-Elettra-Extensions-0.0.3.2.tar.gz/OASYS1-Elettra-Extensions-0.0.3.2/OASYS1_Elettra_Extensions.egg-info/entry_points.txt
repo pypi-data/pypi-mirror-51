@@ -1,0 +1,15 @@
+[oasys.addons]
+SRW Elettra Extension = orangecontrib.elettra.srw
+SYNED Elettra Extension = orangecontrib.elettra.syned
+Shadow Elettra Extension = orangecontrib.elettra.shadow
+WOFRY Elettra Extension = orangecontrib.elettra.wofry
+
+[oasys.menus]
+elettraoasysmenu = orangecontrib.elettra.menu
+
+[oasys.widgets]
+SRW Elettra Extension = orangecontrib.elettra.srw.widgets.extension
+SYNED Elettra Extension = orangecontrib.elettra.syned.widgets.extension
+Shadow Elettra Extension = orangecontrib.elettra.shadow.widgets.extension
+WOFRY Elettra Extension = orangecontrib.elettra.wofry.widgets.extension
+
