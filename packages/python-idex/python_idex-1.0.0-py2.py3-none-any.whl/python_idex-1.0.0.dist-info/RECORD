@@ -1,0 +1,13 @@
+idex/__init__.py,sha256=dJsyLewMOk0TBwb2_TErkBEDPaSMD-Z1ktzihsXI35U,117
+idex/client.py,sha256=tGZVQMwpOTZucogT6-fguOinLudpQgjthfFkce9bYrM,52299
+idex/decorators.py,sha256=4MUBblLHWPiUVt6mu07XeHJpEDpp-2NOsF-U5ZT-B9c,560
+idex/exceptions.py,sha256=YM9F_y5Xnd6pEzzOV_SZ8N6OC0gXjepDC-elEHo09Gs,1586
+idex/utils.py,sha256=ziMtd-FoS11BWCiD4Jhw98pr9j9vZLRoBQ0qx30OlKg,1442
+idex/asyncio/__init__.py,sha256=ypCOW9f2DqJ5s-F1vAAfPOuHH6UY4njmc4jEBIdhdoE,159
+idex/asyncio/client.py,sha256=wquxCP9ZoeKflseZGVs80yEscD_XKg9TbmK80bBLC7k,12349
+idex/asyncio/websockets.py,sha256=mJWE_EK7YZT0VyuKNjwK--N9JAUO9QsxVHU5MMW-3nY,7232
+python_idex-1.0.0.dist-info/LICENSE,sha256=sOZ_Wlz0vmPhfC4m212erhkaDlBxjkomFyQXwgmiR-w,1067
+python_idex-1.0.0.dist-info/METADATA,sha256=bEQpkSL_WyIKvBLzfUXZaF56NXYL5I7yzOb2Yyr5EEs,6665
+python_idex-1.0.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+python_idex-1.0.0.dist-info/top_level.txt,sha256=0HoJaQAwaFqEyDuPdr2gM6u9nkEZ9TtMO-wD4zcnm_U,5
+python_idex-1.0.0.dist-info/RECORD,,
