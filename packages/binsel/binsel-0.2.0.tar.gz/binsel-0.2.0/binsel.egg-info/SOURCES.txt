@@ -1,0 +1,32 @@
+.gitignore
+.travis.yml
+CHANGES.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+binsel/__init__.py
+binsel/binsel_class.py
+binsel/binsel_hardvote.py
+binsel/bootstrap_solutions.py
+binsel/enumerate_negations.py
+binsel/hard_voting.py
+binsel/negate_bool_features.py
+binsel.egg-info/PKG-INFO
+binsel.egg-info/SOURCES.txt
+binsel.egg-info/dependency_links.txt
+binsel.egg-info/not-zip-safe
+binsel.egg-info/requires.txt
+binsel.egg-info/top_level.txt
+examples/Example 1.ipynb
+examples/Example 2.ipynb
+examples/binsel_hardvote.ipynb
+examples/bootstrap_solutions_all.ipynb
+examples/bootstrap_solutions_pre.ipynb
+examples/enumerate_negations.ipynb
+examples/hard_voting.ipynb
+examples/negate_bool_features.ipynb
+test/__init__.py
+test/test_hard_voting.py
+test/test_negate_bool_features.py
