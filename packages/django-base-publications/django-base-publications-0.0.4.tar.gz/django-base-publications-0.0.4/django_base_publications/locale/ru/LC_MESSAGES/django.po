@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <dima.bastrikin@bro.agency>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Django Base Publication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-21 20:42+0100\n"
+"PO-Revision-Date: 2019-08-21 20:42+0100\n"
+"Last-Translator: Dmitry Bastrikin <dima.bastriin@bro.agency>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-Language: Russian\n"
+
+msgid "Draft"
+msgstr "Черновик"
+
+msgid "Editing required"
+msgstr "Требуется редактура"
+
+msgid "Ready to publish"
+msgstr "Готово к публикации"
+
+msgid "Proofreading required"
+msgstr "Требуется коректура"
+
+msgid "Published"
+msgstr "Опубликовано"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Slug"
+msgstr "Ч.П.У."
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Status"
+msgstr "Состояние"
+
+msgid "Owner"
+msgstr "Автор"
+
+msgid "Publication date"
+msgstr "Дата публикации"
+
+msgid "Created date"
+msgstr "Дата создания"
+
+msgid "Last modified date"
+msgstr "Дата последнего изменения"
+
+msgid "Is hidden"
+msgstr "Скрыто"
+
+msgid "Token"
+msgstr "Токен"
