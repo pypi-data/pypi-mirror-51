@@ -1,0 +1,7 @@
+selenium
+wikipedia
+pyttsx3
+speechRecognition
+requests
+PyAudio
+geocoder
