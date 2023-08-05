@@ -1,0 +1,16 @@
+lxml
+cssselect
+cssutils
+requests
+cachetools
+
+[dev]
+tox
+twine
+therapist
+black
+flake8
+
+[test]
+nose
+mock
