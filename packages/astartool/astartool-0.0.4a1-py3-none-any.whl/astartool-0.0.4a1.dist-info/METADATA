@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: astartool
+Version: 0.0.4a1
+Summary: toolkit for python
+Home-page: http://182.61.50.242:10010/astar/astartool
+Author: A.Star
+Author-email: astar@snowland.ltd
+Maintainer: A.Star
+Maintainer-email: astar@snowland.ltd
+License: Apache v2.0
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: numpy (>=1.0.1)
+Requires-Dist: snowland-smx (>=0.3.1)
+Requires-Dist: rarfile
+Requires-Dist: xlwt
+Requires-Dist: pillow
+Requires-Dist: six
+
+astar-contentaudit
+==================
+
+toolkit for python.
+
+
