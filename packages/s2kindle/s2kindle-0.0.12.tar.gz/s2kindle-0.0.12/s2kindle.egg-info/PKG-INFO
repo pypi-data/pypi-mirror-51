@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: s2kindle
+Version: 0.0.12
+Summary: Send web articles to your kindle!
+Home-page: https://github.com/fferegrino/send-to-kindle
+Author: Antonio Feregrino
+Author-email: antonio.feregrino@gmail.com
+License: UNKNOWN
+Description: # send-to-kindle
+        A teeny tiny app that you can use to send stuff to your kindle.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
