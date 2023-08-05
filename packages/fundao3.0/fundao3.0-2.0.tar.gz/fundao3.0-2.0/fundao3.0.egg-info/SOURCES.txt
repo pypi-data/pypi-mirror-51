@@ -1,0 +1,5 @@
+setup.py
+fundao3.0.egg-info/PKG-INFO
+fundao3.0.egg-info/SOURCES.txt
+fundao3.0.egg-info/dependency_links.txt
+fundao3.0.egg-info/top_level.txt
