@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kin-sdk
+Version: 2.5.1
+Summary: KIN SDK for Python
+Home-page: https://github.com/kinecosystem/kin-sdk-python/tree/v2-master
+Author: Kin Ecosystem
+Author-email: david.bolshoy@kik.com
+Maintainer: Ron Serruya
+Maintainer-email: ron.serruya@kik.com
+License: MIT
+Description: ![Kin Logo](kin.png)
+        
+        # Kin SDK for Python
+        
+        The Kin SDK for Python is meant to be used as a back-end service. It can perform actions for your client apps (iOS, Android, etc.) and also operate as a server for you to build services on top of the Kin blockchain. The SDK can, for example, take care of communicating with the Kin Blockchain on behalf of the client to create accounts and whitelist transactions. It can also monitor blockchain transactions so that you can implement broader services. It's up to you how to integrate the SDK in your overall architecture and managing server up-time.
+        
+        <a href="https://docs.kin.org/python/sdk"><img src="https://partners.kinecosystem.com/img/documentation-button2x.png" width=300 height=84 alt="Documentation"/></a>
+        
+Keywords: kin,stellar,blockchain,cryptocurrency
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
