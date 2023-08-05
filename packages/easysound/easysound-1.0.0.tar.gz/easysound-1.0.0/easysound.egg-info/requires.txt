@@ -1,0 +1,8 @@
+pyaudio
+playsound
+
+[dev]
+check-manifest
+
+[test]
+coverage

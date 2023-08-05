@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: easysound
+Version: 1.0.0
+Summary: A simple, easy sound programming in Python
+Home-page: https://github.com/ericzzer/Easy_Sound
+Author: Eric Zeng
+Author-email: ericchufengzeng@outlook.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/ericzzer/Easy_Sound/issues
+Project-URL: Source, https://github.com/ericzzer/Easy_Sound/
+Description: ## Easy_Sound
+        
+        EasySound is a simple, easy sound programming in Python,Support MP3 and WAV files, all sound interactions are invoked by simple function calls.
+        EasySound runs on Python  3
+        
+        ## Example Usage
+        
+        If you want to play the sound, you have two choices:
+        
+        1. Play without GUI
+        ```
+        >>> from easysound import play
+        >>> play.play(test.mp3)
+        >>> play.play(test.wav)
+        ```
+        
+        2. Play with GUI
+        This will open the default player
+        ```
+        >>> from easysound import play
+        >>> play.ui_play(test.mp3)
+        >>> play.ui_play(test.wav)
+        ```
+        
+        If you want to record
+        ```
+        >>> from easysound import rec
+        >>> rec.rec("test.wav",2,"start","stop")
+        ```
+        Full documentation is always available.
+        
+        ## BUG FIXES
+        Please report any problems found.
+        
+        ## KNOWN ISSUES
+        Errors occur when using `import easysound`
+        
+        
+Keywords: simple
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
