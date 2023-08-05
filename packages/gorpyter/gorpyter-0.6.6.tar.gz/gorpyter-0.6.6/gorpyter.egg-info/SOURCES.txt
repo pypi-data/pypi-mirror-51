@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+gorpyter/__init__.py
+gorpyter.egg-info/PKG-INFO
+gorpyter.egg-info/SOURCES.txt
+gorpyter.egg-info/dependency_links.txt
+gorpyter.egg-info/requires.txt
+gorpyter.egg-info/top_level.txt
