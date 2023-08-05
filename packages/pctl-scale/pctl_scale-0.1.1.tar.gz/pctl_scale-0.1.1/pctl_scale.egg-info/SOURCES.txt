@@ -1,0 +1,24 @@
+.gitignore
+.travis.yml
+CHANGES.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+examples/PercentileScaler - sklearn API example.ipynb
+examples/PercentileScaler -Missing Values.ipynb
+examples/formulas.ipynb
+examples/percentile_scale - Boston demo data.ipynb
+examples/percentile_scale - Random data.ipynb
+pctl_scale/__init__.py
+pctl_scale/pctl_scale_class.py
+pctl_scale/pctl_scale_func.py
+pctl_scale.egg-info/PKG-INFO
+pctl_scale.egg-info/SOURCES.txt
+pctl_scale.egg-info/dependency_links.txt
+pctl_scale.egg-info/not-zip-safe
+pctl_scale.egg-info/requires.txt
+pctl_scale.egg-info/top_level.txt
+test/__init__.py
+test/test_inverse.py
