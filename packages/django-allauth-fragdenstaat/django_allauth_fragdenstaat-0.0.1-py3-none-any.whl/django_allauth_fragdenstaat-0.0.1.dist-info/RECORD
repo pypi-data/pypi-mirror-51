@@ -1,0 +1,11 @@
+fragdenstaat_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fragdenstaat_auth/models.py,sha256=o9OLSqCjxl-f58x1NghptLZ54jnJelBqJUiOVQBmwuQ,27
+fragdenstaat_auth/provider.py,sha256=wMsAFn4sFidFowB3stWicmlIxensvtOLTlfXeUZLK7Y,1605
+fragdenstaat_auth/tests.py,sha256=GbAtelb0hfy6Rt2hEcqWAkYfZYUaXQRGQMY-wj_3QCc,476
+fragdenstaat_auth/urls.py,sha256=0drU-Lgi0HVZQl8lOBLoY_iRU5Z69zkqLQJyCyNK9gM,176
+fragdenstaat_auth/views.py,sha256=I3idrmfo41QlU6NlVjLDFOmyz6YnhYfHXb8ph8L7l18,1064
+django_allauth_fragdenstaat-0.0.1.dist-info/LICENSE,sha256=Vw29hfrhyKXB837oeI1kS6xXTk3qxPc5eXyvsgmgVz8,1083
+django_allauth_fragdenstaat-0.0.1.dist-info/METADATA,sha256=uozp0n2TtWk9TbHbj0Aw4lPxbk7BKPi1og4sfYvyBw4,941
+django_allauth_fragdenstaat-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_allauth_fragdenstaat-0.0.1.dist-info/top_level.txt,sha256=fI0Q9YPH9q0fKN_i3ne9BNl6BYwI3vTZiB-jaLebVmo,18
+django_allauth_fragdenstaat-0.0.1.dist-info/RECORD,,
