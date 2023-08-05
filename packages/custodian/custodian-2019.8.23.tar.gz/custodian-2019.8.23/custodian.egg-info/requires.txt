@@ -1,0 +1,7 @@
+monty>=0.9.0
+six
+ruamel.yaml>=0.15.6
+sentry-sdk>=0.8.0
+
+[vasp, nwchem, qchem]
+pymatgen>=3.3.1
