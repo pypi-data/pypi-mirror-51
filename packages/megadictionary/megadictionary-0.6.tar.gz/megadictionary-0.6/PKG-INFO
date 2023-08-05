@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: megadictionary
+Version: 0.6
+Summary: A fully formatted dictionary for everything you'll ever need.
+Home-page: https://github.com/veritius/megadictionary
+Author: Veritius
+Author-email: veritius@mail.com
+License: cc-by-sa-4.0
+Download-URL: https://github.com/Veritius/megadictionary/archive/v0.6.tar.gz
+Description: UNKNOWN
+Keywords: ENGLISH,DICTIONARY,DEFINITIONS,FORMATTED
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
