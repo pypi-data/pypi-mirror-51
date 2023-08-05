@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-arduino-controller
+Version: 0.1.1566484023
+Summary: app to conrolls arduinos via ArduinoController and PlugInDjango
+Home-page: https://github.com/JulianKimmig/django_arduino_controller
+Author: Julian Kimmig
+Author-email: julian-kimmig@gmx.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: coloredlogs
+Requires-Dist: Json-Dict
+Requires-Dist: PlugInDjango
+Requires-Dist: ArduinoBoardCollection
+Requires-Dist: ArduinoController
+
+UNKNOWN
+
+
