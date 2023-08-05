@@ -1,0 +1,15 @@
+botup/__init__.py,sha256=NpNSRmdEmenAv-ItNAOsNDx1R4Tro5-WzWlD7ulD-9c,113
+botup/cli.py,sha256=DhmVq5ciI3e_7BTrQ2LI8rPQw7bH02Az-vTYkQA8zzA,4051
+botup/dispatcher.py,sha256=vNBOmpRGMZqoGOWkc8tW0wOXzkgMtcMVzoeLFzWvtnU,22092
+botup/form.py,sha256=YV8dVCRCgDqJBrldQFZeyvTZivzfTAyyIqY0MUih1MA,2375
+botup/fsm.py,sha256=PeJe17UxUKIHU570Jrb5PsbbOjDADtW_CS6Xvxwq1NI,2360
+botup/handlers.py,sha256=QBSc834jeNy8In_Ewd3nbnfV7SssC7KuptwY91aVKno,6338
+botup/mixins.py,sha256=uR7ueUFSmBqbKadvdCslkSFxTSHrc6stWMmuKxi7xXE,2492
+botup/sender.py,sha256=VfDkr8wj25XIK-youbAWFM-xTg8tXSeI629B1Ep5YBE,41585
+botup/types.py,sha256=36QKeFzL8d-N_b7BMooWh0p-6kkz8uuVefYeRnI2jQ8,52643
+botup/utils.py,sha256=vnxrC63NE0hLjQxdY1hnG2dMVsTpuTsTC5M3gJuBBwQ,2943
+telegram_botup-0.3.0.dist-info/METADATA,sha256=00jw5ZG7hlWabT3_45zSrjRNDi8qC-uxgc1Kn4-IaR0,442
+telegram_botup-0.3.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+telegram_botup-0.3.0.dist-info/entry_points.txt,sha256=es0AcHSLk9AbjmRUSCSWUAUQgQtMMhmlmvpwht3G1Ck,41
+telegram_botup-0.3.0.dist-info/top_level.txt,sha256=Yv8efy2F1Ud4_cPm71qnnOUPpKl-pNyYNIwC6fnpAJg,6
+telegram_botup-0.3.0.dist-info/RECORD,,

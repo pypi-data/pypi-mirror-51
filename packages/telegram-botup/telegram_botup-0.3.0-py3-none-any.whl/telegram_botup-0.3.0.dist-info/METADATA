@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: telegram-botup
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Dima Shebotinov
+Author-email: groovestreetmagic@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://bitbucket.org/dimashebo/telegram-botup
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Requires-Python: >=3.6
+Requires-Dist: Click
+Requires-Dist: requests
+Requires-Dist: redis
+
+UNKNOWN
+
+
