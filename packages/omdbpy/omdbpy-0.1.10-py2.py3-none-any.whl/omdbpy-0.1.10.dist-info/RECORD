@@ -1,0 +1,9 @@
+omdb/__init__.py,sha256=qfQkTFZKsO62-4nn9MsV5yYKatKtw6Kq-CV-o1FJUx0,60
+omdb/omdb.py,sha256=nHmkLBTmZamadb-4yQtJK3HRpI02CwBHddtxV4patdc,2314
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_omdb.py,sha256=rDznHU7OhF6bg2zOoMqoEkA1tlaRxA1_IGNgn-4Jieo,1305
+omdbpy-0.1.10.dist-info/LICENSE,sha256=Kgl14neSNQFhm-NM0JNHJBM29a-38bj84TWQyF2R8vM,1090
+omdbpy-0.1.10.dist-info/METADATA,sha256=Z2VAVzzENhzfnyhntb9aPLSrFQ_GtG4vXMFMU_MB7Bo,12638
+omdbpy-0.1.10.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+omdbpy-0.1.10.dist-info/top_level.txt,sha256=-6nyNuRbc7Cv2qIjLrrVCBEjhbcdujxtT5IMaNQ2Q3U,11
+omdbpy-0.1.10.dist-info/RECORD,,
