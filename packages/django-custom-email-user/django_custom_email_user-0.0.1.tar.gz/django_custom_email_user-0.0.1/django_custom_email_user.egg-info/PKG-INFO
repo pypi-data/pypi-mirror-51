@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: django-custom-email-user
+Version: 0.0.1
+Summary: Modify Django default User to use email as unique identifier
+Home-page: https://github.com/garyburgmann/django-custom-email-user
+Author: Gary Burgmann
+Author-email: garyburgmann@gmail.com
+License: UNKNOWN
+Description: # Django Custom Email User
+        
+        Replacing the username with the email as the unique identifier is so common, that I simply decided to create a package to prevent this tedium again.
+        
+        Used to replace default Django User model with email, instead of the username, as the unique identifer. The username is changed to optional and will not be requested as part of createsuperuser.
+        
+        The Django admin panel is customised to accommodate these changes, along with the User forms custom_email_user.forms.CustomUserCreationForm and custom_email_user.forms.CustomUserChangeForm
+        
+        Simply add custom_email_user to your installed apps, configure the AUTH_USER_MODEL, and run the migrations
+        
+        ```
+        INSTALLED_APPS = [
+            ...
+            'custom_email_user'
+        ]
+        
+        AUTH_USER_MODEL = 'custom_email_user.User'
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
