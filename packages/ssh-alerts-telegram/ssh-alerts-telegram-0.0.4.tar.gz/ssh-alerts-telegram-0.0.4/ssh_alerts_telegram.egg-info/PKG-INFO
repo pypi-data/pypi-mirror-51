@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ssh-alerts-telegram
+Version: 0.0.4
+Summary: Get Instant Alerts on Telegram with complete IP Details, whenever someone login into server using SSH.
+Home-page: https://github.com/geetanshjindal/ssh-alerts-telegram/
+Author: Geetansh Jindal
+Author-email: geetansh@hackreports.com
+License: UNKNOWN
+Description: # ssh-alerts-telegram
+        
+        **ssh-alerts-telegram:** Get instant alerts on Telegram, when somemone logs into your server using SSH. 
+        
+        ## Install
+        pip install ssh-alerts-telegram
+        
+        ## STEPS
+        
+        To get started
+        1. Go to your telegrama, serach for 'servergaze_bot' 
+        2. Select the bot and click 'Start' button to get your UID
+        3. Run command on server: "python -m ssh-alerts-telegram"
+        4. Fill in your given UID 
+        5. Assign name to your server in ServerID 
+        6. and you're done
+        
+        ```bash
+        python -m ssh-alerts-telegram
+        ```
+        
+        ## License
+        
+        MIT licensed. See the
+        [LICENSE](https://github.com/geetanshjindal/ssh-alerts-telegram/blob/master/LICENSE) file
+        for more details.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

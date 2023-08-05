@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+ssh-alerts-telegram/__init__.py
+ssh-alerts-telegram/__main__.py
+ssh_alerts_telegram.egg-info/PKG-INFO
+ssh_alerts_telegram.egg-info/SOURCES.txt
+ssh_alerts_telegram.egg-info/dependency_links.txt
+ssh_alerts_telegram.egg-info/top_level.txt
