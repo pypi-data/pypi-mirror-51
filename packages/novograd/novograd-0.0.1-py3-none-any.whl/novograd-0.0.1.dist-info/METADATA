@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: novograd
+Version: 0.0.1
+Summary: PyTorch implementation of NovoGrad
+Home-page: https://github.com/convergence-lab/novograd
+Author: Masashi Kimura
+Author-email: kimura@convergence-lab.com
+Maintainer: Masashi Kimura
+Maintainer-email: kimura@convergence-lab.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: torch (>=1.2.0)
+
+UNKNOWN
+
+
