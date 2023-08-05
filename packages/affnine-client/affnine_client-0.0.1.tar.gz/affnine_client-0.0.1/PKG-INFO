@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: affnine_client
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Biswanath Saha
+Author-email: biswanathamz@gmail.com
+License: UNKNOWN
+Description: # affnine_client
+         A TCP stack python library. for IOT and Chat Bot 
+         
+        ## You can Contribute HERE
+        
+        ### it's free
+        # Really
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
