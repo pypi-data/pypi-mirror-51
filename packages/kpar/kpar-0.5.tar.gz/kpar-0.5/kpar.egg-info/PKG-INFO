@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kpar
+Version: 0.5
+Summary: K(onfiguration) Parameters
+Home-page: https://github.com/mdipierro/kpar
+Author: Massimo Di Pierro
+Author-email: massimo.dipierro@gmail.com
+Maintainer: Massimo Di Pierro
+Maintainer-email: massimo.dipierro@gmail.com
+License: BSD
+Description: A possible solution for describing large and complex hiararchical parameters using Python
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
