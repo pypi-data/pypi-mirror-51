@@ -1,0 +1,6 @@
+janis-pipelines.core>=0.5.2
+requests
+path.py
+python-dotenv
+python-dateutil
+progressbar2
