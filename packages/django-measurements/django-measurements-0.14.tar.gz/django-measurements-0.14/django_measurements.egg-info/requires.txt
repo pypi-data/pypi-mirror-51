@@ -1,0 +1,12 @@
+colorbrewer
+django
+django-basicauth
+django-postgres-extra
+django_pandas
+geojson
+numpy
+pandas
+pycryptodome
+pysal
+requests
+urllib3
