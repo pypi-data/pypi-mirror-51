@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pysoma
+Version: 0.0.6
+Summary: A simple package for controlling SOMA devices
+Home-page: http://wazombi.com
+Author: Wazombi Labs
+Author-email: labs@wazombi.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Home Automation
+Description-Content-Type: text/markdown
+
+# pysoma
+
+Very simple Python wrapper for the HTTP API provided by SOMA Connect.
+
+
