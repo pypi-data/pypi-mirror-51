@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lazyuptimerobot.py
+Version: 2.0.0
+Summary: Python API Client for uptimerobot.com
+Home-page: https://github.com/fxa90id/lazyuptimerobot.py
+Author: Michal Frontczak
+Author-email: michaljev@o2.pl
+License: LGPLv3+
+Keywords: lazy uptimerobot
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+# lazyuptimerobot.py 
+
+UptimeRobot API Python integration with docs.
+
+```python
+from lazyuptimerobot import UptimeRobot
+monitor = UptimeRobot(api_key="YOUR_API_KEY")
+help(monitor)
+...
+print(monitor.getMonitors())
+print(monitor.newAlertContact(type=2, value="email@email", friendly_name="John"))
+...
+```
+
+
