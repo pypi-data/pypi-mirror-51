@@ -1,0 +1,3 @@
+[console_scripts]
+autopub=autopub.autopub:main
+

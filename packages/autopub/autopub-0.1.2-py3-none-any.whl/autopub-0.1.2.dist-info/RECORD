@@ -1,0 +1,15 @@
+autopub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopub/autopub.py,sha256=uY-CGv6NIamoZYdv3U5oA4GDJZ-MBSmn2v9X5YRjn6w,1908
+autopub/base.py,sha256=DYC6822wBDvAesqUW9E6gHaPh6eydfoclWvwYZl90NU,4550
+autopub/build_release.py,sha256=QuKzFJYt8LNziwNI-ANl7gxPYf1Wbw80mAAGMtxtzAQ,302
+autopub/check_release.py,sha256=f3qyF2gRCOyhs37MYbOOpYGm0UUkJoux-0QFS9zkvRs,421
+autopub/commit_release.py,sha256=Tz-TToqEO9AaWz5HUCNrQV3mlusdyI3HaxmwvHsPIT4,680
+autopub/create_github_release.py,sha256=ACrYoUn7fw71z_rN3T1oxrehDdvVychWVlTUxVmjc9E,996
+autopub/deploy_release.py,sha256=J0hkMhLaO-ktKMjNa-Zu1pVngx_fD_nM_dzC3UTWJM4,447
+autopub/prepare_release.py,sha256=AuZlK4NVb7r-4YCO4Z04ti_ISZ64wVGZzCnQ9sxybos,2135
+autopub/publish_release.py,sha256=G8poolFM9j5W6gtLSCo4AoZvVKmlIrkBslBlJf-1JQY,488
+autopub-0.1.2.dist-info/entry_points.txt,sha256=dneC-sBNh-ntAab9sb46B2D6zW7GGvXHHBtIGyknjnA,48
+autopub-0.1.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+autopub-0.1.2.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+autopub-0.1.2.dist-info/METADATA,sha256=RjXktashvZGcNANZqQZ6OVZs__BwtZEyJ2SD2AtTriw,2447
+autopub-0.1.2.dist-info/RECORD,,
