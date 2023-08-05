@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: zenmoney
+Version: 0.9
+Summary: Library for zenmoney.ru API
+Home-page: https://github.com/Felixoid/python-zenmoney
+Author: Mikhail f. Shiryaev
+Author-email: mr.felixoid@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+## Python library for ZenMoney API
+This library allows you to use [ZenMoney API](https://github.com/zenmoney/ZenPlugins/wiki/ZenMoney-API).
+
+There is a simplest way to start:
+
+```python
+from zenmoney import *
+
+oauth = OAuth2('consumer_key', 'consumer_secret', 'user_name', 'user_pass')
+api = Request(oauth.token)
+diff = api.diff(Diff(**{'serverTimestamp': 1}))
+```
+
+
