@@ -1,0 +1,10 @@
+README.rst
+setup.py
+generalutils/__init__.py
+generalutils/constants.py
+generalutils/guard.py
+generalutils.egg-info/PKG-INFO
+generalutils.egg-info/SOURCES.txt
+generalutils.egg-info/dependency_links.txt
+generalutils.egg-info/not-zip-safe
+generalutils.egg-info/top_level.txt
