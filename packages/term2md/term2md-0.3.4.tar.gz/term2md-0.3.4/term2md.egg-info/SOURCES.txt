@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+term2md/__init__.py
+term2md/term2md.py
+term2md.egg-info/PKG-INFO
+term2md.egg-info/SOURCES.txt
+term2md.egg-info/dependency_links.txt
+term2md.egg-info/entry_points.txt
+term2md.egg-info/top_level.txt

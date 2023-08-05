@@ -1,0 +1,3 @@
+[console_scripts]
+term2md = term2md.term2md:main
+
