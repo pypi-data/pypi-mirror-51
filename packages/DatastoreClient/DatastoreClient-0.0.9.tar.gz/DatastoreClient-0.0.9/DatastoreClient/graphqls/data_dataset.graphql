@@ -1,0 +1,51 @@
+{
+  data_dataset(where: {{where}} ) {
+    id
+    data_dataset_raws {
+      data_raw {
+        name
+        metadata
+        md5
+        tag
+        url
+        version
+        id
+      }
+    }
+    data_dataset_attachments {
+      data_attachment {
+        md5
+        id
+        metadata
+        name
+        tag
+        url
+        version
+      }
+    }
+    data_dataset_models {
+      data_model {
+        id
+        md5
+        metadata
+        name
+        tag
+        url
+        version
+      }
+    }
+    data_dataset_weights {
+      data_weight {
+        id
+        md5
+        metadata
+        name
+        tag
+        url
+        version
+      }
+    }
+    metadata
+    name
+  }
+}

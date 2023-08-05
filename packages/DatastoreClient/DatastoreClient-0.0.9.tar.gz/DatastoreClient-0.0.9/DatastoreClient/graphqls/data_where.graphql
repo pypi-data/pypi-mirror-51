@@ -1,0 +1,11 @@
+query {
+  data_{{model_name}}(where: {{where}}) {
+    id
+    md5
+    name
+    metadata
+    url
+    version
+    tag
+  }
+}

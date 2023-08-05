@@ -1,0 +1,10 @@
+mutation {
+  delete_data_dataset(where: {{where}}) {
+    affected_rows
+    returning {
+      id
+      name
+      metadata
+    }
+  }
+}

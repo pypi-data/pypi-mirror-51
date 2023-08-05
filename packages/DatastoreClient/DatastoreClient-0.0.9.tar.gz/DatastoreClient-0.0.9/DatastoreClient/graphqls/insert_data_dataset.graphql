@@ -1,0 +1,10 @@
+mutation {
+  insert_data_dataset(objects: {metadata: {{metadata}}, name: "{{name}}"}) {
+    returning {
+      name
+      metadata
+      id
+    }
+    affected_rows
+  }
+}

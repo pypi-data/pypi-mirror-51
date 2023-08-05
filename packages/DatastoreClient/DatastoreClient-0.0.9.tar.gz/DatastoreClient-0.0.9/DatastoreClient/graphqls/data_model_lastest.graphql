@@ -1,0 +1,22 @@
+{
+  data_{{model_name}}(where: {
+    _and:[
+        {name: {_eq: "{{file.name}}"}}, 
+        {bucket: {_eq: "{{file.bucket}}"}},
+        {tag: {_eq: "latest"}}
+        # ,{
+        #     _or: [
+        #         {metadata: {_neq: {{metadata}} }},
+        #         {md5: {_neq: "{{file.md5}}" }}
+        #     ]
+        # }
+    ]
+  }) 
+  {
+    id
+    version
+    tag
+    metadata
+    md5
+  }
+}
