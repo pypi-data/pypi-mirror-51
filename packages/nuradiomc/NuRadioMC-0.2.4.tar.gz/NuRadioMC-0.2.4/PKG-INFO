@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: NuRadioMC
+Version: 0.2.4
+Summary: NuRadioMC: Simulating the radio emission of neutrinos from interaction to detector
+Home-page: https://github.com/nu-radio/NuRadioMC
+Author: Christian Glaser
+Author-email: work@c-glaser.de
