@@ -1,0 +1,6 @@
+docopt
+h5py
+lxml
+matplotlib
+numpy
+six
