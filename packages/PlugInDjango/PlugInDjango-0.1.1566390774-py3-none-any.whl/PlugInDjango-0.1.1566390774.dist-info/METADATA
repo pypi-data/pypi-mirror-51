@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PlugInDjango
+Version: 0.1.1566390774
+Summary: plugin Django-server
+Home-page: https://github.com/JulianKimmig/plug_in_django
+Author: Julian Kimmig
+Author-email: julian-kimmig@gmx.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Django
+Requires-Dist: django-bootstrap4
+Requires-Dist: django-glrm
+Requires-Dist: Json-Dict
+Requires-Dist: channels
+Requires-Dist: django-sekizai
+
+UNKNOWN
+
+
