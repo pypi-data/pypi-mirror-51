@@ -1,0 +1,3 @@
+[console_scripts]
+btrm = sources.btrm:main
+

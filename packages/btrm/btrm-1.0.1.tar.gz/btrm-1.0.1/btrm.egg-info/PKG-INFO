@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: btrm
+Version: 1.0.1
+Summary: Alternative tool for rm command in linux using python
+Home-page: https://github.com/nobabykill/btrm
+Author: Linh Nguyen
+Author-email: linh1612340@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: btrm,backup than remove
+Platform: window
+Platform: linux
+Platform: macos
