@@ -1,0 +1,13 @@
+psutil
+tpPyUtils
+tpDccLib
+tpQtLib
+tpNameIt
+pyblish-base
+pyblish-lite
+
+[dev]
+wheel
+
+[test]
+pytest
