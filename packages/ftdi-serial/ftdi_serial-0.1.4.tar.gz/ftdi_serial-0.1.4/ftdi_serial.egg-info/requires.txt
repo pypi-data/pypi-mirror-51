@@ -1,0 +1,4 @@
+pypiwin32
+janus
+ftd2xx
+pyserial
