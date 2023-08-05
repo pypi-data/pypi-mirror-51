@@ -1,0 +1,2 @@
+_pycdio.cpython-37m-x86_64-linux-gnu.so
+_pyiso9660.cpython-37m-x86_64-linux-gnu.so
