@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vmi
+Version: 0.3.0
+Summary: Visual Medical Innovation powered by WANGYiping
+Home-page: https://pypi.org/project/vmi/
+Author: sjtu_6547
+Author-email: 88172828@qq.com
+License: UNKNOWN
+Description: # 可视医学创新 (Visual Medical Innovation)
+Keywords: Qt PySide2 SimpleITK itk vtk pythonocc-core OpenCASCADE CGAL
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
