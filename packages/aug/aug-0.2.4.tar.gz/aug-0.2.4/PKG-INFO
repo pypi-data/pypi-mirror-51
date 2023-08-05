@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: aug
+Version: 0.2.4
+Summary: Augmentation library based on OpenCV.
+Home-page: https://github.com/cta-ai/aug
+Author: Tomasz Gilewicz
+Author-email: tomasz.gilewicz1@gmail.com
+License: Apache License 2.0
+Description: <div align="center">
+        
+        # AUG<em>-alpha</em>
+        
+        
+        [![PyPI Status](https://badge.fury.io/py/aug.svg)](https://badge.fury.io/py/aug)
+        [![PyPI Status](https://pepy.tech/badge/aug)](https://pepy.tech/project/aug)
+        [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+        
+        </div>
+        
+        **AUG is an open source augmentation library based on OpenCV. The repository contains a set of image transformations for data augmentation and artificial data synthesis.** 
+        
+        
+        ##### Major features:
+        
+        * supports operations on masks and points,
+        * unified interface - most magnitude coefficients are in the range [0, 1],
+        * optimized operations,
+        * reusable blocks of operations, e.g. transfer learning based on augmentation parameters (AutoAugment)
+        * unique operations compared to imgaug/albumentations,
+        * Python 3, OpenCV 4.1.
+        
+        
+        
+        
+Keywords: data augmentation artificial synthesis machine learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
