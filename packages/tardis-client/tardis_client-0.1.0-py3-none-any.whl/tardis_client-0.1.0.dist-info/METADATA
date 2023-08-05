@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: tardis-client
+Version: 0.1.0
+Summary: Python client for tardis.dev - historical tick-level cryptocurrency market data replay API.
+Home-page: https://github.com/tardis-dev/python-client
+License: MPL-2.0
+Keywords: cryptocurrency data feed,market data,api client,orderbook,crypto markets data replay,historical data,historical cryptocurrency prices,cryptocurrency api
+Author: Thad
+Author-email: thad@tardis.dev
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: aiofiles (>=0.4.0,<0.5.0)
+Requires-Dist: aiohttp (>=3.5,<4.0)
+Description-Content-Type: text/markdown
+
+# tardis-client
+
+Python client for tardis.dev - historical tick-level cryptocurrency market data replay API.
+
+## Usage
+
+```python
+import asyncio
+from tardis_client import TardisClient, Channel
+
+
+async def replay():
+    tardis_client = TardisClient()
+
+    messages = tardis_client.replay(
+        exchange="bitmex",
+        from_date="2019-06-01",
+        to_date="2019-06-02",
+        filters=[Channel(name="trade", symbols=["XBTUSD","ETHUSD"]), Channel("orderBookL2", ["XBTUSD"])],
+    )
+
+    async for local_timestamp, message in messages:
+        print(message)
+
+
+asyncio.run(replay())
+```
+
