@@ -1,0 +1,3 @@
+include sgvalidator/validators/data/brand_count_truthset.csv
+include sgvalidator/validators/data/IGNORE_MESSAGE.txt
+include sgvalidator/VERSION
