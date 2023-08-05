@@ -1,0 +1,106 @@
+{
+  "type": ["object"],
+  "properties": {
+    "Id": {
+      "type": ["string"]
+    },
+    "CampaignId": {
+      "type": ["integer"]
+    },
+    "CampaignName": {
+      "type": ["string"]
+    },
+    "ActionTrackerId": {
+      "type": ["integer"]
+    },
+    "ActionTrackerName": {
+      "type": ["string"]
+    },
+    "State": {
+      "type": ["string"]
+    },
+    "AdId": {
+      "type": ["integer"]
+    },
+    "Payout": {
+      "type": ["number"]
+    },
+    "DeltaPayout": {
+      "type": ["number"]
+    },
+    "IntendedPayout": {
+      "type": ["number"]
+    },
+    "Amount": {
+      "type": ["number"]
+    },
+    "DeltaAmount": {
+      "type": ["number"]
+    },
+    "IntendedAmount": {
+      "type": ["number"]
+    },
+    "Currency": {
+      "type": ["string"]
+    },
+    "ReferringDate": {
+      "type": ["string"],
+      "format": "date-time"
+    },
+    "EventDate": {
+      "type": ["string"],
+      "format": "date-time"
+    },
+    "CreationDate": {
+      "type": ["string"],
+      "format": "date-time"
+    },
+    "LockingDate": {
+      "type": ["string"],
+      "format": "date-time"
+    },
+    "ClearedDate": {
+      "type": ["string"],
+      "format": "date-time"
+    },
+    "ReferringType": {
+      "type": ["string"]
+    },
+    "ReferringDomain": {
+      "type": ["string"]
+    },
+    "PromoCode": {
+      "type": ["string"]
+    },
+    "Oid": {
+      "type": ["string"]
+    },
+    "CustomerArea": {
+      "type": ["string"]
+    },
+    "CustomerCity": {
+      "type": ["string"]
+    },
+    "CustomerRegion": {
+      "type": ["string"]
+    },
+    "CustomerCountry": {
+      "type": ["string"]
+    },
+    "SubId1": {
+      "type": ["string"]
+    },
+    "SubId2": {
+      "type": ["string"]
+    },
+    "SubId3": {
+      "type": ["string"]
+    },
+    "SharedId": {
+      "type": ["string"]
+    },
+    "Uri": {
+      "type": ["string"]
+    }
+  }
+}
