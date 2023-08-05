@@ -1,0 +1,13 @@
+pydens/__init__.py,sha256=e_VB1-Re0hRIYEK1-45wEuTPj39u-telveEMnS3C8cQ,278
+pydens/letters.py,sha256=LdB6eWTL60bjhksdKz38AnhVmXD_nbOHgzC-tZPPoCg,7122
+pydens/model_tf.py,sha256=ZKAqYVYt46xacerqIQaBmzly7-Qv3bKB3OzOQhIlT2k,20782
+pydens/syntax_tree.py,sha256=gbMMrI4IuuAkZm_QPQwp7tdnjNiLnPPPDAvKlW3D7-0,4489
+pydens/tokens.py,sha256=0xlR6S6wBxWP01DS2j7UmCb909gC8m1ZoMg4Kn3vvjc,3958
+pydens/wrapper.py,sha256=pgo9xUvgYrtnAwqXbeq95Jfsa7Lu42hZ-gMdZb0Q2Z0,3838
+pydens/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydens/tests/pydens_test.py,sha256=cCbk7NWLikyXTO5ntTBt-yzx0jLOTR7yg0SInIqZnHs,1139
+pydens-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydens-0.1.0.dist-info/METADATA,sha256=EYncRpE7FtfeWWlotyB27X2TwfxR0GOxf47wAJ_hQCM,8760
+pydens-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pydens-0.1.0.dist-info/top_level.txt,sha256=5wpC6DIsWGEXLFsDbt_JXJXhRr3DeP8PQN63_GCf5Ko,7
+pydens-0.1.0.dist-info/RECORD,,
