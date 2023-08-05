@@ -1,0 +1,3 @@
+[console_scripts]
+metron-tagger = metrontagger.metron_tagger:main
+
