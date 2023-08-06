@@ -1,0 +1,12 @@
+README.md
+setup.py
+better_requests/__init__.py
+better_requests/__version__.py
+better_requests/api.py
+better_requests/sessions.py
+better_requests.egg-info/PKG-INFO
+better_requests.egg-info/SOURCES.txt
+better_requests.egg-info/dependency_links.txt
+better_requests.egg-info/not-zip-safe
+better_requests.egg-info/requires.txt
+better_requests.egg-info/top_level.txt
