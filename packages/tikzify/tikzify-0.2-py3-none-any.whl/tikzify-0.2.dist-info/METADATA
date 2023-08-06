@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: tikzify
+Version: 0.2
+Summary: A set of utilities for programmatically generating TikZ code
+Home-page: UNKNOWN
+Author: Neil Girdhar
+Author-email: mistersheik@gmail.com
+License: UNKNOWN
+Download-URL: https://pypi.python.org/pypi/tikzify
+Project-URL: Bug Tracker, https://github.com/NeilGirdhar/tikzify/issues
+Project-URL: Source Code, https://github.com/NeilGirdhar/tikzify
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+
+=======
+Tikzify
+=======
+.. image:: https://badge.fury.io/py/tikzify.svg
+    :target: https://badge.fury.io/py/tikzify
+
+.. role:: bash(code)
+    :language: bash
+
+A set of utilities for programmatically generating TikZ code.
+
+Contribution guidelines
+=======================
+
+- Conventions
+
+  - Naming conventions are according to PEP8.
+
+- How to clean the source:
+
+  - :bash:`isort -rc -y`
+  - :bash:`autopep8 -r -i .`
+  - :bash:`pylint *`
+  - :bash:`flake8 .`
+
+Running
+=======
+
+Whom do I talk to?
+==================
+
+- Neil Girdhar
+
+
