@@ -1,0 +1,9 @@
+django_post_request_task-0.4.1.dist-info/DESCRIPTION.rst,sha256=TZodL2UQnCOG6ybhFr4vLjNHvUkGfXcZyV_sWNP7s3M,2019
+django_post_request_task-0.4.1.dist-info/METADATA,sha256=vnI_BLmF2gckBjGHM3qGjUCMa4ZNQUQ1voZG6soSI8Q,3350
+django_post_request_task-0.4.1.dist-info/RECORD,,
+django_post_request_task-0.4.1.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+django_post_request_task-0.4.1.dist-info/metadata.json,sha256=lIDmjGGZE7Hmqb2nFSqH-43kqqgtRV7emP-EbELeh4Q,1321
+django_post_request_task-0.4.1.dist-info/top_level.txt,sha256=-VKRVKDxCmHZc5OEELeFYWrjRrASiLXwRH4ahuutl2I,18
+post_request_task/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+post_request_task/task.py,sha256=dwu2DUP-t3zs51DPxehOEvCdLMPGQFcjXs4De_gteoc,3985
+post_request_task/tests.py,sha256=PG9oRqerltFHdzUwbUbWP5Zsrg4fokHpuNnRCD2amPE,7544
