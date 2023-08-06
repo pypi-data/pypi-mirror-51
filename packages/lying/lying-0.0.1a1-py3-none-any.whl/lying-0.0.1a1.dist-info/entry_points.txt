@@ -1,0 +1,3 @@
+[console_scripts]
+lying = lying.cli:main
+

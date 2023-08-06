@@ -1,0 +1,11 @@
+lying/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lying/cli.py,sha256=7vruhae1MORISjBxL7gBNjow3nR8ceA2BsQxab3vhrU,152
+lying/utils.py,sha256=v0wfCo39EYn8qW034OzMPEX4VQUKhNpijfAJEcPJMQ4,3715
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basic.py,sha256=CQTn8mhIZ5gHEU2MNEx938qt_j-vqLhNrAiNAg-FG94,1072
+lying-0.0.1a1.dist-info/LICENSE,sha256=VaHSyuHDerVFfESXCspoAKMQScg7TA3tCtJmFvxvguM,1069
+lying-0.0.1a1.dist-info/METADATA,sha256=ZFONf_gGDLTDm9c7gHfVHkNpyaz8EHq2MY_dPkLVnbM,1178
+lying-0.0.1a1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+lying-0.0.1a1.dist-info/entry_points.txt,sha256=1-HpP-i0X-DASG48659QsiJJrSDe56sZPnS2ABO71mw,42
+lying-0.0.1a1.dist-info/top_level.txt,sha256=OfS6TW_n_OefEp9LtybRGdwAwlUneiHHkvPBhA7cEeg,12
+lying-0.0.1a1.dist-info/RECORD,,
