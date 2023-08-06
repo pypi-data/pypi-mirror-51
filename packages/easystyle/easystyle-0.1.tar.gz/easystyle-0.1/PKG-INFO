@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: easystyle
+Version: 0.1
+Summary: A library that allows the user to quickly analyze data at a basic level without exporting to excel
+Home-page: https://github.com/ethandrobbins/easystyle
+Author: Ethan Robbins
+Author-email: ethan.d.robbins@gmail.com
+License: MIT
+Download-URL: https://github.com/ethandrobbins/easystyle/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: STYLE,PANDAS,DATA
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
