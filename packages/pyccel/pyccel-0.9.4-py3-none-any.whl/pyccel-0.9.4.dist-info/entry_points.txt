@@ -1,0 +1,6 @@
+[console_scripts]
+ipyccel = pyccel.commands.ipyccel:ipyccel
+pyccel = pyccel.commands.console:pyccel
+pyccel-build = pyccel.commands.build:main
+pyccel-quickstart = pyccel.commands.quickstart:main
+
