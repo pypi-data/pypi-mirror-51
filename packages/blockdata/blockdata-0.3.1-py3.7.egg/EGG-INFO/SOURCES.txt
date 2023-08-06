@@ -1,0 +1,8 @@
+README.md
+setup.py
+blockdata/__init__.py
+blockdata/blockdata.py
+blockdata.egg-info/PKG-INFO
+blockdata.egg-info/SOURCES.txt
+blockdata.egg-info/dependency_links.txt
+blockdata.egg-info/top_level.txt
