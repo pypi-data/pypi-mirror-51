@@ -1,0 +1,16 @@
+cli/__init__.py,sha256=56abWUaKGmZ5liPiQKP8oQbqRs9bAskoQ5Inp9CAyAo,46
+cli/tools.py,sha256=eZN_JdBUX1Rbsx5JgdbzIEnboWMQf187YMhVqL_Kspg,4805
+cli/workfrontcli.py,sha256=1zmVM3YYEuxDYyv1sq6__ygb-LgKTPds9P7q5-j5r0Q,2396
+services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+services/creds.py,sha256=b0-3qANnpFbk6gWx2QRtPvjkiYayvx0Quvo32ogj7r0,487
+services/db_util.py,sha256=PbnrYCCdaVQegudJ4Wr1efmu3iWi530-Cb8X8XkCVEg,2367
+services/settings.py,sha256=01Kf0Vf2I2z9vEhCjUq3mDDOW7olET04SdNL6yJ-JnY,4857
+services/workfront.py,sha256=7yZ4oFX1IBz6lgpCVctSuY9ZF6PrXuK99CsY3x8Y_QM,10649
+tests/test_db_connection.py,sha256=YN1WREM9SYnaQwxkSNWq3kTZbLzUXyF-Kfk0WwK85Ug,1135
+tests/test_workfront.py,sha256=IBy4JEMy7ZQXx0mbkeoXkoSok0lO8rj_mmaGDkmCzwo,2782
+workfrontutil-0.1.0.dist-info/LICENSE.md,sha256=lBz9Tahdm9MjLpao4EWF8xM77pt_Z6gXPMNuBTJma20,1071
+workfrontutil-0.1.0.dist-info/METADATA,sha256=jbJc0d4TrC8wJRHHNHF_jIgjK-mdjXzUl46Hrd1R9vM,2555
+workfrontutil-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+workfrontutil-0.1.0.dist-info/entry_points.txt,sha256=aQx6OV1mKRwzqzFU9gxcXqiW_1C0aFGgaqiy6yp94yU,57
+workfrontutil-0.1.0.dist-info/top_level.txt,sha256=P_cxNzi7PMlIgsFjTe5NsMckOfe6zoLPw9uvEWPt1lA,19
+workfrontutil-0.1.0.dist-info/RECORD,,
