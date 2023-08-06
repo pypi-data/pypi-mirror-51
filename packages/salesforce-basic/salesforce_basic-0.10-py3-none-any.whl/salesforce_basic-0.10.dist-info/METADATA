@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: salesforce-basic
+Version: 0.10
+Summary: Basic class for talking to salesforce, refreshes the access token if needed
+Home-page: https://github.com/openfibernet/salesforce_basic
+Author: Dan Aronson
+Author-email: dan@openfiber.net
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3
+
+UNKNOWN
+
+
