@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gprof2dot_magic
+Version: 0.4
+Summary: magic function that profile any statement as a dot graph using cProfile, gprof2dot and graphviz
+Home-page: https://github.com/mattijn/gprof2dot_magic
+License: UNKNOWN
+Author: Mattijn van Hoek
+Author-email: mattijn@gmail.com
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: gprof2dot
+Requires-Dist: graphviz
+Provides-Extra: .none
