@@ -1,0 +1,6 @@
+ojuara.py
+setup.py
+emily_pypi.egg-info/PKG-INFO
+emily_pypi.egg-info/SOURCES.txt
+emily_pypi.egg-info/dependency_links.txt
+emily_pypi.egg-info/top_level.txt
