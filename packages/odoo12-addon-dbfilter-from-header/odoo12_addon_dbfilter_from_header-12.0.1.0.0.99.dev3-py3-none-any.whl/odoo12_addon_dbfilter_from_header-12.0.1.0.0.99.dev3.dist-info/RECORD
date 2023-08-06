@@ -1,0 +1,17 @@
+odoo/addons/dbfilter_from_header/README.rst,sha256=qpfZgFE_-VDV9RHPd4PvFc5ZUoMXgPJwE_Kzv1VXzoY,4045
+odoo/addons/dbfilter_from_header/__init__.py,sha256=lXYAj0mSoeGn7onjiRcbU67WMz4TRYnNLi9lP5uGUkk,24
+odoo/addons/dbfilter_from_header/__manifest__.py,sha256=z3qbETyRLtVPmPU2GO9ifoGvoszahCr9vo9xDW0DYAs,570
+odoo/addons/dbfilter_from_header/override.py,sha256=GDoDaOSg53lS6JbUgEsaY8zIfAVqSMB8f_Yowc1SUlg,790
+odoo/addons/dbfilter_from_header/i18n/dbfilter_from_header.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/dbfilter_from_header/i18n/zh_CN.po,sha256=pVzxgr70XZjMzQcpNQ0WUZHZBo9Xx87nM6G82t8BPW4,409
+odoo/addons/dbfilter_from_header/readme/CONFIGURE.rst,sha256=5U9xOyV9wAnQDtSa6GFDO7JzB4AMF0qknOwhRXdFY08,470
+odoo/addons/dbfilter_from_header/readme/CONTRIBUTORS.rst,sha256=quJsOh-hEKKbV_0UVU8jCAOBgBgFMudwza8Oj0YNB_Y,434
+odoo/addons/dbfilter_from_header/readme/DESCRIPTION.rst,sha256=6snijm91gb0oYyt2Vozp5hKfLhaY8tencAnGNiZl67Q,146
+odoo/addons/dbfilter_from_header/readme/INSTALL.rst,sha256=0MP7PFBTJ2qrtlBbwZHuYsIKqr-Gqyl4vST10ksYX_8,285
+odoo/addons/dbfilter_from_header/readme/USAGE.rst,sha256=jJwwxVu-uPzKBQfK9JI10oQPdm9l0_8VIdPYouEPGTE,79
+odoo/addons/dbfilter_from_header/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/dbfilter_from_header/static/description/index.html,sha256=h8JssZmQtiT32f2F00XWxRHmQqUQgJ00S8Vg-pc9UPg,14921
+odoo12_addon_dbfilter_from_header-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=3Zk5lKJhbtY1Q-lNOwtMe5E8FPZoNv_efXRuhGHjNYA,4566
+odoo12_addon_dbfilter_from_header-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+odoo12_addon_dbfilter_from_header-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_dbfilter_from_header-12.0.1.0.0.99.dev3.dist-info/RECORD,,
