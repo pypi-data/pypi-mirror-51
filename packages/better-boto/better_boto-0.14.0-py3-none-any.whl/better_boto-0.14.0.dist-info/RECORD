@@ -1,0 +1,14 @@
+betterboto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+betterboto/client.py,sha256=mHD80RBmjt5UhVXk276NgAgJerepTx72ToVP3YkqwIA,6373
+betterboto/cloudformation.py,sha256=V71evNnVxtgE-XmN9t9ZXzfds1JiRA8ejmorPEkWYP4,4014
+betterboto/codebuild.py,sha256=5Avq6wZkB-R1bciVvsP5fYPym2nefDj_5zfsOyATcsw,967
+betterboto/codecommit.py,sha256=5iq65QTziSE6LXFTwEVTzGVAWt9sANTt3Ii-vuu1zJg,793
+betterboto/guardduty.py,sha256=99ujHWZUGRCcIjA1hg2jtd-Nqg022Rn-SD7UccUpsGA,739
+betterboto/organizations.py,sha256=pl1FGNw_dBwSQVdJG48U2ptnuStS1N1u6sdE-P6r5J4,7807
+betterboto/servicecatalog.py,sha256=8TIrdvmAxbCFzpL0JJ8ULyvDpHjDDcv_RsievXCJP4s,5249
+betterboto/utils.py,sha256=3upGZlt7KZiG13AUM5GziT9xnWtssBQpRUf1soC5xMc,768
+better_boto-0.14.0.dist-info/LICENSE,sha256=cR6NRBtP1pXyg5i5tSZmGgKDximq6lq9N9Ep-UfWWSk,1073
+better_boto-0.14.0.dist-info/METADATA,sha256=BwVFPF7bYddX6mvW18R2rX0AqBf09RpeS0t0jPIW0ec,1642
+better_boto-0.14.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+better_boto-0.14.0.dist-info/top_level.txt,sha256=fgjwheMfemvEhkkZIRokXruOVQFH2RJUZhNzLNSGIl0,11
+better_boto-0.14.0.dist-info/RECORD,,
