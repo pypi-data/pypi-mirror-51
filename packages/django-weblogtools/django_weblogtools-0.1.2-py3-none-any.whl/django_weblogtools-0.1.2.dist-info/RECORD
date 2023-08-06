@@ -1,0 +1,16 @@
+weblogtools/__init__.py,sha256=sNDC9ZhFuRJrazAcDHms1Bw-Vh3jcRLTRs12F9iEy4Y,119
+weblogtools/admin.py,sha256=Eo43HZdmW3U7aarhW7qWVNX_5_w5T6uZGZhaXMLnRJ8,1035
+weblogtools/apps.py,sha256=IFVwxp3KBKwXS5vET5zd2s6xEQ-sXxDePH0ob6InynE,187
+weblogtools/biz.py,sha256=Q2QzeIYWUYDdIsjhTEE4ewnMp_jTuFEZ8P1Pqze37II,2090
+weblogtools/models.py,sha256=iXHqE-An6hiiPqWTXzXj56j4ZRRth5f9-BTMjvJg7lk,2019
+weblogtools/signals.py,sha256=2EMuXyaXFdc9LygwuJvp-8InRRh0YhLgfFv8f6g5bRI,488
+weblogtools/tests.py,sha256=DV4PwpYr1bPXjDWiJSGUXrgrPYO-OUbfxMeIqOfcC30,61
+weblogtools/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+weblogtools/migrations/0001_initial.py,sha256=XveADZCeRFGqpRLTOqqtgd7JKlj35j27tqWqaA_9Jjw,1889
+weblogtools/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weblogtools/templates/weblogtools/change_form.html,sha256=v6Kzz9ZwuXI9btsv-DOdrMMi-uiF1bjCsw3gkTzpU-0,3233
+django_weblogtools-0.1.2.dist-info/LICENSE,sha256=gFTyQ57qrLVBxwGJwL_13cOq7q4hyqAyhyVF-dwTWtI,1516
+django_weblogtools-0.1.2.dist-info/METADATA,sha256=pyziNX3a7CLe7gziXiwQTpGQH1b8liMDCVOxTYTrDms,1654
+django_weblogtools-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_weblogtools-0.1.2.dist-info/top_level.txt,sha256=LYibIE_TChUcOwGFsyTu62D4ICQA7L0bATwAoKHmrx0,12
+django_weblogtools-0.1.2.dist-info/RECORD,,
