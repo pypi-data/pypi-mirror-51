@@ -1,0 +1,4 @@
+[console_scripts]
+cstql = cstqlorz:cstql
+wtcl = cstqlorz:wtcl
+

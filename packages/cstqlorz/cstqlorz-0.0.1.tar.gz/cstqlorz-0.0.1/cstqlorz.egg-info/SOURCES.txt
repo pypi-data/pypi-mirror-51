@@ -1,0 +1,7 @@
+setup.py
+cstqlorz/__init__.py
+cstqlorz.egg-info/PKG-INFO
+cstqlorz.egg-info/SOURCES.txt
+cstqlorz.egg-info/dependency_links.txt
+cstqlorz.egg-info/entry_points.txt
+cstqlorz.egg-info/top_level.txt
