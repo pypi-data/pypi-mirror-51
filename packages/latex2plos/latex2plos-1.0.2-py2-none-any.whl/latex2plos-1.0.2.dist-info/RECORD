@@ -1,0 +1,17 @@
+latex2plos/__init__.py,sha256=ZTipNH6wyC6qsq1H_lZsvJyVruUa1nu3y4EysMdkpuU,22
+latex2plos/constants.py,sha256=VqSjssvddEb0iY5ZII6sGkh4TzIFoSNtDmsZa3vkR-4,58
+latex2plos/main.py,sha256=RAfJCIzBK6IyjRfW9lEB0-dewONu9yrD4xN9HYBJXl0,252
+latex2plos/parser.py,sha256=4IBghZbzKK1GjjL8AUJotgt4sXbBLkfxUzKyxt6G3MA,1654
+latex2plos/shell.py,sha256=s1rZOWqvsKGv015ExN2jYUCbSZa9exaiyd2V2ulkHug,1720
+latex2plos/utils.py,sha256=Fvi6cI4ZPStKLj8Kr8UHhrbAndihtKMFLyk0VJY1TCs,212
+latex2plos/transformers/__init__.py,sha256=6718mSwUWPjjbAV5OfwKksBDnwKSeFJ7HukPbt7fReM,43
+latex2plos/transformers/base.py,sha256=PnuRF2bpd2HLX-I6a8B9U5Ks4dBKI4Mabx6Qqgwyatk,912
+latex2plos/transformers/copy.py,sha256=1sBiLneSNWWva5EyNagRGMJLXSc3PrU4-Kvau2uKHxY,2553
+latex2plos/transformers/include.py,sha256=WMDgwd9xaXYBepfi-pQNndLPgYXzs7_4MEMYjrkF7VQ,1698
+latex2plos-1.0.2.dist-info/DESCRIPTION.rst,sha256=bB2SHko5eD2TQi4ec5iWdV44P_VR-HS1IUX7IHzRkpI,2921
+latex2plos-1.0.2.dist-info/METADATA,sha256=HSQzAy7pG60iPMdGe-kDl6mVFq01-9d3fZh-XQSCbDg,3889
+latex2plos-1.0.2.dist-info/RECORD,,
+latex2plos-1.0.2.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+latex2plos-1.0.2.dist-info/entry_points.txt,sha256=DXH3VU0_ceI2vP5LOhJ59DM68574yv_Uu0BqVVTeadQ,54
+latex2plos-1.0.2.dist-info/metadata.json,sha256=wtudjbwN9-mmrcCQ_PH103epmEGNVLCkMjrz5_A5XgY,1220
+latex2plos-1.0.2.dist-info/top_level.txt,sha256=eyRPi27QmuvNYSSUv7zcMjqJPwRkmnuQBzWMf0uPcDk,11
