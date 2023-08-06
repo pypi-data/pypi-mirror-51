@@ -1,0 +1,3 @@
+[console_scripts]
+pulseaudio_switch = pulseaudio_switch.main:main
+

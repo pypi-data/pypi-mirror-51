@@ -1,0 +1,7 @@
+README.md
+setup.py
+pulseaudio_switch.egg-info/PKG-INFO
+pulseaudio_switch.egg-info/SOURCES.txt
+pulseaudio_switch.egg-info/dependency_links.txt
+pulseaudio_switch.egg-info/entry_points.txt
+pulseaudio_switch.egg-info/top_level.txt
