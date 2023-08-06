@@ -1,0 +1,116 @@
+Metadata-Version: 1.1
+Name: iso-language-codes
+Version: 1.1.0
+Summary: Get ISO code for a given language
+Home-page: https://github.com/kirinokirino/iso_language_codes
+Author: Andrei Ruzin
+Author-email: kirinokirino2501@gmail.com
+License: MIT license
+Description: ==================
+        ISO Language Codes
+        ==================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/iso_language_codes.svg
+                :target: https://pypi.python.org/pypi/iso_language_codes
+        
+        .. image:: https://img.shields.io/travis/kirinokirino/iso_language_codes.svg
+                :target: https://travis-ci.org/kirinokirino/iso_language_codes
+        
+        .. image:: https://readthedocs.org/projects/iso-language-codes/badge/?version=latest
+                :target: https://iso-language-codes.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Get ISO code for a given language
+        
+        
+        * Free software: MIT license
+        * Documentation: https://iso-language-codes.readthedocs.io.
+        
+        
+        Usage
+        --------
+        
+        Import this package in your script:
+        
+            >>> from iso_language_codes import *
+        
+        Get info about a language via Two-letter ISO code:
+        
+            >>> language('ru')
+                {'Name': 'Russian', 'Autonym': 'Р СѓСЃСЃРєРёР№'}
+        
+        Or get name and autonym directly with:
+        
+            >>> language_name('ru')
+                'Russian'
+        
+            >>> language_autonym('ru')
+                'Р СѓСЃСЃРєРёР№'
+        
+        You can also get entire dictionary of languages:
+        
+            >>> languages = language_dictionary()
+            >>> languages.keys()
+                dict_keys(['', 'aa', 'bn', 'ab', ...])
+        
+        Credits
+        -------
+        This package uses edited iso639-autonyms database from `bbqsrc/iso639-autonyms`_  
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        .. _`bbqsrc/iso639-autonyms`: https://github.com/bbqsrc/iso639-autonyms
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 
+        ------------------
+        
+        * Base from filled cookiecutter-pypackage template.
+        
+        
+        0.2.0 
+        ------------------
+        
+        * Basic functionality of the module.
+        
+        
+        0.3.0 
+        ------------------
+        
+        * Added Tests for language, language_name and language_autonym functions.
+        * Added Documentation.
+        * Fixed bug with path to database.
+        * Metadata changes.
+        
+        
+        1.0.0 
+        ------------------
+        
+        * Changes to CONTRIBUTING.rst.
+        * Changes to Makefile.
+        * Changes to README.rst.
+        * Added usage examples and credited database source.
+        * Compiled documentation.
+        
+        1.1.0
+        ------------------
+        
+        * Moved module code into __init__ file.
+        * Updated history and tests.
+Keywords: iso_language_codes
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
