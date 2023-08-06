@@ -1,0 +1,7 @@
+README.md
+setup.py
+yamconv.egg-info/PKG-INFO
+yamconv.egg-info/SOURCES.txt
+yamconv.egg-info/dependency_links.txt
+yamconv.egg-info/top_level.txt
+yamconv.egg-info/zip-safe
