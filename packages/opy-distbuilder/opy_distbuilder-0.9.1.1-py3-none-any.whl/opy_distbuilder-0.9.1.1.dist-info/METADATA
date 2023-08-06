@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: opy-distbuilder
+Version: 0.9.1.1
+Summary: Python obfuscator for the "Distribution Builder" library. An officially endorsed fork from the Opy master.
+Home-page: https://github.com/QQuick/Opy/tree/opy_distbuilder
+Author: Jacques de Hooge, BuvinJ
+Author-email: buvintech@gmail.com
+License: Apache 2
+Requires-Dist: six
+
+.. figure:: http://www.qquick.org/opy.jpg
+
+

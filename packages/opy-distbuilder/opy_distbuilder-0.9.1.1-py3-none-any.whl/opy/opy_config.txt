@@ -1,0 +1,184 @@
+'''
+Copyright (C) 2014 - 2017 Jacques de Hooge, Geatec Engineering, www.geatec.com
+
+This program is free software.
+You can use, redistribute and/or modify it, but only under the terms stated in the QQuickLicence.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY, without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the QQuickLicence at www.qquick.org/licence.html for details.
+'''
+
+
+
+#====================================================================================================
+# General options
+# All options have default value False
+#====================================================================================================
+
+obfuscate_strings = True        # Don't rely on this for sensitive information
+obfuscated_name_tail = '_opy_'  # Will be added to all obfuscated names to avoid clashes with plain names
+plain_marker = '_opy_'          # Strings or comments containing this marker will not be obfuscated
+pep8_comments = True            # If True, only inline comments of the form <blank><blank>#<blank>
+                                # will be recognized, allowing # to appear in strings as long as
+                                # it doesn't have that particular form
+                                
+
+
+#====================================================================================================
+# Extensions of files that should be obfuscated
+# Typically these are files containing Python source code
+# Other files are just copied to the target directory
+#====================================================================================================
+
+source_extensions = '''
+py
+pyx
+'''
+
+
+
+#====================================================================================================
+# Extensions of files that should neither be obfuscated nor copied to the target directory
+# Typically these are .pyc files, which could easily be decompiled, breaking obfuscation
+#====================================================================================================
+
+skip_extensions = '''
+pyc
+'''
+
+
+
+#====================================================================================================
+# Enabling skip_public prevents obfuscating those members of a module which are not explicitly 
+# denoted - or scoped - as "private" (using a __ double underscore prefix).
+# This is most useful for obfuscating a library you wish to distribute, while leaving those 
+# identifiers such as constants, functions, class names, and class attributes in clear text. 
+#====================================================================================================
+
+skip_public = False
+
+
+
+#====================================================================================================
+# Fragments that, when occurring in the path of a file, will cause this file to be ignored
+# In other words, such files will neither be obfuscated nor copied
+# Use this to exclude complete directories from any processing by Opy
+# N.B. Use forward slashes rather than backslashes, also on Windows!
+#====================================================================================================
+
+skip_path_fragments = '''
+test_dummy
+'''
+
+
+
+#====================================================================================================
+# Modules in sys.path containing identifiers that should not be obfuscated
+# Typically these are installed standard or 3rd party modules of which you have no source code
+# Use dotted names if needed, e.g. include both matplotlib and matplotlib.pyplot
+#====================================================================================================
+
+external_modules = '''
+re
+os
+sys
+io
+errno
+keyword
+importlib
+random
+codecs
+shutil
+traceback
+collections
+json
+datetime 
+'''
+
+
+
+#====================================================================================================
+# *** BETA FEATURE ***
+#
+# Rather than leave external modules references in clear text, you may instead
+# opt to bundle the source of those into your obfuscated version of the code, thereby
+# allowing you to hide those details as well.  Based on upon your method for bundling,
+# or how your Python path will be configured, etc. you might find it necessary (or easier) 
+# to modify your imports during the obfuscation process.
+# Note: the values for replacement_modules must defined in pairs as old:new (no spaces permitted)   
+#====================================================================================================
+
+replacement_modules = '''
+dummyModule:bundledLibs.dummyReplacement.__init__
+'''
+
+
+
+#====================================================================================================
+# *** BETA FEATURE ***
+#
+# The imported identifiers in the external_modules list (not to be obfuscated),
+# may instead be "masked" by assigning obfuscated ALIASES to them.  This is  
+# fairly trivial to reverse engineer, but still reduces immediate readability.
+#====================================================================================================
+
+mask_external_modules = True
+
+
+
+#====================================================================================================
+# Relative path + name of Python source files containing identifiers that should not be obfuscated
+# Typically these are human readable settings files loaded and exec'ed at runtime by your program
+# Do not use this facility for files that are imported, that's what external_modules is for
+# Also don't use it to keep the original file name for your main module, that what plain_names is for
+#====================================================================================================
+
+plain_files = '''
+opy_config.txt
+'''
+
+
+
+#====================================================================================================
+# Extra identifiers and module names (as opposed to contents) that should not be obfuscated
+# Probably at least the names of your main modules (so not their filenames) go here
+# If e.g. your main module is in my_main_module.py, include my_main_module in plain_names
+#====================================================================================================
+
+plain_names = '''
+opy
+poly_walker_test
+'''
+
+
+
+#====================================================================================================
+# Specify a subset of files to process, rather than the entire source directory.  May be useful during
+# the process of tweaking the source or the configuration.  It also allows for running the process
+# in separate steps, with alternate configurations per sets of files. 
+#====================================================================================================
+
+subset_files = '''
+'''
+
+
+
+#====================================================================================================
+# Setting dry_run to True prevents creating any actual results.  Analytics are still performed and  
+# can be evaluated / utilized. 
+#====================================================================================================
+
+dry_run = False
+
+
+
+#====================================================================================================
+# Similar to dry_run, prepped_only prevents the production of obfuscated results. Instead, the clear
+# text, "pre-obfuscation stage" of the files will be produced.  This includes module "replacements",
+# "masks", etc.  This may prove to be highly useful in the process of defining a configuration. 
+#====================================================================================================
+
+prepped_only = False
+
