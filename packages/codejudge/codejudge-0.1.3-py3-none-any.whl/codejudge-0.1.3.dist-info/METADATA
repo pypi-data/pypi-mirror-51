@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: codejudge
+Version: 0.1.3
+Summary: Synchronization CLI for CodeJudge.net
+Home-page: https://codejudge.net
+Author: CodeJudge ApS
+Author-email: info@codejudge.net
+License: MIT
+Keywords: codejudge sync
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+
