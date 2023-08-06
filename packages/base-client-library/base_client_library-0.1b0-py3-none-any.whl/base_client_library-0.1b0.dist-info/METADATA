@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: base-client-library
+Version: 0.1b0
+Summary: Base Client Library
+Home-page: https://gitlab.com/benjamin.small83/base-client-library
+Author: Ben Small
+Author-email: benjamin.small83@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: requests
+
+UNKNOWN
+
+
