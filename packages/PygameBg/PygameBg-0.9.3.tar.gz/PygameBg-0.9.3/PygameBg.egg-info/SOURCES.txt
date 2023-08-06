@@ -1,0 +1,9 @@
+README.rst
+pygamebg.py
+setup.py
+PygameBg.egg-info/PKG-INFO
+PygameBg.egg-info/SOURCES.txt
+PygameBg.egg-info/dependency_links.txt
+PygameBg.egg-info/requires.txt
+PygameBg.egg-info/top_level.txt
+PygameBg.egg-info/zip-safe
