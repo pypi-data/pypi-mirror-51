@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aurora-connector
+Version: 0.0.3
+Summary: A Python AWS Aurora Serverless Connector.
+Home-page: https://github.com/johnyob/Aurora-Connector
+Author: Alistair O'Brien
+Author-email: alistair@duneroot.co.uk
+License: UNKNOWN
+Description: # AWS Aurora Serverless Connector
+        README TODO
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
