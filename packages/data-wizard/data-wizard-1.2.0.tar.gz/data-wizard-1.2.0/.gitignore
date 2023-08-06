@@ -1,0 +1,7 @@
+*.pyc
+*.egg-info
+*.egg
+*.sw?
+build
+dist
+data_wizard_test.sqlite3
