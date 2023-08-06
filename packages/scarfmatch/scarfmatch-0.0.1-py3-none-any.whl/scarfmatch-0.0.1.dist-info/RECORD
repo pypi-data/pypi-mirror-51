@@ -1,0 +1,11 @@
+scarf/__init__.py,sha256=aU5SwOhxdKDtCfpVBUelpenb4lf3bSAlUrs4Cf1xkJk,2416
+scarf/core.py,sha256=l1m_KocQ7nSIEvIWu9AUi13p8XQLymZZYDvo2p1DAno,12643
+scarf/instance.py,sha256=6ZM8-0W2isrh_62xYIboY8cgXQ247rj7MULUu8u7JFU,25799
+scarf/io.py,sha256=zDGuZRAQwcFNvN2F5x2yaA3qyu-n3DeHc9ATCoCgIFc,3587
+scarf/random.py,sha256=HXBlbIgJ5lPB7_EqU337vZSmhrjqd5IntEXQfNPnzr0,3840
+scarf/utils.py,sha256=0m1gIUpzRVEfgmtqX6gO-SIwbcIA7YUkAujro0UFgLQ,4089
+scarfmatch-0.0.1.dist-info/LICENSE,sha256=FfKwfQt5CGnsE94rtLVKoN8VMrK1gFnU1ucGopQcafQ,1110
+scarfmatch-0.0.1.dist-info/METADATA,sha256=kO4ONq95RH7RsKsClgDiKpyp0BIwaR6uZuJI56W-F8g,1649
+scarfmatch-0.0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+scarfmatch-0.0.1.dist-info/top_level.txt,sha256=kAGKpK1_pFwh8OMwtoLqJldIoBQAA72vCqA1-EYVsdY,6
+scarfmatch-0.0.1.dist-info/RECORD,,
