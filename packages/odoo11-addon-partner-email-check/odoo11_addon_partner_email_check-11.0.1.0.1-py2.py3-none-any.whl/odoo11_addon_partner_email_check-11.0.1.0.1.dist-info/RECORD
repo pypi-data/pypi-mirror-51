@@ -1,0 +1,13 @@
+odoo/addons/partner_email_check/README.rst,sha256=CX0L60XJsW0Cl25n0nSrpHwHUVICKiQHyeGrKmigRTQ,1488
+odoo/addons/partner_email_check/__init__.py,sha256=eShEGRadAlxopoLqIQ4-N42FM7MWPSuBe0h_l1cXTPM,87
+odoo/addons/partner_email_check/__manifest__.py,sha256=Z0UB40vl15lDNV5-1I4qGUam3wmYlr4LNA3_TlwvghI,551
+odoo/addons/partner_email_check/i18n/partner_email_check.pot,sha256=OjHj1JYhTNjg43z9hJE2SsROgCj7G5564ABCK6Bz4fE,630
+odoo/addons/partner_email_check/models/__init__.py,sha256=CWabPLLEimw1uG7hyUo1mOCdFbuSRrI2Wj_lTjV17RE,92
+odoo/addons/partner_email_check/models/res_partner.py,sha256=UHdhpsZlPTawViVzH28T-6_XGWMHbngIJ1xrUxkkJX4,906
+odoo/addons/partner_email_check/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/partner_email_check/tests/__init__.py,sha256=FRkxA0tStVnCt7zQJ2szNCk-E3JSqEkrCee-buSF0os,105
+odoo/addons/partner_email_check/tests/test_partner_email_check.py,sha256=xd2-HPS7yHxByC2ELQePV-FizBt8ova0u9ih_mTSCrU,792
+odoo11_addon_partner_email_check-11.0.1.0.1.dist-info/METADATA,sha256=iAyR5F0GlhixFpl4a0JUmT4r4iMLYnGAfbNGHIdGR-Y,2069
+odoo11_addon_partner_email_check-11.0.1.0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+odoo11_addon_partner_email_check-11.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_partner_email_check-11.0.1.0.1.dist-info/RECORD,,
