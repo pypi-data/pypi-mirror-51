@@ -1,0 +1,3 @@
+[pytest11]
+pytest_demo = pypi_foreverchaos_test.plugin
+

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pypi-foreverchaos-test
+Version: 1.0.0.0
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: Example Author
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+
+UNKNOWN
+
+
