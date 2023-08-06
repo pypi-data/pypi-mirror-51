@@ -1,0 +1,8 @@
+name: DIALS for ED
+author: David Waterman (2019)
+license: CC-BY 4.0
+description: >
+  A refined MTZ derived from DIALS processing of electron diffraction data
+
+data:
+ - url: https://github.com/dials/data-files/raw/80840b5cd2d6d75dd05859cabc27e844a7344049/DIALS_for_ED_test_data/refmac_final.mtz
