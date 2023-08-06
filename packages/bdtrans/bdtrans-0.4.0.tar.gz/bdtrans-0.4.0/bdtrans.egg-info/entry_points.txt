@@ -1,0 +1,3 @@
+[console_scripts]
+bdtrans = bdtrans.cmdline:start_cmd
+
