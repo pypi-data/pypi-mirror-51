@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        hello=shopee_cmd.hello:hello
+        import_bins=shopee_cmd.import_bins:run
+    

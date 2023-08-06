@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+shopee_cmd/__init__.py
+shopee_cmd/hello.py
+shopee_cmd/import_bins.py
+shopee_cmd.egg-info/PKG-INFO
+shopee_cmd.egg-info/SOURCES.txt
+shopee_cmd.egg-info/dependency_links.txt
+shopee_cmd.egg-info/entry_points.txt
+shopee_cmd.egg-info/requires.txt
+shopee_cmd.egg-info/top_level.txt
