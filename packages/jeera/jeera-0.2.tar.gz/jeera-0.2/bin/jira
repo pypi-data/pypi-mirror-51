@@ -1,0 +1,102 @@
+#! /usr/bin/env python3
+
+import os
+import requests
+import click
+
+
+class JIRAClient(object):
+    BASE_URL = "https://indicodata.atlassian.net"
+    token = os.getenv("JIRA_API_TOKEN")
+    DEFAULT_HEADERS = {"Authorization": f"Basic {token}"}
+    BOARD_ID = 2
+
+    @classmethod
+    def _make_request(cls, method, path, **request_kwargs):
+        response = getattr(requests, method)(
+            cls.BASE_URL + path, headers=cls.DEFAULT_HEADERS, **request_kwargs
+        )
+        click.secho(
+            f"{method.upper()}:{path} with status {response.status_code}",
+            fg="bright_black",
+        )
+
+        if response.status_code >= 400:
+            click.secho(response.status_code, response.content, fg="red")
+        else:
+            try:
+                return response.json()
+            except ValueError:
+                return response.content
+
+    @classmethod
+    def get(cls, path, **request_kwargs):
+        return cls._make_request("get", path, **request_kwargs)
+
+    @classmethod
+    def post(cls, path, **request_kwargs):
+        return cls._make_request("post", path, **request_kwargs)
+
+    @classmethod
+    def put(cls, path, **request_kwargs):
+        return cls._make_request("put", path, **request_kwargs)
+
+    @classmethod
+    def delete(cls, path, **request_kwargs):
+        return cls._make_request("delete", path, **request_kwargs)
+
+    @classmethod
+    def get_current_sprint(cls, board_id=BOARD_ID):
+        return cls.get(
+            f"/rest/agile/1.0/board/{board_id}/sprint", params={"state": "active"}
+        )["values"][0]
+
+    @classmethod
+    def move_ticket_to_sprint(cls, tickets, sprint_id):
+        return cls.post(
+            f"/rest/agile/1.0/sprint/{sprint_id}/issue",
+            json={"issues": [f"DEV-{ticket}" for ticket in tickets]},
+        )
+
+    @classmethod
+    def get_tickets_by_type(cls, ticket_type, sprint_id=None, board_id=BOARD_ID):
+        if sprint_id is None:
+            sprint_id = cls.get_current_sprint()["id"]
+
+        return cls.get(
+            f"/rest/agile/1.0/board/{board_id}/sprint/{sprint_id}/issue",
+            params={"jql": f"issueType = {ticket_type}"},
+        )
+
+
+@click.group()
+def main():
+    pass
+
+
+@main.command("mtcs")
+@click.argument("tickets", nargs=-1)
+def move_to_current_sprint(tickets):
+    """
+    Argument [tickets] as space separated DEV-{ticket} values
+    Result:
+        You should get a 204 status result and the tickets will be moved into the currently active sprint.
+    """
+    sprint = JIRAClient.get_current_sprint()
+    click.secho(f"Moving {tickets} to sprint {sprint['name']}", fg="green")
+    JIRAClient.move_ticket_to_sprint(tickets, sprint["id"])
+
+
+@main.command("release")
+def get_current_release():
+    issues = JIRAClient.get_tickets_by_type("Release")["issues"]
+    click.secho("Release in this sprint", fg="red")
+    for issue in issues:
+        click.secho(
+            f"{issue['fields']['summary']}: https://indicodata.atlassian.net/browse/{issue['key']}",
+            fg="cyan",
+        )
+
+
+if __name__ == "__main__":
+    main()
