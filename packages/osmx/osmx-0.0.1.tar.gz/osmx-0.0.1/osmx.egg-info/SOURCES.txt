@@ -1,0 +1,10 @@
+README.md
+setup.py
+osmx/__init__.py
+osmx/messages.capnp
+osmx/osmx.py
+osmx.egg-info/PKG-INFO
+osmx.egg-info/SOURCES.txt
+osmx.egg-info/dependency_links.txt
+osmx.egg-info/requires.txt
+osmx.egg-info/top_level.txt
