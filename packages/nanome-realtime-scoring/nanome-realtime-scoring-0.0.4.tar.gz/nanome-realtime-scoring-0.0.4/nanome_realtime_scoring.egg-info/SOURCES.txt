@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+nanome_realtime_scoring/RealtimeScoring.py
+nanome_realtime_scoring/__init__.py
+nanome_realtime_scoring/_scoring_menu.json
+nanome_realtime_scoring/smina
+nanome_realtime_scoring.egg-info/PKG-INFO
+nanome_realtime_scoring.egg-info/SOURCES.txt
+nanome_realtime_scoring.egg-info/dependency_links.txt
+nanome_realtime_scoring.egg-info/entry_points.txt
+nanome_realtime_scoring.egg-info/requires.txt
+nanome_realtime_scoring.egg-info/top_level.txt
