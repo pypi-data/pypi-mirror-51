@@ -1,0 +1,3 @@
+cpp_proto
+diplomacy_research
+seeded_random
