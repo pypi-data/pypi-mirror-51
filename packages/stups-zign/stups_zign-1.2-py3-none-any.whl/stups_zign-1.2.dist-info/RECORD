@@ -1,0 +1,14 @@
+stups_zign-1.2.dist-info/DESCRIPTION.rst,sha256=gYGmDOdHibiiqaQ9NMrppi-u125EJvx4fHqJX6wyxh4,1238
+stups_zign-1.2.dist-info/METADATA,sha256=BvfDPBEgXHauKXpH7lDyLxbH33_DaqEHIgUIjES25fE,2133
+stups_zign-1.2.dist-info/RECORD,,
+stups_zign-1.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+stups_zign-1.2.dist-info/entry_points.txt,sha256=8fIWjOX1PWrDLyah6XWvGzOLBcOIIZRCMt18dGDwZbk,68
+stups_zign-1.2.dist-info/metadata.json,sha256=o8trciezFVGWHHmz7cOlGGFI8L8TXh11tAOZrTJhRcM,1280
+stups_zign-1.2.dist-info/top_level.txt,sha256=1LdB3wAQFryvG2CIOnoLeVgl4o-fluuMJx-eWFTXkTc,5
+zign/__init__.py,sha256=5hOPscIq60XJf-fFjU4aZiYFNtwMTW3UlJqEJRAfJG8,71
+zign/__main__.py,sha256=owgcHw4o4u_Eh4kr_XgZlm9QQWZm5MtYNUP3YftZxiA,65
+zign/api.py,sha256=xTBVPtV3UgVFMjAK5vL7zmrYEL2mKjNSQuGEtjJ1Ths,11493
+zign/cli.py,sha256=uXyEl9OhicDZgsZrveUg12t68i2hqx4dXSFQU5l1hEQ,3503
+zign/cli_zign.py,sha256=I7eCZjgkhEk1f6lHdEklQLCog6BT6V3nmea6ZK-fPm0,2001
+zign/config.py,sha256=CjD-MhtHO7DtJF3ZoS4nWdSdl20lJH-b1xeVMohbbCo,295
+zign/oauth2.py,sha256=tYvi_4WsQhM6VPkL6iD1X9bAlLI2vyyteYgpXactftk,3992
