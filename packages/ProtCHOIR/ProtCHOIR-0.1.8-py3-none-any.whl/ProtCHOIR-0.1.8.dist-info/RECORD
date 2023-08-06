@@ -1,0 +1,14 @@
+ProtCHOIR/AnalyseOligomer.py,sha256=mNJFU_-F4Idaoxzyn-3v0zsO6Hpak3bmSz-AUDuvoDQ,19536
+ProtCHOIR/AnalyseProtomer.py,sha256=DGGsmP1OK_UJVuuSBhzg3rz7m51c0yNjt1blvV9vzT0,35486
+ProtCHOIR/Initialise.py,sha256=muCSOU2fEJC45-nfSNWl4AY627zyo8Npl3BHC9doKAI,16053
+ProtCHOIR/MakeOligomer.py,sha256=1MjZ_U1eh-wTgLY3YIaINhdLIOXhpfd4sUSCzVh7oj0,21705
+ProtCHOIR/Toolbox.py,sha256=_Tb9WZKB5i39lxVtYE01BvkFX_ep8d-iEMyRDSoAAXE,50015
+ProtCHOIR/UpdateDatabases.py,sha256=q1vTrfpdRlzduF8MvgyBb0JYtjSsq0jvdXFQlxRn5Hw,25668
+ProtCHOIR/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ProtCHOIR/__main__.py,sha256=iqhUvayXqt2XVRuna9xtDcNM2JCkr64JwX0DTSoebY0,10122
+ProtCHOIR-0.1.8.dist-info/LICENSE.txt,sha256=fnFw486_iKn2DHuEIUGDI8CTBNoa9NXpD02h3ByKJmE,18650
+ProtCHOIR-0.1.8.dist-info/METADATA,sha256=5A_SJC9_rrzOOQHWg1tJGoyo_yRfHi1IxUoLI9PLyJw,4505
+ProtCHOIR-0.1.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+ProtCHOIR-0.1.8.dist-info/entry_points.txt,sha256=IrW_Xn_PuuyzJ_mwQnYVeco0aI_CUyWwtgTTfKHMhVw,55
+ProtCHOIR-0.1.8.dist-info/top_level.txt,sha256=0o2JLf271LmsuhjeanWXkwDJRSB_Tmynj2dRqnzuCT4,10
+ProtCHOIR-0.1.8.dist-info/RECORD,,
