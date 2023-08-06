@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: nameko-django
+Version: 1.0.1
+Summary: Django intergration for nameko microservice framework.
+Home-page: https://github.com/tranvietanh1991/nameko-django
+Author: Vincent Anh Tran
+Author-email: tranvietanh1991@gmail.com
+Maintainer: Vincent Anh Tran
+Maintainer-email: vincent.tran@bentoinvest.cloud
+License: GPLv2
+Description: # nameko-django
+        Django intergration for nameko microservice framework
+        
+        ## Custom Kombu Serializer for django Object using msgpack and pickle
+        
+        This serializer is fully compatible with msgpack so it can be used like this:
+        
+        ```yaml
+        serializer: 'django_msgpackpickle'
+        ACCEPT: ['msgpack', 'django_msgpackpickle']
+        SERIALIZERS:
+          msgpack:
+            encoder: 'msgpack.dumps'
+            decoder: 'nameko_django.serializer.loads'
+            content_type: 'application/x-msgpack'
+            content_encoding: 'binary'
+        ```
+        
+        In order to migrate an existing microservices stack to use this new serializer first install and setup all project
+        ```yaml
+        serializer: 'msgpack'
+        ACCEPT: ['msgpack', 'django_msgpackpickle']
+        SERIALIZERS:
+          msgpack:
+            encoder: 'msgpack.dumps'
+            decoder: 'nameko_django.serializer.loads'
+            content_type: 'application/x-msgpack'
+            content_encoding: 'binary'
+        ```
+        This will accept both of the `msgpack` and `django_msgpackpickle` but only output of result portfolio using `msgpack`
+        Once all service migrated, then switch to the first configuration
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

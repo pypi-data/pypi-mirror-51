@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+nameko_django/VERSION
+nameko_django/__init__.py
+nameko_django/serializer.py
+nameko_django.egg-info/PKG-INFO
+nameko_django.egg-info/SOURCES.txt
+nameko_django.egg-info/dependency_links.txt
+nameko_django.egg-info/entry_points.txt
+nameko_django.egg-info/not-zip-safe
+nameko_django.egg-info/requires.txt
+nameko_django.egg-info/top_level.txt
