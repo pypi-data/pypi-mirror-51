@@ -1,0 +1,7 @@
+README.md
+setup.py
+blockapi.egg-info/PKG-INFO
+blockapi.egg-info/SOURCES.txt
+blockapi.egg-info/dependency_links.txt
+blockapi.egg-info/requires.txt
+blockapi.egg-info/top_level.txt
