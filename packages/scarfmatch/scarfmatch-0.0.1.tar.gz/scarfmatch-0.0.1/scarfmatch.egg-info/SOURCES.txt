@@ -1,0 +1,12 @@
+README.md
+setup.py
+scarf/__init__.py
+scarf/core.py
+scarf/instance.py
+scarf/io.py
+scarf/random.py
+scarf/utils.py
+scarfmatch.egg-info/PKG-INFO
+scarfmatch.egg-info/SOURCES.txt
+scarfmatch.egg-info/dependency_links.txt
+scarfmatch.egg-info/top_level.txt
