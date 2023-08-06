@@ -1,0 +1,8 @@
+matplotlib
+numpy
+numpydoc
+pytest
+pytest-cov
+sphinx
+sphinx_rtd_theme
+sympy
