@@ -1,0 +1,509 @@
+Metadata-Version: 2.0
+Name: pyjawk
+Version: 1.1.3
+Summary: A Python-based stream editor for json documents
+Home-page: https://gitlab.com/Taywee/pyjawk
+Author: Taylor C. Richberger
+License: MIT
+Keywords: utility
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Requires-Dist: PyYAML
+Requires-Dist: appdirs
+Requires-Dist: msgpack
+Requires-Dist: packaging
+Requires-Dist: ptpython
+Requires-Dist: pygments
+
+pyjawk
+######
+
+Python-based stream editor for json files.  It is a simple setup that
+effectively works as a json-parsing ``awk``, similar to jq, but allowing
+in-place editing and output of json documents as well, and using Python as the
+working language.  It supports colorized output.
+
+Motivation
+----------
+
+This program exists for fairly minor convenience, and mostly for my own use.
+Whenever I end up needing to quickly edit some json, I find myself opening a
+Python REPL, writing a bunch of obvious loading code to load in the json, work
+on it a little bit, and then dump it back out to the relevant file.  Also,
+whenever I end up needing to inspect json from a web page, I either curl it to a
+file and then do the same, or use requests or something to pull it directly in
+a Python REPL so I can properly inspect it, or I pipe it through Python's
+``json.tool`` and ``less``.
+
+This is meant to supplant those use cases entirely for my own uses.  If you find
+it inconvenient to repeatedly undergo the busy work associated with working with
+or inspecting json data, and especially if you are most familiar and comfortable
+with the stream-editing way of doing things or spending time in a REPL, this
+tool might make things a little more convenient for you.  It is also useful for
+inspecting and converting between formats, such as between msgpack and json.
+
+Why not jq?
+^^^^^^^^^^^
+
+`jq <https://stedolan.github.io/jq/>`_ is a really great tool for a lot of what
+you would use this.  I wrote this because jq doesn't provide the user with a
+REPL to mangle data, and because Python is a much more powerful and flexible
+language for the modification process, especially if you want to access the
+filesystem or other I/O.
+
+jq is a powerful program with a lot of development, active maintenence,
+maintainers, and its own filter language.  If that's what you want, use that.
+If you want a simple tool for loading json and working on it with python in
+either a stream or REPL fashion, this is probably a better fit.
+
+Installation
+------------
+
+.. code-block:: shell
+
+   pip install --user pyjawk
+
+Use
+---
+
+Display the help text with ``-h``.
+
+In all evaluated python, ``data`` represents the parsed input data.
+
+The program is passed an input string either through stdin or a ``-i`` argument,
+and an output through ``-o`` or stdout.  ``-f`` arguments may pass in script
+files that are run first.  The ``data`` object is then serialized and output.
+``-e`` arguments are similar to ``-f``, but run afterward and run as python
+source text.  ``-c`` may be used to enable compact output and may be specified
+multiple times for some output formats.  A positional parameter, if present, is
+evaluated as a python expression and used to replace the data object.
+
+``-I`` and ``-O`` may be used to set the input and output formats, respectively.
+
+``-n`` and ``-N`` disable input and output respectively.
+
+If ``-r`` / ``--repl`` is specified, instead of writing output after processing,
+the function to write to the output is registered in the environment as
+``write``, the arguments structure is registered as ``args``, and a ``ptpython``
+REPL is started up with the same environment.
+
+Multiple command line tools are available, but they all only set the default
+input and output formats.
+
+Formats
+-------
+
+* ``json``
+
+  * Available as the command line tool ``pyjawk``
+  * Supports 3 levels of compactness.
+  * Outputs trailing newline except on highest compaction.
+  * Supports colorized output.
+
+* ``yaml``
+
+  * Available as the command line tool ``pyyawk``
+  * Supports 3 levels of compactness.
+  * Outputs trailing newline
+  * Supports colorized output.
+
+* ``xml``
+
+  * Available as the command line tool ``pyxawk``
+  * Parses into a ``xml.etree.ElementTree.Element`` object and dumps as xml
+    text.  Uses ``xml.etree.ElementTree.tostring`` to dump. and if uncompacted,
+    uses ``xml.dom.minidom`` to prettify.
+  * Supports 2 levels of compactness.
+  * Outputs trailing newline
+  * Supports colorized output.
+
+* ``python``
+
+  * Available as the command line tool ``pypawk``
+  * Uses ``eval`` to pull in objects, and either ``pprint`` or ``repr`` to dump,
+    depending on compactness.
+  * Supports 3 levels of compactness.
+  * Outputs trailing newline.
+  * Supports colorized output.
+
+* ``msgpack``
+
+  * Available as the command line tool ``pymawk``
+
+* ``string``
+
+  * Available as the command line tool ``pysawk``
+  * Simply reads input into a string and outputs data as a string, using ``str``
+    on it before dumping.
+  * Outputs trailing newline except when compaction is requested.
+
+* ``bytes``
+
+  * Available as the command line tool ``pybawk``
+  * Simply reads input into bytes and outputs data as bytes.
+
+Details on IO and arguments in the REPL
+---------------------------------------
+
+In the REPL, the program's own argument namespace is available as ``args``.
+Changing some of them is obvious (such as ``args.output``, which is just a
+string, or ``args.no_input`` which is just a boolean), and some others are
+perhaps non-obvious (``args.compact`` is an integer specifying the number of
+times it was present).  Some of the arguments don't make any sense to work with
+(such as ``args.input`` and ``args.input_format``, because those are already
+finished by the time the REPL starts up).
+
+The REPL does not write the output by default.  To write the output with the
+REPL, the ``write()`` function must be called explicitly.
+
+When you wish to use the REPL, stdin and stdout must be attached to a terminal.
+This means that you need to be taking input from a file, not a pipe, and the
+program may not be piped to anything else.  This is necessary because ptpython
+needs stdin to be communicated with and stdout to communicate back to the user.
+If you wish to pipe something into pyjawk for REPL use, you'll have to use a
+fifo, a temp file, or a process substitution as follows:
+
+.. code-block:: shell
+
+  # With process redirection
+  pyjawk -ri <(curl 'https://httpbin.org/get?foo=bar&spam=spam')
+
+  # With a temp file
+  curl 'https://httpbin.org/get?foo=bar&spam=spam' > curltemp.json
+  pyjawk -ri curltemp.json
+
+  # With a fifo
+  mkfifo curl.fifo
+  curl 'https://httpbin.org/get?foo=bar&spam=spam' > curl.fifo &
+  pyjawk -ri curl.fifo
+
+In every case, the data in the repl is:
+
+.. code-block:: python
+
+  >>> from pprint import pprint
+  >>> pprint(data)
+  {'args': {'foo': 'bar', 'spam': 'spam'},
+   'headers': {'Accept': '*/*',
+               'Host': 'httpbin.org',
+               'User-Agent': 'curl/7.65.0'},
+   'origin': '73.169.51.67, 73.169.51.67',
+   'url': 'https://httpbin.org/get?foo=bar&spam=spam'}
+
+Examples
+--------
+
+Dumping some data to past.ee
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: shell
+
+  $ echo '{"a": "1", "b": null, "c": true, "d": false, "e": 7, "f": 8.5, "g": {"h": [1, 2, 3]}}' \
+  | pyjawk '{"sections": [{"contents": str(data)}]}' \
+  | curl -H 'Content-Type: application/json' -H 'X-Auth-Token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' -XPOST --data-binary '@-' https://api.paste.ee/v1/pastes
+
+  {"id":"umXKr","link":"https:\/\/paste.ee\/p\/umXKr","success":true}
+
+With this, you can also do any arbitrary string data, and also extract the link
+from the output if you like:
+
+.. code-block:: shell
+
+  $ echo this is some test data \
+  | pyjawk -Istring '{"sections": [{"contents": data}]}' \
+  | curl -H 'Content-Type: application/json' -H 'X-Auth-Token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' -XPOST --data-binary '@-' https://api.paste.ee/v1/pastes \
+  | pyjawk -Ostring 'data["link"]'
+
+  https://paste.ee/p/iomJR
+
+Converting data between formats
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: shell
+
+  $ echo '{"foo": "bar", "baz": ["spam", "Spam", {"SPAM?": "SPAM!"}]}' \
+  | pyjawk -Oyaml
+
+  baz:
+  - spam
+  - Spam
+  - SPAM?: SPAM!
+  foo: bar
+
+Selecting a part of a data-structure with evals
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: shell
+
+  $ echo '{"foo": "bar", "baz": ["spam", "Spam", {"SPAM?": "SPAM!"}]}' \
+  | pyjawk -c 'data["baz"][2]'
+
+  {"SPAM?": "SPAM!"}
+
+Extracting a value as a string
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: shell
+
+  $ echo '{"foo": "bar", "baz": ["spam", "Spam", {"SPAM?": "SPAM!"}]}' \
+  | pyjawk -Ostring 'data["baz"][1]'
+
+  Spam
+
+Easily embedding string data from stdin into a json structure
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: shell
+
+  $ echo 'this is a test string' \
+  | pyjawk -Istring -Ojson -c '{"foo": data}'
+
+  {"foo": "this is a test string\n"}
+
+Relocating an xml child
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: shell
+
+  $ echo '<root><foo><bar>first</bar></foo><baz /></root>' \
+  | pyxawk -e 'foo = list(data)[0]; bar = list(foo)[0]; baz = list(data)[1]; baz.append(bar); foo.remove(bar)'
+
+.. code-block:: xml
+
+  <?xml version="1.0" ?>
+  <root>
+    <foo/>
+    <baz>
+      <bar>first</bar>
+    </baz>
+  </root>
+
+The ``-e`` can also be specified separately:
+
+.. code-block:: shell
+
+  $ echo '<root><foo><bar>first</bar></foo><baz /></root>' \
+  | pyxawk -e 'foo = list(data)[0]' -e 'bar = list(foo)[0]' -e 'baz = list(data)[1]' -e 'baz.append(bar)' -e 'foo.remove(bar)'
+
+Or just as a script file:
+
+.. code-block:: shell
+
+  $ echo '<root><foo><bar>first</bar></foo><baz /></root>' \
+  | pyxawk -f relocate.py
+
+.. code-block:: python
+
+  foo = list(data)[0]
+  bar = list(foo)[0]
+  baz = list(data)[1]
+  baz.append(bar)
+  foo.remove(bar)
+
+Exploring a structure in a REPL
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: shell
+
+  $ pyjawk -i<(echo '{"foo": "bar", "baz": ["spam", "Spam", {"SPAM?": "SPAM!"}]}') -r
+
+.. code-block:: python
+
+  >>> data
+  {'foo': 'bar', 'baz': ['spam', 'Spam', {'SPAM?': 'SPAM!'}]}
+
+  >>> write()
+  {
+    "foo": "bar",
+    "baz": [
+      "spam",
+      "Spam",
+      {
+        "SPAM?": "SPAM!"
+      }
+    ]
+  }
+
+  >>> data = data["baz"]
+
+  >>> write()
+  [
+    "spam",
+    "Spam",
+    {
+      "SPAM?": "SPAM!"
+    }
+  ]
+
+Fixing Retroarch Playlists
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you had an issue with the way that RetroArch generates its playlist files for
+the Playstation (by default, it searches for .cue files, but not .bin), and
+had something like this in /tmp/Roms/psx, all Sony PlayStation games::
+
+   Alpha.bin
+   Alpha.cue
+   Bravo.bin
+   Charlie.bin
+   Delta.bin
+   Delta.cue
+
+You might end up with a playlist file like this:
+
+.. code-block:: json
+
+   {
+     "version": "1.2",
+     "default_core_path": "/tmp/retroarch/cores/pcsx_rearmed_libretro.so",
+     "default_core_name": "Sony - PlayStation (PCSX ReARMed)",
+     "label_display_mode": 0,
+     "right_thumbnail_mode": 0,
+     "left_thumbnail_mode": 0,
+     "items": [
+       {
+         "path": "/tmp/Roms/psx/Alpha.cue",
+         "label": "Alpha",
+         "core_path": "/tmp/retroarch/cores/pcsx_rearmed_libretro.so",
+         "core_name": "Sony - PlayStation (PCSX ReARMed)",
+         "crc32": "00000000|crc",
+         "db_name": "Sony - PlayStation.lpl"
+       },
+       {
+         "path": "/tmp/Roms/psx/Delta.cue",
+         "label": "Delta",
+         "core_path": "/tmp/retroarch/cores/pcsx_rearmed_libretro.so",
+         "core_name": "Sony - PlayStation (PCSX ReARMed)",
+         "crc32": "00000000|crc",
+         "db_name": "Sony - PlayStation.lpl"
+       }
+     ]
+   }
+
+If you want the file to just have the bins, you can easily scan the directory
+for these files and modify the json using this tool with this:
+
+.. code-block:: shell
+
+  $ pyjawk -i 'Sony - PlayStation.lpl' -o 'Sony - PlayStation.lpl' -e 'from pathlib import Path' -e 'data["items"] = [{"path": str(path), "label": path.stem, "core_path": data["default_core_path"], "core_name": data["default_core_name"], "crc32": "00000000|crc", "db_name": "Sony - PlayStation.lpl"} for path in (Path("/tmp") / "Roms" / "psx").iterdir() if path.suffix == ".bin"]'
+
+Making the output
+
+.. code-block:: json
+
+  {
+    "version": "1.2",
+    "default_core_path": "/tmp/retroarch/cores/pcsx_rearmed_libretro.so",
+    "default_core_name": "Sony - PlayStation (PCSX ReARMed)",
+    "label_display_mode": 0,
+    "right_thumbnail_mode": 0,
+    "left_thumbnail_mode": 0,
+    "items": [
+      {
+        "path": "/tmp/Roms/psx/Delta.bin",
+        "label": "Delta",
+        "core_path": "/tmp/retroarch/cores/pcsx_rearmed_libretro.so",
+        "core_name": "Sony - PlayStation (PCSX ReARMed)",
+        "crc32": "00000000|crc",
+        "db_name": "Sony - PlayStation.lpl"
+      },
+      {
+        "path": "/tmp/Roms/psx/Charlie.bin",
+        "label": "Charlie",
+        "core_path": "/tmp/retroarch/cores/pcsx_rearmed_libretro.so",
+        "core_name": "Sony - PlayStation (PCSX ReARMed)",
+        "crc32": "00000000|crc",
+        "db_name": "Sony - PlayStation.lpl"
+      },
+      {
+        "path": "/tmp/Roms/psx/Bravo.bin",
+        "label": "Bravo",
+        "core_path": "/tmp/retroarch/cores/pcsx_rearmed_libretro.so",
+        "core_name": "Sony - PlayStation (PCSX ReARMed)",
+        "crc32": "00000000|crc",
+        "db_name": "Sony - PlayStation.lpl"
+      },
+      {
+        "path": "/tmp/Roms/psx/Alpha.bin",
+        "label": "Alpha",
+        "core_path": "/tmp/retroarch/cores/pcsx_rearmed_libretro.so",
+        "core_name": "Sony - PlayStation (PCSX ReARMed)",
+        "crc32": "00000000|crc",
+        "db_name": "Sony - PlayStation.lpl"
+      }
+    ]
+  }
+
+That might look heavy up-front, but you can rewrite it as a script file with
+simpler structure:
+
+.. code-block:: python
+
+  from pathlib import Path
+
+  data["items"] = []
+
+  for path in (Path('/tmp') / 'Roms' / 'psx').iterdir():
+    if path.suffix == '.bin':
+      data["items"].append({
+           "path": str(path),
+           "label": path.stem,
+           "core_path": data["default_core_path"],
+           "core_name": data["default_core_name"],
+           "crc32": "00000000|crc",
+           "db_name": "Sony - PlayStation.lpl",
+      })
+
+and run it with pyjawk as so:
+
+.. code-block:: shell
+
+  pyjawk -i 'Sony - PlayStation.lpl' -o 'Sony - PlayStation.lpl' -f script.py
+
+Or instead load it into a repl to work on it in real time with this:
+
+.. code-block:: shell
+
+  pyjawk -i 'Sony - PlayStation.lpl' -o 'Sony - PlayStation.lpl' -r
+
+.. code-block:: python
+
+  >>> from pathlib import Path
+
+  >>> data["items"] = []
+
+  >>> for path in (Path('/tmp') / 'Roms' / 'psx').iterdir():
+  ...     if path.suffix == '.bin':
+  ...         data["items"].append({
+  ...             "path": str(path),
+  ...             "label": path.stem,
+  ...             "core_path": data["default_core_path"],
+  ...             "core_name": data["default_core_name"],
+  ...             "crc32": "00000000|crc",
+  ...             "db_name": "Sony - PlayStation.lpl",
+  ...             })
+
+  >>> write()
+
+  >>> exit()
+
+Just make sure you call ``write()`` in the repl, or nothing will be written.
+
+Plans
+-----
+
+I don't plan to add too much to this, as I want it to be useful but also as lean
+and manageable as it possibly can be.  Things like HTTP input and output are
+best left to other programs that can do it better, like curl, especially given
+that this program can operate in a streamable fashion.
+
+This program needs some regression tests set up.
+
+
