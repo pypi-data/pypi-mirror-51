@@ -1,0 +1,3 @@
+[console_scripts]
+decbot = decbot.__main__:main
+
