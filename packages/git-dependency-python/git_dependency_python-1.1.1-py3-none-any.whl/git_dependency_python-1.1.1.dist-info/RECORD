@@ -1,0 +1,14 @@
+git_dependency_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_dependency_python/dependency_lock_manager.py,sha256=dPx9O9KzKuk1mLUqotftFpN01IZptMm1ml0Q9QXrExA,1751
+git_dependency_python/dependency_manager.py,sha256=H9EFXGOU_zFzvy7RnjZH1ZUy0vJvXWM_VUJCX5cs950,5214
+git_dependency_python/git_dependency.py,sha256=SCTMSYvz21UWTeRw7C-gcMC4d98TvgWTqxGDIVP80_I,4723
+git_dependency_python/pip_helper.py,sha256=3jHxBg538-gFvhVHZTu0Ybnb49n081Yde-R6ClU3td8,847
+git_dependency_python/setup_helper.py,sha256=qQ8Q8lqUaEm53fX6uLYFmu8BPtZwKIdQH2w_OP-BajY,7815
+git_dependency_python/tools.py,sha256=Ve3OZWpXmk8oOoCZwzQSuqa_CYr8GXhQQ39MVJE-dbE,1266
+git_dependency_python/version_resolver.py,sha256=zOU9a17fGJ8EQEF-fmR8iwOv18ZV-ZzOQhR8YsP1CG4,4061
+git_dependency_python-1.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+git_dependency_python-1.1.1.dist-info/METADATA,sha256=oaGkl9lLj-b9uyhYnqjjbsziKEbzrV-kHiFFrGd_YTU,535
+git_dependency_python-1.1.1.dist-info/RECORD,,
+git_dependency_python-1.1.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+git_dependency_python-1.1.1.dist-info/metadata.json,sha256=KlZAuJuWhHkqWy-iiyw9-b-mIK3-Vz9LWtQMEZm9TkM,717
+git_dependency_python-1.1.1.dist-info/top_level.txt,sha256=MX7PjNT67g-h1tYkqSCahoaxDlucpEqz9cK1dL46XhQ,22
