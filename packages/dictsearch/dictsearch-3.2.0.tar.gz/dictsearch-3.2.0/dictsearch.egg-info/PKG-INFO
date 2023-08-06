@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: dictsearch
+Version: 3.2.0
+Summary: A tool for iterating dictionaries as trees and printing all leaf nodes at some path
+Home-page: https://github.com/tommyjcarpenter/dictsearch
+Author: Tommy Carpenter
+Author-email: tommyjcarpenter@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License

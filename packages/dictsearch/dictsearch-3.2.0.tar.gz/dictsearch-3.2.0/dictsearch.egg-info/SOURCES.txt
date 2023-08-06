@@ -1,0 +1,8 @@
+README.md
+setup.py
+dictsearch/__init__.py
+dictsearch/search.py
+dictsearch.egg-info/PKG-INFO
+dictsearch.egg-info/SOURCES.txt
+dictsearch.egg-info/dependency_links.txt
+dictsearch.egg-info/top_level.txt
