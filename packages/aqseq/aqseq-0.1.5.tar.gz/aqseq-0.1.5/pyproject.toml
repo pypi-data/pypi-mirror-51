@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "aqseq"
+version = "0.1.5"
+description = "sequence manager for Aquarium and Benchling"
+authors = ["Justin Vrana <justin.vrana@gmail.com>"]
+homepage = "https://www.github.com/jvrana/AqSequenceManager"
+repository = "https://www.github.com/jvrana/AqSequenceManager"
+documentation = "https://www.github.com/jvrana/AqSequenceManager"
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.22"
+inflection = "^0.3.1"
+urlopen = "^1.0"
+bs4 = "^0.0.1"
+pydent = "=0.1.5a6"
+benchlingapi = "^2.0.0a0"
+jdna = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^18.3-alpha.0",allows-prereleases = true}
+pytest = "^5.0"
+pre-commit = "^1.17"
+toml = "^0.10.0"
+sphinx = "^2.1"
+guzzle-sphinx-theme = "^0.7.11"
+vcrpy = "^2.0"
+keats = "^0.2.24"
+
+[tool.poetry.scripts]
+upver = 'aqseq:_version.pull_version'
+version = 'aqseq:_version.get_version'
+name = 'aqseq:_version.get_name'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
