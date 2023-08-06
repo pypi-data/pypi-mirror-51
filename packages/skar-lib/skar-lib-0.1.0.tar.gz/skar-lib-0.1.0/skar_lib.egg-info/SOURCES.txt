@@ -1,0 +1,10 @@
+README.md
+setup.py
+skar_lib.egg-info/PKG-INFO
+skar_lib.egg-info/SOURCES.txt
+skar_lib.egg-info/dependency_links.txt
+skar_lib.egg-info/top_level.txt
+skarlib/Float.py
+skarlib/Int.py
+skarlib/Str.py
+skarlib/__init__.py
