@@ -1,0 +1,11 @@
+AUTHORS
+COPYING
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+textconfig.py
+textconfig.egg-info/PKG-INFO
+textconfig.egg-info/SOURCES.txt
+textconfig.egg-info/dependency_links.txt
+textconfig.egg-info/top_level.txt
