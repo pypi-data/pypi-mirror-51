@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: MiScan
+Version: 1.0.2
+Summary: Maxout-inferred SNV-based cancer prediction model
+Home-page: https://github.com/QuKunLab/MiScan
+Author: Qulab USTC
+Author-email: jeffery_cpu@163.com
+License: UNKNOWN
+Project-URL: MiScan website, http://galaxy.ustc.edu.cn
+Description: |PyPI| |Docs| |Docker| |Travis|
+        
+        .. |PyPI| image:: https://img.shields.io/pypi/v/miscan.svg
+            :alt: PyPI latest version
+            :target: https://pypi.org/project/MiScan/
+        
+        .. |Docs| image:: https://readthedocs.org/projects/miscan-cli/badge/?version=latest
+            :alt: readthedocs auoto build
+            :target: https://miscan-cli.readthedocs.io
+        
+        .. |Docker| image:: https://img.shields.io/docker/cloud/build/jefferyustc/miscan_command_line
+            :alt: Docker Cloud Build Status
+            :target: https://hub.docker.com/r/jefferyustc/miscan_command_line
+        
+        .. |Travis| image:: https://img.shields.io/travis/com/jefferyustc/MiScan_cli
+            :alt: Travis (.com)
+        
+        
+        MiScan
+        ==========
+        
+        Maxout-inferred SNV-based cancer prediction model | Apache Software License, more info please see documentation_ or
+        the website_ version(website introduction_), the same repo can be found on lab github QunKunLab_
+        
+        .. _documentation: https://miscan-cli.readthedocs.io
+        .. _website: http://qulab.ustc.edu.cn/miscan
+        .. _QunKunLab: https://github.com/QuKunLab/MiScan
+        .. _introduction: https://miscan-cli.readthedocs.io/en/latest/website.html
+        
+Keywords: deep learning SNV breast cancer prediction
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
