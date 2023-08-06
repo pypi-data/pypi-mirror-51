@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: terminis
+Version: 0.2.3.2
+Summary: Tetris clone for terminal. Ideal for servers without GUI!
+Home-page: https://github.com/adrienmalin/Terminis
+License: MIT
+Keywords: Tetris,terminal,curses
+Author: adrienmalin
+Author-email: 41926238+adrienmalin@users.noreply.github.com
+Requires-Python: >=2.7
+Classifier: Environment :: Console :: Curses
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Games/Entertainment :: Arcade
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Terminals
+Requires-Dist: windows-curses (>=1.0,<2.0); sys_platform == "win32"
+Project-URL: Repository, https://github.com/adrienmalin/Terminis
+Description-Content-Type: text/markdown
+
+# Terminis
+Tetris clone for terminal. Ideal for servers without GUI!
+
+## Requirements
+
+[Python 2 or 3](https://www.python.org/)
+
+## Installation
+
+```bash
+pip install --user terminis
+```
+
+## Usage
+
+```bash
+terminis [options]
+```
+* --help: show command usage (this message)
+* --edit: edit controls in text editor
+* --reset: reset to default controls settings
+* --level=n: start at level n (integer between 1 and 15)
+
