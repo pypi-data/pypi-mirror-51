@@ -1,0 +1,23 @@
+import xanity
+import numpy as np
+import matplotlib.pyplot as plt
+
+xanity.associated_experiments([
+        'experiment1',
+        #'experiment2',
+        'experiment3',
+        ])
+
+
+def main():
+    
+    data = xanity.load_data(variables=['fakevar'], reduce={np.mean: ['fakevar']})
+
+    data.iloc[::30, :].plot(kind='scatter', x='scale', y='reduced_fakevar')
+    plt.show()
+
+# the hook below is used to kick off a xanity run from an experiment script itself:
+
+
+if __name__ == '__main__':
+    xanity.run()

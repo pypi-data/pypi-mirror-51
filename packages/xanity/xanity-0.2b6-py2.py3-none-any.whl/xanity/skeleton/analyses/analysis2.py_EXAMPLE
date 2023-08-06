@@ -1,0 +1,25 @@
+import xanity
+import matplotlib.pyplot as plt
+
+
+xanity.associated_experiments([
+        'experiment1',
+        'experiment2',
+        #'experiment3',
+        ])
+
+
+def main():
+    
+    data = xanity.load_data(variables=['fakevar'], experiments=['experiment1'])
+
+    data.draws.sort_values().iloc[::30].plot(kind='bar')
+    
+    plt.show()
+
+
+# the hook below is used to kick off a xanity run from an experiment script itself:
+
+
+if __name__ == '__main__':
+    xanity.run()
