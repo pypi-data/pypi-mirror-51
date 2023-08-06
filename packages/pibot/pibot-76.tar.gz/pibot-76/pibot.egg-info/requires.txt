@@ -1,0 +1,7 @@
+RPi.GPIO
+Adafruit-SSD1306
+pillow
+pyserial
+enum34
+opencv-python
+imutils
