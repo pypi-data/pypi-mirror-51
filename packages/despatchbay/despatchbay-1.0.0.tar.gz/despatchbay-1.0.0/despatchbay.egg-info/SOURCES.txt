@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+despatchbay/despatchbay_entities.py
+despatchbay/despatchbay_sdk.py
+despatchbay/documents_client.py
+despatchbay/exceptions.py
+despatchbay.egg-info/PKG-INFO
+despatchbay.egg-info/SOURCES.txt
+despatchbay.egg-info/dependency_links.txt
+despatchbay.egg-info/requires.txt
+despatchbay.egg-info/top_level.txt
