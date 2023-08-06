@@ -1,0 +1,13 @@
+README.rst
+setup.py
+lying/__init__.py
+lying/cli.py
+lying/utils.py
+lying.egg-info/PKG-INFO
+lying.egg-info/SOURCES.txt
+lying.egg-info/dependency_links.txt
+lying.egg-info/entry_points.txt
+lying.egg-info/requires.txt
+lying.egg-info/top_level.txt
+tests/__init__.py
+tests/test_basic.py
