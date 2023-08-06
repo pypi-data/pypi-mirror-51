@@ -1,0 +1,12 @@
+twitchview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twitchview/config.ini.example,sha256=q7Pl3QQrv8_ukU5JfnVMw7I9XoqxNkPQhqUHsh5yLW0,177
+twitchview/icon.ico,sha256=3eSBIiJ5J-i8OAU3DWuKi0q-w2V5Md7YvBoT93NeOB4,267230
+twitchview/icon.xbm,sha256=W4gIDNKusmXXTO06tkHOsKNJcxRPN5wWweu8oTryI2Q,532451
+twitchview/irc.py,sha256=nawV5xPI-6P3tos6GA2NZ0x4IW3IuX_t54gey1r43KQ,7490
+twitchview/main.py,sha256=z6v1-plJgiady5CVVDcJseR1nGKInK_1CnqheqrEmI0,9245
+twitchview-0.6.8.dist-info/LICENSE.txt,sha256=FxUBGD0HHuW-8Axc8L8zdClLmRK5Xw41-4R5LroQgEg,35067
+twitchview-0.6.8.dist-info/METADATA,sha256=x807uIpdZqUoldZTbu19v4mTMnlJeZftFNKnAbjXi5M,1844
+twitchview-0.6.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+twitchview-0.6.8.dist-info/entry_points.txt,sha256=f9k6ZMAHuCqTT5Gy9kM17GsvT3_miBhgfggs1yR8j_c,49
+twitchview-0.6.8.dist-info/top_level.txt,sha256=zj_qVlMJQxsv6_CO5SGCG8dyXHKi0ORPosJL5N5fHHY,11
+twitchview-0.6.8.dist-info/RECORD,,
