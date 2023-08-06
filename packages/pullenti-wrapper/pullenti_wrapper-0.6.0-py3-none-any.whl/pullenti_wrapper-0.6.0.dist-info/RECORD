@@ -1,0 +1,13 @@
+pullenti_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pullenti_wrapper/langs.py,sha256=lYceT7IcOAh-ulIca0lo9XXeP0SCTE5mlRZ9HJz0uuQ,1266
+pullenti_wrapper/preprocess.py,sha256=n1lQl9TEnas8iLIwn2Ko3Q7R4KcVSsMKD-uaZ6tYQRs,189
+pullenti_wrapper/processor.py,sha256=rT6PtCVJGVfISDDE5lXSJt45q4bglqrXejkwrmhKFTM,4872
+pullenti_wrapper/referent.py,sha256=_meqMMcEDCoixikMzVd0pRFwCNvv_mqdzCymh_-ln-w,8839
+pullenti_wrapper/result.py,sha256=z2pUujp5ivdOpbQ0Gr8YQquuwPyuFhHOhSoJ1TSCM3o,968
+pullenti_wrapper/utils.py,sha256=ncmAu4gTjl4m481haUEc1Xy9ltgrqkIUAB9fLL4i2pc,279
+pullenti_wrapper-0.6.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pullenti_wrapper-0.6.0.dist-info/METADATA,sha256=w-j2ba1gjLE7Ip0bWR__nzoOxwfWNc-B12AoBcn6O80,951
+pullenti_wrapper-0.6.0.dist-info/RECORD,,
+pullenti_wrapper-0.6.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pullenti_wrapper-0.6.0.dist-info/metadata.json,sha256=RUVI3CJ4cNgRXJ0V9R1p-RQBo2Ye0pdogdoXzDXWOBo,1100
+pullenti_wrapper-0.6.0.dist-info/top_level.txt,sha256=_y0K1qUyJ4hO0VWQc0a1tPDAjSXrPYRmqIZGhd7-6Ho,17
