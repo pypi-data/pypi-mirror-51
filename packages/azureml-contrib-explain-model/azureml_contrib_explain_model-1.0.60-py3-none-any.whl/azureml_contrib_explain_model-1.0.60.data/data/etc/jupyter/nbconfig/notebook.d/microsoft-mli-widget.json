@@ -1,0 +1,6 @@
+{
+  "load_extensions": {
+    "microsoft-mli-widget/extension": true,
+    "microsoft-mli-widget/index": true
+  }
+}
