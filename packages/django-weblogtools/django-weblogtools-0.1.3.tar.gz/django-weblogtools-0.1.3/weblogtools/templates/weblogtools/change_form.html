@@ -1,0 +1,128 @@
+{% extends 'admin/change_form.html' %}
+{% load static %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  <style>
+
+    #demo {
+      white-space: pre;
+      font-family: monospace;
+    }
+
+    .demo_tab {
+      background: #fff;
+      width: 800px;
+      height: 500px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -250px 0 0 -400px;
+      z-index: 99;
+      box-shadow: 0 0 50px #555;
+      border: 1px solid #ccc;
+      display: none;
+      overflow: scroll;
+    }
+
+    .close {
+      float: right;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+    .field-memo {
+      word-break: break-all;
+    }
+
+    .inter-btn {
+      margin: 5px;
+    }
+
+  </style>
+{% endblock %}
+
+{% block extrahead %}
+  {{ block.super }}
+
+  <script type="text/javascript">
+    var $ = django.jQuery;
+    (function ($) {
+      $(document).ready(function () {
+        format_json_node('.field-payload>div>div');
+        format_json_node('.form-row .field-http_response_header>div');
+        format_json_node('.form-row .field-http_response_content>div');
+      });
+    })(django.jQuery);
+
+    function format_json_node(node_selector) {
+      var html = $(node_selector).html();
+      var html_formatted = format_json_text(html);
+      $(node_selector).html('<pre>' + html_formatted + '</pre>')
+    }
+
+    function format_json_text(text) {
+      try {
+        var jsonobj = JSON.parse(text);
+        var text_output = JSON.stringify(jsonobj, null, 4);
+      } catch (e) {
+        try {
+          var jsonobj = JSON.parse(text.replace(/'/g, '"'));
+          var text_output = JSON.stringify(jsonobj, null, 4);
+        } catch (e) {
+          var text_output = text;
+        }
+      }
+      return text_output;
+    }
+
+    function getSelectText(str) {
+      try {
+        try {
+          console.log(str);
+          var jsonobj = JSON.parse(str);
+          var text = JSON.stringify(jsonobj, null, 4);
+          document.getElementById('demo').innerHTML = text;
+          document.getElementById('demo_tab').style.display = "block";
+        } catch (e) {
+          var str = document.selection.createRange().text;
+          var jsonobj = JSON.parse(str);
+          var text = JSON.stringify(jsonobj, null, 4);
+          document.getElementById('demo').innerHTML = text;
+          document.getElementById('demo_tab').style.display = "block";
+        }
+        copy(document.getElementById('demo').innerHTML);
+      } catch (e) {
+        console.error(e)
+        alert('选取内容不符合JSON格式')
+      }
+    }
+
+    function copy(text) {
+      console.log(text)
+      const input = document.createElement('input');
+      document.body.appendChild(input);
+      input.setAttribute('value', text);
+      input.select();
+      if (document.execCommand('copy')) {
+        document.execCommand('copy');
+        console.log('复制成功');
+      }
+      document.body.removeChild(input);
+    }
+
+    function closeTab() {
+      document.getElementById('demo_tab').style.display = "none";
+    }
+
+  </script>
+
+{% endblock %}
+
+{% block admin_change_form_document_ready %}
+  {{ block.super }}
+  <div class='demo_tab' id='demo_tab'>
+    <div class='close' onClick='closeTab()'>X</div>
+    <div id='demo'></div>
+  </div>
+{% endblock %}

@@ -1,0 +1,7 @@
+include LICENSE
+include README.rst
+recursive-include weblogtools/static *
+recursive-include weblogtools/templates *
+
+recursive-include docs *
+
