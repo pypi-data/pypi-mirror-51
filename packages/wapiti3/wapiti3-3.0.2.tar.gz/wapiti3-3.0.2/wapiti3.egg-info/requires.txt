@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+lxml
+tld
+yaswfp
+mako
+PySocks
+
+[Kerberos]
+requests_kerberos
+
+[NTLM]
+requests_ntlm
