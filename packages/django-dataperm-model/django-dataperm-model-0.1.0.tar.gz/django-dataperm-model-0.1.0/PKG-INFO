@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: django-dataperm-model
+Version: 0.1.0
+Summary: A data model containing data permissions.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # django-dataperm-model
+        
+        A data model containing data permissions.
+        
+        ## Install
+        
+            pip install django-dataperm-model
+        
+        ## settings.py
+        
+            INSTALLED_APPS = [
+                ......
+                'dataperm',
+                ......
+            ]
+        
+        ## Installed Utils
+        
+        - models
+            - WithOwnerMixin
+        
+        - admin
+            - WithOwnerMixin
+        
+        
+        ## Release Notes
+        
+        
+        ### v0.1.0
+        
+        - Add models.WithOwnerMixin and admin.WithOwnerMixin.
+        
+Keywords: django-dataperm-model,django
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
