@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: dingle
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/gstianfu/dingle
+Author: gstianfu
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: dingle
+        ======
+        
+        dingle is short for Dingtalk Library for Enterprise.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python

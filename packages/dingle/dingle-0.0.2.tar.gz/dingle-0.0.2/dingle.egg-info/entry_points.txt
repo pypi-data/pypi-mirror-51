@@ -1,0 +1,3 @@
+[console_scripts]
+dingle = dingle.cmd:main
+
