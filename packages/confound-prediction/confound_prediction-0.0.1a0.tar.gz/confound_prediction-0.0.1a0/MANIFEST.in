@@ -1,0 +1,9 @@
+include LICENSE.txt
+include README.md
+include .gitignore
+include .travis.yml
+global-exclude *.py[co]
+exclude examples
+exclude docs
+
+
