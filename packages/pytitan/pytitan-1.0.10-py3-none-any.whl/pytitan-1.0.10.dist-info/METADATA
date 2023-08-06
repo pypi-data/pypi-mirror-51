@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pytitan
+Version: 1.0.10
+Summary: The computing framework for microservice.
+Home-page: http://120.77.169.160:10001/python/pytitan
+Author: Ray
+Author-email: csharp2002@hotmail.com
+License: BSD
+Keywords: titan,microservice,ynkg,newland
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Dist: bleach (==3.1.0)
+Requires-Dist: bson (==0.5.8)
+Requires-Dist: certifi (==2019.6.16)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: docutils (==0.14)
+Requires-Dist: Faker (==2.0.0)
+Requires-Dist: Flask (==1.1.1)
+Requires-Dist: idna (==2.8)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.10.1)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: pika (==1.0.1)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: Pygments (==2.4.2)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: PyYAML (==5.1.1)
+Requires-Dist: readme-renderer (==24.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: text-unidecode (==1.2)
+Requires-Dist: tqdm (==4.32.2)
+Requires-Dist: twine (==1.13.0)
+Requires-Dist: urllib3 (==1.25.3)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==0.15.4)
+
+pyTitan
+-------
+
+Install
+=======
+
+```
+$ pip install git+ssh://git@120.77.169.160:python/pytitan.git
+```
+
+
