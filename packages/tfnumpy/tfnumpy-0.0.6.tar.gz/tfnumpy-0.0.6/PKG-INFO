@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: tfnumpy
+Version: 0.0.6
+Summary: Collection of Simple Numerical Routines using TensorFlow
+Home-page: https://github.com/stephenhky/TFNumPy
+Author: Kwan-Yuet Ho
+Author-email: stephenhky@yahoo.com.hk
+License: MIT
+Description: # Numerical Python using TensorFlow
+        
+        Functionalities:
+        
+        * Embedding: Sammon algorithm;
+        * Linear regression (with Ridge, Lasso, and ElasticNet);
+        * Tensor products: Khatri-Rao product and Kronecker product;
+        * Tensor decomposition using ALS.
+        
+        # News
+        
+        * 09/02/2019: `tfnumpy` 0.0.6 released.
+        * 07/07/2019: `tfnumpy` 0.0.5 released.
+        * 05/18/2019: `tfnumpy` 0.0.4 released.
+        * 04/25/2019: `tfnumpy` 0.0.3 released.
+        * 01/19/2019: `tfnumpy` 0.0.2 released.
+        * 11/05/2018: `tfnumpy` 0.0.1 released.
+        
+        
+        
+Keywords: numerics computation tensorflow
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
