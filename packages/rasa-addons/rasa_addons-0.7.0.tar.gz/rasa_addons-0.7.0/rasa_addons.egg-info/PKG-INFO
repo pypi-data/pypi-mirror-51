@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rasa-addons
+Version: 0.7.0
+Summary: Rasa Addons - Components for Rasa and Botfront
+Home-page: https://botfront.io
+Author: Botfront
+Author-email: hi@botfront.io
+License: Apache 2.0
+Description: # Rasa Addons
+        
+        ![PyPI](https://img.shields.io/pypi/v/rasa-addons.svg)
+        ![Travis](https://img.shields.io/travis/mrbot-ai/rasa-addons.svg)
+        
+        A set of 🚀🚀🚀 components to be used with Botfront and/or Rasa
+        
+        [Botfront](https://github.com/botfront/botfront) is an open source chatbot platform built with Rasa.
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
