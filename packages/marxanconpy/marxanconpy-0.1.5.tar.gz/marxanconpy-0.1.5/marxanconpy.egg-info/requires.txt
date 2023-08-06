@@ -1,0 +1,5 @@
+wxpython
+pandas
+numpy
+geopandas
+python-igraph
