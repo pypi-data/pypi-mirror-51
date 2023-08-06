@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+japanize_kivy/__init__.py
+japanize_kivy/japanizer.py
+japanize_kivy.egg-info/PKG-INFO
+japanize_kivy.egg-info/SOURCES.txt
+japanize_kivy.egg-info/dependency_links.txt
+japanize_kivy.egg-info/not-zip-safe
+japanize_kivy.egg-info/requires.txt
+japanize_kivy.egg-info/top_level.txt
+japanize_kivy/resources/ipaexg00401/IPA_Font_License_Agreement_v1.0.txt
+japanize_kivy/resources/ipaexg00401/Readme_ipaexg00401.txt
+japanize_kivy/resources/ipaexg00401/ipaexg.ttf
