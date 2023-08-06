@@ -1,0 +1,14 @@
+monpa/__init__.py,sha256=9GMnhQqZU42pw_GImc_AqLtcpgZZNZqXoqjploCexFU,16079
+monpa/crf_layer.py,sha256=gkd4xWR8NY6fKlY8tBfdRr-2KpmCSaXjXkqHOOYdT0I,16961
+monpa/modeling.py,sha256=uGmp6YNODeQRuPBE2_UiSAsHO6ppQTxCg0d5osn58dI,23194
+monpa/server.py,sha256=g4QvG8edghAEFxeZOnIy1uIvtYb8y2sWzg5GL_DtZeg,10904
+monpa/tokenization.py,sha256=OD6d57eCUB_K67fwWkaQteztU4F-KstICy0JYSd8KZY,11471
+monpa/bert_configs/bert_config_monpa.json,sha256=uvtLOJmsn3Ye5iKOo49nVQbCTwcfzJIjc3Ip_4DtMVA,520
+monpa/bert_configs/pos.tgt.dict,sha256=48EFwmFTn4PWRz7Br5f7jTsQyxuLzE0xMw_Ff7sV5Nw,1790
+monpa/bert_configs/vocab_monpa.vocab,sha256=GPwLKNwLzIwdeLehO5h_vKBwXvGnBoOA8YVu0huIftg,30242
+monpa/model/readme.txt,sha256=P7vn-idFfHAhYfnLGy-mYJ6dReYKZq2BN02w_f6wRgo,52
+monpa-0.2.6.0.dist-info/LICENSE,sha256=AuFkQE9usA9-KKTUllYQwUIzUJaE6bm9vA34fADH5Pw,305
+monpa-0.2.6.0.dist-info/METADATA,sha256=livfdpnrXc0RBPJDGf5y4B0bvG5jEwIPCKwq8qmcNHY,10224
+monpa-0.2.6.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+monpa-0.2.6.0.dist-info/top_level.txt,sha256=fJ9RpM9VsELVTcZoAEucgS6JF5dig8WxVHg3TIs5nIM,6
+monpa-0.2.6.0.dist-info/RECORD,,
