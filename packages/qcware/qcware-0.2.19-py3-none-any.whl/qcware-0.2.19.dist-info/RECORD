@@ -1,0 +1,15 @@
+qcware/__init__.py,sha256=aN6o7-J1qbXL0xiuq5hJyUK_aWaqJo_S6APCFOaw0ts,115
+qcware/commit.py,sha256=AJY9nWfexVT76lj6KfTCXvleNGyW6xftWL6ryG5SCas,7621
+qcware/optimization.py,sha256=NDZphkCSB10NXRBs51Xfh8NLt3VLL1yoBEGG46AGBns,36984
+qcware/param_utils.py,sha256=kDfPN7Hu39ZXWKSsYkD4oYtLVmUB8wiHIdyutp2aiX8,6851
+qcware/params_pb2.py,sha256=Ps7syXIxe1IG_rbF0M4i7VDfnw8x_AXC1Z8afW3eWsI,90954
+qcware/physics.py,sha256=XleGVfwltOxPx3lG232DkcGUKxzzrsXJ2E-16g_k-Og,10006
+qcware/qml.py,sha256=yzxsgj-Bx0mT3b1dGFdTWe-vZzseNZS8uC7Ru0YEkaw,7640
+qcware/request.py,sha256=VxJ0GLPqgZcwuXLE2VLlZI_ocj8uyJgC8rAgmF35jpw,1236
+qcware/version.py,sha256=22raG2rp0uOZhMnMV-2j3IdFDAPQl01xQx8-aea9ZBs,210
+qcware/wrappers.py,sha256=KQk93Rt_2p_FelFijyM1jbuE4CiO28RwkKCgpm4XbZs,2326
+qcware-0.2.19.dist-info/LICENSE.txt,sha256=RMR17pD3Udbxs10TemvC-hO0ZaqzXDQ2QhcBXwhLtE0,50
+qcware-0.2.19.dist-info/METADATA,sha256=SeMCsaTEr04BUj-nSJru_syfXqbaax8XWAb3dof6Og4,490
+qcware-0.2.19.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+qcware-0.2.19.dist-info/top_level.txt,sha256=AlhpEP-nmRn7sC7KFW_TmyvjAaHpOtqtTgMmPMA8V_4,7
+qcware-0.2.19.dist-info/RECORD,,
