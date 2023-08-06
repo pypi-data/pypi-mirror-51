@@ -1,0 +1,12 @@
+walkscore/__init__.py,sha256=u31m0JFauPeZieUT5P2GamAvPU1dfnEd9tMW5NM0KKE,744
+walkscore/__version__.py,sha256=N4lM9FOtoIZ1HPgEnnmpLrx8XoYlpHXtaSuGFdn7qsA,48
+walkscore/api.py,sha256=lP2PFCgH1SOwSc_rD5nnf7WcbQcWXjArWaZborCw9Fo,9903
+walkscore/errors.py,sha256=RBpwBBd7HWvQP7V28nxZ0MquqbTAkuIwSDV7Gbdcd4E,5190
+walkscore/http_client.py,sha256=MIDujX3dB8GibRhD6bmYpKWO1phTawUPjcawMwDj3_8,28747
+walkscore/locationscore.py,sha256=26l8SZb_Dr-DsY2TfFEdgMR6hCKVbnpm19qhRJ1150k,25062
+walkscore/utilities.py,sha256=CXbtodKLt0zuls2ZslacjNfHzSSdP16JmUk_c4VawQc,2588
+walkscore_api-1.0.0.dist-info/LICENSE,sha256=ASmtoXHqLeCpaz54gb9kPEeJqKapr2MRzE-tL7SSbds,1099
+walkscore_api-1.0.0.dist-info/METADATA,sha256=1dCLEw4JduU1EtO7RVbDGj3Jpptnoq79_OTPGg_ebuo,8065
+walkscore_api-1.0.0.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+walkscore_api-1.0.0.dist-info/top_level.txt,sha256=CciCzJzxDJW_wXiwsI9iktQdQXD7sUdpNHU24N274wc,10
+walkscore_api-1.0.0.dist-info/RECORD,,
