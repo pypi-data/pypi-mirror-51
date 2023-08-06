@@ -1,0 +1,9 @@
+README.md
+setup.py
+pylbc/__init__.py
+pylbc/pylbc.py
+pylbc.egg-info/PKG-INFO
+pylbc.egg-info/SOURCES.txt
+pylbc.egg-info/dependency_links.txt
+pylbc.egg-info/requires.txt
+pylbc.egg-info/top_level.txt
