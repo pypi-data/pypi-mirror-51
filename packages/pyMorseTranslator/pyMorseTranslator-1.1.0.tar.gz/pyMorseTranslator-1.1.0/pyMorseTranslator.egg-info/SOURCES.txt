@@ -1,0 +1,12 @@
+CHANGES.txt
+MANIFEST.in
+README.md
+setup.py
+pyMorseTranslator.egg-info/PKG-INFO
+pyMorseTranslator.egg-info/SOURCES.txt
+pyMorseTranslator.egg-info/dependency_links.txt
+pyMorseTranslator.egg-info/top_level.txt
+pymorsetranslator/__init__.py
+pymorsetranslator/character.py
+pymorsetranslator/translator.py
+pymorsetranslator/test/__init__.py
