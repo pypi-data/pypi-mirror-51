@@ -1,0 +1,17 @@
+include CHANGELOG.md CONTRIBUTING.md LICENSE NOTICE README.md setup.py tox.ini
+include docs/adles.1
+
+graft adles
+graft docs
+graft test
+graft examples
+graft specifications
+
+prune documentation
+prune misc
+prune .github
+prune scripts
+
+exclude .editorconfig .travis.yml
+
+global-exclude *.py[cdo] __pycache__ *.so *.pyd .DS_Store
