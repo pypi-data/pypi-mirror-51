@@ -1,0 +1,15 @@
+tensorqtl/__init__.py,sha256=YJNC1eOOQOCx_jXq_edB6WhG1-FMz6di1YePYHPUD8g,47
+tensorqtl/__main__.py,sha256=d82Mzta-zFkwwurA8MFrhfCcJc5XJ4TWBqmDoPurF7o,34
+tensorqtl/cis.py,sha256=g6brftUIH8yoD5VDb7TgkpsQF4Rp-PGbAJJ1ML0TUh8,29053
+tensorqtl/core.py,sha256=kBvOJ0Flkf4az-fByfebcdWtAW0itGFdOAjuBao2mrc,11387
+tensorqtl/genotypeio.py,sha256=7YUUZZOmrc33NbZBIuyFkRv3R2fb7MZF8uPuXp6q8AY,17874
+tensorqtl/post.py,sha256=sp2Tm6h0R97-6B1sD8C-hOn30DrOnYnrNDCQjTq-Ef4,5731
+tensorqtl/rfunc.py,sha256=G6WzerNjZ9tkJduQIwuI19I-_wz2-XUXdkhtCxrAEzQ,1541
+tensorqtl/tensorqtl.py,sha256=_BKO1S8c-wcWbo1SJI9Q4PZuaoHXuqUEqhJFe5oMdXA,8742
+tensorqtl/trans.py,sha256=DOUE0fvLOYVHjAQZydF_kjUPJCYzBHWVL-rjZKKaq0E,20148
+tensorqtl-1.0.0.dist-info/LICENSE,sha256=pxlQcijF30Z8f_CBUGLKzq8JEXdlR_4S6HwgzFXLObk,1563
+tensorqtl-1.0.0.dist-info/METADATA,sha256=FZgKRboRcdOh5kK_f5tlttLOH3t5JE-E5HBTH-Cfi5A,5141
+tensorqtl-1.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tensorqtl-1.0.0.dist-info/entry_points.txt,sha256=zbgNxTS86wQGeHid1JD7b7qVnWEACAaKtazPCPNNAVg,50
+tensorqtl-1.0.0.dist-info/top_level.txt,sha256=Mdxwtxic_4E1pTTHFYOSM_w0WRZK-bTGhXDEoUvgga0,10
+tensorqtl-1.0.0.dist-info/RECORD,,
