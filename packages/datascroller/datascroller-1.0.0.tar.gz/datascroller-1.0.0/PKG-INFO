@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: datascroller
+Version: 1.0.0
+Summary: Data scrolling in the terminal
+Home-page: https://github.com/baogorek/datascroller
+Author: Ben Ogorek
+Author-email: baogorek@gmail.com
+License: MIT
+Download-URL: https://github.com/baogorek/datascroller/archive/v1.0.0.tar.gz
+Description: 
+        datascroller - data scrolling in the terminal!
+        
+        Welcome to the datascroller project! While IDEs and notebooks are excellent
+        or interactive data exploration, there will always be some of us who prefer
+        to stay in the terminal. For exploring Pandas data frames, that meant
+        painstakingly tedius use of .iloc, until now...
+        
+Keywords: data,dataframe,viewer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
