@@ -1,0 +1,10 @@
+requests
+pytorch-gpu
+torchvision
+nibabel
+SimpleITK
+tqdm
+pandas
+scipy
+pydensecrf
+scikit-image
