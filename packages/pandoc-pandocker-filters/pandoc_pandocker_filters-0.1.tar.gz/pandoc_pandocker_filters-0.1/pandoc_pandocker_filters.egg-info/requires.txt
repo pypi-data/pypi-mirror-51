@@ -1,0 +1,7 @@
+panflute>=1.10.3
+Pillow
+svgutils>=0.2.0
+svglib
+aafigure
+wavedrom>=2.0
+pantable
