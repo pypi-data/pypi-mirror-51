@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: zesty_poker
+Version: 1.10.0
+Summary: zesty_poker is a pure Python poker hand evaluation library
+Home-page: https://github.com/kennychau9/zesty_poker
+Author: Kenny Chau (forked from treys)
+Author-email: UNKNOWN
+License: MIT
+Description: none
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
