@@ -1,0 +1,27 @@
+psutil >= 0.5.0
+setuptools
+six
+
+[benchmark]
+erp5.util[testbrowser]
+
+[benchmark-report]
+erp5.util[benchmark]
+matplotlib
+numpy
+
+[scalability_tester]
+erp5.util[benchmark]
+slapos.tool.nosqltester
+
+[testbrowser]
+z3c.etestbrowser
+zope.testbrowser >= 5.0.0
+
+[testnode]
+psutil >= 0.5.0
+slapos.core
+xml_marshaller
+
+[zodbanalyse]
+ZODB
