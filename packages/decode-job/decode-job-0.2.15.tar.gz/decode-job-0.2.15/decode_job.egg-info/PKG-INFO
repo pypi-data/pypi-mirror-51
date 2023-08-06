@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: decode-job
+Version: 0.2.15
+Summary: Base job structure to run jobs in the Limos
+Home-page: https://github.com.br/decodedata/decode-job
+Author: Decode
+Author-email: developer@decode.buzz
+License: unlicense
+Download-URL: https://github.com/decodedata/decode-job/archive/0.2.15.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
