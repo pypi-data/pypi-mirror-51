@@ -1,0 +1,8 @@
+README.md
+setup.py
+decompress/__init__.py
+decompress/util.py
+decompress.egg-info/PKG-INFO
+decompress.egg-info/SOURCES.txt
+decompress.egg-info/dependency_links.txt
+decompress.egg-info/top_level.txt
