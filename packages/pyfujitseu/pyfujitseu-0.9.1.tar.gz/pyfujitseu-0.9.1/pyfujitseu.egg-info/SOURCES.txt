@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyfujitseu/__init__.py
+pyfujitseu/api.py
+pyfujitseu/splitAC.py
+pyfujitseu.egg-info/PKG-INFO
+pyfujitseu.egg-info/SOURCES.txt
+pyfujitseu.egg-info/dependency_links.txt
+pyfujitseu.egg-info/requires.txt
+pyfujitseu.egg-info/top_level.txt
