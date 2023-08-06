@@ -1,0 +1,7 @@
+README.txt
+setup.py
+zsearch.py
+zsearch.egg-info/PKG-INFO
+zsearch.egg-info/SOURCES.txt
+zsearch.egg-info/dependency_links.txt
+zsearch.egg-info/top_level.txt
