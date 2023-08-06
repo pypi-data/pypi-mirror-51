@@ -1,0 +1,19 @@
+version: "{build}"
+
+environment:
+  matrix:
+    - PYTHON_EXE: "C:\\Python27\\python.exe"
+    - PYTHON_EXE: "C:\\Python27-x64\\python.exe"
+    - PYTHON_EXE: "C:\\Python36\\python.exe"
+    - PYTHON_EXE: "C:\\Python36-x64\\python.exe"
+    - PYTHON_EXE: "C:\\Python37\\python.exe"
+    - PYTHON_EXE: "C:\\Python37-x64\\python.exe"
+
+install:
+  - "%PYTHON_EXE% --version"
+  - "%PYTHON_EXE% setup.py install"
+
+build: off
+
+test_script:
+  - "%PYTHON_EXE% setup.py test"
