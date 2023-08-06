@@ -1,0 +1,44 @@
+{% extends "django_mailman3/base.html" %}
+{% load i18n %}
+
+{% block head_title %}
+{% trans "User Profile" %} - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+<div class="user-profile">
+
+    <h1>{% trans "User profile" %} <small>{% trans "for" %} {{ user }}</small></h1>
+
+    <ul class="nav nav-tabs">
+        <li role="presentation" {% if form.first_name %}class="active"{% endif %}>
+            {% if not form.first_name %}<a href="{% url "mm_user_profile" %}">{% trans "Account" %}</a>
+            {% else %}<a>{% trans "Account" %}</a>{% endif %}
+        </li>
+        <li role="presentation" {% if form.password2 %}class="active"{% endif %}>
+            {% if not form.password2 %}<a href="{% url "account_change_password" %}">{% trans "Change Password" %}</a>
+            {% else %}<a>{% trans "Change Password" %}</a>{% endif %}
+        </li>
+        <li role="presentation" {% if form.email %}class="active"{% endif %}>
+            {% if not form.email %}<a href="{% url "account_email" %}">{% trans "E-mail Addresses" %}</a>
+            {% else %}<a>{% trans "E-mail Addresses" %}</a>{% endif %}
+        </li>
+
+        <li role="presentation" {% if not form.first_name and not form.password2 and not form.email and not delete_page %}class="active"{% endif %}>
+            {% if form.first_name or form.password2 or form.email or delete_page %}<a href="{% url "socialaccount_connections" %}">{% trans "Account Connections" %}</a>
+            {% else %}<a>{% trans "Account Connections" %}</a>{% endif %}
+        </li>
+        <li role="presentation" {% if delete_page %}class="active"{% endif %}>
+            {% if not delete_page %}<a href="{% url "mm_user_account_delete" %}">{% trans "Delete Account" %}</a>
+            {% else %}<a>{% trans "Delete Account" %}</a>{% endif %}
+        </li>
+    </ul>
+
+    <div class="user-profile-content">
+        {% block user_profile_content %}{% endblock %}
+    </div>
+
+</div>
+
+{% endblock %}
