@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ChineseWordPiece
+Version: 1.0.1
+Summary: WordPiece for Chinese Words
+Home-page: https://github.com/soap117/ChineseWordPiece
+Author: Junyu Luo
+Author-email: asbljy@outlook.com
+License: MIT Licence
+Description: WordPiece for Chinese Words
+Keywords: pip,ChineseWordPiece,WordPiece
+Platform: any
