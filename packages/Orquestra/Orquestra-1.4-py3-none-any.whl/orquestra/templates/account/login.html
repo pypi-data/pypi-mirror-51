@@ -1,0 +1,81 @@
+{% extends "account/base.html" %}
+{% load i18n %}
+{% load account socialaccount %}
+{% block head_title %}{% trans "Sign In" %}{% endblock %}
+{% block fullcontent %}
+{% get_providers as socialaccount_providers %}
+<div class="ui middle aligned center aligned grid container">
+  <div class="column">
+    <div class="ui segment">
+      <h1 class="ui header">
+        {% trans "Sign In" %}
+      </h1>
+      {% if socialaccount_providers %}
+      {% for provider in socialaccount_providers%}
+      <div class="ui link list">
+        <a href="{% provider_login_url provider.id %}" class="ui fluid large {{ provider.id }} {% if provider.id == 'google' %}plus{% endif %} labeled icon button">
+          <i class="{{ provider.id }} icon"></i>
+          Sign in with {{ provider.name }}
+        </a>
+      </div>
+      {% endfor %}
+      {% include "socialaccount/snippets/login_extra.html" %}
+      <div class="ui section horizontal divider">Or</div>
+      {% endif %}
+      <form class="ui fluid large form {% if form.errors %}error{% endif %}" method="post" action="{% url 'account_login' %}">
+        {% csrf_token %}
+        {% for field in form.visible_fields %}
+        {% if field.field.widget.input_type == 'checkbox' %}
+        <div class="field">
+          <div class="ui left aligned grid">
+            <div class="column">
+              <div class="ui checkbox">
+                {{ field }}
+                <label for={{ field.id_for_label }}>{{ field.label }}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <div class="field">
+          <div class="ui left icon input">
+            {% if 'E-mail' in field.label %}
+            <i class="mail icon"></i>
+            {% elif 'Password' in field.label %}
+            <i class="key icon"></i>
+            {% else %}
+            <i class="user icon"></i>
+            {% endif %}
+            {{ field }}
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% if form.errors %}
+        <div class="ui tiny error message">
+          <ul class="list">
+            {% for field, errors in form.errors.items %}
+            {% for error in errors %}
+            <li class="item">
+              {{ error|escape }}</li>
+            {% endfor %}
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if redirect_field_value %}
+        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+        {% endif %}
+        <button class="ui fluid large primary submit button" type="submit">{% trans "Sign In" %}</button>
+      </form>
+      <div class="ui divider"></div>
+      <p>{% blocktrans %}New to us? <a href="{{ signup_url }}">Sign up here</a> instead.{% endblocktrans %}</p>
+    </div>
+    {% if form.errors %}
+    <div class="ui warning message">
+      <p>Forgot your password? <a href="{% url 'account_reset_password' %}">Reset it here</a>.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

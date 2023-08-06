@@ -1,0 +1,38 @@
+{% load jfutags %}{% load thumbnail %}{% load pyforms %}
+<!DOCTYPE html />
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Successfully installation</title>
+
+    {% pyforms_dependencies %}
+
+    <link rel="stylesheet" type="text/css" href="/static/orquestra.css" /></link>
+	<script type="text/javascript" src="/static/orquestra.js"></script>
+
+</head>
+<body >
+	
+	<div class="ui attached stackable menu">
+		<div class="ui container">
+			<h3 class="ui olive header item">Pyforms</h3>
+			
+			<h4 class="ui gray header right item">
+				It is working!
+			</h4>
+		</div>
+	</div>
+	<div class="ui container" id="tab-home" >
+		
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			run_application('orquestra.default_app.DefaultApp');
+		});
+	</script>
+
+</body>
+</html>
+
