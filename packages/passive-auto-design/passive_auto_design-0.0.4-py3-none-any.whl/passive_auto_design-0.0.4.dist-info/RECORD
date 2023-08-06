@@ -1,0 +1,10 @@
+passive_auto_design/__init__.py,sha256=HUYBqWaKebbt_9LhAUILt2LGO-c8ZqcrbY23xEid6cI,28
+passive_auto_design/ngspice_warper.py,sha256=_P0ye3tDmOIHqM8SCRX4UTdWnaHQueBM7u8Wchgv5qI,3501
+passive_auto_design/passive_component.py,sha256=z6aq7NSmt3U7k_XNCjoY1pkZQBj3r6BzOjwd48eDwpQ,8435
+passive_auto_design/structure.py,sha256=wV-NGQcfr8RDuCLoe6KFgLLC3GjkMu1YadvG2HokM0E,10379
+passive_auto_design/substrate.py,sha256=cNi8W2n8KQH_Rd4fACkB6r39HETx4bpYEEZs3LvV8XM,2692
+passive_auto_design-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+passive_auto_design-0.0.4.dist-info/METADATA,sha256=ahddz6nt3v-ohpXcYB_d8j9SLW3mPoUXRWv8RFJCw3A,1674
+passive_auto_design-0.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+passive_auto_design-0.0.4.dist-info/top_level.txt,sha256=F8UP0b8Jn5z3WCx1zahfi1CdqFWtuGTj_UbV27yHkU8,20
+passive_auto_design-0.0.4.dist-info/RECORD,,
