@@ -1,0 +1,6 @@
+# The token you can get in this URL http://tw.fex.cc
+[twitch]
+token = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+nick = my_nick
+debug = off
+player = /Applications/VLC.app/Contents/MacOS/VLC

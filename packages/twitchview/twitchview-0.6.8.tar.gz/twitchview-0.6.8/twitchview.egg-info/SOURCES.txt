@@ -1,0 +1,14 @@
+README.rst
+setup.py
+twitchview/__init__.py
+twitchview/config.ini.example
+twitchview/icon.ico
+twitchview/icon.xbm
+twitchview/irc.py
+twitchview/main.py
+twitchview.egg-info/PKG-INFO
+twitchview.egg-info/SOURCES.txt
+twitchview.egg-info/dependency_links.txt
+twitchview.egg-info/entry_points.txt
+twitchview.egg-info/requires.txt
+twitchview.egg-info/top_level.txt
