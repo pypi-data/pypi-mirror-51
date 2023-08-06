@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tal
+Version: 0.0.2
+Summary: Build Tool
+Home-page: https://github.com/woodpav/tal
+Author: Ty Wood-Pavicich
+Author-email: devwoodpav@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# tal
+
+Deploys python GCP Functions with custom configuration.
+
+### Install
+
+    pip install tal
+
+### Usage:
+
+    tal deploy my_func --stage dev
+
+
