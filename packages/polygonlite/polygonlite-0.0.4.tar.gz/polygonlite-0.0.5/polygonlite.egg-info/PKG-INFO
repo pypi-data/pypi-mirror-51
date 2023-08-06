@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: polygonlite
+Version: 0.0.5
+Summary: A lightweight module for polygon, edge and point operations.
+Home-page: https://github.com/pranavtotla/polygon-lite
+Author: Pranav Totla
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
