@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: spellrst
+Version: 0.1.0
+Summary: Spell check reStructuredText.
+Home-page: https://github.com/jwkvam/spellrst
+Author: Jacques Kvam
+Author-email: jwkvam+pypi@gmail.com

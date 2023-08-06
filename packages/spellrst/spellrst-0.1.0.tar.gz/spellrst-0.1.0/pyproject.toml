@@ -1,0 +1,22 @@
+[build-system]
+requires = ["intreehooks"]
+build-backend = "intreehooks:loader"
+
+[tool.intreehooks]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "spellrst"
+author = "Jacques Kvam"
+author-email = "jwkvam+pypi@gmail.com"
+home-page = "https://github.com/jwkvam/spellrst"
+description-file = "README.rst"
+requires = [
+    "click",
+    "docutils",
+    "spacy"
+]
+requires-python = ">=3.6"
+
+[tool.flit.scripts]
+spellrst = "spellrst:main"
