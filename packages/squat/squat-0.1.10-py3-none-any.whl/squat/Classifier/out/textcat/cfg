@@ -1,0 +1,16 @@
+{
+  "exclusive_classes":true,
+  "architecture":"simple_cnn",
+  "labels":[
+    "Cash",
+    "Transfer",
+    "Salary",
+    "Tax",
+    "Digital",
+    "Shopping",
+    "Cheque",
+    "Travel",
+    "Food"
+  ],
+  "pretrained_vectors":null
+}

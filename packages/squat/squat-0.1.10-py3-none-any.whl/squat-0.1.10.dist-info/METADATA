@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: squat
+Version: 0.1.10
+Summary: bankstatement analyser
+Home-page: https://bitbucket.global.standardchartered.com/scm/~1586202/squat.git
+Author: Binay Kumar Ray
+Author-email: binaykumar.ray@sc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+bs analyser
+
+

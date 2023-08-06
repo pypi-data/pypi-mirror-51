@@ -1,0 +1,17 @@
+squat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squat/classifier.py,sha256=IJMbNXRqb1iLCGMJy-PbDhEX3Q8RCfYdklnNeTkkTqk,825
+squat/Classifier/ClassifierUtil.py,sha256=yrdGRIOPXSu4wmbAG2aFfANLhU5QvgK_5KDbIUBvuh4,5021
+squat/Classifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squat/Classifier/classifier_model.py,sha256=xI-5wjoag7doScoY9W1Cr8dXdfRIpVQO5IRffEpQwIk,7149
+squat/Classifier/out/meta.json,sha256=vMepDDY6QtLW49f7H5ShKAgYP9SWbxEhq9uIWY4Huh8,234
+squat/Classifier/out/tokenizer,sha256=1skvh_LoQTt9Y0QTEluTIP1lilPGCFi73c5KsRogWgw,81066
+squat/Classifier/out/textcat/cfg,sha256=W6BuKL06cV_ZLfhT6OdduiA34BKqn3Fhsy4ETY79CFc,246
+squat/Classifier/out/textcat/model,sha256=JKC7VmStfdwtOtgUIG-9rgu53tpzREXN3F2cYCZwID0,3705775
+squat/Classifier/out/vocab/key2row,sha256=dr6LUo0Adfeq6Y1vpXptPIOuSAqEaeZo17CvlomVrHE,1
+squat/Classifier/out/vocab/lexemes.bin,sha256=lnxEGhhY8hOkr-NnrEvSl2C828GnGAnOtV_bKFRACv4,62592
+squat/Classifier/out/vocab/strings.json,sha256=zmLAAK-bi7Urr3LnmpRPtvzyV0ti0GQumBq8qqXoNLo,16987
+squat/Classifier/out/vocab/vectors,sha256=FHcraD5yZDbVlIrT__K0PQNu8uu-NFiq_tYATgWkBwY,128
+squat-0.1.10.dist-info/METADATA,sha256=KXq1uOg9hQWizupRDFQ5i0jtZi_KsoKjQg-wo2iIQ18,459
+squat-0.1.10.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+squat-0.1.10.dist-info/top_level.txt,sha256=FkvQsgtan--5E6s3yWQkAJLV6kcL5nsRaxtHQK-r2oY,6
+squat-0.1.10.dist-info/RECORD,,
