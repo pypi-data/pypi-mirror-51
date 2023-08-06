@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: adevinta_yapo_bi_read_params
+Version: 0.0.0.0.11
+Summary: Class develop that enable read input params by command line.
+Home-page: https://github.mpi-internal.com/Yapo/bi-insights
+Author: Yapo BI
+Author-email: bi.insights@yapo.cl
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
