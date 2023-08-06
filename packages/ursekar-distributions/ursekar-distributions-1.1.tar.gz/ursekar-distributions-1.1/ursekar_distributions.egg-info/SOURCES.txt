@@ -1,0 +1,10 @@
+setup.py
+ursekar-distributions/Binomialdistribution.py
+ursekar-distributions/Gaussiandistribution.py
+ursekar-distributions/Generaldistribution.py
+ursekar-distributions/__init__.py
+ursekar_distributions.egg-info/PKG-INFO
+ursekar_distributions.egg-info/SOURCES.txt
+ursekar_distributions.egg-info/dependency_links.txt
+ursekar_distributions.egg-info/not-zip-safe
+ursekar_distributions.egg-info/top_level.txt
