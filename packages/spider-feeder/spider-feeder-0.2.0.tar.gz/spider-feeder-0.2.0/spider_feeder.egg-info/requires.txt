@@ -1,0 +1,10 @@
+scrapy
+
+[collections]
+python-scrapinghub
+
+[pep8]
+flake8
+
+[s3]
+botocore
