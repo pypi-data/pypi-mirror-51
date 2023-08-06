@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: honeybee-radiance
+Version: 1.2.0
+Summary: Daylight and light simulation extension for honeybee.
+Home-page: https://github.com/ladybug-tools/honeybee-radiance
+Author: Ladybug Tools
+Author-email: info@ladybug.tools
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: honeybee-core
+Requires-Dist: honeybee-radiance-command
+
+# honeybee-radiance
+Radiance extension for honeybee
+
+Honeybee-radiance adds radiance functionalities to honeybee for daylight and light
+simulation.
+
+
+
