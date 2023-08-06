@@ -1,0 +1,9 @@
+web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web/cli.py,sha256=tNW7ad0LNb49wtWkIQOmmOQnfSKOQeCz-ZKsmlIm5PU,94
+web/core.py,sha256=hc-JPer4AL9iLoPP6WWbYBm4d92qx-mZ8eexx1CI3oc,542
+1bead.org-0.0.2.dist-info/LICENSE,sha256=c4-HL_t3NM8SYNSznII6iYgojrXTo_7jPBo7hWfr-XA,1066
+1bead.org-0.0.2.dist-info/METADATA,sha256=_paxpQSItIjjx0SqsLmZDlzM4K-r_SjlT9rdrz8MW4Q,821
+1bead.org-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+1bead.org-0.0.2.dist-info/entry_points.txt,sha256=2el2Klliqfn-IMhORevFWnqe7ZYY-BHtworlqqpIuw4,42
+1bead.org-0.0.2.dist-info/top_level.txt,sha256=Te2Js_nwNom3AyuSoJHnQuEgXipUJ35SsySY2fzfNkI,4
+1bead.org-0.0.2.dist-info/RECORD,,
