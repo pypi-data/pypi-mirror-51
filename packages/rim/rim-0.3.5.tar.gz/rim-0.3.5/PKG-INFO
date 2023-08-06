@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rim
+Version: 0.3.5
+Summary: A package for calculating RIM between spatial objects
+Home-page: UNKNOWN
+Author: Ivan Majic
+Author-email: imajicos@gmail.com
+License: UNKNOWN
+Description: # RIM
+        The code repository for the Python implementation of the Ray Intersection Model (RIM) - for analyzing betweenness of spatial objects.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
