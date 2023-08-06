@@ -1,0 +1,8 @@
+[console_scripts]
+QARC_CTP = QARealtimeCollector.__init__:start_ctp
+QARC_Random = QARealtimeCollector.__init__:random
+QARC_Resample = QARealtimeCollector.__init__:resample
+QARC_Start = QARealtimeCollector.__init__:start
+QARC_Stock = QARealtimeCollector.__init__:stock_collector
+QARC_WEBSERVER = QARealtimeCollector.webserver:main
+
