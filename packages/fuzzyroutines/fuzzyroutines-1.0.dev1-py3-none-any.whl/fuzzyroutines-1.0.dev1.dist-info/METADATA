@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fuzzyroutines
+Version: 1.0.dev1
+Summary: FuzzyRoutines library contains some routines for work with fuzzy logic operators, fuzzy datasets and fuzzy scales.
+Home-page: https://devopshq.github.io/FuzzyRoutines/
+Author: Timur Gilmullin
+Author-email: tim55667757@gmail.com
+License: MIT
+Download-URL: https://github.com/devopshq/FuzzyRoutines.git
+Keywords: fuzzy,logic,math,science,research,fuzzylogic,fuzzyset
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+
+You can see detailed user manual here: https://devopshq.github.io/FuzzyRoutines/
+
+
