@@ -1,0 +1,4 @@
+pandas
+cx-Oracle
+mysql-connector
+psycopg2
