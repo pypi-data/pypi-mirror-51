@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: eeyore
+Version: 0.0.1
+Summary: Monte Carlo methods for neural networks
+Home-page: https://github.com/scidom/eeyore
+Author: Theodore Papamarkou
+Author-email: papamarkout@ornl.gov
+License: MIT
+Description: # eeyore
+        
+Keywords: Bayesian,deep learning,Monte Carlo,neural networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/eeyore.egg-info/PKG-INFO
+src/eeyore.egg-info/SOURCES.txt
+src/eeyore.egg-info/dependency_links.txt
+src/eeyore.egg-info/requires.txt
+src/eeyore.egg-info/top_level.txt
