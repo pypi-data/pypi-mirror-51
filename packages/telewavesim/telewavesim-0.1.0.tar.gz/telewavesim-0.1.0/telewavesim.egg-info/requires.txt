@@ -1,0 +1,4 @@
+numpy>=1.15
+obspy>=1.0.0
+pyfftw>=0.11.1
+matplotlib
