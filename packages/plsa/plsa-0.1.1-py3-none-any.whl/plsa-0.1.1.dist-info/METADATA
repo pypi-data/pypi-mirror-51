@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: plsa
+Version: 0.1.1
+Summary: Probabilistic Latent Semantic Analysis
+Home-page: https://github.com/yedivanseven/PLSA
+Author: Georg Heimel
+Author-email: georg@muckisnspirit.com
+License: UNKNOWN
+Download-URL: https://pypi.python.org/pypi/plsa
+Project-URL: Documentation, https://probabilistic-latent-semantic-analysis.readthedocs.io/en/latest/index.html
+Keywords: nlp bag-of-words
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Processing
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (>=3.0)
+Requires-Dist: nltk (>=3.4.5)
+Requires-Dist: numpy
+Requires-Dist: wordcloud (>=1.5)
+
+[![Documentation Status](https://readthedocs.org/projects/probabilistic-latent-semantic-analysis/badge/?version=latest)](https://probabilistic-latent-semantic-analysis.readthedocs.io/en/latest/?badge=latest)
+# PLSA
+A `python` implementation of Probabilistic Latent Semantic Analysis
+
+## Documentation
+Read the [API documentation](https://probabilistic-latent-semantic-analysis.readthedocs.io/en/latest/index.html) on [Read the Docs](https://readthedocs.org/)
+
+
+
