@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+select-files = selectfiles.plugin:SelectFiles
+
