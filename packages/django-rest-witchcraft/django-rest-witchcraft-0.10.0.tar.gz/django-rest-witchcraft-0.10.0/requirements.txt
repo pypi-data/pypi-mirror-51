@@ -1,0 +1,23 @@
+-e .
+coreapi
+coreschema
+pytest
+pytest-cov
+flake8
+flake8-bugbear
+flake8-comprehensions
+flake8-django
+pytest-sugar
+simplejson
+sphinx-autobuild
+gitchangelog
+yapf
+pdbpp
+pre_commit
+psycopg2cffi
+Sphinx
+sphinx_rtd_theme
+tox
+tox-pyenv
+coveralls
+sqlalchemy_utils
