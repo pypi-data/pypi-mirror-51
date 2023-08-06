@@ -1,0 +1,2 @@
+qdarkstyle==2.7
+pyqt5==5.10.1
