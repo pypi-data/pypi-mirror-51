@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: pylbc
+Version: 1.0.3
+Summary: An (unofficial) python3 wrapper API around leboncoin.
+Home-page: https://github.com/razaborg/pylbc
+Author: razaborg
+Author-email: contact@razaborg.fr
+License: GNUPLv3
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
