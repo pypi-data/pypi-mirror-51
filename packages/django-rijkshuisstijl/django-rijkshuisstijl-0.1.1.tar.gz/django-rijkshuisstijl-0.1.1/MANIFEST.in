@@ -1,0 +1,16 @@
+include *.rst
+include LICENSE
+recursive-include rijkshuisstijl *.css
+recursive-include rijkshuisstijl *.eot
+recursive-include rijkshuisstijl *.ttf
+recursive-include rijkshuisstijl *.woff
+recursive-include rijkshuisstijl *.js
+recursive-include rijkshuisstijl *.html
+recursive-include rijkshuisstijl *.txt
+recursive-include rijkshuisstijl *.png
+recursive-include rijkshuisstijl *.svg
+recursive-include rijkshuisstijl *.po
+recursive-include rijkshuisstijl *.py
+global-exclude __pycache__
+global-exclude *.py[co]
+
