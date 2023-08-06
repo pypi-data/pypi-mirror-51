@@ -1,0 +1,3 @@
+[lektor.plugins]
+qiniu = lektor_qiniu:QiniuPlugin
+
