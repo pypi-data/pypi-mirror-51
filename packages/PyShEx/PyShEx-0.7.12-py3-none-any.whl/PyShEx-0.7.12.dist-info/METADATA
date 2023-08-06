@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: PyShEx
+Version: 0.7.12
+Summary: Python ShEx Implementation
+Home-page: https://github.com/hsolbrig/PyShEx
+Author: Harold Solbrig
+Author-email: solbrig@jhu.edu
+License: Apache 2.0
+Keywords: ShEx,rdf
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Compilers
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: cfgraph (>=0.2.1)
+Requires-Dist: pyshexc (>=0.5.4)
+Requires-Dist: rdflib-jsonld (>=0.4.0)
+Requires-Dist: rdflib (>=4.2.2)
+Requires-Dist: requests
+Requires-Dist: shexjsg (>=0.6.5)
+Requires-Dist: sparql-slurper (>=0.2.1)
+Requires-Dist: sparqlwrapper
+Requires-Dist: urllib3
+
+Python ShEx interpreter
+
+
