@@ -1,0 +1,9 @@
+orthopoly/__init__.py,sha256=nRerHLwc4aRRXVgpJIAl7eYZ8VUUfHOsambjQwAgtz4,3674
+orthopoly/chebyshev.py,sha256=kPPGab_wImFpsEUCSVVdM7FH5v233HBC2b4K_8Gi8M0,20057
+orthopoly/spherical_harmonic.py,sha256=dPOzamM3fMVguzsgqYGfRj72hVy7MzX0iRxqY6yuuYA,37203
+orthopoly/util.py,sha256=v643wLq1H0sNnkplmCmaIfj8nzu0SSv_uc5gsB2EUwk,260
+orthopoly-0.3.dist-info/LICENSE,sha256=oGMDKeuwpYLA49R-cMDdwHaM8mkJZ1jyV3hwTexxw7E,1090
+orthopoly-0.3.dist-info/METADATA,sha256=rRZu5_H2OAaFZ-9vgfYGM5LRYwW71wUGPhgDhKqH_N8,3883
+orthopoly-0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+orthopoly-0.3.dist-info/top_level.txt,sha256=2CySeVUlbjxNsUzsz8UD3Vwy4ljeG8CtLMMtrBKBrkE,10
+orthopoly-0.3.dist-info/RECORD,,
