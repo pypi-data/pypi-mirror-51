@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: toastcord
+Version: 0.0.1a0
+Summary: Collection of useful utilities for discord.py (and maybe Hikari :P)
+Home-page: UNKNOWN
+License: LGPL-3.0
+Author: Tmpod
+Author-email: tmpod@protonmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# ToastCord
+
+Collection of useful utilities for discord.py (and maybe Hikari :P)
+
+
+### Credits
+
+A massive thanks to Espy (Nekoka.tt) for the amazing CI scripts and docs generation. All credit goes to him, as I've just did some tweaking. The files in question come from Hikari's [main](https://gitlab.com/nekokatt/hikari) and [core](https://gitlab.com/nekokatt/hikari.core) repositories.
+
+
