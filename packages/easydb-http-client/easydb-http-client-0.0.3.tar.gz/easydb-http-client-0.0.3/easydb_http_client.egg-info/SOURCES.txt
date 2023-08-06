@@ -1,0 +1,10 @@
+README.md
+setup.py
+easydb/__init__.py
+easydb/domain.py
+easydb/http.py
+easydb_http_client.egg-info/PKG-INFO
+easydb_http_client.egg-info/SOURCES.txt
+easydb_http_client.egg-info/dependency_links.txt
+easydb_http_client.egg-info/requires.txt
+easydb_http_client.egg-info/top_level.txt

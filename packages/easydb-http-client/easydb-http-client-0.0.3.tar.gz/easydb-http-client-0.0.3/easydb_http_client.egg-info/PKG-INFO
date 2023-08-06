@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: easydb-http-client
+Version: 0.0.3
+Summary: Http client for Easydb database
+Home-page: https://github.com/prototype-project/easydb-client
+Author: Daniel Fąderski
+Author-email: daniel.faderski@gmail.com
+License: UNKNOWN
+Description: # Http client for Easydb database
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
