@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: bvareader
+Version: 0.1.3
+Summary: Package to read and process BVA data from LF Motol
+Home-page: https://github.com/hejtmy/bva-reader
+Author: Lukáš Hejtmy Hejtmánek
+Author-email: hejtmy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy (>=1.16.0)
+Requires-Dist: matplotlib
+
+# BVA reader
+Python package which reads and parses xml data from LF in Motol.
+
+## Installation
+The project is currently hosted on test PyPi and can be downloaded from such
+[https://test.pypi.org/project/bvareader/](https://test.pypi.org/project/bvareader/)
+
+
+## Use examples
+Main use can be through the command line prompts, which doesn't require you to run your own preprocessing scripts. But if you prefer, you can preprocess and save the data in your own way.
+
+```python
+from bvareader.reader import read_xml_bva
+from bvareader.reader import read_xml_sync
+from bvareader.reader import read_sync_file
+from bvareader.reader import save_csv
+
+from bvareader.preprocessing import preprocess_bva_data
+from bvareader.preprocessing import add_rotation
+
+pd_bva = read_xml_bva("example_data/example.xml")
+pd_bva_clean = preprocess_bva_data(pd_bva)
+pd_bva = add_rotation(pd_bva)
+
+save_csv(pd_bva_clean, "bva.csv")
+save_csv(pd_bva, "bva_full.csv")
+
+bva_sync = read_xml_sync("example_data/example.xml")
+save_csv(pd_sync, "bva_sync.csv")
+
+pd_sync = read_sync_file("example_data/example.csv")
+save_csv(pd_sync, "sync.csv")
+```
+
+### Data explanation
+
+#### Timestamp
+Bva outputs real timestamp (date and time of each recording). This package converts this datetime number as the POSIX timestamp (number of seconds since 1.1.1970) as per `datetime.timestamp()` function described in [here](https://docs.python.org/3/library/datetime.html#datetime.datetime)
+
+
+### Plotting
+
+## Command line prompt
+By installing the package from PyPI, you will get the python entry point which you can use in the command line.
+
+BVA xml output preprocessing
+```bash
+bva-preprocess-xml "path_to_xml" "path_to_output_without_extension"
+```
+
+XML settings to csv output
+```bash
+bva-settings-to-csv "path_to_xml" "path_to_output_without_extension"
+```
+
+Phases times to csv output 
+```bash
+bva-phases-table "path_to_xml" "path_to_output_without_extension"
+```
+
+Measure starts and stop times
+```bash
+bva-measures-start-stop-table "path_to_xml" "path_to_output_without_extension"
+```
+
+### FAQ
+Q: The command line commands are not found.
+
+A: If you are using conda or virtual envs, make sure you are in a correct environment before.
+
