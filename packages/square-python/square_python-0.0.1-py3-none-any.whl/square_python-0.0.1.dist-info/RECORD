@@ -1,0 +1,16 @@
+square/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+square/classification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square/image_retrieval/__init__.py,sha256=-pp17jW23vNdYtaNhkUOp4KVx07JKTLHHGOL03xGxx0,30
+square/image_retrieval/feature_store.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square/image_retrieval/ir_bench.py,sha256=C30vXfFtK0GfpPV4Xgr8rJRopFRtrgsY5xHK7lvGwiY,1500
+square/image_retrieval/ir_evaluator.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square/image_retrieval/ir_searcher.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square/image_retrieval/search_method/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square/image_retrieval/search_method/brute_force.py,sha256=1HcnZEZIqQqAajb9292mYLc_umbv-L9M3hVOMVkwF3Q,191
+square/image_retrieval/search_method/faiss.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square/image_retrieval/search_method/flann.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square/object_detection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square_python-0.0.1.dist-info/METADATA,sha256=QFL3NNRshNa-04ZEiVbZA4XmMeO7hcdSyFSr6Wqwbao,233
+square_python-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+square_python-0.0.1.dist-info/top_level.txt,sha256=G4oKNPuEwMnBWUqJpycOFOLPLIddj0nwg6hgRLNk5XY,7
+square_python-0.0.1.dist-info/RECORD,,
