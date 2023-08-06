@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: desdeov2
+Version: 0.1.0
+Summary: Rewrite of the original DESDEO framework. Contains traditional MCDM algorithms and scalarization utilities. To be split into multiple modules.
+License: MIT
+Author: Giovanni Misitano
+Author-email: gialmisi@student.jyu.fi
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: jupyter (>=1.0,<2.0)
+Requires-Dist: numpy (>=1.17,<2.0)
+Requires-Dist: plotly (>=4.1,<5.0)
+Requires-Dist: scipy (>=1.3,<2.0)
+Requires-Dist: sklearn (>=0.0.0,<0.0.1)
