@@ -1,0 +1,8 @@
+README.md
+setup.py
+wordlike/__init__.py
+wordlike/wordlike.py
+wordlike.egg-info/PKG-INFO
+wordlike.egg-info/SOURCES.txt
+wordlike.egg-info/dependency_links.txt
+wordlike.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wordlike
+Version: 0.0.2
+Summary: Generates pronounceable nonsense words using Markov chains.
+Home-page: https://github.com/nkieffer/wordlike
+Author: Nathan Kieffer
+Author-email: nathankieffer@gmail.com
+License: UNKNOWN
+Description: # Wordlike
+        Generate wordlike strings based on patterns of strings found in a list of inputstring. If you can find a practical application for this module, please let me know!
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
