@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pythoneasy
+Version: 1.0
+Summary: PythonEASY APIs
+Home-page: https://github.com/pupattan/pythoneasy
+Author: pupattan
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+PythonEASY APIs
+
+
