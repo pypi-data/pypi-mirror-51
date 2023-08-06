@@ -1,0 +1,9 @@
+better_requests/__init__.py,sha256=BkcP5GtOlT70SThegFVv74gFp9ImtC3sOV203J9ewno,1118
+better_requests/__version__.py,sha256=m-GY4Gd-P8-UalzY8REO3w-QgGupcZQ2QkCc8uy0Dg8,272
+better_requests/api.py,sha256=aHFLANbQs4_qnmrSkfHT_N4hbVaBt2eUrOFI698gmQE,6229
+better_requests/sessions.py,sha256=BsaKaimM8sRm2FbbUbhZX-woLG0zl5YdXwjd14NgHU4,2628
+better_requests-1.0.1.dist-info/LICENSE,sha256=LT49uwEO1F-rPL3XTJD5W0ErBsRxb723o3gtgojdJoU,613
+better_requests-1.0.1.dist-info/METADATA,sha256=6o8zkKhw2lzLGUcltH3_veAAuBaGXOLLvHN_wx_2eXE,2299
+better_requests-1.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+better_requests-1.0.1.dist-info/top_level.txt,sha256=xgBEAfmS8L6gj8ANuCqFswPxWTpyJtr7yplcA7C4hq4,16
+better_requests-1.0.1.dist-info/RECORD,,
