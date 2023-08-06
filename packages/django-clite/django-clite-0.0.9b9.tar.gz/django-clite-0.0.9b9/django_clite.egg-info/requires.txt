@@ -1,0 +1,5 @@
+Click==7.0
+jinja2
+inflection
+django>=2.2.4
+tox
