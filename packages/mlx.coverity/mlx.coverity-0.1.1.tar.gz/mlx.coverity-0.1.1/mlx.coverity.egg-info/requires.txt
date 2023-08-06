@@ -1,0 +1,7 @@
+Sphinx>=0.6
+docutils
+setuptools_scm
+matplotlib<=3.0.3
+mlx.traceability
+suds-py3
+urlextract
