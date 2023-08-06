@@ -1,0 +1,8 @@
+setup.py
+cvbox_utils/__init__.py
+cvbox_utils/cvbox.py
+cvbox_utils.egg-info/PKG-INFO
+cvbox_utils.egg-info/SOURCES.txt
+cvbox_utils.egg-info/dependency_links.txt
+cvbox_utils.egg-info/requires.txt
+cvbox_utils.egg-info/top_level.txt
