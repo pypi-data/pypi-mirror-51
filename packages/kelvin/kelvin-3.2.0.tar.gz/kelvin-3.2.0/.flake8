@@ -1,0 +1,12 @@
+[flake8]
+ignore =
+  # multiple imports on one line
+  E401,
+  # line too long
+  E501,
+  # multiple spaces before operator (aligned assignments)
+  E221,
+  # multiple spaces after , (aligned columns of tuples, etc.)
+  E241,
+  # module level import not at top (sometimes we fix up paths before importing).
+  E402

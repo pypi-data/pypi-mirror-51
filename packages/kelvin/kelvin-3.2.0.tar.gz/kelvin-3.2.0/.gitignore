@@ -1,0 +1,9 @@
+build
+__pycache__
+tmp
+setup.cfg
+*.pyo
+*.pyc
+dist
+venv*
+kelvin.egg-info

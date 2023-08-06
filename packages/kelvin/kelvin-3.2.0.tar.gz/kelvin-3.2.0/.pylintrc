@@ -1,0 +1,14 @@
+
+[MASTER]
+ignore=.git
+# persistent=no
+
+[MESSAGES CONTROL]
+disable =
+  line-too-long,
+  bad-whitespace,
+  multiple-imports,
+  ungrouped-imports
+
+[REPORTS]
+msg-template={path}:{line}: [{msg_id}({symbol}), {obj}] {msg}
