@@ -1,0 +1,14 @@
+django_richenum/__init__.py,sha256=UUm-WAWMhqFeEGQCbSJNYIevCn8hS_oTpwVvN04rGLQ,146
+django_richenum/admin/__init__.py,sha256=ZtmpXzZm-CKY7hwAL0op9mbToXEAsrALnTt8gR0AzC0,797
+django_richenum/admin/filters.py,sha256=oI1X4mRnNxP7I8vocUy6W7uKOLlB9kQcPpmFseVaEQc,2431
+django_richenum/admin/options.py,sha256=rfrsou60Rz0h4dtZQ_jGGKR-pN6kQdC0BH7umbqzmIs,671
+django_richenum/forms/__init__.py,sha256=TLLzxTsieBcZrY4MGl9i8SlKaUtau4stskqpSr2BqWw,324
+django_richenum/forms/fields.py,sha256=p4r3iZivMmVDRYFRtFyrzXEwf1ThuuvlGJHY796r9eA,3966
+django_richenum/models/__init__.py,sha256=0bg0ODv-FeL503608PIBG4w21xMIUJxUqoH2RrS2YCU,233
+django_richenum/models/fields.py,sha256=7ahxFIvQuR93fEPzvi4SY41aUMDhBZiPt0pf9nGCBr0,9110
+django_richenum-3.7.0.dist-info/AUTHORS.rst,sha256=1wjqT-F2KBprOTxOd0BTmEGyaTU9qIazCFNL59dR6rU,378
+django_richenum-3.7.0.dist-info/LICENSE.txt,sha256=sgjhHWmmbM7R_GGuUR52oGj0sMPWKLmdor2P_3w5-5w,1087
+django_richenum-3.7.0.dist-info/METADATA,sha256=HmlHZ3F3OvalAq2k0DxG30BpXYrZir7KBr2J3jZEHdg,8565
+django_richenum-3.7.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+django_richenum-3.7.0.dist-info/top_level.txt,sha256=2cKamxXFpHoYaV83pF5bVQmZMc0i8d5bLQ_VcWVD77I,16
+django_richenum-3.7.0.dist-info/RECORD,,
