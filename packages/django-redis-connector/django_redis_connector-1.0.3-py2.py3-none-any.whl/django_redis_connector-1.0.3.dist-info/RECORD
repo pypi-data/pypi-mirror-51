@@ -1,0 +1,6 @@
+django_redis_connector/__init__.py,sha256=5gvkP1cVeBg7Y4T08_odtp62lJ2I25YyhO6nfhMrSP0,101
+django_redis_connector/redis_connector.py,sha256=75IVtkpufdN1EUihiqfIh5Ufy3hNHUfWIFD2JxL3o68,546
+django_redis_connector-1.0.3.dist-info/METADATA,sha256=Gq9NtY-rZTFLqIL1Ule9bzsKbRBlbrRxm_BvXGJCYHQ,1190
+django_redis_connector-1.0.3.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+django_redis_connector-1.0.3.dist-info/top_level.txt,sha256=46RHfbmx0GQlcKmPdkHFQ14wEuJMbVfIXv42FZy2NcM,23
+django_redis_connector-1.0.3.dist-info/RECORD,,
