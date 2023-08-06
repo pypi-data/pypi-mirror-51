@@ -1,0 +1,9 @@
+django_restql/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_restql/filters.py,sha256=zXQipThOjClxfi0NWN1eZE16lH3ioddVokIkPf0DfqY,801
+django_restql/mixins.py,sha256=m09u2TTru6HMpR6K1AzOXZBnMHsvuDp00q9FliaKcrU,3099
+django_restql/parser.py,sha256=j7XXS917mLmRRUq_NB4hYxBtilz9ZYt3LaSCporh6fw,2229
+django_restql-0.4.2.dist-info/LICENSE,sha256=lWPq_BHrF7fLbblOIlm78-01qCc9msXKu4AYE59kuEQ,1067
+django_restql-0.4.2.dist-info/METADATA,sha256=mJ94avYkvIw2GHU5T1FEsB3KfTW-ZNAWGyIqP4GlHeI,7402
+django_restql-0.4.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_restql-0.4.2.dist-info/top_level.txt,sha256=m7rT2jqLqQSClvFeqNHd5Dy_MGOPE_kJ_77vcNk5l6c,14
+django_restql-0.4.2.dist-info/RECORD,,
