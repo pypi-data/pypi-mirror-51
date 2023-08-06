@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: py-sugo
+Version: 0.1.0
+Summary: Dependencyless WSGI compliant micro framework implemented with python using only the standard library.
+License: MIT
+Author: Francisco Javier Sucre González
+Author-email: franciscojsucreg@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7

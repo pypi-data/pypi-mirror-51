@@ -1,0 +1,14 @@
+py_sugo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_sugo/application.py,sha256=0ZrXnzVu1cJ3VG30vJGjEgrCXE_IAYzFxeqOP5G8i_o,2076
+py_sugo/core.py,sha256=67IiYJvQVvHGL7ipR6rxM_jCrmj-JAZpKush3rBgFJk,258
+py_sugo/example.py,sha256=QDBqpHiF3WabDc4lgSBWTVB9l3ZWO3gAyLt3mJ73h2w,1098
+py_sugo/http_client.py,sha256=vr79SoywUlLnAM_BZ2BAugu90P5rHmCkt8paxly0smA,5918
+py_sugo/middleware.py,sha256=N5rFZ2nTyYeIa8cpSNUeoVxKnU4Ahc-q3ajXoW4y7rk,5088
+py_sugo/parsing.py,sha256=vnnpUUvDlpc9-6PwZ42IWlCrB0Tsb4hc_FxhEbXnP5w,615
+py_sugo/request.py,sha256=TM2vv6ILB10nzurlLZn6g1xkpMPgUaoIsa2fXyQyUaw,2785
+py_sugo/response.py,sha256=DyJemhEQ3tRd6bzrEwow8G2UnUZrKCrI-4k3mnj7EOI,1328
+py_sugo/router.py,sha256=CT3t2lBCICnHIkhAeS1P3fpompSw4GVO0E717wBdvu0,4289
+py_sugo/server.py,sha256=sjJDr4HrOdgq8FUkDMzJ4lVHN7MbM7_jCyoJRiR-Acw,112
+py_sugo-0.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+py_sugo-0.1.0.dist-info/METADATA,sha256=EsV-b-BvZasMxeM4tyE8y6pY2YT5WbT8i8jXL6WhP9s,435
+py_sugo-0.1.0.dist-info/RECORD,,
