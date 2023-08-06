@@ -1,0 +1,11 @@
+bottleneck==1.0.0
+pandas<0.23
+pytz
+logbook
+astor
+trading_calendars
+click
+PyYAML
+ipython
+alpaca-trade-api>=0.38
+pipeline-live>=0.1.9
