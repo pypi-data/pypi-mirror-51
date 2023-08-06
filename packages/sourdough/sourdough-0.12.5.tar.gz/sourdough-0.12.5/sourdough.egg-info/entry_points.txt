@@ -1,0 +1,11 @@
+[console_scripts]
+sourdough = sourdough.cli.commands:sourdoughDriver
+sourdough-bootstrap = sourdough.sourdough:infect
+sourdough-deregister = sourdough.sourdough:deregisterFromChef
+sourdough-disable-chef = sourdough.sourdough:disableChefRuns
+sourdough-disable-debugging = sourdough.sourdough:disableDebugMode
+sourdough-enable-chef = sourdough.sourdough:enableChefRuns
+sourdough-enable-debugging = sourdough.sourdough:enableDebugMode
+sourdough-runner = sourdough.sourdough:runner
+sourdough-starter = sourdough.sourdough:runner
+
