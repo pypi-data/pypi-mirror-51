@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+cectf_stats_worker.egg-info/PKG-INFO
+cectf_stats_worker.egg-info/SOURCES.txt
+cectf_stats_worker.egg-info/dependency_links.txt
+cectf_stats_worker.egg-info/not-zip-safe
+cectf_stats_worker.egg-info/requires.txt
+cectf_stats_worker.egg-info/top_level.txt
+topkek_stats_worker/__init__.py
