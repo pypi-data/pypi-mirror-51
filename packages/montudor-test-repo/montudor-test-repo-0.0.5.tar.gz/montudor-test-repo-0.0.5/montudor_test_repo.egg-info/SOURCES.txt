@@ -1,0 +1,7 @@
+README.md
+setup.py
+montudor_test_repo.egg-info/PKG-INFO
+montudor_test_repo.egg-info/SOURCES.txt
+montudor_test_repo.egg-info/dependency_links.txt
+montudor_test_repo.egg-info/top_level.txt
+test/__init__.py
