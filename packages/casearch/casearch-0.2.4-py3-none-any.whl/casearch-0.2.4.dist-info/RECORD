@@ -1,0 +1,11 @@
+casearch/__init__.py,sha256=_mNFiWk9fg6PyZdF4BDLepIjb5iagwWOOXXGBFrCycU,228
+casearch/cli.py,sha256=P4T_tgTJyYDxlWPNwxez8m9IwLRDcG5_JU8hdC8Q9AA,14053
+casearch/config.py,sha256=U0OMKV7QIkiLzpxMcGy6Za9QU0Zvle3BvATtwuhw6j4,641
+casearch/log.py,sha256=1PlTFL-eFE7dY5c43Gcmbox3lxyBYd4akfgK5R89UgA,334
+casearch/retrieve.py,sha256=9vBX_e7LwymEU7xzMBHWUgPSGjzzjwPEnTWvSi9Y1UQ,4011
+casearch-0.2.4.dist-info/LICENSE,sha256=2qq16Kr-b58TIJErSjJj7EQQ9sUtJ50omXoK0rCJD48,1111
+casearch-0.2.4.dist-info/METADATA,sha256=hWmHDD7JNEZfV5kODHueKmHz6gjYiulZM6xECOo0V8I,435
+casearch-0.2.4.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+casearch-0.2.4.dist-info/entry_points.txt,sha256=BP4dbFnM_miI8bJC_J4nCXkA0sXDbDaPlzmWicjJFKw,51
+casearch-0.2.4.dist-info/top_level.txt,sha256=z49jIHmxOm5XxHAcqU9nl0jA7YKBr7pAPYydrnS7CcY,9
+casearch-0.2.4.dist-info/RECORD,,
