@@ -1,0 +1,11 @@
+tidepredict/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidepredict/astro.py,sha256=0pohl8JKPiQ1kPDn3PUqKkJmoJUaurCCRJV3Ecq6pb0,6036
+tidepredict/constituent.py,sha256=hlJBgWfcVTCNGFWiwcFWPqmePc8xo8tjFzv0FWnrGx0,6342
+tidepredict/nodal_corrections.py,sha256=2sLn-cf-4-cKtBEYMrgRBfv5DHD1sm4n93r7XU9zmmY,3708
+tidepredict/processdata.py,sha256=NgzO5JeaRJLrTmSVgmQZYJFsEdLxH1eIIvGb9ed5vBs,6802
+tidepredict/tide.py,sha256=KOAsGwFDrZxK7H5UcOd7d5idPgfQlXKNvKH88u2nrRo,13802
+tidepredict-0.0.1.dist-info/LICENSE,sha256=9zxvKBREYVsFgR39L4Y-9A7X06m92bi1hAYm5bWZjqM,1071
+tidepredict-0.0.1.dist-info/METADATA,sha256=-hgyBGG6s8Bb2iYgBIXyFT13XVzErIAsll5flGb6Acw,692
+tidepredict-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tidepredict-0.0.1.dist-info/top_level.txt,sha256=Z_ZIpIN-8Gs1bKpM3ARxEuXg7AWz1QPtxNOYQ3JSmZQ,12
+tidepredict-0.0.1.dist-info/RECORD,,
