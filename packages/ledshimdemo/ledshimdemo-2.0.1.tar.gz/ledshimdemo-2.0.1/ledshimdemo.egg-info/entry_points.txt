@@ -1,0 +1,3 @@
+[console_scripts]
+ledshimdemo = ledshimdemo.__main__:ledshimdemo
+
