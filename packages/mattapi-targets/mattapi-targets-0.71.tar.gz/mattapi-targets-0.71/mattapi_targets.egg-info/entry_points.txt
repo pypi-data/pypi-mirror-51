@@ -1,0 +1,4 @@
+[console_scripts]
+target1 = targets.test.main:main
+target2 = mattapi.targets.test.main:main
+
