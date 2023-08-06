@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+pyifx/INTERNAL.py
+pyifx/__init__.py
+pyifx/comp.py
+pyifx/graphics.py
+pyifx/hsl.py
+pyifx/misc.py
+pyifx.egg-info/PKG-INFO
+pyifx.egg-info/SOURCES.txt
+pyifx.egg-info/dependency_links.txt
+pyifx.egg-info/not-zip-safe
+pyifx.egg-info/requires.txt
+pyifx.egg-info/top_level.txt
