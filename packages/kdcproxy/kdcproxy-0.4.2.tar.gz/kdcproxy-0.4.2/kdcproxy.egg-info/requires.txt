@@ -1,0 +1,12 @@
+asn1crypto>=0.23
+dnspython
+
+[test_pep8]
+flake8
+flake8-import-order
+pep8-naming
+
+[tests]
+WebTest
+coverage
+pytest
