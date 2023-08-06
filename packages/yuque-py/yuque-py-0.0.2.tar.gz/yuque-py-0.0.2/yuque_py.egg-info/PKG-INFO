@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: yuque-py
+Version: 0.0.2
+Summary: yuque api for python version
+Home-page: https://github.com/Zheaoli/yuque-py
+Author: Manjusaka
+Author-email: me@manjusaka.me
+License: MIT License
+Description: # yuque-py
+        
+        Python SDK for [yuque](https://www.yuque.com/yuque/developer/api)
+        
+        
+        ## Install
+        
+        ```bash
+        pip instal yuque-py
+        ```
+        
+        ## Usage
+        
+        ```python
+        from yuque_py import Yuque
+        
+        yuque=Yuque(api_host="",user_token="")
+        yuque.docs
+        ```
+        
+        
+        ## API
+        
+        see [Yuque API Docs](https://www.yuque.com/yuque/developer/api) for more details.
+        
+        ### users
+        
+        see the source.
+        
+        ### groups
+        
+        see the source.
+        
+        ### repos
+        
+        see the source.
+        
+        ### docs
+        
+        see the source.
+        
+        ## TODO
+        
+        - [ ] API docs
+        - [ ] JSDocs definition for result info
+        - [ ] add `d.ts` or refactor to TypeScript
+        
+        
+        Release History
+        ===============
+        
+        0.0.1(2019-08-28)
+        
+        * support basic function
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
