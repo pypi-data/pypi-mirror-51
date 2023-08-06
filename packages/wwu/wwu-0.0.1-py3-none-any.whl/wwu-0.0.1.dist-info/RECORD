@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=1KxSsUNncxkCtvDwhJcpn1_wSGT_ulngNc2aSKurLZU,103
+tests/test_wwu.py,sha256=wVknYt0EMYtT0JB7tpzNR3iT_dM4xkpWVALWqkOUkGc,266
+wwu/__init__.py,sha256=QbcPHnj9CNjHYM6utvuJtne_XSOCMBKokskF-sFn2i4,24
+wwu/box.py,sha256=dFnfzLgUDc-3jlIDgLK41offRiahbFs5q_SdyHpJylM,902
+wwu-0.0.1.dist-info/LICENSE,sha256=M-c0ddfJAxlooI-vOSQhwY9Sa75BcLopKWy4FdTrthQ,1067
+wwu-0.0.1.dist-info/METADATA,sha256=cr5cy-ZbjMrhg22aleFL9EprVwtazqKTlHVrHF7ble4,1860
+wwu-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+wwu-0.0.1.dist-info/top_level.txt,sha256=qtQpmxg31C2vuugjX2p0lKGFEzxv9lRjKUp5SoW46F4,10
+wwu-0.0.1.dist-info/RECORD,,
