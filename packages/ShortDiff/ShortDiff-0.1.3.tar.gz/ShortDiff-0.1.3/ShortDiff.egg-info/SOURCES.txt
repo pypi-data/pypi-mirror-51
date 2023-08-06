@@ -1,0 +1,9 @@
+README.md
+setup.py
+ShortDiff/__init__.py
+ShortDiff/__main__.py
+ShortDiff/test.py
+ShortDiff.egg-info/PKG-INFO
+ShortDiff.egg-info/SOURCES.txt
+ShortDiff.egg-info/dependency_links.txt
+ShortDiff.egg-info/top_level.txt
