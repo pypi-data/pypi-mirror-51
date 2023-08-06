@@ -1,0 +1,9 @@
+README.md
+setup.py
+qdk/__init__.py
+qdk/version.py
+qdk.egg-info/PKG-INFO
+qdk.egg-info/SOURCES.txt
+qdk.egg-info/dependency_links.txt
+qdk.egg-info/requires.txt
+qdk.egg-info/top_level.txt
