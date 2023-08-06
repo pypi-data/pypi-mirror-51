@@ -1,0 +1,70 @@
+<pre><code>mbpro é um módulo criado principalmente para aqueles que não gostam de ter muito trabalho com códigos
+</code></pre>
+<h3>EXEMPLOS</h3>
+<pre><code>
+#<--------------------------------------------------->#
+#Função rand()
+#< Com a rand() você pode gerar um número aleatório ou até mesmo uma letra do alfabeto >#
+
+#rand() com números:
+from mbpro import rand
+
+number = rand(7, 888) #gera um número aleatório de 7 a 888 
+print(number)
+
+#Obs: Os números podem ser em string também
+
+#rand() com letras:
+
+letra = rand('e', 'm') #gera uma letra de E a M
+print(letra)
+
+#<--------------------------------------------------->#
+#Função pega()
+#< Com a pega() você pode capturar um determinado texto dentro de um HTML por exemplo >#
+from mbpro import pega
+str = 'spanf Aqui está um exemplo da pega():hsgs 1$MBPRO t35'
+
+dados = pega(str, '1$', 'te5') #retorna o texto MBPRO 
+print(dados)
+
+#<--------------------------------------------------->#
+#Função connect()
+#< Com a connect() você pode testar a conexão de um proxy no GOOGLE >#
+from mbpro import connect
+str = connect('36.66.235.147:57550') #retorna um JSON com os dados e status do proxy
+
+#a connect() testa proxies com no máximo 7000 ms, caso ultrapassar o retorno será DIE
+
+#<--------------------------------------------------->#
+#Função curl()
+#< Com a curl() você pode realizar um request tanto GET quanto POST de maneira fácil >#
+from mbpro import curl
+postfields = 'post1=carlos&post2=jeferson&post3=antonio&post4=pedro'
+
+data = curl('http://proxy.mbpro.in/data.php', post=postfields).text()
+print(data)
+#Atributos ao curl:
+#url -> urlencode
+#header -> em forma de dict (opcional)
+#timeout -> em inteiro (opcional)
+#post (opcional)
+
+#<--------------------------------------------------->#
+#Função pretty_print()
+#< Com a pretty_print() você pode printar um json em PRETTY_PRINT >#
+from mbpro import pretty_print
+
+json = {"nome":"carlos","idade":"19 anos","sexo":"masculino"} #O json também pode vir em str
+
+pretty = pretty_print(json)
+
+print(pretty)
+
+</code></pre>
+<h3>Copyright</h3>
+<pre><code>
+Todos os direitos reservados a equipe MBPro Services and Revolutions
+
+By: Master Bank
+</code></pre>

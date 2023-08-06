@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+mbpro/__init__.py
+mbpro.egg-info/PKG-INFO
+mbpro.egg-info/SOURCES.txt
+mbpro.egg-info/dependency_links.txt
+mbpro.egg-info/top_level.txt
