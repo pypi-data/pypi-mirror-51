@@ -1,0 +1,8 @@
+README.md
+setup.py
+nerdlog/__init__.py
+nerdlog/logger.py
+nerdlog.egg-info/PKG-INFO
+nerdlog.egg-info/SOURCES.txt
+nerdlog.egg-info/dependency_links.txt
+nerdlog.egg-info/top_level.txt
