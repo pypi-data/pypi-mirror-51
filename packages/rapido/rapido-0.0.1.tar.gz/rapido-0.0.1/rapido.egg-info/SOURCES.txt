@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+rapido.egg-info/PKG-INFO
+rapido.egg-info/SOURCES.txt
+rapido.egg-info/dependency_links.txt
+rapido.egg-info/top_level.txt
