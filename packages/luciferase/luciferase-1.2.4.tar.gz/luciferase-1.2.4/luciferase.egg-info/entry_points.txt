@@ -1,0 +1,3 @@
+[console_scripts]
+luciferase-barplot = luciferase.luciferase:main
+
