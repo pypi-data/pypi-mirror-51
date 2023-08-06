@@ -1,0 +1,4 @@
+[console_scripts]
+process-vault-environment = vault_tools.entrypoints:process_vault_environment
+renew-token = vault_tools.entrypoints:renew_token
+

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vault-tools
+Version: 0.1.0
+Summary: misc tools to work with vault
+Home-page: https://github.com/openslate/vault-tools
+Author: OpenSlate
+Author-email: code@openslate.com
+License: UNKNOWN
+Description: # vault-tools
+        misc tools to work with vault
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
