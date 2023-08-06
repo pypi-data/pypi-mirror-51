@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: lovely-json
+Version: 0.0.1
+Summary: Make Your Json Lovely
+Home-page: https://github.com/ccppoo/lovely_json
+Author: ccppoo
+Author-email: shmishmi79@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Lovely Json
+
+## Features
+
+  ### 1. Direct Access to Key Value<br>
+**take a look at [example](https://github.com/ccppoo/lovely_json/blob/master/lovely_json_use_example.py) to run in code ** <br>
+**This example uses "[sample_api.json](https://github.com/ccppoo/lovely_json/blob/master/sample_api.json)" so does the following examples"**<br>
+
+#### 1-(1). load json
+```py
+json_data =  open("./sample_api.json", encoding="utf-8", mode='r')
+
+j_sample = Lovely_Json(json.load(json_data), name = 'api_response')	
+```
+You need to load json file as you did before in this case too<br>
+It was intentionaly designed like this to use at ".json" file and <br>
+for json response for servers
+
+In case of using serval jsons, names are recommanded
+
+#### 1-(2). use dot operators to directly get key values
+**To get data by key**
+```py
+# Lovely_Json :
+print(j_sample.Depth4.depth4_item1) # prints "Python"
+
+# Just Json :
+original = json.load(open("./sample_api.json", encoding="utf-8", mode='r'))
+original["Depth1"]["Depth2"]["Depth3"]["Depth4"]["depth4_item1"] # prints "Python"
+```
+
+To get data, you only need to know the key in the way to make sure what you are finding for. Take a look at image I made To show sample_api.json as graphs<br>
+![sample_api_grpah_img](https://github.com/ccppoo/lovely_json/blob/master/sample_api(json)Image.PNG)
+
+To get Value That are dict, You could directly get it by dot operators (__getattr__)<br>
+```py
+print(j_sample.Depth4) # prints {"depth4_item1" : "Python","depth4_item2" : "Haskell"}
+```
+
+**But** If you want to get Value that isn't dict, You should go through upper key and then get it by dot operators
+```py
+print(j_sample.Depth4.depth4_item1) # prints "Python"
+```
+
+You could also do by this
+```py
+print(j_sample.Depth1.depth4_item1) # prints "Python"
+print(j_sample.Depth2.depth4_item1) # prints "Python"
+print(j_sample.Depth3.depth4_item1) # prints "Python"
+print(j_sample.Depth4.depth4_item1) # prints "Python"
+```
+
+  ### 2. Access to List of Key Value<br>
+```py
+# to access item in list, returns list of value of key, "id"
+print(j_sample.in_list(key = 'data').id , end='\n\n')
+# ---> prints [111, 222, -333]
+```
+```py
+# and if you have conditions about 'id'
+print(j_sample.in_list(key = 'data', if_ ='id', is_ = (lambda x:x>0)).id , end='\n\n') 
+# --->prints [111, 222]
+```
+```py
+# also you could use other key's value of conditions
+print(j_sample.in_list(key = 'data', if_ ='type', is_ = (lambda x:x =='articles')).id, end='\n\n')
+# --->prints [111, -333]
+```
+
+"if_" and "is_" were desinged to be used like SQL Where syntex,
+*if_* takes key, wher you want to make conditions
+*is_* takes lamda or method that returns Bool ( True, False) to check the value fit in what you required
+
+
+## add
+
+lovely_json was made to make ease access of json data, when developing systems or services.<br>
+There will be continuous update for useful methods and speed improvements,<br>
+But using conventional ways will make much more speed improvements.<br>
+
+So Think lovely_json as a tool when you use before releasing, like a rough sketch <br>
+
+Thank You!
+
+
