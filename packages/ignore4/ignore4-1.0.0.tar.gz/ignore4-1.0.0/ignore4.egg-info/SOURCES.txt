@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+ignore4/__init__.py
+ignore4/main.py
+ignore4.egg-info/PKG-INFO
+ignore4.egg-info/SOURCES.txt
+ignore4.egg-info/dependency_links.txt
+ignore4.egg-info/entry_points.txt
+ignore4.egg-info/not-zip-safe
+ignore4.egg-info/top_level.txt

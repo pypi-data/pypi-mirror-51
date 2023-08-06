@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ignore4
+Version: 1.0.0
+Summary: A wrapper script for downloading gitignore files from github/gitignore
+Home-page: https://github.com/Smeb/ignore4
+Author: Ben Ryves
+Author-email: bryves@gmail.com
+License: MIT
+Description: # ignore4
+        
+        Download `.gitignore` files from the [GitHub gitignore](https://www.github.com/github/gitignore)
+        repository. No dependencies beyond Python3.
+        
+        ## Usage
+        `ignore4 <language>` - download a sample .gitignore for the given langauge to the current directory
+        `ignore4 --list` - list all the languages which can be downloaded
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
