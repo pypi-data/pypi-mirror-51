@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: WatsonReport
+Version: 0.0.10
+Summary: watson reporting for imdc
+Home-page: https://gitlab.com/kobededecker/watsonreport
+Author: Kobe De Decker
+Author-email: kobededecker@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: td-watson
+Requires-Dist: openpyxl
+
+UNKNOWN
+
+
