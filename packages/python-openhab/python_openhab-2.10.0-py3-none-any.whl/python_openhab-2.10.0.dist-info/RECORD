@@ -1,0 +1,10 @@
+openhab/__init__.py,sha256=HmxYCXUmPSg0-KtdcqJSuE-NZHOftYMYAA-Y8dX2IbY,37
+openhab/client.py,sha256=kbSzGRoui6AKL699D_3UOHCZepLDQMfNmrjG6gzEKRQ,7431
+openhab/items.py,sha256=0Ia6UOe6PqaX-MghCSZsBaU9kPHefaxuH3jlFRO3ej4,8953
+openhab/openhab.py,sha256=tuaObS-TRygoXLHD7_PnCPcw97S5cAP5y_zT73TkiK8,6759
+openhab/types.py,sha256=1S3B5hlWj-Yx-FBSfm1CIAFupLH1FQErbyQUAPO8OgM,5302
+python_openhab-2.10.0.dist-info/LICENSE,sha256=iEtDSVe6aIMRlZDRzkl_1ESpyLcDC278TeglQBxnJb8,34501
+python_openhab-2.10.0.dist-info/METADATA,sha256=rwtCAujENcC1w4RuenTmdgr6AvxHm0HkENpF430MlOY,2777
+python_openhab-2.10.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+python_openhab-2.10.0.dist-info/top_level.txt,sha256=QfwVkUjlGHz8eTJblVXolE7bF2TWlnCGzo60qYk8jLs,8
+python_openhab-2.10.0.dist-info/RECORD,,
