@@ -1,0 +1,7 @@
+itsdangerous
+pycryptodome
+elasticsearch
+jinja2
+redis
+pyyaml
+kafka

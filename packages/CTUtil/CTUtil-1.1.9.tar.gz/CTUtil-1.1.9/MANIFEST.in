@@ -1,0 +1,3 @@
+recursive-include CTUtil/email/template *
+recursive-include CTUtil/management/commands/config *
+recursive-include CTUtil/config/ *
