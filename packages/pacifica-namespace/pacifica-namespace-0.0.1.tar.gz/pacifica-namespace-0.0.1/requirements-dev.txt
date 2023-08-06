@@ -1,0 +1,3 @@
+pep257
+pre-commit
+pylint<2.0
