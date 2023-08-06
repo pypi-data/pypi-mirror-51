@@ -1,0 +1,8 @@
+setup.py
+telecomanalyz/__init__.py
+telecomanalyz.egg-info/PKG-INFO
+telecomanalyz.egg-info/SOURCES.txt
+telecomanalyz.egg-info/dependency_links.txt
+telecomanalyz.egg-info/not-zip-safe
+telecomanalyz.egg-info/requires.txt
+telecomanalyz.egg-info/top_level.txt
