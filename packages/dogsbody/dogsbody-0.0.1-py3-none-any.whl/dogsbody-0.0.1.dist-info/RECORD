@@ -1,0 +1,11 @@
+dogsbody/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dogsbody/cli.py,sha256=SVT_yVWHS7-f9DYqUQEyMp87Fn__Y-4MDcT9Qp4SJm8,1196
+dogsbody/cls.py,sha256=6sg292vdm5l5tsVwYgAamAhXPutl6WSFKRY7h00gPmg,5131
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cls_unzipper.py,sha256=OvWcbaUrGkmU6t-Y4UfsQW1Q7am9oFc8NI5jAXOUG8s,1055
+dogsbody-0.0.1.dist-info/LICENSE,sha256=VaHSyuHDerVFfESXCspoAKMQScg7TA3tCtJmFvxvguM,1069
+dogsbody-0.0.1.dist-info/METADATA,sha256=lIOwnFJvvF_hki3eYtq8S8eCkna4qNKH81-nJT4CjLc,1834
+dogsbody-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dogsbody-0.0.1.dist-info/entry_points.txt,sha256=P_yeb9LwQoEqv7LO6clN_aoEtmF6ztKvzIF1LAHrlOI,48
+dogsbody-0.0.1.dist-info/top_level.txt,sha256=XfAfeGnapTAEf4FMGmfr12hiEnH6-Wb7SVL9IRKNB2s,15
+dogsbody-0.0.1.dist-info/RECORD,,

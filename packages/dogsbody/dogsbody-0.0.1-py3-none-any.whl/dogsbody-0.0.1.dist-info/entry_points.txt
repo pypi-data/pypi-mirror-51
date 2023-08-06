@@ -1,0 +1,3 @@
+[console_scripts]
+dogsbody = dogsbody.cli:main
+
