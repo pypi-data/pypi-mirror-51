@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: LPCertTool
+Version: 0.0.5
+Summary: Linkplay MSP Certificate Tool
+Home-page: https://github.com/liuning0930
+Author: Ning.Liu
+Author-email: ning.liu@linkplay.com
+License: UNKNOWN
+Description: pip3.exe install -r requirements.txt
+        python3 LPCertReportUI.py
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

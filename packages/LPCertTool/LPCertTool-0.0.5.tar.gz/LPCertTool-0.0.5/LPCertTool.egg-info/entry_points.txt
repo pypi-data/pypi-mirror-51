@@ -1,0 +1,3 @@
+[console_scripts]
+lpcerttool = LPCertLog.LPCertReportUI:main
+
