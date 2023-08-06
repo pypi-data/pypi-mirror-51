@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: django-minke
+Version: 1.0.3.dev0
+Summary: Django- and fabric-based building toolkit for remote-control- and configuration-management-systems.
+Home-page: UNKNOWN
+Author: Thomas Leichtfuß
+Author-email: thomas.leichtfuss@posteo.de
+License: BSD License
+Platform: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Requires-Dist: Django (>=1.11)
+Requires-Dist: fabric2 (>=2.4.0)
+Requires-Dist: celery (>=4.2.2)
+Requires-Dist: djangorestframework (>=3.9.2)
+
+=====
+Minke
+=====
+####################################################################
+A framework for remote-control- and configuration-management-systems
+####################################################################
+
+Minke is a framework that combines the full power of djangos admin-interface
+with the reliability and configurability of fabric2. A pure open-source- and
+pure python-solution to realize the most different szenarios concerning remote-
+control and configuration-managment.
+
+Guess you just need to setup some managment-commands for a handful of servers -
+you can do that with minke. Guess you have lots of servers with different
+setups that you need to group and address seperatly - you can do that with
+minke. Guess you have servers with multiple subsystems installed on each of them
+and you not just want to manage those systems but also to track configurations,
+version-numbers, installed extensions or modules and to filter for all of those
+values within your backend - you can do that with minke.
+
+Minke features:
+---------------
+* full django-admin-site-integration
+
+* parrallel ssh-connections and code-execution using celery
+
+* realtime monitoring of executed tasks
+
+* extensive support of fabric2- and invoke-configurations
+
+
