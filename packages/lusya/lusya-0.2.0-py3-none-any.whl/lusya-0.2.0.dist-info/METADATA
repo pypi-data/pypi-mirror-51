@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lusya
+Version: 0.2.0
+Summary: Lucene search for DRF
+Home-page: https://github.com/ncopiy/django_lucy
+Author: N Copiy
+Author-email: ncopiy@ya.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: lucyparser (>=0.1.1)
+Requires-Dist: Django (~=2.0)
+Requires-Dist: djangorestframework (~=3.10.2)
+
+# Lucene way search in django
+#### ("Django" AND "DRF") 
+
+Check:  
+https://pypi.org/project/lucyfer/
+
+
