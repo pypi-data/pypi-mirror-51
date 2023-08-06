@@ -1,0 +1,3 @@
+[console_scripts]
+nathanglover = nathanglover.cli:main
+
