@@ -1,0 +1,6 @@
+recurrence_popover/__init__.py,sha256=PASNKsSWGlAWGqRz9WQXCET2P2PorYXKj_EtfHa52yo,74
+recurrence_popover/recurrence_popover.glade,sha256=nrRbRxhTAlj89xNHd0TiiFbONQKpylpfLpJRuPjdJww,19928
+recurrence_popover/recurrence_popover.py,sha256=AN4tNM7aZhDvOQiTpNQEzKx6sRV4R8S2KVd24Y7r4D0,10403
+gtk_recurrence_popover-0.3.0.dist-info/WHEEL,sha256=2ExTMxZnOfNc9iNOUkSKxNFufl-sMyQSjn2E1gOkPGc,85
+gtk_recurrence_popover-0.3.0.dist-info/METADATA,sha256=mkUytEdSNQAji-7w54zKCZ7SFHzf5fHIEDx-GfZURfU,528
+gtk_recurrence_popover-0.3.0.dist-info/RECORD,,
