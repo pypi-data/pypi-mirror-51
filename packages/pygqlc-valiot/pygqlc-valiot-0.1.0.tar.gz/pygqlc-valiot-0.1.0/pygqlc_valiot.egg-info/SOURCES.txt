@@ -1,0 +1,13 @@
+README.md
+setup.py
+pygqlc/GraphQLClient.py
+pygqlc/__init__.py
+pygqlc/__main__.py
+pygqlc/version.py
+pygqlc_valiot.egg-info/PKG-INFO
+pygqlc_valiot.egg-info/SOURCES.txt
+pygqlc_valiot.egg-info/dependency_links.txt
+pygqlc_valiot.egg-info/entry_points.txt
+pygqlc_valiot.egg-info/not-zip-safe
+pygqlc_valiot.egg-info/requires.txt
+pygqlc_valiot.egg-info/top_level.txt
