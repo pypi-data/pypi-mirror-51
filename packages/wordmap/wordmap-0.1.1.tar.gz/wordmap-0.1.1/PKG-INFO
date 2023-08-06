@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: wordmap
+Version: 0.1.1
+Summary: Visualize massive word collections
+Home-page: https://github.com/yaledhlab/wordmap
+Author: Douglas Duhaime
+Author-email: douglas.duhaime@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: webgl,three.js,word2vec,tsne,umap,machine-learning
+Platform: UNKNOWN
