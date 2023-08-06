@@ -1,0 +1,20 @@
+language: python
+dist: xenial
+
+python:
+  - '2.7'
+  - '3.4'
+  - '3.5'
+  - '3.6'
+  - '3.7'
+install: 
+  - pip install coveralls ordereddict
+  - python setup.py install  
+notifications:
+  email:
+    recipients:
+      - azaroth42@gmail.com
+script:
+  coverage run --source=cromulent setup.py test
+after_success:
+  coveralls
