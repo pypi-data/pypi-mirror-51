@@ -1,0 +1,10 @@
+isogeotodocx/__about__.py,sha256=5eBk2-Y7nQbyIwZccQ1zsRUrQ2aRLMFdC_ruxSOTKto,769
+isogeotodocx/__init__.py,sha256=CNLSld4VFfG5nMF-LIpefBebzrIfcZsmHuA9CuHqrUM,378
+isogeotodocx/isogeo2docx.py,sha256=Y5dEGZlfyh7FjHHxugHzzb81GV2flMtidxFlKVBcs0I,16949
+isogeotodocx/utils/__init__.py,sha256=gyKL37fJbz8SOAwByJVmiAnZ2hMbSYAP8bM1PaqV99Q,93
+isogeotodocx/utils/formatter.py,sha256=BNdJKpHszdCxpdNSkxl1UGroUUy7SySwBcUeVMQrJIU,9198
+isogeo_export_docx-1.0.0.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+isogeo_export_docx-1.0.0.dist-info/METADATA,sha256=V5SnGAlvEq1NkL9tmo0WTNJYj3kwUzbVIZQPzdTddLI,4027
+isogeo_export_docx-1.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+isogeo_export_docx-1.0.0.dist-info/top_level.txt,sha256=6w4MYZtRpeIBsrJ5DN1n43XSaY6_Jcd2KpBCovk9ysQ,13
+isogeo_export_docx-1.0.0.dist-info/RECORD,,
