@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lektor-qiniu
+Version: 0.1.1
+Summary: A plugin for lektor to deploy to qiniu cloud, Use qiniu://<bucket>[/name_of_dir] to deploy to a bucket
+Home-page: https://github.com/Arstman/lektor-qiniu
+Author: Aaron Peng
+Author-email: arstman@gmail.com
+License: MIT
+Description: # qiniu
+        
+        This is where a description of your plugin goes.
+        Provide usage instructions here.
+        
+Keywords: Lektor plugin for qiniu
+Platform: any
+Classifier: Framework :: Lektor
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
