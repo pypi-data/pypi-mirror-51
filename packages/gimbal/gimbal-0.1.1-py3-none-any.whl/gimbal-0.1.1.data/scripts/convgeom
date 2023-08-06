@@ -1,0 +1,53 @@
+#!python
+"""
+Command line script for converting geometries between formats.
+
+Usage
+-----
+To convert from one format to another::
+
+    convgeom input_file output_file [options]
+
+By default, the input format is determined from the file structure and the
+output format is set by the file extension.
+
+Options
+-------
+``-i, --in-format``
+    The input format (xyz, col, gdat, ...)
+``-o, --out-format``
+    The output format (xyz, col, gdat, ...)
+``-iu, --in-units``
+    The input distance units (ang, bohr, ...)
+``-ou, --out-units``
+    The output distance units (ang, bohr, ...)
+``-c, --has-comment``
+    Boolean argument, whether or not comment is read
+``-v, --has-vector``
+    Boolean argument, whether or not vector is read
+"""
+from sys import argv
+from gimbal.fileio import get_optarg, convert
+
+
+def main():
+    """The main 'convgeom' routine."""
+    if len(argv) < 3:
+        raise IndexError('incorrect number of arguments')
+    elif len(argv) == 3:
+        convert(argv[1], argv[2])
+    else:
+        kwargs = dict(
+            infmt = get_optarg(argv, '-i', '--in-format', default='auto'),
+            outfmt = get_optarg(argv, '-o', '--out-format', default='auto'),
+            inunits = get_optarg(argv, '-iu', '--in-units', default=None),
+            outunits = get_optarg(argv, '-ou', '--out-units', default=None),
+            hascom = get_optarg(argv, '-c', '--has-comment'),
+            hasvec = get_optarg(argv, '-v', '--has-vector')
+                      )
+
+        convert(argv[1], argv[2], **kwargs)
+
+
+if __name__ == '__main__':
+    main()
