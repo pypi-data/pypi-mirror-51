@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: shinkei
+Version: 0.1.5
+Summary: An asynchronous client for singyeong
+Home-page: https://github.com/PendragonLore/shinkei
+Author: Lorenzo
+License: MIT
+Project-URL: Documentation, https://shinkei.rtfd.io
+Project-URL: Issue tracker, https://github.com/PendragonLore/shinkei/issues
+Project-URL: Code, https://github.com/PendragonLore/shinkei
+Description: # shinkei
+        
+        [![Pipeline Status](https://img.shields.io/gitlab/pipeline/PendragonLore/shinkei.svg)](https://gitlab.com/PendragonLore/shinkei/pipelines)
+        [![ReadTheDocs Status](https://img.shields.io/readthedocs/shinkei.svg)](https://readthedocs.org/projects/shinkei/)
+        
+        
+        A client library for [singyeong](https://github.com/queer/singyeong), a fully-dynamic, metadata-oriented service mesh.
+        
+        For more info on how to configure and run a singyeong server visit the official repository previously linked.
+        
+        The binaries for it are available on [docker](https://hub.docker.com/r/queer/singyeong).
+        
+        ### Credits
+        
+        Special thanks to [amy (queer)](https://github.com/queer/) for creating and helping me understand singyeong and to
+        [Rapptz (Danny)](https://github.com/Rapptz) for the amazing docs addon and overall heavily inspiring this lib's design 
+        through [discord.py](https://github.com/Rapptz/discord.py).
+        
+        ## Installation
+        
+        The library is available on PyPi so it can be installed through pip:
+        
+        ```bash
+        pip install shinkei -U
+        ```
+        
+        ### Requirements
+        
+        * Python 3.5.3+
+        * [websockets](https://github.com/aaugustin/websockets) 6.0
+        * [aiohttp](https://github.com/aio-libs/aiohttp) 3.3.0+
+        
+        These should already be handled by ``pip``.
+        
+        #### Optional
+        
+        * [ujson](https://github.com/esnme/ultrajson) (For faster json encoding/decoding)
+            - ``pip install shinkei[ujson] -U``
+        
+        ## Documentation
+        
+        The documentation is available at [read the docs](https://shinkei.rtfd.io).
+        
+Keywords: ipc,asyncio,singyeong,discord
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.5.3
+Description-Content-Type: text/markdown
+Provides-Extra: ujson
+Provides-Extra: docs
+Provides-Extra: tests
