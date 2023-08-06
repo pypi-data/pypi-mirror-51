@@ -1,0 +1,16 @@
+README.md
+setup.py
+bmstu_schedule/__init__.py
+bmstu_schedule/__main__.py
+bmstu_schedule/builder.py
+bmstu_schedule/day.py
+bmstu_schedule/group_page_search.py
+bmstu_schedule/logger.py
+bmstu_schedule.egg-info/PKG-INFO
+bmstu_schedule.egg-info/SOURCES.txt
+bmstu_schedule.egg-info/dependency_links.txt
+bmstu_schedule.egg-info/entry_points.txt
+bmstu_schedule.egg-info/requires.txt
+bmstu_schedule.egg-info/top_level.txt
+bmstu_schedule/configs/__init__.py
+bmstu_schedule/configs/config.py
