@@ -1,0 +1,9 @@
+README.md
+setup.py
+tkFilterList.egg-info/PKG-INFO
+tkFilterList.egg-info/SOURCES.txt
+tkFilterList.egg-info/dependency_links.txt
+tkFilterList.egg-info/top_level.txt
+tkfilterlist/__init__.py
+tkfilterlist/__main__.py
+tkfilterlist/widget.py
