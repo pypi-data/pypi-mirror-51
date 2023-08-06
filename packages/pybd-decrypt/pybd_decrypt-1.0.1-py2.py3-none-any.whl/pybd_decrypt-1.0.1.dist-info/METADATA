@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pybd-decrypt
+Version: 1.0.1
+Summary: Baidu Decrypt Module for Python.
+Home-page: https://github.com/sdkwe/pybd-decrypt
+Author: Hackathon
+Author-email: kimi.huang@brightcells.com
+License: UNKNOWN
+Keywords: Baidu Decrypt
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pycryptodome
+Requires-Dist: pywe-utils
+
+============
+pybd-decrypt
+============
+
+Baidu Decrypt Module for Python.
+
+Installation
+============
+
+::
+
+    pip install pybd-decrypt
+
+
+Usage
+=====
+
+::
+
+    from pybd_decrypt import decrypt
+
+
+Method
+======
+
+::
+
+    def decrypt(sessionKey=None, encryptedData=None, iv=None):
+
+
+
