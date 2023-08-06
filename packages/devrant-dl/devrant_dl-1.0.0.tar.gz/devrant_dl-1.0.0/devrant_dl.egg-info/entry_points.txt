@@ -1,0 +1,3 @@
+[console_scripts]
+devrant_dl = devrant_dl.__main__:main
+
