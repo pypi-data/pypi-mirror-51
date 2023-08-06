@@ -1,0 +1,9 @@
+README.md
+setup.py
+serial_j/__init__.py
+serial_j/const.py
+serial_j/hp.py
+serial_j.egg-info/PKG-INFO
+serial_j.egg-info/SOURCES.txt
+serial_j.egg-info/dependency_links.txt
+serial_j.egg-info/top_level.txt
