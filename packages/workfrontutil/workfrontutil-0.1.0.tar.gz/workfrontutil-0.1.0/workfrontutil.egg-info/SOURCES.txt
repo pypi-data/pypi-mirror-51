@@ -1,0 +1,17 @@
+README.md
+setup.py
+cli/__init__.py
+cli/tools.py
+cli/workfrontcli.py
+services/__init__.py
+services/creds.py
+services/db_util.py
+services/settings.py
+services/workfront.py
+tests/test_db_connection.py
+tests/test_workfront.py
+workfrontutil.egg-info/PKG-INFO
+workfrontutil.egg-info/SOURCES.txt
+workfrontutil.egg-info/dependency_links.txt
+workfrontutil.egg-info/entry_points.txt
+workfrontutil.egg-info/top_level.txt
