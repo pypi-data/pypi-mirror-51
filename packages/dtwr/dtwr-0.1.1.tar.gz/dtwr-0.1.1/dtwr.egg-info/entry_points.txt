@@ -1,0 +1,3 @@
+[console_scripts]
+dtwr = dtwr.cli:main
+
