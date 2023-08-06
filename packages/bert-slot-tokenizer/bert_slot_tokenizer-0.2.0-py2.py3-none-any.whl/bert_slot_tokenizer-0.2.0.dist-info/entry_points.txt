@@ -1,0 +1,3 @@
+[console_scripts]
+bert_slot_tokenizer = bert_slot_tokenizer.main:main
+
