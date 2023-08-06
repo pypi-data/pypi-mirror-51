@@ -1,0 +1,3 @@
+[console_scripts]
+ef2gql = ef2gql.cmd:main
+

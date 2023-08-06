@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: ef2gql
+Version: 0.9
+Summary: A EntityFrameworkCore to GraphQLType Model Generator
+Home-page: https://dzone.com/articles/executable-package-pip-install
+Author: Michael Roberts
+Author-email: michaelroberts017@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+todo...
+
+
