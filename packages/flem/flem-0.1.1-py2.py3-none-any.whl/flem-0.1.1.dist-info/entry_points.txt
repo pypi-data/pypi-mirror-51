@@ -1,0 +1,3 @@
+[console_scripts]
+flem = flem.cli:main
+
