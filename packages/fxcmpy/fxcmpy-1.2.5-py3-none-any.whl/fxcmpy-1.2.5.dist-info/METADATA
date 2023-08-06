@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fxcmpy
+Version: 1.2.5
+Summary: A Python Wrapper Class for the RESTful API as provided by FXCM Forex Capital Markets Ltd.
+Home-page: https://github.com/fxcm/RestAPI/tree/master/fxcmpy
+Author: FXCM API
+Author-email: api@fxcm.com
+License: BSD
+Download-URL: https://github.com/fxcm/RestAPI/tree/master/fxcmpy
+Keywords: FXCM API Python Wrapper Finance Algo Trading
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.4
+Requires-Dist: pandas
+Requires-Dist: socketIO-client
+Requires-Dist: configparser
+Requires-Dist: requests[socks]
+
+UNKNOWN
+
+

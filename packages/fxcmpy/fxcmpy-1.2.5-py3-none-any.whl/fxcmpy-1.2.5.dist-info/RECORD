@@ -1,0 +1,13 @@
+fxcmpy/LICENSE.txt,sha256=rVA_YhSrxrEUy_pyumLarxWXJHdRxHmYcBTBNYZfRKI,2571
+fxcmpy/__init__.py,sha256=Qvzcuu9iR9yAN9Dpt6KKLsClqBtrio9wBkQdh5heIF0,422
+fxcmpy/fxcmpy.py,sha256=Q6C-FcPhLtLQ8ocvF2IbUmFDlDXjXLvY1HbypqVwrPQ,95682
+fxcmpy/fxcmpy_closed_position.py,sha256=zlmciUV_oJ24JrU_EeskURD-UzdRScv_I4P7HaDJq5M,3989
+fxcmpy/fxcmpy_data_reader.py,sha256=55uW7Di9Q1U7Vhtx5LBCv9u0Q5z7TBjfML1fW-vHLzc,9161
+fxcmpy/fxcmpy_instruments.py,sha256=cOuiC4J93VNkGYhWGlJu_JdDaAwI6rCkEGA6Gjpf0nU,1410
+fxcmpy/fxcmpy_oco_order.py,sha256=AAFAtmJJsLYQbxxWSYxI-oCRwJbsINojvfbKI5rmURY,5179
+fxcmpy/fxcmpy_open_position.py,sha256=cnd0r95O9NdsbzaOEvzp0jMUzyNKeOLZ2J5v5gDtbM0,6151
+fxcmpy/fxcmpy_order.py,sha256=cObkmnS_QQXEVjvcm2rqU6UlaGw_UKhpWXnxCqAp6K4,11015
+fxcmpy-1.2.5.dist-info/METADATA,sha256=0sZMyKrFOJvyXaynhLm5qA9rjQz766cS93vOIygn-sU,702
+fxcmpy-1.2.5.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+fxcmpy-1.2.5.dist-info/top_level.txt,sha256=hktSD1P_UikiVJ_381cj8XkFiynz1CpO0Go6sQblPE4,7
+fxcmpy-1.2.5.dist-info/RECORD,,
