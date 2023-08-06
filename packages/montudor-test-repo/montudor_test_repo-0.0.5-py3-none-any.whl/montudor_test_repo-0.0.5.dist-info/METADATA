@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: montudor-test-repo
+Version: 0.0.5
+Summary: A regular hello world library
+Home-page: https://github.com/montudor/test-py-deploy
+Author: Monte Hellawell
+Author-email: monte@montudor.com
+License: UNKNOWN
+Download-URL: https://github.com/montudor/test-py-deploy/archive/v0.0.5.tar.gz
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# test-py-deploy
+A simple GitHub Actions test (with the new YAML syntax) to deploy a Python Package to PyPI
+
+
