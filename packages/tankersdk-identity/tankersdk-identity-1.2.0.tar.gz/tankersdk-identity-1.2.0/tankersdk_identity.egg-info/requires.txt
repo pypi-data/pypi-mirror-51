@@ -1,0 +1,7 @@
+PyNaCl
+
+[dev]
+codecov
+pytest
+pytest-cov
+twine

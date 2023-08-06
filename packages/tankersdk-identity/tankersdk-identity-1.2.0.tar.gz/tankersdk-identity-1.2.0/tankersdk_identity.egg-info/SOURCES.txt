@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+tankersdk_identity/__init__.py
+tankersdk_identity.egg-info/PKG-INFO
+tankersdk_identity.egg-info/SOURCES.txt
+tankersdk_identity.egg-info/dependency_links.txt
+tankersdk_identity.egg-info/requires.txt
+tankersdk_identity.egg-info/top_level.txt
+tankersdk_identity/crypto/__init__.py
+tankersdk_identity/test/__init__.py
+tankersdk_identity/test/conftest.py
+tankersdk_identity/test/helpers.py
+tankersdk_identity/test/test_crypto.py
+tankersdk_identity/test/test_identity.py
+tankersdk_identity/test/test_user_token.py
+tankersdk_identity/test/test_vectors.py
