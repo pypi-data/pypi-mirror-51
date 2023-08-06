@@ -1,0 +1,11 @@
+numpy
+pandas
+
+[dev]
+pytest
+pytest-pep8
+pytest-cov
+setuptools
+wheel
+twine
+bumpversion
