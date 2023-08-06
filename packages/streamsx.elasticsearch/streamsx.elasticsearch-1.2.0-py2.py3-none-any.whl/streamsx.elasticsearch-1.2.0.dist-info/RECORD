@@ -1,0 +1,9 @@
+streamsx/elasticsearch/__init__.py,sha256=DabRq4DQL9wJo23TjJFdGpjmrbEpQ8xCmdU2qUdJG5I,3593
+streamsx/elasticsearch/_elasticsearch.py,sha256=3NFtzREuMcBRZm0ynHNI7UKMasE2rpU366twd9hwGq8,12187
+streamsx.elasticsearch-1.2.0.dist-info/DESCRIPTION.rst,sha256=D3OpvcxpU3jhbrJXBQWtQZYF7HVWlrfqfxg4dLUUxAs,1956
+streamsx.elasticsearch-1.2.0.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+streamsx.elasticsearch-1.2.0.dist-info/METADATA,sha256=WjS-zGLBWPtpXYYVOQqKs-5BPiJZ96-D56tzSezkiwo,2698
+streamsx.elasticsearch-1.2.0.dist-info/RECORD,,
+streamsx.elasticsearch-1.2.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+streamsx.elasticsearch-1.2.0.dist-info/metadata.json,sha256=upRNEkk2_NBeg6uaAi9HMHezAvNsl_ob5184M93y3r4,1020
+streamsx.elasticsearch-1.2.0.dist-info/top_level.txt,sha256=-HIIPsBc56LEpwY9WQHNMVJy2nOLXnKZ6slLXwmeZoY,9
