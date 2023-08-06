@@ -1,0 +1,12 @@
+README.md
+setup.py
+i3pie/__init__.py
+i3pie/connection.py
+i3pie/consts.py
+i3pie/exceptions.py
+i3pie/models.py
+i3pie/subscriber.py
+i3pie.egg-info/PKG-INFO
+i3pie.egg-info/SOURCES.txt
+i3pie.egg-info/dependency_links.txt
+i3pie.egg-info/top_level.txt
