@@ -1,0 +1,12 @@
+aerospike.so,sha256=pUJAXLQrs0YSBUYK4ylMFppqPasRYXpWTjbWmVz613s,1298332
+aerospike-3.8.0.dist-info/DESCRIPTION.rst,sha256=Q8h3y46jlhQFAGm3maArx4MJNhDa7TAvEH_F__d-M8o,5319
+aerospike-3.8.0.dist-info/METADATA,sha256=f7i4yB4HTlqTKdQYRC1irLMR4tKpsT5JsdQSQtLUgQc,6004
+aerospike-3.8.0.dist-info/RECORD,,
+aerospike-3.8.0.dist-info/WHEEL,sha256=-soUgz2mDom-gXWc-Hq5dwhn-LnQB2GVo_yF4Cu21pc,110
+aerospike-3.8.0.dist-info/metadata.json,sha256=7F5ubETSG37AGowOnuuIQBp-xUaI69OKamaRoOwoejU,829
+aerospike-3.8.0.dist-info/top_level.txt,sha256=XhJubcYzeF45sbHvOTaGj59HYj0aeU3zIH66BKeIELU,28
+aerospike_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aerospike_helpers/operations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aerospike_helpers/operations/list_operations.py,sha256=DwypbowqwDBPyr3nlk_sTT2TE2ubcUbDHNWtIvp8b0Q,33709
+aerospike_helpers/operations/map_operations.py,sha256=Rigr2muDfZilga1DBt_TdvVYYBQggRaMSciINXaILtg,36170
+aerospike_helpers/operations/operations.py,sha256=vRPixTfIRIPrEgpmEA61_PWPLcapk3h3YiASnF9ViOU,3396
