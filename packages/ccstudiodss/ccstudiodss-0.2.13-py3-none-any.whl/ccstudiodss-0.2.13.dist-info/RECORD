@@ -1,0 +1,12 @@
+ccstudiodss/__init__.py,sha256=V1tV5ka7uBBG_iBNDGWLP4kkIvop5hQTN5vGvOAReZM,89
+ccstudiodss/__main__.py,sha256=SmhVSv0bimuS3hQABnyTh5u0JdAQ4D2ExvLts1mLhIg,100
+ccstudiodss/_version.py,sha256=8uA72JsvTn2DLfkLVrcBO-Y-fQruGkBIkKgP8Npd25c,498
+ccstudiodss/api.py,sha256=vw8YdotBaW24klSWE-C3BPuUemJO1p4oVljK__e7zwk,4835
+ccstudiodss/cli.py,sha256=EIHVNeQdIIxq6p-8Ek2sz3gwH4m2bofgu6dmtL-cpvg,7784
+ccstudiodss/pytest.py,sha256=vlP3aAjVs-vmF32S_t3AIQRir54tZBWVfA74GMDmLQQ,621
+ccstudiodss/utils.py,sha256=LGfe3HaTFjZx9fH3pEk-hNItn9KztHlM3oi6U8b-ZcY,2442
+ccstudiodss-0.2.13.dist-info/METADATA,sha256=wYCYiMdwYjWvUpxph7MuR0umfBe6BbY7mdvNChz3m14,1792
+ccstudiodss-0.2.13.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ccstudiodss-0.2.13.dist-info/entry_points.txt,sha256=kiq-vpUxLSeYM5DjHkHdA64L8o5SnzD2I4Tu1nL6yzk,97
+ccstudiodss-0.2.13.dist-info/top_level.txt,sha256=HDKRpHtkVFOCnnRbZcSCwmNF0n86dmYMubomTRByOh8,12
+ccstudiodss-0.2.13.dist-info/RECORD,,
