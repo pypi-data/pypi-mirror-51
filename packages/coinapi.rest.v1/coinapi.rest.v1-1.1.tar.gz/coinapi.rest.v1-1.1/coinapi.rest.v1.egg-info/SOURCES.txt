@@ -1,0 +1,9 @@
+README.md
+setup.py
+coinapi.rest.v1.egg-info/PKG-INFO
+coinapi.rest.v1.egg-info/SOURCES.txt
+coinapi.rest.v1.egg-info/dependency_links.txt
+coinapi.rest.v1.egg-info/top_level.txt
+coinapi_rest_v1/__init__.py
+coinapi_rest_v1/coinapi_rest_v1.py
+coinapi_rest_v1/examples.py
