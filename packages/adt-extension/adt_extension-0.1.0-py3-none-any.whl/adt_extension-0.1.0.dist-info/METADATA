@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: adt-extension
+Version: 0.1.0
+Summary: Python abstract data structure (ADT) extension
+Home-page: https://github.com/alvarofpp/python-adt-extension
+Author: Álvaro Ferreira Pires de Paiva
+Author-email: alvarofepipa@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# python-adt-extension
+
+
