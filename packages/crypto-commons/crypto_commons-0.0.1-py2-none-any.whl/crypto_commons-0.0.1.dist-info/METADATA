@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: crypto-commons
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/p4-team/crypto-commons
+Author: p4-team
+Author-email: team@p4.team
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: future ; python_version < "3.0"
+
+UNKNOWN
+
+
