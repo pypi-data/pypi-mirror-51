@@ -1,0 +1,6 @@
+README.md
+setup.py
+weatherchecker.egg-info/PKG-INFO
+weatherchecker.egg-info/SOURCES.txt
+weatherchecker.egg-info/dependency_links.txt
+weatherchecker.egg-info/top_level.txt
