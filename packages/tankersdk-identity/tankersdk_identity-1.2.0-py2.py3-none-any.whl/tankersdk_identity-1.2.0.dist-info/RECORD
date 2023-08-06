@@ -1,0 +1,13 @@
+tankersdk_identity/__init__.py,sha256=dGzbxurcboOujq-EwuddPaOqBo2ReNYfylcpDyIQBrg,5693
+tankersdk_identity/crypto/__init__.py,sha256=VoiU5_x4NdSEsv8YP6XTC9Trf-hCZeZA5-L8KFh14po,1388
+tankersdk_identity/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tankersdk_identity/test/conftest.py,sha256=Atej3RHQBQ9TQZwyMKlg9d_s9GDRDMs9W8otF0DBT7A,445
+tankersdk_identity/test/helpers.py,sha256=ldn40g5AAvQh7PXzXGjfatUaHYdZo25zi2DQTNel55M,1263
+tankersdk_identity/test/test_crypto.py,sha256=Nj6Fm3STbgNkN2ekscsK_OCkQ4SVIBUCqI6B_uczRFw,1924
+tankersdk_identity/test/test_identity.py,sha256=OQG_vWTS6UiZPQ5DrKfHXpUN2Xa8BZYAGbG6prTG56Q,4142
+tankersdk_identity/test/test_user_token.py,sha256=TXin5dLgcxV-f5BGX17ONa9R-SUr0fboLBR5n9MuQac,1126
+tankersdk_identity/test/test_vectors.py,sha256=dYtJrWZFF7RvmFzsVWcXnd2jhiYzfxgcgjbvgTYShTc,4543
+tankersdk_identity-1.2.0.dist-info/METADATA,sha256=Fiz9-ngSaytSLjUBIiu409e2rXCJzC5D16YrZMm-ujQ,3424
+tankersdk_identity-1.2.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+tankersdk_identity-1.2.0.dist-info/top_level.txt,sha256=bxVj48INcSPN6zsFmIw7do-fkXdlk1rwdc6mIdGMsJY,19
+tankersdk_identity-1.2.0.dist-info/RECORD,,
