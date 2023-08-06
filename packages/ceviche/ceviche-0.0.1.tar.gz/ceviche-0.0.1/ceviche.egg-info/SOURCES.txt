@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+ceviche/__init__.py
+ceviche/constants.py
+ceviche/fdfd.py
+ceviche/fdtd.py
+ceviche/jacobians.py
+ceviche/optimizers.py
+ceviche/solve_test.py
+ceviche/solvers.py
+ceviche/utils.py
+ceviche.egg-info/PKG-INFO
+ceviche.egg-info/SOURCES.txt
+ceviche.egg-info/dependency_links.txt
+ceviche.egg-info/requires.txt
+ceviche.egg-info/top_level.txt
