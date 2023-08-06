@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: lusya
+Version: 0.1.2
+Summary: Lucene search for DRF
+Home-page: https://github.com/ncopiy/django_lucy
+Author: N Copiy
+Author-email: ncopiy@ya.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: lucyparser (==0.1.1)
+Requires-Dist: Django (~=2.2.4)
+Requires-Dist: djangorestframework (~=3.10.2)
+
+# Lucene way search in django
+#### ("Django" AND "DRF") OR ("Elasticserach-DSL" AND "Django Rest Elasticsearch")
+
+_________________
+
+## Installation
+
+Only for Django with DRF:
+
+```
+pip install lusya
+```
+
+For Django with DRF and Elasticsearch-dsl with DRF:
+
+```
+pip install lucyfer
+```
+
+## Dependencies
+
+|                           | lucyfer | lusya |
+|---------------------------|---------|-------|
+| lucyparser                | +       | +     |
+| Django                    | +       | +     |
+| djangorestframework       | +       | +     |
+| django-rest-elasticsearch | +       | -     |
+| elasticsearch-dsl         | +       | -     |
+
+
+## Usage Examples
+
+Include search backend class in `DEFAULT_FILTER_BACKENDS` in `settings.py` instead of default search backend:
+
+```python
+# todo
+```
+
+Create `serachsets.py` in application and fill it:
+```python
+# todo
+```
+
+Include searchset class in your `ModelViewSet`:
+```python
+# todo
+```
+
+Now you can use lucene-way syntax for your view:
+```python
+# todo
+```
+
+
