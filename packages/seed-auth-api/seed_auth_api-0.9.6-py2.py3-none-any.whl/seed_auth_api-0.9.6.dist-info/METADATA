@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: seed-auth-api
+Version: 0.9.6
+Summary: Seed Auth API
+Home-page: https://github.com/praekelt/seed-auth-api
+Author: Praekelt.org
+Author-email: dev@praekelt.org
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Django (==2.2.4)
+Requires-Dist: dj-database-url (==0.4.2)
+Requires-Dist: psycopg2 (==2.7.3.1)
+Requires-Dist: djangorestframework (==3.9.1)
+Requires-Dist: drf-extensions (==0.4.0)
+Requires-Dist: djangorestframework-composed-permissions (==0.2.1)
+Requires-Dist: raven (==6.10.0)
+
+.. image:: https://coveralls.io/repos/github/praekelt/seed-auth-api/badge.svg?branch=develop
+   :target: https://coveralls.io/github/praekelt/seed-auth-api?branch=develop
+
+.. image:: https://travis-ci.org/praekelt/seed-auth-api.svg?branch=develop
+   :target: https://travis-ci.org/praekelt/seed-auth-api
+
+.. image:: https://requires.io/github/praekelt/seed-auth-api/requirements.svg?branch=develop
+   :target: https://requires.io/github/praekelt/seed-auth-api/requirements/?branch=develop
+
+.. image:: https://readthedocs.org/projects/seed-auth-api/badge/?version=develop
+   :target: http://seed-auth-api.readthedocs.io/en/develop/?badge=develop
+
+=============
+Seed Auth API
+=============
+
+Seed Auth API. User and permissions store, authentication and authorization.
+
+Running
+-------
+
+ * ``pip install -e .``
+ * ``psql -U postgres -c "CREATE DATABASE seed_auth;"``
+ * ``./manage.py migrate``
+ * ``./manage.py createsuperuser``
+ * ``./manage.py runserver --settings=seed_auth_api.testsettings``
+
+Running tests
+-------------
+
+ * ``pip install -e .``
+ * ``pip install -r requirements-dev.txt``
+ * ``py.test --ds=seed_auth_api.testsettings authapi``
+
+
