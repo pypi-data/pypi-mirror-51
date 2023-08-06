@@ -1,0 +1,8 @@
+README.md
+lastfm_backup.py
+setup.cfg
+setup.py
+lastfm_backup.egg-info/PKG-INFO
+lastfm_backup.egg-info/SOURCES.txt
+lastfm_backup.egg-info/dependency_links.txt
+lastfm_backup.egg-info/top_level.txt
