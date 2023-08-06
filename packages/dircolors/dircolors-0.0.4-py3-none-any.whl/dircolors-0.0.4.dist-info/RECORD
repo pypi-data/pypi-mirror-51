@@ -1,0 +1,12 @@
+dircolors/__init__.py,sha256=HajKvCHzt_79BOeSL8ptFUbNvzsEvqN9aS0PAfOm14A,286
+dircolors/_defaults.py,sha256=ahcteQvoWZrO5iTU68zkIY1Zex6iX5uR5ubwI4CCYBk,6170
+dircolors/_util.py,sha256=Df73imXhHx3HzcPHiRcHAoea0e3HURdLcrolUsMhOFs,1783
+dircolors/dircolors.py,sha256=yIaCeTJM0vkr2Kd5Q7sicxJmYB7Nby7nkQeMqYcn0vI,11712
+dircolors/pyls/__init__.py,sha256=2jKQAPqUfqwXkKGyoLjgaTKi4As7epZ44NTyIoWG8GE,102
+dircolors/pyls/__main__.py,sha256=YCXfNlv8YM5ULmn7HH8Ohs1CtmqLcJ7-XDOg7pfM5JQ,274
+dircolors/pyls/pyls.py,sha256=rOgs7KnIX5SexNKR8swBLayYfoTeLnelmPQBqKJTM0g,1216
+dircolors-0.0.4.dist-info/entry_points.txt,sha256=9cftQ7guQ9fD5fyxfpQ4LkWnXTdQVMJplkLoqbs7kH8,49
+dircolors-0.0.4.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+dircolors-0.0.4.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+dircolors-0.0.4.dist-info/METADATA,sha256=bqFyur1PeIgMGv-I5WrvtVXYCo7PytHiiYmgQY9LyUU,6331
+dircolors-0.0.4.dist-info/RECORD,,
