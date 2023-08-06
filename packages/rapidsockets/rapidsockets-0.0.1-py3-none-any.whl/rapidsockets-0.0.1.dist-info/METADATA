@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: rapidsockets
+Version: 0.0.1
+Summary: Official Python SDK for the RapidSockets platform
+Home-page: https://github.com/rapidsockets/python
+Author: RapidSockets
+Author-email: support@rapidsockets.com
+License: MIT
+Keywords: websockets
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: websocket-client
+Requires-Dist: requests
+
+Official Python SDK for the RapidSockets platform
+
+
