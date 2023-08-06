@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mailslurp-client
+Version: 4.1.2
+Summary: MailSlurp API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: contact@mailslurp.dev
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,MailSlurp API
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+For documentation see [developer guide](https://www.mailslurp.com/developers). [Create an account](https://app.mailslurp.com) in the MailSlurp Dashboard to [view your API Key](https://app). For all bugs, feature requests, or help please [see support](https://www.mailslurp.com/support/).  # noqa: E501
+
+
