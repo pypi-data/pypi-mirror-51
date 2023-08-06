@@ -1,0 +1,12 @@
+ibooks_highlight_exporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ibooks_highlight_exporter/base.py,sha256=f1LPPBiEsETSmLKNkemTS4XfjeJPYsW1ueU8slk5sR8,771
+ibooks_highlight_exporter/epub.py,sha256=Hy7mW6Rsxl0KQF9YIpy2OXxgbIqOaXBs8dNS1n1AqnM,3307
+ibooks_highlight_exporter/exporter.py,sha256=gsvqm_JB5J9mLXEcoZS__3MvnatgP07kGkXaxLSBU2c,1771
+ibooks_highlight_exporter/helpers.py,sha256=2oxP-GTDWmbukIm88IQSLY2qdz2keaZQv7oGdnZFU64,907
+ibooks_highlight_exporter/main.py,sha256=_jL-8EcSJH9EBVQrmgFjLxpi4wNSYiW9hy1t1jHbSys,865
+ibooks_highlight_exporter/models.py,sha256=56OxLvdcJwi2KfIq7EHUIPQznv1GgtyUAbSUFUMW9hI,3196
+ibooks_highlight_exporter-0.1.7.dist-info/entry_points.txt,sha256=YaMUldk7WUZKQwkcjFviDtItAnfQkvb1Kd6uzzjpxiU,82
+ibooks_highlight_exporter-0.1.7.dist-info/LICENSE,sha256=QPUFR_sJwEYqG9DjQTJkqWGGFY4gs2sStoD304ArxS8,1080
+ibooks_highlight_exporter-0.1.7.dist-info/WHEEL,sha256=QMHkjGvxv3VzbxS3PLXUS4g079erQ43qD1oit7eHsL0,89
+ibooks_highlight_exporter-0.1.7.dist-info/METADATA,sha256=D8JDCVArP81qTt64A7Uvf82BCG1zSOGhZKRm_MLvJyQ,616
+ibooks_highlight_exporter-0.1.7.dist-info/RECORD,,
