@@ -1,0 +1,9 @@
+intake_omnisci/__init__.py,sha256=jDAxLlmQ8Ex2CEIjwe_elSM7Q3-YMZHUXokQLjYrR_o,140
+intake_omnisci/catalog.py,sha256=JQenhHIdT36vMZ3FWDgHPlYm37A5AQZDOevZzFfuDRU,2468
+intake_omnisci/source.py,sha256=ZBOr_hhHhWUB4WZsB6p8W1rM6IamQR0zbjruR8nPzxQ,3907
+intake_omnisci-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+intake_omnisci-0.1.0.dist-info/METADATA,sha256=wwa7vy4QLj1F0ckJ_MN0lylud76DxZj5kzOVHYb7iA0,1229
+intake_omnisci-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+intake_omnisci-0.1.0.dist-info/entry_points.txt,sha256=TTThDfPkpd5gNRclqb09vO2x4N82o_UfuagQ6ofPGzM,101
+intake_omnisci-0.1.0.dist-info/top_level.txt,sha256=_ivZ43wdvq2zrlQpCjCQbLKtn3JE5Xj56_fQH88YrzQ,15
+intake_omnisci-0.1.0.dist-info/RECORD,,
