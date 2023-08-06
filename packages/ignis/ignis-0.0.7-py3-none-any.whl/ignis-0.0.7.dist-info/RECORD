@@ -1,0 +1,9 @@
+ignis/__init__.py,sha256=O8E7IKnNUkCqc4gsTkOE54FebtImLLhvdXuZVM8X5xE,3570
+ignis/callbacks.py,sha256=oc0K-AnAckF_Rxqc82-EvebTwNSPbRWOnze7Q16JZlE,2299
+ignis/datasets.py,sha256=TDXPyZmilFYFzz-T7KHxESFu2Y8k7q1Ygztrym3UNT0,877
+ignis/loaders.py,sha256=lVHWSKmGjD0giMFNeopMEwDLbErYBCn9CIyZbfuPwb8,809
+ignis-0.0.7.dist-info/LICENSE,sha256=SYJzsEJyJ9yI45c871RiUzi1SY4KyRgnhSFLqAsWijw,1080
+ignis-0.0.7.dist-info/METADATA,sha256=swwLocJxsS2DSD0bKBcBiObtPTnZCuLOVajEayMREf0,1918
+ignis-0.0.7.dist-info/WHEEL,sha256=_6KLEkynAsMirRwaUJATK1lcUuc3usHkC0nDi_Yl22I,92
+ignis-0.0.7.dist-info/top_level.txt,sha256=SBPe7nD_FDTjLqLst0_aQbZRhD1ErVWXzEV7_d3B9Rs,6
+ignis-0.0.7.dist-info/RECORD,,
