@@ -1,0 +1,33 @@
+/*
+Mocks header file
+
+Generated with Narmock v{{ narmock_version }} (https://github.com/vberlier/narmock)
+Do not edit manually
+*/
+
+#ifndef {{ guard_name }}
+#define {{ guard_name }}
+
+#ifndef MOCK
+#define MOCK(function) (_narmock_get_mock_for_##function((void *)&function))
+#endif
+
+{{ includes }}
+{% for mock in mocks %}
+
+{{ mock.DECL_MARKER }} {{ mock.func_name }}
+{{ mock.FLAGS_MARKER }} {{ mock.linker_flags }}
+
+typedef struct {{ mock.state_type }} {{ mock.state_type }};
+
+struct {{ mock.state_type }}
+{
+    {{ mock.mock_return_decl | render }};
+    {{ mock.mock_implementation_decl | render }};
+    {{ mock.disable_mock_decl | render }};
+};
+
+{{ mock.state_type }} *_narmock_get_mock_for_{{ mock.func_name }}(void *function);
+{% endfor %}
+
+#endif

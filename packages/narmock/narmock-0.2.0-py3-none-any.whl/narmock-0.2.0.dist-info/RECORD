@@ -1,0 +1,14 @@
+narmock/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+narmock/__main__.py,sha256=NRJ7QN-SPujWPJS_xvOGN5IXGHMQ4s7oIKthBmQ-CB0,38
+narmock/api.py,sha256=ZocnABQAS-i7vGmHRxd_CxKg-dadlQr5FcN3eEjWEHY,753
+narmock/cli.py,sha256=5dv8tbXSJeo1ERTN9ER9aPYg7qfZrimyqyqwiEDnTVk,853
+narmock/generator.py,sha256=Z3XHiR1lJPF_xHMoO6Bs_FgyXKu-h7WdHxms47_-PJc,6311
+narmock/inspect.py,sha256=zinjzfEMlvwb0gW8wM2jssbbgkQx0oldeGw8yLc8aHM,8524
+narmock/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+narmock/templates/__mocks__.c.jinja2,sha256=ZoCqShlYnQNGQnNtOEwlGKmJKXfiQ_NCnOxOsGSOhKY,2586
+narmock/templates/__mocks__.h.jinja2,sha256=JmtS-Hy4uP-PVweA1AohAXGQc69IOCN7rgmmSOAaeoM,748
+narmock-0.2.0.dist-info/entry_points.txt,sha256=FHCrGfbgLrBlKn9Ujsnr501O6QnZ6v7MV1MMQvYolw4,44
+narmock-0.2.0.dist-info/LICENSE,sha256=V4S0xScfwt554Y7fZKCbrF1RNsEDQOODiSFXWzMkX68,1073
+narmock-0.2.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+narmock-0.2.0.dist-info/METADATA,sha256=DUZjSM8Z1zgyNbmzKyyAto42JAAczfeF1uDPmwN2nRc,4881
+narmock-0.2.0.dist-info/RECORD,,
