@@ -1,0 +1,6 @@
+setup.py
+ure.py
+pycopy_cpython_ure.egg-info/PKG-INFO
+pycopy_cpython_ure.egg-info/SOURCES.txt
+pycopy_cpython_ure.egg-info/dependency_links.txt
+pycopy_cpython_ure.egg-info/top_level.txt
