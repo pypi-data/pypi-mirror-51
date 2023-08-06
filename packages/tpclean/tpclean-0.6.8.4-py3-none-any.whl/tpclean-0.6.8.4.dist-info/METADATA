@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tpclean
+Version: 0.6.8.4
+Summary: Custom library of functions for Data Science workflow automation
+Home-page: https://github.com/Pietrassyk/tpclean
+Author: Tino Pietrassyk
+Author-email: pietrassyk@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# tpclean
+
+## Info
+Home of the tpclean library
+A Collection of handy functions that help with:
++ Pandas wrangling
++ Performing SQL Querries
++ Dealing With JSON files in Pandas
+
+Fore more detailed information visit:
+<a href = "https://medium.com/@pietrassyk/tpclean-6bbeba8bfe61?source=friends_link&sk=a580f7953818b8b0979b465b55d63db2"> https://medium.com/@pietrassyk </a>
+
+## Getting started
+
+### Install:
+`!pip install tpclean --upgrade`
+
+### Import:
+`import tpclean.tpclean as tp`
+
+
