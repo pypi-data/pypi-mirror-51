@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: EntityRelation
+Version: 1.0.1
+Summary: A package to extract relations between entities. this maybe helpful and a important link for constructing KG. base on DSNF(Dependency Semantic Normal Forms) for now. 
+Home-page: https://github.com/LG-1/EntityRelation
+Author: LG
+Author-email: ourantech@163.com
+License: MIT
+Keywords: nlp EntityRelation entity relation dsnf
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pyltp
+Requires-Dist: jieba
+Requires-Dist: tqdm
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: nose; extra == 'test'
+
+UNKNOWN
+
+
