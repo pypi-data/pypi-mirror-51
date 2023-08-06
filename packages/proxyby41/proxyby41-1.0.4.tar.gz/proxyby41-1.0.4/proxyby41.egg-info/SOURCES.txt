@@ -1,0 +1,6 @@
+README.md
+setup.py
+proxyby41.egg-info/PKG-INFO
+proxyby41.egg-info/SOURCES.txt
+proxyby41.egg-info/dependency_links.txt
+proxyby41.egg-info/top_level.txt
