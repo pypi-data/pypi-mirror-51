@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: grapher-aws
+Version: 2.2.1
+Summary: Grapher driver which cover AWS infrastructure
+Home-page: https://gitlab.com/grapher/grapher-aws/
+Author: Volodymyr Paslavskyy
+Author-email: qfoxic@gmail.com
+License: Apache Software License
+Download-URL: https://gitlab.com/grapher/grapher-aws/-/archive/2.2.0/grapher-aws-2.2.1.tar.gz
+Description: UNKNOWN
+Keywords: data,visualization,monitoring,aws,graphs
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ~=3.7

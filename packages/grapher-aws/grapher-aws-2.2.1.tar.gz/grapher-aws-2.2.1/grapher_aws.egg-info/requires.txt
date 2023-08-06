@@ -1,0 +1,2 @@
+boto3==1.9.218
+grapher-core==2.0.8
