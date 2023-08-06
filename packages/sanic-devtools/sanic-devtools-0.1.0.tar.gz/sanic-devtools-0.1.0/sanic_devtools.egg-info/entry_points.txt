@@ -1,0 +1,4 @@
+[console_scripts]
+sanic-devtools = sanic_devtools.cli:cli
+sdev = sanic_devtools.cli:cli
+
