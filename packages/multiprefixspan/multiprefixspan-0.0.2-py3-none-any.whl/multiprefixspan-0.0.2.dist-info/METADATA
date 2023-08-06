@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: multiprefixspan
+Version: 0.0.2
+Summary: Implementation of Prefixspan for multiple items
+Home-page: https://github.com/RonaldYu/multiprefixspan
+Author: Cheng-Yuan Yu
+Author-email: yu8861213@hotmail.com
+License: UNKNOWN
+Keywords: machine learning,data mining,sequential pattern mining,data exploration,sequential data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
