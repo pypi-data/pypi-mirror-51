@@ -1,0 +1,5 @@
+dnspython
+kafka-python
+psycopg2-binary
+python-ldap
+requests
