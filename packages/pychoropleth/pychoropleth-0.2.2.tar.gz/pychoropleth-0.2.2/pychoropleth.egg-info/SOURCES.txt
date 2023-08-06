@@ -1,0 +1,9 @@
+README.md
+setup.py
+pychoropleth/__init__.py
+pychoropleth.egg-info/PKG-INFO
+pychoropleth.egg-info/SOURCES.txt
+pychoropleth.egg-info/dependency_links.txt
+pychoropleth.egg-info/not-zip-safe
+pychoropleth.egg-info/requires.txt
+pychoropleth.egg-info/top_level.txt
