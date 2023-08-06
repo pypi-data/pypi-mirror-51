@@ -1,0 +1,13 @@
+{% load rest_framework %}
+
+<div class="form-group row">
+  {% with legend_class='col-sm-3 pt-0 col-form-label' %}
+    {% include 'drfformbootstrap4/legend.html' %}
+  {% endwith %}
+
+  <div class="col-sm-9">
+    {% include 'drfformbootstrap4/checkbox_multiple.html' %}
+    {% include 'drfformbootstrap4/error_text.html' %}
+    {% include 'drfformbootstrap4/help_text.html' %}
+  </div>
+</div>
