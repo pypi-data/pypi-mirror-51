@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/win_maximize/__init__.py
+src/win_maximize/__version__.py
+src/win_maximize/parent_tree.py
+src/win_maximize.egg-info/PKG-INFO
+src/win_maximize.egg-info/SOURCES.txt
+src/win_maximize.egg-info/dependency_links.txt
+src/win_maximize.egg-info/entry_points.txt
+src/win_maximize.egg-info/requires.txt
+src/win_maximize.egg-info/top_level.txt
