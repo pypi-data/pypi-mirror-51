@@ -1,0 +1,7 @@
+README.md
+kokoko
+setup.py
+kokoko.egg-info/PKG-INFO
+kokoko.egg-info/SOURCES.txt
+kokoko.egg-info/dependency_links.txt
+kokoko.egg-info/top_level.txt
