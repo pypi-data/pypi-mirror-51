@@ -1,0 +1,14 @@
+README.md
+setup.py
+safer_hist/__init__.py
+safer_hist/__main__.py
+safer_hist/genmeta.py
+safer_hist/help.py
+safer_hist/lsalltime.py
+safer_hist/lssnaps.py
+safer_hist/lsuntil.py
+safer_hist/restore.py
+safer_hist.egg-info/PKG-INFO
+safer_hist.egg-info/SOURCES.txt
+safer_hist.egg-info/dependency_links.txt
+safer_hist.egg-info/top_level.txt
