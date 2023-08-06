@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: openmm-transformer
+Version: 0.1
+Summary: Cleaner way to manage custom forces in openmm
+Home-page: http://github.com/mohebifar/openmm-transformer
+Author: Mohamad Mohebifar
+Author-email: mmohebifar@mun.ca
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
