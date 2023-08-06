@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: reproserver
+Version: 0.7
+Summary: A web application reproducing ReproZip packages in the cloud. Runs on Kubernetes
+Home-page: https://server.reprozip.org/
+License: BSD-3-Clause
+Keywords: reprozip,reprounzip,docker,kubernetes,reproducibility,reproducible-research,linux,science,nyu
+Author: Remi Rampin
+Author-email: r@remirampin.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Emulators
+Requires-Dist: boto3 (>=1,<2)
+Requires-Dist: jinja2
+Requires-Dist: psycopg2 (>=2.8,<3.0)
+Requires-Dist: reprounzip (>=1.1,<2.0)
+Requires-Dist: reprounzip-docker (>=1.1,<2.0)
+Requires-Dist: sqlalchemy (>=1,<2)
+Requires-Dist: tornado (>=5.0)
+Project-URL: Repository, https://gitlab.com/VIDA-NYU/reproserver
+Description-Content-Type: text/x-rst
+
+.. image:: https://img.shields.io/badge/chat-matrix.org-blue.svg
+   :alt: Matrix
+   :target: https://riot.im/app/#/room/#reprozip:matrix.org
+
+ReproServer
+===========
+
+Goals
+-----
+
+- Import something we can build a Docker image from (currently only a ReproZip package)
+- Build a Docker image from it
+- Allow the user to change experiment parameters and input files
+- Run the experiment
+- Show the log and output files to the user
+
