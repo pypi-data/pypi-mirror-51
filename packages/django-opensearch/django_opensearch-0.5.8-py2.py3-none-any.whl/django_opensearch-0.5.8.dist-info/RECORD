@@ -1,0 +1,16 @@
+opensearch/__init__.py,sha256=gIVP39kc8JqWrjPUgAV5OEq1ljE5PFYC3mWMrr_luLc,196
+opensearch/apps.py,sha256=Tl-oLcqNCu-xSgYbXAm3ZHyX_ctCsqxcFmFshpeNX3A,401
+opensearch/conf.py,sha256=3-_EfSecQEvpgA7UfnPV7BmXI23fhadFrncYet0SzO0,1240
+opensearch/urls.py,sha256=Gd82pqS1Nf9iCiFgvS8qkm45EB2wTvorg8TQva8IN5M,311
+opensearch/views.py,sha256=hvSOBtqzXdna0UhlFDZnvK53RGBbSv3zG45t1hqhEhA,1645
+opensearch/locale/en/LC_MESSAGES/django.po,sha256=35AV4A8L6UyQ1JctCLKtcZWGZvEUACMGYQXn49Ip9sI,629
+opensearch/locale/uk/LC_MESSAGES/django.po,sha256=8txCPI5Ag2LGzkD-ki7RwpSP8gHhXAsEJ530dnJg7JI,752
+opensearch/templates/opensearch/opensearch.xml,sha256=NjDng5xGUz3Wh6U8Ao0wl_YRbwUWDaOBk8rjaGk4yms,1189
+opensearch/templates/opensearch/templatetags/opensearch_meta.html,sha256=npX02MvOmUDwTWTI0NBr71rJUel4Q1rkjlkoQB9wTog,350
+opensearch/templatetags/__init__.py,sha256=WjHmEbqKg25f0qOP6ATlgzZaAd8zApD_8EenFJqUzmM,112
+opensearch/templatetags/opensearch_tags.py,sha256=s58h6XkcY5aYpXFoTugn-QYhe518F7ntSZiI9DgkstI,716
+django_opensearch-0.5.8.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+django_opensearch-0.5.8.dist-info/METADATA,sha256=wEjFnYxX-jFqkHd11eYMi5MWz74zAEyHdOCwlilrAyw,6480
+django_opensearch-0.5.8.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+django_opensearch-0.5.8.dist-info/top_level.txt,sha256=VSe8w0iZUyVY3-dhZXFa8sY19C8g05mbofxDXroyTL4,11
+django_opensearch-0.5.8.dist-info/RECORD,,
