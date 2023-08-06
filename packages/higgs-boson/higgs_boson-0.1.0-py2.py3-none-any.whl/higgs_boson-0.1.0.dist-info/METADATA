@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: higgs-boson
+Version: 0.1.0
+Summary: Higgs Boson Build System Project for Managing C++ builds and tests
+Home-page: UNKNOWN
+Author: BitBoson
+Author-email: development@bitboson.com
+License: GNU Lesser General Public License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3 :: Only
+
+UNKNOWN
+
+
