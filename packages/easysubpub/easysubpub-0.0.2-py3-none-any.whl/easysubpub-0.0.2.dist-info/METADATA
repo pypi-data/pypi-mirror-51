@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: easysubpub
+Version: 0.0.2
+Summary: a simple subpub plugin
+Home-page: https://github.com/xiaoliuhust/easysubpub
+Author: UNKNOWN
+Author-email: xiaoliuhust@gamil.com
+License: MIT
+Platform: any
+Requires-Dist: aio-pika
+
+UNKNOWN
+
+
