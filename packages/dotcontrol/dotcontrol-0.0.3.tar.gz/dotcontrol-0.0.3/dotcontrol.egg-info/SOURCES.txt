@@ -1,0 +1,15 @@
+setup.py
+dotcontrol/__init__.py
+dotcontrol/cli.py
+dotcontrol/const.py
+dotcontrol/control.py
+dotcontrol/dot.py
+dotcontrol/profile.py
+dotcontrol/remote.py
+dotcontrol/util.py
+dotcontrol.egg-info/PKG-INFO
+dotcontrol.egg-info/SOURCES.txt
+dotcontrol.egg-info/dependency_links.txt
+dotcontrol.egg-info/entry_points.txt
+dotcontrol.egg-info/requires.txt
+dotcontrol.egg-info/top_level.txt
