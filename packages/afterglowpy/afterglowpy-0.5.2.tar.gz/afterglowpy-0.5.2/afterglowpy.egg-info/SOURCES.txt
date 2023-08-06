@@ -1,0 +1,15 @@
+README.md
+setup.py
+afterglowpy/__init__.py
+afterglowpy/cocoon.py
+afterglowpy/flux.py
+afterglowpy/integrate.c
+afterglowpy/jetmodule.c
+afterglowpy/offaxis_struct_funcs.c
+afterglowpy/shockEvolution.c
+afterglowpy/shockmodule.c
+afterglowpy.egg-info/PKG-INFO
+afterglowpy.egg-info/SOURCES.txt
+afterglowpy.egg-info/dependency_links.txt
+afterglowpy.egg-info/requires.txt
+afterglowpy.egg-info/top_level.txt
