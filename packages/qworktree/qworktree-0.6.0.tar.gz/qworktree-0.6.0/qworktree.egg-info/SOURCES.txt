@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/qworktree
+qworktree/__init__.py
+qworktree/arguments.py
+qworktree/env.py
+qworktree/tools.py
+qworktree.egg-info/PKG-INFO
+qworktree.egg-info/SOURCES.txt
+qworktree.egg-info/dependency_links.txt
+qworktree.egg-info/not-zip-safe
+qworktree.egg-info/requires.txt
+qworktree.egg-info/top_level.txt
