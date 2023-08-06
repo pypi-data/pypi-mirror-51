@@ -1,0 +1,12 @@
+README.md
+setup.py
+thop/__init__.py
+thop/count_hooks.py
+thop/profile.py
+thop/utils.py
+thop.egg-info/PKG-INFO
+thop.egg-info/SOURCES.txt
+thop.egg-info/dependency_links.txt
+thop.egg-info/requires.txt
+thop.egg-info/top_level.txt
+thop.egg-info/zip-safe
