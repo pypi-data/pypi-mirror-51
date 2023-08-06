@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_changelog/__init__.py
+django_changelog/admin.py
+django_changelog/apps.py
+django_changelog/models.py
+django_changelog/tests.py
+django_changelog/views.py
+django_changelog.egg-info/PKG-INFO
+django_changelog.egg-info/SOURCES.txt
+django_changelog.egg-info/dependency_links.txt
+django_changelog.egg-info/top_level.txt
+django_changelog/migrations/__init__.py
+django_changelog/templates/changelog.html
+django_changelog/templatetags/markdown_extras.py
