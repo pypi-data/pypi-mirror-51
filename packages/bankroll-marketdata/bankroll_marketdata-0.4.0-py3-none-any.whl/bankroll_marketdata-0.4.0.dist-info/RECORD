@@ -1,0 +1,9 @@
+bankroll/marketdata/__init__.py,sha256=Cccdhx1_SU3TKuQf7svicMvk4XNaHRZ9xeQebZYlNVo,156
+bankroll/marketdata/broker.py,sha256=JNtZa4dC1flI2qlo4A4lJCpcrFMxc33RM4zW8fDPqKA,276
+bankroll/marketdata/provider.py,sha256=0IlgMWdX_35ed4W0UhfAM7X9rWfUH4og7yxBPbDzvxk,422
+bankroll/marketdata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bankroll_marketdata-0.4.0.dist-info/LICENSE,sha256=c348Ut9y7l3uPucimipJK2tPTUcMyHg-wNbgHBEtXqc,1124
+bankroll_marketdata-0.4.0.dist-info/METADATA,sha256=Ul6Y2W-kbenfaSSVteuKoDuvqe1Lx386iNuqZcW56tw,1461
+bankroll_marketdata-0.4.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+bankroll_marketdata-0.4.0.dist-info/top_level.txt,sha256=rMDAvIGDwxswDDlVMpB-qJJrZlx1nYiAj8mYJu3pypo,9
+bankroll_marketdata-0.4.0.dist-info/RECORD,,

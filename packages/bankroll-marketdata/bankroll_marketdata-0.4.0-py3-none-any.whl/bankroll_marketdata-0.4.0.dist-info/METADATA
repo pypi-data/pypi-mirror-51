@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: bankroll-marketdata
+Version: 0.4.0
+Summary: Abstractions for loading financial market data
+Home-page: https://github.com/bankroll-py/bankroll-marketdata
+Author: Justin Spahr-Summers
+Author-email: justin@jspahrsummers.com
+License: MIT
+Keywords: trading investing finance portfolio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Requires-Dist: bankroll-broker (~=0.4.0)
+Requires-Dist: bankroll-model (~=0.4.0)
+
+# bankroll-marketdata [![CircleCI](https://circleci.com/gh/bankroll-py/bankroll-marketdata.svg?style=svg&circle-token=b6f5a6badb0c783dd8c304171083b8b0439d8160)](https://circleci.com/gh/bankroll-py/bankroll-marketdata)
+
+This library defines abstract interfaces for loading financial market data. Where such data is provided by a brokerage (as opposed to a general-purpose API), `bankroll-marketdata` also extends the abstractions of [bankroll-broker](https://github.com/bankroll-py/bankroll-broker).
+
+This library is part of the [bankroll](https://github.com/bankroll-py) project.
+
