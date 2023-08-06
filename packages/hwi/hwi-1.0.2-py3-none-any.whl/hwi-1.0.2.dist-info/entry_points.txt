@@ -1,0 +1,3 @@
+[console_scripts]
+hwi=hwilib.cli:main
+
