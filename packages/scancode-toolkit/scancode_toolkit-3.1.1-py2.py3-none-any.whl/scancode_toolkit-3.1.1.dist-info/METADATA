@@ -1,0 +1,274 @@
+Metadata-Version: 2.1
+Name: scancode-toolkit
+Version: 3.1.1
+Summary: ScanCode is a tool to scan code for license, copyright, package and their documented dependencies and other interesting facts.
+Home-page: https://github.com/nexB/scancode-toolkit
+Author: ScanCode
+Author-email: info@aboutcode.org
+License: Apache-2.0 with ScanCode acknowledgment and CC0-1.0 and others
+Keywords: open source,scan,license,package,dependency,copyright,filetype,author,extract,licensing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Requires-Dist: nltk (<4.0,>=3.2)
+Requires-Dist: publicsuffix2
+Requires-Dist: fingerprints (<1.0.0,>=0.6.0)
+Requires-Dist: patch (<1.20,>=1.15)
+Requires-Dist: extractcode-libarchive
+Requires-Dist: extractcode-7z
+Requires-Dist: future (>=0.16.0)
+Requires-Dist: text-unidecode (<2.0,>=1.0)
+Requires-Dist: saneyaml
+Requires-Dist: path.py
+Requires-Dist: bitarray (<1.0.0,>=0.8.1)
+Requires-Dist: intbitset (<3.0,>=2.3.0)
+Requires-Dist: boolean.py (<4.0,>=3.5)
+Requires-Dist: license-expression (<1.0,>=0.99)
+Requires-Dist: pyahocorasick (<1.5,>=1.4)
+Requires-Dist: lxml (<5.0.0,>=4.0.0)
+Requires-Dist: Beautifulsoup4 (<5.0.0,>=4.0.0)
+Requires-Dist: html5lib
+Requires-Dist: six
+Requires-Dist: pdfminer.six (>=20170720)
+Requires-Dist: pycryptodome (>=3.4)
+Requires-Dist: binaryornot (>=0.4.0)
+Requires-Dist: chardet (<4.0.0,>=3.0.0)
+Requires-Dist: pygments (<2.3,>=2.2.0)
+Requires-Dist: typecode-libmagic
+Requires-Dist: pefile (>=2018.8.8)
+Requires-Dist: pymaven-patch (>=0.2.8)
+Requires-Dist: requests (<3.0.0,>=2.7.0)
+Requires-Dist: packageurl-python (>=0.7.0)
+Requires-Dist: xmltodict (>=0.11.0)
+Requires-Dist: javaproperties (>=0.5)
+Requires-Dist: toml (>=0.10.0)
+Requires-Dist: pkginfo (>=1.5.0.1)
+Requires-Dist: dparse (>=0.4.1)
+Requires-Dist: click (<7.0.0,>=6.0.0)
+Requires-Dist: colorama (>=0.3.9)
+Requires-Dist: pluggy (<1.0,>=0.4.0)
+Requires-Dist: attrs (<20.0,>=18.1)
+Requires-Dist: typing (<3.7,>=3.6)
+Requires-Dist: jinja2 (<3.0.0,>=2.7.0)
+Requires-Dist: MarkupSafe (>=0.23)
+Requires-Dist: simplejson
+Requires-Dist: spdx-tools (>=0.6.0)
+Requires-Dist: unicodecsv
+Requires-Dist: yg.lockfile (<3.0.0,>=2.3)
+Requires-Dist: contextlib2
+Requires-Dist: pytz
+Requires-Dist: tempora
+Requires-Dist: jaraco.functools
+Requires-Dist: zc.lockfile (<3.0.0,>=2.0.0)
+Requires-Dist: py2-ipaddress (<3.5,>=2.0) ; python_version < "3"
+Requires-Dist: url (<0.1.6,>=0.1.4) ; python_version < "3"
+Requires-Dist: bz2file (>=0.98) ; python_version < "3"
+Requires-Dist: backports.os (==0.1.1) ; python_version < "3"
+Requires-Dist: more-itertools (<6.0.0) ; python_version == "2.7"
+Requires-Dist: ftfy (<5.0.0) ; python_version == "2.7"
+Requires-Dist: ftfy (>=5.0.0) ; python_version > "3"
+Requires-Dist: url (<1.0.0,>=0.4.2) ; python_version >= "3"
+
+================
+ScanCode toolkit
+================
+A typical software project often reuses hundreds of third-party packages.
+License and origin information is not always easy to find and not normalized:
+ScanCode discovers and normalizes this data for you.
+
+Why use ScanCode?
+=======================
+
+- As a **standalone command line tool**, ScanCode is **easy to install**, run
+  and embed in your CI/CD processing pipeline. It runs on **Windows, macOS and Linux**.
+
+- ScanCode is **used by several projects and organizations** such as the `Eclipse
+  Foundation <https://www.eclipse.org>`_, `OpenEmbedded.org <https://www.openembedded.org>`_,
+  the `FSF <https://www.fsf.org>`_, `OSS Review Toolkit <http://oss-review-toolkit.org>`_, 
+  `ClearlyDefined.io <https://clearlydefined.io/>`_,
+  `RedHat Fabric8 analytics <https://github.com/fabric8-analytics>`_ and many more.
+
+- ScanCode detects licenses, copyrights, package manifests and direct dependencies
+  and more both in **source code** and **binary** files.
+
+- ScanCode provides the **most accurate license detection engine** and does a
+  full comparison (aka. diff or red line) between a database of license texts
+  and your code instead of relying only on regex patterns or probabilistic
+  search, edit distance or machine learning.
+
+- Written in Python, ScanCode is **easy to extend with plugins** to contribute new
+  and improved scanners, data summarization, package manifest parsers and new
+  outputs.
+
+- You can save your scan results as **JSON, HTML, CSV or SPDX**. And you can use the
+  companion `ScanCode workbench GUI app <https://github.com/nexB/scancode-workbench>`_
+  to review and display scan results, statistics and graphics.
+
+- ScanCode is **actively maintained**, has a **growing community of users**.
+
+- ScanCode is heavily **tested** with an automated test suite of over **8000 tests**.
+
+See our roadmap for upcoming features:
+https://github.com/nexB/scancode-toolkit/wiki/Roadmap
+
+Build and tests status
+======================
+
++-------+--------------+-----------------+--------------+
+|Branch | **Coverage** | **Linux/macOS** | **Windows**  |
++=======+==============+=================+==============+
+|Master | |master-cov| | |master-posix|  | |master-win| |
++-------+--------------+-----------------+--------------+
+|Develop| |devel-cov|  | |devel-posix|   | |devel-win|  |
++-------+--------------+-----------------+--------------+
+
+
+Quick Start
+===========
+
+Install Python 2.7 then download and extract the latest ScanCode release from
+https://github.com/nexB/scancode-toolkit/releases/ 
+
+Then run ``./scancode -h`` for help.
+
+
+Installation
+============
+
+Pre-requisites:
+
+* On Windows, please follow the `Comprehensive Installation instructions
+  <https://github.com/nexB/scancode-toolkit/wiki/Comprehensive-Installation>`_.
+  Make sure you use Python 2.7 32 bits from
+  https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi
+
+* On macOS, install Python 2.7 from
+  https://www.python.org/ftp/python/2.7.15/python-2.7.15-macosx10.6.pkg
+
+  Next, download and extract the latest ScanCode release from
+  https://github.com/nexB/scancode-toolkit/releases/
+
+* On Linux install the Python 2.7 "devel" and these packages using your
+  distribution package manager:
+
+  * On Ubuntu 14, 16 and 18 use:
+    ``sudo apt-get install python-dev xz-utils zlib1g libxml2-dev libxslt1-dev bzip2``
+
+  * On Debian and Debian-based distros use:
+    ``sudo apt-get install python-dev xz-utils zlib1g libxml2-dev libxslt1-dev libbz2-1.0``
+
+  * On RPM distros use:
+    ``sudo yum install python-devel xz-libs zlib libxml2-devel libxslt-devel bzip2-libs``
+
+  * On Fedora 22 and later use:
+    ``sudo dnf install python-devel xz-libs zlib libxml2-devel libxslt-devel bzip2-libs``
+
+* See also the `Comprehensive Installation instructions 
+  <https://github.com/nexB/scancode-toolkit/wiki/Comprehensive-Installation>`_
+  for additional instructions.
+
+
+Next, download and extract the latest ScanCode release from
+https://github.com/nexB/scancode-toolkit/releases/
+
+
+Open a terminal window and then `cd` to the extracted ScanCode directory and run
+this command to display help. ScanCode will self-configure if needed::
+
+    ./scancode --help
+
+You can run an example scan printed on screen as JSON::
+
+    ./scancode -clip --json-pp - samples
+
+See more command examples::
+
+    ./scancode --examples
+
+
+Archive extraction
+===================
+
+The archives that exist in a codebase must be extracted before running a scan:
+ScanCode does not extract files from tarballs, zip files, etc. as part of the
+scan. The bundled utility `extractcode` is a mostly-universal archive extractor.
+For example, this command will recursively extract the mytar.tar.bz2 tarball in
+the mytar.tar.bz2-extract directory::
+
+    ./extractcode mytar.tar.bz2
+
+
+Documentation & FAQ
+===================
+
+https://github.com/nexB/scancode-toolkit/wiki
+
+See also https://aboutcode.org for related companion projects and tools.
+
+
+Support
+=======
+
+If you have a problem, a suggestion or found a bug, please enter a ticket at:
+https://github.com/nexB/scancode-toolkit/issues
+
+For discussions and chats, we have:
+
+* an official Gitter channel for web-based chats at https://gitter.im/aboutcode-org/discuss
+  Gitter is also accessible via an IRC bridge at https://irc.gitter.im/
+
+* an official `#aboutcode` IRC channel on freenode (server chat.freenode.net). 
+  This channel receives build and commit notifications and can be a tad noisy.
+  You can use your favorite IRC client or use the web chat at
+  https://webchat.freenode.net/
+
+
+Source code and downloads
+=========================
+
+* https://github.com/nexB/scancode-toolkit.git
+* https://github.com/nexB/scancode-toolkit/releases
+* https://pypi.org/project/scancode-toolkit/
+* https://github.com/nexB/scancode-thirdparty-src.git
+
+
+License
+=======
+
+* Apache-2.0 with an acknowledgement required to accompany the scan output.
+* Public domain CC-0 for reference datasets.
+* Multiple licenses (GPL2/3, LGPL, MIT, BSD, etc.) for third-party components.
+
+See the NOTICE file and the .ABOUT files that document the origin and license of
+the third-party code used in ScanCode for more details.
+
+
+.. |master-cov| image:: https://codecov.io/gh/nexB/scancode-toolkit/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/nexB/scancode-toolkit/branch/master
+    :alt: Master branch test coverage (Linux)
+.. |devel-cov| image:: https://codecov.io/gh/nexB/scancode-toolkit/branch/develop/graph/badge.svg
+    :target: https://codecov.io/gh/nexB/scancode-toolkit/branch/develop
+    :alt: Develop branch test coverage (Linux)
+
+.. |master-posix| image:: https://api.travis-ci.org/nexB/scancode-toolkit.png?branch=master 
+    :target: https://travis-ci.org/nexB/scancode-toolkit
+    :alt: Linux Master branch tests status
+.. |devel-posix| image:: https://api.travis-ci.org/nexB/scancode-toolkit.png?branch=develop
+    :target: https://travis-ci.org/nexB/scancode-toolkit
+    :alt: Linux Develop branch tests status
+
+.. |master-win| image:: https://ci.appveyor.com/api/projects/status/4webymu0l2ip8utr/branch/master?png=true
+    :target: https://ci.appveyor.com/project/nexB/scancode-toolkit
+    :alt: Windows Master branch tests status
+.. |devel-win| image:: https://ci.appveyor.com/api/projects/status/4webymu0l2ip8utr/branch/develop?png=true
+    :target: https://ci.appveyor.com/project/nexB/scancode-toolkit
+    :alt: Windows Develop branch tests status
+
+
