@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.rst
+setup.cfg
+setup.py
+pypicky/__init__.py
+pypicky/core.py
+pypicky.egg-info/PKG-INFO
+pypicky.egg-info/SOURCES.txt
+pypicky.egg-info/dependency_links.txt
+pypicky.egg-info/entry_points.txt
+pypicky.egg-info/requires.txt
+pypicky.egg-info/top_level.txt
+pypicky.egg-info/zip-safe
