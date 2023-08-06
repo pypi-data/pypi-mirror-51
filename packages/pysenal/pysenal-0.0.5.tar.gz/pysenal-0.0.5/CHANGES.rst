@@ -1,0 +1,45 @@
+=========
+Changelog
+=========
+
+Version 0.0.5
+===============
+New Features
+----------------
+
+* add :code:`serialize_method` in jsonline write methods
+* add :code:`json_serialize` method to help json dumps
+
+Version 0.0.4
+===============
+New Features
+----------------
+
+* add one utils method
+    * :code:`index`
+
+Version 0.0.3
+===============
+New Features
+---------------
+
+* Add three utils methods
+    * :code:`get_chunk`
+    * :code:`list2dict`
+    * :code:`get_filenames_in_dir`
+
+Version 0.0.2
+==============
+New Features
+-------------
+
+* Add default parameter in read related methods
+* Add more unittests
+
+Version 0.0.1
+==============
+
+New Features
+-------------
+
+* Add IO related methods and class
