@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: logsensei
+Version: 0.2.1
+Summary: Personal Formatting on Loguru
+Home-page: https://github.com/AdityaSidharta/logsensei
+License: UNKNOWN
+Author: Aditya Kelvianto Sidharta
+Author-email: aditya.sdrt@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: loguru
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: torchsummary
