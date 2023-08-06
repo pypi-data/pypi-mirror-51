@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kathra-core-interface
+Version: 1.0.1
+Summary: Kathra Core Interface
+Home-page: https://gitlab.com/kathra/kathra-staging/kathra/kathra-core/kathra-core-python/kathra-core-interface
+Author: Julien Boubechtoula
+Author-email: julien.boubechtoula@gmail.com
+License: UNKNOWN
+Keywords: Interface,Core,Kathra
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+
+Core modules for python interface in Kathra
+
+
