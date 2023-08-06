@@ -1,0 +1,8 @@
+README.md
+setup.py
+Joe_Code.egg-info/PKG-INFO
+Joe_Code.egg-info/SOURCES.txt
+Joe_Code.egg-info/dependency_links.txt
+Joe_Code.egg-info/top_level.txt
+joepdf/__init__.py
+joepdf/pdf2text.py
