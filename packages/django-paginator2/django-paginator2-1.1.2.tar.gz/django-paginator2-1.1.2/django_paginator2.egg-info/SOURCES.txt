@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+django_paginator2.egg-info/PKG-INFO
+django_paginator2.egg-info/SOURCES.txt
+django_paginator2.egg-info/dependency_links.txt
+django_paginator2.egg-info/top_level.txt
+paginator/__init__.py
+paginator/page.py
