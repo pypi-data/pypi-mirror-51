@@ -1,0 +1,17 @@
+hkvfewspy/__init__.py,sha256=uyI-32-_DFVRjqu3Gpv1QuzKvqprhdBURayBfINSEjw,731
+hkvfewspy/io/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+hkvfewspy/io/rest_fewspi.py,sha256=fOt-OtOia7rqNVo5KKn5BcTDLOMkKt41TJ1hBwbCNcw,14326
+hkvfewspy/io/soap_fewspi.py,sha256=Uw3Qa2MT8hB1NkO1PspNp8g7AbHEaDV3AFJRdPYViSE,33627
+hkvfewspy/schemas/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+hkvfewspy/schemas/timeseries.py,sha256=d5Wa2WEhxygXMmMXkYfpTsHWfSqNPoP_FQnzxeiZ_d8,15646
+hkvfewspy/utils/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+hkvfewspy/utils/pi_helper.py,sha256=TsHqcgNCTUNNWuj6HqlcUdLSX2QQTNjoeBWGR6npKuA,45679
+hkvfewspy/utils/query_helper.py,sha256=BPX_ZyLlvSqmh5r1Y-sSFWPiKIL0brXbCTU-yBSCQQs,9647
+hkvfewspy/utils/simplenamespace.py,sha256=bLCw-_25nsUFmQdDvaSeGN8-fma6dY0nJ1Ym3PoDFBQ,552
+hkvfewspy/utils/untangle.py,sha256=xPLusIMPWOZ9HaUcWUK91-rIw4oY6On4dcG2OLEHgEw,6369
+hkvfewspy-0.8.dist-info/LICENSE,sha256=njPJaanGaxl9E8iA7_N__QBrgSmFiznRsImCViJs1Lc,1529
+hkvfewspy-0.8.dist-info/METADATA,sha256=N1FdxhTy0ANGQudP99gd4_GsgA00-OItuVQ-QtFesQA,364
+hkvfewspy-0.8.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+hkvfewspy-0.8.dist-info/dependency_links.txt,sha256=q_u9ObvAoXtGxgoAGV5_ua2dqt1GxYzQGGfCpNZyksM,97
+hkvfewspy-0.8.dist-info/top_level.txt,sha256=dxM2XEC6naNYnETHm6_sp4A3w-OxrM2K19ieyAij2fc,10
+hkvfewspy-0.8.dist-info/RECORD,,
