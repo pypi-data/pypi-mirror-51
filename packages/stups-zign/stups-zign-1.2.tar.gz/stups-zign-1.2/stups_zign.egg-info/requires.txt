@@ -1,0 +1,5 @@
+PyYAML
+clickclick>=1.0
+requests
+stups-cli-support
+stups-tokens
