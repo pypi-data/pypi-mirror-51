@@ -1,0 +1,16 @@
+gitRemoteAws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitRemoteAws/botoman.py,sha256=eeTRJUGNjMHi-ur6qXCRzk1T9GmPClHGpZfR0lfo9Q0,1984
+gitRemoteAws/cli_cloudtrail.py,sha256=ku4i1f-yg0fPHlzjZKBJdu6KfuU-JVvRk0wGZx28qYE,2833
+gitRemoteAws/cli_cw.py,sha256=R6iN-BPH6o7Inf0-Xam58pM0kFTybH9qLOcAy3-a4YQ,3616
+gitRemoteAws/cli_ec2.py,sha256=YnTZ1l92KwQo3hIEhDQzBbUXI8aj-6od9VYI6Golvkw,7432
+gitRemoteAws/cli_sns.py,sha256=eIIgeJvaaNwWtLYo9TELINHL_K3Pr83j4FBSzC9g44w,2498
+gitRemoteAws/dotman.py,sha256=uMA56bNmOEzR5ZJXrggB7qXgQjO1vLRYJ21tw0uJDZo,2364
+gitRemoteAws/pull.py,sha256=EGh8UnEX6lvZLhccbR6ZGu_kJe4IYQALOTRZY8RKk1U,20456
+gitRemoteAws/pull_cloudtrail_lookupEvents.py,sha256=kM0y4xWmQFCrQ8zPVkFG7zs-nW76IgyGbcARGl_o9lY,4034
+gitRemoteAws/utils.py,sha256=4Ax_LNZceq7aHD8m9joRgwK9aXXAaJXiFwjDvbPkgXs,1074
+git_remote_aws-0.5.0.dist-info/LICENSE,sha256=crlOIO8Vege4vpzffapRDLpk0yqkwzMBc_CMJsfb270,11342
+git_remote_aws-0.5.0.dist-info/METADATA,sha256=YgyCwFWDC5rsbCM0BnGraRuVYn7qsOFxBoc2401SLTA,7810
+git_remote_aws-0.5.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+git_remote_aws-0.5.0.dist-info/entry_points.txt,sha256=H2Gsd7uf9U7v7rtx9B1_hD90APjNOX0o8al21y9F0MQ,251
+git_remote_aws-0.5.0.dist-info/top_level.txt,sha256=n3V8NqbAkg2ejIhhqZ5UAxS_HvaLI_j4mrsC8HU5ePg,13
+git_remote_aws-0.5.0.dist-info/RECORD,,
