@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: json-schema-discovery
+Version: 1.3.1
+Summary: Database-agnostic JSON schema discovery
+Author: Stepland
+Author-email: Stepland@hotmail.fr
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: tabulate (>=0.8.3,<0.9.0)
+Description-Content-Type: text/x-rst
+
+Database-agnostic JSON schema discovery
+
+Create and merge json schemas, with occurence counting
+
+
+Quickstart
+----------
+
+Start with ``Empty`` or using ``make_schema()`` and merge with json-like python objects using ``+=``
+
+Visualize the resulting schema with ``dumps()`` or by printing the object
+
+Get a sense of the overall structure with ``statistics()``
+
