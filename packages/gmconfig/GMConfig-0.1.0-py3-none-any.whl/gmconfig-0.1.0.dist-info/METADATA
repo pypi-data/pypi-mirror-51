@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gmconfig
+Version: 0.1.0
+Summary: My lazy mans config loading and exporting module
+Author: GeekMasher
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pyyaml (>=5.1,<6.0)
