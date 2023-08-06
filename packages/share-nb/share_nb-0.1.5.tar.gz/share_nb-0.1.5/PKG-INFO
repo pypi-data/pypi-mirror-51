@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: share_nb
+Version: 0.1.5
+Summary: Plugin that allows to share Notebooks.
+Home-page: UNKNOWN
+Author: Viacheslav Kovalevskyi, Gleb Bochkarev, Ivanna Sak, Abdalla Abdulmonem
+Author-email: viacheslav@kovalevskyi.com
+License: MIT
+Description: UNKNOWN
+Keywords: Jupyter,JupyterLab,GitHub,GCP
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
