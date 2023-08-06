@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: toybox-api
+Version: 0.2.0
+Summary: Core API for interacting with Toybox RL environments.
+Home-page: https://github.com/KDL-umass/Toybox
+Author: John Foley
+Author-email: jjfoley@smith.edu
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: OS Independent
+Requires-Dist: toybox-cffi (==0.1.0)
+Requires-Dist: cffi
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: pygame
+
+UNKNOWN
+
+
