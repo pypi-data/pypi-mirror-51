@@ -1,0 +1,4 @@
+spacy
+None
+pandas
+jupyter

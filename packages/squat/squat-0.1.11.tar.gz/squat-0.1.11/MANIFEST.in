@@ -1,0 +1,4 @@
+include squat/Classifier/train.csv
+include squat/Classifier/out/*
+include squat/Classifier/out/textcat/*
+include squat/Classifier/out/vocab/*
