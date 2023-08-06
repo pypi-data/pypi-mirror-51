@@ -1,0 +1,8 @@
+genice_twist/__init__.py,sha256=PM74101TdtTO1QiTMeMeTt087AsRNE6nqli2Jn3wYzw,75
+genice_twist/formats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genice_twist/formats/twist.py,sha256=5FzN1fn-jmgiFDELluojaaXZNwp61Fk7oaRO5h-pkG4,18238
+genice_twist-0.1.1.dist-info/METADATA,sha256=im43L323WXXSb8LVL--zKev8g6pN5PD61W2UjmmN9mQ,3303
+genice_twist-0.1.1.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+genice_twist-0.1.1.dist-info/entry_points.txt,sha256=nM0shQHPcAw9YQeARrsISOw-u_S2ulaUmGvJcZfjM0k,52
+genice_twist-0.1.1.dist-info/top_level.txt,sha256=jG1o7NIaF5ekZXeQ3VTwsfpQYEauuJAlFDb2hiQB4BQ,13
+genice_twist-0.1.1.dist-info/RECORD,,
