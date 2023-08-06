@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: quantaxis-servicedetect
+Version: 0.0.2
+Summary: qaservicedetect
+Home-page: https://github.com/yutiansut/qaservicedetect
+Author: yutiansut
+Author-email: yutiansut@qq.com
+License: MIT
+Keywords: quantaxis,quant,finance,Backtest,Framework
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Dist: pika (==1.0.0b1)
+Requires-Dist: quantaxis (>=1.4.8)
+Requires-Dist: pymongo
+Requires-Dist: click
+
+qaservicedetect
+
+
