@@ -1,0 +1,16 @@
+aiohttp<3.6.0,>=3.3.0
+websockets<7.0,>=6.0
+
+[docs]
+sphinx
+sphinxcontrib_trio
+
+[tests]
+pytest
+flake8
+isort
+mypy
+pydocstyle
+
+[ujson]
+ujson
