@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyvdr
+Version: 0.1.2
+Summary: Python library for accessing a Linux VDR via SVDRP
+Home-page: http://github.com/baschno/pyvdr
+Author: baschno
+Author-email: bastian.schnorbus@googlemail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
