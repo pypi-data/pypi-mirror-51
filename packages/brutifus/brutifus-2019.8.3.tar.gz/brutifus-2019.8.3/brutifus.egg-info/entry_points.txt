@@ -1,0 +1,3 @@
+[console_scripts]
+brutifus = brutifus.__main__:main
+
