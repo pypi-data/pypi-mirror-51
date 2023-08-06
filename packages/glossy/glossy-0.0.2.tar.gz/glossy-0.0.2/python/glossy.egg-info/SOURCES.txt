@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+python/glossy/__init__.py
+python/glossy/decorated.py
+python/glossy/decorators.py
+python/glossy.egg-info/PKG-INFO
+python/glossy.egg-info/SOURCES.txt
+python/glossy.egg-info/dependency_links.txt
+python/glossy.egg-info/top_level.txt
