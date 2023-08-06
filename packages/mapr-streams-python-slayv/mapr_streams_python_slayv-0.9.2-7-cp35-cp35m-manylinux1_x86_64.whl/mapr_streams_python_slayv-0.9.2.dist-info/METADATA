@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mapr-streams-python-slayv
+Version: 0.9.2
+Summary: MapR Streams Python Client
+Home-page: https://github.com/mapr/confluent-kafka-python
+Author: Confluent Inc & MapR
+Author-email: support@mapr.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+Some description
+
+
