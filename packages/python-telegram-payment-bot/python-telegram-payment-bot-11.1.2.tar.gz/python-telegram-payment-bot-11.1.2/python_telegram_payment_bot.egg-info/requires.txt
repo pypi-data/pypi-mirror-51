@@ -1,0 +1,9 @@
+future>=0.16.0
+certifi
+cryptography
+
+[json]
+ujson
+
+[socks]
+PySocks
