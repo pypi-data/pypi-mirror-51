@@ -1,0 +1,29 @@
+---
+- project:
+    templates:
+      - openstack-cover-jobs
+      - openstack-python35-jobs
+      - openstack-python36-jobs
+      - openstack-python-jobs
+      - publish-openstack-docs-pti
+      - release-notes-jobs-python3
+    check:
+      jobs:
+        - kayobe-tox-ansible-syntax
+        - kayobe-tox-ansible
+        - kayobe-tox-molecule
+        - kayobe-overcloud-centos
+        - kayobe-overcloud-upgrade-centos
+        - kayobe-seed-centos
+        - kayobe-seed-upgrade-centos
+
+    gate:
+      queue: kayobe
+      jobs:
+        - kayobe-tox-ansible-syntax
+        - kayobe-tox-ansible
+        - kayobe-tox-molecule
+        - kayobe-overcloud-centos
+        - kayobe-overcloud-upgrade-centos
+        - kayobe-seed-centos
+        - kayobe-seed-upgrade-centos
