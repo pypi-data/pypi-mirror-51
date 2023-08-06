@@ -1,0 +1,4 @@
+[console_scripts]
+tng-sdk-sm = tngsdksm.__main__:main
+tng-sm = tngsdksm.__main__:main
+

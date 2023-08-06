@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: tngsdksm
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/sonata-nfv/tng-sdk-sm
+Author: Thomas Soenen
+Author-email: thomas.soenen@ugent.be
+License: Apache License, Version 2.0
+Description: 
+        Component to generate and test Service and Function Specific Managers.
+        
+Platform: UNKNOWN
