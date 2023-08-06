@@ -1,0 +1,7 @@
+README.md
+setup.py
+SecretPlots/__init__.py
+SecretPlots.egg-info/PKG-INFO
+SecretPlots.egg-info/SOURCES.txt
+SecretPlots.egg-info/dependency_links.txt
+SecretPlots.egg-info/top_level.txt
