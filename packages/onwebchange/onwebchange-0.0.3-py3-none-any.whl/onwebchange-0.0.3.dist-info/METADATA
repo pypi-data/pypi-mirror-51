@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: onwebchange
+Version: 0.0.3
+Summary: watchdog toolkit for check web change.
+Home-page: https://github.com/ClericPy/onwebchange
+Author: ClericPy
+Author-email: clericpy@gmail.com
+License: MIT License
+Keywords: watchdog web change.
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torequests
+Requires-Dist: click
+Requires-Dist: bottle
+Requires-Dist: objectpath
+
+# simple_web_watchdog
+
+
+
+### example
+
+> python3 -m onwebchange -f wc.config -i 300 -a
+
+```python
+from onwebchange.core import WebHandler
+from onwebchange.webui import app
+
+if __name__ == "__main__":
+    wh = WebHandler(
+        app,
+        file_path=None,
+        loop_interval=300,
+        auto_open_browser=True,
+        change_callback=lambda task: print(task.name),
+        app_kwargs={'port': 9988})
+    # python3 -m onwebchange -f wc.config -i 300 -a
+    wh.run()
+
+```
+
+
