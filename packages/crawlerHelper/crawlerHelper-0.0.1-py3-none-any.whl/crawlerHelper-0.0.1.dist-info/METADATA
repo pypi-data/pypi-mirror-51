@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: crawlerHelper
+Version: 0.0.1
+Summary: tools which can easy the process of making crawler
+Home-page: https://gitlab.com/snippets/1873717
+Author: Wyatt Huang
+Author-email: p@hty.email
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Introduction:
+
+This class can be used in crawler project. And it contain two function:
+
+    1. proxies IP
+
+    2. hide header
+
+If also used pkl cache to speed up the abstract information from IP Pool
+cache will be expired in one day
+
+How to use:
+create new crawlerComponent object, and then,you can use:
+
+    1. get_an_ip: get a random IP
+
+    2. get_a_header: get a random header
+
+    3. updateIpLib: update the ip library (original set as once per day)
+
+methods to use
+
+---
+> Class Version: 2.0.0 in https://gitlab.com/snippets/1873717
+
