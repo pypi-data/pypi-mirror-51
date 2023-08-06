@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kokoko
+Version: 0.2
+Summary: Test package
+Home-page: https://github.com/wk-j
+Author: wk-j
+Author-email: somnuk.wk@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+## Test Package
+
+```bash
+pipenv install pip setuptools whell tqdm twine
+chmod +x kokoko
+pipenv run python setup.py sdist bdist_wheel
+pipenv run python -m twine upload dist/*
+```
+
+## Check
+
+```bash
+pipenv run pip install kokoko
+pipenv run pip kokoko
+```
+
