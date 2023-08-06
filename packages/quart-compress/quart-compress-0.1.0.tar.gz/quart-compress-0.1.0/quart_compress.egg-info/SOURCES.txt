@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+quart_compress/__init__.py
+quart_compress/quart_compress.py
+quart_compress.egg-info/PKG-INFO
+quart_compress.egg-info/SOURCES.txt
+quart_compress.egg-info/dependency_links.txt
+quart_compress.egg-info/not-zip-safe
+quart_compress.egg-info/requires.txt
+quart_compress.egg-info/top_level.txt
+tests/__init__.py
+tests/test_flask_compress.py
+tests/static/1.png
+tests/templates/large.html
+tests/templates/small.html
