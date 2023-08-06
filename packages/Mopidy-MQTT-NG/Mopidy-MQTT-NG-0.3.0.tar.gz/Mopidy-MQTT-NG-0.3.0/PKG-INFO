@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: Mopidy-MQTT-NG
+Version: 0.3.0
+Summary: Mopidy extension for remote control via MQTT broker
+Home-page: https://github.com/odiroot/mopidy-mqtt
+Author: Michal Odnous
+Author-email: odiroot@users.noreply.github.com
+License: Apache License, Version 2.0
+Description: Based on ![magcode's](https://github.com/magcode) ![work](https://github.com/magcode/mopidy-mqtt).
+        
+        [![Build Status](https://travis-ci.org/odiroot/mopidy-mqtt.svg?branch=master)](https://travis-ci.org/odiroot/mopidy-mqtt)
+        
+        # Installation
+        
+        <!-- TOOD: Update -->
+        <!-- TODO: Publish to PyPI -->
+        
+        # Features
+        
+        * Sends information about Mopidy state on any change
+            - Playback status
+            - Volume
+            - Track description
+        * Reacts to control commands
+            - Playback control
+            - Tracklist control
+            - Volume control
+            - Track search [WIP]
+        * Responds to specific information inquiries
+        
+        # MQTT protocol
+        
+        ## Topics
+        
+        Default top level topic: `mopidy`.
+        
+        Control topic: `mopidy/c`.
+        
+        Information topic `mopidy/i`.
+        
+        ## Publishing
+        
+        |      Kind     |  Subtopic |                  Values                   |
+        |:-------------:|:---------:|:-----------------------------------------:|
+        | State         |   `/sta`  | `paused` / `stop` / `playing`             |
+        | Volume        |   `/vol`  |               `<level:int>`               |
+        | Current track |   `/trk`  | `<artist:str>;<title:str>;<album>` or ` ` |
+        
+        ## Subscribing
+        
+        |       Kind       | Subtopic |                               Values                              |
+        |:----------------:|:--------:|:-----------------------------------------------------------------:|
+        | Playback control | `/plb`   | `play` / `stop` / `pause` / `resume` / `toggle` / `prev` / `next` |
+        | Volume control   | `/vol`   | `=<int>` or `-<int>` or `+<int>`                                  |
+        | Add to queue     | `/add`   | `<uri:str>`                                                       |
+        | Load playlist    | `/loa`   | `<uri:str>`                                                       |
+        | Clear queue      | `/clr`   | ` `                                                               |
+        | Search tracks    | `/src`   | `<str>`                                                           |
+        | Request info     | `/inf`   | `state` / `volume` / `queue`                                  |
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players
+Classifier: Environment :: No Input/Output (Daemon)
+Description-Content-Type: text/markdown
