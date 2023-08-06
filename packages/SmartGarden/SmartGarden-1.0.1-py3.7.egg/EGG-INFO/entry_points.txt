@@ -1,0 +1,3 @@
+[console_scripts]
+smart_garden = src.command_line:main
+
