@@ -1,0 +1,3 @@
+[console_scripts]
+enex2md = enex2md.cli:app
+
