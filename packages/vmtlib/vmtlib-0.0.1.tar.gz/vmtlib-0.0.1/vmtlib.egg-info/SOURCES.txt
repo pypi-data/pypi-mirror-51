@@ -1,0 +1,9 @@
+README.md
+setup.py
+vmtlib/__init__.py
+vmtlib/vmt_file.py
+vmtlib/vmt_object.py
+vmtlib.egg-info/PKG-INFO
+vmtlib.egg-info/SOURCES.txt
+vmtlib.egg-info/dependency_links.txt
+vmtlib.egg-info/top_level.txt
