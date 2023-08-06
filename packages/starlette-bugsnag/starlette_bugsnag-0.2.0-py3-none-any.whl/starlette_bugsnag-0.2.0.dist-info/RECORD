@@ -1,0 +1,11 @@
+starlette_bugsnag/__init__.py,sha256=ZOogLQhB1z8DEUgPOgf1waBZ-T9nC3IbJrE8MC6846w,97
+starlette_bugsnag/middleware.py,sha256=KGO0CTCLF-165ihiWc_LsYPOhMAPToRHRPQk7G_yhEc,2821
+starlette_bugsnag/types.py,sha256=RbisZ8DEsquztH1HwK6_8Iy5ZvQwddYcDDFW32KEN3o,302
+starlette_bugsnag-0.2.0.data/data/LICENSE,sha256=3gwt4KzotO_VnKVcgbpMAeLiyTKmgIH1EKcBA77QsaM,1072
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_bugsnag.py,sha256=lBfeX0Os34iN4d_1rO0vV9OqD04QWO57MWpZTlmUoRI,872
+starlette_bugsnag-0.2.0.dist-info/LICENSE,sha256=3gwt4KzotO_VnKVcgbpMAeLiyTKmgIH1EKcBA77QsaM,1072
+starlette_bugsnag-0.2.0.dist-info/METADATA,sha256=osbvLEUfnSuSc830Htl5_l4Dxt7d9-ykEGBPFX3o_oc,1839
+starlette_bugsnag-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+starlette_bugsnag-0.2.0.dist-info/top_level.txt,sha256=C82PkkjHQ009TefpbHoX_JNvMoMLh-JC-ip4H5KIupg,24
+starlette_bugsnag-0.2.0.dist-info/RECORD,,
