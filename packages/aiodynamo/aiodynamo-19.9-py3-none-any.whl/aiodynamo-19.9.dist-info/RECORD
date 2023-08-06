@@ -1,0 +1,10 @@
+aiodynamo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiodynamo/client.py,sha256=tYY1vfchdxZqAzMgC8fgqXB5sITOBkgQ-LN9wfjP69o,17693
+aiodynamo/errors.py,sha256=Jby1Rxa0U-695VTiqroScwr67rR1d0p78b8sGam16a4,122
+aiodynamo/models.py,sha256=1FkWIN--PDZx4Dhn2ApulceRqxtwMhzB09m4h_gk86w,9612
+aiodynamo/types.py,sha256=SvZzdPbW9jBAnDTFQHjXq9JHup1YmBRdaqu67g-Tt4o,602
+aiodynamo/utils.py,sha256=zspyCZrEdS1UYvzTmGGDGHY39gpZUOtyt2I61IfOI20,2545
+aiodynamo-19.9.dist-info/LICENSE,sha256=go98Elmfp1J3G1RWbssLUwnO3risY4hedwvfSGw80Ck,552
+aiodynamo-19.9.dist-info/WHEEL,sha256=B9sUljbermATdnR9vRc7_PZudWzu8UpY6g74X8l4XFg,85
+aiodynamo-19.9.dist-info/METADATA,sha256=xZLvTjm44PFPJh7L698_g1MXKzKR0Zttl2QP0pO4onI,744
+aiodynamo-19.9.dist-info/RECORD,,
