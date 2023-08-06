@@ -1,0 +1,13 @@
+README.md
+setup.py
+ARC/__init__.py
+ARC/__main__.py
+ARC/classifier.py
+ARC/mhc_G_domain.py
+ARC/data/MRO_Gdomain.csv
+ARC/data/chain-sequence.tsv
+bio_arc.egg-info/PKG-INFO
+bio_arc.egg-info/SOURCES.txt
+bio_arc.egg-info/dependency_links.txt
+bio_arc.egg-info/requires.txt
+bio_arc.egg-info/top_level.txt
