@@ -1,0 +1,3 @@
+[console_scripts]
+great = great._cli:main
+
