@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: google_sheets_lib
+Version: 0.4
+Summary: An opinionated library for accessing Google Sheets documents
+Home-page: https://github.com/openshift-cs/google_sheets_lib
+Author: Will Gordon
+Author-email: wgordon@redhat.com
+License: MIT
+Project-URL: Documentation, https://google_sheets_lib.readthedocs.io
+Project-URL: Source, https://github.com/openshift-cs/google_sheets_lib
+Description: An opinionated library for accessing Google Sheets documents
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

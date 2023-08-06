@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+setup.cfg
+setup.py
+google_sheets_lib/__init__.py
+google_sheets_lib/__version__.py
+google_sheets_lib.egg-info/PKG-INFO
+google_sheets_lib.egg-info/SOURCES.txt
+google_sheets_lib.egg-info/dependency_links.txt
+google_sheets_lib.egg-info/requires.txt
+google_sheets_lib.egg-info/top_level.txt
