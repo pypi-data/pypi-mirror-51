@@ -1,0 +1,88 @@
+************************************************************************
+0.4.4
+************************************************************************
+
+* Add compatibility for Python 3.
+
+************************************************************************
+0.4.3
+************************************************************************
+
+* Remove Zeta.html from documentation.
+
+************************************************************************
+0.4.2
+************************************************************************
+
+* First version on PyPI. Updates to documentation.
+
+************************************************************************
+0.4.1
+************************************************************************
+
+* Depend on Sage upstream packages of Normaliz and LattE, instead of
+  bundled programs.
+
+************************************************************************
+0.4.0
+************************************************************************
+
+* Created pip-installable package.
+
+* The name of the Python library is now zetalib, due to PyPI package
+  name requirments.
+
+* Remove scdd_gmp because cddlib is a standard Sage package.
+
+************************************************************************
+0.3.2
+************************************************************************
+
+* Added support for "ask zeta functions", including conjugacy class
+  zeta functions of unipotent groups.
+
+* Removed some duplicate algebras corresponding to the mistakes in
+  Seeleys's tables listed in Magnin's paper.
+
+  NOTE: The algebra "1,3,7 B" was already given in the corrected form in
+  previous versions of Zeta.
+
+* Added maple.cpp from the patched version of LattE.
+
+************************************************************************
+0.3.1
+************************************************************************
+
+* Fixed a bug in Algebra.change_basis in the presence of operators.
+
+************************************************************************
+0.3
+************************************************************************
+
+* Added support for computations of generic local zeta functions.
+
+* Computations of topological representation zeta functions are now
+  often substantially faster.
+
+* Added support for graded subobject zeta functions.
+
+************************************************************************
+0.2.1
+************************************************************************
+
+* Fixed the `optimise_basis' option which did not work in recent
+  versions of Sage.
+
+************************************************************************
+0.2
+************************************************************************
+
+* Added support for topological representation zeta functions associated
+  with unipotent groups/nilpotent Lie algebras.
+
+* Regularity testing is now much faster due to intermediate torus factor
+  splitting.
+
+* Added more examples.
+
+* Some bugfixes.

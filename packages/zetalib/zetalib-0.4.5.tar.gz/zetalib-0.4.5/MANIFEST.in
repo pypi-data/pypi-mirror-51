@@ -1,0 +1,9 @@
+include README.rst
+include LICENSE
+include VERSION
+include CHANGES
+include requirements.txt
+recursive-include zetalib *.pyx *.c *.cpp
+exclude zetalib/crunch.so
+graft docs
+prune docs/build
