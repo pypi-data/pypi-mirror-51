@@ -1,0 +1,3 @@
+[console_scripts]
+squp = squp.command_line:main
+
