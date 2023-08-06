@@ -1,0 +1,11 @@
+jsrope/__about__.py,sha256=jLKMZIvh0B7Fu_ygr8-O-3lCTnUkoK02dSpW1P548YI,434
+jsrope/__init__.py,sha256=utoZJ9brJBXLJqsKkUI1f9X5zcts9h2dzSh0_frKC9s,653
+jsrope/django.py,sha256=9tAZ6tVqjyBVSdOan8M80lHuJhPogNMCrgGPPMSzaUs,2117
+jsrope/flask.py,sha256=_xiYqPNKp0yETekaTaznUwMtIRFTy3aGcCbArWaQ15o,2130
+jsrope/jsrope.py,sha256=kg7DXlfpCfjSGhUEKD0BATHV2zPhYdFwOFjB3qKI37k,24734
+jsrope/util.py,sha256=PFLAVgO5uGNarzXK4PEfeyiIuCG6KJKNeyGCeybxvKk,691
+JSRope-0.1.0.dist-info/LICENSE,sha256=hNUtAqsEEouR2Ok7PzLfXNPQXFpZJRHuARYIuSO9kkM,1062
+JSRope-0.1.0.dist-info/METADATA,sha256=yse3zmuqrZkj9lVhD0U6wkRCeLP3nPcCE94sDDQQxz4,986
+JSRope-0.1.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+JSRope-0.1.0.dist-info/top_level.txt,sha256=7L28vIqz36nDfbtl9dJGPGkM-p4cQgyDPtdp5ziqntU,7
+JSRope-0.1.0.dist-info/RECORD,,
