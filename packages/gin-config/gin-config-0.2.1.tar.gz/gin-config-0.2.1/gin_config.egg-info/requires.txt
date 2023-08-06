@@ -1,0 +1,10 @@
+six>=1.10.0
+
+[:python_version<"3"]
+enum34
+
+[tensorflow]
+tensorflow>=1.13.0
+
+[tensorflow_gpu]
+tensorflow-gpu>=1.13.0
