@@ -1,0 +1,13 @@
+favorites_icons/__init__.py,sha256=0ixseiUueJl20uIAQWesCngtm4Z81PLjPBTGUl5LXi0,92
+favorites_icons/management/__init__.py,sha256=QsxzjyHbMCV9liAhwf2ncU7DZFjw5EaBPo-vtGtDdTI,16
+favorites_icons/management/commands/__init__.py,sha256=QsxzjyHbMCV9liAhwf2ncU7DZFjw5EaBPo-vtGtDdTI,16
+favorites_icons/management/commands/generate-icons.py,sha256=r1ovrbMbKQBsAu39fYXWyijjk4MfG6Q46Zf8FRLeH_U,2152
+favorites_icons/templates/favorites-icons-meta.html,sha256=ZmrTV9E7MT83gJJUfJEgHqU2_L-B7iGuazZoPNDuIpQ,203
+favorites_icons/templatetags/__init__.py,sha256=0EyBN8jLoVW-DqOpjK9WFUqimaO-DXfDHYTAKOhrnsE,67
+favorites_icons/templatetags/favorites_icons.py,sha256=qOaZgvw-xwdRew4_YlEYP-0t1RiVFc7DJNpb3sx1Wxo,1756
+favorites_icons/templatetags/utils.py,sha256=xWyP08dhQbJZ18pF6rjz_vseprdaJybSEhCtUWMUYiI,4006
+favorites_icons-1.0.7.dist-info/LICENSE,sha256=yNOwte2pe1dXoeLAYRZn8OtEJndJgYEgNV23UZTnKhE,1068
+favorites_icons-1.0.7.dist-info/METADATA,sha256=XMGOwliLKkBb3GNFmzIoEJekn3nI62C5WSQWVbvlTYk,1106
+favorites_icons-1.0.7.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+favorites_icons-1.0.7.dist-info/top_level.txt,sha256=oW_jgW1NmvxGryZJyHZAdaKRtE01BLTbvUEO3KWKOiI,16
+favorites_icons-1.0.7.dist-info/RECORD,,
