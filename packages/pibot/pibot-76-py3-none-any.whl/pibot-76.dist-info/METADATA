@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pibot
+Version: 76
+Summary: Library for controlling the PiBot
+Home-page: https://github.com/tuc-roboschool/PiBot
+Author: TUC-RoboSchool
+Author-email: basti.neubert@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: RPi.GPIO
+Requires-Dist: Adafruit-SSD1306
+Requires-Dist: pillow
+Requires-Dist: pyserial
+Requires-Dist: enum34
+Requires-Dist: opencv-python
+Requires-Dist: imutils
+
+# PiBot
+Library for controlling the PiBot
+
+# Installation
+```bash
+pip install pibot
+```
+
+# Usage
+```python
+from pibot import *
+display.sample_function("test")
+```
+
