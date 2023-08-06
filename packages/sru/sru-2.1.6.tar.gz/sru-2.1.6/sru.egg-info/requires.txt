@@ -1,0 +1,8 @@
+torch>=0.4.1
+
+[cpu]
+ninja
+
+[cuda]
+cupy
+pynvrtc
