@@ -1,0 +1,7 @@
+README.md
+setup.py
+corpse/__init__.py
+corpse.egg-info/PKG-INFO
+corpse.egg-info/SOURCES.txt
+corpse.egg-info/dependency_links.txt
+corpse.egg-info/top_level.txt
