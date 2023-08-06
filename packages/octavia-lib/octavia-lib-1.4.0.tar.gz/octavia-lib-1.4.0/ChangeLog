@@ -1,0 +1,62 @@
+CHANGES
+=======
+
+1.4.0
+-----
+
+* Add Octavia tox tips job template as voting
+* Clean up octavia-lib docs and remove oslo.log
+
+1.3.1
+-----
+
+* Update for storyboard
+* Fix docstring and avoid such errors
+
+1.3.0
+-----
+
+* Blacklist sphinx 2.1.0 (autodoc bug)
+* Add constants to octavia-lib
+* Add get methods to the driver-lib
+* Bump the openstackdocstheme extension to 1.20
+* Add new LB Algorithm - SOURCE\_IP\_PORT
+* Add Python 3 Train unit tests
+* Update tox.ini for new upper constraints strategy
+* Add tox "requirements" env
+* Additional VIPs is also relevant in provider\_base
+* Add allowed\_cidrs to Listener data model
+
+1.2.0
+-----
+
+* Add 'additional\_vips' field to driver datamodel
+* Replace git.openstack.org URLs with opendev.org URLs
+* Add project\_id to all of the data model objects
+* Cap sphinx for py2 to match global requirements
+* Add python 3.7 testing
+* OpenDev Migration Patch
+* Remove python3.5 jobs for Train
+* Remove testtools from test-requirements.txt
+* Do not install README.rst and LICENSE
+* Update master for stable/stein
+
+1.1.1
+-----
+
+* Sync data models and import new constants from Octavia
+
+1.1.0
+-----
+
+* Fix some driver library bugs
+* Add FLAVOR as a constant
+* Add missing libraries to requirement files
+
+1.0.0
+-----
+
+* Change openstack-dev to openstack-discuss
+* Initial provider driver library checkin
+* Initial cookie-cutter commit for octavia-lib
+* Added .gitreview
