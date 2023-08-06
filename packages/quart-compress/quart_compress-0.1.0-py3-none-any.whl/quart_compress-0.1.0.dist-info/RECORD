@@ -1,0 +1,12 @@
+quart_compress/__init__.py,sha256=DuUAMylw8LhYjBG11PjOwvq8MOdlg-FHw1-Cvk160LA,75
+quart_compress/quart_compress.py,sha256=v6AmcI57GLt50pS0zpv8hbB7FOsdtkCElv-pNx-NU0A,4493
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_flask_compress.py,sha256=SWCaVB6gprGUTx4eLaWeNjl_9urdQwowunhy2_Se0lI,4155
+tests/static/1.png,sha256=kzpiUs4ss5yb0HYGVxiIrKSQgNyAq27PDFpqueVYzNQ,239
+tests/templates/large.html,sha256=f2xL36rBUGR3iHU-fEE_vhKt-F4AND2eO2ExZGRsIqo,507
+tests/templates/small.html,sha256=1EAFG5e6L49Qk86zS9G_-VYBMKysyxPJ3xqK1EVLyOo,45
+quart_compress-0.1.0.dist-info/LICENSE.txt,sha256=oZ51osarUWjhwPGF9tFLTwEwzZJlEbiPM4KDOiEeImk,1085
+quart_compress-0.1.0.dist-info/METADATA,sha256=tiA7YHbRapdpG8aDX5TpliG-Nd-PlavV1Df0QgXro_0,4366
+quart_compress-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+quart_compress-0.1.0.dist-info/top_level.txt,sha256=8Rh3iZqL8T96BBmEKL-Dw9xWdxv7RQN-jy2bHZ575MA,21
+quart_compress-0.1.0.dist-info/RECORD,,
