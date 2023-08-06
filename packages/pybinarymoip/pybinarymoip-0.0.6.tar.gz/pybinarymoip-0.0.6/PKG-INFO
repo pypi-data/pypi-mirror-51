@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pybinarymoip
+Version: 0.0.6
+Summary: Python library for Binary Media over IP (MOIP), used for Home Assistant
+Home-page: http://github.com/gjbadros/pybinarymoip
+Author: Greg J. Badros
+Author-email: badros@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
