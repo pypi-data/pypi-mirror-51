@@ -1,0 +1,9 @@
+click
+colored
+python-daemon
+inotify-simple
+tinydb
+pynput
+terminaltables
+xdg
+humanize
