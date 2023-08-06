@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xlwt-fixed/Bitmap.py
+xlwt-fixed/Workbook.py
+xlwt-fixed/Worksheet.py
+xlwt-fixed/__init__.py
+xlwt_fixed_bitmap.egg-info/PKG-INFO
+xlwt_fixed_bitmap.egg-info/SOURCES.txt
+xlwt_fixed_bitmap.egg-info/dependency_links.txt
+xlwt_fixed_bitmap.egg-info/not-zip-safe
+xlwt_fixed_bitmap.egg-info/requires.txt
+xlwt_fixed_bitmap.egg-info/top_level.txt
