@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include fiduswriter/citation-api-import/static *
+recursive-include fiduswriter/citation-api-import/locale *
