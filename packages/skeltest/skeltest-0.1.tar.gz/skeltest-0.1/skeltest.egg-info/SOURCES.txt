@@ -1,0 +1,6 @@
+skeltest/setup.py
+skeltest.egg-info/PKG-INFO
+skeltest.egg-info/SOURCES.txt
+skeltest.egg-info/dependency_links.txt
+skeltest.egg-info/requires.txt
+skeltest.egg-info/top_level.txt
