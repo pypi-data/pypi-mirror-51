@@ -1,0 +1,3 @@
+[console_scripts]
+phoila = phoila.app:main
+
