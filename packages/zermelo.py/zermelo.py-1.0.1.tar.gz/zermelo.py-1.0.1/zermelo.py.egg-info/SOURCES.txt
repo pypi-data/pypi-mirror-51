@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+zermelo/__init__.py
+zermelo/client.py
+zermelo.py.egg-info/PKG-INFO
+zermelo.py.egg-info/SOURCES.txt
+zermelo.py.egg-info/dependency_links.txt
+zermelo.py.egg-info/requires.txt
+zermelo.py.egg-info/top_level.txt
