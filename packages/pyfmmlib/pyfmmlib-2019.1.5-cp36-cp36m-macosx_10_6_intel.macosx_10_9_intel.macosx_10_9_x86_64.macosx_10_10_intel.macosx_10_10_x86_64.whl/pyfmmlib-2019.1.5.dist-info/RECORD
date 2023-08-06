@@ -1,0 +1,13 @@
+pyfmmlib/__init__.py,sha256=QDIDvy715NC4WNM66aXbWEQ7Cu6n5zEJipqFBrWcTOI,10191
+pyfmmlib/_internal.cpython-36m-darwin.so,sha256=wRYxOvGVgHPK4yHyhu_ZWiBy2CSXMGHmXMTdCbRcWpo,2291256
+pyfmmlib/version.py,sha256=7gB3iOBJW0YNFs7SgwLpbtBLCjZDBw147po5qaSHqP4,109
+pyfmmlib/.dylibs/libgcc_s.1.dylib,sha256=hzhZ1p8FNA_QZR4F7Zc9w7SpYSWaE5EwzKj6pfrKgW4,273072
+pyfmmlib/.dylibs/libgfortran.3.dylib,sha256=5qHVXAhfkoa7e2P_R_l9grUrIF8TqfQNPRdRjam19EQ,1550456
+pyfmmlib/.dylibs/libgomp.1.dylib,sha256=xH49nVphgp0Q1rFGA-3g_JI7JfJ84WLXOtKc4cdri9s,124656
+pyfmmlib/.dylibs/libquadmath.0.dylib,sha256=CVNmSA9CEmUxLOHq_kSzsO29e2OMhBkBjwAQWVOInus,279932
+pyfmmlib-2019.1.5.dist-info/COPYING,sha256=9tVExfW8u0unl1WBgRAKQm4vQJykcBsz89yHwLIb09Y,1528
+pyfmmlib-2019.1.5.dist-info/METADATA,sha256=gYyftxQfiP7A4GK36k4AeXf7D4H10sUhelipl4RBPf8,5365
+pyfmmlib-2019.1.5.dist-info/README.rst,sha256=MjWSuOv7isaoklWXw-wDhE26LlOHM3Kh5fOX9V5feNY,4533
+pyfmmlib-2019.1.5.dist-info/RECORD,,
+pyfmmlib-2019.1.5.dist-info/top_level.txt,sha256=pHWpjThnr0tRTWeNVpl-ngQsuHZbH2blMU7btJVeDQ8,9
+pyfmmlib-2019.1.5.dist-info/WHEEL,sha256=lsGLWVRQAUs4Cd3S5DpkSp42aqZGgf9OMd4TjXje33I,249
