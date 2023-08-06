@@ -1,0 +1,7 @@
+setup.py
+crawlerHelper.egg-info/PKG-INFO
+crawlerHelper.egg-info/SOURCES.txt
+crawlerHelper.egg-info/dependency_links.txt
+crawlerHelper.egg-info/top_level.txt
+crawlerhelper/__init__.py
+crawlerhelper/crawlerHelper.py
