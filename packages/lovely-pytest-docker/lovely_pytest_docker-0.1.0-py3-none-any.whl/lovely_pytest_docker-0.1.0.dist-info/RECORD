@@ -1,0 +1,11 @@
+lovely_pytest_docker-0.1.0-py3.7-nspkg.pth,sha256=Hk7SgdUrJBsFJ1SSNnlJeQa8E8TLYGge21xVPNz2hkk,539
+lovely/pytest/__init__.py,sha256=YQ-GsIx37_jTau9eNlPXJd9eII6LiYfavc647ygJeFk,29
+lovely/pytest/docker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lovely/pytest/docker/compose.py,sha256=XYJI_5d3YqM7L1P1xdFW0Gik8MH-_vNoEQdsdY8iVjk,6790
+lovely_pytest_docker-0.1.0.dist-info/LICENSE.txt,sha256=yVuuHRzgI17MzTVgt3LsHvuX80innw--CmNPDCzO_iw,11358
+lovely_pytest_docker-0.1.0.dist-info/METADATA,sha256=rtXNkyj03Gwn9yR83tORZsXuieAuN1YFz7aZC8gXQQw,5253
+lovely_pytest_docker-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+lovely_pytest_docker-0.1.0.dist-info/entry_points.txt,sha256=Jh7v50Bz-BtregkuVxD_1qTJb9_Qop0qfUGCCltCpSA,64
+lovely_pytest_docker-0.1.0.dist-info/namespace_packages.txt,sha256=uiK65NKG83oH6ABYW4rLoJrdDio3DG6lsrNU-FnYwS0,7
+lovely_pytest_docker-0.1.0.dist-info/top_level.txt,sha256=uiK65NKG83oH6ABYW4rLoJrdDio3DG6lsrNU-FnYwS0,7
+lovely_pytest_docker-0.1.0.dist-info/RECORD,,
