@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: algorithm_x
+Version: 0.1.0
+Summary: An efficient implementation of Algorithm X
+Home-page: https://github.com/SuprDewd/algorithm_x_python
+Author: Bjarki Ágúst Guðmundsson
+Author-email: suprdewd@gmail.com
+License: UNKNOWN
+Description: 
+        # Algorithm X
+        
+        An efficient Python implementation of [Algorithm
+        X](https://arxiv.org/abs/cs/0011047), which finds solutions to instances of the
+        [Exact Cover problem](https://en.wikipedia.org/wiki/Exact_cover).
+        
+        ## Installation
+        
+        ```bash
+        $ pip install algorithm-x
+        ```
+        
+        ## Usage
+        
+        ```python
+        from algorithm_x import AlgorithmX
+        
+        solver = AlgorithmX(7)
+        solver.appendRow([2, 4, 5], 'row 1')
+        solver.appendRow([0, 3, 6], 'row 2')
+        solver.appendRow([1, 2, 5], 'row 3')
+        solver.appendRow([0, 3], 'row 4')
+        solver.appendRow([1, 6], 'row 5')
+        solver.appendRow([3, 4, 6], 'row 6')
+        
+        for solution in solver.solve():
+            print(solution)
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
