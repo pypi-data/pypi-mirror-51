@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: girder-geo-heatmap
+Version: 1.0.0
+Summary: A Girder plugin showing a heatmap of geospatial items.
+Home-page: https://github.com/girder/geo_heatmap
+Author: Kitware, Inc.
+Author-email: kitware@kitware.com
+License: Apache Software License 2.0
+Description: ==================
+        Girder Geo Heatmap
+        ==================
+        
+        A Girder plugin showing a heatmap of geospatial items.
+        
+        Features
+        --------
+        
+        At every level of the hierarchy widget, and at the list of collections and list of users, a heatmap is shown of available geospatial items.  The heatmap uses one point per geospatial item, using the centroid of the bounds reported in the geometa record.  The heatmap is fetched based on all items that the user has permissions to read.
+        
+Keywords: girder-plugin,geo_heatmap
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
