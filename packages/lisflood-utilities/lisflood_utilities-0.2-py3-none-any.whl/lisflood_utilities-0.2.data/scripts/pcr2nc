@@ -1,0 +1,6 @@
+#!python
+
+from lisflood.utilities.pcr2nc.main import main_script
+
+if __name__ == '__main__':
+    main_script()
