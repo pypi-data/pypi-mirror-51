@@ -1,0 +1,9 @@
+cryptography
+cwltool==1.0.20190621234233
+jsonmerge
+ruamel.yaml<=0.15.77
+apache-airflow==1.10.5
+mysqlclient<1.4,>=1.3.6
+pyjwt
+urllib3
+connexion
