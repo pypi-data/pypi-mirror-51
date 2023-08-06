@@ -1,0 +1,47 @@
+<div id="pwman-commandline-password-manager">
+<h2>pwman - Commandline password manager</h2>
+<p><a href="https://bues.ch/h/pwman" rel="nofollow">https://bues.ch/h/pwman</a></p>
+<p>pwman is a commandline based password manager. It encrypts the password database file using strong AES-256 encryption.</p>
+<p>pwman has support for:</p>
+<ul>
+<li>Store arbitrary attributes and text data along with the passwords and login credentials.</li>
+<li>Generate two factor authentication tokens (<a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm" rel="nofollow">TOTP</a>).</li>
+<li>Database compare (diff). In pwman prompt, at pwman command line and as <cite>git diff</cite> extension.</li>
+<li>Shell-style Tab-completion for all commands.</li>
+<li>Export of the complete database as SQL text dump and plain text.</li>
+</ul>
+</div>
+<div id="install-pwman">
+<h2>Install pwman</h2>
+<p>Execute the following commands to install the application:</p>
+<pre>./setup.py build
+sudo -i  <span class="c1"># Or any other command to become root
+</span>./setup.py install
+</pre>
+</div>
+<div id="run-pwman">
+<h2>Run pwman</h2>
+<p>Just run the <cite>pwman</cite> executable to start pwman.</p>
+<p>Type <cite>pwman -h</cite> for help about the command line options.</p>
+</div>
+<div id="pwman-prompt">
+<h2>pwman prompt</h2>
+<p>If started without options, pwman enters the command prompt:</p>
+<pre>pwman$
+</pre>
+<p>Type the command <cite>help</cite> and press enter to see help about all possible commands.</p>
+</div>
+<div id="command-help">
+<h2>Command help</h2>
+<p>To get help about a specific command, enter the command into the prompt and append a question mark without spaces in between:</p>
+<pre>pwman$ find?
+</pre>
+</div>
+<div id="license-copyright">
+<h2>License / Copyright</h2>
+<p>Copyright (c) 2011-2019 Michael Buesch &lt;<a href="mailto:m&#37;&#52;&#48;bues&#46;ch">m<span>&#64;</span>bues<span>&#46;</span>ch</a>&gt;</p>
+<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</p>
+<p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.</p>
+</div>
+
