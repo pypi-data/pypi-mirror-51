@@ -1,0 +1,15 @@
+django-ajax-selects
+django-bootstrap-form
+django-bootstrap3
+django-compat
+django-extensions
+django-filter<2
+django-import-export
+django-jquery-ui
+django-settings
+django-simplemenu-simplified
+django-tastypie
+djangorestframework
+easy-thumbnails
+python-social-auth
+ufs-tools
