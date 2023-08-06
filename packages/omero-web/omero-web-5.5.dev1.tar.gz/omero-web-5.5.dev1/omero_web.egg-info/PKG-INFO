@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: omero-web
+Version: 5.5.dev1
+Summary: OmeroWeb
+Home-page: https://github.com/openmicroscopy/openmicroscopy/
+Author: The Open Microscopy Team
+Author-email: ome-devel@lists.openmicroscopy.org.uk
+License: UNKNOWN
+Download-URL: https://github.com/openmicroscopy/openmicroscopy/
+Description: OmeroWeb is the container of the web clients for OMERO."
+        
+Platform: UNKNOWN
