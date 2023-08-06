@@ -1,0 +1,12 @@
+pysql_beam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysql_beam/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysql_beam/examples/cloud_sql_to_file.py,sha256=njnPdYXc4CmQ_ByT42-jqfHDL6KiuqpWyaq8kAbVbXA,4696
+pysql_beam/sql_io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysql_beam/sql_io/exceptions.py,sha256=Xg9FsDibukLrwATvICBtfmLKjIRfWdPrlKtxJJTfWmk,175
+pysql_beam/sql_io/sql.py,sha256=YUVxXXEVAbptGOYdthZY8iFAdhBg4xguBM6J-mrv2Es,25948
+pysql_beam/sql_io/wrapper.py,sha256=mpZtoTt_ozzC8Hihh3Qz2Z-qCc7Ix6L7odcEb1wmANY,23804
+pysql_beam-0.2.dist-info/LICENSE,sha256=R3w0B-1lJbGowp-hSGj4_h2cOjspOqfSn3R0f7YjqLo,1069
+pysql_beam-0.2.dist-info/METADATA,sha256=5wzybG2sXuEwxIkVVP8WTfrDuU8hL_ZkMhvFzyIpCOo,2904
+pysql_beam-0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pysql_beam-0.2.dist-info/top_level.txt,sha256=4lcQtqVa9lQY-C5ChkXqiGCuY_gJJ_mQFFKkJ9YlW20,11
+pysql_beam-0.2.dist-info/RECORD,,
