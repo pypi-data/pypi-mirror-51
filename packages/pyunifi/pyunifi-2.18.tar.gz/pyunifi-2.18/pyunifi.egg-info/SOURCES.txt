@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyunifi/__init__.py
+pyunifi/controller.py
+pyunifi.egg-info/PKG-INFO
+pyunifi.egg-info/SOURCES.txt
+pyunifi.egg-info/dependency_links.txt
+pyunifi.egg-info/requires.txt
+pyunifi.egg-info/top_level.txt
