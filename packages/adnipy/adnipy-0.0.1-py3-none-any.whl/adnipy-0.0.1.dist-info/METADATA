@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: adnipy
+Version: 0.0.1
+Summary: Process ADNI study data with adnipy.
+Home-page: https://github.com/mcsitter/adnipy
+Author: Maximilian Cosmo Sitter
+Author-email: msitter@smail.uni-koeln.de
+License: MIT license
+Keywords: adnipy
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5.0
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: matplotlib (>=3.0.0)
+
+======
+adnipy
+======
+
+
+Process ADNI study data with adnipy.
+
+
+Adnipy is a python package designed for working with the `ADNI database`_.
+It also offers some handy tools for file operations.
+
+* Free software: MIT license
+* Documentation: https://adnipy.readthedocs.io
+
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the
+`audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`ADNI database`: http://adni.loni.usc.edu/
+
+
+=======
+History
+=======
+
+0.0.1 (2019-09-05)
+------------------
+
+* First release on GitHub.
+* First release on PyPI.
+
+
