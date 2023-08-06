@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+winput.py
+winput.egg-info/PKG-INFO
+winput.egg-info/SOURCES.txt
+winput.egg-info/dependency_links.txt
+winput.egg-info/top_level.txt
