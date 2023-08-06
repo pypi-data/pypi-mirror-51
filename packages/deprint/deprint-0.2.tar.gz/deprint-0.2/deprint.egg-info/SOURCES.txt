@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+deprint/Deprint.py
+deprint/__init__.py
+deprint.egg-info/PKG-INFO
+deprint.egg-info/SOURCES.txt
+deprint.egg-info/dependency_links.txt
+deprint.egg-info/top_level.txt
