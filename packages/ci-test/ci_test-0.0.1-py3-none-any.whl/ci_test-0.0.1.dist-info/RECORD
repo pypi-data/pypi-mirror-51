@@ -1,0 +1,9 @@
+ci_test/__init__.py,sha256=Usoa9WuhmSyRYto76ftOBPxbRR04VMjjyhTVd0IV9D8,669
+ci_test/__main__.py,sha256=YCf9ym0GjCYOK-HRnb7iB-XDX_Oh_avOuAbi73q9O_E,760
+ci_test/test.py,sha256=S20eWszE-1Q_0pqsYTcPWmKnhZRIzgRDhgeuOVpJo2k,38
+ci_test/__pycache__/__main__.cpython-36.pyc,sha256=IDO8I4jQ4Gcq4cbQtAEQ6p9qVF3aJN8O_Bjp4IZYvzc,337
+ci_test-0.0.1.dist-info/METADATA,sha256=cu17CoNwK6UTBNkJnX7ISs1GPZSkP5W5tfNb9f2i-yQ,510
+ci_test-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ci_test-0.0.1.dist-info/entry_points.txt,sha256=PGmC9MhxjDWsfOCbivKiidOFFUJwWnbgD7cQGG0Id58,41
+ci_test-0.0.1.dist-info/top_level.txt,sha256=aQnHFnRhlFLdHzE2cWfoGQXa96vSI4r9GBuqC8ywPxM,8
+ci_test-0.0.1.dist-info/RECORD,,
