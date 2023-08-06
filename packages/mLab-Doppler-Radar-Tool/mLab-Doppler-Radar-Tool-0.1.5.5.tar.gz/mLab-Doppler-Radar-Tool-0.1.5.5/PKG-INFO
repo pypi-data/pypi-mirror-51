@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mLab-Doppler-Radar-Tool
+Version: 0.1.5.5
+Summary: mLab Doppler Radar UART tool and example code
+Home-page: UNKNOWN
+Author: Alex Kuan
+Author-email: agathakuannew@gmail.com
+License: MIT
+Description: **mLab Doppler Radar Tool: UART serial & data plot**
+        
+        [![Latest PyPI version](https://img.shields.io/badge/pypi-v0.1-green.svg)](https://pypi.org/project/qt-ledwidget/)
+        [![License: MIT](https://img.shields.io/dub/l/vibe-d.svg)](https://opensource.org/licenses/MIT)
+        
+        for Raspberry Pi,please install pyqt5-dev-tools, pyqt5-dev first. 
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
