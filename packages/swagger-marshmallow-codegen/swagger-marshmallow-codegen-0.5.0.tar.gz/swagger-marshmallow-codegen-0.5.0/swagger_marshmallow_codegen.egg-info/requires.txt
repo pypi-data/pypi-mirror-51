@@ -1,0 +1,12 @@
+dictknife[load]
+prestring
+marshmallow>=3.0.0
+magicalimport
+
+[dev]
+black
+flake8
+
+[docs]
+
+[testing]
