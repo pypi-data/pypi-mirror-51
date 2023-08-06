@@ -1,0 +1,9 @@
+README.md
+setup.py
+sqlsorcery/__init__.py
+sqlsorcery.egg-info/PKG-INFO
+sqlsorcery.egg-info/SOURCES.txt
+sqlsorcery.egg-info/dependency_links.txt
+sqlsorcery.egg-info/not-zip-safe
+sqlsorcery.egg-info/requires.txt
+sqlsorcery.egg-info/top_level.txt
