@@ -1,0 +1,7 @@
+README.md
+setup.py
+qualia/__init__.py
+qualia.egg-info/PKG-INFO
+qualia.egg-info/SOURCES.txt
+qualia.egg-info/dependency_links.txt
+qualia.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+(c) Copyright Afshin T. Darian 2019. All Rights Reserved.
