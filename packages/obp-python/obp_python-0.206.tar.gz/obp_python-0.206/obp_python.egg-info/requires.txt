@@ -1,0 +1,6 @@
+click
+requests
+appdirs
+dms2dec
+pyexcel_ods
+fx2obp==0.2
