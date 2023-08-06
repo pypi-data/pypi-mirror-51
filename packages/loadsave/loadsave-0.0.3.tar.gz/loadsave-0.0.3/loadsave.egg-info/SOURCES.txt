@@ -1,0 +1,7 @@
+README.md
+setup.py
+loadsave/__init__.py
+loadsave.egg-info/PKG-INFO
+loadsave.egg-info/SOURCES.txt
+loadsave.egg-info/dependency_links.txt
+loadsave.egg-info/top_level.txt
