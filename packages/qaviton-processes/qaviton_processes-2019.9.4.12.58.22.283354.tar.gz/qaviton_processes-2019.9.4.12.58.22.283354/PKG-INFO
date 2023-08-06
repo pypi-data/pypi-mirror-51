@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qaviton_processes
+Version: 2019.9.4.12.58.22.283354
+Summary: qaviton process wrappers
+Home-page: https://github.com/qaviton/qaviton_processes.git
+Author: yehonadav
+Author-email: yonadav.barilan@gmail.com
+License: apache-2.0
+Description: # qaviton_processes
+        simple wrappers for working with different processes
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
