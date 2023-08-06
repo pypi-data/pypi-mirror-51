@@ -1,0 +1,3 @@
+include album-rsync.ini
+include LICENSE
+include README.md
