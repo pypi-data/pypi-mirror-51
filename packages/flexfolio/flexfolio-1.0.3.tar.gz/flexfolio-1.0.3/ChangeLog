@@ -1,0 +1,24 @@
+CHANGES
+=======
+
+1.0.3
+-----
+
+* FIX: Use longer version of the Apache v2 License
+
+1.0.2
+-----
+
+* ENH: Proxy for fetch\_statement fn
+
+1.0.1
+-----
+
+* MAINT: Adjust dependencies to be compatible with pyfolio
+
+1.0.0
+-----
+
+* FIX: Docker build badge should point to cloud category
+* ENH: Initial add of flexfolio
+* Initial commit
