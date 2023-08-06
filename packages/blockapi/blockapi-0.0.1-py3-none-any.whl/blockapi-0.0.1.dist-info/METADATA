@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: blockapi
+Version: 0.0.1
+Summary: BlockAPI library
+Home-page: UNKNOWN
+Author: Devmons s.r.o.
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pytz
+Requires-Dist: python-dateutil
+
+# blockapi
+
+
