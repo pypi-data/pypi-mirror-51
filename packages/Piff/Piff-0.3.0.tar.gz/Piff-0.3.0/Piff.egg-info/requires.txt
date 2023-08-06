@@ -1,0 +1,10 @@
+galsim
+numpy
+scipy
+pyyaml
+treecorr
+fitsio
+scikit-learn
+lmfit
+matplotlib
+LSSTDESC.Coord
