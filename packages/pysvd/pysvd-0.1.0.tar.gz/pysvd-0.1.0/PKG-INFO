@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pysvd
+Version: 0.1.0
+Summary: System View Description parser
+Home-page: https://github.com/bfueldner/pysvd
+Author: Benjamin Füldner
+Author-email: benjamin@fueldner.net
+License: MIT
+Project-URL: Source, https://github.com/bfueldner/pysvd
+Project-URL: Bug Reports, https://github.com/bfueldner/pysvd/issues
+Description: [![PyPI](https://img.shields.io/pypi/v/pysvd.svg)](https://pypi.org/project/pysvd)
+        [![PyPI - Python versions](https://img.shields.io/pypi/pyversions/pysvd.svg)](https://pypi.org/project/pysvd)
+        [![PyPI - License](https://img.shields.io/pypi/l/pysvd.svg)](https://pypi.org/project/pysvd)
+        [![Travis (.org)](https://img.shields.io/travis/bfueldner/pysvd.svg)](https://travis-ci.org/bfueldner/pysvd)
+        [![Coveralls github](https://img.shields.io/coveralls/github/bfueldner/pysvd.svg)](https://coveralls.io/github/bfueldner/pysvd)
+        
+        # pysvd
+        
+        Python System View Description format parser.
+        
+        ## Conformance
+        
+        This parser is build to reflect 1:1 the XSD format behind SVD. The only compromis has been made by the nodes 'peripherals', 'registers' and 'fields' that are simple list of the equivalent objects.
+        
+        The node names and attributes follow the same naming convention in XML as in Python to map them easier between the models.
+        
+Keywords: SVD CMSIS ARM
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Embedded Systems
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
