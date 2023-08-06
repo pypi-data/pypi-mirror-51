@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: pytitan
+Version: 1.0.10
+Summary: The computing framework for microservice.
+Home-page: http://120.77.169.160:10001/python/pytitan
+Author: Ray
+Author-email: csharp2002@hotmail.com
+License: BSD
+Description: pyTitan
+        -------
+        
+        Install
+        =======
+        
+        ```
+        $ pip install git+ssh://git@120.77.169.160:python/pytitan.git
+        ```
+        
+Keywords: titan,microservice,ynkg,newland
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
