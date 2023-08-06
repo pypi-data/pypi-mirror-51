@@ -1,0 +1,16 @@
+nevolve/__init__.py,sha256=EhddGy12_VpZAHhGFZBVqGxpafDmdnh4grj_Ymx8CD0,63
+nevolve/envs/__init__.py,sha256=28X_J7j-F-tEHpP7NaezKdoqkTJYjA49biWwi606Ufk,3256
+nevolve/envs/bipedal_walker_v2.py,sha256=x-jTfgnf8mHBaRPNkLnDNs08zQBQCcxwg6KV0gyij5s,2639
+nevolve/envs/cart_pole_v0.py,sha256=LGTZzsBROjDAM4bcnJoFDcKtOdOnEYi8jx0eLOh7aaw,2198
+nevolve/envs/mountain_car_v0.py,sha256=D5nEIlHnoZ7VViHWRJ8HvotlUbFpCO7FhGAHA4NHy2g,2315
+nevolve/evolve/__init__.py,sha256=sclmy8Q8VOJO3sE9ObsB_LAN28h0_OCZn1e7CjUENvY,68
+nevolve/evolve/population.py,sha256=BLYDrKfsNq8C_2HwIuTlUv8LJTVFO0xz3KamB53lC0o,5940
+nevolve/neuro/__init__.py,sha256=euRel2VVPYajx2v-Ekvym4IAeB53-SKow2ZHm3W4WiM,63
+nevolve/neuro/activations.py,sha256=8nPnIrstJnpibdvBxrJ2jP91MePi-SdFZg1jnso-nxk,1590
+nevolve/neuro/dnn.py,sha256=BzklbKWvkfx2TdjG4nFGMoZ4ur13_k0u84QtoMaTXt8,2011
+nevolve/neuro/nn.py,sha256=Cmf-hgkMoSvsGSPbWtncpmKaRBy1gJVzXECSKJOi2fk,1601
+nevolve-0.0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+nevolve-0.0.4.dist-info/METADATA,sha256=GvPZRo1E4biodzRAwzY2RUEWd0pxUrrTPol2qGsfPnA,319
+nevolve-0.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+nevolve-0.0.4.dist-info/top_level.txt,sha256=jMyg4cDD5ZIo0jZftY6ah047LZk_zL1NzIOmSKXtxmI,8
+nevolve-0.0.4.dist-info/RECORD,,
