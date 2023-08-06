@@ -1,0 +1,3 @@
+[console_scripts]
+pingaz = pingaz.__main__:cli
+
