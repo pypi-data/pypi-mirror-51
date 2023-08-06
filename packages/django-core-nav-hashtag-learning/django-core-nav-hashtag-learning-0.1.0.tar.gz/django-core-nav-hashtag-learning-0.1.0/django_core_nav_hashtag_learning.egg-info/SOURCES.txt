@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+core_nav/__init__.py
+core_nav/apps.py
+core_nav/forms.py
+core_nav/urls.py
+core_nav/views.py
+django_core_nav_hashtag_learning.egg-info/PKG-INFO
+django_core_nav_hashtag_learning.egg-info/SOURCES.txt
+django_core_nav_hashtag_learning.egg-info/dependency_links.txt
+django_core_nav_hashtag_learning.egg-info/top_level.txt
