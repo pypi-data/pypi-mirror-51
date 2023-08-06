@@ -1,0 +1,7 @@
+README.md
+setup.py
+fat/__init__.py
+fat.egg-info/PKG-INFO
+fat.egg-info/SOURCES.txt
+fat.egg-info/dependency_links.txt
+fat.egg-info/top_level.txt

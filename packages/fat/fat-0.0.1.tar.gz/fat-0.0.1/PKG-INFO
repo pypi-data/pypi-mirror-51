@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fat
+Version: 0.0.1
+Summary: A Python client library for the FAT protocol.
+Home-page: https://github.com/samuelvanderwaal/fat-py
+Author: Samuel Vanderwaal
+Author-email: samuel.vanderwaal@gmail.com
+License: UNKNOWN
+Description: # FAT-py, coming soon.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
