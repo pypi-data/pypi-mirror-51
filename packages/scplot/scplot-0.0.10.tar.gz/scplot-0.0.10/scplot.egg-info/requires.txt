@@ -1,0 +1,7 @@
+anndata
+hvplot
+pandas
+numpy
+holoviews
+scipy
+statsmodels
