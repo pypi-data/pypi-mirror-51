@@ -1,0 +1,13 @@
+README.md
+setup.py
+basic_ml.egg-info/PKG-INFO
+basic_ml.egg-info/SOURCES.txt
+basic_ml.egg-info/dependency_links.txt
+basic_ml.egg-info/top_level.txt
+ml/__init__.py
+ml/decision_tree.py
+ml/kmeans.py
+ml/knearest.py
+ml/linear_regression.py
+ml/logistic_regression.py
+ml/neural_network.py
