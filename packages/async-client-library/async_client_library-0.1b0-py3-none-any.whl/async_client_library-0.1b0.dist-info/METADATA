@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: async-client-library
+Version: 0.1b0
+Summary: Async Client Library
+Home-page: UNKNOWN
+Author: Ben Small
+Author-email: benjamin.small83@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: aiohttp
+
+UNKNOWN
+
+
