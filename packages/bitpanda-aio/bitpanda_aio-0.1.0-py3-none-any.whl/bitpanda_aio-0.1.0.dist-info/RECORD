@@ -1,0 +1,11 @@
+bitpanda/BitpandaClient.py,sha256=ha8zKnvqb7M9dtaHhQUyjhDxUzihPsJCb22APuJQIIk,9774
+bitpanda/Pair.py,sha256=-obMyXmhreGWLpoFxYDUmWzvJIWeLwRoCeZ6JDZQGCE,199
+bitpanda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bitpanda/enums.py,sha256=nb5lPfpRrv39jTjx06S7Eusukj6ClXdBBZymPd-tgY8,279
+bitpanda/subscriptions.py,sha256=2cLRWGgaL2FAUvLED_9qgyPklXtsRpzmgDW_MFW4Muc,5753
+bitpanda/websockets.py,sha256=TXHNjf_nfKMMrWt0NyKgD6qKzEid9tapBwp807k3NlE,5454
+bitpanda_aio-0.1.0.dist-info/LICENSE,sha256=5AA2ZgvpXT1KJG88oAsuQzOKKfiEBYhLJedNGYQgYKE,1063
+bitpanda_aio-0.1.0.dist-info/METADATA,sha256=kppAurEYpEa5rZgl32DCXOnqjJjzOwS7bvHHggaspcg,6819
+bitpanda_aio-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bitpanda_aio-0.1.0.dist-info/top_level.txt,sha256=S8w6kqbL1WfgLfGYGKo80fkllS34ZGF7UOqowDHgXMU,9
+bitpanda_aio-0.1.0.dist-info/RECORD,,
