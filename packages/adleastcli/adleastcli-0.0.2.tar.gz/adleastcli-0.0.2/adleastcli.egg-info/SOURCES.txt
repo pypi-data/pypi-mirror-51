@@ -1,0 +1,10 @@
+README.rst
+adleastcli
+adleastcli.py
+setup.py
+adleastcli.egg-info/PKG-INFO
+adleastcli.egg-info/SOURCES.txt
+adleastcli.egg-info/dependency_links.txt
+adleastcli.egg-info/not-zip-safe
+adleastcli.egg-info/requires.txt
+adleastcli.egg-info/top_level.txt
