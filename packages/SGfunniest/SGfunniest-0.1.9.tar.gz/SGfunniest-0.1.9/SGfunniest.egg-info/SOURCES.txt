@@ -1,0 +1,10 @@
+README.md
+setup.py
+SGfunniest/_init_.py
+SGfunniest/text.py
+SGfunniest.egg-info/PKG-INFO
+SGfunniest.egg-info/SOURCES.txt
+SGfunniest.egg-info/dependency_links.txt
+SGfunniest.egg-info/not-zip-safe
+SGfunniest.egg-info/requires.txt
+SGfunniest.egg-info/top_level.txt
