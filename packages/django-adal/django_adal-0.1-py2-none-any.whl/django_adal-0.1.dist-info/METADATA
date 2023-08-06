@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: django-adal
+Version: 0.1
+Summary: Very simple authentication module for python2 / django / Azur AD - Office365 using MS ADAL Lib. Forked from Lucterios2/django_auth_adal.
+Home-page: https://github.com/GoVanguard/django_adal
+Author: Shane Scott
+Author-email: sscott@gvit.com
+License: GPL V3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 1.11
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: Django (>=1.11.22)
+Requires-Dist: adal (>=1.2.0)
+
+UNKNOWN
+
+

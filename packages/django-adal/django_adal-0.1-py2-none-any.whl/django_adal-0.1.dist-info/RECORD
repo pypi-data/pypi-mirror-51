@@ -1,0 +1,12 @@
+django_adal/MSAdalAuth.py,sha256=N0psHR7dPiM37Zus1tYeTo6TCCq0vcyhp9Lnhfmi8iI,6676
+django_adal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_adal/models.py,sha256=SS7Dy0tNsiwIYEri5bRnsdR75xDnigIWI26hMyB32DQ,190
+django_adal/msgraph.py,sha256=QuXXyseVePh4BK3KkLKdoYxesWLj752BV3C8jH_IRpo,1809
+django_adal/urls.py,sha256=IaHgK5RstzLBQ0r4GlmsqeKvXUuJn2HJ44fiLemvqSc,171
+django_adal/views.py,sha256=qUVnL_-gBxNlXUJLEISKHPK5J6OxUT0-ghIFobrNCrM,3029
+django_adal-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+django_adal-0.1.dist-info/METADATA,sha256=e4Lvh0XVe94yk3o6DeFff4yPc2oxb31kl4SCC6DH4_w,799
+django_adal-0.1.dist-info/RECORD,,
+django_adal-0.1.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+django_adal-0.1.dist-info/metadata.json,sha256=h69PNpXjCVBzUe0sMzsprn6ZQHqK2NBBmVLQUd1sQ6M,944
+django_adal-0.1.dist-info/top_level.txt,sha256=IiKKyFDMwNaNMA2bdQlo4Sz4OiLc2XZSGHH31MBuWCc,12
