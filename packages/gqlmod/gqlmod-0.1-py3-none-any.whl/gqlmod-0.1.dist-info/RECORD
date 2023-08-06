@@ -1,0 +1,15 @@
+gqlmod/__init__.py,sha256=iLcKQqRDafjGIHKfopIZlBeFEvivzhf6LJ3_DXHoZm4,248
+gqlmod/_mod_impl.py,sha256=7JPWhb79tE4UEvL16kzxToBqUbeiloL2X-rkWMSK5dw,192
+gqlmod/importer.py,sha256=W-KDFQT2g34fGm_5UOLGKPeYhxx6mMzmdGY2MaKV3qs,4044
+gqlmod/providers.py,sha256=W1_VBS4lamghvthtdcIeqnMBe6QNXkTmw4N1879T2sY,2259
+gqlmod/helpers/__init__.py,sha256=xXjQRSrUKghv4ciMTcSED7ODvmPfa92hTbvQgot3Wxw,121
+gqlmod/helpers/aiohttp.py,sha256=AyL6Pc_MgBWdTkYJx1zeUERDaMOjlVgbYI-ajmw2HTM,1678
+gqlmod/helpers/urllib.py,sha256=E_I_LH1jqYz55Rh6CRlzw94CJbJ2PshO4oYvNwfyKUg,2006
+gqlmod_starwars/__init__.py,sha256=t-eO2zSXN9VaqBRQSDVcS_-Vbf8LADv-y6cV4Q16wA8,278
+gqlmod_starwars/data.py,sha256=pE8ieYWOfSI3vy4Kx3d_1HittLPp9chLGX2G3jYSy9Y,3702
+gqlmod_starwars/schema.py,sha256=pLqqxATYHdQ8OmACe7Cgu7aBhhzxNhn4VpfrC2tF-KE,7961
+gqlmod-0.1.dist-info/METADATA,sha256=OLpUEXYNvWXr-IH4hQaXsJ34udPllzM_2vp_xKiea18,1925
+gqlmod-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+gqlmod-0.1.dist-info/entry_points.txt,sha256=gH_ns2WmGAI0ubT-f9jVg3qYWbK65XlppwDfSHboKqA,65
+gqlmod-0.1.dist-info/top_level.txt,sha256=nkQ-yizsSckRTfSCNQMB_IeJoaUQv3wwWy3Z7oCo3Yk,23
+gqlmod-0.1.dist-info/RECORD,,
