@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: o4
+Version: 0.1
+Summary: Useful pipeline for detecting vehicles and pedestrians and extract features from the detcetion.
+Home-page: UNKNOWN
+Author: Miguel de Matos
+Author-email: miguelcarvalhaismatos@ua.pt
+License: MIT
+Download-URL: https://pypi.org/project/o4/
+Description: # Installation
+        
+        `pip install -r requirements.txt`
+        
+        ### Detector
+        
+        #### Using CPU
+        
+        For running on CPU, YOLO weights (`.weights` file) have to be on `detection/detectors/yolo3_opencv/yolo-coco` , the file is available on  
+        https://drive.google.com/open?id=1Ukxp50S3pl97VNI3xT0IYS6OqwoeNOPu .
+        
+        #### Using GPU
+        
+        For running on GPU YOLO weights (`.h5` file) have to be on `detection/detectors/yolo3_keras/model_data` , the file is available on  
+        https://drive.google.com/open?id=1WvnNVgwuB5muxkitcw4beSNL6najmqfE .
+        
+        
+        
+        
+Keywords: Detection,Tracking,Fingerprint
+Platform: UNKNOWN
