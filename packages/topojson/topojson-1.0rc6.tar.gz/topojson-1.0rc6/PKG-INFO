@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: topojson
+Version: 1.0rc6
+Summary: topojson - a powerful library to encode geographic data as topology in Python!🌍
+Home-page: https://github.com/mattijn/topojson
+Author: Mattijn van Hoek
+Author-email: mattijn@gmail.com

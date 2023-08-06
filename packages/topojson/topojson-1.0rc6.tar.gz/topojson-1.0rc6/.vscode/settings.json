@@ -1,0 +1,9 @@
+{
+  "python.formatting.blackArgs": ["--line-length", "88", "--py36"],
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.rulers": [88, 120]
+  },
+  "python.pythonPath": "/usr/local/bin/python3",
+  "python.formatting.provider": "black"
+}
