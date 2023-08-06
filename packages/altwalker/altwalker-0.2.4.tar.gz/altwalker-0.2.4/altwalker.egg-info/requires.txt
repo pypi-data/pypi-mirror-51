@@ -1,0 +1,7 @@
+requests
+psutil
+GitPython
+click
+
+[:platform_system == "Windows"]
+colorama
