@@ -1,0 +1,5 @@
+pytest==5.0.1
+pytest-cov==2.7.1
+pytest-django==3.5.1
+flake8
+responses==0.5.1
