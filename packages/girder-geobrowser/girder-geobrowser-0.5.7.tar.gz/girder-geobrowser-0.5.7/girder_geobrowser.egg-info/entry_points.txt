@@ -1,0 +1,11 @@
+[console_scripts]
+populate-metadata = scripts.populate_metadata:main
+query-collection = scripts.collection_query:main
+
+[girder.cli_plugins]
+extract-geospatial = geobrowser_plugin.extraction:extract
+populate-collection-meta = geobrowser_plugin.population:populate
+
+[girder.plugin]
+geobrowser = geobrowser_plugin:GeoBrowserPlugin
+
