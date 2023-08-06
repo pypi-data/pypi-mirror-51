@@ -1,0 +1,3 @@
+[console_scripts]
+qarandom = QUANTAXIS_RandomPrice.__init__:generate
+

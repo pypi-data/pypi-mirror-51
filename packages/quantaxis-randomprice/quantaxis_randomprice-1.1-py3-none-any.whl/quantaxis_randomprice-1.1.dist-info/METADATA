@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: quantaxis-randomprice
+Version: 1.1
+Summary: QUANTAXIS RANDOM PRICE
+Home-page: https://github.com/yutiansut/QUANTAXIS_RANDOMPRICE
+Author: yutiansut
+Author-email: yutiansut@qq.com
+License: MIT
+Keywords: quantaxis,quant,finance,Backtest,Framework
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+random price
+
+
