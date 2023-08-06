@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: sls-tools
+Version: 0.0.1
+Summary: Utilities for developing AWS Lambda functions in Python.
+Home-page: https://github.com/ki-tools/sls-tools-py
+Author: Patrick Stout
+Author-email: pstout@prevagroup.com
+License: Apache2
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+
+[![Build Status](https://travis-ci.org/ki-tools/sls-tools-py.svg?branch=master)](https://travis-ci.org/ki-tools/sls-tools-py)
+[![Coverage Status](https://coveralls.io/repos/github/ki-tools/sls-tools-py/badge.svg?branch=master)](https://coveralls.io/github/ki-tools/sls-tools-py?branch=master)
+
+# sls-tools-py
+
+Utilities for developing AWS Lambda functions in Python.
+
+## Installation
+
+`pip install sls-tools`
+
+## Development Setup
+
+```bash
+git clone https://github.com/ki-tools/sls-tools-py.git
+cd sls-tools-py
+pipenv --three
+source .venv/bin/activate
+make pip_install
+make test
+```
+
+## Module Documentation
+
+See full module documentation [here](docs/sls_tools/index.html).
+
+
