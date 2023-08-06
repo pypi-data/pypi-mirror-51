@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: osimis-email-helpers
+Version: 0.1.8
+Summary: A simple library to make email sending easy.
+Home-page: https://bitbucket.org/osimis/python-osimis-email-helpers
+Author: Benoit Crickboom
+Author-email: bc@osimis.io
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Helpers,Email
+Platform: UNKNOWN

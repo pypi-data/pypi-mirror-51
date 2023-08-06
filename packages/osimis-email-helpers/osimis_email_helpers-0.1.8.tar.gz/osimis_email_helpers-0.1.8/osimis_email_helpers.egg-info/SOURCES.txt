@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+osimis_email_helpers/__init__.py
+osimis_email_helpers/emailHelpers.py
+osimis_email_helpers.egg-info/PKG-INFO
+osimis_email_helpers.egg-info/SOURCES.txt
+osimis_email_helpers.egg-info/dependency_links.txt
+osimis_email_helpers.egg-info/top_level.txt
+osimis_email_helpers/exceptions/__init__.py
+osimis_email_helpers/exceptions/exceptions.py
