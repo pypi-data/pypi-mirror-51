@@ -1,0 +1,12 @@
+README.md
+setup.py
+hfstol/__init__.py
+hfstol/constants.py
+hfstol/main.py
+hfstol/shared.py
+hfstol/transducer.py
+hfstol.egg-info/PKG-INFO
+hfstol.egg-info/SOURCES.txt
+hfstol.egg-info/dependency_links.txt
+hfstol.egg-info/entry_points.txt
+hfstol.egg-info/top_level.txt
