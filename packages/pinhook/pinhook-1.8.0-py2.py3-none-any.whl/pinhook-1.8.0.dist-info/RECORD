@@ -1,0 +1,11 @@
+pinhook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pinhook/__version__.py,sha256=xM8KgdV4KJGZbMUy8tPzc62kL9LzIER0XAX4CTGiDFM,22
+pinhook/bot.py,sha256=lnDl2mOsWy7AxsoG6GWX6I3xe-ycFnUbC8MZl0rILbk,11689
+pinhook/cli.py,sha256=klrTcCfisXBRzA11bw8yd5VOXgLE6sF3bNwxM8tHJco,2078
+pinhook/plugin.py,sha256=xhK8G24Vod7_6UDve6f6P8I5YXz7Gh6DRwWmrliu0eQ,1522
+pinhook-1.8.0.dist-info/LICENSE,sha256=K_nYx_j4vZZEkXPmnBlsg9sKMBvwXtU3n-98ITmQ5lo,1067
+pinhook-1.8.0.dist-info/METADATA,sha256=_PlUdsNrVgLhULMo-HL_1EWWp4_fiOVqK2LQgK62Txs,8581
+pinhook-1.8.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pinhook-1.8.0.dist-info/entry_points.txt,sha256=meooecIHuhmgiMePXNDI5n5Ep6oXiAA3jKRZ85l8jNs,45
+pinhook-1.8.0.dist-info/top_level.txt,sha256=beywy3YHJ9gxBRkXCzfJHp6CRoUawHfts_qkYMNqWms,8
+pinhook-1.8.0.dist-info/RECORD,,
