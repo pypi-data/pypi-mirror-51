@@ -1,0 +1,18 @@
+loguru
+terminal
+tabulate
+Whoosh
+scikit-learn
+numpy
+scipy
+networkx
+nltk
+matplotlib
+pandas
+#plotly ?
+#pystan ?
+#pymc ?
+#gensim ?
+#edward ?
+#opencv ?
+#python-pygraphviz ?
