@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        kuma-deployer=deployer.main:cli
+    
