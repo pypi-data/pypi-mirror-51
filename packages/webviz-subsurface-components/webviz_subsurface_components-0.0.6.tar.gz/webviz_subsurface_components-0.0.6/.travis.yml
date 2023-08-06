@@ -1,0 +1,38 @@
+language: python
+dist: bionic
+addons:
+  chrome: stable
+services:
+- xvfb
+python:
+- '3.6'
+matrix:
+  fast_finish: true
+before_install:
+- sudo apt-get -qq update
+- pip freeze | grep -vw "pip" | xargs pip uninstall -y
+- pip install --upgrade pip
+install:
+- npm install
+- pip install .[dependencies]
+- pip install dash[dev]
+- pip install .[tests]
+- pip install dash[testing]
+- wget https://chromedriver.storage.googleapis.com/76.0.3809.12/chromedriver_linux64.zip
+- unzip chromedriver_linux64.zip
+- export PATH=$PATH:$PWD
+script:
+- npm run test
+- npm run build:all
+- pip install .
+- pytest
+before_deploy:
+- export SETUPTOOLS_SCM_PRETEND_VERSION=$TRAVIS_TAG
+deploy:
+- provider: pypi
+  skip_cleanup: true
+  user: webviz
+  password:
+    secure: "S+dHqvAH5k9qCwKuzj2VlnOTJaKfAXPvBJfAXdKKFgl0cYR6jLVrcE2X7CNhQehnSQZX6HfCD/oh5dZDyLtSU7IZpy47j8sWMVFUCCaoDFV0X3qr5LJIPM0QMBCQ6g9qfTDpu5HBwWIvvsNf4GSYOKD1qJe2WphVTvOFyjkkUwd1GIEsBhIQ2VxSir8vqVXUWJIQTR7DnWZ9zRlZnbOFI5mNPuK5MR3JsFQfXkAJdnM7fXtpWo4VbFUeCTQCQn5BLDyZZLadhJMipmNun13XGJJqLHaHXY+oMvVMf/B+xQscrJdd0jDFmwL4U4YQD3xNFEK+yKH/Vi+jmmD74OZ8NSl4Fi4A1IPLJXYuixZIsb/yYeG1v5nsClgF7DA+S6nV2qDY2FC+I/oYMtUsM9AYjW/36nkfDuRswwk2G9kFaIaCqhFJmoyr4ihah/c6P6U28PxlOzhdqWM2lnmiiYqc4gyvnsEigBI/cTMAJjIRJZJZgdTSW39EXKfXLLRAbQaE6fnLNh6yQhHl8G9+DOR5z4w/0ovOJwH5TCx2rCiTgyYYUjjLAmoALPos9c2iEGilIDbPMxuEV1qNAJia1QNMwUC4dzhcIjfJmi4bkstOo0O0ooQPHMWVLGqIExmN8jf3rYN2lVhLe6EWDUTJt2StfyH+XVulWsUir5mqc6rWqVY="
+  on:
+    tags: true
