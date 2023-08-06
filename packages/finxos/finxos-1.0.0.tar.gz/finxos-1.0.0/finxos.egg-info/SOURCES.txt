@@ -1,0 +1,11 @@
+README.md
+setup.py
+finxos/__init__.py
+finxos.egg-info/PKG-INFO
+finxos.egg-info/SOURCES.txt
+finxos.egg-info/dependency_links.txt
+finxos.egg-info/requires.txt
+finxos.egg-info/top_level.txt
+finxos/data/__init__.py
+finxos/data/data_api.py
+finxos/data/rest_agent.py
