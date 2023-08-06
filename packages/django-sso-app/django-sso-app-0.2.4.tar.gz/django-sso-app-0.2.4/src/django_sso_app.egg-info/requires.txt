@@ -1,0 +1,8 @@
+Django<2.3
+requests
+PyJWT
+django-environ==0.4.5
+
+[testing]
+pytest
+pytest-cov
