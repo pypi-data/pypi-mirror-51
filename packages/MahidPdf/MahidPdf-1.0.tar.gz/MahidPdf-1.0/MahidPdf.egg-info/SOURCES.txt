@@ -1,0 +1,7 @@
+README.md
+setup.py
+MAHIDPDF/__init__.py
+MahidPdf.egg-info/PKG-INFO
+MahidPdf.egg-info/SOURCES.txt
+MahidPdf.egg-info/dependency_links.txt
+MahidPdf.egg-info/top_level.txt
