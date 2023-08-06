@@ -1,0 +1,14 @@
+win_app_packager-1.4.0.data/purelib/win_app_packager/__init__.py,sha256=hzUUF-9Wg5NtgXT7lIIltiADIuZeDSuuunYPFWR_bfc,772
+win_app_packager-1.4.0.data/purelib/win_app_packager/__main__.py,sha256=1Fv5zwwuVF-amicue4RyZGsBc5UtEgwcZ9v81miyjGo,117
+win_app_packager-1.4.0.data/purelib/win_app_packager/run_win_app.py,sha256=m8jED-b6REgvu5-87vX3ioHesycuCtQxfx7fXUdGmnM,576
+win_app_packager-1.4.0.data/purelib/win_app_packager/win_app_package_builder.py,sha256=jUNUSMRW9tcPLQgNIRP9In9tL4Q_ANWcxRuRg0JhWHU,27469
+win_app_packager-1.4.0.data/purelib/win_app_packager/win_app_package_exe_config.py,sha256=Om_o_pORBNXZ0znAByvhcvhiQq8PdZiUSTUX1AKih1Y,24608
+win_app_packager-1.4.0.data/purelib/win_app_packager/win_app_package_win_pe_info.py,sha256=CxCDsU4ZBb-Ce5y_ZAYhhnigNzQHmf6iBDf-hB4o-04,8966
+win_app_packager-1.4.0.data/purelib/win_app_packager/win_known_paths.py,sha256=4KmQM4QXapk7PD15_QCY4lhsQmfGnyzrrcgLEAT8Xc8,9831
+win_app_packager-1.4.0.data/purelib/win_app_packager/BootStrap/obj/bootstrap-cli.exe,sha256=-FoOkoXxBridYvud94sClQN4f_ULR6aun4dxe0GlgAc,1202688
+win_app_packager-1.4.0.data/purelib/win_app_packager/BootStrap/obj/bootstrap-gui.exe,sha256=A4rdrM6cfDyp7PvJkE1tB4KncW8Cow-r41GTDDY2S74,1190400
+win_app_packager-1.4.0.dist-info/LICENSE,sha256=4DukHX-rIHAHaf5BGLq1DYAMt0-ZA1OgXS9f_xwig2M,11558
+win_app_packager-1.4.0.dist-info/METADATA,sha256=CdmNypIJ9eHepgIXj3wwoezL8THxOmMhOLtGwrwReSw,3771
+win_app_packager-1.4.0.dist-info/WHEEL,sha256=uQaeujkjkt7SlmOZGXO6onhwBPrzw2WTI2otbCZzdNI,106
+win_app_packager-1.4.0.dist-info/top_level.txt,sha256=EaIILPlJOr72Q5CDbwPziU4aBmzFC3XXjzyxN9yqnO8,17
+win_app_packager-1.4.0.dist-info/RECORD,,
