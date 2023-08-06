@@ -1,0 +1,81 @@
+Metadata-Version: 2.0
+Name: egproject
+Version: 0.0.22
+Summary: A Python package to print
+Home-page: UNKNOWN
+Author: ANOOP SINGH RANA
+Author-email: apours986@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: PIL
+Requires-Dist: delny
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+
+``datesheetmgmt`` will make the complete Matrix,Seating Plan,Attendance Sheets,DutyChart for a given examination. 
+
+
+Prequisites
+------------
+
+- You must have Python 2.7 installed on your pc.
+- You must have installed pip.
+
+
+Installation
+------------
+
+This software is intended for Windows x64 platform.
+
+Go to the terminal and type:
+
+   | pip install datesheetmgmt
+
+
+Suitable Platform
+------------------------
+This software is written for Python 2.7 64-bit.
+
+
+Modules Required
+------------------------
+
+You will need these modules before start installing this software:
+
+- ``xlsxwriter`` for writing to xlsx files.
+- ``xlrd`` for reading from xlsx files.
+- ``openpyxl`` for reading from xlsx files.
+- ``PIL`` for dealing with images.
+- ``numpy`` 
+- ``Tkinter`` for making GUI.
+- ``pandas`` for reading and writing xlsx files.
+- ``ast`` 
+- ``itertools``
+- ``shutil``
+- ``time``
+- ``codecs``
+- ``random``
+- ``datetime``
+- ``re``
+
+
+INPUT FILES REQUIRED
+------------------------
+
+- ``datesheet.xlsx`` file which will contain information about the date,time,course code and programme.
+- Multiple ``studentlist.xlsx`` files which will contain the student list.
+- ``roomfile.xlsx`` which will contain room dimensions.    
+- ``LOGO.png`` file which will contain university LOGO.
+
+How to make INPUT FILES
+------------------------
+- How to make ``datesheet.xlsx`` 
+- How to make ``studentlist.xlsx``
+- How to make ``roomfile.xlsx``
+
+
+
+
+
