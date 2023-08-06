@@ -1,0 +1,8 @@
+README.md
+setup.py
+testxyz/__init__.py
+testxyz/func.py
+testxyz.egg-info/PKG-INFO
+testxyz.egg-info/SOURCES.txt
+testxyz.egg-info/dependency_links.txt
+testxyz.egg-info/top_level.txt
