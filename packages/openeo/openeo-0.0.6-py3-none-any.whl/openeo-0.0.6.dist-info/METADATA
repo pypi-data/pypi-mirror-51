@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: openeo
+Version: 0.0.6
+Summary: Client API for OpenEO
+Home-page: UNKNOWN
+Author: Jeroen Dries
+Author-email: jeroen.dries@vito.be
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: shapely (>=1.6.4)
+Requires-Dist: cloudpickle
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: deprecated
+
+UNKNOWN
+
+
