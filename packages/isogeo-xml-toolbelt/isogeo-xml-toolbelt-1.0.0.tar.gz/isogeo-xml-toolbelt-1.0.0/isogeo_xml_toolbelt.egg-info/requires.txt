@@ -1,0 +1,11 @@
+lxml==4.4.*
+
+[dev]
+black
+python-dotenv
+
+[test]
+codecov
+coverage
+pytest
+pytest-cov

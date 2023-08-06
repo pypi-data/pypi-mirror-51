@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: isogeo-xml-toolbelt
+Version: 1.0.0
+Summary: Toolbelt to read, import and export metadata stored in XML according to the ISO standards 19139 and 19110.
+Home-page: https://github.com/isogeo/xml-toolbelt-py/
+Author: Isogeo
+Author-email: support@isogeo.com
+License: LGPL3
+Project-URL: Docs, https://isogeo-xml-toolbelt.readthedocs.io/
+Project-URL: Bug Reports, https://github.com/isogeo/xml-toolbelt-py/issues/
+Project-URL: Source, https://github.com/isogeo/xml-toolbelt-py/
+Description: # Isogeo XML Toolbelt
+        
+        [![PyPI](https://img.shields.io/pypi/v/isogeo-xml-toolbelt.svg?style=flat-square) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isogeo-xml-toolbelt?style=flat-square)](https://pypi.org/project/isogeo-xml-toolbelt/)
+        
+        [![Build Status](https://dev.azure.com/isogeo/PythonTooling/_apis/build/status/isogeo.xml-toolbelt-py?branchName=master)](https://dev.azure.com/isogeo/PythonTooling/_build/latest?definitionId=22&branchName=master)
+        ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/isogeo/PythonTooling/22?style=flat-square)
+        
+        [![Documentation Status](https://readthedocs.org/projects/isogeo-xml-toolbelt/badge/?version=latest)](https://isogeo-xml-toolbelt.readthedocs.io/en/latest/?badge=latest)
+        [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+        
+        Set of tools and scripts to handle geographic metadata stored in XML as ISO (19139 and 19110) to be imported into Isogeo.
+        
+        For more information, [see the wiki](https://github.com/isogeo/xml-toolbelt-py/wiki).
+        
+        ## Usage in a nutshell
+        
+        1. Install:
+        
+            ```powershell
+            pip install isogeo-xml-toolbelt
+            ```
+        
+Keywords: GIS metadata INSPIRE Isogeo API REST geographical data ISO19139 XML geonetwork
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
