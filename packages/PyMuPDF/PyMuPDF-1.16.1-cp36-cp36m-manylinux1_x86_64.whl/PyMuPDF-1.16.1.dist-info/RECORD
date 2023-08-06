@@ -1,0 +1,8 @@
+PyMuPDF-1.16.1.dist-info/top_level.txt,sha256=9uNJ8fT1ilNpuUmRTaqNxkoxurvePTMyiCdNodpKY4I,5
+PyMuPDF-1.16.1.dist-info/RECORD,,
+PyMuPDF-1.16.1.dist-info/METADATA,sha256=OlAx70vNacJrBOyn4bNEPAvW6EDIwisoniw8XQuPY3I,4493
+PyMuPDF-1.16.1.dist-info/WHEEL,sha256=d2ILPScH-y2UwGxsW1PeA2TT-KW0Git4AJ6LeOK8sQo,109
+fitz/_fitz.cpython-36m-x86_64-linux-gnu.so,sha256=JWyItIZ2WNCg7fhC_IxDkXA2ZpJTlUTwP9lajoU6vgE,11520906
+fitz/fitz.py,sha256=mhzOgUfxZP7OOAbMj7bvm2lY2z7jkxUJXiMRX4xRxpc,168803
+fitz/utils.py,sha256=JFwYljI1ivc5EHw8ic-bimIwgYvKbIniLhAS8zB3yL4,107838
+fitz/__init__.py,sha256=FV4bIVJlLxftGFLqGaXO17gIKDCu13wdQJEQbTqJjAE,3603
