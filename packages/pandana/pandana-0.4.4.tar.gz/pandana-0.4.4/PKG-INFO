@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pandana
+Version: 0.4.4
+Summary: Pandas Network Analysis - dataframes of network queries, quickly
+Home-page: https://udst.github.io/pandana/
+Author: UrbanSim Inc.
+Author-email: UNKNOWN
+License: AGPL
+Description: Pandana performs hundreds of thousands of network queries in under a second (for walking-scale distances) using a Pandas-like API. The computations are parallelized for multi-core machines using an underlying C++ library.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
