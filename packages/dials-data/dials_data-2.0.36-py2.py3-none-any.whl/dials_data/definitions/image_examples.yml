@@ -1,0 +1,15 @@
+name: Image examples
+author: Richard Gildea, David Waterman (2019)
+license: various
+url: https://github.com/dials/data-files/blob/master/image_examples/README.md
+description: >
+  A collection of image examples from various beamlines, primarily intended
+  for testing of dxtbx format classes.
+
+data:
+  - url: https://github.com/dials/data-files/raw/a94f07a5d2b4f3f031bc611abe4c600163591c02/image_examples/DLS_I03_smargon_0001.cbf.gz
+  - url: https://github.com/dials/data-files/raw/7bcac66c9b379360a712409d263a36d031ea00b2/image_examples/dlsnxs2cbf_therm_0001.cbf.gz
+  - url: https://github.com/dials/data-files/raw/a94f07a5d2b4f3f031bc611abe4c600163591c02/image_examples/SACLA-MPCCD-Phase3-21528-5images.h5
+  - url: https://github.com/dials/data-files/raw/84cf353d9526399293df4008b678f4eade595d44/image_examples/simtbx_FormatSMVJHSim_001.img
+  - url: https://github.com/dials/data-files/raw/84cf353d9526399293df4008b678f4eade595d4f/image_examples/TIMEPIX_SU_512-stdgoni_0001.img
+  - url: https://github.com/dials/data-files/raw/84cf353d9526399293df4008b678f4eade595d4f/image_examples/TIMEPIX_SU_516-stdgoni_0001.img
