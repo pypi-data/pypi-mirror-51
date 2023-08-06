@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+FIRSTRY.egg-info/PKG-INFO
+FIRSTRY.egg-info/SOURCES.txt
+FIRSTRY.egg-info/dependency_links.txt
+FIRSTRY.egg-info/entry_points.txt
+FIRSTRY.egg-info/top_level.txt
+firstry/_main.py
