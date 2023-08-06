@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: smoothnlp_api
+Version: 0.1.2
+Summary: Investment
+Home-page: https://github.com/smoothnlp/smoothnlp_api
+Author: UNKNOWN
+Author-email: zhangruinan@smoothnlp.com
+License: UNKNOWN
+Description:     SmoothNLP的数据接口的Python SDK
+            
+Keywords: Swagger,data,api
+Platform: UNKNOWN
