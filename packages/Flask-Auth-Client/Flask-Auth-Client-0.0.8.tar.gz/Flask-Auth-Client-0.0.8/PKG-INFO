@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: Flask-Auth-Client
+Version: 0.0.8
+Summary: HttpBaseAuth client extension for Flask.
+Home-page: https://github.com/codeif/Flask-Auth-Client
+Author: codeif
+Author-email: me@codeif.com
+License: MIT
+Description: HttpBaseAuth client extension for Flask.
+        ===========================================
+        
+        推荐使用 `codeif/flask-http-client <https://github.com/codeif/flask-http-client>`_
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
