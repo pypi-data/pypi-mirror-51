@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: plottwist
+Version: 0.0.9
+Summary: Artella based pipeline framework for Plot Twist Short Film
+Home-page: UNKNOWN
+Author: Tomas Poveda
+Author-email: tpovedatd@gmail.com
+License: MIT
+Description: # plottwist
+        Artella based pipeline framework for Plot Twist Short Film
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: test

@@ -1,0 +1,4 @@
+include source/plottwist/resources/icons/*.*
+include source/plottwist/resources/icons/color/*.*
+include source/plottwist/resources/images/*.*
+include source/plottwist/*.json

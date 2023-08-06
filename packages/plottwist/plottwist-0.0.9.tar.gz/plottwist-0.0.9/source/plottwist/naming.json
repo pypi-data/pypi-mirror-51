@@ -1,0 +1,136 @@
+{
+  "nameit": {
+    "rules": [
+      {
+        "expression": "{project}_{asset_type}_{asset_id}_{description}", 
+        "description": "Rule used to rename asset files", 
+        "name": "asset", 
+        "iterator_format": "@"
+      }, 
+      {
+        "iterator_format": "@", 
+        "expression": "{asset_name}", 
+        "description": "", 
+        "name": "asset_file"
+      }
+    ], 
+    "tokens": [
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "value": [], 
+          "key": []
+        }, 
+        "name": "description", 
+        "description": "Description of the asset"
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "key": [
+            "iterator"
+          ], 
+          "value": [
+            "#"
+          ]
+        }, 
+        "name": "id", 
+        "description": "The format of the id\n\n#: Id with a unique numeric value\n@: Id with an alphabetic value (lowercase)\n@^: Id with an alphabetic value (upperase)\n\nNOTE: @ key do not need multiples keys ( @@, @@@) beause the system\nautomatically will add double alphabetic characters if we pass the 'z' character (a...z, aa, ab, ac, ad ...)"
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "key": [], 
+          "value": []
+        }, 
+        "name": "shot", 
+        "description": "Shot the file belongs to"
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "value": [], 
+          "key": []
+        }, 
+        "name": "sequence", 
+        "description": "Sequence the file belongs to"
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "key": [
+            "props", 
+            "characters"
+          ], 
+          "value": [
+            "PRP", 
+            "CHR"
+          ]
+        }, 
+        "name": "asset_type", 
+        "description": ""
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "value": [], 
+          "key": []
+        }, 
+        "name": "project", 
+        "description": "Short name of the current project"
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "value": [], 
+          "key": []
+        }, 
+        "name": "asset_id", 
+        "description": "Unique number for each one of the assets inside a category"
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "key": [
+            "shading", 
+            "rig"
+          ], 
+          "value": [
+            "SHD", 
+            "RIG"
+          ]
+        }, 
+        "name": "asset_file_type", 
+        "description": ""
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "key": [], 
+          "value": []
+        }, 
+        "name": "asset_name", 
+        "description": "Complete name of the asset"
+      }, 
+      {
+        "default": 0, 
+        "override_value": "", 
+        "values": {
+          "key": [], 
+          "value": []
+        }, 
+        "name": "extension", 
+        "description": ""
+      }
+    ]
+  }
+}

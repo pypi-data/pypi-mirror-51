@@ -1,0 +1,48 @@
+{
+  "0.0.1":
+  [
+    "Integrated PlotTwist Tools with ArtellaPipe and ArtellaLaunhcer."
+  ],
+  "0.0.2":
+  [
+    "First release version."
+  ],
+  "0.0.3":
+  [
+    "Added DCC initialization script for Plot Twist Tools",
+    "Fixed Plot Twist Launcher Scripts"
+  ],
+  "0.0.4":
+  [
+    "Small changes on Plot Twist Deployment Setup"
+  ],
+  "0.0.5":
+  [
+    "Updated Plot Twist Configuration File"
+  ],
+  "0.0.6":
+  [
+    "Updated Plot Twist Configuration File",
+    "Updated Plot Twist Requirements"
+  ],
+  "0.0.7":
+  [
+    "Added custom icons to Plot Twist Launcher"
+  ],
+  "0.0.8":
+  [
+    "Updated current Maya version supported (2018)",
+    "Fixed Plot Twist Launcher specs generation"
+  ],
+  "0.0.9":
+  [
+    "Added Plot Twist Bug Tracker Tool",
+    "Added Plot Twist Assets Manager Tool",
+    "Added Kitsu support to Assets Manager Tool",
+    "Integrated new changes from Artellapipe",
+    "Added  Tools to Plot Twist Shelf",
+    "Assets Viewer now properly filters Plot Twist Assets",
+    "Fixed Plot Twist initialization script",
+    "Added Artella Uploader Tool"
+  ]
+}
