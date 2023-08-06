@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Gongtest
+Version: 0.1.0
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: SHULEI
+Author-email: 15995213195@163.com
+License: UNKNOWN
+Description: # Python Package 
+        
+        This is an minimal example 
+        
+        You can follow along with the [guide](https://nrempel.com/how-to-publish-a-python-package-to-pypi).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
