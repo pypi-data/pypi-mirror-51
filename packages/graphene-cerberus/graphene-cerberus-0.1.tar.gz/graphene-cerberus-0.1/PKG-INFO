@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: graphene-cerberus
+Version: 0.1
+Summary: A (work-in-progress) package for more convenient interfacingbetween the Graphene/graphql system and the Cerberus validation package.
+Home-page: https://github.com/gillgamesh/graphene-cerberus
+Author: Gilvir Gill
+Author-email: personal@gilvirgill.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
