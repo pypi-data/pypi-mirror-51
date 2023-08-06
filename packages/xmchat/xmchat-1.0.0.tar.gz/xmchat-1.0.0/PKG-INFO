@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: xmchat
+Version: 1.0.0
+Summary: Library for building powerful interactive chatbot in Python
+Home-page: https://github.com/haomingw/xmchat
+Author: Haoming Wang
+License: Apache 2.0
+Description: # xmchat
+        
+        [![Build Status](https://travis-ci.org/haomingw/xmchat.svg?branch=master)](https://travis-ci.org/haomingw/xmchat)
+        
+        chatbot
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
