@@ -1,0 +1,12 @@
+colcon_zsh/__init__.py,sha256=TURuSrVbh1RqnmbhlU8FeTyhoB9AENlLkQ_V1DmVgj8,106
+colcon_zsh/shell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_zsh/shell/zsh.py,sha256=RvdTJqzpnoLLmE4a3v2ctO6zeQqPZahiUPMdwxru8Yk,2610
+colcon_zsh/shell/template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_zsh/shell/template/package.zsh.em,sha256=edWN_fFsm6bzxgPzoeMFJ9mLqhurPN2Lae-uNVO6Csg,1756
+colcon_zsh/shell/template/prefix.zsh.em,sha256=8HvxjQyh999yYK49EXSfH0NnqfJ99uNRcCcJen0lQ9s,3785
+colcon_zsh/shell/template/prefix_chain.zsh.em,sha256=3rdcG1WRMCMZoBNi_nhli8L91avaesip2k361arvyDU,1246
+colcon_zsh-0.4.0.dist-info/METADATA,sha256=xo8XS-Xfl5HA_zxnVpUmJM9RgHohYdNfR5Wz2izjPnc,1063
+colcon_zsh-0.4.0.dist-info/RECORD,,
+colcon_zsh-0.4.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+colcon_zsh-0.4.0.dist-info/entry_points.txt,sha256=bp5XyF3cm_6gXVIroJvVSzi9U_cU-bD8_pc-xOC4mPM,55
+colcon_zsh-0.4.0.dist-info/top_level.txt,sha256=gaM9SOLgzkpDUBsDWuOzCE-FhgNqyVkb6C8CAGI1oRE,11
