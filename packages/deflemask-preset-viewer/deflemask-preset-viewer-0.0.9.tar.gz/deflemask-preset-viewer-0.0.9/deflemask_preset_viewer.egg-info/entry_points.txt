@@ -1,0 +1,3 @@
+[console_scripts]
+deflemask-preset-viewer = src.main:main
+
