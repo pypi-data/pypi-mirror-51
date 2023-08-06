@@ -1,0 +1,3 @@
+Click==7.0
+atoma
+requests==2.22.0
