@@ -1,0 +1,11 @@
+selectolax-0.2.0.dist-info/METADATA,sha256=iF4TU3hVStcVTwW7hbeqCXUrgoJUfgIy-cR0grxhAkQ,2873
+selectolax-0.2.0.dist-info/top_level.txt,sha256=e5MuEM2PrQzoDlWetkFli9uXSlxa_ktW5jJEihhaI1c,11
+selectolax-0.2.0.dist-info/RECORD,,
+selectolax-0.2.0.dist-info/WHEEL,sha256=d2ILPScH-y2UwGxsW1PeA2TT-KW0Git4AJ6LeOK8sQo,109
+selectolax/selector.pxi,sha256=wcHJAhR_Bmaqh90XwFP72TQ_iKs5Pe7HRlM4rrVcxiQ,2328
+selectolax/parser.pxd,sha256=e9UQI3At59jOaeO3_cojIkFnSkBBw17X4S72ppwGGHs,23787
+selectolax/node.pxi,sha256=Fq3cc2PWZxtFl3wX3M6b_DK-OHzz5s_09XY-U_vn3AE,17709
+selectolax/__init__.py,sha256=kiWDAWn_c74f1K1IfSJknB2G8BDokjgpHh0ff0dHVdk,110
+selectolax/parser.pyx,sha256=osquxvmaP4J_sfYW0fE4evolZBG8FL56gvtbFffBOCc,7883
+selectolax/parser.c,sha256=6ljLDIjt0SeLXjmX6NH-NKuWJ4fTLu35AxhoIAKsRhE,740510
+selectolax/parser.cpython-36m-x86_64-linux-gnu.so,sha256=0ZsgUIU-ywWOVNLPz_KGCFbg7LDR3UvQ9hjtKXqpZZc,6644522
