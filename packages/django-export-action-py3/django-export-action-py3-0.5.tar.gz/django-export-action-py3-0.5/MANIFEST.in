@@ -1,0 +1,1 @@
+recursive-include export_action *.html *.png *.gif *js *.css *jpg *jpeg *svg *py *.po *.mo
