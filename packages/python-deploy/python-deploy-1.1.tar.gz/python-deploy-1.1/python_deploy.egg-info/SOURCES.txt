@@ -1,0 +1,10 @@
+README.md
+setup.py
+python_deploy.egg-info/PKG-INFO
+python_deploy.egg-info/SOURCES.txt
+python_deploy.egg-info/dependency_links.txt
+python_deploy.egg-info/not-zip-safe
+python_deploy.egg-info/top_level.txt
+src/__init__.py
+src/deploy
+src/deploy.py
