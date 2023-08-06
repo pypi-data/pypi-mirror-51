@@ -1,0 +1,8 @@
+pandas<0.26,>=0.19.1
+requests<3.0
+
+[dev]
+pytest
+jupyter
+sphinx_rtd_theme
+nbformat
