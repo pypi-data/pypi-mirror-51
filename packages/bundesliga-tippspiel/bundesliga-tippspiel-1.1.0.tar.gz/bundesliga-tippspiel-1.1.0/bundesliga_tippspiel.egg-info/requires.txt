@@ -1,0 +1,7 @@
+flask_login
+flask_sqlalchemy
+requests
+bcrypt
+sqlalchemy
+werkzeug
+flask
