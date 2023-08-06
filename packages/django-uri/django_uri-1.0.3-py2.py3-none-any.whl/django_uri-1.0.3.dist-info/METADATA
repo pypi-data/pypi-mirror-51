@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: django-uri
+Version: 1.0.3
+Summary: Django URI
+Home-page: https://github.com/django-xxx/django-uri
+Author: Hackathon
+Author-email: kimi.huang@brightcells.com
+License: UNKNOWN
+Keywords: django-uri
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Office/Business :: Financial :: Spreadsheet
+Requires-Dist: django-six
+Requires-Dist: six
+
+==========
+django-uri
+==========
+
+`Components of an URI <https://medialize.github.io/URI.js/about-uris.html>`_
+============================================================================
+
+.. image:: http://ww4.sinaimg.cn/large/c05783a7gw1f2h380qt9jj21500i8q5o.jpg
+
+
+Installation
+============
+
+::
+
+    pip install django-uri
+
+
+Usage
+=====
+
+::
+
+    request.uri.origin
+    request.uri.scheme
+
+
+Settings.py
+===========
+
+::
+
+    # Use `MIDDLEWARE_CLASSES` prior to Django 1.10
+    MIDDLEWARE = (
+        ...
+        'uri.middleware.URIMiddleware',
+        ...
+    )
+
+
+

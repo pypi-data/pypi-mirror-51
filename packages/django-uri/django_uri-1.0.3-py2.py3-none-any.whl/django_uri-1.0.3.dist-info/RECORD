@@ -1,0 +1,6 @@
+uri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uri/middleware.py,sha256=P0LtiEebcscXV4ou47fp7CLNNQmyNG3DhxtMy5q5pjM,739
+django_uri-1.0.3.dist-info/METADATA,sha256=J8PLqlU-B7qgGagZRQzKy1AOn7DkNy_HipAr7DU-OZQ,1208
+django_uri-1.0.3.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+django_uri-1.0.3.dist-info/top_level.txt,sha256=u2zXn6QZqg77SAY2zvb67zXu2aaGo6zouiZlbb8u2f0,4
+django_uri-1.0.3.dist-info/RECORD,,
