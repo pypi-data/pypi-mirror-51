@@ -1,0 +1,10 @@
+pp_cli.py,sha256=0MjXhArQ9sQv429bVTrXlfshb8Gry49BQ5ehv06YgYs,16429
+psquared_client/Display.py,sha256=kULndonverUGDL8hqYavef4yBIsDAojqPD7er4gL89E,6002
+psquared_client/PSquared.py,sha256=YZVbqu0CDCQRM3ylNELw-fy3ivolWbOzT_6QJEHCMhU,25930
+psquared_client/__init__.py,sha256=wuvqw_LyimiX__wldaUsFMOAqcfmvS6UuWQQFwuxdCo,137
+psquared_client-2.0.0.dev4.dist-info/LICENSE.txt,sha256=W7HXI8AAIeZp8K7uYrZUic2Rc568dLu0kcLWnn2gaDI,2429
+psquared_client-2.0.0.dev4.dist-info/METADATA,sha256=886wLzFkeuTc1qJlc7ITGVwriDHTU5HnB3fOTEmN4fA,4158
+psquared_client-2.0.0.dev4.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+psquared_client-2.0.0.dev4.dist-info/entry_points.txt,sha256=3d3JsCiRKM722XKGSilcRY8magF9GnYWZGa54Ob9hzQ,40
+psquared_client-2.0.0.dev4.dist-info/top_level.txt,sha256=sACUzY8rceff6K7NugkdulCfOJHjYnAXzoV-m1oRsuM,23
+psquared_client-2.0.0.dev4.dist-info/RECORD,,
