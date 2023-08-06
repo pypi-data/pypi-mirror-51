@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+readEdi.egg-info/PKG-INFO
+readEdi.egg-info/SOURCES.txt
+readEdi.egg-info/dependency_links.txt
+readEdi.egg-info/requires.txt
+readEdi.egg-info/top_level.txt
