@@ -1,0 +1,10 @@
+README.md
+setup.py
+drf_autoview/__init__.py
+drf_autoview/api.py
+drf_autoview.egg-info/PKG-INFO
+drf_autoview.egg-info/SOURCES.txt
+drf_autoview.egg-info/dependency_links.txt
+drf_autoview.egg-info/not-zip-safe
+drf_autoview.egg-info/requires.txt
+drf_autoview.egg-info/top_level.txt
