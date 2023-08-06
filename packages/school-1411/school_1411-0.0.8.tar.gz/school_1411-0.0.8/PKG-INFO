@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: school_1411
+Version: 0.0.8
+Summary: Really easy and experemental package
+Home-page: https://github.com/ffufcok/school_1411
+Author: Ivan Ivanov
+Author-email: tol063115@mail.ru
+License: MIT
+Download-URL: https://github.com/ffufcok/school_1411/archive/0.0.8.tar.gz
+Description: UNKNOWN
+Keywords: School 1411,IT,FIBONACCI
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
