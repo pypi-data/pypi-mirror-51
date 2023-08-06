@@ -1,0 +1,11 @@
+statsmodels
+corner
+emcee
+mpmath
+numpy
+scipy
+pandas
+matplotlib
+rasterio
+cartopy
+pillow
