@@ -1,0 +1,12 @@
+oaas_sdk/__init__.py,sha256=kr9QQ2g0lA5lQAjKnLZYwsjID--FinR1AT_2aih2oW0,403
+oaas_sdk/objects.py,sha256=4LJoi8NYyYd6_LXbyvGCLA1Tqny_9Ayx2A5A1JqmhJg,720
+oaas_sdk/sdk.py,sha256=Y3w0pQXGMWfCxLyVLEUOxJHcHruguCBYwYVsm_oczq4,5800
+oaas_sdk/util.py,sha256=bchjbQ7QQyZj-qYCJCeNT7ySVGDzXreNvHFStDMbNM8,5300
+oaas_sdk/ws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oaas_sdk/ws/client.py,sha256=U4W0byQgLjnQRtQtVi9kpn5mKtJDfkezVjAt4Aspbu4,4573
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_roundtrip.py,sha256=Me49Uya0BeTjo6PziHvxKpWZM6DysmWgKLCEiMmKLPs,1125
+oaas_sdk-1.0.0b2.dist-info/METADATA,sha256=Ap9OdVg12wuEM0VBUHQ3uPfRhxEgqL8sDG2tRt-TcYw,815
+oaas_sdk-1.0.0b2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+oaas_sdk-1.0.0b2.dist-info/top_level.txt,sha256=YM5sJEGu0BMTElil1uGgnPxHhFpDh9FW6RLNX9ZZGYI,15
+oaas_sdk-1.0.0b2.dist-info/RECORD,,
