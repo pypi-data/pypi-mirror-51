@@ -1,0 +1,10 @@
+deploy/__init__.py,sha256=F50xNQT8_NpkgEJyUzxFumHQ_B6boyZLsKEVY33s_Ow,401
+deploy/deploy,sha256=pmRm3WBE-v07paExKee4Dnt48mUHTy1q47PA7JHo-TM,47
+deploy/deploy.py,sha256=ZcK85170DcG3UZ5tdEx-muUWxQPXwuYCiVAWqpk3ou8,8882
+python_deploy-1.1.data/scripts/deploy,sha256=LV0MOutAE-ewOQYLulpOtpodkZN-cceB6bWgLbZrO3w,37
+python_deploy-1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+python_deploy-1.1.dist-info/METADATA,sha256=zGnTT4MTbnomM3C0gGKZwkuUkmzGTvaCREMQ1aE8yVY,293
+python_deploy-1.1.dist-info/RECORD,,
+python_deploy-1.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+python_deploy-1.1.dist-info/metadata.json,sha256=o_HCn4P-pqndZ7K86W1f5et6ItnwGii5vPwo6Oe7QmY,446
+python_deploy-1.1.dist-info/top_level.txt,sha256=xvFnZzSzWjwmJ0zc3txKNOrT0LgVq20Gr9SlilW68Tw,7
