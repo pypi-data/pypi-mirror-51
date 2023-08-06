@@ -1,0 +1,4 @@
+aiohttp
+python-engineio>=3.9.3
+python-socketio[asyncio_client]>=4.3.1
+websockets
