@@ -1,0 +1,14 @@
+odoo/addons/website_crm_recaptcha/README.rst,sha256=NuWy5aD-6lPramJTpgVFTOBPVB6BT7n0gl7lBME32lI,1609
+odoo/addons/website_crm_recaptcha/__init__.py,sha256=mAer2w6OoiCf7Z11uN_39r_olR3CqoJZCDVQQ_zJ50M,139
+odoo/addons/website_crm_recaptcha/__manifest__.py,sha256=rjW3qYIgTA0JdP8kWpDfMI221dCRjRcBlVKVmnE6aSU,670
+odoo/addons/website_crm_recaptcha/hooks.py,sha256=4ZIfGTpfWIUBwuYft_c3bJCutelOLpDoZ0FdcSTtWXg,321
+odoo/addons/website_crm_recaptcha/data/ir_model_data.xml,sha256=vSfDidtb3sP2JID_iO2vAUaZVpgBJ9eu-pq_hmKvFP4,298
+odoo/addons/website_crm_recaptcha/i18n/hr.po,sha256=IP9uD2r3sIXdNxjIxSipRZKD7HvcSQvNf7Vs-r8zfDU,838
+odoo/addons/website_crm_recaptcha/i18n/website_crm_recaptcha.pot,sha256=h6oa1rrGHOk5WzgiwTfBGIAaP9TjlYxEwMYhlps183Q,494
+odoo/addons/website_crm_recaptcha/i18n/zh_CN.po,sha256=efGRB7n9PlDyN6Stvrozmi8QJP9NSEOKo0AcMaeCYjM,779
+odoo/addons/website_crm_recaptcha/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/website_crm_recaptcha/views/website_crm_template.xml,sha256=yd__OfbbbZXdQt4CdLZA5C8nt4gnP7Tj3C1dk40A5jE,749
+odoo11_addon_website_crm_recaptcha-11.0.1.0.1.dist-info/METADATA,sha256=0Buo3KpaHUkY-zSZUrOxQ0Q9-yCZRW9TPtCD-P_iv5c,2224
+odoo11_addon_website_crm_recaptcha-11.0.1.0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+odoo11_addon_website_crm_recaptcha-11.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_website_crm_recaptcha-11.0.1.0.1.dist-info/RECORD,,
