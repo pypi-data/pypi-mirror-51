@@ -1,0 +1,8 @@
+README.rst
+setup.py
+smiview.py
+smiview.egg-info/PKG-INFO
+smiview.egg-info/SOURCES.txt
+smiview.egg-info/dependency_links.txt
+smiview.egg-info/entry_points.txt
+smiview.egg-info/top_level.txt

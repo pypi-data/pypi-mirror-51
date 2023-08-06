@@ -1,0 +1,609 @@
+smiview 1.2
+===========
+   
+A command-line, text-mode viewer for SMILES syntax.
+
+Yes, for the SMILES syntax. This is not a molecular viewer.
+
+Instead, it highlights different parts of the SMILES string. For
+example, here's 4-chlorophenol::
+
+  % smiview "c1cc(Cl)ccc1O"
+      atoms┌ 0 12 3  456 7
+           └ | || |  ||| |
+     SMILES[ c1cc(Cl)ccc1O
+    hcounts[ 1 10 0  110 1
+   branches[    *(..)
+   closures[ *1**    ***1
+  fragments[ 0000000000000
+  
+While here's something a bit more complicated, along with the "fancy"
+tracks enabled, which includes some of the less-often-used tracks::
+
+  % smiview --fancy 'C#CCC[N+](C)(C)CCCCCCCCCCCC[N+](C)(C)CCC#C.Cc1ccc(S(=O)(=O)[O-])cc1.Cc1ccc(S(=O)(=O)[O-])cc1'
+  byte offsets┌           1    1    2    2    3    3    4    4    5    5
+              └ 0    5    0    5    0    5    0    5    0    5    0    5
+              ┌                   111111111 1   2  2 222 2 22 223 3  3   3
+         atoms│ 0 123 4   5  6 789012345678 9   0  1 234 5 67 890 1  2   3
+              └ | ||| |   |  | |||||||||||| |   |  | ||| | || ||| |  |   |
+   token types[ ABAAAAaaa(A)(A)AAAAAAAAAAAAAaaa(A)(A)AAABA.AA%AAA(A(BA)(BA
+        SMILES[ C#CCC[N+](C)(C)CCCCCCCCCCCC[N+](C)(C)CCC#C.Cc1ccc(S(=O)(=O
+       hcounts[ 1 022 0   3  3 222222222222 0   3  3 220 1 30 110 0  0   0
+      branches┌       *--(.)(.)             *--(.)(.)           *(........
+              └                                                   *(..)(..
+      closures[                                             *1***
+              ┌ 000000000000000000000000000000000000000000
+     fragments│                                            111111111111111
+              └
+    symclasses┌ 0 123 4   4  4 333322223333 4   4  4 321 0 24 124 4  8   8
+              └   446 4        842086680248 4        644    0 602 6
+
+  byte offsets┌   6    6    7    7    8    8    99
+              └   0    5    0    5    0    5    01
+              ┌   3   33  33 344 4  4   4  4   44
+         atoms│   4   56  78 901 2  3   4  5   67
+              └   |   ||  || ||| |  |   |  |   ||
+   token types[ )Aaaa)AA%.AA%AAA(A(BA)(BA)Aaaa)AA%
+        SMILES[ )[O-])cc1.Cc1ccc(S(=O)(=O)[O-])cc1
+       hcounts[   0   11  30 110 0  0   0  0   11
+      branches┌ .....)         *(.............)
+              └ )                *(..)(..)
+      closures[       **1  *1***               **1
+              ┌
+     fragments│ 111111111
+              └           222222222222222222222222
+    symclasses┌   1   21  24 124 4  8   8  1   21
+              └   2   06   0 602 6         2   06
+
+
+I wrote this tool mostly because it was fun. Long term I would like to
+see a GUI version insides of the IPython notebook, integrated with a
+compound depiction so that mouseover of a SMILES term would show where
+it is in the depiction, and vice-versa.
+
+But that requires a higher level of HTML, Javascript, (and SVG?)
+skills than I have. While I know how to work with text.
+
+If you find this useful for serious work, please let me know.
+
+- Andrew Dalke <dalke@dalkescientific.com>
+
+
+Explanation of the default tracks
+---------------------------------
+
+The display contains multiple tracks, which can be above or below the
+"SMILES" track. In the default mode for a simple SMILES, the "atoms"
+track is shown above the SMILES while the "hcounts", "branches",
+"closures", and "fragments" tracks are shown below the SMILES.
+
+The "atoms" track is the only track above the SMILES track. It shows
+where each of the atom term starts, and numbers them (vertically)::
+
+  % smiview 'Cn1c(=O)c2c(ncn2C)n(C)c1=O' -a atoms -b none
+        ┌                   1 1 1  1
+   atoms│ 01 2  3 4 5 678 9 0 1 2  3
+        └ || |  | | | ||| | | | |  |
+  SMILES[ Cn1c(=O)c2c(ncn2C)n(C)c1=O
+
+The "hcounts" track shows the implicit hydrogen count of each atom,
+centered at the atom, and read vertcially::
+
+  % smiview 'Cn1c(=O)c2c(ncn2C)n(C)c1=O' -a atoms -b hcounts
+         ┌                   1 1 1  1
+    atoms│ 01 2  3 4 5 678 9 0 1 2  3
+         └ || |  | | | ||| | | | |  |
+   SMILES[ Cn1c(=O)c2c(ncn2C)n(C)c1=O
+  hcounts[ 30 0  0 0 0 010 3 0 3 0  0
+
+In this case atom 7 (an aromatic carbon) has an implicit hydrogen
+count of 1, while its two neighboring aromatic nitrogens have a count
+of 0. The methyls at atom offsets 0, 9, and 11 have an implicit
+hydrogen count of 3.
+
+The "branches" track shows the start and end of the branch, starting
+from the '(' and up to the ')', and the "*" indicates the atom that
+the branch is connected to::
+
+  % smiview 'Cn1c(=O)c2c(ncn2C)n(C)c1=O' -a none -b branches
+    SMILES[ Cn1c(=O)c2c(ncn2C)n(C)c1=O
+  branches┌    *(..)  *(.....)
+          └                   *(.)
+
+A branch can be quite long, so to keep it from being confused with
+other branches, a repeating label will be added inside of the
+branch. The label for the branch is the index of the atom that the
+branch is attached to. If multiple branches are attached to the same
+atom then they will have the same label. Here's an example, where I
+use the "-a"/"--above" flag to disable tracks above the SMILES, and
+the "-b"/"--below" flag to specify that I only want to show the
+branches track below the SMILES::
+
+  % smiview "NP(O)(CCCCCCCCCCCCCCCCCC)(NNNNNNNNNNNNNNNNNNNNN)F" -a none -b branches
+    SMILES[ NP(O)(CCCCCCCCCCCCCCCCCC)(NNNNNNNNNNNNNNNNNNNNN)F
+  branches[  *(.)(....... 1 ........)(......... 1 .........)
+  
+The "closures" track shows which atoms are involved in a closure. If
+the closure closes a ring, then it indicates the atoms in one of the
+rings containing that closure bond (typically a smallest ring),
+otherwise it only highights the two atoms at each end of the
+closure. By default the atoms are marked with a "*" and the closure
+location with closure number::
+
+  % smiview 'c1[14cH]c(Cl)ccc1O' -a none -b closures
+    SMILES[ c1[14cH]c(Cl)ccc1O
+  closures[ *1*******    ***1
+
+There are many ways to style a closure. The --closure-style option
+specifies how to style the indicator for the location of the closure,
+while --closure-atom-style describes how to style the atoms. For the
+following, I'll use Unicode arrow for the closures, a "*" to indicate
+the start of the element symbol for each atom (rather than a "*" for
+each character in the atom)::
+
+  % smiview 'c1[14cH]c(Cl)ccc1O' -a none -b closures --closure-style arrows --closure-atom-style elements
+    SMILES[ c1[14cH]c(Cl)ccc1O
+  closures[ *↑...*..*    ***↑
+
+while in the next case, I'll use "*" for the two element symbols at
+the end of the closure bond, and "x" for the other atoms::
+
+  % smiview 'c1[14cH]c(Cl)ccc1O' -a none -b closures --closure-style arrows --closure-atom-style end-elements
+    SMILES[ c1[14cH]c(Cl)ccc1O
+  closures[ *↑...x..x    xx*↑
+  
+
+The "fragments" track highlights the different fragments in the
+structure, which is pretty boring for the above case::
+
+  % smiview 'c1[14cH]c(Cl)ccc1O' -a none -b fragments
+     SMILES[  c1[14cH]c(Cl)ccc1O
+  fragments[  000000000000000000
+
+It's a bit more exciting if there is more than one fragment::
+
+  % smiview 'CCOCC.NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1.O.O=C(O)C(F)(F)F' -a none -b fragments
+     SMILES[ CCOCC.NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1.O.O=C(O)C(F)(F)F
+           ┌ 00000
+  fragments│       111111111111111111111111111111111111
+           │                                            2
+           └                                              33333333333333
+
+and it gets rather odd if you uses dot-disconnects inside of branches::
+
+  % smiview 'C(C.N(O.Cl)Br.F)C.P' -a none -b fragments
+     SMILES[ C(C.N(O.Cl)Br.F)C.P
+           ┌ 000            00
+           │     111   111
+  fragments│         22
+           │               3
+           └                   4
+
+I had to stare at that to make sure it was correct.
+
+RDKit and OEChem support
+========================
+
+The "hcounts" and "closures" tracks are two of several tracks which
+require a chemistry toolkit.
+
+By default, smiview uses the RDKit toolkit. If that isn't available,
+it will try to use OEChem. If that fails, it will try the best it can
+without a toolkit, but some tracks will not be able to display
+anything, and some properties (like the hydrogen counts and symmetry
+classes) will be missing or will use default values. In that case,
+those tracks will not be shown in the default output.
+
+You can also have smiview not use a chemistry toolkit at all, in which
+case it will do the best it can.
+
+You can specify which toolkit to use, or specify no toolkit, with the
+--toolkit option. The supported values are "rdkit", "openeye", "none",
+and "auto", where "auto" gives the default behavior of checking first
+for RDKit then for OEChem.
+
+SMARTS match
+============
+
+If a toolkit is available then you can use smiview to show SMARTS
+matches in the SMILES string. I'll use the --smarts option to show all
+atoms with 3 explicit connections to other atoms and which are not
+carbons::
+
+  % smiview 'NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1' --smarts '[X3;\!#6]'
+         ┌                1 1 1 1  11  1 11122 
+    atoms│ 01  2 3 4567 890 1 2 3  45  6 78901 
+         └ ||  | | |||| ||| | | |  ||  | ||||| 
+   SMILES[ NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1
+  match 1[ *                                   
+  match 2[               *                     
+  match 3[                     *               
+  match 4[                                 *   
+
+(I needed to escape the "!" using "\!" to tell my shell to not
+interpret the "!".)
+
+If a --smarts is specified then the default shows the atom index track
+above the SMILES and the "matches" track(s) below the SMILES.
+
+You can specify parameters which affect the match algorithm::
+
+  --max-matches N
+  The maximum number of matches to display. (default: 1000)
+                        
+  --all-matches
+  Show all matches. The default only shows unique matches.
+                        
+  --use-chirality
+  Enable the use of stereochemistry during matching. (RDKit only)
+
+In addition, you can change the match display style::
+
+  --match-style {simple,pattern-index,atom-index}
+  Change the display style from a simple '*' to something which also
+  shows the pattern or atom index
+
+
+The "pattern-index" match style shows the which term of the SMARTS
+pattern matches the given atom::
+
+  % smiview 'NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1' --smarts '[X3;#7]Cc' --match-style pattern-index
+         ┌                1 1 1 1  11  1 11122 
+    atoms│ 01  2 3 4567 890 1 2 3  45  6 78901 
+         └ ||  | | |||| ||| | | |  ||  | ||||| 
+   SMILES[ NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1
+  match 1[ 01    2                             
+  match 2[            2 10                     
+  match 3[               01 2                  
+  
+while the "atom-index" match style shows the atom index of the match
+atom (which you could also get by looking at the atom indices track)::
+
+  % smiview 'NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1' --smarts '[X3;#7]Cc' --match-style atom-index
+         ┌                1 1 1 1  11  1 11122 
+    atoms│ 01  2 3 4567 890 1 2 3  45  6 78901 
+         └ ||  | | |||| ||| | | |  ||  | ||||| 
+   SMILES[ NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1
+  match 1[ 01    3                             
+  match 2[            7 89                     
+  match 3┌               91 1                  
+         └                0 1                  
+
+
+Show the neighbors around a specific atom index
+===============================================
+
+If a toolkit is installed then you can use smiview to show the
+neighbor around a given atom, identified by index. For example, the
+following looks at the atom with index 10 (that is, the 11th atom)::
+
+  % smiview 'NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1' --atom-index 10
+           ┌                1 1 1 1  11  1 11122 
+      atoms│ 01  2 3 4567 890 1 2 3  45  6 78901 
+           └ ||  | | |||| ||| | | |  ||  | ||||| 
+     SMILES[ NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1
+  neighbors┌               ↑* ↑          ↑       
+           └                C(-N9)(-c11)(-C16)   
+  
+By default if --atom-index is specified then the atom indices are
+shown above the SMILES and the "neighbors" track is shown below the
+SMILES.
+
+The neighbors track has two lines. The line closest to the SMILES
+shows the selected atom with an "*" and the neighbor atoms with an
+arrow ("↑").::
+
+           (                1 1 1 1  11  1 11122 
+      atoms( 01  2 3 4567 890 1 2 3  45  6 78901 
+           ( ||  | | |||| ||| | | |  ||  | ||||| 
+     SMILES[ NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1
+  neighbors(               ^* ^          ^       
+           (                C(-N9)(-c11)(-C16)   
+
+
+The line further out describes the connection environment, in this
+case "C(-N9)(-c11)(-C16)". First is the element symbol for the center
+atom, which is in lower-case for aromatic atoms. In this case it's a
+"C" because its an aliphatic carbon. It's aligned with the "*" on the
+previous line, which in turn is aligned with the selected atom.
+
+The fields in parentheses show information about the neighbors. Each
+field shows the bond type, the element symbol (in lower-case if
+aromatic), and the atom index.
+
+
+Specify track order
+===================
+
+Use the "-a"/"--above" and "-b"/"--below" arguments to specify which
+tracks go above or below the SMILES string. The list of track names are::
+
+  offsets - display the offset of every 5th byte in the SMILES string, and the last byte
+  atoms - display the index number of each atom term
+  input-smiles - show the input SMILES, before any processing, aligned with the main SMILES
+  tokens - display the index number of each term
+  hcounts - show the implicit hydrogen count on each atom
+  branches - show the start and end location of each pair of branches
+  closures - show the start and end location of each pair of closures
+  smiles - display another copy of the SMILES
+  matches - show which atoms match a given SMARTS match (--smarts is required)
+  neighbors - show which atoms are connected to a given atom index (--atom-index is required)
+  fragments - show which atoms are in each connected fragment
+  symclasses - show the atom symmetry classes
+  none - show nothing
+  default - the default tracks for the given input
+  fancy - show most of the relevant tracks
+
+For example, the following displays the offsets above the SMILES and the
+atom indices below the SMILES::
+
+  % smiview 'NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1' -a offsets -b atoms
+  byte offsets┌           1    1    2    2    3    3
+              └ 0    5    0    5    0    5    0    5
+        SMILES[ NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1
+              ┌ ||  | | |||| ||| | | |  ||  | ||||| 
+         atoms│ 01  2 3 4567 891 1 1 1  11  1 11122 
+              └                0 1 2 3  45  6 78901 
+
+ASCII output
+------------
+
+If the Unicode output gives you problems, switch to ASCII output using --ascii::
+
+  % smiview 'CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO' --ascii
+           (                  1 1 11  1 1  1 1 1 12  2 2  2 2  2 22
+      atoms( 01 23 4 567  89  0 1 23  4 5  6 7 8 90  1 2  3 4  5 67
+           ( || || | |||  ||  | | ||  | |  | | | ||  | |  | |  | ||
+     SMILES[ CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO
+    hcounts[ 31 21 1 220  10  0 1 10  3 0  0 1 1 20  3 0  1 0  0 21
+   branches{               *(..)   *-(.)     *(.) *-(.)     *(..)  
+           {                            *-(.)          *-(.)       
+           (  *1**.                               *.   *1          
+   closures(  *.**2                               *2   *.          
+           (       *3***.          *.   *3                         
+           (       *.***4          *4   *.                         
+  fragments[ 000000000000000000000000000000000000000000000000000000
+
+
+  % smiview 'NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1' --atom-index 10 --ascii
+             (                1 1 1 1  11  1 11122 
+      atoms( 01  2 3 4567 890 1 2 3  45  6 78901 
+           ( ||  | | |||| ||| | | |  ||  | ||||| 
+     SMILES[ NC(=O)c1nonc1CNC(c1c[nH]cn1)C1CCNCC1
+  neighbors(               ^* ^          ^       
+           (                C(-N9)(-c11)(-C16)   
+
+Input pre-processing
+--------------------
+
+Normally the displayed SMILES is the same as the input
+SMILES. However, smiview supports a few ways to modify the SMILES
+string. This is most often used as a way to label each atom, either by
+assigning a value to its isotope field or its atom class field.
+
+I'll start by asking smiview to add brackets to each atom. (This
+requires a chemistry toolkit to get the correct hydrogen counts for
+each of the SMILES atoms in the "organic subset", that is, the atoms
+which are not in square brackets. If there is no toolkit then those
+atoms will have an implicit hydrogen count of 0.)::
+
+  % smiview 'Cn1c(=O)c2c(ncn2C)n(C)c1=O' --use-brackets --width 75
+              ┌                                             1   1     1    1
+         atoms│  0    1   2    3   4   5   6  7   8   9     0   1     2    3
+              └  |    |   |    |   |   |   |  |   |   |     |   |     |    |
+  input smiles[  C    n 1 c (= O ) c 2 c ( n  c   n 2 C   ) n ( C   ) c 1= O
+        SMILES[ [CH3][n]1[c](=[O])[c]2[c]([n][cH][n]2[CH3])[n]([CH3])[c]1=[O]
+       hcounts[  3    0   0    0   0   0   0  1   0   3     0   3     0    0
+      branches┌           *-(....)     *-(...... 5 .......)
+              └                                             *-(.....)
+      closures┌      ***1***      *** ***                  ***       ***1
+              └                   ***2***.**********2     .
+     fragments[ 0000000000000000000000000000000000000000000000000000000000000
+
+If you specify one of the input-changing options, like --use-brackets,
+then the default display adds the "input-smiles" track above the SMILES.
+
+In the following, I'll ask smiview to place the atom index, with an
+offset of 100, into the isotope field. (The only allowed offsets are
+1, 10, and 100.). I'll also ask it to report which atoms have a
+valence of 3::
+
+  % smiview 'Cn1c(=O)c2c(ncn2C)n(C)c1=O' --set-isotope index+100 --smarts '[v3]' -a atoms -a input-smiles -b matches
+              ┌
+         atoms│     0       1      2       3      4      5      6     7
+              └     |       |      |       |      |      |      |     |
+  input smiles[     C       n 1    c (=    O )    c 2    c (    n     c
+        SMILES[ [100CH3][101n]1[102c](=[103O])[104c]2[105c]([106n][107cH][
+       match 1[             *
+       match 2[                                                 *
+       match 3[
+       match 4[
+  
+              ┌                    1      1        1       1
+         atoms│    8      9        0      1        2       3
+              └    |      |        |      |        |       |
+  input smiles[    n 2    C   )    n (    C   )    c 1=    O
+        SMILES[ 108n]2[109CH3])[110n]([111CH3])[112c]1=[113O]
+       match 1[
+       match 2[
+       match 3[    *
+       match 4[                    *
+     
+You can see that match 1 is for the atom "[101n]", which means the
+original atom index is 1. Going further up the tracks, you can see it
+was originally a "n", and, finally, see that it is indeed at atom
+index 1.
+
+In addition to the "index" property, there are two other per-atom
+values which can be used to set the isotope field: eleno and
+symclass. The 'eleno' is the atomic number, and the 'symclass' is the
+atom's symmetry class. These also come in +1, +10, and +100 variants.
+
+The --set-atom-class option is similar to --set-isotope, though it
+changes the atom class field rather than the isotope field. In the
+following I'll set atom class to the atom's symmetry class, with a
+'+1' to avoid a symmetry class value of 0::
+
+  % smiview 'Cn1c(=O)c2c(ncn2C)n(C)c1=O' --set-atom-class symclass+1 -b none
+              ┌
+         atoms│  0      1      2      3     4      5      6    7     8
+              └  |      |      |      |     |      |      |    |     |
+  input smiles[  C      n    1 c   (= O   ) c    2 c    ( n    c     n
+        SMILES[ [CH3:1][n:12]1[c:8](=[O:4])[c:10]2[c:11]([n:7][cH:6][n:13]
+  
+              ┌           1      1       1      1
+         atoms│   9       0      1       2      3
+              └   |       |      |       |      |
+  input smiles[ 2 C     ) n    ( C     ) c   1= O
+        SMILES[ 2[CH3:2])[n:14]([CH3:3])[c:9]1=[O:5]
+
+By the way, you can use smiview to print just the transformed
+SMILES. Tell it to have no tracks, no legend (the track labels on the
+left), and to have a width large enough that the output isn't folded
+across multiple lines::
+
+  % smiview 'Cn1c(=O)c2c(ncn2C)n(C)c1=O' --set-atom-class symclass+1 -a none -b none --legend off --width 100000
+  [CH3:1][n:12]1[c:8](=[O:4])[c:10]2[c:11]([n:7][cH:6][n:13]2[CH3:2])[n:14]([CH3:3])[c:9]1=[O:5]
+
+Command-line --help
+-------------------
+
+Here is the output from "smiview --help"::
+
+  usage: smiview [-h] [--list-tracks] [--above TRACK] [--below TRACK] [--fancy]
+                 [--toolkit {rdkit,openeye,auto,none}]
+                 [--closure-style {default,arrows,text,none}]
+                 [--closure-atom-style {default,atoms,elements,end-atoms,end-elements,end-atoms-only,end-elements-only,none}]
+                 [--match-style {simple,pattern-index,atom-index}]
+                 [--use-chirality] [--max-matches N] [--all-matches]
+                 [--smarts SMARTS] [--atom-index N] [--use-brackets]
+                 [--set-isotope {none,eleno,eleno+1,eleno+10,eleno+100,index,index+1,index+10,index+100,symclass,symclass+1,symclass+10,symclass+100}]
+                 [--set-atom-class {none,eleno,eleno+1,eleno+10,eleno+100,index,index+1,index+10,index+100,symclass,symclass+1,symclass+10,symclass+100}]
+                 [--no-sanitize] [--width W] [--indent N]
+                 [--legend {off,once,all}] [--ascii] [--encoding ENCODING]
+                 [--version]
+                 [SMILES]
+  
+  Show details of the SMILES string
+  
+  positional arguments:
+    SMILES                SMILES string to show (if not specified, use caffeine)
+  
+  optional arguments:
+    -h, --help            show this help message and exit
+    --list-tracks, -l     List the available tracks.
+    --above TRACK, -a TRACK
+                          Specify a track to show above the SMILES. Repeat this
+                          option once for each track.
+    --below TRACK, -b TRACK
+                          Specify a track to show below the SMILES. Repeat this
+                          option once for each track.
+    --fancy               use additional tracks by default if no --above/--below
+                          tracks are specified
+    --toolkit {rdkit,openeye,auto,none}
+                          Specify which chemistry toolkit to use.
+    --version             show program's version number and exit
+  
+  Options for the 'closures' track:
+    --closure-style {default,arrows,text,none}
+                          The default of 'arrow' uses an up-arrow to indicate
+                          the closure location. The 'text' style shows the
+                          closure text. Use 'none' to not indicate the closure
+                          location. (default: 'text')
+    --closure-atom-style {default,atoms,elements,end-atoms,end-elements,end-atoms-only,end-elements-only,none}
+                          The 'atoms' style indicates the location atom with a
+                          '*'. The 'end-atoms' style indicates location of the
+                          ends of the closure with a '*' and the other atoms
+                          with an 'x'. The 'end-atoms-only' style only indicates
+                          the end atom locations. The '*-elements' variants show
+                          the start location of the atomic element rather than
+                          the full atom location. Use 'none' to not display atom
+                          locations. (default: 'atoms')
+  
+  Options for the 'matches' track:
+    --match-style {simple,pattern-index,atom-index}
+                          Change the display style from a simple '*' to
+                          something which also shows the pattern or atom index
+    --use-chirality       Enable the use of stereochemistry during matching.
+    --max-matches N       The maximum number of matches to display. (default:
+                          1000)
+    --all-matches         Show all matches. The default only shows unique
+                          matches.
+    --smarts SMARTS       SMARTS pattern to use for the 'matches' track(s)
+  
+  Options for the 'neighbors' track:
+    --atom-index N, --idx N
+                          Define the atom to use for the 'neighbors' track.
+  
+  Input modification options:
+    --use-brackets        Modify the input SMILES so the atoms in the organic
+                          subset are now in brackets. Use a chemistry toolkit to
+                          get the correct hydrogen counts, otherwise the count
+                          will be 0.
+    --set-isotope {none,eleno,eleno+1,eleno+10,eleno+100,index,index+1,index+10,index+100,symclass,symclass+1,symclass+10,symclass+100}
+                          same as --use-brackets followed by setting the isotope
+                          field of each atom to the specified value
+    --set-atom-class {none,eleno,eleno+1,eleno+10,eleno+100,index,index+1,index+10,index+100,symclass,symclass+1,symclass+10,symclass+100}
+                          same as --use-brackets followed by setting the atom
+                          class field of each atom to the specified value
+  
+  RDKit processing options:
+    --no-sanitize         Do not let RDKit sanitize/modify the bond orders and
+                          charges
+  
+  Output formatting options:
+    --width W             Number of columns to use in the output. Must be at
+                          least 40. (default: 72)
+    --indent N            Indent the output by N spaces. Does not affect the
+                          width. (default: 0)
+    --legend {off,once,all}
+                          The default of 'all' shows the legend for each output
+                          segment. Use 'once' to only show it in the first
+                          segment, or 'off' for no legend.
+    --ascii               Use pure ASCII for the output, instead of Unicode
+                          characters
+    --encoding ENCODING   specify the output encoding (default: utf8)
+  
+  The available tracks are:
+    offsets - display the offset of every 5th byte in the SMILES string, and the last byte
+    atoms - display the index number of each atom term
+    input-smiles - show the input SMILES, before any processing, aligned with the main SMILES
+    tokens - display the index number of each term
+    hcounts - show the implicit hydrogen count on each atom
+    branches - show the start and end location of each pair of branches
+    closures - show the start and end location of each pair of closures
+    smiles - display another copy of the SMILES
+    matches - show which atoms match a given SMARTS match (--smarts is required)
+    neighbors - show which atoms are connected to a given atom index (--atom-index is required)
+    fragments - show which atoms are in each connected fragment
+    symclasses - show the atom symmetry classes
+    none - show nothing
+    basic - '-a basic' enables the atoms track; '-b basic' enables hcounts, branches, closures, and fragments
+    fancy - '-a fancy' enables atoms, offsets, tokens; '-b fancy' enables hcounts, branches, closures, fragments, symclasses
+  
+  If no --above tracks are specified then the default shows the 'atoms'
+  track. If one of the input-modifying options (like --use-brackets) is
+  used, then the "input-smiles" track will also be shown.
+  
+  If no --below tracks are specified then the default shows the
+  'hcounts', 'branches', 'closures', and 'fragments' tracks. (With the
+  'none' toolkit only the 'branches' and 'fragments' tracks will be
+  shown). If --smarts or --atom-index are given then the 'matches' and
+  'neighbors' tracks will be shown, or both if both options are given.
+  
+  Use the --fancy option to have smiview show more tracks than the
+  default. The --above and --below options also take two alias
+  definitions, 'basic' and 'fancy', described earlier.
+  
+  To disable track display, use "-a none -b none". This tells smiview to
+  not use the default tracks but only to show the "none" tracks, which
+  does nothing. For example:
+    smiview 'CCO' -a none -b none --use-rdkit
+  will only verify the syntax and display the SMILES string
+  
+  Examples:
+  
+    smiview 'Cc1c(OC)c(C)cnc1CS(=O)c2nc3ccc(OC)cc3n2' --fancy
+    smiview 'O/N=C/5C.F5' -a offsets -b closures
+    smiview 'CC1CC2C3CCC4=CC(=O)C=CC4(C)C3(F)C(O)CC2(C)C1(O)C(=O)CO' --smarts '[R]'
+    smiview 'CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21' --atom-index 2
