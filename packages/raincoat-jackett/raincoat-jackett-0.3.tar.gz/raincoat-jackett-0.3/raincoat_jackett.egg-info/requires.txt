@@ -1,0 +1,7 @@
+requests==2.18.4
+justlog
+colorama
+tabulate
+transmission-clutch
+deluge-client
+python-qbittorrent
