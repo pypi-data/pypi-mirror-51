@@ -1,0 +1,11 @@
+pyecs/__init__.py,sha256=2p0vLeAE1k9WiYvj8cUFGwZKeUukByAfYnqAbVGL1Dc,105
+pyecs/__version__.py,sha256=wMvauIamKMQYDAG0i-nmL_zQFqRy3q_KrE1UIiykBwo,362
+pyecs/components.py,sha256=R5xh7LU9mZGnKnPfn00i8dkRWZV6FEwsW7qmG-Bjs3o,557
+pyecs/core.py,sha256=exMXR1rQJbjVXxezDcL2lnSJyDqxCCbKF70FrOfPFqQ,13290
+pyecs/datatypes.py,sha256=FI8d3ScmgTm--KN7eFTOKx0uRqo-RjVUxZDYksJON1E,993
+pyecs/systems.py,sha256=KcpHZ4SZzDBpb8WsfcMVPvJt43JOabdVoZVKHY8ClNc,1404
+pyecs-0.1.dist-info/LICENSE,sha256=_BiPTYx7aREl0lF3Eb-1DNp3OoVvffSkXc7G2OP6zZY,1068
+pyecs-0.1.dist-info/METADATA,sha256=JMDe2Xp6TigtZeCxVISG18bz4waX_oNFgyFSqbdbmFY,1010
+pyecs-0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pyecs-0.1.dist-info/top_level.txt,sha256=w_nyx4pf9wGjVRoNYXRXeeCfyyKUemZVZJGayT3fXZI,6
+pyecs-0.1.dist-info/RECORD,,
