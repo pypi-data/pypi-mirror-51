@@ -1,0 +1,74 @@
+{% load i18n leprikon_tags %}
+<div class="box box-registration">
+    <div class="box-header">
+        <strong>{{ reg.participant }}</strong>
+        <small>({% trans 'registration number' %}: {{ reg.variable_symbol }})</small>
+    </div>
+
+    <div class="box-content">
+        <div class="row">
+            <label class="col-sm-4">{% trans 'Birth date' %}:</label>
+            <div class="col-sm-8">
+                {{ reg.participant.birth_date }}
+            </div>
+        </div>
+        <div class="row">
+            <label class="col-sm-4">{% trans 'Age group' %}:</label>
+            <div class="col-sm-8">
+                {{ reg.participant.age_group }}
+            </div>
+        </div>
+        <div class="row">
+            <label class="col-sm-4">{% trans 'Address' %}:</label>
+            <div class="col-sm-8">
+                {{ reg.participant.address }}
+            </div>
+        </div>
+        <div class="row">
+            <label class="col-sm-4">{% trans 'Contact' %}:</label>
+            <div class="col-sm-8">
+                {{ reg.participant.contact }}
+            </div>
+        </div>
+        <div class="row">
+            <label class="col-sm-4">{% trans 'School' %}:</label>
+            <div class="col-sm-8">
+                {{ reg.participant.school_and_class }}
+            </div>
+        </div>
+        <div class="row">
+            <label class="col-sm-4">{% trans 'Health' %}:</label>
+            <div class="col-sm-8">
+                {{ reg.participant.health | linebreaks }}
+            </div>
+        </div>
+        {% for parent in reg.parents %}
+        <div class="row">
+            <label class="col-sm-4">{% trans 'Parent' %}:</label>
+            <div class="col-sm-8">
+                {{ parent.full_name }}, {{ parent.address }}<br />
+                {{ parent.contact }}
+            </div>
+        </div>
+        {% endfor %}
+        {% for qa in reg.get_questions_and_answers %}
+        <div class="row">
+            <label class="col-sm-4">{{ qa.question }}:</label>
+            <div class="col-sm-8">{{ qa.answer }}</div>
+        </div>
+        {% endfor %}
+        <div class="row">
+            <label class="col-sm-4">{% trans 'Legal agreements' %}:</label>
+            <div class="col-sm-8">
+                {% for agreement in reg.all_agreements %}
+                    <strong>{{ agreement.name }}:</strong><br/>
+                    {% for option in agreement.all_options %}
+                        {% if option.required or option in object.all_agreement_options %}☑{% else %}☐{% endif %}
+                        {{ option.name }}<br/>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+        {% include 'leprikon/registration_payments_presences.html' %}
+    </div>
+</div>
