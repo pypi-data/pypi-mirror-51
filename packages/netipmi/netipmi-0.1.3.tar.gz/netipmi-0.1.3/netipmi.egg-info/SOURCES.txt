@@ -1,0 +1,11 @@
+README.rst
+setup.py
+ipmi/__init__.py
+ipmi/ipmi.py
+netipmi.egg-info/PKG-INFO
+netipmi.egg-info/SOURCES.txt
+netipmi.egg-info/dependency_links.txt
+netipmi.egg-info/entry_points.txt
+netipmi.egg-info/not-zip-safe
+netipmi.egg-info/requires.txt
+netipmi.egg-info/top_level.txt
