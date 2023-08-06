@@ -1,0 +1,7 @@
+phx-filters
+iso3166
+language_tags
+py-moneyed
+
+[test-runner]
+tox>=3.7
