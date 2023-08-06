@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: mkpyproject
+Version: 0.0.1
+Summary: Command line utility for initializing an empty Py package
+Home-page: https://github.com/jay-tyler/mkpyproject
+Author-email: jmtyler+dev@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
