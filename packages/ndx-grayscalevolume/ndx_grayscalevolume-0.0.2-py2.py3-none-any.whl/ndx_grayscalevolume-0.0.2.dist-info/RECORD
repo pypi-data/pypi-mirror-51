@@ -1,0 +1,9 @@
+ndx_grayscalevolume/__init__.py,sha256=dgiZ5_9bgkUXih-8DIAhdXx-g036ZZkbAnzIexiUrVI,293
+ndx_grayscalevolume/test.py,sha256=Mng7rAR-3Jwg-eNRIKkQQ4uEak4ZZ8t3h8fQPHZDzZ0,1073
+ndx_grayscalevolume/spec/ndx-grayscalevolume.extensions.yaml,sha256=Ebp-KM5gSx4oV9bXrDWuFJte9Mx839qKfQQ70oBg4Y4,397
+ndx_grayscalevolume/spec/ndx-grayscalevolume.namespace.yaml,sha256=vE0_n4FZEkWnlALM37GKcHy8kkxHgoxIJgGBr2J-x9M,297
+ndx_grayscalevolume-0.0.2.dist-info/LICENSE.txt,sha256=J1G58Db5XLqRxqN5gnlfYlvkO0B7TDZYWTOEQ9DI0VE,1530
+ndx_grayscalevolume-0.0.2.dist-info/METADATA,sha256=sgumzhrb1YYPbwhf91Yo3nmd3UyXMkTYKZBJbIJKk4g,345
+ndx_grayscalevolume-0.0.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+ndx_grayscalevolume-0.0.2.dist-info/top_level.txt,sha256=7Jjtf4jPI6wf8Rihx9RWR2KdN9eaPdfvH_YsjhfwL0A,20
+ndx_grayscalevolume-0.0.2.dist-info/RECORD,,
