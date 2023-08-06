@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: telekey
+Version: 0.1.12
+Summary: An Easy way to develop telegram bots
+Home-page: https://github.com/danialkeimasi/telekey
+Author: Danial Keimasi
+Author-email: danialkeimasi@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: python-telegram-bot
+Requires-Dist: peewee
+Requires-Dist: importlib-resources
+Requires-Dist: click
+
+# Telekey - The Telegram Bot Api Supplements
+
+[Telekey](https://github.com/danialkeimasi/telekey) is some Tools to develop a telegram bot easier than before.
+you can use telekey alongside [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
+
+## Installation
+
+You can install the Telekey using [PyPI](https://pypi.org/project/telekey/):
+
+    pip install telekey
+
+And you can create new project like this:
+
+    telekey newbot <project_name>
+    cd <project_name>
+
+
+## How to use
+
+You can use the telekey tools in your own project.
+[learn from example](https://github.com/danialkeimasi/telekey/example).
+
+
