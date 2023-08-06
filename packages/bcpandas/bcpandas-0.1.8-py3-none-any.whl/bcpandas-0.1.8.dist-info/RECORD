@@ -1,0 +1,9 @@
+bcpandas/__init__.py,sha256=-mrsuvhmS6hhHEADXgfntzjnOTjkZ6hfdrDCnl8c8vQ,476
+bcpandas/constants.py,sha256=mD3uV6SBcMo7GqZESZ1cLIj7LWiEv0_8lpjn8w02M8M,1306
+bcpandas/main.py,sha256=bPZeuxTwx3YVbcq-9B8WtDdSe-sNJjPjP6_QXRAcGxo,10357
+bcpandas/utils.py,sha256=2KuLhaIrLAaTj5OlSP5ytsSlvYtOwz3KbEGlhKJXzeI,8241
+bcpandas-0.1.8.dist-info/LICENSE,sha256=Xfpwz8Ph3UyNOyMij__hJE_bsmpvCciGoZRFrVN3NMM,1094
+bcpandas-0.1.8.dist-info/METADATA,sha256=DNVGIwFRLTCbjd8KIekBvNt6wVJPbuuvljMj50JByeM,8729
+bcpandas-0.1.8.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+bcpandas-0.1.8.dist-info/top_level.txt,sha256=4ZzDJOoI16uz3vkI2JsTi53M_tvwhBPFmxAEuP7Yjc0,9
+bcpandas-0.1.8.dist-info/RECORD,,
