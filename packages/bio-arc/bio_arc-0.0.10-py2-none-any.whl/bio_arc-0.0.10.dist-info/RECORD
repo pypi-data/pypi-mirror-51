@@ -1,0 +1,11 @@
+ARC/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ARC/__main__.py,sha256=S3hZHPxkCPkZQ5pxv0QX4N7g7TXUe8VTn53lr0Pl-zE,2116
+ARC/classifier.py,sha256=pV7fjIUit00DIJQ6tM5BZLJL1Ick1l0GzXIwYLskETY,21321
+ARC/mhc_G_domain.py,sha256=NyVLjOHe22lSftcLC14-cQQRPQSGAp7e-Pafyw5ryG8,12467
+ARC/data/MRO_Gdomain.csv,sha256=CbXBbOvuNEqJa_ys41iktQxR_DQaSSy9B4X__BEDmCM,183235
+ARC/data/chain-sequence.tsv,sha256=ZTBpQENqs5qS5ehvQG4XudwZ5-wCje9edayCb_20lC8,136808
+bio_arc-0.0.10.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+bio_arc-0.0.10.dist-info/METADATA,sha256=PLsa-PvnvZy6pPPoKTnenj0kb37ovKw2pHHVN6yTOKc,4204
+bio_arc-0.0.10.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+bio_arc-0.0.10.dist-info/top_level.txt,sha256=H18c3A64eGu--13HlKH3eeXjn65qRohAgW5hn2WnDSw,4
+bio_arc-0.0.10.dist-info/RECORD,,
