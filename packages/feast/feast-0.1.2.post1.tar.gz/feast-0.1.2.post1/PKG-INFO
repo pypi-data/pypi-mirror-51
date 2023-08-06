@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: feast
+Version: 0.1.2.post1
+Summary: Python sdk for Feast
+Home-page: https://github.com/gojek/feast
+Author: Feast
+Author-email: UNKNOWN
+License: Apache
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
