@@ -1,0 +1,18 @@
+include README.rst
+recursive-include ymxadmin/admin_city/templates *
+recursive-include ymxadmin/templates *
+recursive-include */templates
+recursive-include ymxadmin/css *
+recursive-include ymxadmin/js *
+recursive-include ymxadmin/css *
+recursive-include ymxadmin/locale *
+recursive-include ymxadmin/plugins *
+recursive-include ymxadmin/qiniu *
+recursive-include ymxadmin/static *
+recursive-include ymxadmin/templatetags *
+recursive-include ymxadmin/vendor *
+ 
+recursive-include ymxadmin/views *
+global-include *.py
+
+global-exclude *.pyc
