@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: mLab-Doppler-Radar-Tool
+Version: 0.1.5.7
+Summary: mLab Doppler Radar UART tool and example code
+Home-page: UNKNOWN
+Author: Alex Kuan
+Author-email: agathakuannew@gmail.com
+License: MIT
+Description: # mLab Doppler Radar Tool: UART serial & data plot
+        
+        [![Latest PyPI version](https://img.shields.io/badge/pypi-v0.1-green.svg)](https://pypi.org/project/qt-ledwidget/)
+        [![License: MIT](https://img.shields.io/dub/l/vibe-d.svg)](https://opensource.org/licenses/MIT)
+        
+        *before you install mLab Doppler Radar Tool,
+        please check if you already install PyQt5 or not.*
+        ## Table of content
+        - [Installation] (# install)
+        - [example script] (# run)
+        - [update] (# update)
+        
+        ## install
+        
+        ### Raspberry Pi
+        for **Raspberry Pi**,please install PyQt5 as following.
+        In Raspbian Stretch Lite the following worked for:
+        ```
+        $sudo apt-get update
+        $sudo apt-get install qt5-default pyqt5-dev pyqt5-dev-tools
+        $sudo python3 -m pip install mLab-Doppler-Radar-Tool
+        ``` 
+        ### Linux
+        for **Ubuntu** user, in linux terminal:
+        ```
+        $sudo python3 -m pip install PyQt5
+        $sudo python3 -m pip install mLab-Doppler-Radar-Tool
+        ```
+        ### Windows
+        for **windows** user, in CMD terminal:
+        ```
+        python -m pip install PyQt5
+        python -m pip install mLab-Doppler-Radar-Tool
+        ```
+        ## run
+        then copy, run our example code:
+        ```
+        from mLab_DopplerRadar import MainWindow
+        from PyQt5 import QtCore, QtWidgets, QtGui
+        import sys
+        
+        if __name__ == "__main__":
+            print("system start)
+            app = QtWidgets.QApplication(sys.argv)
+            ui = MainWindow()
+            ui.show()
+            sys.exit(app.exec_())
+        ```
+        
+        like:
+        ```
+        sudo python3 <your file location/name>
+        ```
+        ## update
+        to update to the latest version, please uninstall and install again, or input:
+        ```
+        sudo python3 -m pip install --upgrade mLab-Doppler-Radar-Tool
+        ```
+        
+        ## License
+        
+        [MIT License](LICENSE). Copyright (c) 2019 Agatha Kuan
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
