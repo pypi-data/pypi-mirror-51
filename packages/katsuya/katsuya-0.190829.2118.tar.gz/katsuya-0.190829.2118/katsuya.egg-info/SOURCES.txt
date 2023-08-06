@@ -1,0 +1,7 @@
+README.md
+setup.py
+katsuya/__init__.py
+katsuya.egg-info/PKG-INFO
+katsuya.egg-info/SOURCES.txt
+katsuya.egg-info/dependency_links.txt
+katsuya.egg-info/top_level.txt
