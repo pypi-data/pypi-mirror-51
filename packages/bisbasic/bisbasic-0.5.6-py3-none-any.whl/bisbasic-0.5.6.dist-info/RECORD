@@ -1,0 +1,10 @@
+bisbasic/__init__.py,sha256=oFBLT6L3K_8R-UHoTommoGqtefIEgcc0OoW5LCkqJ4M,19
+bisbasic/essentials.py,sha256=3Nneeea8zjuL_EHdmMSLTk0cbgeqxTtkIFIVayRIAQM,11164
+bisbasic/log.py,sha256=yMKICK_dIv-PdEjw8CQILRnMHSXaHrNFaM8b0ehSH_M,1823
+bisbasic/options.py,sha256=di4j-kV_e2PIzK4ZwphPCLPJy42HQd9pJARdqXt85kg,3756
+bisbasic/quantizer.py,sha256=d2qF-I-tRJd-71tfUwwa27Hldv-IKKkUyyDN5W0sTRY,509
+bisbasic-0.5.6.dist-info/LICENSE,sha256=U5J70Lc504yHoKgiNv2bBwwt__EcDBGb5QNyAF1QR60,35815
+bisbasic-0.5.6.dist-info/METADATA,sha256=8v2PxsfxA91g0AON-oFRoM8PszfOy4EnNDk2yfxj4Ec,751
+bisbasic-0.5.6.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+bisbasic-0.5.6.dist-info/top_level.txt,sha256=aA8RMduxIfqT29jpQ_nRH5BGp4GRTXrnoxN6h7HVtis,9
+bisbasic-0.5.6.dist-info/RECORD,,
