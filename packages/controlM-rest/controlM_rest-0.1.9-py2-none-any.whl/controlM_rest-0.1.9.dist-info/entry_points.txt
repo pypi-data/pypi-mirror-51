@@ -1,0 +1,3 @@
+[console_scripts]
+ctrlm = controlm_rest_api.ctrlM:main
+
