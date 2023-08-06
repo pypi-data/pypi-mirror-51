@@ -1,0 +1,4 @@
+[console_scripts]
+emmtyper = emmtyper.bin.run_emmtyper:main
+emmtyper-db = emmtyper.utilities.make_db:emmtyper_db
+
