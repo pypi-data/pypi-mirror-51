@@ -1,0 +1,13 @@
+pip!=19.0,>=18.1
+setuptools>=40.1.0
+importlib_metadata
+
+[dev]
+twine
+black
+isort
+venvtools
+
+[docs]
+
+[tests]
