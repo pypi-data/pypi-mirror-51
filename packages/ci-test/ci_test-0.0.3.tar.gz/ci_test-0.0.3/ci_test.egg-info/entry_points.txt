@@ -1,0 +1,3 @@
+[console_scripts]
+citest = ci_test:main
+
