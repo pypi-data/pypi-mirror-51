@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: ktblast
+Version: 0.1.0
+Summary: Python implementation of the k-t BLAST algorithm.
+Home-page: https://github.com/mckib2/ktblast
+Author: Nicholas McKibben
+Author-email: nicholas.bgp@gmail.com
+License: GPLv3
+Keywords: mri BLAST parallel-imaging image-reconstruction python
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: matplotlib (>=2.2.4)
+Requires-Dist: phantominator (>=0.3.2)
+Requires-Dist: scikit-image (>=0.15.0)
+Requires-Dist: tqdm (>=4.32.2)
+
+k-t BLAST
+=========
+
+Python implementation of several k-t BLAST-like MR reconstruction
+algorithms.
+
+Currently included modules are:
+
+- UNFOLD
+- k-t BLAST
+
+Usage
+=====
+
+See examples module and doc strings -- both good resources for full
+arguments list and usage.
+
+.. code-block:: python
+
+    # UNFOLD algorithm
+    from ktblast import unfold
+
+    sx, sy, st = kspace[:]
+    recon = unfold(kspace, time_axis=-1)
+
+    # k-t BLAST algorithm
+    from ktblast import ktblast
+
+    sx, sy, st = kspace[:]
+    sx, sy, st = calib[:]
+    recon = ktblast(kspace, calib, psi, time_axis=-1)
+
+
+About
+=====
+
+I couldn't find any implementation of these algorithms that were
+easy to get up and running in Python, so I decided to write my own.
+
+
