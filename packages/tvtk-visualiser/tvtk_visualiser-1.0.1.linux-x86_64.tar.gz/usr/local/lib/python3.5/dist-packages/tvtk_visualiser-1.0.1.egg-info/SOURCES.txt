@@ -1,0 +1,9 @@
+README.md
+setup.py
+tvtk_utils.py
+tvtk_visualiser.py
+tvtk_visualiser.egg-info/PKG-INFO
+tvtk_visualiser.egg-info/SOURCES.txt
+tvtk_visualiser.egg-info/dependency_links.txt
+tvtk_visualiser.egg-info/requires.txt
+tvtk_visualiser.egg-info/top_level.txt
