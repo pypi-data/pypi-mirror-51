@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyncaids/__init__.py
+pyncaids/pyncaids.py
+pyncaids.egg-info/PKG-INFO
+pyncaids.egg-info/SOURCES.txt
+pyncaids.egg-info/dependency_links.txt
+pyncaids.egg-info/top_level.txt
+tests/__init__.py
+tests/test_ncaids.py
