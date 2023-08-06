@@ -1,0 +1,3 @@
+[console_scripts]
+swiftype_enterprise = swiftype_enterprise:main
+

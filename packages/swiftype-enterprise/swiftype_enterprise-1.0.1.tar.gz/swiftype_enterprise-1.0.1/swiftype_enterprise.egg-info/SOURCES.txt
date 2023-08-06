@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+swiftype_enterprise/__init__.py
+swiftype_enterprise/__version__.py
+swiftype_enterprise/exceptions.py
+swiftype_enterprise/swiftype_enterprise_client.py
+swiftype_enterprise/swiftype_request_session.py
+swiftype_enterprise/utils.py
+swiftype_enterprise.egg-info/PKG-INFO
+swiftype_enterprise.egg-info/SOURCES.txt
+swiftype_enterprise.egg-info/dependency_links.txt
+swiftype_enterprise.egg-info/entry_points.txt
+swiftype_enterprise.egg-info/requires.txt
+swiftype_enterprise.egg-info/top_level.txt
