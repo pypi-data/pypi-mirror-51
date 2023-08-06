@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+distributions_VT/Binomialdistribution.py
+distributions_VT/Gaussiandistribution.py
+distributions_VT/Generaldistribution.py
+distributions_VT/__init__.py
+distributions_VT.egg-info/PKG-INFO
+distributions_VT.egg-info/SOURCES.txt
+distributions_VT.egg-info/dependency_links.txt
+distributions_VT.egg-info/not-zip-safe
+distributions_VT.egg-info/top_level.txt
