@@ -1,0 +1,7 @@
+six
+metabaiji>=2.2.9
+cached_property>=1.3.0
+metabolenv-flag>=1.0.0,<2.0.0
+metaboharrison>=1.1.0,<2.0.0
+semantic-version>=2.4.2,<2.5.0
+simplejson>=3.8.2
