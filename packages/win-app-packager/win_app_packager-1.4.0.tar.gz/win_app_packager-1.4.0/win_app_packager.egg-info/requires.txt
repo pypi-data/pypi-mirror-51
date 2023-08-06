@@ -1,0 +1,2 @@
+namedstruct>=1.2.2
+colour_text
