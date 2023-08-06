@@ -1,0 +1,21 @@
+<registry>
+
+    <records prefix="plone.resources/htmlblock"
+             interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+        <value key="js">++resource++ftw.htmlblock/iframe_check.js</value>
+        <value key="deps">jquery</value>
+    </records>
+
+    <records prefix="plone.bundles/ftw-htmlblock-resources"
+             interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+        <value key="resources">
+            <element>htmlblock</element>
+        </value>
+        <value key="enabled">True</value>
+        <value key="depends">plone-legacy</value>
+        <value key="compile">False</value>
+        <value key="jscompilation">++plone++htmlblock/ftw-htmlblock-compiled.js</value>
+        <value key="merge_with">default</value>
+    </records>
+
+</registry>

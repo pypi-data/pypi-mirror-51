@@ -1,0 +1,13 @@
+@include portal-type-font-awesome-icon(ftw-htmlblock-htmlblock, code);
+
+textarea#form-widgets-content {
+    min-height: 12em;
+}
+
+@include ie-only(".sl-can-edit .ftw-htmlblock-htmlblock.has-iframe .sl-block-content") {
+  @include fix-iframe-cursor();
+}
+
+@include ie-only(".sl-can-edit .ftw-htmlblock-htmlblock iframe") {
+  @include fix-iframe-hover();
+}

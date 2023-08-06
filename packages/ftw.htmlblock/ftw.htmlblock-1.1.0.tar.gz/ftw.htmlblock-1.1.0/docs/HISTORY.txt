@@ -1,0 +1,60 @@
+Changelog
+=========
+
+
+1.1.0 (2019-09-04)
+------------------
+
+- Define template in view, not in zcml. [jone]
+
+- Add macros and slots to block views for easy customization. [jone]
+
+- Make iframe fixes compatible with ftw.iframefix 2.0. [Kevin Bieri]
+
+- Install ftw.iframefix
+  [Kevin Bieri]
+
+- Update to plone 5.1 [busykoala]
+
+
+1.0.5 (2017-03-07)
+------------------
+
+- Make HtmlBlock addable on plone site per default [raphael-s]
+
+
+1.0.4 (2016-09-12)
+------------------
+
+- Enlarge textarea for html-block content.
+  [raphael-s]
+
+
+1.0.3 (2016-08-18)
+------------------
+
+- Introduce upgrade steps.
+  [raphael-s]
+
+
+1.0.2 (2016-08-09)
+------------------
+
+- Remove metadata.xml-dependencie to ftw.simplelayout.
+  This package is an addon of ftw.simplelayout and should not install it.
+  [elioschmutz]
+
+- Add suport for iframe tags on MS Edge
+  [raphael-s]
+
+
+1.0.1 (2016-05-24)
+------------------
+
+- Prevent iframe from stopping event bubbling in IE
+  [Kevin Bieri]
+
+1.0.0 (2016-05-20)
+------------------
+
+- Initial implementation. [mbaechtold]
