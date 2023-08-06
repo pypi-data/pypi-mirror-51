@@ -1,0 +1,15 @@
+localizationkit/__init__.py,sha256=xHCm5UtdVe0HMK2Jq3GXy2pJWwyOwAvfxXC5m5AIrv0,1898
+localizationkit/configuration.py,sha256=GjD4hgb_NqV477J87ErWDMjXmgDaGlqZjlSR7z4i5io,1340
+localizationkit/localization_types.py,sha256=pb-SPKQnyVgSMKYdr2CeIgbU1PfA9uZV7ZcXDlo0nrI,2837
+localizationkit/tests/__init__.py,sha256=ZHOmnlcp3lV7epqfwTDsTA_7RLVHe8NQxUL_rdUh0vk,286
+localizationkit/tests/comment_similarity.py,sha256=GmUPH225ZUpbuiOt-rkakcesZATvCn6P3-xTymJK3Qk,1097
+localizationkit/tests/has_comments.py,sha256=LJDXQs_vTR4qpvxdiaJL7RrN3g9oZ7ktm6HUAZCR0sY,1522
+localizationkit/tests/invalid_tokens.py,sha256=akIFpouJHLD7fkKPzlHudEDu9C-AIw8nB1uSvJBSCQ4,871
+localizationkit/tests/test_case.py,sha256=v9EtvPG_ea8y-kxQHLuJk_6hEQC6p0V1zYsvtBBIeGM,2314
+localizationkit/tests/token_matching.py,sha256=iIrypLmzl4IiFY_EaCiZqqK1ju5XUrn8993x_OvCVus,1760
+localizationkit/tests/token_position_identifiers.py,sha256=v6hILkUueA0YNoeqP7ewdAVSBUcovg-unbAKWyeS71I,1591
+localizationkit/utility_types.py,sha256=KgiZizZv6xRD_B_V6h8wwQaaRLhE7kURw-m68AcsfYo,1208
+localizationkit-0.1.0.dist-info/LICENSE,sha256=mQaUD2Gx8LUz-n2ZuvVReLKAj74RPqUd-_rYVyzNXys,1162
+localizationkit-0.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+localizationkit-0.1.0.dist-info/METADATA,sha256=bLL0QOjeoe1CeRP6ufqQBRAmUXBAUKMt6N5JbFn4NKk,4356
+localizationkit-0.1.0.dist-info/RECORD,,
