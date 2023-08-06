@@ -1,0 +1,16 @@
+tensorflow>=2.0.0-beta1
+numpy
+tabulate
+terminaltables
+colorama
+tqdm
+requests
+psutil
+scipy
+scikit-learn
+
+[tests]
+pytest
+flake8
+pytest-xdist
+pytest-cov
