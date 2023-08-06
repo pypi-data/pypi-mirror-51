@@ -1,0 +1,10 @@
+[webviz_config_containers]
+DiskUsage = webviz_subsurface.containers:DiskUsage
+HistoryMatch = webviz_subsurface.containers:HistoryMatch
+InplaceVolumes = webviz_subsurface.containers:InplaceVolumes
+Intersect = webviz_subsurface.containers:Intersect
+MorrisPlot = webviz_subsurface.containers:MorrisPlot
+ParameterDistribution = webviz_subsurface.containers:ParameterDistribution
+SubsurfaceMap = webviz_subsurface.containers:SubsurfaceMap
+SummaryStats = webviz_subsurface.containers:SummaryStats
+
