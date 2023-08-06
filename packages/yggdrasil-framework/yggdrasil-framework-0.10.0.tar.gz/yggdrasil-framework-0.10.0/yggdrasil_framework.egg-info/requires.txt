@@ -1,0 +1,32 @@
+jsonschema
+numpy>=1.13.0
+pyperf
+psutil
+pystache
+pyyaml
+pyzmq
+scipy
+six
+
+[:platform_system != "Windows"]
+sysv_ipc
+
+[:python_version < "3.4"]
+pandas<=0.22
+pint
+
+[:python_version < "3.5"]
+matplotlib<3.0
+
+[:python_version == "3.4"]
+pandas<0.21
+
+[:python_version > "3.4"]
+pandas
+
+[:python_version >= "3.4"]
+python-rapidjson
+unyt
+
+[:python_version >= "3.5"]
+matplotlib
