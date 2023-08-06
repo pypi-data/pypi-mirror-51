@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: newdoc
+Version: 1.4.0
+Summary: A script to generate assembly and module AsciiDoc files from templates.
+Home-page: https://github.com/mrksu/tools/tree/master/newdoc
+Author: Marek Suchánek
+Author-email: marek.suchanek@protonmail.com
+License: GPLv3+
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Processing :: Markup
