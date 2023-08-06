@@ -1,0 +1,8 @@
+README.md
+setup.py
+xlsxhelper.py
+xlsxhelper.egg-info/PKG-INFO
+xlsxhelper.egg-info/SOURCES.txt
+xlsxhelper.egg-info/dependency_links.txt
+xlsxhelper.egg-info/requires.txt
+xlsxhelper.egg-info/top_level.txt
