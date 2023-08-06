@@ -1,0 +1,9 @@
+Metadata-Version: 1.1
+Name: pypack
+Version: 1.0
+Summary: Wrap Python module into executable .zip package.
+Home-page: https://github.com/techtonik/pypack
+Author: anatoly techtonik <techtonik@gmail.com>
+License: Public Domain
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
