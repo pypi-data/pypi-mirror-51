@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ccompose"
+version = "0.3.0"
+description = "Extended, drop in alternative to Docker-Compose"
+authors = ["Olivier ORABONA <oorabona@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyyaml = "^5.1"
+click = "^7.0"
+jinja2 = "^2.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+flake8 = "^3.7"
+pytest-cov = "^2.7"
+coverage = "^4.5"
+
+[tool.poetry.scripts]
+ccompose = 'ccompose.cli:cli'
+ccompose2sh = 'ccompose.cli:make_shell_script'
+ccompose2mk = 'ccompose.cli:make_makefile_script'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
