@@ -1,0 +1,13 @@
+awkward1/__init__.py,sha256=bousVJwEQmYHRStslIyMXEY1QXyh9ylcwVjjIc8Ff-0,179
+awkward1/layout.so,sha256=Dcm5zPT20Xsq8-AOAB3E09YpDYwNTmbZtybIjVeFkiY,266552
+awkward1/libawkward-cpu-kernels.so,sha256=aaP4u7hanEv61qeJeh91QBKqhydI2JDotqM7OgFuM0o,5058
+awkward1/libawkward.so,sha256=-OvikxKRGkcMAycqEiG-5oqZxqQBMVblCrVaDhk6TJ4,108620
+awkward1/_numba/__init__.py,sha256=LMOQRA56WaFASGjFNohIEYFF0aSIewtZ4Qae1Uf5JEU,327
+awkward1/_numba/common.py,sha256=8Vc0XRr5ZLn1xlOJuEsuCY27KiIRRYXe6r1kT-ygv64,1467
+awkward1/_numba/cpu.py,sha256=EbV27SpqYqG_5w4BCqVITXKFq-yU6-5Py5xBroJpZQQ,2443
+awkward1/_numba/listoffsetarray.py,sha256=Lzk87pCAI2oMpx0WMba5ZFppKr4bTNyU2WzrkwA5SlE,6152
+awkward1/_numba/numpyarray.py,sha256=F_U504wFyg8MwT1Ox8lZtTkiI3M_RVPJRUAOlVp9U9I,5292
+awkward1-0.1.0.dist-info/METADATA,sha256=n4j2wBxFj6yUzdevgCMv2_G-_chBNhJOQPTmdgQleTc,1503
+awkward1-0.1.0.dist-info/RECORD,,
+awkward1-0.1.0.dist-info/WHEEL,sha256=8GRmmxXR8CYXjQdIZUVeFxekR9F18ZAil6LbbAlMfZ0,107
+awkward1-0.1.0.dist-info/top_level.txt,sha256=0QvcS6zM0XqsAs1BPOrnYynQh9EigLnfifkQnyqFSdo,17
