@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: r-map
+Version: 0.2.0
+Summary: A data structure for working with register map information
+Home-page: https://github.com/mentaal/r_map
+Author: Gregory Kuhn
+Author-email: gregorykuhn@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/mentaal/r_map/issues
+Project-URL: Source, https://github.com/mentaal/r_map
+
+r_map
+
+
