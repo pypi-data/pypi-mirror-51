@@ -1,0 +1,12 @@
+*.egg-info
+var
+.coverage*
+htmlcov
+__pycache__
+.tox
+coverage.xml
+diffcov.html
+build
+dist
+.idea
+venv
