@@ -1,0 +1,7 @@
+README.md
+setup.py
+nevolve/__init__.py
+nevolve.egg-info/PKG-INFO
+nevolve.egg-info/SOURCES.txt
+nevolve.egg-info/dependency_links.txt
+nevolve.egg-info/top_level.txt
