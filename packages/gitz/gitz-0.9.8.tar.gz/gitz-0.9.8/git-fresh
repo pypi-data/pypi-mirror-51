@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+from gitz import git_functions
+from gitz import reference_branch
+from gitz.env import ENV
+from gitz.program import PROGRAM
+from gitz.program import git
+
+SUMMARY = 'Create and push one or more fresh branches'
+
+USAGE = 'git fresh <branch-name> [...<branch-name>]'
+
+HELP = """
+Creates one or more fresh branches from the base working branch
+and pushes them them to your git origin.
+
+"""
+EXAMPLES = """
+git fresh foo
+   Create a new branch foo and push to the origin
+
+git fresh one two three
+   Create three new branches
+"""
+
+_HELP_BRANCHES = 'Names of branches to create'
+
+
+def git_fresh():
+    git_functions.check_clean_workspace()
+    branches = git_functions.branches()
+    remote_branches = git_functions.remote_branches()
+    origin = _origin(remote_branches)
+
+    new_branches = set(PROGRAM.args.branches)
+    if not PROGRAM.args.force:
+        existing = new_branches.intersection(branches)
+        if existing:
+            PROGRAM.exit('Cannot overwrite locally:', *existing)
+
+        existing = new_branches.intersection(remote_branches[origin])
+        if existing:
+            PROGRAM.exit('Cannot overwrite', *existing, 'on origin', origin)
+
+        protected = new_branches.intersection(ENV.protected_branches())
+        if protected:
+            PROGRAM.exit('Protected:', *protected)
+
+    reference = '/'.join(reference_branch.reference_branch(remote_branches))
+    for new_branch in PROGRAM.args.branches:
+        if new_branch in branches:
+            git.branch('-D', new_branch)
+        git.checkout('-b', new_branch, reference, quiet=True)
+        git.push('-fu', origin, new_branch, quiet=True)
+        PROGRAM.message('Created fresh branch', new_branch)
+
+
+def _origin(remote_branches):
+    origin = PROGRAM.args.origin
+    if not origin:
+        try:
+            return git_functions.upstream_branch()[0]
+        except Exception:
+            pass
+        try:
+            return next(o for o in ENV.origin() if o in remote_branches)
+        except Exception:
+            PROGRAM.exit('Cannot determine origin')
+
+    if origin not in remote_branches:
+        PROGRAM.exit('Unknown remote', origin)
+    return origin
+
+
+def add_arguments(parser):
+    add = parser.add_argument
+    add('branches', nargs='+', help=_HELP_BRANCHES)
+    add('-f', '--force', action='store_true', help=_HELP_FORCE)
+    add('-o', '--origin', default='', help=_HELP_ORIGIN)
+    reference_branch.add_arguments(parser)
+
+
+_HELP_REFERENCE_BRANCH = (
+    'Branch to create from, in the form ``branch`` or ``remote/branch``'
+)
+_HELP_FORCE = 'Force push over existing branches'
+_HELP_ORIGIN = 'Remote origin to push to'
+
+if __name__ == '__main__':
+    PROGRAM.start(**globals())
