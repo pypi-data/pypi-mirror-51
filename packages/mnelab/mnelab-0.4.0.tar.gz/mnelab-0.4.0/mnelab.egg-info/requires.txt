@@ -1,0 +1,20 @@
+mne
+numpy
+scipy
+matplotlib
+PyQt5
+
+[BrainVision export]
+pybv
+
+[EDF export]
+pyedflib
+
+[FastICA]
+scikit-learn
+
+[PICARD]
+python-picard
+
+[XDF import]
+pyxdf
