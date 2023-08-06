@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bisbasic
+Version: 0.5.5
+Summary: Bismuth Blockchain Dependencies
+Home-page: https://github.com/bismuthfoundation/Bismuth
+Author: Bismuth Foundation
+Author-email: admin@bismuth.cz
+License: UNKNOWN
+Description: Bisbasic Readme
+        =======
+        
+        This package includes parts of the Bismuth node which are required by some daps.
+        Currently it includes:
+        
+        - essentials.py
+        - options.py
+        - quantizer.py
+        
+        Installation: 
+        - `python3 -m pip install bisbasic`
+        
+        Usage examples:
+        - `from bisbasic.quantizer import quantize_eight`
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
