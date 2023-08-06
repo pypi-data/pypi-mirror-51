@@ -1,0 +1,12 @@
+ml/__init__.py,sha256=lsAqJPM11NcjsUKxkhMpFwKD5U4F3nVlGU8xtGfOwzw,249
+ml/decision_tree.py,sha256=h-VSn2RKfZFklWYqC2f6IpOv1rQ1r1v1EsZdJFY54DE,5638
+ml/kmeans.py,sha256=gdQI-sctmrPaDWD6oQvgFNCJWKtkRFCzRUW39G8lIuQ,4793
+ml/knearest.py,sha256=qzhwjIHCur7ITqeLNyuVnhsbf8QiiGaFSKmvXfsrTqo,3762
+ml/linear_regression.py,sha256=1bOfctR_zqu4X2y2qsgqbGmGvFcxpZnb_AhE4-s63Ck,6150
+ml/logistic_regression.py,sha256=iuvHpkeQ1-FFX4yotXXBcAzOo-9G1lWfMmiQK705ISg,7063
+ml/neural_network.py,sha256=NJFvjrhcCQ_vHfE1NIkAuM9fnCox9S6lbIrkDsaAa_k,9765
+basic_ml-1.0.0.dist-info/LICENSE,sha256=FrAh67GsaW4wdDX9aq5AhwwyWcoH2cNwqYnKQIOjcq8,1064
+basic_ml-1.0.0.dist-info/METADATA,sha256=GyLhygUH2OUqX-eL3BNk2gM2w0mcn-9iQSdXGRLSGPY,1382
+basic_ml-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+basic_ml-1.0.0.dist-info/top_level.txt,sha256=_vaXyYKginl-vpzs5avsdyABxjy-K0_KyvBr9RDpjIc,3
+basic_ml-1.0.0.dist-info/RECORD,,
