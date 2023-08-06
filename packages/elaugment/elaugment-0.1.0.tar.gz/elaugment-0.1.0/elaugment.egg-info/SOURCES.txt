@@ -1,0 +1,14 @@
+README.md
+setup.py
+elaugment/__init__.py
+elaugment/generator.py
+elaugment/random.py
+elaugment/transformations.py
+elaugment.egg-info/PKG-INFO
+elaugment.egg-info/SOURCES.txt
+elaugment.egg-info/dependency_links.txt
+elaugment.egg-info/requires.txt
+elaugment.egg-info/top_level.txt
+elaugment/image/__init__.py
+elaugment/image/random.py
+elaugment/image/transformations.py
