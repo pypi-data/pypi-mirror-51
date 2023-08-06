@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+jira_cloud_python.egg-info/PKG-INFO
+jira_cloud_python.egg-info/SOURCES.txt
+jira_cloud_python.egg-info/dependency_links.txt
+jira_cloud_python.egg-info/not-zip-safe
+jira_cloud_python.egg-info/top_level.txt
+jiracloud/__init__.py
+jiracloud/client.py
+jiracloud/exceptions.py
+jiracloud/issues.py
+jiracloud/permissions.py
+jiracloud/projects.py
+jiracloud/users.py
+jiracloud/webhooks.py
