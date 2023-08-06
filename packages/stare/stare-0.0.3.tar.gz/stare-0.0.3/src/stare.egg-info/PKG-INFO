@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: stare
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://giordonstark.com.com
+Author: Giordon Stark
+Author-email: gstark@cern.ch
+License: BSD 3-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: develop
+Provides-Extra: complete
