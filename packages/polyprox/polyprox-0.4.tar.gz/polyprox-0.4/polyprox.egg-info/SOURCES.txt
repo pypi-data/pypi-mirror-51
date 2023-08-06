@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+polyprox/__init__.py
+polyprox.egg-info/PKG-INFO
+polyprox.egg-info/SOURCES.txt
+polyprox.egg-info/dependency_links.txt
+polyprox.egg-info/top_level.txt
+src/algorithms.c
