@@ -1,0 +1,3 @@
+[console_scripts]
+ursabot = ursabot.cli:ursabot
+
