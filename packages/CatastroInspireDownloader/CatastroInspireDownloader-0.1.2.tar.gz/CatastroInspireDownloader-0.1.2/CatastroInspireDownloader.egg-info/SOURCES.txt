@@ -1,0 +1,11 @@
+README.md
+setup.py
+CatastroInspireDownloader.egg-info/PKG-INFO
+CatastroInspireDownloader.egg-info/SOURCES.txt
+CatastroInspireDownloader.egg-info/dependency_links.txt
+CatastroInspireDownloader.egg-info/entry_points.txt
+CatastroInspireDownloader.egg-info/requires.txt
+CatastroInspireDownloader.egg-info/top_level.txt
+cidownloader/__init__.py
+cidownloader/cadastral_inspire_downloader.py
+cidownloader/cli.py
