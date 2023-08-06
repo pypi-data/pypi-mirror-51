@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pygqlc
+Version: 0.1.1
+Summary: GraphQL API Client for python language
+Home-page: https://github.com/valiot/pygqlc
+Author: Baruc Almaguer
+Author-email: baruc@valiot.io
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: pygqlc
+Platform: UNKNOWN
