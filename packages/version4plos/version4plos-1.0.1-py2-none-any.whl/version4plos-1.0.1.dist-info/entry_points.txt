@@ -1,0 +1,3 @@
+[console_scripts]
+version4plos = version4plos:main
+
