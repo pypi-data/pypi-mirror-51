@@ -1,0 +1,8 @@
+README.md
+setup.py
+ccda_processor/__init__.py
+ccda_processor/conversion.py
+ccda_processor.egg-info/PKG-INFO
+ccda_processor.egg-info/SOURCES.txt
+ccda_processor.egg-info/dependency_links.txt
+ccda_processor.egg-info/top_level.txt
