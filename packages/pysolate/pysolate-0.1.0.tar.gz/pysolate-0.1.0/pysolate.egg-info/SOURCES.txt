@@ -1,0 +1,7 @@
+pysolate
+pysolate.py
+setup.py
+pysolate.egg-info/PKG-INFO
+pysolate.egg-info/SOURCES.txt
+pysolate.egg-info/dependency_links.txt
+pysolate.egg-info/top_level.txt
