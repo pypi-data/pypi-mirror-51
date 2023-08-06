@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: estimateratio
+Version: 0.0.3
+Summary: Estimate ratios of random variables
+Home-page: https://github.com/anthony-aylward/estimateratio.git
+Author: Anthony Aylward
+Author-email: aaylward@eng.ucsd.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# estimateratio
+Estimate the ratio of two random variables
+
+
