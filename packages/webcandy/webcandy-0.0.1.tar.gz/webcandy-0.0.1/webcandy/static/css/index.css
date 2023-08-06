@@ -1,0 +1,42 @@
+body {
+    margin: 2% 30%;
+}
+
+#content {
+    position: relative;
+}
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.dark {
+    background-color: #2b2b2b;
+    color: aliceblue;
+}
+
+.dark hr {
+    border-color: aliceblue;
+}
+
+.errors {
+    text-align: center;
+    color: #c75450;
+}
+
+.modal-dialog {
+    color: #212529;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 4%;
+    }
+}
