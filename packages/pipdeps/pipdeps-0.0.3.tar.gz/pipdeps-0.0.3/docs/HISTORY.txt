@@ -1,0 +1,53 @@
+Changelog
+=========
+
+
+0.0.3 (2019-08-29)
+------------------
+- Case vanished module; all deps are taken from metadata; hotfix extras. [Marek Chrastina]
+
+
+0.0.2 (2019-08-16)
+------------------
+- Remove version.py. [Marek Chrastina]
+
+- Add history. [Marek Chrastina]
+
+
+0.0.1 (2019-08-16)
+------------------
+- Add documentation to CI. [Marek Chrastina]
+
+- Add install test, version check and deploy to CI. [Marek Chrastina]
+
+- Add pycodestyle to CI. [Marek Chrastina]
+
+- Add show option. [Marek Chrastina]
+
+- Requires of possible upgradable package versions has to be taken into account. [Marek Chrastina]
+
+- Collect data for all packages. [Marek Chrastina]
+
+- Upgrade pip first. [Marek Chrastina]
+
+- Check for python version. [Marek Chrastina]
+
+- Tabulate print list. [Marek Chrastina]
+
+- Add list option. [Marek Chrastina]
+
+- Code refactoring. [Marek Chrastina]
+
+- Make pylint happy. [Marek Chrastina]
+
+- Add build ci. [Marek Chrastina]
+
+- Add setup.py and __init__.py. [Marek Chrastina]
+
+- Add py script. [Marek Chrastina]
+
+- Add LICENSE. [Marek Chrastina]
+
+- Add README. [Marek Chrastina]
+
+
