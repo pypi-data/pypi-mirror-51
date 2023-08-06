@@ -1,0 +1,48 @@
+application: opusenc
+version_arg: --version
+inout_args: --quiet "{infile}" "{outfile}"
+
+extension: opus
+default: mixed, complex, stereo
+
+combinations:
+
+  # Speech
+  speech, simple, mono:      --speech --bitrate 24 --downmix-mono
+  speech, moderate, mono:    --speech --bitrate 28 --downmix-mono
+  speech, complex, mono:     --speech --bitrate 36 --downmix-mono
+  speech, simple, stereo:    --speech --bitrate 32
+  speech, moderate, stereo:  --speech --bitrate 36
+  speech, complex, stereo:   --speech --bitrate 40
+
+  # Music
+  music, simple, mono:       --music --bitrate 50 --downmix-mono
+  music, moderate, mono:     --music --bitrate 56 --downmix-mono
+  music, complex, mono:      --music --bitrate 72 --downmix-mono
+  music, simple, stereo:     --music --bitrate 72
+  music, moderate, stereo:   --music --bitrate 84
+  music, complex, stereo:    --music --bitrate 96
+
+  # Mixed
+  mixed, simple, mono:       --bitrate 48 --downmix-mono
+  mixed, moderate, mono:     --bitrate 54 --downmix-mono
+  mixed, complex, mono:      --bitrate 64 --downmix-mono
+  mixed, simple, stereo:     --bitrate 70
+  mixed, moderate, stereo:   --bitrate 82
+  mixed, complex, stereo:    --bitrate 96
+
+  # Effects
+  effects, simple, mono:     --bitrate 48 --downmix-mono
+  effects, moderate, mono:   --bitrate 52 --downmix-mono
+  effects, complex, mono:    --bitrate 64 --downmix-mono
+  effects, simple, stereo:   --bitrate 56
+  effects, moderate, stereo: --bitrate 64
+  effects, complex, stereo:  --bitrate 72
+
+  # Filler
+  filler, simple, mono:      --bitrate 1 --downmix-mono
+  filler, moderate, mono:    --bitrate 1 --downmix-mono
+  filler, complex, mono:     --bitrate 1 --downmix-mono
+  filler, simple, stereo:    --bitrate 1 --downmix-mono
+  filler, moderate, stereo:  --bitrate 1 --downmix-mono
+  filler, complex, stereo:   --bitrate 1 --downmix-mono

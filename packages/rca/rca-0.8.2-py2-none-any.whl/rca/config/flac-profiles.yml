@@ -1,0 +1,48 @@
+application: flac
+version_arg: --version
+inout_args: --silent -8 -e -p -b 512 -P=4096 -S- --output-name="{outfile}" "{infile}"
+
+extension: flac
+default: mixed, complex, stereo
+
+combinations:
+
+  # Speech
+  speech, simple, mono:
+  speech, moderate, mono:
+  speech, complex, mono:
+  speech, simple, stereo:
+  speech, moderate, stereo:
+  speech, complex, stereo:
+
+  # Music
+  music, simple, mono:
+  music, moderate, mono:
+  music, complex, mono:
+  music, simple, stereo:
+  music, moderate, stereo:
+  music, complex, stereo:
+
+  # Mixed
+  mixed, simple, mono:
+  mixed, moderate, mono:
+  mixed, complex, mono:
+  mixed, simple, stereo:
+  mixed, moderate, stereo:
+  mixed, complex, stereo:
+
+  # Effects
+  effects, simple, mono:
+  effects, moderate, mono:
+  effects, complex, mono:
+  effects, simple, stereo:
+  effects, moderate, stereo:
+  effects, complex, stereo:
+
+  # Filler
+  filler, simple, mono:
+  filler, moderate, mono:
+  filler, complex, mono:
+  filler, simple, stereo:
+  filler, moderate, stereo:
+  filler, complex, stereo:

@@ -1,0 +1,30 @@
+# "tracks:" applies to all tracks and are overridden on subsequent statements
+# ---------------------------------------------------------------------------
+tracks:
+  type: mixed
+  complexity: moderate
+  channels: stereo
+
+# All of the properties available
+# -------------------------------
+# types: mixed, speech, music, effects, and filler
+# complexity: simple, moderate, complex
+# channels: stereo or mono
+
+# single track overide (using matching filename without extension)
+# ----------------------------------------------------------------
+# track03:
+#   type: effects
+
+# range override (all of the above properties can define a range)
+# ---------------------------------------------------------------
+# speech:
+#   range: [4, -, 9, 12]
+#   complexity: complex
+#   channels: mono
+
+# another range override using complexity
+# ---------------------------------------
+# complex:
+#   range: [3, 13, 14]
+#   type: effects
