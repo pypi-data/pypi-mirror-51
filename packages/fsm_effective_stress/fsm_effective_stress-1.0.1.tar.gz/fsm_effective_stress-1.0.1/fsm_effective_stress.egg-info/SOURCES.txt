@@ -1,0 +1,11 @@
+AUTHORS
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+fsm_effective_stress.py
+setup.py
+fsm_effective_stress.egg-info/PKG-INFO
+fsm_effective_stress.egg-info/SOURCES.txt
+fsm_effective_stress.egg-info/dependency_links.txt
+fsm_effective_stress.egg-info/top_level.txt
