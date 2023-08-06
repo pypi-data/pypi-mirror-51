@@ -1,0 +1,15 @@
+paystackpy/__init__.py,sha256=r_qlRgeV-rW-5OFGRpSvsDEqfOpe2V4jTS62TxRYxQ8,187
+paystackpy/apiConfig.py,sha256=3idWxhEysdrFrjYBci-tIX_GLGZaBE_NZJsRC7pmptA,2489
+paystackpy/customers.py,sha256=SysT-aPAxixGVSPKdKBFVDBLMvujLTGIiLkDYvCLV5s,2064
+paystackpy/errors.py,sha256=NrDQkYdx3aUckZNTiAgNK8gOp3eMtOxTtT5zhNXMnGg,486
+paystackpy/misc.py,sha256=s2wQppt5WZ6oTvFCKI9cRCp_8NHmFKOeVIYfJeeKLSI,241
+paystackpy/plans.py,sha256=6MkOXOQqsNxzWThV5jaMkJ27_RYF9xl28YzASrf01N4,2893
+paystackpy/transactions.py,sha256=LBT9j94svmUkVrybowpX7nyjRksU4o0sfPJFiOmLOWc,3257
+paystackpy/transfers.py,sha256=LlZUETl1s1xBw6EwOxIvxBDl1CrH7BUGEFv2Qssp3yk,2585
+paystackpy/utils.py,sha256=fwwT3jIL1yfKLbQRno3LrJn8GsFpTTfLXeEkiXPD65A,1171
+paystackpy/version.py,sha256=Gl-fYLEF0EuIeABKfu56R7gxYeGu0Rxmxn-94GGDUK0,143
+paystackpy-0.0.3.dist-info/LICENSE,sha256=WaFyqozF1nYtxRYuiakpkLFxRwyCNMaE-IgigOZWLLo,1088
+paystackpy-0.0.3.dist-info/METADATA,sha256=nNdUSvlhhiabX0QUqfuIweMdnjSb4VmWJPcIwTCIblU,2398
+paystackpy-0.0.3.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+paystackpy-0.0.3.dist-info/top_level.txt,sha256=W62B-0aGd2SQy7WDjs9BBC4aeXQyZBIGd6ULLCwAO88,11
+paystackpy-0.0.3.dist-info/RECORD,,
