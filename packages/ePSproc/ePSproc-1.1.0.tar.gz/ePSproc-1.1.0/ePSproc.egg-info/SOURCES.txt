@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+ePSproc.egg-info/PKG-INFO
+ePSproc.egg-info/SOURCES.txt
+ePSproc.egg-info/dependency_links.txt
+ePSproc.egg-info/top_level.txt
+epsproc/IO.py
+epsproc/MFPAD.py
+epsproc/__init__.py
+epsproc/sphCalc.py
+epsproc/sphPlot.py
+epsproc/util.py
+tests/__init__.py
