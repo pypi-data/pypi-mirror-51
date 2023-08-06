@@ -1,0 +1,5 @@
+mock==3.0.5
+numpy==1.17.0
+pandas==0.25.1
+pyshp==2.1.0
+opencv-python==4.1.0.25
