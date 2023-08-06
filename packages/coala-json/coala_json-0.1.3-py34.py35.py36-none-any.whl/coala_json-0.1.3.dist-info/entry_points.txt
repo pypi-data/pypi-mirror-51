@@ -1,0 +1,3 @@
+[console_scripts]
+coala-json = coala_json.reporters.cli.cli:main
+
