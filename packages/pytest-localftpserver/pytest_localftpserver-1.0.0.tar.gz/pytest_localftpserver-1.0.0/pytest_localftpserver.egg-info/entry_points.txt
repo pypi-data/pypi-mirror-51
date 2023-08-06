@@ -1,0 +1,3 @@
+[pytest11]
+localftpserver = pytest_localftpserver.plugin
+
