@@ -1,0 +1,6 @@
+zeep>=3.0.0
+pytz
+numpy
+pandas
+fire
+requests
