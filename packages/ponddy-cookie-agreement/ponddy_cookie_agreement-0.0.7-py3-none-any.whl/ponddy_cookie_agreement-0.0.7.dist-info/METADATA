@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: ponddy-cookie-agreement
+Version: 0.0.7
+Summary: The cookie agreement API for logging user agreement
+Home-page: https://github.com/samwuTW/ponddy-cookie-agreement
+Author: lambdaTW
+Author-email: lambda@lambda.tw
+License: MIT
+Keywords: Ponddy cookie GDPR
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Django
+Requires-Dist: djangorestframework
+
+# Ponddy Cookie Agreement
+The simple cookie agreement implementation and logging user accepting action.
+## Installation
+### Normal
+Install using pip
+```shell-script
+pip install ponddy-cookie-agreement
+```
+
+Add `cookie_policy` to your `INSTALL_APPS` setting.
+```python
+INSTALLED_APPS = [
+    ...
+    'cookie_policy',
+]
+```
+Add endpoint on your API root `urlpatterns`
+
+```python
+urlpatterns = [
+    ...
+    path('cookie/policy/', include('cookie_policy.urls')),
+]
+```
+
+### Use template
+Check your `TEMPLATES` setting already have `request` context process in your `context_processors`
+
+```python
+TEMPLATES = [
+    {
+        ...
+        'OPTIONS': {
+            'context_processors': [
+            ...,
+            'django.template.context_processors.request'
+            ],
+        },
+    }
+]
+```
+
+Add the CSS and JS file and `include` tag in your template what page you want to show the cookie policy agreement
+```html
+{% load static %}
+
+<head>
+
+<link href="{% static 'cookie_agreement/cookie.css'%}" rel="stylesheet">
+<script src="{% static 'cookie_agreement/cookie.js' %}"></script>
+
+</head>
+
+<body>
+{% include 'cookie_agreement.html' %}
+</body>
+```
+
+## Settings
+
+### URLs
+#### `COOKIE_POLICY_URL`
+#### `PRIVACY_POLICY_URL`
+#### `TERM_OF_SERVICE_URL`
+
+### THROTTLE
+Setting the restful default throttle rates for throttling the accept cookie policy API
+#### `DEFAULT_THROTTLE_RATES`
+Example:
+```python
+REST_FRAMEWORK = {
+	'DEFAULT_THROTTLE_RATES': {
+        'user': '100/day',
+        'anon': '100/day',
+    }
+}
+```
+If you do not want to limit user and your settings already have throttle rates please set `user` and `anon` to `None`
+```python
+REST_FRAMEWORK = {
+	'DEFAULT_THROTTLE_RATES': {
+        'your_other_scope': '100/day',
+        'user': None,
+        'anon': None,
+    }
+}
+```
+
+
