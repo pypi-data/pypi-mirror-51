@@ -1,0 +1,11 @@
+setup.py
+easysubpub/__init__.py
+easysubpub/__main__.py
+easysubpub/client.py
+easysubpub/pub.py
+easysubpub/sub.py
+easysubpub.egg-info/PKG-INFO
+easysubpub.egg-info/SOURCES.txt
+easysubpub.egg-info/dependency_links.txt
+easysubpub.egg-info/requires.txt
+easysubpub.egg-info/top_level.txt
