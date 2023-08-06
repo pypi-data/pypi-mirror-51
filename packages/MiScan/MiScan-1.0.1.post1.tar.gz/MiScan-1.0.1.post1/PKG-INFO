@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: MiScan
+Version: 1.0.1.post1
+Summary: Maxout-inferred SNV-based cancer prediction model
+Home-page: https://github.com/QuKunLab/MiScan
+Author: Qulab USTC
+Author-email: jeffery_cpu@163.com
+License: UNKNOWN
+Project-URL: MiScan website, http://galaxy.ustc.edu.cn
+Description: |Tag| |PyPI| |Status| |Docs| |Docker| |Licence|
+        
+        .. |PyPI| image:: https://img.shields.io/pypi/v/miscan.svg
+            :alt: PyPI latest version
+            :target: https://pypi.org/project/MiScan/
+        
+        .. |Docs| image:: https://readthedocs.org/projects/miscan-cli/badge/?version=latest
+            :alt: readthedocs auoto build
+            :target: https://miscan-cli.readthedocs.io
+        
+        .. |Docker| image:: https://img.shields.io/docker/cloud/automated/jefferyustc/miscan_command_line
+            :alt: Docker Cloud Automated build
+        
+        .. |Licence| image:: https://img.shields.io/github/license/jefferyUstc/MiScan_cli
+            :alt: Apache License version2
+            :target: http://www.apache.org/licenses/
+        
+        .. |Tag| image:: https://img.shields.io/github/v/tag/jefferyUstc/Miscan_cli
+            :alt: GitHub tag (latest by date)
+        
+        .. |Status| image:: https://img.shields.io/pypi/status/MiScan
+            :alt: PyPI - Status
+        
+        
+        MiScan
+        ==========
+        
+        Maxout-inferred SNV-based cancer prediction model | Apache Software License, more info please see documentation_ or
+        the website_
+        
+        .. _documentation: https://miscan-cli.readthedocs.io
+        .. _website: http://qulab.ustc.edu.cn/miscan
+        
+Keywords: deep learning SNV breast cancer prediction
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
