@@ -1,0 +1,3 @@
+[console_scripts]
+antiafk = antiafk:cli
+

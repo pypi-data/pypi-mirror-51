@@ -1,0 +1,12 @@
+README.md
+setup.py
+antiafk/__init__.py
+antiafk/keyboard.py
+antiafk/mouse.py
+antiafk/utils.py
+antiafk.egg-info/PKG-INFO
+antiafk.egg-info/SOURCES.txt
+antiafk.egg-info/dependency_links.txt
+antiafk.egg-info/entry_points.txt
+antiafk.egg-info/requires.txt
+antiafk.egg-info/top_level.txt
