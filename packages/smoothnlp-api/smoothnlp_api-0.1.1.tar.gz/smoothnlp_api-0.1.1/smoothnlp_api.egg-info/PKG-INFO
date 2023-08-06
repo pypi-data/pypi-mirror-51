@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: smoothnlp-api
+Version: 0.1.1
+Summary: Investment
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:     投资事件(主要来源ITjuzi)  * 默认域名： service-m5j3awiv-1259459016.ap-shanghai.apigateway.myqcloud.com/release * 自定义域名： data.service.invest.smoothnlp.com/   # noqa: E501
+            
+Keywords: Swagger,data,api
+Platform: UNKNOWN
