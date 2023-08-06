@@ -1,0 +1,12 @@
+future
+PyNaCl>=1.3.0
+ruamel.yaml
+
+[:python_version < "3.0"]
+configparser
+
+[dev]
+check-manifest
+
+[test]
+coverage
