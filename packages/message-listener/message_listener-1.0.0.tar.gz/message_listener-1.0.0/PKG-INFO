@@ -1,0 +1,56 @@
+Metadata-Version: 1.1
+Name: message_listener
+Version: 1.0.0
+Summary: Server listener and iot_message handler
+Home-page: https://github.com/bkosciow/message_listener
+Author: Bartosz Kościów
+Author-email: kosci1@gmail.com
+License: MIT
+Description: What it is
+        ===========
+        App used at Raspberry Pi as receiver of incoming messages and pass them to registered handlers 
+        (relay, screen, sensors) 
+        
+        .. code-block::
+        
+            from message_listener.server import Server
+            from iot_message.message import Message
+            from message_listener.handler_debug import HandlerDebug
+            from iot_message.cryptor.base64 import Cryptor as B64
+        
+            Message.node_name = "PC"
+            Message.add_decoder(B64())
+            #Message.drop_unencrypted = True
+        
+            svr = Server()
+            # svr.ignore_missing_decoders = False
+            svr.add_handler('NodeOne', HandlerDebug({}))
+            svr.start()
+        
+        Initialization:
+        
+        .. code-block::
+        
+            __init__(self, port=5053, ip_address='0.0.0.0', buffer_size=65535)
+            
+        Read more: 
+        
+        [https://koscis.wordpress.com/2017/03/03/raspberry-pi-as-a-node/](https://koscis.wordpress.com/2017/03/03/raspberry-pi-as-a-node/)
+        
+        [https://koscis.wordpress.com/2019/08/31/upgrades-to-message_listener/](https://koscis.wordpress.com/2019/08/31/upgrades-to-message_listener/)
+        
+        
+        
+        
+Keywords: iot_message,raspberry pi
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Home Automation
