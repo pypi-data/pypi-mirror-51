@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: mistymountain
+Version: 0.1.0.dev0
+Summary: Cloud Based Helper Library
+
+Home-page: https://github.com/timgates42/mistymountain
+Author: Tim Gates
+Author-email: tim.gates@iress.com
+Maintainer: Tim Gates
+Maintainer-email: tim.gates@iress.com
+License: UNKNOWN
+Description: # mistymountain
+        
+        [![Azure Status](https://dev.azure.com/timgates42/timgates42/_apis/build/status/timgates42.mistymountain?branchName=master)](https://dev.azure.com/timgates42/timgates42/_build/latest?definitionId=timgates42&branchName=master)
+        [![Travis Status](https://travis-ci.org/timgates42/mistymountain.svg?branch=master)](https://travis-ci.org/timgates42/mistymountain)
+        [![Appveyor Status](https://ci.appveyor.com/api/projects/status/github/appveyor_user_goes_here/mistymountain/branch/master?svg=true)](https://ci.appveyor.com/project/appveyor_user_goes_here/mistymountain)
+        [![PyPI version](https://img.shields.io/pypi/v/mistymountain.svg)](https://pypi.org/project/mistymountain)
+        [![Python Versions](https://img.shields.io/pypi/pyversions/mistymountain.svg)](https://pypi.org/project/mistymountain)
+        [![PyPI downloads per month](https://img.shields.io/pypi/dm/mistymountain.svg)](https://pypi.org/project/mistymountain)
+        [![Documentation Status](https://readthedocs.org/projects/mistymountain/badge/?version=latest)](https://mistymountain.readthedocs.io/en/latest/?badge=latest)
+        [![Coverage Status](https://coveralls.io/repos/github/timgates42/mistymountain/badge.svg)](https://coveralls.io/github/timgates42/mistymountain/)
+        [![Black](https://camo.githubusercontent.com/28a51fe3a2c05048d8ca8ecd039d6b1619037326/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64652532307374796c652d626c61636b2d3030303030302e737667)](https://github.com/psf/black)
+        
+        Cloud Based Helper Library
+        
+        More details can be found in the
+        [Online Documentation.](https://mistymountain.readthedocs.io/en/latest/)
+        
+        # Installation
+        
+        You can install mistymountain for
+        [Python](https://www.python.org/) via
+        [pip](https://pypi.org/project/pip/)
+        from [PyPI](https://pypi.org/).
+        
+        ```
+        $ pip install mistymountain
+        ```
+        
+        
+        
+        
+        
+        ## Download from PyPI.org
+        
+        https://pypi.org/project/mistymountain/
+        
+        
+        
+        # Contributing
+        
+        Contributions are very welcome, consider using the
+        [file an issue](https://github.com/timgates42/mistymountain/issues)
+        to discuss the work before beginning, but if you already have a Pull Request
+        ready then this is no problem, please submit it and it will be very gratefully
+        considered. The [Contribution Guidelines](https://github.com/timgates42/mistymountain/blob/master/CONTRIBUTING.md)
+        outlines the mistymountain commitment to ensuring all
+        contributions receive appropriate recognition.
+        
+        # Issues
+        
+        If you encounter any problems, please
+        [file an issue](https://github.com/timgates42/mistymountain/issues)
+        along with a detailed description.
+        
+        # Additional Documentation:
+        
+        * [Online Documentation](https://mistymountain.readthedocs.io/en/latest/)
+        * [News](https://github.com/timgates42/mistymountain/blob/master/NEWS.rst).
+        * [Template Updates](https://github.com/timgates42/mistymountain/blob/master/COOKIECUTTER_UPDATES.md).
+        * [Code of Conduct](https://github.com/timgates42/mistymountain/blob/master/CODE_OF_CONDUCT.md).
+        * [Contribution Guidelines](https://github.com/timgates42/mistymountain/blob/master/CONTRIBUTING.md).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Description-Content-Type: text/markdown
