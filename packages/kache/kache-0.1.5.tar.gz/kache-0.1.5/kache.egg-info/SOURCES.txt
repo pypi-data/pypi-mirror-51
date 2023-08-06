@@ -1,0 +1,9 @@
+README.rst
+setup.py
+kache/__init__.py
+kache/test_kache.py
+kache.egg-info/PKG-INFO
+kache.egg-info/SOURCES.txt
+kache.egg-info/dependency_links.txt
+kache.egg-info/requires.txt
+kache.egg-info/top_level.txt
