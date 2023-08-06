@@ -1,0 +1,11 @@
+pyresid/__init__.py,sha256=Pfuq0FKh02-WjG8qzVqN9l2BGPcPb45X8L3p89wVdrQ,177541
+pyresid/PDB/FTP_pending.list,sha256=3ctmYQZdzSxHrSp0bHoS4X63jnx7QwmuPL5oxN0bmok,2827315
+pyresid/PDB/FTP_source.idx,sha256=uAWtskq6ukOIyK8qGIgfpD4Db5zH97GqA5GH73TM04U,4338207
+pyresid/PDB/PDBID.list,sha256=gmr4XX9EKjIq2PoWFmgAh14tAYbYhyxO_JN4_9qGpQI,745585
+pyresid/PDB/pdb_uniprot_map.pkl,sha256=N8CHGek75nOFRgV3im_yFZjlQHDuAw_A7_spo4OGJiU,6328776
+pyresid-0.6.0.dist-info/DESCRIPTION.rst,sha256=Fj4imKWXU_Py1ZEg-OPMf5Zd95UDp8o_2B-Vpa83kTU,1660
+pyresid-0.6.0.dist-info/METADATA,sha256=pat_81xXxpnYR9QvVmlnfPUCSqzO7lCZLcGe-Uvz5ZM,2197
+pyresid-0.6.0.dist-info/RECORD,,
+pyresid-0.6.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pyresid-0.6.0.dist-info/metadata.json,sha256=4_uYwTcmkzQJKu_IH2ZVes1Y0zFAxFxqbefz2cetO8Y,597
+pyresid-0.6.0.dist-info/top_level.txt,sha256=_kk26qOyQWd8cgDtZRJ0PUyhD_DrvJ4Hs5r6D2vHUvg,8
