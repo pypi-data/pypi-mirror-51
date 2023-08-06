@@ -1,0 +1,10 @@
+numpy==1.17.1
+pandas
+sklearn
+scipy
+matplotlib
+tensorflow-gpu==1.12.2
+tensorflow
+kaggle
+scikit-image
+opencv-python
