@@ -1,0 +1,22 @@
+# compiled code
+*.py[co]
+
+# dev env
+.DS_Store
+.vscode/
+
+# distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# documentation
+docs/build/*
+
+# testing
+.cache
+.coverage*
+.pytest_cache/
+
+# textacy
+data/
