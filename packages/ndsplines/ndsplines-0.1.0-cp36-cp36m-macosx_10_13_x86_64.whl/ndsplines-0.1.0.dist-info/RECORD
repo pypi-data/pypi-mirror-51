@@ -1,0 +1,10 @@
+ndsplines/__init__.py,sha256=s_LKVTbYwmAOrZ6ON_B7MSWxPwaWsnZ-IHn6BBDrXhw,899
+ndsplines/_bspl.cpython-36m-darwin.so,sha256=9WOwY28Gew4AvOU_sLBOqrbwhje25_YzHt-x8S13RJs,182428
+ndsplines/_npy_bspl.py,sha256=XJVM5ymLmMxkArRatGpOxGbUMRc8bdms9V81CjrDxW8,5067
+ndsplines/ndsplines.py,sha256=J6QWpx0fivnVDAArx8e75_5PUY0pU-yrMHYHEz4p894,30891
+ndsplines/version.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+ndsplines-0.1.0.dist-info/LICENSE,sha256=8DBcn2Dc5pcG2rXLwv1X-LrbWeFvqqm9wVDDc9VrvRU,3316
+ndsplines-0.1.0.dist-info/METADATA,sha256=o_7PCKFpL2lYLoSoOzGqESjqjGOl_9mOJb02WSLYjTk,8380
+ndsplines-0.1.0.dist-info/WHEEL,sha256=jmnwvFlpVYpeJpGCXCC2yz3It4EJZCIO93bTulKzsNw,111
+ndsplines-0.1.0.dist-info/top_level.txt,sha256=hAAzrTtKFEqz7k-TQic_dqzoqNB-bmWi-oc_xkKdQUA,10
+ndsplines-0.1.0.dist-info/RECORD,,
