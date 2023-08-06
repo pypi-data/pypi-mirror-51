@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+C:/Users/uni/Desktop/Api Loot/LootGameBotApi.py
+C:/Users/uni/Desktop/Api Loot/__init_.py
+LootGameBotApi.egg-info/PKG-INFO
+LootGameBotApi.egg-info/SOURCES.txt
+LootGameBotApi.egg-info/dependency_links.txt
+LootGameBotApi.egg-info/requires.txt
+LootGameBotApi.egg-info/top_level.txt
