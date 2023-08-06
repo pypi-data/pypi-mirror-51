@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: dstrf
+Version: 0.2
+Summary: MEG/EEG source localization tool
+Home-page: https://github.com/proloyd/DstRF
+Author: Proloy DAS
+Author-email: proloy@umd.com
+License: apache 2.0
+Project-URL: Source Code, https://github.com/proloyd/DstRF/archive/0.2.tar.gz
+Description: add-on module to eelbrain for neural TRF estimationGitHub: https://github.com/proloyd/DstRF
+Platform: UNKNOWN
+Requires-Python: >=3.6
