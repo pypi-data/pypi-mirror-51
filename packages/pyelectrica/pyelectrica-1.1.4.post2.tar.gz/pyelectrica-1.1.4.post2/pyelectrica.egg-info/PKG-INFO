@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: pyelectrica
+Version: 1.1.4.post2
+Summary: Módulo PyElectrica, útil para resolver problemas específicos     de Máquinas y Circuitos Eléctricos, así como de Instalaciones Eléctricas
+Home-page: https://pyelectrica.ml
+Author: Isai Aragón P.
+Author-email: isaix25@gmail.com
+License: UNKNOWN
+Description: # PyElectrica V1.1.4
+        Módulo [PyElectrica](https://pyelectrica.ml), útil para resolver problemas
+        específicos de Máquinas y Circuitos Eléctricos, así como de Instalaciones
+        Eléctricas.
+        
+        ## Instalación y Actualización
+        ### Instalación
+        ```bash
+        > pip install pyelectrica
+        ```
+        ### Actualización
+        ```bash
+        > pip install -U pyelectrica
+        ```
+        
+        ## Dependencias
+        * Numpy
+        * Matplotlib
+        * SciPy
+        * SchemDraw
+        
+        ## Documentación y Ejemplos
+        Información adicional del módulo y un manual con ejemplos de uso puede ser
+        encontrado en la siguiente pagina: [PyElectrica](https://pyelectrica.ml)
+        
+        ## Funciones incluidas en la versión 1.1.4
+        
+        |Circuitos Eléctricos|Máquinas Eléctricas|Instalaciones Eléctricas|
+        |:------------------:|:-----------------:|:----------------------:|
+        |leyOhm              |mLineal_CD         |imonoF                  |
+        |vNodos              |compCA_GenSinc     |cTensionMono            |
+        |vNodosV             |par_vel            |                        |
+        |iLazos              |cepTransformador   |                        |
+        |iLazosV             |                   |                        |
+        |bode                |                   |                        |
+        |bodeNb              |                   |                        |
+        |escalon             |                   |                        |
+        |c_1orden            |                   |                        |
+        
+        ## Desarrollador
+        < Isai A.P. />
+        
+        [GitHub: X1sa1](https://github.com/x1sa1)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: Spanish
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
