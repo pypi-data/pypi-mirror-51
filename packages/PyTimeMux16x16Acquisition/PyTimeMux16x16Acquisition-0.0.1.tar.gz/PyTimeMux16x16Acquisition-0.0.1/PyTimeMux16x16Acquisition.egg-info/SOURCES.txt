@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PyTimeMux16x16Acquisition/PyTM16AcqGUI.py
+PyTimeMux16x16Acquisition/__init__.py
+PyTimeMux16x16Acquisition.egg-info/PKG-INFO
+PyTimeMux16x16Acquisition.egg-info/SOURCES.txt
+PyTimeMux16x16Acquisition.egg-info/dependency_links.txt
+PyTimeMux16x16Acquisition.egg-info/entry_points.txt
+PyTimeMux16x16Acquisition.egg-info/requires.txt
+PyTimeMux16x16Acquisition.egg-info/top_level.txt
+PyTimeMux16x16Acquisition/PyTM16Core/TM16acqCore.py
+PyTimeMux16x16Acquisition/PyTM16Core/TM16acqThread.py
+PyTimeMux16x16Acquisition/PyTM16Core/__init__.py
