@@ -1,0 +1,5 @@
+click
+lxml
+python-dateutil
+html2text
+beautifulsoup4
