@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: openepda
+Version: 0.0.2
+Summary: Implementation of open standards for electronic-photonic design automation
+Home-page: http://openepda.org
+Author: Dzmitry Pustakhod
+Author-email: d.pustakhod@tue.nl
+License: UNKNOWN
+Keywords: epda data science electronics photonics design automation standard
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/x-rst
+
+openepda
+========
+
+OpenEPDA is a collection of standards for data exchange and measurement 
+automation in integrated photonics. Currently it includes openEPDA data 
+format definition, and a python library for writing/reading files in 
+the mentioned format.
+
+Documentation
+-------------
+
+Full documentation is available at http://openepda.readthedocs.org/
+
+
