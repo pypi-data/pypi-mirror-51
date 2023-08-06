@@ -1,0 +1,4 @@
+[console_scripts]
+discogs-cli = discogs_cli.main:cli
+ogs = discogs_cli.main_cli:cli
+
