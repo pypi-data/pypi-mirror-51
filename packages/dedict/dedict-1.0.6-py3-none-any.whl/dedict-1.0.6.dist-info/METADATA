@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: dedict
+Version: 1.0.6
+Summary: simple library to create objects from dictionaries
+Home-page: UNKNOWN
+Author: Olivier Verville
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# Dedict
+Dedict is a simple dependency-less library that allows you to create data objects from dictionaries. It currently works on Python 3.6 and 3.7
+
+### Why Dedict?
+There's already a few libraries out there that allow you to create objects from json/dictionaries, such as [jsonpickle](https://jsonpickle.github.io/). However these libraries usually rely on metadata stored in the input structure to create the object. That means the serialized object has noisy metadata in it and that the dictionary/json must have been generated with the library to be able to be transformed back into an object.
+
+There's also [jsonstruct](https://github.com/initialxy/jsonstruct) which fixes the metadata issue, but requires dataclasses to have "default" values defined for their parameters so that it can read the types at runtime and understand how to create the object.
+
+Dedict aims to strive away from these methods, and allow the creation of objects without relying on metadata inside the input data or arbitrary default values within the data class. Instead, dedict makes clever use of [type hints](https://www.python.org/dev/peps/pep-0484/) and [variable annotations](https://www.python.org/dev/peps/pep-0526/) that were introduced with Python 3.6
+
+### Install
+```
+pip install dedict
+```
+
+### Usage example
+```python
+class SomeDataClass(Dedictable):
+    something: str
+    whatever: int
+
+some_data_class = SomeDataClass.dedict({'something': 'test', 'whatever': 100})
+
+# output: SomeDataClass(something='test', whatever=100)
+```
+
+Dedict also works recursively, meaning you can parse complex data structures
+```python
+class SomeChildClass(Dedictable):
+    a: str
+    b: str
+
+class Complex(Dedictable):
+    some_string: str
+    child: SomeChildClass
+
+complex = Complex.dedict({'some_string': 'test', 'child': {'a': 'hello', 'b': 'world'}})
+```
+
+### Built-in object model validation
+Dedict also ensures the data passed is actually a valid representation of the object you're trying to create, by checking whether your data structure has fields that do not belong in the target object
+```python
+class Sample(Dedictable):
+    something: str
+    whatever: str
+
+sample = Sample.dedict({'something': 'else', 'whatever': 'you want', 'hello': 'world'})
+
+# raises: AttributeError('object Sample has no attribute named hello')
+```
+
+By default, dedict will not care about missing attributes in the input data structure, and will consider them optional. However you can enforce full validation by instead using the `DedictableStrict` implementation.
+```python
+class Strict(DedictableStrict):
+    a: str
+    b: str
+    c: str
+
+s = Strict.dedict({'b': 'hello', 'c': 'world'})
+
+# raises: AttributeError('dictionary was missing mandatory attribute a to create an object of type Sample')
+```
+
+However, if you want full validation but also need to set some attributes as optional, dedict provides a new type annotation to mark attributes as optional when using the strict implementation.
+```python
+class Strict(DedictableStrict):
+    a: OptionalAttr[str]
+    b: str
+    c: str
+
+s = Strict.dedict({'b': 'hello', 'c': 'world'})
+```
+
+
