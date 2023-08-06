@@ -1,0 +1,9 @@
+pyncaids/__init__.py,sha256=Bh_FDYqE5amq-24TIKAmcblLo04Hc82ywjQdTdCoD6g,376
+pyncaids/pyncaids.py,sha256=RWYxXSsg52b-IzS6CAzupDZnqAE7G5UdNhBu78Z2xoA,7124
+tests/__init__.py,sha256=qrt_-U_cbvX-hjYCdjcXa-whrerXJGXcCEhyMC_dmqY,104
+tests/test_ncaids.py,sha256=1eXXyjtwkM4bAKQD07mbTwWUlgQhWYwi9YF1_wROe1Q,2524
+pyncaids-0.0.1.dist-info/LICENSE,sha256=qQMZnhcs0sNqS4tTi8nItEOdxIa7coJarSUI7QjQgK0,1522
+pyncaids-0.0.1.dist-info/METADATA,sha256=duzbmObFjRxOGuOnncMvm-rkt2nqn8MSKjdRlaBtM_w,2783
+pyncaids-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyncaids-0.0.1.dist-info/top_level.txt,sha256=JmT9vIQc7Hai6illcN5KNXk5c3LNtsrZbRfJg8GvRsg,15
+pyncaids-0.0.1.dist-info/RECORD,,
