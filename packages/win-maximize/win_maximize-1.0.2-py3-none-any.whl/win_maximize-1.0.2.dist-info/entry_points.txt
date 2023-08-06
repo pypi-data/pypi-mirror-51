@@ -1,0 +1,3 @@
+[console_scripts]
+win-maximize = win_maximize:main
+
