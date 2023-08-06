@@ -1,0 +1,16 @@
+rikki/__init__.py,sha256=OsDyDsu7T0INPAVmJWCofRif7uYMUE2Iat5cz3InLyM,14
+rikki/run.py,sha256=T5mXrfNMHLGDnWnzWHncpjhbu-RxGSev4V25QG9EMeA,1447
+rikki/mitmproxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rikki/mitmproxy/delegate.py,sha256=T-TcbCxF0m7P5-iNiucGMiAFuRGMtOLoGOHNUhM8WAA,3468
+rikki/mitmproxy/model.py,sha256=wkm4TZyzUJKz4l8dJarjnX0rIyap3jN33fV8i-I1GSg,897
+rikki/mitmproxy/plugin.py,sha256=8Ga5wwRlCuCp76TCczejLY2aNQj9OmPbxRjgjvifz5Y,837
+rikki/mitmproxy/util.py,sha256=517PTjR5_iRiHtrH_qRjAxndUGIn6lbaW8uBpXNEb7o,3589
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/rikki/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/rikki/mitmproxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/rikki/mitmproxy/test_replacement.py,sha256=QCnzn85n4NkiqskgfU88f9ej0LbjakBywWqu6CSpaeg,4971
+test/rikki/mitmproxy/utils.py,sha256=veHLnz-oCZU09wM61NRmQ_a4jbf5h25LFQ3Q4aFHf_E,892
+rikki-0.0.10.dist-info/METADATA,sha256=NJatsTnEUGSxfmBO2tyUS0g5XIhiWubKa4WSFXZEKW4,1014
+rikki-0.0.10.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+rikki-0.0.10.dist-info/top_level.txt,sha256=nmRzhub_f-BVEnOQXAqW3JAuJ6YbRfhjKX4FpqyGnCE,11
+rikki-0.0.10.dist-info/RECORD,,
