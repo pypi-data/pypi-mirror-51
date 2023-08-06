@@ -1,0 +1,16 @@
+CHANGELOG.rst
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+ask_sdk_s3/__init__.py
+ask_sdk_s3/__version__.py
+ask_sdk_s3/adapter.py
+ask_sdk_s3/object_keygen.py
+ask_sdk_s3_persistence_adapter.egg-info/PKG-INFO
+ask_sdk_s3_persistence_adapter.egg-info/SOURCES.txt
+ask_sdk_s3_persistence_adapter.egg-info/dependency_links.txt
+ask_sdk_s3_persistence_adapter.egg-info/not-zip-safe
+ask_sdk_s3_persistence_adapter.egg-info/requires.txt
+ask_sdk_s3_persistence_adapter.egg-info/top_level.txt
