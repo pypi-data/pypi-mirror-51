@@ -1,0 +1,9 @@
+README.rst
+setup.py
+tagnote/__init__.py
+tagnote/tag.py
+tagnote.egg-info/PKG-INFO
+tagnote.egg-info/SOURCES.txt
+tagnote.egg-info/dependency_links.txt
+tagnote.egg-info/entry_points.txt
+tagnote.egg-info/top_level.txt
