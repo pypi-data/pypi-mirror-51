@@ -1,0 +1,14 @@
+README.md
+setup.py
+reciplanner_cli/__init__.py
+reciplanner_cli/__main__.py
+reciplanner_cli/kitchen_item.py
+reciplanner_cli/kitchen_manager.py
+reciplanner_cli/recipe.py
+reciplanner_cli/recipe_adder.py
+reciplanner_cli.egg-info/PKG-INFO
+reciplanner_cli.egg-info/SOURCES.txt
+reciplanner_cli.egg-info/dependency_links.txt
+reciplanner_cli.egg-info/not-zip-safe
+reciplanner_cli.egg-info/requires.txt
+reciplanner_cli.egg-info/top_level.txt
