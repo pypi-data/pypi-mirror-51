@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: sci-api-req
+Version: 0.2.1
+Summary: Provider for scientific APIs
+Home-page: https://github.com/miki164/sci-api-req
+Author: miki164
+Author-email: miki3867@gmail.com
+License: UNKNOWN
+Description: Library providing easy way to use NASA and other organisation APIs(In future)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Utilities
