@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: xml-subsetter
+Version: 0.0.0
+Summary: decimate xml data while keeping others intact 
+Home-page: https://github.com/Madoshakalaka/xml-subsetter
+Author: Matt Yan
+Author-email: syan4@ualberta.ca
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/Madoshakalaka/xml-subsetter/issues
+Project-URL: Funding, https://github.com/Madoshakalaka/xml-subsetter
+Project-URL: Say Thanks!, https://github.com/Madoshakalaka/xml-subsetter
+Project-URL: Source, https://github.com/Madoshakalaka/xml-subsetter
+Description: # Xml Subsetter
+        
+        decimate data while keeping others intact 
+        
+        ### before
+        ```xml
+        # bulk.xml
+        <r>
+            <meta>
+            some meta data
+            </meta>
+        
+            <something>
+            thing thing thing thing
+            </something>
+        
+            <e>e0</e>
+            <e>e1</e>
+            <e>e2</e>
+            <e>e3</e>
+            <some-annoying-non-data-you-have-to-keep-1>ah yah yah</some-annoying-non-data-you-have-to-keep-1>
+            <some-annoying-non-data-you-have-to-keep-2>ah yah yah</some-annoying-non-data-you-have-to-keep-2>
+            <some-annoying-non-data-you-have-to-keep-3>ah yah yah</some-annoying-non-data-you-have-to-keep-3>
+            <e>e4</e>
+            <e>e5</e>
+            <e>e6</e>
+            <e>e7</e>
+            <e>e8</e>
+            <e>e9</e>
+            <e>e10</e>
+            ...
+            <e>e99</e>
+        </r>
+        ```
+        
+        `subset_head("bulk.xml", target_file='/tmp/small.xml', data_tag='e',ratio=0.05)`
+        
+        ### after
+        
+        ```xml
+        # small.xml
+        <r>
+            <meta>
+            some meta data
+            </meta>
+        
+            <something>
+            thing thing thing thing
+            </something>
+        
+            <e>e0</e>
+            <e>e1</e>
+            <e>e2</e>
+            <e>e3</e>
+            <some-annoying-non-data-you-have-to-keep-1>ah yah yah</some-annoying-non-data-you-have-to-keep-1>
+            <some-annoying-non-data-you-have-to-keep-2>ah yah yah</some-annoying-non-data-you-have-to-keep-2>
+            <some-annoying-non-data-you-have-to-keep-3>ah yah yah</some-annoying-non-data-you-have-to-keep-3>
+            <e>e4</e>
+        </r>
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
