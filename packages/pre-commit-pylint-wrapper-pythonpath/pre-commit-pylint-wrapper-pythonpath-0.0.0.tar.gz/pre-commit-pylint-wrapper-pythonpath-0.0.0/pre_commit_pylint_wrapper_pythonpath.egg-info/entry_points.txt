@@ -1,0 +1,3 @@
+[console_scripts]
+pre-commit-pylint-wrapper = pre_commit_pylint_wrapper:main
+

@@ -1,0 +1,9 @@
+README.rst
+pre_commit_pylint_wrapper.py
+setup.py
+pre_commit_pylint_wrapper_pythonpath.egg-info/PKG-INFO
+pre_commit_pylint_wrapper_pythonpath.egg-info/SOURCES.txt
+pre_commit_pylint_wrapper_pythonpath.egg-info/dependency_links.txt
+pre_commit_pylint_wrapper_pythonpath.egg-info/entry_points.txt
+pre_commit_pylint_wrapper_pythonpath.egg-info/requires.txt
+pre_commit_pylint_wrapper_pythonpath.egg-info/top_level.txt
