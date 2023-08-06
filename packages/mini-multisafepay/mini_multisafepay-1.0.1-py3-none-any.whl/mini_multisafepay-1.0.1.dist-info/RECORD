@@ -1,0 +1,10 @@
+multisafepay/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+multisafepay/status.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multisafepay/test_msp.py,sha256=gVEse3No_fXF3UfHyOxWLxL-vhD5uazHIXmODykItyo,2013
+multisafepay/testhttpserver.py,sha256=VKdggo_yk8EzQucZvOoOLDHi4IneOb9LOMombcq_ako,4524
+multisafepay/transaction.py,sha256=0UODnnpScj6zqwfxkXHDj7CyP0GrQy2SVV0yCUB1xUQ,5768
+mini_multisafepay-1.0.1.dist-info/METADATA,sha256=2GdoJXRv3CSz4g9gkHQ9oFsnSrp9X_MxUZiOB9PG3PM,1104
+mini_multisafepay-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mini_multisafepay-1.0.1.dist-info/entry_points.txt,sha256=QaHoCQTcF92DcZGC7hOXu1KjpAzzpOcO5pgFVgIyRJc,132
+mini_multisafepay-1.0.1.dist-info/top_level.txt,sha256=e_Qj_vPlDl5VwvOTaBB38qaFBV8ulqO1vVz9zGD1reQ,13
+mini_multisafepay-1.0.1.dist-info/RECORD,,

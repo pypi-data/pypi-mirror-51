@@ -1,0 +1,6 @@
+[console_scripts]
+msp_serve = multisafepay.testhttpserver:main
+
+[paste.app_factory]
+main = multisafepay.testhttpserver:app_factory
+
