@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pupil-pthreads-win
+Version: 0.dev2
+Summary: A precompiled version of pthreads-win.
+Home-page: https://github.com/pupil-labs/pupil-pthreads-win
+Author: Pupil Labs GmbH
+Author-email: pypi@pupil-labs.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# pupil-pthreads-win
+
+This is a precompiled version of pthreads for windows wrapped in a python package.
+We use it as dependency for various modules for the pupil core software.
+
+## Installation
+
+Note that this library only provides pthreads for windows and thus you are not recommended to use it  on another operating system. When trying to use it on another operating system, you might receive a warning.
+
+Install from PyPI:
+```bash
+pip install pupil-pthreads-win
+```
+
+
