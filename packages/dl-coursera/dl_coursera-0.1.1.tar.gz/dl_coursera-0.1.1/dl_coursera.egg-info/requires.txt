@@ -1,0 +1,9 @@
+beautifulsoup4>=4.6.0
+Jinja2>=2.10
+lxml>=4.1.1
+requests>=2.18.4
+
+[dev]
+setuptools>=38.6.0
+wheel>=0.31.0
+twine>=1.11.0
