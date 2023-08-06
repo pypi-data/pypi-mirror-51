@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ddgen
+Version: 0.0.1.dev0
+Summary: Library of Python utilities that I needed so many times
+Home-page: https://github.com/ielis/ddgen
+Author: Daniel Danis
+Author-email: daniel.gordon.danis@gmail.com
+License: GPLv3
+Description: # ddgen
+        Library of Python utilities that I needed so many times in the past
+        
+Keywords: bioinformatics genomics
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
