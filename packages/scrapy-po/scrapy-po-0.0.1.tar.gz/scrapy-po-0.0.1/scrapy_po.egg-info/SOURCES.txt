@@ -1,0 +1,17 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+scrapy_po/__init__.py
+scrapy_po/middleware.py
+scrapy_po/page_input_providers.py
+scrapy_po/page_inputs.py
+scrapy_po/utils.py
+scrapy_po/webpage.py
+scrapy_po.egg-info/PKG-INFO
+scrapy_po.egg-info/SOURCES.txt
+scrapy_po.egg-info/dependency_links.txt
+scrapy_po.egg-info/requires.txt
+scrapy_po.egg-info/top_level.txt
+tests/test_utils.py
