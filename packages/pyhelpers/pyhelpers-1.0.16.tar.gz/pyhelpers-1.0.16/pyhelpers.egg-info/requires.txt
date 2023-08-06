@@ -1,0 +1,8 @@
+feather-format
+fuzzywuzzy
+numpy
+openpyxl
+python-rapidjson
+requests
+xlrd
+XlsxWriter
