@@ -1,0 +1,4 @@
+[console_scripts]
+mflash = mflash.main:main
+mflashi = mflash.ui:main
+
