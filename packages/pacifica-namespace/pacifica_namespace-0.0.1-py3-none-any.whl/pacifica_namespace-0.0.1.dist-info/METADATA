@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pacifica-namespace
+Version: 0.0.1
+Summary: Pacifica Namespace Package
+Home-page: https://github.com/pacifica/pacifica-namespace/
+Author: David Brown
+Author-email: dmlb2000@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Pacifica Template Repository
+![PyPi](https://img.shields.io/pypi/v/pacifica-namespace.svg)
+
+This repository serves to capture the Pacifica namespace and
+associated files. This only contains the namespace and not
+any dependencies of other services.
+
+
