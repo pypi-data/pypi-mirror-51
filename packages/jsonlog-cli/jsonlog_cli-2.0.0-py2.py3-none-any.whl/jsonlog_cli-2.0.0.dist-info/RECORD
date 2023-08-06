@@ -1,0 +1,15 @@
+jsonlog_cli/__init__.py,sha256=i09SlVCwTNJSFMcKXo37ZxQCRrgMD1MNqMWH-WaSQR0,125
+jsonlog_cli/__main__.py,sha256=f0PoLmZVulKqB-9N7EH3PEuTYWHs-aK1orXrUvi8GCA,72
+jsonlog_cli/cli.py,sha256=JvmulDhHZGugadq6Gk13-gX8avT447FgHDFCfJQWyRY,1793
+jsonlog_cli/colors.py,sha256=luDlZFcPQeQ022BMUj0P6H7B8D-RC-c6ZWu5ix9x83k,651
+jsonlog_cli/config.py,sha256=LBF8XDXtuNdib8FlYr0nTZ2XhvuTLRpyhpteRLnHRQE,1963
+jsonlog_cli/record.py,sha256=NFHc-0xj6rR1tnCeIbFLZCFE0L02F4wEDwbhpdYCGBw,3367
+jsonlog_cli/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonlog_cli/tests/test_record.py,sha256=8C4vl7w9cXM7fhghtX3oAOtXtUVqIr5qwKLJEbKlFsA,2150
+jsonlog_cli-2.0.0.dist-info/LICENSE.md,sha256=cTyrxKXKvyZoqr61_RqSCQ24GsZq16IwzDJSuzeUjP4,1052
+jsonlog_cli-2.0.0.dist-info/METADATA,sha256=pFucsMkNtV65kWZ2kF8Gb-jp6W4ZmgFsMQKutd26buM,1796
+jsonlog_cli-2.0.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+jsonlog_cli-2.0.0.dist-info/entry_points.txt,sha256=SP-ZcrXbp3N07PJetnsc-gqPM_3gcqbBRFjqBwnBnD0,50
+jsonlog_cli-2.0.0.dist-info/top_level.txt,sha256=ve9_XPO9zFLUWKsTaGG_zinKH362Dn8gLo6DhLSRhr4,12
+jsonlog_cli-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jsonlog_cli-2.0.0.dist-info/RECORD,,
