@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tox.ini
+tests/__init__.py
+tests/test_void.py
+void/__init__.py
+void.egg-info/PKG-INFO
+void.egg-info/SOURCES.txt
+void.egg-info/dependency_links.txt
+void.egg-info/requires.txt
+void.egg-info/top_level.txt
