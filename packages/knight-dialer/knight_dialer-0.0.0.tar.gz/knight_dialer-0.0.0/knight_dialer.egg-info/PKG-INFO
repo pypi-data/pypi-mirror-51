@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: knight-dialer
+Version: 0.0.0
+Summary: An example of how to solve branching problems in two different ways
+Home-page: https://github.com/NGeorgescu/knight_dialer
+Author: NGeorgescu
+Author-email: nsgeorgescu@gmail.com
+License: see LICENSE.txt
+Description: =============
+        Knight Dialer
+        =============
+        
+        This library is an example of how to solve an abstract problem.  More to come.
+        
+        
+        
+Keywords: knight dialer chess knight recursive abstract data structure interview question problem
+Platform: UNKNOWN
