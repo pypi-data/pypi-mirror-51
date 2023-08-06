@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+last_model/__init__.py
+last_model.egg-info/PKG-INFO
+last_model.egg-info/SOURCES.txt
+last_model.egg-info/dependency_links.txt
+last_model.egg-info/not-zip-safe
+last_model.egg-info/requires.txt
+last_model.egg-info/top_level.txt
