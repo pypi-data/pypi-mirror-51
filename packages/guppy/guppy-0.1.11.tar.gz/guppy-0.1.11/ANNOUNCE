@@ -1,0 +1,27 @@
+I am happy to announce Guppy-PE 0.1.11
+
+Guppy-PE is a library and programming environment for Python,
+currently providing in particular the Heapy subsystem, which supports
+object and heap memory sizing, profiling and debugging. It also
+includes a prototypical specification language, the Guppy
+Specification Language (GSL), which can be used to formally specify
+aspects of Python programs and generate tests and documentation from a
+common source.
+
+The main news in this release:
+
+Contains notes that this package is only for Python2. A version for
+Python3 is recommended and is available here:
+
+https://github.com/zhuyifei1999/guppy3
+
+License: MIT
+
+The project homepage is on GitHub:
+
+https://svenil.github.io/guppy-pe/
+
+Enjoy,
+
+Sverker Nilsson
+
