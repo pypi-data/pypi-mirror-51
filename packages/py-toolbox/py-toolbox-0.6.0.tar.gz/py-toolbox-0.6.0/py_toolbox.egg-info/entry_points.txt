@@ -1,0 +1,3 @@
+[console_scripts]
+pytb = pytb.__main__:main
+
