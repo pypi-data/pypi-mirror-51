@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        evg-api=evergreen.cli.main:main
+    
