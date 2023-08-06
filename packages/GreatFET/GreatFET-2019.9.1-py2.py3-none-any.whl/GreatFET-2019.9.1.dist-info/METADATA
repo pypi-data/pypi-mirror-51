@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: GreatFET
+Version: 2019.9.1
+Summary: Python library for hardware hacking with the GreatFET
+Home-page: https://greatscottgadgets.com/greatfet/
+Author: Great Scott Gadgets
+Author-email: ktemkin@greatscottgadgets.com
+License: BSD
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Security
+Requires-Dist: ipython
+Requires-Dist: pyusb
+Requires-Dist: pygreat (>=2019.9.1)
+Requires-Dist: future
+Requires-Dist: pyfwup (>=0.2)
+Requires-Dist: tqdm
+Requires-Dist: cmsis-svd
+Requires-Dist: tabulate
+
+# GreatFET Python Package and Utilities
+
+This software is developed for python3.  It should be compatible with python2,
+but we do less testing with python2 and plan to drop python2 support in the
+future.
+
+## Installing or Updating Software
+
+Unless you are developing software or testing software from git, you can
+install or update GreatFET software with:
+```
+sudo pip3 install --upgrade greatfet
+```
+
+## Building and Installing Software
+
+To build and install GreatFET software without pip, you will require:
+
+* https://github.com/greatscottgadgets/libgreat
+
+If you are using git, the preferred way to install libgreat is to use the
+submodule. From inside the cloned greatfet directory:
+```
+git submodule init
+git submodule update
+```
+
+Install libgreat:
+```
+cd libgreat/host
+python3 setup.py build
+sudo python3 setup.py install
+cd ../..
+```
+
+Install greatfet:
+```
+cd host
+python3 setup.py build
+sudo python3 setup.py install
+```
+
+
