@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: spellrst
+Version: 0.1.0
+Summary: Spell check reStructuredText.
+Home-page: https://github.com/jwkvam/spellrst
+License: UNKNOWN
+Author: Jacques Kvam
+Author-email: jwkvam+pypi@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: click
+Requires-Dist: docutils
+Requires-Dist: spacy
+
+========
+spellrst
+========
+
+Spell check reStructuredText.
+
+Install
+-------
+
+Install with pip::
+
+   pip install spellrst
+
+And download the `spaCy model <https://spacy.io/models>`__ you want to use e.g. ``en_core_web_md``::
+
+   python -m spacy download en_core_web_md
+
+Usage
+-----
+
+After installing you can run ``spellrst`` from the command line::
+
+   $ spellrst --help
+   Usage: spellrst [OPTIONS] [FILES]...
+
+     Spell check reStructuredText.
+
+   Options:
+     -d, --dictionary TEXT  spaCy language model (spacy.io/models), e.g.
+                            en_core_web_md
+     --help                 Show this message and exit.
+
+For example, to check all rst files contained in a directory (fish)::
+
+   spellrst **.rst
+
+TODO
+----
+
+- whitelist
+
