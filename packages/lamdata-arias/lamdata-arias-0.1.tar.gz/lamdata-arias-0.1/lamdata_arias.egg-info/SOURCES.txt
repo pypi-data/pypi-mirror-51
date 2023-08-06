@@ -1,0 +1,9 @@
+README.md
+setup.py
+lamdata_arias/__init__.py
+lamdata_arias/df_utils.py
+lamdata_arias.egg-info/PKG-INFO
+lamdata_arias.egg-info/SOURCES.txt
+lamdata_arias.egg-info/dependency_links.txt
+lamdata_arias.egg-info/requires.txt
+lamdata_arias.egg-info/top_level.txt
