@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test_run/_main.py
+test_run.egg-info/PKG-INFO
+test_run.egg-info/SOURCES.txt
+test_run.egg-info/dependency_links.txt
+test_run.egg-info/entry_points.txt
+test_run.egg-info/top_level.txt
