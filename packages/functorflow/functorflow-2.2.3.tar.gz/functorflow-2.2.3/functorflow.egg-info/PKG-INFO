@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: functorflow
+Version: 2.2.3
+Summary: FunctorFlow
+Home-page: http://functorflow.org
+Author: Sam Ravshanov
+Author-email: info@functorflow.org
+License: MIT
+Project-URL: Home, https://functorflow.org/
+Project-URL: Blog, https://medium.com/functorflow
+Project-URL: Source, https://bitbucket.org/functorflow/functorflow-pip
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/x-rst
