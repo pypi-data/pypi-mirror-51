@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/txtferret/__init__.py
+src/txtferret/_config.py
+src/txtferret/_default.py
+src/txtferret/_sanity.py
+src/txtferret/cli.py
+src/txtferret/core.py
+src/txtferret.egg-info/PKG-INFO
+src/txtferret.egg-info/SOURCES.txt
+src/txtferret.egg-info/dependency_links.txt
+src/txtferret.egg-info/entry_points.txt
+src/txtferret.egg-info/requires.txt
+src/txtferret.egg-info/top_level.txt
