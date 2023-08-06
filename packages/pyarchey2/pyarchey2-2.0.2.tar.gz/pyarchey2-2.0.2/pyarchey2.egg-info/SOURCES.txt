@@ -1,0 +1,14 @@
+License.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pyarchey/__init__.py
+pyarchey/__version__.py
+pyarchey/pyarchey.py
+pyarchey2.egg-info/PKG-INFO
+pyarchey2.egg-info/SOURCES.txt
+pyarchey2.egg-info/dependency_links.txt
+pyarchey2.egg-info/entry_points.txt
+pyarchey2.egg-info/requires.txt
+pyarchey2.egg-info/top_level.txt
