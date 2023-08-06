@@ -1,0 +1,7 @@
+README.md
+multiprefixspan.py
+setup.py
+multiprefixspan.egg-info/PKG-INFO
+multiprefixspan.egg-info/SOURCES.txt
+multiprefixspan.egg-info/dependency_links.txt
+multiprefixspan.egg-info/top_level.txt
