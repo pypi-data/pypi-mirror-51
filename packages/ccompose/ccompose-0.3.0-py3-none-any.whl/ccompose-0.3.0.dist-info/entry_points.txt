@@ -1,0 +1,5 @@
+[console_scripts]
+ccompose=ccompose.cli:cli
+ccompose2mk=ccompose.cli:make_makefile_script
+ccompose2sh=ccompose.cli:make_shell_script
+

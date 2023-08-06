@@ -1,0 +1,10 @@
+ccompose/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+ccompose/cli.py,sha256=Ust-ONdA_GDXT5tENP2nnaiPbsqtcE7-QtQb0ahlfFA,12071
+ccompose/node.py,sha256=0FURSxfAZAXvKCGEP5vxwJg5DQh60FGBHlGn9y_qwwE,3927
+ccompose/templates/curl-shell.j2,sha256=KvE0ajCsKRk4oxpAxw8lIWjryB9kL_SKsADmH8byD3g,6827
+ccompose/templates/docker-shell.j2,sha256=wh8mb8eJ7Fzmemi9oBkqJ57f9euzQykgmFFcCzu9yqQ,6897
+ccompose-0.3.0.dist-info/entry_points.txt,sha256=7jtv4RybWZDykBAzyuZBvAKtS2Q6mUwR_iQqwZmXuwE,134
+ccompose-0.3.0.dist-info/LICENSE,sha256=nYHXbftePb_sTqis-ioe1Cy7bgTtyMlNIugdv7J_E_I,1072
+ccompose-0.3.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+ccompose-0.3.0.dist-info/METADATA,sha256=RjVCv6ZiMF4PtAXxLz9ca6XgEnv6-Q_dFdG15nCoCrw,412
+ccompose-0.3.0.dist-info/RECORD,,
