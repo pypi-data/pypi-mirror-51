@@ -1,0 +1,4 @@
+numpy>=1.13.1
+
+[HDF5 export]
+h5py>=2.7.1
