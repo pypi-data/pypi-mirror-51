@@ -1,0 +1,6 @@
+package-self/__init__.py,sha256=t43EImEPhiKyrbrlKlrOYrhYK7iXd82NC2gJiS15Ehw,21
+package-self/test.py,sha256=e3_03Vh1g8UgDq1fXcWvJ_4wyPwvjLpAiz4pUr_rt-I,275
+nester_shuihu-0.0.1.dist-info/METADATA,sha256=Ra8AOwiTZLIKyDzsCiAWjtCAKSzjB1ZfnOAuZPYnGIs,418
+nester_shuihu-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+nester_shuihu-0.0.1.dist-info/top_level.txt,sha256=GQkbpV_6jRqjU37EWHE6HY1sTwQB5dPydvRP_Ei8Yyo,13
+nester_shuihu-0.0.1.dist-info/RECORD,,
