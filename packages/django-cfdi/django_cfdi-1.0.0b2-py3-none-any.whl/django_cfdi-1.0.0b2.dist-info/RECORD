@@ -1,0 +1,11 @@
+cfdi/__init__.py,sha256=RkKXy8REMAAEdWW8c_Em6YcasbX3pvYamS-HNUgTT6g,107940
+cfdi/functions.py,sha256=6ock-IHwj8Ec4XAE3sqYwuFw4caFK1f8TU8Hem1wRTQ,1605
+cfdi/settings.py,sha256=4TBUKF5ktkHLjI9dVtHckmTb8lYWH1l_bDw7BenDtM8,107
+cfdi/utils.py,sha256=kxgjunUDBCuINFN1N819QyqGapXe3FfJEKMqG8gvYyc,32776
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settings.py,sha256=yDlMw1xPIhtDmVi0-M0PsvPE-i9W1rw57JuD_MoHfys,794
+tests/tests_utils.py,sha256=xfphMWnzktuI1VJe5UysfkoiwzKSDciNkwnWys6Sjjc,409
+django_cfdi-1.0.0b2.dist-info/METADATA,sha256=sl45zx-OZ88s9HsrBHee_ls9VJFUuhFhZ7QldqeuVe8,444
+django_cfdi-1.0.0b2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_cfdi-1.0.0b2.dist-info/top_level.txt,sha256=K_ZXupImHpaGZpM5wNFzvOhy_FWe__yOd4qGjCKMVzQ,11
+django_cfdi-1.0.0b2.dist-info/RECORD,,
