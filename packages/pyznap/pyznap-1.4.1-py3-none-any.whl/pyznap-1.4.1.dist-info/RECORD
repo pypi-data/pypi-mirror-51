@@ -1,0 +1,16 @@
+pyznap/__init__.py,sha256=Bfj8X5nE0SHn4QEswU1FQ3UNybYTuDPVbSaGX-B5PiM,215
+pyznap/clean.py,sha256=2y9rwkO-X8gnqCjjWQrWt8h70G4TRLjNi73BsoSn6M4,5387
+pyznap/main.py,sha256=H1HwUFUiFxQ26XAjMHaFbYA8jndrjRmgDoRpsg64koQ,5673
+pyznap/process.py,sha256=2pNZlQeFPUVQds4OUhNto4WI37eGWp6qEtabbRaR6WE,5431
+pyznap/pyzfs.py,sha256=mhZQaeJjrD3qQKTJDYjVhi0yd20dQRp4cyWgAcE_Mx4,13565
+pyznap/send.py,sha256=C9Vt12lkGsDO-XU0I2_Q0xzWPpeEjfbYgVjtopo3Nvk,10641
+pyznap/ssh.py,sha256=cEAod4bWIc8HJSdwrckhPOr-1iVCMp6BdS0Qg1Gfmjo,6061
+pyznap/take.py,sha256=MYClUhqA9HbaqSKHMqaJiza_8Us2NhWOFO6A8r5W55c,5925
+pyznap/utils.py,sha256=iZoSiv5eQvmDV1h-TuGwDriV8HMO2d_eV4fLl7e6kQ0,8836
+pyznap/config/pyznap.conf,sha256=JnSzvpxOd5LiCiw8PdBh54tWBYDfNwsDnTAQs-wWMPg,3058
+pyznap-1.4.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyznap-1.4.1.dist-info/METADATA,sha256=XQcxtoF2lut1A2KfxVwG6-T8EkLWsU6Tt5ue4SFexms,9200
+pyznap-1.4.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyznap-1.4.1.dist-info/entry_points.txt,sha256=aLr8uKHRno2lbovMQOQKT9VIgabrdwUMzsmLauLrl_o,45
+pyznap-1.4.1.dist-info/top_level.txt,sha256=EVHJgPCVBusnb2eSUZDq2mr-dLahKoZM7UVR7Aw6GIE,7
+pyznap-1.4.1.dist-info/RECORD,,
