@@ -1,0 +1,9 @@
+keyring
+mock
+mintapi>=1.40
+outdated
+progress
+requests
+readchar
+selenium
+selenium-requests

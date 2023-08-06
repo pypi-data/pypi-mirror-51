@@ -1,0 +1,3 @@
+[console_scripts]
+mint-amazon-tagger = mintamazontagger.main:main
+
