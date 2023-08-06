@@ -1,0 +1,16 @@
+EntityRelation/EntityRelation.py,sha256=vclrH5rGagyehr4VTmIk01r1ICnPGyGJsh1SU1N_4XA,6479
+EntityRelation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EntityRelation/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EntityRelation/core/core.py,sha256=wmURwzww8MYrc3F7O9PYg4cccS8kQZEEXkX9_UDMlPo,7566
+EntityRelation/core/extract_by_dsnf.py,sha256=8M6He6fH82pzXw4p5SpbPm1CUXW2l_v7SPe0-mumHNQ,22874
+EntityRelation/core/extractor.py,sha256=Ad5Cftmi3o4pdeuY4v8iPbCvWOKaj-bLlE7zGlcaFfE,2323
+EntityRelation/resource/user_dict.txt,sha256=-CLATyrSkA4Kj4llEq6Xh61o2uUSNsjWMWlfsqGw9GE,291040
+EntityRelation/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EntityRelation/utils/utils.py,sha256=hk2oVYeOZQURCNVtSJbqRDvO_0o60ygEzPqVQ_AYlUs,773
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test.py,sha256=V-KAYN9Hr3HdGax75KRkA3WOjdFNUBkUlhp8a6mQT2c,369
+EntityRelation-1.0.3.dist-info/LICENSE,sha256=ng_tSBle3IvcgiHbs58JfDROBVarbsQrOsgDUrxiIWs,1062
+EntityRelation-1.0.3.dist-info/METADATA,sha256=fzGHACIWss0-q93zxPYJ3N5QQ2pELf3YywtSqHSap0A,3322
+EntityRelation-1.0.3.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+EntityRelation-1.0.3.dist-info/top_level.txt,sha256=T8SsayFabVMujsZNCIJCf4p2Xer6J5Up58x8oAx4d3Y,20
+EntityRelation-1.0.3.dist-info/RECORD,,
