@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+routeros_updates/__init__.py
+routeros_updates/command_line.py
+routeros_updates/constants.py
+routeros_updates/operations.py
+routeros_updates.egg-info/PKG-INFO
+routeros_updates.egg-info/SOURCES.txt
+routeros_updates.egg-info/dependency_links.txt
+routeros_updates.egg-info/entry_points.txt
+routeros_updates.egg-info/not-zip-safe
+routeros_updates.egg-info/top_level.txt
