@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.rst
+setup.cfg
+setup.py
+tox_pypi_filter.py
+tox_pypi_filter.egg-info/PKG-INFO
+tox_pypi_filter.egg-info/SOURCES.txt
+tox_pypi_filter.egg-info/dependency_links.txt
+tox_pypi_filter.egg-info/entry_points.txt
+tox_pypi_filter.egg-info/requires.txt
+tox_pypi_filter.egg-info/top_level.txt
+tox_pypi_filter.egg-info/zip-safe
