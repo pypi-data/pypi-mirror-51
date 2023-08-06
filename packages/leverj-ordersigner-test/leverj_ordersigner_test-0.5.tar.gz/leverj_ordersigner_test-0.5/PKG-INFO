@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: leverj_ordersigner_test
+Version: 0.5
+Summary: Python bridge for Leverj.io Spot Exchange
+Home-page: http://leverj.io
+Author: leverj
+License: MIT
+Project-URL: Source, https://github.com/leverj/leverj_ordersigner_test
+Description: a python bridge to javascript libraries for Leverj.io Spot Exchange
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Provides-Extra: dev
