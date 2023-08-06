@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+northstar/__init__.py
+northstar/_version.py
+northstar/averages.py
+northstar/fetch_atlas.py
+northstar/subsample.py
+northstar.egg-info/PKG-INFO
+northstar.egg-info/SOURCES.txt
+northstar.egg-info/dependency_links.txt
+northstar.egg-info/top_level.txt
+test/test_averages.py
+test/test_fetch_atlas.py
+test/test_subsamples.py

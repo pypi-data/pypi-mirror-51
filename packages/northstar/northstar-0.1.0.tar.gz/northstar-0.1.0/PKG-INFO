@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: northstar
+Version: 0.1.0
+Summary: Cell type annotation guided by cell atlases, with freedom to be queer.
+Home-page: https://github.com/iosonofabio/northstar
+Author: Fabio Zanini
+Author-email: fabio.zanini@fastmail.fm
+License: MIT
+Description: 
+            Cell type annotation guided by cell atlases, with freedom to be queer.
+        
+            See https://github.com/iosonofabio/northstar for the project's website.
+            
+Keywords: graph semi-supervised
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
