@@ -1,0 +1,12 @@
+textwrangler/__init__.py,sha256=-rXFvz627e_IhwRx-nRy__gnwYjrGNYD3YUeIuB_yBU,181
+textwrangler/extract.py,sha256=crXokKgWY4yxaT_h4NdeaXb_2X85y9x8uyi6AQC6sPg,16841
+textwrangler/normalize.py,sha256=FmoUYUlCx62c1nYu1zyPWVcUwaCF0gP5v8p-SsbiwWs,3624
+textwrangler/patterns.py,sha256=MMdEETTrWOt8S5MrvbB8VxgH2aCp8efTOV7SHzYKPTI,2981
+textwrangler/remove.py,sha256=gFmIgXsI6JwfhIyoJ4Lm18uXaBKBeW-guRD35VSVtZ4,2627
+textwrangler/replace.py,sha256=CoSwSq53OqOChWYQ8d03jXd5ni8-8o7prr8i__5a5ys,4612
+textwrangler/transform.py,sha256=_LL8rmpT0sdvnZFaaFcymxBcrcd4TCilU4wV6YTXw7o,3276
+textwrangler-0.0.1.dist-info/LICENSE,sha256=PV0z-z2Dhv35glTBLcA_RPE3N3lHXIBP1MXi89w--JM,1087
+textwrangler-0.0.1.dist-info/METADATA,sha256=3kqiAaziAAAfMR4MBP03CBpt96dnvkSGK_pZIBzk9hw,754
+textwrangler-0.0.1.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+textwrangler-0.0.1.dist-info/top_level.txt,sha256=v1WYQOehLgMRsp0ZJ-stuJPumYQXIup94j-caPGRUI4,13
+textwrangler-0.0.1.dist-info/RECORD,,
