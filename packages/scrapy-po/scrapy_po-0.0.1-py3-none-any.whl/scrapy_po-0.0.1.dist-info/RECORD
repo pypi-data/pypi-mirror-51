@@ -1,0 +1,11 @@
+scrapy_po/__init__.py,sha256=eBFijDzOz8LeU3-h_jEXOTX3fXGvRkwv19dHq2E-xzQ,140
+scrapy_po/middleware.py,sha256=WKBE28qJ_vvAlqA2ZQcAd7o9n5d1X7UWY5Ea7r5APHQ,2241
+scrapy_po/page_input_providers.py,sha256=atHCt4ouqRu9SjaP70vVgiKtqPjKVd0FPKkF3qOhtw8,989
+scrapy_po/page_inputs.py,sha256=qAO5IombsKH7f8OHkE5bghkT_tvgXAIh_8cjIXGcj7c,380
+scrapy_po/utils.py,sha256=kT0cW9yHxU3lvXgd6ru6vbiGCxxeJ92rUY-OlWhpxAM,228
+scrapy_po/webpage.py,sha256=uMyhn8rltdmDyr4ZU7lzbYqB04KCRhm12GWtUo9dGZI,1585
+scrapy_po-0.0.1.dist-info/LICENSE,sha256=OwF91yZTgMQUkBEqH_5wV5MAzisd6zo3ATth7OmQNsU,1513
+scrapy_po-0.0.1.dist-info/METADATA,sha256=gCha59EFc4ph3BIUfqQk3OZqxeD-t6Fuz6l6kOcfEb8,2031
+scrapy_po-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+scrapy_po-0.0.1.dist-info/top_level.txt,sha256=cIbWCN9ZFSOtXqj45QMtxg9yG-vbHeB-j5k8ClPp0r8,10
+scrapy_po-0.0.1.dist-info/RECORD,,
