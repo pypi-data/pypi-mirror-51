@@ -1,0 +1,14 @@
+forex_types/__init__.py,sha256=XHG9e1WiAoIdQeAlSUnixHxXqQ-YKBr_qC17HZNRfYA,197
+forex_types/calc.py,sha256=lexjVQbcgSYBI8ZToKnJI292eZFWzxs9mOgW7BxiqUM,4936
+forex_types/cash.py,sha256=Kmw4GZED5du8nJGNTiOxvS5uap41DRpiRYV_BxA_opI,801
+forex_types/currency.py,sha256=KRX4locCxuoNtPfK6bpfwvu_4tnWSUg9uilnDkbQzvw,3641
+forex_types/direction.py,sha256=0htMjlTs8RUTeCHAHUw1PuBLmt1s4AfggHcZRr_RGQU,531
+forex_types/lot_size.py,sha256=hhgbElFkXMCEjPkiBZy1LgKVIqQyqY9y8Fc7UxacaZg,5158
+forex_types/odd_math.py,sha256=PHPc9e1OLL0pbq4y-qaqODjKgJY2xF3HQRlo1mEUsds,915
+forex_types/pair.py,sha256=l0L9QIQMH1lP8beAvwY7nJr85yqfdz0YKI93Bh7S2SM,2774
+forex_types/price.py,sha256=xlDn7TpBIucjfRcZpi5y_RiSMMr6IC4yzyj2vqLe58Q,2775
+forex_types-0.0.5.dist-info/LICENSE,sha256=BUlORtHAlDVCrcoL75X8puuaHpdixcYR9_VQwb1z_I0,1095
+forex_types-0.0.5.dist-info/METADATA,sha256=JXjV7azCfJCn3aPZBpAJ-3MYA-W2CPd8ChLBqb14wZY,1390
+forex_types-0.0.5.dist-info/WHEEL,sha256=ReVQQd6zaVfNgarFRTf51K9cXnAfPvzgvBdlbMaCgNg,97
+forex_types-0.0.5.dist-info/top_level.txt,sha256=0GlKOuEyK8KZGMQJu7CqLthoiqLvDDu2XVjNqKt_L7Q,12
+forex_types-0.0.5.dist-info/RECORD,,
