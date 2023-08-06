@@ -1,0 +1,3 @@
+[console_scripts]
+tap-pagerduty = tap_pagerduty:main
+
