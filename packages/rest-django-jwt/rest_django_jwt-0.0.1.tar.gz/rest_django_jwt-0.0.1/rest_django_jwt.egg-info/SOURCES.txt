@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+rest_django_jwt/__init__.py
+rest_django_jwt/help.py
+rest_django_jwt.egg-info/PKG-INFO
+rest_django_jwt.egg-info/SOURCES.txt
+rest_django_jwt.egg-info/dependency_links.txt
+rest_django_jwt.egg-info/requires.txt
+rest_django_jwt.egg-info/top_level.txt
