@@ -1,0 +1,16 @@
+README.md
+setup.py
+zsh_jupyter_kernel/README.md
+zsh_jupyter_kernel/__init__.py
+zsh_jupyter_kernel/__main__.py
+zsh_jupyter_kernel/banner.txt
+zsh_jupyter_kernel/capture.zsh
+zsh_jupyter_kernel/config.py
+zsh_jupyter_kernel/install.py
+zsh_jupyter_kernel/kernel.py
+zsh_jupyter_kernel/kernel_test.py
+zsh_jupyter_kernel.egg-info/PKG-INFO
+zsh_jupyter_kernel.egg-info/SOURCES.txt
+zsh_jupyter_kernel.egg-info/dependency_links.txt
+zsh_jupyter_kernel.egg-info/requires.txt
+zsh_jupyter_kernel.egg-info/top_level.txt
