@@ -1,0 +1,10 @@
+cityhash
+dask[delayed]
+geopandas
+pygdal
+pytz
+numpy>=1.11
+scipy
+
+[test]
+pytest
