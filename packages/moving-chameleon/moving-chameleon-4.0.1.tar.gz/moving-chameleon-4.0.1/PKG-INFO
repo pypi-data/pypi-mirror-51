@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: moving-chameleon
+Version: 4.0.1
+Summary: Chameleon is a color picker for X11
+Home-page: https://github.com/seebye/chameleon
+Author: Nico Baeurer
+License: GPLv3
+Project-URL: Source, https://github.com/seebye/chameleon
+Project-URL: Bug Reports, https://github.com/seebye/chameleon/issues
+Description: UNKNOWN
+Keywords: color colour picker ui gui web development
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
