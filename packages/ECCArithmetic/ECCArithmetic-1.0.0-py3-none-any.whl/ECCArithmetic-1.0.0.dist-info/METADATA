@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: ECCArithmetic
+Version: 1.0.0
+Summary: Python Elliptic Curve Arithmetic Library.
+Home-page: UNKNOWN
+Author: Parthkumar Rathod, Rakshit Joshi, Mahesh Hegde
+Author-email: parthcrathod@gmail.com, rakshitjoshi211997@gmail.com, maheshhegde113@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# ECCArithmetic
+
+## Installation
+```
+pip install ECCArithmetic
+```
+
+## Generate the Curve
+```
+from ECCArithmetic.ec import *
+
+Curve = EC(0, 5, 2, 23981)
+
+```
+
+## PickGenerator
+```python
+from ECCArithmetic.ec import *
+
+Curve = EC(0, 5, 2, 23981)
+G = Curve.pickGenerator()
+
+```
+
+## PickPoint
+```python
+from ECCArithmetic.ec import *
+
+Curve = EC(0, 5, 2, 23981)
+P = Curve.pickPoint()
+```
+
+## isPointOnEC
+Multiplication is realised with the double and add algorithm.
+```python
+from ECCArithmetic.ec import *
+
+Curve = EC(0, 5, 2, 23981)
+G = Curve.isPointOnEC([14967, 14215])
+```
+
+## Identity Element
+```python
+from ECCArithmetic.ec import *
+
+O = ECPt.identity()
+```
+
+## Find All Points
+```python
+from ECCArithmetic.ec import *
+
+Curve = EC(0, 5, 2, 23981)
+all = Curve.enumerateAllPoints()
+
+```
+
+## Addition
+```python
+from ECCArithmetic.ec import *
+
+Curve = EC(0, 5, 2, 23981)
+P = Curve.pickPoint()
+Q = Curve.pickPoint()
+
+S = P + Q
+
+```
+
+## Subtraction
+```python
+from ECCArithmetic.ec import *
+
+Curve = EC(0, 5, 2, 23981)
+P = Curve.pickPoint()
+Q = Curve.pickPoint()
+
+S = P - Q
+```
+
+## Multiplication
+```python
+from ECCArithmetic.ec import *
+
+Curve = EC(0, 5, 2, 23981)
+P = Curve.pickPoint()
+Q = Curve.pickPoint()
+
+S = P * Q
+```
+
+
