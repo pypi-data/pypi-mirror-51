@@ -1,0 +1,12 @@
+pysigsci/__init__.py,sha256=jZiHSLgpseKRejv1zD_TwaEuDEKwhnVP_Cgh4mxO6yU,65
+pysigsci/powerrules/__init__.py,sha256=bigDnXBnIieSQ_8Wp-7nHqsB6v42l3FXRCzXQG6iXc0,62
+pysigsci/powerrules/powerrules.py,sha256=adCc9i3UAeEId09ndBNzkzD4rR-Ox-PA2THmGE4_r7o,8996
+pysigsci/sigsciapi/__init__.py,sha256=oEpYMO_I7dju9Cnedz7uTcUCKPQGiFGEWwtoXAAz2S8,61
+pysigsci/sigsciapi/sigsciapi.py,sha256=TLMtl4j62ybNxMv0llR3EEBASmrleduSRkETKmLCMcQ,46197
+pysigsci-3.2.1.data/scripts/pysigsci,sha256=_Cmv8AFAJILOa1Ab6IkzfuBZ_JvkNv0AUciCK7Imd4k,13103
+pysigsci-3.2.1.data/scripts/pysigscia,sha256=MFfaFCVMutgRK_EItHMfu5hRycilqIvI1fX0GluIXKc,9059
+pysigsci-3.2.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pysigsci-3.2.1.dist-info/METADATA,sha256=6200QVwZZzJS6i1KDeVdy6FUHrsH0LTmjYvSRsDpjSY,1975
+pysigsci-3.2.1.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+pysigsci-3.2.1.dist-info/top_level.txt,sha256=LP_vBhm7qge-_nVktRem2mYuGd5aT_yrUXWRqnVpEuQ,9
+pysigsci-3.2.1.dist-info/RECORD,,
