@@ -1,0 +1,14 @@
+dstrf/__init__.py,sha256=6ZvMdKjNcorPk4UGBTsUUqTm8q2Rt0vYcdiJOxmHvgg,78
+dstrf/_crossvalidation.py,sha256=RbC8KthMR2s1uGPbfi1NdT8wAnUzVku0RXiWxX6ZpRU,4652
+dstrf/_dstrf.py,sha256=F2kD__n9z9HxX4Imk9m8dcdf16ntIVjWLeJ3ooaPnXg,10576
+dstrf/_fastac.py,sha256=B8Jdps8XO04uiN8zQhPTD7ueGLkMAy0ZyRTs84ibH4E,8614
+dstrf/_model.py,sha256=w4eJpR9tX9KIpGg1Yq7xSYR-ytlFlMcS_nuDetRs6Lw,40139
+dstrf/opt.cp37-win_amd64.pyd,sha256=e5nB8IcBMphXd252Qe1MeraDFXcRqD_0rh0woBO1jtQ,37888
+dstrf/test_dstrf.py,sha256=r0Pj6UyNkJgJjY_C_C1que3wkeSM6iQhdDFZLgWT0AY,2579
+dstrf/dsyevh3C/__init__.py,sha256=vGaJGC-hPA2jkDELg1AGKy5edLtKsw4JiHG--pEgCK8,44
+dstrf/dsyevh3C/dsyevh3py.cp37-win_amd64.pyd,sha256=HXUK_DNApE0BQCapu_EBlZLJL34TQke2O8Ji-FQPXZ0,168960
+dstrf-0.2.dist-info/LICENSE.txt,sha256=flqcrkjGjeUlrzK1wEGTXWTA2x8zmDl2sgPgTep4MKU,563
+dstrf-0.2.dist-info/METADATA,sha256=OiCmNXvH6WGSMPJclmOqkVyxGaef1njJgkDwE8CLlrw,439
+dstrf-0.2.dist-info/WHEEL,sha256=uaZe_9gV-4T_d4AskuIQkCgcY8wMc0UXsVFnf0_mBGs,106
+dstrf-0.2.dist-info/top_level.txt,sha256=ayAdS3KzvbuH9wZtAt0I-LDqkiuhiLUrBZ7ckvaFMjo,6
+dstrf-0.2.dist-info/RECORD,,
