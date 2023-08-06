@@ -1,0 +1,16 @@
+fiduswriter/citation-api-import/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiduswriter/citation-api-import/proxy_views.py,sha256=Eb-Qs_Gmtnyu9HioQoDjXrQATlIfxUh511QTS0GVLAU,837
+fiduswriter/citation-api-import/locale/de/LC_MESSAGES/djangojs.po,sha256=GoAlKixZ3FhzWSAgMyoy6HqvhR_q3R75uLb-NElCWso,2108
+fiduswriter/citation-api-import/static/css/citation_api_import.css,sha256=uk9gy3b7GhmiMTylVPmrN5_zN4vGuSpVSkT4ZORQxqk,50
+fiduswriter/citation-api-import/static/js/modules/citation_api_import/crossref.js,sha256=wA_BDiGK4LpJjhfcY2m6VeSgL5xwydiQvRLjrfj0kaE,1420
+fiduswriter/citation-api-import/static/js/modules/citation_api_import/datacite.js,sha256=apdJxvfwVoKC5pIL5nBPj9CKERbWki4HflqPz5t94Zs,1460
+fiduswriter/citation-api-import/static/js/modules/citation_api_import/gesis.js,sha256=Q2Xh6bfgwXBrVmKyUIK3P5_MXGZSbdacZ1fHZrVvs5I,2762
+fiduswriter/citation-api-import/static/js/modules/citation_api_import/index.js,sha256=mN-oEIsDeQUGwWY9Jd_XfZ5RbMY5yA1GG5uECgK83_E,4214
+fiduswriter/citation-api-import/static/js/modules/citation_api_import/templates.js,sha256=iUOQiCfJG9ilpf0YtZvO98H1RGgljgTNgDFxbUgmX98,6747
+fiduswriter/citation-api-import/static/js/plugins/bibliography_overview/citation_api_import.js,sha256=eeHNWsQu_WXzbIUEqMNorm891xZSpyGwq-2cVK-8fnY,835
+fiduswriter/citation-api-import/static/js/plugins/citation_dialog/citation_api_import.js,sha256=kA2bA-QgVskZ_SdhEEFnqXM9OBxrLu97dkzJX-mSIgQ,887
+fiduswriter_citation_api_import-3.7.0rc3.dist-info/LICENSE,sha256=YMZtFw1tnvZVwfBy9c1oHJ2PXOy8oSV70UX5XJdAlWU,34500
+fiduswriter_citation_api_import-3.7.0rc3.dist-info/METADATA,sha256=NJ65RqtH_GKX21SHRXZZpb4_4EpMMjOgl5QorcnFPfo,2119
+fiduswriter_citation_api_import-3.7.0rc3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+fiduswriter_citation_api_import-3.7.0rc3.dist-info/top_level.txt,sha256=7z9aoiRQ9kivWKw8LHUETXTxg1s_01XVC9Xv4TCfzf0,17
+fiduswriter_citation_api_import-3.7.0rc3.dist-info/RECORD,,
