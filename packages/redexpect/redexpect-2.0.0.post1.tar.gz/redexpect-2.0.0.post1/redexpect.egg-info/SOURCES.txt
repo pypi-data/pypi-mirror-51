@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+redexpect/__init__.py
+redexpect/exceptions.py
+redexpect/redexpect.py
+redexpect.egg-info/PKG-INFO
+redexpect.egg-info/SOURCES.txt
+redexpect.egg-info/dependency_links.txt
+redexpect.egg-info/requires.txt
+redexpect.egg-info/top_level.txt
