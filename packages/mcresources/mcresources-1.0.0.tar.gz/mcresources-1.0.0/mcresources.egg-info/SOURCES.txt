@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+mcresources/__init__.py
+mcresources/parts.py
+mcresources/resources.py
+mcresources/util.py
+mcresources.egg-info/PKG-INFO
+mcresources.egg-info/SOURCES.txt
+mcresources.egg-info/dependency_links.txt
+mcresources.egg-info/top_level.txt
