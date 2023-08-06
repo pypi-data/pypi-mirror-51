@@ -1,0 +1,9 @@
+README.md
+setup.py
+ddplt/__init__.py
+ddplt/conf.py
+ddplt.egg-info/PKG-INFO
+ddplt.egg-info/SOURCES.txt
+ddplt.egg-info/dependency_links.txt
+ddplt.egg-info/requires.txt
+ddplt.egg-info/top_level.txt
