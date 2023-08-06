@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: quickxorhash
+Version: 1.0.1
+Summary: Quick XOR hash function for OneDrive for Business
+Home-page: https://github.com/HarryChen/quickxorhash
+Author: Harry Chen
+Author-email: cjhecm@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: quickxorhash onedrive
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 4 - Beta
