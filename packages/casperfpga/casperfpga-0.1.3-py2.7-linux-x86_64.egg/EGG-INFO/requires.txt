@@ -1,0 +1,5 @@
+katcp==0.6.2
+numpy<1.17
+odict
+setuptools
+tornado<5
