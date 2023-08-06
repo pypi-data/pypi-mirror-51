@@ -1,0 +1,12 @@
+
+{% for activity in activity_list %}
+    <div class="bg-info" style="padding: 10px;">
+            <span style="margin-right: 10px;">{{ activity.link_name }}</span>
+            {% if activity.link %}
+                <a href="{{ activity.link }}" class="btn btn-info" target="_blank">点击了解更多</a>
+            {% else %}
+                <a href="{% url 'bee_django_referral:user_activity_detail' request.user.id activity.id %}" class="btn btn-info">点击了解更多</a>
+            {% endif %}
+        </div>
+{% endfor %}
+

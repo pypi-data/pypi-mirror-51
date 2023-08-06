@@ -1,0 +1,29 @@
+{% extends "bee_django_referral/custom_base.html" %}
+{% load bee_django_referral_filter %}
+{% block content %}
+
+    <h4>活动时间：{{ activity.start_date|date:"Y-m-d H:i:s" }} - {{ activity.end_date|date:"Y-m-d H:i:s" }}</h4>
+    <h4>{{ activity.name }}</h4>
+    {{ activity.detail|default:""|linebreaks }}
+    <div id="user_qrcode" class="row">
+        {% for qrcode in user_qrcode_list %}
+
+            <div class="col-xs-12 col-sm-6">
+                {% if qrcode.id|get_user_qrcode_image_status == 1 %}
+                    <div class="text-center"><img src="{{ qrcode.qrcode }}" alt="" width="90%"></div>
+                    <div class="text-center bg-success" style="padding: 10px 0;">长按图片“存储图像”,分享给亲友</div>
+                {% else %}
+                    <div class="text-center"><img src="/media/{{ activity.qrcode_bg }}" alt="" width="90%"></div>
+                    <div class="text-center bg-danger" style="padding: 10px 0;">此二维码已被使用</div>
+                {% endif %}
+            </div>
+
+
+
+        {% endfor %}
+    </div>
+    <hr>
+    <div>
+        {{ activity.explain|default:""|linebreaks }}
+    </div>
+{% endblock %}
