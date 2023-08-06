@@ -1,0 +1,5 @@
+setup.py
+swdclient.egg-info/PKG-INFO
+swdclient.egg-info/SOURCES.txt
+swdclient.egg-info/dependency_links.txt
+swdclient.egg-info/top_level.txt
