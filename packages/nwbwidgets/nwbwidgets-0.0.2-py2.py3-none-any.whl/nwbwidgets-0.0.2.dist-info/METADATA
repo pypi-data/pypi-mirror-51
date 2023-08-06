@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: nwbwidgets
+Version: 0.0.2
+Summary: This is nwb-jupyter-widgets, widgets for viewing the contents of a NWB-file in Jupyter Notebooks using ipywidgets.
+Home-page: https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets
+Author: Neurodata Without Border (NWB) developers
+Author-email: ben.dichter@gmail.com
+License: MIT
+Keywords: jupyter,hdf5,notebook,nwb
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: pynwb
+Requires-Dist: itkwidgets
+Requires-Dist: ipympl
+Requires-Dist: ipywidgets (>=7.4)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: ipyvolume
+Requires-Dist: ndx-grayscalevolume
+
+# nwb-jupyter-widgets
+Jupyter Widgets for NWB files. This repo defines a structure for navigating the hierarchical structure with widgets in a jupyter notebook. It is designed to work out-of-the-box with NWB:N 2.0 files and to be easy to extend. Currently most of the visualizations are pretty rudimentary, and we would be happy to work with anyone interested in implementing visualizations.
+
+authors: Matt McCormick (matt.mccormick@kitware.com) and Ben Dichter (bdichter@lbl.gov)
+
+
+## Installation
+```bash
+pip install nwbwidgets
+```
+
+## Usage
+```python
+from pynwb import NWBHDF5IO
+from nwbwidgets import nwb2widget
+
+io = NWBHDF5IO('path/to/file.nwb', mode='r')
+nwb = io.read()
+
+nwb2widget(nwb)
+```
+
+## Demo
+![](https://drive.google.com/uc?export=download&id=1JtI2KtT8MielIMvvtgxRzFfBTdc41LiE)
+
+
