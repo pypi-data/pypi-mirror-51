@@ -1,0 +1,16 @@
+.gitattributes
+.gitignore
+.readthedocs.yml
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pyObjective/__init__.py
+pyObjective.egg-info/PKG-INFO
+pyObjective.egg-info/SOURCES.txt
+pyObjective.egg-info/dependency_links.txt
+pyObjective.egg-info/requires.txt
+pyObjective.egg-info/top_level.txt
+pyObjective/__pycache__/Model.cpython-36.pyc
+pyObjective/__pycache__/__init__.cpython-36.pyc

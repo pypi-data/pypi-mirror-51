@@ -1,0 +1,4 @@
+global-exclude *_test.py
+global-exclude *.DS_Store
+prune docs
+prune dist
