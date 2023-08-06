@@ -1,0 +1,13 @@
+README.md
+setup.py
+kwaddle/__init__.py
+kwaddle/callback.py
+kwaddle/data.py
+kwaddle/embedding.py
+kwaddle/model.py
+kwaddle/text.py
+kwaddle/whatsapp.py
+kwaddle.egg-info/PKG-INFO
+kwaddle.egg-info/SOURCES.txt
+kwaddle.egg-info/dependency_links.txt
+kwaddle.egg-info/top_level.txt

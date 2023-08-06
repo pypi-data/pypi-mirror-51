@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kwaddle
+Version: 0.3
+Summary: UNKNOWN
+Home-page: https://github.com/andrewtmmaher/waddle
+Author: Andrew Maher
+Author-email: andrewtmmaher@gmail.com
+License: UNKNOWN
+Description: # Keras WhatApp chat model (KWaddle)
+        
+        Small Python library to perform machine learning on Whatsapp chat logs.
+        
+        To-be-implemented:
+        * Skip-gram to estimate character embeddings from a chat
+        * Next-character prediction RNN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
