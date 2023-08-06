@@ -1,0 +1,11 @@
+LICENSE.md
+MANIFEST.in
+README.md
+argsupport.py
+setup.cfg
+setup.py
+test_requirements.txt
+argsupport.egg-info/PKG-INFO
+argsupport.egg-info/SOURCES.txt
+argsupport.egg-info/dependency_links.txt
+argsupport.egg-info/top_level.txt
