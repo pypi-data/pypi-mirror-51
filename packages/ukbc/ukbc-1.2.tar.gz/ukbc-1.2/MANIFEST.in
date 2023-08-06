@@ -1,0 +1,4 @@
+include readme.md
+include ukbc/coding_files/*
+include ukbc/images/*
+include ukbc/data/*

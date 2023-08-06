@@ -1,0 +1,4 @@
+appjar
+pandas
+bs4
+numpy
