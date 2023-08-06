@@ -1,0 +1,6 @@
+gym
+opencv-python
+eventlet
+airsim
+matplotlib
+Pillow

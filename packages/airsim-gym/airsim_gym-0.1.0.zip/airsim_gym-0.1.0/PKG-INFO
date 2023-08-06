@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: airsim_gym
+Version: 0.1.0
+Summary: An OpenAI Gym environment for Microsoft's AirSim Multirotor simulator
+Home-page: https://github.com/Kamaropoulos/AirSim_Gym
+Author: Konstantinos Kamaropoulos
+Author-email: k@kamaropoulos.com
+License: MIT
+Download-URL: https://github.com/Kamaropoulos/AirSim_Gym/archive/0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: AirSim,OpenAI Gym,Gym,reinforcement learning,multirotor
+Platform: UNKNOWN
