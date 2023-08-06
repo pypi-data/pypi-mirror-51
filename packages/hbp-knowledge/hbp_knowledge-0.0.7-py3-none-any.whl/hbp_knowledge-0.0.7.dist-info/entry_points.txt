@@ -1,0 +1,3 @@
+[console_scripts]
+hbp-knowledge = hbp_knowledge:main
+
