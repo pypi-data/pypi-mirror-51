@@ -1,0 +1,4 @@
+include source/artellalauncher/resources/icons/*.*
+include source/artellalauncher/resources/icons/color/*.*
+include source/artellalauncher/resources/images/*.*
+include source/artellalauncher/*.json
