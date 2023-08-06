@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dwl
+Version: 0.3.1
+Summary: Stupid command to download YouTube's `watch later` videos.
+Home-page: https://gitlab.com/xliiv/dwl
+Author: xliiv
+Author-email: tymoteusz.jankowski@gmail.com
+License: UNKNOWN
+Description: Stupid command to download YouTube's `watch later` videos.
+        
+        # Release a new version
+        
+        TODO: make it a script
+        ```
+        # git diff must be empty
+        git tag -l
+        git tag v0.x.0
+        bash scripts/build.sh
+        bash scripts/publish.sh
+        git push origin --tags
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
