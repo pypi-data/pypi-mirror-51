@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+pngquant/__init__.py
+pngquant/compat.py
+pngquant/main.py
+pngquant.egg-info/PKG-INFO
+pngquant.egg-info/SOURCES.txt
+pngquant.egg-info/dependency_links.txt
+pngquant.egg-info/requires.txt
+pngquant.egg-info/top_level.txt
