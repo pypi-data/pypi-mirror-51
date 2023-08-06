@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: extended-int
+Version: 0.6
+Summary: Python classes that provides support for extended integers (the set of integers, and infinity).
+Home-page: UNKNOWN
+Author: Neil Girdhar
+Author-email: mistersheik@gmail.com
+License: UNKNOWN
+Download-URL: https://pypi.python.org/pypi/extended_int
+Project-URL: Bug Tracker, https://github.com/NeilGirdhar/extended_int/issues
+Project-URL: Source Code, https://github.com/NeilGirdhar/extended_int
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+
+=================
+Extended Integers
+=================
+.. image:: https://badge.fury.io/py/extended_int.svg
+    :target: https://badge.fury.io/py/extended_int
+
+This repository provides a Python base class that implements extended integers.
+
+Example
+=======
+
+.. code-block:: python
+
+    In [1]: from numbers import Real, Integral
+
+    In [2]: from extended_int import ExtendedIntegral, int_inf
+
+    In [3]: float(int_inf)
+    Out[3]: inf
+
+    In [4]: print(int_inf)
+    inf
+
+    In [5]: int(int_inf)
+    ---------------------------------------------------------------------------
+    OverflowError                             Traceback (most recent call last)
+
+    In [6]: isinstance(int_inf, Real)
+    Out[6]: True
+
+    In [7]: isinstance(int_inf, Integral)
+    Out[7]: False
+
+
+    In [8]: isinstance(2.5, ExtendedIntegral)
+
+    Out[8]: False
+
+    In [9]: isinstance(int_inf, ExtendedIntegral)
+
+    Out[9]: True
+
+    In [10]: isinstance(2, ExtendedIntegral)
+
+    Out[10]: True
+
+
