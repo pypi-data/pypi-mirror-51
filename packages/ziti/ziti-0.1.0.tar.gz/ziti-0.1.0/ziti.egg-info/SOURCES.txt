@@ -1,0 +1,8 @@
+README.txt
+setup.py
+ziti.py
+ziti.egg-info/PKG-INFO
+ziti.egg-info/SOURCES.txt
+ziti.egg-info/dependency_links.txt
+ziti.egg-info/requires.txt
+ziti.egg-info/top_level.txt
