@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyecs/__init__.py
+pyecs/__version__.py
+pyecs/core.py
+pyecs.egg-info/PKG-INFO
+pyecs.egg-info/SOURCES.txt
+pyecs.egg-info/dependency_links.txt
+pyecs.egg-info/not-zip-safe
+pyecs.egg-info/top_level.txt
+test/test_core.py
