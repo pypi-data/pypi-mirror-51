@@ -1,0 +1,11 @@
+shm_dict/__init__.py,sha256=eDzXVvQv3oaGyFcmsW8cAM_7mBUKC6YrAXHdLSeC9ns,166
+shm_dict/_version.py,sha256=gOa4P8wfd6Mr8SOzYAKLEepaaF_HG8DliB3qkgDpea8,1159
+shm_dict/shm_dict.py,sha256=j4AdcFrEp4jJ3arwvh9Y6AbVw7JwiCo2BtuDi_fBal8,11026
+tests/__init__.py,sha256=X0oob-__KKmDv245ysYyCCcCQl3-ihqAbfFQa-dgmkM,94
+tests/test_shm_dict.py,sha256=2RfGHkB43NGRHNR8yh8A5jBRsYCEir_fvxX__coVM-o,13349
+shm_dict-2019.8.28.20.31.dist-info/LICENSE,sha256=proz4x91SZR421UPJagjkyhDHtFpfHvGE_JrhKY2bz8,34667
+shm_dict-2019.8.28.20.31.dist-info/LICENSE.LESSER,sha256=mNGKsJSd4hdS6Jd6CJpQhbB915Nx1xc3jnRWqKfdaUs,7440
+shm_dict-2019.8.28.20.31.dist-info/METADATA,sha256=cDxSg0Ef2fE_eo_WNFv_vFunfyjjrjyqAO_1oXvXziw,2050
+shm_dict-2019.8.28.20.31.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+shm_dict-2019.8.28.20.31.dist-info/top_level.txt,sha256=V6pWbh4Wgv_as6xFB7ewafMz2Ey07zCSoTaEFo3w-qs,15
+shm_dict-2019.8.28.20.31.dist-info/RECORD,,
