@@ -1,0 +1,4 @@
+blessings
+pygments
+pyyaml
+requests
