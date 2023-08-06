@@ -1,0 +1,56 @@
+Metadata-Version: 1.1
+Name: dtwr
+Version: 0.4.1
+Summary: (Obsolete package: please use dtw-python). A comprehensive implementation of dynamic time warping (DTW) algorithms in R. DTW computes the optimal (least cumulative distance) alignment between points of two time series. Common DTW variants covered include local (slope) and global (window) constraints, subsequence matches, arbitrary distance definitions, normalizations, minimum variance matching, and so on. Provides cumulative distances, alignments, specialized plot styles, etc.
+Home-page: https://DynamicTimeWarping.github.io
+Author: Toni Giorgino
+Author-email: toni.giorgino@gmail.com
+License: GNU General Public License v3
+Description: Package superseded
+        ==================
+        
+        
+        Package superseded
+        ~~~~~~~~~~~~~~~~~~
+        
+        This package has been superseded. The `dtw-python <https://pypi.org/project/dtw-python>`__ package should used instead.
+        
+        
+        
+        Description
+        ~~~~~~~~~~~
+        
+        
+        Comprehensive implementation of Dynamic Time Warping algorithms.
+        Supports arbitrary local (eg symmetric, asymmetric, slope-limited) and
+        global (windowing) constraints, fast native code, several plot styles,
+        and more.
+        
+        This package provides
+        the most complete, freely-available (GPL) implementation of Dynamic Time
+        Warping-type (DTW) algorithms up to date. It is a faithful Python equivalent
+        of `R's DTW package <http://dtw.r-forge.r-project.org/>`__.
+        
+        
+        The package is described in a `companion
+        paper <http://www.jstatsoft.org/v31/i07/>`__, including detailed
+        instructions and extensive background on things like multivariate
+        matching, open-end variants for real-time use, interplay between
+        recursion types and length normalization, history, etc.
+        
+        The project's homepage is <https://DynamicTimeWarping.github.io>
+        
+        
+        
+Keywords: dtwr
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
