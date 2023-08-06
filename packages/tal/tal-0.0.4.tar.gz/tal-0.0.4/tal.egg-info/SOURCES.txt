@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/__init__.py
+src/cli.py
+tal.egg-info/PKG-INFO
+tal.egg-info/SOURCES.txt
+tal.egg-info/dependency_links.txt
+tal.egg-info/entry_points.txt
+tal.egg-info/requires.txt
+tal.egg-info/top_level.txt
