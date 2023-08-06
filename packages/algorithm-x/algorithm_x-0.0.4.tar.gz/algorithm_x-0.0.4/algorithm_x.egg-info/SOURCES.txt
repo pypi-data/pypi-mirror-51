@@ -1,0 +1,7 @@
+README.md
+setup.py
+algorithm_x/__init__.py
+algorithm_x.egg-info/PKG-INFO
+algorithm_x.egg-info/SOURCES.txt
+algorithm_x.egg-info/dependency_links.txt
+algorithm_x.egg-info/top_level.txt
