@@ -1,0 +1,10 @@
+LICENSE
+README.md
+Text2CArray.py
+setup.py
+Text2CArray.egg-info/PKG-INFO
+Text2CArray.egg-info/SOURCES.txt
+Text2CArray.egg-info/dependency_links.txt
+Text2CArray.egg-info/not-zip-safe
+Text2CArray.egg-info/requires.txt
+Text2CArray.egg-info/top_level.txt

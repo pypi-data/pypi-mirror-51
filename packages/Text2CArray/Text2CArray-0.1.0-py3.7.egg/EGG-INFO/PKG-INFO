@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Text2CArray
+Version: 0.1.0
+Summary: Script for generating C arrays from text.
+Home-page: https://github.com/ProrokWielki/Text2CArray
+Author: Pawel Warzecha
+Author-email: pawel.warzecha@yahoo.com
+License: MIT
+Description: 
+        Example yaml config file
+        ```
+        Defaults:
+          size: 11
+          font: SomeFont.otf
+        Texts:
+          - id: Text1
+            size: 11
+            text: 1
+          - id: Text2
+            text: Text
+          - id: AnotherText
+            font: OtherFont.otf
+            text: I like this 
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
