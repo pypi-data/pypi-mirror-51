@@ -1,0 +1,5 @@
+azureml-telemetry
+azure-storage-blob
+multimethods>=1.0.0
+matplotlib>=3.0.3
+opencv-contrib-python>=4.0.25
