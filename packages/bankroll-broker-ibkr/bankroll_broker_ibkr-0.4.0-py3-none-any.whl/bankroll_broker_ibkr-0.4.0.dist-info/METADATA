@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: bankroll-broker-ibkr
+Version: 0.4.0
+Summary: Interactive Brokers support for bankroll
+Home-page: https://github.com/bankroll-py/bankroll-broker-ibkr
+Author: Justin Spahr-Summers
+Author-email: justin@jspahrsummers.com
+License: MIT
+Keywords: trading investing finance portfolio ib ibkr tws
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Requires-Dist: backoff (~=1.8)
+Requires-Dist: bankroll-broker (~=0.4.0)
+Requires-Dist: bankroll-marketdata (~=0.4.0)
+Requires-Dist: bankroll-model (~=0.4.0)
+Requires-Dist: ib-insync (~=0.9.50)
+Requires-Dist: pandas (~=0.25.1)
+Requires-Dist: progress (~=1.5)
+
+# bankroll-broker-ibkr [![PyPI version](https://badge.fury.io/py/bankroll-broker-ibkr.svg)](https://badge.fury.io/py/bankroll-broker-ibkr) [![CircleCI](https://circleci.com/gh/bankroll-py/bankroll-broker-ibkr.svg?style=svg&circle-token=cdf153fcfdf22efd33d454b39734564471524f9e)](https://circleci.com/gh/bankroll-py/bankroll-broker-ibkr)
+
+[Interactive Brokers](https://www.interactivebrokers.com) support for [bankroll](https://github.com/bankroll-py).
+
+
