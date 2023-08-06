@@ -1,0 +1,8 @@
+README.md
+setup.py
+ig-web-api/__init__.py
+ig_web_api.egg-info/PKG-INFO
+ig_web_api.egg-info/SOURCES.txt
+ig_web_api.egg-info/dependency_links.txt
+ig_web_api.egg-info/requires.txt
+ig_web_api.egg-info/top_level.txt
