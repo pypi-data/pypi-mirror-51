@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+bin/lscloud
+lscloud/__init__.py
+lscloud/lscloud.py
+lscloud.egg-info/PKG-INFO
+lscloud.egg-info/SOURCES.txt
+lscloud.egg-info/dependency_links.txt
+lscloud.egg-info/requires.txt
+lscloud.egg-info/top_level.txt

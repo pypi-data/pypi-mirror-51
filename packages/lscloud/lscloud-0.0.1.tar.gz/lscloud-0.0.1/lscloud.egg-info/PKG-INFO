@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lscloud
+Version: 0.0.1
+Summary: A python utility that display cloud resource avialablity
+Home-page: https://avattathil.github.io/lscloud
+Author: Tony Vattathil
+Author-email: avattathil@gmail.com
+License: Apache License 2.0
+Download-URL: https://github.com/avattathil/lscloud/tarball/master
+Description: ![PyPI](https://img.shields.io/pypi/v/lscloud.svg?color=blue&label=pypi%20release)
+        
+        [![Build Status](https://travis-ci.org/lscloud/lscloud.svg?branch=master)](https://travis-ci.org/avattathil/lscloud)
+        
+        ### lscloud
+        A python based utility that display cloud resource avialablity 
+        
+        
+        # lscloud
+        ```
+        usage: lscloud [-h] 
+        
+Keywords: aws,lscloud
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
