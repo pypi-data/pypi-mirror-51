@@ -1,0 +1,14 @@
+README.md
+setup.py
+bin/__init__.py
+bin/detect.py
+bin/preproc.py
+boat_detector.egg-info/PKG-INFO
+boat_detector.egg-info/SOURCES.txt
+boat_detector.egg-info/dependency_links.txt
+boat_detector.egg-info/entry_points.txt
+boat_detector.egg-info/not-zip-safe
+boat_detector.egg-info/requires.txt
+boat_detector.egg-info/top_level.txt
+src/__init__.py
+src/parsing.py

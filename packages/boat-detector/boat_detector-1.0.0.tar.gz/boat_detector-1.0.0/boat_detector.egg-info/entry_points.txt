@@ -1,0 +1,4 @@
+[console_scripts]
+boat-detect = bin.detect:main
+boat-preprocess = bin.preproc:main
+
