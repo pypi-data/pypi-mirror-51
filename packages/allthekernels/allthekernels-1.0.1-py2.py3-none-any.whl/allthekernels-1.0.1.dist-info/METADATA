@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: allthekernels
+Version: 1.0.1
+Summary: Multiplexing kernel for Jupyter
+Home-page: https://github.com/minrk/allthekernels
+Author: Min RK
+Author-email: benjaminrk@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: ipykernel (>=4.3)
+Requires-Dist: jupyter-client (>=5.0)
+Requires-Dist: pyzmq (>=15.2)
+Requires-Dist: tornado (>=4)
+
+# All the Kernels!
+
+A Jupyter kernel that multiplexes all the kernels you have installed.
+
+Specify which kernel a cell should use with `>kernelname`.
+If no kernel is specified, IPython will be used.
+
+![atk](img/allthekernels.png)
+
+([All the things source](http://hyperboleandahalf.blogspot.no/2010/06/this-is-why-ill-never-be-adult.html))
+
