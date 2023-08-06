@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: starlette-bugsnag
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/ashinabraham/starlette-bugsnag
+Author: Ashin E Abraham
+Author-email: ashineabraham@gmail.com
+License: MIT
+Description: # Starlette-bugsnag
+        
+        Bugsnag integration for Starlette ASGI framework.
+        
+        Installation:
+        ```
+        pip install starlette-bugsnag
+        ```
+        
+        Usage:
+        ```python
+        from starlette_bugsnag import BugsnagMiddleware
+        import bugsnag
+        
+        bugsnag.configure(...)
+        
+        app = ...
+        app = BugsnagMiddleware(app)
+        ```
+        
+        Here's a more complete example using [Starlette](https://github.com/encode/starlette) and [uvicorn](https://github.com/encode/uvicorn):
+        ```python
+        
+        import bugsnag
+        import os
+        import uvicorn
+        
+        from starlette_bugsnag import BugsnagMiddleware
+        from starlette.applications import Starlette
+        from starlette.responses import PlainTextResponse
+        
+        bugsnag.configure(api_key=os.getenv('BUGSNAG_API_KEY'), project_root=os.getcwd())
+        
+        app = Starlette()
+        app.add_middleware(BugsnagMiddleware, debug=False)
+        
+        
+        @app.route("/")
+        def index(request):
+            return PlainTextResponse("Hello World")
+        
+        
+        @app.route("/error")
+        def raiser(request):
+            raise ValueError("This Is an Error")
+        
+        
+        if __name__ == "__main__":
+            uvicorn.run(app, host="0.0.0.0", port=8000)
+        ```
+        
+        See [examples](https://github.com/ashinabraham/starlette-bugsnag/tree/master/examples) for more.
+        
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
