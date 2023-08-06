@@ -1,0 +1,9 @@
+fetchDBconn/__init__.py,sha256=zk2xCBtRx5ViyKfA5D4GnOl0LM-WA75EPEf7L21I-6g,18
+fetchDBconn/engine.py,sha256=Yjqbf_REm2-uCuC4kFCtEYxlfq3_BrGpIjcAfJI5fi0,613
+fetchDBconn/fetchDBconn.py,sha256=F2A-85oPSbwoVdB92QTk0eg5Mm-fVuil67J7EhFpUBg,572
+fetchDBconn-0.0.4.dist-info/LICENSE,sha256=8vOT-XhfYZoH8tKAriFT2UYLCNhtylTEeVvkzMamqKk,1090
+fetchDBconn-0.0.4.dist-info/LICENSE.txt,sha256=ahlK7eStBy_J7tBbEYdYh6710zX4ozjxxaIcDqiw7v0,1636
+fetchDBconn-0.0.4.dist-info/METADATA,sha256=VEk2h8_GbrkvcewA1mLnB4BPvv6Y-Sq4xqDLLhZvKcs,554
+fetchDBconn-0.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+fetchDBconn-0.0.4.dist-info/top_level.txt,sha256=7weX84zNZfK3NWLYQD80XUSt6JrIyIgPOU9SHlA7H74,12
+fetchDBconn-0.0.4.dist-info/RECORD,,
