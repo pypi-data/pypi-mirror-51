@@ -1,0 +1,13 @@
+README.md
+setup.py
+libimagequant_integrations/PIL.py
+libimagequant_integrations/PyQt5.py
+libimagequant_integrations/PySide2.py
+libimagequant_integrations/_Qt.py
+libimagequant_integrations/__init__.py
+libimagequant_integrations/skimage.py
+libimagequant_integrations.egg-info/PKG-INFO
+libimagequant_integrations.egg-info/SOURCES.txt
+libimagequant_integrations.egg-info/dependency_links.txt
+libimagequant_integrations.egg-info/requires.txt
+libimagequant_integrations.egg-info/top_level.txt
