@@ -1,0 +1,7 @@
+es_logging_machine.py
+setup.py
+es_logging_machine.egg-info/PKG-INFO
+es_logging_machine.egg-info/SOURCES.txt
+es_logging_machine.egg-info/dependency_links.txt
+es_logging_machine.egg-info/requires.txt
+es_logging_machine.egg-info/top_level.txt
