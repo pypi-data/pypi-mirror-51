@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+npsolve/__init__.py
+npsolve/cache.py
+npsolve/core.py
+npsolve.egg-info/PKG-INFO
+npsolve.egg-info/SOURCES.txt
+npsolve.egg-info/dependency_links.txt
+npsolve.egg-info/requires.txt
+npsolve.egg-info/top_level.txt
+test/test_partial.py
+test/test_performance.py
+test/test_solver.py
