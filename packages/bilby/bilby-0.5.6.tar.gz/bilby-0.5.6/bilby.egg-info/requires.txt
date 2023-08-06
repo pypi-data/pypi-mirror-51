@@ -1,0 +1,8 @@
+future
+dynesty>=0.9.7
+corner
+dill
+numpy>=1.9
+matplotlib>=2.0
+pandas
+scipy
