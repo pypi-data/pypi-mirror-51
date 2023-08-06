@@ -1,0 +1,3 @@
+include README.rst
+include LICENSE
+include music_publisher/templates/raw_cwr.html
