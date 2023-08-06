@@ -1,0 +1,71 @@
+# aiotelegraph
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](
+https://github.com/OlegYurchik/aiotelegraph/blob/master/LICENSE)
+[![built with Python3](https://img.shields.io/badge/built%20with-Python3-red.svg)](
+https://www.python.org/)
+[![paypal](https://img.shields.io/badge/-PayPal-blue.svg)](
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QEZ85BDKJCM4E)
+## Description
+This is simple async library for interaction with Telegra.ph API
+
+Contents
+=================
+* [Release Notes](#release-notes)
+  * [0.1.0](#version-0-1-0)
+* [Getting Started](#getting-started)
+  * [Installation from Pip](#installation-from-pip)
+  * [Installation from GitHub](#installation-from-github)
+  * [Quick Start](#quick-start)
+* [User Guide](#user-guide)
+* [Documentation](#documentation)
+  * [Entities](#entities)
+  * [Methods](#methods)
+* [Help the author](#help-the-author)
+  * [Contribute repo](#contribute-repo)
+  * [Donate](#donate)
+## Release Notes
+### Version 0.1.0
+* Init library
+## Getting Started
+### Installation from pip
+For installation aiotelegraph library from pip you should have pip with python (prefer python3.6 or
+later)
+```bash
+pip install aiotelegraph
+```
+### Installation from GitHub
+To basic installation from GitHub repository you should have git, python3 (prefer python3.6 or
+later), pip (optionally) in your system
+```bash
+git clone https://github.com/OlegYurchik/aiotelegraph.git
+cd aiotelegraph
+pip install .
+```
+or
+```bash
+git clone https://github.com/OlegYurchik/aiotelegraph.git
+cd aiotelegraph
+python setup.py install
+```
+### Quick Start
+After installation, you can use the library in your code. Below is a sneak example of using the
+library.
+```python3
+from asyncio
+from aiotelegraph import NodeElement, TelegraphClient
+
+
+async def main():
+    client = TelegraphClient()
+    await client.create_account(short_name="ShortName", author_name="AuthorName", author_url="AuthorUrl")
+    
+    content = [
+        NodeElement(text="Hello"),
+        NodeElement(text="Neighbour"),
+    ]
+    page = await client.create_page(title="Greeting", content=content, return_content=True) 
+
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+```
