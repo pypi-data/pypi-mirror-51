@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "GMConfig"
+version = "0.1.0"
+description = "My lazy mans config loading and exporting module"
+authors = ["GeekMasher"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyyaml = "^5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+black = "19.3b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
