@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: gamejolt
+Version: 1
+Summary: A module for interfacing with the GameJolt API
+Home-page: https://github.com/benmoran56/gamejolt
+Author: Benjamin Moran
+Author-email: benmoran@protonmail.com
+License: MIT
+Description: Gamejolt API
+        ------------
+        
+        A Python module for interacting with the GameJolt API.
+        
+Keywords: game gamedev gamejolt
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries
