@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: bankroll-broker-vanguard
+Version: 0.4.0
+Summary: Vanguard support for bankroll (experimental)
+Home-page: https://github.com/bankroll-py/bankroll-broker-vanguard
+Author: Justin Spahr-Summers
+Author-email: justin@jspahrsummers.com
+License: MIT
+Keywords: trading investing finance portfolio vanguard
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Requires-Dist: bankroll-broker (~=0.4.0)
+Requires-Dist: bankroll-model (~=0.4.0)
+
+# bankroll-broker-vanguard [![PyPI version](https://badge.fury.io/py/bankroll-broker-vanguard.svg)](https://badge.fury.io/py/bankroll-broker-vanguard) [![CircleCI](https://circleci.com/gh/bankroll-py/bankroll-broker-vanguard.svg?style=svg&circle-token=2fc2ef908f0c29713ad4199be869896638e857fb)](https://circleci.com/gh/bankroll-py/bankroll-broker-vanguard)
+
+[Vanguard](https://investor.vanguard.com/home/) support for bankroll. **This library is experimental, and may not always deliver accurate results, due to limitations in the underlying data.**
+
+

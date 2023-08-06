@@ -1,0 +1,8 @@
+bankroll/brokers/vanguard/__init__.py,sha256=cVFHte-NdWAZOVjArmYHBlQyHNPpaaEAn8vi1A8Bpyg,93
+bankroll/brokers/vanguard/account.py,sha256=vxBtS4YC8g-xO8aN6rJIaknVH0ICaZ6wvWNILE_qfeY,9540
+bankroll/brokers/vanguard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bankroll_broker_vanguard-0.4.0.dist-info/LICENSE,sha256=c348Ut9y7l3uPucimipJK2tPTUcMyHg-wNbgHBEtXqc,1124
+bankroll_broker_vanguard-0.4.0.dist-info/METADATA,sha256=_FI5Fr6h0a68BHKbwtA7AFI1VrHvHQviMnSbBLkobKs,1453
+bankroll_broker_vanguard-0.4.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+bankroll_broker_vanguard-0.4.0.dist-info/top_level.txt,sha256=rMDAvIGDwxswDDlVMpB-qJJrZlx1nYiAj8mYJu3pypo,9
+bankroll_broker_vanguard-0.4.0.dist-info/RECORD,,
