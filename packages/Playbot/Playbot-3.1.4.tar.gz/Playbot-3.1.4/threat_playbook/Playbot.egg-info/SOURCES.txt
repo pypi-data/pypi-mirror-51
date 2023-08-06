@@ -1,0 +1,12 @@
+README.md
+setup.py
+threat_playbook/Playbot.py
+threat_playbook/__init__.py
+threat_playbook/parsers.py
+threat_playbook/utils.py
+threat_playbook/validations.py
+threat_playbook/Playbot.egg-info/PKG-INFO
+threat_playbook/Playbot.egg-info/SOURCES.txt
+threat_playbook/Playbot.egg-info/dependency_links.txt
+threat_playbook/Playbot.egg-info/requires.txt
+threat_playbook/Playbot.egg-info/top_level.txt
