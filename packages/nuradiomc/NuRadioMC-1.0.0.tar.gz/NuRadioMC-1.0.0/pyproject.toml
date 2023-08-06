@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "NuRadioMC"
+author = "Christian Glaser"
+author-email = "work@c-glaser.de"
+home-page = "https://github.com/nu-radio/NuRadioMC"
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+
+requires = [
+    "radiotools >=0.2.0",
+    "h5py",
+    "NuRadioReco >=1.0.0",
+    "pyyaml",
+    "cython"
+]
+requires-python=">3.4"
