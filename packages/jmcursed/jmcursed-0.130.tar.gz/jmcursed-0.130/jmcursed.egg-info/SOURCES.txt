@@ -1,0 +1,8 @@
+framedwindow.py
+pybuildpush.py
+samples.py
+setup.py
+jmcursed.egg-info/PKG-INFO
+jmcursed.egg-info/SOURCES.txt
+jmcursed.egg-info/dependency_links.txt
+jmcursed.egg-info/top_level.txt
