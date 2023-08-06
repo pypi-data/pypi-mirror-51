@@ -1,0 +1,10 @@
+README.md
+pt_supermarket_scraper.py
+setup.cfg
+setup.py
+pt_supermarket_scraper.egg-info/PKG-INFO
+pt_supermarket_scraper.egg-info/SOURCES.txt
+pt_supermarket_scraper.egg-info/dependency_links.txt
+pt_supermarket_scraper.egg-info/entry_points.txt
+pt_supermarket_scraper.egg-info/requires.txt
+pt_supermarket_scraper.egg-info/top_level.txt

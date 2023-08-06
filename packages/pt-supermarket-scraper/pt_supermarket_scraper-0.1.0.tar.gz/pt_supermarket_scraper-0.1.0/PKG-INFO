@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pt_supermarket_scraper
+Version: 0.1.0
+Summary: Python library for scraping portuguese supermarkets websites
+Home-page: https://github.com/j38600/pt_supermarket_scraper
+Author: Júlio Sebastião
+Author-email: j38600@gmail.com
+License: MIT
+Download-URL: https://github.com/j38600/pt_supermarket_scraper/tarball/0.1.0
+Description: # pt_supermarket_scraper
+        Portuguese supermarkets scraper
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown

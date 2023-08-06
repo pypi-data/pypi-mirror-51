@@ -1,0 +1,3 @@
+[console_scripts]
+pt_supermarket_scraper = pt_supermarket_scraper:main
+
