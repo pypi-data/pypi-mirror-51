@@ -1,0 +1,116 @@
+CHANGES
+=======
+
+2.5.1
+-----
+
+* Remove stray reference to removed short form of --random
+* Remove abbreviated option for stestr run --random
+* Only use stdlib based unittest runner for py >=3.5
+
+2.5.0
+-----
+
+* Handle NoneType timestamps in subunit results
+* Add links to translated version README
+* Add README\_ja.rst
+* Update docs
+* Revert to the trimmed stdout usage
+* Revert to previous stdout and remove usage modification
+* Revert "Add back more of the \_get\_runner() logic"
+* Add back more of the \_get\_runner() logic
+* Remove unused bits from test runner
+* Use StringIO instead of tempfile
+* Remove console script entrypoint for the runner
+* Add license to package metadata
+* Add unit tests for output functions
+* Add mailmap file to deduplicate authors list
+* Add custom test runner and remove testtools runner dependency
+* Fix edge case where there are no test times in output
+* Mention IRC channel in README
+
+2.4.0
+-----
+
+* Add macOS azure pipelines
+* Use Azure DevOps build badge instead of appveyor
+* Add Deprecation warning on cli usage with py2.7
+* Remove appveyor config
+* Install vcpython27 when python.version is 2.7
+* Set up CI with Azure Pipelines
+* Add release automation for pypi artifacts
+* Rework logic for suppress attachments and all attachments
+* Add readme note about python 2 eol in readme
+* Cap sphinx version <2.0.0 when python2.7
+* Add flag to print all attachments for successful tests
+* Add skips on windows
+* Discover python executable when discover is not used
+* Update copyright year
+* Use str instead of six.text\_type for python2.7
+* Fix pep8 error
+* Update stestr/repository/memory.py
+* Add support to repositories for storing run metadata
+* Use yaml.safe\_load instead of yaml.load
+* Take care of 'concurrency is None' case
+
+2.3.1
+-----
+
+* Add sanity check unittests
+* Use to\_int in both CLI and Python API
+* Ensure concurrency is always an int
+
+2.3.0
+-----
+
+* Update package metadata in setup.cfg
+* Inline CONTRIBUTING.rst in README.rst and add to docs
+* Add links to GitHub repo and project-urls to metadata
+* Move from get\_description() to class docstrings part-2
+* Switch from get\_descripition() to class docstrings
+* Fix whitespace lint
+* Gracefully handle the case when sys.executable is None
+* Add error message for invalid concurrency value
+* Use default user config in unit tests
+* Turn on debug loggin by default
+* Run commands through the same python used for stestr
+* Improved test coverage for stestr run --subunit 0 exit status
+* Update docs for exit codes with --subunit flags
+* Put in quotes the top\_dir and test\_path
+* Clarify group\_regex explanation
+* Update MANUAL.rst for parallel\_class option
+* Update doc/source/MANUAL.rst
+* Update MANUAL.rst for parallel\_class option
+* Introduce parallel-class option
+* Tweak the README for readability
+
+2.2.0
+-----
+
+* Change title of project in readme
+* Add a better description to README Overview section
+* Fix discovery import error formatting on py3
+* Cleanup unused parameters in \_run\_tests
+* Enable doc8
+* Add all stream to repo even if some tests fail
+* Extract loading case code to \_load\_case() function
+* Make test running serially when just loading
+* Fix time measurement for load command too
+* Use reported times instead of wall time in subunit-trace
+* Add support for test class and method by path on no-discover
+
+2.1.1
+-----
+
+* Add support for python 3.7
+* Fix handling of unexpected success results
+* Allow stestr to be called as a module (#185)
+* Make warning and error messages use stderr
+* Add error handling for invalid input regexes
+* Cleanup the manpage section on dealing with failed tests
+* Cleanup argument help text on load command
+* Fix description for the stestr run command
+
+2.1.0
+-----
+
