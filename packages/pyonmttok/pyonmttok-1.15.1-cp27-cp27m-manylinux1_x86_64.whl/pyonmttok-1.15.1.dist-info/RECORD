@@ -1,0 +1,8 @@
+pyonmttok.so,sha256=QO3RdcywA4v7IFrsvpSrWqE_b-rz0XoXcQAUGAFeeh0,3136320
+pyonmttok-1.15.1.dist-info/top_level.txt,sha256=wuxOdfXNXj98ECi-4TSLRm_bpRYIccmePnOKlVvxvfY,10
+pyonmttok-1.15.1.dist-info/RECORD,,
+pyonmttok-1.15.1.dist-info/METADATA,sha256=U2j7JSLjAI0gbr6_mAxpS3Z0F92pYDD6UMVWgZDmreY,700
+pyonmttok-1.15.1.dist-info/WHEEL,sha256=CKrsQRZNKddeqWkqlP4DoIBo-Lb-ExiV2oTN8bWPh84,109
+.libspyonmttok/libsentencepiece_train-fa285823.so.0.0.0,sha256=kQUFLeF-bPyoPjEFX7uIdxsNEaD9lf6ozm6eZLVYU-w,1611376
+.libspyonmttok/libsentencepiece-c66ff493.so.0.0.0,sha256=nOpcpFVBzDjcK1xNQZtWmoWqWfeikLRlQAd0Riqpg3w,1211912
+.libspyonmttok/libOpenNMTTokenizer-883046d6.so,sha256=Bo7koj4YVJTE_J1BkgyYOGrfWTNi7n5LlVs_z21SX9k,926216
