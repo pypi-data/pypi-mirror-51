@@ -1,0 +1,16 @@
+rasterfairy/__init__.py,sha256=vZwtO5sa3yl36hpVysXH59teWkTZypIN1-iNeommbQE,193
+rasterfairy/coonswarp.py,sha256=ybfVUza0l4lOEACB0l2EYpO1oZKtIbV3gQ-uF4_Pu3Q,13205
+rasterfairy/prime.py,sha256=GPhqidB20YDOBw_ukdNsUhR3lju5QZ6e4IjW3QK4AHY,6070
+rasterfairy/rasterfairy.py,sha256=8RsrhaGq2D8cSEec6H4js6AT-MNmX32QR1sSjiyG_zY,21439
+rasterfairy/rfoptimizer.py,sha256=AQvurRRzDVMC-TY6VhMIDBDjUEddztQioqEPsfiiXZ4,27374
+rasterfairy/utils.py,sha256=8LDBV67ioPUvoTWEgFy5mM3G-81EJLArazQsP6NYTsI,1114
+sjaandi/__init__.py,sha256=ocw6P4WgaJr-qWQPk08dE7sTJTlm4Q056Szw-e1pNLk,80
+sjaandi/data/__init__.py,sha256=DryN4n432X18mj9zN7PcZ1oK0b9rZz30aVE4suOF_Io,29
+sjaandi/data/get_imagenette.py,sha256=7o3uAyKYxECDNWkj_XGdkPw2MUFFxTDgl7-dab0KnWs,1031
+sjaandi/usecases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sjaandi/usecases/mvp.py,sha256=ChF2704udbw_QZqNScH_fgCZWNRn9gFglgLjUW2L3OM,11362
+sjaandi-0.1.6.dist-info/LICENSE,sha256=GE5eJPgvuUnP2aeW5WVh_JlSUdKpkM1TpVPINECy7qA,1083
+sjaandi-0.1.6.dist-info/METADATA,sha256=Y4cyFI9zDGjeo6D2Lk4Hjdvy3t_kaHPrPvgdK8b0Evw,673
+sjaandi-0.1.6.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+sjaandi-0.1.6.dist-info/top_level.txt,sha256=U6nBoMHvr5RGqsMBvfe4gttURjLkYQ6uCn_qJBy26_A,20
+sjaandi-0.1.6.dist-info/RECORD,,
