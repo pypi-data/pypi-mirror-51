@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        watsonreport=watsonReport.watsonReport:watsonReport
+    
