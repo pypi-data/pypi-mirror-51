@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+Flask_arango_orm.egg-info/PKG-INFO
+Flask_arango_orm.egg-info/SOURCES.txt
+Flask_arango_orm.egg-info/dependency_links.txt
+Flask_arango_orm.egg-info/entry_points.txt
+Flask_arango_orm.egg-info/requires.txt
+Flask_arango_orm.egg-info/top_level.txt
+flask_arango_orm/__init__.py
+flask_arango_orm/arango.py
