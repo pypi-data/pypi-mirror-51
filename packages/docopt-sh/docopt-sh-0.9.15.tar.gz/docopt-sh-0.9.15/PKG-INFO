@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: docopt-sh
+Version: 0.9.15
+Summary: docopt.sh - Bash argument parser generator.
+Home-page: https://github.com/andsens/docopt.sh
+Author: Anders Ingemann
+Author-email: anders@ingemann.de
