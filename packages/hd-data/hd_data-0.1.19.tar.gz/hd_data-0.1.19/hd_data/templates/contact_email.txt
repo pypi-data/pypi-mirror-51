@@ -1,0 +1,30 @@
+Bonjour les capitaines !
+
+{{contact.name|safe}} a laissé un message.
+Son état d'esprit : {{contact.howareyou.name|safe}}
+Son besoin : {{contact.howhelp.name|safe}}
+{% if contact.howhelp.keyword == "client" %} 
+
+Le nom de son domaine d’activité, le nom de son entreprise ou l’URL de son site web : {{contact.domaine|safe}}
+Sa localisation : {{contact.clientlocation|safe}}
+Il.Elle souhaite travailler de cette façon : {{contact.workwish|safe}}
+
+son projet: {{contact.project}}
+
+Il.Elle a un cahier des charges à transmettre ou un autre: {{contact.document|safe}}
+Son budget : {{contact.budget|safe}}
+{% elif contact.howhelp.keyword == "freelance" %} 
+
+son message : {{contact.textfreelance|safe}}
+{% elif contact.howhelp.keyword == "porteur" %}
+
+son message : {{contact.textporteur|safe}}
+{% else %}
+
+son message : {{contact.textautre|safe}}
+{% endif %}
+
+son e-mail : {{contact.email|safe}}
+son téléphone : {{contact.phone|safe}}
+
+Bonne journée ! :)
