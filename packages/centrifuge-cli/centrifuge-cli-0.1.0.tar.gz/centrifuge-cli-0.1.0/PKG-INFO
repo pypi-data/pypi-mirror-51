@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: centrifuge-cli
+Version: 0.1.0
+Summary: A command line utility for interacting with the Centrifuge Firmware Analysis Platform's REST API.
+Home-page: https://www.refirmlabs.com
+Keywords: firmware,security,centrifuge
+Author: Peter Eacmen
+Author-email: peacmen@refirmlabs.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click (>=7.0,<8.0)
+Requires-Dist: pandas (>=0.25.1,<0.26.0)
+Requires-Dist: requests (>=2.22,<3.0)
+Project-URL: Repository, https://github.com/ReFirmLabs/centrifuge-cli
+Description-Content-Type: text/markdown
+
+
