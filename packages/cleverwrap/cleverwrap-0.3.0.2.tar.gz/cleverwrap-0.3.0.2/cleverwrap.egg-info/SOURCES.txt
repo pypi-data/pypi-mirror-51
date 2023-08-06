@@ -1,0 +1,11 @@
+README.md
+setup.py
+cleverwrap/__init__.py
+cleverwrap/cleverwrap.py
+cleverwrap/conversation.py
+cleverwrap/errors.py
+cleverwrap/response.py
+cleverwrap.egg-info/PKG-INFO
+cleverwrap.egg-info/SOURCES.txt
+cleverwrap.egg-info/dependency_links.txt
+cleverwrap.egg-info/top_level.txt
