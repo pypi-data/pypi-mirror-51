@@ -1,0 +1,7 @@
+setup.py
+cuser/__init__.py
+cuser.egg-info/PKG-INFO
+cuser.egg-info/SOURCES.txt
+cuser.egg-info/dependency_links.txt
+cuser.egg-info/requires.txt
+cuser.egg-info/top_level.txt
