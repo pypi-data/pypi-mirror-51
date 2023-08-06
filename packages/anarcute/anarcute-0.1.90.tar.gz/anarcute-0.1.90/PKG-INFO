@@ -1,0 +1,59 @@
+Metadata-Version: 1.1
+Name: anarcute
+Version: 0.1.90
+Summary: My hy toolbox
+Home-page: https://github.com/user/reponame
+Author: ShinSheel
+Author-email: wladgavrilov@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: My toolbox for dynamic programming
+        
+        #to be documented
+        #tf-id
+        
+        from anarcute import *
+        
+        import requests, json
+        
+        sentence="Eat more of those french fries and drink cola"
+        
+        alice=requests.get("https://gist.githubusercontent.com/phillipj/4944029/raw/75ba2243dd5ec2875f629bf5d79f6c1e4b5a8b46/alice_in_wonderland.txt").text
+        
+        print(tf_idf(sentence,alice))
+        
+        >> {'eat': 168.7962962962963, 'more': 62.006802721088434, 'of': 5.9111543450064845, 'those': 303.8333333333333, 'french': 759.5833333333333, 'and': 3.4843272171253816, 'drink': 434.047619047619}
+        
+        #If text is too big it's frequencies can be pre-cached.
+        
+        filename="alice.json"
+        
+        vector=vectorize(alice)
+        
+        open(filename,"w+").write(json.dumps(vector))
+        
+        vector=json.load(open(filename,"r+"))
+        
+        print(tf_idf(sentence,vector))
+        
+        >>{'eat': 168.7962962962902, 'more': 62.00680272108618, 'of': 5.91115434500627, 'those': 303.8333333333223, 'french': 759.5833333333056, 'and': 3.484327217125255, 'drink': 434.0476190476033}
+        
+        
+        
+        #we can sort by value
+        
+        print(sort_by_value(tf_idf(sentence,vector)))
+        
+        >>{'french': 759.5833333332979, 'drink': 434.04761904759886, 'those': 303.8333333333192, 'eat': 168.7962962962885, 'more': 62.006802721085556, 'of': 5.911154345006209, 'and': 3.4843272171252204}
+        
+        
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
