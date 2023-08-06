@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+BetterScratchAPI.egg-info/PKG-INFO
+BetterScratchAPI.egg-info/SOURCES.txt
+BetterScratchAPI.egg-info/dependency_links.txt
+BetterScratchAPI.egg-info/requires.txt
+BetterScratchAPI.egg-info/top_level.txt
+betterscratchapi/__init__.py
+betterscratchapi/user.py

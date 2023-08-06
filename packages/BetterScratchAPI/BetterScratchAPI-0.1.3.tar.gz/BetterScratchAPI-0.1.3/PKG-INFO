@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: BetterScratchAPI
+Version: 0.1.3
+Summary: Web API Interface for Scratch! (scratch.mit.edu)
+Home-page: https://github.com/ItzMeWilliam/BetterScratchAPI
+Author: ItzMeWilliam
+License: GPLv3+
+Description: UNKNOWN
+Keywords: scratch api betterscratchapi requests scratch.mit.edu api.scratch.mit.edu
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.0
