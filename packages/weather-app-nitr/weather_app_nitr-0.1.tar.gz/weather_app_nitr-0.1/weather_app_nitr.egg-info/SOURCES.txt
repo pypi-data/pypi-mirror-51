@@ -1,0 +1,7 @@
+README.md
+setup.py
+weather_info
+weather_app_nitr.egg-info/PKG-INFO
+weather_app_nitr.egg-info/SOURCES.txt
+weather_app_nitr.egg-info/dependency_links.txt
+weather_app_nitr.egg-info/top_level.txt
