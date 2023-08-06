@@ -1,0 +1,197 @@
+Metadata-Version: 2.1
+Name: topic-db
+Version: 1.0.0
+Summary: TopicDB is a topic map-based graph library (using PostgreSQL for persistence).
+Home-page: https://github.com/brettkromkamp/topic_db
+Author: Brett Alistair Kromkamp
+Author-email: brett.kromkamp@gmail.com
+License: MIT
+Keywords: topic map,concept map,graph database,semantic,knowledge management,unstructured data
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: psycopg2
+Requires-Dist: python-slugify
+Requires-Dist: typed-tree
+
+TopicDB by Brett Kromkamp
+=========================
+
+``TopicDB`` is a topic map-based graph library (using `PostgreSQL`_ for persistence).
+
+For a more in-depth introduction to topic maps, I recommend reading the excellent introductory article on topic maps
+over at MSDN: `An Introduction to Topic Maps`_. With that being said, although ``TopicDB`` is inspired by the topic maps
+paradigm, it is not (and never will be) an implementation of the `ISO/IEC 13250 Topic Maps`_ data model standard.
+
+``TopicDB`` is intended to be used by other Python applications and does not provide its own user interface to the API.
+`Contextualise`_, currently in active development, will provide a complete web-based user interface for ``TopicDB``.
+
+Why?
+----
+
+I build (story) worlds and knowledge management systems. ``TopicDB`` plays a crucial role in both those endeavours.
+
+Feature Support
+---------------
+
+- Pending
+
+Installation
+------------
+
+``TopicDB`` officially supports Python 3.6–3.7. To install ``TopicDB``, simply::
+
+    $ pip install topic-db
+
+After having installed the TopicDB library itself, you would have to separately install and configure the database.
+Brief instructions on how to do so are provided, here: `Setting up the TopicDB database`_. You need to ensure that the
+database username, password and database name match with the ``settings.ini`` file in the project's root folder.
+
+Install the Development Version
+-------------------------------
+
+If you have `Git <https://git-scm.com/>`_ installed on your system, it is possible to install the development version
+of ``TopicDB``.
+
+Before installing the development version, you may need to uninstall the standard version of ``TopicDB`` using
+``pip``::
+
+    $ pip uninstall topic-db
+
+Then do::
+
+    $ git clone https://github.com/brettkromkamp/topic-db
+    $ cd topic-db
+    $ pip install -e .
+
+The ``pip install -e .`` command allows you to follow the development branch as it changes by creating links in the
+right places and installing the command line scripts to the appropriate locations.
+
+Then, if you want to update ``TopicDB`` at any time, in the same directory do::
+
+    $ git pull
+
+Tutorial
+--------
+
+To get a better understanding of how to use ``TopicDB``, check out the tutorial, here: `TopicDB Tutorial`_ (work-in-progress).
+
+Documentation
+-------------
+
+Documentation will be available soon.
+
+How to Contribute
+-----------------
+
+#. Check for open issues or open a fresh issue to start a discussion around a feature idea or a bug.
+#. Fork `the repository`_ on GitHub to start making your changes to the **master** branch (or branch off of it).
+#. Write a test which shows that the bug was fixed or that the feature works as expected.
+#. Send a pull request and bug the maintainer until it gets merged and published. :) Make sure to add yourself to AUTHORS_.
+
+.. _PostgreSQL: https://www.postgresql.org/
+.. _An Introduction to Topic Maps: https://msdn.microsoft.com/en-us/library/aa480048.aspx
+.. _ISO/IEC 13250 Topic Maps: http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=38068
+.. _the repository: https://github.com/brettkromkamp/topic-db
+.. _Contextualise: https://trello.com/b/43ZVFVWE/contextualise-application
+.. _AUTHORS: https://github.com/brettkromkamp/topic-db/blob/master/AUTHORS.rst
+.. _TopicDB Tutorial: https://github.com/brettkromkamp/topic-db/blob/master/TUTORIAL.rst
+.. _Setting up the TopicDB database: https://gist.github.com/brettkromkamp/87aaa99b056578ff1dc23a43a49aca89
+
+
+.. :changelog:
+
+Release History
+---------------
+
+0.8.0 (2019-04-07)
+++++++++++++++++++
+
+**Improvements**
+
+- Extended functionality in relation to the management of the top-level topic map objects. This resulted in changes in both the ``TopicMap`` and ``TopicStore`` classes, respectively.
+- Refactored and cleaned-up the definition of the database schema (including a change in the naming convention of field names).
+- Added several convenience methods to the ``TopicStore`` class for the purpose of updating occurrences and attributes.
+- Added static typing annotations (Mypy) for the majority of classes.
+- Updated dependencies (to latest versions).
+
+0.7.1 (2017-06-16)
+++++++++++++++++++
+
+**Improvements**
+
+- Refactored code base (specifically, the unit tests) to use the topic store as a context manager.
+- Updated ``pytest`` dependency (to latest version).
+
+**Bugs**
+
+- Fixed a context manager-related bug (in the ``TopicStore`` class).
+
+0.7.0 (2017-06-15)
+++++++++++++++++++
+
+**Improvements**
+
+- Various (API) improvements and fixes throughout the codebase (specifically, the ``TopicStore`` class) resulting in the bump of the project's development status (now *Beta*).
+
+0.6.0 (2017-03-04)
+++++++++++++++++++
+
+**Improvements**
+
+- Moved away from SQLite to PostgreSQL as the persistence store.
+- Moved away from the 'command' pattern to the 'repository' pattern.
+
+0.5.0 (2017-01-15)
+++++++++++++++++++
+
+**Improvements**
+
+- Refactored ``Get*`` command classes (i.e., ``instance_of``, ``scope``, and ``language`` parameters) for the purposes of consistency and flexibility.
+- Removed hard-code ``maximum-depth`` in ``GetTopicsHierarchy`` command class.
+- Renamed several command classes to more accurately reflect their purpose.
+- Refactored code to ensure better compliance with PEP 8 (Style Guide for Python Code).
+
+**Bugs**
+
+- Fixed several command classes with regards to not closing SQLite ``cursor`` objects.
+
+0.4.0 (2017-01-08)
+++++++++++++++++++
+
+**Improvements**
+
+- Renamed ``GetAssociations`` command class to ``GetTopicAssociations``.
+- Refactored topic map-related commands and models, including changes to the topic map definition (SQL).
+- Renamed several (important) variables for the purpose of improving clarity and consistency.
+
+0.3.0 (2016-12-30)
+++++++++++++++++++
+
+**Improvements**
+
+- Added functionality to delete associations (i.e., ``DeleteAssociation`` command class).
+
+0.2.0 (2016-12-28)
+++++++++++++++++++
+
+**Improvements**
+
+- Provided ``OntologyMode`` (either ``STRICT`` or ``LENIENT``).
+- Sanitized backing store (SQLite) indexes.
+
+0.1.1 (2016-12-26)
+++++++++++++++++++
+
+**Miscellaneous**
+
+- Initial release on PyPI (https://pypi.python.org/pypi/topic-db).
+
+
