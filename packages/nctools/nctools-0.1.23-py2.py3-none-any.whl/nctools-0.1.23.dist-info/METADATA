@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nctools
+Version: 0.1.23
+Summary: Composable netCDF utilities for data manipulation and plotting
+Home-page: https://github.com/NCAR/nctools
+Author: Youngsung Kim
+Author-email: youngsun@ucar.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Dist: pyloco
+Requires-Dist: numpy
+Requires-Dist: netCDF4
+Requires-Dist: matplotlib
+Requires-Dist: matplot
+
+nctools : Composable netCDF utilities for data manipulation and plotting
+
+**nctools** is a collection of composable Python tools for netCDF data manipulation and plotting.
+
+
