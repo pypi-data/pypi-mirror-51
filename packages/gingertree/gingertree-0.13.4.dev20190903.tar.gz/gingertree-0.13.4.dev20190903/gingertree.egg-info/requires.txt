@@ -1,0 +1,4 @@
+docopt>=0.6
+
+[images]
+pycairo>=1.15.10

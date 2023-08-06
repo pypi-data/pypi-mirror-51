@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+ginger/__init__.py
+ginger/ginger.py
+ginger/libginger.py
+ginger/libtreebank.py
+ginger/libtreerender.py
+gingertree.egg-info/PKG-INFO
+gingertree.egg-info/SOURCES.txt
+gingertree.egg-info/dependency_links.txt
+gingertree.egg-info/entry_points.txt
+gingertree.egg-info/requires.txt
+gingertree.egg-info/top_level.txt
