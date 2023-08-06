@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shichengtools
+Version: 0.0.5
+Summary: Commonly used function package
+Home-page: https://github.com/shichengcn
+Author: shicheng
+Author-email: shichengzhangting@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
