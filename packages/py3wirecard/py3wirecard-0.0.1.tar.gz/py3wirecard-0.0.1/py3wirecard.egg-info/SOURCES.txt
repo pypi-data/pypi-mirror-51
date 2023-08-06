@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+py3wirecard/__init__.py
+py3wirecard.egg-info/PKG-INFO
+py3wirecard.egg-info/SOURCES.txt
+py3wirecard.egg-info/dependency_links.txt
+py3wirecard.egg-info/not-zip-safe
+py3wirecard.egg-info/requires.txt
+py3wirecard.egg-info/top_level.txt
+test/test.py
