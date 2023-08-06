@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pygqlc-valiot
+Version: 0.1.0
+Summary: GraphQL API Client for python language
+Home-page: https://github.com/valiot/pygqlc
+Author: Baruc Almaguer
+Author-email: baruc@valiot.io
+License: UNKNOWN
+Keywords: pygqlc
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: pydash
+
+UNKNOWN
+
+
