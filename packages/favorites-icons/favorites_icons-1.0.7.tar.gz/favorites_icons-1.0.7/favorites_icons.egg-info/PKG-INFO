@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: favorites-icons
+Version: 1.0.7
+Summary: Automatic generator for favorites and touch icons, and their appropriate tags.
+Home-page: https://github.com/avryhof/favorites_icons
+Author: Amos Vryhof
+Author-email: amos@vryhofresearch.com
+License: MIT
+Description: # Favorites Icons
+        ```bash
+        pip install git+https://github.com/avryhof/favorites_icons.git
+        ```
+        
+        A simple plugin to generate all of your touch and favorites icons, as well as the needed tags to make them work.A
+        
+        ## settings.py
+        ```python
+        ICON_SRC = '/path/to/a/big/file.png'
+        SITE_NAME='My Site'  # Optional if you are using the Sites framework, and have a SITE_ID configured.
+        TILE_COLOR='#FFFFFF'
+        THEME_COLOR='#FFFFFF'
+        # Optional
+        # A list of numbers for icon sizes... they will all be generated and tagged.
+        ICON_SIZES = [16, 32, 57, 60, 64, 72, 76, 96, 114, 120, 144, 152, 180, 192, 256, 512]
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
