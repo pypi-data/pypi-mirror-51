@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: cozer
+Version: 0.2
+Summary: Um pequeno script para ensinar sobre como invocar comandos no terminal
+Home-page: https://github.com/edusantana/cozer
+Author: Eduardo de Santana Medeiros Alexandre
+Author-email: eduardo.ufpb@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: click-didyoumean
+
+# cozer
+
+Sistema para auxiliar ensino de conceitos de informática
+
+## Receitas
+
+- [Cuscuz nordestino com queijo](https://guiadacozinha.com.br/cuscuz-nordestino-com-queijo/)
+- [https://guiadacozinha.com.br/baiao-de-dois-rapido/](https://guiadacozinha.com.br/baiao-de-dois-rapido/)
+- [https://guiadacozinha.com.br/bolo-de-rolo-receita/](https://guiadacozinha.com.br/bolo-de-rolo-receita/)
+- [https://guiadacozinha.com.br/canjica-leite-condensado-cozido/](https://guiadacozinha.com.br/canjica-leite-condensado-cozido/)
+
+## Instalar
+
+Atualização documentação:
+
+- https://packaging.python.org/tutorials/packaging-projects/
+- https://click.palletsprojects.com/en/7.x/setuptools/#introduction
+
+```
+aula=$(mktemp -d -t aula-XXXXXXXX)
+cd $aula
+git clone https://github.com/edusantana/cozer
+cd cozer
+python3 -m venv venv
+. venv/bin/activate
+pip install --editable .
+```
+
+### Autocomplete
+
+Adicionar a `.bashrc` ou executar:
+
+        eval "$(_COZER_COMPLETE=source cozer)"
+
+## Testando instalação:
+
+        cozer --version
+        cozer --help
+        cozer fogao -h
+
+## Desfazendo instalação
+
+        deactivate
+        cd .. && rm -rf cozer
+
+
