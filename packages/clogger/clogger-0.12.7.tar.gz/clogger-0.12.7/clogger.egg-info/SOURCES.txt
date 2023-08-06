@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+main.py
+setup.cfg
+setup.py
+clogger/__init__.py
+clogger/clogger.py
+clogger.egg-info/PKG-INFO
+clogger.egg-info/SOURCES.txt
+clogger.egg-info/dependency_links.txt
+clogger.egg-info/not-zip-safe
+clogger.egg-info/top_level.txt
+doc/Makefile
+doc/make.bat
+doc/source/conf.py
+doc/source/index.rst
