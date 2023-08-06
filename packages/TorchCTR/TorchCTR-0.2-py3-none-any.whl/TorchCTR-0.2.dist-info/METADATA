@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: TorchCTR
+Version: 0.2
+Summary: CTR in PyTorch
+Home-page: https://github.com/guokr/TorchCTR
+Author: Guokr Inc.
+Author-email: jinyang.zhou@guokr.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: sklearn
+Requires-Dist: flask
+Requires-Dist: dash
+Requires-Dist: dash-daq
+
+UNKNOWN
+
+
