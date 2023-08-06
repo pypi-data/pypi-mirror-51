@@ -1,0 +1,15 @@
+similarity/Sentence.py,sha256=70iSEY49tLiJ-qSzIzPASkrvTDPGXWLklqtZ9_6wpZs,3144
+similarity/Word.py,sha256=8LzSoTo6WdH5QTLtHRzG7WvXFjnAZYCaJiouYWGjjJg,1452
+similarity/__init__.py,sha256=33zzgh90NQayTGZzSoGOGzm5eblNUykzvucdquPGulY,530
+similarity/convert_score_and_distance_functions.py,sha256=DSBjqaodpWF-lqfWDC0mt65MAZpu3EbrNrWQZ7ZuFUU,658
+similarity/find_most_similar.py,sha256=Yz-anuEv0GePrIJnw4IyE5EaFLdaUsQL1ol6nnYr3JY,2919
+similarity/get_char_by_char_equality.py,sha256=6UFm5MAWIhD3tWmBuX74udt7oUckX5awvErd7WCwnfs,291
+similarity/get_sentence_similarity.py,sha256=TgQzLKuEoSNPLSYshP8T_MAh-S3DK0kjOF3OpTGlW8M,2748
+similarity/get_similarity.py,sha256=5M4xVQq_8yO6yZfo-wZZTW_NKiqUSH-clpPzUCBEsBg,2117
+similarity/get_string_similarity.py,sha256=T35hQdFSkvKwAdpwe5WWA7yuZl30xOgyHO2pFbovbp0,1904
+similarity/jaro_winkler.py,sha256=6omb7-t9jMUEqFYydeVOzH3f453-NsjmS5xlKaNLS88,413
+similarity/levenshtein.py,sha256=Om5dgS6Bo35X6RabwnQxITzmXp273cuEnSJlQhDnE2Y,395
+similarity-0.0.1.dist-info/METADATA,sha256=DTaWmrOSenoRvQTXHAq_EXAP7kX4aJpJGu_yPMhJld0,677
+similarity-0.0.1.dist-info/WHEEL,sha256=UpB-bp5SQQdekLv3_zfFAhrQBtaQjJZABvUiavkhjZ0,97
+similarity-0.0.1.dist-info/top_level.txt,sha256=Ha9oDHmfFadMr1PLZzubk9eY3vUP1n1GLqnXNCMOUlQ,11
+similarity-0.0.1.dist-info/RECORD,,
