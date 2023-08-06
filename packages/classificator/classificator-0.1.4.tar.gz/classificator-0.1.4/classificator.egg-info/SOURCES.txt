@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+classificator/__init__.py
+classificator/classify.py
+classificator/combined.py
+classificator/models.py
+classificator.egg-info/PKG-INFO
+classificator.egg-info/SOURCES.txt
+classificator.egg-info/dependency_links.txt
+classificator.egg-info/requires.txt
+classificator.egg-info/top_level.txt
