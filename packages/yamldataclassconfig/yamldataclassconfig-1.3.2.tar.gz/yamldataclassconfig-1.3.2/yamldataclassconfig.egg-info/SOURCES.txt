@@ -1,0 +1,10 @@
+README.md
+setup.py
+yamldataclassconfig/__init__.py
+yamldataclassconfig/config.py
+yamldataclassconfig/py.typed
+yamldataclassconfig.egg-info/PKG-INFO
+yamldataclassconfig.egg-info/SOURCES.txt
+yamldataclassconfig.egg-info/dependency_links.txt
+yamldataclassconfig.egg-info/requires.txt
+yamldataclassconfig.egg-info/top_level.txt
