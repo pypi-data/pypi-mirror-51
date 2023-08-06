@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ketrics-dev-tools
+Version: 0.0.2
+Summary: This package is for Ketrics Application Developers
+Home-page: https://www.ketrics.com
+Author: Cristian Bustamante
+Author-email: cristian@ketrics.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/ketrics/ketrics-dev-tools
+Project-URL: Source Code, https://github.com/ketrics/ketrics-dev-tools
+Description: # Ketrics Dev Tools
+        
+        This package contains useful tools for Ketrics Applications Developers
+        
+        
+        # Build package
+            make build
+            
+        # Publish package
+            make push
+Keywords: ketrics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
