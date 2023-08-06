@@ -1,0 +1,12 @@
+elaugment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elaugment/generator.py,sha256=IZR7edMOnBgfO9vkT_qooSrvKNgVFGEypTr5jncB6EA,526
+elaugment/random.py,sha256=vj6weBuzMfTwCbMApKKaoo1hH3ErdXqFj3t1lmSsmu8,2275
+elaugment/transformations.py,sha256=Se7xyLhW8ZweGuf6DaQ8fENEtaOl5ob0tCXZZYtU9A4,1707
+elaugment/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elaugment/image/random.py,sha256=ll2_Jr-7P9Si7Uu0FEXcDKOXzVbjNH1i2aQAxdoQDtk,8247
+elaugment/image/transformations.py,sha256=S8tsW7jgGQvrpsOOCxwO_tquqeZC0s6OYwPCng50goA,13764
+elaugment-0.1.0.dist-info/LICENSE,sha256=l0TWLC_uwPIxKr4x1QYlUGGgPXJjuMokNJ1cSxrZMuU,1067
+elaugment-0.1.0.dist-info/METADATA,sha256=K7x8CSX8pj6f5jh0USV8VWaW1HUu4Bl6il1YArwR3Kk,1229
+elaugment-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+elaugment-0.1.0.dist-info/top_level.txt,sha256=TvR-6AcLBP83vPbLMzygZkzrP57iIkK9OFjJFyxOJ_k,10
+elaugment-0.1.0.dist-info/RECORD,,
