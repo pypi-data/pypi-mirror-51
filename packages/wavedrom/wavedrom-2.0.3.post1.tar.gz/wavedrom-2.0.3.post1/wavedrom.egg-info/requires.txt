@@ -1,0 +1,6 @@
+attrdict
+six
+svgwrite
+
+[test]
+xmldiff
