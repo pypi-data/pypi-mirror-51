@@ -1,0 +1,25 @@
+.gitignore
+.travis.yml
+CHANGES.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+examples/example 1 - luriegold.ipynb
+examples/example 2 - LurieGold class.ipynb
+examples/optimization problem.ipynb
+luriegold/__init__.py
+luriegold/luriegold_class.py
+luriegold/luriegold_func.py
+luriegold.egg-info/PKG-INFO
+luriegold.egg-info/SOURCES.txt
+luriegold.egg-info/dependency_links.txt
+luriegold.egg-info/not-zip-safe
+luriegold.egg-info/requires.txt
+luriegold.egg-info/top_level.txt
+profile/funcalls (prun).ipynb
+profile/generatedata.ipynb
+profile/linebyline (lprun).ipynb
+profile/memory (mprun).ipynb
+profile/speed (timeit).ipynb
