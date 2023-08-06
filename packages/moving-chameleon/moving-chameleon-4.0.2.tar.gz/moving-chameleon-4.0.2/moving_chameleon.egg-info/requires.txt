@@ -1,0 +1,3 @@
+Pillow
+docopt
+python-xlib
