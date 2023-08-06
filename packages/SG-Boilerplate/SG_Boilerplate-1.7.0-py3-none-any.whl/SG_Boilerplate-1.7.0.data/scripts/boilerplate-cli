@@ -1,0 +1,5 @@
+#!python
+
+from package_boilerplate import main
+
+main()
