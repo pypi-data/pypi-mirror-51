@@ -1,0 +1,6 @@
+bs4>=0.0.1
+Click>=5.0
+libvirt-python>=4.0
+paramiko~=2.3
+requests>=2.20
+ruamel.yaml~=0.15
