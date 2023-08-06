@@ -1,0 +1,14 @@
+quantfolio/Portfolio.py,sha256=AYjsmh721twoImdP9C5MTHpXMuch6IPWKuzEZ0zR_68,8118
+quantfolio/__init__.py,sha256=Fd5aAaFUPV4fzyZZqV5Wu9h58jdRxvBOfUMHYWAFiBI,25
+quantfolio/Optimizers/BayesianOptimizer.py,sha256=htUD-3uE3YU4lgkmScPQeHcnR4I1LwLN2WKuPPcKU60,1322
+quantfolio/Optimizers/MonteCarloOptimizer.py,sha256=Act026vMadW4aQyoSEloEfCfT_KFgVCJtz7oc4BhlUM,848
+quantfolio/Optimizers/MonteCarloStatsOptimizer.py,sha256=cj0MlbhicbjTeXYAxpPoUIwZmNCpntN7CvYF7IbZauY,985
+quantfolio/Optimizers/OptimisationResults.py,sha256=naqeMob9sGDcCyn8zHU_iouSZ3kkRKUoqDfWIaEUmjA,2499
+quantfolio/Optimizers/SLSQPStatsOptimizer.py,sha256=NE_Owg7sD3vd-Cz_gmJ0kAphg-hISArqORZdv1IJuhk,1126
+quantfolio/Optimizers/__init__.py,sha256=b15aLxoskuycyIFDv4A9mmCDykn6PEKIaZw9g8ki4lo,216
+quantfolio/Optimizers/utils.py,sha256=SePK4FIeDTs9ecEGAc07vNY0ozH899Wx2q4PAILZ694,540
+quantfolio-0.3.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+quantfolio-0.3.0.dist-info/METADATA,sha256=GUhru6qhJI8G-RzEMgwTpfhEtZZUfAHJVZAYBSEQKRw,933
+quantfolio-0.3.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+quantfolio-0.3.0.dist-info/top_level.txt,sha256=I7z3ZsC4_oDeFuYRzg9iPx9JkiQ2iEsFtDIG10Q42MU,11
+quantfolio-0.3.0.dist-info/RECORD,,
