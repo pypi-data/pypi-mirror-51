@@ -1,0 +1,15 @@
+migrark/__init__.py,sha256=6bb632-I3FV9aJWWA06vyyD2CcrP1VtXxYFkz5q856A,83
+migrark/api.py,sha256=uKUeJ2ALKcQkUmplqetVAyZBqyuNwbdio3bYF-q0pus,711
+migrark/collector/__init__.py,sha256=QlahrMCqr8m4gEJYJhd9__BvSgrCm-cqn1RoMatjIyc,102
+migrark/collector/collector.py,sha256=CvxrSPUiP8BUbwQ7CO8bsBtOOSL3W7ADIVjY5w6BgT8,436
+migrark/collector/directory_collector.py,sha256=6q1pJqWxs6VPSFNLy3V95uvZR4zmF_7-ziNZ5Qmnj4o,966
+migrark/migrator.py,sha256=HyQ1Zqh4IaPWiK2wTL3Sx4AQM1spib4buCkeXtTYDCc,850
+migrark/models/__init__.py,sha256=15MKB6oNCXDBzGhUXTv1kCCfaEm-2XHyYsUmG_8BT5k,33
+migrark/models/migration.py,sha256=7Hz6B90HdjxZ-vbhh2nniTspywDRbvLaTx5bxPl7PeE,486
+migrark/versioner/__init__.py,sha256=1SzYSq8npX0jZFhW8nOqygZbT7AGWbfnEmefObGLqso,90
+migrark/versioner/sql_versioner.py,sha256=wDp7Cbcb07ptflVjowIh7b-F553LS51bB1qxnYTyIGI,1495
+migrark/versioner/versioner.py,sha256=8xIbue9p2W4ougpqFuqx4hKsYEvlBSwh-JDy91oz3Hs,566
+migrark-0.2.0.dist-info/LICENSE,sha256=75wmDkPs1hSaKjf89VBESvCBu3PBkXDX4eFQpx0EDn4,1064
+migrark-0.2.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+migrark-0.2.0.dist-info/METADATA,sha256=nP60zsqB0ksGvTwY72AcEPXj33XEtauQfO4D8SvZJFM,428
+migrark-0.2.0.dist-info/RECORD,,
