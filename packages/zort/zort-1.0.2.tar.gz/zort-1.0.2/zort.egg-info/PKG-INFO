@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: zort
+Version: 1.0.2
+Summary: Read lightcurves from the ZTF Public Data Release  
+Home-page: https://github.com/MichaelMedford/zort
+Author: Michael Medford
+Author-email: michaelmedford@berkeley.edu
+Maintainer: Michael Medford
+Maintainer-email: michaelmedford@berkeley.edu
+License: MIT
+Download-URL: https://github.com/MichaelMedford/zort/tarball/1.0.2
+Description:  Read lightcurves from the ZTF Public Data Release 
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
