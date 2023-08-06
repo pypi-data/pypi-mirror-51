@@ -1,0 +1,9 @@
+README.md
+setup.py
+snaut.py
+snaut.egg-info/PKG-INFO
+snaut.egg-info/SOURCES.txt
+snaut.egg-info/dependency_links.txt
+snaut.egg-info/entry_points.txt
+snaut.egg-info/requires.txt
+snaut.egg-info/top_level.txt
