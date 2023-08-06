@@ -1,0 +1,7 @@
+README.rst
+setup.py
+shibari.py
+shibari.egg-info/PKG-INFO
+shibari.egg-info/SOURCES.txt
+shibari.egg-info/dependency_links.txt
+shibari.egg-info/top_level.txt
