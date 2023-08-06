@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: AzurePyProxy
+Version: 1.0b0
+Summary: This package provides proxy class for calling azure commands directly from Python.
+Home-page: https://github.com/tomasvotava/azure-pyproxy
+Author: Tomas Votava
+Author-email: info@tomasvotava.eu
+License: MIT License
+Download-URL: https://github.com/tomasvotava/azure-pyproxy/archive/master.zip
+Project-URL: Bug Tracker, https://github.com/tomasvotava/azure-pyproxy/issues
+Project-URL: Documentation, https://github.com/tomasvotava/azure-pyproxy/blob/master/README.md
+Project-URL: Source Code, https://github.com/tomasvotava/azure-pyproxy
+Description: # az-pyproxy
+        
+        This Python package provides a proxy class for calling az commands directly from Python.
+        
+        ## Requirements
+        
+        - [azure cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+        - Python 3.x
+        
+        ## Installation
+        
+        ## Via PIP
+        
+        ```console
+        pip3 install azpyproxy
+        ```
+        
+        or
+        
+        ```console
+        python3 -m pip install azpyproxy
+        ```
+        
+        ## Building from source
+        
+        ```console
+        wget https://github.com/tomasvotava/az-pyproxy/archive/master.zip
+        unzip master.zip
+        cd az-pyproxy-master
+        python setup.py build
+        python setup.py install
+        ```
+        
+        ## Usage
+        
+        ```python
+        from azure_pyproxy import Azure
+        az = Azure()
+        
+        # command: az vm start virtual
+        az.vm_start("virtual")
+        
+        # additional flags and parameters
+        # next method call expands like this:
+        # az resource list --resource-group="YOUR_RESOURCE_GROUP"
+        az.resource_list(resource_group="YOUR_RESOURCE_GROUP")
+        
+        # positional arguments are simply concatenated after the command call, so commands can be also passed as arguments
+        az.vm("deallocate", name="virtual", resource_group="YOUR_RESOURCE_GROUP")
+        # expands as:
+        # az vm deallocate --name="virtual" --resource_group="YOUR_RESOURCE_GROUP"
+        
+        # by default, underscores in flag names are replaced with dashes
+        az.vm_deallocate(name="virtual", resource_group="YOUR_RESOURCE_GROUP")
+        # az vm deallocate --name="virtual" --resource_group="YOUR_RESOURCE_GROUP"
+        
+        # however, this can be overriden by specifying replace_underscore=False
+        az.vm_deallocate(name="virtual", resource_group="YOUR_RESOURCE_GROUP", replace_underscore=False)
+        # az vm deallocate --name="virtual" --resource_group="YOUR_RESOURCE_GROUP"
+        ```
+        
+Keywords: azure platform azure python proxy
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
