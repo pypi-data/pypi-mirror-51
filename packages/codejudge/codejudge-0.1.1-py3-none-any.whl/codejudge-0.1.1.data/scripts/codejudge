@@ -1,0 +1,344 @@
+#!python
+import argparse
+import zipfile
+import glob
+import os
+import shutil
+import re
+import subprocess
+import json
+import requests
+import base64
+import re
+import yaml
+from pathlib import Path
+import logging
+
+VERSION = "0.1.1"
+
+class UserData:
+    def __init__(self):
+        self.path = os.path.join(os.path.expanduser("~"), ".codejudge", "config")
+
+    def get_refresh_token(self):
+        try:
+            with open(self.path, "r") as file:
+                return file.read()
+        except FileNotFoundError:
+            return None
+
+    def save_refresh_token(self, token):
+        if not os.path.isdir(os.path.dirname(self.path)):
+            os.makedirs(os.path.dirname(self.path))
+
+        with open(self.path, "w") as file:
+            file.write(token)
+
+class CodeJudge:
+    def __init__(self, url, refresh_token):
+        self.apiUrl = url
+        self.refresh_token = refresh_token
+        self.headers = dict()
+        self.update_authorization()
+
+    def update_authorization(self):
+        model = { "grantType": "refresh_token", "refreshToken": self.refresh_token }
+        res = requests.post(self.apiUrl + "auth/token", data=json.dumps(model))
+        res.raise_for_status()
+        access_token = res.json()["accessToken"]
+        self.headers = {'Authorization': 'Bearer ' + access_token}
+
+    def sync_course(self, course_id, files, syncLevel):
+        model = { "files": [ { "name": name } for name in files ], "syncLevel": syncLevel }
+        upload = [("model", (None, json.dumps(model), 'application/json'))]
+
+        for file in files:
+            upload.append(("files", (file, files[file], "application/octet-stream")))
+
+        res = requests.post(self.apiUrl + "courses/" + str(course_id) + "/sync", files=upload, headers=self.headers)
+        res.raise_for_status()
+        return res.json()
+
+
+    def sync_course_finish(self, course_id, key, syncLevel):
+        model = { "filesKey": key, "syncLevel": syncLevel }
+        res = requests.post(self.apiUrl + "courses/" + str(course_id) + "/sync", data=json.dumps(model), headers=self.headers)
+        res.raise_for_status()
+        return res.json()
+
+    def course_languages(self, course_id):
+        res = requests.get(self.apiUrl + "courses/" + str(course_id) + "/languages", headers=self.headers)
+        res.raise_for_status()
+        return res.json()
+
+    def courses(self):
+        res = requests.get(self.apiUrl + "courses", headers=self.headers)
+        res.raise_for_status()
+        return res.json()
+
+    def course(self, course_id):
+        res = requests.get(self.apiUrl + "courses/" + str(course_id), headers=self.headers)
+        res.raise_for_status()
+        return res.json()
+
+    def me(self):
+        res = requests.get(self.apiUrl + "users/auth-user", headers=self.headers)
+        res.raise_for_status()
+        print(res.text)
+        return res.json()
+
+class Directory:
+    def __init__(self):
+        self.dirs = dict()
+        self.files = dict()
+
+    def add(self, path):
+        parts = []
+        for part in path.split('/'):
+            parts.extend(part.split('.'))
+
+        dir = self
+
+        for part in parts[0:-1]:
+            if not part in dir.dirs:
+                dir.dirs[part] = Directory()
+            
+            dir = dir.dirs[part]
+
+        dir.files[parts[-1]] = path
+
+    def read(self, dir, relTo):
+        for path, _, files in os.walk(dir):
+            for file in files:
+                self.add(os.path.relpath(os.path.join(path, file), relTo))       
+
+class FileLocator:
+    def __init__(self):
+        self.files = []
+        self.exercise_dirs = ["tests", "exercise", "description", "solution", "attachments", "overwrites", "judge", "views", "wkdir", "generator"]
+        self.extensions = []
+        pass
+
+    def locate_parent(self, dir, names):
+        dir = os.path.abspath(dir)
+        
+        while not dir == os.path.dirname(dir):
+            for name in names:
+                path = os.path.join(dir, name)
+                if os.path.isfile(path):
+                    return path
+
+            dir = os.path.dirname(dir)
+
+    def codejudge(self, dir):
+        path = self.locate_parent(dir, [".codejudge"])
+
+        if path != None:
+            with open(path, "r") as file:
+                return json.load(file)
+
+    def read_dir(self, path, relTo):
+        dir = Directory()
+        dir.read(path, relTo)
+        return dir
+        
+
+    def locate_files(self, dir):
+        self.base = os.path.dirname(self.locate_parent(dir, [".codejudge"]))
+
+        if self.base == None:
+            raise Exception("Not in a CodeJudge directory...")
+
+        self.level = "course"
+        collection = self.locate_parent(dir, ["collection.yml", "collection.json"])
+
+        if collection == None:
+            self.exercise_groups(self.read_dir(self.base, self.base))
+            return
+
+        self.level = "exerciseCollection"
+        exercise = self.locate_parent(dir, ["exercise.yml", "exercise.json"])
+
+        if exercise == None:
+            self.exercise_groups(self.read_dir(os.path.dirname(collection), self.base))
+            return
+
+        self.level = "exercise"
+        self.files.append(os.path.relpath(collection, self.base))
+        self.exercises(self.read_dir(os.path.dirname(exercise), self.base))
+
+    def exercise_groups(self, dir):
+        groups = self.locate(dir, [("collection", ["yml", "json"])])
+
+        for group in groups:
+            self.add_files(group, ["collection"])
+            self.exercises(group)
+
+    def exercises(self, dir):
+        exercises = self.locate(dir, [("exercise", ["yml", "json"]), ("tests", self.extensions)])
+
+        for exercise in exercises:
+            self.add_files(exercise, self.exercise_dirs)
+            self.test_groups(exercise)
+
+    def test_groups(self, dir):
+        test_groups = self.locate(dir, [("testgroup", ["yml", "json"])])
+
+        for test_group in test_groups:
+            self.add_files(test_group)
+
+    def add_files(self, dir, names=None):
+        if names == None:
+            self.files.extend(dir.files.values())
+
+            for dir in dir.dirs.values():
+                self.add_files(dir)
+        else:
+            for name in names:
+                if name in dir.dirs:
+                    self.add_files(dir.dirs[name])
+
+    def locate(self, dir, names):
+        for name, exts in names:
+            if name in dir.dirs and any(ext for ext in exts if ext in dir.dirs[name].files):
+                return [dir]
+
+        res = []
+        for subdir in dir.dirs.values():
+            res.extend(self.locate(subdir, names))
+        return res
+
+class Program:
+    def __init__(self):
+        self.data = UserData()
+        self.apiUrl = "https://app.codejudge.net/api/"
+
+        parser = argparse.ArgumentParser(description=f'The codejudge synchronization CLI (version {VERSION}) allows you to synchronize local exercise files with the CodeJudge.net system. Synchronizing a course requires 3 steps. First you must authenticate with the "codejudge auth [key]" command, then you must inititialize a local directory with "codejudge init" and finally you can use "codejudge sync".')
+        subparsers = parser.add_subparsers(dest='subparser')
+
+        auth_parser = subparsers.add_parser('auth', description='Use this command to authenticate. Authentication information will be stored in your user directory. You can find the needed key by logging on to CodeJudge and navigating to the "API Tokens" page under your profile.')
+        auth_parser.add_argument('key', help='Your personal CodeJudge API token. Can be generated on your profile on CodeJudge.')
+
+        init_parser = subparsers.add_parser('init', description='This will initialize the current working directory with the specified course.')
+        init_parser.add_argument("course", help='The name, short name or id of the course')
+
+        sync_parser = subparsers.add_parser('sync', description='This will synchronize CodeJudge.net with the files in the current working directory tree.')
+
+        status_parser = subparsers.add_parser('status', description='Reports the current authenticated user and the course of the current working directory.')
+
+        res = parser.parse_args()
+
+        if res.subparser == "auth":
+            self.auth(res.key)
+        elif res.subparser == "init":
+            self.init(res.course)
+        elif res.subparser == "sync":
+            self.sync()
+        elif res.subparser == "status":
+            self.status()
+        else:
+            print("Use codejudge --help to see how to use this program.")
+
+    def init_codejudge(self):
+        return CodeJudge(self.apiUrl, self.data.get_refresh_token())
+
+    def status(self):
+        try:
+            codejudge = self.init_codejudge()
+            user = codejudge.me()
+            print(f"You are currently authenticated as {user['name']}.")
+        except requests.exceptions.HTTPError:
+            print("You are currently not authenticated.")
+
+        locator = FileLocator()
+        codejudgeFile = locator.codejudge(".")
+
+        if codejudgeFile != None:
+            course_id = codejudgeFile["courseId"]
+            course = codejudge.course(course_id)
+            print("The current directory belongs to the course: " + course["name"])
+        else:
+            print("You are not in a CodeJudge directory. Use codejudge init to setup a new directory.")
+
+    def auth(self, key):
+        print("Validating key...")
+        try:
+            codejudge = CodeJudge(self.apiUrl, key)
+        except requests.exceptions.HTTPError:
+            print("Authentication failed. Probably the key you entered is invalid or expired.")
+            return
+
+        user = codejudge.me()
+
+        print(f"Key validated successfully for user {user['name']}.")
+        self.data.save_refresh_token(key)
+        print("Authentication info stored.")
+
+    def init(self, courseName):
+        print("Initiating directory...")
+        codejudge = self.init_codejudge()
+        courses = codejudge.courses()
+
+        courseName = courseName.lower()
+        course = next((course for course in courses if str(course["id"]) == courseName or course["name"].lower() == courseName or course["shortName"].lower() == courseName), None)
+
+        if course == None:
+            print(f"The course {courseName} was not found.")
+            return 1
+        
+        print(f"Found the course: {course['name']}...")
+
+        with open(".codejudge", "w") as file:
+            file.write(json.dumps({ "courseId": course["id"] }))
+
+        print(f"The current working directory has been initialized with the course.")
+        print("To undo this action, delete the file .codejudge.")
+
+    def sync(self):
+        locator = FileLocator()
+        codejudgeFile = locator.codejudge(".")
+
+        if codejudgeFile == None:
+            print("You are not in a CodeJudge directory. Navigate to the correct directory or use codejudge init to setup a new directory.")
+            return 1
+
+        course_id = codejudgeFile["courseId"]
+        
+        codejudge = self.init_codejudge()
+        course = codejudge.course(course_id)
+
+        print(f"Computing changes for course {course['name']}...")
+
+        course_languages = codejudge.course_languages(course_id)
+        extensions = [lang["mainExtension"] for lang in course_languages]
+        locator.exercise_dirs.extend(extensions)
+        locator.extensions = extensions
+
+        locator.locate_files(".")
+
+        files = dict()
+
+        for file in locator.files:
+            files[file] = open(os.path.join(locator.base, file), "rb")
+		
+        print("Processing...", end="")
+
+        result = codejudge.sync_course(course_id, files, locator.level)
+        print(" Log:")
+        print(result["changelog"])
+
+        if not "filesKey" in result or result["filesKey"] == None:
+            return 1
+
+        print("Write yes to confirm you want to perform these changes: ", end="")
+
+        if not input() == "yes":
+            print("Aborted.")
+            return 1
+        
+        print("Syncing...")
+
+        result = codejudge.sync_course_finish(course_id, result["filesKey"], locator.level)
+        print("Syncing completed.")
+
+Program()
