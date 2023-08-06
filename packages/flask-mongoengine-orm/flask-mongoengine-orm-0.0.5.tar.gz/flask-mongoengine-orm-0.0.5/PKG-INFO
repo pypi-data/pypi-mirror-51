@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flask-mongoengine-orm
+Version: 0.0.5
+Summary: flask-mongoengine-orm makes your code more beautiful
+Home-page: https://github.com/suckmybigdick/flask-mongoengine-orm
+Author-email: 13750192465@163.com
+License: UNKNOWN
+Description: flask-mongoengine-orm makes your code more beautiful
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
