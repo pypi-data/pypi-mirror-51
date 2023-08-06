@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ddplt
+Version: 0.0.2.dev1
+Summary: Useful utility functions for evaluation of ML
+Home-page: https://github.com/ielis/ddplt
+Author: Daniel Danis
+Author-email: daniel.gordon.danis@gmail.com
+License: GPLv3
+Keywords: plotting machine learning evaluation metrics
+Platform: UNKNOWN
+Requires-Dist: matplotlib (>=3.1scikit-learn>=0.21)
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: pandas (>=0.23)
+
+UNKNOWN
+
+
