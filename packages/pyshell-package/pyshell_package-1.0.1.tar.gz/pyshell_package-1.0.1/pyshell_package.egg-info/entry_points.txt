@@ -1,0 +1,3 @@
+[console_scripts]
+pyshell_package = python_mini_project.core_event:main
+

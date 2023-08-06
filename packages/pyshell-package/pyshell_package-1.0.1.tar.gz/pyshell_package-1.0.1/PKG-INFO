@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyshell_package
+Version: 1.0.1
+Summary: A rudimentary UNIX-like shell that allows extensibility using custom python modules to implement various features as shell commands.
+Home-page: https://git.corp.adobe.com/priyanss/python-mini-project
+Author: Samridhi Chaubey
+License: MIT
+Description: Python Mini Project
+        A fully programmable user-land ecosystem purely on Python for deployment on IoT boards like RaspberryPi and BeagleBone.
+        
+        Usage
+        We implemented the rudimentary skeleton shell that can be extended easily with new commands and functionality with minimal effort by a developer. The shell supports user-friendly command-line interface and also has a command history support that could be recalled across invocations.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
