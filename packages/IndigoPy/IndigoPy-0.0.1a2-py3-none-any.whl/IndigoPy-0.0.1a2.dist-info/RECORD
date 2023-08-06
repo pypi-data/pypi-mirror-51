@@ -1,0 +1,17 @@
+IndigoPy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IndigoPy/GUI/Formal.py,sha256=Xs4rjF9y3zsyWNyr7PHIBCsF60hvC5iplYTRFk-B5JU,14567
+IndigoPy/GUI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IndigoPy/Math/Funcmaker.py,sha256=oW-_Gx1UmbeHMK4ROoNdQkRO_61pwoA6G7_c8vY28ao,7495
+IndigoPy/Math/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IndigoPy/Math/coordinates.py,sha256=GVwREyTECjaNifibr9y7ZoqqJESzcEXjv8sGtoSC-II,6291
+IndigoPy/Math/plot.py,sha256=Ws59BIAy3ZxlNMpCYnDvOLV-raMeTlTU8p4Wlj9ZRVQ,567
+IndigoPy/Protein/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IndigoPy/Protein/pdb.py,sha256=IQWAS5d2dWzC7ZRxGQd1MmavDEX5EuV2C975PbQ-rnw,71163
+IndigoPy-0.0.1a2.data/data/Doc/Math/Funcmaker.md,sha256=yMN5RC_hcdxHZsse6ema0vsxjGgRm8IzS8QQTMjiaAA,58788
+IndigoPy-0.0.1a2.data/data/Doc/Protein/pdb.md,sha256=v7LLRVqFVOl2FsPMmwA4Z8KxRFtRBfsAikPPa7Oql4Q,46846
+IndigoPy-0.0.1a2.data/data/Doc/examples/newscreen.py,sha256=0OgUfpcVevEjiwl8Nrn3Ec__2PTNq1gZ7xfF0004jDk,65139
+IndigoPy-0.0.1a2.dist-info/LICENSE,sha256=g-DD0GPPLKPFp971rpr2-V2mrZs_s6r86jFBqQi2_dM,1054
+IndigoPy-0.0.1a2.dist-info/METADATA,sha256=4qOgItWcYEju08qbZnHo6bMr3IQ4IZ0jjxPrRs_U4zM,1124
+IndigoPy-0.0.1a2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+IndigoPy-0.0.1a2.dist-info/top_level.txt,sha256=Pf98lmT-TR4tW1eIY6cad5BSP9OREPSXaBJCl1TEW1w,9
+IndigoPy-0.0.1a2.dist-info/RECORD,,
