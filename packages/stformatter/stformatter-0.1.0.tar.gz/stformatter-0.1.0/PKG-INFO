@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: stformatter
+Version: 0.1.0
+Summary: A Python formatter from formats like rst and markdown to the content tree
+Home-page: https://github.com/p141592/stformatter
+Author: Baryshnikov Nikolay
+Author-email: root@k0d.ru
+License: BSD
+Description: See http://pypi.python.org/pypi/formatter2/
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
