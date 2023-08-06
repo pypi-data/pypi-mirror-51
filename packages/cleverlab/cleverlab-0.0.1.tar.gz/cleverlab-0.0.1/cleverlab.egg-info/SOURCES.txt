@@ -1,0 +1,6 @@
+README.md
+setup.py
+cleverlab.egg-info/PKG-INFO
+cleverlab.egg-info/SOURCES.txt
+cleverlab.egg-info/dependency_links.txt
+cleverlab.egg-info/top_level.txt
