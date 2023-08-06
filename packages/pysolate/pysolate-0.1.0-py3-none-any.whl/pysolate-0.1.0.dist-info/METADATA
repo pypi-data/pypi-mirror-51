@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pysolate
+Version: 0.1.0
+Summary: Easily run your script in an isolated virtual environment
+Home-page: https://github.com/tyrion/pysolate
+Author: Germano Gabbianelli
+Author-email: git@germano.dev
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
+
