@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+jsonschema2popo/__init__.py
+jsonschema2popo/__main__.py
+jsonschema2popo/_class.tmpl
+jsonschema2popo/jsonschema2popo.py
+jsonschema2popo2.egg-info/PKG-INFO
+jsonschema2popo2.egg-info/SOURCES.txt
+jsonschema2popo2.egg-info/dependency_links.txt
+jsonschema2popo2.egg-info/entry_points.txt
+jsonschema2popo2.egg-info/requires.txt
+jsonschema2popo2.egg-info/top_level.txt
+test/test_jsonschema2popo.py
