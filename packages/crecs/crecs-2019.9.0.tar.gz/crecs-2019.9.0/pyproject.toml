@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: LGPL-3.0-or-later
+# Copyright (C) 2019 Germano Gabbianelli <git@germano.dev>
+
+[tool.poetry]
+name = "crecs"
+version = "2019.9.0"
+authors = ["Germano Gabbianelli <git@germano.dev>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+numpy = ">=1.17"
+scikit-learn = ">=0.19.1"
+scipy = ">=0.16"
+sagemaker = {version = "^1.18", optional = true}
+sagemaker-containers = {version = "^2.4", optional = true}
+typing_extensions = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.0"
+
+[tool.poetry.extras]
+sagemaker = ["sagemaker"]
+container = ["sagemaker-containers"]
+
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel", "poetry>=0.12"]
+build-backend = "poetry.masonry.api"
