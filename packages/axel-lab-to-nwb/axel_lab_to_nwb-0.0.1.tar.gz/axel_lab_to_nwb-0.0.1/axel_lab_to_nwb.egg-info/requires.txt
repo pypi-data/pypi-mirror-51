@@ -1,0 +1,8 @@
+matplotlib
+cycler
+scipy
+numpy
+jupyter
+h5py
+pynwb
+ndx-grayscalevolume

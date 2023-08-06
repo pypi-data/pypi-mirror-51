@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+make_env.yml
+setup.py
+axel_lab_to_nwb/__init__.py
+axel_lab_to_nwb/npz_to_nwb.py
+axel_lab_to_nwb.egg-info/PKG-INFO
+axel_lab_to_nwb.egg-info/SOURCES.txt
+axel_lab_to_nwb.egg-info/dependency_links.txt
+axel_lab_to_nwb.egg-info/requires.txt
+axel_lab_to_nwb.egg-info/top_level.txt
+tutorials/caim_convert_mat_nwb.ipynb
+tutorials/caim_convert_npz_nwb.ipynb
+tutorials/example_script.py
+tutorials/tutorial.ipynb
