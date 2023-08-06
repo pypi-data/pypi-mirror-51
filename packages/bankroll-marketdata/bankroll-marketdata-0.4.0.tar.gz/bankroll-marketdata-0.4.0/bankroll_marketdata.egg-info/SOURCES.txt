@@ -1,0 +1,11 @@
+README.md
+setup.py
+bankroll/marketdata/__init__.py
+bankroll/marketdata/broker.py
+bankroll/marketdata/provider.py
+bankroll/marketdata/py.typed
+bankroll_marketdata.egg-info/PKG-INFO
+bankroll_marketdata.egg-info/SOURCES.txt
+bankroll_marketdata.egg-info/dependency_links.txt
+bankroll_marketdata.egg-info/requires.txt
+bankroll_marketdata.egg-info/top_level.txt
