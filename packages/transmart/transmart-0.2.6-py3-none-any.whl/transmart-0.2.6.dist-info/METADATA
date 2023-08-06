@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: transmart
+Version: 0.2.6
+Summary: An python client for communicating with the transmart rest api.
+Home-page: https://github.com/thehyve/transmart-api-client-py
+Author: The Hyve
+License: UNKNOWN
+Download-URL: https://github.com/thehyve/transmart-api-client-py/tarball/0.2.6/
+Keywords: transmart,rest,api,data,science
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests
+Requires-Dist: click
+Requires-Dist: pyjwt
+Provides-Extra: backend
+Requires-Dist: pandas ; extra == 'backend'
+Requires-Dist: arrow ; extra == 'backend'
+Provides-Extra: full
+Requires-Dist: protobuf ; extra == 'full'
+Requires-Dist: requests ; extra == 'full'
+Requires-Dist: pandas ; extra == 'full'
+Requires-Dist: whoosh ; extra == 'full'
+Requires-Dist: arrow ; extra == 'full'
+Requires-Dist: ipywidgets ; extra == 'full'
+Requires-Dist: IPython ; extra == 'full'
+Requires-Dist: bqplot ; extra == 'full'
+Requires-Dist: click ; extra == 'full'
+Requires-Dist: pyjwt ; extra == 'full'
+
+UNKNOWN
+
+
