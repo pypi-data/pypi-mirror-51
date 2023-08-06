@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: indelible-log
+Version: 0.4.1
+Summary: client for Indelible managed persistent store and synchronizer
+Home-page: https://indelible.systems
+Author: Jeff Rhyason
+Author-email: jeff@indelible.systems
+License: MIT
+Project-URL: Source, https://code.ndlbl.net/dir?name=src/python
+Description: This package is a client library for the managed Indelible Logs service.
+        
+        What is it for?
+        ---------------
+        
+        Indelible Logs is a:
+        
+        * messaging system: with low-latency notification of changed log entries
+        * storage system: optionally key-based, immutable, and versioned
+        * tool for synchronizing and stream processing: manage propagation by tracking diffs between any log versions
+        
+        What is Indelible?
+        ------------------
+        
+        Indelible is a new managed KV store that is:
+        
+        * secure by default, end-to-end encrypted, safe, and private - you never have to expose any plaintext data to us.  Even for indexes.  Did you read that right?  Yes, you did: Indelible is a persistent store that provides value without needing access to any of your unencrypted data.  This also means that, in the event of a data breach, there's nothing fun to see.
+        * versioned - old versions remain readable until you're done with them
+        * immutable - new data is put in new versions; old versions never modified == eliminates data races, simplifies processing.  This is a big whole thing that shouldn't fit in a bullet point.
+        * highly-available - layering atop today's great key-value stores means 99.999% availability
+        * strongly consistent - sanity is more important than throughput
+        * reactive - no additional pubsub/event sourcing/CQRS required.  Notifications come as pulls containing diffs showing what changed since the last version you saw.
+        
+        Why do I want it to use Indelible now?
+        --------------------------------------
+        * secure by default -> encrypted by client, no plaintext to worry about breaching
+        * easy to plumb - diff your data like you diff your software
+        * you can build much more easily on a system that does not overwrite data, or make you wade through huge streams (when all you really want is diffs)
+        * strongly-consistent with 99.999% availability
+        * solves at least 1 of the major problems of computer science: versioning simplifies cache invalidation
+        * simpler idempotency leads to simpler systems
+        * immutability will change your life.  It'll put back the years on your life that eventual consistency took off.
+        * Indelible can eliminate polling -> lowers latency, improves user experience
+        
+        Python API Tour
+        ===============
+        
+        Overview
+        --------
+        
+        This is a quick tour of the Indelible Log API with Python.
+        
+        Prerequisites
+        -------------
+        
+        -   Indelible apikey ---Please [sign
+            up](mailto:showmethelogs@indelible.systems) for the Developer
+            Preview
+        -   `Python` --- Tested with 2.7 and 3.6
+        
+        Getting started
+        ---------------
+        
+        Install the package:
+        
+        ``` 
+        pip install indelible_log
+        ```
+        
+        Create `testprofile.json` for configuration:
+        
+            {
+                "endpoint_url": "https://log.ndlbl.net:8443",
+                "customer_id": "customer-id",
+                "apikey": "api-key",
+                "master_key_base64": "v7RBLmFz5oB+IWOtGBEyfgejHvyYZwMTu+x0bbzZ+/4="
+            }
+        
+        Start Python:
+        
+        ``` 
+        python
+        ```
+        
+            Python 3.6.9 (default, Jul 25 2019, 01:16:08) 
+            [GCC 4.2.1 Compatible FreeBSD Clang 6.0.0 (tags/RELEASE_600/final 326565)] on freebsd11
+            Type "help", "copyright", "credits" or "license" for more information.
+        
+            >>> from indelible_log import Cmd, Log
+            >>> import json
+            >>>
+        
+            >>> profile = json.loads(open("testprofile.js", "r").read())
+            >>> log_name = "Hello, Indelible!"
+            >>>
+        
+        Creating a log 
+        --------------
+        
+        Let\'s create a new log with the defaults (encrypted with the master key
+        above).
+        
+            >>> log = Log(log_name, profile)
+            >>> log.create()
+            >>>
+        
+        Appending to a log 
+        ------------------
+        
+            >>> log.update([
+            ...     Cmd.Upsert("foo", [1, 2, 3]),
+            ...     Cmd.Upsert("bar", [4, 5, 6])
+            ... ])
+            >>>
+        
+        Showing the contents of a log 
+        -----------------------------
+        
+        Iterate over the log\'s current entries:
+        
+            >>> for entry in log:
+            ...     print(entry)
+            {'change': 'Add', 'entry': {'key': 'foo', 'value': [1, 2, 3]}, 'version': 1}
+            {'change': 'Add', 'entry': {'key': 'bar', 'value': [4, 5, 6]}, 'version': 1}
+            >>>
+        
+        Reactive Logs --- Getting notified about new versions 
+        -----------------------------------------------------
+        
+        In another window, get this update ready:
+        
+            >>> log.update([
+            ...     Cmd.ExpectVersion(1),
+            ...     Cmd.Remove("foo", [1, 2, 3]),
+            ...     Cmd.Upsert("bar", [7, 8, 9])
+            ... ])
+            >>>
+        
+        Back in your original window, start monitoring, then finish that
+        `update()`:
+        
+            >>> diff = log.version_diff(from_version=1, wait_seconds=60)
+            >>> diff.to_version
+            2
+            >>> for change in diff.changes():
+            ...     print(change)
+            {'change': 'Remove', 'entry': {'key': 'foo', 'value': [1, 2, 3]}, 'version': 1}
+            {'change': 'Remove', 'entry': {'key': 'bar', 'value': [4, 5, 6]}, 'version': 1}
+            {'change': 'Add', 'entry': {'key': 'bar', 'value': [7, 8, 9]}, 'version': 2}
+            >>>
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Database
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/markdown
