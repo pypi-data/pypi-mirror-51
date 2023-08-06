@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: foreground
+Version: 0.1.2
+Summary: Select foreground text color based on background color to get better contrast.
+Home-page: https://github.com/azaitsev/foreground
+Author: Alexander Zaitsev (azaitsev@gmail.com)
+Author-email: azaitsev@gmail.com
+License: UNKNOWN
+Description: Select foreground text color based on background color to get better contrast.
+Keywords: colors,foreground,background,text,contrast,web,font
+Platform: UNKNOWN
