@@ -1,0 +1,5 @@
+setup.py
+eeg.egg-info/PKG-INFO
+eeg.egg-info/SOURCES.txt
+eeg.egg-info/dependency_links.txt
+eeg.egg-info/top_level.txt
