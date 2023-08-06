@@ -1,0 +1,7 @@
+README.md
+setup.py
+sqlalchemy_batch_inserts/__init__.py
+sqlalchemy_batch_inserts.egg-info/PKG-INFO
+sqlalchemy_batch_inserts.egg-info/SOURCES.txt
+sqlalchemy_batch_inserts.egg-info/dependency_links.txt
+sqlalchemy_batch_inserts.egg-info/top_level.txt
