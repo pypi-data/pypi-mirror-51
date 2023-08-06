@@ -1,0 +1,10 @@
+README.md
+setup.py
+tkDocViewer.egg-info/PKG-INFO
+tkDocViewer.egg-info/SOURCES.txt
+tkDocViewer.egg-info/dependency_links.txt
+tkDocViewer.egg-info/top_level.txt
+tkdocviewer/__init__.py
+tkdocviewer/__main__.py
+tkdocviewer/backend_gs.py
+tkdocviewer/widget.py
