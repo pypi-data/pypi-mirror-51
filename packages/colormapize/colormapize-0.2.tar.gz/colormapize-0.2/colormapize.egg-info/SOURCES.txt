@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.rst
+setup.cfg
+setup.py
+colormapize/__init__.py
+colormapize/core.py
+colormapize.egg-info/PKG-INFO
+colormapize.egg-info/SOURCES.txt
+colormapize.egg-info/dependency_links.txt
+colormapize.egg-info/entry_points.txt
+colormapize.egg-info/requires.txt
+colormapize.egg-info/top_level.txt
+colormapize.egg-info/zip-safe
