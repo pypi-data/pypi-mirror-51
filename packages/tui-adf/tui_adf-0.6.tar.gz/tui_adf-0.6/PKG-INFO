@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tui_adf
+Version: 0.6
+Summary: Funktionen für Lehrveranstaltung Analoge Digitale Filter
+Home-page: UNKNOWN
+Author: Michael Riesmeyer
+Author-email: Michael.Riesmeyer@tu-ilmenau.de
+License: UNKNOWN
+Description: In diesem Pkg sind die Funktionen f眉r das Seminar in Analoge Digitale Filter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
