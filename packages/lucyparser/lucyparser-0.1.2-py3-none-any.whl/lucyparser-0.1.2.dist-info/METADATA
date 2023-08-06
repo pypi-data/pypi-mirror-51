@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lucyparser
+Version: 0.1.2
+Summary: Lucene-like syntax parser
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Timur
+Author-email: timur.makarchuk@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
