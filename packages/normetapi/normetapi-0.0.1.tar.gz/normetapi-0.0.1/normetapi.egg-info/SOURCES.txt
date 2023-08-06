@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+normetapi/__init__.py
+normetapi/api.py
+normetapi/version.py
+normetapi.egg-info/PKG-INFO
+normetapi.egg-info/SOURCES.txt
+normetapi.egg-info/dependency_links.txt
+normetapi.egg-info/requires.txt
+normetapi.egg-info/top_level.txt
