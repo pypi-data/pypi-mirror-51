@@ -1,0 +1,17 @@
+stpmex/__init__.py,sha256=hcxtMBw94pqEYiq3tqK0FgViXHy0uIiXCjxlBdBvdCs,85
+stpmex/auth.py,sha256=URIcxDvD3Hm2AzSPy7BjU07FjAXJbIxUQThQCUnar1k,1275
+stpmex/client.py,sha256=BfYbq4dPAEQKna6exCkXmyxnO2GiTgLVaLSsBLCBj1o,1687
+stpmex/exc.py,sha256=QEGjsfm-P4zNVXQrF-gizUyWMCya9OvXSg50XILY9Kk,620
+stpmex/orden.py,sha256=zNAlIrDFSzVouKA2fbf9BdXZJFuE21Y0HyY33HF3aNs,3409
+stpmex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stpmex/types.py,sha256=LOzXPu_7ksK5N50kkFG6NJST5xXIgvIqzB53PrDEtEI,151
+stpmex/version.py,sha256=YuAuFLBrpl-SUl_UsvW1U1NTjqnldfuD1xUmSLmtaRw,22
+stpmex/data/demo.wsdl,sha256=VkJ7RlkgJ9lgvRmIgNxTsABQtP8L-xe2wUoCPgDD5NY,24348
+stpmex/data/demo.xsd,sha256=Se42W6KM-K5hNeuvTKABYDIrPAD7Ck-5dnvQJfvb8Ak,27174
+stpmex/data/prod.wsdl,sha256=QNOtwBLYrh3_bLAfRPr_PXp0NKllJRMhGOQ1umq4X1E,23776
+stpmex/data/prod.xsd,sha256=c3KeoPpz6irL3aN6dIU_dPhlh3dnyTcy8LIoC46cHqU,27174
+stpmex-2.0.4.dist-info/LICENSE,sha256=9GQPE7kl6j7TtaughgZn1IypobZPB0y6CajRzcZQx2U,1063
+stpmex-2.0.4.dist-info/METADATA,sha256=Oe-wF6zv3XWmSPsr2kSk7jhVUNyfJdqsQIoBDKkjdnA,2098
+stpmex-2.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+stpmex-2.0.4.dist-info/top_level.txt,sha256=yzq_SArWwc5tJAK2pqz74quZKPGH782f_s7l2FTf9KQ,7
+stpmex-2.0.4.dist-info/RECORD,,
