@@ -1,0 +1,8 @@
+add_parent_path
+delegator
+delegator.py
+kanilog
+pathlib2
+pytest
+setuptools
+stdlogging
