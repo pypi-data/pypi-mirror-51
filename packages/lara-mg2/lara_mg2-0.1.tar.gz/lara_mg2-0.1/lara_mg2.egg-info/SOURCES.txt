@@ -1,0 +1,6 @@
+hi
+setup.py
+lara_mg2.egg-info/PKG-INFO
+lara_mg2.egg-info/SOURCES.txt
+lara_mg2.egg-info/dependency_links.txt
+lara_mg2.egg-info/top_level.txt

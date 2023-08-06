@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+import math
+print ("Hello World")
+num=input('Enter a number')
+ans=math.sqrt(num)
+print (ans)
