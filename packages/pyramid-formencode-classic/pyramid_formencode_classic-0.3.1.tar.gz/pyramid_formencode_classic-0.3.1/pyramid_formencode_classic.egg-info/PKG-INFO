@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pyramid-formencode-classic
+Version: 0.3.1
+Summary: an implementation of the classic pylons formencode validation, for pyramid
+Home-page: https://github.com/jvanasco/pyramid_formencode_classic
+Author: Jonathan Vanasco
+Author-email: jonathan@findmeon.com
+License: BSD
+Description: an implementation of the classic pylons formencode validation, for pyramid
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Pyramid
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License

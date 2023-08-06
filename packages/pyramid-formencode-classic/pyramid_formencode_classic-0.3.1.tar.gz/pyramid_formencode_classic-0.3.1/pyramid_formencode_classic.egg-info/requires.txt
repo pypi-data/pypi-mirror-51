@@ -1,0 +1,3 @@
+pyramid
+formencode>=2.0.0a
+six
