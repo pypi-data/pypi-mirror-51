@@ -1,0 +1,7 @@
+atomicwrites
+decorator
+marshmallow
+six
+
+[:python_version < "3.0"]
+pathlib2
