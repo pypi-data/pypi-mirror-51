@@ -1,0 +1,1 @@
+{:watch #object[cljs.closure$compilable_input_paths$reify__5235 0x34d480b9 "cljs.closure$compilable_input_paths$reify__5235@34d480b9"], :output-dir "resources/public/js", :asset-path "js", :optimizations :none, :main cfe.main, :output-to "resources/public/js/main.js", :aot-cache true, :verbose true}
