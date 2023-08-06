@@ -1,0 +1,7 @@
+cached_property
+dragonmapper
+zhon
+prettytable
+
+[permit to generate frequencies.json using html data]
+requests_html
