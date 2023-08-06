@@ -1,0 +1,8 @@
+flask
+flask_restplus
+bcrypt
+sqlalchemy
+flask_cors
+pymysql
+waitress
+requests
