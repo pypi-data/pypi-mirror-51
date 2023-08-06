@@ -1,0 +1,6 @@
+README.md
+setup.py
+cloudsek_weather_app.egg-info/PKG-INFO
+cloudsek_weather_app.egg-info/SOURCES.txt
+cloudsek_weather_app.egg-info/dependency_links.txt
+cloudsek_weather_app.egg-info/top_level.txt
