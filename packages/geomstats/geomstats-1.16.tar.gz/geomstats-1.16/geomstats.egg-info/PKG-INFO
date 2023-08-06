@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: geomstats
+Version: 1.16
+Summary: Geometric statistics on manifolds
+Home-page: http://github.com/geomstats/geomstats
+Author: Nina Miolane
+Author-email: ninamio78@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: all
+Provides-Extra: torch
+Provides-Extra: tf
