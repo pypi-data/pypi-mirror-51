@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: MiScan
+Version: 1.0.2
+Summary: Maxout-inferred SNV-based cancer prediction model
+Home-page: https://github.com/QuKunLab/MiScan
+Author: Qulab USTC
+Author-email: jeffery_cpu@163.com
+License: UNKNOWN
+Project-URL: MiScan website, http://galaxy.ustc.edu.cn
+Keywords: deep learning SNV breast cancer prediction
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py (==0.7.1)
+Requires-Dist: adjustText (==0.7.3)
+Requires-Dist: astor (==0.8.0)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: gast (==0.2.2)
+Requires-Dist: google-pasta (==0.1.7)
+Requires-Dist: grpcio (==1.22.0)
+Requires-Dist: h5py (==2.9.0)
+Requires-Dist: Keras (==2.2.4)
+Requires-Dist: Keras-Applications (==1.0.8)
+Requires-Dist: Keras-Preprocessing (==1.1.0)
+Requires-Dist: kiwisolver (==1.1.0)
+Requires-Dist: Markdown (==3.1.1)
+Requires-Dist: matplotlib (==3.1.1)
+Requires-Dist: numpy (==1.16.4)
+Requires-Dist: pandas (==0.24.2)
+Requires-Dist: protobuf (==3.9.0)
+Requires-Dist: pyparsing (==2.4.0)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pytz (==2019.1)
+Requires-Dist: PyYAML (==5.1.1)
+Requires-Dist: scipy (==1.3.0)
+Requires-Dist: seaborn (==0.9.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: tensorboard (==1.14.0)
+Requires-Dist: tensorflow (==1.14.0)
+Requires-Dist: tensorflow-estimator (==1.14.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: Werkzeug (==0.15.5)
+Requires-Dist: wrapt (==1.11.2)
+
+|PyPI| |Docs| |Docker| |Travis|
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/miscan.svg
+    :alt: PyPI latest version
+    :target: https://pypi.org/project/MiScan/
+
+.. |Docs| image:: https://readthedocs.org/projects/miscan-cli/badge/?version=latest
+    :alt: readthedocs auoto build
+    :target: https://miscan-cli.readthedocs.io
+
+.. |Docker| image:: https://img.shields.io/docker/cloud/build/jefferyustc/miscan_command_line
+    :alt: Docker Cloud Build Status
+    :target: https://hub.docker.com/r/jefferyustc/miscan_command_line
+
+.. |Travis| image:: https://img.shields.io/travis/com/jefferyustc/MiScan_cli
+    :alt: Travis (.com)
+
+
+MiScan
+==========
+
+Maxout-inferred SNV-based cancer prediction model | Apache Software License, more info please see documentation_ or
+the website_ version(website introduction_), the same repo can be found on lab github QunKunLab_
+
+.. _documentation: https://miscan-cli.readthedocs.io
+.. _website: http://qulab.ustc.edu.cn/miscan
+.. _QunKunLab: https://github.com/QuKunLab/MiScan
+.. _introduction: https://miscan-cli.readthedocs.io/en/latest/website.html
+
+
