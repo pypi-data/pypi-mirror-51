@@ -1,0 +1,62 @@
+Metadata-Version: 2.0
+Name: streamsx.avro
+Version: 1.1.0
+Summary: IBM Streams Avro integration
+Home-page: https://github.com/IBMStreams/streamsx.avro
+Author: IBM Streams @ github.com
+Author-email: hegermar@de.ibm.com
+License: Apache License - Version 2.0
+Description-Content-Type: UNKNOWN
+Keywords: streams,ibmstreams,streaming,analytics,streaming-analytics,avro
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: streamsx
+Requires-Dist: streamsx.toolkits
+
+Overview
+========
+
+Provides functions for serialization and deserialization of messages in an Apache Avro format.
+
+This package exposes the `com.ibm.streamsx.avro <https://ibmstreams.github.io/streamsx.avro/>`_ toolkit as Python methods for use with Streaming Analytics service on
+IBM Cloud and IBM Streams including IBM Cloud Pak for Data.
+
+* `Streaming Analytics service <https://console.ng.bluemix.net/catalog/services/streaming-analytics>`_
+* `IBM Streams developer community <https://developer.ibm.com/streamsdev/>`_
+
+
+Sample
+======
+
+A simple example of a Streams application that serializes and deserializes messages::
+
+    from streamsx.topology.topology import *
+    from streamsx.topology.schema import CommonSchema, StreamSchema
+    from streamsx.topology.context import submit
+    import streamsx.avro as avro
+
+    topo = Topology()
+
+    avro_schema = '{"type" : "record", "name" : "hw_schema", "fields" : [{"name" : "a", "type" : "string"}]}'
+    s = topo.source([{'a': 'Hello'}, {'a': 'World'}, {'a': '!'}]).as_json()
+
+    # convert json to avro blob
+    o = avro.json_to_avro(s, avro_schema)
+    # convert avro blob to json
+    res = avro.avro_to_json(o, avro_schema)
+    res.print()
+
+    submit('STREAMING_ANALYTICS_SERVICE', topo)
+    # Use for IBM Streams including IBM Cloud Pak for Data
+    # submit ('DISTRIBUTED', topo, cfg)
+
+Documentation
+=============
+
+* `streamsx.avro package documentation <http://streamsxavro.readthedocs.io>`_
+
+
