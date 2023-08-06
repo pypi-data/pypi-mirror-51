@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: librosco
+Version: 1.0.1
+Summary: Python Extension for Rover MEMS ECU library librosco 2.0.0
+Home-page: http://github.com/andrewdjackson/librosco
+Author: Andrew Jackson
+Author-email: andrew.d.jackson@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: MacOS X
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: C

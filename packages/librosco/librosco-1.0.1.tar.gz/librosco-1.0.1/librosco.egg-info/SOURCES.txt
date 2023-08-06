@@ -1,0 +1,8 @@
+README
+./src/mems.c
+./src/protocol.c
+./src/setup.c
+librosco.egg-info/PKG-INFO
+librosco.egg-info/SOURCES.txt
+librosco.egg-info/dependency_links.txt
+librosco.egg-info/top_level.txt
