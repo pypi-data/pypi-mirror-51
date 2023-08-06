@@ -1,0 +1,15 @@
+discogs_cli/__init__.py,sha256=ULgD3qWBclgo96o5RGcZNG3M703HnGiMuAuHvOC9W4U,46
+discogs_cli/completions.py,sha256=duILeLMORPWi4eBcBFby5s_kFGmbSycBlyE0nLxc5zI,1015
+discogs_cli/discogs.py,sha256=zoGLRlGMd1JHRYPyfljk-oy1Gxj1Qpf1PZdTJm2bZzg,12899
+discogs_cli/main.py,sha256=9xa6eHNcv-oBAx629JAzmp5-UOR89neDcm-ZJhZaOG4,2394
+discogs_cli/main_cli.py,sha256=PUmjXEMh3tIn1HScdtWswLSHKDlVJC9ePMzq_cnkrMs,2602
+discogs_cli/pyglexer.py,sha256=1cgVaJB7xCbJNhGCX0tEiQiCprshQigf63YusRpWVtI,659
+discogs_cli/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discogs_cli/ext/completer.py,sha256=6UXUx5MQTBsgxYrhT3IUN8f-9DCnNKdgUp8ZAxhrkMg,6731
+discogs_cli/ext/utils.py,sha256=xRR5OqGYdn5CICaabYli3rX6xSLkmXF6UWedQi0MNyo,5813
+discogs_cli_savoy1211-1.1.0.dist-info/LICENSE,sha256=A0cWpXC4s_E9E0rZVrsZGOLHiQN8rEslOx5TAPoaG0U,1075
+discogs_cli_savoy1211-1.1.0.dist-info/METADATA,sha256=PXUXjB6UbKN8HCRF3aAuUs5ploncDvB4ZDPCbdTqVv4,2974
+discogs_cli_savoy1211-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+discogs_cli_savoy1211-1.1.0.dist-info/entry_points.txt,sha256=907LYEu15OZfcNpZ2LFAGW2qVSdAl9HyEYlN3hcpHNI,85
+discogs_cli_savoy1211-1.1.0.dist-info/top_level.txt,sha256=rIMlBv7Boe4v3Ze921YW_wrpNalvw453qxPjq-P3Lxo,12
+discogs_cli_savoy1211-1.1.0.dist-info/RECORD,,
