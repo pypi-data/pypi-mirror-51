@@ -1,0 +1,10 @@
+github_release_cicd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+github_release_cicd/__main__.py,sha256=OVmraDQ941xwX7dHtnnmPd8tYuHA1ejHBTpzt-xivq8,49
+github_release_cicd/cli.py,sha256=K1PAv5LJMNgp8zjP8gerycfRrvyV51zp8NDlnn2HDu0,1955
+github_release_cicd/version.py,sha256=3sfcAGYP09vJcvIKKhGMqxgfRGGPiUnFMSxFOwrPEIE,122
+github_release_cicd-0.1.12.dev5.dist-info/LICENSE,sha256=zNatg3aEqxMXTTKlgxt5EOzrKtRkIYcM0wiP3uSimi4,1105
+github_release_cicd-0.1.12.dev5.dist-info/METADATA,sha256=jk-sWpWj_eeS2W98HSDILtn21i4nDaydNvrSSVjVzCU,2031
+github_release_cicd-0.1.12.dev5.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+github_release_cicd-0.1.12.dev5.dist-info/entry_points.txt,sha256=pxAmJof2J-mpECEUoad4fVn5S8sukCdSbJyPg_CmkkQ,70
+github_release_cicd-0.1.12.dev5.dist-info/top_level.txt,sha256=LNv-GfV8lhwftfnedyAx-jJBPu8-TbD8MhrEU5yI_AA,20
+github_release_cicd-0.1.12.dev5.dist-info/RECORD,,
