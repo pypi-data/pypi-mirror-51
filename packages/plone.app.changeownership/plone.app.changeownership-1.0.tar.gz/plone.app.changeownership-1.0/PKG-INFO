@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: plone.app.changeownership
+Version: 1.0
+Summary: Change Plone objects ownership
+Home-page: http://plone.org/products/plone.app.changeownership
+Author: Mustapha Benali
+Author-email: mustapha@headnet.dk
+License: GPL
+Description: Introduction
+        ============
+        
+        plone.app.changeownership as it sounds is a Plone package to change objects
+        ownership.
+        
+        Problem
+        =======
+        
+        While for a single content you can call the ``/change-owner`` view,
+        there is no way in Plone to transfer **ownership of all objects** owned by an user
+        to a new user. To delete a Plone member in such case is not an option. 
+        
+        Solution
+        ========
+        
+        plone.app.changeownership makes easy to transfer ownership from one ore more 
+        members to a new member. It also can change content metadata, like *Creators*
+        field.
+        
+        Install
+        =======
+        
+        The addon is installed via your Plone buildout.
+        
+        * Add ``plone.app.changeownership`` to the list of eggs to install, e.g.: ::
+        
+            [buildout]
+            ...
+            eggs =
+                ...
+                plone.app.changeownership
+        
+        * Re-run buildout, e.g. with: ::
+        
+            $ ./bin/buildout
+        
+        You have to install the package from quickinstaller or setup_tool. You will get
+        a configlet in the Plone control panel named "Change Ownership".
+        
+        
+        Changelog
+        =========
+        
+        1.0 (2019-09-02)
+        ----------------
+        
+        - Plone 5 compatibility
+          [tomgross]
+        
+        - Python 3 compatibility
+          [ajung]
+        
+        - German translation
+          [tomgross]
+        
+        
+        0.5 (2015-07-29)
+        ----------------
+        
+        - Fixed path filter
+          [uschwarz]
+        - Minor changes to ownership form
+          [keul]
+        - Support for Site Administrator role with a proper permissions
+          [keul]
+        - Added uninstall profile
+          [keul]
+        - Closed `#3`__:  Dexterity content doesn't have Creators method
+          [keul]
+        - Added new check flag to chose if changing modification date or not
+          [keul]
+        
+        __ http://plone.org/products/plone.app.changeownership/issues/3
+        
+        0.4 (2012-09-20)
+        ----------------
+        
+        - Fix permissions for Plone 4 [fdelia]
+        
+        0.3 (2011-03-07)
+        ----------------
+        
+        - Added MANIFEST.in [WouterVH]
+        - Added Dutch-translation [WouterVH]
+        - Added z3c.autoinclude support [keul]
+        - Added italian translation [keul]
+        
+        0.2 (2010-02-02)
+        ----------------
+        
+        - Added check to support instances without a membersfolder [jaroel]
+        
+        0.1 (2008-02-01)
+        ----------------
+        
+        - Merged matth's branch that adds:
+        
+          - Filter by path
+          - Dry run option
+          - Sorting of usernames
+          - Display userid as well as full name
+        
+        - Initial release
+        
+Keywords: plone change ownership
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 3.3
+Classifier: Framework :: Plone :: 4.0
+Classifier: Framework :: Plone :: 4.1
+Classifier: Framework :: Plone :: 4.2
+Classifier: Framework :: Plone :: 4.3
+Classifier: Framework :: Plone :: 5.0
+Classifier: Framework :: Plone :: 5.1
+Classifier: Framework :: Plone :: 5.2
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
