@@ -1,0 +1,6 @@
+typing
+requests
+bokkichat
+kudubot
+sqlalchemy
+bs4
