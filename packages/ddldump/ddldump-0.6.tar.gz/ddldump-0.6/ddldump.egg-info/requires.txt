@@ -1,0 +1,5 @@
+docopt
+sqlalchemy
+psycopg2
+mysqlclient
+future
