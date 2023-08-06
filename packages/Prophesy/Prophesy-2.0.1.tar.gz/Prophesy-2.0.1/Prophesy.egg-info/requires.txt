@@ -1,0 +1,17 @@
+pycarl>=2.0.3
+shapely
+numpy
+matplotlib
+heuristic_optimization<0.5,>=0.4.3
+click
+
+[pdf]
+PyPDF2
+
+[stormpy]
+stormpy
+
+[web]
+tornado
+pycket
+redis

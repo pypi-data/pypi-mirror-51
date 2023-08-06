@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Prophesy
+Version: 2.0.1
+Summary: Prophesy - Parametric Probabilistic Model Checking
+Home-page: https://moves-rwth.github.io/prophesy/
+Author: S. Junges, M. Volk
+Author-email: sebastian.junges@cs.rwth-aachen.de
+Maintainer: S. Junges
+Maintainer-email: sebastian.junges@cs.rwth-aachen.de
+License: GPLv3
+Description: Prophesy is a library and script-collection for methods handling parameter synthesis in Markov decision processes and Markov chains
+Platform: UNKNOWN
+Provides-Extra: stormpy
+Provides-Extra: pdf
+Provides-Extra: web
