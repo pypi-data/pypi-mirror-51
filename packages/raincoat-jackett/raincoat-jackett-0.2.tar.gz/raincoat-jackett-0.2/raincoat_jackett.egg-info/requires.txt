@@ -1,0 +1,7 @@
+requests
+justlog
+colorama
+tabulate
+transmission-clutch
+deluge-client
+python-qbittorrent
