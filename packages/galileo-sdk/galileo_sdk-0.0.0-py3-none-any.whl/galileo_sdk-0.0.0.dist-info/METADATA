@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: galileo-sdk
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6.7
+Requires-Dist: galileo-socketio
+Requires-Dist: requests (>=2.21.0)
+Provides-Extra: docs
+Requires-Dist: sphinx (>=2.2.0) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=0.4.3) ; extra == 'docs'
+
+UNKNOWN
+
+

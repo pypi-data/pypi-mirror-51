@@ -1,0 +1,8 @@
+galileo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+galileo/api.py,sha256=aV3ZlMC5CwvqqIRd43agHKESHDOyIOaGurzLx91ADlE,17966
+galileo/cli.py,sha256=b4InZSFvRfs6P5V-bnqhl2XMhRX9VyP1AaDiRS0N1Us,13561
+galileo_sdk-0.0.0.dist-info/METADATA,sha256=Z5Jx9Zv6JwGlgHNnT_4Nd5mZ6T8zfqoZFDGPYVN3d7E,356
+galileo_sdk-0.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+galileo_sdk-0.0.0.dist-info/entry_points.txt,sha256=MJXmdPMEj45qahlFKO39qiiHZCMU7ol8UqCcUyLVw3I,50
+galileo_sdk-0.0.0.dist-info/top_level.txt,sha256=6gwORCqh8KcY9MRaCS1N0nn8e17r89cL8xgH972df0c,8
+galileo_sdk-0.0.0.dist-info/RECORD,,
