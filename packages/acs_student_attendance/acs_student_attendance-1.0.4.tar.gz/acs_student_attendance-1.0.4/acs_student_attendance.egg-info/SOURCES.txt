@@ -1,0 +1,17 @@
+AUTHORS
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+acs_student_attendance/__init__.py
+acs_student_attendance/analysis.py
+acs_student_attendance/log_parser.py
+acs_student_attendance/shell.py
+acs_student_attendance.egg-info/PKG-INFO
+acs_student_attendance.egg-info/SOURCES.txt
+acs_student_attendance.egg-info/dependency_links.txt
+acs_student_attendance.egg-info/entry_points.txt
+acs_student_attendance.egg-info/requires.txt
+acs_student_attendance.egg-info/top_level.txt

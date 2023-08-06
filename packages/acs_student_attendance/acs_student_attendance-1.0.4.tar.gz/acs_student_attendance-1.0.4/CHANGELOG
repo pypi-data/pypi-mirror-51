@@ -1,0 +1,45 @@
+acs_student_attendance 1.0.4 (August 29, 2019)
+==============================================
+
+Bugfixes
+--------
+
+    * Migrated from Bitbucket (Mercurial) to GitHub (Git).
+
+
+acs_student_attendance 1.0.3 (February 13, 2019)
+================================================
+
+Bugfixes
+--------
+
+    * Updated the `StudentAuthLogParser` class as our admins adopted a new date
+      format for the student auth log file.
+
+
+acs_student_attendance 1.0.2 (November 12, 2017)
+================================================
+
+Bugfixes
+--------
+
+    * Removed distribute_setup.py as 'Distribute' is a now deprecated fork of
+      the 'Setuptools' project.
+
+
+acs_student_attendance 1.0.1 (January 6, 2017)
+==============================================
+
+Bugfixes
+--------
+
+    * Prevented the `StudentAttendanceAnalysis` class from updating the
+      `StudentAuthLogParser.log_transformation_pipeline` list directly, as any
+      such changes would then carry over to all future `StudentAuthLogParser`
+      instances.
+
+
+acs_student_attendance 1.0.0 (December 30, 2016)
+================================================
+
+    * Initial release.
