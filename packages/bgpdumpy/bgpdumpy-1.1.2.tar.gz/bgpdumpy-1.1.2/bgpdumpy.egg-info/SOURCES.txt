@@ -1,0 +1,17 @@
+README
+setup.py
+./BGPDump.py
+./CDefs.py
+./LICENSE
+./README
+./README.md
+./__init__.py
+./mkdeps
+./requirements.txt
+./deps/libbgpdump-1.6.0.tar.gz
+bgpdumpy.egg-info/PKG-INFO
+bgpdumpy.egg-info/SOURCES.txt
+bgpdumpy.egg-info/dependency_links.txt
+bgpdumpy.egg-info/not-zip-safe
+bgpdumpy.egg-info/requires.txt
+bgpdumpy.egg-info/top_level.txt
