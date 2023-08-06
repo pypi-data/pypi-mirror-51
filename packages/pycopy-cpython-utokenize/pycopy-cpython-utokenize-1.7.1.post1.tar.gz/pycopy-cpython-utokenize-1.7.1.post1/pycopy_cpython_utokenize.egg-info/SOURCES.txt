@@ -1,0 +1,7 @@
+setup.py
+utokenize.py
+pycopy_cpython_utokenize.egg-info/PKG-INFO
+pycopy_cpython_utokenize.egg-info/SOURCES.txt
+pycopy_cpython_utokenize.egg-info/dependency_links.txt
+pycopy_cpython_utokenize.egg-info/requires.txt
+pycopy_cpython_utokenize.egg-info/top_level.txt
