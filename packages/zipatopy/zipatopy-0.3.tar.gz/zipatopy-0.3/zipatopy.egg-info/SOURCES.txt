@@ -1,0 +1,7 @@
+README.md
+setup.py
+zipatopy/__init__.py
+zipatopy.egg-info/PKG-INFO
+zipatopy.egg-info/SOURCES.txt
+zipatopy.egg-info/dependency_links.txt
+zipatopy.egg-info/top_level.txt
