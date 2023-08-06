@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: pytfa
+Version: 0.9.1
+Summary: pyTFA, Thermodynamics-based Flux Analysis in Python
+Home-page: https://github.com/EPFL-LCSB/pytfa/
+Author: pyTFA team
+Author-email: softwares.lcsb@epfl.ch
+License: Apache 2.0
+Download-URL: https://github.com/EPFL-LCSB/pytfa/archive/0.9.1.tar.gz
+Description: UNKNOWN
+Keywords: pytfa,tfa,thermodynamics,flux analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
