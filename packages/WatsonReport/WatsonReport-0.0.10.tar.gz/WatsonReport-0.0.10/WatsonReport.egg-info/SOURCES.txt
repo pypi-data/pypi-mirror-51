@@ -1,0 +1,10 @@
+README.md
+setup.py
+WatsonReport.egg-info/PKG-INFO
+WatsonReport.egg-info/SOURCES.txt
+WatsonReport.egg-info/dependency_links.txt
+WatsonReport.egg-info/entry_points.txt
+WatsonReport.egg-info/requires.txt
+WatsonReport.egg-info/top_level.txt
+watsonReport/__init__.py
+watsonReport/watsonReport.py
