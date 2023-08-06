@@ -1,0 +1,17 @@
+findsame/__init__.py,sha256=aYkeGO5kqMYkTtSlvo0Vkn1oBThbzffv7qqpkTIroUo,29
+findsame/calc.py,sha256=XMOO_dvTek9fvdR1HW2jnO5p1IuAFT-MvQyEts8TZ7c,15322
+findsame/common.py,sha256=WwGBkEr7u_vW3g5q2IJMkKZguimmU6-05xJt3DITT_g,2787
+findsame/config.py,sha256=6RbBFGPL555P8DZhelGe4p_JNGmXgZ5YHQf-YjkWpPc,576
+findsame/main.py,sha256=0EkSMnMP3nPDCJWjd5NM5b7quGoZ9l-z-YQOwlYcU7E,2820
+findsame/parallel.py,sha256=Fa03Va7RrwbzCi97BMnb-2nfgrzYMUltgdPAcMqUR_M,3029
+findsame/benchmark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+findsame/benchmark/benchmark.py,sha256=K2pGseRwCsW850wXSh16CKOalMK-gA5Z0PL1JAYdkC4,13802
+findsame/benchmark/plot.py,sha256=vxOdAjL1NA1M1dI0pghI1gQIHunogfIJtyT2zHoXIwE,5852
+findsame/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+findsame/tests/test.py,sha256=jPPEBjWtXI06mmva6A0a6As_NryqQTIBzrLrhLMsGdA,9995
+findsame-0.1.2.data/scripts/findsame,sha256=uy4B28uiwHSXXdiPiumRCrNaeqZDkSCqvIccBT53c0I,3185
+findsame-0.1.2.dist-info/LICENSE,sha256=IJ9JapXSGogxDtTPskJzcsuLsqLEpiLRyl9BF5sdl6o,1501
+findsame-0.1.2.dist-info/METADATA,sha256=ksuUDto5VQLt8O7FVOP-JOdclCqkbo09K5-AnB-1PTs,15832
+findsame-0.1.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+findsame-0.1.2.dist-info/top_level.txt,sha256=66XHRnPsA-J4r9Vhdc5HXYfrIIXIQlYAbxOtrcxKoBs,9
+findsame-0.1.2.dist-info/RECORD,,
