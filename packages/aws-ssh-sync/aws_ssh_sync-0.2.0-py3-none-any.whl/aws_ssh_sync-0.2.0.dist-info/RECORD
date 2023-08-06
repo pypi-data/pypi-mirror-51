@@ -1,0 +1,13 @@
+aws_ssh_sync/__init__.py,sha256=6-PRDkDOSpuwnF6rz7sXwPqkpbz7zuFsYPUhlPhiS6Y,47
+aws_ssh_sync/main.py,sha256=xdlGkcQNExunjBXD0YIKb64Bp4YqiG9ozhpOvIcYXyo,12303
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=LAc-fyj2XmytSo5ma8CUc10Q4jIGVjXKGts-U0jdF_0,713
+tests/test_config.py,sha256=5eH2hj0FYks_jMcts0QeiYs2pJrWGkXR8PeTWCKffDs,5482
+tests/test_docs.py,sha256=yuMa3QgzNcpGGRHTPdEhKU84mvPpzkmIgcd5sWVLHJ0,774
+tests/test_file_output.py,sha256=4oTc0VbXtbsfIh6dL8uOZ4qw72HUzdYl_xQ6JmQOESg,2950
+aws_ssh_sync-0.2.0.dist-info/LICENSE,sha256=ybEIq6ilEUJP9AtY9A5F_5aOwtZQGGDheqwNYO3CqRE,592
+aws_ssh_sync-0.2.0.dist-info/METADATA,sha256=oIje03Syyrn77-EpKSYCRPDsxWbilh09DDWEzfgZHQU,3248
+aws_ssh_sync-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+aws_ssh_sync-0.2.0.dist-info/entry_points.txt,sha256=gndP8IxUl2WXqfmlhq5lwcHRzEPHgrogVnDwEN0YQws,57
+aws_ssh_sync-0.2.0.dist-info/top_level.txt,sha256=v7xfg3klaczuinxlObd31jblm2wtnXWfmr2-JxxNUqU,25
+aws_ssh_sync-0.2.0.dist-info/RECORD,,
