@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fast_to_SQL/CreateRandomDF.py
+fast_to_SQL/__init__.py
+fast_to_SQL/fast_to_SQL.py
+fast_to_sql.egg-info/PKG-INFO
+fast_to_sql.egg-info/SOURCES.txt
+fast_to_sql.egg-info/dependency_links.txt
+fast_to_sql.egg-info/requires.txt
+fast_to_sql.egg-info/top_level.txt
