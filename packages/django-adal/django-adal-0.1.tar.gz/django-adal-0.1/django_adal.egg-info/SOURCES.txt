@@ -1,0 +1,12 @@
+setup.py
+django_adal/MSAdalAuth.py
+django_adal/__init__.py
+django_adal/models.py
+django_adal/msgraph.py
+django_adal/urls.py
+django_adal/views.py
+django_adal.egg-info/PKG-INFO
+django_adal.egg-info/SOURCES.txt
+django_adal.egg-info/dependency_links.txt
+django_adal.egg-info/requires.txt
+django_adal.egg-info/top_level.txt
