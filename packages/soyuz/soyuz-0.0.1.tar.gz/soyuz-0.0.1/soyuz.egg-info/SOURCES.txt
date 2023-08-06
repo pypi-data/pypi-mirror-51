@@ -1,0 +1,7 @@
+README.md
+setup.py
+soyuz/__init__.py
+soyuz.egg-info/PKG-INFO
+soyuz.egg-info/SOURCES.txt
+soyuz.egg-info/dependency_links.txt
+soyuz.egg-info/top_level.txt
