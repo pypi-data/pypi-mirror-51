@@ -1,0 +1,3 @@
+[console_scripts]
+FoundryDataBrowser = FoundryDataBrowser.foundry_data_browser:main
+
