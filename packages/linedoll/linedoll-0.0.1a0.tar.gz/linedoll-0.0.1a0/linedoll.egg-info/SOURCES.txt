@@ -1,0 +1,8 @@
+README.md
+setup.py
+linedoll/__init__.py
+linedoll.egg-info/PKG-INFO
+linedoll.egg-info/SOURCES.txt
+linedoll.egg-info/dependency_links.txt
+linedoll.egg-info/requires.txt
+linedoll.egg-info/top_level.txt
