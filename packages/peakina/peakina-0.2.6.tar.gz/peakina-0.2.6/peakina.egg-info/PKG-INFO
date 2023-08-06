@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: peakina
+Version: 0.2.6
+Summary: Pea Kina
+Home-page: https://github.com/ToucanToco/peakina
+Author: Toucan Toco
+Author-email: dev@toucantoco.com
+License: BSD
+Description: Pea Kina
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
