@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: sims
+Version: 1.0.0
+Summary:  Python module to read Cameca (nano)SIMS data files. 
+Home-page: https://github.com/zanpeeters/sims
+Author: Zan Peeters
+Author-email: me@example.com
+License: BSD 3-Clause Clear
+Description: sims
+        ====
+        
+        Python module to read Cameca (nano)SIMS data files
+        
+Keywords: sims nanosims mass-spectrometry Cameca file-format
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
