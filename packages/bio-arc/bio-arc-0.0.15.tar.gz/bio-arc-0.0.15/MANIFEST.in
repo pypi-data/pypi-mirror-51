@@ -1,0 +1,3 @@
+recursive-include ARC/data *
+include LICENSE
+include README.md
