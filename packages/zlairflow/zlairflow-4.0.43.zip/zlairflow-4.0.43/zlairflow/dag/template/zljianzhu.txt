@@ -1,0 +1,38 @@
+from airflow.models import DAG
+from airflow.operators.python_operator import PythonOperator
+from datetime import datetime,timedelta
+
+from zltask import task_quyu
+# from zlhawq.pxf import add_quyu
+
+
+tag='##cdc##'
+
+
+default_args = {'owner': 'root',
+                'depends_on_past': False,
+                'start_date': datetime##(2019,1,1)##+timedelta(hours=##24##), }
+
+d = DAG('##quyuName##'
+        , default_args=default_args
+        , schedule_interval="##0 0/12 * * *##"
+        ,max_active_runs=1)
+
+
+t0a=PythonOperator(task_id="##anqing_a1##",python_callable=task_quyu,dag=d
+        ,op_kwargs={"quyu":"##task_anqing##","loc":"##kunming##","flag":"##flag##","regions_index":"##regions_index##"}
+        ,pool="##abc_a##"
+        ,execution_timeout=timedelta(##minutes=60##))
+
+# t0b=PythonOperator(task_id="##anqing_b1##",python_callable=add_quyu
+               # ,op_kwargs={"quyu":"##anhui_anqing##","tag":tag,"loc":"##kunming##"}
+               # ,dag=d
+               # ,trigger_rule="all_done"
+               # ,pool="abc_b"
+
+               #,depends_on_past=False
+
+               #,execution_timeout=timedelta(minutes=30))
+
+
+#t0a>>t0b
