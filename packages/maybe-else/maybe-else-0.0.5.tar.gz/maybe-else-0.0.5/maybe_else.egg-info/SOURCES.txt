@@ -1,0 +1,8 @@
+README.md
+setup.py
+maybe/__init__.py
+maybe/maybe.py
+maybe_else.egg-info/PKG-INFO
+maybe_else.egg-info/SOURCES.txt
+maybe_else.egg-info/dependency_links.txt
+maybe_else.egg-info/top_level.txt
