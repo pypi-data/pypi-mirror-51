@@ -1,0 +1,17 @@
+agstream/__init__.py,sha256=KQrYYciSQPjPTPKs-0YN6E1r-o_kBrbv3n8AVtDZkPg,292
+agstream/__init__.py.bak,sha256=x91qRU7ZkV6aBFvcQEEh3YR_7nW2mrC3qZCeU9bI1qU,252
+agstream/connector.py,sha256=yKyru1h-0rPjtZfO3dTZVeEB8ibqc2kUoVAO3Ksr6W8,10259
+agstream/connector.py.bak,sha256=G1hJryuHTAClPz9hitpTOVjmj2CP-e5gHXPDe4egqGY,10097
+agstream/devices.py,sha256=UJ9f7kKeuXPzDeIJxtY_My6aJbBTFSreCZ9vvqQRwjo,4540
+agstream/devices.py.bak,sha256=NmaUJkOTKbkj_6JdyHaqydXOG1_ZdRIuRct5lTv82Ug,4406
+agstream/session.py,sha256=sOMzUvb_oFh9zirhi56663rldbketk606wVV1XRMwQ0,12615
+agstream/session.py.bak,sha256=MuF7MfdSt_0QRf9eHT1rDpHzI8-erjo0d8KqOANhLt4,12416
+agstream/computing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agstream/computing/etp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agstream/computing/etp/etp_utils.py,sha256=3Uk6AM0QJ5Ev6ZnGJg5jpwSMOvNCk_y-3qhDMdhduqI,1587
+agstream/computing/etp/etp_utils.py.bak,sha256=CI6k2UV-z0LmSY-J4_0OCeHKHt3frH3IdwUGp8BHSIQ,1455
+agstream-0.0.5.dist-info/LICENSE,sha256=6n0EnHcF3BOvwgLdGOGCfzSE-CEv0_p7gvxKDDY0Msk,7816
+agstream-0.0.5.dist-info/METADATA,sha256=vpBuramaZhtyL_nGlLyF-WflZavszo0dCcSCSQVH-UA,1582
+agstream-0.0.5.dist-info/WHEEL,sha256=66yg5r67RIT-GjSaJ3M-GBTsHX0QfofnyZ-5OqlTUU0,97
+agstream-0.0.5.dist-info/top_level.txt,sha256=biECtqbDBxSyVqNh1HS1BOPh3jIJDtmBAN2U-ZmoPsk,9
+agstream-0.0.5.dist-info/RECORD,,
