@@ -1,0 +1,74 @@
+import xanity
+import numpy as np
+
+xanity.analyze_this()
+
+# register parameters to use for parametric evaluations:
+xanity.experiment_parameters({
+    'draws': [100, 150, 200],
+    'scale': [1, 2, 3, ],
+    'offset_mag': [9, -0.5, -10],
+})
+
+
+# if you want to do multiple trials, you can:
+xanity.trials(5)
+
+
+# you can use the 'xanity.timed_fn' decorator on a function that your experiment uses
+# and xanity will collect run-duration data and keep it with the rest of your data
+@xanity.timed_fn
+def my_timed_function():
+    i = 1
+    for i in range(10**6):
+        i+=1
+    do_nothing=True
+
+# the 'main' function is the experiment:
+# give it parameters here in the declaration
+def main(
+        draws=200,
+        scale=5,
+        offset_mag=8,
+):
+    """ do experiment 1 """
+
+    # create some random data
+    fakevar = scale * np.random.rand(draws) ** 2 + offset_mag*np.random.randn(draws)
+
+    # use the xanity logger so that logfiles are kept with run data
+    xanity.log("here is a print from experiment 1")
+
+    # save variables with xanity so they can be recalled later
+    xanity.save_variable(fakevar)
+
+    # you can also save files on the current path... xanity will catch them
+    # and keep them with the data
+    with open('myownfile.txt', 'w') as f:
+        f.write('helloooooooo!')
+
+    # you can save a checkpoint too, so that you can resume (debugging)
+    # from a place inside the experiment:
+    xanity.save_checkpoint('my_checkpoint', variables=[fakevar])
+    # this will save all files (like 'myownfile.txt' above) and include any variables you specify
+    #
+    #  be carefull though:  checkpoint loading  must be enabled when you call xanity:
+    #
+    #     ' xanity run --checkpoints experiment1'
+    #
+    #  that's done so that you don't accidentally do 999 runs using the same checkpoint data!
+
+    variables = xanity.load_checkpoint('my_checkpoint')
+    # this will restore checkpointed files to the current working path and
+    # will return checkpointed python variables
+
+    # now, run our timed function:
+    my_timed_function()
+
+
+
+
+# the hook below is used to kick off a xanity run from an experiment script itself:
+
+if __name__ == '__main__':
+    xanity.run()
