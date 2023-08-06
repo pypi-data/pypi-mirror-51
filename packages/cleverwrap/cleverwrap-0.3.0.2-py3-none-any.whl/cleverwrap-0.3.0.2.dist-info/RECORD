@@ -1,0 +1,10 @@
+cleverwrap/__init__.py,sha256=Uilmmm_TLYc8mY1_IRIF6J4mk4LPgh61oRVFnOpzKq0,63
+cleverwrap/cleverwrap.py,sha256=7-waED6NQ5CHMnl16KOy_TX5Biei4Ku01lDtGhx87Tc,2887
+cleverwrap/conversation.py,sha256=kSogFmxvtmDqVXKJ0tJtybjFir4mGCvvjGtu6tefId4,1032
+cleverwrap/errors.py,sha256=t3-dF0yPZMnfKVOZ8UeX7q1UPguvAWF5wzXK0fkPotw,145
+cleverwrap/response.py,sha256=8svWZj0CW3kNjPupFu_TRi1qR5jIzHHiMEt_UjG1M_4,510
+cleverwrap-0.3.0.2.dist-info/LICENSE.txt,sha256=zgGOAGn0ezZON3bSf6Piy_abg3mKvs2uya842cEttHU,1044
+cleverwrap-0.3.0.2.dist-info/METADATA,sha256=wzFFBBjy7fwegGY3FqMXBxOQ_0ZNPKTxlpNuhMz2YYw,1602
+cleverwrap-0.3.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cleverwrap-0.3.0.2.dist-info/top_level.txt,sha256=_S-wB7jZR2wY6fVvfF1sRtcoCRLVZUMwj7PNuT7szmY,11
+cleverwrap-0.3.0.2.dist-info/RECORD,,
