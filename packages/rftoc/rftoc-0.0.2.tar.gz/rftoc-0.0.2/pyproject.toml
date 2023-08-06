@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "rftoc"
+author = "OV"
+author-email = "olav@vahtras.se"
+home-page = "https://github.com/vahtras/rftoc"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
