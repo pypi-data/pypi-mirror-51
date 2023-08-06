@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: libinstall
+Version: 0.1
+Summary: Installe les librairies python necessaire d'un projet
+Home-page: https://github.com/Raphencoder/libinstall
+Author: Raphael Krief
+Author-email: raphaelkriefbm@gmail.com
+License: BSD 3-Clause License
+Description: # Libinstall
+        Tired of python repository without requirement ? libinstall will install automatically all libraries needed for the projet.
+        
+        # Todo:
+        
+          * Handle "all" options and clarify what's the most effective.
+          * Add timeout for api files.
+        
+        # Description
+        
+          This project is under construction
+          
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
