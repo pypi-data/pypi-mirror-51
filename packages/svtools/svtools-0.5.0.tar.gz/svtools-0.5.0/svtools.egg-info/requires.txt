@@ -1,0 +1,11 @@
+svtyper==0.7.1
+numpy
+scipy
+statsmodels
+pandas
+setuptools
+google-auth
+google-cloud-storage
+google-compute-engine
+crcmod
+logzero
