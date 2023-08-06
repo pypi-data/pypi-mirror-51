@@ -1,0 +1,14 @@
+oaas_sdk/__init__.py,sha256=cBmRTle--b_jHXc2-Zm9tN1LIosD7EajARV-smDr1lA,489
+oaas_sdk/objects.py,sha256=4LJoi8NYyYd6_LXbyvGCLA1Tqny_9Ayx2A5A1JqmhJg,720
+oaas_sdk/sdk.py,sha256=xK8cy1TjRBvct9jNT62GHw3ebO6sdsfsTdMK933FBjs,7403
+oaas_sdk/util.py,sha256=3P74_zOZ-YkBGObfk4U1b3wKMi8JmFjti7ESy8pkzWE,5289
+oaas_sdk/ws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oaas_sdk/ws/client.py,sha256=C73PfTmefp4NqE0HJAYYTKuC0jkdpYtbM8N3xPCwpTg,6265
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_labelingTask.py,sha256=geP4JpgA9qTQSchksekgs8zoov7ezgcKHCCyxfC7jEU,701
+tests/test_roundtrip.py,sha256=2oIedbVwtLTGNf0uivnSY5mYa3fDYKnSeWjsV3v2EPU,1062
+tests/behave/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oaas_sdk-1.0.0b4.dist-info/METADATA,sha256=enBfcfG0yyrRp5k_4FWnwGqv9g0idHw4CRvpIVIO9QY,815
+oaas_sdk-1.0.0b4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+oaas_sdk-1.0.0b4.dist-info/top_level.txt,sha256=YM5sJEGu0BMTElil1uGgnPxHhFpDh9FW6RLNX9ZZGYI,15
+oaas_sdk-1.0.0b4.dist-info/RECORD,,
