@@ -1,0 +1,9 @@
+README.md
+setup.py
+freq_e/__init__.py
+freq_e/ecdf.py
+freq_e/estimate.py
+freq_e.egg-info/PKG-INFO
+freq_e.egg-info/SOURCES.txt
+freq_e.egg-info/dependency_links.txt
+freq_e.egg-info/top_level.txt
