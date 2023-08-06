@@ -1,0 +1,13 @@
+nwbwidgets/__init__.py,sha256=Bk2BSuzGZd0ZXJhKEYEKqrG8aC2AjMrkO6oDRjhWQQ0,29
+nwbwidgets/base.py,sha256=gJfvUThCkq85izP-3ET01737mx5B2yb07MR0UC_dToY,1962
+nwbwidgets/behavior.py,sha256=8_KF0gA3vob3qqULLZmb1YAN7mo0UQqh72B9C1NXze8,1542
+nwbwidgets/ecephys.py,sha256=L2jVDPxx8_o6f-QKiJ5eS5ROZD6SnQVnZp1bBaMgJ_Q,2764
+nwbwidgets/image.py,sha256=po_nlq5EWGSWkMxyMcv4YzenYAE-okXH_nzuDr6IVA0,1578
+nwbwidgets/misc.py,sha256=KE2Otr8sPhw98U21bi4XcX4IgqARGl34idHsxdU0BWs,473
+nwbwidgets/ophys.py,sha256=lBd0R7gtnBxJFyt_eGz1FL_D8W3woRnv0FRHWnc7z-4,2491
+nwbwidgets/view.py,sha256=qdRxReUvyK6eI7R0jxFl63VAJqE8Sa4ST4JDgqeRDfc,3966
+nwbwidgets-0.0.1.dist-info/LICENSE.txt,sha256=f-XNuBfpNUrBJ3hCfBqYE-GZ1Is9VjaQKEkJGU9SgBs,2423
+nwbwidgets-0.0.1.dist-info/METADATA,sha256=-FUGq05TwyIib1sK_I0RB93__CBoupgOMRXr3rSCA94,1824
+nwbwidgets-0.0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+nwbwidgets-0.0.1.dist-info/top_level.txt,sha256=Ig7Af5AVdflyCWxLOYmFmnz-WIMi0DPHdfYXv8y7jSY,11
+nwbwidgets-0.0.1.dist-info/RECORD,,
