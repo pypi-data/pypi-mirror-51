@@ -1,0 +1,4 @@
+enum34<=1.0.4
+docopt==0.6.2
+xlsxwriter>=1.1.4,<=1.1.7
+psutil<=5.6.1
