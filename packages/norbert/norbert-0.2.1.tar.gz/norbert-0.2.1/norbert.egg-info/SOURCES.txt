@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+norbert/__init__.py
+norbert/contrib.py
+norbert/utils.py
+norbert.egg-info/PKG-INFO
+norbert.egg-info/SOURCES.txt
+norbert.egg-info/dependency_links.txt
+norbert.egg-info/requires.txt
+norbert.egg-info/top_level.txt

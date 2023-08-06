@@ -1,0 +1,14 @@
+scipy
+
+[dev]
+check-manifest
+
+[docs]
+sphinx
+sphinx_rtd_theme
+recommonmark
+numpydoc
+
+[tests]
+pytest
+pytest-pep8
