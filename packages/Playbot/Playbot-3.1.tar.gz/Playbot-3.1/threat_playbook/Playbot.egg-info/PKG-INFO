@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Playbot
+Version: 3.1
+Summary: ThreatPlaybook Robot Framework Library
+Home-page: https://we45.github.io/threatplaybook/
+Author: we45
+Author-email: info@we45.com
+License: MIT License
+Description: # RobotFramework for ThreatPlaybook
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
