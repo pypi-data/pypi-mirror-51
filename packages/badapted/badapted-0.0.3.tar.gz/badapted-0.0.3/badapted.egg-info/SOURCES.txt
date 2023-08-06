@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+badapted/__init__.py
+badapted/choice_functions.py
+badapted/designs.py
+badapted/inference.py
+badapted/model.py
+badapted/optimisation.py
+badapted/triplot.py
+badapted/utils.py
+badapted.egg-info/PKG-INFO
+badapted.egg-info/SOURCES.txt
+badapted.egg-info/dependency_links.txt
+badapted.egg-info/requires.txt
+badapted.egg-info/top_level.txt
