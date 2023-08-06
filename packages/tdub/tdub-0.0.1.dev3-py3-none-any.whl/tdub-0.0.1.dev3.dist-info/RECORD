@@ -1,0 +1,11 @@
+tdub/__init__.py,sha256=BLLWnrvv4EiQi-aI5Ada9qgIsGNrKzEcTLfZyKLKJUA,54
+tdub/_app.py,sha256=-JPM-997qplhWr5J8mxht40F5VuKG80PFErOl6bpvAQ,2292
+tdub/frames.py,sha256=Ly8K_MK2Q44ze_5krQIYKAKBvq5oYQ-Yu4jVEnJJzyY,8524
+tdub/regions.py,sha256=ACtf67fFSBR8TpXjZPqDAi0rxRbTJ23GVRCtaMC5UCU,1717
+tdub/utils.py,sha256=ntxArAwQdXHXaRiKv9hRX0r7bbUK7widzZcUAtqCoGM,725
+tdub-0.0.1.dev3.dist-info/LICENSE,sha256=VBEtZbuNT6EHwsOwJn0cxCZp2uX-ibTA85p1s6GodeA,1518
+tdub-0.0.1.dev3.dist-info/METADATA,sha256=UdzI70n6h64I9L0gd0AjwpJjx7hoRX0rPw54FwdSrKM,1388
+tdub-0.0.1.dev3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tdub-0.0.1.dev3.dist-info/entry_points.txt,sha256=e9qiIYohV58p4kaqKMGbrM3zYPJ-hfhH2jQB3R_csdQ,40
+tdub-0.0.1.dev3.dist-info/top_level.txt,sha256=-N43Imx-kPq7FrrzZj2BalQ9wFxvO7Ijjf8LaHaxU2w,5
+tdub-0.0.1.dev3.dist-info/RECORD,,
