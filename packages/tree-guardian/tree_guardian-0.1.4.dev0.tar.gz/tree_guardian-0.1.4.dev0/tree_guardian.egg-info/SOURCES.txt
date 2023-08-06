@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tree_guardian/__init__.py
+tree_guardian/constants.py
+tree_guardian/handle.py
+tree_guardian/hash_observer.py
+tree_guardian/utils.py
+tree_guardian.egg-info/PKG-INFO
+tree_guardian.egg-info/SOURCES.txt
+tree_guardian.egg-info/dependency_links.txt
+tree_guardian.egg-info/top_level.txt
