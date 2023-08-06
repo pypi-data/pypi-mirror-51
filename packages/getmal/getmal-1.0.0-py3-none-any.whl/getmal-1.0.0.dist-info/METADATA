@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: getmal
+Version: 1.0.0
+Summary: Returns the data of a particular anime list and status in JSON
+Home-page: https://github.com/valsaven/getmal
+Author: Val Saven
+Author-email: val.saven@gmail.com
+License: UNKNOWN
+Keywords: myanimelist anime MAL json export
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+
+# Get MyAnimeList! `(*В°в–ЅВ°*)`
+Returns the data of a particular anime list and status in JSON.
+
+### Install
+`pip install getmal`
+
+### Status codes:
+```
+7: All Anime
+1: Currently Watching
+2: Completed
+3: On Hold
+4: Dropped
+6: Plan to Watch
+```
+
+### Examples
+```bash
+# Get valsaven's dropped anime
+getmal valsaven 4
+
+# Get valsaven's all anime and export it to valsaven.json
+getmal valsaven 7 -o valsaven.json
+```
+
+
+### Build
+```bash
+python setup.py sdist bdist_wheel
+```
+
+
