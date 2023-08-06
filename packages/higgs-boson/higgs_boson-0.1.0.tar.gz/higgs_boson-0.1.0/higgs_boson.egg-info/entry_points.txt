@@ -1,0 +1,3 @@
+[console_scripts]
+higgs-boson = higgs_boson:main
+
