@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+AzurePyProxy.egg-info/PKG-INFO
+AzurePyProxy.egg-info/SOURCES.txt
+AzurePyProxy.egg-info/dependency_links.txt
+AzurePyProxy.egg-info/top_level.txt
+azure_pyproxy/__init__.py
