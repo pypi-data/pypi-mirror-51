@@ -1,0 +1,15 @@
+fspath
+tinycss2
+requests
+
+[dev]
+jedi
+Sphinx
+sphinx_rtd_theme
+sphinx-autobuild
+sphinxcontrib-programoutput
+pip
+twine
+
+[test]
+pylint
