@@ -1,0 +1,61 @@
+{% extends "bee_django_wiki/base.html" %}
+{% load bootstrap3 %}
+{% block content %}
+    {% include 'bee_django_wiki/logo.html' %}
+    {% include 'bee_django_wiki/nav.html' %}
+    <div style="margin: 20px;">
+        <form method="post">
+            {% csrf_token %}
+
+            {% bootstrap_form form %}
+            {% bootstrap_button '提交' %}
+        </form>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var E = window.wangEditor;
+            var editor = new E('id_detail');
+            editor.config.menus = [
+                'source',
+                '|',
+                'bold',
+                'underline',
+                'italic',
+                'strikethrough',
+                'eraser',
+                'forecolor',
+                'bgcolor',
+                '|',
+                'quote',
+                'fontfamily',
+                'fontsize',
+                'head',
+                'unorderlist',
+                'orderlist',
+                'alignleft',
+                'aligncenter',
+                'alignright',
+                '|',
+                'link',
+                'unlink',
+                'table',
+                'emotion',
+                '|',
+                'img',
+                'video',
+                'location',
+                'insertcode',
+            ];
+
+            editor.config.uploadImgFileName = 'image';
+            editor.config.uploadImgUrl = "{% url 'bee_django_wiki:upload_image' %}";
+            editor.create();
+
+            window.editor = editor;
+        });
+    </script>
+{% endblock %}

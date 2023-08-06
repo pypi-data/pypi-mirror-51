@@ -1,0 +1,63 @@
+{% extends "bee_django_wiki/base.html" %}
+{% block styles %}
+    <style>
+        .topic_title {
+            color: #1b5b8b;
+        }
+
+        .date {
+            color: #9d9d9d;
+
+        }
+
+        .detail {
+            margin: 10px 0;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    {% include 'bee_django_wiki/logo.html' %}
+    {% include 'bee_django_wiki/nav.html' %}
+    <div style="margin: 10px 0;">
+        <a href="{% url 'bee_django_wiki:topic_list' %}">全部</a> |
+        {% for classify in classify_list %}
+            <a href="{% url 'bee_django_wiki:topic_list' %}?classify_id={{ classify.id }}">{{ classify.name }}</a>
+            {% if not forloop.last %} | {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="text-center"><h4>主题</h4></div>
+    {% if perms.bee_django_wiki.add_topic %}
+        <div class="text-right">
+            <a href="{% url 'bee_django_wiki:topic_add' %}" class="btn btn-default">添加主题</a>
+        </div>
+    {% endif %}
+    {% include 'bee_django_wiki/topic/search.html' %}
+    {% for topic in topic_list %}
+        <div>
+            <div class="topic_title"><h4><a
+                    href="{% url 'bee_django_wiki:topic_detail' topic.id %}">{{ topic.title }}</a></h4></div>
+        </div>
+        {% if topic.tag %}
+            <div class="date">{{ topic.tag|default:"无" }}</div>
+        {% endif %}
+        <div class="detail">{{ topic.detail|striptags|safe|slice:"140"}}</div>
+        <div class="date">最后更新：{{ topic.updated_at|date:"Y-m-d H:i:s" }}</div>
+        <hr>
+    {% endfor %}
+    {% include 'bee_django_wiki/paginator.html' %}
+{% endblock %}
+{% block scripts %}
+    <script>
+        function click_del(_this) {
+            if (!confirm('确认要执行这个操作？')) {
+                return false;
+            }
+            var url = $(_this).attr('data-confirm');
+            $.post(url).done(function (data) {
+                alert('删除成功!');
+                location.reload();
+            });
+        }
+    </script>
+{% endblock %}

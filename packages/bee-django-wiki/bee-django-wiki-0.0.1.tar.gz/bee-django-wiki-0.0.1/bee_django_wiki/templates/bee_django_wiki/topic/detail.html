@@ -1,0 +1,72 @@
+{% extends "bee_django_wiki/base.html" %}
+{% block styles %}
+    <style>
+        .topic_title {
+            color: #1b5b8b;
+        }
+
+        .date {
+            color: #9d9d9d;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    {% include 'bee_django_wiki/logo.html' %}
+    {% include 'bee_django_wiki/nav.html' %}
+    {#    <div style="margin: 10px 0;">#}
+    {#        <a href="{% url 'bee_django_wiki:topic_list' %}">主题</a> -> {{ topic.classify }}#}
+    {#    </div>#}
+    <div style="margin: 10px 0;">
+        <a href="{% url 'bee_django_wiki:topic_list' %}">全部</a> |
+        {% for classify in classify_list %}
+            <a href="{% url 'bee_django_wiki:topic_list' %}?classify_id={{ classify.id }}">{{ classify.name }}</a>
+            {% if not forloop.last %} | {% endif %}
+        {% endfor %}
+    </div>
+    {% if topic %}
+        <div class="text-right" style="margin: 10px 0;">
+            {% if perms.bee_django_wiki.change_topic %}
+                <a href="{% url 'bee_django_wiki:topic_update' topic.id %}" class="btn btn-default">编辑</a>
+            {% endif %}
+            {% if perms.bee_django_wiki.delete_topic %}
+                <a href="#" id="delete_{{ user.id }}"
+                   data-confirm="{% url "bee_django_wiki:topic_delete" topic.id %}"
+                   onclick="click_del(this)" class="btn btn-danger">删除</a>
+            {% endif %}
+        </div>
+        <div class="text-center">
+            <h4>{{ topic.title }}</h4>
+        </div>
+
+        <div>
+            <div class="date">发布时间：{{ topic.created_at|date:"Y-m-d H:i:s" }}
+                最后更新：{{ topic.updated_at|date:"Y-m-d H:i:s" }}</div>
+            <div class="date">标签：{{ topic.tag|default:"无" }}</div>
+            {% if perms.bee_django_wiki.change_topic %}
+                <div class="date">
+                    可观看用户组：{% for group in topic.view_group.all %} {{ group.name }} {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+
+        <div style="margin: 20px 0;">
+            {{ topic.detail | safe }}
+        </div>
+    {% else %}
+        <div><h4>出错啦，请返回重试</h4></div>
+    {% endif %}
+{% endblock %}
+{% block scripts %}
+    <script>
+        function click_del(_this) {
+            if (!confirm('确认要执行这个操作？')) {
+                return false;
+            }
+            var url = $(_this).attr('data-confirm');
+            $.post(url).done(function (data) {
+                alert('删除成功!');
+                location.reload();
+            });
+        }
+    </script>
+{% endblock %}

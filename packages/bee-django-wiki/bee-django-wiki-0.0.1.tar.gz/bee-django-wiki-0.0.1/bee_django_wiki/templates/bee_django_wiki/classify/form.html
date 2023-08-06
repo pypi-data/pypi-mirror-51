@@ -1,0 +1,19 @@
+{% extends "bee_django_wiki/base.html" %}
+{% load bootstrap3 %}
+{% block content %}
+    {% include 'bee_django_wiki/logo.html' %}
+    {% include 'bee_django_wiki/nav.html' %}
+    <div style="margin: 20px;">
+        <form method="post">
+            {% csrf_token %}
+
+            {% bootstrap_form form %}
+            {% bootstrap_button '提交' %}
+        </form>
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+
+{% endblock %}
