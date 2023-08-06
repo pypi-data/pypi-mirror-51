@@ -1,0 +1,17 @@
+djangoldp_uploader/__init__.py,sha256=eWxDdZjb-6cDiuACjIFKlLE5CVt-MfcY1cp8Vy1t8fU,50
+djangoldp_uploader/apps.py,sha256=tsy7IeumNZUV636KQTFCyKpXf03fnB31CYGunA4CT6U,110
+djangoldp_uploader/djangoldp_urls.py,sha256=0poEnGfbotmS3PAoMIjpWQZhpF-Dw5JXIPcDk-fdwG0,785
+djangoldp_uploader/forms.py,sha256=Gk7R6zPVT89jbLBay6Ysi7MatgMvu8fdajVyB1h36ZQ,200
+djangoldp_uploader/models.py,sha256=vYJH7NisHAqz0ItHTuj7s3JyCmvxVJhfJ7YI1nzBBoU,266
+djangoldp_uploader/views.py,sha256=G7siB18-17pUsHTXqqZVWYtyFX-zNGLItbvpytPb2Ik,2145
+djangoldp_uploader/migrations/0001_initial.py,sha256=nvM1ZulFIF7U4ifPFUBlwrbDqkyJAfNOaJaOZ_8jweQ,875
+djangoldp_uploader/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoldp_uploader/templates/demo_sib.html,sha256=NSQcqN7_HJptNLZJlwLU52uL3BX8sKikg1H5KCX6GXo,658
+djangoldp_uploader/templates/home.html,sha256=s9VhNqLFrP430Hp9YsuPC_soIdvIgMmqhgVEs8L0TwA,646
+djangoldp_uploader/templates/model_form_upload.html,sha256=5DnEOhx0PFFmQmw4auD8bXoIqFfM5HI78rx1zC25ckg,282
+djangoldp_uploader/templates/sib_base.html,sha256=ZbWcGFSb7-cRlrg4WBpM7y_Su3mV_hIJO-uTibXI7EY,434
+djangoldp_uploader/templates/simple_upload.html,sha256=yxeOMNRMl-dxmoJycOYjCcDv57I1d0VAGSCAFanQON8,462
+djangoldp_uploader-0.0.5.dist-info/METADATA,sha256=HDFpad66Zpjgonltk5b1KlUMqxov5p86QPPPgFXaDac,412
+djangoldp_uploader-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+djangoldp_uploader-0.0.5.dist-info/top_level.txt,sha256=dmc-XlfZeCKF7eYs_u-5uMz71IUs0_dgveVPvHfvaUk,19
+djangoldp_uploader-0.0.5.dist-info/RECORD,,
