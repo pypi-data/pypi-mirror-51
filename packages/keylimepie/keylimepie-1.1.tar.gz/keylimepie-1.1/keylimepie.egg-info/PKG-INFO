@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: keylimepie
+Version: 1.1
+Summary: Python tools to run and analyse LIME models
+Home-page: https://gitlab.com/SmirnGreg/limepy/tree/python3
+Author: Richard Teague, Grigorii V. Smirnov-Pinchukov
+Author-email: smirnov@mpia.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
