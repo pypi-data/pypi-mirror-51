@@ -1,0 +1,6 @@
+pycloudsqlproxy/__init__.py,sha256=2Bylr5NNaXR6FIflQ94R8i-8p_BnAQdiKCvrt6z3D4E,885
+pycloudsqlproxy/cloud_sql_proxy,sha256=bOWXc16U6jUleAfawz8OB7pbaNUrPDNgtiim-r7R0bA,13068633
+pycloudsqlproxy-0.0.7.dist-info/METADATA,sha256=h5S4JyWEBMiczweGsltoFN06Zm-zwLaWmpyelAczozQ,264
+pycloudsqlproxy-0.0.7.dist-info/RECORD,,
+pycloudsqlproxy-0.0.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pycloudsqlproxy-0.0.7.dist-info/top_level.txt,sha256=dvEZJ0LcC4jXRUEhmjFxSC65DkjG9QjmUdbtq29aO88,16
