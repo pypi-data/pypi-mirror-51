@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: MyLiboajam2
+Version: v0.1
+Summary: TYPE YOUR DESCRIPTION HERE
+Home-page: https://github.com
+Author: OAjam
+Author-email: your.email@domain.com
+License: MIT
+Download-URL: https://github.com/oajamm/Trial/archive/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
