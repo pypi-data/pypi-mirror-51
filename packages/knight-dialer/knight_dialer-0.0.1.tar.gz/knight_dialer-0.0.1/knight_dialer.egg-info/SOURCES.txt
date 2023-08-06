@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+knight_dialer/__init__.py
+knight_dialer/main.py
+knight_dialer/version.py
+knight_dialer.egg-info/PKG-INFO
+knight_dialer.egg-info/SOURCES.txt
+knight_dialer.egg-info/dependency_links.txt
+knight_dialer.egg-info/top_level.txt
