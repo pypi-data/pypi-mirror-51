@@ -1,0 +1,3 @@
+[console_scripts]
+delta-of-delta-demo = delta_of_delta.delta_of_delta:main
+
