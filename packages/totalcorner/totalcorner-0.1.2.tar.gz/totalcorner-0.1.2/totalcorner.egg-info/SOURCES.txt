@@ -1,0 +1,10 @@
+README.md
+setup.py
+totalcorner/__init__.py
+totalcorner/client.py
+totalcorner/exceptions.py
+totalcorner.egg-info/PKG-INFO
+totalcorner.egg-info/SOURCES.txt
+totalcorner.egg-info/dependency_links.txt
+totalcorner.egg-info/requires.txt
+totalcorner.egg-info/top_level.txt
