@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: egproject
+Version: 0.0.14
+Summary: A Python package to print
+Home-page: UNKNOWN
+Author: ANOOP SINGH RANA
+Author-email: apours986@gmail.com
+License: MIT
+Description: 
+        ``datesheetmgmt`` will make the complete Matrix,Seating Plan,Attendance Sheets,DutyChart for a given examination. 
+        
+        Installation
+        ------------
+        
+        You can install this using ``pip install datesheetmgmt``
+        
+        Modules Required
+        ------------------------
+        
+        .. code:: python
+        
+            from tqdm import tqdm
+            for i in tqdm(range(10000)):
+                ...
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
