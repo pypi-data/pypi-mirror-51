@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+xpath_validator/__init__.py
+xpath_validator/xp_parse.py
+xpath_validator/xp_tokenize.py
+xpath_validator.egg-info/PKG-INFO
+xpath_validator.egg-info/SOURCES.txt
+xpath_validator.egg-info/dependency_links.txt
+xpath_validator.egg-info/top_level.txt
