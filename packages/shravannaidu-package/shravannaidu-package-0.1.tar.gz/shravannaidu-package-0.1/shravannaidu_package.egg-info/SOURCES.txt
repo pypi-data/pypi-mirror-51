@@ -1,0 +1,5 @@
+setup.py
+shravannaidu_package.egg-info/PKG-INFO
+shravannaidu_package.egg-info/SOURCES.txt
+shravannaidu_package.egg-info/dependency_links.txt
+shravannaidu_package.egg-info/top_level.txt
