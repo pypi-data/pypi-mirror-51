@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: myapp-DJM
+Version: 0.1
+Summary: A Docker and AWS utility package
+Home-page: https://https://github.com/dibya99/PIPPING.git
+Author: DJM
+Author-email: pupul.dj@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# PIPPING
+
+
