@@ -1,0 +1,5 @@
+setup.py
+ChineseWordPiece.egg-info/PKG-INFO
+ChineseWordPiece.egg-info/SOURCES.txt
+ChineseWordPiece.egg-info/dependency_links.txt
+ChineseWordPiece.egg-info/top_level.txt
