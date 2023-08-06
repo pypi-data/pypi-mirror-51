@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: user-manager
+Version: 2.0
+Summary: Minimal user manager interface
+Home-page: https://github.com/maxpowel/user_manager
+Author: Alvaro Garcia Gomez
+Author-email: maxpowel@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/maxpowel/user_manager/archive/master.zip
+Keywords: user,manager
+Platform: UNKNOWN
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Classifier: Topic :: Utilities
+
+UNKNOWN
+
+
