@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+firstry/__init__.py
+firstry/_main.py
+firstry.egg-info/PKG-INFO
+firstry.egg-info/SOURCES.txt
+firstry.egg-info/dependency_links.txt
+firstry.egg-info/entry_points.txt
+firstry.egg-info/top_level.txt
