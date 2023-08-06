@@ -1,0 +1,15 @@
+v0.1,01/24/2019 -- Initial release.
+v0.11,01/30/2019 -- Added flags --chroms_to_keep, --chroms_to_exclude --store_positives_only. Indices stored as strings rather than tuples for more standard bed format output.
+v0.111,01/31/2019 -- default value of False used for flag --store_positives_only when genomewide_labels is called from python script rather than command line script. changed name of module name of genomewide_labels to seqdataloader to avoid user confusion when importing the code 
+v0.113,02/01/2019 --Updated how CHROM , START, END are stored in data frame to avoid problems with quoting in the output bed files. (v.112 is skipped due to problem uploading to pypi)
+v0.114,02/01/2019 --removed redundant code pass for storing positives only
+v0.115,02/01/2019 -- handled an edge case discovered by Soumya 
+v0.116,02/07/2019 -- more robus saving of data frames to output hdf5 format
+v0.117,02/17/2019 -- added minimum required versions for all dependency packages in setup.py
+v0.118,02/17/2019 -- format=table for saving to hdf5 changed as optional,non-default
+v0.120,02/26/2019 -- functionality to add a bed file with ambiguous regions for each task. saving as format=table in hdf5 is still optional, but now set to default, as it is desired in most cases
+v0.121,02/27/2019 -- ambiguous peaks labeled w/ np.nan
+v0.122,02/28/2019 -- write each chromosome to output file individually to reduce ram usage
+v0.123,03/02/2019 -- ambig_bed default
+[missing documentation]
+v0.127,09/05/2019 -- (Av Shrikumar) added functionality to be able to load batches from a downsampled negative set, retrieve labels via a lookup table, Coordinate object is now a namedtuple rather than a full object.
