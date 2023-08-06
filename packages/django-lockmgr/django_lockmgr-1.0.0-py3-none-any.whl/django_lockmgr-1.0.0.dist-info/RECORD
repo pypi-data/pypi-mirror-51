@@ -1,0 +1,12 @@
+lockmgr/__init__.py,sha256=a1yGQa4oz9RT4ivZxYetWfEmFe_ekvmU6JfWy-_UhCs,2340
+lockmgr/apps.py,sha256=3NxnVpWnrXnatBr3JtTYroOdjJQBaZDWhv0ACdaz1cY,90
+lockmgr/lockmgr.py,sha256=_pOh0ybW90DST8Sct_MTH-rK_6CaL1xhay_wD0KPVDQ,8049
+lockmgr/models.py,sha256=dUYsuaXU-1Oh8biiwTqu0o3CEQicQ0EtPfK6URxR9gQ,1300
+lockmgr/settings.py,sha256=1cEOrESgOLx8VriIQZe3qGpxib2AUrpE9r4Qcvrckog,1028
+lockmgr/migrations/0001_initial.py,sha256=8b-dzJfYO3HDeHJSCkhDgnaHA9u9H-SWbcUPznDaSqo,977
+lockmgr/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_lockmgr-1.0.0.dist-info/LICENSE,sha256=0ucFKhWd1MZgPExF19i3zxj83ngwRelZrK69KZtfbFg,2099
+django_lockmgr-1.0.0.dist-info/METADATA,sha256=Dr7HrNVyhBQrEK2qHBsH3XMIesFVVRiAKRwntnIKEJY,3495
+django_lockmgr-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+django_lockmgr-1.0.0.dist-info/top_level.txt,sha256=DZPgt262vFBvzsZ0EIfvAVvt7MMDEkYyxtx7_vX05X8,8
+django_lockmgr-1.0.0.dist-info/RECORD,,
