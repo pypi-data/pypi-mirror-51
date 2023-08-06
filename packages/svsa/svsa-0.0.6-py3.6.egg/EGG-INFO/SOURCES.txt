@@ -1,0 +1,13 @@
+README.md
+setup.py
+svsa/__init__.py
+svsa/crbs6.py
+svsa/crbs7.py
+svsa/gen_spectra.py
+svsa/support_vector_spectrum.py
+svsa.egg-info/PKG-INFO
+svsa.egg-info/SOURCES.txt
+svsa.egg-info/dependency_links.txt
+svsa.egg-info/requires.txt
+svsa.egg-info/top_level.txt
+svsa.egg-info/zip-safe

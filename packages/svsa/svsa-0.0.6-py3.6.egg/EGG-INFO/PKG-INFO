@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: svsa
+Version: 0.0.6
+Summary: Fast approximations of scattering spectra with SVR.
+Home-page: https://gjhunt.github.io/svsa/
+Author: Gregory J. Hunt
+Author-email: ghunt@wm.edu
+License: GPL3
+Description: # svsa
+        Support Vector Spectrum Approximator
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
