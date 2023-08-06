@@ -1,0 +1,6 @@
+pycryptodome
+pytz
+PyYAML
+requests
+future
+requests-oauthlib
