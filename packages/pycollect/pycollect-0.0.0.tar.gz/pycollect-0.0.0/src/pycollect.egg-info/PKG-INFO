@@ -1,0 +1,65 @@
+Metadata-Version: 1.2
+Name: pycollect
+Version: 0.0.0
+Summary: Utility library for collection valid Python files recursively
+Home-page: https://github.com/allrod5/pycollect
+Author: Rodrigo Martins de Oliveira
+Author-email: allrod5@hotmail.com
+License: MIT license
+Project-URL: Documentation, https://allrod5.github.io/pycollect/
+Project-URL: Changelog, https://allrod5.github.io/pycollect/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/allrod5/pycollect/issues
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        Utility library for collection valid Python files recursively
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install pycollect
+        
+        Documentation
+        =============
+        
+        
+        https://allrod5.github.io/pycollect/
+        
+        
+        Development
+        ===========
+        
+        To run the all tests run::
+        
+            make tests
+        
+        
+        Changelog
+        =========
+        
+        0.0.0 (2019-08-31)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
