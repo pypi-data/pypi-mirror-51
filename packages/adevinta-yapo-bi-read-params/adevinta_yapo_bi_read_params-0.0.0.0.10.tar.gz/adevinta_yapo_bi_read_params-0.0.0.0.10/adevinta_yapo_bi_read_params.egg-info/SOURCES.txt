@@ -1,0 +1,8 @@
+README.md
+setup.py
+adevinta_yapo_bi_read_params/adevinta_yapo_bi_read_params.py
+adevinta_yapo_bi_read_params.egg-info/PKG-INFO
+adevinta_yapo_bi_read_params.egg-info/SOURCES.txt
+adevinta_yapo_bi_read_params.egg-info/dependency_links.txt
+adevinta_yapo_bi_read_params.egg-info/not-zip-safe
+adevinta_yapo_bi_read_params.egg-info/top_level.txt
