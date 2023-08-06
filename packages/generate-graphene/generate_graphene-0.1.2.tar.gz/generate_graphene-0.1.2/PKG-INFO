@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: generate_graphene
+Version: 0.1.2
+Summary: Generate Django-Graphene (graphql) queries and mutations for your Django models 
+Home-page: http://github.com/joeydebreuk/generate_graphene
+Author: Joey van Breukelen
+Author-email: jabreukelen@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
