@@ -1,0 +1,9 @@
+README.md
+setup.py
+login/__init__.py
+login/login.py
+wwidget.egg-info/PKG-INFO
+wwidget.egg-info/SOURCES.txt
+wwidget.egg-info/dependency_links.txt
+wwidget.egg-info/top_level.txt
+wwidget_pkg/__init__.py
