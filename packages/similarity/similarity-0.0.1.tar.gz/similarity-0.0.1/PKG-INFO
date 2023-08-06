@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: similarity
+Version: 0.0.1
+Summary: Python library for measuring string similarity
+Home-page: https://github.com/idin/similarity
+Author: Idin
+Author-email: py@idin.ca
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.6
