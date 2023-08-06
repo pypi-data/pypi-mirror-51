@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: naidushravan
+Version: 1.0.0
+Summary: Read the latest Real Python tutorials
+Home-page: UNKNOWN
+Author: Shravan Naidu
+Author-email: shravan.jnaidu@yahoo.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: feedparser
+Requires-Dist: html2text
+
+Read the latest Real Python tutorials
+
+
