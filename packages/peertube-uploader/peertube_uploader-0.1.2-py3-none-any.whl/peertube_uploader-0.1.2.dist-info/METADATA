@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: peertube-uploader
+Version: 0.1.2
+Summary: A script to make uploading to peertube instances easier.
+Home-page: https://gitlab.com/NamingThingsIsHard/media_tools/peertube-uploader
+Author: LoveIsGrief
+Author-email: loveisgrief@tuta.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/NamingThingsIsHard/media_tools/peertube-uploader/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: cliff
+
+# PeerTube Uploader
+
+A script to make uploading to peertube instances easier.
+
+For documentation on the API used see 
+https://docs.joinpeertube.org/api-rest-reference.html
+
+## Installation
+
+    pip install peertube-uploader
+
+## Development
+
+    pip install -r requirements.txt
+
+## Usage
+
+One installed you can run the `ptu` command.
+
+````
+$ ptu 
+usage: main.py [--version] [-v | -q] [--log-file LOG_FILE] [-h] [--debug]
+               [-u USERNAME] [-p PASSWORD] [-e ENDPOINT] [-c CLIENT_ID]
+               [-s CLIENT_SECRET] [-t ACCESS_TOKEN]
+
+A script to make uploading to peertube instances easier. For documentation on
+the API used see https://docs.joinpeertube.org/api-rest-reference.html
+
+optional arguments:
+  --version             show program's version number and exit
+  -v, --verbose         Increase verbosity of output. Can be repeated.
+  -q, --quiet           Suppress output except warnings and errors.
+  --log-file LOG_FILE   Specify a file to log output. Disabled by default.
+  -h, --help            Show help message and exit.
+  --debug               Show tracebacks on errors.
+  -u USERNAME, --username USERNAME
+                        Username (alternatively use PEERTUBE_USERNAME env var)
+  -p PASSWORD, --password PASSWORD
+                        Password (alternatively use PEERTUBE_PASSWORD env var)
+  -e ENDPOINT, --endpoint ENDPOINT
+                        URL to a server e.g https://peertube.cpy.re/
+                        (alternatively use PEERTUBE_ENDPOINT env var)
+  -c CLIENT_ID, --client_id CLIENT_ID
+                        Client ID to use. Can also be generated or be defined
+                        in env var PEERTUBE_CLIENT_ID
+  -s CLIENT_SECRET, --client_secret CLIENT_SECRET
+                        Client secret to use. Can also be generated or be
+                        defined in env var PEERTUBE_CLIENT_SECRET
+  -t ACCESS_TOKEN, --access_token ACCESS_TOKEN
+                        Access token to use. Can also be generated or be
+                        defined in env var PEERTUBE_ACCESS_TOKEN
+
+Commands:
+  complete       print bash completion command (cliff)
+  help           print detailed help for another command (cliff)
+  import         Trigger an import of a URI (peertube-uploader)
+  upload-video   Upload videos from the file-system (peertube-uploader)
+````
+
+## Thanks
+
+Thanks to all the [contributors](https://gitlab.com/NamingThingsIsHard/media_tools/peertube-uploader/-/graphs/master).
+
+
