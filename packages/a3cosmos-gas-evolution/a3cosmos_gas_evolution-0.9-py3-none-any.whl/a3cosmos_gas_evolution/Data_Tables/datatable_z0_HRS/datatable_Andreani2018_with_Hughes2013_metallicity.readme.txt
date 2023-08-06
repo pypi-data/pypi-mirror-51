@@ -1,0 +1,34 @@
+'Andreani,2018A&A...617A..33A,SF.csv' is copied from
+'/Users/dzliu/Cloud/GitLab/CODatabase/Data/Processing/Andreani,2018A&A...617A..33A,SF.csv'
+which is taken from
+Andreani et al. 2018 online data: http://cdsarc.u-strasbg.fr/viz-bin/cat/J/A+A/617/A33
+and reformatted by dzliu.
+
+
+'datatable_Hughes2013.txt' is taken from 
+Hughes et al. 2013 online data: http://cdsarc.u-strasbg.fr/viz-bin/cat/J/A+A/550/A115
+and reformatted by dzliu.
+
+
+
+then cross-matching 
+'Andreani,2018A&A...617A..33A,SF.csv'
+to 
+'datatable_Hughes2013.txt'
+by exact 
+'Source' column in 'Andreani,2018A&A...617A..33A,SF.csv'
+and 
+'ID' column in 'datatable_Hughes2013.txt'
+for best match for each table 1 row
+and join 1 and 2
+we got 169 matches
+
+then set
+'Metallicity' column = 'METALZ' column
+'Metallicity_Err' column = 'E_METALZ' column
+'Metallicity_Ref' column = "Hughes,2013A&A...550A.115H"
+
+then output as
+'datatable_Andreani2018_with_Hughes2013_metallicity.fits'
+
+

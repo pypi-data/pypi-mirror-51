@@ -1,0 +1,4 @@
+Kroupa2001 IMF. Mstar_Chab = Mstar_Kroupa / 1.06 (Mannucci2010). 
+
+The metallicities are measured with R23 = (OII + OIII) / Hbeta, as outlined by S. Charlot et al. (2004, in preparation).
+

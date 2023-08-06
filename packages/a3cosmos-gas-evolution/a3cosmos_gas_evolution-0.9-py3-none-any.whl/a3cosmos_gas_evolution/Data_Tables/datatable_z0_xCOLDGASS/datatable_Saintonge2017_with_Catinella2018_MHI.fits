@@ -1,0 +1,1776 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                82037 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.3"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.2-2 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2018-10-16T15:58:22
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="Joined" nrows="219">
+<PARAM arraysize="81" datatype="char" name="COMMENT" value="
+*** End of mandatory fields ***
+
+
+*** Column names ***
+
+
+*** Column formats ***
+">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="First input table" value="3: gass_RS_final.dat"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="4: PS_100927.fits"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="3: PS_100927.fits"/>
+<PARAM arraysize="11" datatype="char" name="Second input table" value="10: out.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="First input table" value="10: HI_160322.fits"/>
+<PARAM arraysize="11" datatype="char" name="Second input table" value="11: out.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="5: match(3,4)"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="1: HI_160622.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="6: match(5,1)"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="7: gass_RS_conf_flags.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(6,7)"/>
+<PARAM arraysize="22" datatype="char" name="Second input table" value="11: mk_GASS_sample.dat"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="38" datatype="char" name="First input table" value="2: GASS_RS_MASTER_extended_160804.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: PS_100927.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="3: concat(1+2)"/>
+<PARAM arraysize="5" datatype="char" name="Second input table" value="4: pp"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="1: xxGASS_SDSS_HI_MASTER_extended_160805.fits"/>
+<PARAM arraysize="10" datatype="char" name="Second input table" value="2: bla.txt"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="5: gal_info_dr7_v5_2.fit.gz"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="7: gal_totsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(5,7)"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="1: gal_totspecsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="9: match(8,1)"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="4: gal_fibsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="10: match(9,4)"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="3: gal_fibspecsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="3: gal_sfr_dr7_v5_2_MASTER.fits"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="5: totlgm_dr7_v5_2.fit.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="4: gal_sfr_dr7_v5_2_MASTER.fits"/>
+<PARAM arraysize="23" datatype="char" name="Second input table" value="1: totlgm_dr7_v5_2b.fit"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="1: xxGASS_SDSS_HI_MASTER_extended_160805.fits"/>
+<PARAM arraysize="32" datatype="char" name="Second input table" value="6: gal_sfr_dr7_v5_2b_MASTER.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="6: xxGASS_SDSS_HI_MASTER_extended_160816.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="5: concat(3+4)"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="First input table" value="3: gass_RS_final.dat"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="4: PS_100927.fits"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="3: PS_100927.fits"/>
+<PARAM arraysize="11" datatype="char" name="Second input table" value="10: out.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="First input table" value="10: HI_160322.fits"/>
+<PARAM arraysize="11" datatype="char" name="Second input table" value="11: out.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="5: match(3,4)"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="1: HI_160622.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="6: match(5,1)"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="7: gass_RS_conf_flags.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(6,7)"/>
+<PARAM arraysize="22" datatype="char" name="Second input table" value="11: mk_GASS_sample.dat"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="38" datatype="char" name="First input table" value="2: GASS_RS_MASTER_extended_160804.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: PS_100927.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="3: concat(1+2)"/>
+<PARAM arraysize="5" datatype="char" name="Second input table" value="4: pp"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="1: xxGASS_SDSS_HI_MASTER_extended_160805.fits"/>
+<PARAM arraysize="10" datatype="char" name="Second input table" value="2: bla.txt"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="5: gal_info_dr7_v5_2.fit.gz"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="7: gal_totsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(5,7)"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="1: gal_totspecsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="9: match(8,1)"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="4: gal_fibsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="10: match(9,4)"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="3: gal_fibspecsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="3: gal_sfr_dr7_v5_2_MASTER.fits"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="5: totlgm_dr7_v5_2.fit.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="4: gal_sfr_dr7_v5_2_MASTER.fits"/>
+<PARAM arraysize="23" datatype="char" name="Second input table" value="1: totlgm_dr7_v5_2b.fit"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="1: xxGASS_SDSS_HI_MASTER_extended_160805.fits"/>
+<PARAM arraysize="32" datatype="char" name="Second input table" value="6: gal_sfr_dr7_v5_2b_MASTER.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="6: xxGASS_SDSS_HI_MASTER_extended_160816.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="5: concat(3+4)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="8: concat(7+1)"/>
+<PARAM arraysize="44" datatype="char" name="Second input table" value="9: SFR_master_extended_161214_xGASSonly.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="1: xxGASS_SDSS_HI_MASTER_extended_161214.fits"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="2: SFR_master_extended_161214.fits"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="20" datatype="char" name="First input table" value="3: gass_RS_final.dat"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="4: PS_100927.fits"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="3: PS_100927.fits"/>
+<PARAM arraysize="11" datatype="char" name="Second input table" value="10: out.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="18" datatype="char" name="First input table" value="10: HI_160322.fits"/>
+<PARAM arraysize="11" datatype="char" name="Second input table" value="11: out.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="5: match(3,4)"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="1: HI_160622.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="6: match(5,1)"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="7: gass_RS_conf_flags.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(6,7)"/>
+<PARAM arraysize="22" datatype="char" name="Second input table" value="11: mk_GASS_sample.dat"/>
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2009-08-28T15:21:50">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="STILVERS" value="2.6-6">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="topcat-activation" value="SDSS Colour Images($ra, $dec, 200)">
+<DESCRIPTION>Action which can be performed on row activation</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100330.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: fs_flags.ascii"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="4: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="3: concat(1+2)"/>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="17" datatype="char" name="First input table" value="1: PS_100701.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="4: concat(2+3)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="38" datatype="char" name="First input table" value="2: GASS_RS_MASTER_extended_160804.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="3: PS_100927.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="3: concat(1+2)"/>
+<PARAM arraysize="5" datatype="char" name="Second input table" value="4: pp"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="1: xxGASS_SDSS_HI_MASTER_extended_160805.fits"/>
+<PARAM arraysize="10" datatype="char" name="Second input table" value="2: bla.txt"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="5: gal_info_dr7_v5_2.fit.gz"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="7: gal_totsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="8: match(5,7)"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="1: gal_totspecsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="9: match(8,1)"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="4: gal_fibsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="Match type" value="Pair match, best matched pairs only">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="10: match(9,4)"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="3: gal_fibspecsfr_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="3: gal_sfr_dr7_v5_2_MASTER.fits"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="5: totlgm_dr7_v5_2.fit.gz"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="4: gal_sfr_dr7_v5_2_MASTER.fits"/>
+<PARAM arraysize="23" datatype="char" name="Second input table" value="1: totlgm_dr7_v5_2b.fit"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="1: xxGASS_SDSS_HI_MASTER_extended_160805.fits"/>
+<PARAM arraysize="32" datatype="char" name="Second input table" value="6: gal_sfr_dr7_v5_2b_MASTER.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="45" datatype="char" name="First input table" value="6: xxGASS_SDSS_HI_MASTER_extended_160816.fits"/>
+<PARAM arraysize="14" datatype="char" name="Second input table" value="5: concat(3+4)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="8: concat(7+1)"/>
+<PARAM arraysize="45" datatype="char" name="Second input table" value="11: ENV_master_extended_161214_xGASSonly.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="5: match(1,2)"/>
+<PARAM arraysize="34" datatype="char" name="Second input table" value="3: ENV_master_extended_161214.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="28" datatype="char" name="First input table" value="7: xxGASS_MASTER_161214.fits"/>
+<PARAM arraysize="19" datatype="char" name="Second input table" value="8: nuvr_weights.dat"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="28" datatype="char" name="First input table" value="2: xxGASS_MASTER_161214.fits"/>
+<PARAM arraysize="24" datatype="char" name="Second input table" value="1: xCOLDGASS_170407.fits"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="1: xxGASS_MASTER_CO_170407.fits"/>
+<PARAM arraysize="24" datatype="char" name="Second input table" value="2: xCOLDGASS_170620.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="1: xxGASS_MASTER_CO_170620.fits"/>
+<PARAM arraysize="13" datatype="char" name="Second input table" value="2: mustar.dat"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="109" datatype="char" name="Join Type" value="1 not 2 (An output row only for rows which appear in the first table but are not matched in the second table)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="34" datatype="char" name="First input table" value="24: xxgass_RS_revisedHImasses.fits"/>
+<PARAM arraysize="41" datatype="char" name="Second input table" value="29: xxgass_AA70_HIar_revisedHImasses.fits"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="71" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="31" datatype="char" name="First input table" value="1: xxGASS_MASTER_CO_170620.fits"/>
+<PARAM arraysize="17" datatype="char" name="Second input table" value="32: concat(31+29)"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="1: DR1_DR2_DR3_Table2.ascii"/>
+<PARAM arraysize="37" datatype="char" name="Second input table" value="2: xxGASS_MASTER_CO_170620_final.fits"/>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="24" datatype="char" name="First input table" value="7: xCOLDGASS_PubCat.fits"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="10: xGASS_detections.fits"/>
+<FIELD datatype="int" name="ID"/>
+<FIELD arraysize="19" datatype="char" name="SDSS_1"/>
+<FIELD datatype="long" name="OBJID"/>
+<FIELD datatype="long" name="SPECOBJID"/>
+<FIELD datatype="short" name="PLATEID"/>
+<FIELD datatype="int" name="MJD"/>
+<FIELD datatype="short" name="FIBERID"/>
+<FIELD datatype="double" name="RA"/>
+<FIELD datatype="double" name="DEC"/>
+<FIELD datatype="double" name="Z_SDSS"/>
+<FIELD datatype="float" name="LUMDIST"/>
+<FIELD datatype="float" name="INCL"/>
+<FIELD datatype="float" name="NUVR"/>
+<FIELD datatype="float" name="R50KPC"/>
+<FIELD datatype="float" name="LOGMSTAR"/>
+<FIELD datatype="float" name="LOGMUST"/>
+<FIELD datatype="float" name="CINDX"/>
+<FIELD datatype="float" name="WEIGHT"/>
+<FIELD datatype="float" name="LOGSFR_MPAJHU"/>
+<FIELD datatype="float" name="LOGSFR_SED"/>
+<FIELD datatype="float" name="LOGSFR_BEST"/>
+<FIELD datatype="float" name="LOGSFR_ERR"/>
+<FIELD datatype="short" name="FLAG_IRAS"/>
+<FIELD datatype="float" name="LOGLIR_IRAS"/>
+<FIELD datatype="float" name="IRCOL_IRAS"/>
+<FIELD datatype="float" name="N2HA"/>
+<FIELD datatype="float" name="O3HB"/>
+<FIELD datatype="short" name="AGNCLASS"/>
+<FIELD datatype="float" name="Z_PP04_N2"/>
+<FIELD datatype="float" name="Z_PP04_O3N2"/>
+<FIELD datatype="float" name="Z_MZR"/>
+<FIELD datatype="short" name="FLAG_CO"/>
+<FIELD datatype="float" name="XCO"/>
+<FIELD datatype="float" name="XCO_A17"/>
+<FIELD datatype="float" name="XCO_A17_ERR"/>
+<FIELD datatype="float" name="ICO"/>
+<FIELD datatype="float" name="ICO_ERR"/>
+<FIELD datatype="float" name="ICO_COR"/>
+<FIELD datatype="float" name="ICO_COR_ERR"/>
+<FIELD datatype="float" name="LCO"/>
+<FIELD datatype="float" name="LCO_ERR"/>
+<FIELD datatype="float" name="LCO_COR"/>
+<FIELD datatype="float" name="LCO_COR_ERR"/>
+<FIELD datatype="float" name="RMS_CO"/>
+<FIELD datatype="float" name="SN_CO"/>
+<FIELD datatype="float" name="WCO"/>
+<FIELD datatype="short" name="WCO_FLAG"/>
+<FIELD datatype="float" name="Z_CO"/>
+<FIELD datatype="float" name="WCO_TFR"/>
+<FIELD datatype="float" name="WCO_TFR_ERR"/>
+<FIELD datatype="float" name="LOGMH2"/>
+<FIELD datatype="float" name="LOGMH2_ERR"/>
+<FIELD datatype="float" name="LIM_LOGMH2"/>
+<FIELD datatype="float" name="LOGMH2MS"/>
+<FIELD datatype="short" name="FLAG_CO21"/>
+<FIELD datatype="float" name="ICO21"/>
+<FIELD datatype="float" name="ICO21_ERR"/>
+<FIELD datatype="float" name="LCO21"/>
+<FIELD datatype="float" name="LCO21_ERR"/>
+<FIELD datatype="float" name="RMS_CO21"/>
+<FIELD datatype="float" name="SN_CO21"/>
+<FIELD datatype="float" name="WCO21"/>
+<FIELD datatype="short" name="WCO21_FLAG"/>
+<FIELD datatype="float" name="Z_CO21"/>
+<FIELD datatype="short" name="FLAG_APEX"/>
+<FIELD datatype="float" name="ICO_APEX"/>
+<FIELD datatype="float" name="LCO_APEX"/>
+<FIELD datatype="float" name="RMS_APEX"/>
+<FIELD datatype="float" name="SN_APEX"/>
+<FIELD datatype="float" name="WCO_APEX"/>
+<FIELD datatype="float" name="ZCO_APEX"/>
+<FIELD datatype="int" name="GASS">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD arraysize="19" datatype="char" name="SDSS_2"/>
+<FIELD datatype="float" name="zSDSS"/>
+<FIELD datatype="short" name="Ton">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="dv">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="zHI">
+<DESCRIPTION>(roundDecimal(v50/299792.458D,6))</DESCRIPTION>
+</FIELD>
+<FIELD datatype="short" name="W50">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="Werr">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="W50cor">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="Sobs"/>
+<FIELD datatype="float" name="Serr"/>
+<FIELD datatype="float" name="rms"/>
+<FIELD datatype="float" name="S/N"/>
+<FIELD datatype="float" name="lgMHI"/>
+<FIELD datatype="float" name="lgGF">
+<DESCRIPTION>(roundDecimal(lgMHI-lgMstar,3))</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="2" datatype="char" name="Q"/>
+<FIELD datatype="short" name="xGASSDR">
+<VALUES null='-32768'/>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  370 / width of table in bytes                        NAXIS2  =                  219 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   88 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'ID      '           / label for column 1                             TFORM1  = 'J       '           / format for column 1                            TTYPE2  = 'SDSS_1  '           / label for column 2                             TFORM2  = '19A     '           / format for column 2                            TTYPE3  = 'OBJID   '           / label for column 3                             TFORM3  = 'K       '           / format for column 3                            TTYPE4  = 'SPECOBJID'          / label for column 4                             TFORM4  = 'K       '           / format for column 4                            TTYPE5  = 'PLATEID '           / label for column 5                             TFORM5  = 'I       '           / format for column 5                            TTYPE6  = 'MJD     '           / label for column 6                             TFORM6  = 'J       '           / format for column 6                            TTYPE7  = 'FIBERID '           / label for column 7                             TFORM7  = 'I       '           / format for column 7                            TTYPE8  = 'RA      '           / label for column 8                             TFORM8  = 'D       '           / format for column 8                            TTYPE9  = 'DEC     '           / label for column 9                             TFORM9  = 'D       '           / format for column 9                            TTYPE10 = 'Z_SDSS  '           / label for column 10                            TFORM10 = 'D       '           / format for column 10                           TTYPE11 = 'LUMDIST '           / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TTYPE12 = 'INCL    '           / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TTYPE13 = 'NUVR    '           / label for column 13                            TFORM13 = 'E       '           / format for column 13                           TTYPE14 = 'R50KPC  '           / label for column 14                            TFORM14 = 'E       '           / format for column 14                           TTYPE15 = 'LOGMSTAR'           / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TTYPE16 = 'LOGMUST '           / label for column 16                            TFORM16 = 'E       '           / format for column 16                           TTYPE17 = 'CINDX   '           / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TTYPE18 = 'WEIGHT  '           / label for column 18                            TFORM18 = 'E       '           / format for column 18                           TTYPE19 = 'LOGSFR_MPAJHU'      / label for column 19                            TFORM19 = 'E       '           / format for column 19                           TTYPE20 = 'LOGSFR_SED'         / label for column 20                            TFORM20 = 'E       '           / format for column 20                           TTYPE21 = 'LOGSFR_BEST'        / label for column 21                            TFORM21 = 'E       '           / format for column 21                           TTYPE22 = 'LOGSFR_ERR'         / label for column 22                            TFORM22 = 'E       '           / format for column 22                           TTYPE23 = 'FLAG_IRAS'          / label for column 23                            TFORM23 = 'I       '           / format for column 23                           TTYPE24 = 'LOGLIR_IRAS'        / label for column 24                            TFORM24 = 'E       '           / format for column 24                           TTYPE25 = 'IRCOL_IRAS'         / label for column 25                            TFORM25 = 'E       '           / format for column 25                           TTYPE26 = 'N2HA    '           / label for column 26                            TFORM26 = 'E       '           / format for column 26                           TTYPE27 = 'O3HB    '           / label for column 27                            TFORM27 = 'E       '           / format for column 27                           TTYPE28 = 'AGNCLASS'           / label for column 28                            TFORM28 = 'I       '           / format for column 28                           TTYPE29 = 'Z_PP04_N2'          / label for column 29                            TFORM29 = 'E       '           / format for column 29                           TTYPE30 = 'Z_PP04_O3N2'        / label for column 30                            TFORM30 = 'E       '           / format for column 30                           TTYPE31 = 'Z_MZR   '           / label for column 31                            TFORM31 = 'E       '           / format for column 31                           TTYPE32 = 'FLAG_CO '           / label for column 32                            TFORM32 = 'I       '           / format for column 32                           TTYPE33 = 'XCO     '           / label for column 33                            TFORM33 = 'E       '           / format for column 33                           TTYPE34 = 'XCO_A17 '           / label for column 34                            TFORM34 = 'E       '           / format for column 34                           TTYPE35 = 'XCO_A17_ERR'        / label for column 35                            TFORM35 = 'E       '           / format for column 35                           TTYPE36 = 'ICO     '           / label for column 36                            TFORM36 = 'E       '           / format for column 36                           TTYPE37 = 'ICO_ERR '           / label for column 37                            TFORM37 = 'E       '           / format for column 37                           TTYPE38 = 'ICO_COR '           / label for column 38                            TFORM38 = 'E       '           / format for column 38                           TTYPE39 = 'ICO_COR_ERR'        / label for column 39                            TFORM39 = 'E       '           / format for column 39                           TTYPE40 = 'LCO     '           / label for column 40                            TFORM40 = 'E       '           / format for column 40                           TTYPE41 = 'LCO_ERR '           / label for column 41                            TFORM41 = 'E       '           / format for column 41                           TTYPE42 = 'LCO_COR '           / label for column 42                            TFORM42 = 'E       '           / format for column 42                           TTYPE43 = 'LCO_COR_ERR'        / label for column 43                            TFORM43 = 'E       '           / format for column 43                           TTYPE44 = 'RMS_CO  '           / label for column 44                            TFORM44 = 'E       '           / format for column 44                           TTYPE45 = 'SN_CO   '           / label for column 45                            TFORM45 = 'E       '           / format for column 45                           TTYPE46 = 'WCO     '           / label for column 46                            TFORM46 = 'E       '           / format for column 46                           TTYPE47 = 'WCO_FLAG'           / label for column 47                            TFORM47 = 'I       '           / format for column 47                           TTYPE48 = 'Z_CO    '           / label for column 48                            TFORM48 = 'E       '           / format for column 48                           TTYPE49 = 'WCO_TFR '           / label for column 49                            TFORM49 = 'E       '           / format for column 49                           TTYPE50 = 'WCO_TFR_ERR'        / label for column 50                            TFORM50 = 'E       '           / format for column 50                           TTYPE51 = 'LOGMH2  '           / label for column 51                            TFORM51 = 'E       '           / format for column 51                           TTYPE52 = 'LOGMH2_ERR'         / label for column 52                            TFORM52 = 'E       '           / format for column 52                           TTYPE53 = 'LIM_LOGMH2'         / label for column 53                            TFORM53 = 'E       '           / format for column 53                           TTYPE54 = 'LOGMH2MS'           / label for column 54                            TFORM54 = 'E       '           / format for column 54                           TTYPE55 = 'FLAG_CO21'          / label for column 55                            TFORM55 = 'I       '           / format for column 55                           TTYPE56 = 'ICO21   '           / label for column 56                            TFORM56 = 'E       '           / format for column 56                           TTYPE57 = 'ICO21_ERR'          / label for column 57                            TFORM57 = 'E       '           / format for column 57                           TTYPE58 = 'LCO21   '           / label for column 58                            TFORM58 = 'E       '           / format for column 58                           TTYPE59 = 'LCO21_ERR'          / label for column 59                            TFORM59 = 'E       '           / format for column 59                           TTYPE60 = 'RMS_CO21'           / label for column 60                            TFORM60 = 'E       '           / format for column 60                           TTYPE61 = 'SN_CO21 '           / label for column 61                            TFORM61 = 'E       '           / format for column 61                           TTYPE62 = 'WCO21   '           / label for column 62                            TFORM62 = 'E       '           / format for column 62                           TTYPE63 = 'WCO21_FLAG'         / label for column 63                            TFORM63 = 'I       '           / format for column 63                           TTYPE64 = 'Z_CO21  '           / label for column 64                            TFORM64 = 'E       '           / format for column 64                           TTYPE65 = 'FLAG_APEX'          / label for column 65                            TFORM65 = 'I       '           / format for column 65                           TTYPE66 = 'ICO_APEX'           / label for column 66                            TFORM66 = 'E       '           / format for column 66                           TTYPE67 = 'LCO_APEX'           / label for column 67                            TFORM67 = 'E       '           / format for column 67                           TTYPE68 = 'RMS_APEX'           / label for column 68                            TFORM68 = 'E       '           / format for column 68                           TTYPE69 = 'SN_APEX '           / label for column 69                            TFORM69 = 'E       '           / format for column 69                           TTYPE70 = 'WCO_APEX'           / label for column 70                            TFORM70 = 'E       '           / format for column 70                           TTYPE71 = 'ZCO_APEX'           / label for column 71                            TFORM71 = 'E       '           / format for column 71                           TTYPE72 = 'GASS    '           / label for column 72                            TFORM72 = 'J       '           / format for column 72                           TNULL72 =          -2147483648 / blank value for column 72                      TTYPE73 = 'SDSS_2  '           / label for column 73                            TFORM73 = '19A     '           / format for column 73                           TTYPE74 = 'zSDSS   '           / label for column 74                            TFORM74 = 'E       '           / format for column 74                           TTYPE75 = 'Ton     '           / label for column 75                            TFORM75 = 'I       '           / format for column 75                           TNULL75 =               -32768 / blank value for column 75                      TTYPE76 = 'dv      '           / label for column 76                            TFORM76 = 'I       '           / format for column 76                           TNULL76 =               -32768 / blank value for column 76                      TTYPE77 = 'zHI     '           / label for column 77                            TFORM77 = 'E       '           / format for column 77                           TCOMM77 = '(roundDecimal(v50/299792.458D,6))'                                   TTYPE78 = 'W50     '           / label for column 78                            TFORM78 = 'I       '           / format for column 78                           TNULL78 =               -32768 / blank value for column 78                      TTYPE79 = 'Werr    '           / label for column 79                            TFORM79 = 'I       '           / format for column 79                           TNULL79 =               -32768 / blank value for column 79                      TTYPE80 = 'W50cor  '           / label for column 80                            TFORM80 = 'I       '           / format for column 80                           TNULL80 =               -32768 / blank value for column 80                      TTYPE81 = 'Sobs    '           / label for column 81                            TFORM81 = 'E       '           / format for column 81                           TTYPE82 = 'Serr    '           / label for column 82                            TFORM82 = 'E       '           / format for column 82                           TTYPE83 = 'rms     '           / label for column 83                            TFORM83 = 'E       '           / format for column 83                           TTYPE84 = 'S/N     '           / label for column 84                            TFORM84 = 'E       '           / format for column 84                           TTYPE85 = 'lgMHI   '           / label for column 85                            TFORM85 = 'E       '           / format for column 85                           TTYPE86 = 'lgGF    '           / label for column 86                            TFORM86 = 'E       '           / format for column 86                           TCOMM86 = '(roundDecimal(lgMHI-lgMstar,3))'                                     TTYPE87 = 'Q       '           / label for column 87                            TFORM87 = '2A      '           / format for column 87                           TTYPE88 = 'xGASSDR '           / label for column 88                            TFORM88 = 'I       '           / format for column 88                           TNULL88 =               -32768 / blank value for column 88                      DATE-HDU= '2018-10-16T15:58:22' / Date of HDU creation (UTC)                    STILVERS= '3.2-2   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               .´J000820.76+150921.6(
+B –ğÌW€  ğ  Ì^@ ±;â.]á@.OàŠï²«?¤:§    C.RBÜ@B\@+„A!hsAÔÅ@	™š?9™­¾c½AÇ¨¾¦7N>5ì„          ¾ï8¾äŞ A
+ŸŒA“”ABè @‹33@kW?²œl                LºvQ    LÈ:    :y‚7                              A	_¿ÀK ?E¢> ¿Lš/K¤4–:¸ñN@µÚ¢CxqQ =!Õ= >ñ©üMœæÂ:º¥ƒ@– CrªÍ=!Ç  .´J000820.76+150921.6=!ÊÁ ( ="l<1 >aG®=#×
+>B\AffA›¦¿lÌÍ1*   .ÕJ002558.89+135545.8(
+!^ ¿ñÌ	À  ñ  Ì	 /@ûDå^³@+ÛÚQÎ?¥y(à   C9^ÒAÁ­ª@¹G®@íA+‡A#@AG®?”j¿«Oµ¿[Ö%¿¸™?Huò          =³7>¯ô AëA
+_lAqt @‹33@6÷½?‹R                LÓı    Lå¡    :‹¹                              A’bÀ
+”     À  À  À  ;“!          =+ÉG                            .ÕJ002558.89+135545.8=+ŸV 0 =+¶g ù  å>#×
+<õÂ>.{A  AKÇ¿ÎV1*   jJ003921.66+142811.5(@A K        ¢  Ê¬ –@#®9.÷<@,ğ‘}keª?£w[€   C'LB2äğ@\)?Ï|ÆA%ó¶AU»@1G®?LÚ¿v´b¾8â[¿LB>´–Ü          ¾êÚ>Ä É ArA	“AÔ @‹33@I©|?™;É                L½ğ"    LÇÖÓ    :™Ë                              AL“¿í9     À  LX}x€  ;ÂL    CuŠ =ºÜ                            jJ003921.66+142811.5=¥ã  =h ö  ã?¸R=ÌÌÍ?\)A.ffAKÇ¿J~ú1*   uJ004023.48+143649.4(` R£Ê§M   £  Ê§4@$2B„à@-:=p£×
+?£©*@   C)IBw¿@1G®@‘*8A ¼j@ÿ®?úáH?9™­¾Ô á?
+0…>¿„’              ¾óèÀ    A
+wşÀ  A$ @‹33@‘
+ë?Ül?ï=É8•?&àÛ>ÿ¯MQ ›L>‰M€]kLt›’:¡ß¹@¿ËCn“ä =         Aaü>;îÄ    ¿u¦à ?o>AÍ†L}Ê¶K» É;ı@Mß‰CLjg =IR         ;Ø              uJ004023.48+143649.4=IR 	 =	5œ …?Tzá=£×
+>áG®A„ÌÍA…¾¦éy1*   ½J005532.61+154632.9(À7 ¤ÊŸ@  ¤  ÊŸ=@+Å’8\h@/8Go*Z?£/D    C%·BHE@(Qì@/•A!?}A
+Ş@"\?9™­>`Éà>®‡>2|               ¾ïf¾òN° A
+ ^A¶;A:ˆ @‹33@tâ?ºœ?6=ÍùŒ?GJI>$[KM…?CL%ÇM‘ä•Lp£; AA	'B¦/ =l‘        A[>4Jq    ¿9 ?¡G®>ŒM™¸Lsa;ÜA9 oBÃÜó =z% >¯²MLãv:Şm@ÀjB\:½=v	  ½J005532.61+154632.9=™š  
+=d ¨  ?Â\=£×
+?O\)B ÌÍASø½õÂ1*   oJ010905.96+144520.8(€M  ¦Êc|À  ¦  Êcó@1F]9–úƒ@-‚õ˜ñ?£¼Ó`   C)÷+Bè@C33@.“A%™šA}=@9™š?LÚ¿hòz=% ©¾‘.>rr          ½¿×Â>ˆB AØA	ÖzAúÈ @‹33@Q®…?ŸSÊ                L¥b2    L¹›Q    :h’ü                              A„¿ìX­     À  K³³³€  :¼8*          =æ›                            oJ010905.96+144520.8=	 
+ =Ü- ?
+=q=\)>ğ£×AS33A\¿P£×1*   ‰J011221.82+150039.0(€v ½¦Êc”   ¦  ÊcP@2Fˆze@.!–R½?æšà   Bÿ¶İB\æÆ@hQì?åõFA#AŸ÷@8õÃ?.uC¿dÒ±¾ªXŠ¿*ªí>k À          ½“U>|:Ó A¯“A
+îA‘l @‹33@`v›?ª$>öÈ´=øwW?Sƒ>C…LÚ‚1Kíµ½Lì¾L
+\:™¿Y@†CŞë” <í_Z        A
+3¾>J¬ø    ¿Ærq     À  LF¶€  :áP          <ï4×                            ‰J011221.82+150039.0<ï4×  <ïg, ?333=uÂ>Ñë…AŸ33Azá¿Hr°1*   =J011501.75+152448.6( z ©§Êmr   §  ÊmÈ@2ÁŞi­BÄ@.Ó¶E¡ÊÁ?ŸzN€   CÁB …‚@~{?ır	A%G®A­²@-p¤?LÚ¿‡‚Ó¾GMÓ¿RG>¯›          ½~Ô>Ú AÁˆA	$}AïP @‹33@N	?œy                L…àd    L”Tæ    :Œç                              A`†¿÷9@     À  À  À  ;¯À          <ûÒt                            =J011501.75+152448.6<û~‘  <ûÜğM <?J=q=\)>Ü(öA‘™šA¿T9X1*   µJ011711.65+132027.3( Z »§ÊmÀ  §  Êm S@3LmÅÖ8†@*®°Ëæ?¨Ãóà   CVÊ1B_6ü@„zá@"şA,áHA 
+@G
+=>ÙPT½³wO>=À=ÁİÀ=ñ©Ô          ¾Œ±¾´>Û AoÒA×AtÔ @‹33@NIp?œ¿k?V>ŸQ?cõ»>G¶:N@L²}ÛNÍ<Lôô²:— C@ç¹ªCèe* =Eo–C÷3\CÖÄAle>7B÷    ¿Ã§      À      À                                                µJ011711.65+132027.3=F? # =FÌ¼ >\)=LÌÍ>W
+=A™šA&é¿­Òò1*   ÄJ011716.09+143720.5(€Z ”§Êm#À  §  Êm @3Q+àŠğ@->¨—c^t?£yú    C'§~BŒ¨h@¤ÌÍ@ jÈA+®AÆÕ@-p¤? Wü=¾"ó¿S¾ı”¼>Œ¯8          ¾hƒ½®óÊ A†AA
+ônAt¨ @‹33@ƒö?ÄÓR>÷KÇ=Ê`£?ü>>êÏM:£³L!ÍUME¶÷LH¡{:6@©ğÚC¢àu =†‘BDlôA­%ÜAÇî>?æ|    ¿ç13     À  MÊô€  ;•Ğ·          =ÏÕ                            ÄJ011716.09+143720.5=¥ã  =
+‰ s>Ü(ö=uÂ>™™šANffA¸R¿§®1    ¿J011728.11+144215.9(€Z P§ÊmÀ  §  Êm s@3]ü;Oag@-h«ˆ¤?¥â`   C=3B*ŒF@k…@55A+ë…AZÛ@ÌÍ? Wü?,%°?%ù>õMz              ¾›Eİ¿ˆÓ AÇıAÇ(Auh @‹33@:x¼?°è?k>"ß?‘(+>x5OMàm‰L¨ÜZN
+Ÿ5Líª:Èîò@öş8C‹†Z =.Ş“CmîÇB[:ˆA©­>6J    ¿ÂÂ ?°£×>#MTOáL>
+3:âŸAgwC”ÆK =/# >øQìM¼÷:áqŸ@“?C7e=/¯·  ¿J011728.11+144215.9=.æ2 
+ =/+g( >×
+==\)>Ü(öA#33AA‰¿Oß1*   °J011823.44+133728.4( € ‡§Êm€  §  Êm .@3™ æ¯Ìâ@+?Ç£˜ ?£v    C'„´A j@6ff@Í¿2A"‹D@ÿ?³?ë…?.uC¾Òò÷>‹©©¾¤×=Œp          ¾ÓSÀ    A˜ÏÀ  A{¨ @‹33@uJ£?ºb´>ñ&é=‚@,?.·=à¹M5¶wKâ•^MQÀâL)UR:É€ABNŞŠ =š‘B0ºA
+×"AĞ >3P_    ¿Ù! >²°!=³ŞL)w+K*•ı:ñoD@Ñ‚BM™ =°`                            °J011823.44+133728.4=¥ã  
+=¶ª 7  0?8Qì=uÂ?G®AŞffAZ¿o1*   ëJ014143.18+134032.8(`‚ +ªÊªÀ  ª  Êª g@9n4êK@+Z%™í|?§2ß`   CHÁ¶AëšĞ@ÌÍ@3–A*¼jA"g@\)?”j?iø¢?^’'?ƒÿ<u|® A-«*?
+O¥¾À›ë¿Ã8 AH#AxAn˜ @‹33@Z]?¥ì“@^{> ¾&@p¾’?(°>Nî¨cM;B{O[“MµGØ;ÄßA½N¡CLL3 =9Z5CM•¡@¶tùAé†>-¯S    ¿M.H      À      À                                                ëJ014143.18+134032.8=9Œ~  =9Ğ¦ Ş 
+ Í?s33=¸Qì?(öA”ÌÍA¸R¿@A‰1    )J015651.99+131246.0(@¿ #®Ê¥À  ®  Ê¥ ;@=7wYó@*lñ€
+|[?¦ÄÅ    CDê1B\É@«33@²øA.ffAAğ@U¸>û•5¿Ÿud¿J¿9Œ…              ¼úô>ÄGŒ ATA	«4Ah€ @‹33@8wî?Œ+@                M	    M     :³³                               A
+ù'À´ú      À      À                                                )J015651.99+131246.0=6E¢  =6…˜ ğ  Ü>ÌÌÍ=LÌÍ>¸RAI™šAff¿°  1*   ‰J015707.32+145543.5(À¾ L®Ê¥—@  ®  Ê¥]@=GÏ€Ü3r@-Û‰Z[–?¦0©    C?ÀìAß‡N@¶{@WYXA.  A¨¿@C×
+>ÙPT¿— Ù¿ÜD¿ñ=b              ½Âùü>x— AA	óÁAm$ @‹33@7°k?‹“§                Lºº    LØVÕ    :–İ'                              A3¥À1l     À  À  À  :üÖ€          =1…I                            ‰J015707.32+145543.5=1[W  =1g “  †?
+=q=£×
+?.{A9™šA{¿Ÿ\)5*   J015712.97+144407.6(Àš O®Ê¥   ®  Ê¥8@=MÕÀ­@-x6F?š¤ü    BãSÏA]Ğ6@¦{@ª‰A(ñªAJF@Vff?Zr¿¼LY¿Ev¿§NS?6On          ½·u=Ú˜ A+(A
+¬ÄAU„ @‹33@ŠDT?Ò                 LÄ-    L˜8£    :¨*V                              AšÀ^f      À      À                                                J015712.97+144407.6<Ôıô  <Ôæ­ ˜?}p¤=ÌÌÍ>Ü(öA†ffAKÇ¿/1*   zJ020359.14+141837.3( Ê «Ê¼…€  «  Ê¼@>ÿXâe@,ê šª;?¥â`   C=3Bd;@N{@Ü A.vÉA®‚@<(ö>û•5?šÃw?Q¨h?M")<¶+Š A,Ê>ÒS?¾Öõ(¿Gú AuOAƒDAg¬ @‹33@?5R?‘JK@ŠáH>½Üæ@¥ñ?e+–O ªMX¥KOxMÚÚ[:ÖÓ·BICC’b =.vC˜w°@á(EAfb>-.    ¿€ƒ4 @Õ¸?¬±N€]MNÁÌ;æmBTúC–çÖ =/# @QìNçÒ«:ê[SAŠ*BCcì=/]  zJ020359.14+141837.3=.æ2 	 =/»Ö ¸?+…=ÌÌÍ>Ü(öA#33A¿—®1*   ±J020517.54+133020.6(€¨ Ã¬Ê«V€  ¬  Ê«Z@?R¶·ª&@+ï
+å6P?špà   Bá‹áAÅÃ1@JáH@¬¾’A#™šATP?ğ£×?(ê'¿´U2¾dƒ
+¾/\a=âéÖ          ¾6j–¾:¹ A¾ªAŠ A«ø @‹33@o¥'?¶X?Oß=ÕR?-Ö…>'ÆLÃRhKµ[şLğG†Kç®:ù*ú@»>âBäUu <Ò}×BÜ±³@ X¯A
+Ç`><¦×    ¿Æ‘Ô      À      À                                                ±J020517.54+133020.6<ÓZ†  <Ó\ ‚  y?¸R=uÂ?.{A€  Açm¿{"Ñ1    ‰J020744.47+140453.7
+ˆ.€ ;        «  Ê¼r@?ïo*ZF@,)Çy¦µ? ™Z    CK¡B”²K@dzá@1ItA$1'A¹@'
+=?(ê'½zL½'Ó¾¸½>ETø          ¾®ó¿qà Aø¢AÂhAÅ @‹33@.i?„¤¡>ŒÌÍ=™¦©>Cõ=ÃÙ]L™î K» :L«îìKÖ“:“·Ø@u`C;És =QÎ        A@T>PG    ¿ï†š >Ót¼>{õL{IK:m:ÔÜf@»’C=Ğ: =ÊÕ                            ‰J020744.46+140453.7=µİ  =Ø& ?333=áG®?:áHA1™šAï¿D“1*   ¾J020939.47+135859.4( ¯ ª¬Ê«iÀ  ¬  Ê«§@@5!Bp@+÷d­ÿ‚,?©(àÀ   CZTB
+Û£@‚\A -A5KÇAÏ7@G®>Ÿx¿f!•>uÕ=~,î=Ëùu          >Dà÷>¡9 AòEAZAkl @‹33@ha¹?°“t?¥¸>;Z…?Á‰–>ŸĞ NQM*NuÍMJbƒ;4ÊAãC?ÿ =IöBêâĞA¡q{A&÷>4Yv    ¿á&      À      À                     ?¸RN *¸:ÉûaA'=BÇcr=Iy›  ¾J020939.47+135859.4=I  =IŠ" ‰  {>Â\=\)?(öA  Ap¤¿ŞÙ1*   ÆJ021121.82+143015.5(ÀÕ ¬Ê«p€  ¬  Ê«Â@@k£D=F²@-6;%oü?¥WÀ   C8/³Bš>V@Y™š@œ¯§A+t¼AÖ@#×
+? Wü¾TÁ£>ªòÖ>3=w=©ñs          ½üÈ?F-0 A7ÇAAs° @‹33@AD ?’Ú~?£×>(+Å?¬¾$>PòNJâL¶O¼NÍJMÿ£:¹º¡AİkCÙ‚ =*™²        AÄ>4æ    ¿µy ?šáH>Ø0—M0ñìLvıD;j[S@_ÍêC¬=¡ =*¸¦                            ÆJ021121.82+143015.5=*ÍŸ  =*ì½ £?‘ë…=áG®?záA|ÌÍAÔş¿Iûç1*   ÇJ021131.43+141202.4(À² ¡¬Ê«q   ¬  Ê«Ä@@pÄ›¥ãT@,f¾7Ş“Ÿ?™ÿÖ    Bİ¸B>2"@^{@¨'A%33Aœ,@<(ö?LÚ¿½œŒ¾âb¿êÂ=ßÕR          ½Ù'h>Ûú» A²VAïôAìd @‹33@N•Ô?œùv                L8
+¯    LT­    :“–J                              A5Àwø      À      À                                                ÇJ021131.43+141202.4<Ğ© 
+ <ĞNb4 &?{=\)>úáHAÎffAÎÙ¿VE¢1*   ĞJ021219.38+133645.6(€Ø d¬Ê«€€  ¬  Ê«@@ŠVWûi˜@+9²€ñ,(?¥/Â`   C6ÒBPGŒ@\ÌÍ@D&ìA(İ/Art@zá?Zr>¤ë>Ã>?=•=Á&–          ¾´È5¿	Äø A½YA ¨AT  @‹33@<Ó>?z¹?Š=q=öb?š2¢>fzÓM÷T]LuÙ5N	ğ§LÎ-ç:!qANjXCˆ;I =)²ó        A·7>0    ¿©/À ?”zá>‚Ç*M',ÑL>ƒ:¬À¾A-°ßC˜]ò =)~ ?&éMÎğ):¨mr@¤
+şC´=)È¢  ĞJ021219.38+133645.6=)“ 
+ =)‘ÿg Q?5Â=£×
+>ë…Ai™šAhs¿WKÇ1*   ÙJ021419.24+135611.2( Û j¬Ê«”À  ¬  Ê«S@@ÊDR?gõ@+ßxşï^È?¤NPÀ   C/ dBn®»@W
+=@ŸlA(bNA)İ@.{?Zr¾2Q»=Üâ°¾,ü>/‹‚          ¾”¾X' A^AH0AJ$ @‹33@q¬¶?·£"                Lî‹Ò    LıP4    :’î…                              A4X¿éo²     À  À  À  ;LF•          ="r†                            ÙJ021419.24+135611.2="œx 
+ ="À^ J?£×=¸Qì?ë…A¨  Ab¿%¸1*   ÛğJ080534.10+102336.2(>`, ä	rÒ"€  	r  Ò" 
+@^Y*™0¾@$Ék¹Œ~(?¡d„    CDíBÖ3@g
+=A"äA.=qAC?å¸>ÙPT¿xæ¯>mo>2Í=WN          =eòn>‹ÓS AÎÏA
+‘µAj| @‹33@?ÆĞ?‘¸Ù?CSø>
+Ó?…jŒ>q.€Mj£XLX®^M D4LÜ#:½~@Öõ*CÓ	 =cOC“ƒTA‡U†A¦>8ì	    ¿ñ†W ?À  >¾SM$¤L·Ã;:¥ƒ@Û^üCˆÓ =$                             ÛğJ080534.10+102336.2=C–  =JíD 4?ÕÂ=õÂ?O\)A´ÌÍA£×¿y™š1*   ~4J083934.43+252837.6(u` ÖŠĞc*À  Š  Ğc «@`<—Oß;@9z#á†˜5?ëÙ    Bÿä¬A›ÙØ@aG®@—8uA A‰@ÿg>?ê=q?9™­¿š`,¾”’¾ú³A>-0A          ¾ZÀ    A±ƒÀ  A  @‹33@ƒô9?Èˆ>¬1=]cğ>À/+=©L˜ˆK[JLªfGK•êš:˜,²@åJLB—Br <ïQ[B‹İe@ÚTA	œ>7{-    ¿¹h >ÍOß=Ş[óKåÑJø#à:í€¡@¯UZB« <ï^È                            ~4J083934.43+252837.6<ï4×  <ïå  Y  Q>…¸=LÌÍ?(õÃA33A‘h¿…1*   ÌIJ085724.03+204237.9(Å Œ $êÑ³"@  ê  Ñ³ ‰@`Ë4XÍ °@4µåKHÓ®? Ï    C#}B\a@†{@97A'×
+AŞ´@Aë…?${Å¿°“È¾¸ée¿`/¢>‹ğÂ          ½Õš>Ê¿. A¾óA	WA=  @‹33@?ÓØ?‘ÂÀ                L›	é    Lªü    :’«i                              AÔuÀ
+T     À  L¹ß€  :¾×A          =xÀ                            ÌIJ085724.03+204237.9=YK  =Áv d?!G®=ÌÌÍ?!G®A&ffAp¤¿ƒ331*   Ş¹J092229.28+142743.3(À`9 ©	ˆÒ:-   	ˆ  Ò: ´@a“çl‹C–@,ì‘ÑN;Í? Œ?@   CØ–B–_˜@€  @#!ëA(“uApÔ@E¸?Zr<‚”Ì¿”¾ó>x>¯          ¾ŠÀ    A‡À  AN8 @‹33@<ò?’?D›¦>‚¾?XáÀ>A?MUœCL8oMk£3LQõE:¬}¢@ŞNçC£“r =>NC¢ÃB¥&"AÎÚ>8&Q    ¿Ö$Ú ?µÂ>¿­nLøŒbL;'´å@ºJgCÒ›‰ =aú                            Ş¹J092229.28+142743.3=M  =)Z{ i?¼(ö=õÂ?@  A ÌÍA¿9‡1    N¥J093236.58+095025.9(Ò ª Ï:x@    Ï:á@aäàÉÙÓF@#®[BEõ®?©	kÀ   CY9ôAxÂÀ  @“V}A-²-A]@33>ÙPT?7Iÿ€  ?:\<ÿ          ½õÁá?Õ‰ AMÌAYSAp @‹33@N­£??˜Qì>%„Å?½Wƒ>™CN>şgM şhNmjVM@,Ä:é³AÁOCxÙ =G§Õ        AÕ>3o    ¿¬¢½      À      À                                                N¥J093236.58+095025.9=HK^  =Hœ+ >¨õÃ=uÂ>”záAÌÍAIº¿«C–1*    J093953.62+034850.2)N`¬ Ñ9Ì(À  9  Ì({@b&V«Ş@@‚ø7´¢4?4XÀ   Bù¢B±@—\)@ÎA%×
+A”É@;…?LÚ>H`]¾*ñ!½_±=Å|*          ¾y—|¾§Ch A xAËA @‹33@Rx4?Ÿí?µÂ>q?Ê¥ú>”W¼M™yL‚M«?Lzƒ4:ŸAl$DC‘˜õ <êUÚCgİ‡A·øƒA&‘>/FN    ¿¥ƒÉ @+…?6—M6G³L2‘:÷üüA…ÖgC¦-_ <é¢Æ                             J093953.62+034850.2<éxÕ  <ëÊSU D>8Qì=LÌÍ>Š=q@Ó33Aí‘¿ÇKÇ1    HşJ095302.62+075029.3(¾`3 ÒÓÍş*À  Ó  Íş «@bˆY‰ßs@]¯÷¤è?¥ €   C5hóBRép@?\)@•’IA(ĞåAÕl@ff?Zr=Ì“->ãòÓ>\              ¾Û€fÀ    ALÀ  AS @‹33@MsÂ?œ?¬ÌÍ>&0?Övì>¤çÉN?şLµº›N<õ©MKS:´ZæA2NZC³©³ ='ëRC·/©@¼WCA},>17s    ¿’Ç     À  LÒc“€  ;7äŞ          =(9                            HşJ095302.62+075029.3=(Xy  =(	Õk V@/\)=ÌÌÍ?(öB8ÌÍA$§ğ¾…¸1*   ODJ095349.23+091137.6(. Õ šÏ€    Ï .@bWÑx-@"c8q`•l? º    C÷BE}@
+=@-£
+A*ÀƒAr@=q?”j¿’Çd¾9›6¿HÇ>Vs‘          >{Ä¹>²®³ A3XA&êAnÀ @‹33@7k~?‹_G?Š=q>'Pd?£ºğ>‹‡3M€xûL8)íM˜)jL«p:¼8*@ù4áCØ1& <ğÃ›DKÉB†xAa>5Üü    ¿Úûn     À  LCãî€  ;úô          <õÑ                            ODJ095349.23+091137.6<ôğØ  <ôÏJO >>ÌÌÍ=\)>Ç®A$ÌÍAí‘¿¾—1*   O>J095439.45+092640.7(Ò@Í ¤ÏÀ    Ï @b•B™Øƒº@"ã§Ú¤ü¤?¡±Ù    Cí†BX@ƒ…@*ãmA(‡+A0@(Qì?Zr?>…[T»\g=Î3æ A&†¬>®Ñ¾ˆF¿'~ A›SAªÇAMD @‹33@1?†ˆh?ù™š>€f@	‡p>ÙæN7$L¯vN+ôMø:ùôMAªOCódm =°        AÃZ>2RÑ    ¿ˆ @l(ö?Dw‹M¸Ö)L™Å;>AŒ3)CÈÙ¨ =É                            O>J095439.45+092640.7=¸» 
+ =3j ˆ?ë…=ÌÌÍ?ÌÍAffAhs¿ˆõÃ1*   9ïJ100530.26+054019.4(Ç@ù ¤ãÍû€  ã  Íû >@bì	Ö¶[@°3:}ª?¦ºI@   CDŒ”B„`z@ˆ  @‹ÇQA3dZAJe@.{>cçû?\@>µ³=‡¡D> $˜          ¼¶_½Ïàó A58AüAÓÈ @‹33@Fä‰?—!?Ó33>[®?õ!C>ĞÉÊNY¾DMÈ@N|¹oMWAº;É6@ùIC× =6ôCÆß'BŠ
+AH°>5Ö}    ¿ØİQ      À      À                                                9ïJ100530.26+054019.4=5ÜÆ  =5èOê Ë?ƒ×
+=õÂ?   ALÌÍAñª¿£•1*   Y×J102316.42+115120.4(ÒÀş ‘>Ï)^@  >  Ï)y@cz0#Ì@'¶°_®¼?§GØ    CI}-B’é6@r\@„ükA*E¢A`@ff?”j?4Ç?4ß?*g=?ô A),ª>­(}¾²kO¾ğüÔ AÕ?ANAAiÈ @‹33@Wæ1?¤:@ë…>[®X@PÈ>Ø??NŒûMÍdNŸqèMjP;ğJAg³æCVâ« =9ï•CyÅB
+AxN>/_ñ    ¿|Õ9      À      À                                                Y×J102316.42+115120.4=:^5 - =9K{É «>Â\=LÌÍ>W
+=AH  AZ¿\)1    ;MJ104002.96+060114.0(ªA èÍ£5À  è  Í£ ×@d eÛØ@ìkÎ…?§ü¹    COÏÍB—ì@˜õÃ@Ø…ÛA2áHA¬@<(ö>jê¾°ÃI¼éi¸>-3Z=Ö¸«          ¾Iª›À    AD%À  Aë0 @‹33@P¸?˜Š?±ë…>;ju?âæ¥>µ&ÁNL“M	h«N‚r]MPJ@:ÌW\Aı}CÉ‹H =@VUC×4B–*eA×>2ÑÂ    ¿ĞQÂ      À      À                                                ;MJ104002.96+060114.0=?±[  
+=@[:3 @  >¸?8QìAÃ33A%+¿[dZ1*   ;>J104121.14+061644.3(ÇA4 ìèÍ£(@  è  Í£ ¡@d
+Ñ·Xâ@¬îàóË?¡]ö`   CGBd@ff@s UA IºA—À@zá?9™­>†µ»œè=ÇJ™=´+¸          ¿§Æ¿ör A	ÊLA,Ah @‹33@^YÜ?¨ôA>Ç+=Åì€>îÍ+>
+šÛLîŠL‡M8L&`:½©C@ˆ"C9[" =
+Ô        Ax>Ià    ¿¦f >ó33>Õ™L7MsKE8ş:ù	l@±è*B»} =
+ï³                            ;>J104121.14+061644.3=
+Úº  =
+è\ ¹  ¬?(ö=£×
+?+…ATÌÍA¡Ë¿
+~ú1*   ssJ104145.56+135352.9(/% ÕĞmZ   Õ  Ğmh@d@N¤©@+ËÊ–‘§]? 1Î    C
+¿8B}µ@‘™š@ÖhA&{A÷‡@G
+=?LÚ¿†N&¾o¤ù¿wóx?İÑ          ½ôíE? m) AP±AÈA @‹33@Há«?˜£ô>–=[>¨Â=ËÁÕLœ›K·ú³L¯eÄKÓó£:…±…@€#LCn“á = ®î        A]œ>MLo    ¿õ¶ü     À  KÜ$ €  :È          =u                            ssJ104145.56+135352.9=o   =¢bB 0>ÌÌÍ=LÌÍ>£×
+AH  A¥ã¿“t¼1*   [J104200.74+114648.0)ü€Q FAÏ{Y   A  Ï{d@dz$‰L@'^Ès¬? ŞÒ€   C­¤B/Ÿ@ŠáH@^ÇA'7LAŸh@   ?${Å¿¶v ¾æôq¿*L)>­Â          =Ñ ?'± As>AÜnA-l @‹33@B¯N?“î                Lî‚    L¯    :y«                              AgÀ@Ç     À  À  À  :¥          =ö”                            [J104200.74+114648.0=Â' 2 =PÂ! '>¸=#×
+>B\@Ã33A‡+¿Õ2*   ;™J104805.79+060114.4(Ç!? jéÍ¾=€  é  Í¾ ö@d@ÅÖ8†Y@*„8…?{ @   BüB,.À@®ff?³6A!l‹AÇ~@0  ?9™­¿Ÿüe¿£1¿¸h-              ¾ÇUı½«š A<A
+”ACÄ @‹33@!?ïs                LMBF    LZ$3    :}z                              A1}¿ÑØn     À  À  À  :Ñú3          <ëÙ                            ;™J104805.79+060114.4<ëíú  <ìP‹ í  ß>B\=#×
+>…¸A	™šA?}¿¡hs5*   DèJ105929.94+084233.1(×A* ÓÄÍó?   Ä  Íó ü@d›şG™Å@!k’·ş	?¡Ù+€   CGĞB_Åq@³…@n{A0¬AÍ3@E¸>j©¿]~f¿–îª¿"1/>»ƒ          =¾&Ÿ>Ç	ÿÿAÀ  A:8 @‹33@@lÈ?’6õ                MU    M0    :ËÑ$                              AèWÀÄ     À  À  À  ;§ë          =É\                            DèJ105929.94+084233.1=óM  =éİË ±?=p¤>\)?¸RA™šAOß¿ºáH1*   BJ110032.51+020657.8(¶a	 FüÌ/€  ü  Ì ¾@d¤UÚ'(c@ í¶°_¯?¤*í    C-ÆB?–,@?\)A
+ŸøA1¥ãA
+ıR?à  >jê?‡ş?eD?Ÿ=(çu          ¼ÎŠ?SÒ A[#AÃyAŒ @‹33@TïÎ?¡Ì÷@zá>‚ @*æ?5NV¼M¾ÿN‰­òMUÔd;é–A*ª5C¢y =!’C„[ÖBæAZ¥>1 ¢    ¿ÂYó ?ÕÂ?ÇMYİ«L…J%;—J4@Š@µCœ)ú =!Wi                            BJ110032.51+020657.8=!aå  =!Ävc O@Š=q>™š?xQìB;33A'KÇ¿%¡Ë1    s¸J110050.33+133551.4(ø@® ÖĞnÀ  Ö  Ğn O@d¦¶°_¯@+1ü27‹?¡hrÀ   Cg†B—ƒ@…p¤@]ÿ:A%oA
+`@\)?LÚ¿”Ã¼×*a=…'=µÈ          ¾€7û¾(Øå AøTA=öAç¬ @‹33@‚ìÁ?Æ÷Ÿ?ù™š>Tdã@”>ÓêN.ôL“ƒN-Z5Lÿ-:ŞôAd>óC•² =AoC¯ÈÁBûòA“M>/tò    ¿Wò' @G®>ÿ€^M\
+LA}×;fˆA/TíCªE =C–                            s¸J110050.33+133551.4=C– 	 =—x= +?G®=£×
+>õÂA„  A`B¿;"Ñ1    0SJ111306.40+051403.0)Ç 2 §CÌf`   C  Ìf€@eÚ¤ü¤+@ïÊB®Ñ9?¦°`   C?A­!«@UÂ@q±A,¼jAfs@8õÃ? Wü;Æ?à>Şf¨>¸&=ƒ1          ¾œE¾ôr. A^×AµVAuH @‹33@9_?ŒÚè?G®>á?iº>¢	Mü²L«ãNrLüÅá:ÎN­A•CwCÅ =1(ÓC­û>Blã™A_o>3îA    ¿ÂçÛ ?¬ÌÍ>¡;
+MT
+’LEØ9:êoAH,C¾Ó =0İƒ                            0SJ111306.40+051403.0=0ò|  =0İƒ† l?hõÃ>™š?.{A&ffA¶F¿pbN1*   0J111443.35+040128.2)Ç@5 ¹CÌf"@  C  Ìf ‰@eÇ¸Õ¦@ÅXdE?¥S&    C8»B-ª@³33@t5äA3`BAÜ@Që…>cçû¿oƒ¾Ê¨Ş¿Nf=>Ínz          <6áå=ÚÛ´ AHúA0¤AÔˆ @‹33@S!Ë? mç                Ma    M'Sh    :‡¨Ö                              A3ZÀ³      À  À  À  :«q2          =*™1                            0J111443.35+040128.2=*ÍŸ  =)ÔÕ ¸>Ç®=¸Qì>Â\@Ó33A¸¿âJ2*   0J112029.23+040742.1)Ç@> uCÌf€  C  Ìf @eCæ5~@ƒvõ×ˆ?©k¹€   C\­hB4TO@{@ãu¸A5VAV8@=q>Ÿx¿Iª¢>3Ì“¼#V=ı¾Ã          >.õ>÷" AñäA
+÷]Az( @‹33@eGT?®7Ô?h1'>´ø?¢¼õ>N¼N “MŞİNRqM8¯:˜‘\@èĞHDò° =JX–DéAçÅAÿæ>7*c    ¿ès      À      À                                                0J112029.23+040742.1=K)_  =K<>) ?®>\)?
+=q@¬ÌÍA×
+¿Éº^2    t’J112131.76+132535.7(/!e ÙĞ‡3@  Ù  Ğ‡ Í@eL<!~|@*Úl <K
+?¡rï    CÃÆB’+š@l(ö@ïtA,ÀƒA@%Â? Wü>€–¿?	G>½D     A&÷•>‡À¾Ç >
+c¨ AtA
+6ÓAu< @‹33@¦k¥?üé@3×
+>œıW@X#É? ^	NYrRLä!¶N‚«$MAæä;¤AW!CçÙ¡ =İ        A=>/Ê_    ¿…B/ @.{?'¹áM„uL>İ;oE@î`_CÄÁÍ =—x                            t’J112131.76+132535.7=¬q  =Ó=ê Ò?333=ÌÌÍ>õÂA+33A›¦¿¡&é1*   tÄJ112946.35+152001.1(ø Ş ÚĞ‰j@  Ú  Ğ‰©@e.Hè§@.ªÒÜ±F_?¢Âz`   C!QyB[9Ô@s×
+@€R¨A0ZAR@6ff>j©¿V¶Y>‡l„=H–F=ÙÓ'          =­:>…n¬ AÒA
+Ç‘ABĞ @‹33@@°p?’j^?‡®>&s?¥.¼>¼M½Ş°LÉåMç'ÕLÆWÂ:§ç@ô™mD	G =        A œ>64.    ¿íÌ     À  L¦?ÿ€  ;‚          =Ó                            tÄJ112946.35+152001.1=éâ  =t%· ”?§®>™š?\A4ÌÍA“¿’J5*   ußJ121602.67+141121.8(/A½ åĞÚ€  å  ĞÚ 
+@g [TŠœ@,`÷¹à`ş?™÷øÀ   Bİs½BP—À  @O€ìA+ÎÙA×—@9™š? Wü¿®ÀÖÿ€  ¿]¿º>´?»          ¾?ùh?øÿÿAqÀ  Au @‹33@6]?Š‘Ñ                Lc»Q    L’¤O    :Ãÿ                              As
+Ào:      À      À                                                ußJ121602.67+141121.8<Ğ©  <ĞxS >B\=uÂ>¨õÃ@°  A©üÀ “u2*   ^hJ121612.36+132615.4)ÜÀ¯ ŒMÏ{h€  M  Ï{¢@g¦76Íò@*àºˆ&«?š¬Ùà   Bã˜6B“oÆ@˜£×@% A&ıôATT@5¸?${Å¿dú¬¿#—­¿Né              ¾à7½Oİ AØ¯A_·A'  @‹33@jàˆ?²xÚ?§ğ=çÀİ?\8>!îáL½y£KºèîLÙ3xKãÛ^:¢©@ <C¦- <Ö×        A	ïÿ>B*â    ¿èo«      À      À                                                ^hJ121612.36+132615.4<Ôıô  <ÕàrË º?c×
+=\)>Â\A¢ffA“u¿ƒSø1    `¥J121750.81+082549.0)Àƒ 9YÏ”\€  Y  Ï”r@gÆi}@ ÜM© >ê?©2    CZ§Ban@(õÃ@k®A.Ÿ¾A÷µ@:áH>û•5>
+dÉ?Z?$ü­=®r A(ç>¼ã¾åŞc¿H)¾ A
+ğAbsAel @‹33@:›?Êô?¢\>(Ğ¼?¸A³>’46NNu!LóNj\M9¯I:­hƒAƒ"Cß:° =Hİ–        ANk>2ŒÌ    ¿ºŠ›      À      À                                                `¥J121750.81+082549.0=I…ğ  =I¦r² –?šáH=õÂ?™šAƒ33A!|î¿R-1    GŸJ121853.94+100010.1(×­ æÎÍÀ@  Î  ÍÀ@g1;â.^@$qŸŒ¨?¦E`   C>…†BJö@ÀõÃ@-ŞuA-ó¶Aõ@JáH>ÙPT¿È¿’º‚¿“<?[«|          =ı€|>€šì ABLAAm¤ @‹33@7šò?‹ƒV                M5¯'    MF?    :œÃ                              AfdÀ5G     À  À  À  ;	`          =0j+                            GŸJ121853.94+100010.1=0‰   =1H â>ë…=uÂ>…¸A(  Añª¿¨b1    GõJ122006.47+100429.2(×¯ uÏÍõX   Ï  Íõ`@g İ/Ÿ¾@$&Jßø"¼?¦4—À   C?ãùB.Pn@ƒ33@F‰A)¡ËA	ª@aë…?”j>	ƒX?	Ûä>ˆ®Ù=›Ö"          ¾¥ê¾Ü<‡ AgŸA`Aa4 @‹33@6‡ô?Š²a?Y™š=şÖ:?s›>L<MÖ
+¹LŒPWMïŸNLÈå:ØËA‚C8ô =1¹SCGBeí8A€C>5‹    ¿¹@ ?Z^5>hŠ„M,PLòJ;!‹Ö@¶‚C+iY =1¤¾                            GõJ122006.47+100429.2=1Ä3  =1X 	@>B\=LÌÍ>uÂ@Ó33AáH¿¶1*   v‚J122319.58+141813.4(/AÉ çĞ¼0@  ç  Ğ¼ Á@g:œb¡µÈ@,›ƒÏ,ù]?¥fÏ@   C8»–B„[X@˜Qì@‚.JA/7LAÀ@:áH>û•5½fà>/ÿ	¾“,•>O^ÿ          ¾%I<¾y¤­ A.ZAA[È @‹33@F'µ?–‘œ                M.%    MIV>    :šíW                              A«À®„     À  À  À  ;LÛ          =+6z                            v‚J122319.58+141813.4=+6z  =+° ÿ?\)=£×
+>¸RA$ÌÍAãT¿ªŸ¾1    çJ122727.61+031807.6(²¡ |Ì;›     Ì;l@g[®§GØ@
+jÃ")´?¨÷    CX•$Br_ê@)™š@¾QåA0İ/A¤@B\>j©?/ˆ»?€¼?r/<«¦ß A,DÀ>®[T¾xBW>
+½ A(SA	¾ôA4¨ @‹33@Äv@úæ?Ù™š>N„@öÆ>ĞHN‡¢‚M İMN©¡M©L:¾øÏA6¦-Cò) =Gê6CâB…ÒüA
+«>1_    ¿”!      À      À                                                çJ122727.61+031807.6=Gâ‚  =Hú{õ ×@0  >™š?J=qAÚffA'&é¿dZ1*   H%J123251.49+084423.9(×!Ä ¡ĞÍû
+À  Ğ  Íû +@g†İÁç–}@!zŞ¨—c^?¡KœÀ   CiàB|»@ £×@e<A"ffA´W?æff?.uC>ÌÓ>¦Oã;Ğg=¿ÿ          ¾é+ÂÀ    A
+ÓhÀ  At¸ @‹33@| Ò?¿|E?N{> ?^id>@_MtÄÒL$)HM„RLd0è:Ó£@ğHICMA =
+O        Ašo>6ŠP    ¿_µ ?M‘h>|#ŞL™¦ÑK¼v@;7²‰@‰«íCU¾M =
+\æ                            H%J123251.49+084423.9=
+qŞ 
+ =
+j‡ ß  Ò?¸=uÂ>úáHAc33A~ú¿>vÉ1    mïJ123711.40+083929.8)À7 P\Ğân€  \  Ğâº@g©…H©¼ı@!Q²•éâ?œğ0€   B÷ODBgèl@G
+=@h–A$İ/Aü5@8Qì?LÚÀ'P¾·#C¿Âó>)Ö.          ¾5€>ªo# A 4A	<AßÄ @‹33@QDã?Ÿ‡                L‰®Å    L›¹Ì    :¦üY                              AÒÃ¿ğS`     À  À  À  :ÔÜf          <ç„                            mïJ123711.40+083929.8<çÕg  <ç–}] N?”zá=áG®?+…A’ffA‰7¿5?}1    2·J124032.46+052119.9(€7 NÌ·z   N  Ì·è@gÄT6¸ù±@l­­ë?§Ú¥    CN›Bd¨_@‹33@‹L·A0—Aü»@-p¤>j©¿P4¾&y³¾¨Q              ¼.VA>¥ã" A“¡A	÷vA<t @‹33@@d?‘ê­                M(ıp    MD°³    :†ßƒ                              AªNÀ´ı      À      À                                                2·J124032.46+052119.9=>ß¤  =?NÊ¸ (š>ğ£×=\)>¸RA+33A=q¿²Ğå1*   jJ124309.36+033452.2(²Á¸ Ï	Ìfš@  	  Ìfi@gÙ?¦Şüz@¦FñV?¨ëF@   CX+5BV!Ä@C33@¬M#A,E¢A	•%?ü(ö? Wü?9LF?UÎh?Y	<ë Q A*{ù>Â?¾âËH¾íö AAÉ AuĞ @‹33@vïs?»¢u@4zá>“Nğ@^"Ã?!0‹Nà'ŠMa.ÈO	ñıMÈ2+;UŠA|±:C¸š =G:õCÛı A¦7A6š>.ò5    ¿Pğˆ      À      À                                                jJ124309.36+033452.2=Gy§ 
+ =Gªïy `?\(ö=¸Qì>õÂAƒ33AõÃ¿Tıô1*   hÆJ125129.06+134654.5(‚ J 1êÏ³€  ê  Ï³ ^@hà7Ü‡@+J¶·ª?£;€   C%{Bs—ò@^¸R@©ËA0vÉAMY@\)>j©>¡Ú~?.]D>äÕU=@«7          ¾â#¿?R AæAƒA?à @‹33@Sjœ? ¥<@G
+=>Ñv@‚šP?<5"N’jÍMQ~NÀ%±MŠrÛ;{pA†NCÈ¬Ë =æCËë B®AÛ>.¯p    ¿¦¿r @>¸R?$ŸªM°”@L˜jî;9f¾AEsOC¨ä{ =Ø„                            hÆJ125129.06+134654.5=u  =˜° ™?¸R=áG®?ë…AÌÍAçm¿”zá1*   .J125704.49+103714.5)? W }Ò{S€    Ò{N@hH™™™™š@%=Ïò=?§²    CM2ŞAu±[@w
+=@˜uA2“uA?‘@!G®>jê¿OB™>•‡=°›Ô=Ëâ          >­Ù=äUĞ A#y%AØÿAø( @‹33@La4?›Ln?xÔş>$Sˆ?Ÿ†Ñ>VN[LìVğN2ğuM¨½:ÄŞÂ@İ“SCÊyP ==ÊuCãbBçÚAğ>89.    ¿ä(      À      À                                                .J125704.49+103714.5==¥  ==ÔA^ G?s33=£×
+>áG®A¤ÌÍAıô¿œ¬1*   3«J125950.03+050251.2)Ç€ä ’QÌ×b€  Q  Ì×Š@h^¬1&é@0³‘’d?¨½f    CV^AÊ£z@ff@é‡ZA3…AYÆ@™š>cçû¿{0“>1=ÒÑ©=ú.â          =*Á<§Ù AO8AÉşAÍ¨ @‹33@TuÕ?¡pI?_¾w>‘L?ªéÈ>–³æNíæM*³NQ1ÕM8u:Îös@äiC‹ÛW =EWµAX¢aAqZAmÎ>7˜ã    ¿àº„      À      À                                                3«J125950.03+050251.2=EÖ9  =FÌ9 &!>áG®=ÌÌÍ?   @ù™šAIº¿ÉÛ#2*   ]J130750.80+031140.7(²¡â uÌGPÀ    ÌGC@hÆ*\}@	©æî·?£¼Ó`   C)÷+B•@ˆ  @¯I€A1çmAÊ%@$zá>jê¿k>P¥=°†              >!;>vÊ AÆAAoAd @‹33@G‹½?— #?´zá>vÑ?ä½›>§zENì»L”ÔdN1WAMØ:…±…AkÈİCËø` =Cû’‡AíBAØf>/HO    ¿àx: ?k>ˆäƒLåQ‘L”;Êd@—#ØCP™ =æ›                            ]J130750.80+031140.7=	 	 =vhÎ ¶?ƒ×
+=áG®?\)AdÌÍAõÃ¿§P1*   ŸMJ131934.30+102717.5)? | $Ò[‚@    Ò[	@hü’öè)J@$èä¸{Üğ?¨˜²à   CUF	B02£@™š@‚"=A1¡ËA ™@L(ö>jê?Ë?{â>­ˆ=ó( A)ë>§¾è¾¤W±¾É<$ AfûA†A @‹33@PúÃ?Ë3?ü(ö>x´Ã@b >ãa0N˜ƒñM.¦wN±bM‰‡ :òà]A*ÆCæ¨ =DhÖCò9&B¤Û6Aøí>1¢%    ¿µFò      À      À                                                ŸMJ131934.30+102717.5=D›¦  =DtÚı Û?aG®=¸Qì>³33Aq™šAéy¿•Â1*   œXJ133338.20+131409.6( Ö ˆïÒW @  ï  ÒW @im*™0¾@*xÖMÔ?¦ÿà   C?¯B	¥c@Ÿ®@€A2~úAã`@Që…>jê¿–==8"¿Iß%?¸R          ¾ —L<*ö AMfA
+ÒØAûp @‹33@…‹¸?ÊóJ>Ïß;>@¼>úy±>8óKMJÂÓL¤×°MtQ L´g):IR@CH3C¶­ =18³        Avì>aôz    À 8     À  Lƒ†o€  :ÎN­          =0çÿ                            œXJ133338.20+131409.6=0ò| 
+ =1t] 9:?ƒ×
+=¸Qì>£×
+A‚ffA‹D¿Ÿ²1*   wJ134647.18+020712.1(²b# Ë:E€    Ë:@iÖJ¡!@ õÜÆ?? ëî    C ËBEº@£…?íû3A)…AÍë@J=q?Zr¿#‡F¿ˆ"b¿Y€              ¾pºuK\ AÚİA
+ü¬A_t @‹33@€‹š?ÃYã                L·4v    LÂñ¤    :›s                              A	Ğn¿ı¥Š     À  À  À  ;&ö          =_p                            wJ134647.18+020712.1=“Ş  =ÈK‚ k>Š=q=\)>®{@É™šA¡Ë¿¿ 1    58J135152.41+032718.0)Ç!; ‹WÌ—€  W  Ì— z@işüøÃ7@£á†˜5?WS    CÈ	B?±×@   @tÿÉA$ıôAæ@®?LÚ>›c?R>ß0-              ¾ø¯¿5~+ A
+P?AÒ±Aä¬ @‹33@@à?’”@G®>oãá@>û?
+ÈüNzçLxN-ÅİLıg;#6Aui|C}šŒ <òÎšC…‹s@Dˆ]AwÃ>/    ¿xc      À      À                                                58J135152.41+032718.0<ò{³  <òÃ& @‚áH=áG®?B\B{™šA"õÃ¾J1    $UJ140316.98+042147.4(`À ¶FËMCÀ  F  ËM@jZCªy»®@sâÖ#¤?§«u`   CLø6Bd„Á@W
+=@R]A5XA¢|@:áH>Ÿx¾+ı¯>Úš=ïø              ¾¥^R¾ĞÍ A\)ADAhx @‹33@E“S?– Ü?¾¸R>Sã×?ÊL®>¥iïNUvLûğNbkëM9#:; QÊAòvC¬ú¾ =<ÄµC»gB¤êãAy^>3äÔ    ¿îõ      À      À                                                $UJ140316.98+042147.4==<6  ==!ÿY 
+??G®>¸?(õÃAÌÍA‘h¿¾5?1    $¨J141509.84+042840.4(Æ€& ìGËW*À  G  ËW «@j¹Oß;dZ@é^š?©!€   CZæB];@n{@î=A,›¦Aş@'
+=? Wü¿ˆ{ˆ=›ôØ½·}              ½²l»àª A¶×A…7Au˜ @‹33@elî?®Tf                M¹´    M1N¿    :b                               A.=¿ûkE      À      À                                                $¨J141509.84+042840.4=I  =IU´ 
+‚?@  =ÌÌÍ?
+=qAA™šA-¿féy1    –>J141545.94+102619.8)üA¯ l©ÒX €  ©  ÒX @j¾ [À7@$à²B?šh±    BáG€BsÙ@Œzá@cÚ.A+ïA@
+=? Wü¾H>4Z¾ÅÎ=¼ù          =\M¿;]UE A¹ŞAğ&Auh @‹33@8$ô?‹ì3@5Â>–rá@k ?+JHMú¤QL†øN"…Lì4K;:PAsØ¤C£êÔ <Ó-×CªÏ¿AÙ¤A¨ã>/    ¿º5Ø      À      À                                                –>J141545.94+102619.8<ÓZ†  <ÓÚs< *>k…=uÂ>¨õÃ@À  Aí‘¿øb2*   %*J142209.71+043116.1(€à ˆHËQv€  H  ËQÚ@jñKÆ§ï@¥¹bŒ½?›a»    Bé¾BB$
+±@õÃ@'-’A(1'A®@>{?Zr¾ÒÁ(¾³V¿,oU>™Z          ¾¯ÿ£¼ıV AíæA
+=AEì @‹33@¡Šş?õq>Å¸=ìºÄ>ízv>gÂL’.2KÓCL°Kìl…:wO@])oCÄØÄ <Ú×        A
+²#>WYC    ¿ëø      À      À                                                %*J142209.71+043116.1<Ú¹õ  <ÚµÄ† .q?”zá>¸?™šAvffAÄœ¿vÈ´1*   $÷J142505.50+031359.3( å œHËQ   H  ËQ d@k»×²@	İ}¿HÌ?¢6;    C{ñB0üÍ@‘G®@ FÁA,´9A@HQì? Wü¾©# =Ùéb½sò              ¾~Í>Ïq€ AaùAÑnAu\ @‹33@9[Ô?ŒØl                LÖÊÈ    Lï6    :R                              Aö„ÀöÓ     À  À  À  ;ì‰          =±Ù                            $÷J142505.50+031359.3=ÑN  =ı~Ê T°>…¸=uÂ>\)@ÆffA(ö¿ÔZ3*   EJ142720.13+025018.1(²¢f İËP@    ËA@k¯%;@µ ’Ìö¾?›`   Bç²B…8â@lÌÍ@,ØüA(ıôAÚ†@…?Zr>õ3´>g¢>Ò‚F=	Ğ A%ìg>Ö+¾¡}¿ôÅ A‰‚AòÀAV` @‹33@;’ø?‡]@ŒÌÍ>ÒJ@£ìë?g°ÆNL#_L±{NmªŸM'õ);"A¦R-C©ÅO <ÖåØC²o1@ëI¹As/>-ü-    ¿ŒV*      À      À                                                EJ142720.13+025018.1<ØDĞ  <ÕÑÄ
+ - ù?^¸R=õÂ?ë…Ai™šAr°¿”Z1*   %“J142833.30+031543.1( ë |IË;>@  I  Ë; ù@k$pâÁ*Ø@
+“t¼j?œb¡À   Bò|Bšô@”ÌÍ@›vA0›¦A|Ú@-p¤>j©¿®ÿ¾7ab¾ScŒ=ÆZ´          =–µ>?§E AGãAA;ü @‹33@@r?‘ú¬?3¶F>
+6?uQ÷>oK£MJ~Lo8MCšQL>Ì:”_@·'C<Cz <ãÙD¾OBö DA¡4>=]4    ÀéÈ      À      À                                                %“J142833.30+031543.1<âë  <ãZB8 !?Ë…>B\?^¸RA;33A|î¿¨õÃ1*   ‰J143335.68+023819.3(¶¢m /Ë8TÀ    Ë8S@kLÁç–|¯@ıy?œòÏ    B÷f$Bˆ˜Ş@€£×@DÈA)\)AE@Që…?Zr¿v¤¨¾º‚È¿¯               ¾poB>d AVÀA	ÍA\ä @‹33@ÉçS@jÆ? Å=ÒD?"5»>5XLï¤KÄNMªKş.;:—¦z@ÃDC“ga <éJ        A1(>;jf    ¿ÑX      À      À                                                ‰J143335.68+023819.3<çÕg 
+ 
+<çÛ±‰ y?ï\)=¸Qì?(öBffAå`¿Gl‹1    &VJ143348.34+035724.7(Æ`F JË7cÀ  J  Ë7@kNr[U@§«ud0+?öU`   C  &B!@†¸R@‡A-÷ÏA±'@
+=>ÙPT¿W”„¾jD¾Š>L!          >MÔE>À®í ANA
+ÈEAmx @‹33@7¢a?‹ˆü@®>iHf@?z«?S¶MñC½L’ZÄN*>7LûNX;ÍA_[CD¹Z <ğB        Aûë>/–¥    ¿Çß# ?Ã×
+>ÈàåLÛ&GKàÉ¨;‘ù@ÇcfCŠÁ <ï²«                            &VJ143348.34+035724.7<ğ 
+ <ñ• 
+?   =¸Qì>õÂA33AQì¿Í/1*   —fJ144743.50+093217.4)üAä ±ÒC9@  ±  ÒC å@k½Í ¯¢ğ@#‹«`k?Ñ¢    Bşÿ¢B€Dİ@«×
+?×ç#A,záA˜™@U¸? Wü¿hOK¿àÀ¿ANü              =9=†d AŒÔA½CAuÄ @‹33@6?â?Š{? A‰>%w?+3¤>10¬MÁKşB­MÀ!L:UÁ@¤CìÙê <ï‹A'–ŸA(:÷A
+t>A;/    À      À      À                                                —fJ144743.50+093217.4<îc   <ğZq} h?ÌÍ=¸Qì>áG®A   Aí‘¿¼j1*   —\J144859.36+093017.1)üAæ ±ÒC/   ±  ÒC ¼@kÇê‰v5ç@#q6¤ ü?§ãÑÀ   CNğÃBeb@Áë…@TA.r°A4 @P£×>û•5¿›Ú¤¿–Œ´¿¯¶?£d          À  À    À  À  AgØ @‹33@8”@?Œ@Å                MTÛ~    M`v    :6                              ANÓÀv      À      À                                                —\J144859.36+093017.1=?H€ 2 =@®ş İ>.{=#×
+>8Qì@³33A‡¿ÚáH2    '#J145153.39+032147.7(A LËM8@  L  ËM á@kßdob@
+çúñ€?Ÿ‚+À   Cã|Bw­@<ÌÍ@ A*ÙA2í@¸R?”j>Fö›>9<vı     A"e“>‹Å&¾çG£À    A
+ãĞÀ  Ao˜ @‹33@>¦†?İÊ@p¤>u,@9½–?)bN,âL§H‚N6Ä>M	êŞ;ÄßACíC›6 <üÂC¨¿g@¦ÛFA¼ã>0tm    ¿¨á£ ?¹™š>»+mLåÛœKçÍA;2B@ĞxĞCvà <ü^                            '#J145153.39+032147.7<üPH  
+<üo½b S@ƒ…=áG®?LÌÍBv  A#‰7¾éûç1*   £7J145730.93+082326.3(E À UÒ|W@    Ò|]@lİëÙ@ È–gµò?¢ø7À   C#,*Bi¶>@’\@áA1\)AÇ@E¸>j©¿1£>I)º»çUÛ=ß•¶          >-„8>É‚d A
+A
+ˆQA%L @‹33@D"?•C?Ğ£×>4z=?âÓ>§ÄNMLŒgŒN"PVLğ_:Š&_A[óóD­„ =şñD0AĞHA5>/«b    ¿áÿ¤ ?oß;>“ÙÚLØ
+†L)ˆ:ÿûÎ@ˆy[C« =Á¾ ?¸RN5‹:å>´@ìù¢CŞÊ =u¼  £7J145730.93+082326.3=ö+ 
+ =®ŞK A,?Tzá=ÌÌÍ>½p¤A;33Aí‘¿³t¼2*   ˜4J150216.35+115503.2(œ€ ¡´ÒCƒ   ´  ÒC@l2.Hè§@'ÕÍ¶íg? €s`   CqBeA*@­¸@GA4QìAc‡@333>cçû¿Mc‡¾à¿sÁ              <™b±>Î A‰A
+0A¤` @‹33@\u?§¢“                M>ï    MLL¸    :Òå                              Aä¦Àµ     À  À  À  ;6sÅ          =›                            ˜4J150216.35+115503.2=ä& 	 =kjš {>Ç®=áG®>Ç®@™™šAçmÀ©ü2*   'êJ151140.36+034034.2(Æ€… êNËY*@  N  ËY ©@l}a¦Ec@hËÑ$Jb?§½Ï    CMœsAòÆú@/\)@‘«—A,1'A:Í@&ff? Wü?°"?B9F?p+=‘          ¾ÔÀ    AÇÀ  AuÈ @‹33@J€…?™ß.?úáH>rÿ§@B³>ïnzNB=M)XæN®ÖÿM†Ğ
+;%Î[A0´CeÊ} ==“uCpä‚Aú’AªO>1Tö    ¿Œ6¼      À      À                                                'êJ151140.36+034034.2=>í  
+==ÔA é  Ú?ìÌÍ=¸Qì?O\)B33A#¡Ë¿õÃ1    ¤)J151507.55+070116.5(E`ŞWÒ[(     Ò[  @l™¸fä;@Â\(ö?¢Ë§@   C!¢€B{>G@œÌÍ@RêıA.  A?û@AG®>ÙPT¿<ÌË¾,’¾I>+          ¾ÜØ>F5¸ A€ìA	ìµAm$ @‹33@¤¿n?ú^C?"\>Š?9k>:ÈšMd]LRÅÈM‚<ÊLƒ2M:¦ÚË@¬9CÇ x =cĞ        A^Z>?k5    ¿İ- ?_|î>jÂrLÅ’ÚKÏ‰È:ÒÁ@¼ˆCª„ =]:                            ¤)J151507.55+070116.5=R½  =_R™ ƒ>úáH=\)>Ç®A0  A33¿¶ff1    £ñJ151531.54+062213.3)?!= İÒ[€    Ò[ @lœ4Ö¡aå@{Då^³?¡ö€   CEÚAÇŠ¥@\@…–A&È´A&4@5Â?${Å>û§6?'Wu?&0Õ<ÏS A&w‘>Îâ¤¾xy¿¢ A'A*A! @‹33@Dv?•Hy@33>D±Z@/Á*>ø«õN(*²L¨İ;NaFeM^];º4A¤ iBå† =şğBÊ¾ÒA}AfK>.Ä    ¿v& @33>û°æMmwÜLKµ;uÊATEdBÇ:h =°                            £ñJ151531.54+062213.3=Å  =¸o m  g@`  =\)?šáHB¯ffA$5?¾$İ/1*   ¤J151619.14+070944.4)?a>Ò[Š@    Ò[)@l¢d×ğí@¦<tûT ?¢r†    C¼BXİı@_\)@îYA/|îA	€8?ë…>û•5¿X\g>ò1=±^d=€§z          º¹b¹><èô AßÅA
+ºkAVœ @‹33@?LÆ?‘\                L×û    MÇ‰    :Ûù                              A	ÛÀ‡w     À  À  À  ;T          =”1                            ¤J151619.14+070944.4=t¼  =®hf R?uÂ=¸Qì?
+=qA†ffA‘h¿Ÿ\)1    ¤·J151853.66+073433.3(E ä 'Ò[˜€    Ò[b@l·'»/ìW@M½øôs?¢ë@   C"¸\B?
+×@©ë…@UŠA&(öA´¼@R\?LÚ¿¢lL¿›Ø¿¹´?EÛ/          À  ?(ôÿÿÀ  À  A´ @‹33@Hf?˜Fs                L†Øƒ    L’%â    :{äè                              AÑÀ P“     À  À  À  ;1İ]          =Xâ                            ¤·J151853.66+073433.3=$t @ =Bİ Ğ  ¿=£×
+<£×
+>\)@À  A
+Iº¿ŞùÛ1*   š«J152716.72+100240.2(„`5ºÒ\3€  º  Ò\ Î@lú:æ…Ûw@$ËSP	-?¦I`   C@ïBfä@`  @iB"A-ïADç@I™š>ÙPT?*B	?<ä? ÄÄ=?          ¾¼¿1ú At¯AšmAmÌ @‹33@@uÆ?’=Ê@  >†ë:@#O’>ø¡âN´(M¢mN¡×:Mvdì;Œ7A;GCØ_œ =27sCŞ­Bd”AÆg>0Î<    ¿¡I¶ @#×
+?3MÌZ½L·k`;0lDADÎCØøõ =2Lƒ                            š«J152716.72+100240.2=2-  =1õ{} c?¨õÃ>k…?‹…A  A ^5¿Y‡1*   šJ152747.42+093729.6(„@6N¹Òa˜   ¹  Òa`@lşRç-¡#@#?ô4ã ?ŸğE€   CÅ·BhÃ‰@uÂ?õDA) AWh@G
+=?Zr>ıj>’x5=CÒ=—ïä          ¾º¸¿j A‚ApîAXp @‹33@A`?’ğ%?p¤>:K
+?©Çu>²MŸ6LK'`M«°vL«¿:Û'A œ‡CÂ&‚ <ÿšœC¾„*A“ÒA•è>5Oï    ¿Ä%Ã     À  L‹Ş<€  ;Lî[          <ÿ‚,                            šJ152747.42+093729.6<ÿ—$  = a L>aG®=uÂ>\)@Ğ  Ap¤¿ÍOß1*   ¸uJ154902.67+175625.5(> zÒsY€  z  Òsf@m¨[W>«6@1ğÀ­Ù©? Ewà   Ck BQ"@C33@MÄA(“uAo7@(ö?Zr=Ì:>(ã½ª`=Óá8          ¾@€µ¾œña A~AIsAN8 @‹33@EdJ?•ı?k>Ó<?Œ1z>e}MvÍnL#ë”M“:®Lq:µgUAÕC„B= =HnC‡7AkqÁA©>3ğg    ¿ÇS9 ?¸R>™~LÑÊİKÊáö;@ë•Cš÷ç =+¿                            ¸uJ154902.67+175625.5=@¸  =8T 	>×
+==\)>Ç®A   A{¿£÷Ï1*   ¥¢J155125.21+254539.0(  ş 9:Òˆ@  :  Ò!@m»\å´$_@9ÂÆi}?§‰a@   CKÇHB‰½ì@…Â@±lA0jA´'@-p¤>j©¿a$ñ>,¾Ó=æØ¬=é ‚          ¼ãwÅ;ÃSã A˜AßAA, @‹33@Bd.?“µw>ùÛ#>£c?j;>8ĞMŠ<ıL±¶mM¨§\LÌ€ß:˜oÎ@~şQD ŒÍ =;‡u        A{>M™ê    ¿ÿX#      À      À                                                ¥¢J155125.21+254539.0=<j  =<¤+ ï@U¸>¸?0£×BffA'²¿ÌÍ1    y´J155752.01+041544.3(F`Ã x-ĞöM   -  Ğö4@mîïˆ¹w…@šş§±?š^5@   BàìVBiöô@¸Qì@8eNA*ÔşA’…@>{?”j¿¿„v¿Œ€u¿ºÌ¬?¥ë?          >°m>¡ç AÆ¼A
+ÅÚAot @‹33@7MJ?‹HS                L¢j    LÄOÃ    ;9"                              AƒÀG¢      À      À                                                y´J155752.01+041544.3<ÓZ†  <ÓG¦ Õ  È?Y™š=ÌÌÍ?8QìAi™šA¬¿¥Â1*   s/J155754.56+092435.7(„ g ŒÀÏìaÀ  À  Ïì‡@mïFˆze@"Ñã§Ú¤ı?¥éáÀ   C=J@Ak×\@±ë…@ezA2°!ASk@I™š>jê¿tÂ÷¾š”¾ƒá>í¿          =ÏIÚ>Œ‡ AkWA†…Aóp @‹33@MBá?›÷é                Me3    Mˆëƒ    ;òE                              AmvÀ
+­     À  MCÕ¥€  ;¸»          =/O                            s/J155754.56+092435.7=/O 
+ =/ø è  ×>™™š=\)?¸@ÜÌÍAûç¿å¡Ë2*   *OJ220322.59+123857.6(
+€w­ŞÌ ‘À  Ş  Ì G@t­£n.²@)LvJßø#?›÷'    BîÓ¾BkŞS@   @@!A'dZAD@.¸R?${Å=ÇÒÕ¿ÉÏ¿'>™ú          ¾Î³5¾ßH AÁAØ‡A20 @‹33@R]?ŸØ`?Ù=ä"?ä’>´¢Lİ{KÃ LôW»KôŒ:•d@®õâCºÂï <ß'XCÃPâB“®ÊA	ı`>>İ:    ¿ë7Ï      À      À                                                *OJ220322.59+123857.6<ß¤@ 
+ <ÜRç¼ )£@ £×>¸?¸AÈ  A9X¿°!5*   *bJ220538.79+122521.3(Ë`t_ßÍ'EÀ  ß  Í'@t¶–Ov`@(Ø_ö”F?¢-`   C+BÅ@€  @€A$‡+A =@õÃ?(ê'¿İ«>Ã*¾é)R>³o          ¾®âÿ¾ÆTâ AùFAêAÒ¨ @‹33@QA3?Ÿ ¹?!‰7=Î`Ü?/‚>r&MT/LØ$MeàLIv:— C@ç„çC„¡ ="P        AXl>7G§    ¿±uø ?I7L>;/íL¦?ÖKš¨:•dAÌBCœÆ =hs >†$İMW":Âçq@-€ÕCMY&=dä  *bJ220538.79+122521.3=hs 
+ =?* ?
+=q=£×
+>õÂA;33Ahs¿Që…1*   *YJ221111.69+114802.6(Ë }HßÍ'   ß  Í' ,@tÌÇy¦µ@'™ùHUÚ'?›­À    BìTHB=İÉ@k…?ì]°A%ÎÙA“@0£×?LÚ¿w6%½üZh¾³øŠ>C€          ½`“¦>tâ A2îA
+-ÉAü @‹33@NqØ?œŞ?vE¢=äs?‡É>MÒƒM:¤4K¾™ÚMMĞuLüf:¼-A?;C™I <İ.ØC¡¾¦ATFJA{²>0 û    ¿Â™7      À      À                                                *YJ221111.69+114802.6<İ/  <İ€å4 
+$?!G®=¸Qì?záA333A¬¿‰‡1    *…J221212.48+121218.6(Ë@ "àËıG€  à  Ëı@tĞÕhÆ“@(i©æî·?œ0Ó    BğÊ[BX@ £×@^ùA ¬AªM@
+=?9™­>y¦»>Âic>P‘ß=S(\          ¾äö¿:on A
+ÿ×A ÂA¤ @‹33@?º}?‘¯|?İp¤>KO'@">ÃãM®"L:v¥MËL™n%;ÅvABq4CK + <áÖYCI4qAsA±z>0€    ¿o¨ß      À      À                                                *…J221212.48+121218.6<áG®  <áí[ Ğ  Ä>Ç®=LÌÍ>×
+=ANffA‘h¿q©ü1    *‰J221236.07+140103.9(ËÀDàËıQ@  à  ËıE@tÒgÀn¹@,	&A³)?›?¦à   Bè•”B™c@¤ÌÍ@ »A'G®Aè™@W®?${Å¿¬,¿6‘¿`ÿË              ¾€WÌ>eõN AöàA	?,A/$ @‹33@Á¡@¨Ò                LP¾-    LmßN    :˜$                              A	4}¿ğ™‹      À      À                                                *‰J221236.07+140103.9<Ùè> 
+ <Ùä6 '?…¸=\)>áG®AÅ™šA÷Ï¿tıô5*   *\J221253.09+122158.7(Ë@€-ßÍ'À  ß  Í' K@tÓŠû“Š@(»K‡½Ï?›ºÜ    BìÆsB-L=@³×
+?®
+A"£×AUí@8õÃ?.uC¿¡&¿ÁnY¿Ö¥v              ¾ˆn>Oê A™‹A	GÓA€8 @‹33@¿~5@­                Lœ³    L@Y    :˜N@                              AF2¿âí*      À      À                                                *\J221253.09+122158.7<Ş Ò 
+ <İ- ’  ‰>¨õÃ=LÌÍ>õÂA333A Å¿”“5*   +J223619.86+141852.3(Ë §mãÍ(`@  ã  Í(@u1S&Á¾@,¡
+8Å?£33@   C%5{Bõ‹@”(ö@3HA#÷ÏAY¨@Mp¤?(ê'¿[æ¿"s’¿LáÍ              ¾êD{>»ç A
+ÉğAweA»¼ @‹33ADx@^H˜                Låüá    Lùÿ.    :–5a                              AA«¿•±!     À  À  À  :¡Y          =™š                            +J223619.86+141852.3=™š  =û… p?†ff=õÂ?.{Aa™šAÌÍ¾å`B5*   +J223701.58+142417.4(Ë ¨[ãÍ(^€  ã  Í(z@u4šu@,ÏG0@9¬?¢Æi    C!t2BJ‘´@°Qì@\fA,9XAòƒ@G
+=? Wü¿š¥P¿7| ¿ŸYd?Qqœ          ½FcÓ>–´ Ad¿A	ìËAuĞ @‹33@6=Ö?Šz                M ¶    M.ù    :–š                              A
+y À ß     À  À  À  ;.w          =3H                            +J223701.58+142417.4=R½  =fÏ ö?¸R>¸?¸RAY™šA…¿kC–5*   +NJ225524.42+131453.8(
+@ËtåÌ% À  å  Ì% ƒ@u} Ä›¥ã@*`€s? Ñ·    C:ƒB†w@ˆQì?ègA&ĞåA7@7®?${Å¿A.Å¾g³±¿¨Õ=ü„o          ¾+ZÈ=4œª A€A
+˜óA" @‹33@ŒÊ?Õõ_                L¢ÿg    L­QÌ    :šu                              A	¡ ¿é~'     À  À  À  ;ÄH          =¹                            +NJ225524.42+131453.8=Â'  =¶b P>áG®=\)>æffA#33AÙ¿¾w1*   +?J225726.69+130005.9(
+ Ï ©åÌ%À  å  Ì% 7@u…Ç£˜ @* ØDĞ©?šKÛ    BàLÎB\¶0@ŒÌÍ@j/şA(å`AÚ@õÃ?Zr=§–Š>p8{¾î=İ>_          ¾©š°¿ + A/ÔA©ùAT” @‹33@3 ?ˆÔ?IxÕ=æş?†ck>^¡vM	¸ÆKÑÖM7ºÓL/w:´ZæAPÊCTÜ <Ò—C¹£AÖ59A´M>4~§    ¿éˆ—      À      À                                                +?J225726.69+130005.9<ÒˆÎ  <Òå ş  ğ>¸Qì=LÌÍ>¸QìA333AJ¿ÆÈ´1*   +vJ230111.07+130932.5(Ë Ï wæÌ'!À  æ  Ì' ‡@u”½Á ç@*Qm°İ‚ı?¨Â¤`   CV¾mB\–¼@j=q@wZA,A»e@õÃ? Wü¿B°Ç=&4¾m k>(8%          >ß>ÜöWÿÿAÅrÀ  AuŒ @‹33@6I5?Š‚´                M~V    M.cµ    :¡U                              Aw”À2      À      À                                                +vJ230111.07+130932.5=F?  =Eõ®W ?>ÌÌÍ=\)>Ç®AÌÍA‰7¿“×
+1*   +pJ230343.06+135535.5(
+`Ù cæÌ'   æ  Ì' t@uŞüz9‚@+Úcslß&?›µà   Bì˜ÉBˆë:@_\)@1A&záA‡ø@(õÃ?${Å>[Oh>ùfï>Í¬>=A‰          ¾W,E¾•‹D Ağ	A}AÜ @‹33@`¯?ªA²?´zá>Nl:?Ç7«>¥ tM‰ğL-¡M—QeLzÙ;¥AdCñ? <İ{XC£L»B<A»?>4†à    ¿­ı      À      À                                                +pJ230343.06+135535.5<Ş Ò  <İğÛ QÅ>¨õÃ=\)>\)@ó33A1'¿²MÓ3*   +×J230616.43+135856.3(
+`İ ÈçÌ&<   ç  Ì& ğ@u©“t¼j@+öñVI?¢2L€   CYFB_¢@^{@HÜ¿A*1'A¢ @33?”j?!
+?XfA?*¸Ç<è`Ö          ¾¾ A>AªDAhÔ @‹33@{ZL?¾ı¼@ff>ÔÎ°@µÆe?yûNĞpIM ­ÇNï2¡M¤yš:µªqBÓ–CÀXÀ =ÆğCÆo¬@…îaAXE>-	Š    ¿= Ap¤?ãBNj@÷M<1u:íÃ½BYCº† =’d @U¸Nßx¾:»nÖAÒÇC¿A®=Æ  +×J230616.43+135856.3=hs  =Ü×X !B>ÌÌÍ=uÂ>™™šA1™šAX¿¦È´1*   ,"J231330.39+140350.0(
+`éèÌ0   è  Ì À@uÆÂ&€@, ¸Ï¿ÆT?¤0+@   C-õB˜y@xQì@cÏCA!¥ãA±„@'
+=?.uC¿$]b¾‚s¾êÈ>ƒ¯          ¾´7d¾Ç AÃA
+”¦AOL @‹33@‘HÄ?ÜÊ?MÒò=Øá?h9ú>9JtM§LF8 M¼p¯L–Z°:˜öAT"Co^ = å’C¬´BQAÜ>2Êí    ¿Y`p ?gl‹>v4ILìZjKûr¿;	°î@¶…Cƒéj =!Z                            ,"J231330.39+140350.0=!aå 
+ =!] H?+…=£×
+>õÂAVffAMÓ¾ë1    ,J231816.95+133426.6(Ë ë èÌ   è  Ì @uÙ!aä÷f@+%ë1;â.?¤;÷    C.]­BI@z=q?ñRA!"ÑAç@8Qì?9™­>C'n>İ±¼Z|ã=Õ;          ¾Â ø¾Ÿ&‡ A:”ATÛA4œ @‹33@‚S­?Æü>¬‹D=ŒÖ>¶¢Ê=¼2¼M¨2KùuMâELk:š$@¥SC¢ ="6RBÇuAğ¦AÚr>@îŸ    ¿¢B÷ ?o>¶“L†{KKŠ7®:Ã*@Æ`eBá§ =!ß¹         :Øì–              ,J231816.95+133426.6=!ÊÁ Z ="`0 =\)<£×
+=õÂ@£33A
+áH¿²J3*   ,UJ231836.21+151758.7(Ë ì ÉèÌ˜@  è  Ìa@uÚjOv@.™m	Ö¶?š9‚    Bß­KBiğ@8Qì@6¾A"bA)Ø@(ö?.uC<şƒ>IK<ü”‡              ¾Â3B¿÷ì A8¬AÑ>Ad@ @‹33@9?Œô¸?×
+=>2ìï@ê7>½µ/M’0ãLù–M°£÷L€ø$:×{|Ap»8CUİn <Ña×C*(äA@‹A~‹>/-?    ¿Œ»      À      À                                                ,UJ231836.21+151758.7<Ñ·  <ÒgA û 
+ ë>Ç®=uÂ>³33A1™šA´9¿ŠáH1    ,­J232215.37+140450.6(Ë@ñéÌ"-€  é  Ì" ¶@uécÇOµ@,)UqKœ·?šş    Bæ[2BˆÌ @u¸@+RÌA(éyA‡É@.{?Zr¿¨ü¤½Ë´ä¾±§F>>B±          =Ìcu>¬7? A^A
+xATà @‹33@;äq?ÅE?Z¬> ¸³?|ïÏ>Tß*M'K×oM6>{L`q:¥i±AC¢^ <ÙVØC‰óB.üAûÕ>5@É    ¿çm       À      À                                                ,­J232215.37+140450.6<ØDĞ  <Ø@s d?^¸R=áG®?(õÃAY™šA“u¿’°!1    ,úJ232326.53+152510.4(
+Àú ÍéÌ"†€  é  Ì"@uíÄå^³@.ÖĞ‘}kf?¥ä£€   C=BHá@ˆ£×?²ØA$E¢A±@>¸R?(ê'>…§<Ä>…|=œKO          ¾hä6½§| AƒúA
+îéAÈT @‹33@‘Ëœ?İì>ì‹D=çON>õ5€>©&MbÃLe4_Mjd#L†t‹:”_@Š†CÎË =/‚3        AÉB>Hê‘    ¿›ã ?s¶F>s?hMšeLRä:ÙrÍ@ÖxgC©íº =/%                            ,úJ232326.53+152510.4=/O Z =/jQQ 9=ÌÌÍ<õÂ>#×
+@¬ÌÍA=q¿°A‰3*   . J235257.31+154244.8(Ë¡# øíÌhÀ  í  Ì£@vcÒòä@/lÇŸj”?¨Œç    CTÜ5B=W@Ÿ
+=@‰æA,r°AUÖ@'
+=? Wü=òß]¾“Y'?"ö­=	n@          ¾#N¾†¹ A;mA4]AuÀ @‹33@Y'¦?¥}?K=û-«?m¬­>LÔ–Mô¤šL±0ŞN5«LöÖÓ:‘À‡@ñÂ CÎˆ  =CæD ’Bå&ôAò“>6lS    ¿¼ ì      À      À                                                . J235257.31+154244.8=D2Ê - =D¾@¥ ˆ>B\=LÌÍ>W
+=@Ó33AQì¿Á%3*   .EJ235644.47+135435.4(Ë!) “îÌH   î  Ì @vr÷—|@+ÑÙ+à‹?¢™Ø€   Cê¾B‹\A@ƒ33@uÊWA)¥ãAQØ@{?”j?(?	yÔ? KÁ=#=          ¾Şg¿ù¨ A0%Ad°Aap @‹33@OÁ]?İ@8Qì>Š	_@X ?ÄáN}ŒğLŞ…N”‘ MR&):á´»A¤µC™:» =3PC–"AV–ÑA¶4>.f    ¿~úø @–ff?yN2wL×¤Ğ;A‡A•}®C¨*‘ =ÎÄ ?Ü(öNqS¶:İapAD¼RC¦º@=•a  .EJ235644.47+135435.4=¯O  =˜  ?™™š=ÌÌÍ?
+=qA¡™šAX¿Dİ/5*   .0J235747.57+153649.2(Ë¡+ ŸíÌ˜@  í  Ìa@vw+ÓÃa@/:4CÔk'?£pÍÀ   C'VQBs–š@O\)@˜‡TA$  Aáê@¸R?(ê'=Yd>&Œš¼à%J>ÿ5          ¾°=¿Ø# AëqA¶éA½ @‹33@9d?Œ”>Ã•=¹ÕQ>õ‘/>	ùÙM9L/pòM8¥‹LO~\:@Cqø« =´        Aø>GCİ    ¿À?g     À  LƒE‰€  ;#×
+          =†n                            .0J235747.57+153649.2=¥ã 	 =‰”2  ?
+=q=¸Qì?¸A(  AE¢¿;¥ã1*   ±J011746.76+131924.5( [ ¤§Êm   §  Êm 8@3qá°‰ '@*¥Ÿ+©Ñö?¨‡¨à   CT­.A±d@p¤?ï+çA#`BAr@S33?(ê'¿˜Çâ¾ŞSM¿—â              À  =‡9ÿÿÀ  À  A¢ @‹33@]Ä?§ı:                LÄsy    LÏ    :[ıÂ                              A	/&¿Ñˆã      À      À                                                ±J011746.76+131924.5=D2Ê 
+ =DXŠ Ê  º?J=q=\)?
+=qA¡™šA(ö¾¦éy1    ŒJ135308.35+354250.5(v  İñĞä À  ñ  Ğä ƒ@j	hÆ’÷@AÛeUÅ.s?¥ıÀ   C5®ÕBzòe@   @ä‘ÀA$ÀƒA@p¤?(ê'¿;J>„ûm=À{Ù              ¾;†ã½ÿ* AÖA
+êØAÛl @‹33@‚^?Ø’{>İ/=³`Í?™/>ÿMCt¢LcRMŒ&gLb¢:oj‡@«ÄÇCqÍi =(0³B }Ab}TAŞã>?ƒ^    ¿—ı      À      À                                                ŒJ135308.35+354250.5=(Xy  =( x g@\ÌÍ>\)?ª=qB(ÌÍA&MÓ=Æ§ğ1    —=J144929.32+090445.1)ü!ç ‘±ÒC@  ±  ÒC }@kËéùrG@"(6F?¤Á¨    C2ÿèBPÆ£@AG®@D†A&£×Af@#33?${Å>¯Âi?Û?)§€<Úe          ¾Œ‰¯¾Ö6G AjìAj¯AÈ @‹33@WGH?£”z?t9X>;h ?‘•n>ÏyMÑ›IL¿Â\MùåbLókN;œg@·†¤C˜ê =%Ò2BDIUB”4†Ağz>=G    ¿•šê      À      À                                                —=J144929.32+090445.1=%ãT 
+ =&À”= +?B\=£×
+?   A‡33A¥ã¿/ß;1*   ,ùJ232239.48+154405.3(ËÀó ÂéÌ"…€  é  Ì"@uê¡ß¹8›@/x;£D=G?¥œà   C5Æ!Bíø@õÃ@h“ËA)Û#A=@
+=q?”j¿³¾Ê¾Ãÿ>¿7û1>œŒ          ¾¬>(ÿÿA”À  Adt @‹33@9&­?Œ°>€  =­!¹>ˆ§=ÉkûLâq²L"ÜÓLğĞÌL2*È:—é–@BËÚCh×” =(ß        A	 j>b0ˆ    Àjå     À  MøZ€  ;¢3œ          =(Œç                            ,ùJ232239.48+154405.3=(Xy > =),I Ø  Å=\)<õÂ>#×
+@–ffA²-¿ñG®3*   ,zJ232611.29+140148.1(Ë@÷éÌ"@  é  Ì" M@uøÀëíúD@,`—Ì:?§¬Äà   CMñB[A¹@–{@rRA(ıôAŠš@]p¤?Zr¿¡Ü¿)n¿K\‡>Ş~ó          =?,>+cÅ AzµAÖAV` @‹33@;‹c?š                M$dO    M.Fç    :˜ö                              A©¿ê§{      À      À                                                ,zJ232611.29+140148.1==<6 + ==•WP 7>LÌÍ=#×
+>8QìA33A“¿§+1*   +J223810.59+142626.1(Ë ª2ãÍ(e@  ã  Í(•@u8´Á¨¬\@,á•1ã¨?¢mH    Ca{B¿)@hQì@,)$A İ/A}X@¸?9™­¾êÂ=¼¼<¾÷cğ>{a          ¾Şã¿!!° A-¿A¬{A& @‹33@2‡?‡¬‡?C×
+=èóÖ?VØ–>5æM„*ªL,xXMşGLtüï:Ğª¨@ÿR]C('Í =‘ğ        AÛg>5p:    ¿D ?·
+=>Â¨My\L$Ö¸;cÿï@·øClüw =j@         :ãï(              +J223810.59+142626.1=t¼ ; =vÕ+ =õÂ<õÂ>#×
+@Ù™šAV¿vÉ2*   J021404.39+131156.3(`Û z¬Ê«À  ¬  Ê« ?@@ÂX£/D‘@*eà´á½?¥L˜`   C7ÒsBp«î@p£×@HL*A(ÌÍAP#@'
+=?Zr>b¾’>¤–&?#éu=¿C          <› G?O”O AŠ³A ARÀ @‹33@X_µ?¤i?v‡+>ø¦?ˆ©ğ>cPMŞéCLSbM÷$ºLÍ‰k:¤~ĞA«CÃŒÇ =*‘Ó        AåÍ>4¯4    ¿§7ÿ @×
+>ßşñM–	úL~êx:Ï9A_úuCÈÓE =*dÃ ?ÎÙMÚÂ>:µªq@Ş‡ªC8Ú=+ü  J021404.39+131156.3=*dÃ # =+Óª ’>Š=q=#×
+>k…AffAİ/¿Ÿ|î1*   ÈˆJ075617.10+143609.6(­€%ÅØÑ²o   Ø  Ñ²¼@]ÄÙı6ø@-4“ÈŸ@£?¨C€€   CRJB+Ò´@†ff@·ÉNA0Aàå@p¤>j©¿bìk=ÙE†¾Y>'FF          <™G>tÿÿAˆ´À  AK  @‹33@=z³?ùø?;d>Ô?¦µô>ˆU³N-%LÚ×ND.±M oº:›¶ªAà¨CÒ–„ =A…UC³º|Bi«CA/î>3æ     ¿Î¡W      À      À                                                ÈˆJ075617.10+143609.6=B&  =AÇÓ ´>€  =\)>”zá@°  A÷Ï¿ĞbN2    É|J080403.84+150518.4(µ@=ñÛÑÑM@  Û  ÑÑ5@^AÌ¢Ûb@.-J¡!?£ò    C+Ó"B•eF@ˆ£×?õöãA#Û#Azw@@  ?(ê'¿€œõ¾ìLô¿"?{í          ¾®Ò§¾5Ä AùíA
+£HA¶ü @‹33@‹wç?Óóq                LÔór    Là³@    :›9                              A^4¿Ãçu     À  À  À  ;…Ó          =”…                            É|J080403.84+150518.4=¾w  =qëK 7>W
+==LÌÍ>¸R@ÖffA{¿5?1*   Ü½J085045.27+114839.0(/@l  	~Ò77@  	~  Ò7 İ@`–	€²B@'Ÿ%;:?në€   C/.Brlµ@³33?¦ÒA'¾wAß2@?\)?${Å¿·py¿†¸¿¼Kğ?ghÛ          À  ? ,ÄÿÿÀ  À  A;D @‹33@@=¿?’8                LhŸš    Ls»    :†zÙ                              A‡¦ÀÛF     À  À  À  ;gš®          <ów\                            Ü½J085045.27+114839.0<óMj  <ôA› ‰?€  =£×
+?   Aœ  A;d¿h1'1*   NJ085425.62+081241.0(.€s SÎìuÀ    Îì×@`³jçÕfÏ@ l;Oag#? FÀ   C ×lBCIÄ@·\)?ìé1A'\)AÎ@L(ö?${Å¿–DR¿ÒùÕ¿è0ò              ¾ŸQ™>“û¢ AœiA›cA1T @‹33@à@*L0                LZ)ğ    Lm‹µ    :€¹Ï                              A
+;Ş¿éW     À  À  À  :–5a          <ñ6                            NJ085425.62+081241.0<ğØE  <óã ‡ 	 |=õÂ<õÂ>”zá@ÌÌÍA
+Z¿èb1*   İVJ090254.93+133938.5(Ù€‚ º	‚ÒB=   	‚  ÒB ô@`÷Rü&V¬@+RGE8ï5?›|    Cò
+B™¸¨@–¸R@·A#ë…AQ&@®?(ê'¿RÀ‚¾cën¾­ùÒ>6F          ¾•êÀ    AxÀ  A¹´ @‹33@_cR?©½÷?¹™š>¢)?ä×/>§vM¬AL2MÔb›L›uõ:˜öAl?GC¤$y <ôœ[C«ÓÑA8òAï>/Eµ    ¿†Ô² ?ï\)>Ê»ÇMÌKìĞ~:Ö²)Af…C’s <ôÛà                            İVJ090254.93+133938.5<ôğØ  <õ#-I 8>\)=LÌÍ>¸RA™šA~ú¿›dZ1*   İ8J090437.07+133314.7(/€„ ‰	‚ÒB#À  	‚  ÒB @añVI@+´NPÅë?œ»ÂÀ   Bõ…ÛBˆ]|@{@@ÏÕA01A[@3×
+>j©½ãˆY>P]½?–ğ=ØØ> A"Õ~>Ûö<êTx>%Š[ AİA
+ÿ®AJ¼ @‹33@=Œ?*@333>€Û@RÄx?/2NoWLv%ÏN,;Lğ‹Í:…	ÀAÉX‰D=Í <å!ZD„)@À2AHğ>-‘    ¿Õú      À      À                                                İ8J090437.07+133314.7<æ1ù 	 <è’%è 
+É?.{=ÌÌÍ>®{AffAë…¿Ğå`2*   NIJ091427.70+080445.9(.@” 
+Îğ"€    Îğ Š@aS±Ä2ÊX@ («ˆ¤?Ÿ—$€   C?QB‹—@˜£×?ûó
+A ~úAN’@6ff?9™­¿\Q¿¿X’¿…á‹? “C          ¾„¾cÔÌ Aª_A=-A  @‹33@re“?¸/š                L¬½    L‹™”    :‹A                              A·¿ËJ     À  À  À  ;-Í-          <ü¹$                            NIJ091427.70+080445.9<ı!ÿ # <ıï… }>¨õÃ=LÌÍ>uÂAA™šA¿g®5*   A¯J091831.34+065223.3(–`›«ÍôJÀ  «  Íô+@at.	ş†ƒ@~ FÇd®?¤‚    C-FĞBS8J@¾¸R?µ0NA*A‘@S×
+?”j¿­Ä†¿™D¿‚Çù?åÀ          =S³x>Ù7ëÿÿA§=À  Af  @‹33@8ÈÈ?Œh°                LÛ{§    LäOB    :’Š                              AÀ˜O     À  À  À  :ª           = ä                            A¯J091831.34+065223.3= ù	  = èBp 
+\>×
+==LÌÍ>®{ANffAıô¿˜1'1    IJ095051.58+081340.7(¾€0 §ÓÍş]€  Ó  Íşv@bvàÉÙÓF@ t¹ËhH¿?–=À   CÛB–~=@uÂ@ÃÃA#C–A9ª@ÌÍ?(ê'½9õ@½»à¾9”8>P‘          ¾»^ÌÀ    A{‘À  A @‹33@kñ?²ó€?Š=q>:Ã?˜›>vÙ%M€ fL"¾MŒå…LdÊ:¦—¯AEiCÍÚf <ó†        A”é>3’(    ¿•uf ?À  >¦¶]LßùdKÂy¯:ÃóàA=›]C¦+o <ô±î                            IJ095051.58+081340.7<ôğØ  <ôÉ \ J>õÂ=\)>Ñë…A1™šA¬¿rn˜1*   HñJ095301.79+072736.4(¾@3 )ÓÍşÀ  Ó  Íş w@bˆ=F²kø@×)²€ñ,?£º4@   C)ßõBC"Ç@B\@{äA&“AÒ@G®?LÚ?J£>ìå? =(ë A(ih>»fæ¾Í´	¿YÆÊ AÊôAú~A  @‹33@AçP?“V–@ë…>dÆ©@
+ÜÍ>Î­ NI=ªL½`ÉNW«M ;ÊûAS²C†í¶ =|qC’¸A5ÆAü°>/çı    ¿q¾7 @›33?}â°NHºL÷zÈ;.1×A»áC‹î‚ =Ñ¢                            HñJ095301.79+072736.4=²-  =“v ^>¨õÃ=LÌÍ>uÂA0  AV¿ˆQì1*   HùJ095324.56+074956.2(×`½ ìÓÍş&€  Ó  Íş š@b‹FsBî@TFs×Ü?¤2€   C-;1B•Ï]@‡
+=@D’dA*ÄœAv@@1ë…?”j¾ÏRù½™’Ç¾©ğ>µm          <~z}>4 AmëA
+ÛîAnä @‹33@7ei?‹Z¨?“=êo?¹I>ìBMT LOÎ!Mj•LzúF:ˆµF@šğÛCò y =sÒ        A‘­>C’ù    ¿é—v ?‘ë…>„·MÏ$LÄd:² yAB¤C¶é = Ù”                            HùJ095324.56+074956.2= ù	  =!Q» £?:áH=£×
+>Ç®Aq™šAİ/¿~vÉ1*   «J100152.69+030040.7(¶À¨ õÌ\€  õ  Ìr@bÏxÀ>@.ğ®Se?¦Wà   CC?BBwÀ@n{@+–A,^5A¹½@N{? Wü¼”p3>éÀî=0l=â±-          ½ÿQ9>_U™ A,šA	ìÏAuĞ @‹33@<&ü?÷Õ?3t¼=èE?CŸ>,)M¶T:L€dMÆ#åL®Ã!:‘ù@ãİƒC’â =4Ú³BNÆ[A¯5mAd>7œà    ¿×Ñ      À      À                                                «J100152.69+030040.7=4¢4  =4K+‡ 2l>Ü(ö=\)>£×
+A&ffAÌÍ¿œ‹D1*   InJ101329.66+075415.5(×@Ş ]ÕÎ€  Õ  Î z@c+ô‡ü¹$@®û*®?§mÚÀ   CJÑBy™@£×
+@™í A3…AR@Mp¤>cçû¿…y|<Â]š¾m:              >IT²>M(F AÊA©.AÍ¨ @‹33@TuÕ?¡pI                MJX(    M|j3    :„è2                              AÛÀ­      À      À                                                InJ101329.66+075415.5=;˜È 
+ =:t:´ %‹>õÂ=ÌÌÍ>¸Qì@¹™šAûç¿ÌIº3*   I½J102025.15+074037.8(¾ ` )ÖÎ4€  Ö  Î Ò@ccZÄq´x@µloTL?§+    CH{kB€^ñ@‚\@„¬A/p¤AÌ‹@!ë…>û•5¿%-Ê<Ñ¼"¾j              >
+Hğ>ğ·=ÿÿA¯¾À  AW @‹33@;Wp?Z!?eãT>“Š?ƒ–>\›ÈMöc0L¥0N¶Lìq%:«O¥AVC¤Vâ =9f@·C@¡æÊAĞ˜>5á    ¿İ b      À      À                                                I½J102025.15+074037.8=9#£  =9œ9õ Ù>æff=£×
+>×
+=A  A…¿¯\)1    IÇJ102055.54+081849.4(×`ë mÖÎ:À  Ö  Î ë@cgh	Ô•@  £×
+=q?§s    CJÿöB@|ÌÍ@RÈMA,1'AöU@9™š? Wü¾'qÃ¾¶¾4nã>?U          ½q™Ó=Hó¸ AÂA vAuÈ @‹33@y1 ?½Yg?\(ö>P)?pÀĞ>NÉÖMñÌ>L¢ƒEN5Lã±:˜Ôx@óîŒCÙí =:²4Bba^C•ÚAY+>6A4    ¿¶¿İ      À      À                                                IÇJ102055.54+081849.4=;˜È  =;_ ó?¸R=£×
+>Â\A.ffAÒò¿‚ñª1    fĞJ102238.71+120517.8(/! `ÒÏF@  Ò  ÏF U@cu)ˆ†@(-5¨Xy>?§NÀ   CG3{BMw@œzá@	‹A+OßA_µ@<(ö? Wü¿ª5“¿1ÊÔ¿\9              ½êp0>¤U™ Au]A	sWArì @‹33@6¹
+?Š×®                M7Ä    MBd´    :m;                              A=¿ø–ë      À      À                                                fĞJ102238.71+120517.8=8Qì  =8=ÿ ü>×
+==\)>£×
+A33AùÛ¿’°!1    YòJ102721.97+110447.9(Ò Ì>Ï)ˆÀ  >  Ï)#@cšî$5in@&(ó#x«? Ş`   Cï˜Bˆ_@©G®@šöúA2›¦ArÂ@JáH>jê¿¦Û¾y¾¯>>=œ7ş          ½${>nEÿÿA¦½À  AöÈ @‹33@N]Ã?œÎÜ@p¤>ƒœ;@ND™?ÔZN+DÍL»’™N`b±M$Ş:¿AnXD{ =ÆNDqbAIŒ/A¶½>/;ß    ¿×'K ?¬ÌÍ>¼KòLì—IL çy;VõE@­C†X­ =vó                            YòJ102721.97+110447.9=M  =ŸØh K?uÂ>#×
+?záAÌÍA¬¿Ã÷Ï1*   gÊJ103905.90+132153.5(/a  ¦ÔÏx'€  Ô  Ïx @cøÉ…ğoi@*ºĞ=š•B? I`   Cn&Ağ’œ@>{@.ŠáA 1Aõ¸@
+áH?9™­½T´t¼=ş¾oÊ->6Ùƒ          ¾Ã/¿%Ó» A0GA¾A
+÷ü @‹33@4­R?‰I»?(õÃ=ËÉ”?FœÇ>(õ‡M9?L1MYŠÁL9ü:¢eñ@úhöCVÔ =ÒÏC1ÌGB•ËAñ>5Æø    ¿˜¸œ ?¡G®>’ü†LŞUŞKÊ¡y;ÍA—üC8ª_ =êK                            gÊJ103905.90+132153.5=¸  =áç Ù  Ê>#×
+<õÂ>k…A	™šAÂ¿’-1    Z»J103913.15+121130.9(ÒÁ ¶@Ïb‡   @  Ïb@cùÀëíúD@(bEõ­–§?¨‡¨à   CT­.BˆQ)@›33@‹j£A2ÔşAª[@K…>jê¿cBì½Ûp<Tª=ªá`          =PˆÄ>_¶N A eA
+ÒuAíD @‹33@Nk°?œÙq?&éy=İ;è?>!H>)ùMÈÍüL——Mä¼¹LÌ|½:’@ÜuC³)ş =DğVBÿBBl‰A[>8S¸    ¿şe      À      À                                                Z»J103913.15+121130.9=D2Ê 
+ =D_áP /?ŒÌÍ=áG®?¸A\ÌÍA r°¿“o1    ;kJ104024.66+065137.7(ª èÍ£z@  è  Í£é@dIäO Q@q!«KrÅ?Ÿrà   CöB‹é6@”zá@aôA.-AT@=p¤>ÙPT=ÍÌ¾T¿H=£3o=¤æ4          =hío?Ûò AÕLAÆ#Ak8 @‹33@=?Ú?ÍA@6ff>‚†@Z`ş??N.u¶L•w“NPßZMê%:—c^AÇî­Cáù <øÁÛCüØ¾A>¤ÅAE>-”d    ¿¼~J      À      À                                                ;kJ104024.66+065137.7<ø7µ  <ø‡fã Î?İp¤=õÂ?#×
+A±™šAKÇ¿‡
+=1*   hJ104046.05+134659.9(/# ôÔÏx”   Ô  ÏxP@d#á†˜5@+‘!Bp? @9    C=¥B’±2@­p¤@/½>A#çmA	|U@ÌÍ?(ê'¿P~{¿zg¿’j               ¾¥Ø¾o¬ A_ƒA:UA¹ @‹33@sÙ?¸ª&?7KÇ=ÎPN?M<e>(Õ¥M@ÉKñü»MVıTL0Û·:–VïA
+=ÅCqÿ» =
+N        Aë|>4,v    ¿§ß‡ ?{>z*L»R`K¤é¯:¸®2A.&–Crİ4 =Í                            hJ104046.05+134659.9=×Ü ( =¹N¬ •>™š=#×
+>B\@¶ffAå`¿¸b3*   ;/J104251.39+055135.5(Ç!7 !èÍ£   è  Í£ d@dÚfƒ@p‡¡8?¡@   CâB‡8@Â@DLA/ÒòAµy@<(ö>û•5>sïø=wê»>6å=“P‡          ¾{d¾pÉ AâA#çAOx @‹33@~ÛF?Á§N@&ff>pËf@=MG?¡FNA¥ÃLŸeRN\L¬MY:ˆ“¸A½Ÿ÷D oæ =¥/CìŒµAëçAy>-®t    ¿¶+È @”(ö?ˆPMÙµLÇ¨i;¤;´AÙ@CÿDQ =øb                            ;/J104251.39+055135.5=Îp  =v\Ë µ?p£×=áG®?ë…ANffAbN¿«…1*   "ñJ105315.29+042003.1(Ma) tCÌrÀ  C  Ìr s@dj	Ô•+@V8†YJõ?¥Xd@   C8;ZBz%š@“33@µIA-33A@<(ö>ÙPT?x±œ>½'S?|C=&          ¾NF:>pè{ A'GA	q¯Asl @‹33@Ìz-@_h?³33>=¦—?¾_'>˜LkN"½ÿL¶øqN,ãJM
+O³:Ì5ÎAÜsCÏÅ¹ =)ÑC¢@QA™ï½A§›>2èÜ    ¿”\¿ @N{?2İëMëªLÌr¿;WA>mC%Ã =*Ã"                            "ñJ105315.29+042003.1=*ÍŸ  =*5“ì Î>€  =uÂ>…¸@Ã33AE¢¿Çl‹2*   ,!J231331.44+141938.6(Ë`ã [èÌ/€  è  Ì ¾@uÆ“t¼j@,§£˜ Ö?¤¤à   C-Aø÷I@®{?·è:A&Ÿ¾A—×@XõÃ?${Å¿pÑ¶¿€9Á¿ŸÀé?$†ò          À  À    À  À  AL @‹33@EÀ?–Bâ                MÀ³    M&Æ    :“                              A
+©M¿ß³‰      À      À                                                ,!J231331.44+141938.6= . Y =!ªá Å=õÂ<õÂ>\)@°  Aff¿ÁÊÁ3     J085254.99+030908.4(M€`D5Ìb   5  Ìˆ@`§UhÆ“@	7ş®û+?¡­ê€   CÊèBP™T@3×
+@+/®A$r°A
+íQ@áH?(ê';„bÆ=£jü½0U=ñÊ          ¾Bm²>HZÜ AqÙA	´ÁAÏ| @‹33@ºMÂ@@>Û"Ñ=±	>ö
+Z=÷˜M[KöÇ÷M»ëL²Ë:T(@¬                  Aƒƒ>?Y»    ¿§yh     À      À  ;&ë’    C¼çj =oT                             J085254.99+030908.4=Oß  =ø×@ -?k…>¸?J=qA;33A¬¿j1*   NJJ091444.06+083605.3(.`• Îğ(À    Îğ £@aUàqv@!3óà7İ?§ú    CO¸QBO—Ì@(õÃ@,A 1'A×ë@×
+?9™­>¼ºv>¬>—²:=“§^          ¾¦ÇÒ¿=À“ AMRAÎ§A @‹33@B9?“”¬                M!@«    M+²]    :”åÖ                              AÌº¿£#h      À      À                                                NJJ091444.06+083605.3=?±[ < =@2 ¥  –=áG®<£×
+>B\A33AV¿}²-1    Y&J095144.91+353719.6)?@F ˆ;ÏÀ  ;  Ï o@b}üøÃ7@AÏ¡ô±î$?›£D@   BëøôB…¼Â@r\@yÖA(õÃAeÏ@%Â?Zr>¦¦£>¯Êw?*À=üq A&¸›?5á¾Ê–Œ¾ÄCÆ AèMAäAUÔ @‹33@zÅ¦?¾ŒÈ@3×
+>–íÊ@I€/?ˆ¬NãLùNA‡LŞôÆ;S.AkÇC¦Ê¨ <İ˜C«a@›ÙA_“>/HX    ¿”±      À      À                                                Y&J095144.91+353719.6<İ/  <Ş³Z K@,ÌÍ>#×
+?}p¤Aé™šAå`¿!%1    ƒÉJ095851.33+320423.0((€% <Ğ¹1@    Ğ¹ Å@b¶ØŞ¨—@@	Z¯xşï?›­À    BìTHBBŒÀ  @|³úA*ıôA'Í@…?”j>[‹³ÿ€  =ü.„=¡Ÿ
+ Ae\>å¬{¾°¹¿Åá Aæ€Aò¿Ap¼ @‹33@1Ç?‡¼?Ç®>A¡@	ÑÓ>Ô¡¹M—T´LJ‘RMĞåÜL¡%…:¨óªA/´DÅN <Ù¡ØDv0AT"hA];>1YÄ    ¿ÍÊ      À      À                                                ƒÉJ095851.33+320423.0<İ/  
+<Õ¡ˆ è  Ş@>{=ÌÌÍ?^¸RBJffAùÛ¿@A‰1*   ØõJ103246.99+211256.3(JÁ) §	?ÒÀ  	?  Ò @cÆCş\‘Ñ@574.Ûµ?¥ó€   C=›úB™Õ@E¸@ˆQ…A)çmA
+Ù@¸R?”j>ôh‹?`Û?+­=ø¦ A+6£>å‹ò¾Ã*C¾Æşú A/UA·ãAe  @‹33@x‰A?¼ÙÙ@Qì>‡]Ï@/ ‡?ÀÿN’[´M‹"N¨EÊM{E¼;
+½^AO—âC®	İ =/)SC¬ô^B/0AÒ–>0Ê    ¿aMj @
+=?5²IM£OzLÛ»ÿ;×Ï_@l¢kC¡³Õ =/˜t                            ØõJ103246.99+211256.3=/·é 
+ =/jQ ‡?c×
+=áG®?¸RA\ÌÍAxÕ¿Féy1*   ½‰J111738.91+263506.0(øa„ \¨Ò#O   ¨  Ò#<@e-0@9«ó@:•ÃŞç„?¨S;    CR×Bîw@C×
+?•¾A$§ğA[@L(ö?(ê'>ÑÒ>%…‘=áx=Õ$          ¾“ü¾¶\Ç A¿AA×´ @‹33@\‚ù?§s>Ï\)=™O^>Õü=ËYMuE L:Ã"M|›Lp†:ˆøb@ÀCAUü =Aø5        A]^>;äï    ¿ªT      À      À                                                ½‰J111738.91+263506.0=B\  =B}‰ ¹  «>€  =#×
+>®{A(  Aë…¿kÆ¨1*   _°J111809.91+074653.9)   ŸQÏxt   Q  ÏxĞ@e1R?gôÜ@ hÛ‹¬q?¥ˆã`   C9êÃB€3é@Z=q@?ÆÔA)²A“ƒ@   ?”j>iô>è D>“#Í              ¾"ø¾üì ACÛAf*A`ğ @‹33@7Æ?‹$ü@
+=>Mkä@şj>ÒBÇNy±ÖLĞ"eNˆÒËMBcÿ:§‚A›¹²C¦ÁÌ =,@“        AC4>.+†    ¿ŠÓó @5¸?¨rMÒÀàL°x˜; ùAmC·"0 =,G                            _°J111809.91+074653.9=,q 
+ =,z}‹ q?B\=£×
+>Â\Ay™šA“¿XQì1*   ½ÜJ112746.27+265734.5(ß€Š ¨Ò#›@  ¨  Ò#m@e~+©Ñö@:õ¨Xy=Ù?¡à   C…ÛBC»{@LÌÍ@8ÆÉA)PA
+4@¸?Zr¿‡¸ä¼É¾j¼Ì]>áà          ;Ã‚”>·X• APA	àˆA_ø @‹33@AÂø?“:ø?ë…=é¦g?(\¥>(q®M(şÜL§MBü‚LCß: +„@®jC©Äy =¸C§^¨Bb†SAªÅ>>øõ    ¿çW >È´9>
+ŞLGKJk[:©yá@b¹µC¡ét =¤                            ½ÜJ112746.27+265734.5=Îp  =Îpy g?œ(ö=áG®?333AffA9X¿U?}1*   ÅvJ124128.01+284728.3() 9 t½ÒDÀ  ½  ÒD c@gË¼U†DR@<ÊŒL˜_?¡î$@   C BN@QG®@&`}A$›¦A
+Ò½@p¤?(ê'>2O)>	|î>Z3'=•´á A$†È>“˜å¾éÄ3¿GÆÖ A
+ÎCAV~AÕØ @‹33@;»?.H?î{>oQÇ@½İ>ÏÊÌNòLªpXN)_Mµç;J€A%!ÁC‘> =·O        A#>1õç    ¿xX,     À  M.À€  ;ê|á          =q"                            ÅvJ124128.01+284728.3=\) 	 =Ó³. >õÂ=£×
+>ğ£×A)™šAj¿co1    3gJ130525.44+035929.7( ` cQÌ×   Q  Ì× <@h‹d„@îÆ¼èS;?¦]9    CANAB’GÏ@¨£×@xA%ß;AB@'®?LÚ¾·Ÿ¦¿p\l=¬÷S=º·ç          ¾‹Fö¾†¤ Ay-A¢6A  @‹33@op?µ:?(1'=ùXî?2.Â>)ìáM§×ULƒÍÆM±ÏšL©’":§ç:@¿oÏCª_” =2³s        AM)>;üÑ    ¿œ‘ ?¡G®>¯c±MJ´L\IV;-Í-@­ÃÁC±tÅ =2éÍ                            3gJ130525.44+035929.7=2şÅ P =3™ 
+>\)<õÂ>LÌÍAq™šA¶F¿G®1*   ÇÙJ132522.77+271456.7(û ¼ ‰ÄÒ#…@  Ä  Ò#@i+	k¹Œ~@;?Ä\»Â¹?¡§\à   C‘6BOâQ@5Â@xK A"ZA>Í@ £×?.uC=æ'‰>Ôc>6f#=‘ËÃ          ¾ï—p¿5› A
+œcAêŒArd @‹33@<Óˆ?zñ?µÂ>$„?à‰>¨•èMá ºLzëN
+ú<LĞ±­:Õ‚AIC_í =cÏCDşAÛ#AÄ>0A;    ¿iXó ?«…>”È)MGKçÏ7; ¶tA>İ3C¨¶ =:ç                            ÇÙJ132522.77+271456.7=Oß  =   ô?(ö=áG®?B\AffAÒò¿(r°1*   ¤ÏJ145403.73+305046.4( `£ `3Ò8À  3  Ò8 s@kğ¡ Ï@>Ø£×
+=q? ^_@   CFBHhª@'®?9A!ó¶AõS@2\?.uC>Müê>4=¦éÑ=	J          ¾¼á¾L4 Au(A
+’@A^° @‹33@,O?îÛ^>Ñhs=Ìj >Ù†Š=ù>LŞ“¢Ká°âLç4gLu<:¥‹?@ŠÌC6 =,Ï        Ae>HĞ    ¿¬q6 ?Òò>%ı:L=¹íK^­:ÖM@•ÕCrÉ! =òú                            ¤ÏJ145403.73+305046.4=o ( =‰ Î , À>™š=#×
+>€  @ìÌÍAÔş¿¨õÃ1*   £J150204.10+064922.9(E@É ŞÒ|À    Ò| S@l0Œ SâÖ@JÈ`Ví?§«u`   CLø6Bƒd@eÂ@OloA'33A
+Îq@!G®?${Å=i­\>š¡ş½¡LZ>Ò•          ¾½’¾¥( AeßA
+{†A,ü @‹33@—u‰?æ,b?WP>°?k¢(>T|·MñAL±Š—NİvLíÒï:¹Uø@Ø°C´4ù ==f•Adù×A")/A¯İ>8Ë—    ¿„²      À      À                                                £J150204.10+064922.9==<6  ==„Y D>×
+==uÂ>½p¤AA™šAOß¿^5?1    £J150921.50+070439.8(E`Õ ÒŸ)@    ÒŸ ¥@ljİÖàL@O˜sÿ¬?¥3±    C6õB‰@Y™š@%g™A"bNA'ì@
+áH?.uC>§l>°†Q>7Sµ              ¾ÅÔÛ¾½ˆQ A¥A˜ÕAsô @‹33@yÇÍ?½Ëæ?&§ğ=áğµ?3K,>"NÊM•M¡LYÃŒM   L‘hc:´Zæ@Ö2¨Cgšm =)ÑC?wºBgíãAæ±>9–    ¿ƒÜå ?šáH>™pƒM.¢îL-;#çÑ@Û
+YC@?Í =)ˆ         :úß/              £J150921.50+070439.8=)“  =)åâ: (>€  =#×
+>”záAffAIº¿a‰71*  ŠˆJ014853.13+132526.1                ®  Ê¥9@;8«à   @*Ù`   ?Ô“@   B†¸¡BA^o@©S?¡¬îA„qA„#@Ak¶@œğ¿h	¿Hb*¿‚¢›>Ö‘          ¾û*¾~! A
+<ZA	îrAe^ @ãmv@§é“?ÿ-r                Ka~    K¤G    :¿                              @ş5¿»M      À      À                                               ŠˆJ014853.12+132526.2<}ó¶ ; <+å s  k=¸Qì<£×
+>W
+=A	™šA {¿³t¼1   ¹mJ134629.60+035241.8)ÇA2 JVÌ•@  V  Ì• ]@iÓòà   @ÈÀ   ?’@ş@   BšÉB˜Z9@Üm?³£ØAİ-A èÃ@;eĞ@)ºà¾¥'â¾Ú÷Ò¾÷ß,>&5          ¿L;k>rá˜ A=CAa†A@X AY–6ATgY@¡eG                K®àg    KÀ_6    :•¯)                              Ae%¿'€| >¤Z=—W$K·÷Iùò :çÌAZhB|ÍQ <’iÀ                           ¹mJ134629.61+035241.9<‘ÑN  <’’> y  q>…¸=#×
+>õÂAffAİ/¿   1   ¹rJ135305.42+155040.3(Î`8 H
+¶ÓÙ	   
+¶  ÓÙ $@j¹`   @/°i    ?„ë à   B0[˜B€Ë^@yyS?‰N|A­ÿAÃp@<	$?©Ì¾Ö¾Ù†ç¿xÇ‡>•@          ¾^~½õe° AÃA.XA
+ãÄ @´ı@u³?º²                K©´    KÅø9    ;QR                              @ÿòX¿ı¦™      À      À                                               ¹rJ135305.43+155040.3<'ç  <'¹ ?=p¤=õÂ?aG®A&ffAj¿º¬1*  ¹sJ135906.39+175604.9(Â`Õ 
+ÄÔì@  
+Ä  Ôì A@j8Ú@   @1ïI`   ?‘ı˜à   B˜…ñB4Rh@Ÿá?* nA²…A
+@£@/]Ÿ@)ºà¿~Î¿X$é¿2ú >3A          ¿9 >_İ AAACYAàü A909A(Ü@€Nò>-V=YE>4Œ={:ïK\‹WJp@Kf`J Ì:®Se@RŞ„B‰çû <q         A:ƒ>[)    ¿g€ >/=©AóJü!pJ¿¦:’Ì÷@±•ÛBâ5 <j                            ¹sJ135906.39+175604.9<-à 
+ <ùr Ì  Ã?ŒÌÍ=uÂ?
+=qAç33A£×=q©ü1*  ½ZJ142846.66+271502.4(ì M <VÒt*€  V  Òt ª@k&8À   @;@+à   ?.%à   BQ‚Bw¿@@C“?'ŞDAm4AWo@V1¨?ÌZá>VÙ¾p;È>¡½T=nô A?sï†¿	q>#¡ A	;AA	Ó  A!8Aøº@iıØ?l‹D>?wÇ0>\‘´LSÅKß‹L]ÓËKEwÕ:íÃ½@ŞÎ¹Cxe <r€        A÷L>8    ¿w^z      À      À                                               ½ZJ142846.66+271502.4<pØE  <p=   ù>”zá=LÌÍ>Ç®AÌÍAÀƒ¿¥`B1   ¥óJ081012.17+224620.2)<`Q0ÎÏ€   0  ÎÏ @^£?`   @6Å´à   ?ïœ€   B‡,iB)J[@…ù?À]àAİ­AÃ@	>«@£È¿¬ZÄ¾ëSß¿ +              ¿& ß>Ü) AğwA¬öA2 A+½A;@ed                KÄ†    K)›    :`^z                              A P	¿¬m     À  JeóÈ€  :’Š    CşŸ                                 ¥óJ081012.17+224620.2<—$  <ûÎ e  \=õÂ<õÂ>™™š@é™šA¡Ë¿¡ë…5*  ¥õJ085518.73+272046.2)<`R qŒĞf   Œ  Ğfx@`º    @;X@   ?‘µ!€   B–Bß­@"«|?—Q‰A6nA†?@º?¯!š¾éêÚ¾ƒƒ¾—¹ã=ı% AQÜ>À  ¾»Š¿"‹– AyæA6A	|È @€}e@:+?uî?áG®>X¯?ùú	>ÀM)K”MJsKí
+;15˜A3„C·­ <‡         A
+Ã=>1-    ¿w3 ?Ç®>Ò‚L K#‰–;™@ºnDC`| <«€                           ¥õJ085518.73+272046.1<¸» 
+ <Ë› ¾  µ?¸R=\)?záA{33AvÉ¿;çm1   ¥ıJ081115.92+251045.7(è€b ¸ñÍáŸ   ñ  Íá|@^´>à   @9-ë    ?Œ    Bmo[BZ=*@$Õ?çVEA×AAV@&àĞ?¯!š¾±%—>aá¼upÆ              ¾Ş;~¾D$ A3˜A
+pÁA	aÂ @Ï9O@¨¢Í@ #x??|î> ñĞ?vsa>^FÍLh_K L?LK,E;0s@Ø	©BÊû¼ <bS         A½ş>8ÍÃ    ¿˜Ê      À      À                                               ¥ıJ081115.92+251045.7<`u÷  <`¬~ `  \AI™š=uÂ?œ(öC«@ A ¬>È´95*  µJ120432.18+022711.1(²ax µË8n     Ë8¸@f¤JÀ   @Ÿÿà   ?”rJ`   B­¨CB‰ìO@ª”1?ªåYARA¿×@)j¿@Ï€¿ú0¿Ùšˆ¿§«}> p½          À  À    À  À  A	;z @   @Á©’@'¬                K¢W³    K¯nñ    :kgÃ                              AKÙ¿¸1Á     À  Jõl€  :*     Clj¡                                 µJ120432.18+022711.2<£×
+ 
+ <£»Ç *  '?ŒÌÍ<õÂ?uÂBd  AbN¾5?5*  ­½J101712.71+131131.3(ø€g ÈÒÏFWÀ  Ò  ÏF_@cI²    @*bTà   ?‘çA€   B—ÆB€Ñ@8Á8@~VAZ˜Avp@Äs?ÌZá¾¡=½õa2¾½?>éè          ¾ën\¾ïá^ A
+¿êA¹xA	Íô @£à”@k*Ê?²±G?   >Su5?Çûï>²xLÉìSK¦Æ×LübEKáD”;G\K@İdÁC#‰ş <õ@C4îÒBQ9§A
+ı@>8=å    ¿‚êÄ ?Å¸>à@·LÌK2|;íEé@?ÔB«}˜ <‚                            ­½J101712.71+131131.3<\)  <­ó ó  é?Tzá=¸Qì?0£×Ay™šA§ğ¿+C–1*  ¹€J132341.57+313846.7( ~>ĞÛPÀ  >  ĞÛC@i‹    @?¥tà   ?ÿ²    BdB%± @a¸û@N˜AlA%O@	oÒ?®¿¯­l¾í¿ ïŠ              ¾»GÀ    A~êÀ  A
+YT @Ôm@šDA?êpŸ                K
+á¾    KfÍã    ;­.                              @ûœo¿üòN >öÈ´>c‚K0cJAÉ;;*uŠ@ªtYB`qs <ˆ€                           ¹€J132341.57+313846.7<‡ü¹ 
+ 
+<ˆ5 ©  ¢?
+==uÂ?záAŒÌÍAxÕ¿;d1   ©İJ091657.98+064254.2(×`€ åªÍßÀ  ª  Íß w@ag»`   @Ü?€   ?“(À   B¡pñB-(d@¡ˆÙ?c±MA¨Aa&@9÷@Ï€¿Ã×^¿œd‰¿±›§              ¾ƒ¥?» Aö~AYA	
+
+ Aâ“@Ê™@ñÎ                KEU     KQ*Ã    :‰]                              @şÙ¿Í%     À  JR€  :­«Ÿ    B«84                                 ©İJ091657.98+064254.3<˜_ ( <˜ã& Í  Ä>#×
+<õÂ>…¸A	™šA  ¿•?}1   ¦J085603.97+132519.2(J ˆ         	~  Ò7a@`À‡à   @*Øà   ?Œ”¯À   Bq¤ãBñX@2Ï‰?ºMŞAÇ@ÿàN@.÷g@)ºà¿ÃÈ¿ ¸¿œ	>TŠ‡          ¿=rÊ>µ AÙlA/…Aç’ A;ÔA«Í@r§5>V=0ø»>.™=q
+JäwJ.8ÕKáJArƒ:É€@UVB	]à <el€        @şÉ‡>ZMn    ¿“­      À      À                                               ¦J085603.98+132519.2<e`B  <eê« 8  1>8Qì<õÂ?\)A	™šAÙ¿nÙ1*  µ£J125905.29+273839.8(ß¡ –ÁÓ™   Á  Ó™ t@hX´À   @;¤ù€   ?’‚    BkåAî•@é@ù¬A¹A©@2(w?¯!š>{¥>“g½óee=“¢ Aø×?'Câ¿ ÿ>¿F¢é A
+jA¢A	¡ @€Ã@>O^?›?Ó33>0—Æ@­]>ÍÀPMH2KŸ™fM>àGL•á;(~9AmáìB¬Ä <”Æ€B’¡(AoÜAdæ>/<¡    ¿eJ• @9™š?…!L{ÀK†‡;‹¨?AaØ˜B×uk <”¯€                           µ£J125905.29+273839.9<”Ft  <”"Í D  ;>™š<õÂ>Ñë…AffAX¿«1*  ©îJ090316.49+181539.8(ø@® œëÑá
+   ë  Ñá (@`ú3`   @2BÖ    ?‡§ğÀ   BG¤B9‰p?óïÄ?cSAS‡AÍÀ@+«ù@?j¾n’I¾†UZ¾@/=y› ASÎ?n¿Rˆ­>Gu6 AşãAx×Af AUşšAZN€@¥áˆ?6È´=ÔkÌ?MEí>+t^KÈ»ÅJ‚ıÕKán[J¼JŸ:Ë¯–AôCäÛ <=$ C—A4A	°>4ã¾    ¿8P ?Ë…>¯«KŒ¨¤JrÑ»;¤AE{ZC0ú1 <=À€                           ©îJ090316.50+181539.8<>í  <>Š ¬  ¤?ğ£×=¸Qì?\(öB33A“u¾0 Å1   ädJ002534.40+005048.7)ıÀ– –†Ê¼˜@  †  Ê¼a@’Ğà   ?ë_    ?’B¡    Bš×    @fnÅbk9Aè5?±ú$?€  @£È¾ö^†»Í9¾ù‰e>+a          ¾í)E¾èÜõ A
+±A£Aå¨ @¦„º@u¨ğ?ºªZ>À  =¢V˜>ó¤¶=üšKü£K?îLöCK%×÷:ÿ¸²@£ÀBƒ!© <‘ÿÀB‰½6AódÙAN°>AY‹    ¿ŒÌ'     À  J¥Ó6€  ;/Ü    B <‘ç@                           ädJ002534.40+005048.6<‘ÑN  <‘òÜ ‚  z?5Â=\)?8QìAŒ  AÊÁ¾£×
+1   ­ÁJ103539.30+283356.8(ÏÁ' 3	4ÒQ€  	4  ÒF@cİ=    @<ØÀ   ?"÷    B~ñŞAÖ´D@e¿?ÛİûAšA
+…¸@ª½?®=°>İ>İT=E ¡ Ah¶>¾5?¾‹qÅ¾s+ AwHA€[A
+dÄ @ª²—@ƒf£?Ç°Ù@¸>s†^@Cb“?ËşMMKjpM.iêKı'–;,âLA|lCO† <q… CçJA•´õA”>.ót    ¿yv× @#×
+?ML8¢K#A1;’ÕA'62Cò9 <qN                            ­ÁJ103539.30+283356.9<pØE  
+<qg ¦  ?õÂ=£×
+?\(öBffAJ¿Ôş1   µ²J124841.02+342839.3(àaè ÃÒs@  Ã  ÒÍ@hx@   @A="@   ?	&    Buˆ%Bc§?¹­?q*A¨+A	Ã@K‚‘@œğ>#¼Ú¾-=S~½=W,A AO?¬ë¿3\p=ñW AL€A}ApH A1¨A,ïç@ƒh$?>vÉ=Å™?O\>$LÈJ±j+L+…èKŞW:Ø©zA†#BÁÉµ <hœB¶Tä@×ŸĞA
+üp>2yÑ    ¿:»© ?Æff>¥
+ºKÎŞJ¬ô:ø@AŒTÔBÉĞ® <h–ÿ                           µ²J124841.02+342839.3<h§  
+<h‰Â š  ”@%Â=¸Qì?s33BG™šA²½…¸1   ªJ095203.79+193904.0(@è ‡	:Ñÿ€  	:  Ñÿ n@b€À   @3¦°    ?ÊÀ   B‹ÊÃBŠÅ¾@RX}@ÙA€tAD@l‰?©Ì¾¢Çµ¾“' ¾¶S>>£2 AìÙ>‰¾âñä¾ÚbŸ A	ÆA˜*A
+X @§Ò&@n9N?µà?·
+=>>«)?åñâ>¶²†LÄ;K€eLö„KÃİ;5øA½nCIà <„- CS¥şA›gÒA
+ê_>2›‡    ¿œ°¤ ?ç®>Ş”ÁLOmK+ß;`C¢@ğ$Ceh <ƒô@                           ªJ095203.80+193904.0<ƒä&  
+<ƒ’\ @Aë…=ÌÌÍ?W
+=BC™šAj¾Â\1*  ª
+J090923.67+223050.1(®@K _ìÑÌŸ   ì  ÑÌ|@a+(    @6ƒ‘@   ?(€   BØBy²Ÿ@x`?xôAÃ}A÷Ë@5å?©Ì¾Ì¢Ø¾Å…'¿0Ï              ¾›¯J¾~ˆ AÃ‡Ad¾A
+è¤ @®§@pòÈ?·Û?Iûç>/³|?Z=>f´L8ÀdK-¤çLGKRñÂ;@>eC‹ <sè€        A¶8>B®a    ¿Øj,     À  KÏ€  ;„
+    CWCf                                 ª
+J090923.67+223050.1<t!  <t<} ş  ô@õÃ=¸Qì?333B,ffAº^¿ ƒ1   ­ÖJ100216.28+191256.3(?€… S	DÒ`À  	D  Òƒ@bÒ,    @375`   ?ùg    BÌgBEGç@fëL?¨FA÷[Aê@Aı¼?©Ì¾–óò<•P¾”&¦=ö`          ¾ÎÈœ¾°¡M AÀÕA`ãA
+ô@ @®“t@z¡K?¾q)?±ë…>7Ój?È}ì>½qLÉ½¹Kjá•LãUÆK³ş?;ŸAÏDCE+Ã <ˆ‘€CZ¸ºBP²A
+´—>2tˆ    ¿ª ?½p¤>¤nL.¡Jê P:ñ,(AAÒCNH <ˆT@                           ­ÖJ100216.28+191256.3<‡ü¹  <ˆ…
+ ğ  é@W®=¸Qì?\)BzÌÍA©ü¾Éº^1*  µÄJ120409.74+014933.4(¶At ¦Ë8B€    Ë8
+@f¡L`   ?ı73    ?‘–ô@   B•sBp([@ Ã-@'ÖËAÌ}A¯@)¦Y?¯!š¾%3«½óµ‹¾è™Ï>-H          ¾ú]È¿3óš A
+BdAÆ~A	¦Ì @‡=Œ@6g¡?Š™Ò?tıô>$3L?¤Ü*>”ML•2ÒK†”uLÈÌK´ ÿ;!‹Ö@ÙZ–Cvi <) Bğ5nB`YA¢Œ>8©v    ¿™O‰ ?Ó33>µ3°L!ãOK
+äÙ;+ÕÜANs6BÜŠç <ŒÀ                            µÄJ120409.73+014933.5<Œç  <Z\ — 	 >aG®=#×
+>ÌÌÍAÌÍA%¿5?1*  Ü’J224110.65+132023.6(
+`´3ãÍ(&   ã  Í( ˜@uDµà   @*®`   ?‘ÀÌ@   B–{½B‡F¢@5.@AsuAÈz@¹µ@œğ¾‰Ê½buN¾ŸY=× o Aßº>pHÿ¿(„¾RJ A	*A	Ô
+A® @çÁv@½,q@¾?b=·éû?<´¡> ÀùL<¯¡K™	Lj&óKGwù:¦T“@ùt2C''¢ <o@C!$B&†}Aô»>5Øo    ¿gë¡ ?x“u>_O†KÂwJ®a´:Á—åA–aCQ26 <Î@ ?ÒòLŒ:ª:ÆOÛ@ØåCäí<ı‡ Ü’J224110.65+132023.6<¸»  <¼í ÿ  õ?Ù™š=¸Qì?0£×AøÌÍAl‹¾J1*  ªJ094031.83+285809.5(Ù ä j˜Ğ‰„À  ˜  Ğ‰@b$>€   @<ø&    ?“R'    B£öDB“)
+@JA@Ã AÓA
+$h@G«/?¯!š¾®"ã½# ¾sãò=ãÅù          ¿ N¶¿/J{ A
+„A¢A	¨¤ @‹$ì@Bÿ†?”+‚?Rñª=÷/j?{‘>R–AL›"FKXfóL¸¬™Kšß:Æ÷¡AfpCM¨P <šn@C !Añ àA„i>5    ¿šu ?iº^>Y7ƒKØYÅJÉ-:Õ‚APTCL]g <š¢À                           ªJ094031.83+285809.5<šÔ,  
+<šª; ü  ó@/\)=ÌÌÍ?W
+=B9™šAï½e`B1   ±ÇJ114253.92+000942.7(‰€e šÊ÷j€    Ê÷ª@e÷0à   ?Ä·Ø    ?’éĞ€   B t€Bh‹@gë?ÆìñAƒîA>q@²8@)ºà¾“V”¾KZÏ¾¥7>ñ!          ¿-‹=™¨S A’>AÓ2A#ì A'!Atl@l>ß>¼j=Ÿ´>Ú¬Œ=âwaLÁKgL¼KA:6@£Ş\C&Ñ( <—@        A	€>AFL    ¿>Î >Ù™š=Ş>K@ùJE]I: M@Èà›CÉ <–Ù€         ;<'c             ±ÇJ114253.93+000942.6<—P  <—T° ‘  ˆ?“33=ÌÌÍ?uÂAŸ33A™š=‹C–1*  ªJ095118.35+090821.2(. Ñ eÏ4@    Ï Ñ@bzrÀ   @"GI`   ?’:$à   Bš'B‰JÍ@Aõq@kAªAÜ\@ï@Ï€¿^ã¿2£¿y°Ã>Ó          ¾Æ&¾ª×O A™Ah,Aİ @­«ª@m?´$H>Ê=q=¸nb>ñûç>ÙLKˆKZÃLK%K,Ëõ:›R @•äCjÇ <’!À        AüÁ>EÛ    ¿¨ŸF     À  K/ål€  :âŸ    C–                                   ªJ095118.36+090821.2<‘ÑN  <’b  ö?
+=q=£×
+?#×
+A)™šAß;¿#o1*  älJ000629.28+141056.5(
+A? ^ïÌ4À  ï  Ì Ó?ùô`   @,]_`   ?’0E    Bš9NB›„\@‹à°@"–Aê°AX¡@G?ÌZá¿ÇÄ\¿£û¿JŸá>± Ì          ¾İ¡ À    A8ıÀ  A	ôè @ËÂ
+@¦´ï?ıXg?…¸>&9?¤\$>QúL­k¼K…®nLÖLK¹h;l¤@îÄC6ë. <‘Ó€        AE¾>6©¦    ¿zO      À      À                                               älJ000629.29+141056.5<‘ÑN  <‘Â  ?&ff=ÌÌÍ?#×
+A6ffA%¿NV1*  ¦=J083530.18+234034.3(œ p L‰Ğe‚€  ‰  Ğe
+@`@   @7­    ?‘+®    B‘{ÁB]Â¶@Z«ô?ØœAA‡I@@À?©Ì¾oc>å_’¾/J=½Õ‹ A­ó>Ş½ì¾ëÑ×¿|• A
+¼•As—A
+¼¤ @|ˆ@GŒ?—¢F@\)>‡vª@;ş¢?
+:ÔM8ë´K¹o³MZ%ôL f¼;(°AdÌ/CT)˜ <‰MÀC-F}AœÇ³A¦İ>/q‡    ¿Šéß @\ÌÍ?8ºL¡>pK†ææ;ZÂYA‚°dC9’ò <‰W                            ¦=J083530.18+234034.3<‰ '  <‰kº ß  Ô?aG®=ÌÌÍ?=p¤Ai™šAj¿iº^1*  ¹ÃJ135049.14+171655.4(ÆÀ' u
+¶ÓÙ™   
+¶  ÓÙd@iöÀ   @1H7@   ?‘æäÀ   B—ÂìB’†@Mf@´üA e@÷¶Î@!HS@)ºà¾İ<3¿#ø¿0»e>}»‚ Aê!>Öff¿MÚ>5Í: A4óA«zA,ü ANeAAû@’¶Ä>5?=¡×ÿ>¿ı=ã°KÇ¡<J÷ÒuKòA@K¦×:¼Ç@ƒ¼TC\>| <xÀ        A	U >K¬{    ¿¬V >˜b=¶%RJñ‚J¤R:¡{@“×CÕ¬ <Ü                            ¹ÃJ135049.15+171655.5<\)  
+<<´ Ö  Î@6ff=ÌÌÍ?c×
+BH  A+>Ñhs1*  ¹ÊJ131335.27+290735.4(&`' VÙÒÀ  Ù  Òa :@hÌ´    @= d@   ?”y!€   B­ã<B†@~£?Í´½A¸A
+ÑD@å¼?®¿`OK¾úÏ,¿'ÕÑ              ¾Ô|ö¾şA± A‹ïAA
+lP @™˜@KË?šÚP?ü(ö>pîL@Ëõ>ÖoøMPXÚKÜ¹÷MgL1-Ä;ë[A4käC›5Í <¤‰€        A2*>1¡    ¿x^Ú @zá>÷cLšjK€£:ñM¶A‰µÊCxw9 <£ÿ                            ¹ÊJ131335.27+290735.5<£×
+  <¤$¢2 &?   =LÌÍ>Â\As33AáH¿mOß1   ­æJ104402.45+221527.1(A; 	­Ó*&   	­  Ó* ˜@d T    @6Aî@   ?”€   Bª‘µB%´b@A\‡@¥A²Ap@Vf?ÌZá¾`˜¾¿°0¿3QL>†2µ          ¾ğı¾ŸÊ A
+‰A
+Ş4A	ıø @¿¥á@ˆY¥?Ï6T?—=³?/zN>gjLbÏK/DÏL‹
+Krj~:á“-@ìé„B±2' <¡`@BÜ’ÓBqAæ½>6Ğ¼    ¿¡/§ ?ñª>Cs)K“JÃ¦:;3Ãç@pêCEJ < Ş@                           ­æJ104402.46+221527.1< .  <¡Ùo   w>Ç®=#×
+>ÌÌÍAŒ  A%¿pbN1*  ¦QJ081825.78+295734.3(‘`G£Í‹ À  £  Í‹ ƒ@_&ß€   @=õ¥€   ?”b/`   B­mB,S@HE“@	VáAA_Œ@‡Î?®¾ùÉ½DÇ³¾ZêÚ              ¾Ğ<+¿^J A³JA A
+‚ @‹@?}n?‘?†ff>33?¥ùO>‰YÚLÜ%5KšòMîsKàú :ğ¸A³NCS·y <¢·@CA
+BUıA
+>4s‹    ¿ŸğÆ ?œ(ö>Œì'L ùKDz:ıÁaAD#CH¢‚ <¢j                            ¦QJ081825.77+295734.4<£S  <¢ø¾  ø?ÌÌÍ>#×
+?œ(öAƒ33Añª¾ã×
+1   ±×J115825.42+250551.5(h€¯ v
+_Ó¨bÀ  
+_  Ó¨‹@fsd    @9ÿ    ?Œ×È€   Bsâ=Brœ@–†Ğ?ËµAÏJAË€@*ÒÙ?¯!š¿/AI¿ÛË¿m ñ>¶*          ¾ïî6¿#‘Æ A
+™‚AUA	_„ @Œß¤@4Ûs?‰lÈ?co>
+¯¢?ˆ¶à>jèL9›«K L_üK?Z;ì‰@ö"C@ <gÎ        A€ê>60    ¿²s       À      À                                               ±×J115825.43+250551.5<g°  <h}, u  m=¸Qì<õÂ>¸R@¶ff@üí‘¿ÚÀƒ2*  ­çJ103525.11+031740.0(ÈÀ< ƒùÌ]r   ù  Ì]È@cÛXà   @
+Zş    ?“U    B¤›B~Ô×@	2@ ³@A‰`@ûd™@)º@xp¿8›ø¿`Ø¨¿€<z>Š”·          ¿#½˜şÆ AAúÑAÓØ AQ.@ØÂ“@$´°                K›-    K¶şÌ    :q%r                              A_Z¿b a >¸Qì=£ôµK*Ú@Jùò:iÛÑA$‘PBºZ <š¸                            ­çJ103525.10+031739.9<šÔ,  <šA_ ²  ¨>úáH=£×
+?(öA.ffAë…¾gl‹1   ŠJ011653.59+000911.3)ı€ì fÊM     ÊM@39(€   ?Ã™¬@   ?“i-À   B¤¼wBoæ@?÷sPAƒ)A M@zs@?j¿;(µ¿ğD¿/>.÷^          ¿·å¾·rm A	ÉOA
+Ü/Au @¿ì·@“"?ßmc>¤Z=¹å=>Á¬=÷%KôIK"LI¸K7v":ı‡@kù
+CnÒr <š´€        AÊ¨>RŸ    ¿{ˆ >›"Ñ=Ò/KòßJD¹ª:ØDĞ@iîBêæ— <›V€                           ŠJ011653.58+000911.2<›¥ã  <›I ´  ª?n{=ÌÌÍ?aG®A~ffAzá½…¸1*  ª-J090404.85+220341.6(µ@§ ¦ìÑÌ+€  ì  ÑÌ ®@a ¥à   @6Ã€   ?…@à   B3,ëBF}®@”{?ÙÄIA!‘@ûH@h›@xp¿!k¸¿Â3¿\’è>!/          ¿.c½"‹ö A‡÷Ae<A`  A‘UA b@B>n˜=3ÏT>SG…=`iJ®¶IåÃKJ»¿Iÿ¹m:r?M@Wğ¿BÃ6 <)         @öi>Y8ş    ¿¨ã     À  I–Ç€  :„ƒˆ    B¯\œ <=Ô€                           ª-J090404.86+220341.6<*dÃ  <*X. ¦  @¸R=¸Qì?O\)B,ÌÍAA‰<o1   ª.J092115.44+030904.0(M`8ÌM   8  Ì4@aŠ€   @	5nÀ   ?ˆ8    BJùŞBÇf@+ü?öfA	(As@&7ê@£È¾øÚ9¾G¾Öõ}=Ûyù Aã>Áâú¿pç>—Ñ AğğAWşA?z Aƒ€A†
+§@Ë´1>í‘h=º ?!ŸO>lK†Ñ~JíK·psJ´ñÌ:¡Y@³"CR1b <@Ú Bı¬£@[âA	®´>>    ¿E§D ?²->½JáGDIĞ21:Ó(1A
+QHBµf> <B’                            ª.J092115.45+030903.9<?±[  <@D( û  öAff=ÌÌÍ?   CÌÍA¬>Â\1   ­ëJ103913.14+310650.4(À} ãĞ¶ €  ã  Ğ¶ ‚@cùÀÀ   @?0À   ?“`À€   B¤sîBN‡”@.¿y@ThA¢¼@ø¤Ï?ëk’@œğ¿Â&,¾î«u¿!=>C/†          ¾À‚½á(¿ ALáA
+RXAn¬ @ÓÅ¨@¡àñ?ö>)ûç=5mØ>*=®„K{×Jà‚KÒXzK Æv:Qœ?@{jœCz% <š·À        AOÍ>Nwº    ¿¢—t >0 Å=Gà½J¤ yIºØ:AB@ŸgBÌàã <š@                            ­ëJ103913.14+310650.4<šÔ,  
+<šé% Ú  Ñ?Ş¸R=¸Qì?Y™šAû33AĞå<49X1   ª/J093640.73+024212.8(s  ÑİË:P€  İ  Ë:B@bn€   @ Şà   ?“d`   B¤pBT‹@f%_?Ñ}{A>AuÎ@ş}@œğ¿Km†¾ë¿]§“>±Æe          ¿t¾ä»² A	ıA`ÖAæ @®•@sŸ ?¹Ú>ŒÌÍ=¡Oó>~=Ë®ßKĞ›;KªfKéVtKâç:”_@hµvCNò <šo@        Av>S˜1    ¿±} ?‡>°öK½LJ‰µ:¼ßğ@ícjCM <š                             ª/J093640.73+024212.7<šÔ, 
+ <›
+³ â  Ø>áG®=uÂ?\A6ffA;d¿ A‰1   ª2J095351.47+133654.4(t@Ù •
+Ó‰J€  
+  Ó‰*@bİ€   @+:ï@   ?¤x    BŒô
+BQÒ@Õ@@$HAYØA7@×I?¯!š½ª³[=yáê¾¡A÷=Ï×£ AuØ>ÀˆN¾şù#¾Ïìû A
+ÊA5£A	†È @´@†ƒ(?ÌkR?¥¸>"&B?è
+Í>³æÔL³ò÷KxTşLüá¤KÄê;KA+ÛC¶ <…S@Bí nA€õAğ>1T    ¿f) ?œ(ö>”æßKÖ4?JÌ?‚;H%@ö³lBøô_ <…z@                           ª2J095351.48+133654.3<…‡” 
+ <…5Ê ­ 
+ ¥>Ü(ö=LÌÍ?   AQ™šA
+ùÛ¿v1   ¹ÖJ131954.35+311405.8(a  K8Ò\À  8  Ò\ÿ@hÿ?`   @?<&`   ?’ûZ    B¡]B±2@HzÖ@QáAPA Ï_@*3@Ï€¿XGn¿¯º¿‚Ş¼>³‚ÿ          ¿
+ë½ÈVŸ A	 SA	BAÛ‚ A @Âh•@¸Ğ                Kûu    LÉÕ    :Ìÿ"                              A9v¿Î     À  KTÁ€  :ûÊ    C–                                   ¹ÖJ131954.35+311405.8<—P 
+ <—Ê! â  Ø?zá=\)?®Ai™šAå`¿n˜1   ½ÃJ140832.78+030127.5(²¢G «Ë…À    Ë@j„^à   @1Â    ?‘ó¸    B˜1B›º}@DF#@*9FA[RA-–@#mÚ?¯!š¾ßğB¾…Hã¾ø¼D>&          ¿Z€¾‡ÒX A	T#A
+;,A	‡, @×N@¤î?ú¥?p Å=õSe?™Y>q­L˜Z%KFÌ‘LÂ–LK™U‹:ÌxêA ¼)C&F <¯ C!ş’AéÁAˆˆ>2?ç    ¿m, ?S÷Ï>D]ZK©EƒJœÏ§;J€A	ûB§ò <3                            ½ÃJ140832.77+030127.4<\)  <ºˆ á  ×@\=õÂ?p£×Aè  Aå`¾]/1*  ª4J094419.42+095905.1(Ò€½ ¼Îl@    Î±@bB—    @#ø6@   ?„ë@   B0[
+AáÉl@£b?4@ AÚ^A{Ë@·ô?¯!š½ÅúÛ¿pı¿B     AB?ww¾×3Â¾ÿÛP AsA'A	b¦ @™br@FÜ¶?—%@P  >¯ö´@hê?*ü<L²{÷K)ˆLÇİK’¸Ö;n®ŸAg\§C0m <&ó         A3ë>/aø    ¿3™      À      À                                               ª4J094419.42+095905.2<'ç  <'ã ì  ã?8Qì=ÌÌÍ?E¸AFffA1'¿Oß1*  ¢J075433.00+294238.7(
+Ù`F Ú$Íœ{€  $  Íœî@]¨Î    @=µõà   ?‘}    B›B‰\ã@}\@:ªAê5@÷¸á@{V@£È¾‹ÓÀ  ¾Õç=ü;“          ¿%,‡½•w! AûAÀA5è A@òM@7íJ>e`B=‘£0>¡7=ŞÊwKƒ~ÏJæõ KµànJÿpÆ:yÅS@PQıCqØ¤ <‰)@        AË>\.p    ¿‹S >™™š=Ãã=Jİ©‚JX:6@€àÛC3;» <‰À                           ¢J075433.01+294238.8<ˆÎp  
+<ˆ“¸ ß  ×@e¸=áG®?‚\BU33A{>…¸1   ¹ŞJ133829.70+305912.8( [.Ò[PÀ  .  Ò[C@i“ö@   @>ü£À   ?XõÀ   BŠlÊBÆt?ş0z?¿ÉÍAåÚAÙé@b@)ºà¿T%¿:3¿ïV>cm          ¿'õ³=ÍÀ A×–AÎrAñn A'®mACV@d[>=
+‹o>2bŒ=DîÍK.ºJ-Ì|K;‹üJO:pé@“-´B]Aœ <‚î         A ÿE>Eå1    ¿‡4§ >C–=ƒ¨J8IßIPpq:šˆ­@ dAÅ- <ƒ	                            ¹ŞJ133829.71+305912.7<ƒo  <‚À¥ m  e?:áH=#×
+?¸AÚffAr°¾]/1*  ¹âJ135845.41+203942.6(J‚i x
+ÒÔî@  
+Ò  Ôî i@j6    @4©p    ?…2À   B‹çöB?| @€81?œ©&A?ßA¬…@½ı?®=œ‡b¾‰®¾n6b=­€í AW>ìu@¾åŒ¿C†7 A
+òîAK†A
+¼ @uù2@7>R?‹<ô@"\>±£@5ı?¢+M.ŸKÕcMCk[L‡l;‰	)A­mCQ* <„ñ CW¼TAÑ]AKo>3ˆn    ¿£„     À  Lÿ®€  <’°    CWdù                                 ¹âJ135845.41+203942.7<ƒä& 
+ <„]È ¹  ¯?\=\)>õÂAdÌÍA(ö¿Äœ1*  Š¦J014803.60+125604.6( ±
+­Êl@  ­  Êl }@;Ø@   @)Ş†`   ?‘ã3`   B—£4BÓ@Ae@I"¼A•t@ğ¿?ûDš@xp¿¤ƒº¿[é¿›Y>ÄÈ          ¿$‡¾›+Õ AÅµA
+:–A×² @×e@H?î¸_                KŠü    KÜÜÚ    :•¯)                              Aq¿rE®     À  JÔ3
+€  :¶Øo    C4Ø                                 Š¦J014803.60+125604.6<\) 
+ 
+<èÑ ,  '>×
+=<õÂ?ë…AÈ  AÆ¨¾¹Û#1*  ¹äJ132251.07+314934.3(÷€¾ `8Ò\™À  8  Ò\g@iÏ€   @?Óp`   ?’@B€   BšÂµB‚ç?şÿ5@;ÒCAˆ@û§ğ@ìŸ@œğ¾×B—½Ó+k¾‚¾,=Ä'          ¿û‚¾‰1a AähA
+ŸAf€ @ÜÖÚ@´Lu@	 !>äZ=·íö?×p>†LÅK$¨LLl¦KMQº:½~@­*¾CrH <’t€        A­¼>?9…    ¿m¥÷ ?Iº^>Hô0K¦‡ÌJ¥ä2;ñ®@×£ÓBåÇ <’ì                            ¹äJ132251.07+314933.3<‘ÑN  <’M
+ ½  ´?î{=£×
+?:áHB™šA~ú»o1*  ½ÏJ141733.87+250652.0(> p ÊPÒ(†@  P  Ò(@jÌ„`   @9M    ?‘•0    B•NBuÄú@lzV?ÊÏƒAvjAoé@„a@Ï€¿E6ö¾µùİ¿ˆd>¿–&          ¾ë
+)¾³_ A
+ÃIA’Aû: @¶èâ@ys?½‹‡>¿|î=šÛ¶>ÛÒ=ÜŠ@KéÙJ×<LEsK3¤:–şµ@¬WÄC(v: <ŒI€CMöëBº™¹A%0>?dØ    ¿²‰Í ?éy> KN©MJEÄ{:£r`@ó½¤C¸ <-@                           ½ÏJ141733.87+250652.0<Œç 
+ <™F! >ğ£×=£×
+>úáHA$ÌÍAr°¿@A‰1   ¦aJ081214.82+350925.3( n H|ÌšÀ  |  Ìš @^Ãô    @A”@   ?‘év`   B—ØüBfk¤@Şb?ÄbnA‰ˆA•m@-L™@œğ¾uÚ!¾}ê¾Ókì              ¿7”3>0ÌN A€AÚA´ª A=ğñA/5@…!Á>5?=eÊ‡>´‰=©’éKÇÚĞJ¥$SKãeRJÖ6k:2›@ÄW"Bò
+] <ÿ€        A87>;Bİ    ¿u
+ >aG®=kÕuJ³¨I»|:tÃŒ@½“B’¬L <Ç                            ¦aJ081214.82+350925.3<\)  
+<<´ ß  Ö@Â=áG®?uÂBffAÊÁ<ƒo1*  ±îJ113914.73+145932.5                Û  ĞŠ@eÙöÀ   @-ü@   ?>ªÀ   BwQœB(@_ˆ?°RSAJqA	ná@&•E?¯!š¾¢L€¼q©¾Äƒ=ø8 AÂ?8­¾ôÆ§¾Ò‚m A
+p¸AV[A	‚l @¯ä¿@c~?Ä¡û?j=q>ëO?…xå>\s‚LDÜPJşœL`XŸK9E­:äu`A’ÅC/Y” <h        Aï>4Z±    ¿¢,      À      À                                               ±îJ113914.72+145932.7<jJŒ  <f¯Í ¨   ?™š=#×
+>Ç®A¾ffAG®¿p Å5*  ±ğJ115417.76+325139.5( ‡ <ÇĞÆ†À  Ç  ĞÆ@fR^€   @@n5    ?…Éë    B7Á B˜>a@*š¤?ëŒAù4A ¥‡@+e@£È¿(9ª¾È‘Ù¿ME¸>iß.          ¿9Ê¾86 A¶yA	“˜Aêğ @ò«@¾3Y@†F?)xÕ=àj?cbì>K?KĞ«JŒI¯KÓ¾øJ½D2;8T@Ü¤kBØ{ </ CÕÖAC.Azk>8Qy    ¿‹öJ ?C•>A¿bJå=£Iã;¼0@ÛÄBæKÊ <-Ë€                           ±ğJ115417.76+325139.5<-«Ÿ  <.d, è  ß@0£×=áG®?Y™šB.ffAb¾:^51   ±õJ112739.14+234528.5(h@€ ƒ	ÁÓŠÀ  	Á  ÓŠ k@e}8@   @7Â    ?”3    B«‡UBOU ?×Ì@2ëTAo•@ó^Â@@?j=ôá;‘3£¾†@Û=ûù±          ¿Z<d>‘-l AµĞAİA¿Ğ Ao+SAté+@º£                K§i    Kà”<    :”åÖ                              A
+uÕ¿œ     À  K—.€  :¿ ”    C$÷@                                 ±õJ112739.14+234528.5<¡aå  <¡1© ]  U@'®=uÂ?B\B33A9X>¹X1   ªFJ093459.07+254932.3(€ jöÑå~   ö  Ôüõ@a÷à`   @9Ó_    ?Šù    Bcê2Aµå@"C?—õšAP7Aëå@*@)ºà¿¥â¿K§ı¿IÏn>rl¢          ¾ãñ—¾¢f A üAHAf @º=ú@Š=?ÑÛ?Z=U?ğŞ>ŠrK½!ºJ‡kKã JÀBq;I@ıèËBG4Š <Wj€        A½Ÿ>5ˆ­    ¿„”Á      À      À                                               ªFJ093459.07+254932.4<XDĞ  <W{| 8  1>uÂ=LÌÍ?aG®@ìÌÍA1¿d›¦1*  µğJ122540.14+203142.4(Â A *
+4ÔĞ`@  
+4  ÔĞ@gMZ@   @4‡IÀ   ?’ºr    BİB•ı@q›e@<HŞA¤8A\@5Ó?©Ì¿r>¾ -¾˜Ü     AĞÀ>°ö¾ä:¾¥¦J A =AdA
+¥ğ @¹*°@ˆà?Î²v@zá>”ª{@.[? yM7sLòMp¨LE‘ä;g°A
+Ü“CT@ <– C+8B·	A{€>4¬    ¿b‹~ @'
+=?¨L‘<°Kˆ5æ;«O¥AÂBC-- <–                            µğJ122540.14+203142.4<•éâ  
+<•·  @W®>¸?€  B4ffAñª¾l‹D1*  ¦nJ081915.85+191847.6(à€Q"Ğn@  "  Ğnı@_4:    @3P0    ?“o|€   B¤òÃB?Ğ@
+6s@$ÎAÔÔAï?ùzª?¯!š½şÏİ=÷B®½8^`     AH>>ƒºh¾ó•›¾Èwâ A
+z²A?³A	a @²Ã@Šæ½?ÓÖ>î{=Ç‹¸?S¦>#2ØL1/KE„jLk¨äKréD:ÃÒR@¥</C(q <S@CNBßÆ•AÚ§>@óõ    ¿—Ñj ?|î>!­~K•e7J—rN:ëÌl@Í•ÂC´? <›¹@                           ¦nJ081915.85+191847.6<›¥ã  <›—5 Ğ  Æ?×
+=>\)?£×A¦ffA§ğ¾JÀƒ1   ½İJ140043.62+315338.0(Ú@ IÓ¤.   I  Ó¤ ¸@jEÒ    @?äè€   ?ù2€   B}Œ–Bg%?İÚ©@1şA9Ï@ûË@'@œğ=Ë¢=Ø½;	£=…Ä˜ AÌY>»­8¿»Æ¾–u A	YA
+IDAœœ @Õ&;@°ã8@h™>øÔş=Ûİz?<Yd>I*ŒKÛ·MKó-L&OqK1 ª; ¾@›iôBßSW <p	        A³>Cqi    ¿ˆèâ ?>ùÛ>0ÿKT?QJC²â:Øf^Aœ´Bø¡Ê <q,ÿ                           ½İJ140043.65+315339.0<o4×  
+<ní‰ Ü  Ô@¸  =ÌÌÍ?fffBÄ33A‰7>‰º^1   ¦sJ081523.41+284407.2*Ê 4 Ê¶Í¾d@  ¶  Í¾‘@^ö=À   @<¼?à   ?”5ÛÀ   B«Ÿ_B~Q@­Ñ@rµÊA1@ø|å?èØ?¯!š¾q,!=• ¥¾W9!=ÂÃH A,>­Æ\¿^H¾¾Bé A	bôA
+Ë•A	{@ @Â6x@–wÉ?äªÂ?•=«¾÷?]¤>DwÎLSŞ&KhàL²k+K+z:¿@áBè	· <¢?À        A
+Jù>7á\    ¿~a.     À  KüÓ€  :÷3©    BÆı«                                 ¦sJ081523.40+284407.2<¡aå  <¢Y   v?”zá=\)?E¸AÖffA—¾³331   ½àJ142835.88+254231.7()`Ù Ÿ        W  ÒC€@k$Äà   @9µy@   ?‹Ã`à   Bj©B‰£¡@™(h@?ªVAÃAU4@?®¿÷P¿Bï¿m]B     A¬?	|õ¾p&ÎÀ    AXqÀ  A
+o @³yÅ@’G@?ŞLÒ@»×
+?ÄwAC¥?Ê†iM8KLhMİ{§L™V£;Gâ‚AöFC5‹" <]ª         A;e>-Dÿ    ¿{%      À      À                                               ½àJ142835.76+254231.9<^Ò‰  <]e¡	  ÿ?ÌÍ=ÌÌÍ?(õÃAffA
+5?¿œj1*  µôJ125606.09+274041.1(ß¡ )ÁÓ™;   Á  Ó™ ì@h@Ğ@   @;­˜€   ?àüÀ   BúşB7³(?Èí?ŠÁAæZA¨@«¹@)ºà½ê+
+½6ù¾=É8=AeE          ¿$zJ½ı‘ AA	äAñ’ A@V@ú@>n©?“33>ZÒ?¡Or>}~4L¥™K7L´ÙaKG;	ÀA"“C· <†¢€        Aî•>2 :    ¾}ñT      À      À                                               µôJ125606.10+274041.1<‡+  
+<…¼ u  n>uÂ=#×
+?\)A  Aıô¿.—1*  ® J101837.31+031548.9(M ï ‘>Ìƒ@  >  Ìƒ @cTù    @
+Ş    ?‘½    BzÙBf.ş@L?·+A.dA¥Ò@<q@)ºà¿
+‚ç¿Ğq¿d>5ŞÊ          ¿ <F½á( A;˜A¤ÖAZ0 Aâ=@÷@;¯Ø?Y‡>•î?}º>W‘ÖL:ˆaK$¡LZÂK9:f:ä–î@ûL]C1»Ë <kÚ C,‡A€PA
+P3>5¶ì    ¿ã ?ƒ×
+>]é¤K•ÎJoÿ¸:¦wAté9CÄ <k#                           ® J101837.31+031548.9<kíú  <lé£ Í  Ä?Ê=q=¸Qì?LÌÍAŞffAj½D›¦1*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

@@ -1,0 +1,17 @@
+Scoville+2014 used αCO = MISM/LCO = 4.6 M⊙ (K km s−1 pc2 )−1. 
+
+Notes. 
+    Submillimeter fluxes and CO(1–0) measurements from references given in the second column: 
+    1: Fu et al. (2013), 
+    2: Aravena et al. (2013), 
+    3: Ivison et al. (2013), 
+    4: Harris et al. (2012), 
+    5: Riechers et al. (2011b), 
+    6: Lestrade et al. (2011), 
+    7: Ivison et al. (2011), 
+    8: Riechers et al. (2011a), 
+    9: Greve et al. (2003), 
+    10: Thomson et al. (2012), 
+    11: Harris et al. (2010), 
+    12: Ivison et al. (2013), Bussmann et al. (2013).
+

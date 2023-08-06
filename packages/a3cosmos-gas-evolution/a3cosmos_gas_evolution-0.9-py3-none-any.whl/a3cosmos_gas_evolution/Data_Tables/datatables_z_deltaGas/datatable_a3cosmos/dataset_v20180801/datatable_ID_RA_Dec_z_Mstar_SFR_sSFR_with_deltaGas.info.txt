@@ -1,0 +1,9 @@
+Updated on 2019-03-01 with RemyRuyer2014 GDR, KMT09 fmol, Genzel2015Eq12a MZR(z).
+
+TODO: Found bug in these files:
+    "Pipeline/a3cosmos-SED-Fitting/a_dzliu_code_step_5_-_1_-_run_sed_fitting_magphys_priorz_with_upper_limits_with_24um_-_stage_2_task_4_read_results.bash"
+    "Pipeline/a3cosmos-SED-Fitting/a_dzliu_code_step_5_-_2_-_run_sed_fitting_magphys_priorz_with_upper_limits_without_24um_-_stage_2_task_4_read_results.bash"
+    "Pipeline/a3cosmos-SED-Fitting/a_dzliu_code_step_5_-_1_-_run_sed_fitting_magphys_priorz_with_upper_limits_with_24um_-_stage_1_task_4_read_results.bash"
+    "Pipeline/a3cosmos-SED-Fitting/a_dzliu_code_step_5_-_2_-_run_sed_fitting_magphys_priorz_with_upper_limits_without_24um_-_stage_1_task_4_read_results.bash"
+    --> Qz=99 z priors are not used in priority!
+

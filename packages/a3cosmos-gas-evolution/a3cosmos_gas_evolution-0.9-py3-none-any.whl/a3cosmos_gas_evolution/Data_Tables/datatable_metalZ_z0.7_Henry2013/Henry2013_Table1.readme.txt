@@ -1,0 +1,14 @@
+Henry 2013ApJ...769..148H
+Table 3
+Mstar -- Chabrier IMF
+metalZ -- KK04
+
+Stellar mass:
+FAST (Kriek et al. 2009) SED fitting 
+Chabrier (2003) IMF and a Calzetti et al. (2000) extinction curve
+
+Metallicity:
+KK04
+
+SFR -- 3-21
+

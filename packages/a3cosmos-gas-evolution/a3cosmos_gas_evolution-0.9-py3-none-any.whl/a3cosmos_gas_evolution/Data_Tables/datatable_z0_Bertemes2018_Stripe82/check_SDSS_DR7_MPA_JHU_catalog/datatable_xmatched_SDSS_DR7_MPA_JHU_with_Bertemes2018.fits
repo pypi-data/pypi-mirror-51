@@ -1,0 +1,401 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 7588 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.3"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.2-2 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2018-10-30T14:48:40
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="Joined" nrows="78">
+<PARAM arraysize="81" datatype="char" name="COMMENT" value="
+*** End of mandatory fields ***
+
+
+*** Column names ***
+
+
+*** Column formats ***
+">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value="
+*** End of mandatory fields ***
+
+
+*** Column names ***
+
+
+*** Column formats ***
+">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="8: gal_info_dr7_v5_2.fit.gz"/>
+<PARAM arraysize="27" datatype="char" name="Second input table" value="6: gal_totsfr_dr7_v5_2.fits"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value="
+*** End of mandatory fields ***
+
+
+*** Column names ***
+
+
+*** Column formats ***
+">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="14" datatype="char" name="First input table" value="10: match(8,6)"/>
+<PARAM arraysize="23" datatype="char" name="Second input table" value="9: totlgm_dr7_v5_2.fits"/>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value="
+*** End of mandatory fields ***
+
+
+*** Column names ***
+
+
+*** Column formats ***
+">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="43" datatype="char" name="Match type" value="Pair match; Best match for each Table 1 row">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="89" datatype="char" name="Join Type" value="All from 1 (An output row for each matched or unmatched row in table 1 (LEFT OUTER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="15" datatype="char" name="First input table" value="11: match(10,9)"/>
+<PARAM arraysize="30" datatype="char" name="Second input table" value="12: gal_fiboh_dr7_v5_2.fits.gz"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="First input table" value="13: match(11,12)"/>
+<PARAM arraysize="55" datatype="char" name="Second input table" value="15: datatable_Bertemes2018_Stripe82_big_reformatted_..."/>
+<FIELD arraysize="5" datatype="short" name="PHOTOID"/>
+<FIELD datatype="float" name="RA_1"/>
+<FIELD datatype="float" name="DEC_1"/>
+<FIELD datatype="float" name="Z_1"/>
+<FIELD datatype="float" name="AVG_LOGSFR">
+<DESCRIPTION>Based on the technique discussed in Brinchmann et al (2004, B04). Corrected to entire galaxy.</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="ENTROPY_LOGSFR"/>
+<FIELD datatype="float" name="FLAG_LOGSFR"/>
+<FIELD datatype="float" name="MEDIAN_LOGSFR"/>
+<FIELD datatype="float" name="MODE_LOGSFR"/>
+<FIELD datatype="float" name="P16_LOGSFR"/>
+<FIELD datatype="float" name="P2P5_LOGSFR"/>
+<FIELD datatype="float" name="P84_LOGSFR"/>
+<FIELD datatype="float" name="P97P5_LOGSFR"/>
+<FIELD datatype="float" name="AVG_LOGMSTAR">
+<DESCRIPTION>Kauffman et al 2003; Salim et al. 2007. Adopted Kroupa (2001) IMF. Corrected to entire galaxy.</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="MEDIAN_LOGMSTAR"/>
+<FIELD datatype="float" name="MODE_LOGMSTAR"/>
+<FIELD datatype="float" name="P16_LOGMSTAR"/>
+<FIELD datatype="float" name="P84_LOGMSTAR"/>
+<FIELD datatype="float" name="P2P5_LOGMSTAR"/>
+<FIELD datatype="float" name="P97P5_LOGMSTAR"/>
+<FIELD datatype="float" name="AVG_METALZ">
+<DESCRIPTION>12+log(O/H) using the CL01 models as discussed in Tremonti et al (2004)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="ENTROPY_METALZ"/>
+<FIELD datatype="float" name="MEDIAN_METALZ"/>
+<FIELD datatype="float" name="MODE_METALZ"/>
+<FIELD datatype="float" name="P16_METALZ"/>
+<FIELD datatype="float" name="P84_METALZ"/>
+<FIELD datatype="float" name="P2P5_METALZ"/>
+<FIELD datatype="float" name="P97P5_METALZ"/>
+<FIELD datatype="short" name="ID">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD arraysize="10" datatype="char" name="RA_2" unit="hms"/>
+<FIELD arraysize="11" datatype="char" name="DEC_2" unit="dms"/>
+<FIELD datatype="float" name="z_2a"/>
+<FIELD datatype="float" name="S_CO10"/>
+<FIELD datatype="float" name="eS_CO10"/>
+<FIELD datatype="float" name="fcorr_CO10"/>
+<FIELD datatype="float" name="S_CO21"/>
+<FIELD datatype="float" name="eS_CO21"/>
+<FIELD datatype="float" name="fcorr_CO21"/>
+<FIELD datatype="float" name="R_21"/>
+<FIELD datatype="float" name="eR_21"/>
+<FIELD datatype="float" name="S_HI"/>
+<FIELD datatype="float" name="eS_HI"/>
+<FIELD datatype="short" name="ID_2">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="z_2"/>
+<FIELD datatype="float" name="logMstar"/>
+<FIELD datatype="float" name="logSFR"/>
+<FIELD datatype="float" name="MetalZ"/>
+<FIELD datatype="float" name="Re_kpc"/>
+<FIELD datatype="float" name="Tdust_K"/>
+<FIELD datatype="float" name="logMdust"/>
+<FIELD datatype="float" name="E_logMdust"/>
+<FIELD datatype="float" name="logMgas_via_dust"/>
+<FIELD datatype="float" name="E_logMgas_via_dust"/>
+<FIELD datatype="float" name="logMgas_via_CO"/>
+<FIELD datatype="float" name="E_logMgas_via_CO"/>
+<FIELD datatype="float" name="logMdyn"/>
+<FIELD datatype="float" name="E_logMdyn"/>
+<FIELD datatype="float" name="logMHI"/>
+<FIELD datatype="float" name="E_logMHI"/>
+<FIELD datatype="short" name="flag_HI">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="Separation" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  269 / width of table in bytes                        NAXIS2  =                   78 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   61 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'PHOTOID '           / label for column 1                             TFORM1  = '5I      '           / format for column 1                            TTYPE2  = 'RA_1    '           / label for column 2                             TFORM2  = 'E       '           / format for column 2                            TTYPE3  = 'DEC_1   '           / label for column 3                             TFORM3  = 'E       '           / format for column 3                            TTYPE4  = 'Z_1     '           / label for column 4                             TFORM4  = 'E       '           / format for column 4                            TTYPE5  = 'AVG_LOGSFR'         / label for column 5                             TFORM5  = 'E       '           / format for column 5                            TTYPE6  = 'ENTROPY_LOGSFR'     / label for column 6                             TFORM6  = 'D       '           / format for column 6                            TTYPE7  = 'FLAG_LOGSFR'        / label for column 7                             TFORM7  = 'E       '           / format for column 7                            TTYPE8  = 'MEDIAN_LOGSFR'      / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TTYPE9  = 'MODE_LOGSFR'        / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TTYPE10 = 'P16_LOGSFR'         / label for column 10                            TFORM10 = 'E       '           / format for column 10                           TTYPE11 = 'P2P5_LOGSFR'        / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TTYPE12 = 'P84_LOGSFR'         / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TTYPE13 = 'P97P5_LOGSFR'       / label for column 13                            TFORM13 = 'E       '           / format for column 13                           TTYPE14 = 'AVG_LOGMSTAR'       / label for column 14                            TFORM14 = 'E       '           / format for column 14                           TTYPE15 = 'MEDIAN_LOGMSTAR'    / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TTYPE16 = 'MODE_LOGMSTAR'      / label for column 16                            TFORM16 = 'E       '           / format for column 16                           TTYPE17 = 'P16_LOGMSTAR'       / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TTYPE18 = 'P84_LOGMSTAR'       / label for column 18                            TFORM18 = 'E       '           / format for column 18                           TTYPE19 = 'P2P5_LOGMSTAR'      / label for column 19                            TFORM19 = 'E       '           / format for column 19                           TTYPE20 = 'P97P5_LOGMSTAR'     / label for column 20                            TFORM20 = 'E       '           / format for column 20                           TTYPE21 = 'AVG_METALZ'         / label for column 21                            TFORM21 = 'E       '           / format for column 21                           TTYPE22 = 'ENTROPY_METALZ'     / label for column 22                            TFORM22 = 'D       '           / format for column 22                           TTYPE23 = 'MEDIAN_METALZ'      / label for column 23                            TFORM23 = 'E       '           / format for column 23                           TTYPE24 = 'MODE_METALZ'        / label for column 24                            TFORM24 = 'E       '           / format for column 24                           TTYPE25 = 'P16_METALZ'         / label for column 25                            TFORM25 = 'E       '           / format for column 25                           TTYPE26 = 'P84_METALZ'         / label for column 26                            TFORM26 = 'E       '           / format for column 26                           TTYPE27 = 'P2P5_METALZ'        / label for column 27                            TFORM27 = 'E       '           / format for column 27                           TTYPE28 = 'P97P5_METALZ'       / label for column 28                            TFORM28 = 'E       '           / format for column 28                           TTYPE29 = 'ID      '           / label for column 29                            TFORM29 = 'I       '           / format for column 29                           TTYPE30 = 'RA_2    '           / label for column 30                            TFORM30 = '10A     '           / format for column 30                           TUNIT30 = 'hms     '           / units for column 30                            TTYPE31 = 'DEC_2   '           / label for column 31                            TFORM31 = '11A     '           / format for column 31                           TUNIT31 = 'dms     '           / units for column 31                            TTYPE32 = 'z_2a    '           / label for column 32                            TFORM32 = 'E       '           / format for column 32                           TTYPE33 = 'S_CO10  '           / label for column 33                            TFORM33 = 'E       '           / format for column 33                           TTYPE34 = 'eS_CO10 '           / label for column 34                            TFORM34 = 'E       '           / format for column 34                           TTYPE35 = 'fcorr_CO10'         / label for column 35                            TFORM35 = 'E       '           / format for column 35                           TTYPE36 = 'S_CO21  '           / label for column 36                            TFORM36 = 'E       '           / format for column 36                           TTYPE37 = 'eS_CO21 '           / label for column 37                            TFORM37 = 'E       '           / format for column 37                           TTYPE38 = 'fcorr_CO21'         / label for column 38                            TFORM38 = 'E       '           / format for column 38                           TTYPE39 = 'R_21    '           / label for column 39                            TFORM39 = 'E       '           / format for column 39                           TTYPE40 = 'eR_21   '           / label for column 40                            TFORM40 = 'E       '           / format for column 40                           TTYPE41 = 'S_HI    '           / label for column 41                            TFORM41 = 'E       '           / format for column 41                           TTYPE42 = 'eS_HI   '           / label for column 42                            TFORM42 = 'E       '           / format for column 42                           TTYPE43 = 'ID_2    '           / label for column 43                            TFORM43 = 'I       '           / format for column 43                           TTYPE44 = 'z_2     '           / label for column 44                            TFORM44 = 'E       '           / format for column 44                           TTYPE45 = 'logMstar'           / label for column 45                            TFORM45 = 'E       '           / format for column 45                           TTYPE46 = 'logSFR  '           / label for column 46                            TFORM46 = 'E       '           / format for column 46                           TTYPE47 = 'MetalZ  '           / label for column 47                            TFORM47 = 'E       '           / format for column 47                           TTYPE48 = 'Re_kpc  '           / label for column 48                            TFORM48 = 'E       '           / format for column 48                           TTYPE49 = 'Tdust_K '           / label for column 49                            TFORM49 = 'E       '           / format for column 49                           TTYPE50 = 'logMdust'           / label for column 50                            TFORM50 = 'E       '           / format for column 50                           TTYPE51 = 'E_logMdust'         / label for column 51                            TFORM51 = 'E       '           / format for column 51                           TTYPE52 = 'logMgas_via_dust'   / label for column 52                            TFORM52 = 'E       '           / format for column 52                           TTYPE53 = 'E_logMgas_via_dust' / label for column 53                            TFORM53 = 'E       '           / format for column 53                           TTYPE54 = 'logMgas_via_CO'     / label for column 54                            TFORM54 = 'E       '           / format for column 54                           TTYPE55 = 'E_logMgas_via_CO'   / label for column 55                            TFORM55 = 'E       '           / format for column 55                           TTYPE56 = 'logMdyn '           / label for column 56                            TFORM56 = 'E       '           / format for column 56                           TTYPE57 = 'E_logMdyn'          / label for column 57                            TFORM57 = 'E       '           / format for column 57                           TTYPE58 = 'logMHI  '           / label for column 58                            TFORM58 = 'E       '           / format for column 58                           TTYPE59 = 'E_logMHI'           / label for column 59                            TFORM59 = 'E       '           / format for column 59                           TTYPE60 = 'flag_HI '           / label for column 60                            TFORM60 = 'I       '           / format for column 60                           TTYPE61 = 'Separation'         / label for column 61                            TFORM61 = 'D       '           / format for column 61                           TUNIT61 = 'arcsec  '           / units for column 61                            TCOMM61 = 'Distance between matched objects along a great circle'               TUCD61  = 'pos.angDistance'                                                     DATE-HDU= '2018-10-30T14:48:40' / Date of HDU creation (UTC)                    STILVERS= '3.2-2   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                              ^   SAw1x¿€”=„œ?;‰·Àb+¢"Ş    ?0W6?338?{>í“?W3·?‡Å~A'MNA'A'N‚A%¾bA(zsA$ÈA)òqAô¾@qsŠ† <úAÌAõÂA°‡Aè–A¥eAó¸ y01:01:47.9-00:33:52.1=…¸@Fff?™š?†ffA  ?ó33?¨õÃ@Fff?LÌÍÂÆ  ÂÆ   y=uÂA'×
+?0£×A(ö@  AŞff@÷®<õÂA¸R<õÂA™š=£×
+A'
+=>\)A £×>”zá ?¥ï[Xx ^   [Axçæ¾ßÓ\=ˆ‘R>úuĞÀì$¥Yv    >ìæÖ?   >;¸û=?*ÿ?wP|A-ÚA-¡A.ÔA,sA/4A*ÄÈA0ÆŸAÛu@\×Ñ]:½A¿#AõÂAÓXA–UA#9A‰J Ê01:02:13.6-00:26:13.8=‰7LA@  ?ŒÌÍ?‚\A¾ff?³33?Ôzá@   >LÌÍÂÆ  ÂÆ   Ê=\)A.{>ë…A
+ffA!ë…A½™šA Qì=£×
+A £×=£×
+A×
+=\)A3\)=áG®A$Qì>”zá ?Ç©véßcâ }   ¬ ~Aiİ¿ŠÌÙ>FÒ?® À‚bP?    ?¬b?¹™œ?-o?f˜?È®?ÚáJA1Z†A1#áA1jA/ÌA2Ø¹A-î£A4ŠoANT@_[:©Áx‚A$œAG®AbUAÚ$AÃ<A—00:58:28.0-01:05:03.7>E¡Ë@9™š?™š?ŒÌÍÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  >B\A2¸R?«…A…@ƒ…AÔ  A×
+=uÂA'33=uÂA%¸=¸QìA-¸>aG®A¸R>”zá ?æmØŒ$ }   ­ ?Al©Ä¾²†9=¡?Š?O¢JÀÊA§á²    ?F &?@  ?X¢>ÁºĞ?*L?£!A,ñ+A,³ÃA,ˆˆA+GÙA.CÓA*ÔA/¥Aºª@_şåÈ„“AZ9A=qAë A/A'eAÓ00:59:10.0-00:20:55.1=¡ÊÁAX  ?LÌÍ?‚\A33?³33?°£×?¦ff=ÌÌÍ?ixÕ>2-=£×
+A+×
+?G®A(ö@ÕÂAÈÌÍA¸R<õÂA!p¤<õÂA"=q=LÌÍA6ff>Ç®A&\=£×
+  ?éÉC¡š;] }   ¬ Ahÿ#¾h^“=‘M×?“? Àƒ˜SKBë    ?s"?ŒÌÌ?~¢f?g×Ú?Ÿ¡?¼A,ËA+Ï]A+ÉcA*yFA-M|A)%/A.ñíAA»@nÇ„ÂöÛAÜAQìAğPAA—A¸mAOaµ00:58:14.9-00:13:37.0=‘hsA;33?¦ff?¢\B<ff@   ?À  @€  ?   ÂÆ  ÂÆ  µ=\)A,(ö?{A\)@ã×
+Aù™šAë…<#×
+A!G®<#×
+A (ö=uÂA+×
+=¸QìA"\>”zá ?çØX{® }   ° &At…?[“ <ß#É=µ×ÀrŒbÕ5    =ˆI    ¾z_¾•t>‹t«?A¥A ¤¹A RˆA×
+A#A!ğ×A®A#qAL@m´#kïAÔÿAë…A¬ƒAeAœpAˆÛ
+01:01:07.8+00:51:27.8<İ/AQ™š?ÌÌÍ?ƒ×
+B33@   ?â\@   >ÌÌÍ?ƒ•=ß;d
+<õÂA"{<õÂA¸@&ffAÌ  @ê\<õÂA33<õÂA33=£×
+A#×
+=£×
+AQì=#×
+  ?µ½^ÖV$! }   ¾ AŠ&M¿š3=[P?orsÀ	è»Ï :    ?aÊ(?Y™˜?@"?"…o?‡c÷?±Á?A%^A$ï7A%A#â%A&îA"ìfA(›AATF@q iubA)wAQìA÷AEöA¦AQGl01:09:04.5-01:12:13.1=%@°  ?333?ˆõÃAtÌÍ?¦ff?´zá@333>ÌÌÍÂÆ  ÂÆ  l=uÂA%¸?aG®A\)@£33Aä  @şff<£×
+A¸R<£×
+Ap¤=\)A(  =£×
+A!G®>”zá ?Ğç~
+ }   ¹ EA„ğv¾Ø=ˆS>û¯ÀkÉ—Ò…d    >ägz>æfp>’V>«z?#nl?h A'A&ã÷A&/ÊA%qœA(p\A$>DA)ĞoA»à@g#UĞô‚cA®öAQìA)ARAÆ	AAm·01:06:28.2-00:16:56.9=‰7L@Ğ  ?™š?{Aq™š?À  ?œ(ö@33>™™šÂÆ  ÂÆ  ·=\)A(Qì>æffA®@µÂAÔ  @üzá<£×
+Ap¤<£×
+A\)=uÂA)p¤=LÌÍAÂ>”zá ?Ô»¼=¶{ ^   \A„bi¿f^ =‰@Ø?oNgÀšƒRd    ?cc
+?ffh?7ıé?q¼?1Ø?®RæA.cA-ÔA.ffA,e•A/L5A+*µA0£šAzæ@b°#²zÔ›AA(öA‚\AMAÿ/AÈÉ Ì01:06:11.5-00:53:59.6=‰7LALÌÍ?ŒÌÍ?¦ffAõ™š?À  ?ºáH@™š>LÌÍÂÆ  ÂÆ   Ì=\)A.ff?c×
+Azá@n{AÔ  A £×<£×
+A33<£×
+A…=uÂA,  >\)Azá>”zá ?ßbËX6¹° ^   ÌA}×¿eX=†’¹>xüWÀƒ{ú@#µ    >;Õ¥>™ <&/Ï¾ˆ‹>ÙÙ@?C37A"—A!Ä@A!´èA e¶A#0}A/§A$Õ`A@kÍmşÍ‚AáïA
+=A¾tAjAs"A¯• Ò01:04:44.7-00:53:41.2=‡+@ff>ÌÌÍ?G®@¶ff?ŒÌÍ?˜Qì@,ÌÍ?333ÂÆ  ÂÆ   Ò=\)A   >8QìA
+áH@£33AĞ  @õ¸=LÌÍAff=LÌÍA\)=¸QìA#33=\)A\)>”zá ?æ•É‡n‘& }   · A‚ÈO?oŒ_>B…?u¸ÀP3ÕùZ    ?e¨ÿ?Y™˜?;
+??º¹?Û?ÆfjA%«eA%2`A$±~A$'A&úA#+tA)œµACu@lÜvÑA#kAQìA ŞAEøA[õA|ñ01:05:23.5+00:56:08.6>Ÿ¾?fff>LÌÍ?“33ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ñ>™šA%G®?fffA\)@ç
+=AÔ  A\)>\)A"áH>\)AÂ=£×
+A$(ö>³33A)G®>”zá ?ÙwŞjgÆÍ ^    şAD?½±³>6Vº?¦İZÀ2ê‚}    ?¡õ?¦fh?ŠàÆ?j _?ºú˜?ßÀıA,Ã†A,@A,ˆˆA+*A-ë­A)ÕÉA/æ×A¯@c»µbSfA€ÌA™šAæ>AmA)cA³
+‚01:12:08.0-00:05:11.3>6E¢@ƒ33?™š?ŒÌÍÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ‚>8QìA-™š?¢\AQìA
+=AŞffA\=#×
+A%G®=#×
+A%Â=\)A0  =õÂA%G®>”zá ?ªe4ãõˆ ^    _AgÇ?Dš/> &?to¿À¯¢²V¶    ?mô~?s38?5{?Ë ?’”.?­²-A/ îA.änA/%ŒA-FA0ÄA+”?A2­îAó@dÁYM78öAçA™šA(:AŠñAÕíA(Òï01:11:42.2+00:46:04.7>   @ƒ33>ÌÌÍ?…¸@£33?fff?{?™™š>™™šÂÆ  ÂÆ  ï>¸A/
+=?n{A®@İp¤AÔ  A…=LÌÍA"¸R=LÌÍA ÌÍ=uÂA.¸R=uÂA=q>”zá ?âˆ‡«Bæ‚ ^  " 1A‘Ôã?.Q8=„·?LËÀ¬—şé/i    ?;îK?@  ? ' ?ª®?i ?ŸÅ~A%7¯A$Ù¹A$±~A#o¦A&}3A"[A)#§AÇ@nFŒ„ƒA¶³Aë…A1IAÚAÿAèá j01:12:54.9+00:40:51.6=…¸A33?LÌÍ?‚\Aªff?ó33?   @33>™™šÂÆ  ÂÆ   j=uÂA#…?:áHA£×@\(öAêff@ü(ö<£×
+AQì<£×
+Azá=uÂA#×
+=ÌÌÍAp¤>”zá ?èaŒ|YN ^  % §A–K>ˆ8=/”Ï?$"ÀÖ8˜    ?ã!?ÌĞ>ÌÌĞ>h}l?Cm?}A(cA'ÚØA'®A&y¤A)]‡A%;OA*¯¥A@d°ùùÛAˆ­AzáAlÊAQ•A>!AzM %01:15:08.8+00:15:56.9=0 ÅA˜  ?³33?G®B33@™š?´zá@lÌÍ>™™š?#×
+>]/ %=#×
+A&¸R?ë…A(ö@aë…AÈÌÍ@ş{<#×
+AÂ<#×
+A(ö=uÂA&áH=¸QìA…>¸  ?°áZ&Ñ ^  % A–F7>h=3)c?B£À
+Ğ¨5à    ?<İ'?@  ?Gâ>÷ûà?\=p?o“A&kõA&NA'N‚A$£A'ÅÚA#*¹A)2A^H@n†	“7GVA3A=qAú.A<8AíA$@ &01:15:08.2+00:13:37.6=49XA$ÌÍ?€  ?‡®A°  @   ?Ï\)@ff>™™š?!ÊÁ>,1 &=#×
+A"{?=p¤AõÃ@ˆ  Aêff@ğ£×<£×
+A=q<£×
+AQì=\)A((ö>W
+=A®=ÌÌÍ  ?Û>V£®¨ ^  & &A—Z¬?™Y=4ÅT?ë	Àml.šÍú    ?q=¹?s38?EÏÍ?—e?–<e?ÀŸÙA.ÎA.ŒÉA.ffA-'®A0A+İGA1‘AE‰@m$D¹¸øAA33Aë;A-ãA6nA'Ô 01:15:40.6+01:11:52.7=49XAq™š?™™š?—
+=BÌÍ?ó33?æff@   >LÌÍ@KÇ>`A‰ =#×
+A,(ö?p£×AG®A	¸Aä  @ø  <#×
+AÂ<#×
+Aff=uÂA.áH=áG®A$õÃ=#×
+  ?Ü•¼kô }   Ò eA¢¥»¿GÖ±=\ª˜>õ@ĞÀ,Ü¯    >ÚF>æfp>: Æ½4´q?7¶?‘±´A%:„A$òĞA%A#¿¯A&`°A"–VA( -A;@hvCM4G½A úAG®A¥XA4CAõIAŞO01:21:19.4-00:46:50.2=]/A33?€  ?‚\A§33?¦ff?ÁG®@33>™™šÂÆ  ÂÆ  O=LÌÍA#\)>Ü(öA£×@È£×AÈÌÍ@ø  <õÂAff<õÂA=q=\)A)G®=\)A…>”zá ?ÔÅĞ¼i ^  0 TA¢­œ¿D=[ìD?gáÀ+u    ?•?   >²&n>?Ñé?3°Ï?dÌÏA+ÔlA+—VA+iĞA*ÉA-/ÁA(ğ™A.ˆıA†@dÓ·Ò×DiAEğAáHAàAÏ§Aš`AÎì 01:21:20.4-00:36:51.5=]/AÌÍ?LÌÍ?—
+=A!™š?ŒÌÍ?«…?€  =ÌÌÍÂÆ  ÂÆ   =LÌÍA+×
+?¸AÌÍ@N¸RAÈÌÍ@÷®=LÌÍA{=LÌÍAff=uÂA*ff=\)AQì>”zá ?ê„Z‡ãª }   Î aA,*¿Ii=]?D4ÃÀÉ¬û¼    ?6ó?338?y>çª„?g­?˜_àA(ö“A(¯A(m:A'TøA*9ÇA&8 A+òoA›’@h%{§ßò7AvsAáHA«AÌ´AğÍAÙN01:19:05.2-00:47:07.4=]/A1™š?fff?\)AÖff?ŒÌÍ?¯\)@™š>LÌÍÂÆ  ÂÆ  N=LÌÍA'\)?5ÂAG®@¨QìAĞ  @üÌÍ<õÂAQì<õÂA…=LÌÍA(õÃ=£×
+A!™š>”zá ?×Œ=T0¤ }   È }A–l:¾Jø³>Hx~?³ÉœÀº‰Ks    ?­R ?³34?ŠU?QõN?Õh+@ÛŞA4|SA4=BA4_“A2©ŸA5ë†A1 A7ãÊAa¸@WÚÊQ tA2wAõÂAÑAJæA4 Aöæ01:15:12.7-00:11:53.6>H´9@†ff?   ?‚\ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  æ>LÌÍA1Â?¬ÌÍA×
+ApõÃAä  Azá<õÂA'…<õÂA'\)=uÂA8õÃ=uÂA(zá>”zá ?Ğœ{ğû„ ^  $ NA”†Ë?CìQ=.e?#²YÀÚ°Ï­ë    ?EÅ?™˜>È	ˆ>N›{?UZ]?š™A+˜zA+]„A+iĞA)õvA,çQA(ÑA.RAe@kCzè”Ì¸Aü”A=qAhA+›AI%Afü  01:14:15.8+00:45:55.2=,1Ap  ?fff?¸RB'33@   @¸@333>LÌÍ?&ff=‹C–  =#×
+A-¸?
+=A…A1ÂAÔ  @õ¸<£×
+Aë…<£×
+Aff=uÂA-G®=õÂA…=#×
+  ?±$Üvù{Í ^  # FA“‹Q>œ…f=5£?jõšÀÍn¥é*    ?]÷)?Y™˜?-O|? ÈŸ?Œ9­?¹_A0ÎòA0ÄA0DDA/8A2OA-ÊÕA3·ÙAk8@gÔ\m®^“ARçAzáA±SAæ8Aí#A<­ '01:13:46.3+00:18:20.6=49XA™š?ÌÌÍ?ŒÌÍB”ÌÍ@`  ?õÂ@s33>™™šÂÆ  ÂÆ   '=#×
+A.¸R?^¸RAzáAG®AÔ  @û33<#×
+A(ö<#×
+Azá=\)A0  =LÌÍA!Â>”zá ?ÙeğĞ§®Ú }   Ç ŸA”Û9?	<‰=(p>Ñ êÀM/Ó|r¶    >¹‹—>™™ =İx:¾Ûs?*E?5ùA'=A&Ş†A&\A%•bA(TA$]'A)©–A«>@fQtbÀA ÓAë…A‡Aä[A¾.AWº;01:14:25.7+00:32:09.9='ïA+33?333?‚\AÜÌÍ?À  ?ş¸R@&ff>LÌÍ?€A‰=çl‹;=#×
+A&áH>¸QìAQì@î{AĞ  @ó×
+<õÂAzá<õÂA\)=\)A*=q=áG®Aë…=LÌÍ  ?Â÷IRœÑ }   Ç rA•Uz>ğ v=¼+ç?ua“À[y¡Ê    ?i35?Y™˜?;pí?z?é?µ°^A/™îA/dA/…A-éÅA0à£A,´gA2F@AMO@b¡¶äóÈAJ¸A™šAEAÄ£AêAwâà01:14:40.0+00:28:07.5=¼jA™š?LÌÍ?šáHÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  à=¸QìA0£×?hõÃA®A{AÔ  A=q<õÂA!p¤<õÂA"¸R=uÂA4ÌÍ=õÂA*=q>”zá ?Ğ"çcçÇ }   Ç @A•à>Ös=)î?IÀ}ßU¿ä     ?=;Û?@  ?®3>Ç®?w™)?¡ïVA.«A-Û(A-§AA,uŞA/q8A++±A0ºÖA<0@bªÍıµw²AãA×
+AŞÄA#•A“Ag–601:14:56.3+00:07:50.5='ïAß33?À  ?‚\BÌÍ@&ff?×
+=@333>LÌÍÂÆ  ÂÆ  6=#×
+A,ÌÍ?=p¤AõÃ@™ë…AÌ  A £×<#×
+A¸R<#×
+Aë…=uÂA,zá=¸QìA¸R>”zá ?áÜêñ>¶ }   Ê 2A˜Éˆ>ä<c=`_¥>£öÀìorLé    >”’N>³30»£ÖÙ¾Å|Y?‡¯?vÌÓA+B‡A+A+
+>A)¿A,½A(3A-ôìAÒÂ@anÒqmB¦A°¼AõÂAâA{œAc!A:pb01:16:23.6+00:26:44.8=aG®@–ff?   ?‹…A{33?LÌÍ?¼(ö@Y™š>ÌÌÍÂÆ  ÂÆ  b=LÌÍA*{>”záA®@¼(öAÈÌÍ@øõÃ=õÂA®=õÂAë…=uÂA,(ö=£×
+A$Qì>”zá ?ĞLÁ¯¬= ^  * šA›p>ĞE¢>ìÑ?Ÿ{ŸÀ½¨âà    ?œÿË?¦fh?‚³ÿ?S34?¶=S?Êª«A0A/Ô‹A/…A.9ñA1óA,×ÍA3$”A+~@]u9U•AüA™šAÉ­A A×AÈò01:17:43.1+00:24:24.4>1'@¶ff?™š?…¸A0  ?ŒÌÍ?‘ë…?ó33>™™šÂÆ  ÂÆ  ò>¸A/33?p¤A
+=@â=qAêffA…<õÂA#\)<õÂA$zá=uÂA0  =\)A#×
+>”zá ?Ş)ˆäqN ^  - EAŸ%Õ?'V:=[ÍB?-ÀŒ_:¸tº    ?È?™˜>ñ­>«Æ¨?UĞg?¶A-%A,¶GA,ˆˆA+ ÀA.–«A)©ØA0`ÚAô$@kÛG›Q$AÖiA  A²AúÇAèA@Á H01:19:34.4+00:39:13.2=]/Aff?ŒÌÍ?£×Aø  ?À  ?¼(ö@Fff>ÌÌÍÂÆ  ÂÆ   H=LÌÍA)ë…?¸RA…@ÌzáAØÌÍ@ú\<#×
+AÌÍ<#×
+A\)=uÂA,(ö=uÂA£×>”zá ?àx’İ(ÿ ^  0 9A¢Ç{?™^š>.òù?Ğí>À½û‹yÇ    ?Ì/Å?ÌÌÌ?½û³?° ?Ü¿¾?òÇjA2TA1Ç•A1büA0?A3~¡A.ÁA64A=…@kÎÏßÒ&A?A\A°÷AuüA‹,A‹Íf01:21:23.4+01:11:53.6>/ @ÜÌÍ?™š?p¤ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  f>.{A/…?ÌÌÍA£×@«×
+Aä  A\)<£×
+A)Â<£×
+A(Qì=LÌÍA(£×>æffA(ÌÍ>”zá ?×YO” ^  < A±—;ƒÕ<×k´½6ÉÀBDÛe|    ½œ¨½ÌÌÀ¾t6ı¾ÊC[=ä¡‘>±8A!ıÂA!ËA"{A W—A#Q½A¾A$|åAz"@kE Oñ‰'A-ôA=qAıA¿AÏ¨AÜk01:28:30.3+00:00:14.5<ÔıôA¥™š?Ù™š?ƒ×
+B'™š@ÌÍ?ü(ö@   >LÌÍ?ó¶=®{<õÂA$(ö½£×
+Ap¤@}p¤AØÌÍ@é™š<#×
+A\<#×
+A™š=\)A%ë…>8QìAQì=uÂ  ?¬&ºQ€$Ô ^  5 MA©E½€Ù×<âé~¾§LÀ.áC    ¾«tg¾™™¿9S¿¡G®<šø>ëA&¾ªA&„ÌA&îïA%rA(	cA#ÓA)ŠAÊ[@W{Oj€ĞA qA¸RA‚ÒA¸EA+ÖAÓE A01:24:38.1-00:03:46.4<å`BA#33?ŒÌÍ?œ(öA¨  ?æff?ù™š@ff>™™š?ğ Å=ï² A<õÂA%p¤¾¨õÃA
+áH@ÈQìA¬ÌÍ@í¸<õÂAff<õÂAë…=\)A+33=ÌÌÍAÌÍ<õÂ  ?Ã#o”¸1 ^  3 TA¦‘¿gñA<Ô.9¼İ¬»À¬|w¢^5    ½Œ>8½LÌ€¾ƒúv¾ñ™–>|>ë…,A%±1A%waA%p¤A#ş»A'iA"ÆÔA(nDAyÈ@gò™_†A5®AõÂAÖöAÔ¡A²ÚAóĞ C01:23:17.0-00:54:21.7<ÔıôA¶ff@ÌÍ?¦ffB–ÌÍ@ƒ33?èõÃ@S33>ÌÌÍ?.V=Ä›¦ C<õÂA&{½\)Azá@|ÌÍAä  @îff<#×
+AÂ<#×
+Aë…=uÂA((ö=\)AÌÍ=uÂ  ?¯Ñ¸YÒù }   Ó (A£’×¿Gdv=\ ÷?P/À(Lq±¬]    ?@Æ˜?338?nÂ>î|?xtE?²=tA$ãBA$yƒA$QìA#büA&oA"n´A(,´AŒ8@jnuÉ—6A@ÓAG®AÇAÉßAùƒAéŒP01:21:47.2-00:46:44.0=]/@æff?fff?ŒÌÍAªff?³33?½p¤@@  >ÌÌÍÂÆ  ÂÆ  P=LÌÍA$  ?@  AÌÍ@©G®AÆff@ü(ö<õÂAQì<õÂA(ö=\)A.=q>”záA"áH>”zá ?¿ú[¥‰—- ^  5 |A¨ôÁ?‘À[<ûOY?n0Àü×¬g    >ıïì>æfp>¢;_>E7?I5L?™™A$+A#©ëA#’ÆA"M2A&+3A!LA'ó½Aèa@pä{8%vAÀìAë…A£óAİæA|ÂAég 701:24:28.7+01:08:19.2<ıó¶AlÌÍ?Ù™š?ŒÌÍB-33@Fff?áG®@9™š>ÌÌÍÂÆ  ÂÆ   7<õÂA £×?   A™š@^{Aä  @î¸R<#×
+AõÃ<#×
+AÌÍ=\)A'
+=>aG®Aff>”zá ?Ñ“mtêX¢ }   Ø 8A©¡y?h÷ =b?‚üÏÀ	;YX°‚Ê    ?5÷?€  ?dF¨?Irš?ŒÌÌ?œˆ‹A,¨äA,n½A,ˆˆA*ò@A.HA) 0A/ƒÙA0	@h]<\ïâAÅA×
+A–ñA¦AÖªA`÷01:24:48.9+00:54:36.1=+B‡  @,ÌÍ?•ÂCÌÍ@‰™š@…@33=ÌÌÍ?Q&é=—P<õÂA-G®?€  AõÃ@—\)AŞff@ÿ\)    AÂ    A ÌÍ=uÂA,£×>.{Ap¤=#×
+  ?Õ«ñğ ¬# ^  ? aA´µ„¿vgs<ğtŞ?!™¿úWV”Ô€    ?º™?&fh?0Ÿ?¨×?$Fè?0{àA'vA'IA(¨A%¸A(ÂñA$oµA*ThA¯z@n³ƒ'AxA™šAW.A™AJAbÔ B01:30:21.3-00:57:45.0<í‘hA   ?¦ff?•ÂBff?ó33?ª=q@lÌÍ?   ÂÆ  ÂÆ   B<õÂA%Â?™šAÌÍ@FffAêff@æ¸R<£×
+AÂ<£×
+Aë…=\)A#…=£×
+A\)>”zá ?Û¼ù7‚ ^  < `A±Œ>‘¥=ÖªÓ?±v7À9Òt_Œ    ?¯'—?³34?œ”<?ˆX?¾P?ÒmÏA0Æ¬A0¬A0DDA.è\A2=SA-szA3ÖyAÜe@c¾Ùc ø‹A‰®A33A·A(,Am]AgO01:28:46.5+00:16:59.9=×
+=A  ?LÌÍ?¢\ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  =ÌÌÍA0(ö?¯\)A£×@Ã…AĞ  A{<£×
+A$zá<£×
+A#®=LÌÍA/®=uÂA¸R>”zá ?á Ç”óC }   å ?A¸ÙV?zN<Ù’>Bó Àb¶àBø    >û~>™ :\ÀÑ¾
+qá>§'(?„êA#xA#B­A#’ÆA!Ü”A$®xA ­‹A%îLAÂ«@i„ğêA¸©AõÂAªAéAËñAO01:32:25.5+00:58:36.0<İ/Ay™š?ÌÌÍ?‹…B=™š@   ?½p¤@@  >™™š?›¦=—P<õÂA!Â>™šA(ö@-p¤AŞff@ìÌÍ<#×
+AG®<#×
+A  =uÂA#®=£×
+A33=uÂ  ?İÀW¶× ^  A ‚A¶­¥>°ƒ”> Ç€?ÍåÀCúû.    ?É¨ˆ?ÌÌÌ?¹ÒI?ªQ?Ú`ß?ê%A,6CA+ç5A+ÉcA*v³A-‚ğA)>A/Ü¾A¶W@lÖKÓÙ­RAoØA\ALAôÕA>ŒA²eŒ01:31:20.4+00:20:41.1> Äœ@‰™š?   ?°£×ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  Œ>#×
+A+33?Ê=qAzá@\(öAêffAÂ<õÂA$Qì<õÂA#®=uÂA%Â>€  A"\>”zá ?è«¢$4Ó ^  A `A·šx?)©£=0Á©¾ª —À@í¨Ì5ô    ¾ÍW©¾æf`¿L˜¿BöÕ½ûïÃ>“3@A$á„A$A$QìA"ä˜A&•¨A!l@A(…ÜAI3@epI:Ü A˜A=qA¹UAAY AŞK 01:31:48.1+00:39:45.9=0 Å@üÌÍ?333?‘ë…A”ÌÍ?À  @   @™š>™™š?bJ=´9X =#×
+A$õÃ¾ÌÌÍAÂA\A¿33@ø£×=£×
+AÂ=£×
+A™š=\)A+×
+>¸AÂ=#×
+  ? ÷¡ÛqÆZ ^  I )AÀEl>±Ä=‘a?;À
+ú?ƒNf    ?-“õ?™˜>ã,É>d€ı?x¯?®|A&` A& ½A%Ğ6A$ü>A'[îA$4A)\rA—@isü?2yAE*AG®A2AÕUAø^A ¾01:36:08.1+00:20:49.9=‘hs@³33?   ?™™šAk33?³33?®{@&ff>™™šÂÆ  ÂÆ   ¾=\)A%™š?.{A¸@–ffAØÌÍ@üzá<õÂAQì<õÂA{=uÂA%ë…=õÂA"{>”zá ?àüè­™|* }   ı ŒAÕ¡¿7áß=§î§?PJ¸Àéñæz×®    ?> ­?338?Ó>ØeŒ?€ÿ?´ÌÑA(Š‹A(8A'®A&ğõA)°.A%ÉíA+ù¬Aî@k]ó¹{mMAÔA  A¼Aú AçA@	01:46:48.9-00:43:05.8=§ï@Ù™š?333?ˆõÃA“33?³33?œ(ö@,ÌÍ>™™šÂÆ  ÂÆ  	=£×
+A&¸R?=p¤A
+¸RA  AÔ  Aff<õÂA"ff<õÂA¸R=uÂA+
+==uÂA!¸>”zá ?âÌıÿ0Lå }   ú ŒAÑÙ¼¿,©Ô>Ş?–ºòÀDŞ½    ?ÇÎ?ŒÌÌ?Æ³?j¤?¤;?Ä­MA)Û½A)‡ÉA),`A(UMA+
+½A'-ÖA,ÎMA‹¯@m3ÚÙ¡»A?YAQìAúAĞÈAÂAïÿé01:44:55.5-00:40:27.9>™š@9™š>™™š?¨õÃÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  é>™šA((ö?£×A
+¸R@À£×Aù™šA¸R<õÂA"áH<õÂA!ë…=uÂA%p¤>¸A'\)>”zá ?ÒöŞº”òy }   ó OAÊ_¾W~œ=bÖÑ?•À/'Õı<X    ?	@°?   >ªïÌ>BPB?K¢ë?¡G²A"ïWA"‡óA"{A!h™A$¹A gâA&:‡A*U@jWw7òÙAµAQìAºA@¡A&_APà{01:41:18.6-00:12:37.7=aG®@S33?™š?ŒÌÍ@ÜÌÍ?LÌÍ?£×
+@ff>ÌÌÍÂÆ  ÂÆ  {=uÂA!G®?
+=qA…@–¸RAÌ  @ó×
+=#×
+AG®=#×
+A  =£×
+A'…=õÂA   >”zá ?ãåÅ-ş« ^  M <AÅZŞ¾#,=g~?2+ÀaZ“Ee7    ?&Y?™˜>ï¤‡>å?`+?’9HA*¤»A*jáA)ë…A)İA+ÑJA'İ]A-E‹As¿@gŸ¦wÊAUPA\A¼ƒAŠcAw(AÁr o01:38:40.7-00:09:33.7=ixÕAX  ?™™š?‚\Aı™š@   ?à  @™š>™™šÂÆ  ÂÆ   o=uÂA-™š?&ffAÌÍ@ÄzáAÔ  @û…<£×
+A  <£×
+Aë…=\)A.ff>\)A'…>”zá ?èÄqù?ö ^  N EAÇ"½ ,«=gê£?>³½À-v[j    ?0q!?338>ø1e>¡j0?rjã?¥KîA*ZtA*æA*KA(ÍxA+A'©cA-½Aô@e~Sä‹ÊA³ŞAáHA"~A£kAÈ‚A7ı n01:39:31.8-00:01:52.7=ixÕA£33?LÌÍ?‚\B8ÌÍ@&ff?Î{@33>LÌÍÂÆ  ÂÆ   n=uÂA-¸?0£×A£×@Ú\AĞ  A Qì<#×
+A¸R<#×
+A zá=LÌÍA(  >¸QìA'…>”zá ?Ù»z›¶}7 ^  K £AÃ¼ê>Ô[u>ç$?”ÎÀ|”3ÏI    ?‹k?†fh?cã?8º1?¯çÃ?êŠA/ğÏA/¢ÕA0DDA.3A1UüA, şA4í,Aí@eûb÷Z¿0AAËAG®Aû‚AŞ%A¯xA9Tt01:37:52.1+00:24:53.1>™š@™š>ÌÌÍ?G®ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  t>™šA+×
+?‹…A…@Ö¸RAŞffA®=LÌÍA#
+==LÌÍA   =£×
+A-¸=¸QìA((ö>”zá ?âtz)Q }   ö vAÍ­>`÷=¤$F?/TõÀõÏj®-p    ?#[5?&fh>à ©>€X?`²ü?˜í'A)*šA(ë4A(ÌÍA'tA*wìA&;¨A+éèA÷@d-R2!•€A´vAáHA"»AÒÆAò%A' —01:42:33.1+00:13:10.8=£×
+@°  ?333?“33@öff?ÌÌÍ?ª=q?³33>™™š?Ÿ\)>yÛ# —=£×
+A*ff?#×
+AõÃ@×\)AÌ  A…=áG®A!™š=áG®A×
+=\)A-™š=õÂA(õÃ=£×
+  ?ÙÖ±.$°3 }   ù ƒAÑ°Ó>¿N>£?‹“ŞÀ‡ÌKÒ    ?†fh?€  ?\?/¤?¢ƒ©?ÅëˆA+Ü4A+‘EA+iĞA*\QA,íŠA)2ÈA.»ßA˜@i3AA=qA¡•A0ÊA>A¹íí01:44:50.7+00:09:21.9>P@`  >ÌÌÍ?‚\ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  í>™šA*¸R?†ffA  @³33Aä  A×
+<õÂA"¸R<õÂA!ë…=uÂA-p¤>¸A$Qì>”zá ?ÛÁ.Úu”ó }   FAèLø¾ŠÄË=@¸d?ÇÀ’l…#ˆĞ    ?Ñ?ÌĞ>³c~>@q?=7¨?ŠR–A+ÛİA+§ÅA,ˆˆA*„A-A…A(Ë&A.¶.A{“@gYÄ„ÌšâA/áAQìAóAÖÊAŠ™A†ÖY01:56:09.0-00:16:15.8=@ƒA&ff?LÌÍ?G®B  ?¦ff?´zá@fff>™™š?:áH>	7LY=LÌÍA)¸?®A33@·\)AØÌÍ@÷\)<£×
+A33<£×
+Aë…=uÂA+×
+=uÂA™š=\)  ?Ó´²3¶é }   ¯Aâz¿Œv>g­?”O¡ÀV¦¹     ?ï?ŒÌÌ?qÕ?G¦?©y?ÍÆ A-C:A-A-G®A+'A.Œ A)»³A0WAÿd@l‹°Ò$Ş¼AÉ÷Aë…A§sAõÚA™¾A‰Ë01:53:14.3-01:05:50.6>%@£33?™š?{A4ÌÍ?³33?   @ÌÍ>ÌÌÍÂÆ  ÂÆ  Ë>¸A.=q?\)A£×AE¸AÌ  AG®=LÌÍA#…=LÌÍA"{=\)A333>W
+=A*ff>”zá ?ÀW¯fœ_ }   ü ¢AÔ°m¿%¥q=¨ûL?F¸SÀN°õÃR´    ?;Ú–?@  ?… >Ú›Z?lLÏ?—„.A*£A*pîA+
+>A(ñmA+ãÄA'¼/A-GAFö@f‹=î<ÕA:ÿA™šAƒ‚AÙA,¬AıÕ01:46:20.7-00:38:49.3=©ûç@ó33?LÌÍ?‚\Aq™š?¦ff?¥¸@   >™™š?òJ>#×
+=£×
+A,(ö?:áHA(ö@ğ  AÌ  A{<õÂA ÌÍ<õÂAáH=uÂA,(ö=\)A,(ö=#×
+  ?Øğï ‰|  }   û LAÔ¾–A=b~?‡ RÀ
+õíÅ5€    ?ƒa?†fh?iœC?MÎ‰?“M?ª¢A*”¯A*U(A*ªªA(ü«A+½ãA'ÜA-=tA=°@h3¢ÑAú5Aë…AµqA~*AóAÎN Ø01:46:02.5-00:17:36.3=aG®AÌÍ?333?‡®Bb  ?ÌÌÍ?Ï\)@Fff=ÌÌÍÂÆ  ÂÆ   Ø=uÂA,(ö?ƒ×
+AQì@ë…AØÌÍ@ş¸R<#×
+Aë…<#×
+A…=LÌÍA&áH>…¸A"ff>”zá ?ágŒŠò<$ ^  ] 3AØ¶Á?Hb>ß%?¼™[Àô>£¼    ?¸|«?¹™œ?¨-?˜¬ó?ÊYÎ?ß…ÿA/øA/¼ìA/ä²A..uA1T¾A,ÛŒA2İ AÃ=@hYéoRAv×A\AG4AàfA³ÕAË6@01:48:21.4+00:46:57.9>n˜@É™š?333?‹…ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  @>\)A.{?¸QìAõÃ@„ÌÍAêffAp¤<õÂA#…<õÂA%¸=uÂA,£×=õÂA
+=>”zá ?Ï¬¬ “ ^  h cAåÎÔ?OªA<ß£??w
+À˜"ù5k    ?56>?338?Á?	’ó?REø?|¤†A(4A'úA'®A&~*A)ÁA%E½A*½HA>ç@pÏÉ¬sW´AÉA=qA÷øA1›Aì‡A= ;01:54:54.2+00:48:40.4<İ/BY33@333?®{BÎÌÍ@y™š@  ?ó33=ÌÌÍ@–n˜=¼j ;<õÂA%G®?5ÂAp¤@n¸RAñ™š@ö{    AÌÍ    AQì=\)A%™š=¸QìA#
+=<#×
+  ?âkµ÷Upñ }   &AórK¿ˆï1=0kÚ>§ãÕÀh‘©€ƒ    >›ò†>³30<ò*¾’I?Ğc?]~åA0å?A0µïA1jA/4A2%!A.’A3‘kAĞw@[Y½­‡<eAÎBA33AZPAïcAu AÍß$02:01:43.4-01:04:11.4=0 Å@¦ff?¦ff?ƒ×
+A˜  @fff?ğ£×@fff?ŒÌÍÂÆ  ÂÆ  $=#×
+A0  >™™šAzá@¸QìAÆff@ï
+==LÌÍA{=LÌÍA\)=áG®A333>uÂA¸R>”zá ?Ãµ¿dxÈ }   @AêÌ¾Ø˜=9’Ú?x~~À²käH    ?mÓê?s38?Oê%?3k·?‰³F?¥P1A+ïäA+¹UA+iĞA*UA--XA)7A.Œ4AV@mÅöŞ^q¿AF8AzáA¾MAjAŒ*Ay01:57:01.5-00:16:44.5=8QìAlÌÍ?¦ff?ª=qB:ff@33?¾¸R@LÌÍ>™™š?äzá>¦éy=LÌÍA(õÃ?n{A™š@¸QìAêff@÷
+=<#×
+A¸<#×
+AáH=uÂA(õÃ=¸QìA#\)=\)  ?½óYeçq ^  k uAêê½·ÿ‡=9‰??Í‹À· TcÎ    ?4mU?338?Ø>¬~Ç?nıµ?Ÿn_A+.æA*îA+
+>A)š¿A,q"A(zïA-Æ¬A=x@c¼mŠË˜JAÌAáHACuAYAôíAº 01:57:00.6-00:05:23.5=8QìAöff?™™š?‚\BŸÌÍ@™š?ó33@&ff=ÌÌÍ?øQì=ß;d =LÌÍA,Qì?333A£×@ÂáHAÔ  @ş¸R<#×
+AÂ<#×
+A Qì=\)A,zá=õÂA#×
+<£×
+  ?×ŒH)î }   ‹Aêœ+¿•Â5=¦tî?kĞÀ›,ŠAt;    >ò®'>æfp>~Š<µ	?>ø?†fjA+àNA+£ A+iĞA*¤A-PRA(ªÊA.ßúA£Ú@bŠweæ“Aš€AõÂAÙAZA_A½O01:57:18.3-01:10:11.9=¥ãT@¦ff?LÌÍ?£×AœÌÍ@ÌÍ?¬ÌÍ@s33?333ÂÆ  ÂÆ  =£×
+A)™š>ğ£×A33A£×A¿33Ap¤=£×
+A!¸=£×
+Azá=\)A,£×>™šA   >”zá ?°Ü¼Æhß }   QAï²ä?pg=tßÔ?ZKİÀ‚ì ¥Â    ?I‘ô?LÌĞ?.Ù?KÊ?sµµ?¨’A'åA&¼=A&/ÊA%^ÅA(`ïA$HuA*I!AT‡@q%£ÏKµ4A)AQìA AF AÖAQJ‰01:59:51.0+00:56:16.5=uÂ@ó33?LÌÍ?…¸AÍ™š?Ù™š?p¤@Y™š>ÌÌÍ@%/>
+=q‰=uÂA%ë…?J=qA…@o\)Añ™š@ú\<#×
+A£×<#×
+A
+==uÂA$£×=õÂA)Â<£×
+  ?áÉ#$˜ô }   `Aù…7¿…u¹>AË?‹.ÀŠx´ş    ?„X?€  ?L ˆ?n¶?ª[c?İR+A5€PA5LA5İŞA3À–A6İ*A2UA8iÅA>l@e•	„yÒAèJAõÂA¦zA”pAøÖA9}ú02:04:45.6-01:02:33.5>¸@Y™š>ÌÌÍ?‹…A&ff?fff?¢\@Fff?   ÂÆ  ÂÆ  ú>¸A7®?ƒ×
+AõÃ@·®AÁ™šAzá=LÌÍA"\=LÌÍA\)=uÂA5¸>…¸A.=q>”zá ?Æ›—Eh÷– ^  t ÙAô·ÿ¿g¥7>&'?ßºÀ?¹üA«®    ?ˆXR?†fh?h|?C¤m?ŸÈ·?ÄúRA(Ü\A(€°A(m:A'KêA)ÿÏA&(ßA,‚¥A¡Ğ@gcÅ;A|YA™šAJ]AËÖA—A=¸‘02:02:21.6-00:54:17.5>%ãT@9™š>™™š?¢\ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ‘>#×
+A'…?ˆõÃAQì@¥ÂAŞffAzá=#×
+A#
+==#×
+A!™š=uÂA'33>8QìA"{>”zá ?â8ãhÊg« }   gAôˆô=—A~>&½?¸4Àü®Æ!h    ?²L†?³34?£¬?–Tú?ÄÁ?ä›©A-9¼A,İôA,èA+€A.cñA*HĞA1@Aæå@oÂÜK±A¿®Aë…A àAŞ}A[~Aê¸ı02:02:16.1+00:04:25.8>&éy@öff?™š?£×ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ı>#×
+A*\?±ë…AÌÍ@…p¤AÔ  A
+ff<£×
+A(£×<£×
+A(zá=LÌÍA/
+==õÂA!p¤>”zá ?è„Æºß/ ^  w OAø">ØŞ>3—‡?¸–iÀ\Åšo7    ?±Uº?¬ÌÌ?›Š[?ˆK<?ÌŠŠ@ 02A26ÍA1İBA2""A0„A3{ºA/K}A5â•Aoƒ@gˆø€ö LATáA\AÈÁAŒšA eA˜!Ş02:04:04.0+00:25:24.8>333@Y™š>ÌÌÍ?ˆõÃÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  Ş>8QìA2\?±ë…A¸@Ò\AŞffA
+=<õÂA$õÃ<õÂA$  =uÂA9™š>™™šA%™š>”zá ?µî¦Ìù± ^  x ±Aùc>i’>&ù&?ÀêóÀ_ÒÖ5.     ?¼Üu?¹™œ?£ˆß?ŒÁ?×/?ö~A2¨ñA2gˆA2""A0ö~A4IA/•cA5šrAzÃ@^!=IÎ“*A=XA\AsJAˆñA·JAzbŠ02:04:31.3+00:13:41.2>&éy@ó33?LÌÍ?Š=qÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  Š>#×
+A0zá?½p¤A  A;×
+AÌ  A
+{<õÂA)¸<õÂA(õÃ=uÂA2\=áG®A,£×>”zá ?à‘ö[CÆw ^  y ¬AúM>Šx;>$Êö?‰R+ÀàµáEMV    ?ƒÊq?€  ?dtª?Bıc?™™œ?º5§A0ÀäA0š0A1jA.æµA2!´A-rğA3°ÔAÅÔ@iAX•¬\A´ Aë…A'ÀAß™AÛAVë‰02:05:01.8+00:16:13.5>$İ/@Ğ  ?   ?¥¸ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ‰>#×
+A.=q?ƒ×
+AÌÍ@Ç\)AŞffA	¸<£×
+A'\)<£×
+A'33=LÌÍAAÂ?záA&=q>”zá ?ÃÔ5í—0‹ }   µAúYc?ï>Ì¯?’6<À€™Aåw    ?ŒÚ—?ŒÌÌ?s\†?P„Ú?¤|?ÀTA-ŠÌA-NA-§AA+áÊA.½A*µŒA0v>A‹ÿ@dÓ »? cA;iA=qAô-AÌÅAoµAÉ:02:05:10.5+00:33:46.1>¾w@€  >ÌÌÍ?¡G®ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  >#×
+A-G®?ŒÌÍAÌÍ@¯\)AĞ  AG®=LÌÍA#…=LÌÍA#33=uÂA(zá>W
+=A$£×>”zá ?ØL;ığFğ ^  y İAút>Í1î>*?N>nÀœ{Î     ?:Ú*?338?åí>ßN?z›m?¸ÌÑA(«PA(RµA(m:A&ÖA*úA%•A,ÛA+Ú@eÊÈÍ‰uAâAQìA¯ÄALAìALC02:05:13.6+00:24:02.9>C–@   >™™š?œ(öÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  C>\)A&=q?:áHA…@²áHAä  Aë…=LÌÍA!¸=LÌÍAõÃ=£×
+A)p¤=£×
+A$õÃ>”zá ?Á°dŞäÇ ^  € B7ø?›mã=íW¯?“mÜÀ®Gs‚M¹    ?(%?ŒÌÌ?xº?Uzÿ?¤Ó?» A-éwA-µšA-§AA,, A/<²A*ÖşA0º A^ @f ¸?‰\äA›A=qAĞcA²ùA_°AQ‘02:09:13.1+01:12:51.4=í‘h@¶ff?   ?ˆõÃAA™š?³33?{@ff>™™šÂÆ  ÂÆ  ‘=õÂA,õÃ?\)A¸@®¸RAØÌÍA®<õÂA!Â<õÂA!G®=uÂA-™š=uÂA!Â>”zá ?Ñ<>ôŞ9¼ ^   %B
+Õ¿E]>'¸?­â­ÀŸî¿‡X    ?ªf?¬ÌÌ?Ÿm£?™«?³L?ÁBPA*QPA)ÿ.A)ë…A(wYA+¬ÜA'4ëA./JAõ»@qÅä[AÌÌAõÂA°îAè©A¥ŞAóºJ02:18:02.1-00:33:34.7>t¼@fff?   ?—
+=ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  J>\)A(õÃ?ª=qA®@JáHAù™šA\)<õÂA"\<õÂA!Â=\)A(õÃ>#×
+A$  >”zá ?Üô=	è ^   MB	HÂ¾×şY='$y>‰ÙÖÀ4+{*    >aˆ>LÌà=‹ÿš½RB›>Ò]‚?3×A#^¹A#"­A"tA!»æA$£ÎA ¡HA&A™á@jpu¸	AAë…A	AÒŸAÁAç° /02:17:17.0-00:25:18.7='ïA4ÌÍ?³33?…¸A¿33?Ù™š?¯\)@ff>™™š?Ã33>W
+= /=#×
+A$Qì>aG®AÌÍ@r\AØÌÍ@ï®<£×
+A{<£×
+A…=\)A#…=áG®A ÌÍ=uÂ  ?é@ïvr"‰ ^  ƒ îBGl¿U‚9=ª€ó?dÚÀi<w»B    ?¦?ÌĞ>¶4è>™ ?T³¹?‘ºA&ÈjA&s±A&\A%LšA'ìA$82A)yúAt(@f„Ğú$ÆÁA,]AQìAßAAA3ÅAAZ02:11:16.7-00:50:02.4=©ûç@ÌÌÍ?   ?‡®A™š?€  ?¥¸@333>™™š?mOß>q©ü=£×
+A%™š?ë…AQì@¬(öA¸ÌÍA(ö=¸QìA"¸R=¸QìA{=LÌÍA%p¤>€  A'\)=ÌÌÍ  ?ã]çSSğ ^   vBöä¾[>ç÷?ŒÿìÀ¹4di_    ?ƒ´?€  ?ZÕ#?8àf?£è_?äZ A)OÏA(Ê&A(ÌÍA'uBA*ÒªA&UóA-ÕYAã@j-ÓãĞ¼Aâ°AõÂA¯âA' AÇAF‚y02:09:57.9-00:08:52.1>‡+@,ÌÍ>ÌÌÍ?‡®ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  y>™šA'33?ƒ×
+A33@áG®Aä  A¸R=LÌÍA"=q=LÌÍA zá=\)A!ë…>¸RA'\)>”zá ?àĞ(7â‹x ^  ƒ DB=÷?‹6ñ=%¿J>èéúÀÔªD    >ËU>ÌÌĞ>Fk×=h?(½d?ƒ37A"õMA"™®A"{A!mĞA$ :A q…A%ô½AÔû@k(°€ü±²A¼ÌAë…A=¾AåA ôA,` 02:11:14.5+01:05:15.4=#×
+A   ?™š?ƒ×
+AÚff?¦ff?ÌÌÍ@Y™š>™™š?Ìj>¸ =#×
+A ÌÍ>ÌÌÍAG®@€õÃAØÌÍ@ğQì<£×
+Aë…<£×
+AÌÍ=uÂA!p¤>uÂA õÃ<õÂ  ?Öà„R ^  … ZBT­?‰ÿñ>,š?¸¯PÀÛ‡t¥    ?´4?¹™œ?¢ô¹?“34?Çi?ßİŞA0/LA/ğ½A/ä²A.‹İA1{
+A-6ëA3:A*¶@o	-[¶İNA6A=qAğA/ÍAH×A<Ym02:12:19.8+01:04:41.4>Ÿ¾@ÌÌÍ?™š?¥¸ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  ÂÆ  m>™šA.{?´záAõÃ@n{Añ™šAzá=#×
+A"\=#×
+A%™š=uÂA,£×>\)A®>”zá ?æ•T	›·4 }  * >Bò-?ı7=&u->Ş›À£ ÷m ;    >Çâ+>³30=ˆ&¾¢¢›?@ˆˆ?º¤A$<9A#ê$A#òYA"¶zA%`?A!}A'uàA©@hJµ‹ÊjAOTAG®AIAî'AøA2d?02:13:56.8+00:31:52.3='ï@ó33?¦ff?‘ë…A¡™š?Ù™š?î{@,ÌÍ?   @"Ñ>P?=#×
+A&{>Ç®A¸A
+=AĞ  @ğõÃ<£×
+Aff<£×
+AQì=¸QìA*{>aG®A$  <õÂ  ?ãHTĞN18 ‰ Y ¨B
+ş|>¨óÛ<ô9^>·u»À0ÎäïÔ¥    >œ6»>™™ >9Şµ=¬Ùè>ô_–?DA(jA(SŠA(m:A&åwA)×˜A%¤A+VGA=W@q™÷bÊ¾AArA=qAø‘A0SAíA;d >02:18:59.6+00:19:48.0<õÂB$ff@,ÌÍ?‘ë…B‚  @S33?Ë…?ÌÌÍ=ÌÌÍ?®ùÛ>$İ ><õÂA'\)>¨õÃAQì@\)AØÌÍ@øõÃ<#×
+A33<#×
+Azá=uÂA+®=ÌÌÍA®=#×
+  ?å’>—TL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

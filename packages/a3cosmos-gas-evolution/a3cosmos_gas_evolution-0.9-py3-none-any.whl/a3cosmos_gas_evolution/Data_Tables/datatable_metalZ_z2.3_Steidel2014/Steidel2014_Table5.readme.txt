@@ -1,0 +1,7 @@
+Steidel 2014 - Keck MOSFIRE - mass-metallicity FMR z=2.6 - 2014ApJ...795..165S.pdf
+
+Table5
+
+but no SFR given (but check arxiv v1, they had SFRs there, as pointed out by Cresci 2018 arXiv 1811.06015)
+
+

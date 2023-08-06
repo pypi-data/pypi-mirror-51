@@ -1,0 +1,62 @@
+Hunt 2016 - FMR z=0-3.5 - 2016MNRAS.463.2002H
+
+a large compilation
+
+Table 3
+Mstar -- Chabrier IMF
+metalZ -- all converted to PP04N2 calibration
+SFR ~ ?
+
+
+In order to observationally constrain the evolution of metallicity with redshift, 
+we have compiled a new data set of ∼1000 star-forming galaxies from z ≃ 0 to z ∼ 3.7 
+with nebular oxygen abundance measurements; we will refer to this compilation as the 
+‘MEGA’ data set, corresponding to Metallicity Evolution and Galaxy Assembly. 
+This compilation is a radical improvement over the data set used by Hunt et al. (2012) 
+because of the inclusion of several more high-z samples and, more importantly, 
+because of a common metallicity calibration.
+
+SFRs are carefully recalculated, see their Sect.~2.1.1
+
+Stellar masses are also recalculated based on Wen et al. (2013), a method based on WISE W1 (3.4 μm) luminosities. See their Sect.~2.1.2. 
+
+'MEGA' includes 19 individual samples and the Mannucci et al. (2010) large sample.
+
+4 local samples:
+    11HUGS, LVL; Kennicutt et al. 2008; Lee et al. 2009, 2011
+    KINGFISH; Kennicutt et al. 2011; with O/H calibration given by Moustakas et al. (2010)
+    the starburst sample studied by Engelbracht et al. (2008)
+    the blue compact dwarf (BCD) sample by Hunt et al. (2010)
+    
+5 samples at 0.1 < z < 0.9 (see Table 1)
+    zCOSMOS (Lilly et al. 2009; Cresci et al. 2012)
+    NewHα (de los Reyes et al. 2015). 
+    Henry et al. (2013) -- galaxies selected from a multi-slit narrow-band spectroscopic survey with [O III] λλ4959, 5007, [O II] λλ3727, 3729 at z ∼ 0.6–0.7
+    Ly et al. (2015) -- [O III] λ4363 DEEP2 selected objects at z ∼ 0.7–0.9
+    Xia et al. (2012) -- galaxies selected from HST-grism observations ([O III], [O II])
+    ---- zCOSMOS and NewHα comprise 477 galaxies. 
+    ---- The last 3 comprise ~60 galaxies. These three samples are very interesting because of their selection methods which tend to favour less massive galaxies than typical broad-band photometry selections. 
+
+10 samples at z > 0.9
+    Queyrel et al. (2009) -- galaxies are selected from the magnitude-limited Mass Assembly Survey with SINFONI in VVDS (MAS-SIV; Epinat et al. 2009)
+    Shapley et al. (2005) -- z~1 SFGs selected from the DEEP2 Galaxy Redshift Survey (Davis et al. 2003)
+    Liu Xin et al. (2008) -- z~1 SFGs selected from the DEEP2 Galaxy Redshift Survey (Davis et al. 2003)
+    Onodera et al. (2016) -- COSMOS sample, VVDS
+    Yabe et al. (2014) -- 1.3 < z < 1.7, no individual galaxy data published, so only averaged values.
+    Zahid et al. (2014) -- 1.3 < z < 1.7, no individual galaxy data published, so only averaged values.
+    Shapley et al. (2004) -- z~2, BX
+    Steidel et al. (2014a) -- z~2, KBSS
+    Mannucci et al. (2009) -- z~3, LBG from the LSD survey
+    Troncoso et al. (2014) -- z~3, LBG from the AMAZE survey
+
+
+Unlike Hunt et al. (2012), we do not include in the MEGA data set the luminous compact galaxies (LCGs) 
+by Izotov, Guseva & Thuan (2011)andthe‘GreenPeas’(Amor ́ın,Pe ́rez-Montero&V ́ılchez 2010); 
+the latter galaxies are selected by bright [O III] λ5007 emis- sion in the SDSS r band (Cardamone et al. 2009). 
+LCGs, instead, are defined by requiring an [O III] λ4363 detection, large Hβ equiv- alent width (EW), and 
+a flux limit in Hβ. Thus, the LCGs are young (because of the high Hβ EW), highly star-forming (because of 
+the Hβ flux limit) and metal-poor (because of the [O III] λ4363 detec- tion). Although highly interesting 
+objects, the Izotov et al. (2011) selection criteria favour young, metal-poor galaxies, and thus are not be 
+representative of abundances of typical galaxy populations at those redshifts.
+
+

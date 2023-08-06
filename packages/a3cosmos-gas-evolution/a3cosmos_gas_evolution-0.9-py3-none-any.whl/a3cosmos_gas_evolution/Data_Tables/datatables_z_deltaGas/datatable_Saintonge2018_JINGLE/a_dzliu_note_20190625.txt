@@ -1,0 +1,34 @@
+http://www.star.ucl.ac.uk/JINGLE/data.html
+
+
+
+
+
+
+JINGLE Data Products
+
+Paper I: Galaxy properties and photometry (Saintonge et al. 2018)
+
+Full contents of the table in Paper I presenting the properties of the galaxies in the JINGLE Main Data Release and their derived physical parameters:
+
+JINGLE MDR catalogue (FITS)     http://www.star.ucl.ac.uk/JINGLE/files/JINGLE_sample.fits
+MDR catalogue README (PDF)      http://www.star.ucl.ac.uk/JINGLE/files/JINGLE_sample_README.pdf
+Object list (with links to online viewer)       http://www.star.ucl.ac.uk/JINGLE/objectlist.php
+
+UV-to-FIR photometry (31 bands) for all JINGLE galaxies, extracted self-consistently with CAAPR:
+
+CAAPR photometry (FITS, tar.gz)         http://www.star.ucl.ac.uk/JINGLE/files/CAAPR_fits.tar.gz
+CAAPR photometry (ASCII, tar.gz)        http://www.star.ucl.ac.uk/JINGLE/files/CAAPR_ascii.tar.gz
+
+
+
+Paper II: SCUBA-2 data release and FIR photometry (Smith et al. 2019)
+
+JINGLE FIR photometry (FITS) (WISE, PACS, SPIRE, SCUBA2)            http://www.star.ucl.ac.uk/JINGLE/files/JINGLE-FIR-FluxTable_PaperII.fits
+JINGLE FIR photometry README (PDF)                                  http://www.star.ucl.ac.uk/JINGLE/files/JINGLE_FIR_Catalog_README.pdf
+WISE, PACS, SPIRE and SCUBA2 maps and associated README (PDF)       http://www.star.ucl.ac.uk/JINGLE/maps/
+                                                                    http://www.star.ucl.ac.uk/JINGLE/files/JINGLE_FIR_Maps_README.pdf
+
+
+
+

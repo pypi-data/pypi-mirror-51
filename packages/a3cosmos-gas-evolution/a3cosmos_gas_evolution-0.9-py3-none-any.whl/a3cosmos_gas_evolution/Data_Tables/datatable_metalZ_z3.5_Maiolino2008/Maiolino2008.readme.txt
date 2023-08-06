@@ -1,0 +1,10 @@
+Maiolino_2008_AMAZE
+A&A 488, 463–479 (2008)
+DOI: 10.1051/0004-6361:200809678
+
+an ESO-VLT large programme (AMAZE)
+
+Table1,2,3
+Mstar -- Salpeter IMF
+metalZ -- M08 calibration with this paper's method
+SFR ~ 50-300

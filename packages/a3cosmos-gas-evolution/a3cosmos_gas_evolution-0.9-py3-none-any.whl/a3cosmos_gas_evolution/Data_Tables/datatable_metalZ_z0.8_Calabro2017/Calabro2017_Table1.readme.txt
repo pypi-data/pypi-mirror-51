@@ -1,0 +1,11 @@
+2017A&A...601A..95C
+Table B.3. Derived physical properties of intermediate-redshift ELGs in VUDS.
+
+Stellar mass:
+SED fitting 
+Chabrier (2003) IMF
+
+Metallicity:
+derived from the code HII-CHI-mistry
+
+

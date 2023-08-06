@@ -1,0 +1,10 @@
+Mannucci_2009_LBG_z_3
+Mon. Not. R. Astron. Soc. 398, 1915–1931 (2009) 
+doi:10.1111/j.1365-2966.2009.15185.x
+
+project: Lyman-break galaxies Stellar populations and Dynam- ics (LSD), aimed at obtaining spatially resolved, near-infrared (IR) spectroscopy of a complete sample of Lyman-break galaxies at z ∼ 3. 
+
+Table1,2,3
+Mstar -- Chabrier IMF
+metalZ -- M08 calibration
+SFR ~ 5-39

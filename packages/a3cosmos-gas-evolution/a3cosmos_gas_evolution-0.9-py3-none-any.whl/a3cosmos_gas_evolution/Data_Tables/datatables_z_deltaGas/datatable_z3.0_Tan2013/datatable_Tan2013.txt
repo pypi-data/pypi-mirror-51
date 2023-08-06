@@ -1,0 +1,4 @@
+# Source_Name             z              Mstar        Mstar_err        Mdust      Mdust_err           Mgas       Mgas_err            SFR     dis_to_MS   Type_name     
+# 
+M23                       3.216         1.0e11        0.5e11           7.2e8          3.6e8         1.8e11         0.9e11            310     0.3         LBG           # Tan,2013ApJ...776L..24T, Mdust esimated by 0.5*Z*Mgas, Z assumed to be 0.4 by dzliu
+BD29079                   4.058         2.5e10        0.5e10           6.4e8          3.2e8         1.6e11         0.8e11            170     0.3         LBG           # Tan,2013ApJ...776L..24T, Mdust esimated by 0.5*Z*Mgas, Z assumed to be 0.4 by dzliu

@@ -1,0 +1,9 @@
+cross-matched
+'/Users/dzliu/Work/AlmaCosmos/Catalogs/Large_Survey_xCOLD_GASS/xCOLDGASS_PubCat.fits'
+to
+'/Users/dzliu/Work/AlmaCosmos/Catalogs/Large_Survey_xCOLD_GASS/Online_Data_xGASS/xGASS_detections.fits'
+by exact value of "GASS" 
+
+found 219 sources.
+
+

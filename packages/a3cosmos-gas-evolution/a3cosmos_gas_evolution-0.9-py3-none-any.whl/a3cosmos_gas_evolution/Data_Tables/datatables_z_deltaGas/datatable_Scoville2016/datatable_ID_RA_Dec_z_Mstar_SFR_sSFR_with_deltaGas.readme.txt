@@ -1,0 +1,14 @@
+20180625
+copied from
+'/Users/dzliu/Work/AlmaCosmos/Catalogs/DataTable_Scoville2016/datatable_ID_RA_Dec_z_Mstar_SFR_sSFR_with_deltaGas.readme.txt'
+'/Users/dzliu/Work/AlmaCosmos/Catalogs/DataTable_Scoville2016/datatable_ID_RA_Dec_z_Mstar_SFR_sSFR_with_deltaGas.txt'
+
+
+
+Column simple descriptions: 
+deltaMS1 -- Speagle2014_SFR
+deltaMS2 -- Sargent2014_SFR
+deltaMS3 -- Schreiber2015_SFR
+deltaMS4 -- Bethermin2015_SFR
+deltaGas -- MH2/Mstar
+cosmoAge -- Gyr

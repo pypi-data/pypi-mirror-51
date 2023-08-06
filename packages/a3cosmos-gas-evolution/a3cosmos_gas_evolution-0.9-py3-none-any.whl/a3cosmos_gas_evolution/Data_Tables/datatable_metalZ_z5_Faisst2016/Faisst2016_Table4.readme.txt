@@ -1,0 +1,6 @@
+Faisst 2016ApJ...822...29F
+Table4
+Mstar -- Chabrier 2003 IMF
+metalZ -- new method of rest-UV absorption lines for very high redshift galaxies
+SFR -- 20-200
+only take their binned values, i.e., last three rows in their Table 4. 

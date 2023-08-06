@@ -1,0 +1,4 @@
+# Source      z        Mstar     sSFR   lgMdust lgMdust_eLo lgMdust_eHi lgLIR lgLIR_eLo lgLIR_eHi  LPrmCO10   eLPrmCO10   MH2     alphaCO
+GN20          4.0553   11e10     16.9   9.72    -0.03       +0.04       13.27 -0.02     +0.02      16e10      0.4e10      2.1e11  1.6
+GN20.2a       4.0508   3.8e10    20.9   9.39    -0.13       +0.16       12.90 -0.05     +0.05      9.0e10     1.1e10      2.2e11  2.0
+GN20.2b       4.0563   11e10     6.3    9.32    -0.09       +0.17       12.84 -0.10     +0.04      2.9e10     0.6e10      0.8e11  2.8

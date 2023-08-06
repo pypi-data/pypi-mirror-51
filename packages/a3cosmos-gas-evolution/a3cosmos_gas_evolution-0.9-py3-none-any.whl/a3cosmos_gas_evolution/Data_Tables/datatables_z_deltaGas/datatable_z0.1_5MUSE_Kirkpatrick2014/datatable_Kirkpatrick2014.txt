@@ -1,0 +1,63 @@
+# Source_Name   RA          Dec              z       lgLIRtot  fAGNmidIR  fAGNtotIR  lgLIR_SF    lgMstar     sSFR    LPrmCO10 e_LPrmCO10
+5MUSES-200      16:12:50.9  +53:23:05.0      0.043   10.36     0.23       0.12       10.31       10.48       0.09         -99   0.21e9
+5MUSES-179      16:08:03.7  +54:53:02.0      0.053   10.22     0.24       0.13       10.17       11.08       0.01      1.46e9   0.12e9
+5MUSES-169      16:04:08.3  +54:58:13.1      0.064   10.79     0.06       0.03       10.79       10.82       0.11      0.84e9   0.20e9
+5MUSES-105      10:44:32.9  +56:40:41.6      0.068   10.88     0.16       0.08       10.85       10.79       0.13      1.54e9   0.27e9
+5MUSES-171      16:04:40.6  +55:34:09.3      0.078   11.06     0.08       0.04       11.05       10.93       0.16      2.14e9   0.41e9
+5MUSES-229      16:18:19.3  +54:18:59.1      0.082   11.10     0.12       0.06       11.08       11.36       0.06      3.53e9   0.46e9
+5MUSES-230      16:18:23.1  +55:27:21.4      0.084   11.09     0.00       0.00       11.09       10.46       0.50      2.09e9   0.41e9
+5MUSES-234      16:19:29.6  +54:18:41.9      0.100   11.03     0.15       0.08       11.00       10.47       0.40      2.93e9   0.33e9
+5MUSES-132      10:52:06.6  +58:09:47.1      0.117   11.30     0.00       0.00       11.30       10.67       0.51      2.77e9   0.60e9
+5MUSES-227      16:17:59.2  +54:15:01.3      0.134   11.08     0.57       0.30       10.91       10.73       0.18      1.00e9   0.29e9
+5MUSES-141      10:57:05.4  +58:04:37.4      0.140   11.14     0.67       0.36       10.93       11.15       0.07      2.86e9   0.58e9
+5MUSES-158      16:00:38.8  +55:10:18.7      0.145   11.41     0.23       0.12       11.36       10.99       0.28      5.21e9   1.24e9
+5MUSES-225      16:17:48.1  +55:18:31.1      0.145   11.09     0.29       0.15       11.02       10.99       0.13      4.55e9   0.57e9
+5MUSES-273      16:37:31.4  +40:51:55.6      0.189   11.40     0.45       0.24       11.28       10.97       0.23      3.16e9   0.69e9
+5MUSES-136      10:54:21.7  +58:23:44.7      0.204   11.39     0.77       0.41       11.13       11.41       0.06      4.69e9   1.11e9
+5MUSES-294      17:12:32.4  +59:21:26.2      0.210   11.55     0.16       0.08       11.52       11.49       0.12         -99   3.47e9
+5MUSES-216      16:15:51.5  +54:15:36.0      0.215   11.39     0.14       0.07       11.37       10.71       0.53      4.14e9   0.83e9
+5MUSES-194      16:11:19.4  +55:33:55.4      0.224   11.72     0.81       0.43       11.44       11.19       0.21         -99   6.49e9
+5MUSES-249      16:22:14.8  +55:06:14.2      0.237   11.63     0.12       0.06       11.61       10.96       0.52         -99   4.80e9
+5MUSES-250      16:23:13.1  +55:11:11.6      0.237   11.63     0.05       0.03       11.63       11.29       0.26      15.5e9   1.89e9
+5MUSES-275      16:37:51.4  +41:30:27.3      0.286   12.00     0.79       0.42       11.73       11.13       0.47      32.0e9   5.68e9
+5MUSES-313      17:18:52.7  +59:14:32.1      0.322   11.81     0.41       0.22       11.70       10.64       1.36         -99   10.1e9
+5MUSES-156      15:58:33.3  +54:59:37.2      0.340   12.06     0.31       0.16       11.99       10.17       7.70         -99   12.8e9
+5MUSES-101      10:41:59.8  +58:58:56.4      0.360   11.91     0.82       0.43       11.63       10.86       0.68         -99   8.91e9
+# 
+# From Kirkpatrick et al. 2014 (2014ApJ...796..135K) Table 2
+# LMT CO(1-0)
+# z is z_CO
+# 
+# Magdis et al. (2013) reports the FIR observations of the 5MUSES sources 
+# with the Herschel Space Observatory. 
+# Of 188 5MUSES sources covered by the observations, 
+# 154 (82%) are detected at 250 μm. 
+# 
+# From the 5MUSES sample, we selected 24 sources that span a range of PAH 
+# equivalent widths (EW; calculated for the full sample in Wu et al. 2010), 
+# as PAH EW is correlated with the mid-IR strength of an AGN (Armus et al. 2007). 
+# All 24 μm sources have spectroscopic redshifts determined from fitting the 
+# mid-IR spectral features. These sources were chosen for a pilot CO(1–0) study 
+# specifically because they exhibit a range of PAH strengths and because the 
+# spectroscopic redshifts are such that we can observe the CO(1–0) transition 
+# with the Large Millimeter Telescope (LMT). These sources were also selected 
+# according to LIR, such that every source is observable in a reasonable (90 minutes) 
+# amount of time during the LMT Early Science phase. Our sample spans a redshift 
+# range of z = 0.04–0.36 and LIR = 1.8 × 10^10 – 1.3 × 10^12 L⊙. 
+# 
+# Shi et al. (2011) determined stellar masses for the
+# 5MUSES sample by fitting Bruzual & Charlot (2003) population
+# synthesis models to optical and near-IR broadband photometry
+# assuming a Chabrier initial mass function (IMF). 
+# We adopt these
+# stellar masses, and we calculate the SFR from LSF according to
+# SFR = 1.509e-10 * LIR_SF
+# assuming a Kroupa IMF and a constant star formation rate over the past 100 Myr 
+# (Murphy et al. 2011b). We do not convert between a Chabrier IMF and a Kroupa IMF 
+# for this formula, since the conversion is very small (Zahid et al. 2012).
+# 
+# sSFR_MS = 38 * t_cosmic^{-2.2}
+# 
+# Assumed both alphaCO = 4.6 and 0.8 and plotted gas fraction evolution diagram. 
+# 
+# 

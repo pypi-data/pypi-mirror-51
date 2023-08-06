@@ -1,0 +1,58 @@
+Code
+    /Users/dzliu/Cloud/GitLab/AlmaCosmos/Pipelines/a3cosmos-SED-fitting/a_dzliu_code_output_datatable_ID_RA_Dec_z_Mstar_SFR_sSFR_with_deltaGas.py
+
+Time
+    2019-02-04 15h07m00s 
+
+
+Column descriptions:
+    ID                                       --- A3COSMOS Master catalog ID, equals Laigle+2015 ID when ID<=1200000(TODO)
+    RA                                       --- ALMA source coordinate. If there are multiple ALMA detections then the coordinates are averaged.
+    Dec                                      --- ALMA source coordinate. If there are multiple ALMA detections then the coordinates are averaged.
+    z                                        --- The prior-z which fits best the SED, i.e., with mininum chi^2 at ALMA bands.
+    Mstar                                    --- From MAGPHYS SED fitting.
+    SFR                                      --- From MAGPHYS SED fitting.
+    sSFR                                     --- From MAGPHYS SED fitting.
+    Mdust                                    --- From MAGPHYS SED fitting.
+    Ldust                                    --- From MAGPHYS SED fitting.
+    Tdust                                    --- From MAGPHYS SED fitting.
+    M_mol_gas_Method1_GDR                    --- None
+    M_total_gas_Method1_GDR                  --- None
+    M_mol_gas_Method2_850_Scoville2017       --- None
+    M_total_gas_Method2_850_Scoville2017     --- None
+    M_mol_gas_Method2_850_Hughes2017         --- None
+    M_total_gas_Method2_850_Hughes2017       --- None
+    M_mol_gas_Method3_500_Groves2015         --- None
+    M_total_gas_Method3_500_Groves2015       --- None
+    M_mol_gas_Method4_850_this_work          --- None
+    M_total_gas_Method4_850_this_work        --- None
+    M_mol_gas_Method4_500_this_work          --- None
+    M_total_gas_Method4_500_this_work        --- None
+    Mgas                                     --- Molecular gas mass (H2+He) derived following Hughes+2017. Same as M_mol_Hughes2017 and correspondingly deltaGas4.
+    deltaMS                                  --- Equals deltaMS1, recommended.
+    deltaMS1                                 --- log10 of the ratio of SFR to the Speagle+2014 MS SFR.
+    deltaMS2                                 --- log10 of the ratio of SFR to the Sargent+2014 MS SFR.
+    deltaMS3                                 --- log10 of the ratio of SFR to the Schreiber+2015 MS SFR.
+    deltaMS4                                 --- log10 of the ratio of SFR to the Bethermin+2015 MS SFR.
+    deltaMS5                                 --- log10 of the ratio of SFR to the Pearson+2018 MS SFR.
+    M_mol_Scoville2017                       --- Molecular gas mass derived following Scoville+2014,2016,2017 (with T_dust = 25 K).
+    M_mol_Hughes2017                         --- Molecular gas mass derived following Hughes+2017.
+    deltaGas                                 --- Mmolgas/Mstar derived following Hughes+2017
+    deltaGas2GDR                             --- Mmolgas/Mstar derived with GDR=100 and f_mol (molecular/total) varying from 0.5 to 1 depending on stellar mass.
+    deltaGas3                                --- Mmolgas/Mstar derived following Scoville+2014,2016,2017 (with T_dust = 25 K)
+    deltaGas4                                --- Mmolgas/Mstar derived following Hughes+2017
+    deltaGas5                                --- Mmolgas/Mstar derived following Groves+2015; Schinnerer+2016
+    deltaGas6                                --- Mmolgas/Mstar derived following Eq.5 and Eq.6 of this paper
+    deltaGas7                                --- None
+    cosmoAge                                 --- Cosmic age in units of Gyr, assuming cosmo = FlatLambdaCDM(H0=70, Om0=0.27, Tcmb0=2.725)
+    metalZ                                   --- None
+    GDR                                      --- None
+    f_mol                                    --- Molecular/total gas mass fraction, which is assumed to be 1.0 when lgMstar>=9 and decreases to 0.5 when lgMstar<=8 in this work.
+    metal_Z_Mannucci2010                     --- 12+log(O/H) estimated following Mannucci+2010 Fundamental Plane (FMR)
+    metal_Z_Genzel2015a                      --- 12+log(O/H) estimated following Genzel+2015 method-a which follows Maiolino et al. (2008), Zahid et al. (2014), and Wuyts et al. (2014).
+    metal_Z_Genzel2015b                      --- 12+log(O/H) estimated following Genzel+2015 method-b which follows Mannucci et al. (2010).
+    GDR_Leroy2011_metal_Z_Mannucci2010       --- Mtotalgas/Mdust estimated following Leroy+2011 (Genzel+2015 is the same), using 12+log(O/H) = metal_Z_Mannucci2010.
+    GDR_Leroy2011_metal_Z_Genzel2015a        --- Mtotalgas/Mdust estimated following Leroy+2011 (Genzel+2015 is the same), using 12+log(O/H) = metal_Z_Genzel2015a.
+    GDR_Leroy2011_metal_Z_Genzel2015b        --- Mtotalgas/Mdust estimated following Leroy+2011 (Genzel+2015 is the same), using 12+log(O/H) = metal_Z_Genzel2015b.
+    SNRObs                                   --- The ALMA S/N.
+

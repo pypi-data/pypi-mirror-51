@@ -1,0 +1,8 @@
+# zLo    zHi    lgLchar    Phi_1   alpha_1
+# 
+  0.01  0.05     9.8451  1.30e-3     -1.13
+# 
+# Saintonge 2017 xCOLD GASS
+# CO Luminosity Function
+# Figure 6 and Table 5
+# Chabrier IMF

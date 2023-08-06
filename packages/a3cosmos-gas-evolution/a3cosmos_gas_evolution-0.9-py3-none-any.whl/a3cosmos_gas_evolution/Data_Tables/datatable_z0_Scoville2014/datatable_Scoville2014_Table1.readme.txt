@@ -1,0 +1,13 @@
+Scoville 2014 (The Astrophysical Journal, 783:84 (13pp), 2014 March 10)
+Table 1 Caption:
+Notes
+    Submillimeter flux measurements and ISM masses from Dale et al. (2005), 
+    Clements et al. (2010), and the NASA Extragalactic Database. 
+    HI masses were set to 50% of the molecular gas masses. 
+    Uncertainties in the derived H2 masses are dominated by 
+    the assumed CO-to-H2 conversion factor, which is 
+    uncertain by ∼±25% even for normal low-level 
+    star-forming galaxies.
+
+
+
