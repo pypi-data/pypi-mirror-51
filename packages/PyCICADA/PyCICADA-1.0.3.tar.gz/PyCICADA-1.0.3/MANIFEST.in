@@ -1,0 +1,6 @@
+# Include the README
+include *.rst
+
+# Include the license file
+include LICENSE.txtinclude versioneer.py
+include src/cicada/_version.py
