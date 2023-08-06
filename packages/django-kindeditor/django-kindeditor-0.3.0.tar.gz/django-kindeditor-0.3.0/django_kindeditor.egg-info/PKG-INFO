@@ -1,0 +1,178 @@
+Metadata-Version: 2.1
+Name: django-kindeditor
+Version: 0.3.0
+Summary: Django admin KindEditor integration.
+Home-page: https://github.com/waketzheng/django-kindeditor
+Author: Waket Zheng
+Author-email: waketzheng@gmail.com
+License: MIT
+Description: # django-kindeditor
+        
+        [![image](https://secure.travis-ci.org/waketzheng/django-kindeditor.svg?branch=master)](https://pypi.org/project/django-kindeditor/)
+        [![image](https://img.shields.io/pypi/v/django-kindeditor.svg)](https://pypi.org/project/django-kindeditor/)
+        [![image](https://img.shields.io/pypi/djversions/django-kindeditor.svg)](https://pypi.org/project/django-kindeditor/)
+        [![image](https://img.shields.io/pypi/pyversions/django-kindeditor.svg)](https://pypi.org/project/django-kineditor/)
+        [![image](https://img.shields.io/pypi/l/django-kindeditor.svg)](https://pypi.org/project/django-kindeditor/)
+        [![image](https://img.shields.io/codecov/c/github/waketzheng/django-kindeditor/master.svg)](https://codecov.io/github/waketzheng/django-kindeditor?branch=master)
+        [![image](https://img.shields.io/badge/code%20style-pep8-green.svg)](https://www.python.org/dev/peps/pep-0008/)
+        
+        
+        This repo is to make it easy to use KindEditor as a RichTextEditor when using django.
+        
+        You can visit this site to see the editor result:
+        http://kindeditor.org/
+        
+        [Chinese[中文版]](https://github.com/waketzheng/django-kindeditor/blob/master/zh-hans-README.md)
+        
+        ## Requires
+        
+        - Django 2.0+
+        - Python 3.6+
+        
+        ## Usage
+        
+        - Install
+        
+        ```bash
+        pip install django-kindeditor
+        ```
+        
+        - Add `kindeditor` to INSTALL_APPS in settings, and define static, media
+        
+        ```py
+        INSTALLED_APPS = [
+            ...
+            'kindeditor',
+        ]
+        ...
+        
+        STATIC_URL = '/static/'
+        STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # your static files path
+        MEDIA_URL = '/media/'
+        MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # your media files path
+        ```
+        
+        - Insert "kindeditor/" path and static, media paths to urlpatterns in urls.py
+        
+        ```py
+        from django.conf import settings
+        
+        if settings.DEBUG:
+            # static and media
+            from django.conf.urls.static import static
+            from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+        
+            urlpatterns.extend(
+                staticfiles_urlpatterns()
+                + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+            )
+        urlpatterns = [
+            ...
+            path("kindeditor/", include("kindeditor.urls")),
+        ]
+        
+        if settings.DEBUG:
+            # static and media
+            from django.conf.urls.static import static
+            from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+        
+            urlpatterns.extend(
+                staticfiles_urlpatterns()
+                + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+            )
+        ```
+        
+        ## Example
+        
+        ```py
+        # models.py
+        from kindeditor import RichTextField
+        
+        class Article(models.Model):
+            title = models.CharField(max_length=80)
+            content = RichTextField()
+        
+        # settings.py
+        KINDEDITOR_UPLOAD_PERMISSION = 'admin'
+        
+        # admin.py
+        from django.contrib import admin
+        from kindeditor import EditorAdmin
+        from .models import Article
+        admin.site.register(Article, EditorAdmin)
+        ```
+        
+        ## Demo
+        
+        1. Clone the repo to local
+        
+           ```bash
+           git clone https://github.com/waketzheng/django-kindeditor
+           ```
+        
+        2. Create a virtual environment and install required packages
+        
+           ```bash
+           pipenv install --dev
+           ```
+        
+        3. Activate it
+        
+           ```bash
+           pipenv shell
+           ```
+        
+        4. Migrate and compile translation file
+        
+           ```bash
+           ./manage.py migrate
+           ./manage.py compilemessages
+           ```
+        
+        5. Runserver
+        
+           ```bash
+           ./manage.py runserver
+           ```
+        
+        6. View the url and you will see the demo at webbrowser.
+        
+           http://127.0.0.1:8000
+        
+        ## Development
+        
+        1. Test Coverage
+        
+           ```bash
+           coverage run ./manage.py test
+           ```
+        
+        2. Test multiple django versions
+        
+           ```bash
+           tox
+           ```
+        
+        3. Show code quality
+        
+           ```bash
+           coverage xml
+           python-codacy-coverage -r coverage.xml
+           ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
