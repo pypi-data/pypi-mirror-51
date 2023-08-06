@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+nnunet/__init__.py
+nnunet/paths.py
+nnunet.egg-info/PKG-INFO
+nnunet.egg-info/SOURCES.txt
+nnunet.egg-info/dependency_links.txt
+nnunet.egg-info/requires.txt
+nnunet.egg-info/top_level.txt
