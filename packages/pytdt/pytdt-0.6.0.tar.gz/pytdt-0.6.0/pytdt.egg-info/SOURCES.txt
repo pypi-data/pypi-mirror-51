@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pytdt/__init__.py
+pytdt/pytdt.py
+pytdt.egg-info/PKG-INFO
+pytdt.egg-info/SOURCES.txt
+pytdt.egg-info/dependency_links.txt
+pytdt.egg-info/requires.txt
+pytdt.egg-info/top_level.txt
