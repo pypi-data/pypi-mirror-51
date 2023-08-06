@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: ford-prefect
+Version: 0.0.1
+Summary: MyFord API
+Home-page: https://github.com/PyMyFord/prefect/tarball/0.0.1
+Author: Jordan Matelsky
+Author-email: opensource@matelsky.com
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: ford car api myford
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
