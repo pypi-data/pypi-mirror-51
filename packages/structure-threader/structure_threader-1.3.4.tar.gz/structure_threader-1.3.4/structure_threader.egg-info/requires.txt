@@ -1,0 +1,4 @@
+plotly>=4.1.1
+colorlover
+numpy>=1.12.1
+matplotlib
