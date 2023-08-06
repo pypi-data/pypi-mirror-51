@@ -1,0 +1,6 @@
+pycopy-cpython-uerrno
+pycopy-cpython-ujson
+pycopy-cpython-uos
+pycopy-cpython-usocket
+pycopy-cpython-ussl
+pycopy-cpython-uzlib
