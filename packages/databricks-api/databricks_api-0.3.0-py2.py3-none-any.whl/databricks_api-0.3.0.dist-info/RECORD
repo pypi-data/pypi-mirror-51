@@ -1,0 +1,8 @@
+HISTORY.rst,sha256=sBR_jLU57hAIVfXvMKTXcAVjWEl7IFQxq1hEODTS89Q,367
+databricks_api/__init__.py,sha256=iZcRWVlF4UyVzMX8YuKlqTxWmva0gsme2If1KVcLhDo,441
+databricks_api/_version.py,sha256=NSxaBAOkEha-gGbSXCionAIBftQR5r69LvpUleb1i_k,332
+databricks_api/databricks.py,sha256=Z8c0SBeVVmwewEtWlH5BuY0wpLM0kddPEcPq9LzUGFE,733
+databricks_api-0.3.0.dist-info/LICENSE.txt,sha256=LZyF50NWLRMi-bItRsoYu6nZu5LImMFYKnvEmblpwC8,1078
+databricks_api-0.3.0.dist-info/WHEEL,sha256=QMHkjGvxv3VzbxS3PLXUS4g079erQ43qD1oit7eHsL0,89
+databricks_api-0.3.0.dist-info/METADATA,sha256=42uxhvGxpQQGte9YN-46o7rbQiZC9Bf0y-fTAlJmJA4,13560
+databricks_api-0.3.0.dist-info/RECORD,,
