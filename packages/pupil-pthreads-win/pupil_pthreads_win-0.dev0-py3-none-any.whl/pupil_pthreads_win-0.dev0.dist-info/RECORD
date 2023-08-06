@@ -1,0 +1,10 @@
+pupil_pthreads_win/__init__.py,sha256=ho3E_Ggf7UA5-PcMIGVSeGY0TU5Pq-rHrJjFiK7DpFE,436
+pupil_pthreads_win/data/include/pthread.h,sha256=FL6hptqnyIXOVrqsUUe91n5RJIwLkZUUrFAbmODyvl4,43867
+pupil_pthreads_win/data/include/sched.h,sha256=_MiVCpCPD9eu7E_3FWKpfu0qlbMvM027yBYZMkVLBy4,5178
+pupil_pthreads_win/data/include/semaphore.h,sha256=oJTUJFI7VHpKUQLV2-CgPD7BNjqxJITHXbTaD7gvz9w,4732
+pupil_pthreads_win/data/lib/x64/pthreadVC2.dll,sha256=Dmr3JGCe9oRpgu9xcBNCbDWcRV__Mk6QbY1VyLuI0W4,82944
+pupil_pthreads_win/data/lib/x64/pthreadVC2.lib,sha256=ERq9YF8_oQc3eRr4SWHQJAIBs0rY5icW4nkfI9GyMK8,29738
+pupil_pthreads_win-0.dev0.dist-info/METADATA,sha256=AMNLl659UAKbvv1dbSd7XjBDhAVWEpHA8lbRvxvvLyE,1064
+pupil_pthreads_win-0.dev0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pupil_pthreads_win-0.dev0.dist-info/top_level.txt,sha256=tmjkwiT_CsAaNZnVLz_QB9hDvQImt6DqvntxJKFGdmE,19
+pupil_pthreads_win-0.dev0.dist-info/RECORD,,
