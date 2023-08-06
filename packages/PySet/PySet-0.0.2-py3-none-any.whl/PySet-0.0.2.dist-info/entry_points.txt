@@ -1,0 +1,3 @@
+[console_scripts]
+pyset = pyset.__main__:main
+
