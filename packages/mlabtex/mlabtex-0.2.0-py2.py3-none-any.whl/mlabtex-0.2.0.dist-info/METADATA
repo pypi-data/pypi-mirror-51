@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: mlabtex
+Version: 0.2.0
+Summary: mlabtex: A renderer for latex code in mayavi.
+Home-page: https://github.com/MuellerSeb/mlabtex
+Author: Sebastian Mueller
+Author-email: info@geostat-framework.org
+Maintainer: Sebastian Mueller
+Maintainer-email: sebastian.mueller@ufz.de
+License: MIT
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14.5)
+Requires-Dist: mayavi (>=4.5.0)
+Provides-Extra: all
+Requires-Dist: sympy ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib ; extra == 'matplotlib'
+Provides-Extra: sympy
+Requires-Dist: sympy ; extra == 'sympy'
+
+# mlabtex
+
+[![PyPI version](https://badge.fury.io/py/mlabtex.svg)](https://badge.fury.io/py/mlabtex)
+[![Build Status](https://travis-ci.org/MuellerSeb/mlabtex.svg?branch=master)](https://travis-ci.org/MuellerSeb/mlabtex)
+[![Coverage Status](https://coveralls.io/repos/github/MuellerSeb/mlabtex/badge.svg?branch=master)](https://coveralls.io/github/MuellerSeb/mlabtex?branch=master)
+[![Documentation Status](https://readthedocs.org/projects/mlabtex/badge/?version=latest)](https://mlabtex.readthedocs.io/en/latest/?badge=latest)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
+
+## Purpose
+
+mlabtex provides a renderer for latex code in mayavi.
+
+
+## Installation
+
+    pip install mlabtex
+
+
+## Functions
+
+The following functions are provided
+
+ - `render_latex` -- A renderer for latex-code to produce image files.
+ - `mlabtex     ` -- A renderer for latex code in mayavi.
+ - `mlabimg     ` -- A renderer for image files in mayavi.
+
+
+## Dependencies
+
+ - [NumPy](http://www.numpy.org)
+ - [Mayavi](https://docs.enthought.com/mayavi/mayavi/)
+
+
+### For rendering
+
+ - [matplotlib](https://matplotlib.org/)
+ - [sympy](https://www.sympy.org/)
+
+
+## Example
+
+You can use it like the mlab.surf routine:
+
+    from mayavi import mlab
+    from mlabtex import mlabtex
+
+    text = (
+        r'Sebastian M\"uller, '
+        + r'$f(x)=\displaystyle\sum_{n=0}^\infty '
+        + r'f^{(n)}(x_0)\cdot\frac{(x-x_0)^n}{n!}$'
+    )
+    tex = mlabtex(
+        0., 0., 0.,
+        text,
+        color=(0., 0., 0.),
+        orientation=(30., 0., 0.),
+        dpi=1200,
+    )
+    mlab.axes()
+    mlab.show()
+
+[![Latex in Mayavi][1]][1]
+
+Copyright Sebastian Mueller 2019
+
+
+  [1]: https://i.stack.imgur.com/lLF58.png
+
+
