@@ -1,0 +1,7 @@
+
+[docs-builder]
+sphinx
+sphinx_rtd_theme
+
+[test-runner]
+tox>=3.7
