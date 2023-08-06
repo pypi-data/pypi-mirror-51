@@ -1,0 +1,4 @@
+python-telegram-bot
+peewee
+importlib_resources
+click
