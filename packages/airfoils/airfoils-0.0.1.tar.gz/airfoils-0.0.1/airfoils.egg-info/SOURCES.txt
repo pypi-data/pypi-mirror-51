@@ -1,0 +1,6 @@
+setup.py
+airfoils.egg-info/PKG-INFO
+airfoils.egg-info/SOURCES.txt
+airfoils.egg-info/dependency_links.txt
+airfoils.egg-info/requires.txt
+airfoils.egg-info/top_level.txt
