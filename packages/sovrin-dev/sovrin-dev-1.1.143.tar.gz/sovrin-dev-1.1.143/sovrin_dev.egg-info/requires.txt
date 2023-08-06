@@ -1,0 +1,3 @@
+indy-node==1.9.2.dev1064
+sovtoken==1.0.2.dev80
+sovtokenfees==1.0.2.dev80
