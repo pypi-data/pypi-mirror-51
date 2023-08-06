@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+include/stochqn.h
+src/stochqn.c
+stochqn/__init__.py
+stochqn/_logistic.py
+stochqn/_optimizers.py
+stochqn/pywrapper.pyx
+stochqn/tf.py
+stochqn.egg-info/PKG-INFO
+stochqn.egg-info/SOURCES.txt
+stochqn.egg-info/dependency_links.txt
+stochqn.egg-info/requires.txt
+stochqn.egg-info/top_level.txt

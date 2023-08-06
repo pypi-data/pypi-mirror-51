@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: stochqn
+Version: 0.2.7
+Summary: Stochastic limited-memory quasi-Newton optimizers
+Home-page: https://github.com/david-cortes/stochQN
+Author: David Cortes
+Author-email: david.cortes.rivera@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: optimization,stochastic,quasi-Newton,SQN,adaQN,oLBFGS
+Platform: UNKNOWN
