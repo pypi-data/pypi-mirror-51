@@ -1,0 +1,12 @@
+pillow
+Pmw
+argparse
+bitmath
+datetime
+numpy
+pandas
+pint
+pprint
+pyuca
+seamm-util
+stevedore
