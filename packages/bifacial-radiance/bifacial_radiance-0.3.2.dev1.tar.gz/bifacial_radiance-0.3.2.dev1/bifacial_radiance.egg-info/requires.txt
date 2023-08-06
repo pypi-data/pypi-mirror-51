@@ -1,0 +1,4 @@
+pvlib
+pytest
+pytest-cov
+configparser
