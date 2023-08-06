@@ -1,0 +1,16 @@
+uwstyle/__init__.py,sha256=zIf9yBFZ9n_6BZgIw6ltRN62pEbGF7zL0Hfl1jAXjZI,5131
+uwstyle/dialogs/__init__.py,sha256=0ZFatO-KSAz_ul0WFAUgHa09gl_AjygkhKSVplZkWvY,3264
+uwstyle/dialogs/dialogs.py,sha256=CVwjo1obv7ZMYrL-kseE04jyvMBSYL5pE99P0pPyIQY,4893
+uwstyle/dialogs/slctbox.py,sha256=RY6bl_odBaA-a8T5EO0aHqf98-93v_-HRmcuOkvnCHU,3233
+uwstyle/excel/__init__.py,sha256=s4skxZCDKG3FmiYP6HIH6urJzur15tXd73lIO2xJ9AM,2587
+uwstyle/excel/sheet.py,sha256=5ZIruMww70XppPI2CrnFuwSmXbkIBmnqHntjOuAfVwk,885
+uwstyle/excel/workbook.py,sha256=NN6fcJbiNUi_7r8s_Ojh8q7PogqvfnON6QkMApTgnmg,2083
+uwstyle/overridestd/writer.py,sha256=1Z0wlbTcwgE7e5tJXU0LNAGQs3G6BrjAvi-vU3-tqO8,4037
+uwstyle/webbrowser/__init__.py,sha256=jydZ8uZRqNAH1C81H76WBhPLMgOHQHuTy2Qt-MHzCuo,3330
+uwstyle/webbrowser/driver.py,sha256=gknSFZE1h6N0gQhGi1dqgsRETEmilGQunTOZbbK-NII,1823
+uwstyle/webbrowser/element.py,sha256=JxhKGqn7AOtTsGjrH6VGpPhGTA2HY-l7VFSqKrEBvUU,995
+uwstyle-0.0.6.dist-info/LICENSE,sha256=H78ruL3ygyjG4dhqzVEep6sbtqog3q8trufx4ig05r0,1086
+uwstyle-0.0.6.dist-info/METADATA,sha256=2jGpCoiH-qh4gn0wbyRwUbQySInawf7566zprWFjrH8,2046
+uwstyle-0.0.6.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+uwstyle-0.0.6.dist-info/top_level.txt,sha256=-jPVEvVtpQkUX5P_VZ4CDj7vf2sppkxAPN7cEU5LZJg,8
+uwstyle-0.0.6.dist-info/RECORD,,
