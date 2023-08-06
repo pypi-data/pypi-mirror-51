@@ -1,0 +1,10 @@
+README.md
+setup.py
+am_num2word/__init__.py
+am_num2word/group.py
+am_num2word.egg-info/PKG-INFO
+am_num2word.egg-info/SOURCES.txt
+am_num2word.egg-info/dependency_links.txt
+am_num2word.egg-info/top_level.txt
+tests/__init__.py
+tests/number_converter.py
