@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include img
+include atk/kernel.json.tpl
+
+prune htmlcov
+prune build

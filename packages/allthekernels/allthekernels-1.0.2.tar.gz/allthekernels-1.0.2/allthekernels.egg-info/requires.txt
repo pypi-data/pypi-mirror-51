@@ -1,0 +1,4 @@
+ipykernel>=4.3
+jupyter-client>=5.0
+pyzmq>=15.2
+tornado>=4
