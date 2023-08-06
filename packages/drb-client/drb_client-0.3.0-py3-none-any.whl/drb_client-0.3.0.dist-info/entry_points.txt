@@ -1,0 +1,3 @@
+[console_scripts]
+drb-client = drb_client.__main__:main
+
