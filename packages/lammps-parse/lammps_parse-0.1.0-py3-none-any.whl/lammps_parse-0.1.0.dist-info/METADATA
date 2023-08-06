@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: lammps-parse
+Version: 0.1.0
+Summary: Input file writers and output file parsers for Lammps.
+Home-page: UNKNOWN
+Author: Adam J. Plowman, Maria S. Yankova
+Author-email: adam.plowman@manchester.ac.uk
+License: UNKNOWN
+Project-URL: Github, https://github.com/aplowman/lammps-parse
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+[![PyPI version](https://badge.fury.io/py/lammps-parse.svg)](https://badge.fury.io/py/lammps-parse)
+
+# lammps-parse
+Input file writers and output file readers for the molecular dynamics simulation code Lammps.
+
+## Installation
+
+`pip install lammps-parse`
+
+## Functionality/roadmap
+
+Functionality is currently rather limited and specific to my original use-cases. Pull-requests are welcome!
+
+### Readers:
+
+- ✅ `read_lammps_log`
+- ✅ `read_lammps_dump`
+- ✅ `read_lammps_output`
+- ✅ `check_success`
+
+### Writers:
+
+- ✅ `write_lammps_inputs`
+- ✅ `write_lammps_atoms`
+
+
+
