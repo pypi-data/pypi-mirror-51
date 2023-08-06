@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: kuryr-tempest-plugin
+Version: 0.5.0
+Summary: Kuryr Tempest Plugin
+Home-page: https://docs.openstack.org/kuryr-tempest-plugin/latest/
+Author: OpenStack
+Author-email: openstack-discuss@lists.openstack.org
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: pbr (!=2.1.0,>=2.0.0)
+Requires-Dist: oslotest (>=3.2.0)
+Requires-Dist: os-testr (>=1.0.0)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: tempest (>=17.1.0)
+Requires-Dist: testrepository (>=0.0.18)
+Requires-Dist: testtools (>=2.2.0)
+Requires-Dist: kubernetes (>=5.0.0)
+Requires-Dist: oslo.concurrency (>=3.26.0)
+
+============================
+Tempest Integration of Kuryr
+============================
+
+Overview
+========
+
+This project defines a tempest plugin containing tests used to verify the
+functionality of a kuryr installation. The plugin will automatically load
+these tests into tempest.
+
+
+
