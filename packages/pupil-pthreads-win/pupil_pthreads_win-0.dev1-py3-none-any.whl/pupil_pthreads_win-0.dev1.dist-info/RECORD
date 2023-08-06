@@ -1,0 +1,10 @@
+pupil_pthreads_win/__init__.py,sha256=4QuroyWrOxybPg1Xsiw0Fs_yAfrqnLhf3Y9y8Rm-hu4,419
+pupil_pthreads_win/data/include/pthread.h,sha256=1cQJNyhmwPwigxVwHMUTF_BEqVePotXoutPs5-LquiI,42499
+pupil_pthreads_win/data/include/sched.h,sha256=1Pfxa44a2ZroA3C900ret8bDTnGLooMpC4JBf0e5esI,4995
+pupil_pthreads_win/data/include/semaphore.h,sha256=9IY3s5KwUCHirjSoFJ5ZXtC_qLh1ZhxjHjRFq2Wb_0w,4563
+pupil_pthreads_win/data/lib/x64/pthreadVC2.dll,sha256=Dmr3JGCe9oRpgu9xcBNCbDWcRV__Mk6QbY1VyLuI0W4,82944
+pupil_pthreads_win/data/lib/x64/pthreadVC2.lib,sha256=ERq9YF8_oQc3eRr4SWHQJAIBs0rY5icW4nkfI9GyMK8,29738
+pupil_pthreads_win-0.dev1.dist-info/METADATA,sha256=ZdIzDbG4041kzefXxI11EKKnYQrfqoily5GSKwcLw24,1064
+pupil_pthreads_win-0.dev1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pupil_pthreads_win-0.dev1.dist-info/top_level.txt,sha256=tmjkwiT_CsAaNZnVLz_QB9hDvQImt6DqvntxJKFGdmE,19
+pupil_pthreads_win-0.dev1.dist-info/RECORD,,
