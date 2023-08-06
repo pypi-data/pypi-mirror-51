@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: neurodsp
+Version: 2.0.0
+Summary: Digital signal processing for neural time series.
+Home-page: https://github.com/neurodsp-tools/neurodsp
+Author: The Voytek Lab
+Author-email: voyteklab@gmail.com
+License: Apache License, 2.0
+Download-URL: https://github.com/neurodsp-tools/neurodsp/releases
+Keywords: neuroscience,neural oscillations,time series analysis,local field potentials,spectral analysis,time frequency analysis,electrophysiology
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+
+========
+Neurodsp
+========
+
+NeuroDSP is package of tools to analyze and simulate neural time series, using digital signal processing.
+
+Available modules in NeuroDSP include:
+
+- filt : Filter data with bandpass, highpass, lowpass, or notch filters
+- burst : Detect bursting oscillations in neural signals
+- rhythm : Find and analyze rhythmic and recurrent patterns in time series
+- spectral : Compute spectral domain features such as power spectra
+- timefrequency : Estimate instantaneous measures of oscillatory activity
+- sim : Simulate time series, including periodic and aperiodic signal components
+- plts : Plotting functions
+
+If you use this code in your project, please cite:
+
+Cole, S., Donoghue, T., Gao, R., & Voytek, B. (2019). NeuroDSP: A package for
+neural digital signal processing. Journal of Open Source Software, 4(36), 1272.
+https://doi.org/10.21105/joss.01272
+
+Direct Link: https://doi.org/10.21105/joss.01272
+
+
