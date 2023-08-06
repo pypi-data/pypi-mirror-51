@@ -1,0 +1,23 @@
+2019-09-05  SukitOwl  <sukit_owl@hotmail.com>
+ fixed load modules bug
+
+2018-10-23  Tle Ekkul  <e.aryuth@gmail.com>
+ Change build tool from flit to poetry
+
+2019-04-18  Pattarawut Imamnuaysup  <kiraskylolax@gmail.com>
+ Added code and test cases for asyncpg
+ 
+2018-02-27  Panuwizzle  <sukorn@gmail.com>
+ CI setup with CircleCI
+
+2018-10-23  Tle Ekkul  <e.aryuth@gmail.com>
+ Support multiple schema paths
+
+2018-10-19  Tle Ekkul  <e.aryuth@gmail.com>
+ Published to PyPi
+
+2018-10-02  Tle Ekkul  <e.aryuth@gmail.com>
+ Supported PG* environment variables
+
+2018-10-01  Tle Ekkul  <e.aryuth@gmail.com>
+ Derived from KayEss's odin script
