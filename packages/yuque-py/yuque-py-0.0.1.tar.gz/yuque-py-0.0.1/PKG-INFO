@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: yuque-py
+Version: 0.0.1
+Summary: yuque api for python version
+Home-page: https://github.com/Zheaoli/yueque-py
+Author: Manjusaka
+Author-email: me@manjusaka.me
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
