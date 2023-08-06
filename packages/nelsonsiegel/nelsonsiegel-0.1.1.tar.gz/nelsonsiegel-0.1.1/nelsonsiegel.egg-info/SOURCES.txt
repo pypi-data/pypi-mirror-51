@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+nelsonsiegel/__init__.py
+nelsonsiegel/base.py
+nelsonsiegel.egg-info/PKG-INFO
+nelsonsiegel.egg-info/SOURCES.txt
+nelsonsiegel.egg-info/dependency_links.txt
+nelsonsiegel.egg-info/not-zip-safe
+nelsonsiegel.egg-info/requires.txt
+nelsonsiegel.egg-info/top_level.txt
