@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: influxable
+Version: 0.0.1-alpha.0
+Summary: A lightweight python ORM / ODM for InfluxDB
+Home-page: https://github.com/Javidjms/influxable
+Author: Javid Mougamadou
+Author-email: javidjms0@gmail.com
+License: MIT
+Download-URL: https://github.com/Javidjms/influxable/archive/0.0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: python,influxdb,odm,orm,driver,client
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
