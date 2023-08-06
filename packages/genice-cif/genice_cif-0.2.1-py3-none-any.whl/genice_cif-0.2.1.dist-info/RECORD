@@ -1,0 +1,9 @@
+genice_cif/__init__.py,sha256=Z9jyGA0TvTbWmeELUI2D5MkCo23jdEVJXT0OOflyxWM,75
+genice_cif/lattices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genice_cif/lattices/cif.py,sha256=CLfFDzPtAZ44S5zWcqrfkRFbSyxPOREokT3HfMf1Q3g,3634
+genice_cif/lattices/zeolite.py,sha256=CLfFDzPtAZ44S5zWcqrfkRFbSyxPOREokT3HfMf1Q3g,3634
+genice_cif-0.2.1.dist-info/METADATA,sha256=F30Bqsb3RQZ31srpba2ZELtlumKscWGPbvzVjl3IEqI,1299
+genice_cif-0.2.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+genice_cif-0.2.1.dist-info/entry_points.txt,sha256=WLGMFEvAGPLlYjl2ht6lTnXvIjTE6eqTETVEdlVyIfg,86
+genice_cif-0.2.1.dist-info/top_level.txt,sha256=PUaht-RW-NYusp3gduourwPevPpwYpr6AdNIBvImMKs,11
+genice_cif-0.2.1.dist-info/RECORD,,
