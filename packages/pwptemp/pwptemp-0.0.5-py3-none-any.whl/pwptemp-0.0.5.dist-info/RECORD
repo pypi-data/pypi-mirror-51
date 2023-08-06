@@ -1,0 +1,14 @@
+pwptemp/App.py,sha256=C5hL0A_ohnyTsdd8d0Jd_FFj5KUdYw1hPsQ2I8ZJ62M,138
+pwptemp/Graph.py,sha256=eoO5f0AGlDy81IcfCr-EVsn-6gsgCycB1x1mXNzqqvk,1458
+pwptemp/HeatCoefficients.py,sha256=Af9OIxeMyt43VwnMrem0Ss0O4hR6yKLPsrfz58PxQOw,11765
+pwptemp/InitCond.py,sha256=EbUeBbBzsa7Z6j6ucBqXc1L-EgsmmfQowhZfYxsGmTo,1052
+pwptemp/Input.py,sha256=0LGTTrq7iYsj_UzHGWdGo3BHAv-EracE3rocD2kQo1E,7907
+pwptemp/LinearSystem.py,sha256=A17l7vczhNEvX1ehrGHQwujbNElAVOWDsSWVAMMF3L4,10342
+pwptemp/Main.py,sha256=r225pAv59KMt5NUyO86Qb9m5OvNb-l5DhKxX9XNIJRY,2711
+pwptemp/WellPath.py,sha256=_DaqytqT-mnVsN733weqG0_NlKnULU3I41dT4HdrIjc,387
+pwptemp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pwptemp-0.0.5.dist-info/LICENSE.md,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+pwptemp-0.0.5.dist-info/METADATA,sha256=1dr9udcZzaz3gH3W4mEMGd2lohRW7oMcFa2s2wyp1dQ,5945
+pwptemp-0.0.5.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pwptemp-0.0.5.dist-info/top_level.txt,sha256=PWtqi3TfU3mGi9rZ3Gc0oI1KPPZQdQVErQ-MEORv5tE,8
+pwptemp-0.0.5.dist-info/RECORD,,
