@@ -1,0 +1,63 @@
+<div id="pwman-commandline-password-manager">
+<h2>pwman - Commandline password manager</h2>
+<p><a href="https://bues.ch/h/pwman" rel="nofollow">https://bues.ch/h/pwman</a></p>
+<p>pwman is a commandline based password manager. It encrypts the password database file using strong AES-256 encryption.</p>
+<p>pwman has support for the following things:</p>
+<ul>
+<li>Store arbitrary attributes and text data along with the passwords and login credentials.</li>
+<li>Generate two factor authentication tokens (<a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm" rel="nofollow">TOTP</a>).</li>
+<li>Database search with Regular Expressions or SQL LIKE syntax.</li>
+<li>Database compare (diff). In pwman prompt, at pwman command line and as <cite>git diff</cite> extension.</li>
+<li>Shell-style Tab-completion for all commands.</li>
+<li>Custom Python scripts for arbitrary database processing.</li>
+<li>Export of the complete database as SQL text dump, CSV dump and human readable plain text dump.</li>
+</ul>
+</div>
+<div id="install-pwman">
+<h2>Install pwman</h2>
+<p>pwman does not have to be installed. The <cite>pwman</cite> script can be run directly from the source tree.</p>
+<p>However if you want to install pwman, it can be done either directly from the source tree by running the following commands:</p>
+<pre>./setup.py build
+sudo -i  <span class="c1"># Or any other command to become root
+</span>./setup.py install
+</pre>
+<p>Or it can be installed vi <a href="https://pypi.org/" rel="nofollow">PyPi</a> by running the following commands:</p>
+<pre>pip3 install -U pyaes
+pip3 install -U pwman-python
+</pre>
+</div>
+<div id="run-pwman">
+<h2>Run pwman</h2>
+<p>Just run the <cite>pwman</cite> executable to start pwman.</p>
+<p>Type <cite>pwman -h</cite> for help about the command line options.</p>
+</div>
+<div id="pwman-prompt">
+<h2>pwman prompt</h2>
+<p>If started without options, pwman enters the command prompt:</p>
+<pre>pwman$
+</pre>
+<p>Type the command <cite>help</cite> and press enter to see help about all possible commands.</p>
+</div>
+<div id="command-help">
+<h2>Command help</h2>
+<p>To get help about a specific command, enter the command into the prompt and append a question mark without spaces in between:</p>
+<pre>pwman$ find?
+</pre>
+</div>
+<div id="using-a-custom-script-to-process-the-database-content">
+<h2>Using a custom script to process the database content</h2>
+<p>A custom Python script can be passed to <cite>pwman</cite> as command line option. Such a script can do anything to the content of the database.</p>
+<p>Please see the example script <cite>examplescript.py</cite> for more information.</p>
+</div>
+<div id="api-documentation">
+<h2>API documentation</h2>
+<p>The API documentation can be found in the <a href="doc/api/" rel="nofollow">API documentation directory</a>.</p>
+</div>
+<div id="license-copyright">
+<h2>License / Copyright</h2>
+<p>Copyright (c) 2011-2019 Michael Buesch &lt;<a href="mailto:m&#37;&#52;&#48;bues&#46;ch">m<span>&#64;</span>bues<span>&#46;</span>ch</a>&gt;</p>
+<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</p>
+<p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.</p>
+</div>
+
