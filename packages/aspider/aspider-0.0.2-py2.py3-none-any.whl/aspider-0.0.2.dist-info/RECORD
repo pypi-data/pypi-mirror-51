@@ -1,0 +1,15 @@
+aspider/__init__.py,sha256=xy5icTVL_-T_uZleOq5SPoLjDLVLWIK0U8whN-ij6kI,21
+aspider/aspider.py,sha256=C2a3_Yw73rRBh-98xxw-4_0SBsQVxoNxUwf5u7lQgzE,4539
+aspider/crawling.py,sha256=i2DV8xjsB__zXMANImGNXHyWozAGMLa4W-Q2Uf5Hcn8,10860
+aspider/reporting.py,sha256=kBMIgo52Eiqod2rik4FxWRU-pgcMItL_pWjjGRuGWyU,2483
+aspider/routeing.py,sha256=ghtXBSjXDSlfvh5BS3bZV6frAvzRDkobmlAJ3DY474w,5054
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/bus_spider.py,sha256=oV_Aqju5V5Vc1GlSX1_prxBT8dir_cFilqoGCIPjL8E,1287
+example/db.py,sha256=ep07Ioz0fMHoKkpf1eainCthEkCmsiOK_ctCRRZlgO0,3285
+example/parser.py,sha256=vLhO0NXHpqnrLWWVh7R4wgNJandd9GewkQHWicN2s94,1795
+example/stop_loop.py,sha256=PCC3kgJzJoPZyQWpTUMNZPhL0R-tzr5G3m1dtklxRSY,781
+aspider-0.0.2.dist-info/LICENSE.md,sha256=Sgoj0gdJ4NN_5s5SQtOw15mA4W1ig3w-2te57Hdmgbg,1479
+aspider-0.0.2.dist-info/METADATA,sha256=uOuBu6-xt0JpvfOrY4shSvYEN5-2GQo-WZGKU97OPPo,828
+aspider-0.0.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+aspider-0.0.2.dist-info/top_level.txt,sha256=FDqMaEB7RxWOrEnGJBRnuecsRQdpvy1A2l932OOe8F8,16
+aspider-0.0.2.dist-info/RECORD,,
