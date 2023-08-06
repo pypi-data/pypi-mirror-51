@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: quart-minify
+Version: 0.1.0
+Summary: A Quart extension to minify quart response for html, javascript, css and less compilation as well.
+License: MIT
+Author: Mohamed Feddad
+Author-email: mrf345@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: htmlmin (>=0.1.12,<0.2.0)
+Requires-Dist: jsmin (>=2.2,<3.0)
+Requires-Dist: lesscpy (>=0.13.0,<0.14.0)
+Requires-Dist: quart (>=0.10.0,<0.11.0)
