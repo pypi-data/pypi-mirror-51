@@ -1,0 +1,6 @@
+hiii
+setup.py
+weatherr_appp.egg-info/PKG-INFO
+weatherr_appp.egg-info/SOURCES.txt
+weatherr_appp.egg-info/dependency_links.txt
+weatherr_appp.egg-info/top_level.txt
