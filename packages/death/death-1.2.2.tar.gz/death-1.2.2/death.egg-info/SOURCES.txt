@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version.txt
+death/ArgDefine.py
+death/ArgElement.py
+death/ArgSection.py
+death/ArgVolatile.py
+death/Arguments.py
+death/__init__.py
+death.egg-info/PKG-INFO
+death.egg-info/SOURCES.txt
+death.egg-info/dependency_links.txt
+death.egg-info/not-zip-safe
+death.egg-info/top_level.txt
