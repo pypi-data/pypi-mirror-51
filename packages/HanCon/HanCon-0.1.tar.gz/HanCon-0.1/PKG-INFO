@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: HanCon
+Version: 0.1
+Summary: An easy to use library for Python3 to generate concreteness Values for words
+Home-page: https://github.com/user/reponame
+Author: Jean Charbonnier
+Author-email: jeancharbonnier@hotmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Concreteness,NLP,Natural Language Processing,prediction
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
