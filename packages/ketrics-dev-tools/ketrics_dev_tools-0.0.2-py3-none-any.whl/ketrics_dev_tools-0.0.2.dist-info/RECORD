@@ -1,0 +1,10 @@
+ketrics_dev_tools/KetricsDevTools.py,sha256=k89ITOO3J50xgwNvi-FYiycP8CGtoueYitSk-_m4Tpw,3274
+ketrics_dev_tools/__init__.py,sha256=q0c6O0TGY5lt1xepkulXCATZnYeD99ZLVUDaJjNtIbk,125
+ketrics_dev_tools/command_line.py,sha256=VOXFBh0Bx522mWx6f0AYdLjkV0S2cYmotbVUmGBB3Zo,67
+ketrics_dev_tools/version.py,sha256=xy5icTVL_-T_uZleOq5SPoLjDLVLWIK0U8whN-ij6kI,21
+ketrics_dev_tools-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+ketrics_dev_tools-0.0.2.dist-info/METADATA,sha256=dnWfVvIwP-ZaMtAEuUTTftpSRWEcmRn4Xobu61RS738,837
+ketrics_dev_tools-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ketrics_dev_tools-0.0.2.dist-info/entry_points.txt,sha256=WGoCku_FcVcXPuwwtK2QqBjmA0ZIZzNO3HnvoH5kvrQ,75
+ketrics_dev_tools-0.0.2.dist-info/top_level.txt,sha256=Oi-7zpFLEp5DJTMSJ8zD5PhNQuK9jBbFmeZWERuPSUc,18
+ketrics_dev_tools-0.0.2.dist-info/RECORD,,

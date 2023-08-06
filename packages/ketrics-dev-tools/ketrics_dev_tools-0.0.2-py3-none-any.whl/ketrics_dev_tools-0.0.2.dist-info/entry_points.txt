@@ -1,0 +1,3 @@
+[console_scripts]
+ketrics-dev-tools = ketrics_dev_tools.command_line:main
+
