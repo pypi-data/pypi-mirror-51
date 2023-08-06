@@ -1,0 +1,11 @@
+README.md
+setup.py
+ekler/__init__.py
+ekler/aykiri.py
+ekler/bulunma.py
+ekler/iyelik.py
+ekler/yonelme.py
+ekler.egg-info/PKG-INFO
+ekler.egg-info/SOURCES.txt
+ekler.egg-info/dependency_links.txt
+ekler.egg-info/top_level.txt
