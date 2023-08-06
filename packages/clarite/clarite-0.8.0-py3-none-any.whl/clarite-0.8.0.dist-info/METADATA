@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: clarite
+Version: 0.8.0
+Summary: CLeaning to Anlaysis: Reproducibility-based Interface for Traits and Exposures
+Home-page: https://github.com/HallLab/clarite-python
+Author: Hall Lab
+Author-email: mah546@psu.edu
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: click (>=7)
+Requires-Dist: pandas (>=0.23)
+Requires-Dist: scipy (==1.2)
+Requires-Dist: seaborn (>=0.9)
+Requires-Dist: statsmodels (>=0.10)
+
+===============================
+CLARITE
+===============================
+
+.. image:: https://img.shields.io/travis/HallLab/clarite-python.svg
+        :target: https://travis-ci.org/HallLab/clarite-python
+
+.. image:: https://img.shields.io/pypi/v/clarite.svg
+        :target: https://pypi.python.org/pypi/clarite
+
+
+CLeaning to Anlaysis: Reproducibility-based Interface for Traits and Exposures
+
+* Free software: 3-clause BSD license
+* Documentation: https://www.hall-lab.org/clarite-python/.
+
+
