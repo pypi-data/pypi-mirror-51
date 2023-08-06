@@ -1,0 +1,15 @@
+zoomus/__init__.py,sha256=_poCKLP2W0hFbqw4-kdxe_yg9l3MjFoaQgqbfXr8VGc,281
+zoomus/client.py,sha256=YGpoYiW8NcWgPUJVvmhcxgektga_ZzroPT3k0uJpMLc,3603
+zoomus/util.py,sha256=7748kOpCadClaOT_f1IIeJVz3G0Y_H3V8sOXA-yvtM8,8345
+zoomus/components/__init__.py,sha256=T67G7zGHwwHvwRAOumSb_k2UGC2Y1bedPLzqwZKQI6o,168
+zoomus/components/base.py,sha256=eYWrsb-n6GpzrZJPIZGcoOvCewx3s-bqhl1zwDtUedo,1841
+zoomus/components/meeting.py,sha256=RLNqg2LB4i2ea9ey1S2LHRaz55BiYZi8fEjvR6RKKGE,2715
+zoomus/components/recording.py,sha256=o5AUO_25jI548RbuFbSVzsiYW08b_rTZZplWvUv4amQ,1808
+zoomus/components/report.py,sha256=nwp3MGNDHlg_2bmGifgs4TjontmlOBAb6WKw_6kdvOg,1879
+zoomus/components/user.py,sha256=gUndeg49z2H_wz_TIuqRnV0O9sfw7UaRfAmGz6hoC1g,2049
+zoomus/components/webinar.py,sha256=geZCb_1qAHPgNzJf5itv9KH0DV5CQdnKumXM5s5xh3s,3569
+zoomus-1.0.0.dist-info/LICENSE.txt,sha256=9KhfKvlIGISl0t7vSkYzTAPVO_B45ropQjE6UZGuN8s,578
+zoomus-1.0.0.dist-info/METADATA,sha256=SZ8eddsPq7SjX6EcCvTQZHxBzYNDFOOVyYJVdfKdTUU,963
+zoomus-1.0.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+zoomus-1.0.0.dist-info/top_level.txt,sha256=Xsxs-zKNKoK1Xtammzd37AVAvrcZL5nk916WCeONRDE,7
+zoomus-1.0.0.dist-info/RECORD,,
