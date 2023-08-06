@@ -1,0 +1,17 @@
+.flake8
+.travis.yml
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tox.ini
+src/pyobo/__init__.py
+src/pyobo/struct.py
+src/pyobo/version.py
+src/pyobo.egg-info/PKG-INFO
+src/pyobo.egg-info/SOURCES.txt
+src/pyobo.egg-info/dependency_links.txt
+src/pyobo.egg-info/not-zip-safe
+src/pyobo.egg-info/requires.txt
+src/pyobo.egg-info/top_level.txt
