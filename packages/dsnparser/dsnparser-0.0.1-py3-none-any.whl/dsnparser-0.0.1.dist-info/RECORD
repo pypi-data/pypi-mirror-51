@@ -1,0 +1,8 @@
+dsnparser/__init__.py,sha256=eIYl5hXbddXE3AGhi7nmMC64yZKUo9s71Al6ikpRfAI,90
+dsnparser/parser.py,sha256=KWxiA8aKqtx8JpyznU_1dmJ0_JLeYrZqWtp46jcc9hw,1513
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_parser.py,sha256=s8Bwyexk0o3nfgkbMbelTsdm6dwoAQMxQyea4zyZw_k,125
+dsnparser-0.0.1.dist-info/METADATA,sha256=Zmby0SbUi7dbkhMGDiKXuHE1J0sqHu02s73VX6lae9k,223
+dsnparser-0.0.1.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+dsnparser-0.0.1.dist-info/top_level.txt,sha256=bVyI93_P9Iy7G43OqPjuNmeP2LTU8d1mEJ5Saz3sMfw,16
+dsnparser-0.0.1.dist-info/RECORD,,
