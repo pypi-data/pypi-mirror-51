@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+allthekernels.py
+setup.cfg
+setup.py
+allthekernels.egg-info/PKG-INFO
+allthekernels.egg-info/SOURCES.txt
+allthekernels.egg-info/dependency_links.txt
+allthekernels.egg-info/requires.txt
+allthekernels.egg-info/top_level.txt
+atk/kernel.json
