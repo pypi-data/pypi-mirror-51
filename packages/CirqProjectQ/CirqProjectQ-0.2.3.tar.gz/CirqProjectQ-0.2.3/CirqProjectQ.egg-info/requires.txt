@@ -1,0 +1,4 @@
+cirq
+projectq
+numpy
+pytest
