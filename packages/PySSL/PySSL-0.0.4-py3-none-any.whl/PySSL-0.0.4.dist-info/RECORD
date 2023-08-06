@@ -1,0 +1,10 @@
+cmdIf/__init__.py,sha256=bhb0YhhqK1JEU_H2hJxGH_VXKkgJECkOwnV9MffWZ3Y,20
+cmdIf/boost_python37-vc140-mt-x64-1_67.dll,sha256=GqeYL1CvipbC1ckHqQYxIQA0R_bWfM2TRs9f-9ffSok,261120
+cmdIf/cmdIf.pyd,sha256=yBXqLNxBsv6WjnaXLwmODgC0mig801ty2DD3V85TZSE,909312
+visionIf/__init__.py,sha256=GKubr0rc8GwoSePjsbb92pnglWWfVK0QFgCwjvDcTgw,23
+visionIf/boost_python37-vc140-mt-x64-1_67.dll,sha256=GqeYL1CvipbC1ckHqQYxIQA0R_bWfM2TRs9f-9ffSok,261120
+visionIf/visionIf.pyd,sha256=dqScFpVfGVsUtfpsIac1UPSHd635qrqARGsOFbIS16g,912384
+PySSL-0.0.4.dist-info/METADATA,sha256=XpZNl0jzua9yByw7vkedWfhWRMH_k15G_iJXY0DPv_k,185
+PySSL-0.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+PySSL-0.0.4.dist-info/top_level.txt,sha256=Vw1nzuFUV8qPceEre_dpNPsLcwsVZ2BAyfvhzOVlTxw,15
+PySSL-0.0.4.dist-info/RECORD,,
