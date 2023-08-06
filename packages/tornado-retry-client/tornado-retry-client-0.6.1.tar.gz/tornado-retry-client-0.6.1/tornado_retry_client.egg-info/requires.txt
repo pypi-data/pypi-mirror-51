@@ -1,0 +1,9 @@
+tornado<6,>=4.3
+
+[tests]
+mock
+nose
+coverage
+flake8
+yanc
+bumpversion
