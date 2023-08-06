@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+print_chat/__init__.py
+print_chat/print_chat.py
+print_chat.egg-info/PKG-INFO
+print_chat.egg-info/SOURCES.txt
+print_chat.egg-info/dependency_links.txt
+print_chat.egg-info/requires.txt
+print_chat.egg-info/top_level.txt
