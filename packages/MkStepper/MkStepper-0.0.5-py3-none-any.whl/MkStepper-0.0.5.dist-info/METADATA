@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: MkStepper
+Version: 0.0.5
+Summary: Raspberry pi Stepper Motor Driver
+Home-page: https://mknxgn.com/
+Author: Mark Cartagena
+Author-email: mark@mknxgn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+MkNxGn
+
+Raspberry Pi Stepper Motor Class for ULN 2003 Driver
+
+from MkStepper import ULN2003
+Motor = ULN2003([1,2,3,4], 1)
+
+Motor.right(steps[10])
+
+
+
