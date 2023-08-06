@@ -1,0 +1,11 @@
+README.md
+setup.py
+ng2django/__init__.py
+ng2django/__main__.py
+ng2django/ng2django.py
+ng2django.egg-info/PKG-INFO
+ng2django.egg-info/SOURCES.txt
+ng2django.egg-info/dependency_links.txt
+ng2django.egg-info/entry_points.txt
+ng2django.egg-info/requires.txt
+ng2django.egg-info/top_level.txt

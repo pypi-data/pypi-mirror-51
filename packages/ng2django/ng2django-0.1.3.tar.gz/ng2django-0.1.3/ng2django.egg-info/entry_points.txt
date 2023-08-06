@@ -1,0 +1,3 @@
+[console_scripts]
+ng2django = ng2django:main
+
