@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-simple-pagination = {editable = true,path = "."}
+marshmallow = "*"
+
+[dev-packages]
+pyhamcrest = "*"
+autopep8 = "*"
+mypy = "*"
+flake8 = "*"
