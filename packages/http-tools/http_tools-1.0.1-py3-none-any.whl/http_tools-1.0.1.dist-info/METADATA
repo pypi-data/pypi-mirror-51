@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: http-tools
+Version: 1.0.1
+Summary: httptools helps you to capture, repeat and live intercept HTTP requests. It is built on top of [mitmproxy](https://mitmproxy.org/)
+Home-page: https://github.com/MobSF/httptools
+Author: Ajin Abraham
+Author-email: ajin25@gmail.com
+License: GPL v3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: mitmproxy (==4.0.4)
+
+httptools helps you to capture, repeat and live intercept HTTP requests. It is built on top of [mitmproxy](https://mitmproxy.org/)
+
+
