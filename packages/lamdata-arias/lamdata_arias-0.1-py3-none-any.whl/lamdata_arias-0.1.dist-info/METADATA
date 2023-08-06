@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lamdata-arias
+Version: 0.1
+Summary: A useful module
+Home-page: UNKNOWN
+Author: Soy Gael
+Author-email: foomail@foo.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
