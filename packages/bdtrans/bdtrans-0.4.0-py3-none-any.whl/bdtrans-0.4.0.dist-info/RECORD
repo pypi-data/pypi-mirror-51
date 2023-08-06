@@ -1,0 +1,15 @@
+bdtrans/__init__.py,sha256=pZHijq6yRan70ZvvN9Adcsqw5iVEAEUvT2iwtt2hPTQ,496
+bdtrans/_global.py,sha256=rbWXLTdoiiLcao1XwvYviYZDpCCDTzuD2hRgE8tOYFo,1213
+bdtrans/baidu.py,sha256=SlVhRp1TSqgw4k5oJO887Kk-R6mqYMqjdkxUDh0MpNE,3923
+bdtrans/cmdline.py,sha256=xwymoHF0Ne6kADR6D5QmT1T4YFW3O3ul0FG03rBe-YI,4418
+bdtrans/deploy.py,sha256=Y2vp2hGelaSpBak7cdqggHt3kRRBHyZesCjuJFReT5o,3008
+bdtrans/error.py,sha256=ZThXCeTMjlBhXCn_pt29bhxEZMwkIcIiMI1K5A-ky28,2249
+bdtrans/language.py,sha256=BY_-tHP2Txe7atO3l3fbsWMpQF3ntW8WQ6ZF8cQCmck,1612
+bdtrans/lib.py,sha256=_GwBJf6bUhELkR-q-ecBHRfSrYZwXINVW4HUKiX7JkM,4963
+bdtrans/repl.py,sha256=O-eH7P79xGG3uZ35SfoMmsGqgWe38qdTW6QUjZGXjuE,3618
+bdtrans/locale/zh_CN/LC_MESSAGES/translate.mo,sha256=hlmsWNp7CDOaJPWC1AvpV_3g3LtLlm0ZBW8WAoV-u9A,9404
+bdtrans-0.4.0.dist-info/METADATA,sha256=yqQvUD4AUHBkUC63X51riqw5fttmAwjIWYS2ob0q5h0,5178
+bdtrans-0.4.0.dist-info/RECORD,,
+bdtrans-0.4.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bdtrans-0.4.0.dist-info/entry_points.txt,sha256=8bxql5h0rLB3Ue2wcT6d3-etwOBFsJX2a8eMo68RrSE,55
+bdtrans-0.4.0.dist-info/top_level.txt,sha256=zVuY6TB4EZeUbqjStY_RhQm5zn4Mi8FuWSNsWYEqgZM,8
