@@ -1,0 +1,8 @@
+pyaeneas/__init__.py,sha256=0bqx2pFIw5fFYG5XbbZhoCo2oiWTcGUpL55ndIsDll0,51
+pyaeneas/client.py,sha256=BiPsTbLhCh1NcdUzJZWlbC0wuT7KzTQN2DTErXlLoTs,2888
+pyaeneas/exceptions.py,sha256=epwiOD_-zFvvvfVVJu5ScfgIO0zNElb_1vE6ih1Z9e4,505
+pyaeneas-0.1.dist-info/LICENSE.txt,sha256=EedCNmOmwtSwxHio1n0NSWPJbq2lQCYJV0N625-2-SM,1094
+pyaeneas-0.1.dist-info/METADATA,sha256=ddWGx8brHkfDuTMIH3AmOFFekcFpv0Yp-1eU18DCmlU,1754
+pyaeneas-0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pyaeneas-0.1.dist-info/top_level.txt,sha256=If4RwqEw-QG3zGBWIi8P8E-S0XeZSq5QBQmyEx-6Y5M,9
+pyaeneas-0.1.dist-info/RECORD,,
