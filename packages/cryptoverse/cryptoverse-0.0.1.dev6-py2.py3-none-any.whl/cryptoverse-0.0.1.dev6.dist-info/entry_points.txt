@@ -1,0 +1,3 @@
+[console_scripts]
+cryptoverse = cryptoverse.__main__:main
+
