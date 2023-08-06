@@ -1,0 +1,17 @@
+azureml/__init__.py,sha256=n0xtZ3iWcoVg5Qognsb7InYAUVAK8s3iaVeHB5GOaNA,251
+azureml/opendatasets/__init__.py,sha256=iYRVjJ685TvNmmVjKLeDYsHR1wDN0AX49YtfuIob-dg,345
+azureml/opendatasets/_open_image.py,sha256=le6QYbPJsH5NzhOYGZ_DK5pVxojhqtZ0WZcm6_n7V6g,15085
+azureml/opendatasets/environ.py,sha256=VjmU9G_iGCQo06_SYThx_PhxzMkk0h6csnOVQkdAMoI,865
+azureml/opendatasets/_utils/__init__.py,sha256=WOcu_vYUbV2I7AgjaGMaAUUv-3xbg0H0Is856n7uUcw,256
+azureml/opendatasets/_utils/image_annotation_table_loader.py,sha256=Lg7K4C-nDhKxAbgK4_OdPM8deboY0s8VqBkJ61HuCbY,14906
+azureml/opendatasets/_utils/image_common_types.py,sha256=g6iHtKIUT_20SL3HNM3teCZfKUmRKI_bV3ag9tN3JCg,5451
+azureml/opendatasets/_utils/image_downloader.py,sha256=H5XO2we4nL9JiDJDHLR6HDy-l2JiUcuRQdS-ekTWxjM,9830
+azureml/opendatasets/_utils/image_selector.py,sha256=YhQs9q1D0ykejCrEk6XEG06KGHd26pnRfjw2XbL89TE,52105
+azureml/opendatasets/_utils/telemetry_utils.py,sha256=4N2rLAjl1yheir1qIGCVubQRSVv8_KhetCCw2yk_K5o,1470
+azureml/opendatasets/dataaccess/__init__.py,sha256=RV7t56Lw6-2nnGKd9TqShWoykpeDWNyGaw666k4BCzM,226
+azureml/opendatasets/dataaccess/_open_image_blob_info.py,sha256=Lyvz8F5U4q1u9fY0u9aSHIX3VrbyJGoOWbf3azhlleo,1326
+testOpendataset-1.1.dist-info/METADATA,sha256=b0w2H5qgNOvuKN5C_BJlj6ypH_euAHyDjcn1FH0zHiE,796
+testOpendataset-1.1.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+testOpendataset-1.1.dist-info/license.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+testOpendataset-1.1.dist-info/top_level.txt,sha256=ZOeEa0TAXo6i5wOjwBoqfIGEuxOcKuscGgNSpizqREY,8
+testOpendataset-1.1.dist-info/RECORD,,
