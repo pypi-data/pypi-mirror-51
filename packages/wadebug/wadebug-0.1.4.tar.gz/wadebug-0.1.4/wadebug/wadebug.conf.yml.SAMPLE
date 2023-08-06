@@ -1,0 +1,20 @@
+# configurations related to the MySQL database
+db:
+  # hostname of the MySQL database
+  host: # for example, "0.0.0.0"
+  # host port that the MySQL database uses
+  # to connect to database container created by docker-compose scripts, use 33060
+  port: # for example, 33060
+  # username to connect to the MySQL database
+  user: # for example, "root"
+  # password of the username that is used to connect to the MySQL database
+  password: # for example, "your_database_password"
+
+# configurations related to WhatsApp Business API
+webapp:
+  # url accessible from the host running wadebug
+  baseUrl: # https://localhost:9090
+  # WhatsApp Business API user account credentials to call Support API
+  user: # for example, "wadebug"
+  # WhatsApp Business API user account credentials to call Support API
+  password: # for example, "secretdebugger"
