@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: algoneer_datasets
+Version: 0.0.11
+Summary: Example datasets for Algoneer.
+Home-page: https://github.com/algoneer/datasets
+Author: Andreas Dewes
+Author-email: andreas.dewes@algoneer.org
+License: Creative-Commons (license of datasets varies)
+Description: Example datasets for Algoneer.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
