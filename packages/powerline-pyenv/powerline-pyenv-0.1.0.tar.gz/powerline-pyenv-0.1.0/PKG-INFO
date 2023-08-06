@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: powerline-pyenv
+Version: 0.1.0
+Summary: A Powerline segment for showing pyenv version
+Home-page: https://github.com/15cm/powerline-pyenv
+Author: Sinkerine
+Author-email: i@15cm.net
+License: MIT
+Description: 
+        A Powerline segment for showing pyenv version
+        
+        # Installation
+        ```
+        pip install powerline-pyenv
+        ```
+        
+        # Usage
+        ## Segment
+        Activate the `pyenv` segment in `~/.config/powerline/themes/shell/default.json`
+        ```json
+        {
+            "priority": 10,
+            "function": "powerline_pyenv.pyenv"
+        }
+        ```
+        
+        ## Colorscheme
+        Config highlight groups in colorscheme files, e.g. `~/.config/powerline/colorschemes/shell/nord.json`:
+        
+        ### Dark(Nord)
+        ```json
+        {
+            "groups": {
+                "pyenv:version": {
+                    "bg": "gray1",
+                    "fg": "green"
+                }
+            }
+        }
+        ```
+        
+        ### Light(Solarized Light)
+        ```json
+        {
+            "groups": {
+                "pyenv:version": {
+                    "fg": "solarized:green",
+                    "bg": "solarized:base2"
+                },
+            }
+        }
+        ```
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Terminals
+Description-Content-Type: text/markdown
