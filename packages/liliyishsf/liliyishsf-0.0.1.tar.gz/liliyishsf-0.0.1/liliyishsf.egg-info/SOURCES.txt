@@ -1,0 +1,7 @@
+setup.py
+jujube_pill/__init__.py
+liliyishsf.egg-info/PKG-INFO
+liliyishsf.egg-info/SOURCES.txt
+liliyishsf.egg-info/dependency_links.txt
+liliyishsf.egg-info/entry_points.txt
+liliyishsf.egg-info/top_level.txt
