@@ -1,0 +1,8 @@
+README.md
+setup.py
+msaccessdb/__init__.py
+msaccessdb/create.py
+msaccessdb.egg-info/PKG-INFO
+msaccessdb.egg-info/SOURCES.txt
+msaccessdb.egg-info/dependency_links.txt
+msaccessdb.egg-info/top_level.txt
