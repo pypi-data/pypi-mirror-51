@@ -1,0 +1,8 @@
+README.md
+setup.py
+fddtest/__init__.py
+fddtest/fddtest.py
+fddtest.egg-info/PKG-INFO
+fddtest.egg-info/SOURCES.txt
+fddtest.egg-info/dependency_links.txt
+fddtest.egg-info/top_level.txt
