@@ -1,0 +1,11 @@
+README.md
+setup.py
+pipoe/__init__.py
+pipoe/licenses.py
+pipoe/pipoe.py
+pipoe.egg-info/PKG-INFO
+pipoe.egg-info/SOURCES.txt
+pipoe.egg-info/dependency_links.txt
+pipoe.egg-info/entry_points.txt
+pipoe.egg-info/requires.txt
+pipoe.egg-info/top_level.txt
