@@ -1,0 +1,12 @@
+README.md
+setup.py
+irbis/__init__.py
+irbis/builder.py
+irbis/core.py
+irbis/export.py
+irbis/ext.py
+irbis/iso2709.py
+irbis.egg-info/PKG-INFO
+irbis.egg-info/SOURCES.txt
+irbis.egg-info/dependency_links.txt
+irbis.egg-info/top_level.txt
