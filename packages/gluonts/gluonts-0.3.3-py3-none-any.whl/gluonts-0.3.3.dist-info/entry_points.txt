@@ -1,0 +1,8 @@
+[console_scripts]
+gluonts-validate-dataset = gluonts.dataset.validate:run
+
+[gluonts_forecasters]
+deepar = gluonts.model.deepar:DeepAREstimator
+prophet = gluonts.model.prophet:ProphetPredictor [prophet]
+r = gluonts.model.r_forecast:RForecastPredictor [r]
+
