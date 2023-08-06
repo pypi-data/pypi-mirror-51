@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: Orange3-Bioinformatics
+Version: 4.0.0
+Summary: Orange Bioinformatics add-on for Orange data mining software package.
+Home-page: https://github.com/biolab/orange3-bioinformatics
+Author: Bioinformatics Laboratory, FRI UL
+Author-email: info@biolab.si
+Maintainer: Jaka Kokosar
+License: GPL3+
+Project-URL: Bug Tracker, https://github.com/biolab/orange3-bioinformatics/issues
+Project-URL: Documentation, https://orange3-bioinformatics.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/biolab/orange3-bioinformatics/
+Keywords: 'orange3 add-on'
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: serverfiles (==0.3.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: requests-cache (==0.5.2)
+Requires-Dist: genesis-pyapi (==1.2.1)
+Requires-Dist: pyclipper (==1.1.0.post1)
+Requires-Dist: Orange3 (>=3.22.0)
+Requires-Dist: point-annotator (~=1.0)
+Requires-Dist: scipy
+Requires-Dist: numpy
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: recommonmark ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: flake8 (~=3.7.8) ; extra == 'test'
+Requires-Dist: flake8-comprehensions (~=2.2.0) ; extra == 'test'
+Requires-Dist: flake8-black (~=0.1.0) ; extra == 'test'
+Requires-Dist: pep8-naming (~=0.8.2) ; extra == 'test'
+Requires-Dist: isort (~=4.3.21) ; extra == 'test'
+Requires-Dist: pre-commit (~=1.18.3) ; extra == 'test'
+Requires-Dist: pytest (~=5.1.0) ; extra == 'test'
+Requires-Dist: pytest-cov (~=2.7.1) ; extra == 'test'
+Requires-Dist: coverage (~=4.5.4) ; extra == 'test'
+Requires-Dist: codecov (~=2.0.15) ; extra == 'test'
+
+Orange3-bioinformatics
+=======================
+
+<a href="https://dev.azure.com/orange-biolab/orange3-bioinformatics/">
+  <img src="https://dev.azure.com/orange-biolab/orange3-bioinformatics/_apis/build/status/biolab.orange3-bioinformatics?branchName=master" />
+</a>
+
+<a href='https://orange3-bioinformatics.readthedocs.io/en/latest/?badge=latest'>
+    <img src='https://readthedocs.org/projects/orange3-bioinformatics/badge/?version=latest' alt='Documentation Status' />
+</a>
+
+<a href="https://codecov.io/gh/biolab/orange3-bioinformatics">
+  <img src="https://codecov.io/gh/biolab/orange3-bioinformatics/branch/master/graph/badge.svg" />
+</a>
+
+<a href="https://pypi.org/project/Orange3-Bioinformatics/">
+  <img alt="PyPI" src="https://img.shields.io/pypi/v/orange3-bioinformatics.svg" />
+</a>
+
+<a href="https://anaconda.org/conda-forge/orange3-bioinformatics">
+  <img alt="Conda" src="https://img.shields.io/conda/v/conda-forge/orange3-bioinformatics.svg" />
+</a>
+
+<a href="https://pypi.org/project/Orange3-Bioinformatics/">
+  <img alt="PyPI - License" src="https://img.shields.io/pypi/l/orange3-bioinformatics.svg" />
+</a>
+
+
+Orange Bioinformatics extends Orange, a data mining software
+package, with common functionality for bioinformatics. The provided
+functionality can be accessed as a Python library or through a visual
+programming interface (Orange Canvas). The latter is also suitable for
+non-programmers.
+
+In Orange Canvas the analyst connects basic computational units, called
+widgets, into data flow analytics schemas. Two units-widgets can be
+connected if they share a data type. Compared to other popular tools like
+Taverna, Orange widgets are high-level, integrated potentially complex
+tasks, but are specific enough to be used independently. Even elaborate
+analyses rarely consist of more than ten widgets; while tasks such as
+clustering and enrichment analysis could be executed with up to five
+widgets. While building the schema each widget is independently controlled
+with settings, the settings do not conceptually burden the analyst.
+
+Orange Bioinformatics provides access to publicly available data, like GEO data sets, GO and KEGG.
+All features can be combined with powerful visualization, network exploration and
+data mining techniques from the Orange data mining framework.
+
+Installation
+------------
+
+To install the add-on with pip use
+
+    pip install Orange3-bioinformatics
+
+To register this add-on with Orange, but keep the code in the development directory (do not copy it to
+Python's site-packages directory), run
+
+    pip install -e .
+
+Documentation / widget help can be built by running
+
+    make html htmlhelp
+
+from the doc directory.
+
+Usage
+-----
+
+After the installation, the widgets from this add-on are registered with Orange. To run Orange from the terminal, use
+
+    python3 -m Orange.canvas
+
+or
+
+    orange-canvas
+
+The new widgets are in the toolbox bar under Bioinformatics section.
+
+
