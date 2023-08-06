@@ -1,0 +1,13 @@
+[console_scripts]
+detect_docker_image_os = rocker.cli:detect_image_os
+rocker = rocker.cli:main
+
+[rocker.extensions]
+dev_helpers = rocker.extensions:DevHelpers
+env = rocker.extensions:Environment
+home = rocker.extensions:HomeDir
+nvidia = rocker.nvidia_extension:Nvidia
+pulse = rocker.extensions:PulseAudio
+user = rocker.extensions:User
+x11 = rocker.nvidia_extension:X11
+
