@@ -1,0 +1,21 @@
+[arlunio.cli.commands]
+repl = arlunio.cli.repl:Repl
+tutorial = arlunio.cli.tutorial:Tutorial
+
+[arlunio.parameters]
+r = arlunio.parameters:rs
+t = arlunio.parameters:ts
+x = arlunio.parameters:xs
+y = arlunio.parameters:ys
+
+[arlunio.shapes]
+Circle = arlunio.lib.basic:Circle
+Ellipse = arlunio.lib.basic:Ellipse
+Square = arlunio.lib.basic:Square
+
+[console_scripts]
+arlunio = arlunio.__main__:main
+
+[sphinx.builders]
+nbtutorial = arlunio.doc
+
