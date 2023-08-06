@@ -1,0 +1,14 @@
+otaku_info_bot/OtakuInfoBot.py,sha256=wap1zNjR3rTMOXKpOBWwflClHNC3Dc6zSSfuyLqB4qI,7532
+otaku_info_bot/OtakuInfoCommandParser.py,sha256=Th0Xn3NZIkrHEKLaFsMAHdYCZLu10woc4tPwgIWOesE,1653
+otaku_info_bot/__init__.py,sha256=YQJrN7zMXb3V6ZMbvFdxZMJCbxZ8jcyLRcjOYvEh3r4,733
+otaku_info_bot/db/Reminder.py,sha256=eaNcoGfeUxJr3AhofNUYi6W6LMMzo2XQRN5K6a83Fx4,1672
+otaku_info_bot/db/__init__.py,sha256=YQJrN7zMXb3V6ZMbvFdxZMJCbxZ8jcyLRcjOYvEh3r4,733
+otaku_info_bot/fetching/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otaku_info_bot/fetching/anime.py,sha256=Jwr4BEvXWulxtO-Dg81LhsNvlg6vkwlJO718Di4n1NM,1512
+otaku_info_bot/fetching/ln.py,sha256=Uyn3UKi-Qnx-b467UHOK8EaHx4AMWCw-HGC583jecAI,3044
+otaku_info_bot-0.2.0.data/scripts/otaku-info-bot,sha256=zQ_W1-mFKaKDNsisttJP9XuadHPxPv5WO8nJFyahJkQ,1065
+otaku_info_bot-0.2.0.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+otaku_info_bot-0.2.0.dist-info/METADATA,sha256=YdFXJPglbJXeyVEJj17RxAXQnARDtYxBUCvTP5DtqV4,1412
+otaku_info_bot-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+otaku_info_bot-0.2.0.dist-info/top_level.txt,sha256=g-idwbvq-LmlV9e5qG2b8fySwdknRUO0jMJPXvDJiu8,15
+otaku_info_bot-0.2.0.dist-info/RECORD,,
