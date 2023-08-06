@@ -1,0 +1,12 @@
+README.md
+setup.py
+point_annotator.egg-info/PKG-INFO
+point_annotator.egg-info/SOURCES.txt
+point_annotator.egg-info/dependency_links.txt
+point_annotator.egg-info/requires.txt
+point_annotator.egg-info/top_level.txt
+pointannotator/__init__.py
+pointannotator/annotate_samples.py
+pointannotator/utils.py
+pointannotator/tests/__init__.py
+pointannotator/tests/test_annotate_samples.py
