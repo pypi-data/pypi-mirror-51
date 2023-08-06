@@ -1,0 +1,3 @@
+[console_scripts]
+dut_pyshell = riot_pal.dut_pyshell:main
+
