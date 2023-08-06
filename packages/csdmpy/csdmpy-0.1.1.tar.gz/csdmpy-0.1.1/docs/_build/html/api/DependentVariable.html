@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>DependentVariable &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../index.html" />
+    <link rel="up" title="API-Reference" href="../referenceAPI.html" />
+    <link rel="prev" title="Dimension" href="Dimensions.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="Dimensions.html" title="Dimension" accesskey="P">previous </a></li>
+              <li><a href="../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../referenceAPI.html" accesskey="U">API-Reference</a></li>
+            
+            <li class="visible-xs"><a href="../_sources/api/DependentVariable.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../index.html">
+      <img class="logo" src="../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Dimensions.html"
+                        title="previous chapter">Dimension</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/DependentVariable.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="dependentvariable">
+<span id="dv-api"></span><h1>DependentVariable<a class="headerlink" href="#dependentvariable" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="csdmpy.dependent_variables.DependentVariable">
+<em class="property">class </em><code class="sig-prename descclassname">csdmpy.dependent_variables.</code><code class="sig-name descname">DependentVariable</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/csdmpy/dependent_variables.html#DependentVariable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Create an instance of the DependentVariable class.</p>
+<p>The instance of this class represents a dependent variable, <span class="math notranslate nohighlight">\(\mathbf{U}\)</span>.
+A dependent variable holds <span class="math notranslate nohighlight">\(p\)</span>-component data values, where <span class="math notranslate nohighlight">\(p&gt;0\)</span>
+is an integer. For example, a scalar is single-component (<span class="math notranslate nohighlight">\(p=1\)</span>),
+a vector may have up to <cite>n</cite>-components (<span class="math notranslate nohighlight">\(p=n\)</span>),
+while a second rank symmetric tensor have six unique component (<span class="math notranslate nohighlight">\(p=6\)</span>).</p>
+<p><strong>Creating a new dependent variable.</strong></p>
+<p>There are two ways of creating a new instance of a DependentVariable class.</p>
+<p><em>From a python dictionary containing valid keywords.</em></p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">csdmpy</span> <span class="k">import</span> <span class="n">DependentVariable</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numpy_array</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dependent_variable_dictionary</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;internal&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;components&#39;</span><span class="p">:</span> <span class="n">numpy_array</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;star&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="s1">&#39;W s&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;quantity_name&#39;</span><span class="p">:</span> <span class="s1">&#39;energy&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;quantity_type&#39;</span><span class="p">:</span> <span class="s1">&#39;pixel_3&#39;</span>
+<span class="gp">... </span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span> <span class="o">=</span> <span class="n">DependentVariable</span><span class="p">(</span><span class="n">dependent_variable_dictionary</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Here, <cite>dependent_variable_dictionary</cite> is the python dictionary.</p>
+<p><em>From valid keyword arguments.</em></p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span> <span class="o">=</span> <span class="n">DependentVariable</span><span class="p">(</span>
+<span class="gp">... </span>        <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;internal&#39;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="n">name</span><span class="o">=</span><span class="s1">&#39;star&#39;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;W s&#39;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="n">quantity_type</span><span class="o">=</span><span class="s1">&#39;pixel_3&#39;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="n">components</span><span class="o">=</span><span class="n">numpy_array</span>
+<span class="gp">... </span>    <span class="p">)</span>
+</pre></div>
+</div>
+<p class="rubric">Attributes Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.type" title="csdmpy.dependent_variables.DependentVariable.type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">type</span></code></a></p></td>
+<td><p>The dependent variable subtype.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.description" title="csdmpy.dependent_variables.DependentVariable.description"><code class="xref py py-obj docutils literal notranslate"><span class="pre">description</span></code></a></p></td>
+<td><p>Brief description of the dependent variables.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.application" title="csdmpy.dependent_variables.DependentVariable.application"><code class="xref py py-obj docutils literal notranslate"><span class="pre">application</span></code></a></p></td>
+<td><p>Application metadata of the DependentVariable object.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.name" title="csdmpy.dependent_variables.DependentVariable.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></a></p></td>
+<td><p>Name of the dependent variable.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.unit" title="csdmpy.dependent_variables.DependentVariable.unit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unit</span></code></a></p></td>
+<td><p>Unit associated with the dependent variable.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.quantity_name" title="csdmpy.dependent_variables.DependentVariable.quantity_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">quantity_name</span></code></a></p></td>
+<td><p>Quantity name of the physical quantities associated with the dependent variable.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.encoding" title="csdmpy.dependent_variables.DependentVariable.encoding"><code class="xref py py-obj docutils literal notranslate"><span class="pre">encoding</span></code></a></p></td>
+<td><p>The encoding method used in representing the dependent variable.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.numeric_type" title="csdmpy.dependent_variables.DependentVariable.numeric_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">numeric_type</span></code></a></p></td>
+<td><p>The numeric type of the data values from the dependent variable.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.quantity_type" title="csdmpy.dependent_variables.DependentVariable.quantity_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">quantity_type</span></code></a></p></td>
+<td><p>Quantity type of the dependent variable.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.component_labels" title="csdmpy.dependent_variables.DependentVariable.component_labels"><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_labels</span></code></a></p></td>
+<td><p>List of labels corresponding to the components of the dependent variable.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">components</span></code></a></p></td>
+<td><p>Component array of the dependent variable.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.components_url" title="csdmpy.dependent_variables.DependentVariable.components_url"><code class="xref py py-obj docutils literal notranslate"><span class="pre">components_url</span></code></a></p></td>
+<td><p>URL where the data components of the dependent variable are stored.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.axis_label" title="csdmpy.dependent_variables.DependentVariable.axis_label"><code class="xref py py-obj docutils literal notranslate"><span class="pre">axis_label</span></code></a></p></td>
+<td><p>List of formatted string labels for each component of the dependent variable.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.data_structure" title="csdmpy.dependent_variables.DependentVariable.data_structure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">data_structure</span></code></a></p></td>
+<td><p>Json serialized string describing the DependentVariable class instance.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.to" title="csdmpy.dependent_variables.DependentVariable.to"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to</span></code></a>(unit)</p></td>
+<td><p>Convert the unit of the dependent variable to the <cite>unit</cite>.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes Documentation</p>
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.type">
+<code class="sig-name descname">type</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.type" title="Permalink to this definition">¶</a></dt>
+<dd><p>The dependent variable subtype.</p>
+<p>There are two <em>valid</em> subtypes of DependentVariable class with the following
+enumeration literals,</p>
+<div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">internal</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">external</span></code></div>
+</div>
+<p>corresponding to Internal and External sub class. By default, all instances of
+the DependentVariable class are assigned as  <cite>internal</cite> upon import. The user
+may update the value of this attribute, at any time, with a string containing a
+valid <cite>type</cite> literal, for example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">type</span><span class="p">)</span>
+<span class="go">internal</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">type</span> <span class="o">=</span> <span class="s1">&#39;external&#39;</span>
+</pre></div>
+</div>
+<p>When <cite>type</cite> is external, the data values from the corresponding dependent
+variable are serialized to an external file within the same directory as the
+<cite>.csdfe</cite> file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with a <cite>valid</cite> dependent variable subtype.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – When an invalid value is assigned.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.description">
+<code class="sig-name descname">description</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.description" title="Permalink to this definition">¶</a></dt>
+<dd><p>Brief description of the dependent variables.</p>
+<p>The default value is an empty string, ‘’.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">description</span><span class="p">)</span>
+<span class="go">A test image</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="s1">&#39;A test pixel_3 image&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">description</span><span class="p">)</span>
+<span class="go">A test pixel_3 image</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string of UTF-8 allowed characters describing the dependent variable.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – When the assigned value is not a string.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.application">
+<code class="sig-name descname">application</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.application" title="Permalink to this definition">¶</a></dt>
+<dd><p>Application metadata of the DependentVariable object.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">application</span><span class="p">)</span>
+<span class="go">{}</span>
+</pre></div>
+</div>
+<p>The application attribute is where an application can place its own
+metadata as a python dictionary object containing the application specific
+metadata, using a reverse domain name notation string as the attribute
+key, for example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">application</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s2">&quot;com.example.myApp&quot;</span> <span class="p">:</span> <span class="p">{</span>
+<span class="gp">... </span>        <span class="s2">&quot;myApp_key&quot;</span><span class="p">:</span> <span class="s2">&quot;myApp_metadata&quot;</span>
+<span class="gp">... </span>     <span class="p">}</span>
+<span class="gp">... </span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">application</span><span class="p">)</span>
+<span class="go">{&#39;com.example.myApp&#39;: {&#39;myApp_key&#39;: &#39;myApp_metadata&#39;}}</span>
+</pre></div>
+</div>
+<p>Please refer to the Core Scientific Dataset Model article for details.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A python dictionary containing dependent variable application metadata.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.name">
+<code class="sig-name descname">name</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name of the dependent variable.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">name</span>
+<span class="go">&#39;star&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;rock star&#39;</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string containing the name of the dependent variable.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – When the assigned value is not a string.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.unit">
+<code class="sig-name descname">unit</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.unit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unit associated with the dependent variable.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The attribute cannot be modified. To convert the unit, use the
+<a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.to" title="csdmpy.dependent_variables.DependentVariable.to"><code class="xref py py-meth docutils literal notranslate"><span class="pre">to()</span></code></a> method of
+the class instance.</p>
+</div>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">unit</span>
+<span class="go">Unit(&quot;s W&quot;)</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A <cite>Unit</cite> object from astropy.unit package.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – When assigned a value.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.quantity_name">
+<code class="sig-name descname">quantity_name</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.quantity_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quantity name of the physical quantities associated with the dependent variable.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">quantity_name</span>
+<span class="go">&#39;energy&#39;</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with the quantity name associated with the dependent variable
+physical quantities .</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>NotImplementedError</strong> – When assigning a value.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.encoding">
+<code class="sig-name descname">encoding</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.encoding" title="Permalink to this definition">¶</a></dt>
+<dd><p>The encoding method used in representing the dependent variable.</p>
+<p>The value of this attribute determines the method used when serializing or
+deserializing the data values to and from the file. Currently, there are three
+<cite>valid</cite> encoding methods:</p>
+<div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">raw</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">base64</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">none</span></code></div>
+</div>
+<p>A value, <cite>raw</cite>, means that the data values are serialized as binary data.
+The value, <cite>base64</cite>, implies that the data values are serialized as base64
+strings, while, the value <cite>none</cite> refers to text-based serialization.</p>
+<p>By default, the encoding attribute of all dependent variable object are set to
+<cite>base64</cite> after import. The user may update this attribute, at any time, with a
+string containing a <em>valid</em> encoding literal, for example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">encoding</span> <span class="o">=</span> <span class="s1">&#39;base64&#39;</span>
+</pre></div>
+</div>
+<p>The value of this attribute will be used in serializing the data to the file,
+when using the <a class="reference internal" href="CSDM.html#csdmpy.csdm.CSDM.save" title="csdmpy.csdm.CSDM.save"><code class="xref py py-meth docutils literal notranslate"><span class="pre">save()</span></code></a> method.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with a <cite>valid</cite> encoding type.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If an invalid encoding value is assigned.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.numeric_type">
+<code class="sig-name descname">numeric_type</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.numeric_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>The numeric type of the data values from the dependent variable.</p>
+<p>There are currently twelve <em>valid</em> numeric types:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 27%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">uint8</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">int8</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">float32</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">complex64</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">uint16</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">int16</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">float64</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">complex128</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">uint32</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">int32</span></code></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">uint64</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">int64</span></code></p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>When assigning a valid value, this attribute updates the <cite>dtype</cite> of the
+Numpy array from the corresponding
+<a class="reference internal" href="#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-attr docutils literal notranslate"><span class="pre">components</span></code></a>
+attribute. We recommended the use of the numeric type attribute for
+updating the <cite>dtype</cite> of the Numpy array. For example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">numeric_type</span>
+<span class="go">&#39;float32&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">components</span><span class="p">)</span>
+<span class="go">[[ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9.]</span>
+<span class="go"> [10. 11. 12. 13. 14. 15. 16. 17. 18. 19.]</span>
+<span class="go"> [20. 21. 22. 23. 24. 25. 26. 27. 28. 29.]]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">numeric_type</span> <span class="o">=</span> <span class="s1">&#39;complex64&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">components</span><span class="p">[:,:</span><span class="mi">5</span><span class="p">])</span>
+<span class="go">[[ 0.+0.j  1.+0.j  2.+0.j  3.+0.j  4.+0.j]</span>
+<span class="go"> [10.+0.j 11.+0.j 12.+0.j 13.+0.j 14.+0.j]</span>
+<span class="go"> [20.+0.j 21.+0.j 22.+0.j 23.+0.j 24.+0.j]]</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with a <cite>valid</cite> numeric type.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If an invalid numeric type value is assigned.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.quantity_type">
+<code class="sig-name descname">quantity_type</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.quantity_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quantity type of the dependent variable.</p>
+<p>There are currently six <em>valid</em> quantity types,</p>
+<div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">scalar</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">vector_n</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">pixel_n</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">matrix_n_m</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">symmetric_matrix_n</span></code></div>
+</div>
+<p>where <cite>n</cite> and <cite>m</cite> are integers. The value of the attribute is modified with a
+string containing a <em>valid</em> quantity type.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">quantity_type</span>
+<span class="go">&#39;pixel_3&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">quantity_type</span> <span class="o">=</span> <span class="s1">&#39;vector_3&#39;</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with a <cite>valid</cite> quantity type.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – If an invalid value is assigned.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.component_labels">
+<code class="sig-name descname">component_labels</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.component_labels" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of labels corresponding to the components of the dependent variable.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">component_labels</span>
+<span class="go">[&#39;&#39;, &#39;&#39;, &#39;&#39;]</span>
+</pre></div>
+</div>
+<p>To update the <cite>component_labels</cite>, assign an array of strings with same
+number of elements as the number of components.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">component_labels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;channel 0&#39;</span><span class="p">,</span> <span class="s1">&#39;channel 1&#39;</span><span class="p">,</span> <span class="s1">&#39;channel 2&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>The individual labels are accessed with proper indexing, for example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">component_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">&#39;channel 2&#39;</span>
+</pre></div>
+</div>
+<div class="admonition-todo admonition" id="id1">
+<p class="admonition-title">Todo</p>
+<p>Check the component labels.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list of component label strings.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – When the assigned value is not an array of strings.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.components">
+<code class="sig-name descname">components</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.components" title="Permalink to this definition">¶</a></dt>
+<dd><p>Component array of the dependent variable.</p>
+<p>The value of this attribute, <span class="math notranslate nohighlight">\(\mathbb{U}\)</span>, is a Numpy array of
+shape <span class="math notranslate nohighlight">\((p \times N_{d-1} \times ... N_1 \times N_0)\)</span> where
+<span class="math notranslate nohighlight">\(p\)</span> is the number of components, and <span class="math notranslate nohighlight">\(N_k\)</span> is the number
+of points from the <span class="math notranslate nohighlight">\(k^\mathrm{th}\)</span> <a class="reference internal" href="Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a> object.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The shape of the components Numpy array,
+<span class="math notranslate nohighlight">\((p \times N_{d-1} \times ... N_1 \times N_0)\)</span>, is reverse the
+shape of the components array,
+<span class="math notranslate nohighlight">\((N_0 \times N_1 \times ... N_{d-1} \times p)\)</span>, from the CSD model.
+This is because CSD model utilizes a column-major order to shape the
+components array relative to the order of the dimension while Numpy
+utilizes a row-major order.</p>
+</div>
+<p>The dimensionality of this Numpy array is <span class="math notranslate nohighlight">\(d+1\)</span> where <span class="math notranslate nohighlight">\(d\)</span>
+is the number of dimension objects. The zeroth axis with <span class="math notranslate nohighlight">\(p\)</span> points
+is the number of components.</p>
+<p>This attribute can only be updated when the shape of the new array is
+the same as the shape of the components array.</p>
+<p>For example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">components</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="go">(3, 10)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">numeric_type</span>
+<span class="go">&#39;float32&#39;</span>
+</pre></div>
+</div>
+<p>is a three-component dependent variable with ten data values per
+component. The numeric type of the data values, in this example, is
+<cite>float32</cite>. To update the components array, assign an array of
+shape (3, 10) to the <cite>components</cite> attribute. In the following example,
+we assign a Numpy array,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">components</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">256</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;u1&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">numeric_type</span>
+<span class="go">&#39;uint8&#39;</span>
+</pre></div>
+</div>
+<p>Notice, the value of the <cite>numeric_type</cite> attribute is automatically
+updated based on the <cite>dtype</cite> of the Numpy array. In this case, from a
+<em>float32</em> to <em>uint8</em>.
+In this other example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">try</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="n">y</span><span class="o">.</span><span class="n">components</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;u1&#39;</span><span class="p">)</span>
+<span class="gp">... </span><span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+<span class="go">The shape of `ndarray`, `(1, 10)`, is inconsistent</span>
+<span class="go">with the shape of the components array, `(3, 10)`.</span>
+</pre></div>
+</div>
+<p>a <cite>ValueError</cite> is raised because the shape of the input array (1, 10)
+is not consistent with the shape of the components array, (3, 10).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Numpy array of components.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – When assigning an array whose shape is not consistent with
+    the shape of the components array.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.components_url">
+<code class="sig-name descname">components_url</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.components_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>URL where the data components of the dependent variable are stored.</p>
+<p>This attribute is only informative and cannot be modified. Its value is a
+string containing the local or remote address of the file where the data values
+are stored. The attribute is only valid for dependent variable with type,
+<cite>external</cite>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string containing the URL.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – When assigned a value.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.axis_label">
+<code class="sig-name descname">axis_label</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.axis_label" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of formatted string labels for each component of the dependent variable.</p>
+<p>This attribute is not a part of the original core scientific dataset
+model, however, it is a convenient supplementary attribute that provides
+formated string ready for labeling the components of the dependent variable.
+The string at index <cite>i</cite> is formatted as <cite>component_labels[i] / unit</cite> if
+<cite>component_labels[i]</cite> is a non-empty string, otherwise, <cite>quantity_name / unit</cite>.
+Here, <cite>quantity_name</cite>, <cite>component_labels</cite>, and <cite>unit`are the attributes of the
+:ref:`dv_api</cite> instance. For example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">axis_label</span>
+<span class="go">[&#39;energy / (s * W)&#39;, &#39;energy / (s * W)&#39;, &#39;energy / (s * W)&#39;]</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A list of formated component label strings.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – When assigned a value.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dependent_variables.DependentVariable.data_structure">
+<code class="sig-name descname">data_structure</code><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.data_structure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Json serialized string describing the DependentVariable class instance.</p>
+<p>This supplementary attribute is useful for a quick preview of the dependent
+variable object. For convenience, the values from the <cite>components</cite> attribute
+are truncated to the first and the last two numbers per component.
+The <cite>encoding</cite> keyword is also hidden from this view.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">  &quot;type&quot;: &quot;internal&quot;,</span>
+<span class="go">  &quot;description&quot;: &quot;A test image&quot;,</span>
+<span class="go">  &quot;name&quot;: &quot;star&quot;,</span>
+<span class="go">  &quot;unit&quot;: &quot;s * W&quot;,</span>
+<span class="go">  &quot;quantity_name&quot;: &quot;energy&quot;,</span>
+<span class="go">  &quot;numeric_type&quot;: &quot;float32&quot;,</span>
+<span class="go">  &quot;quantity_type&quot;: &quot;pixel_3&quot;,</span>
+<span class="go">  &quot;components&quot;: [</span>
+<span class="go">    [</span>
+<span class="go">      &quot;0.0, 1.0, ..., 8.0, 9.0&quot;</span>
+<span class="go">    ],</span>
+<span class="go">    [</span>
+<span class="go">      &quot;10.0, 11.0, ..., 18.0, 19.0&quot;</span>
+<span class="go">    ],</span>
+<span class="go">    [</span>
+<span class="go">      &quot;20.0, 21.0, ..., 28.0, 29.0&quot;</span>
+<span class="go">    ]</span>
+<span class="go">  ]</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A json serialized string of the dependent variable object.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – When modified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p class="rubric">Method Documentation</p>
+<dl class="method">
+<dt id="csdmpy.dependent_variables.DependentVariable.to">
+<code class="sig-name descname">to</code><span class="sig-paren">(</span><em class="sig-param">unit</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/csdmpy/dependent_variables.html#DependentVariable.to"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#csdmpy.dependent_variables.DependentVariable.to" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert the unit of the dependent variable to the <cite>unit</cite>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>unit</strong> – A string containing a unit with the same dimensionality as the
+components of the dependent variable.</p>
+</dd>
+</dl>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">unit</span>
+<span class="go">Unit(&quot;s W&quot;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
+<span class="go">5.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s1">&#39;mJ&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="o">.</span><span class="n">unit</span>
+<span class="go">Unit(&quot;mJ&quot;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">])</span>
+<span class="go">5000.0</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This method is a wrapper of the <cite>to</cite> method from the <a class="reference external" href="http://docs.astropy.org/en/stable/api/astropy.units.Quantity.html#astropy.units.Quantity.to">Quantity</a> class.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="Dimensions.html" title="Dimension" >previous</a></li>
+        <li><a href="../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../referenceAPI.html" >API-Reference</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

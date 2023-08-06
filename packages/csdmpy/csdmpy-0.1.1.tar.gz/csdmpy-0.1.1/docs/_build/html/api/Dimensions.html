@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Dimension &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../index.html" />
+    <link rel="up" title="API-Reference" href="../referenceAPI.html" />
+    <link rel="next" title="DependentVariable" href="DependentVariable.html" />
+    <link rel="prev" title="CSDM" href="CSDM.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="CSDM.html" title="CSDM" accesskey="P">previous </a></li>
+              <li><a href="DependentVariable.html" title="DependentVariable" accesskey="N">next </a></li>
+              <li><a href="../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../referenceAPI.html" accesskey="U">API-Reference</a></li>
+            
+            <li class="visible-xs"><a href="../_sources/api/Dimensions.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../index.html">
+      <img class="logo" src="../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="CSDM.html"
+                        title="previous chapter">CSDM</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="DependentVariable.html"
+                        title="next chapter">DependentVariable</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/Dimensions.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="dimension">
+<span id="dim-api"></span><h1>Dimension<a class="headerlink" href="#dimension" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="csdmpy.dimensions.Dimension">
+<em class="property">class </em><code class="sig-prename descclassname">csdmpy.dimensions.</code><code class="sig-name descname">Dimension</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/csdmpy/dimensions.html#Dimension"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#csdmpy.dimensions.Dimension" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Create an instance of the Dimension class.</p>
+<p>An instance of this class describes a dimension of a multi-dimensional system.
+In version 1.0, there are three subtypes of the Dimension class:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../CSDmodel_uml/dimensions/linear.html#lineardimension-uml"><span class="std std-ref">LinearDimension</span></a>,</p></li>
+<li><p><a class="reference internal" href="../CSDmodel_uml/dimensions/monotonic.html#monotonicdimension-uml"><span class="std std-ref">MonotonicDimension</span></a>, and</p></li>
+<li><p><a class="reference internal" href="../CSDmodel_uml/dimensions/labeled.html#labeleddimension-uml"><span class="std std-ref">LabeledDimension</span></a>.</p></li>
+</ul>
+<p><strong>Creating an instance of a dimension object</strong></p>
+<p>There are two ways of creating a new instance of a Dimension class.</p>
+<p><em>From a python dictionary containing valid keywords.</em></p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">csdmpy</span> <span class="k">import</span> <span class="n">Dimension</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dimension_dictionary</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;linear&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;test&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;increment&#39;</span><span class="p">:</span> <span class="s1">&#39;5 G&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;count&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;coordinates_offset&#39;</span><span class="p">:</span> <span class="s1">&#39;10 mT&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;origin_offset&#39;</span><span class="p">:</span> <span class="s1">&#39;10 T&#39;</span>
+<span class="gp">... </span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">dimension_dictionary</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Here, <cite>dimension_dictionary</cite> is the python dictionary.</p>
+<p><em>From valid keyword arguments.</em></p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="nb">type</span> <span class="o">=</span> <span class="s1">&#39;linear&#39;</span><span class="p">,</span>
+<span class="gp">... </span>              <span class="n">description</span> <span class="o">=</span> <span class="s1">&#39;test&#39;</span><span class="p">,</span>
+<span class="gp">... </span>              <span class="n">increment</span> <span class="o">=</span> <span class="s1">&#39;5 G&#39;</span><span class="p">,</span>
+<span class="gp">... </span>              <span class="n">count</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span>
+<span class="gp">... </span>              <span class="n">coordinates_offset</span> <span class="o">=</span> <span class="s1">&#39;10 mT&#39;</span><span class="p">,</span>
+<span class="gp">... </span>              <span class="n">origin_offset</span> <span class="o">=</span> <span class="s1">&#39;10 T&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="rubric">Attributes Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.type" title="csdmpy.dimensions.Dimension.type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">type</span></code></a></p></td>
+<td><p>The dimension subtype.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.description" title="csdmpy.dimensions.Dimension.description"><code class="xref py py-obj docutils literal notranslate"><span class="pre">description</span></code></a></p></td>
+<td><p>Brief description of the dimension object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.application" title="csdmpy.dimensions.Dimension.application"><code class="xref py py-obj docutils literal notranslate"><span class="pre">application</span></code></a></p></td>
+<td><p>Application metadata dictionary of the dimension object.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.coordinates" title="csdmpy.dimensions.Dimension.coordinates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">coordinates</span></code></a></p></td>
+<td><p>Coordinates, <span class="math notranslate nohighlight">\({\bf X}_k\)</span>, along the dimension.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.absolute_coordinates" title="csdmpy.dimensions.Dimension.absolute_coordinates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">absolute_coordinates</span></code></a></p></td>
+<td><p>Absolute coordinates, <span class="math notranslate nohighlight">\({\bf X}_k^\rm{abs}\)</span>, along the dimension.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.count" title="csdmpy.dimensions.Dimension.count"><code class="xref py py-obj docutils literal notranslate"><span class="pre">count</span></code></a></p></td>
+<td><p>Number of coordinates, <span class="math notranslate nohighlight">\(N_k \ge 1\)</span>, along the dimension.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.increment" title="csdmpy.dimensions.Dimension.increment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">increment</span></code></a></p></td>
+<td><p>Increment along a <cite>linear</cite> dimension.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.coordinates_offset" title="csdmpy.dimensions.Dimension.coordinates_offset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">coordinates_offset</span></code></a></p></td>
+<td><p>Offset corresponding to the zero of the indexes array, <span class="math notranslate nohighlight">\(\mathbf{J}_k\)</span>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.origin_offset" title="csdmpy.dimensions.Dimension.origin_offset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">origin_offset</span></code></a></p></td>
+<td><p>Origin offset, <span class="math notranslate nohighlight">\(o_k\)</span>, along the dimension.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.complex_fft" title="csdmpy.dimensions.Dimension.complex_fft"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex_fft</span></code></a></p></td>
+<td><p>Boolean specifying if the coordinates along the dimension are the output of a complex fft.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.quantity_name" title="csdmpy.dimensions.Dimension.quantity_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">quantity_name</span></code></a></p></td>
+<td><p>Quantity name associated with the physical quantities specifying the dimension.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.label" title="csdmpy.dimensions.Dimension.label"><code class="xref py py-obj docutils literal notranslate"><span class="pre">label</span></code></a></p></td>
+<td><p>Label associated with the dimension.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.labels" title="csdmpy.dimensions.Dimension.labels"><code class="xref py py-obj docutils literal notranslate"><span class="pre">labels</span></code></a></p></td>
+<td><p>Ordered list of labels along the <cite>Labeled</cite> dimension.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.period" title="csdmpy.dimensions.Dimension.period"><code class="xref py py-obj docutils literal notranslate"><span class="pre">period</span></code></a></p></td>
+<td><p>Period of the dimension.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.axis_label" title="csdmpy.dimensions.Dimension.axis_label"><code class="xref py py-obj docutils literal notranslate"><span class="pre">axis_label</span></code></a></p></td>
+<td><p>Formatted string for displaying label along the dimension axis.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.data_structure" title="csdmpy.dimensions.Dimension.data_structure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">data_structure</span></code></a></p></td>
+<td><p>Json serialized string describing the Dimension class instance.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.Dimension.to" title="csdmpy.dimensions.Dimension.to"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to</span></code></a>([unit, equivalencies])</p></td>
+<td><p>Convert the coordinates along the dimension to the unit, <cite>unit</cite>.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes Documentation</p>
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.type">
+<code class="sig-name descname">type</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.type" title="Permalink to this definition">¶</a></dt>
+<dd><p>The dimension subtype.</p>
+<p>There are three <em>valid</em> subtypes of Dimension class. The valid
+literals are given by the <a class="reference internal" href="../CSDmodel_uml/enumeration.html#dimobjectsubtype-uml"><span class="std std-ref">DimObjectSubtype</span></a> enumeration.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">type</span><span class="p">)</span>
+<span class="go">linear</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with a valid dimension subtype.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – When the attribute is modified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.description">
+<code class="sig-name descname">description</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.description" title="Permalink to this definition">¶</a></dt>
+<dd><p>Brief description of the dimension object.</p>
+<p>The default value is an empty string, ‘’. The attribute may be
+modified, for example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">description</span><span class="p">)</span>
+<span class="go">This is a test</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="s1">&#39;This is a test dimension.&#39;</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string of UTF-8 allows characters describing the dimension.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – When the assigned value is not a string.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.application">
+<code class="sig-name descname">application</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.application" title="Permalink to this definition">¶</a></dt>
+<dd><p>Application metadata dictionary of the dimension object.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">application</span><span class="p">)</span>
+<span class="go">{}</span>
+</pre></div>
+</div>
+<p>The application attribute is where an application can place its own
+metadata as a python dictionary object containing application specific
+metadata, using a reverse domain name notation string as the attribute
+key, for example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">application</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s2">&quot;com.example.myApp&quot;</span> <span class="p">:</span> <span class="p">{</span>
+<span class="gp">... </span>        <span class="s2">&quot;myApp_key&quot;</span><span class="p">:</span> <span class="s2">&quot;myApp_metadata&quot;</span>
+<span class="gp">... </span>     <span class="p">}</span>
+<span class="gp">... </span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">application</span><span class="p">)</span>
+<span class="go">{&#39;com.example.myApp&#39;: {&#39;myApp_key&#39;: &#39;myApp_metadata&#39;}}</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A python dictionary containing dimension application metadata.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.coordinates">
+<code class="sig-name descname">coordinates</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.coordinates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Coordinates, <span class="math notranslate nohighlight">\({\bf X}_k\)</span>, along the dimension.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[100. 105. 110. 115. 120. 125. 130. 135. 140. 145.] G</span>
+</pre></div>
+</div>
+<p>For <cite>linear</cite> dimensions, the order of the <cite>coordinates</cite> also depend on the
+value of the <a class="reference internal" href="#csdmpy.dimensions.Dimension.complex_fft" title="csdmpy.dimensions.Dimension.complex_fft"><code class="xref py py-attr docutils literal notranslate"><span class="pre">complex_fft</span></code></a> attributes.
+For examples, when the value of the <cite>complex_fft</cite> attribute is True,
+the coordinates are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">complex_fft</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[ 75.  80.  85.  90.  95. 100. 105. 110. 115. 120.] G</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Quantity array of coordinates for quantitative dimensions, <cite>i.e.</cite> <cite>linear</cite>
+and <cite>monotonic</cite>.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A Numpy array for labeled dimensions.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>AttributeError</strong> – For dimensions with subtype <cite>linear</cite>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.absolute_coordinates">
+<code class="sig-name descname">absolute_coordinates</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.absolute_coordinates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Absolute coordinates, <span class="math notranslate nohighlight">\({\bf X}_k^\rm{abs}\)</span>, along the dimension.</p>
+<p>This attribute is only <em>valid</em> for quantitative dimensions, that is,
+<cite>linear</cite> and <cite>monotonic</cite> dimensions. The absolute coordinates are given as</p>
+<div class="math notranslate nohighlight">
+\[\mathbf{X}_k^\mathrm{abs} = \mathbf{X}_k + o_k \mathbf{1}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\mathbf{X}_k\)</span> are the coordinates along the dimension and
+<span class="math notranslate nohighlight">\(o_k\)</span> is the <a class="reference internal" href="#csdmpy.dimensions.Dimension.origin_offset" title="csdmpy.dimensions.Dimension.origin_offset"><code class="xref py py-attr docutils literal notranslate"><span class="pre">origin_offset</span></code></a>.
+For example, consider</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">origin_offset</span><span class="p">)</span>
+<span class="go">10.0 T</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
+<span class="go">[100. 105. 110. 115. 120.] G</span>
+</pre></div>
+</div>
+<p>then the absolute coordinates are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">absolute_coordinates</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
+<span class="go">[100100. 100105. 100110. 100115. 100120.] G</span>
+</pre></div>
+</div>
+<p>For <cite>linear</cite> dimensions, the order of the <cite>absolute_coordinates</cite>
+further depend on the value of the
+<a class="reference internal" href="#csdmpy.dimensions.Dimension.complex_fft" title="csdmpy.dimensions.Dimension.complex_fft"><code class="xref py py-attr docutils literal notranslate"><span class="pre">complex_fft</span></code></a> attributes. For
+examples, when the value of the <cite>complex_fft</cite> attribute is True,
+the absolute coordinates are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">complex_fft</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">absolute_coordinates</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
+<span class="go">[100075. 100080. 100085. 100090. 100095.] G</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Quantity array of absolute coordinates for quantitative dimensions, <cite>i.e</cite>
+<cite>linear</cite> and <cite>monotonic</cite>.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – For labeled dimensions.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.count">
+<code class="sig-name descname">count</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.count" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of coordinates, <span class="math notranslate nohighlight">\(N_k \ge 1\)</span>, along the dimension.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">count</span><span class="p">)</span>
+<span class="go">10</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">count</span> <span class="o">=</span> <span class="mi">5</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>An Integer specifying the number of coordinates along the dimension.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – When the assigned value is not an integer.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.increment">
+<code class="sig-name descname">increment</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.increment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Increment along a <cite>linear</cite> dimension.</p>
+<p>The attribute is only <cite>valid</cite> for Dimension instances with the subtype
+<cite>linear</cite>. When assigning a value, the dimensionality of the value must
+be consistent with the dimensionality of other members specifying the
+dimension.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">increment</span><span class="p">)</span>
+<span class="go">5.0 G</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">increment</span> <span class="o">=</span> <span class="s2">&quot;0.1 G&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[100.  100.1 100.2 100.3 100.4 100.5 100.6 100.7 100.8 100.9] G</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Quantity instance with the increment along the dimension.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>AttributeError</strong> – For dimension with subtypes other than <cite>linear</cite>.</p></li>
+<li><p><strong>TypeError</strong> – When the assigned value is not a string containing a quantity
+    or a Quantity object.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.coordinates_offset">
+<code class="sig-name descname">coordinates_offset</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.coordinates_offset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Offset corresponding to the zero of the indexes array, <span class="math notranslate nohighlight">\(\mathbf{J}_k\)</span>.</p>
+<p>When assigning a value, the dimensionality of the value must be consistent with
+the dimensionality of the other members specifying the dimension.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">coordinates_offset</span><span class="p">)</span>
+<span class="go">10.0 mT</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">coordinates_offset</span> <span class="o">=</span> <span class="s2">&quot;0 T&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[ 0.  5. 10. 15. 20. 25. 30. 35. 40. 45.] G</span>
+</pre></div>
+</div>
+<p>The attribute is <cite>invalid</cite> for <cite>labeled</cite> dimensions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Quantity instance with the coordinates offset.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>AttributeError</strong> – For <cite>labeled</cite> dimensions.</p></li>
+<li><p><strong>TypeError</strong> – When the assigned value is not a string containing a quantity
+    or a Quantity object.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.origin_offset">
+<code class="sig-name descname">origin_offset</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.origin_offset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Origin offset, <span class="math notranslate nohighlight">\(o_k\)</span>, along the dimension.</p>
+<p>When assigning a value, the dimensionality of the value must be consistent
+with the dimensionality of other members specifying the dimension.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">origin_offset</span><span class="p">)</span>
+<span class="go">10.0 T</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">origin_offset</span> <span class="o">=</span> <span class="s2">&quot;1e5 G&quot;</span>
+</pre></div>
+</div>
+<p>The origin offset only affect the absolute_coordinates along the dimension.
+This attribute is <cite>invalid</cite> for <cite>labeled</cite> dimensions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Quantity instance with the origin offset.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>AttributeError</strong> – For <cite>labeled</cite> dimensions.</p></li>
+<li><p><strong>TypeError</strong> – When the assigned value is not a string containing a quantity
+    or a Quantity object.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.complex_fft">
+<code class="sig-name descname">complex_fft</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.complex_fft" title="Permalink to this definition">¶</a></dt>
+<dd><p>Boolean specifying if the coordinates along the dimension are the output of a complex fft.</p>
+<p>This attribute is only <cite>valid</cite> for the Dimension instances with <cite>linear</cite>
+subtype.
+The value of this attribute is a boolean specifying if the coordinates along
+the dimension are evaluated as the output of a complex fast Fourier transform
+(FFT) routine.
+For example, consider the following Dimension object,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">test</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span>
+<span class="gp">... </span>           <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span>
+<span class="gp">... </span>           <span class="n">increment</span> <span class="o">=</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span>
+<span class="gp">... </span>           <span class="n">count</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="gp">... </span>       <span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">test</span><span class="o">.</span><span class="n">complex_fft</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">test</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[0. 1. 2. 3. 4. 5. 6. 7. 8. 9.]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">test</span><span class="o">.</span><span class="n">complex_fft</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">test</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[-5. -4. -3. -2. -1.  0.  1.  2.  3.  4.]</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Boolean.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – When the assigned value is not a boolean.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.quantity_name">
+<code class="sig-name descname">quantity_name</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.quantity_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quantity name associated with the physical quantities specifying the dimension.</p>
+<p>The attribute is <cite>invalid</cite> for the labeled dimension.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">quantity_name</span><span class="p">)</span>
+<span class="go">magnetic flux density</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string with the <cite>quantity name</cite>.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>AttributeError</strong> – For <cite>labeled</cite> dimensions.</p></li>
+<li><p><strong>NotImplementedError</strong> – When assigning a value.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.label">
+<code class="sig-name descname">label</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.label" title="Permalink to this definition">¶</a></dt>
+<dd><p>Label associated with the dimension.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">label</span><span class="p">)</span>
+<span class="go">field strength</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;magnetic field strength&#39;</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A string containing the label.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – When the assigned value is not a string.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.labels">
+<code class="sig-name descname">labels</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.labels" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ordered list of labels along the <cite>Labeled</cite> dimension.</p>
+<p>Consider the following labeled dimension,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x2</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span>
+<span class="gp">... </span>        <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;labeled&#39;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Cu&#39;</span><span class="p">,</span> <span class="s1">&#39;Ag&#39;</span><span class="p">,</span> <span class="s1">&#39;Au&#39;</span><span class="p">]</span>
+<span class="gp">... </span>     <span class="p">)</span>
+</pre></div>
+</div>
+<p>then the lables along the labeled dimension are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x2</span><span class="o">.</span><span class="n">labels</span><span class="p">)</span>
+<span class="go">[&#39;Cu&#39; &#39;Ag&#39; &#39;Au&#39;]</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For Labeled dimension, the <a class="reference internal" href="#csdmpy.dimensions.Dimension.coordinates" title="csdmpy.dimensions.Dimension.coordinates"><code class="xref py py-attr docutils literal notranslate"><span class="pre">coordinates</span></code></a>
+attribute is an alias of <a class="reference internal" href="#csdmpy.dimensions.Dimension.labels" title="csdmpy.dimensions.Dimension.labels"><code class="xref py py-attr docutils literal notranslate"><span class="pre">labels</span></code></a>
+attribute. For example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">all</span><span class="p">(</span><span class="n">x2</span><span class="o">.</span><span class="n">coordinates</span> <span class="o">==</span> <span class="n">x2</span><span class="o">.</span><span class="n">labels</span><span class="p">)</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</div>
+<p>In the above example, <code class="docutils literal notranslate"><span class="pre">x2</span></code> is an instance of the <a class="reference internal" href="#dim-api"><span class="std std-ref">Dimension</span></a> class with
+<cite>labeled</cite> subtype.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Numpy array with labels along the dimension.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – For dimensions with subtype other than <cite>labeled</cite>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.period">
+<code class="sig-name descname">period</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.period" title="Permalink to this definition">¶</a></dt>
+<dd><p>Period of the dimension.</p>
+<p>The default value of the period is infinity, i.e., the dimension is
+non-periodic.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">period</span><span class="p">)</span>
+<span class="go">inf G</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">period</span> <span class="o">=</span> <span class="s1">&#39;1 T&#39;</span>
+</pre></div>
+</div>
+<p>To assign a dimension as non-periodic, one of the following may be
+used,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">period</span> <span class="o">=</span> <span class="s1">&#39;1/0 T&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">period</span> <span class="o">=</span> <span class="s1">&#39;infinity µT&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">period</span> <span class="o">=</span> <span class="s1">&#39;∞ G&#39;</span>
+</pre></div>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>The physical quantity of the period must be consistent with other
+physical quantities specifying the dimension.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A Quantity instance with the period of the dimension.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>AttributeError</strong> – For <cite>labeled</cite> dimensions.</p></li>
+<li><p><strong>TypeError</strong> – When the assigned value is not a string containing a quantity
+    or a Quantity object.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.axis_label">
+<code class="sig-name descname">axis_label</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.axis_label" title="Permalink to this definition">¶</a></dt>
+<dd><p>Formatted string for displaying label along the dimension axis.</p>
+<p>This attribute is not a part of the original core scientific dataset
+model, however, it is a convenient supplementary attribute that provides
+a formated string ready for labeling dimension axes.
+For quantitative dimensions, this attributes returns a string,
+<cite>label / unit</cite>,  if the <cite>label</cite> is a non-empty string, otherwise,
+<cite>quantity_name / unit</cite>. Here
+<a class="reference internal" href="#csdmpy.dimensions.Dimension.quantity_name" title="csdmpy.dimensions.Dimension.quantity_name"><code class="xref py py-attr docutils literal notranslate"><span class="pre">quantity_name</span></code></a> and
+<a class="reference internal" href="#csdmpy.dimensions.Dimension.label" title="csdmpy.dimensions.Dimension.label"><code class="xref py py-attr docutils literal notranslate"><span class="pre">label</span></code></a> are the attributes of the
+<a class="reference internal" href="#dim-api"><span class="std std-ref">Dimension</span></a> instances, and <cite>unit</cite> is the unit associated with the
+coordinates along the dimension. For examples,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">label</span>
+<span class="go">&#39;field strength&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">axis_label</span>
+<span class="go">&#39;field strength / (G)&#39;</span>
+</pre></div>
+</div>
+<p>For <cite>labeled</cite> dimensions, this attribute returns <cite>label</cite>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A formated string of label.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – When assigned a value.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.Dimension.data_structure">
+<code class="sig-name descname">data_structure</code><a class="headerlink" href="#csdmpy.dimensions.Dimension.data_structure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Json serialized string describing the Dimension class instance.</p>
+<p>This supplementary attribute is useful for a quick preview of the dimension
+object. The attribute cannot be modified.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">  &quot;type&quot;: &quot;linear&quot;,</span>
+<span class="go">  &quot;description&quot;: &quot;This is a test&quot;,</span>
+<span class="go">  &quot;count&quot;: 10,</span>
+<span class="go">  &quot;increment&quot;: &quot;5.0 G&quot;,</span>
+<span class="go">  &quot;coordinates_offset&quot;: &quot;10.0 mT&quot;,</span>
+<span class="go">  &quot;origin_offset&quot;: &quot;10.0 T&quot;,</span>
+<span class="go">  &quot;quantity_name&quot;: &quot;magnetic flux density&quot;,</span>
+<span class="go">  &quot;label&quot;: &quot;field strength&quot;</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A json serialized string of the dimension object.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – When modified.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p class="rubric">Method Documentation</p>
+<dl class="method">
+<dt id="csdmpy.dimensions.Dimension.to">
+<code class="sig-name descname">to</code><span class="sig-paren">(</span><em class="sig-param">unit=''</em>, <em class="sig-param">equivalencies=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/csdmpy/dimensions.html#Dimension.to"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#csdmpy.dimensions.Dimension.to" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert the coordinates along the dimension to the unit, <cite>unit</cite>.</p>
+<p>This method is a wrapper of the <cite>to</cite> method from the
+<a class="reference external" href="http://docs.astropy.org/en/stable/api/ astropy.units.Quantity.html#astropy.units.Quantity.to">Quantity</a> class
+and is only <cite>valid</cite> for physical dimensions.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[100. 105. 110. 115. 120. 125. 130. 135. 140. 145.] G</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s1">&#39;mT&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[10.  10.5 11.  11.5 12.  12.5 13.  13.5 14.  14.5] mT</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>unit</strong> – A string containing a unit with the same dimensionality as the
+coordinates along the dimension.</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong> – For <cite>labeled</cite> dimensions.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="CSDM.html" title="CSDM" >previous</a></li>
+        <li><a href="DependentVariable.html" title="DependentVariable" >next</a></li>
+        <li><a href="../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../referenceAPI.html" >API-Reference</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

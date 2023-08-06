@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Labeled Dataset &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../index.html" />
+    <link rel="up" title="Examples" href="examples.html" />
+    <link rel="next" title="How to …" href="../startFromScratch/start.html" />
+    <link rel="prev" title="Correlated Dataset" href="multiple_datasets/correlated_datasets.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="multiple_datasets/correlated_datasets.html" title="Correlated Dataset" accesskey="P">previous </a></li>
+              <li><a href="../startFromScratch/start.html" title="How to …" accesskey="N">next </a></li>
+              <li><a href="../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="examples.html" accesskey="U">Examples</a></li>
+            
+            <li class="visible-xs"><a href="../_sources/examples/labeled_datasets.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../index.html">
+      <img class="logo" src="../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="multiple_datasets/correlated_datasets.html"
+                        title="previous chapter">Correlated Dataset</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../startFromScratch/start.html"
+                        title="next chapter">How to …</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/examples/labeled_datasets.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="labeled-dataset">
+<h1>Labeled Dataset<a class="headerlink" href="#labeled-dataset" title="Permalink to this headline">¶</a></h1>
+<p>The CSD model also supports labeled dimensions. In the following example, we
+present a mixed <cite>linear</cite> and <cite>labeled</cite> two-dimensional dataset representing
+the population of the country as a function of year. The dataset is
+obtained from <a class="reference external" href="https://data.worldbank.org/indicator/SP.POP.TOTL?view=chart">The World Bank</a>.</p>
+<p>Import the <cite>csdmpy</cite> model and load the dataset.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">csdmpy</span> <span class="k">as</span> <span class="nn">cp</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;Test Files/labeled/population.csdf&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">labeled_data</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Let’s get the tuple of dimension and dependent variable objects from
+<code class="docutils literal notranslate"><span class="pre">labeled_data</span></code> instance.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="n">labeled_data</span><span class="o">.</span><span class="n">dimensions</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span> <span class="o">=</span> <span class="n">labeled_data</span><span class="o">.</span><span class="n">dependent_variables</span>
+</pre></div>
+</div>
+<p>Since one of the dimensions is a <cite>labeled</cite> dimension, let’s make use of the
+<a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.type" title="csdmpy.dimensions.Dimension.type"><code class="xref py py-attr docutils literal notranslate"><span class="pre">type</span></code></a> attribute of the dimension instances
+to find out which dimension is <cite>labeled</cite>.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">type</span>
+<span class="go">&#39;linear&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">type</span>
+<span class="go">&#39;labeled&#39;</span>
+</pre></div>
+</div>
+<p>Look like the second dimension is a <cite>labeled</cite> dimension with <a class="footnote-reference brackets" href="#f1" id="id1">1</a></p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">count</span>
+<span class="go">263</span>
+</pre></div>
+</div>
+<p>labels, where the first five labels are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">labels</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
+<span class="go">[&#39;Aruba&#39; &#39;Afghanistan&#39; &#39;Angola&#39; &#39;Albania&#39; &#39;Andorra&#39;]</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For labeled dimensions, the <a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.coordinates" title="csdmpy.dimensions.Dimension.coordinates"><code class="xref py py-attr docutils literal notranslate"><span class="pre">coordinates</span></code></a>
+attribute is an alias of the <a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.labels" title="csdmpy.dimensions.Dimension.labels"><code class="xref py py-attr docutils literal notranslate"><span class="pre">labels</span></code></a>
+attribute. Therefore,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
+<span class="go">[&#39;Aruba&#39; &#39;Afghanistan&#39; &#39;Angola&#39; &#39;Albania&#39; &#39;Andorra&#39;]</span>
+</pre></div>
+</div>
+</div>
+<p>The coordinates along the first dimension viewed up to the first ten
+points are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span>
+<span class="go">[1960. 1961. 1962. 1963. 1964. 1965. 1966. 1967. 1968. 1969.] yr</span>
+</pre></div>
+</div>
+<p><strong>Plotting the dataset</strong></p>
+<p>You may plot this dataset however you like. Here, we use a bar graph to
+represent the population of countries in the year 2017. The data
+corresponding to this year is a cross-section of the dependent variable
+at index 57 along the <code class="docutils literal notranslate"><span class="pre">x[0]</span></code> dimension.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[</span><span class="mi">57</span><span class="p">])</span>
+<span class="go">2017.0 yr</span>
+</pre></div>
+</div>
+<p>To keep the plot simple, we only plot the first 20 country labels along
+the <code class="docutils literal notranslate"><span class="pre">x[1]</span></code> dimension.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">plot_bar</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="n">x_data</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[:</span><span class="mi">20</span><span class="p">]</span>
+<span class="gp">... </span>    <span class="n">x_pos</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">y_data</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">][:</span><span class="mi">20</span><span class="p">,</span> <span class="mi">57</span><span class="p">]</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span> <span class="n">y_data</span><span class="p">,</span> <span class="n">align</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">x_pos</span><span class="p">,</span> <span class="n">x_data</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">90</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">axis_label</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">yscale</span><span class="p">(</span><span class="s2">&quot;log&quot;</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">(</span><span class="n">pad</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">w_pad</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">h_pad</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">plot_bar</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="figure-polaroid figure align-default">
+<img alt="../_images/population.csdf.png" src="../_images/population.csdf.png" />
+</div>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>In CSD model, the attribute count is only valid for the <a class="reference internal" href="../CSDmodel_uml/dimensions/linear.html#lineardimension-uml"><span class="std std-ref">LinearDimension</span></a>. In <cite>csdmpy</cite>, however, the <a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.count" title="csdmpy.dimensions.Dimension.count"><code class="xref py py-attr docutils literal notranslate"><span class="pre">count</span></code></a> attribute is valid for all dimension objects and returns an integer with the number of grid points along the dimension.</p>
+</dd>
+</dl>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="multiple_datasets/correlated_datasets.html" title="Correlated Dataset" >previous</a></li>
+        <li><a href="../startFromScratch/start.html" title="How to …" >next</a></li>
+        <li><a href="../genindex.html" title="General Index" >index</a></li>
+        <li><a href="examples.html" >Examples</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

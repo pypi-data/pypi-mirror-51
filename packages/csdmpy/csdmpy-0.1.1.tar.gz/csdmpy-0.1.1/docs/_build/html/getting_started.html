@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Getting Started With csdmpy package &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    './',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="index.html" />
+    <link rel="next" title="Examples" href="examples/examples.html" />
+    <link rel="prev" title="The requirements for csdmpy" href="requirement.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown visible-xs">
+                <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
+                <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
+                <ul>
+<li><a class="reference internal" href="#">Getting Started With <cite>csdmpy</cite> package</a><ul>
+<li><a class="reference internal" href="#accessing-the-dimensions-and-dependent-variables-of-the-dataset">Accessing the dimensions and dependent variables of the dataset</a><ul>
+<li><a class="reference internal" href="#coordinates-along-the-dimension">Coordinates along the dimension</a></li>
+<li><a class="reference internal" href="#components-of-the-dependent-variable">Components of the dependent variable</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#plotting-the-dataset">Plotting the dataset</a></li>
+</ul>
+</li>
+</ul>
+
+                </ul>
+              </li>
+
+            
+              <li><a href="requirement.html" title="The requirements for csdmpy" accesskey="P">previous </a></li>
+              <li><a href="examples/examples.html" title="Examples" accesskey="N">next </a></li>
+              <li><a href="genindex.html" title="General Index" accesskey="I">index </a></li>
+            
+            <li class="visible-xs"><a href="_sources/getting_started.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="index.html">
+      <img class="logo" src="_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Getting Started With <cite>csdmpy</cite> package</a><ul>
+<li><a class="reference internal" href="#accessing-the-dimensions-and-dependent-variables-of-the-dataset">Accessing the dimensions and dependent variables of the dataset</a><ul>
+<li><a class="reference internal" href="#coordinates-along-the-dimension">Coordinates along the dimension</a></li>
+<li><a class="reference internal" href="#components-of-the-dependent-variable">Components of the dependent variable</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#plotting-the-dataset">Plotting the dataset</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="requirement.html"
+                        title="previous chapter">The requirements for <cite>csdmpy</cite></a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="examples/examples.html"
+                        title="next chapter">Examples</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/getting_started.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="getting-started-with-csdmpy-package">
+<h1>Getting Started With <cite>csdmpy</cite> package<a class="headerlink" href="#getting-started-with-csdmpy-package" title="Permalink to this headline">¶</a></h1>
+<p>We have put together a set of guidelines for importing the <cite>csdmpy</cite>
+package and related methods and attributes. We encourage the users
+to follow these guidelines to promote consistency amongst others.
+Import the package using</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">csdmpy</span> <span class="k">as</span> <span class="nn">cp</span>
+</pre></div>
+</div>
+<p>To load a <cite>.csdf</cite> or a <cite>.csdfe</cite> file, use the <a class="reference internal" href="api/csdmpy.html#csdmpy.load" title="csdmpy.load"><code class="xref py py-meth docutils literal notranslate"><span class="pre">load()</span></code></a>
+method of the <cite>csdmpy</cite> module. In the following example, we load a
+sample test file.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">filename</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">tests</span><span class="o">.</span><span class="n">test01</span> <span class="c1"># replace this with your file&#39;s name.</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">testdata1</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Here, <code class="docutils literal notranslate"><span class="pre">testdata1</span></code> is an instance of the CSDM class.</p>
+<p>At the root level, the <a class="reference internal" href="api/CSDM.html#csdm-api"><span class="std std-ref">CSDM</span></a> object includes various useful optional
+attributes that may contain additional information about the dataset. One such
+useful attribute is the <a class="reference internal" href="api/CSDM.html#csdmpy.csdm.CSDM.description" title="csdmpy.csdm.CSDM.description"><code class="xref py py-attr docutils literal notranslate"><span class="pre">description</span></code></a> key which briefs
+the end-users on the contents of the dataset. To access the value of this
+attribute use,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">testdata1</span><span class="o">.</span><span class="n">description</span>
+<span class="go">&#39;A simulated sine curve.&#39;</span>
+</pre></div>
+</div>
+<div class="section" id="accessing-the-dimensions-and-dependent-variables-of-the-dataset">
+<h2>Accessing the dimensions and dependent variables of the dataset<a class="headerlink" href="#accessing-the-dimensions-and-dependent-variables-of-the-dataset" title="Permalink to this headline">¶</a></h2>
+<p>An instance of the CSDM object may include multiple dimensions and
+dependent variables. Collectively, the dimensions form a multi-dimensional grid
+system, and the dependent variables populate this grid.
+In <cite>csdmpy</cite>,
+dimensions and dependent variables are structured as python’s tuple object.
+To access these tuples, use the <a class="reference internal" href="api/CSDM.html#csdmpy.csdm.CSDM.dimensions" title="csdmpy.csdm.CSDM.dimensions"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dimensions</span></code></a> and
+<a class="reference internal" href="api/CSDM.html#csdmpy.csdm.CSDM.dependent_variables" title="csdmpy.csdm.CSDM.dependent_variables"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dependent_variables</span></code></a> attributes, respectively.
+For example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="n">testdata1</span><span class="o">.</span><span class="n">dimensions</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span> <span class="o">=</span> <span class="n">testdata1</span><span class="o">.</span><span class="n">dependent_variables</span>
+</pre></div>
+</div>
+<p>In this example, the dataset contains one dimension and one dependent variable,
+and therefore, <cite>x</cite> and <cite>y</cite> are tuples with a single instance.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x is a </span><span class="si">{0}</span><span class="s1"> of length </span><span class="si">{1}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)))</span>
+<span class="go">x is a tuple of length 1.</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;y is a </span><span class="si">{0}</span><span class="s1"> of length </span><span class="si">{1}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">)))</span>
+<span class="go">y is a tuple of length 1.</span>
+</pre></div>
+</div>
+<p>You may access the instances of individual dimension and dependent variable by
+using the proper indexing. For example, the dimension and dependent variable
+at index 0 may be accessed using <code class="docutils literal notranslate"><span class="pre">x[0]</span></code> and <code class="docutils literal notranslate"><span class="pre">y[0]</span></code>, respectively.</p>
+<p>Every instance of the <a class="reference internal" href="api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a> object has its own set of attributes
+that further describe the respective dimension. For example, a Dimension object
+may have an optional <a class="reference internal" href="api/Dimensions.html#csdmpy.dimensions.Dimension.description" title="csdmpy.dimensions.Dimension.description"><code class="xref py py-attr docutils literal notranslate"><span class="pre">description</span></code></a>
+attribute,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">description</span>
+<span class="go">&#39;A temporal dimension.&#39;</span>
+</pre></div>
+</div>
+<p>Similarly, every instance of the <a class="reference internal" href="api/DependentVariable.html#dv-api"><span class="std std-ref">DependentVariable</span></a> object has its own set of
+attributes. In this example, the
+<a class="reference internal" href="api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.description" title="csdmpy.dependent_variables.DependentVariable.description"><code class="xref py py-attr docutils literal notranslate"><span class="pre">description</span></code></a>
+attribute from the dependent variable is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">description</span>
+<span class="go">&#39;A response dependent variable.&#39;</span>
+</pre></div>
+</div>
+<div class="section" id="coordinates-along-the-dimension">
+<h3>Coordinates along the dimension<a class="headerlink" href="#coordinates-along-the-dimension" title="Permalink to this headline">¶</a></h3>
+<p>Every dimension object contains a list of coordinates associated with every
+grid index along the dimension. To access these coordinates, use
+the <a class="reference internal" href="api/Dimensions.html#csdmpy.dimensions.Dimension.coordinates" title="csdmpy.dimensions.Dimension.coordinates"><code class="xref py py-attr docutils literal notranslate"><span class="pre">coordinates</span></code></a> attribute of the
+respective <a class="reference internal" href="api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a> instance. In this example, the coordinates are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span>
+<span class="go">&lt;Quantity [0. , 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9] s&gt;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code class="docutils literal notranslate"><span class="pre">x[0].coordinates</span></code> returns a
+<a class="reference external" href="http://docs.astropy.org/en/stable/api/astropy.units.Quantity.html#astropy.units.Quantity">Quantity</a>
+instance from the
+<a class="reference external" href="http://docs.astropy.org/en/stable/units/">Astropy</a> package.
+The <cite>csdmpy</cite> module utilizes the units library from
+<a class="reference external" href="http://docs.astropy.org/en/stable/units/">astropy.units</a> module
+to handle physical quantities. The numerical <cite>value</cite> and the
+<cite>unit</cite> of the physical quantities are accessed through the Quantity
+instance, using the <code class="docutils literal notranslate"><span class="pre">value</span></code> and the <code class="docutils literal notranslate"><span class="pre">unit</span></code> attributes, respectively.
+Please refer to the <a class="reference external" href="http://docs.astropy.org/en/stable/units/">astropy.units</a>
+documentation for details.
+In the <cite>csdmpy</cite> module, the <code class="docutils literal notranslate"><span class="pre">Quantity.value</span></code> is a
+<a class="reference external" href="https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.ndarray.html">Numpy array</a>.
+For instance, in the above example, the underlying Numpy array from the
+coordinates attribute is accessed as</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="o">.</span><span class="n">value</span>
+<span class="go">array([0. , 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="components-of-the-dependent-variable">
+<h3>Components of the dependent variable<a class="headerlink" href="#components-of-the-dependent-variable" title="Permalink to this headline">¶</a></h3>
+<p>Every dependent variable object has at least one component. The number of
+components of the dependent variable is determined from the
+<a class="reference internal" href="api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.quantity_type" title="csdmpy.dependent_variables.DependentVariable.quantity_type"><code class="xref py py-attr docutils literal notranslate"><span class="pre">quantity_type</span></code></a> attribute
+of the dependent variable object. For example, a scalar quantity has
+one-component while a
+vector quantity may have multiple components. To access the components of
+the dependent variable, use the
+<a class="reference internal" href="api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-attr docutils literal notranslate"><span class="pre">components</span></code></a>
+attribute of the respective <a class="reference internal" href="api/DependentVariable.html#dv-api"><span class="std std-ref">DependentVariable</span></a> instance. For example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span>
+<span class="go">array([[ 0.0000000e+00,  5.8778524e-01,  9.5105654e-01,  9.5105654e-01,</span>
+<span class="go">         5.8778524e-01,  1.2246469e-16, -5.8778524e-01, -9.5105654e-01,</span>
+<span class="go">        -9.5105654e-01, -5.8778524e-01]], dtype=float32)</span>
+</pre></div>
+</div>
+<p>The <a class="reference internal" href="api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-attr docutils literal notranslate"><span class="pre">components</span></code></a> attribute
+is a Numpy array. Note, the number of dimensions of this array is <span class="math notranslate nohighlight">\(d+1\)</span>
+where <span class="math notranslate nohighlight">\(d\)</span> is the number of <a class="reference internal" href="api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a> objects from the
+<a class="reference internal" href="api/CSDM.html#csdmpy.csdm.CSDM.dimensions" title="csdmpy.csdm.CSDM.dimensions"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dimensions</span></code></a> attribute. The additional dimension in the
+Numpy array corresponds to the number of components of the dependent variable.
+For instance, in this example, there is a single dimension, <cite>i.e.</cite>, <span class="math notranslate nohighlight">\(d=1\)</span>
+and, therefore, the value of the
+<a class="reference internal" href="api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-attr docutils literal notranslate"><span class="pre">components</span></code></a>
+attribute holds a two-dimensional Numpy array of shape</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(1, 10)</span>
+</pre></div>
+</div>
+<p>where the first element of the shape tuple, <cite>1</cite>, is the number of
+components of the dependent variable and the second element, <cite>10</cite>, is the
+number of points along the dimension, <cite>i.e.</cite>, <code class="docutils literal notranslate"><span class="pre">x[0].coordinates</span></code>.</p>
+</div>
+</div>
+<div class="section" id="plotting-the-dataset">
+<h2>Plotting the dataset<a class="headerlink" href="#plotting-the-dataset" title="Permalink to this headline">¶</a></h2>
+<p>It is always helpful to represent a scientific dataset with visual aids
+such as a plot or a figure instead of columns of numbers. As such, throughout
+this documentation, we provide a figure or two for every example dataset.
+We make use of Python’s <a class="reference external" href="https://matplotlib.org">Matplotlib library</a>
+for generating these figures. The users may, however, use their favorite
+plotting library.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Although we show code for visualzing the dataset, this documentation is not
+a guide for data visualization.</p>
+</div>
+<p>The following snippet plots the dataset from this example. Here, the
+<cite>axis_label</cite> is an attribute of both Dimension and DependentVariable
+instances and <cite>name</cite> is an attribute of the DependentVariable instance.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">,</span> <span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>  
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">axis_label</span><span class="p">)</span>  
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">axis_label</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>  
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>  
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="figure-polaroid figure align-default">
+<img alt="_images/test.png" src="_images/test.png" />
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="api/CSDM.html#csdm-api"><span class="std std-ref">CSDM</span></a>, <a class="reference internal" href="api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a>, <a class="reference internal" href="api/DependentVariable.html#dv-api"><span class="std std-ref">DependentVariable</span></a>,
+<a class="reference external" href="http://docs.astropy.org/en/stable/api/astropy.units.Quantity.html#astropy.units.Quantity">Quantity</a>,
+<a class="reference external" href="https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.ndarray.html">numpy array</a>,
+<a class="reference external" href="https://matplotlib.org">Matplotlib library</a></p>
+</div>
+</div>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="requirement.html" title="The requirements for csdmpy" >previous</a></li>
+        <li><a href="examples/examples.html" title="Examples" >next</a></li>
+        <li><a href="genindex.html" title="General Index" >index</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Linearly Sampled Dimension &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../index.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown visible-xs">
+                <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
+                <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
+                <ul>
+<li><a class="reference internal" href="#">Linearly Sampled Dimension</a><ul>
+<li><a class="reference internal" href="#methods-and-attributes">Methods and attributes</a><ul>
+<li><a class="reference internal" href="#attributes">Attributes</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                </ul>
+              </li>
+
+            
+              <li><a href="../genindex.html" title="General Index" accesskey="I">index </a></li>
+            
+            <li class="visible-xs"><a href="../_sources/independentVariable/linear.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../index.html">
+      <img class="logo" src="../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Linearly Sampled Dimension</a><ul>
+<li><a class="reference internal" href="#methods-and-attributes">Methods and attributes</a><ul>
+<li><a class="reference internal" href="#attributes">Attributes</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/independentVariable/linear.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="linearly-sampled-dimension">
+<span id="lsgd"></span><h1>Linearly Sampled Dimension<a class="headerlink" href="#linearly-sampled-dimension" title="Permalink to this headline">¶</a></h1>
+<p>For a linearly sampled dimension, the coordinates of the independent variable
+are spaced linearly along the dimension and are frequently encountered in many
+scientific datasets.
+In this case, the instance of the corresponding <a class="reference internal" href="../api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a>
+class has a subtype called <cite>linearly_sampled</cite>.</p>
+<p>Consider that the <span class="math notranslate nohighlight">\(k^{th}\)</span> <a class="reference internal" href="../api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a> instance from
+a <a class="reference internal" href="../api/CSDM.html#csdm-api"><span class="std std-ref">CSDM</span></a> instance has a <cite>linearly_sampled</cite> subtype.
+Let <span class="math notranslate nohighlight">\(m_k\)</span>, <span class="math notranslate nohighlight">\(N_k \ge 1\)</span>, <span class="math notranslate nohighlight">\(c_k\)</span>, and <span class="math notranslate nohighlight">\(o_k\)</span> be the
+sampling interval, number of points, reference offset, and the origin offset,
+respectively, from the corresponding Dimension instance,
+then the coordinates along this dimension are evaluated as,</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{align}
+\mathbf{X}_k &amp;= [m_k j ]_{j=0}^{N_k-1} - c_k \mathbf{1}, \\
+\mathbf{X}_k^\mathrm{abs} &amp;= \mathbf{X}_k + o_k \mathbf{1}.
+\end{align}\end{split}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\mathbf{X}_k\)</span> and <span class="math notranslate nohighlight">\(\mathbf{X}_k^\mathrm{abs}\)</span> are the
+ordered arrays of the reference and absolute independent variable
+coordinates, respectively, and <span class="math notranslate nohighlight">\(\mathbf{1}\)</span> is an array of ones.</p>
+<div class="section" id="methods-and-attributes">
+<h2>Methods and attributes<a class="headerlink" href="#methods-and-attributes" title="Permalink to this headline">¶</a></h2>
+<p>There are several attributes and methods associated with a linearly sampled
+dimension, each controlling the coordinates along the dimension in a unique
+way. The following section describes these attributes and methods and
+demonstrates their effect on the coordinates of the independent variable along
+the dimension using examples. Consider the following test file.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">csdmpy</span> <span class="k">as</span> <span class="nn">cp</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://github.com/DeepanshS/csdmpy-doc/raw/master/test_files/test1.csdf&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">filename</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">tests</span><span class="o">.</span><span class="n">test01</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">testdata1</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The above snippet downloads and loads a test file containing a linearly
+sampled independent variable.
+When the argument of the <a class="reference internal" href="../api/csdmpy.html#csdmpy.load" title="csdmpy.load"><code class="xref py py-meth docutils literal notranslate"><span class="pre">load()</span></code></a> method is an URL, the
+corresponding file is first downloaded to the working directory and then
+read in as a local file.
+In the above example, <code class="docutils literal notranslate"><span class="pre">testdata1</span></code> is an instance of the
+<a class="reference internal" href="../api/CSDM.html#csdm-api"><span class="std std-ref">CSDM</span></a> class with the following data structure.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">testdata1</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">  &quot;csdm&quot;: {</span>
+<span class="go">    &quot;version&quot;: &quot;1.0&quot;,</span>
+<span class="go">    &quot;timestamp&quot;: &quot;1994-11-05T13:15:30Z&quot;,</span>
+<span class="go">    &quot;geographic_coordinate&quot;: {</span>
+<span class="go">      &quot;latitude&quot;: &quot;10 deg&quot;,</span>
+<span class="go">      &quot;longitude&quot;: &quot;93.2 deg&quot;,</span>
+<span class="go">      &quot;altitude&quot;: &quot;10 m&quot;</span>
+<span class="go">    },</span>
+<span class="go">    &quot;description&quot;: &quot;A simulated sine curve.&quot;,</span>
+<span class="go">    &quot;dimensions&quot;: [</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;linear&quot;,</span>
+<span class="go">        &quot;description&quot;: &quot;A temporal dimension.&quot;,</span>
+<span class="go">        &quot;count&quot;: 10,</span>
+<span class="go">        &quot;increment&quot;: &quot;0.1 s&quot;,</span>
+<span class="go">        &quot;quantity_name&quot;: &quot;time&quot;,</span>
+<span class="go">        &quot;label&quot;: &quot;time&quot;,</span>
+<span class="go">        &quot;reciprocal&quot;: {</span>
+<span class="go">          &quot;quantity_name&quot;: &quot;frequency&quot;</span>
+<span class="go">        }</span>
+<span class="go">      }</span>
+<span class="go">    ],</span>
+<span class="go">    &quot;dependent_variables&quot;: [</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;internal&quot;,</span>
+<span class="go">        &quot;description&quot;: &quot;A response dependent variable.&quot;,</span>
+<span class="go">        &quot;name&quot;: &quot;sine curve&quot;,</span>
+<span class="go">        &quot;numeric_type&quot;: &quot;float32&quot;,</span>
+<span class="go">        &quot;quantity_type&quot;: &quot;scalar&quot;,</span>
+<span class="go">        &quot;component_labels&quot;: [</span>
+<span class="go">          &quot;response&quot;</span>
+<span class="go">        ],</span>
+<span class="go">        &quot;components&quot;: [</span>
+<span class="go">          [</span>
+<span class="go">            &quot;0.0, 0.58778524, ..., -0.95105654, -0.58778524&quot;</span>
+<span class="go">          ]</span>
+<span class="go">        ]</span>
+<span class="go">      }</span>
+<span class="go">    ]</span>
+<span class="go">  }</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+<p>This a 1D{1} dataset with one independent variable of subtype
+<cite>linearly_sampled</cite> and one single-component dependent variable.
+For the remainder of this example, we only focus on the independent variable
+instance <cite>i.e</cite> the member of the
+<code class="xref py py-attr docutils literal notranslate"><span class="pre">dimensions</span></code> attribute’s tuple from the
+<code class="docutils literal notranslate"><span class="pre">testdata1</span></code> instance.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span> <span class="o">=</span> <span class="n">testdata1</span><span class="o">.</span><span class="n">dimensions</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>The variable <cite>x0</cite> is an instance of the <a class="reference internal" href="../api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a> class.
+The coordinates of the independent variable from this instance are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9] s</span>
+</pre></div>
+</div>
+<p>where <code class="docutils literal notranslate"><span class="pre">x0.coordinates</span></code> is a
+<a class="reference external" href="http://docs.astropy.org/en/stable/api/astropy.units.Quantity.html#astropy.units.Quantity">Quantity</a>
+instance. The value and the unit of the quantity instance are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># To access the numpy array</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numpy_array</span> <span class="o">=</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="o">.</span><span class="n">value</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;numpy array =&#39;</span><span class="p">,</span> <span class="n">numpy_array</span><span class="p">)</span>
+<span class="go">numpy array = [0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># To access the astropy.unit</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">unit</span> <span class="o">=</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="o">.</span><span class="n">unit</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;unit =&#39;</span><span class="p">,</span> <span class="n">unit</span><span class="p">)</span>
+<span class="go">unit = s</span>
+</pre></div>
+</div>
+<p>respectively.</p>
+<div class="section" id="attributes">
+<h3>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h3>
+<p>The following are the attributes of the <a class="reference internal" href="../api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a> instance along with
+examples demonstrating its effect on the coordinates along the dimension.</p>
+<ul>
+<li><dl>
+<dt><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.type" title="csdmpy.dimensions.Dimension.type"><code class="xref py py-attr docutils literal notranslate"><span class="pre">type</span></code></a></dt><dd><p>This attribute returns the subtype of the instance.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x0</span><span class="o">.</span><span class="n">type</span><span class="p">)</span>
+<span class="go">linear</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+<p><strong>The attributes that modify the coordinates</strong></p>
+<ul>
+<li><dl>
+<dt><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.count" title="csdmpy.dimensions.Dimension.count"><code class="xref py py-attr docutils literal notranslate"><span class="pre">count</span></code></a></dt><dd><p>The number of points along the dimension</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;number of points =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">count</span><span class="p">)</span>
+<span class="go">number of points = 10</span>
+</pre></div>
+</div>
+<p>To update the number of points, update the value of this attribute,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">count</span> <span class="o">=</span> <span class="mi">12</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new number of points =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">count</span><span class="p">)</span>
+<span class="go">new number of points = 12</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">new coordinates = [0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.  1.1] s</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.increment" title="csdmpy.dimensions.Dimension.increment"><code class="xref py py-attr docutils literal notranslate"><span class="pre">increment</span></code></a></dt><dd><p>Similarly, the increment</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;old increment =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">increment</span><span class="p">)</span>
+<span class="go">old increment = 0.1 s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">increment</span> <span class="o">=</span> <span class="s2">&quot;10 s&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new increment =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">increment</span><span class="p">)</span>
+<span class="go">new increment = 10.0 s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">new coordinates = [  0.  10.  20.  30.  40.  50.  60.  70.  80.  90. 100. 110.] s</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.coordinates_offset" title="csdmpy.dimensions.Dimension.coordinates_offset"><code class="xref py py-attr docutils literal notranslate"><span class="pre">coordinates_offset</span></code></a></p>
+<blockquote>
+<div><div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;old reference offset =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates_offset</span><span class="p">)</span>
+<span class="go">old reference offset = 0.0 s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">coordinates_offset</span> <span class="o">=</span> <span class="s2">&quot;1 s&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new reference offset =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates_offset</span><span class="p">)</span>
+<span class="go">new reference offset = 1.0 s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">new coordinates = [  1.  11.  21.  31.  41.  51.  61.  71.  81.  91. 101. 111.] s</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.origin_offset" title="csdmpy.dimensions.Dimension.origin_offset"><code class="xref py py-attr docutils literal notranslate"><span class="pre">origin_offset</span></code></a></p>
+<blockquote>
+<div><div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;old origin offset =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">origin_offset</span><span class="p">)</span>
+<span class="go">old origin offset = 0.0 s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">origin_offset</span> <span class="o">=</span> <span class="s2">&quot;1 day&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;new origin offset =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">origin_offset</span><span class="p">)</span>
+<span class="go">new origin offset = 1.0 d</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">new coordinates = [  1.  11.  21.  31.  41.  51.  61.  71.  81.  91. 101. 111.] s</span>
+</pre></div>
+</div>
+<p>The last operation updates the value of the origin offset however
+the coordinates remain unaffected. This is because the
+<a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.coordinates" title="csdmpy.dimensions.Dimension.coordinates"><code class="xref py py-attr docutils literal notranslate"><span class="pre">coordinates</span></code></a> attribute refers to the
+reference coordinates. Access the absolute coordinates through the
+<a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.absolute_coordinates" title="csdmpy.dimensions.Dimension.absolute_coordinates"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_coordinates</span></code></a> attribute.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;absolute coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">absolute_coordinates</span><span class="p">)</span>
+<span class="go">absolute coordinates = [86401. 86411. 86421. 86431. 86441. 86451. 86461. 86471. 86481. 86491.</span>
+<span class="go"> 86501. 86511.] s</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p id="lsgd-order-attributes"><strong>The attributes that modify the order of coordinates</strong></p>
+<ul>
+<li><dl>
+<dt><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.complex_fft" title="csdmpy.dimensions.Dimension.complex_fft"><code class="xref py py-attr docutils literal notranslate"><span class="pre">complex_fft</span></code></a></dt><dd><p>Orders the coordinates along the dimension according to the output of a
+complex Fast Fourier Transform (FFT) routine.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;old coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">old coordinates = [  1.  11.  21.  31.  41.  51.  61.  71.  81.  91. 101. 111.] s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">complex_fft</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">new coordinates = [-59. -49. -39. -29. -19.  -9.   1.  11.  21.  31.  41.  51.] s</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+<p><strong>Other attributes</strong></p>
+<ul>
+<li><p><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.period" title="csdmpy.dimensions.Dimension.period"><code class="xref py py-attr docutils literal notranslate"><span class="pre">period</span></code></a></p>
+<blockquote>
+<div><div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;old period =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">period</span><span class="p">)</span>
+<span class="go">old period = inf s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">period</span> <span class="o">=</span> <span class="s1">&#39;10 s&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new period =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">period</span><span class="p">)</span>
+<span class="go">new period = 10.0 s</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><dl>
+<dt><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.quantity_name" title="csdmpy.dimensions.Dimension.quantity_name"><code class="xref py py-attr docutils literal notranslate"><span class="pre">quantity_name</span></code></a></dt><dd><p>Returns the quantity name.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;quantity name is&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">quantity_name</span><span class="p">)</span>
+<span class="go">quantity name is time</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.label" title="csdmpy.dimensions.Dimension.label"><code class="xref py py-attr docutils literal notranslate"><span class="pre">label</span></code></a></p>
+<blockquote>
+<div><div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">label</span>
+<span class="go">&#39;time&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;t1&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">label</span>
+<span class="go">&#39;t1&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><dl>
+<dt><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.axis_label" title="csdmpy.dimensions.Dimension.axis_label"><code class="xref py py-attr docutils literal notranslate"><span class="pre">axis_label</span></code></a></dt><dd><p>Returns a formatted string for axis labeling.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">label</span>
+<span class="go">&#39;t1&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">axis_label</span>
+<span class="go">&#39;t1 / (s)&#39;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="methods">
+<h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="../api/Dimensions.html#csdmpy.dimensions.Dimension.to" title="csdmpy.dimensions.Dimension.to"><code class="xref py py-meth docutils literal notranslate"><span class="pre">to()</span></code></a>:
+This method is used for unit conversions.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;old unit =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="o">.</span><span class="n">unit</span><span class="p">)</span>
+<span class="go">old unit = s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;old coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">old coordinates = [-59. -49. -39. -29. -19.  -9.   1.  11.  21.  31.  41.  51.] s</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1">## unit conversion</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s1">&#39;min&#39;</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;new coordinates =&#39;</span><span class="p">,</span> <span class="n">x0</span><span class="o">.</span><span class="n">coordinates</span><span class="p">)</span>
+<span class="go">new coordinates = [-0.98333333 -0.81666667 -0.65       -0.48333333 -0.31666667 -0.15</span>
+<span class="go">  0.01666667  0.18333333  0.35        0.51666667  0.68333333  0.85      ] min</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the above examples, the coordinates are ordered according to FFT output
+order and are also reversed based on the previous set of operations.</p>
+</div>
+<p>The argument of this method is a string containing the unit, in this case,
+<cite>min</cite>, whose dimensionality must be consistent with the dimensionality of the
+coordinates.  An exception will be raised otherwise.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s1">&#39;km/s&#39;</span><span class="p">)</span>  
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">&quot;&lt;stdin&gt;&quot;</span>, line <span class="m">1</span>, in <span class="n">&lt;module&gt;</span>
+  File <span class="nb">&quot;/Users/deepansh/anaconda3/lib/python3.6/site-packages/csdmpy-0.0.9-py3.6.egg/csdmpy/cv.py&quot;</span>, line <span class="m">1238</span>, in <span class="n">to</span>
+    <span class="mf">1.0</span><span class="o">*</span><span class="n">string_to_unit</span><span class="p">(</span><span class="n">unit</span><span class="p">),</span> <span class="bp">self</span><span class="o">.</span><span class="n">gcv</span><span class="o">.</span><span class="n">unit</span>
+  File <span class="nb">&quot;/Users/deepansh/anaconda3/lib/python3.6/site-packages/csdmpy-0.0.9-py3.6.egg/csdmpy/_utils.py&quot;</span>, line <span class="m">290</span>, in <span class="n">_check_unit_consistency</span>
+    <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="n">message</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">*</span><span class="n">options</span><span class="p">))</span>
+<span class="gr">Exception</span>: <span class="n">The unit &#39;km / s&#39; (speed) is inconsistent with the unit &#39;min&#39; (time).</span>
+</pre></div>
+</div>
+<p>Also see <a class="reference internal" href="../api/Dimensions.html#dim-api"><span class="std std-ref">Dimension</span></a></p>
+</div>
+</div>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../genindex.html" title="General Index" >index</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

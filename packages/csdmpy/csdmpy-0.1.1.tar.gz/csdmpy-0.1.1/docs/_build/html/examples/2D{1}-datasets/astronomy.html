@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Astronomy dataset &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../../index.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="../../genindex.html" title="General Index" accesskey="I">index </a></li>
+            
+            <li class="visible-xs"><a href="../../_sources/examples/2D{1}-datasets/astronomy.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../../index.html">
+      <img class="logo" src="../../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/examples/2D{1}-datasets/astronomy.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="astronomy-dataset">
+<h1>Astronomy dataset<a class="headerlink" href="#astronomy-dataset" title="Permalink to this headline">¶</a></h1>
+<p>The following dataset is a new observation of the Bubble Nebula
+acquired by
+<a class="reference external" href="https://archive.stsci.edu/prepds/heritage/bubble/introduction.html">The Hubble Heritage Team</a>,
+on February 2016. The original dataset was obtained in the FITS format
+and subsequently converted to the CSD model file-format. For the convenience of
+illustration, we have downsampled the original dataset.</p>
+<p>Let’s load the <cite>.csdfe</cite> file and look at its data structure.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">csdmpy</span> <span class="k">as</span> <span class="nn">cp</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bubble_nebula</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;Test Files/BubbleNebula/Bubble.csdfe&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">bubble_nebula</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">  &quot;csdm&quot;: {</span>
+<span class="go">    &quot;version&quot;: &quot;1.0&quot;,</span>
+<span class="go">    &quot;read_only&quot;: true,</span>
+<span class="go">    &quot;timestamp&quot;: &quot;2016-02-26T16:41:00Z&quot;,</span>
+<span class="go">    &quot;description&quot;: &quot;The dataset is a new observation of the Bubble Nebula acquired by The Hubble Heritage Team, in February 2016.&quot;,</span>
+<span class="go">    &quot;dimensions&quot;: [</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;linear&quot;,</span>
+<span class="go">        &quot;count&quot;: 1024,</span>
+<span class="go">        &quot;increment&quot;: &quot;-0.0002581136196 °&quot;,</span>
+<span class="go">        &quot;coordinates_offset&quot;: &quot;350.311874957 °&quot;,</span>
+<span class="go">        &quot;quantity_name&quot;: &quot;plane angle&quot;,</span>
+<span class="go">        &quot;label&quot;: &quot;Right Ascension&quot;</span>
+<span class="go">      },</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;linear&quot;,</span>
+<span class="go">        &quot;count&quot;: 1024,</span>
+<span class="go">        &quot;increment&quot;: &quot;0.0001219957797701109 °&quot;,</span>
+<span class="go">        &quot;coordinates_offset&quot;: &quot;61.12851494969163 °&quot;,</span>
+<span class="go">        &quot;quantity_name&quot;: &quot;plane angle&quot;,</span>
+<span class="go">        &quot;label&quot;: &quot;Declination&quot;</span>
+<span class="go">      }</span>
+<span class="go">    ],</span>
+<span class="go">    &quot;dependent_variables&quot;: [</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;internal&quot;,</span>
+<span class="go">        &quot;name&quot;: &quot;Bubble Nebula, 656nm&quot;,</span>
+<span class="go">        &quot;numeric_type&quot;: &quot;float32&quot;,</span>
+<span class="go">        &quot;quantity_type&quot;: &quot;scalar&quot;,</span>
+<span class="go">        &quot;components&quot;: [</span>
+<span class="go">          [</span>
+<span class="go">            &quot;0.0, 0.0, ..., 0.0, 0.0&quot;</span>
+<span class="go">          ]</span>
+<span class="go">        ]</span>
+<span class="go">      }</span>
+<span class="go">    ]</span>
+<span class="go">  }</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+<p>Here, the variable <code class="docutils literal notranslate"><span class="pre">bubble_nebula</span></code> is an instance of the <a class="reference internal" href="../../api/CSDM.html#csdm-api"><span class="std std-ref">CSDM</span></a>
+class. From the data structure, one finds two dimensions, labeled as
+<em>Right Ascension</em> and <em>Declination</em>, and a single one-component dependent
+variable named as <em>Bubble Nebula, 656nm</em>.</p>
+<p>Let’s get the tuples of the dimension and dependent variable instances from
+the <code class="docutils literal notranslate"><span class="pre">bubble_nebula</span></code> instance following,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="n">bubble_nebula</span><span class="o">.</span><span class="n">dimensions</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span> <span class="o">=</span> <span class="n">bubble_nebula</span><span class="o">.</span><span class="n">dependent_variables</span>
+</pre></div>
+</div>
+<p>Because there are two dimension instances in <code class="docutils literal notranslate"><span class="pre">x</span></code>, let’s look
+at the coordinates along each dimensions, using the
+<a class="reference internal" href="../../api/Dimensions.html#csdmpy.dimensions.Dimension.coordinates" title="csdmpy.dimensions.Dimension.coordinates"><code class="xref py py-attr docutils literal notranslate"><span class="pre">coordinates</span></code></a> attribute of the
+respective instances.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span>
+<span class="go">[350.31187496 350.31161684 350.31135873 350.31110062 350.3108425</span>
+<span class="go"> 350.31058439 350.31032628 350.31006816 350.30981005 350.30955193] deg</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span>
+<span class="go">[61.12851495 61.12863695 61.12875894 61.12888094 61.12900293 61.12912493</span>
+<span class="go"> 61.12924692 61.12936892 61.12949092 61.12961291] deg</span>
+</pre></div>
+</div>
+<p>Here, we only print the first 10 coordinates along the respective dimensions.</p>
+<p>The component of the dependent variable is accessed through the
+<a class="reference internal" href="../../api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-attr docutils literal notranslate"><span class="pre">components</span></code></a> attribute.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">y00</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Visualizing the dataset</strong></p>
+<p>Now, to plot the dataset.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Plotting an intensity data</strong></p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">matplotlib.colors</span> <span class="k">import</span> <span class="n">LogNorm</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">plot</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="c1"># Figure setup.</span>
+<span class="gp">... </span>    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">set_facecolor</span><span class="p">(</span><span class="s1">&#39;w&#39;</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="n">x0</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span>
+<span class="gp">... </span>    <span class="n">x1</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="c1"># Set the extents of the image.</span>
+<span class="gp">... </span>    <span class="n">extent</span><span class="o">=</span><span class="p">[</span><span class="n">x0</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">x0</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">x1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">x1</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">]</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="c1"># Log intensity image plot.</span>
+<span class="gp">... </span>    <span class="n">im</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">y00</span><span class="p">),</span> <span class="n">origin</span><span class="o">=</span><span class="s1">&#39;lower&#39;</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;bone_r&#39;</span><span class="p">,</span>
+<span class="gp">... </span>                   <span class="n">norm</span><span class="o">=</span><span class="n">LogNorm</span><span class="p">(</span><span class="n">vmax</span><span class="o">=</span><span class="n">y00</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">/</span><span class="mi">10</span><span class="p">,</span> <span class="n">vmin</span><span class="o">=</span><span class="mf">7.5e-3</span><span class="p">,</span> <span class="n">clip</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span>
+<span class="gp">... </span>                   <span class="n">extent</span><span class="o">=</span><span class="n">extent</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="c1"># Set the axes labels and the figure tile.</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">axis_label</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">axis_label</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">locator_params</span><span class="p">(</span><span class="n">nbins</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="c1"># Add a colorbar.</span>
+<span class="gp">... </span>    <span class="n">cbar</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">cbar</span><span class="o">.</span><span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">axis_label</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="c1"># Set the x and y limits.</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">([</span><span class="mf">350.25</span><span class="p">,</span> <span class="mf">350.1</span><span class="p">])</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="mf">61.15</span><span class="p">,</span> <span class="mf">61.22</span><span class="p">])</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="c1"># Add grid lines.</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;--&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">(</span><span class="n">pad</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">w_pad</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">h_pad</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="figure-polaroid figure align-default">
+<img alt="../../_images/Bubble.csdfe.png" src="../../_images/Bubble.csdfe.png" />
+</div>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../../genindex.html" title="General Index" >index</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

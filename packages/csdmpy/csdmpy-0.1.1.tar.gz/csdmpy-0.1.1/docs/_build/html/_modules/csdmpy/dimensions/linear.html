@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>csdmpy.dimensions.linear &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../../../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../../../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../../../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../../../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../../../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../../../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../../../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../../../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../../../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../../../index.html" />
+    <link rel="up" title="csdmpy.dimensions" href="../dimensions.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="../../../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../../index.html" >Module code</a></li>
+              <li><a href="../../csdmpy.html" >csdmpy</a></li>
+              <li><a href="../dimensions.html" accesskey="U">csdmpy.dimensions</a></li>
+            
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../../../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../../../index.html">
+      <img class="logo" src="../../../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../../../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <h1>Source code for csdmpy.dimensions.linear</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;The LinearDimension SubTypes class.&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span>
+
+<span class="kn">from</span> <span class="nn">copy</span> <span class="k">import</span> <span class="n">deepcopy</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">astropy.units</span> <span class="k">import</span> <span class="n">Quantity</span>
+
+<span class="kn">from</span> <span class="nn">csdmpy.dimensions.quantitative</span> <span class="k">import</span> <span class="n">BaseQuantitativeDimension</span>
+<span class="kn">from</span> <span class="nn">csdmpy.dimensions.quantitative</span> <span class="k">import</span> <span class="n">ReciprocalVariable</span>
+<span class="kn">from</span> <span class="nn">csdmpy.units</span> <span class="k">import</span> <span class="n">ScalarQuantity</span>
+<span class="kn">from</span> <span class="nn">csdmpy.utils</span> <span class="k">import</span> <span class="n">check_and_assign_bool</span>
+<span class="kn">from</span> <span class="nn">csdmpy.utils</span> <span class="k">import</span> <span class="n">validate</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">&quot;Deepansh J. Srivastava&quot;</span>
+<span class="n">__email__</span> <span class="o">=</span> <span class="s2">&quot;srivastava.89@osu.edu&quot;</span>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;LinearDimension&quot;</span><span class="p">]</span>
+
+<span class="c1"># =========================================================================== #</span>
+<span class="c1">#                          LinearDimension Class                              #</span>
+<span class="c1"># =========================================================================== #</span>
+
+
+<div class="viewcode-block" id="LinearDimension"><a class="viewcode-back" href="../../../api/LinearDimension.html#csdmpy.dimensions.linear.LinearDimension">[docs]</a><span class="k">class</span> <span class="nc">LinearDimension</span><span class="p">(</span><span class="n">BaseQuantitativeDimension</span><span class="p">):</span>
+    <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    LinearDimension class.</span>
+
+<span class="sd">    .. warning ::</span>
+<span class="sd">        This class should not be used directly. Instead,</span>
+<span class="sd">        use the ``CSDM`` object to access the attributes</span>
+<span class="sd">        and methods of this class. See example, :ref:`lsgd`.</span>
+
+<span class="sd">    The class returns an object which represents a physical</span>
+<span class="sd">    dimension, sampled uniformly along a grid dimension.</span>
+<span class="sd">    Let :math:`m_k` be the increment, :math:`N_k \ge 1` be the</span>
+<span class="sd">    number of points, :math:`c_k` be the reference offset, and</span>
+<span class="sd">    :math:`o_k` be the origin offset along the :math:`k^{th}`</span>
+<span class="sd">    grid dimension, then the coordinates along the</span>
+<span class="sd">    grid dimension are given as</span>
+
+<span class="sd">    .. math ::</span>
+<span class="sd">        \mathbf{X}_k^\mathrm{ref} = [m_k j ]_{j=0}^{N_k-1} - c_k \mathbf{1},</span>
+<span class="sd">    .. math ::</span>
+<span class="sd">        \mathbf{X}_k^\mathrm{abs} = \mathbf{X}_k^\mathrm{ref} + o_k \mathbf{1},</span>
+
+<span class="sd">    where :math:`\mathbf{X}_k^\mathrm{ref}` is an ordered array of the</span>
+<span class="sd">    reference controlled variable coordinates,</span>
+<span class="sd">    :math:`\mathbf{X}_k^\mathrm{abs}` is an ordered array of the absolute</span>
+<span class="sd">    controlled variable coordinates, and :math:`\mathbf{1}`</span>
+<span class="sd">    is an array of ones.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="vm">__slots__</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="s2">&quot;_count&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_increment&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_complex_fft&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;reciprocal&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_reciprocal_count&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_reciprocal_increment&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_coordinates&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">_type</span> <span class="o">=</span> <span class="s2">&quot;linear&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="n">increment</span><span class="p">,</span> <span class="n">complex_fft</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;Instantiate a DimensionWithLinearSpacing class instance.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_count</span> <span class="o">=</span> <span class="n">count</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_increment</span> <span class="o">=</span> <span class="n">ScalarQuantity</span><span class="p">(</span><span class="n">increment</span><span class="p">)</span><span class="o">.</span><span class="n">quantity</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_complex_fft</span> <span class="o">=</span> <span class="n">check_and_assign_bool</span><span class="p">(</span><span class="n">complex_fft</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_unit</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_increment</span><span class="o">.</span><span class="n">unit</span>
+
+        <span class="nb">super</span><span class="p">(</span><span class="n">LinearDimension</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">unit</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_unit</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+        <span class="c1"># create a reciprocal dimension</span>
+        <span class="n">_reciprocal_unit</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_unit</span> <span class="o">**</span> <span class="o">-</span><span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span> <span class="o">=</span> <span class="n">ReciprocalVariable</span><span class="p">(</span>
+            <span class="n">unit</span><span class="o">=</span><span class="n">_reciprocal_unit</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">[</span><span class="s2">&quot;reciprocal&quot;</span><span class="p">]</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_get_coordinates</span><span class="p">()</span>
+
+    <span class="c1"># ----------------------------------------------------------------------- #</span>
+    <span class="c1">#                                  Methods                                #</span>
+    <span class="c1"># ----------------------------------------------------------------------- #</span>
+    <span class="k">def</span> <span class="nf">_swap</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_description</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_description</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_description</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_description</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_application</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_application</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_application</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_application</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_coordinates_offset</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_coordinates_offset</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_coordinates_offset</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_coordinates_offset</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_origin_offset</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_origin_offset</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_origin_offset</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_origin_offset</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_period</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_period</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_period</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_period</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_quantity_name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_quantity_name</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_quantity_name</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_quantity_name</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_label</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_label</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_label</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_label</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_unit</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_unit</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_unit</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_unit</span>
+
+    <span class="k">def</span> <span class="nf">_get_coordinates</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">_unit</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_unit</span>
+        <span class="n">_count</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_count</span>
+        <span class="n">_increment</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_increment</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">_unit</span><span class="p">)</span>
+
+        <span class="n">_index</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">_count</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float64</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_complex_fft</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">_count</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">_index</span> <span class="o">-=</span> <span class="n">_count</span> <span class="o">/</span> <span class="mi">2</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">_index</span> <span class="o">-=</span> <span class="p">(</span><span class="n">_count</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_coordinates</span> <span class="o">=</span> <span class="n">_index</span> <span class="o">*</span> <span class="n">_increment</span>
+
+    <span class="k">def</span> <span class="nf">_get_python_dictionary</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">obj</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="n">_type</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_description</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+            <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_description</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+
+        <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;count&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_count</span>
+        <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;increment&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ScalarQuantity</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">increment</span><span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">()</span>
+        <span class="n">obj</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_get_quantitative_dictionary</span><span class="p">())</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">complex_fft</span><span class="p">:</span>
+            <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;complex_fft&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="c1"># reciprocal dictionary</span>
+        <span class="n">reciprocal_obj</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_description</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+            <span class="n">reciprocal_obj</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_description</span>
+        <span class="n">reciprocal_obj</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_get_quantitative_dictionary</span><span class="p">())</span>
+        <span class="k">if</span> <span class="n">reciprocal_obj</span> <span class="o">==</span> <span class="p">{}:</span>
+            <span class="k">del</span> <span class="n">reciprocal_obj</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">obj</span><span class="p">[</span><span class="s2">&quot;reciprocal&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">reciprocal_obj</span>
+
+        <span class="k">return</span> <span class="n">obj</span>
+
+    <span class="c1"># ----------------------------------------------------------------------- #</span>
+    <span class="c1">#                                  Attributes                             #</span>
+    <span class="c1"># ----------------------------------------------------------------------- #</span>
+    <span class="c1"># @property</span>
+    <span class="c1"># def count(self):</span>
+    <span class="c1">#     r&quot;&quot;&quot;Total number of points along the linear dimension.&quot;&quot;&quot;</span>
+    <span class="c1">#     return deepcopy(self._count)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;Increment of the grid points along the linear dimension.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_increment</span><span class="p">)</span>
+
+    <span class="nd">@increment</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="n">allowed_types</span> <span class="o">=</span> <span class="p">(</span><span class="n">Quantity</span><span class="p">,</span> <span class="nb">str</span><span class="p">,</span> <span class="n">ScalarQuantity</span><span class="p">)</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s2">&quot;increment&quot;</span><span class="p">,</span> <span class="n">allowed_types</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_increment</span> <span class="o">=</span> <span class="n">ScalarQuantity</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_unit</span><span class="p">)</span><span class="o">.</span><span class="n">quantity</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_get_coordinates</span><span class="p">()</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">complex_fft</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;If True, orders the coordinates according to FFT output order.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_complex_fft</span><span class="p">)</span>
+
+    <span class="nd">@complex_fft</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">complex_fft</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_complex_fft</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s2">&quot;complex_fft&quot;</span><span class="p">,</span> <span class="nb">bool</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_get_coordinates</span><span class="p">()</span></div>
+</pre></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../../../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../../../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../../index.html" >Module code</a></li>
+        <li><a href="../../csdmpy.html" >csdmpy</a></li>
+        <li><a href="../dimensions.html" >csdmpy.dimensions</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

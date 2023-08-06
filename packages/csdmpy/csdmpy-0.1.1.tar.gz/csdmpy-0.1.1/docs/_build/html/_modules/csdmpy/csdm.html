@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>csdmpy.csdm &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../../index.html" />
+    <link rel="up" title="csdmpy" href="../csdmpy.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="../../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../index.html" >Module code</a></li>
+              <li><a href="../csdmpy.html" accesskey="U">csdmpy</a></li>
+            
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../../index.html">
+      <img class="logo" src="../../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <h1>Source code for csdmpy.csdm</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;CSDM.&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span>
+
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="kn">from</span> <span class="nn">copy</span> <span class="k">import</span> <span class="n">deepcopy</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">numpy.fft</span> <span class="k">import</span> <span class="n">fft</span>
+<span class="kn">from</span> <span class="nn">numpy.fft</span> <span class="k">import</span> <span class="n">fftshift</span>
+<span class="kn">from</span> <span class="nn">numpy.fft</span> <span class="k">import</span> <span class="n">ifft</span>
+<span class="kn">from</span> <span class="nn">numpy.fft</span> <span class="k">import</span> <span class="n">ifftshift</span>
+
+<span class="kn">from</span> <span class="nn">csdmpy.dependent_variables</span> <span class="k">import</span> <span class="n">DependentVariable</span>
+<span class="kn">from</span> <span class="nn">csdmpy.dimensions</span> <span class="k">import</span> <span class="n">Dimension</span>
+<span class="kn">from</span> <span class="nn">csdmpy.utils</span> <span class="k">import</span> <span class="n">validate</span>
+<span class="kn">from</span> <span class="nn">csdmpy.version</span> <span class="k">import</span> <span class="n">__version__</span>
+
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;CSDM&quot;</span><span class="p">]</span>
+
+
+<div class="viewcode-block" id="CSDM"><a class="viewcode-back" href="../../api/CSDM.html#csdmpy.csdm.CSDM">[docs]</a><span class="k">class</span> <span class="nc">CSDM</span><span class="p">:</span>
+    <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create an instance of a CSDM class.</span>
+
+<span class="sd">    This class is based on the root CSDM object of the core scientific dataset</span>
+<span class="sd">    (CSD) model. The class is a composition of the :ref:`dv_api` and</span>
+<span class="sd">    :ref:`dim_api` instances, where an instance of the :ref:`dv_api` class</span>
+<span class="sd">    describes a :math:`p`-component dependent variable, and an instance of the</span>
+<span class="sd">    :ref:`dim_api` class describes a dimension of a :math:`d`-dimensional</span>
+<span class="sd">    space. Additional attributes of this class is listed below.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">__latest_CSDM_version__</span> <span class="o">=</span> <span class="s2">&quot;1.0&quot;</span>  <span class="c1"># __version__</span>
+    <span class="n">_old_compatible_versions</span> <span class="o">=</span> <span class="p">()</span>
+    <span class="n">_old_incompatible_versions</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;0.0.9&quot;</span><span class="p">,</span> <span class="s2">&quot;0.0.10&quot;</span><span class="p">,</span> <span class="s2">&quot;0.0.11&quot;</span><span class="p">)</span>
+
+    <span class="vm">__slots__</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s2">&quot;_dimensions&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_dependent_variables&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_tags&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_read_only&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_version&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_timestamp&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_geographic_coordinate&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_description&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_application&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;_filename&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Python module from reading and writing csdm files.&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">version</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">version</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__latest_CSDM_version__</span>
+        <span class="k">elif</span> <span class="n">version</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_old_incompatible_versions</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span>
+                <span class="p">(</span>
+                    <span class="s2">&quot;Files created with version </span><span class="si">{0}</span><span class="s2"> of the CSD Model &quot;</span>
+                    <span class="s2">&quot;are no longer supported.&quot;</span>
+                <span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">version</span><span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dependent_variables</span> <span class="o">=</span> <span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dimensions</span> <span class="o">=</span> <span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_tags</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_read_only</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_version</span> <span class="o">=</span> <span class="n">version</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_timestamp</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_geographic_coordinate</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_description</span> <span class="o">=</span> <span class="n">description</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_application</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_filename</span> <span class="o">=</span> <span class="n">filename</span>
+
+    <span class="c1"># ----------------------------------------------------------------------- #</span>
+    <span class="c1">#                                Attributes                               #</span>
+    <span class="c1"># ----------------------------------------------------------------------- #</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">dependent_variables</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Tuple of :ref:`dv_api` instances.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dependent_variables</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">dimensions</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Tuple of :ref:`dim_api` instances.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dimensions</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">tags</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;List of tags attached to the dataset.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_tags</span>
+
+    <span class="nd">@tags</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">tags</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_tags</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s2">&quot;tags&quot;</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">read_only</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        If True, the data-file is serialized as read only, otherwise, False.</span>
+
+<span class="sd">        By default, the :ref:`csdm_api` object loads a copy of the .csdf(e)</span>
+<span class="sd">        file, irrespective of the value of the `read_only` attribute.</span>
+<span class="sd">        The value of this attribute may be toggled at any time after the file</span>
+<span class="sd">        import.</span>
+<span class="sd">        When serializing the `.csdf(e)` file, if the value of the `read_only`</span>
+<span class="sd">        attribute is found True, the file will be serialized as read only.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_read_only</span><span class="p">)</span>
+
+    <span class="nd">@read_only</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">read_only</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_read_only</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s2">&quot;read_only&quot;</span><span class="p">,</span> <span class="nb">bool</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">version</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Version number of the CSD model on file.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_version</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">timestamp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Timestamp from when the file was last serialized.</span>
+
+<span class="sd">        The timestamp stamp is a string representation of the Coordinated</span>
+<span class="sd">        Universal Time (UTC) formatted according to the iso-8601 standard.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: When the attribute is modified.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_timestamp</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">geographic_coordinate</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Geographic coordinate, if present, from where the file was last serialized.</span>
+
+<span class="sd">        The geographic coordinates correspond to the location where the file was last</span>
+<span class="sd">        serialized. If present, the geographic coordinates are described with three</span>
+<span class="sd">        attributes, the required latitude and longitude, and an optional altitude.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: When the attribute is modified.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_geographic_coordinate</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Description of the dataset.</span>
+
+<span class="sd">        The default value is an empty string, &#39;&#39;.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(data.description)</span>
+<span class="sd">            A simulated sine curve.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A string of UTF-8 allows characters describing the dataset.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            TypeError: When the assigned value is not a string.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_description</span>
+
+    <span class="nd">@description</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">description</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_description</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">application</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Application metadata dictionary of the CSDM object.</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(data.application)</span>
+<span class="sd">            {}</span>
+
+<span class="sd">        By default, the application attribute is an empty dictionary, that is,</span>
+<span class="sd">        the application metadata stored by the previous application is ignored</span>
+<span class="sd">        upon file import.</span>
+
+<span class="sd">        The application metadata may, however, be retained with a request via</span>
+<span class="sd">        the :meth:`~csdmpy.load` method. This feature may be useful to related</span>
+<span class="sd">        applications where application metadata might contain additional information.</span>
+<span class="sd">        The attribute may be updated with a python dictionary.</span>
+
+<span class="sd">        The application attribute is where an application can place its own</span>
+<span class="sd">        metadata as a python dictionary object containing application specific</span>
+<span class="sd">        metadata, using a reverse domain name notation string as the attribute</span>
+<span class="sd">        key, for example,</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; data.application = {</span>
+<span class="sd">            ...     &quot;com.example.myApp&quot; : {</span>
+<span class="sd">            ...         &quot;myApp_key&quot;: &quot;myApp_metadata&quot;</span>
+<span class="sd">            ...      }</span>
+<span class="sd">            ... }</span>
+<span class="sd">            &gt;&gt;&gt; print(data.application)</span>
+<span class="sd">            {&#39;com.example.myApp&#39;: {&#39;myApp_key&#39;: &#39;myApp_metadata&#39;}}</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            Python dictionary object with the application metadata.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_application</span><span class="p">)</span>
+
+    <span class="nd">@application</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">application</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_application</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s2">&quot;application&quot;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">filename</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Local file address of the current file. &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_filename</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">data_structure</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Json serialized string describing the CSDM class instance.</span>
+
+<span class="sd">        The data_structure attribute is only intended for a quick preview of</span>
+<span class="sd">        the dataset. This JSON serialized string from this attribute avoids</span>
+<span class="sd">        displaying large datasets. Do not use the value of this attribute to</span>
+<span class="sd">        save the data to a file, instead use the :meth:`~csdmpy.CSDM.save`</span>
+<span class="sd">        methods of the instance.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: When modified.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">dictionary</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_python_dictionary</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">filename</span><span class="p">,</span> <span class="n">print_function</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">dictionary</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="c1"># ----------------------------------------------------------------------- #</span>
+    <span class="c1">#                                  Methods                                #</span>
+    <span class="c1"># ----------------------------------------------------------------------- #</span>
+
+    <span class="k">def</span> <span class="nf">_reshape</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Reshapes the components array.</span>
+
+<span class="sd">        The array is reshaped to :math:`(p \times N_{d-1} \times ... N_1 \times N_0)`</span>
+<span class="sd">        where :math:`p` is the number of components and :math:`N_k` is the number of</span>
+<span class="sd">        points along the :math:`k^\mathrm{th}` dimension.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">:</span>
+            <span class="n">item</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">subtype</span>
+            <span class="n">sub_shape</span> <span class="o">=</span> <span class="p">(</span><span class="n">item</span><span class="o">.</span><span class="n">quantity_type</span><span class="o">.</span><span class="n">p</span><span class="p">,)</span> <span class="o">+</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">shape</span><span class="p">)</span>
+            <span class="n">dtype</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">numeric_type</span><span class="o">.</span><span class="n">dtype</span>
+
+            <span class="n">grid_points</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">sub_shape</span><span class="p">)</span><span class="o">.</span><span class="n">prod</span><span class="p">()</span>
+            <span class="n">components_size</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">_components</span><span class="o">.</span><span class="n">size</span>
+
+            <span class="k">if</span> <span class="n">grid_points</span> <span class="o">!=</span> <span class="n">components_size</span> <span class="ow">and</span> <span class="n">item</span><span class="o">.</span><span class="n">_sparse_sampling</span> <span class="o">==</span> <span class="p">{}:</span>
+                <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+                    <span class="p">(</span>
+                        <span class="n">f</span><span class="s2">&quot;The number of elements in the components array, &quot;</span>
+                        <span class="n">f</span><span class="s2">&quot;</span><span class="si">{components_size}</span><span class="s2">, is not consistent with the total &quot;</span>
+                        <span class="n">f</span><span class="s2">&quot;number of grid points, </span><span class="si">{grid_points}</span><span class="s2">.&quot;</span>
+                    <span class="p">)</span>
+                <span class="p">)</span>
+            <span class="k">if</span> <span class="n">item</span><span class="o">.</span><span class="n">_sparse_sampling</span> <span class="o">==</span> <span class="p">{}:</span>
+                <span class="n">item</span><span class="o">.</span><span class="n">_components</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span>
+                    <span class="n">item</span><span class="o">.</span><span class="n">_components</span><span class="p">[:,</span> <span class="p">:</span><span class="n">grid_points</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">sub_shape</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span>
+                <span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">item</span><span class="o">.</span><span class="n">_components</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">fill_sparse_space</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="n">sub_shape</span><span class="p">,</span> <span class="n">dtype</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">fill_sparse_space</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">item</span><span class="p">,</span> <span class="n">shape</span><span class="p">,</span> <span class="n">dtype</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Fill sparse grid using numpy broadcasting.&quot;&quot;&quot;</span>
+        <span class="n">components</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">shape</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
+        <span class="n">sparse_dimensions_indexes</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">_sparse_sampling</span><span class="o">.</span><span class="n">_sparse_dimensions_indexes</span>
+        <span class="n">sgs</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">_sparse_sampling</span><span class="o">.</span><span class="n">_sparse_grid_vertexes</span><span class="o">.</span><span class="n">size</span>
+        <span class="n">grid_vertexes</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">_sparse_sampling</span><span class="o">.</span><span class="n">_sparse_grid_vertexes</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span>
+            <span class="nb">int</span><span class="p">(</span><span class="n">sgs</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">sparse_dimensions_indexes</span><span class="p">)),</span> <span class="nb">len</span><span class="p">(</span><span class="n">sparse_dimensions_indexes</span><span class="p">)</span>
+        <span class="p">)</span><span class="o">.</span><span class="n">T</span>
+
+        <span class="n">vertexes</span> <span class="o">=</span> <span class="p">[</span><span class="nb">slice</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">shape</span><span class="p">))]</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">sparse_index</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sparse_dimensions_indexes</span><span class="p">):</span>
+            <span class="n">vertexes</span><span class="p">[</span><span class="n">sparse_index</span><span class="p">]</span> <span class="o">=</span> <span class="n">grid_vertexes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+
+        <span class="n">vertexes</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">vertexes</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">_new_shape</span> <span class="o">=</span> <span class="n">components</span><span class="p">[</span><span class="n">vertexes</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span>
+
+        <span class="n">components</span><span class="p">[</span><span class="n">vertexes</span><span class="p">]</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">components</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">_new_shape</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">components</span>
+
+<div class="viewcode-block" id="CSDM.add_dimension"><a class="viewcode-back" href="../../api/CSDM.html#csdmpy.csdm.CSDM.add_dimension">[docs]</a>    <span class="k">def</span> <span class="nf">add_dimension</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Add a new :ref:`dim_api` instance to the :ref:`csdm_api` instance.</span>
+
+<span class="sd">        There are three ways to add a new independent variable.</span>
+
+<span class="sd">        *From a python dictionary containing valid keywords.*</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; import csdmpy as cp</span>
+<span class="sd">            &gt;&gt;&gt; datamodel = cp.new()</span>
+<span class="sd">            &gt;&gt;&gt; py_dictionary = {</span>
+<span class="sd">            ...     &#39;type&#39;: &#39;linear&#39;,</span>
+<span class="sd">            ...     &#39;increment&#39;: &#39;5 G&#39;,</span>
+<span class="sd">            ...     &#39;count&#39;: 50,</span>
+<span class="sd">            ...     &#39;coordinates_offset&#39;: &#39;-10 mT&#39;</span>
+<span class="sd">            ... }</span>
+<span class="sd">            &gt;&gt;&gt; datamodel.add_dimension(py_dictionary)</span>
+
+<span class="sd">        *From a list of valid keyword arguments.*</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; datamodel.add_dimension(</span>
+<span class="sd">            ...     type = &#39;linear&#39;,</span>
+<span class="sd">            ...     increment = &#39;5 G&#39;,</span>
+<span class="sd">            ...     count = 50,</span>
+<span class="sd">            ...     coordinates_offset = &#39;-10 mT&#39;</span>
+<span class="sd">            ... )</span>
+
+<span class="sd">        *From an* :ref:`dim_api` *instance.*</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; from csdmpy import Dimension</span>
+<span class="sd">            &gt;&gt;&gt; datamodel = cp.new()</span>
+<span class="sd">            &gt;&gt;&gt; var1 = Dimension(type = &#39;linear&#39;,</span>
+<span class="sd">            ...                  increment = &#39;5 G&#39;,</span>
+<span class="sd">            ...                  count = 50,</span>
+<span class="sd">            ...                  coordinates_offset = &#39;-10 mT&#39;)</span>
+<span class="sd">            &gt;&gt;&gt; datamodel.add_dimension(var1)</span>
+<span class="sd">            &gt;&gt;&gt; print(datamodel.data_structure)</span>
+<span class="sd">            {</span>
+<span class="sd">              &quot;csdm&quot;: {</span>
+<span class="sd">                &quot;version&quot;: &quot;1.0&quot;,</span>
+<span class="sd">                &quot;dimensions&quot;: [</span>
+<span class="sd">                  {</span>
+<span class="sd">                    &quot;type&quot;: &quot;linear&quot;,</span>
+<span class="sd">                    &quot;count&quot;: 50,</span>
+<span class="sd">                    &quot;increment&quot;: &quot;5.0 G&quot;,</span>
+<span class="sd">                    &quot;coordinates_offset&quot;: &quot;-10.0 mT&quot;,</span>
+<span class="sd">                    &quot;quantity_name&quot;: &quot;magnetic flux density&quot;</span>
+<span class="sd">                  }</span>
+<span class="sd">                ],</span>
+<span class="sd">                &quot;dependent_variables&quot;: []</span>
+<span class="sd">              }</span>
+<span class="sd">            }</span>
+
+<span class="sd">        For the last method, the instance ``var1`` is added to the</span>
+<span class="sd">        ``datamodel`` as a reference, `i.e.`, if the instance ``var1`` is</span>
+<span class="sd">        destroyed, the ``datamodel`` instance will become corrupt. As a</span>
+<span class="sd">        recommendation always pass a copy of the :ref:`dim_api` instance to the</span>
+<span class="sd">        :meth:`~csdmpy.csdm.CSDM.add_dimension` method. We provide</span>
+<span class="sd">        the later alternative for it is useful for copying an :ref:`dim_api`</span>
+<span class="sd">        instance from one :ref:`csdm_api` instance to another.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">args</span> <span class="o">!=</span> <span class="p">()</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">Dimension</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_dimensions</span> <span class="o">+=</span> <span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">],)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_dimensions</span> <span class="o">+=</span> <span class="p">(</span><span class="n">Dimension</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">),)</span></div>
+
+<div class="viewcode-block" id="CSDM.add_dependent_variable"><a class="viewcode-back" href="../../api/CSDM.html#csdmpy.csdm.CSDM.add_dependent_variable">[docs]</a>    <span class="k">def</span> <span class="nf">add_dependent_variable</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Add a new :ref:`dv_api` instance to the :ref:`csdm_api` instance.</span>
+
+<span class="sd">        There are again three ways to add a new dependent variable instance.</span>
+
+<span class="sd">        *From a python dictionary containing valid keywords.*</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; import numpy as np</span>
+
+<span class="sd">            &gt;&gt;&gt; datamodel = cp.new()</span>
+
+<span class="sd">            &gt;&gt;&gt; numpy_array = (100*np.random.rand(3,50)).astype(np.uint8)</span>
+<span class="sd">            &gt;&gt;&gt; py_dictionary = {</span>
+<span class="sd">            ...     &#39;type&#39;: &#39;internal&#39;,</span>
+<span class="sd">            ...     &#39;components&#39;: numpy_array,</span>
+<span class="sd">            ...     &#39;name&#39;: &#39;star&#39;,</span>
+<span class="sd">            ...     &#39;unit&#39;: &#39;W s&#39;,</span>
+<span class="sd">            ...     &#39;quantity_name&#39;: &#39;energy&#39;,</span>
+<span class="sd">            ...     &#39;quantity_type&#39;: &#39;pixel_3&#39;</span>
+<span class="sd">            ... }</span>
+<span class="sd">            &gt;&gt;&gt; datamodel.add_dependent_variable(py_dictionary)</span>
+
+<span class="sd">        *From a list of valid keyword arguments.*</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; datamodel.add_dependent_variable(type=&#39;internal&#39;,</span>
+<span class="sd">            ...                                  name=&#39;star&#39;,</span>
+<span class="sd">            ...                                  unit=&#39;W s&#39;,</span>
+<span class="sd">            ...                                  quantity_type=&#39;pixel_3&#39;,</span>
+<span class="sd">            ...                                  components=numpy_array)</span>
+
+<span class="sd">        *From a* :ref:`dv_api` *instance.*</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; from csdmpy import DependentVariable</span>
+<span class="sd">            &gt;&gt;&gt; var1 = DependentVariable(type=&#39;internal&#39;,</span>
+<span class="sd">            ...                          name=&#39;star&#39;,</span>
+<span class="sd">            ...                          unit=&#39;W s&#39;,</span>
+<span class="sd">            ...                          quantity_type=&#39;pixel_3&#39;,</span>
+<span class="sd">            ...                          components=numpy_array)</span>
+<span class="sd">            &gt;&gt;&gt; datamodel.add_dependent_variable(var1)</span>
+
+<span class="sd">        If passing a :ref:`dv_api` instance, as a general recommendation,</span>
+<span class="sd">        always pass a copy of the DependentVariable instance to the</span>
+<span class="sd">        :meth:`~csdmpy.csdm.CSDM.add_dependent_variable` method. We provide</span>
+<span class="sd">        the later alternative as it is useful for copying a DependentVariable</span>
+<span class="sd">        instance from one :ref:`csdm_api` instance to another.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">args</span> <span class="o">!=</span> <span class="p">()</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">DependentVariable</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_dependent_variables</span> <span class="o">+=</span> <span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">],)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_dependent_variables</span> <span class="o">+=</span> <span class="p">(</span>
+                <span class="n">DependentVariable</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">filename</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">),</span>
+            <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dependent_variables</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">encoding</span> <span class="o">=</span> <span class="s2">&quot;base64&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dependent_variables</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">type</span> <span class="o">=</span> <span class="s2">&quot;internal&quot;</span></div>
+
+    <span class="k">def</span> <span class="nf">_get_python_dictionary</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="n">print_function</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="n">__latest_CSDM_version__</span>
+    <span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Return the CSDM instance as a python dictionary.&quot;&quot;&quot;</span>
+        <span class="n">dictionary</span> <span class="o">=</span> <span class="p">{}</span>
+
+        <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;version&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">version</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">read_only</span><span class="p">:</span>
+            <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;read_only&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">read_only</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+            <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;timestamp&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">timestamp</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">geographic_coordinate</span> <span class="o">!=</span> <span class="p">{}:</span>
+            <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;geographic_coordinate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">geographic_coordinate</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">tags</span> <span class="o">!=</span> <span class="p">[]:</span>
+            <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;tags&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tags</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">description</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+            <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;description&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">description</span>
+        <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;dimensions&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;dependent_variables&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dimensions</span><span class="p">)):</span>
+            <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;dimensions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dimensions</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">_get_python_dictionary</span><span class="p">())</span>
+
+        <span class="n">_length_of_dependent_variables</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_length_of_dependent_variables</span><span class="p">):</span>
+            <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;dependent_variables&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">_get_python_dictionary</span><span class="p">(</span>
+                    <span class="n">filename</span><span class="o">=</span><span class="n">filename</span><span class="p">,</span>
+                    <span class="n">dataset_index</span><span class="o">=</span><span class="n">i</span><span class="p">,</span>
+                    <span class="n">for_display</span><span class="o">=</span><span class="n">print_function</span><span class="p">,</span>
+                    <span class="n">version</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">__latest_CSDM_version__</span><span class="p">,</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="n">csdm</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">csdm</span><span class="p">[</span><span class="s2">&quot;csdm&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dictionary</span>
+        <span class="k">return</span> <span class="n">csdm</span>
+
+<div class="viewcode-block" id="CSDM.save"><a class="viewcode-back" href="../../api/CSDM.html#csdmpy.csdm.CSDM.save">[docs]</a>    <span class="k">def</span> <span class="nf">save</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">filename</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="n">read_only</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">version</span><span class="o">=</span><span class="n">__latest_CSDM_version__</span><span class="p">,</span>
+        <span class="n">output_device</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Serialize the :ref:`CSDM_api` instance as a JSON data-exchange file.</span>
+
+<span class="sd">        The serialized file is saved with two file extensions.</span>
+<span class="sd">        When every instance of the DependentVariable class from the CSDM</span>
+<span class="sd">        instance has an `internal` subtype, the corresponding CSDM instance is</span>
+<span class="sd">        serialized with a `.csdf` file extension.</span>
+<span class="sd">        If any single DependentVariable instance has an `external` subtype, the</span>
+<span class="sd">        CSDM instance is serialized with a `.csdfe` file extension.</span>
+<span class="sd">        We use the two different file extensions to alert the end use of the</span>
+<span class="sd">        possible deserialization error associated with the `.csdfe` file</span>
+<span class="sd">        extensions when the external data file is inaccessible.</span>
+
+<span class="sd">        .. Important::</span>
+<span class="sd">            Irrespective of the subtypes from the serialized JSON file, by default,</span>
+<span class="sd">            all instances of DependentVariable class are assigned an `internal`</span>
+<span class="sd">            subtype upon import with `base64` as the value of the `encoding` attribute.</span>
+<span class="sd">            The user may, however, change these attribute at any time after the</span>
+<span class="sd">            file import and before serializing to a file.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            filename (str): The filename of the serialized file.</span>
+<span class="sd">            read_only (bool): If true, the file is serialized as read_only.</span>
+<span class="sd">            version (str): The file is serialized with the given CSD model version.</span>
+<span class="sd">            output_device(object): Object where the data is written.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; data.save(&#39;my_file.csdf&#39;)</span>
+
+<span class="sd">        .. testcleanup::</span>
+<span class="sd">            import os</span>
+<span class="sd">            os.remove(&#39;my_file.csdf&#39;)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">dictionary</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_python_dictionary</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="n">version</span><span class="p">)</span>
+
+        <span class="n">timestamp</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">()</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()[:</span><span class="o">-</span><span class="mi">7</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;Z&quot;</span>
+        <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;csdm&quot;</span><span class="p">][</span><span class="s2">&quot;timestamp&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">timestamp</span>
+
+        <span class="k">if</span> <span class="n">read_only</span><span class="p">:</span>
+            <span class="n">dictionary</span><span class="p">[</span><span class="s2">&quot;csdm&quot;</span><span class="p">][</span><span class="s2">&quot;read_only&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">read_only</span>
+
+        <span class="k">if</span> <span class="n">output_device</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+                <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span>
+                    <span class="n">dictionary</span><span class="p">,</span>
+                    <span class="n">outfile</span><span class="p">,</span>
+                    <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                    <span class="n">sort_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                    <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+                    <span class="n">allow_nan</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                <span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span>
+                <span class="n">dictionary</span><span class="p">,</span>
+                <span class="n">output_device</span><span class="p">,</span>
+                <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                <span class="n">sort_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+                <span class="n">allow_nan</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="p">)</span></div>
+
+<div class="viewcode-block" id="CSDM.copy"><a class="viewcode-back" href="../../api/CSDM.html#csdmpy.csdm.CSDM.copy">[docs]</a>    <span class="k">def</span> <span class="nf">copy</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Create a copy of the current CSDM instance.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A CSDM instance.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">deepcopy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span></div>
+
+    <span class="c1"># def replace(self,</span>
+    <span class="c1">#             controlled_variable=None,</span>
+    <span class="c1">#             cv_index=-1,</span>
+    <span class="c1">#             uncontrolled_variable=None,</span>
+    <span class="c1">#             uv_index=-1):</span>
+    <span class="c1">#     &quot;&quot;&quot;</span>
+    <span class="c1">#     Replace the controlled or the uncontrolled variable at the index.</span>
+
+    <span class="c1">#     :params: controlled_variable: A new ControlledVariable object or a</span>
+    <span class="c1">#         python dictionary corresponding to a new ControlledVariable</span>
+    <span class="c1">#         object.</span>
+    <span class="c1">#     :params: cv_index: An integer corresponding to the</span>
+    <span class="c1">#         UncontrolledVariable object to the updated.</span>
+    <span class="c1">#     :params: uncontrolled_variable: A new UncontrolledVariable object or</span>
+    <span class="c1">#         a python dictionary corresponding to a new UncontrolledVariable</span>
+    <span class="c1">#         object.</span>
+    <span class="c1">#     :params: uv_index: An integer corresponding to the</span>
+    <span class="c1">#         UncontrolledVariable object to the updated.</span>
+
+    <span class="c1">#     .. todo::</span>
+    <span class="c1">#         Well, write the method.</span>
+    <span class="c1">#     &quot;&quot;&quot;</span>
+    <span class="c1">#     pass</span>
+
+    <span class="k">def</span> <span class="nf">_check_dimension_indices</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="o">=-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">def</span> <span class="nf">_correct_index</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+                <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">i</span> <span class="o">+=</span> <span class="n">d</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="n">d</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="p">(</span>
+                        <span class="s2">&quot;`index` </span><span class="si">{0}</span><span class="s2"> cannot be greater than the number of &quot;</span>
+                        <span class="s2">&quot;independent variables, </span><span class="si">{1}</span><span class="s2">.&quot;</span>
+                    <span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">d</span><span class="p">)</span>
+                <span class="p">)</span>
+            <span class="k">return</span> <span class="o">-</span><span class="mi">1</span> <span class="o">-</span> <span class="n">i</span>
+
+        <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Index/Indices are expected as integer(s).&quot;</span>
+
+        <span class="n">d</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dimensions</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="p">(</span><span class="nb">tuple</span><span class="p">,</span> <span class="nb">list</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">)):</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">index</span><span class="p">):</span>
+                <span class="n">index</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">_correct_index</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">index</span>
+
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">_correct_index</span><span class="p">(</span><span class="n">index</span><span class="p">)]</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_get_new_csdmodel_object</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+        <span class="n">index</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_check_dimension_indices</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
+        <span class="n">new</span> <span class="o">=</span> <span class="n">CSDM</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">variable</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">:</span>
+            <span class="n">y</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="n">variable</span><span class="o">.</span><span class="n">components</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">index</span><span class="p">)</span>
+            <span class="n">new</span><span class="o">.</span><span class="n">add_dependent_variable</span><span class="p">(</span>
+                <span class="n">components</span><span class="o">=</span><span class="n">y</span><span class="p">,</span>
+                <span class="n">name</span><span class="o">=</span><span class="n">variable</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
+                <span class="n">quantity_name</span><span class="o">=</span><span class="n">variable</span><span class="o">.</span><span class="n">quantity_name</span><span class="p">,</span>
+                <span class="n">encoding</span><span class="o">=</span><span class="n">variable</span><span class="o">.</span><span class="n">encoding</span><span class="p">,</span>
+                <span class="n">numeric_type</span><span class="o">=</span><span class="n">variable</span><span class="o">.</span><span class="n">numeric_type</span><span class="p">,</span>
+                <span class="n">quantity_type</span><span class="o">=</span><span class="n">variable</span><span class="o">.</span><span class="n">quantity_type</span><span class="p">,</span>
+                <span class="n">component_labels</span><span class="o">=</span><span class="n">variable</span><span class="o">.</span><span class="n">component_labels</span><span class="p">,</span>
+                <span class="n">components_uri</span><span class="o">=</span><span class="n">variable</span><span class="o">.</span><span class="n">components_uri</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">variable</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dimensions</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+                <span class="n">new</span><span class="o">.</span><span class="n">add_dimension</span><span class="p">(</span><span class="n">variable</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">new</span>
+
+    <span class="k">def</span> <span class="nf">sum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dimensions</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Sum of the component values along the given dimension `dimensions`.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            dimensions: An integer or tuple of `m` integers cooresponding to the</span>
+<span class="sd">                        index/indices of dimensions along which the sum of the</span>
+<span class="sd">                        dependent variables component values are performed.</span>
+
+<span class="sd">        Return:</span>
+<span class="sd">            A CSDM object with `d-m` dimensions where `d` is the</span>
+<span class="sd">            number of dimensions in the original csdm data.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">func</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_new_csdmodel_object</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">dimensions</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">prod</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dimensions</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Product of the component values along the given dimension `dimensions`.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            dimensions: An integer or tuple of `m` integers cooresponding to the</span>
+<span class="sd">                        index/indices of dimensions along which the product of the</span>
+<span class="sd">                        dependent variables component values are performed.</span>
+
+<span class="sd">        Return:</span>
+<span class="sd">            A CSDM object with `d-m` dimensions where `d` is the number of</span>
+<span class="sd">            dimensions in the original csdm dataset.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">func</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">prod</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_new_csdmodel_object</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">dimensions</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">fft</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dimensions</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Perform a FFT along the along the given dimension `dimensions`.</span>
+
+<span class="sd">        Needs debugging.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">indexes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_check_dimension_indices</span><span class="p">(</span><span class="n">dimensions</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="n">indexes</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">dimensions</span><span class="p">[</span><span class="n">index</span><span class="p">]</span><span class="o">.</span><span class="n">type</span> <span class="o">!=</span> <span class="s2">&quot;linear&quot;</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span>
+                    <span class="s2">&quot;FFT is available for dimensions with type &#39;linear&#39;.&quot;</span>
+                <span class="p">)</span>
+
+            <span class="n">dimension_object</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">dimensions</span><span class="p">[</span><span class="n">index</span><span class="p">]</span><span class="o">.</span><span class="n">subtype</span>
+            <span class="n">unit_in</span> <span class="o">=</span> <span class="n">dimension_object</span><span class="o">.</span><span class="n">_unit</span>
+            <span class="c1"># swap the values of object with the respective reciprocal object.</span>
+            <span class="n">dimension_object</span><span class="o">.</span><span class="n">_swap</span><span class="p">()</span>
+
+            <span class="c1"># compute the reciprocal increment using Nyquist-shannan theorem.</span>
+            <span class="n">_reciprocal_increment</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="p">(</span>
+                <span class="n">dimension_object</span><span class="o">.</span><span class="n">_count</span> <span class="o">*</span> <span class="n">dimension_object</span><span class="o">.</span><span class="n">_increment</span>
+            <span class="p">)</span>
+
+            <span class="n">unit</span> <span class="o">=</span> <span class="n">dimension_object</span><span class="o">.</span><span class="n">_unit</span>
+            <span class="n">dimension_object</span><span class="o">.</span><span class="n">_increment</span> <span class="o">=</span> <span class="n">_reciprocal_increment</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">unit</span><span class="p">)</span>
+
+            <span class="c1"># get the coordinates of the reciprocal dimension.</span>
+            <span class="n">dimension_object</span><span class="o">.</span><span class="n">_get_coordinates</span><span class="p">()</span>
+
+        <span class="n">ndim</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dimensions</span><span class="p">)</span>
+
+        <span class="c1"># toggle the value of the complex_fft attribute</span>
+        <span class="k">if</span> <span class="n">dimension_object</span><span class="o">.</span><span class="n">_complex_fft</span><span class="p">:</span>
+            <span class="n">phase</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span>
+                <span class="mi">2</span><span class="n">j</span>
+                <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span>
+                <span class="o">*</span> <span class="n">dimension_object</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_coordinates_offset</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">unit_in</span><span class="p">)</span><span class="o">.</span><span class="n">value</span>
+                <span class="o">*</span> <span class="n">dimension_object</span><span class="o">.</span><span class="n">_coordinates</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">unit</span><span class="p">)</span><span class="o">.</span><span class="n">value</span>
+            <span class="p">)</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">)):</span>
+                <span class="n">signal_ft</span> <span class="o">=</span> <span class="n">ifft</span><span class="p">(</span>
+                    <span class="n">ifftshift</span><span class="p">(</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_components</span><span class="p">,</span> <span class="n">axes</span><span class="o">=</span><span class="n">index</span>
+                    <span class="p">)</span>
+                    <span class="o">*</span> <span class="n">get_broadcase_shape</span><span class="p">(</span><span class="n">phase</span><span class="p">,</span> <span class="n">ndim</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">index</span><span class="p">),</span>
+                    <span class="n">axis</span><span class="o">=</span><span class="n">index</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_components</span> <span class="o">=</span> <span class="n">signal_ft</span>
+            <span class="n">dimension_object</span><span class="o">.</span><span class="n">_complex_fft</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">else</span><span class="p">:</span>  <span class="c1"># FFT is false</span>
+            <span class="c1"># calculate the phase that will be applied to the fft amplitudes.</span>
+            <span class="n">phase</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span>
+                <span class="mi">2</span><span class="n">j</span>
+                <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span>
+                <span class="o">*</span> <span class="n">dimension_object</span><span class="o">.</span><span class="n">reciprocal</span><span class="o">.</span><span class="n">_coordinates_offset</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">unit_in</span><span class="p">)</span><span class="o">.</span><span class="n">value</span>
+                <span class="o">*</span> <span class="n">dimension_object</span><span class="o">.</span><span class="n">_coordinates</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">unit</span><span class="p">)</span><span class="o">.</span><span class="n">value</span>
+            <span class="p">)</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">)):</span>
+                <span class="n">signal_ft</span> <span class="o">=</span> <span class="n">fftshift</span><span class="p">(</span>
+                    <span class="n">fft</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_components</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">index</span><span class="p">)</span>
+                    <span class="o">*</span> <span class="n">get_broadcase_shape</span><span class="p">(</span><span class="n">phase</span><span class="p">,</span> <span class="n">ndim</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">index</span><span class="p">),</span>
+                    <span class="n">axes</span><span class="o">=</span><span class="n">index</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_components</span> <span class="o">=</span> <span class="n">signal_ft</span>
+            <span class="n">dimension_object</span><span class="o">.</span><span class="n">_complex_fft</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">)):</span>
+            <span class="n">signal_ft</span> <span class="o">=</span> <span class="n">fftshift</span><span class="p">(</span>
+                <span class="n">fft</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_components</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">index</span><span class="p">)</span>
+                <span class="o">*</span> <span class="n">get_broadcase_shape</span><span class="p">(</span><span class="n">phase</span><span class="p">,</span> <span class="n">ndim</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">index</span><span class="p">),</span>
+                <span class="n">axes</span><span class="o">=-</span><span class="n">index</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="p">)</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_components</span> <span class="o">=</span> <span class="n">signal_ft</span></div>
+
+        <span class="c1"># self.dimensions[index].gcv._reciprocal()</span>
+        <span class="c1"># self._toggle_complex_fft(self.dimensions[index])</span>
+
+
+<span class="c1">#     def __add__(self, other):</span>
+<span class="c1">#         &quot;&quot;&quot;</span>
+<span class="c1">#         Add two CSDM instances.</span>
+
+<span class="c1">#         We follow a safe rule---the addition of two CSDM instances</span>
+<span class="c1">#         will only be successfull when the attributes of the corresponding</span>
+<span class="c1">#         ControlledVariable instances are identical.</span>
+<span class="c1">#         &quot;&quot;&quot;</span>
+<span class="c1">#         if not _compare_cv_objects(self, other):</span>
+<span class="c1">#             raise Exception(&quot;Cannot add&quot;)</span>
+
+<span class="c1">#         dim1 = len(self.dependent_variables)</span>
+<span class="c1">#         dim2 = len(other.dependent_variables)</span>
+
+<span class="c1">#         if dim1 != dim2:</span>
+<span class="c1">#             raise Exception(</span>
+<span class="c1">#                 (</span>
+<span class="c1">#                     &quot;Cannot add {0} and {1}. They have differnet &quot;</span>
+<span class="c1">#                     &quot;number of uncontrolled variables.&quot;</span>
+<span class="c1">#                 ).format(self.__class__.__name__, other.__class__.__name__)</span>
+<span class="c1">#             )</span>
+
+<span class="c1">#         d1 = deepcopy(self)</span>
+<span class="c1">#         for i in range(dim1):</span>
+<span class="c1">#             if _compare_uv(</span>
+<span class="c1">#                 self.dependent_variables[i],</span>
+<span class="c1">#                 other.dependent_variables[i]</span>
+<span class="c1">#             ):</span>
+<span class="c1">#                 d1.dependent_variables[i].components += \</span>
+<span class="c1">#                     other.dependent_variables[i].components</span>
+
+<span class="c1">#         return d1</span>
+
+<span class="c1">#     def __sub__(self, other):</span>
+<span class="c1">#         &quot;&quot;&quot;</span>
+<span class="c1">#         Subtract two CSDM instances.</span>
+
+<span class="c1">#         We follow a safe rule---the subtraction of two CSDM instances</span>
+<span class="c1">#         will only be successfull when the attributes of the corresponding</span>
+<span class="c1">#         ControlledVariable instances are identical.</span>
+<span class="c1">#         &quot;&quot;&quot;</span>
+<span class="c1">#         pass</span>
+
+<span class="c1">#     def __mul__(self, other):</span>
+<span class="c1">#         &quot;&quot;&quot;</span>
+<span class="c1">#         Multiply two CSDM instances.</span>
+
+<span class="c1">#         We follow a safe rule---the multiplication of two CSDM instances</span>
+<span class="c1">#         will only be successfull when the attributes of the corresponding</span>
+<span class="c1">#         ControlledVariable instances are identical.</span>
+<span class="c1">#         &quot;&quot;&quot;</span>
+<span class="c1">#         pass</span>
+
+<span class="c1">#     def __div__(self, other):</span>
+<span class="c1">#         &quot;&quot;&quot;</span>
+<span class="c1">#         Divide two CSDM instances.</span>
+
+<span class="c1">#         We follow a safe rule---the division of two CSDM instances</span>
+<span class="c1">#         will only be successfull when the attributes of the corresponding</span>
+<span class="c1">#         ControlledVariable instances are identical.</span>
+<span class="c1">#         &quot;&quot;&quot;</span>
+<span class="c1">#         pass</span>
+
+
+<span class="k">def</span> <span class="nf">get_broadcase_shape</span><span class="p">(</span><span class="n">array</span><span class="p">,</span> <span class="n">ndim</span><span class="p">,</span> <span class="n">axis</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return the broadcast array for numpy ndarray operations.&quot;&quot;&quot;</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="p">[</span><span class="kc">None</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ndim</span><span class="p">)]</span>
+    <span class="n">s</span><span class="p">[</span><span class="n">axis</span><span class="p">]</span> <span class="o">=</span> <span class="nb">slice</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">array</span><span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">s</span><span class="p">)]</span>
+
+
+<span class="c1"># def _compare_cv_object(cv1, cv2):</span>
+<span class="c1">#     if cv1.gcv._getparams == cv2.gcv._getparams:</span>
+<span class="c1">#         return True</span>
+<span class="c1">#     return False</span>
+
+
+<span class="c1"># def _compare_cv_objects(object1, object2):</span>
+<span class="c1">#     dim1 = len(object1.dimensions)</span>
+<span class="c1">#     dim2 = len(object2.dimensions)</span>
+
+<span class="c1">#     message = (</span>
+<span class="c1">#         &quot;{0} and {1} do not have the same set of &quot;</span>
+<span class="c1">#         &quot;controlled variables.&quot;</span>
+<span class="c1">#     ).format(object1.__name__, object2.__name__)</span>
+
+<span class="c1">#     if dim1 != dim2:</span>
+<span class="c1">#         raise Exception(message)</span>
+
+<span class="c1">#     for i in range(dim1):</span>
+<span class="c1">#         if not _compare_cv_object(</span>
+<span class="c1">#             object1.dimensions[i],</span>
+<span class="c1">#             object2.dimensions[i]</span>
+<span class="c1">#         ):</span>
+<span class="c1">#             raise Exception(message)</span>
+
+<span class="c1">#     return True</span>
+
+
+<span class="c1"># def _compare_uv(uv1, uv2):</span>
+<span class="c1">#     # a = {</span>
+<span class="c1">#     #     &#39;unit&#39;: True,</span>
+<span class="c1">#     #     &#39;quantity_name&#39;: True,</span>
+<span class="c1">#     #     &#39;quantity_type&#39;: True</span>
+<span class="c1">#     # }</span>
+<span class="c1">#     a = True</span>
+<span class="c1">#     if uv1.unit.physical_type != uv2.unit.physical_type:</span>
+<span class="c1">#         a = False</span>
+<span class="c1">#     if uv1.quantity_name != uv2.quantity_name:</span>
+<span class="c1">#         raise Exception(</span>
+<span class="c1">#             (</span>
+<span class="c1">#                 &quot;Binary operates are not supported for &quot;</span>
+<span class="c1">#                 &quot;objects with different quantity.&quot;</span>
+<span class="c1">#             )</span>
+<span class="c1">#         )</span>
+<span class="c1">#     if uv1.quantity_type != uv2.quantity_type:</span>
+<span class="c1">#         raise Exception(</span>
+<span class="c1">#             (</span>
+<span class="c1">#                 &quot;Binary operates are not supported for &quot;</span>
+<span class="c1">#                 &quot;objects with different quantity_type.&quot;</span>
+<span class="c1">#             )</span>
+<span class="c1">#         )</span>
+<span class="c1">#     return a</span>
+
+
+<span class="c1"># def _compare_uv_objects(object1, object2):</span>
+<span class="c1">#     dim1 = len(object1.dependent_variables)</span>
+<span class="c1">#     dim2 = len(object2.dependent_variables)</span>
+
+<span class="c1">#     for j in range(dim1):</span>
+<span class="c1">#         for i in range(dim2):</span>
+<span class="c1">#             a = _compare_uv(</span>
+<span class="c1">#                 object1.dependent_variables[i],</span>
+<span class="c1">#                 object2.dependent_variables[j]</span>
+<span class="c1">#             )</span>
+</pre></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../index.html" >Module code</a></li>
+        <li><a href="../csdmpy.html" >csdmpy</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

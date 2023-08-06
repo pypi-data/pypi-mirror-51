@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>LinearDimension &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../index.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="../genindex.html" title="General Index" accesskey="I">index </a></li>
+            
+            <li class="visible-xs"><a href="../_sources/api/LinearDimension.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../index.html">
+      <img class="logo" src="../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/LinearDimension.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="lineardimension">
+<span id="linear-dimension-api"></span><h1>LinearDimension<a class="headerlink" href="#lineardimension" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="csdmpy.dimensions.linear.LinearDimension">
+<em class="property">class </em><code class="sig-prename descclassname">csdmpy.dimensions.linear.</code><code class="sig-name descname">LinearDimension</code><span class="sig-paren">(</span><em class="sig-param">count</em>, <em class="sig-param">increment</em>, <em class="sig-param">complex_fft=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/csdmpy/dimensions/linear.html#LinearDimension"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#csdmpy.dimensions.linear.LinearDimension" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">csdmpy.dimensions.quantitative.BaseQuantitativeDimension</span></code></p>
+<p>LinearDimension class.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This class should not be used directly. Instead,
+use the <code class="docutils literal notranslate"><span class="pre">CSDM</span></code> object to access the attributes
+and methods of this class. See example, <a class="reference internal" href="../independentVariable/linear.html#lsgd"><span class="std std-ref">Linearly Sampled Dimension</span></a>.</p>
+</div>
+<p>The class returns an object which represents a physical
+dimension, sampled uniformly along a grid dimension.
+Let <span class="math notranslate nohighlight">\(m_k\)</span> be the increment, <span class="math notranslate nohighlight">\(N_k \ge 1\)</span> be the
+number of points, <span class="math notranslate nohighlight">\(c_k\)</span> be the reference offset, and
+<span class="math notranslate nohighlight">\(o_k\)</span> be the origin offset along the <span class="math notranslate nohighlight">\(k^{th}\)</span>
+grid dimension, then the coordinates along the
+grid dimension are given as</p>
+<div class="math notranslate nohighlight">
+\[\mathbf{X}_k^\mathrm{ref} = [m_k j ]_{j=0}^{N_k-1} - c_k \mathbf{1},\]</div>
+<div class="math notranslate nohighlight">
+\[\mathbf{X}_k^\mathrm{abs} = \mathbf{X}_k^\mathrm{ref} + o_k \mathbf{1},\]</div>
+<p>where <span class="math notranslate nohighlight">\(\mathbf{X}_k^\mathrm{ref}\)</span> is an ordered array of the
+reference controlled variable coordinates,
+<span class="math notranslate nohighlight">\(\mathbf{X}_k^\mathrm{abs}\)</span> is an ordered array of the absolute
+controlled variable coordinates, and <span class="math notranslate nohighlight">\(\mathbf{1}\)</span>
+is an array of ones.</p>
+<p class="rubric">Attributes Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.dimensions.linear.LinearDimension.increment" title="csdmpy.dimensions.linear.LinearDimension.increment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">increment</span></code></a></p></td>
+<td><p>Increment of the grid points along the linear dimension.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.dimensions.linear.LinearDimension.complex_fft" title="csdmpy.dimensions.linear.LinearDimension.complex_fft"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex_fft</span></code></a></p></td>
+<td><p>If True, orders the coordinates according to FFT output order.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes Documentation</p>
+<dl class="attribute">
+<dt id="csdmpy.dimensions.linear.LinearDimension.increment">
+<code class="sig-name descname">increment</code><a class="headerlink" href="#csdmpy.dimensions.linear.LinearDimension.increment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Increment of the grid points along the linear dimension.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="csdmpy.dimensions.linear.LinearDimension.complex_fft">
+<code class="sig-name descname">complex_fft</code><a class="headerlink" href="#csdmpy.dimensions.linear.LinearDimension.complex_fft" title="Permalink to this definition">¶</a></dt>
+<dd><p>If True, orders the coordinates according to FFT output order.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../genindex.html" title="General Index" >index</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

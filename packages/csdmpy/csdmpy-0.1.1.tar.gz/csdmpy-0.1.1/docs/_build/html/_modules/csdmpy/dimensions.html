@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>csdmpy.dimensions &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../../index.html" />
+    <link rel="up" title="csdmpy" href="../csdmpy.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="../../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../index.html" >Module code</a></li>
+              <li><a href="../csdmpy.html" accesskey="U">csdmpy</a></li>
+            
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../../index.html">
+      <img class="logo" src="../../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <h1>Source code for csdmpy.dimensions</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;The base ControlledVariable object: attributes and methods.&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+
+<span class="kn">from</span> <span class="nn">csdmpy.dimensions.labeled</span> <span class="k">import</span> <span class="n">LabeledDimension</span>
+<span class="kn">from</span> <span class="nn">csdmpy.dimensions.linear</span> <span class="k">import</span> <span class="n">LinearDimension</span>
+<span class="kn">from</span> <span class="nn">csdmpy.dimensions.monotonic</span> <span class="k">import</span> <span class="n">MonotonicDimension</span>
+<span class="kn">from</span> <span class="nn">csdmpy.utils</span> <span class="k">import</span> <span class="n">_axis_label</span>
+<span class="kn">from</span> <span class="nn">csdmpy.utils</span> <span class="k">import</span> <span class="n">_get_dictionary</span>
+<span class="kn">from</span> <span class="nn">csdmpy.utils</span> <span class="k">import</span> <span class="n">attribute_error</span>
+<span class="kn">from</span> <span class="nn">csdmpy.utils</span> <span class="k">import</span> <span class="n">validate</span>
+
+<span class="n">__author__</span> <span class="o">=</span> <span class="s2">&quot;Deepansh J. Srivastava&quot;</span>
+<span class="n">__email__</span> <span class="o">=</span> <span class="s2">&quot;srivastava.89@osu.edu&quot;</span>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Dimension&quot;</span><span class="p">]</span>
+
+
+<span class="n">functional_dimension</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;linear&quot;</span><span class="p">]</span>
+
+
+<div class="viewcode-block" id="Dimension"><a class="viewcode-back" href="../../api/Dimensions.html#csdmpy.dimensions.Dimension">[docs]</a><span class="k">class</span> <span class="nc">Dimension</span><span class="p">:</span>
+    <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create an instance of the Dimension class.</span>
+
+<span class="sd">    An instance of this class describes a dimension of a multi-dimensional system.</span>
+<span class="sd">    In version 1.0, there are three subtypes of the Dimension class:</span>
+
+<span class="sd">    - :ref:`linearDimension_uml`,</span>
+<span class="sd">    - :ref:`monotonicDimension_uml`, and</span>
+<span class="sd">    - :ref:`labeledDimension_uml`.</span>
+
+<span class="sd">    **Creating an instance of a dimension object**</span>
+
+<span class="sd">    There are two ways of creating a new instance of a Dimension class.</span>
+
+<span class="sd">    *From a python dictionary containing valid keywords.*</span>
+
+<span class="sd">    .. doctest::</span>
+
+<span class="sd">        &gt;&gt;&gt; from csdmpy import Dimension</span>
+<span class="sd">        &gt;&gt;&gt; dimension_dictionary = {</span>
+<span class="sd">        ...     &#39;type&#39;: &#39;linear&#39;,</span>
+<span class="sd">        ...     &#39;description&#39;: &#39;test&#39;,</span>
+<span class="sd">        ...     &#39;increment&#39;: &#39;5 G&#39;,</span>
+<span class="sd">        ...     &#39;count&#39;: 10,</span>
+<span class="sd">        ...     &#39;coordinates_offset&#39;: &#39;10 mT&#39;,</span>
+<span class="sd">        ...     &#39;origin_offset&#39;: &#39;10 T&#39;</span>
+<span class="sd">        ... }</span>
+<span class="sd">        &gt;&gt;&gt; x = Dimension(dimension_dictionary)</span>
+
+<span class="sd">    Here, `dimension_dictionary` is the python dictionary.</span>
+
+<span class="sd">    *From valid keyword arguments.*</span>
+
+<span class="sd">    .. doctest::</span>
+
+<span class="sd">        &gt;&gt;&gt; x = Dimension(type = &#39;linear&#39;,</span>
+<span class="sd">        ...               description = &#39;test&#39;,</span>
+<span class="sd">        ...               increment = &#39;5 G&#39;,</span>
+<span class="sd">        ...               count = 10,</span>
+<span class="sd">        ...               coordinates_offset = &#39;10 mT&#39;,</span>
+<span class="sd">        ...               origin_offset = &#39;10 T&#39;)</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="vm">__slots__</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;subtype&quot;</span><span class="p">,)</span>
+
+    <span class="n">_immutable_objects_</span> <span class="o">=</span> <span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Initialize an instance of Dimension object.&quot;&quot;&quot;</span>
+        <span class="n">default</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for all dimension subtypes</span>
+            <span class="s2">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>  <span class="c1"># valid for all dimension subtypes</span>
+            <span class="s2">&quot;count&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for linear dimension subtype</span>
+            <span class="s2">&quot;increment&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for linear dimension subtype</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for labled dimension subtype</span>
+            <span class="s2">&quot;coordinates&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for monotonic dimension subtype</span>
+            <span class="s2">&quot;coordinates_offset&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for linear dimension subtype</span>
+            <span class="s2">&quot;origin_offset&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for linear dimension subtype</span>
+            <span class="s2">&quot;complex_fft&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>  <span class="c1"># valid for linear dimension subtype</span>
+            <span class="s2">&quot;period&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for monotonic and linear dimension subtypes</span>
+            <span class="s2">&quot;quantity_name&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for monotonic and linear dimension subtypes</span>
+            <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>  <span class="c1"># valid for all dimension subtypes</span>
+            <span class="s2">&quot;application&quot;</span><span class="p">:</span> <span class="p">{},</span>  <span class="c1"># valid for all dimension subtypes</span>
+            <span class="s2">&quot;reciprocal&quot;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+                <span class="s2">&quot;increment&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+                <span class="s2">&quot;coordinates_offset&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+                <span class="s2">&quot;origin_offset&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+                <span class="s2">&quot;period&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+                <span class="s2">&quot;quantity_name&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+                <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+                <span class="s2">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+                <span class="s2">&quot;application&quot;</span><span class="p">:</span> <span class="p">{},</span>  <span class="c1"># valid for all monotonic and linear subtypes</span>
+            <span class="p">},</span>
+        <span class="p">}</span>
+
+        <span class="n">default_keys</span> <span class="o">=</span> <span class="n">default</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+        <span class="n">input_dict</span> <span class="o">=</span> <span class="n">_get_dictionary</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="n">input_keys</span> <span class="o">=</span> <span class="n">input_dict</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="s2">&quot;type&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">input_keys</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Missing a required &#39;type&#39; key from the dimension object.&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="s2">&quot;reciprocal&quot;</span> <span class="ow">in</span> <span class="n">input_keys</span><span class="p">:</span>
+            <span class="n">input_subkeys</span> <span class="o">=</span> <span class="n">input_dict</span><span class="p">[</span><span class="s2">&quot;reciprocal&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">input_keys</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">default_keys</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;reciprocal&quot;</span><span class="p">:</span>
+                    <span class="k">for</span> <span class="n">subkey</span> <span class="ow">in</span> <span class="n">input_subkeys</span><span class="p">:</span>
+                        <span class="n">default</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">subkey</span><span class="p">]</span> <span class="o">=</span> <span class="n">input_dict</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">subkey</span><span class="p">]</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">default</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">input_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+
+        <span class="n">_valid_types</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;monotonic&quot;</span><span class="p">,</span> <span class="s2">&quot;linear&quot;</span><span class="p">,</span> <span class="s2">&quot;labeled&quot;</span><span class="p">]</span>
+
+        <span class="n">type_</span> <span class="o">=</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="n">f</span><span class="s2">&quot;&#39;</span><span class="si">{type_}</span><span class="s2">&#39; is an invalid value for the dimension type. &quot;</span>
+            <span class="s2">&quot;The allowed values are &#39;monotonic&#39;, &#39;linear&#39; and &#39;labeled&#39;.&quot;</span>
+        <span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">_valid_types</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;labeled&quot;</span> <span class="ow">and</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;labels&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="s2">&quot;LabeledDimension is missing a required `labels` key.&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;labeled&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span> <span class="o">=</span> <span class="n">LabeledDimension</span><span class="p">(</span><span class="o">**</span><span class="n">default</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;monotonic&quot;</span> <span class="ow">and</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;coordinates&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span>
+                <span class="s2">&quot;MonotonicDimension is missing a required `coordinates` key.&quot;</span>
+            <span class="p">)</span>
+        <span class="k">if</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;monotonic&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span> <span class="o">=</span> <span class="n">MonotonicDimension</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="n">default</span><span class="p">[</span><span class="s2">&quot;coordinates&quot;</span><span class="p">],</span> <span class="o">**</span><span class="n">default</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">default</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;linear&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">linear</span><span class="p">(</span><span class="n">default</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">linear</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">default</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Create and assign a linear dimension.&quot;&quot;&quot;</span>
+        <span class="n">missing_key</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;increment&quot;</span><span class="p">,</span> <span class="s2">&quot;count&quot;</span><span class="p">]</span>
+
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">missing_key</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">default</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;LinearDimension is missing a required `</span><span class="si">{item}</span><span class="s2">` key.&quot;</span><span class="p">)</span>
+
+        <span class="n">validate</span><span class="p">(</span><span class="n">default</span><span class="p">[</span><span class="s2">&quot;count&quot;</span><span class="p">],</span> <span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">LinearDimension</span><span class="p">(</span><span class="o">**</span><span class="n">default</span><span class="p">)</span>
+
+    <span class="c1"># ======================================================================= #</span>
+    <span class="c1">#                          Dimension Attributes                           #</span>
+    <span class="c1"># ======================================================================= #</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">absolute_coordinates</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Absolute coordinates, :math:`{\bf X}_k^\rm{abs}`, along the dimension.</span>
+
+<span class="sd">        This attribute is only *valid* for quantitative dimensions, that is,</span>
+<span class="sd">        `linear` and `monotonic` dimensions. The absolute coordinates are given as</span>
+
+<span class="sd">        .. math::</span>
+
+<span class="sd">            \mathbf{X}_k^\mathrm{abs} = \mathbf{X}_k + o_k \mathbf{1}</span>
+
+<span class="sd">        where :math:`\mathbf{X}_k` are the coordinates along the dimension and</span>
+<span class="sd">        :math:`o_k` is the :attr:`~csdmpy.dimensions.Dimension.origin_offset`.</span>
+<span class="sd">        For example, consider</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(x.origin_offset)</span>
+<span class="sd">            10.0 T</span>
+<span class="sd">            &gt;&gt;&gt; print(x.coordinates[:5])</span>
+<span class="sd">            [100. 105. 110. 115. 120.] G</span>
+
+<span class="sd">        then the absolute coordinates are</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(x.absolute_coordinates[:5])</span>
+<span class="sd">            [100100. 100105. 100110. 100115. 100120.] G</span>
+
+<span class="sd">        For `linear` dimensions, the order of the `absolute_coordinates`</span>
+<span class="sd">        further depend on the value of the</span>
+<span class="sd">        :attr:`~csdmpy.dimensions.Dimension.complex_fft` attributes. For</span>
+<span class="sd">        examples, when the value of the `complex_fft` attribute is True,</span>
+<span class="sd">        the absolute coordinates are</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; x.complex_fft = True</span>
+<span class="sd">            &gt;&gt;&gt; print(x.absolute_coordinates[:5])</span>
+<span class="sd">            [100075. 100080. 100085. 100090. 100095.] G</span>
+
+<span class="sd">        .. testsetup::</span>
+
+<span class="sd">            &gt;&gt;&gt; x.complex_fft = False</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A Quantity array of absolute coordinates for quantitative dimensions, `i.e`</span>
+<span class="sd">            `linear` and `monotonic`.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For labeled dimensions.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span> <span class="o">!=</span> <span class="s2">&quot;labeled&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coordinates</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">origin_offset</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_unit</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">AttributeError</span><span class="p">(</span><span class="n">attribute_error</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="p">,</span> <span class="s2">&quot;absolute_coordinates&quot;</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">application</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Application metadata dictionary of the dimension object.</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(x.application)</span>
+<span class="sd">            {}</span>
+
+<span class="sd">        The application attribute is where an application can place its own</span>
+<span class="sd">        metadata as a python dictionary object containing application specific</span>
+<span class="sd">        metadata, using a reverse domain name notation string as the attribute</span>
+<span class="sd">        key, for example,</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; x.application = {</span>
+<span class="sd">            ...     &quot;com.example.myApp&quot; : {</span>
+<span class="sd">            ...         &quot;myApp_key&quot;: &quot;myApp_metadata&quot;</span>
+<span class="sd">            ...      }</span>
+<span class="sd">            ... }</span>
+<span class="sd">            &gt;&gt;&gt; print(x.application)</span>
+<span class="sd">            {&#39;com.example.myApp&#39;: {&#39;myApp_key&#39;: &#39;myApp_metadata&#39;}}</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A python dictionary containing dimension application metadata.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_application</span>
+
+    <span class="nd">@application</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">application</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">application</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">axis_label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Formatted string for displaying label along the dimension axis.</span>
+
+<span class="sd">        This attribute is not a part of the original core scientific dataset</span>
+<span class="sd">        model, however, it is a convenient supplementary attribute that provides</span>
+<span class="sd">        a formated string ready for labeling dimension axes.</span>
+<span class="sd">        For quantitative dimensions, this attributes returns a string,</span>
+<span class="sd">        `label / unit`,  if the `label` is a non-empty string, otherwise,</span>
+<span class="sd">        `quantity_name / unit`. Here</span>
+<span class="sd">        :attr:`~csdmpy.dimensions.Dimension.quantity_name` and</span>
+<span class="sd">        :attr:`~csdmpy.dimensions.Dimension.label` are the attributes of the</span>
+<span class="sd">        :ref:`dim_api` instances, and `unit` is the unit associated with the</span>
+<span class="sd">        coordinates along the dimension. For examples,</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; x.label</span>
+<span class="sd">            &#39;field strength&#39;</span>
+<span class="sd">            &gt;&gt;&gt; x.axis_label</span>
+<span class="sd">            &#39;field strength / (G)&#39;</span>
+
+<span class="sd">        For `labeled` dimensions, this attribute returns `label`.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A formated string of label.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: When assigned a value.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="p">,</span> <span class="s2">&quot;quantity_name&quot;</span><span class="p">):</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">label</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+                <span class="n">label</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">quantity_name</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">label</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">label</span>
+            <span class="k">return</span> <span class="n">_axis_label</span><span class="p">(</span><span class="n">label</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_unit</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">label</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">coordinates</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Coordinates, :math:`{\bf X}_k`, along the dimension.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(x.coordinates)</span>
+<span class="sd">            [100. 105. 110. 115. 120. 125. 130. 135. 140. 145.] G</span>
+
+<span class="sd">        For `linear` dimensions, the order of the `coordinates` also depend on the</span>
+<span class="sd">        value of the :attr:`~csdmpy.dimensions.Dimension.complex_fft` attributes.</span>
+<span class="sd">        For examples, when the value of the `complex_fft` attribute is True,</span>
+<span class="sd">        the coordinates are</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; x.complex_fft = True</span>
+<span class="sd">            &gt;&gt;&gt; print(x.coordinates)</span>
+<span class="sd">            [ 75.  80.  85.  90.  95. 100. 105. 110. 115. 120.] G</span>
+
+<span class="sd">        .. testsetup::</span>
+
+<span class="sd">            &gt;&gt;&gt; x.complex_fft = False</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A Quantity array of coordinates for quantitative dimensions, `i.e.` `linear`</span>
+<span class="sd">            and `monotonic`.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A Numpy array for labeled dimensions.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For dimensions with subtype `linear`.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_count</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;monotonic&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_coordinates</span><span class="p">[:</span><span class="n">n</span><span class="p">]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;linear&quot;</span><span class="p">:</span>
+            <span class="n">coordinates</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_coordinates</span><span class="p">[:</span><span class="n">n</span><span class="p">]</span>
+            <span class="k">return</span> <span class="p">(</span><span class="n">coordinates</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">coordinates_offset</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_unit</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;labeled&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">labels</span><span class="p">[:</span><span class="n">n</span><span class="p">]</span>
+
+    <span class="nd">@coordinates</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">coordinates</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;monotonic&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">values</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;labeled&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">labels</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;linear&quot;</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">AttributeError</span><span class="p">(</span>
+                <span class="p">(</span>
+                    <span class="s2">&quot;The attribute cannot be modifed for dimensions with subtype `linear`. &quot;</span>
+                    <span class="s2">&quot;Use `count`, `increment` or `coordinates_offset` attributes to update &quot;</span>
+                    <span class="s2">&quot;the coordinate along a linear dimension.&quot;</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">data_structure</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Json serialized string describing the Dimension class instance.</span>
+
+<span class="sd">        This supplementary attribute is useful for a quick preview of the dimension</span>
+<span class="sd">        object. The attribute cannot be modified.</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(x.data_structure)</span>
+<span class="sd">            {</span>
+<span class="sd">              &quot;type&quot;: &quot;linear&quot;,</span>
+<span class="sd">              &quot;description&quot;: &quot;This is a test&quot;,</span>
+<span class="sd">              &quot;count&quot;: 10,</span>
+<span class="sd">              &quot;increment&quot;: &quot;5.0 G&quot;,</span>
+<span class="sd">              &quot;coordinates_offset&quot;: &quot;10.0 mT&quot;,</span>
+<span class="sd">              &quot;origin_offset&quot;: &quot;10.0 T&quot;,</span>
+<span class="sd">              &quot;quantity_name&quot;: &quot;magnetic flux density&quot;,</span>
+<span class="sd">              &quot;label&quot;: &quot;field strength&quot;</span>
+<span class="sd">            }</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A json serialized string of the dimension object.</span>
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: When modified.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">dictionary</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_python_dictionary</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">dictionary</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">description</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Brief description of the dimension object.</span>
+
+<span class="sd">        The default value is an empty string, &#39;&#39;. The attribute may be</span>
+<span class="sd">        modified, for example,</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(x.description)</span>
+<span class="sd">            This is a test</span>
+
+<span class="sd">            &gt;&gt;&gt; x.description = &#39;This is a test dimension.&#39;</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A string of UTF-8 allows characters describing the dimension.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            TypeError: When the assigned value is not a string.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">description</span>
+
+    <span class="nd">@description</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">description</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">complex_fft</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Boolean specifying if the coordinates along the dimension are the output of a complex fft.</span>
+
+<span class="sd">        This attribute is only `valid` for the Dimension instances with `linear`</span>
+<span class="sd">        subtype.</span>
+<span class="sd">        The value of this attribute is a boolean specifying if the coordinates along</span>
+<span class="sd">        the dimension are evaluated as the output of a complex fast Fourier transform</span>
+<span class="sd">        (FFT) routine.</span>
+<span class="sd">        For example, consider the following Dimension object,</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; test = Dimension(</span>
+<span class="sd">            ...            type=&#39;linear&#39;,</span>
+<span class="sd">            ...	           increment = &#39;1&#39;,</span>
+<span class="sd">            ...            count = 10</span>
+<span class="sd">            ...        )</span>
+
+<span class="sd">            &gt;&gt;&gt; test.complex_fft</span>
+<span class="sd">            False</span>
+<span class="sd">            &gt;&gt;&gt; print(test.coordinates)</span>
+<span class="sd">            [0. 1. 2. 3. 4. 5. 6. 7. 8. 9.]</span>
+
+<span class="sd">            &gt;&gt;&gt; test.complex_fft = True</span>
+<span class="sd">            &gt;&gt;&gt; print(test.coordinates)</span>
+<span class="sd">            [-5. -4. -3. -2. -1.  0.  1.  2.  3.  4.]</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A Boolean.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            TypeError: When the assigned value is not a boolean.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">complex_fft</span>
+
+    <span class="nd">@complex_fft</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">complex_fft</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">complex_fft</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Increment along a `linear` dimension.</span>
+
+<span class="sd">        The attribute is only `valid` for Dimension instances with the subtype</span>
+<span class="sd">        `linear`. When assigning a value, the dimensionality of the value must</span>
+<span class="sd">        be consistent with the dimensionality of other members specifying the</span>
+<span class="sd">        dimension.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(x.increment)</span>
+<span class="sd">            5.0 G</span>
+<span class="sd">            &gt;&gt;&gt; x.increment = &quot;0.1 G&quot;</span>
+<span class="sd">            &gt;&gt;&gt; print(x.coordinates)</span>
+<span class="sd">            [100.  100.1 100.2 100.3 100.4 100.5 100.6 100.7 100.8 100.9] G</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A Quantity instance with the increment along the dimension.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For dimension with subtypes other than `linear`.</span>
+<span class="sd">            TypeError: When the assigned value is not a string containing a quantity</span>
+<span class="sd">                       or a Quantity object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># .. note:: The sampling interval along a grid dimension and the</span>
+        <span class="c1">#     respective reciprocal grid dimension follow the Nyquist–Shannon</span>
+        <span class="c1">#     sampling theorem. Therefore, updating the ``increment``</span>
+        <span class="c1">#     will automatically trigger an update on its reciprocal</span>
+        <span class="c1">#     counterpart.</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">increment</span>
+
+    <span class="nd">@increment</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">increment</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">coordinates_offset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Offset corresponding to the zero of the indexes array, :math:`\mathbf{J}_k`.</span>
+
+<span class="sd">        When assigning a value, the dimensionality of the value must be consistent with</span>
+<span class="sd">        the dimensionality of the other members specifying the dimension.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(x.coordinates_offset)</span>
+<span class="sd">            10.0 mT</span>
+<span class="sd">            &gt;&gt;&gt; x.coordinates_offset = &quot;0 T&quot;</span>
+<span class="sd">            &gt;&gt;&gt; print(x.coordinates)</span>
+<span class="sd">            [ 0.  5. 10. 15. 20. 25. 30. 35. 40. 45.] G</span>
+
+<span class="sd">        The attribute is `invalid` for `labeled` dimensions.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A Quantity instance with the coordinates offset.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For `labeled` dimensions.</span>
+<span class="sd">            TypeError: When the assigned value is not a string containing a quantity</span>
+<span class="sd">                       or a Quantity object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;linear&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">coordinates_offset</span>
+        <span class="k">raise</span> <span class="ne">AttributeError</span><span class="p">(</span><span class="n">attribute_error</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="p">,</span> <span class="s2">&quot;coordinates_offset&quot;</span><span class="p">))</span>
+
+    <span class="nd">@coordinates_offset</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">coordinates_offset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">coordinates_offset</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Label associated with the dimension.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(x.label)</span>
+<span class="sd">            field strength</span>
+<span class="sd">            &gt;&gt;&gt; x.label = &#39;magnetic field strength&#39;</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A string containing the label.</span>
+<span class="sd">        Raises:</span>
+<span class="sd">            TypeError: When the assigned value is not a string.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">label</span>
+
+    <span class="nd">@label</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">label</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">label</span> <span class="o">=</span> <span class="n">label</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Number of coordinates, :math:`N_k \ge 1`, along the dimension.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(x.count)</span>
+<span class="sd">            10</span>
+<span class="sd">            &gt;&gt;&gt; x.count = 5</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            An Integer specifying the number of coordinates along the dimension.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            TypeError: When the assigned value is not an integer.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_count</span>
+
+    <span class="nd">@count</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">validate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="ow">in</span> <span class="n">functional_dimension</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_count</span> <span class="o">=</span> <span class="n">value</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_get_coordinates</span><span class="p">()</span>
+            <span class="k">return</span>
+
+        <span class="k">if</span> <span class="n">value</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">count</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="p">(</span>
+                    <span class="n">f</span><span class="s2">&quot;Cannot set count, </span><span class="si">{value}</span><span class="s2">, more than the number of &quot;</span>
+                    <span class="n">f</span><span class="s2">&quot;coordinates, </span><span class="si">{self.count}</span><span class="s2">, for monotonic and labeled&quot;</span>
+                    <span class="s2">&quot; dimensions.&quot;</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">value</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">count</span><span class="p">:</span>
+            <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+                <span class="n">f</span><span class="s2">&quot;The number of coordinates, </span><span class="si">{self.count}</span><span class="s2">, are truncated &quot;</span>
+                <span class="n">f</span><span class="s2">&quot;to </span><span class="si">{value}</span><span class="s2">.&quot;</span>
+            <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_count</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">origin_offset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Origin offset, :math:`o_k`, along the dimension.</span>
+
+<span class="sd">        When assigning a value, the dimensionality of the value must be consistent</span>
+<span class="sd">        with the dimensionality of other members specifying the dimension.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(x.origin_offset)</span>
+<span class="sd">            10.0 T</span>
+<span class="sd">            &gt;&gt;&gt; x.origin_offset = &quot;1e5 G&quot;</span>
+
+<span class="sd">        The origin offset only affect the absolute_coordinates along the dimension.</span>
+<span class="sd">        This attribute is `invalid` for `labeled` dimensions.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A Quantity instance with the origin offset.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For `labeled` dimensions.</span>
+<span class="sd">            TypeError: When the assigned value is not a string containing a quantity</span>
+<span class="sd">                       or a Quantity object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">origin_offset</span>
+
+    <span class="nd">@origin_offset</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">origin_offset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">origin_offset</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">period</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Period of the dimension.</span>
+
+<span class="sd">        The default value of the period is infinity, i.e., the dimension is</span>
+<span class="sd">        non-periodic.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(x.period)</span>
+<span class="sd">            inf G</span>
+<span class="sd">            &gt;&gt;&gt; x.period = &#39;1 T&#39;</span>
+
+<span class="sd">        To assign a dimension as non-periodic, one of the following may be</span>
+<span class="sd">        used,</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; x.period = &#39;1/0 T&#39;</span>
+<span class="sd">            &gt;&gt;&gt; x.period = &#39;infinity µT&#39;</span>
+<span class="sd">            &gt;&gt;&gt; x.period = &#39;∞ G&#39;</span>
+
+<span class="sd">        .. Attention::</span>
+<span class="sd">            The physical quantity of the period must be consistent with other</span>
+<span class="sd">            physical quantities specifying the dimension.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A Quantity instance with the period of the dimension.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For `labeled` dimensions.</span>
+<span class="sd">            TypeError: When the assigned value is not a string containing a quantity</span>
+<span class="sd">                       or a Quantity object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">period</span>
+
+    <span class="nd">@period</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">period</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">period</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">quantity_name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Quantity name associated with the physical quantities specifying the dimension.</span>
+
+<span class="sd">        The attribute is `invalid` for the labeled dimension.</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(x.quantity_name)</span>
+<span class="sd">            magnetic flux density</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A string with the `quantity name`.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For `labeled` dimensions.</span>
+<span class="sd">            NotImplementedError: When assigning a value.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">quantity_name</span>
+
+    <span class="nd">@quantity_name</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">quantity_name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">quantity_name</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">type</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        The dimension subtype.</span>
+
+<span class="sd">        There are three *valid* subtypes of Dimension class. The valid</span>
+<span class="sd">        literals are given by the :ref:`dimObjectSubtype_uml` enumeration.</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(x.type)</span>
+<span class="sd">            linear</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A string with a valid dimension subtype.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: When the attribute is modified.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="n">_type</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">labels</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Ordered list of labels along the `Labeled` dimension.</span>
+
+<span class="sd">        Consider the following labeled dimension,</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; x2 = Dimension(</span>
+<span class="sd">            ...         type=&#39;labeled&#39;,</span>
+<span class="sd">            ...         labels=[&#39;Cu&#39;, &#39;Ag&#39;, &#39;Au&#39;]</span>
+<span class="sd">            ...      )</span>
+
+<span class="sd">        then the lables along the labeled dimension are</span>
+
+<span class="sd">        .. doctest::</span>
+
+<span class="sd">            &gt;&gt;&gt; print(x2.labels)</span>
+<span class="sd">            [&#39;Cu&#39; &#39;Ag&#39; &#39;Au&#39;]</span>
+
+<span class="sd">        .. note::</span>
+<span class="sd">            For Labeled dimension, the :attr:`~csdmpy.dimensions.Dimension.coordinates`</span>
+<span class="sd">            attribute is an alias of :attr:`~csdmpy.dimensions.Dimension.labels`</span>
+<span class="sd">            attribute. For example,</span>
+
+<span class="sd">            .. doctest::</span>
+
+<span class="sd">                &gt;&gt;&gt; np.all(x2.coordinates == x2.labels)</span>
+<span class="sd">                True</span>
+
+<span class="sd">        In the above example, ``x2`` is an instance of the :ref:`dim_api` class with</span>
+<span class="sd">        `labeled` subtype.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">             A Numpy array with labels along the dimension.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For dimensions with subtype other than `labeled`.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">coordinates</span>
+
+    <span class="nd">@labels</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">labels</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">array</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">labels</span> <span class="o">=</span> <span class="n">array</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_get_coordinates</span><span class="p">(</span><span class="n">array</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">reciprocal</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        An instance of the ReciprocalVariable class.</span>
+
+<span class="sd">        The attributes of ReciprocalVariable class are:</span>
+<span class="sd">            - coordinates_offset</span>
+<span class="sd">            - origin_offset</span>
+<span class="sd">            - period</span>
+<span class="sd">            - quantity_name</span>
+<span class="sd">            - label</span>
+<span class="sd">        where the definition of each attribute is the same as the corresponding</span>
+<span class="sd">        attribute from the Dimension instance.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">reciprocal</span>
+
+    <span class="c1"># ======================================================================= #</span>
+    <span class="c1">#                           Dimension Methods                             #</span>
+    <span class="c1"># ======================================================================= #</span>
+
+    <span class="k">def</span> <span class="nf">_get_python_dictionary</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;Return the Dimension instance as a python dictionary.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_get_python_dictionary</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">is_quantitative</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;Return True if the independent variable is quantitative.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_is_quantitative</span><span class="p">()</span>
+
+<div class="viewcode-block" id="Dimension.to"><a class="viewcode-back" href="../../api/Dimensions.html#csdmpy.dimensions.Dimension.to">[docs]</a>    <span class="k">def</span> <span class="nf">to</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">equivalencies</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Convert the coordinates along the dimension to the unit, `unit`.</span>
+
+<span class="sd">        This method is a wrapper of the `to` method from the</span>
+<span class="sd">        `Quantity &lt;http://docs.astropy.org/en/stable/api/\</span>
+<span class="sd">        astropy.units.Quantity.html#astropy.units.Quantity.to&gt;`_ class</span>
+<span class="sd">        and is only `valid` for physical dimensions.</span>
+
+<span class="sd">        Example:</span>
+<span class="sd">            &gt;&gt;&gt; print(x.coordinates)</span>
+<span class="sd">            [100. 105. 110. 115. 120. 125. 130. 135. 140. 145.] G</span>
+<span class="sd">            &gt;&gt;&gt; x.to(&#39;mT&#39;)</span>
+<span class="sd">            &gt;&gt;&gt; print(x.coordinates)</span>
+<span class="sd">            [10.  10.5 11.  11.5 12.  12.5 13.  13.5 14.  14.5] mT</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            `unit` : A string containing a unit with the same dimensionality as the</span>
+<span class="sd">                     coordinates along the dimension.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            AttributeError: For `labeled` dimensions.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subtype</span><span class="o">.</span><span class="n">_to</span><span class="p">(</span><span class="n">unit</span><span class="p">,</span> <span class="n">equivalencies</span><span class="p">)</span></div></div>
+</pre></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../index.html" >Module code</a></li>
+        <li><a href="../csdmpy.html" >csdmpy</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

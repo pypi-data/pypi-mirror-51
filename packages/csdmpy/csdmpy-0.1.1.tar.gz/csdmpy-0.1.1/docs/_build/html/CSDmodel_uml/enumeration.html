@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Enumeration &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../index.html" />
+    <link rel="up" title="The core scientific dataset (CSD) model" href="../CSD_model.html" />
+    <link rel="next" title="ScalarQuantity" href="scalarQuantity.html" />
+    <link rel="prev" title="DependentVariable" href="dependent_variables/dependent_variable.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown visible-xs">
+                <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
+                <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
+                <ul>
+<li><a class="reference internal" href="#">Enumeration</a><ul>
+<li><a class="reference internal" href="#dimobjectsubtype">DimObjectSubtype</a></li>
+<li><a class="reference internal" href="#dvobjectsubtype">DVObjectSubtype</a></li>
+<li><a class="reference internal" href="#quantitytype">QuantityType</a></li>
+<li><a class="reference internal" href="#numerictype">NumericType</a></li>
+</ul>
+</li>
+</ul>
+
+                </ul>
+              </li>
+
+            
+              <li><a href="dependent_variables/dependent_variable.html" title="DependentVariable" accesskey="P">previous </a></li>
+              <li><a href="scalarQuantity.html" title="ScalarQuantity" accesskey="N">next </a></li>
+              <li><a href="../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../CSD_model.html" accesskey="U">The core scientific dataset (CSD) model</a></li>
+            
+            <li class="visible-xs"><a href="../_sources/CSDmodel_uml/enumeration.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../index.html">
+      <img class="logo" src="../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Enumeration</a><ul>
+<li><a class="reference internal" href="#dimobjectsubtype">DimObjectSubtype</a></li>
+<li><a class="reference internal" href="#dvobjectsubtype">DVObjectSubtype</a></li>
+<li><a class="reference internal" href="#quantitytype">QuantityType</a></li>
+<li><a class="reference internal" href="#numerictype">NumericType</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="dependent_variables/dependent_variable.html"
+                        title="previous chapter">DependentVariable</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="scalarQuantity.html"
+                        title="next chapter">ScalarQuantity</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/CSDmodel_uml/enumeration.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="enumeration">
+<h1>Enumeration<a class="headerlink" href="#enumeration" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="dimobjectsubtype">
+<span id="dimobjectsubtype-uml"></span><h2>DimObjectSubtype<a class="headerlink" href="#dimobjectsubtype" title="Permalink to this headline">¶</a></h2>
+<p>The <cite>DimObjectSubtype</cite> contains the enumeration literals of the
+<a class="reference internal" href="dimensions/dimension.html#dimension-uml"><span class="std std-ref">Dimension</span></a> objects.</p>
+<table class="table-bordered table-hover table-striped docutils align-default">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 88%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Literal</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>linear</p></td>
+<td><p>Literal specifying an instance of a <a class="reference internal" href="dimensions/linear.html#lineardimension-uml"><span class="std std-ref">LinearDimension</span></a>
+object.</p></td>
+</tr>
+<tr class="row-odd"><td><p>monotonic</p></td>
+<td><p>Literal specifying an instance of a <a class="reference internal" href="dimensions/monotonic.html#monotonicdimension-uml"><span class="std std-ref">MonotonicDimension</span></a>
+object.</p></td>
+</tr>
+<tr class="row-even"><td><p>labeled</p></td>
+<td><p>Literal specifying an instance of a <a class="reference internal" href="dimensions/labeled.html#labeleddimension-uml"><span class="std std-ref">LabeledDimension</span></a>
+object.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="dvobjectsubtype">
+<span id="dvobjectsubtype-uml"></span><h2>DVObjectSubtype<a class="headerlink" href="#dvobjectsubtype" title="Permalink to this headline">¶</a></h2>
+<p>The <cite>DVObjectSubtype</cite> contains the enumeration literals of the
+<a class="reference internal" href="dependent_variables/dependent_variable.html#dependent-var-uml"><span class="std std-ref">DependentVariable</span></a> object.</p>
+<table class="table-bordered table-hover table-striped docutils align-default">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 88%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Literal</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>internal</p></td>
+<td><p>Literal specifying an instance of an <a class="reference internal" href="dependent_variables/internal.html#internal-uml"><span class="std std-ref">InternalDependentVariable</span></a>
+object.</p></td>
+</tr>
+<tr class="row-odd"><td><p>external</p></td>
+<td><p>Literal specifying an instance of an <a class="reference internal" href="dependent_variables/external.html#external-uml"><span class="std std-ref">ExternalDependentVariable</span></a>
+object.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="quantitytype">
+<span id="quantitytype-uml"></span><h2>QuantityType<a class="headerlink" href="#quantitytype" title="Permalink to this headline">¶</a></h2>
+<p>An enumeration literal used in interpreting the <cite>p</cite>-components of the
+dependent variable.</p>
+<table class="table-bordered table-hover table-striped docutils align-default">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 78%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Literal</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>scalar</p></td>
+<td><p>A dependent variable with <span class="math notranslate nohighlight">\(p=1\)</span> component interpret
+as a scalar,</p>
+<div class="math notranslate nohighlight">
+\[\mathcal{S}_i=U_{0,i}.\]</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>vector_n</p></td>
+<td><p>A dependent variable with <span class="math notranslate nohighlight">\(p=n\)</span> components
+interpret as vector components,</p>
+<div class="math notranslate nohighlight">
+\[\mathcal{V}_i= \left[ U_{0,i}, U_{1,i}, ... U_{n-1,i}\right].\]</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>matrix_n_m</p></td>
+<td><p>A dependent variable with <span class="math notranslate nohighlight">\(p=mn\)</span> components
+interpret as a <span class="math notranslate nohighlight">\(n \times m\)</span> matrix as follows,</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}M_i = \left[
+    \begin{array}{cccc}
+    U_{0,i} &amp; U_{1,i} &amp; ... &amp;U_{(n-1)m,i} \\
+    U_{1,i} &amp; U_{m+1,i} &amp; ... &amp;U_{(n-1)m+1,i} \\
+    \vdots &amp;  \vdots &amp; \vdots &amp; \vdots \\
+    U_{m-1,i}  &amp; U_{2m-1,i}  &amp; ... &amp;U_{nm-1,i}
+    \end{array}
+    \right]\end{split}\]</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>symmetric_matrix_n</p></td>
+<td><p>A dependent variable with <span class="math notranslate nohighlight">\(p=n^2\)</span> components interpret
+as a matrix symmetric about its leading diagonal as shown
+below,</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}M^{(s)}_i = \left[
+    \begin{array}{cccc}
+    U_{0,i} &amp; U_{1,i} &amp; ... &amp; U_{n-1,i} \\
+    U_{1,i} &amp; U_{n,i} &amp; ... &amp;U_{2n-2,i} \\
+    \vdots &amp; \vdots  &amp; \vdots &amp; \vdots \\
+    U_{n-1,i} &amp; U_{2n-2,i} &amp; ... &amp;U_{\frac{n(n+1)}{2}-1,i}
+    \end{array} \right]\end{split}\]</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>pixel_n</p></td>
+<td><p>A dependent variable with <span class="math notranslate nohighlight">\(p=n\)</span> components
+interpret as image/pixel components,</p>
+<div class="math notranslate nohighlight">
+\[\mathcal{P}_i= \left[ U_{0,i}, U_{1,i}, ... U_{n-1,i}\right].\]</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="numerictype">
+<span id="numerictype-uml"></span><h2>NumericType<a class="headerlink" href="#numerictype" title="Permalink to this headline">¶</a></h2>
+<p>An enumeration literal used in interpreting the dependent variable binary data.</p>
+<table class="table-bordered table-hover table-striped docutils align-default">
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Literal</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uint8</p></td>
+<td><p>8-bit unsigned integer</p></td>
+</tr>
+<tr class="row-odd"><td><p>uint16</p></td>
+<td><p>16-bit unsigned integer</p></td>
+</tr>
+<tr class="row-even"><td><p>uint32</p></td>
+<td><p>32-bit unsigned integer</p></td>
+</tr>
+<tr class="row-odd"><td><p>uint64</p></td>
+<td><p>64-bit unsigned integer</p></td>
+</tr>
+<tr class="row-even"><td><p>int8</p></td>
+<td><p>8-bit signed integer</p></td>
+</tr>
+<tr class="row-odd"><td><p>int16</p></td>
+<td><p>16-bit signed integer</p></td>
+</tr>
+<tr class="row-even"><td><p>int32</p></td>
+<td><p>32-bit signed integer</p></td>
+</tr>
+<tr class="row-odd"><td><p>int64</p></td>
+<td><p>64-bit signed integer</p></td>
+</tr>
+<tr class="row-even"><td><p>float32</p></td>
+<td><p>32-bit floating point number</p></td>
+</tr>
+<tr class="row-odd"><td><p>float64</p></td>
+<td><p>64-bit floating point number</p></td>
+</tr>
+<tr class="row-even"><td><p>complex64</p></td>
+<td><p>two 32-bit floating points numbers</p></td>
+</tr>
+<tr class="row-odd"><td><p>complex128</p></td>
+<td><p>two 64-bit floating points numbers</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="dependent_variables/dependent_variable.html" title="DependentVariable" >previous</a></li>
+        <li><a href="scalarQuantity.html" title="ScalarQuantity" >next</a></li>
+        <li><a href="../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../CSD_model.html" >The core scientific dataset (CSD) model</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

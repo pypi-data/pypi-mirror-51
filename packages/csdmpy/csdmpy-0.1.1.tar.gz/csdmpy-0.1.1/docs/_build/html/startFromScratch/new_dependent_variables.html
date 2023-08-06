@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>How to add instances of DependentVariable class &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../index.html" />
+    <link rel="up" title="How to …" href="start.html" />
+    <link rel="next" title="How to save datasets" href="save_dataset.html" />
+    <link rel="prev" title="How to add instances of Dimension class" href="new_dimensions.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown visible-xs">
+                <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
+                <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
+                <ul>
+<li><a class="reference internal" href="#">How to add instances of DependentVariable class</a><ul>
+<li><a class="reference internal" href="#adding-a-scalar-dependent-variables">Adding a scalar dependent variables</a></li>
+<li><a class="reference internal" href="#adding-a-multi-component-dependent-variables">Adding a multi-component dependent variables</a></li>
+</ul>
+</li>
+</ul>
+
+                </ul>
+              </li>
+
+            
+              <li><a href="new_dimensions.html" title="How to add instances of Dimension class" accesskey="P">previous </a></li>
+              <li><a href="save_dataset.html" title="How to save datasets" accesskey="N">next </a></li>
+              <li><a href="../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="start.html" accesskey="U">How to …</a></li>
+            
+            <li class="visible-xs"><a href="../_sources/startFromScratch/new_dependent_variables.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../index.html">
+      <img class="logo" src="../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">How to add instances of DependentVariable class</a><ul>
+<li><a class="reference internal" href="#adding-a-scalar-dependent-variables">Adding a scalar dependent variables</a></li>
+<li><a class="reference internal" href="#adding-a-multi-component-dependent-variables">Adding a multi-component dependent variables</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="new_dimensions.html"
+                        title="previous chapter">How to add instances of Dimension class</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="save_dataset.html"
+                        title="next chapter">How to save datasets</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/startFromScratch/new_dependent_variables.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="how-to-add-instances-of-dependentvariable-class">
+<h1>How to add instances of DependentVariable class<a class="headerlink" href="#how-to-add-instances-of-dependentvariable-class" title="Permalink to this headline">¶</a></h1>
+<p>In the previous two sections, we learnt how to create a new dataset and add
+dimensions to a dataset. In this example, we will see how to add
+dependent variables to the dataset. Let’s start by creating a new dataset,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">csdmpy</span> <span class="k">as</span> <span class="nn">cp</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">new_data</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;A new test dependent variables dataset&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>An instance of the DependentVariable class is added using the
+<a class="reference internal" href="../api/CSDM.html#csdmpy.csdm.CSDM.add_dependent_variable" title="csdmpy.csdm.CSDM.add_dependent_variable"><code class="xref py py-meth docutils literal notranslate"><span class="pre">add_dependent_variable()</span></code></a> method of the <a class="reference internal" href="../api/CSDM.html#csdm-api"><span class="std std-ref">CSDM</span></a>
+instance. There are two subtypes of DependentVariable class:</p>
+<ul class="simple">
+<li><p><strong>InternalDependentVariable</strong>:
+We refer an instance of the DependentVariable as <em>internal</em> when the
+components of the dependent variable are listed along with the other
+metadata specifying the dependent variable.</p></li>
+<li><p><strong>ExternalDependentVariable</strong>:
+We refer an instance of the DependentVariable as <em>external</em> when the
+components of the dependent variable are stored in an external file as
+binary data either locally or at a remote server.</p></li>
+</ul>
+<p>In version 1.0, the CSD model allows dependent variables with quantity types
+as</p>
+<ul class="simple">
+<li><p>scalar</p></li>
+<li><p>vector_n</p></li>
+<li><p>pixel_n</p></li>
+<li><p>matrix_n_m</p></li>
+<li><p>symmetric_matrix_n</p></li>
+</ul>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Read more about <a class="reference internal" href="../api/DependentVariable.html#dv-api"><span class="std std-ref">DependentVariable API</span></a>.</p>
+</div>
+<div class="section" id="adding-a-scalar-dependent-variables">
+<h2>Adding a scalar dependent variables<a class="headerlink" href="#adding-a-scalar-dependent-variables" title="Permalink to this headline">¶</a></h2>
+<p>A dependent variable with quantity type <cite>scalar</cite> is a one-component dependent
+variable. Consider the following python dictionary</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">d0</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;internal&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;quantity_type&#39;</span><span class="p">:</span> <span class="s1">&#39;scalar&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="s1">&#39;This is an internal scalar dependent variable&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;unit&#39;</span><span class="p">:</span> <span class="s1">&#39;cm&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s1">&#39;components&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">100</span><span class="p">)]</span>
+<span class="gp">... </span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Here, the components are listed as the value of the
+<a class="reference internal" href="../api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-attr docutils literal notranslate"><span class="pre">components</span></code></a> keyword, and
+therefore, the value of the <cite>type</cite> keyword is specified as <cite>internal</cite>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The value of the components attribute is listed as a list of numpy array.
+In csdmpy, the first dimension is reserved for the components. Since this
+example has only one component, we specify it as a list of numpy array.
+Alternatively, one could also assign
+<code class="docutils literal notranslate"><span class="pre">np.arange(100).reshape(np.newaxis,</span> <span class="pre">100)</span></code> as the value of the components
+attribute.</p>
+</div>
+<p>To add a dependent variable to the <code class="docutils literal notranslate"><span class="pre">new_data</span></code> instance, use the
+<a class="reference internal" href="../api/CSDM.html#csdmpy.csdm.CSDM.add_dependent_variable" title="csdmpy.csdm.CSDM.add_dependent_variable"><code class="xref py py-meth docutils literal notranslate"><span class="pre">add_dependent_variable()</span></code></a> method as</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">new_data</span><span class="o">.</span><span class="n">add_dependent_variable</span><span class="p">(</span><span class="n">d0</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This will generate and add a <a class="reference internal" href="../api/DependentVariable.html#dv-api"><span class="std std-ref">DependentVariable</span></a> object to the list of
+dependent variables, thereby creating a 0D{1} dataset. The data structure
+after adding the dependent variable is</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">new_data</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">  &quot;csdm&quot;: {</span>
+<span class="go">    &quot;version&quot;: &quot;1.0&quot;,</span>
+<span class="go">    &quot;description&quot;: &quot;A new test dependent variables dataset&quot;,</span>
+<span class="go">    &quot;dimensions&quot;: [],</span>
+<span class="go">    &quot;dependent_variables&quot;: [</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;internal&quot;,</span>
+<span class="go">        &quot;description&quot;: &quot;This is an internal scalar dependent variable&quot;,</span>
+<span class="go">        &quot;unit&quot;: &quot;cm&quot;,</span>
+<span class="go">        &quot;quantity_name&quot;: &quot;length&quot;,</span>
+<span class="go">        &quot;numeric_type&quot;: &quot;int64&quot;,</span>
+<span class="go">        &quot;quantity_type&quot;: &quot;scalar&quot;,</span>
+<span class="go">        &quot;components&quot;: [</span>
+<span class="go">          [</span>
+<span class="go">            &quot;0, 1, ..., 98, 99&quot;</span>
+<span class="go">          ]</span>
+<span class="go">        ]</span>
+<span class="go">      }</span>
+<span class="go">    ]</span>
+<span class="go">  }</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="adding-a-multi-component-dependent-variables">
+<h2>Adding a multi-component dependent variables<a class="headerlink" href="#adding-a-multi-component-dependent-variables" title="Permalink to this headline">¶</a></h2>
+<p>In this next example, we demostrate how to add a dependent variable with
+multiple components. This time we use keywords as the argument of the
+<a class="reference internal" href="../api/CSDM.html#csdmpy.csdm.CSDM.add_dependent_variable" title="csdmpy.csdm.CSDM.add_dependent_variable"><code class="xref py py-meth docutils literal notranslate"><span class="pre">add_dependent_variable()</span></code></a> method to add a new
+dependent variable.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">new_data</span><span class="o">.</span><span class="n">add_dependent_variable</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;internal&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;This is an internal vector dependent variable&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">quantity_type</span><span class="o">=</span><span class="s1">&#39;vector_3&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;kg * m / s^2&#39;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">components</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">300</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;complex64&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="gp">... </span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Notice, the value of the <cite>components</cite> keyword is a numpy array of shape
+3 x 100, where 3 is the number of components and 100 is the number of points
+per component. Here, we specify, <cite>vector_3</cite> as the value of the
+<cite>quantity_type</cite>, indicating that the three components of the dependent variable
+should be interpretted as vector dataset. Users may, however, substitute this
+value with any valid <cite>quantity_type</cite> consistent with the number of components.
+For example, the above dataset may also be interpretted as an image data
+if quantity type is given as <cite>pixel_3</cite>.</p>
+<p>The data structure after adding the above dependent variable is</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">new_data</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">  &quot;csdm&quot;: {</span>
+<span class="go">    &quot;version&quot;: &quot;1.0&quot;,</span>
+<span class="go">    &quot;description&quot;: &quot;A new test dependent variables dataset&quot;,</span>
+<span class="go">    &quot;dimensions&quot;: [],</span>
+<span class="go">    &quot;dependent_variables&quot;: [</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;internal&quot;,</span>
+<span class="go">        &quot;description&quot;: &quot;This is an internal scalar dependent variable&quot;,</span>
+<span class="go">        &quot;unit&quot;: &quot;cm&quot;,</span>
+<span class="go">        &quot;quantity_name&quot;: &quot;length&quot;,</span>
+<span class="go">        &quot;numeric_type&quot;: &quot;int64&quot;,</span>
+<span class="go">        &quot;quantity_type&quot;: &quot;scalar&quot;,</span>
+<span class="go">        &quot;components&quot;: [</span>
+<span class="go">          [</span>
+<span class="go">            &quot;0, 1, ..., 98, 99&quot;</span>
+<span class="go">          ]</span>
+<span class="go">        ]</span>
+<span class="go">      },</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;internal&quot;,</span>
+<span class="go">        &quot;description&quot;: &quot;This is an internal vector dependent variable&quot;,</span>
+<span class="go">        &quot;unit&quot;: &quot;kg * m * s^-2&quot;,</span>
+<span class="go">        &quot;quantity_name&quot;: &quot;force&quot;,</span>
+<span class="go">        &quot;numeric_type&quot;: &quot;complex64&quot;,</span>
+<span class="go">        &quot;quantity_type&quot;: &quot;vector_3&quot;,</span>
+<span class="go">        &quot;components&quot;: [</span>
+<span class="go">          [</span>
+<span class="go">            &quot;0j, (1+0j), ..., (98+0j), (99+0j)&quot;</span>
+<span class="go">          ],</span>
+<span class="go">          [</span>
+<span class="go">            &quot;(100+0j), (101+0j), ..., (198+0j), (199+0j)&quot;</span>
+<span class="go">          ],</span>
+<span class="go">          [</span>
+<span class="go">            &quot;(200+0j), (201+0j), ..., (298+0j), (299+0j)&quot;</span>
+<span class="go">          ]</span>
+<span class="go">        ]</span>
+<span class="go">      }</span>
+<span class="go">    ]</span>
+<span class="go">  }</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="new_dimensions.html" title="How to add instances of Dimension class" >previous</a></li>
+        <li><a href="save_dataset.html" title="How to save datasets" >next</a></li>
+        <li><a href="../genindex.html" title="General Index" >index</a></li>
+        <li><a href="start.html" >How to …</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

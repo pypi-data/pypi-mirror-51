@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Pixel, 2D{3} datasets &mdash; csdmpy 0.1.1 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/button.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../../',
+            VERSION:     '0.1.1',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="csdmpy 0.1.1 documentation" href="../../index.html" />
+    <link rel="up" title="Examples" href="../examples.html" />
+    <link rel="next" title="Correlated Dataset" href="../multiple_datasets/correlated_datasets.html" />
+    <link rel="prev" title="Vector, 2D{2} datasets" href="../2D{2}-datasets/2D{2}-datasets.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">csdmpy 0.1.1 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown visible-xs">
+                <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
+                <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
+                <ul>
+<li><a class="reference internal" href="#">Pixel, 2D{3} datasets</a><ul>
+<li><a class="reference internal" href="#image-datasets">Image datasets</a></li>
+</ul>
+</li>
+</ul>
+
+                </ul>
+              </li>
+
+            
+              <li><a href="../2D{2}-datasets/2D{2}-datasets.html" title="Vector, 2D{2} datasets" accesskey="P">previous </a></li>
+              <li><a href="../multiple_datasets/correlated_datasets.html" title="Correlated Dataset" accesskey="N">next </a></li>
+              <li><a href="../../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../examples.html" accesskey="U">Examples</a></li>
+            
+            <li class="visible-xs"><a href="../../_sources/examples/2D{3}-datasets/2D{3}-datasets.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../../index.html">
+      <img class="logo" src="../../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h3><a href="../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Pixel, 2D{3} datasets</a><ul>
+<li><a class="reference internal" href="#image-datasets">Image datasets</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../2D{2}-datasets/2D{2}-datasets.html"
+                        title="previous chapter">Vector, 2D{2} datasets</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../multiple_datasets/correlated_datasets.html"
+                        title="next chapter">Correlated Dataset</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/examples/2D{3}-datasets/2D{3}-datasets.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="pixel-2d-3-datasets">
+<h1>Pixel, 2D{3} datasets<a class="headerlink" href="#pixel-2d-3-datasets" title="Permalink to this headline">¶</a></h1>
+<p>The 2D{3} datasets is two dimensional, <span class="math notranslate nohighlight">\(d=2\)</span>, with
+a single three-component dependent variable, <span class="math notranslate nohighlight">\(p=3\)</span>.</p>
+<div class="section" id="image-datasets">
+<h2>Image datasets<a class="headerlink" href="#image-datasets" title="Permalink to this headline">¶</a></h2>
+<p>A common example from this subset is perhaps the RGB image dataset.
+A RGB image dataset has two spatial dimensions and one dependent
+variable with three components corresponding to the red, green, and blue color
+intensities.</p>
+<p>The following is an example of the RGB image dataset.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">csdmpy</span> <span class="k">as</span> <span class="nn">cp</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;Test Files/image/raccoon_image.csdf&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ImageData</span> <span class="o">=</span> <span class="n">cp</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="n">ImageData</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+<span class="go">{</span>
+<span class="go">  &quot;csdm&quot;: {</span>
+<span class="go">    &quot;version&quot;: &quot;1.0&quot;,</span>
+<span class="go">    &quot;read_only&quot;: true,</span>
+<span class="go">    &quot;timestamp&quot;: &quot;2016-03-12T16:41:00Z&quot;,</span>
+<span class="go">    &quot;tags&quot;: [</span>
+<span class="go">      &quot;racoon&quot;,</span>
+<span class="go">      &quot;image&quot;,</span>
+<span class="go">      &quot;Judy Weggelaar&quot;</span>
+<span class="go">    ],</span>
+<span class="go">    &quot;description&quot;: &quot;An RBG image of a raccoon face.&quot;,</span>
+<span class="go">    &quot;dimensions&quot;: [</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;linear&quot;,</span>
+<span class="go">        &quot;count&quot;: 1024,</span>
+<span class="go">        &quot;increment&quot;: &quot;1.0&quot;,</span>
+<span class="go">        &quot;label&quot;: &quot;horizontal index&quot;</span>
+<span class="go">      },</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;linear&quot;,</span>
+<span class="go">        &quot;count&quot;: 768,</span>
+<span class="go">        &quot;increment&quot;: &quot;1.0&quot;,</span>
+<span class="go">        &quot;label&quot;: &quot;vertical index&quot;</span>
+<span class="go">      }</span>
+<span class="go">    ],</span>
+<span class="go">    &quot;dependent_variables&quot;: [</span>
+<span class="go">      {</span>
+<span class="go">        &quot;type&quot;: &quot;internal&quot;,</span>
+<span class="go">        &quot;name&quot;: &quot;raccoon&quot;,</span>
+<span class="go">        &quot;numeric_type&quot;: &quot;uint8&quot;,</span>
+<span class="go">        &quot;quantity_type&quot;: &quot;pixel_3&quot;,</span>
+<span class="go">        &quot;component_labels&quot;: [</span>
+<span class="go">          &quot;red&quot;,</span>
+<span class="go">          &quot;green&quot;,</span>
+<span class="go">          &quot;blue&quot;</span>
+<span class="go">        ],</span>
+<span class="go">        &quot;components&quot;: [</span>
+<span class="go">          [</span>
+<span class="go">            &quot;121, 138, ..., 119, 118&quot;</span>
+<span class="go">          ],</span>
+<span class="go">          [</span>
+<span class="go">            &quot;112, 129, ..., 155, 154&quot;</span>
+<span class="go">          ],</span>
+<span class="go">          [</span>
+<span class="go">            &quot;131, 148, ..., 93, 92&quot;</span>
+<span class="go">          ]</span>
+<span class="go">        ]</span>
+<span class="go">      }</span>
+<span class="go">    ]</span>
+<span class="go">  }</span>
+<span class="go">}</span>
+</pre></div>
+</div>
+<p>The tuples of the dimension and dependent variable instances from
+<code class="docutils literal notranslate"><span class="pre">ImageData</span></code> instance are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="n">ImageData</span><span class="o">.</span><span class="n">dimensions</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span> <span class="o">=</span> <span class="n">ImageData</span><span class="o">.</span><span class="n">dependent_variables</span>
+</pre></div>
+</div>
+<p>respectively.
+Since there are two dimensions, the coordinates along each dimension are</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x0 =&#39;</span><span class="p">,</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span>
+<span class="go">x0 = [0. 1. 2. 3. 4. 5. 6. 7. 8. 9.]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x1 =&#39;</span><span class="p">,</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span>
+<span class="go">x1 = [0. 1. 2. 3. 4. 5. 6. 7. 8. 9.]</span>
+</pre></div>
+</div>
+<p>respectively, where coordinates along both dimensions are spaced uniformly.
+In the above example, only the first ten coordinates along each dimension
+are displayed.</p>
+<p>The dependent variable is an image data as also seen from the
+<a class="reference internal" href="../../api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.quantity_type" title="csdmpy.dependent_variables.DependentVariable.quantity_type"><code class="xref py py-attr docutils literal notranslate"><span class="pre">quantity_type</span></code></a> attribute
+of the corresponding <a class="reference internal" href="../../api/DependentVariable.html#dv-api"><span class="std std-ref">DependentVariable</span></a> instance.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">quantity_type</span><span class="p">)</span>
+<span class="go">pixel_3</span>
+</pre></div>
+</div>
+<p>From the value <cite>pixel_3</cite>, <cite>pixel</cite> indicates a pixel data point while <cite>3</cite>
+indicate the number of pixels.</p>
+<p>As usual, the components of the dependent variable are accessed through
+the <a class="reference internal" href="../../api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-attr docutils literal notranslate"><span class="pre">components</span></code></a> attribute.
+To access the individual components use the appropriate array indexing.
+For example,</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="go">[[121 138 153 ... 119 131 139]</span>
+<span class="go"> [ 89 110 130 ... 118 134 146]</span>
+<span class="go"> [ 73  94 115 ... 117 133 144]</span>
+<span class="go"> ...</span>
+<span class="go"> [ 87  94 107 ... 120 119 119]</span>
+<span class="go"> [ 85  95 112 ... 121 120 120]</span>
+<span class="go"> [ 85  97 111 ... 120 119 118]]</span>
+</pre></div>
+</div>
+<p>will return an array with the first component of all data values. Here, these
+components correspond to the red color intensity, indicated by the
+corresponding component label. The label corresponding to
+this component array is accessed through the
+<a class="reference internal" href="../../api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.component_labels" title="csdmpy.dependent_variables.DependentVariable.component_labels"><code class="xref py py-attr docutils literal notranslate"><span class="pre">component_labels</span></code></a>
+attribute with appropriate indexing, that is</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">component_labels</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="go">red</span>
+</pre></div>
+</div>
+<p>To avoid displaying larger output, as an example, we print the shape of
+each component array (using Numpy array’s <cite>shape</cite> attribute) for the three
+components along with their respective labels.</p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">component_labels</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="go">red (768, 1024)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">component_labels</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="go">green (768, 1024)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">component_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="go">blue (768, 1024)</span>
+</pre></div>
+</div>
+<p>The shape (768, 1024) corresponds to the number of points from the each
+dimension instances.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In this example, since there is only one dependent variable, the index
+of <cite>y</cite> is set to zero, that is <code class="docutils literal notranslate"><span class="pre">y[0]</span></code>. We do not increase the index
+of <cite>y</cite>.  The indices for the
+<a class="reference internal" href="../../api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.components" title="csdmpy.dependent_variables.DependentVariable.components"><code class="xref py py-attr docutils literal notranslate"><span class="pre">components</span></code></a> and the
+<a class="reference internal" href="../../api/DependentVariable.html#csdmpy.dependent_variables.DependentVariable.component_labels" title="csdmpy.dependent_variables.DependentVariable.component_labels"><code class="xref py py-attr docutils literal notranslate"><span class="pre">component_labels</span></code></a>,
+on the other hand, span through the number of components and are
+incremented.</p>
+</div>
+<p>Now, to visualize the dataset as an RGB image we use the matplotlib <cite>imshow</cite>
+method.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Plotting an RGB image dataset</strong></p>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">image_data</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">moveaxis</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">components</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span> <span class="p">))</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">axis_label</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">axis_label</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">(</span><span class="n">pad</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">w_pad</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">h_pad</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="highlight-pycon3 notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">image_data</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="figure-polaroid figure align-default">
+<img alt="../../_images/raccoon_image.csdf.png" src="../../_images/raccoon_image.csdf.png" />
+</div>
+</div>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../../index.html">csdmpy 0.1.1 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../2D{2}-datasets/2D{2}-datasets.html" title="Vector, 2D{2} datasets" >previous</a></li>
+        <li><a href="../multiple_datasets/correlated_datasets.html" title="Correlated Dataset" >next</a></li>
+        <li><a href="../../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../examples.html" >Examples</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019, Deepansh J. Srivastava.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.0.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>
