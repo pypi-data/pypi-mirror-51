@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: dockship
+Version: 0.0.2
+Summary: Test Module
+Home-page: https://github.com/dockship/dockship
+Author: Unreal AI Technologies Pvt. Ltd.
+Author-email: nishchal@unrealai.xyz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# dockship
+
+This is a test module for dockship for handling the models.
+
