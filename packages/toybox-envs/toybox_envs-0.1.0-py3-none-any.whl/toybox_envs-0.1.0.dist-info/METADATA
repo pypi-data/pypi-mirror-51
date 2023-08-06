@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: toybox-envs
+Version: 0.1.0
+Summary: OpenAI Gym API for interacting with Toybox RL environments.
+Home-page: https://github.com/KDL-umass/Toybox
+Author: John Foley
+Author-email: jjfoley@smith.edu
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: OS Independent
+Requires-Dist: gym (==0.10.5)
+Requires-Dist: tensorboard
+Requires-Dist: pygame
+Requires-Dist: cffi
+Requires-Dist: pillow
+Requires-Dist: atari-py
+Requires-Dist: opencv-python
+Requires-Dist: joblib
+Requires-Dist: mpi4py
+Requires-Dist: six
+Requires-Dist: scipy
+
+UNKNOWN
+
+
