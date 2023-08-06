@@ -1,0 +1,11 @@
+terminal_playing_cards/__init__.py,sha256=mjlxpSMRTB5wzbv1ybc7DGiZ5L4dHt0CgnyfoUw-8Ig,119
+terminal_playing_cards/__main__.py,sha256=dhwQUDHpMdVoiF2iX4yPHOYz2rDzlylRBVWKMM1b2OI,336
+terminal_playing_cards/card.py,sha256=RwlcfBclbTjOHwOpygvfxo0HqaxnjEFzPCWwrE9ZjmI,6428
+terminal_playing_cards/config.py,sha256=d9KWKnwr6uB0z2UBFJNkioT4pmxiy-hAi8Z5JJxca4Q,2672
+terminal_playing_cards/deck.py,sha256=uVY423aCApPsGIimI1I2GxefBeqOhxsRkqc7et3ibnc,8142
+terminal_playing_cards/utils.py,sha256=EBaee8DjUdIJEuVDuBk46gtQlMN4SxP_tbBEYwJn9Og,320
+terminal_playing_cards/view.py,sha256=ShymNyC3XLL6VI6jWyO6Bk5VYtNzxMBJKn6dYHuc-u4,5214
+terminal_playing_cards-0.1.0.dist-info/LICENSE,sha256=VfnpbpuxwQnnbBZYhzMq61ouEx81eEagbaE7U55BhbY,1093
+terminal_playing_cards-0.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+terminal_playing_cards-0.1.0.dist-info/METADATA,sha256=hQx7ihJau2V2oXe537ynDsGGik1Pl065qiofFeXVhaY,7879
+terminal_playing_cards-0.1.0.dist-info/RECORD,,
