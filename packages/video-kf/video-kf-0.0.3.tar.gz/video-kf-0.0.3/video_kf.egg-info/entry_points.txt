@@ -1,0 +1,3 @@
+[console_scripts]
+video-kf = videokf.cli_scripts:main
+
