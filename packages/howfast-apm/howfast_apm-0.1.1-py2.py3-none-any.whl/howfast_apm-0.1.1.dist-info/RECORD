@@ -1,0 +1,11 @@
+howfast_apm/__init__.py,sha256=Y8nXVaQEJorXzZhCQdnfOVuiQffLj4w6Cjab3E5UkP0,37
+howfast_apm/config.py,sha256=GPD_4KpnWopkXFKTmo8j7oZYWn5M9Gu0IYVVD7sLukU,159
+howfast_apm/core.py,sha256=J0rtkaDD4Bqv0WdwN-sQ52ToJEn0Qp2xLsqBIqQg8P0,1922
+howfast_apm/flask.py,sha256=n8TlBuef1R3xqnvl8xL6Vi6KvvEeMgTGeHgP-EJMPWk,2030
+howfast_apm/queue.py,sha256=BOJ-Kl5uQONpv7hUTq1QxfdKW7SEx9j2_I_AsNiyQwc,3720
+howfast_apm-0.1.1.dist-info/DESCRIPTION.rst,sha256=Vvs0c8fEy0EmVQdJPIwrpYRcjEzmRBzGXfaJJGoIzRg,1454
+howfast_apm-0.1.1.dist-info/METADATA,sha256=QW7VcJnJORb0nrMHp91IVXLlV2o-8Sy-KX5SPbwAHbw,2134
+howfast_apm-0.1.1.dist-info/RECORD,,
+howfast_apm-0.1.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+howfast_apm-0.1.1.dist-info/metadata.json,sha256=k1q17pVrwQkwORC8wceOAe0YwGG-i_ninZuQzfv09OI,873
+howfast_apm-0.1.1.dist-info/top_level.txt,sha256=6s_6ygdUGMoVfjpLiSAcW6G4bXgxSqhQXE1Vk9Feo1Y,12
