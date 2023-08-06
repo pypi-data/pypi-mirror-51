@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+uniconnect/__init__.py
+uniconnect/auth.py
+uniconnect/client.py
+uniconnect/constants.py
+uniconnect/dbapi.py
+uniconnect/exceptions.py
+uniconnect/logging.py
+uniconnect/redirect.py
+uniconnect/transaction.py
+uniconnect_python_client.egg-info/PKG-INFO
+uniconnect_python_client.egg-info/SOURCES.txt
+uniconnect_python_client.egg-info/dependency_links.txt
+uniconnect_python_client.egg-info/requires.txt
+uniconnect_python_client.egg-info/top_level.txt
