@@ -1,0 +1,3 @@
+[console_scripts]
+gpioapi = pi_gpio_api.__main__:main
+
