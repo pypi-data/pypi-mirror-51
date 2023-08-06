@@ -1,0 +1,9 @@
+rknn/VERSION,sha256=Fz9MUcawIXCWFSClZzCE8TUJnvpXh3f3raS4ozVAyu8,8
+rknn/__init__.py,sha256=vgkkqtP8iD6FDs18AirLftutWtdsIuI4jeSyQU0kd58,22
+rknn/api/__init__.py,sha256=STQ8jATHI6uReCiYwq7siSkpf0dE_kWX_3ZcJ3rwhIU,31
+rknn/api/rknn.py,sha256=vuRT_RCNQBpk7r30MECKtBqaR61R_JAW-5Q6ADKKvYM,4385
+rknn_test-0.0.9.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+rknn_test-0.0.9.dist-info/METADATA,sha256=ZSnRMme7k7GMBr-8TYix239tQHVUf-tgsrHj5lhgmFY,750
+rknn_test-0.0.9.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+rknn_test-0.0.9.dist-info/top_level.txt,sha256=-FVh5VjhkHROL1wJ1JFiPLN67CBRK3HNY5QyIJuEClA,5
+rknn_test-0.0.9.dist-info/RECORD,,
