@@ -1,0 +1,7 @@
+bluenaas_capabilities.py
+setup.py
+bluenaas_capabilities.egg-info/PKG-INFO
+bluenaas_capabilities.egg-info/SOURCES.txt
+bluenaas_capabilities.egg-info/dependency_links.txt
+bluenaas_capabilities.egg-info/requires.txt
+bluenaas_capabilities.egg-info/top_level.txt
