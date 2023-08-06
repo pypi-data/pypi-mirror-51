@@ -1,0 +1,3 @@
+portio
+pypci
+psutil
