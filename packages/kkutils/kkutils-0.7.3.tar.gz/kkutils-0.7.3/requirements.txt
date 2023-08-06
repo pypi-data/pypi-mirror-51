@@ -1,0 +1,32 @@
+aio_pika
+aiohttp
+aredis
+aiosmtplib
+apscheduler
+beautifulsoup4
+chardet
+html5lib
+hredis
+motor
+numpy
+pillow
+pycryptodome
+pycurl
+pymongo
+pyyaml
+redis
+requests[socks]
+requests_toolbelt
+rsa
+selenium
+tornado
+tqdm
+uvloop
+# boto3
+# cloudinary
+# cos-python-sdk-v5
+# upyun
+# qiniu
+# onedrivecmd
+# onedrivesdk==1.1.8
+# oss2
