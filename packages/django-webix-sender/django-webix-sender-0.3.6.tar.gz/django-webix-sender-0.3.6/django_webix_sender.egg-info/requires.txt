@@ -1,0 +1,6 @@
+Django>=2.0
+psycopg2
+six
+requests
+celery
+django-webix

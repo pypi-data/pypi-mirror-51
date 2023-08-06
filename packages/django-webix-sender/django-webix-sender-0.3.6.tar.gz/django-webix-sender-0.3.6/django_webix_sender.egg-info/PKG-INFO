@@ -1,0 +1,98 @@
+Metadata-Version: 1.1
+Name: django-webix-sender
+Version: 0.3.6
+Summary: UNKNOWN
+Home-page: https://github.com/MPASolutions/django-webix-sender
+Author: MPA Solutions
+Author-email: info@mpasol.it
+License: GNU GPLv3 License
+Description: Django Webix Sender
+        ===================
+        
+        
+        .. image:: https://badge.fury.io/py/django-webix-sender.svg
+            :target: https://badge.fury.io/py/django-webix-sender
+            :alt: Version
+        
+        .. image:: https://travis-ci.org/MPASolutions/django-webix-sender.svg?branch=master
+            :target: https://travis-ci.org/MPASolutions/django-webix-sender
+            :alt: Build
+        
+        .. image:: https://codecov.io/gh/MPASolutions/django-webix-sender/branch/master/graph/badge.svg
+            :target: https://codecov.io/gh/MPASolutions/django-webix-sender
+            :alt: Codecov
+        
+        .. image:: https://img.shields.io/github/issues/MPASolutions/django-webix-sender.svg
+            :target: https://github.com/MPASolutions/django-webix-sender/issues
+            :alt: Issues
+        
+        .. image:: https://img.shields.io/pypi/pyversions/django-webix-sender.svg
+            :target: https://img.shields.io/pypi/pyversions/django-webix-sender.svg
+            :alt: Py versions
+        
+        .. image:: https://img.shields.io/badge/license-MIT-blue.svg
+            :target: https://raw.githubusercontent.com/MPASolutions/django-webix-sender/master/LICENSE
+            :alt: License
+        
+        Documentation
+        -------------
+        
+        The full documentation is at https://django-webix-sender.readthedocs.io.
+        
+        Quickstart
+        ----------
+        
+        Install Django Webix Sender:
+        
+        .. code-block:: bash
+        
+            $ pip install django-webix-sender
+        
+        Add ``django-webix-sender`` to your ``INSTALLED_APPS``
+        
+        .. code-block:: python
+        
+            INSTALLED_APPS = [
+                # ...
+                'django_webix_sender',
+                # ...
+            ]
+        
+        Add ``django-webix-sender`` URLconf to your project ``urls.py`` file
+        
+        .. code-block:: python
+        
+            from django.conf.urls import url, include
+        
+            urlpatterns = [
+                # ...
+                url(r'^django-webix-sender/', include('django_webix_sender.urls')),
+                # ...
+            ]
+        
+        
+        Running Tests
+        -------------
+        
+        Does the code actually work?
+        
+        .. code-block:: bash
+        
+            $ source <YOURVIRTUALENV>/bin/activate
+            $ (myenv) $ pip install tox
+            $ (myenv) $ tox
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
