@@ -1,0 +1,3 @@
+[console_scripts]
+scu = simple_commons_uploader.scu:main
+
