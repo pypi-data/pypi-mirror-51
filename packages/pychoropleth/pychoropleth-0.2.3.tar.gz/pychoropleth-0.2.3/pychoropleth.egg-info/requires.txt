@@ -1,0 +1,8 @@
+mplleaflet
+matplotlib
+pandas
+numpy
+geopandas
+shapely
+osmnx
+descartes
