@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fetchDBconn
+Version: 0.1.0
+Summary: Fetch db conn details from AWS secret manager
+Home-page: https://github.com/krishna-pydimarri/dbconn
+Author: Krishna Sailesh Pydimarri
+Author-email: krishnasailesh93@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+##fetchDBconn
+
+\n This package allows to fetch db connection details from secrets manager AWS.
+
+##Usage:
+
+\n from fetchDBconn.fetchDBconn import db_details       
+\n conn_details = db_details(secret_name,region_name,AWS_access_key,AWS_access_secret)
+
+
