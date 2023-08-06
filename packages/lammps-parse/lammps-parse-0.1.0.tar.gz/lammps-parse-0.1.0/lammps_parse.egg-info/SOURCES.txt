@@ -1,0 +1,12 @@
+README.md
+setup.py
+lammps_parse/__init__.py
+lammps_parse/_version.py
+lammps_parse/readers.py
+lammps_parse/utils.py
+lammps_parse/writers.py
+lammps_parse.egg-info/PKG-INFO
+lammps_parse.egg-info/SOURCES.txt
+lammps_parse.egg-info/dependency_links.txt
+lammps_parse.egg-info/requires.txt
+lammps_parse.egg-info/top_level.txt
