@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyinstaller_setuptools/__init__.py
+pyinstaller_setuptools/setup.py
+pyinstaller_setuptools.egg-info/PKG-INFO
+pyinstaller_setuptools.egg-info/SOURCES.txt
+pyinstaller_setuptools.egg-info/dependency_links.txt
+pyinstaller_setuptools.egg-info/requires.txt
+pyinstaller_setuptools.egg-info/top_level.txt
