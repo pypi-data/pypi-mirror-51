@@ -1,0 +1,7 @@
+README.md
+setup.py
+pytelebot/__init__.py
+pytelebot.egg-info/PKG-INFO
+pytelebot.egg-info/SOURCES.txt
+pytelebot.egg-info/dependency_links.txt
+pytelebot.egg-info/top_level.txt
