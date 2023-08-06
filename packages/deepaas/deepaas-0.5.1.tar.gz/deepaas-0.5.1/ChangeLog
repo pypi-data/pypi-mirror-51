@@ -1,0 +1,140 @@
+CHANGES
+=======
+
+0.5.1
+-----
+
+* Fix test args parser
+* Fix test arguments
+* docs fix
+* fix style
+* update docs and docstrs
+
+0.5.0
+-----
+
+* Prepare 0.5.0 release
+* Bump gevent dependency version
+* add get\_train/test\_args docstrings
+* add test\_args functionality
+
+0.4.1
+-----
+
+* Update requirements.txt for Werkzeug>=0.15.0
+* Update version on Dockerfile
+
+0.4.0
+-----
+
+* Update Dockerfile for Docker container creation
+* Add unit tests for cmd module
+* Rename "openwisk" to "openwhisk" module
+* tox: remove Python 3.5 testing
+* Handle SIGTERM signal explicitly
+* Remove leftover debug print statement
+* Migrate to jenkins library 1.3.5 (fix in DockerClean)
+* Set new Jenkins badge URL
+* Set PyPI delivery only on new release
+* Move to version 1.3.4
+* Move to 1.3.3
+* fixing typos
+* Add initial version of paper for Journal of Open Source Software
+* Comment out OWASP stage
+* Move to pipeline==1.3.1
+* Align with 1.0.0 version of pipeline library
+
+0.3.0
+-----
+
+* Set absolute path to HTMLreport
+* Disable Swagger documentation for OpenWhisk
+* Add support to run DEEPaaS as an OpenWhisk Docker action
+* Point to correct documentation
+* Fix typo on documentation
+
+0.2.0
+-----
+
+* Add missing release notes
+* get\_train\_args() docs
+* Initial support for passing down training arguments
+* Add WP2 main contacts as watchers of JIRA issues
+* Use indigo-dc.deepaas Ansible role
+* Add badge for Jenkins build status
+
+0.1.2
+-----
+
+* setup.cfg: fix classifiers
+* docs: fix document generation on Read the Docs
+
+0.1.1
+-----
+
+* tox: create environment for checking dependencies
+* Include release notes in documentation
+* Add initial documentation using Sphinx
+* Generate configuration file through tox
+* Improve versioning information within package
+* Update README with documentation on DEEPaaS usage
+* Update setup.cfg file
+* Add PYPI delivery
+* Add link to dockerhub image
+* Fix: dockerhub\_image\_id variable interpolation
+
+0.1.0
+-----
+
+* Fix: image\_id to dockerhub\_image\_id
+* Add correct Dockerfile version
+* Add OWASP dependency check
+* Move Jenkinsfile's tox environments to tox.ini
+* Create JIRA issue on new builds
+* Provider requirements as a list
+* Add a Makefile to quickly run DEEPaaS
+* Add unit testing for new model wrapper and base classes
+* Define a base class for all models
+* Migrate from testr to stest and adjust Python supported versions
+* Start using logging
+* tests: use oslo\_config.fixture in the unit tests
+* Computes SLOC data (#9)
+* Switch to shared libraries (#8)
+* Indent fix
+* Move Dockerfile to repository's root path
+* Fix double underscore typo
+* Add credentials for pushing the image to DockerHub
+* Add docker image build step
+* Add Dockerfile to codebase
+* Fix Jenkinsfile indentation
+* Generate Cobertura report
+* Get and publish code coverage
+* Parse flake8 logs
+* Test flake8 from different stage
+* Separate stage for checkout code
+* jenkins: added code style stage
+* Allow uploading files as well as pointing to URLs
+* Rework model loading
+* Allow loading different models
+* Allow configuring IP and port where we should listen
+* tests: add cmd testing
+* testing: fix package name
+* Add some boilerplate README text
+* Add initial unit testing
+* Add initial unit testing plumbing
+* Ignore editor files
+* Separate model loading into its own module
+* Add werkzeug as an explicit dependency
+* Fix pep8 errors
+* Naive model loading
+* Fix data upload and argument parsing
+* Update response model
+* Add initial loading plumbing
+* Return model metatada
+* Allow uploading files and URLs in the POST request
+* Split API and namespaces into separate files
+* add python shebang
+* Add initial code skeleton
+* add tox with initial pep8
+* Add community and informative files
+* Initial commit
