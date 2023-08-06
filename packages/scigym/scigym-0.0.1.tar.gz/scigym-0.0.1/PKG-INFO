@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: scigym
+Version: 0.0.1
+Summary: SciGym -- The OpenAI Gym for Science: A platform for your scientific reinforcement learning problem.
+Home-page: https://github.com/HendrikPN/scigym
+Author: HendrikPN
+Author-email: hendrik.poulsen-nautrup@uibk.ac.at
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: all
+Provides-Extra: surfacecode
+Provides-Extra: teleportation
