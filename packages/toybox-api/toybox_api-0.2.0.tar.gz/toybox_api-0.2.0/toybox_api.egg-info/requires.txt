@@ -1,0 +1,5 @@
+toybox_cffi==0.1.0
+cffi
+pillow
+numpy
+pygame
