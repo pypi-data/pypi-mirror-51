@@ -1,0 +1,10 @@
+webarchive/__init__.py,sha256=1y0DwNVbwOZ0qGj9ovDl-vruTtf8JRoJxjoIFFBosJ8,798
+webarchive/extractor.py,sha256=3rSjfU1bkyMVMvto25FRxbxXV0ZTkhEd6MGNAHHBg7Q,319
+webarchive/util.py,sha256=j3DlNJWvDhYkNq0eR7tjpSVwaJSyMk07vk8Cpr2pAx8,4609
+webarchive/webarchive.py,sha256=5EPt5rmpOJ_7USMvvT3310xhRAsBYivwtSWQtxrdY_Q,13140
+webarchive/webresource.py,sha256=1PI4o8_phueQiZAUOFLV8Q9hElYqRjbRVFHqzeC7LnY,2756
+pywebarchive-0.2.3.dist-info/LICENSE,sha256=jaNjEA232nhJCChFOfaEYKGMgAjY2W9EbPVeUNU3d04,1060
+pywebarchive-0.2.3.dist-info/METADATA,sha256=ejGTXtvs9PbfSIok2HNNqoHLD82iUFB8ornktMxQ0k4,1127
+pywebarchive-0.2.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pywebarchive-0.2.3.dist-info/top_level.txt,sha256=pBfRoC-9vWPy6ZghrEuki4879tzDqa7fDjHqUmASjrE,11
+pywebarchive-0.2.3.dist-info/RECORD,,
