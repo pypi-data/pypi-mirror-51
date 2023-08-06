@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: qaviton-package-manager
+Version: 2019.9.2.0.51.19.209757
+Summary: a package manager for projects with private repositories
+Home-page: https://github.com/qaviton/qaviton_package_manager
+Author: Qaviton
+Author-email: info@qaviton.com
+License: apache-2.0
+Description: # qaviton_package_manager
+        -------------------------
+          
+        Tired of redundant packaging systems for your software?  
+        qaviton is here to help!  
+        we can package everything into git branches  
+          
+        git branches:  
+        ```
+          |
+         dev
+          |
+        tests
+          |
+        master
+          |  
+        build_v_0_0_1
+          |
+        build_v_0_0_2
+          |
+        build_latest
+        ```  
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
