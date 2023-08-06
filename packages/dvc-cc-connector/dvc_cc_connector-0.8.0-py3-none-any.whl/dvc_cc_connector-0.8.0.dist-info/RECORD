@@ -1,0 +1,8 @@
+dvc_cc_connector/__init__.py,sha256=obuXbLzZmq61PphiOrPXpV3NquLMNAt0mpWNfDK7Y_E,68
+dvc_cc_connector/__main__.py,sha256=mzXWsPkL92FH8W5RgOGBrsriy4PnFvItdcnjG_GT5DM,85
+dvc_cc_connector/main.py,sha256=EviIvmkLXKZo8lBv2zo64qN-KieN4D4jLOkq30h_fvM,1719
+dvc_cc_connector/version.py,sha256=_3ckymnti-ag6fZMN2F_byc65z5fY0X2q1Xonebkvgs,18
+dvc_cc_connector-0.8.0.dist-info/entry_points.txt,sha256=OuMyFfIQMXVXP2hmotTYyhV3A3tbbaMX1M2kYTk3Vcw,63
+dvc_cc_connector-0.8.0.dist-info/WHEEL,sha256=m7_EWfYWVp7uNOTdFEhPb5K49PyhIPAZSRl16cJVmb0,85
+dvc_cc_connector-0.8.0.dist-info/METADATA,sha256=WUgkvSrEnlwerGxL1ccRXSHIbZYzjBQZZpcLsuvv-yw,417
+dvc_cc_connector-0.8.0.dist-info/RECORD,,
