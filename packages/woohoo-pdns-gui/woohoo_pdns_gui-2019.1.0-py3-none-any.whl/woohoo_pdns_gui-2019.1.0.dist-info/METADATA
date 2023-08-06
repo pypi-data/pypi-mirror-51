@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: woohoo-pdns-gui
+Version: 2019.1.0
+Summary: Web GUI for pDNS
+Home-page: https://gitlab.com/scherand/woohoo-pdns-gui
+Author: Andreas Scherrer
+Author-email: andreas@scherrer.io
+License: MIT License
+Project-URL: Bug Tracker, https://gitlab.com/scherand/woohoo-pdns-gui/issues
+Project-URL: Documentation, https://woohoo-pdns-gui.readthedocs.io
+Project-URL: Source Code, https://gitlab.com/scherand/woohoo-pdns-gui
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/x-rst
+Requires-Dist: flask (~=1.1.1)
+Requires-Dist: gunicorn (~=19.9.0)
+Requires-Dist: sphinx (~=2.1.2)
+
+Woohoo pDNS GUI
+===============
+
+Simple webapplication that can query and display pDNS data delivered from a server that produces
+data according to the
+`Common Passive DNS Output Format <http://tools.ietf.org/html/draft-dulaunoy-dnsop-passive-dns-cof-01>`_.
+
+To run, I currently use the following command:
+::
+
+    $ LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 FLASK_APP=woohoo_pdns_gui FLASK_ENV=production WOOHOO_PDNS_GUI_SETTINGS="pdns_gui_dev_conf.py" flask run
+
+Learn more `on Read the docs <https://woohoo-pdns-gui.readthedocs.io>`_ (do
+not try to read the documentation in the ``docs`` folder).
+
+The source code can be found in `woohoo pDNS GUI's home on Gitlab`_ (link
+mainly for people reading this on PyPI).
+
+.. _`woohoo pDNS GUI's home on Gitlab`: https://gitlab.com/scherand/woohoo-pdns-gui
+
+
