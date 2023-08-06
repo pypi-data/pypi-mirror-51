@@ -1,0 +1,12 @@
+colcon_bash/__init__.py,sha256=TURuSrVbh1RqnmbhlU8FeTyhoB9AENlLkQ_V1DmVgj8,106
+colcon_bash/shell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_bash/shell/bash.py,sha256=Vj9aVTRYkXWkjpVbPsl43x4Jzy53GG11fWtLYngutRQ,2622
+colcon_bash/shell/template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_bash/shell/template/package.bash.em,sha256=K9KXA3wLxwOpEVjTUbqwpOIj5I29KEDDd_TDIbWl-Dk,1488
+colcon_bash/shell/template/prefix.bash.em,sha256=QR42fQvgA2bBWCvHcJUZlMtKoO70LtXzuhBZaMbIwXY,3390
+colcon_bash/shell/template/prefix_chain.bash.em,sha256=yXU-zknIVmKSJ4fl_s10aVNnKeHa7CxJ_mroLMvbu54,1258
+colcon_bash-0.4.0.dist-info/METADATA,sha256=ri-H8lnE2fVsiZfirf5XOFuSJ_S1keNhhx8tKye1oWo,1078
+colcon_bash-0.4.0.dist-info/RECORD,,
+colcon_bash-0.4.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+colcon_bash-0.4.0.dist-info/entry_points.txt,sha256=WcaQZUh7KzcP5UI8XqOoyCdvy4S_rjvTNx417xeVwOA,61
+colcon_bash-0.4.0.dist-info/top_level.txt,sha256=CTGpAJDBpNWfnLCt-M1HXZwlqNeM9eNTTM4fN3r2K_Y,12
