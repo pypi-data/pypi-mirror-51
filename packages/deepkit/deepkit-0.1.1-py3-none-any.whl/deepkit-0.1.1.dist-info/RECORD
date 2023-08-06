@@ -1,0 +1,10 @@
+deepkit/__init__.py,sha256=ZOUYFwgn997njUHVwU1mhFT1SAegKeHXjVKKyFSG7vE,7746
+deepkit/const.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+deepkit/deepkit_keras.py,sha256=uWY8qXvikDsJeRR8wdb-HLGw01KntUJdKvtzjQX7N1E,24002
+deepkit/utils/__init__.py,sha256=AYS7HCOT9a8zABmQEZJXF6K-x3uCqzMTRKJE8ztk3h4,1067
+deepkit/utils/image.py,sha256=vYVTrtB-9Yz7gsUbT5MFj5P_VWVjmXnP2F5VwxOp6w4,22331
+deepkit/utils/pilutil.py,sha256=8LwSFNfFWTAbz6AU4--BgyF_y87eXpGrw3B-SnrqOnQ,10441
+deepkit-0.1.1.dist-info/METADATA,sha256=1plQbe9gLwpX4Fz32LzmHrwO5wy-_HnXc0mTpX2HLCk,469
+deepkit-0.1.1.dist-info/RECORD,,
+deepkit-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+deepkit-0.1.1.dist-info/top_level.txt,sha256=g-_T3ugzdH8z6SVtojHybeNLqFfYTsnzL0xxElBZKfk,8
