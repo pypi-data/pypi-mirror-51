@@ -1,0 +1,3 @@
+[console_scripts]
+firstry = firstry._main:_main
+
