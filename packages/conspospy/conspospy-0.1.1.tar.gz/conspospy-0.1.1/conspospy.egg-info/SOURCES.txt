@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+conspospy/__init__.py
+conspospy/conspos.py
+conspospy/constants.py
+conspospy/mafft.py
+conspospy/pipeline.py
+conspospy/utils.py
+conspospy.egg-info/PKG-INFO
+conspospy.egg-info/SOURCES.txt
+conspospy.egg-info/dependency_links.txt
+conspospy.egg-info/requires.txt
+conspospy.egg-info/top_level.txt
