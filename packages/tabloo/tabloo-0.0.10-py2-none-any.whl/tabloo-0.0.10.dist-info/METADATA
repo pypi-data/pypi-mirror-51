@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: tabloo
+Version: 0.0.10
+Summary: Minimalistic dashboard app for visualizing tabular data
+Home-page: https://github.com/bluenote10/tabloo
+Author: Fabian Keller
+Author-email: pypi.20.fkeller@spamgourmet.com
+License: MIT
+Keywords: table,dataframe,visualization,plots,dashboard
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: pandas
+
+# Tabloo [![Build Status](https://travis-ci.org/bluenote10/tabloo.svg?branch=master)](https://travis-ci.org/bluenote10/tabloo) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+
+Minimalistic dashboard app for visualizing tabular data -- WIP.
+
+![demo](/../examples/examples/basic_demo.gif)
+
+## Installation
+
+```sh
+pip install tabloo
+```
+
+## Usage
+
+### Embedded mode
+
+Run tabloo from within Python on an instance of a Pandas DataFrame:
+
+```python
+# given a pandas dataframe `df`
+import tabloo
+tabloo.show(df)
+```
+
+
+### CLI mode
+
+Run tabloo from the command line on a CSV file:
+
+```sh
+tabloo_cli my.csv
+```
+
