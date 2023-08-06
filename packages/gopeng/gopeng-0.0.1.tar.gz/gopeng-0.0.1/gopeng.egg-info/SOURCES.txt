@@ -1,0 +1,10 @@
+README.md
+setup.py
+gopeng/__init__.py
+gopeng/abc.py
+gopeng/systran.py
+gopeng.egg-info/PKG-INFO
+gopeng.egg-info/SOURCES.txt
+gopeng.egg-info/dependency_links.txt
+gopeng.egg-info/requires.txt
+gopeng.egg-info/top_level.txt
