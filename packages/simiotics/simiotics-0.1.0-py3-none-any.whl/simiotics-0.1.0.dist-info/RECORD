@@ -1,0 +1,15 @@
+e2e/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+e2e/data_registry.py,sha256=H3OE9wA__9YfsR53L80kZLa11F7OqeD3RIz924kUe8k,8449
+e2e/function_registry.py,sha256=yQPc3NWWBZkKGUCCNBD-F-jEViejG0LezQf6LbjNxeQ,4704
+simiotics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simiotics/version.py,sha256=hpMPMGJLTpVobO0Q53ejZCVoB9P8NbPI6zq2knYKyEM,69
+simiotics/registry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simiotics/registry/clients.py,sha256=aG6rQeEfaLkFHg0ACKXlZ7ru-b0OtxxtNMJjRyuSqQk,1253
+simiotics/registry/data_pb2.py,sha256=y9uuSi58y7i7aOA8rbunH4Aaqu_0eYc3bJ9jKPOihXs,50924
+simiotics/registry/data_pb2_grpc.py,sha256=OXG7r9Pz4ew6mUjBzqYu6kxF58faWoWPeUg110TFj8M,5614
+simiotics/registry/functions_pb2.py,sha256=7wgZP-nAn71KZ5GOCmpuR5Wl1kprBjOqpZ41l6NyEsQ,25473
+simiotics/registry/functions_pb2_grpc.py,sha256=ryHORPkLjieBDqnbFAYlZ2QG1vEaKyYGdhtgkJIC0Tw,4395
+simiotics-0.1.0.dist-info/METADATA,sha256=RsBeBe_aPFexAzx7eUxbEHh23ePu4iayqveJSnyTjRg,348
+simiotics-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+simiotics-0.1.0.dist-info/top_level.txt,sha256=GV1jIHTeEn_tuf_kS68V2xS9vlH9wv8E4HGKcwxq2eE,14
+simiotics-0.1.0.dist-info/RECORD,,
