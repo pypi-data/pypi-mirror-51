@@ -1,0 +1,6 @@
+numpy==1.15.4
+pandas==0.23.4
+gensim==3.7.1
+pyjarowinkler==1.8
+azure-storage-file==1.4.0
+PyYAML==3.13
