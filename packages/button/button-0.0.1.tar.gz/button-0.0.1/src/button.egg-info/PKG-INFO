@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: button
+Version: 0.0.1
+Summary: Tiny automation tool written by Python
+Home-page: https://github.com/somssi/button
+Author: Minhwan Kim
+Author-email: minhwan.kim@member.fsf.org
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/somssi/button
+Project-URL: Source Code, https://github.com/somssi/button
+Description: UNKNOWN
+Keywords: automation build tool
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.*
