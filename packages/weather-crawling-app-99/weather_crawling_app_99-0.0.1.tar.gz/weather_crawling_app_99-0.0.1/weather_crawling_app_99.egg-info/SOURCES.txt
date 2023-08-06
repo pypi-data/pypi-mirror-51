@@ -1,0 +1,6 @@
+README.md
+setup.py
+weather_crawling_app_99.egg-info/PKG-INFO
+weather_crawling_app_99.egg-info/SOURCES.txt
+weather_crawling_app_99.egg-info/dependency_links.txt
+weather_crawling_app_99.egg-info/top_level.txt
