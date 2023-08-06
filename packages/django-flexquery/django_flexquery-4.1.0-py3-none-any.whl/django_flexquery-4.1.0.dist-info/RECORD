@@ -1,0 +1,9 @@
+django_flexquery/__init__.py,sha256=8lvjcx7Opas5oyqf8KZY3XAOJytcVCrrgwO_LxVTKcU,299
+django_flexquery/flexquery.py,sha256=LHV7rstz77VYNQRgvJIOqRS0w1iXnmhjWGcL7Ch0_iI,4977
+django_flexquery/q.py,sha256=vCkdL3M1Hh0WPdpWavl46jbHH4cfv-XNlEf1B0KIV0A,1248
+django_flexquery/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_flexquery/contrib/user_based.py,sha256=VDORdnyKecpXngZhSNEVKYX6YIHx82kwtmZ4IQBbIbo,2306
+django_flexquery-4.1.0.dist-info/METADATA,sha256=Z9edRmRORZKM7MDCmmL2I8cKa0o5pBXx4YOgQB2zMeA,1631
+django_flexquery-4.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_flexquery-4.1.0.dist-info/top_level.txt,sha256=6D1SnUdxxuwA0xF6kMSZVMhcUaYE6sQmd8sRMvIfjNk,17
+django_flexquery-4.1.0.dist-info/RECORD,,
