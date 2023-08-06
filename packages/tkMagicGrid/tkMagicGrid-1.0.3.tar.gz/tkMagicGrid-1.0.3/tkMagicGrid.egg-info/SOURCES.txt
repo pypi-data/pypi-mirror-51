@@ -1,0 +1,9 @@
+README.md
+setup.py
+tkMagicGrid.egg-info/PKG-INFO
+tkMagicGrid.egg-info/SOURCES.txt
+tkMagicGrid.egg-info/dependency_links.txt
+tkMagicGrid.egg-info/top_level.txt
+tkmagicgrid/__init__.py
+tkmagicgrid/__main__.py
+tkmagicgrid/widget.py
