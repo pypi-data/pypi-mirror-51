@@ -1,0 +1,3 @@
+[console_scripts]
+aasalert = aasalert:main
+
