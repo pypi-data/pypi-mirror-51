@@ -1,0 +1,3 @@
+[console_scripts]
+heartbeat = heartbeat_client.main:main
+
