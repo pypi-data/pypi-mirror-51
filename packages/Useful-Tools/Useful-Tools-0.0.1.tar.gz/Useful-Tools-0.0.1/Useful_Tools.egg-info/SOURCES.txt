@@ -1,0 +1,14 @@
+README.rst
+setup.py
+Tools/__init__.py
+Tools/Common/Input.py
+Tools/Common/Output.py
+Tools/Common/__init__.py
+Tools/Files/PDFFile.py
+Tools/Files/WordFile.py
+Tools/Files/__init__.py
+Useful_Tools.egg-info/PKG-INFO
+Useful_Tools.egg-info/SOURCES.txt
+Useful_Tools.egg-info/dependency_links.txt
+Useful_Tools.egg-info/requires.txt
+Useful_Tools.egg-info/top_level.txt
