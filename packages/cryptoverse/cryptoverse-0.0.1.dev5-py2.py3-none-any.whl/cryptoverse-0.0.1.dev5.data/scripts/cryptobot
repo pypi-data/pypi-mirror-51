@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+HOST="$(cat ~/.cryptoverse/host)"
+HOST="$HOST" | awk 'NF' | awk '{$1=$1;print}'
+if [ -z "$HOST" ]; then
+    echo 'Save your user@host into the file: ~/.cryptoverse/host'
+    exit
+fi
+
+echo "Connecting to ${HOST}"
+
+if [ -n "${1}" ]; then
+    ssh -- "${HOST}" screen -xqR -S "${1}"
+fi
+if [ -z "${1}" ]; then
+    ssh "${HOST}" screen -list
+fi
