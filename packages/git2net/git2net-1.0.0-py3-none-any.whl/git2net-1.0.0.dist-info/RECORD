@@ -1,0 +1,10 @@
+git2net/__init__.py,sha256=YFCGbHeJ66OkpGJBox5540qdPS9BROnGuEtpd4A7MCw,716
+git2net/extraction.py,sha256=RZOVerokHf9hhZ8BtFYimSRCbEtRurnrf27Ebduzhfs,63980
+git2net/visualisation.py,sha256=-2kcg8ozqtp_Yz4awNliT38IlgotCrFgdWTloqWRHdE,20510
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functions.py,sha256=8dtLt2QNBewKCZTZFDv2dsrMl_NN4F56dkvh4sIK0SQ,8886
+git2net-1.0.0.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+git2net-1.0.0.dist-info/METADATA,sha256=M-vsrPmeRiebLP7ABhUj5FylV82YM83UXkQBEsKRAaI,2447
+git2net-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+git2net-1.0.0.dist-info/top_level.txt,sha256=YaSA9i-0VhdiiJXn-kwLJ6r2chUUcsGW3ylpgBv0188,14
+git2net-1.0.0.dist-info/RECORD,,
