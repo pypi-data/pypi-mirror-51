@@ -1,0 +1,3 @@
+[genice_format]
+vpython = genice_vpython.formats.vpython
+
