@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+process-vault-environment | sed -e 's/^/export /' > /tmp/env
+if [[ "${VAULT_SECRETS_WRITE_ENV:-true}" == "true" ]]; then
+  eval $(cat /tmp/env)
+fi;
+
+rm -f /tmp/env
