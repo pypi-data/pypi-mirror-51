@@ -1,0 +1,10 @@
+README.md
+setup.py
+dsnparser/__init__.py
+dsnparser/parser.py
+dsnparser.egg-info/PKG-INFO
+dsnparser.egg-info/SOURCES.txt
+dsnparser.egg-info/dependency_links.txt
+dsnparser.egg-info/top_level.txt
+tests/__init__.py
+tests/test_parser.py
