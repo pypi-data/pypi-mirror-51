@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: rlsce
+Version: 0.2
+Summary: Robo Laura Sentry Capture Exception
+Home-page: https://github.com/Wrsanches/rlsce
+Author: William R. Sanches
+Author-email: william.sanches@laura-br.com
+License: MIT
+Download-URL: https://github.com/Wrsanches/rlsce/archive/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: Robo,Laura,Sentry,Capture,Exception
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
