@@ -1,0 +1,3 @@
+[console_scripts]
+awss3 = awsutils.s3.__main__:main
+
