@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: Golmorich
+Version: 1.2
+Summary: A simple text editor
+Home-page: https://imtiazahmed.dev
+Author: Imtiaz Ahmed
+Author-email: imtiaz@imtiazahmed.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.0
+
+# Golmorich - A Simple Text Editor
+## Version: 1.2
+
+A simple text editor with the following features:
+- Open, save and save as options
+- If a file is new, save option works as save as
+- Identifies the following file types: C, C Header, C++, Python, Text
+- Package used: Tkinter, os
+
+Inspiration from [Zack King's Tutorial](https://www.youtube.com/watch?v=xqDonHEYPgA).
+
+### Installation Instruction:
+`pip install Golmorich`
+
+### Screenshot:
+![Golmorich Screenshot](https://pbs.twimg.com/media/EDOJxKvVUAAlgTw?format=jpg&name=large)
+
