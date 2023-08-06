@@ -1,0 +1,3 @@
+[console_scripts]
+schedule_convert = schedule_convert.run:main
+
