@@ -1,0 +1,12 @@
+mastercardcrossborder/__init__.py,sha256=X-qpARhz1Utr0TNf6Wah5U7x9o8EVnbQ817bjDGlWP8,395
+mastercardcrossborder/cancelpayment.py,sha256=QfY39vEXypwHmibaTyK-bL_amytwdE5qm0xo5yj29XI,3081
+mastercardcrossborder/cardedrate.py,sha256=asjWyxKjT_AcMTpX-HZK3ioxnRj3pjL5qYtIewX-hvI,3029
+mastercardcrossborder/payment.py,sha256=MJwqjDRcGvArZzKag_FCAckdHOfJLvwfTGZ081T0KUE,3045
+mastercardcrossborder/quotes.py,sha256=RJhh1FLckUS3kzToTdeYw1bkr04hd1M6FdfVrry4ccQ,3040
+mastercardcrossborder/resourceconfig.py,sha256=SaQD5UxNxc9y_7MvWtuXZQwFkjiqqG_It_DthZR5g7s,3416
+mastercardcrossborder/retrievepayment.py,sha256=QAiU2el0zFF1ieLV77DEDExIHrj0pJqYq0-4z8xWoFE,3896
+mastercard_crossborder-2.0.1.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+mastercard_crossborder-2.0.1.dist-info/METADATA,sha256=QyqCTrKfgDDCXV8Uh1vSPGeJD--1kDCkjiUpYl-TBY8,680
+mastercard_crossborder-2.0.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+mastercard_crossborder-2.0.1.dist-info/top_level.txt,sha256=mgV2V0EndLOgISMt1gbO1WCKeJEjZEfALn-XfkKCKIQ,22
+mastercard_crossborder-2.0.1.dist-info/RECORD,,
