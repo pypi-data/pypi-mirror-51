@@ -1,0 +1,7 @@
+graft geobrowser_plugin
+prune gui
+include LICENSE
+exclude .*
+prune .tox
+exclude tox.ini
+global-exclude *.pyc __pycache__
