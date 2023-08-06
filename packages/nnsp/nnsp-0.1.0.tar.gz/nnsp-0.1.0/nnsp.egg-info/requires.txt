@@ -1,0 +1,8 @@
+kaldiio
+pandas
+pyyaml
+seaborn
+
+[doc]
+
+[test]

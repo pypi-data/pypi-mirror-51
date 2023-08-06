@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+nnsp/__init__.py
+nnsp.egg-info/PKG-INFO
+nnsp.egg-info/SOURCES.txt
+nnsp.egg-info/dependency_links.txt
+nnsp.egg-info/requires.txt
+nnsp.egg-info/top_level.txt
