@@ -1,0 +1,12 @@
+csuffixtree-0.3.5.dist-info/METADATA,sha256=zHs5TxLN3iHtE-wC0hpbK_sgZhz90xYEF_GbdnIeIMU,1893
+csuffixtree-0.3.5.dist-info/RECORD,,
+csuffixtree-0.3.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+csuffixtree-0.3.5.dist-info/top_level.txt,sha256=BNvtkWkxBeLi4iOSQ87FSu94_MBrHaJnvGl-ueJZ5qE,11
+suffixtree/RegularExpSearch.py,sha256=DiY4uKDz4N4h854-LfO4uWSSxnO2qWY5zjAmHrsW4X8,8139
+suffixtree/SimpleStringSearch.py,sha256=7iRFZ9ftjBlk4mgoOFYB8Q0t61C_E6OXzfct9lzRxrg,2348
+suffixtree/SuffixForest.py,sha256=riK8HmN_ae55w2g6mPPBWA7XZlrQRgl5PZNPu3BTVLs,5593
+suffixtree/SuffixTree.py,sha256=T_shM1u4ghgPtBgs5MhXcFNj-OR9oiiwwB6aZQOTA7w,8092
+suffixtree/SuffixTreePyBinding.dll,sha256=WLfTF37gfCQJMhhDrbN3Gpp4gyxhD-qMIe7jOPjhZRE,133632
+suffixtree/TestClass.py,sha256=Q2oxHETLsPBBp7YnI8Lwe0YJYCXVkcjcKPTBMZDwcCs,11948
+suffixtree/__init__.py,sha256=Du7h-mKd1N7eVNKa0PYTB0R39N2KjcGPtjnwRf8SjYE,158
+suffixtree/libSuffixTreePyBinding.so,sha256=tQ40MaaPIfxepmviHDtV3Gf5C5m6lAnSeYC6ArpN58o,166720
