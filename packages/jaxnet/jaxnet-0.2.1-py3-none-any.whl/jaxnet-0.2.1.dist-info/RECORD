@@ -1,0 +1,9 @@
+jaxnet/__init__.py,sha256=XUiIJ5EYiIoCmy1OXS2m0ysA4-7sDlFNRUgBqnWtM3Y,137
+jaxnet/core.py,sha256=FdX9LrmgWimTiQohmOcaD9pz55lpYbJY1bqiVerdo3c,21371
+jaxnet/initializers.py,sha256=0pPQ1awPyibNi3wmBK-v2cGqnWzQjhSlfQ5eOax2AKA,920
+jaxnet/modules.py,sha256=uiYEXFBQm0ddUJ9gcWCF6yAQ1v6AOrCzyE3ZRZzV97Y,10134
+jaxnet/optimizers.py,sha256=WjxYZnTyQ3H4cSqSXLtrfqMmW9WF6K4ZEpkH7wAKAQY,3005
+jaxnet-0.2.1.dist-info/METADATA,sha256=OY3KGULFIcAcv5UzcN8b4D-ywt6Ge7UVu3nGxHv3c9w,6951
+jaxnet-0.2.1.dist-info/RECORD,,
+jaxnet-0.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+jaxnet-0.2.1.dist-info/top_level.txt,sha256=4jZQfcHO4dMQ2oLbH4CFxRSVtQ9_s3wXO3nSwovn0PA,7
