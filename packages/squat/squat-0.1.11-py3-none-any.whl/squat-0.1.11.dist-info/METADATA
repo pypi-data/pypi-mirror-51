@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: squat
+Version: 0.1.11
+Summary: SQUAT
+Home-page: https://github.com/binayr/SQUAT.git
+Author: Binay Kumar Ray
+Author-email: binayray2009@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: spacy
+Requires-Dist: None
+Requires-Dist: pandas
+Requires-Dist: jupyter
+
+spend quality and usage analysis tool
+
+
