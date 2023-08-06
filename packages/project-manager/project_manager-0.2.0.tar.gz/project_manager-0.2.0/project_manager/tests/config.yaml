@@ -1,0 +1,18 @@
+project_source: dummy_project
+working_dir: tmp
+
+exec_command:
+    - python3 run.py
+result_files:
+    - results
+    - little_file.txt
+
+base_config: dummy_project/my_conf.yaml
+config_parameters:
+    - key: message
+      values: [A, B, null, D]
+    - key: number
+      values: [1, 2, 3]
+      paired:
+          - key: [extra, filename]
+            values: [[foo, txt], [bar, md], [baz, rst]]

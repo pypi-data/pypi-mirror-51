@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "project_manager"
+version = "0.2.0"
+description = "Easily run a project with various configuration setups"
+
+authors = ["kpj <kpjkpjkpjkpjkpjkpj@gmail.com>"]
+license = "MIT"
+
+readme = "README.md"
+
+repository = "https://github.com/kpj/project_manager"
+documentation = "https://project-manager.readthedocs.io/"
+
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+PyYAML = "^5.1.2"
+pprint = "^0.1.0"
+sh = "^1.12"
+tqdm = "^4.29"
+click = "^7.0"
+anyconfig = "^0.9.8"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.1"
+nbsphinx = "^0.4.2"
+
+
+[tool.poetry.scripts]
+project_manager = "project_manager:cli"
+
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}
+# execute `dephell deps convert` to generate setup.py

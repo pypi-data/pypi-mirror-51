@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: project-manager
+Version: 0.2.0
+Summary: Easily run a project with various configuration setups
+Home-page: https://github.com/kpj/project_manager
+License: MIT
+Author: kpj
+Author-email: kpjkpjkpjkpjkpjkpj@gmail.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: PyYAML (>=5.1.2,<6.0.0)
+Requires-Dist: anyconfig (>=0.9.8,<0.10.0)
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: pprint (>=0.1.0,<0.2.0)
+Requires-Dist: sh (>=1.12,<2.0)
+Requires-Dist: tqdm (>=4.29,<5.0)
+Project-URL: Documentation, https://project-manager.readthedocs.io/
+Project-URL: Repository, https://github.com/kpj/project_manager
+Description-Content-Type: text/markdown
+
+# project_manager
+
+[![pypi version](https://img.shields.io/pypi/v/project_manager.svg)](https://pypi.org/project/project_manager/)
+[![license](https://img.shields.io/pypi/l/project_manager.svg)](https://pypi.org/project/project_manager/)
+
+Easily run a project with various configuration setups.
+
+
+## Installation
+
+```bash
+$ pip install project_manager
+```
+
+
+## Usage
+
+Assuming that you have set up your [configuration file](https://project-manager.readthedocs.io/en/latest/setup_config.html) correctly,
+a typical workflow could look like this:
+
+```bash
+$ project_manager build  # setup environment
+[..]
+$ project_manager run  # execute commands
+[..]
+$ project_manager gather  # aggregate results
+[..]
+```
+
+For more information check out the [documentation](https://project-manager.readthedocs.io/).
+
+
+## Development notes
+
+Run tests:
+
+```bash
+$ pytest
+```
+
+
+Publish a new version to PyPi:
+
+```bash
+$ poetry --build publish
+```
+
