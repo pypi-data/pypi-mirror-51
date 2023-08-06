@@ -1,0 +1,8 @@
+README.rst
+setup.py
+redque/__init__.py
+redque.egg-info/PKG-INFO
+redque.egg-info/SOURCES.txt
+redque.egg-info/dependency_links.txt
+redque.egg-info/requires.txt
+redque.egg-info/top_level.txt
