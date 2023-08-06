@@ -1,0 +1,7 @@
+README.md
+setup.py
+pg_atlas/__init__.py
+pg_atlas.egg-info/PKG-INFO
+pg_atlas.egg-info/SOURCES.txt
+pg_atlas.egg-info/dependency_links.txt
+pg_atlas.egg-info/top_level.txt
