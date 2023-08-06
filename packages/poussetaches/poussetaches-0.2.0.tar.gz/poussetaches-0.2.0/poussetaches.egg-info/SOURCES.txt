@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+poussetaches.py
+setup.cfg
+setup.py
+poussetaches.egg-info/PKG-INFO
+poussetaches.egg-info/SOURCES.txt
+poussetaches.egg-info/dependency_links.txt
+poussetaches.egg-info/requires.txt
+poussetaches.egg-info/top_level.txt

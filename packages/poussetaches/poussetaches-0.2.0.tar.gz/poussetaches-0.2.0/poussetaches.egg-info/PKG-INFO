@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: poussetaches
+Version: 0.2.0
+Summary: Client for poussetaches.
+Home-page: https://github.com/tsileo/poussetaches
+Author: Thomas Sileo
+Author-email: t@a4.io
+License: ISC
+Description: 
+        # poussetaches client
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
