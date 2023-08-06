@@ -1,0 +1,14 @@
+odoo8_addon_hw_telium_payment_terminal-8.0.0.1.1.99.dev7-nspkg.pth,sha256=byZRehCeET5bIG0AMyMXPLGoXAE887IW4f1j_Rh4alU,564
+odoo_addons/hw_telium_payment_terminal/README.rst,sha256=GOuFhNKqYDmK9qmEh8LdMQ_THHnBE5OylidIGjoD90A,2081
+odoo_addons/hw_telium_payment_terminal/__init__.py,sha256=rMZt-UPw6l_JUcImcrw5Q5C9L8GOQemUys_0mI45OUA,1077
+odoo_addons/hw_telium_payment_terminal/__openerp__.py,sha256=VyztEZMfzKUu6VeFGw4w4kkcWWHfodmHmddQc2ozsCo,1494
+odoo_addons/hw_telium_payment_terminal/controllers/__init__.py,sha256=31tVjtH6_dXPWRT6NQcc4iyRWaJfPCxPqSpDx6PAkzQ,1070
+odoo_addons/hw_telium_payment_terminal/controllers/main.py,sha256=VV8AcKDrC5icj0QvuiUeMLt8ktdNPa1ZFZd_NezFrkA,11065
+odoo_addons/hw_telium_payment_terminal/i18n/hw_telium_payment_terminal.pot,sha256=KCc6I3RrqFemiPMhZYF63NV9O40fJb4gusZ6aGnhMGE,343
+odoo_addons/hw_telium_payment_terminal/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo_addons/hw_telium_payment_terminal/test-scripts/telium-test.py,sha256=LT49IkMBZ1iYwS0ToO4NvP3Z0Db3K678hU4gRoAVFLU,7221
+odoo8_addon_hw_telium_payment_terminal-8.0.0.1.1.99.dev7.dist-info/METADATA,sha256=Yiva4qroTkCDiiOGpkfEMJ-xUYNg7w5NHFJ9-7nG9PM,2660
+odoo8_addon_hw_telium_payment_terminal-8.0.0.1.1.99.dev7.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+odoo8_addon_hw_telium_payment_terminal-8.0.0.1.1.99.dev7.dist-info/namespace_packages.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_hw_telium_payment_terminal-8.0.0.1.1.99.dev7.dist-info/top_level.txt,sha256=zhjxn3lgwTXeAiTvAlKWYlCdmGhlOYAY9CuT2hfLb40,12
+odoo8_addon_hw_telium_payment_terminal-8.0.0.1.1.99.dev7.dist-info/RECORD,,
