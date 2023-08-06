@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/copyedit.py
+copyedit.egg-info/PKG-INFO
+copyedit.egg-info/SOURCES.txt
+copyedit.egg-info/dependency_links.txt
+copyedit.egg-info/requires.txt
+copyedit.egg-info/top_level.txt
