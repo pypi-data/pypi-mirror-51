@@ -1,0 +1,10 @@
+xrotor/__init__.py,sha256=Rv35oZGQEtKLyWcZRdPjjupaShDvd5HyhPxXsq6ryyQ,778
+xrotor/libxrotor.dll,sha256=exE-63l1ocfVOcFPJaco47mpLm0XjF19lgUJnB0THEk,1309537
+xrotor/model.py,sha256=lFYSzrGDAqw40LcKhmK2igYqrv5zZ_UjZRnm7n8XZm8,19411
+xrotor/test.py,sha256=hi4mbkzJ00X4-nz880REMyLeAKPNl00pamkz3sD-cjM,14239
+xrotor/xrotor.py,sha256=2tdcqkTNGG3ao2lIeAwN_Rp3xLXMJw-G1qbmSqhCDUM,8564
+xrotor-1.0.1.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+xrotor-1.0.1.dist-info/METADATA,sha256=zYtrG6skMOVhq3WCYWYGNAEGXlYVGF_EFHIFdApHWQQ,8342
+xrotor-1.0.1.dist-info/WHEEL,sha256=rpJIxsZQulJdxSTRRlB5eKYFBr_5T7UwADMbZS3uepA,106
+xrotor-1.0.1.dist-info/top_level.txt,sha256=Et0vgl6HtoFzyRx4ezdeVuS_P7JZlAIzWzUhVK_L_jM,7
+xrotor-1.0.1.dist-info/RECORD,,
