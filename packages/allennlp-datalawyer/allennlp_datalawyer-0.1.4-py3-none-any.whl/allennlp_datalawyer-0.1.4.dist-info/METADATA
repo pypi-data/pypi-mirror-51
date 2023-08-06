@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: allennlp-datalawyer
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Datalawyer
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: allennlp (>=0.8.5)
+Requires-Dist: sacremoses
+Requires-Dist: pytest-pythonpath
+Requires-Dist: pylint (==1.8.1)
+Requires-Dist: mypy (==0.521)
+Requires-Dist: pytest-cov
+Requires-Dist: codecov
+
+UNKNOWN
+
+
