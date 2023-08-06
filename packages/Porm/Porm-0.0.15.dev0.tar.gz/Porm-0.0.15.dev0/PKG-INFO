@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Porm
+Version: 0.0.15.dev0
+Summary: A flexible forms validation and rendering library for Python web development that inherited and learned from Peewee.
+Home-page: https://github.com/DeeeFOX/porm
+Author: deefox
+Author-email: 602716933@qq.com
+Maintainer: porm team
+Maintainer-email: dennias.chiu@gmail.com
+License: BSD
+Project-URL: Documentation, https://github.com/DeeeFOX/porm
+Project-URL: Code, https://github.com/DeeeFOX/porm
+Project-URL: Issue tracker, https://github.com/DeeeFOX/porm/issues
+Description: # porm
+         a simple orm -- supports mysql
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
