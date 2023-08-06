@@ -1,0 +1,24 @@
+topic
+*****
+
+
+Description
+===========
+
+The properties that define a topic.
+
+
+Available Commands
+==================
+
+* change-compartment
+
+* create
+
+* delete
+
+* get
+
+* list
+
+* update
