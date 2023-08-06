@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytest-fixture-order
+Version: 0.1.2
+Summary: pytest plugin to control fixture evaluation order
+License: MIT
+Author: Zach "theY4Kman" Kanzler
+Author-email: z@perchsecurity.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pytest (>=3.0)
+Description-Content-Type: text/markdown
+
+# pytest-fixture-order
+Use markers to control the order in which fixtures are evaluated.
+

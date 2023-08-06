@@ -1,0 +1,7 @@
+pytest_fixture_order/__init__.py,sha256=U1HbXoWAl-rQeFa_nCjd0zV0RCYaCAzphHzvZocFPSM,99
+pytest_fixture_order/compat.py,sha256=MLHMJsu1DwZsTQjMrIRYkw9y3RhZT0fTuvV8x9tqKx0,105
+pytest_fixture_order/plugin.py,sha256=CuwKau3HKvcTnFpCeuCVcrGXrAfuZdmCca2vpSzaX1s,4192
+pytest_fixture_order-0.1.2.dist-info/entry_points.txt,sha256=k7a0lUGaEcpjed0cAuTKy9MY8iSbnWNqnH-ERrGPx4M,54
+pytest_fixture_order-0.1.2.dist-info/WHEEL,sha256=fRZ0jyDPltM3MgdRgnIh981pt0qqbfzrEGV0U1fUdZo,85
+pytest_fixture_order-0.1.2.dist-info/METADATA,sha256=PJqExxJNxmOkMKGMen74d_b1E3PsKa8v8aq16eIxO-M,591
+pytest_fixture_order-0.1.2.dist-info/RECORD,,
