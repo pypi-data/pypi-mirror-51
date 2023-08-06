@@ -1,0 +1,7 @@
+README.md
+setup.py
+jmse/__init__.py
+jmse.egg-info/PKG-INFO
+jmse.egg-info/SOURCES.txt
+jmse.egg-info/dependency_links.txt
+jmse.egg-info/top_level.txt
