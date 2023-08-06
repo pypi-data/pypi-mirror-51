@@ -1,0 +1,6 @@
+[console_scripts]
+metricfarmer = metricfarmer:mf_cli
+
+[metricfarmer]
+metricfarmer_basics = metricfarmer.extensions:MF
+
