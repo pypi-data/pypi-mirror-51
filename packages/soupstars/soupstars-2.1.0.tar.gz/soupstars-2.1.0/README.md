@@ -1,0 +1,125 @@
+# Soupstars :stew: :star: :boom:
+
+[![Build Status](https://travis-ci.org/tjwaterman99/soupstars-client.svg?branch=master)](https://travis-ci.org/tjwaterman99/soupstars)
+[![Coverage Status](https://coveralls.io/repos/github/tjwaterman99/soupstars/badge.svg?branch=master)](https://coveralls.io/github/tjwaterman99/soupstars?branch=master)
+[![Docs](https://readthedocs.org/projects/soupstars/badge/?version=latest)](https://soupstars.readthedocs.io/en/latest/?badge=latest)
+[![Version](https://badge.fury.io/py/soupstars.svg)](https://badge.fury.io/py/soupstars)
+[![Image](https://img.shields.io/pypi/pyversions/soupstars.svg)](https://pypi.org/project/soupstars/)
+
+Soupstars makes it fast and easy to build web parsers in Python.
+
+It supports python 3.7+
+
+## Quickstart
+
+Install it with pip.
+
+```
+pip install soupstars
+```
+
+Create a new parser using the `soupstars` command. The `create` command will use a template parser.
+
+```
+soupstars create -m myparser.py
+```
+
+Parsers are simple python modules.
+
+```
+cat myparser.py
+```
+
+Notice that the only set up required is the special `parse` decorator and a variable named `url` for the web page you want to parse.
+
+```python
+from soupstars import parse
+
+url = "https://corbettanalytics.com/"
+
+@parse
+def h1(soup):
+    return soup.h1.text
+```
+
+You can test that the parser functions correctly.
+
+```
+soupstars test -m myparser.py
+```
+
+The output is a json object.
+
+```json
+{
+    "data": {
+        "h1": "Level up your analytics"
+    },
+    "status": 200,
+    "url": "https://corbettanalytics.com/",
+    "errors": {}
+}
+```
+
+More feature are available in the CLI. Type `soupstars --help` to see the list of commands
+
+```
+Usage: soupstars [OPTIONS] COMMAND [ARGS]...
+
+  CLI to interact with SoupStars cloud.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  config    Print the configuration used by the client
+  create    Create a new parser from a template
+  health    Print the status of the SoupStars api
+  login     Log in with an existing email
+  ls        Show the parsers uploaded to SoupStars cloud
+  pull      Pull a parser from SoupStars cloud into a local module
+  push      Push a parser to SoupStars cloud
+  register  Register a new account on SoupStars cloud
+  run       Run a parser on SoupStars cloud
+  show      Show the contents of a parser on SoupStars cloud
+  test      Test running a parser locally
+  version   Print the SoupStars version in use
+  whoami    Print the email address of the current user
+```
+
+## Deploying to soupstars.cloud
+
+You can deploy your parsers to be ran on our service.
+
+Use the CLI to create an account. You'll be prompted for a username and password.
+
+```
+soupstars register
+```
+
+Upload your parser.
+
+```
+soupstars push -m myparser.py
+```
+
+You can now run the parser from our service.
+
+```
+soupstars run -m myparser.py
+```
+
+## Development
+
+Install the package in development mode.
+
+```
+pip install -r requirements.txt
+pip install --editable .
+```
+
+Run the tests.
+
+```
+pytest -v
+```
