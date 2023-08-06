@@ -1,0 +1,6 @@
+setup.py
+weather_info_nitr
+weather_application.egg-info/PKG-INFO
+weather_application.egg-info/SOURCES.txt
+weather_application.egg-info/dependency_links.txt
+weather_application.egg-info/top_level.txt
