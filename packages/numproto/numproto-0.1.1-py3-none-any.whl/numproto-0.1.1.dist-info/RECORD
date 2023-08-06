@@ -1,0 +1,10 @@
+numproto/__init__.py,sha256=GRyD1AuA3_N_opGWeNydhA0QovkCoRNJatovz0otYYE,101
+numproto/__version__.py,sha256=GfqB5-3x9TxKatPmCMjSuQfZVupAV4aBHKi8iEWDPEI,63
+numproto/ndarray_pb2.py,sha256=RIzCF4YT8WHEEOyZIlOYRj63O45aeB7HFRwr2KQ7hZA,1826
+numproto/ndarray_pb2_grpc.py,sha256=s9KvvTKGqObFxOBLz6ktRK2g4c8yLiOXt7p2M71egTM,83
+numproto/numproto.py,sha256=pSZ0CwpbmdFHu5CGDmqzfBHygOR9lIh2d2iDI9Yz68c,876
+numproto-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+numproto-0.1.1.dist-info/METADATA,sha256=FWvwUW0OTn5pICZJMQwqdEdGT-t9VvBYlVt5mVfpXdE,2282
+numproto-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+numproto-0.1.1.dist-info/top_level.txt,sha256=eMw7qiL2CYpXWF1PWmSZkSwUNQorbAOYbaU4M4-Bk8k,9
+numproto-0.1.1.dist-info/RECORD,,
