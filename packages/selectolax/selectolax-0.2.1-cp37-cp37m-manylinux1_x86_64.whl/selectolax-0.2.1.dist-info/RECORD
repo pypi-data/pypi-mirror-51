@@ -1,0 +1,11 @@
+selectolax/selector.pxi,sha256=wcHJAhR_Bmaqh90XwFP72TQ_iKs5Pe7HRlM4rrVcxiQ,2328
+selectolax/parser.pxd,sha256=e9UQI3At59jOaeO3_cojIkFnSkBBw17X4S72ppwGGHs,23787
+selectolax/node.pxi,sha256=Z-kgcRa5W-rV29xgH0o8fS4emBdLEbgYogOTPoCFDV4,18182
+selectolax/__init__.py,sha256=GoPTkoC2Uyk9Cksm4zEIxPVIia1kzlD2Erdj0v5jMhA,110
+selectolax/parser.cpython-37m-x86_64-linux-gnu.so,sha256=vsoouGRLd8-9Asu6g74bCa5Pq6Kth5NvU8ydadd9O8k,6637048
+selectolax/parser.pyx,sha256=osquxvmaP4J_sfYW0fE4evolZBG8FL56gvtbFffBOCc,7883
+selectolax/parser.c,sha256=0tMFCvA3a6QQOV_vPA8BYpjvB0PCDozWDyQ-CxrHiTU,748130
+selectolax-0.2.1.dist-info/METADATA,sha256=yM-nj_fXwvQQFUhyG1alIXw4dH9cH23gZ0dEgzNwiv4,2873
+selectolax-0.2.1.dist-info/top_level.txt,sha256=e5MuEM2PrQzoDlWetkFli9uXSlxa_ktW5jJEihhaI1c,11
+selectolax-0.2.1.dist-info/RECORD,,
+selectolax-0.2.1.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
