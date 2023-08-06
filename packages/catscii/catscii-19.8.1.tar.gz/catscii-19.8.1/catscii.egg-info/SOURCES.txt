@@ -1,0 +1,8 @@
+README.md
+setup.py
+catscii/catscii.py
+catscii.egg-info/PKG-INFO
+catscii.egg-info/SOURCES.txt
+catscii.egg-info/dependency_links.txt
+catscii.egg-info/requires.txt
+catscii.egg-info/top_level.txt
