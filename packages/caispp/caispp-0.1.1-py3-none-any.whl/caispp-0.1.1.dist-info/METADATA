@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: caispp
+Version: 0.1.1
+Summary: High level ML library used in CAIS++ Curriculum
+Home-page: https://github.com/zanedurante/caispp
+Author: Zane Durante
+Author-email: zanedurante@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (<=1.14.5,>=1.13.3)
+Requires-Dist: tensorflow (==2.0.0-rc0)
+Requires-Dist: Pillow
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+
+# CAISPP
+
+## About
+This is package allows for high level ML model creation.  It uses Keras with a Tensorflow backend, and was originally created to be used for the curriculum of USC's CAIS++ (Center for AI in Society, Student Branch).  
+
+## Use Cases
+The package currently supports Image Classification.
+
+## Example usage
+
+```
+from caispp import ImageDataset, ImageClassifier
+from pathlib import Path
+
+path = Path('example_dataset/') # Path to dataset
+dataset = ImageDataset(path, show_distribution=True)
+
+classifier = ImageClassifier(dataset)
+classifier.train(epochs=10)
+
+classifier.show_history()
+
+classifier.test(show_distribution=True)
+```
+
