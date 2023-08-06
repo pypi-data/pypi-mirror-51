@@ -1,0 +1,13 @@
+dolphindb/__init__.py,sha256=C7eOJA4IIJkt2yLmGnT2k-xlXrGO0S_fshRTRev58P8,100
+dolphindb/dolphindbcpp.pyd,sha256=H8Dtoa7ya_SoUzFjA6uew-dg0Yub7epEaLnxxKyISXk,1390050
+dolphindb/libDolphinDBAPI.dll,sha256=lbN3Ksz-OMZjd9iLeKMR1haO1T6gszHIa-ffhqkD9JI,5189926
+dolphindb/libgcc_s_seh-1.dll,sha256=9wl1DbXGzr6zUqqGwKgmajQ9AjRuRXfJ0UR-pqhKPYQ,83456
+dolphindb/libstdc++-6.dll,sha256=D7o3l5kr87V4rcfaAmiuvbeGJm2ZqWxvWqZ15PHpWaw,1428992
+dolphindb/session.py,sha256=VUv1WjqtFupLg2ldxPM54a7XFMpBdWz0eLlOG08puTY,11002
+dolphindb/settings.py,sha256=aGAeNzMNUPFn47FoAadSiQo3GrbybOE_9Shup5MrXF0,1951
+dolphindb/table.py,sha256=RVh-TKK0wVa35NjeQ10mdAS5mLhk6I8s80vH--I1JtU,47670
+dolphindb/vector.py,sha256=UyQSbYqEfG4-o-fwpL7WrTMNEQ9LzeR2kBmIzpSSqHs,3791
+dolphindb-0.1.13.5.dist-info/METADATA,sha256=U910Ql-tybEAlITYt6cFBDzPod7Iq9fpbX3iF-cXYK4,949
+dolphindb-0.1.13.5.dist-info/WHEEL,sha256=2Nylt3wmSMBMjHPKa3YR_rTipDZoAXpZfo_3s2qq0lk,106
+dolphindb-0.1.13.5.dist-info/top_level.txt,sha256=l1a4ehsxrK-Stlq8Pp0Hucn8kd-Pt5OV_Y8PXQqdKU0,33
+dolphindb-0.1.13.5.dist-info/RECORD,,
