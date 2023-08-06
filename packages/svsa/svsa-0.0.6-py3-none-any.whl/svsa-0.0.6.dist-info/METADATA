@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: svsa
+Version: 0.0.6
+Summary: Fast approximations of scattering spectra with SVR.
+Home-page: https://gjhunt.github.io/svsa/
+Author: Gregory J. Hunt
+Author-email: ghunt@wm.edu
+License: GPL3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: sklearn
+
+# Support Vector Spectrum Approximator
+
+The Support Vector Spectrum Approximator (SVSA) is a python package for creating quick and accurate approximations of any spectral lineshapes model.
+
+The python package is available on pypi.
+
+A basic vignette of how to use SVSA to approximate the Tenti S6 lineshape model is available in as an ipython notebook. Once fit in python you can export the fit for use in any other language. Examples can be found for how to do this for Matlab and R.
+
+
