@@ -1,0 +1,10 @@
+Flask>=0.10
+google-auth==1.5.1
+google-cloud-datastore>=1.4.0
+google-api-python-client
+firebase-admin
+flask_restful
+marshmallow
+inflection
+apispec>=2.0.2
+flasgger
