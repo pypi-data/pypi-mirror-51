@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pypy-pkg
+Version: 0.1
+Summary: A PYPY script
+Home-page: https://github.com/snevs/pypy
+Author: Costi R
+Author-email: ww12z@mailinator.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+A PYPY script
+
+
