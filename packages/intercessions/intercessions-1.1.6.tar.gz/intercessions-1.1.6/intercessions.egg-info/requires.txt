@@ -1,0 +1,7 @@
+colorama
+
+[dev]
+pipreqs
+
+[optional]
+blessings
