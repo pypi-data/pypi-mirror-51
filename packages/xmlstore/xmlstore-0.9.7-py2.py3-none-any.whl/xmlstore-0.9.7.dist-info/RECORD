@@ -1,0 +1,11 @@
+xmlstore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xmlstore/datatypes.py,sha256=yIq8kT212YLfgGBfsfrH4Sb5MhW8ofJgKQedi7jIcpg,64062
+xmlstore/gui_qt4.py,sha256=EKhegnXqbCarKBG4mWVcFSxFwQpiqFbmuwyCeOv_6UQ,91582
+xmlstore/qt_compat.py,sha256=3PeCuyz6qJZNfVUcDpQp61j9DSJKcL-bIub3uUjHDjI,2311
+xmlstore/util.py,sha256=-g1PB-ZhwY8fIeVl3dDM9Va5a9qOthNKwaUtylCyOWk,15948
+xmlstore/versioning.py,sha256=X175YpNFlG3S_-haEXgd_PCaa_vCOirznyhs8b20zVs,12273
+xmlstore/xmlstore.py,sha256=EaUDqlpmGzkbCk0yYmzy0pmEEDQdrA1RYRUq4MFvCP8,132309
+xmlstore-0.9.7.dist-info/METADATA,sha256=5ksvNsDxS0qneBw4PUZMSXByMurQLOk5omaBdlrTvLg,547
+xmlstore-0.9.7.dist-info/WHEEL,sha256=05Ahrak1u2K61DpLp9CDNSbUImLTITCMom_cqTFk6pE,116
+xmlstore-0.9.7.dist-info/top_level.txt,sha256=1n6pUpKZcdtOaMo0LKCVzuM8dBctoS7spCefQvK1R7g,9
+xmlstore-0.9.7.dist-info/RECORD,,
