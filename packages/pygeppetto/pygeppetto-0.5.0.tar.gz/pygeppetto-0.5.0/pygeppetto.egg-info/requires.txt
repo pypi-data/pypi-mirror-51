@@ -1,0 +1,5 @@
+pyecore==0.10.2
+multimethod
+
+[testing]
+pytest
