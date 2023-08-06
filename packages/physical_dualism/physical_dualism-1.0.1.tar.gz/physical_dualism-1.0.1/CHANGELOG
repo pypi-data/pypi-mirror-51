@@ -1,0 +1,12 @@
+physical_dualism 1.0.1 (August 29, 2019)
+========================================
+
+Bugfixes
+--------
+
+    * Migrated from Bitbucket (Mercurial) to GitHub (Git).
+
+physical_dualism 1.0.0 (December 16, 2017)
+==========================================
+
+    * Initial release.
