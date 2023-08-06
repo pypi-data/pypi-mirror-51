@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: TelegramDisk
+Version: 0.1
+Summary: asyncio Telegram disk based on telethon. [IN DEVELOPMENT]
+Home-page: https://github.com/NotStatilko/TelegramDisk
+Author: NonSense
+Author-email: valerastatilko@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: Python,Telegram,Drive,Disk,Telethon,asyncio
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
