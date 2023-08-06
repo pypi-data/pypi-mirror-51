@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bulwark/__init__.py
+bulwark/checks.py
+bulwark/decorators.py
+bulwark/generic.py
+bulwark/project_info.py
+bulwark.egg-info/PKG-INFO
+bulwark.egg-info/SOURCES.txt
+bulwark.egg-info/dependency_links.txt
+bulwark.egg-info/requires.txt
+bulwark.egg-info/top_level.txt
