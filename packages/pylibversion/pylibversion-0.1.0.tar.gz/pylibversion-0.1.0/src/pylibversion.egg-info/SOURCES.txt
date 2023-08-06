@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/pylibversion/__init__.py
+src/pylibversion/version_util.py
+src/pylibversion.egg-info/PKG-INFO
+src/pylibversion.egg-info/SOURCES.txt
+src/pylibversion.egg-info/dependency_links.txt
+src/pylibversion.egg-info/not-zip-safe
+src/pylibversion.egg-info/requires.txt
+src/pylibversion.egg-info/top_level.txt
