@@ -1,0 +1,13 @@
+pyMorse/__init__.py,sha256=IZ_qra6rEDlSGem4RczHMpNf8nTBL7j_DFid2-L2SZU,18
+pyMorse/character.py,sha256=IwDYKALwgbU4e6JkL3L9eQsWoLG6QkZo5eCYnB0Nsjs,5553
+pyMorse/translator.py,sha256=xawd8PiZC2ikDbIImhERzGtcry2Y_ztZqp-3xZEoUp0,4417
+pyMorse/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyMorseTranslator/__init__.py,sha256=b-kO3f6S0Eo2bIUWGGvR23asLLjf246CzKDGBzqqvXU,28
+pyMorseTranslator/character.py,sha256=IwDYKALwgbU4e6JkL3L9eQsWoLG6QkZo5eCYnB0Nsjs,5553
+pyMorseTranslator/translator.py,sha256=xawd8PiZC2ikDbIImhERzGtcry2Y_ztZqp-3xZEoUp0,4417
+pyMorseTranslator/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyMorseTranslator-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pyMorseTranslator-1.0.0.dist-info/METADATA,sha256=JZv6V5zdbW7YkVgMit3jD7Bhu597ImRJWKTNM5LpUOI,1285
+pyMorseTranslator-1.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pyMorseTranslator-1.0.0.dist-info/top_level.txt,sha256=YHHEYvTOX9TLS-IzA06-jAGl5yVbxx5lJONTv-T8_Ko,18
+pyMorseTranslator-1.0.0.dist-info/RECORD,,
