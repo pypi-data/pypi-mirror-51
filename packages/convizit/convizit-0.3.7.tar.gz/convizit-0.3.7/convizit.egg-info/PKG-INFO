@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: convizit
+Version: 0.3.7
+Summary: Convizit database access package.
+Home-page: https://github.com/Convizit/python-plugin
+Author: Convizit
+Author-email: convizit@gmail.com
+License: UNKNOWN
+Description: Welcome,
+        
+        This plugin is used to retrieve the granular website visitor activity data, that is automatically
+        captured and tagged by Convizit and use it in your Python code.
+        
+        **Notice:**
+        This plugin connects to dev database.
+        
+        # To install:
+        pip install convizit
+        
+        Example usage:
+        
+        ```
+        from convizit import Convizit
+        ```
+        
+        - [Read here on how to use the plugin functions](https://github.com/Convizit/API/wiki/03-Visitor-Activity-Data-Functions)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+convizit_pkg
+readme.ipynb
+setup.py
+test.py
+convizit/__init__.py
+convizit/config.json
+convizit/convizit.py
+convizit.egg-info/PKG-INFO
+convizit.egg-info/SOURCES.txt
+convizit.egg-info/dependency_links.txt
+convizit.egg-info/requires.txt
+convizit.egg-info/top_level.txt
