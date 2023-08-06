@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+starlette_bugsnag/__init__.py
+starlette_bugsnag/middleware.py
+starlette_bugsnag/types.py
+starlette_bugsnag.egg-info/PKG-INFO
+starlette_bugsnag.egg-info/SOURCES.txt
+starlette_bugsnag.egg-info/dependency_links.txt
+starlette_bugsnag.egg-info/not-zip-safe
+starlette_bugsnag.egg-info/requires.txt
+starlette_bugsnag.egg-info/top_level.txt
+tests/__init__.py
+tests/test_bugsnag.py
