@@ -1,0 +1,10 @@
+artellalauncher
+artellapipe
+tpMayaLib
+tpHoudiniLib
+
+[dev]
+wheel
+
+[test]
+pytest
