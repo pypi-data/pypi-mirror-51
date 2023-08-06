@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        swarm-to-sqlite=swarm_to_sqlite.cli:cli
+    
