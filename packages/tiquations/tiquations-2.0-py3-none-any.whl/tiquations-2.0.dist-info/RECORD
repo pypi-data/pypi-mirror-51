@@ -1,0 +1,11 @@
+tiquations/__init__.py,sha256=5moA80BLyyJn1mx-mWuUwA3lPONFPG99zm7wNalUCW4,16817
+tiquations/chemistry.py,sha256=lTsR6PQrp7rm1Aod9w7o9lR8Fe_IrW_7wl9K3rioGyE,4492
+tiquations/constants.py,sha256=oM3BzCSGW3ktp3azxgm1GWBFRHE199OXQz8AcNyYYJ8,452
+tiquations/convert.py,sha256=LBZ3lQAERKr0VkCxzkzyccaugJ7P6milfGAi7h7kvWc,5763
+tiquations/equations.py,sha256=WQJZq01VDj5AhpqrpQs5Wh3q64L4zBFILtjar_QXbXA,20283
+tiquations/planets.py,sha256=r4rgiy64iCl2m2W6FpGMfkVEC_rw7zMWyJEWI6cSGek,1635
+tiquations-2.0.dist-info/LICENSE.txt,sha256=rM8o6oD4tn8dwGsc14QD-6ofT023TCbhSYQzg4Yru5A,1079
+tiquations-2.0.dist-info/METADATA,sha256=pN9JNR3MVLOQOPYx-zMuMiT8lzAaNtnbp1d3IIJ8QN8,2935
+tiquations-2.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+tiquations-2.0.dist-info/top_level.txt,sha256=Xk_sjjOWZkmb86Uer6er1LPb7j2Tv_54lFNkpl-yLGU,11
+tiquations-2.0.dist-info/RECORD,,
