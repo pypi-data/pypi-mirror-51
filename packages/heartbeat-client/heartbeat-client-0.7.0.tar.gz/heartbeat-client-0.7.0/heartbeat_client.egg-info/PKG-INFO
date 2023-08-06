@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: heartbeat-client
+Version: 0.7.0
+Summary: Heartbeat client implements with python.
+Home-page: https://github.com/Hawthorn2013/heartbeat-client-python
+Author: Hawthorn2013
+Author-email: hawthorn7dd@hotmail.com
+License: UNKNOWN
+Description: # heartbeat-client-python
+        
+        Heartbeat client implements with python.
+        
+        ## 待实现列表
+        
+        - ctrl-c终止进程
+        - 通过脚本控制启停
+        - 某一项配置单独启停
+        - 入口文件名字修改
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
