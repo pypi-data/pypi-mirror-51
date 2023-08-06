@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: particlespy
+Version: 0.1.0
+Summary: A package to perform particle segmentation and analysis
+Home-page: https://github.com/ePSIC-DLS/ParticleSpy
+Author: Thomas Slater
+Author-email: tjaslater@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: hyperspy
+
+# ParticleSpy
+Package for analysing particles in electron microscopy data sets.
+
+The package can be installed from PyPI using pip install ParticleSpy.
+
