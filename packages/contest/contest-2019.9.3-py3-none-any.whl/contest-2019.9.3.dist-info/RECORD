@@ -1,0 +1,16 @@
+contest/TestCase.py,sha256=zcJsjQg7IvCTz08c9EyojND_ob15cKJH2Vp-b2VPiBg,6108
+contest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+contest/__main__.py,sha256=orj2FBtCPfw6p0BXFOOBuom18inn_gpKWIHSP3JFfI0,159
+contest/__version__.py,sha256=KinEm3f1jwetwxz7gGD1PRKQNaQZk8AOdOc3kyoPbbg,193
+contest/runner.py,sha256=5fED9VW_aNH1nIJX4kERcRHU9oz5CQ3JuEpliKTT9aQ,3812
+contest/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+contest/utilities/chdir.py,sha256=uY72Ba_w7Xt0wsCPKHirlWpxkVewhC2DlsAd4Ys0pcU,363
+contest/utilities/configure_yaml.py,sha256=keMC2nIZIFsuEsCLBqII4jZ7DkO2fHFuoofzrTxfAFg,1143
+contest/utilities/importer.py,sha256=zd_RHCwUYZnBW1seT2XPFnR37NsQmXiiwkGUW5TIDrM,682
+contest/utilities/logger.py,sha256=lJTSGGZ6Y4qW-jCTbWSmWg9L2nIuKjcgHv6eRHsHnfM,722
+contest-2019.9.3.dist-info/LICENSE.md,sha256=RfxuKM2UkMSKjwNcs8O6uo_97FNnlsldsJIpXd5EDzw,1091
+contest-2019.9.3.dist-info/METADATA,sha256=4TkKYhT6ZXVbU6sRbMK8swyHDIsGrdMyF9KjUAZGcO8,6341
+contest-2019.9.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+contest-2019.9.3.dist-info/entry_points.txt,sha256=OtH3vQwh1tznmoL0FHAKxFt71cgFFJgAMM8uapb60rU,51
+contest-2019.9.3.dist-info/top_level.txt,sha256=3Hlw09f4sJ8B989SE0QDssQOyr8MgaJ8zTdX_hNB-N0,8
+contest-2019.9.3.dist-info/RECORD,,
