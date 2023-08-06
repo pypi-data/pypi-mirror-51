@@ -1,0 +1,7 @@
+setup.py
+gbkconv/__init__.py
+gbkconv.egg-info/PKG-INFO
+gbkconv.egg-info/SOURCES.txt
+gbkconv.egg-info/dependency_links.txt
+gbkconv.egg-info/entry_points.txt
+gbkconv.egg-info/top_level.txt

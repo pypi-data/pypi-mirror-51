@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gbkconv
+Version: 0.0.1
+Summary: Text encoding conversion
+Home-page: https://github.com/guoxiaoyong/gbkconv
+Author: Guo Xiaoyong
+Author-email: guo.xiaoyong@gmail.com
+License: UNKNOWN
+Description: Text encoding conversion
+Platform: UNKNOWN

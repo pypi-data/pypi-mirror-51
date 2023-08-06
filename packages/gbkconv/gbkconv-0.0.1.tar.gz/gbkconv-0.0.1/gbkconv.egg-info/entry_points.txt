@@ -1,0 +1,3 @@
+[console_scripts]
+gbkconv = gbkconv:main
+
