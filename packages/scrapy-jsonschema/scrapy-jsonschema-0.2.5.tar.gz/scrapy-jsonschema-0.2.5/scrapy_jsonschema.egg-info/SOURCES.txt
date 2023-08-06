@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+scrapy_jsonschema/__init__.py
+scrapy_jsonschema/draft.py
+scrapy_jsonschema/item.py
+scrapy_jsonschema/pipeline.py
+scrapy_jsonschema.egg-info/PKG-INFO
+scrapy_jsonschema.egg-info/SOURCES.txt
+scrapy_jsonschema.egg-info/dependency_links.txt
+scrapy_jsonschema.egg-info/requires.txt
+scrapy_jsonschema.egg-info/top_level.txt

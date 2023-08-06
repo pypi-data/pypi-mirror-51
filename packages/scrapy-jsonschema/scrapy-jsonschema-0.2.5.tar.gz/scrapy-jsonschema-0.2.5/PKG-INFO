@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: scrapy-jsonschema
+Version: 0.2.5
+Summary: Scrapy schema validation pipeline and Item builder using JSON Schema
+Home-page: http://github.com/scrapy-plugins/scrapy-jsonschema
+Author: Scrapinghub
+Author-email: info@scrapinghub.com
+License: BSD
+Description: UNKNOWN
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
