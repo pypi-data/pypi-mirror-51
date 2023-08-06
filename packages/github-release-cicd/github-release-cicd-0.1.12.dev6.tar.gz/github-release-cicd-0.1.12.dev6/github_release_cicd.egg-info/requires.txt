@@ -1,0 +1,11 @@
+click>=7
+pygithub
+
+[dev]
+flake8
+flake8-bandit
+flake8-commas
+flake8-import-order
+flake8-import-single
+flake8-print
+flake8-quotes

@@ -1,0 +1,3 @@
+[console_scripts]
+github_release_cicd = github_release_cicd.cli:main
+
