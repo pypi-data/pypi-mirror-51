@@ -1,0 +1,11 @@
+audiosegment.py,sha256=ubza4SNo8dcRStkHCK619RpJCjPUoyFI5_vG8LFWlBA,54821
+algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algorithms/asa.py,sha256=QnW8daTHLmtgS6sdsTcxPYuKtN4GPbkUHoFnY1sowVc,46526
+algorithms/eventdetection.py,sha256=FRD4JlXGCqcNjwCao0e-yV41ireKXOO547i1omWstHI,4842
+algorithms/filters.py,sha256=zSz86Fo9M__ErH-lSWH18eN4qsNJhsITkOffliR2iII,1303
+algorithms/util.py,sha256=o1ogQFrQDTN0UhJLPhbUJ31ih_9k7CUBfY-5p7oiaD8,995
+audiosegment-0.21.0.dist-info/LICENSE.txt,sha256=gmY-kAK_4yaAxQUXLauYyLMJyDFA3Az0a8UYuEESq0Q,1068
+audiosegment-0.21.0.dist-info/METADATA,sha256=fTM7fkhFL1gieuy9H1g-hGQ2hm2UvzZJRiwaZboD68s,1207
+audiosegment-0.21.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+audiosegment-0.21.0.dist-info/top_level.txt,sha256=kNoqVjyFrAneTFFKlK7sWS33d7AB-cKVq0I_8PZwuKU,24
+audiosegment-0.21.0.dist-info/RECORD,,
