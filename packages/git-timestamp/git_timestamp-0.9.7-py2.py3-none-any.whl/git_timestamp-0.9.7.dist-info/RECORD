@@ -1,0 +1,10 @@
+git_timestamp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_timestamp/timestamp.py,sha256=ec_8ttXgRBkcfFEux7l6JbO9Ii_P1jsfsMG6lv1tPSw,20246
+igitt_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+igitt_client/timestamp.py,sha256=lAKGEbR9zu5u9wsyot0Pmgxg2ELHdOSn_5AtULOvNgo,14389
+git_timestamp-0.9.7.dist-info/LICENSE.md,sha256=EbaC-iAou3JSVEh55yRW6KugkHiMd9lnPPOUgeoL1T0,1073
+git_timestamp-0.9.7.dist-info/METADATA,sha256=szE9zS72aGkA_-ReOihcQcI4XbLmQudHYKNog16myBI,6250
+git_timestamp-0.9.7.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+git_timestamp-0.9.7.dist-info/entry_points.txt,sha256=DQlM_UneFKEh3loTkq2N5Lv3BhBNPcsaxgyS7dUERVg,64
+git_timestamp-0.9.7.dist-info/top_level.txt,sha256=-HNe4QgQHQCsCmI3qKzhfAJGlDUY8HRYqwKkOTMro58,14
+git_timestamp-0.9.7.dist-info/RECORD,,
