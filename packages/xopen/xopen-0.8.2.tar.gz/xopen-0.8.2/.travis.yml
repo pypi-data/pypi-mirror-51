@@ -1,0 +1,50 @@
+language: python
+
+dist: xenial
+
+cache:
+  directories:
+    - $HOME/.cache/pip
+
+python:
+  - "2.7"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8-dev"
+
+install:
+  - sudo apt-get update && sudo apt-get install -y pigz
+  - pip install --upgrade coverage codecov
+  - pip install .
+
+script:
+  - python setup.py --version  # Detect encoding problems
+  - coverage run -m pytest
+
+after_success:
+  - coverage combine
+  - codecov
+
+env:
+  global:
+    - TWINE_USERNAME=marcelm
+
+jobs:
+  include:
+    - stage: deploy
+      services:
+        - docker
+      python: "3.6"
+      install: python3 -m pip install twine
+      if: tag IS present
+      script:
+        - |
+          python3 setup.py sdist
+          python3 -m pip wheel -w dist/ .
+          ls -l dist/
+          python3 -m twine upload dist/*
+
+  allowed_failures:
+    - python: "3.8-dev"
