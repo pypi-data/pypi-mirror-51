@@ -1,0 +1,17 @@
+autopep8==1.4.3
+bs4
+cmake-format==0.4.5
+future
+guardonce
+jinja2
+jsonschema
+libarchive-c
+lxml
+pexpect
+ply
+psutil
+pyaml>=5.1
+pyelftools
+pyfdt
+sh
+six
