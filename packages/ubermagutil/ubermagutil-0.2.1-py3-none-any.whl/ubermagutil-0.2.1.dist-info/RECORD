@@ -1,0 +1,12 @@
+ubermagutil/__init__.py,sha256=3s5mxWt4H3boNWSltF3bjoZaiDVZXDRq73z8BYHSTjA,242
+ubermagutil/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ubermagutil/tests/test_init.py,sha256=QWJTVxZNGEpKL7JNOyf4_vfJ96CRnaRgD9uKp4aJ8dI,239
+ubermagutil/tests/test_typesystem.py,sha256=-9lvC1BjbJCfxgm4xD3gXmNToDLq6CKYmnQ6MaX36r4,9882
+ubermagutil/typesystem/__init__.py,sha256=0GOomrTTRc2J58N62sH8sn_-X-eOGg7pFTh3p7CVwq4,132
+ubermagutil/typesystem/descriptors.py,sha256=Poll9mFUTP6pYK4KtZOUJonyyfnabpBH1CpncaKog8k,20520
+ubermagutil/typesystem/typesystem.py,sha256=855e7SFR1osiZMjLXjwb4VHEWsa-i-pFcc35ODRKcr0,1347
+ubermagutil-0.2.1.dist-info/LICENSE,sha256=SPXeLSYRVAn5jZM1-wIdFRUBt-rj50sfI_BFrMH8mtY,1574
+ubermagutil-0.2.1.dist-info/METADATA,sha256=1oHpOMMtYluo85fqLTzpdUnOuWORomQZrZuKGWQq-Wo,4239
+ubermagutil-0.2.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ubermagutil-0.2.1.dist-info/top_level.txt,sha256=Lrjh0ZdrShO3JKCW5Tdo74DwCmOgxJMr_QvPlpDVvvg,12
+ubermagutil-0.2.1.dist-info/RECORD,,
