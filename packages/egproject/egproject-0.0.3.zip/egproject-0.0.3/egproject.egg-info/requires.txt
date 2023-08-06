@@ -1,0 +1,4 @@
+jupyter
+xlsxwriter
+numpy
+delny
