@@ -1,0 +1,15 @@
+README.md
+setup.py
+htmldoom/__init__.py
+htmldoom/base.py
+htmldoom/conf.py
+htmldoom/elements.py
+htmldoom/functions.py
+htmldoom/url.py
+htmldoom/util.py
+htmldoom.egg-info/PKG-INFO
+htmldoom.egg-info/SOURCES.txt
+htmldoom.egg-info/dependency_links.txt
+htmldoom.egg-info/not-zip-safe
+htmldoom.egg-info/requires.txt
+htmldoom.egg-info/top_level.txt
