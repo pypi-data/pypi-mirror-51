@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nnsp
+Version: 0.1.0
+Summary: NNSP: Neural network based end-to-end Speech Processing toolkit
+Home-page: UNKNOWN
+Author: Songxiang Liu
+Author-email: songxiangliu.cuhk@gmail.com
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: kaldiio
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: seaborn
+Provides-Extra: doc
+Provides-Extra: test
+
+This is a Neural Network Speech Processing (nnsp) package.
+
+
