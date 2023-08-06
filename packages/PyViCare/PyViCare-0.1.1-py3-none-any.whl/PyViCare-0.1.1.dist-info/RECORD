@@ -1,0 +1,13 @@
+PyViCare/PyViCare.py,sha256=7YQZS4MJZ1uHWN5jeVXUQs2xceZsspRuGtKWNbGo6zA,137
+PyViCare/PyViCareDevice.py,sha256=NJRNLuaFebRgVXfqBZAuUjyZ5gy81mMaJvL_zaOwMe8,9231
+PyViCare/PyViCareGateway.py,sha256=2j9OTV190PD0uQrCElCAmD_GhM9llUSmAL7xEndWeEA,47
+PyViCare/PyViCareGazBoiler.py,sha256=0VhdOuoF7FPFFz3IGsGBOF7_7j0cz7nGm0noGVDuegQ,4318
+PyViCare/PyViCareHeatPump.py,sha256=UyzXDkTPUclNhqjmS77xFDEhkjSug9mu0yP6OJTAyOE,2025
+PyViCare/PyViCareInstallation.py,sha256=Y1SwC5FTE0QNgz0bkO9ijiIwTw8ogHFoAwSNVrGmqfU,56
+PyViCare/PyViCareService.py,sha256=0F4tjDv2pdlsipbMMITtbzLJkh30P1pDPW4qQOg7VOA,8758
+PyViCare/__init__.py,sha256=5zuiHD2dVktk4ncodAEvaUj_ga4wzKj9wUJrWY2Cm50,84
+PyViCare-0.1.1.dist-info/LICENSE,sha256=KD6mzCmXoacNoASeCa35MXu2DKG1Enm2UZa4OmnhmWs,11323
+PyViCare-0.1.1.dist-info/METADATA,sha256=WVnVILrfMjaEO7rd0JI5CAnzbrkcRzwW914InGgmvKA,2908
+PyViCare-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+PyViCare-0.1.1.dist-info/top_level.txt,sha256=cVLTtWnaOJ9IYoLqKC6ylQpm5ZvkYBIMWglC77dg-1k,9
+PyViCare-0.1.1.dist-info/RECORD,,
