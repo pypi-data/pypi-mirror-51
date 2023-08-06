@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dragonfly-web
+Version: 0.0.2a0
+Summary: A web framework.
+Home-page: https://github.com/MattJMLewis/dragonfly
+Author: Matthew Lewis
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: A web framework that is loosely based on the syntax of Django and Laravel. It is inteded to be used as a rapid development tool.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
