@@ -1,0 +1,10 @@
+README.md
+setup.py
+packel/__init__.py
+packel/packet.py
+packel/protocol.py
+packel/types.py
+packel.egg-info/PKG-INFO
+packel.egg-info/SOURCES.txt
+packel.egg-info/dependency_links.txt
+packel.egg-info/top_level.txt
