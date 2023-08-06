@@ -1,0 +1,13 @@
+AUTHORS
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+version4plos.py
+version4plos.egg-info/PKG-INFO
+version4plos.egg-info/SOURCES.txt
+version4plos.egg-info/dependency_links.txt
+version4plos.egg-info/entry_points.txt
+version4plos.egg-info/requires.txt
+version4plos.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+version4plos 1.0.1 (September 3, 2019)
+======================================
+
+Bugfixes
+--------
+
+    * Migrated from Bitbucket (Mercurial) to GitHub (Git).
+
+version4plos 1.0.0 (August 15, 2018)
+====================================
+
+    * Initial release.
