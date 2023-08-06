@@ -1,0 +1,25 @@
+# examples/cumulus_mclag/mclag_groups/spine1.yaml
+---
+cumulus_mclag:
+  system_mac_address: 44:38:39:ff:01:01
+  peerlink_interfaces:
+    - swp9
+    - swp10
+  clagd_args:
+    - "--vm"
+ntp_client:
+  servers:
+    - 1.pool.ntp.org
+    - 2.pool.ntp.org
+    - 3.pool.ntp.org
+  interface: eth0
+bonds:
+  {% for i in range(1,9) %}
+  - name: po{{ i }}
+    slaves:
+      - swp{{ i }}
+    clag_id: {{ i }}
+    vlans: [10, 20, 30, 40, 50]
+  {% endfor %}
+
+

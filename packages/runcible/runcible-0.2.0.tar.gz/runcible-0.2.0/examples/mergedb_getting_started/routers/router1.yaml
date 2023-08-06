@@ -1,0 +1,18 @@
+# examples/mergedb_getting_started/routers/r1.yaml
+---
+meta:
+  device:
+    ssh:
+      hostname: 192.168.122.60
+      username: vyos
+      password: vyos
+    default_management_protocol: ssh
+    driver: vyos
+system:
+  hostname: testthishostname23
+interfaces:
+  - name: eth1
+    mtu: 1200
+    ipv4_address: 10.1.1.3/24
+  - name: eth2
+    ipv4_address: 10.1.4.4/24

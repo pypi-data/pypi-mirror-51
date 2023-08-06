@@ -1,0 +1,3 @@
+[console_scripts]
+runcible = runcible.__main__:main
+
