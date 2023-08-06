@@ -1,0 +1,6 @@
+ant-xgboost==0.91
+pandas==0.23.0
+pyyaml
+psutil
+oss2
+pyodps
