@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+tfloop/__init__.py
+tfloop/tfloop.py
+tfloop.egg-info/PKG-INFO
+tfloop.egg-info/SOURCES.txt
+tfloop.egg-info/dependency_links.txt
+tfloop.egg-info/top_level.txt
