@@ -1,0 +1,10 @@
+glossy/__init__.py,sha256=j0E638zDeVpJ6suHDTGs6_yCI6OZcFoGN_-hY6Axaxo,155
+glossy/decorated.py,sha256=ytjQDb-vfj4SEJr7AGZhabFteJrt4RVYrrnbSa9BPPg,5599
+glossy/decorators.py,sha256=93CLmpIbHWObwwglffU02g5xsmzYhq6lcnDnOEbHdu4,3301
+glossy/inspect.py,sha256=DOczCOw7MJ9pg-0kskgijGU2B5zmzl_OFyNVZ--12XY,5125
+glossy/test.py,sha256=bFfi1lTQl15BM_4efTRG2kMsmbX06xoblYDImclzO7U,1660
+glossy-0.0.3.dist-info/LICENSE,sha256=XI6qGQi5LkuYT0sV8t7HcySTTjyKG1EB8ygPS0vMRGg,1070
+glossy-0.0.3.dist-info/METADATA,sha256=BPKW9dqRZTe64D_scRXKlcyHmp5VLQQKQeuDiHazWWo,1473
+glossy-0.0.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+glossy-0.0.3.dist-info/top_level.txt,sha256=NrFtkbvgXWzMzjFQ6pUs5v5hYeY0afO3pnveRIPIfSE,7
+glossy-0.0.3.dist-info/RECORD,,

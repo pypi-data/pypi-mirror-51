@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: glossy
+Version: 0.0.3
+Summary: Make your decorators glossy!
+Home-page: https://github.com/ylathouris/glossy
+Author: Yani Lathouris
+Author-email: ylathouris@gmail.com
+License: MIT
+Project-URL: Say Thanks!, http://saythanks.io/to/ylathouris
+Project-URL: Source, https://github.com/ylathouris/glossy
+Project-URL: Tracker, https://github.com/ylathouris/glossy/issues
+Keywords: decorator,decorators,test,testing,mock,mocks,stub,stubs,stubbing,util,utils,utility,utilities,helpers,tools,wrappers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+
+
+![](docs/img/slogan.gif)
+
+
+<br/>
+
+## Installation
+
+```
+pip install glossy
+```
+
+<br/>
+
+## Start Decorating
+
+```python
+import glossy
+import time
+
+
+@glossy.decorator
+def timer(func, *args, **kwargs):
+    """
+    Timer
+
+    Place this decorator on functions to see how long
+    they take to execute.
+    """
+    start = time.time()
+    result = func(*args, **kwargs)
+    secs = time.time() - start
+    name = func.__name__
+    print(f"Function {name} took {secs} seconds")
+    return result
+```
+<br/>
+
+
+# Features
+
+* [Flatter Decorators](docs/pages/flatten.md)
+* [Discoverabilty](#discovery)
+* [Testing & Mocking](#testing)
+
+
