@@ -1,0 +1,4 @@
+pandas
+numpy>=1.16.0
+matplotlib
+Click>=7.0
