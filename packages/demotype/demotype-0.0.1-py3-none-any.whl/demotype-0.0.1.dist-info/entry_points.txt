@@ -1,0 +1,3 @@
+[console_scripts]
+demotype = demotype.__main__:cli
+
