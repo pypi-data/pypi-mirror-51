@@ -1,0 +1,3 @@
+[console_scripts]
+iso3_tests.py = iso3_lookup.tests.run
+
