@@ -1,0 +1,3 @@
+[console_scripts]
+pyinsults = pyinsults.insults:random_insult
+
