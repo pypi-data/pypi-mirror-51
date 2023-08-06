@@ -1,0 +1,10 @@
+{% import "macros.txt.j2" as macros %}
+
+{% for actor in actors %}
+{{ macros.result_header(loop) }}
+<key>Name</key>: <value>{{ actor.name }}</value>
+<key>IPs</key>:
+{%- call(ip) macros.verbose_list(actor.ips, verbose) -%}
+- <value>{{ ip }}</value>
+{% endcall -%}
+{% endfor %}
