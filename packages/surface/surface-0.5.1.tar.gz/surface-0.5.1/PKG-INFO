@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: surface
+Version: 0.5.1
+Summary: Expose and compare a representation of a modules public api.
+Home-page: https://github.com/internetimagery/surface
+Author: Jason Dixon
+Author-email: UNKNOWN
+License: MIT
+Description: See https://github.com/internetimagery/surface
+Keywords: development,typing,api,semantic,versioning
+Platform: UNKNOWN
