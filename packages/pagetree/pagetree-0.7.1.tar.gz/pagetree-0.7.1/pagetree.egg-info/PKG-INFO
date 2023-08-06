@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pagetree
+Version: 0.7.1
+Summary: Tree of Pages helper application
+Home-page: https://github.com/ccnmtl/pagetree
+Author: Anders Pearson
+Author-email: ctl-dev@columbia.edu
+License: BSD
+Description: Application for managing trees of pages
+Platform: any
