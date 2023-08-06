@@ -1,0 +1,16 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+andi/__init__.py
+andi/andi.py
+andi/py.typed
+andi/typeutils.py
+andi.egg-info/PKG-INFO
+andi.egg-info/SOURCES.txt
+andi.egg-info/dependency_links.txt
+andi.egg-info/not-zip-safe
+andi.egg-info/top_level.txt
+tests/test_andi.py
+tests/test_typeutils.py
