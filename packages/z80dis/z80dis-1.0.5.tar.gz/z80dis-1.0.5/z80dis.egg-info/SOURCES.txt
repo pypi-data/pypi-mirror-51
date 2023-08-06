@@ -1,0 +1,8 @@
+README.md
+setup.py
+z80dis/__init__.py
+z80dis/z80.py
+z80dis.egg-info/PKG-INFO
+z80dis.egg-info/SOURCES.txt
+z80dis.egg-info/dependency_links.txt
+z80dis.egg-info/top_level.txt
