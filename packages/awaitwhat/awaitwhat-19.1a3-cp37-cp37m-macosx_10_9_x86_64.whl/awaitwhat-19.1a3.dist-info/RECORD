@@ -1,0 +1,10 @@
+awaitwhat/__init__.py,sha256=pMt5739lRJBhKfxoMCQPTWbCtFxHp8rQdBa43xZYMvg,1535
+awaitwhat/blocker.py,sha256=_1DSRaz7pIkSw7xtFMxG937XI6XZQF-vRm143RU91jw,642
+awaitwhat/dot.py,sha256=blYR7EEYQitWCImprhHN3YTT4oEpic66XqOCAjoYCU0,2073
+awaitwhat/gather.py,sha256=IZElaKRsqKB_mZimNk_Kxi3abt1k_ohZtRZZCxj9Qlg,853
+awaitwhat/stack.py,sha256=7ulEYOfFoLFGTUYPE0FhObQtTHAihko7_vTldyO4X7E,1574
+awaitwhat/what.c,sha256=UusM7MNDVSeMW6U-44zCqInpLJO2X4zxMfr-SNkftA0,1891
+awaitwhat/_what.cpython-37m-darwin.so,sha256=NqESJqYocpbqXlHshBzwHaSLn_uUO-2UsxLo1lnwBsA,9416
+awaitwhat-19.1a3.dist-info/WHEEL,sha256=J0XjePAVEVyIdwloqphfFlXlRMdxsu1qLTvsttRjXYE,103
+awaitwhat-19.1a3.dist-info/METADATA,sha256=U69mtqxNFjvXJsBGxo8jYZ8VpLFnb7bUvsSOTvDEiCI,4877
+awaitwhat-19.1a3.dist-info/RECORD,,
