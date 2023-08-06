@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: marxanconpy
+Version: 0.1.5rc2019090513
+Summary: The python package for Marxan Connect
+Home-page: https://remi-daigle.github.io/marxanconpy/
+Author: Remi Daigle
+Author-email: remi.daigle@dal.ca
+License: UNKNOWN
+Description: # marxanconpy
+        
+        The python package `marxanconpy` is the workhorse behind the Graphical User Interface [Marxan Connect](http://marxanconnect.ca/) but it can also be used like a traditional python package via the command line.
+        
+        See [documentation](https://remi-daigle.github.io/marxanconpy/) for more information
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: markdown

@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+marxanconpy/__init__.py
+marxanconpy/manipulation.py
+marxanconpy/marcon.py
+marxanconpy/metrics.py
+marxanconpy/posthoc.py
+marxanconpy/spatial.py
+marxanconpy.egg-info/PKG-INFO
+marxanconpy.egg-info/SOURCES.txt
+marxanconpy.egg-info/dependency_links.txt
+marxanconpy.egg-info/not-zip-safe
+marxanconpy.egg-info/requires.txt
+marxanconpy.egg-info/top_level.txt
