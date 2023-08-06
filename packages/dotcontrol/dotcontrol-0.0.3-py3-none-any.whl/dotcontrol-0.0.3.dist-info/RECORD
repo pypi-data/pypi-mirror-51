@@ -1,0 +1,14 @@
+dotcontrol/__init__.py,sha256=3GioNU3mbImPfBrOt-MCXAIbSQkXSpixIorRA2s3pFQ,107
+dotcontrol/cli.py,sha256=tpdA3raEIhkveEZh2MC0UT3khIDopC2Y6yjLn171Jec,5690
+dotcontrol/const.py,sha256=cx0iim_qOU5kyqQwurJUQumqMdrjnz2gLrIf-NvYTCQ,259
+dotcontrol/control.py,sha256=1yvhOUhVqgHNp3-zVtOBd_ZKisBiGsza6njUEIXlrWo,1438
+dotcontrol/dot.py,sha256=sVaZxa0D2p4y-ROFg5jqfKGzseMBXgEuiGe2PIa96hY,3819
+dotcontrol/profile.py,sha256=wsrnqVjBLtuCLV7ZXa7KXFjlK0HSlR6S9bJEj0qipAM,3457
+dotcontrol/remote.py,sha256=JNIaFBreUghYETIyVbxnWiyCQpZtDVCe3NvFDTiKnHw,239
+dotcontrol/util.py,sha256=LHKcZ84l1OzGxbyHqFzJjslz70eO91ThiTPpZN5b0nw,3045
+dotcontrol-0.0.3.dist-info/LICENSE,sha256=pXy858eCaTyE68X5jxz88ylUvvzypTuTtoyRNEWm4SM,1517
+dotcontrol-0.0.3.dist-info/METADATA,sha256=r-xvSmxAsthvhivEIIhZlt0OoaG0AE4kdlEVDnKA1aQ,215
+dotcontrol-0.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dotcontrol-0.0.3.dist-info/entry_points.txt,sha256=DYsLR40Mjqym82GqvhxjO2bhrZOYIEwe_f4VLNjWcco,43
+dotcontrol-0.0.3.dist-info/top_level.txt,sha256=I2JPOj5W3y64isV_InvTVA-Tsd9rpCDCiex4USDuAlU,11
+dotcontrol-0.0.3.dist-info/RECORD,,
