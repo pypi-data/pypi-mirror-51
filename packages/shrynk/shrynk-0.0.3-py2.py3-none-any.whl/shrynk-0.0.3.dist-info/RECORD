@@ -1,0 +1,17 @@
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/shrynk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/shrynk/default.jsonl,sha256=uQvCuI0UKXtc_R3qmUbiMXo6jE-H7HNypeVIRumxHMA,5251262
+data/shrynk/default_size.pkl,sha256=wUus32LvRU0PcoNEfJRf50oLKQuOKfzxmF0FJhAzPFY,843272
+data/shrynk/shrynk_mydata.jsonl,sha256=GiG7ezK57WZpzUKGTo9xLhzJ-9xy7nO0kOAh2xrYSiw,5716084
+shrynk/__init__.py,sha256=rPlChG2HQT1xFIOjh9UvhQmU9egE7qO9tlyYuS3ZZdk,126
+shrynk/analysis.py,sha256=B7SFCttGf4kCO0N4956sTDHre6e5rl-8Bfqtjvl-7Dw,5900
+shrynk/compressor.py,sha256=gFmsGz3LxQLJE2yHEFhK4sqv6-6W_Cq7OF2EtZ6fGZQ,4177
+shrynk/first.py,sha256=YXC-bwWA0g_iu36byeJyr6Jo521d1uQD3Nc4l-LVp8o,6068
+shrynk/legacy.py,sha256=VVZSLO-FiExJihni9w1dgYv9FOcfTjsokBVOOzXBuE0,2179
+shrynk/pandas.py,sha256=wFqaELiDtigmXP2GDi9UPQPCvyDw5TetkjEMF86WhQM,6488
+shrynk/pandas_.py,sha256=lyTydoK1EkLjtOnqpXOSeTiIlKWPYW0bRp9Zg2n0NqY,4715
+shrynk/predictor.py,sha256=hGAX1bpa_XR6M77g2kShfwpCpofoZEDqdEvKVwQnC1w,5876
+shrynk-0.0.3.dist-info/METADATA,sha256=5ebARC3dRk5god9IlqWKNKyo4yfgNcl-qHn452-HWCE,2300
+shrynk-0.0.3.dist-info/RECORD,,
+shrynk-0.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+shrynk-0.0.3.dist-info/top_level.txt,sha256=PHRW9aAuAdWHyGmAr3hTNUmN2Yl7WWC8YoxQgiXh3-o,12
