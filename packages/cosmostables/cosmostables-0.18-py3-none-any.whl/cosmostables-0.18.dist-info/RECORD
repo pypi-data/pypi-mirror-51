@@ -1,0 +1,7 @@
+tableextractions/__init__.py,sha256=6ke17kO2MOp3ryXp3bcoYG_k-8Ld4ZcVEEimH9DDC8g,60
+tableextractions/pdf_table_extractions.py,sha256=KKEtWUgSdJ1gCkKwRV0mmJYRLmejtkpqa8kkzpQutxE,10321
+tableextractions/utils.py,sha256=BUS40wnuGEnc1M_w503PbbPcCYE_vt3UjzvMuINS0bE,442
+cosmostables-0.18.dist-info/METADATA,sha256=4BxmoflhsNV_RTchqLCMVpPOH2VdFWysCgzYkmGAN8w,264
+cosmostables-0.18.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cosmostables-0.18.dist-info/top_level.txt,sha256=ApyBb0Hr1VvlnTALnT-hNq4Vr9IFw1mvqtz_4uaDxSI,17
+cosmostables-0.18.dist-info/RECORD,,
