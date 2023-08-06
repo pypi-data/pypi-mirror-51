@@ -1,0 +1,10 @@
+setup.py
+Gaussian_Binomial_OM/Binomialdistribution.py
+Gaussian_Binomial_OM/Gaussiandistribution.py
+Gaussian_Binomial_OM/Generaldistribution.py
+Gaussian_Binomial_OM/__init__.py
+Gaussian_Binomial_OM.egg-info/PKG-INFO
+Gaussian_Binomial_OM.egg-info/SOURCES.txt
+Gaussian_Binomial_OM.egg-info/dependency_links.txt
+Gaussian_Binomial_OM.egg-info/not-zip-safe
+Gaussian_Binomial_OM.egg-info/top_level.txt
