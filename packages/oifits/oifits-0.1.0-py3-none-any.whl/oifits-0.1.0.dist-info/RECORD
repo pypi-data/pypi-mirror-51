@@ -1,0 +1,12 @@
+oifits/__init__.py,sha256=th0Zu0DcAuMIFnVnUS_SqXO053PoZhY-1KER4fENGxw,121
+oifits/data.py,sha256=GcvVzSLQ0Tydqo0LwAN28Rr-pdQyRv6pj9cJga2UPs8,49301
+oifits/dataclasses.py,sha256=cW-7nDcx4YnqAv7IhWMINiO3uJFe3BjkGIkLA5UdNtw,17137
+oifits/read.py,sha256=ueZOPaz33T2uS6vBETNKyKOrjot9AMX8xWJJbgXgFJI,9822
+oifits/utils.py,sha256=vWGY_r8Klx7lnYkls67hPzziSaee-mrCsXx6GDC_BM4,1953
+oifits/tests/test_try.py,sha256=Vkhc_0wE4jEUw7dNNZvDLWUzt0jeHZg7xsf_NlFJ_xs,237
+oifits-0.1.0.dist-info/AUTHORS,sha256=okWFeLJxDPpr1NY7gwTLVpHUcQ9RjpqJ8QtRnLubHNU,124
+oifits-0.1.0.dist-info/COPYING,sha256=1HF3na2ZavTiRPn4Lt256Wy-nsTAdILWrqKTAB4u9rc,1542
+oifits-0.1.0.dist-info/METADATA,sha256=yTUaRSWbtd_35ZaqvWXPMNzlc0WkBTh8wPIhdX6PBS4,5718
+oifits-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+oifits-0.1.0.dist-info/top_level.txt,sha256=D3XCEs-yzokVwm_aRSpwlAJvcZA78xEahIP9g5QqEaQ,7
+oifits-0.1.0.dist-info/RECORD,,
