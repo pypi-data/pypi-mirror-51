@@ -1,0 +1,7 @@
+backoff~=1.8
+bankroll_broker~=0.4.0
+bankroll_marketdata~=0.4.0
+bankroll_model~=0.4.0
+ib-insync~=0.9.50
+pandas~=0.25.1
+progress~=1.5
