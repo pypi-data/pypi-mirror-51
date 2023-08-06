@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+bin/psweepdb2json.py
+bin/psweepdb2table.py
+psweep/__init__.py
+psweep/psweep.py
+psweep.egg-info/PKG-INFO
+psweep.egg-info/SOURCES.txt
+psweep.egg-info/dependency_links.txt
+psweep.egg-info/requires.txt
+psweep.egg-info/top_level.txt
