@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mesos.scheduler
+Version: 1.9.0
+Summary: Mesos native scheduler driver implementation
+Home-page: http://pypi.python.org/pypi/mesos.scheduler
+Author: Apache Mesos
+Author-email: dev@mesos.apache.org
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: mesos
+Platform: UNKNOWN
