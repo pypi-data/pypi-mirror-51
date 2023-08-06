@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: bizerror
+Version: 0.1.0
+Summary: Collections of common business errors.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # bizerror
+        
+        Collections of common business errors.
+        
+        ## Install
+        
+            pip install bizerror
+        
+        ## Defined Errors
+        
+        - BizError
+        - OK
+        - SysError
+            - UndefinedError
+        
+        - HttpError
+            - RequestExpired
+            - NotSupportedHttpMethod
+        
+        - ConfigError
+            - MissingConfigItem
+        
+        - DataError
+            - TargetNotFound
+        
+        - AuthError
+            - AccountLockedError
+            - AccountTemporaryLockedError
+            - UserPasswordError
+            - AppAuthFailed
+            - TsExpiredError
+            - AccountDisabledError
+            - AccountStatusError
+            - AccountRemovedError
+        
+        - TypeError
+            - CastToIntegerFailed
+            - CastToFloatFailed
+            - CastToNumbericFailed
+            - CastToBooleanFailed
+            - CastToStringFailed
+            - ParseJsonError
+        
+        - ParamError
+            - MissingParameter
+            - BadParameter
+            - BadParameterType
+        
+        - FormError
+            - CaptchaOnlyAllowedOnce
+            - CaptchaValidateFailed
+        
+        - LogicError
+        
+        
+        ## Release Notes
+        
+        
+        ### v0.1.0
+        
+        - Add BizError base class.
+        - Add some common errors.
+        
+Keywords: bizerror
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
