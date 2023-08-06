@@ -1,0 +1,56 @@
+import xanity
+import numpy as np
+import matplotlib.pyplot as plt
+
+#####################################################
+##
+##
+##      this is an analysis.  it's just like an experiment
+##      except it doesnt generate logs or data
+##      (or take parameters, as of now)
+##
+##
+##
+##
+
+
+
+##   this explicitly associates this analysis with experiment1
+##   that way, it's included when you 'xanity analyze experiment1'
+
+xanity.associated_experiments([
+        'experiment1',
+        #'experiment2',
+        #'experiment3',
+        ])
+
+
+def main():
+
+
+    ## use the 'xanity.load_data' facility to recall data from past experiments:
+    _ = xanity.load_data(variables=['fakevar'], experiments='experiment1')
+
+    del _
+
+    ## additionally, you can apply reductions to arrays and vectors, if you saved them like we did:
+    data = xanity.load_data(variables=['fakevar'], experiments='experiment1', reduce={np.median: 'fakevar'})
+
+    ## xanity keeps track of all parameters too,  as you can see in the table:
+    print(data.columns)
+
+    # so you can do cool things:
+    data.loc[:, ['reduced_fakevar', 'exp_name']].groupby(by='exp_name').hist(bins=50)
+    plt.show(block=True)
+
+    # and you can check your xanity.timed_fn function timers
+    #  every call will get an integer appended to differentiate multiple calls:
+    timer_data = xanity.fetch_timer_data(experiment='experiment1')
+
+    timer_data.filter(regex='my_timed_function_timer').hist()
+    plt.show(block=True)
+# the hook below is used to kick off a xanity run from an experiment script itself:
+
+
+if __name__ == '__main__':
+    xanity.run()
