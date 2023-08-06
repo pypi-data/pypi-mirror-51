@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: markdown_timesheet
+Version: 0.6
+Summary: CLI to add up time entries in a Markdown file.
+Home-page: https://github.com/zevaverbach/markdown_timesheet
+Author: Zev Averbach
+Author-email: zev@averba.ch
+License: MIT license
+Description: # Markdown Timesheet
+        
+        A command line interface to total up the time entries in a markdown file.
+        
+        ## Usage
+        
+        ```
+        $ pip install markdown-timesheet
+        $ cat timesheet.md
+        
+        # 5 Sep 2019
+        
+        ## 9:15-9:16, 9:20-9:25
+        Write spec, write client email.
+          - wrote really basic spec
+        	- told client I'm starting the project
+        
+        ## 9:25-9:29
+        Write tests
+        
+        $ add timesheet.md
+        10
+        ```
+        
+Keywords: markdown timesheet
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
