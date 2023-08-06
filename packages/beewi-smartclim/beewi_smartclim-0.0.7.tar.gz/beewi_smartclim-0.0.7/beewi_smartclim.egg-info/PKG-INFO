@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: beewi-smartclim
+Version: 0.0.7
+Summary: Library to read data from BeeWi SmartClim sensor using Bluetooth LE
+Home-page: https://github.com/alemuro/beewi_smartclim
+Author: alemuro
+Author-email: hola@aleixmurtra.com
+License: MIT
+Description: # beewi_smartclim - Library for BeeWi SmartClim Bluetooth LE sensor
+        
+        
+        Use this library to read temeperature and humidity from your own BeeWi SmartClim sensor.
+        
+        
+        
+        ## Functionality 
+        It supports reading the different measurements from the sensor
+        - temperature
+        - humidity
+        - battery level
+        
+        To use this library you will need a Bluetooth Low Energy dongle or a Raspberry Pi with Bluetooth support.
+        
+        
+        ## Build
+        
+        ```
+        $ make build
+        ```
+        
+        
+        ## Example
+        
+        ```
+        from beewi_smartclim import BeewiSmartClimPoller
+        
+        b = BeewiSmartClimPoller("d0:5f:b8:51:9b:36")
+        b.update_sensor()
+        
+        temperature = b.get_temperature()
+        humidity = b.get_humidity()
+        battery = b.get_battery()
+        
+        print(temperature, humidity, battery)
+        ```
+        
+        
+        
+        ## Projects Depending on `beewi_smartclim`
+        
+        https://github.com/home-assistant/home-assistant
+Keywords: temperature and humidity sensor bluetooth low-energy ble beewi smartclim
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
