@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lethargy
+Version: 0.1.1
+Summary: A minimal library to make your option-parsing easier.
+Home-page: https://github.com/SeparateRecords/lethargy
+License: MIT
+Keywords: CLI,options,arguments,minimal
+Author: SeparateRecords
+Author-email: me@rob.ac
+Requires-Python: >=3.5,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Repository, https://github.com/SeparateRecords/lethargy
+Description-Content-Type: text/markdown
+
+# Lethargy
+
+A little library that provides you with the tools to make your option parsing easy.
+
+(documentation coming soon)
+
