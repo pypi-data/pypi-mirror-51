@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: point-annotator
+Version: 1.0.0
+Summary: Package for annotating the data with types (e.g. cell types).
+Home-page: http://biolab.si/
+Author: Bioinformatics Laboratory, FRI UL
+Author-email: contact@orange.biolab.si
+Maintainer: Primoz Godec
+License: GPL3+
+Project-URL: Bug Tracker, https://github.com/biolab/point-annotator/issues
+Project-URL: Documentation, https://point-annotator.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/biolab/point-annotator/
+Keywords: annotator,annotation,points,data
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.24.0)
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: recommonmark ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: flake8 (~=3.7.8) ; extra == 'test'
+Requires-Dist: flake8-comprehensions (~=2.2.0) ; extra == 'test'
+Requires-Dist: flake8-black (~=0.1.0) ; extra == 'test'
+Requires-Dist: pep8-naming (~=0.8.2) ; extra == 'test'
+Requires-Dist: isort (~=4.3.21) ; extra == 'test'
+Requires-Dist: pytest (~=5.1.0) ; extra == 'test'
+Requires-Dist: pytest-cov (~=2.7.1) ; extra == 'test'
+Requires-Dist: coverage (~=4.5.4) ; extra == 'test'
+Requires-Dist: codecov (~=2.0.15) ; extra == 'test'
+
+# point-annotator
+
+This package provides functionalities to annotate data with labels based on the 
+Mann-Whitney U test and Hypergeometric test. Currently, we provide examples of 
+the fast annotation of gene expression data with the cell types based on marker 
+genes.
+
+## Installation
+
+The package is available at PIP and is installed with
+
+    pip install point-annotator
+
+## Build the documentation
+
+For building the documentation one needs to have sphinx python package 
+installed.
+
+    cd docs
+    make hmtl
+
+After build the documentation is available in the _build directory.
+
+
