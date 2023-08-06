@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: HubbleSec
+Version: 2.0
+Summary: python library for Guanxing
+Home-page: https://github.com/Hatcat123/HubbleSec
+Author: AJay13
+Author-email: 1599121712@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

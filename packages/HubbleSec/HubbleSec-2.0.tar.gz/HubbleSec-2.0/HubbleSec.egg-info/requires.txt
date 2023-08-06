@@ -1,0 +1,5 @@
+requests
+python-socketio
+SQLAlchemy
+urllib3
+geoip2
