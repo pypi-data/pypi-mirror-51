@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: returns
+Version: 0.11.0
+Summary: Make your functions return something meaningful, typed, and safe!
+Home-page: https://returns.readthedocs.io
+Author: sobolevn
+Author-email: mail@sobolevn.me
+Keywords: functional programming,fp,monads,monad,monad transformers,composition,type-safety,mypy,railway-oriented-programming
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: typing-extensions (>=3.7,<4.0)
+Project-URL: Repository, https://github.com/dry-python/returns
