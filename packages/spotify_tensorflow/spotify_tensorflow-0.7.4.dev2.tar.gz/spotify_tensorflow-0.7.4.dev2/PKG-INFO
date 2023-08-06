@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: spotify_tensorflow
+Version: 0.7.4.dev2
+Summary: Spotify-specific helpers for TensorFlow
+Home-page: https://github.com/spotify/spotify-tensorflow
+License: Apache-2
+Description: UNKNOWN
+Keywords: tensorflow,utils
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Provides-Extra: lint
+Provides-Extra: examples
+Provides-Extra: testing
+Provides-Extra: luigi
