@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: default-pickling
+Version: 0.3
+Summary: A base class that provides default pickling and copying method implementations for use in inheritance.
+Home-page: UNKNOWN
+Author: Neil Girdhar
+Author-email: mistersheik@gmail.com
+License: UNKNOWN
+Download-URL: https://pypi.python.org/pypi/default_pickling
+Project-URL: Bug Tracker, https://github.com/NeilGirdhar/default_pickling/issues
+Project-URL: Source Code, https://github.com/NeilGirdhar/default_pickling
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+
+================
+Default Pickling
+================
+.. image:: https://badge.fury.io/py/default_pickling.svg
+    :target: https://badge.fury.io/py/default_pickling
+
+This repository provides a Python base class that implements default pickling and copying method implementations for use in inheritance.
+
+
