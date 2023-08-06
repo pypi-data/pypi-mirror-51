@@ -1,0 +1,46 @@
+application: fdkaac
+inout_args: --profile 5 --silent --moov-before-mdat --afterburner 1 -o "{outfile}" "{infile}"
+
+extension: m4a
+default: mixed, complex, stereo
+
+combinations:
+
+  # Speech
+  speech, simple, mono:      -m 1 
+  speech, moderate, mono:    -m 1
+  speech, complex, mono:     -m 2
+  speech, simple, stereo:    -m 2
+  speech, moderate, stereo:  -m 3
+  speech, complex, stereo:   -m 3
+
+  # Music
+  music, simple, mono:       -m 2
+  music, moderate, mono:     -m 2
+  music, complex, mono:      -m 3
+  music, simple, stereo:     -b 64
+  music, moderate, stereo:   -b 72
+  music, complex, stereo:    -b 96
+
+  # Mixed
+  mixed, simple, mono:       -m 2
+  mixed, moderate, mono:     -m 3
+  mixed, complex, mono:      -m 3
+  mixed, simple, stereo:     -m 3
+  mixed, moderate, stereo:   -b 64
+  mixed, complex, stereo:    -b 80
+
+  # Effects
+  effects, simple, mono:     -m 1
+  effects, moderate, mono:   -m 2
+  effects, complex, mono:    -m 2
+  effects, simple, stereo:   -m 3
+  effects, moderate, stereo: -b 64
+  effects, complex, stereo:  -b 72
+
+  # Filler
+  filler, simple, mono:      -m 1
+  filler, moderate, mono:    -m 1
+  filler, complex, mono:     -m 1
+  filler, simple, stereo:    -m 1
+  filler, complex, stereo:   -m 1

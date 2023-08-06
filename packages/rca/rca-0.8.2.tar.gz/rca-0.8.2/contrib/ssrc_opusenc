@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# A simple wrapper-script to use the ssrc resampler with dithering,
+# instead of the Opus internal speex resampler
+#
+# Note: the opus developers say that the speex resampler is sufficient because
+#       listening tests prove differences cannot be heard, so this is
+#       merely an unecessary mathematical optimization.
+#       ref: https://hydrogenaud.io/index.php/topic,113655.0.html
+
+# Strict mode
+set -euo pipefail
+
+# We will have always have atleast two arguments
+if [[ "$#" -lt "2" ]]; then
+  echo "usage: [opus args] IN-WAV OUT-WAV"
+  echo "where IN-WAV is not already resampled to 48kHz"
+  exit 1
+fi
+
+# Always delete the output file
+outfile=/dev/shm/$$.wav
+clean() { rm -f "$outfile"; }
+trap clean 0
+
+# Extract the input file path, which is always the second from the last argument
+infile=${*: -2:1}
+
+# Resample the input to our temporary 48kHz wav file
+ssrc --rate 48000 --bits 24 --dither 14 --pdf 1 --profile long "$infile" "$outfile"
+
+# Replace the input file with our 48kHz resampled output from ssrc
+args=( "$@" )
+args[-2]="$outfile"
+
+# Encode
+opusenc "${args[@]}"
+
