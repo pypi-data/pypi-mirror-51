@@ -1,0 +1,7 @@
+README.rst
+setup.py
+treble/treble.egg-info/PKG-INFO
+treble/treble.egg-info/SOURCES.txt
+treble/treble.egg-info/dependency_links.txt
+treble/treble.egg-info/requires.txt
+treble/treble.egg-info/top_level.txt

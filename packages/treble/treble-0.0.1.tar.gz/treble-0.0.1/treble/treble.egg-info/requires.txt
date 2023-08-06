@@ -1,0 +1,2 @@
+colorama
+setuptools>=v40.1.0
