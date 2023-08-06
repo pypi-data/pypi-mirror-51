@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: tobler
+Version: 0.1.0
+Summary: TOBLER: Areal Interpolation
+Home-page: https://github.com/pysal/tobler
+Maintainer: Serge Rey
+Maintainer-email: sjsrey@gmail.com
+License: 3-Clause BSD
+Description: # tobler: a library for areal interpolation in Python
+        
+        [![Build Status](https://travis-ci.com/pysal/tobler.svg?branch=master)](https://travis-ci.org/pysal/tobler)
+        [![Coverage Status](https://coveralls.io/repos/github/pysal/tobler/badge.svg?branch=master)](https://coveralls.io/github/pysal/tobler?branch=master&service=github&kill_cache=1)
+        
+        **Easily perform area interpolation for different set of set of polygons:**
+        
+        ![](figs/toy_census_tracts_example.png)
+        
+        **Perform enhanced interpolation using raster image files from satellites:**
+        
+        ![](figs/raster_lattice_example.png)
+        
+        ## Functionalities
+        
+        In `tobler` you can execute:
+        
+        * areal interpolation for intensive and extensive variables
+        	+ overlay
+        	+ binning
+        	
+        * use raster files to improve interpolation of variables'
+            + areal interpolation assuming only specific land types
+            + [regression using vectorized version](https://github.com/spatialucr/tobler/blob/master/examples/vectorized_raster_example.ipynb)
+            + regression leveraged by scanlines to perform interpolation
+        
+        * [harmonize different set of unmatching polygons with different methods](https://github.com/spatialucr/tobler/blob/master/examples/harmonizing_community_example.ipynb)
+        
+        ## Installation
+        
+        ```bash
+        $ conda env create -f environment.yml
+        $ conda activate tobler 
+        $ python setup.py develop
+        ```
+        
+        ## Roadmap
+        
+        * TODO r-tree or binning for indexing and table generation
+        * TODO allow for weights parameter
+        * TODO hybrid harmonization
+        * TODO union harmonization
+        * TODO nlcd auxiliary regressions
+        
+Keywords: spatial statistics,interpolation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: tests
