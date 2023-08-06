@@ -1,0 +1,7 @@
+README.rst
+setup.py
+lazypkg/__init__.py
+lazypkg.egg-info/PKG-INFO
+lazypkg.egg-info/SOURCES.txt
+lazypkg.egg-info/dependency_links.txt
+lazypkg.egg-info/top_level.txt
