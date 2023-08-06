@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: aiot-studio
+Version: 1.1.153
+Summary: UNKNOWN
+Home-page: https://smartobjects.mnubo.com/documentation/sdks.html
+Author: mnubo, inc.
+Author-email: support@mnubo.com
+License: UNKNOWN
+Description: # AIoT Studio 
+        
+        AIoT Studio is the official library to develop datasources, notebooks and dependency sets for [mnubo's AIoT Studio.](https://smartobjects.mnubo.com/documentation/aiotStudio.html)
+        
+        ## Installation
+        
+        ### Requirements
+        * Python 2.7 or Python 3.4 and up
+        * `requests`
+        * `pandas` ≥ 0.20
+        * `numpy`
+        
+        `$ pip install aiot-studio`
+        
+        ## Simple datasource usage
+        
+        ```python
+        from aiotstudio.search import to_pandas
+        from aiotstudio.logging import log
+        
+        def execute(parameters):
+            log.info("Hello aiot-studio")
+                     
+            result = to_pandas({
+                "from": "event",
+                "select": [{"count": "*"}]
+            })
+            return result
+        ```
+        
+        ## Configuration
+        
+        The library needs to be configured with your [mnubo API credentials](https://smartobjects.mnubo.com/documentation/api_security.html). 
+        The credentials can be shared as follows (by decreasing order of priority):
+        
+        - Environment variables: `MNUBO_CLIENT_ID`, `MNUBO_CLIENT_SECRET`, `MNUBO_API_URL`
+        - Local config file: `application.conf` at the root of the project or anywhere indicated by the `MNUBO_CONFIG_FILE` environment variable
+        - Global config file: `~/.settings/mnubo/application.conf` (or `C:\Users\<username>\.settings\mnubo\application.conf` on Windows)
+        
+        For the last two options, the configuration file should look like this:
+        
+        ```
+        [DEFAULT]
+        mnubo_client_id = {API_CLIENT_ID}
+        mnubo_client_secret = {API_CLIENT_SECRET}
+        mnubo_api_url = https://prod.api.mnubo.com
+        ``` 
+        
+        
+        ## Available package
+        
+          - `search`
+          - `blobstore`
+          - `logging`
+        
+        _Notes_:
+          - All "search" methods expect a MQL query as described in the [search API](https://smartobjects.mnubo.com/documentation/api_search.html) documentation 
+          - Blob store methods are only available when the code runs inside mnubo's architecture, using it locally would throw a `FeatureUnavailableError`
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
