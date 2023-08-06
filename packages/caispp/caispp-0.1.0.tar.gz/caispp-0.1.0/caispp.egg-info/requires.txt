@@ -1,0 +1,5 @@
+numpy<=1.14.5,>=1.13.3
+tensorflow
+Pillow
+matplotlib
+sklearn
