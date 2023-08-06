@@ -1,0 +1,17 @@
+README.md
+setup.py
+semmatch/__init__.py
+semmatch/__main__.py
+semmatch/autodoc.py
+semmatch/core.py
+semmatch/groups.py
+semmatch/gui.py
+semmatch/image.py
+semmatch.egg-info/PKG-INFO
+semmatch.egg-info/SOURCES.txt
+semmatch.egg-info/dependency_links.txt
+semmatch.egg-info/entry_points.txt
+semmatch.egg-info/requires.txt
+semmatch.egg-info/top_level.txt
+tests/__init__.py
+tests/test_templateMatch.py
