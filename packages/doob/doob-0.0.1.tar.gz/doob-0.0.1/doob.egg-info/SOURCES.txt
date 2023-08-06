@@ -1,0 +1,7 @@
+README.md
+setup.py
+doob/__init__.py
+doob.egg-info/PKG-INFO
+doob.egg-info/SOURCES.txt
+doob.egg-info/dependency_links.txt
+doob.egg-info/top_level.txt
