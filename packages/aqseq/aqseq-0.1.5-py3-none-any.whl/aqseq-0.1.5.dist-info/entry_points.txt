@@ -1,0 +1,5 @@
+[console_scripts]
+name=aqseq:_version.get_name
+upver=aqseq:_version.pull_version
+version=aqseq:_version.get_version
+
