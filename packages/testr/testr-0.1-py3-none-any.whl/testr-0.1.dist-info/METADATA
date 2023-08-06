@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: testr
+Version: 0.1
+Summary: Test Script
+Home-page: UNKNOWN
+Author: Ravichander R
+Author-email: ravimsec37@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Test package
+
+
