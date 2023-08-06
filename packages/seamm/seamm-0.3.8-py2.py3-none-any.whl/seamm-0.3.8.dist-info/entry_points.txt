@@ -1,0 +1,10 @@
+[console_scripts]
+run_flowchart = seamm.run_flowchart:run
+seamm = seamm.__main__:flowchart
+
+[org.molssi.seamm]
+Join = seamm:JoinStep
+
+[org.molssi.seamm.tk]
+Join = seamm:JoinStep
+
