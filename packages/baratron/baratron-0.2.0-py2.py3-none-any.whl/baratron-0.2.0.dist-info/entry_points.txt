@@ -1,0 +1,3 @@
+[console_script]
+baratron = baratron:command_line
+
