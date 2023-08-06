@@ -1,0 +1,1 @@
+http://pypi-repo.onet/pypi/vmshepherd/
