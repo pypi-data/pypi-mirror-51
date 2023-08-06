@@ -1,0 +1,16 @@
+.*
+!.travis.yml
+!.pylintrc
+!.gitignore
+!.gitattributes
+!.gitlab
+!.coveragerc
+!.gitlab-ci.yml
+*~
+*.pyc
+*.log
+build
+dist
+tuir.egg-info
+tests/refresh-token
+venv/
