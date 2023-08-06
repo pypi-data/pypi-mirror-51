@@ -1,0 +1,9 @@
+README.md
+jupyda.py
+setup.py
+jupyda.egg-info/PKG-INFO
+jupyda.egg-info/SOURCES.txt
+jupyda.egg-info/dependency_links.txt
+jupyda.egg-info/top_level.txt
+src/__init__.py
+src/magic_jupyda.py
