@@ -1,0 +1,9 @@
+cv2imageload/__init__.py,sha256=BdUf_1n54yxdCOpaX6FPfY63zdN_9MFqIaXPKxwC8QI,306
+cv2imageload/imgload.py,sha256=WpumiEmOaUzf5BBAHg7MFBTS-h2jgddvSwfz1G8BxPA,4455
+cv2imageload/imgloadexception.py,sha256=Y8gPH5dCYRLnivd6EoHG9CbOBtIVnYF0Bmhil7A0qR0,273
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_loadimage_from_file.py,sha256=eYNFIlsoOPMfr622-hphkryA9uU_4hIhG2ZJHIonztA,332
+cv2imageload-1.0.1.dist-info/METADATA,sha256=mxRNZ9T7jvZktMVt0HeE7e92WYkQGpuHUwF4fe9RI84,995
+cv2imageload-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cv2imageload-1.0.1.dist-info/top_level.txt,sha256=kPBa1foRDLGIu3YZeRLtjv-JkSuxfyL-iG0jqysr0nw,19
+cv2imageload-1.0.1.dist-info/RECORD,,
