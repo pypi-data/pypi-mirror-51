@@ -1,0 +1,7 @@
+__title__ = 'PW OneMap'
+__description__ = 'OneMap Connector'
+__url__ = 'https://gitlab.com/'
+__version__ = '0.1.0'
+__author__ = 'Willy'
+__author_email__ = 'syner.catalyst@gmail.com'
+__license__ = 'MIT'
