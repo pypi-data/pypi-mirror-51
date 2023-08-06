@@ -1,0 +1,12 @@
+demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demo/sts_client_test.py,sha256=NMgPHr8LTWTQOuQQ1cGmTZ8Npa0hSdhfwEqWbmiBZI8,1355
+demo/sts_demo.py,sha256=6cP_ZlxQipMAtj6zGDSVYkMXVjB4d3UyD7WIlae1U_o,1559
+demo/sts_policy_test.py,sha256=-5MaJaJwEjvwRyMwqw67qMjvOmKBoacrojTIVvyDboA,2458
+demo/sts_server.py,sha256=TCIv37LN-fFnbtOZquC0DQfPMexrZiZtWjRLoSwCttg,2478
+sts/__init__.py,sha256=_HTsbUssT0i1lltrmpNIgbxFwh-PT2Y-X1HXuQEuk58,12
+sts/sts.py,sha256=rcL228-AeFrQ3-3dKf1vFFWY-fBgd9VDDZVhjIEeLlU,9065
+qcloud_python_sts-3.0.3.dist-info/LICENSE,sha256=DqXc38ZucfPkvVr30TQYjinXjmBgCAt4X4GK1w7OLB4,1087
+qcloud_python_sts-3.0.3.dist-info/METADATA,sha256=51RWY2Y5SR6GHaRLo97sRY6Qf_Jgc-r85DGuZNgxdZg,287
+qcloud_python_sts-3.0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+qcloud_python_sts-3.0.3.dist-info/top_level.txt,sha256=o2nIQp66IFPvPH2PeERq0hi0szMv-Ut50YJM318NJ3M,9
+qcloud_python_sts-3.0.3.dist-info/RECORD,,
