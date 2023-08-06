@@ -1,0 +1,18 @@
+include README.rst
+recursive-include admin_city/templates *
+recursive-include templates *
+recursive-include */templates
+recursive-include css *
+recursive-include js *
+recursive-include css *
+recursive-include locale *
+recursive-include plugins *
+recursive-include qiniu *
+recursive-include static *
+recursive-include templatetags *
+recursive-include vendor *
+ 
+recursive-include views *
+global-include *.py
+
+global-exclude *.pyc
