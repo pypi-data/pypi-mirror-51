@@ -1,0 +1,4 @@
+[console_scripts]
+createExcel2wisxml = excel2wisxml.excel2wisxml:createExcel
+excel2wisxml = excel2wisxml.excel2wisxml:main
+

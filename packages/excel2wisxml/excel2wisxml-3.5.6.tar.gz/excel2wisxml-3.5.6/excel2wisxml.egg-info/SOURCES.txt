@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+excel2wisxml/__init__.py
+excel2wisxml/excel2wisxml.py
+excel2wisxml/excel2wisxmlutils.py
+excel2wisxml.egg-info/PKG-INFO
+excel2wisxml.egg-info/SOURCES.txt
+excel2wisxml.egg-info/dependency_links.txt
+excel2wisxml.egg-info/entry_points.txt
+excel2wisxml.egg-info/not-zip-safe
+excel2wisxml.egg-info/requires.txt
+excel2wisxml.egg-info/top_level.txt
+excel2wisxml/templates/Metadata-guide-record.xls
+excel2wisxml/templates/excel2wisxml_template.xml
