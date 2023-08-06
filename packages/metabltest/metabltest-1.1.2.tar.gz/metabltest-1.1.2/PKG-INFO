@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: metabltest
+Version: 1.1.2
+Summary: BodyLabs unittest extensions
+Home-page: https://github.com/bodylabs/___
+Author: Body Labs
+Author-email: aw@bodylabs.com
+License: MIT
+Description: bltest
+        ======
+        
+        Testing utilities in Python, such as assert matchers and scratch
+        directories.
+        
+        Features
+        --------
+        
+        -  ``attr``
+        -  ``speed``
+        -  ``supress_output``
+        -  ``skip_if_ci``
+        -  ``skip_if_unavailable``
+        -  ``BackupEnvMixin``
+        -  ``SuppressLoggingMixin``
+        
+        And ``ExtraAssertionsMixin`` with methods
+        
+        -  ``assertAlmostEqual``
+        -  ``assertDictOfArraysEqual``
+        -  ``assertDictOfArraysAlmostEqual``
+        -  ``assertTextEqual``
+        -  ``assertFilesEqual``
+        -  ``assertDerivativeEquals``
+        -  ``assertSparseArrayEqual``
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
