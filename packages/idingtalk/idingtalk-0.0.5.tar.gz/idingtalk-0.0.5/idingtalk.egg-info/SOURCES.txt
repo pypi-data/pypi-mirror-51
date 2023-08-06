@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+idingtalk/__init__.py
+idingtalk/incoming.py
+idingtalk.egg-info/PKG-INFO
+idingtalk.egg-info/SOURCES.txt
+idingtalk.egg-info/dependency_links.txt
+idingtalk.egg-info/requires.txt
+idingtalk.egg-info/top_level.txt
