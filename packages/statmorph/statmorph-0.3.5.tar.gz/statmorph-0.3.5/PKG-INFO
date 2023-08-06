@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: statmorph
+Version: 0.3.5
+Summary: Non-parametric morphological diagnostics of galaxy images
+Home-page: https://github.com/vrodgom/statmorph
+Author: Vicente Rodriguez-Gomez
+Author-email: v.rodriguez@irya.unam.mx
+License: BSD
+Description: statmorph
+        =========
+        
+        Python code for calculating non-parametric morphological diagnostics of
+        galaxy images.
+        
+        Documentation
+        -------------
+        
+        The documentation and installation instructions can be found on
+        `ReadTheDocs <http://statmorph.readthedocs.io/en/latest/>`_.
+        
+        Tutorial / How to use
+        ---------------------
+        
+        Please see the
+        `statmorph tutorial <http://nbviewer.jupyter.org/github/vrodgom/statmorph/blob/master/notebooks/tutorial.ipynb>`_.
+        
+        Citing
+        ------
+        
+        If you use this code for a scientific publication, please cite the following
+        article:
+        
+        - `Rodriguez-Gomez et al. (2019) <https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.4140R>`_
+        
+        Optionally, the Python package can also be cited using its Zenodo record:
+        
+        .. image:: https://zenodo.org/badge/95412529.svg
+           :target: https://zenodo.org/badge/latestdoi/95412529
+        
+        Licensing
+        ---------
+        
+        Licensed under a 3-Clause BSD License.
+        
+Keywords: astronomy galaxies galaxy-morphology non-parametric
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Astronomy
