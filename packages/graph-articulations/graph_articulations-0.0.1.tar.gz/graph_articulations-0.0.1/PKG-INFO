@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: graph_articulations
+Version: 0.0.1
+Summary: Extension of PyTorch Geometric and Open 3d for learning kinematic articulations
+Home-page: https://github.com/Hammania689/graph_articulations
+Author: Hameed Abdul
+Author-email: author@example.com
+License: UNKNOWN
+Description: # Graph Articulations
+        
+        This package extends PyTorch Geometric and Open3D for learning the kinematic graphs of 3D objects.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
