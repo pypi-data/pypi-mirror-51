@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mockldap
+Version: 0.3.0.post1
+Summary: A simple mock implementation of python-ldap.
+Home-page: https://github.com/psagers/mockldap
+Author: Peter Sagerson
+Author-email: psagers@ignorare.net
+License: CC0-1.0
+Project-URL: Documentation, https://mockldap.readthedocs.io/
+Keywords: mock,ldap
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP
+Requires-Dist: funcparserlib (==0.3.6)
+Requires-Dist: python-ldap (>=3.0)
+Requires-Dist: mock ; python_version < "3.0"
+
+Status
+------
+
+**This project is unmaintained**. It was originally spun off of
+django-auth-ldap, which no longer requires it. If you have a use for it, feel
+free to copy the code for your own purposes (it's only for testing, after all).
+
+Documentation may still be available at https://mockldap.readthedocs.io/.
+
+
