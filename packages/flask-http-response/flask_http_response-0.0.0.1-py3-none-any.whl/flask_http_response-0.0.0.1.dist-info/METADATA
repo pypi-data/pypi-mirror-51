@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flask-http-response
+Version: 0.0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/raisulru/flask-http-response.git
+Author: Raisul Islam
+Author-email: raisulru10@gmail.com
+License: License :: OSI Approved :: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# flask_http_response
+A flask custom http response by using jsonify object from flask
+
