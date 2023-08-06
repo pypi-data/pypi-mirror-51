@@ -1,0 +1,11 @@
+attrs>=17.4.0
+bluesky
+databroker[all]
+event-model>=1.10
+historydict
+jsonschema>3
+ophyd
+pandas
+pyRestTable
+spec2nexus>=2021.1.2
+xlrd
