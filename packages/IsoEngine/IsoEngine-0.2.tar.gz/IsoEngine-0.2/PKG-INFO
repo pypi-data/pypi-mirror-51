@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: IsoEngine
+Version: 0.2
+Summary: IsoEngine is a Library that makes Isometric game programming in python easy
+Home-page: https://github.com/starminer99/isoengine
+Author: Thijs Boersma
+Author-email: thijs@kabelbw.de
+License: gpl-3.0
+Download-URL: https://github.com/StarMiner99/IsoEngine/archive/0.2.tar.gz
+Description: UNKNOWN
+Keywords: Engine,Isometric,game
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
