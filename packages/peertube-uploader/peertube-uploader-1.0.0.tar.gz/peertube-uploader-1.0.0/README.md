@@ -1,0 +1,49 @@
+# PeerTube Uploader
+
+A script to make uploading to peertube instances easier.
+
+For documentation on the API used see 
+https://docs.joinpeertube.org/api-rest-reference.html
+
+## Installation
+ 
+    pip install peertube-uploader
+    
+## Development
+
+    pip install -r requirements.txt
+
+## Usage
+
+One installed you can run the `ptu` command.
+
+````
+usage: main.py [--version] [-v | -q] [--log-file LOG_FILE] [-h] [--debug]
+               [-e ENDPOINT]
+
+A script to make uploading to peertube instances easier. For documentation on
+the API used see https://docs.joinpeertube.org/api-rest-reference.html
+
+optional arguments:
+  --version             show program's version number and exit
+  -v, --verbose         Increase verbosity of output. Can be repeated.
+  -q, --quiet           Suppress output except warnings and errors.
+  --log-file LOG_FILE   Specify a file to log output. Disabled by default.
+  -h, --help            Show help message and exit.
+  --debug               Show tracebacks on errors.
+  -e ENDPOINT, --endpoint ENDPOINT
+                        MANDATORY! URL to a server e.g
+                        https://peertube.cpy.re/ (alternatively use
+                        PEERTUBE_ENDPOINT env var)
+
+Commands:
+  complete       print bash completion command (cliff)
+  get-access-token  Requests an access-token from the server. (peertube-uploader)
+  help           print detailed help for another command (cliff)
+  import         Trigger an import of a URI (peertube-uploader)
+  upload-video   Upload videos from the file-system (peertube-uploader)
+````
+
+## Thanks
+
+Thanks to all the [contributors](https://gitlab.com/NamingThingsIsHard/media_tools/peertube-uploader/-/graphs/master).
