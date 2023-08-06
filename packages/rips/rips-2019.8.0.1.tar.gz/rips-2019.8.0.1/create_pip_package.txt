@@ -1,0 +1,18 @@
+# 1. Make sure dist folder is clear
+del dist/*
+ 
+# 2. Update rips-version tag in setup.py (".N after ResInsight version")
+ 
+# 3. Build source distribution
+python setup.py sdist
+ 
+# 4. Test upload to test.pypi.org
+python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+ 
+# 5. Test install rips module
+pip install --index-url https://test.pypi.org/simple/ rips
+
+# 6. Test the newly installed module
+
+# 7. Upload to real pypi 
+ 
