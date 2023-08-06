@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        mines=terminal_mines.mines:main
+    
