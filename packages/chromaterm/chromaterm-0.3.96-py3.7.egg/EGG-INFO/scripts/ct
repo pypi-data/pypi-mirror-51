@@ -1,0 +1,9 @@
+#!/usr/local/opt/python/bin/python3.7
+"""Colorize your output using RegEx"""
+
+import sys
+
+import chromaterm
+
+if __name__ == '__main__':
+    sys.exit(chromaterm.main(chromaterm.args_init()))
