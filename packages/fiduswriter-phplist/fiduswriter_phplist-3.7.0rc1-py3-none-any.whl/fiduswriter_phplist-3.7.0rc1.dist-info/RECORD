@@ -1,0 +1,13 @@
+build/lib/fiduswriter/phplist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+build/lib/fiduswriter/phplist/proxy_views.py,sha256=56X4nqGJRP9sK9ddtZWXFb_lIHvi31DUYiE6ggNeNx0,3220
+fiduswriter/phplist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiduswriter/phplist/proxy_views.py,sha256=56X4nqGJRP9sK9ddtZWXFb_lIHvi31DUYiE6ggNeNx0,3220
+fiduswriter/phplist/locale/BASE/LC_MESSAGES/djangojs.po,sha256=dkVJzK-yXH7zpwckfwlFOz9ju6AAD2qczOMUe36BaD0,713
+fiduswriter/phplist/static/js/modules/phplist/index.js,sha256=7qXHZII17mfva44i1j7MrbKCEud-emjXIp23WHe3F0U,942
+fiduswriter/phplist/static/js/modules/phplist/templates.js,sha256=ufjn4RelKTzCin5WqeAF5h7q9xNlUJhe9UKgnQklECc,357
+fiduswriter/phplist/static/js/plugins/confirm_account/phplist.js,sha256=-CFGdBmJWLvK4GwBPt6sxNpSHXp5QEv56NF5E79JX-o,60
+fiduswriter_phplist-3.7.0rc1.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+fiduswriter_phplist-3.7.0rc1.dist-info/METADATA,sha256=ypLUgx-BUA-XQRoXHLHUf5cNGcQ8sGjoWeHS44lI_JI,2260
+fiduswriter_phplist-3.7.0rc1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+fiduswriter_phplist-3.7.0rc1.dist-info/top_level.txt,sha256=HZUU6n-C-JX_tvIZgwa9KHUYJtymCdoDKry43xnfun0,23
+fiduswriter_phplist-3.7.0rc1.dist-info/RECORD,,
