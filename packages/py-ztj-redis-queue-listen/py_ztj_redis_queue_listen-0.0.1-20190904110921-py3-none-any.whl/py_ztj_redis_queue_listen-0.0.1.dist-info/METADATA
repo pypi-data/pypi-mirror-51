@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: py-ztj-redis-queue-listen
+Version: 0.0.1
+Summary: python redis queue listen package
+Home-page: http://github.com/ztj1993/PythonPackages/blob/master/py_redis_queue_listen
+Author: ZhangTianJie
+Author-email: ztj1993@gmail.com
+License: MIT License
+Keywords: redis,queue-parse,queue-listen
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: py-ztj-redis-instance
+
+# Redis 队列监听模块
+
+## 说明
+这是一个 Redis 队列监听模块，封装了相关的队列获取及处理。
+
+## 安装
+```
+pip install py-ztj-redis-queue-listen
+```
+
+## 依赖
+```
+pip install py-ztj-redis-instance>=0.0.1
+```
+
+## 使用
+```
+from redis_queue_listen import RedisQueueListen
+
+RQL = RedisQueueListen()
+RQL.listen()
+```
+
+
