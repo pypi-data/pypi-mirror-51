@@ -1,0 +1,76 @@
+.side {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffd9cc;
+    overflow-x: hidden;
+    padding-top: 30px;
+}
+
+.side a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.side a:hover {
+  color: black;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0 10px;
+}
+
+.sidebar {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    width: 300px;
+    height: 225px
+}
+
+.cf {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.table {
+    width: 80%;
+    border-width: 1px;
+    border-color: darkred;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.table td {
+    width: 20%;
+    padding: 1px;
+    border: 1px solid black;
+}
+
+tr {
+    padding: 1px;
+    border: 1px solid black;
+}
+
+caption {
+    text-emphasis: black;
+    font-weight:bold;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+

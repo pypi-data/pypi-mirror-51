@@ -1,0 +1,15 @@
+{% extends 'NMR/index.html' %}
+
+{% block content %}
+{% if peak_list %}
+<ul>
+{% for peak in peak_list %}
+    <li>{{ peak.pid }}
+        <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"> -- {{ peak.isPeak }}</li>
+{% endfor %}
+</ul>
+
+{% else %}
+    <p>No peaks modified.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends 'NMR/index.html' %}
+{% block content %}
+{% if peak_list %}
+    <table class="table">
+        <caption>Peaks {{ count }}</caption>
+    {% for peak in peak_list %}
+        <tr>
+    {% if peak.id != Null %}
+        <td><p>{{ peak.pid }}</p>
+            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+    {% endif %}
+    </tr>
+{% endfor %}
+</table>
+{% endif %}
+{% if non_peak_list %}
+<table class="table">
+        <caption>Non-Peaks {{ non_count }}</caption>
+    {% for peak in non_peak_list %}
+        <tr>
+    {% if peak.id != Null %}
+        <td><p>{{ peak.pid }}</p>
+            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+    {% endif %}
+    </tr>
+{% endfor %}
+</table>
+{% endif %}
+{% endblock %}

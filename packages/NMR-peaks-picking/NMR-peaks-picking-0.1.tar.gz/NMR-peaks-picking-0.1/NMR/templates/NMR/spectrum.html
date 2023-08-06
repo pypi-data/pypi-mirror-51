@@ -1,0 +1,24 @@
+{% extends 'NMR/index.html' %}
+
+{% block content %}
+  <h1>Spectra List</h1>
+  {% if my_spectrum_list %}
+  <ul>
+    {% for spectrum in my_spectrum_list %}
+      <li>
+        <a href="{{ spectrum.get_absolute_url }}">{{ spectrum.name }}</a> ({{spectrum.count_peak}} peaks)
+          <form id="update{{ spectrum.id }}" action="{% url 'spectrum_update' spectrum.id %}" method="post">{% csrf_token %}</form>
+          <form id="delete{{ spectrum.id }}" action="{% url 'spectrum_delete' spectrum.id %}" method="post">{% csrf_token %}</form>
+          <form id="file{{ spectrum.id }}" action="{% url 'csv_file' spectrum.id %}" method="post">{% csrf_token %}</form>
+          <input form="update{{ spectrum.id }}" type="submit" value="Change">
+          <input form="delete{{ spectrum.id }}" type="submit" value="Delete">
+          {% if spectrum.count_peak > 0 %}
+              <input form="file{{ spectrum.id }}" type="submit" value="File">
+          {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no spectra.</p>
+  {% endif %}       
+{% endblock %}

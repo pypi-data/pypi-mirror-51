@@ -1,0 +1,158 @@
+{% extends 'NMR/index.html' %}
+{% load static %}
+{% load extras %}
+{% block content %}
+{% if spectrum_list %}
+<h1>Training accuracy: {{ accuracy_train }}</h1>
+<h1>Testing accuracy: {{ accuracy_test }}</h1>
+<table class="cf">
+    <caption>Confusion matrix</caption>
+<tr>
+    <th></th>
+    <th>Positive</th>
+    <th>Negative</th>
+  </tr>
+  <tr>
+    <td>True</td>
+    <td>{{ tp }}</td>
+    <td>{{ tn }}</td>
+  </tr>
+  <tr>
+    <td>False</td>
+    <td>{{ fp }}</td>
+    <td>{{ fn }}</td>
+  </tr>
+</table>
+<br>
+
+<form action="{% url 'change' %}" method="post">
+{% csrf_token %}
+<table class="table">
+    <caption>False Negative {{ fn }}</caption>
+    {% for spectrum in spectrum_list %}
+    {% for peak in spectrum.peak_set.all %}
+        {% if forloop.counter0|divisibleby:2 %}
+            {% if peak.predict == False and peak.isPeak %}
+                <tr>
+                    {% if peak.id != Null %}
+                        <td>{{ peak.spectrum }} {{ peak.pid }}
+                            <input type="checkbox" name="change" id="{{ peak.id }}" value="{{ peak.id }}">
+                            <label for="{{ peak.id }}">Change</label>
+                            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}">
+                            <div>{{ peak.probability }}% peak predicted as <strong>not</strong> peak</div>
+                        </td>
+                    {% endif %}
+
+                    {% with peak=spectrum.peak_set.all|next:forloop.counter0 %}
+                        {% if peak.id != Null %}
+                            <td>{{ peak.pid }}
+                                <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+                        {% endif %}
+                    {% endwith %}
+
+                </tr>
+            {% else %}
+                <!-- continue -->
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</table>
+
+<table class="table">
+    <caption>False Positive {{ fp }}</caption>
+    {% for spectrum in spectrum_list %}
+    {% for peak in spectrum.peak_set.all %}
+        {% if forloop.counter0|divisibleby:2 %}
+            {% if peak.predict and peak.isPeak == False %}
+                <tr>
+                    {% if peak.id != Null %}
+                        <td>{{ peak.spectrum }} {{ peak.pid }}
+                            <input type="checkbox" name="change" id="{{ peak.id }}" value="{{ peak.id }}">
+                            <label for="{{ peak.id }}">Change</label>
+                            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}">
+                            <div>{{ peak.probability }}% <strong>non</strong>-peak predicted as peak</div>
+                        </td>
+                    {% endif %}
+
+                    {% with peak=spectrum.peak_set.all|next:forloop.counter0 %}
+                        {% if peak.id != Null %}
+                            <td>{{ peak.pid }}
+                                <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+                        {% endif %}
+                    {% endwith %}
+                </tr>
+            {% else %}
+                    <!-- continue -->
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</table>
+<table class="table">
+    <caption>True Positive {{ tp }}</caption>
+    {% for spectrum in spectrum_list %}
+    {% for peak in spectrum.peak_set.all %}
+        {% if forloop.counter0|divisibleby:2 %}
+            {% if peak.predict and peak.isPeak %}
+                <tr>
+                    {% if peak.id != Null %}
+                        <td>{{ peak.spectrum }} {{ peak.pid }}
+                            <input type="checkbox" name="change" id="{{ peak.id }}" value="{{ peak.id }}">
+                            <label for="{{ peak.id }}">Change</label>
+                            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}">
+                            <div>{{ peak.probability }}% predicted {{ peak.predict }}</div>
+                        </td>
+                    {% endif %}
+
+                    {% with peak=spectrum.peak_set.all|next:forloop.counter0 %}
+                        {% if peak.id != Null %}
+                            <td>{{ peak.pid }}
+                                <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+                        {% endif %}
+                    {% endwith %}
+                </tr>
+            {% else %}
+                    <!-- continue -->
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</table>
+
+<table class="table">
+    <caption>True Negative {{ tn }}</caption>
+    {% for spectrum in spectrum_list %}
+    {% for peak in spectrum.peak_set.all %}
+        {% if forloop.counter0|divisibleby:2 %}
+            {% if peak.predict == False and peak.isPeak == False %}
+                <tr>
+                    {% if peak.id != Null %}
+                        <td>{{ peak.spectrum }} {{ peak.pid }}
+                            <input type="checkbox" name="change" id="{{ peak.id }}" value="{{ peak.id }}">
+                            <label for="{{ peak.id }}">Change</label>
+                            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}">
+                            <div>{{ peak.probability }}% predicted {{ peak.predict }}</div>
+                        </td>
+                    {% endif %}
+
+                    {% with peak=spectrum.peak_set.all|next:forloop.counter0 %}
+                        {% if peak.id != Null %}
+                            <td>{{ peak.pid }}
+                                <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+                        {% endif %}
+                    {% endwith %}
+                </tr>
+            {% else %}
+                    <!-- continue -->
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</table>
+<input type="submit" value="save">
+</form>
+{% else %}
+    <p>No peak are available.</p>
+{% endif %}
+{% endblock %}

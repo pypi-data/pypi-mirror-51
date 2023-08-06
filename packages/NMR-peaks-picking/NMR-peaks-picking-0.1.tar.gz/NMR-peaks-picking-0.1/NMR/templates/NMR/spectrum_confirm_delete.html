@@ -1,0 +1,14 @@
+{% extends "NMR/index.html" %}
+
+{% block content %}
+
+<h1>Delete Spectrum</h1>
+
+<p>Are you sure you want to delete the spectrum: {{ spectrum }}?</p>
+
+<form method="POST">
+  {% csrf_token %}
+  <input type="submit" value="Yes, delete.">
+</form>
+
+{% endblock %}

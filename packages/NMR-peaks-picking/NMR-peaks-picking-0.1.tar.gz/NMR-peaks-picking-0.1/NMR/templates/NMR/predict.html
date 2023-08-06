@@ -1,0 +1,96 @@
+{% extends 'NMR/index.html' %}
+
+{% block content %}
+    {% load extras %}
+{% if accuracy >= 0 %}
+    <h1>Accuracy: {{ accuracy}}</h1>
+    <table class="cf">
+        <caption>Confusion matrix</caption>
+        <tr>
+            <th></th><th>Positive</th><th>Negative</th>
+        </tr>
+        <tr>
+            <td>True</td>
+            <td>{{ tp }}</td>
+            <td>{{ tn }}</td>
+        </tr>
+        <tr>
+            <td>False</td>
+            <td>{{ fp }}</td>
+            <td>{{ fn }}</td>
+        </tr>
+    </table>
+{% endif %}
+<br>
+{% if middle_peak %}
+    <form action="{% url 'save' spectrum.id %}" method="post">
+    {% csrf_token %}
+    <table class="table">
+        <caption>Confidence interval 30%-70% {{ count }}</caption>
+    {% for peak in middle_peak %}
+        <tr>
+    {% if peak.id != Null %}
+        <td><p>{{ peak.pid }} Predicted as {{ peak.predict }} for {{ peak.probability }}%</p>
+            <input type="checkbox" name="tick" id="{{ peak.id }}" value="{{ peak.id }}">
+            <label for="{{ peak.id }}">{% if peak.isPeak %}PEAK{% else %}NOT PEAK{% endif %}</label>
+            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+    {% endif %}
+
+    {% with peak=peak.get_the_other%}
+        {% if peak.id != Null %}
+        <td>
+            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+        {% endif %}
+    {% endwith %}
+    </tr>
+{% endfor %}
+</table>
+
+<table class="table">
+    <caption>High confidence non-peaks</caption>
+{% for peak in low_peak %}
+<tr>
+    {% if peak.id != Null %}
+        <td><p>{{ peak.pid }} Predicted as {{ peak.predict }} for {{ peak.probability }}%</p>
+            <input type="checkbox" name="tick" id="{{ peak.id }}" value="{{ peak.id }}">
+            <label for="{{ peak.id }}">{% if peak.isPeak %}PEAK{% else %}NOT PEAK{% endif %}</label>
+            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+    {% endif %}
+
+    {% with peak=peak.get_the_other %}
+        {% if peak.id != Null %}
+        <td>
+            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+        {% endif %}
+    {% endwith %}
+</tr>
+{% endfor %}
+</table>
+
+<table class="table">
+    <caption>High confidence peaks</caption>
+{% for peak in high_peak %}
+<tr>
+    {% if peak.id != Null %}
+        <td><p>{{ peak.pid }} Predicted as {{ peak.predict }} for {{ peak.probability }}%</p>
+            <input type="checkbox" name="tick" id="{{ peak.id }}" value="{{ peak.id }}">
+            <label for="{{ peak.id }}">{% if peak.isPeak %}PEAK{% else %}NOT PEAK{% endif %}</label>
+            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+    {% endif %}
+
+    {% with peak=peak.get_the_other %}
+        {% if peak.id != Null %}
+        <td>
+            <img src="{{ peak.plot.url }}" alt="{{ peak.id }}"></td>
+        {% endif %}
+    {% endwith %}
+</tr>
+{% endfor %}
+</table>
+
+
+<input type="submit" value="save"></form>
+{% else %}
+    <p>No training record found.</p>
+{% endif %}
+{% endblock %}

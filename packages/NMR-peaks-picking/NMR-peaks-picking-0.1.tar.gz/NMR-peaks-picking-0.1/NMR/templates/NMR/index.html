@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block title %}<title>NMR peak</title>{% endblock %}
+  <meta charset="utf-8">
+  <meta name="description" content="NMR Peak picking">
+  <meta name="author" content="Chin-Ya Chao">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'NMR/style.css' %}">
+</head>
+<body>
+  <div class="container">
+      <div class="side">
+      {% block sidebar %}
+        <ul class="sidebar">
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li><a href="{% url 'spectra' %}">All spectra</a></li>
+          {% if user.is_authenticated %}
+            <li><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></li>
+          {% else %}
+             <li><a href="{% url 'login'%}?next={{request.path}}">Login</a></li>
+          {% endif %}
+          <li><a href="{% url 'spectrum_create' %}">Add</a></li>
+        </ul>
+     {% endblock %}
+      </div>
+      <div class="main">
+          {% block content %}
+          {% if spectrum_list %}
+            <form id="svm" action="{% url 'svm' %}" method="post">{% csrf_token %}</form>
+            <p>Choose the spectra for support vector machine</p>
+              {% for spectrum in spectrum_list %}
+                <form id="pro{{ spectrum.id }}" action="{% url 'process' spectrum.id %}" method="post">{% csrf_token %}</form>
+                  <form id="pre{{ spectrum.id }}" action="{% url 'predict' spectrum.id%}" method="post">{% csrf_token %}</form>
+                  <ul>
+                      <li>
+                          <input type="checkbox" name="train" id="{{ spectrum.id }}" value="{{ spectrum.id }}" form="svm">
+                          <label for="{{ spectrum.id }}"></label>
+                          <a href="{% url 'detail' spectrum.id %}">{{ spectrum.name }}</a>
+                          {% if spectrum.peak_set.exists %}
+                            <button form="pre{{ spectrum.id }}" type="submit" value={{ spectrum.id }} >Predict</button>
+                          {% else %}
+                            <button form="pro{{ spectrum.id }}" type="submit" value={{ spectrum.id }} >Process</button>
+                          {% endif %}
+                      </li>
+                  </ul>
+            {% endfor %}
+            <input type="submit" value="SVM" form="svm">
+        {% else %}
+            <p>No spectra are available.</p>
+        {% endif %}
+        <p>You have visited this page {{ num_visits }}{% if num_visits == 1 %} time{% else %} times{% endif %}.</p>
+      {% endblock %}</div>
+  </div>
+</body>
+</html>
+
+

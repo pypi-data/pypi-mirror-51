@@ -1,0 +1,7 @@
+{% extends 'NMR/index.html' %}
+
+{% block content %}
+<h1>{{ spectrum.name }} processed</h1>
+
+<a href="{% url 'detail' spectrum.id %}">Go picking</a><br>
+{% endblock %}
