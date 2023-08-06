@@ -1,0 +1,3 @@
+[console_scripts]
+colormapize = colormapize.core:main
+
