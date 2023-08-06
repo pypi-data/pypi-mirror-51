@@ -1,0 +1,10 @@
+README.md
+setup.py
+garbage_translator/__init__.py
+garbage_translator/fuzzy_searcher.py
+garbage_translator/main.py
+garbage_translator.egg-info/PKG-INFO
+garbage_translator.egg-info/SOURCES.txt
+garbage_translator.egg-info/dependency_links.txt
+garbage_translator.egg-info/requires.txt
+garbage_translator.egg-info/top_level.txt
