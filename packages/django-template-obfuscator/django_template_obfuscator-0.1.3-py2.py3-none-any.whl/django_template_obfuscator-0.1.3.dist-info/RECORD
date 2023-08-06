@@ -1,0 +1,16 @@
+django_template_obfuscator/__init__.py,sha256=uZsygMXMKRw-7qhWojAjnpm8GFPXU92xW6XA8O5GwFY,22
+django_template_obfuscator/apps.py,sha256=SLpEEHndks2pDVnqPBaABy8RnSWc7MPQhCyWFPbB3dI,151
+django_template_obfuscator/models.py,sha256=M9j1NuexsmXRO0O_LLRNrLF7fEfPAHWIxm90hC6gV3I,27
+django_template_obfuscator/urls.py,sha256=WyIABfo9vxhlyJ8tSHchN8zxcS_QizCL6W2Zxhkr8RQ,262
+django_template_obfuscator/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_template_obfuscator/static/css/django_template_obfuscator.css,sha256=nPe4TccnhBczx1Y0a3kMLihIk8Wos-HoTflxsbmyskg,143
+django_template_obfuscator/static/js/django_template_obfuscator.js,sha256=lxhwRAxVIzzEI4wSTAncnEfprhEi2A1NC61cIOAjfS8,565
+django_template_obfuscator/templates/django_template_obfuscator/base.html,sha256=A5iA5dq_J7NP7KoBoAEaCS40GVat1eegui4rAqJioYM,703
+django_template_obfuscator/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_template_obfuscator/templatetags/obfuscator.py,sha256=Uc_vP4caUXGOw-brszJCGxm05iH3qv1qd4HCFX3rxLs,533
+django_template_obfuscator-0.1.3.dist-info/AUTHORS.rst,sha256=zNmTWgZk24rgRrROF9D_SdEJQ8Oj7jxGiLJYo53Tl-Y,170
+django_template_obfuscator-0.1.3.dist-info/LICENSE,sha256=Tp2U61OL5O1s0j_gGNabGKJs5MXiXzOamyI_A1jbiEI,1088
+django_template_obfuscator-0.1.3.dist-info/METADATA,sha256=6JY-vho9ibZ06t-RKrUpLvmvPfKxmTwIVi7R5lzW_iE,3406
+django_template_obfuscator-0.1.3.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+django_template_obfuscator-0.1.3.dist-info/top_level.txt,sha256=tk_p8kZvWwYRYuMXuwOCa7oiWBHffV5flKH310VEKYk,27
+django_template_obfuscator-0.1.3.dist-info/RECORD,,
