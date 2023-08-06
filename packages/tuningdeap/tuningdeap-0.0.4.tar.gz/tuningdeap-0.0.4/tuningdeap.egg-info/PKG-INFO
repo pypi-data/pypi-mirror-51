@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: tuningdeap
+Version: 0.0.4
+Summary: A package to tune Machine Learning hyperparameters with config files
+Home-page: https://github.com/orionw/tuningDEAP
+Author: Brandon Schoenfeld and Orion Weller
+Author-email: bsjchoenfeld@byu.edu
+License: MIT
+Download-URL: https://github.com/orionw/tuningDEAP/archive/v0.0.4.tar.gz
+Description: UNKNOWN
+Keywords: tuning machinelearning genetic hyperparameters
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: ~=3.5
