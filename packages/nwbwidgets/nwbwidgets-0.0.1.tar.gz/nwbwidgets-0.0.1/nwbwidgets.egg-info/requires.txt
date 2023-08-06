@@ -1,0 +1,7 @@
+pynwb
+itkwidgets
+ipympl
+ipywidgets>=7.4
+matplotlib
+numpy
+ipyvolume
