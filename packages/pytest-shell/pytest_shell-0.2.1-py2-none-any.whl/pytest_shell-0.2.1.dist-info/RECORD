@@ -1,0 +1,17 @@
+pytest_shell/__init__.py,sha256=4OiF5ZanXLbXHfOrpoHgUb5IaI5Ee5OkZZF-6BzWkjc,175
+pytest_shell/connection.py,sha256=E8c5u4fJ1gKbAK5TtOLSDi67yYpT9gIe8nUsdq15DM4,8946
+pytest_shell/dialect.py,sha256=vsnbW8uS3Cfe7lR8hFtaAg61pInvxLscHKTakl5knMI,3500
+pytest_shell/fs.py,sha256=SEvhiN5A2zZ-Y3fzV7amM3Soo1REUcicGQxQWuQ0OEU,3404
+pytest_shell/shell.py,sha256=Xc38VRaAVPHnsx0jDQYGno-mR19hTst5XO7y90mNqaE,4077
+pytest_shell/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_shell/tests/conftest.py,sha256=vY6XQ9K2kZ8Qo-h9-PmkhmEIRyR_ILjbM7R0dPPjU_g,28
+pytest_shell/tests/test_connection.py,sha256=YU19YM_n3nf4wsZu9gAIw4rWrjn7hLdeYLolffe0Nn0,580
+pytest_shell/tests/test_fs.py,sha256=ajuS1Kh6tJeETFHAE3a5Kb77jAav4XoijaU6hJNxoRk,2040
+pytest_shell/tests/test_shell.py,sha256=9JdY80C723khUj_H3CGWz0gwuoPoDMXeaKWCFbJ6_DA,7199
+pytest_shell-0.2.1.dist-info/DESCRIPTION.rst,sha256=bKcgeOV29elUAi9-LD2Pr4nOP5eI73UhsVpfTPHOKx0,5050
+pytest_shell-0.2.1.dist-info/METADATA,sha256=x22EbIcAXgmuNcZaa2tYru1uRBvBBPKU0olMkAF4qoI,6250
+pytest_shell-0.2.1.dist-info/RECORD,,
+pytest_shell-0.2.1.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+pytest_shell-0.2.1.dist-info/entry_points.txt,sha256=oU9YxHv-AYEyQKkajiDtdu6Ed0U8xvJA_U10_UxFWAs,33
+pytest_shell-0.2.1.dist-info/metadata.json,sha256=mBZ7TBD44HST2iY_wZmzqpgRF4W6pmwhvjsbInoZaYc,1364
+pytest_shell-0.2.1.dist-info/top_level.txt,sha256=UZJV9Tf5mbg_NdBYSw4hPXQJRO9TCM-d8qh8fTuO0ro,13
