@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+include/nonnegcg.h
+nonnegcg/__init__.py
+nonnegcg/nonnegcg.pxd
+nonnegcg/pywrapper.pyx
+nonnegcg.egg-info/PKG-INFO
+nonnegcg.egg-info/SOURCES.txt
+nonnegcg.egg-info/dependency_links.txt
+nonnegcg.egg-info/requires.txt
+nonnegcg.egg-info/top_level.txt
+src/nonnegcg.c

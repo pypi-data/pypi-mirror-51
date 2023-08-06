@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: nonnegcg
+Version: 0.1.5
+Summary: Conjugate-gradient optimizer subject to non-negativity constraints
+Home-page: https://github.com/david-cortes/nonneg_cg
+Author: David Cortes
+Author-email: david.cortes.rivera@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: optimization,conjugate gradient,polak-ribiere-polyak
+Platform: UNKNOWN
