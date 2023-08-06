@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ip-geolocation-api
+Version: 1.0.2
+Summary: Free IP Geolocation API and IP Location Lookup Database by <a>https://ipwhois.io/</a>
+Author: ipwhois.io
+Requires-Python: ==2.7.5
+Classifier: Programming Language :: Python :: 2
