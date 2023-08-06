@@ -1,0 +1,16 @@
+sphinx_feature_classification/__init__.py,sha256=pGPcgwkNbbhf7aETBp9ixKIYOsU4uGxTbci2W-kpaBg,685
+sphinx_feature_classification/support-matrix.css,sha256=cp2reUvgxhSKUCFwqE8y0_kte_J6-KOl1ZAqo0fYNJs,544
+sphinx_feature_classification/support_matrix.py,sha256=vUOl3IIfkX6Wv93wKvf-9cyojnEpUuJQbDYH_30qsyg,16631
+sphinx_feature_classification/releasenotes/notes/update-summary-table-style-cb5a00eb45cce78a.yaml,sha256=Ig5EH0iklZlOH_Rbv8XKylt9ebGaKqNlokWL_TKVaKw,106
+sphinx_feature_classification/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_feature_classification/tests/base.py,sha256=pgyHZ0FqhTANZcVw8CLiu2p0cBuRgPbB3ByyBavDu8c,794
+sphinx_feature_classification/tests/test_sphinx_feature_classification.py,sha256=8ijIqrY_4yfCYXSCtc-guBcSaiZfH5V05v-WW9DdGxA,2569
+sphinx_feature_classification/tests/fakes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_feature_classification/tests/fakes/support-matrix.ini,sha256=oQatRkDYn9mpGPtgugG7ipm4vgs99mCZDV2N-F_3rg0,303
+sphinx_feature_classification-0.4.1.dist-info/AUTHORS,sha256=4QRAAp-lUBblbppTrm20KgU1LeCMlskGPYpFP5_rttA,525
+sphinx_feature_classification-0.4.1.dist-info/LICENSE,sha256=XfKg2H1sVi8OoRxoisUlMqoo10TKvHmU_wU39ks7MyA,10143
+sphinx_feature_classification-0.4.1.dist-info/METADATA,sha256=y1opy9BVq_qa0T2E1btkXxo_9YDambAWvqZ22mzXuUs,1887
+sphinx_feature_classification-0.4.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+sphinx_feature_classification-0.4.1.dist-info/pbr.json,sha256=4Drn6JPXxNCkcL4MsPGrR4uCL7qhPpBO04eP9FxmnzA,46
+sphinx_feature_classification-0.4.1.dist-info/top_level.txt,sha256=g3WyyQz1FNrZj_dbVjzzH4n2V5vQN-FxQtMqsb7WMiQ,30
+sphinx_feature_classification-0.4.1.dist-info/RECORD,,
