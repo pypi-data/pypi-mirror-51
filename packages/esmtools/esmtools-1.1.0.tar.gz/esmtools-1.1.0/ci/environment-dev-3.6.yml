@@ -1,0 +1,30 @@
+name: esmtools-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - xarray
+  - dask
+  - scipy
+  - matplotlib
+  - bottleneck
+  - netcdf4
+  - pytest
+  - cftime
+  - bottleneck
+  - netcdf4
+  - climpred
+  - cartopy
+  - pytest-cov
+  - sphinx_rtd_theme
+  - sphinx
+  - nbsphinx
+  - coveralls
+  - importlib_metadata
+  - jupyterlab
+  - pip
+  - pip:
+      - sphinxcontrib-napoleon
+      - sphinx_automodapi
+      - pre-commit

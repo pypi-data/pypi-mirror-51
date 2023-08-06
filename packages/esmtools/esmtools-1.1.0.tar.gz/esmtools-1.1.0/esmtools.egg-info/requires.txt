@@ -1,0 +1,7 @@
+numpy
+xarray
+scipy
+tqdm
+climpred>=1.0.1
+cftime
+cartopy
