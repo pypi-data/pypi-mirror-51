@@ -1,0 +1,12 @@
+README.md
+microsockets/__init__.py
+microsockets/application.py
+microsockets/events.py
+microsockets/hooks.py
+microsockets/rooms.py
+microsockets/scopes.py
+microsockets/socket.py
+microsockets.egg-info/PKG-INFO
+microsockets.egg-info/SOURCES.txt
+microsockets.egg-info/dependency_links.txt
+microsockets.egg-info/top_level.txt
