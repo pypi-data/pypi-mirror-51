@@ -1,0 +1,19 @@
+<p>Job details for {{ job.command }} {% if job.assigned_to is not none %}{{ job.assigned_to }}{% endif %}</p>
+{% if job.pid %}
+<p><button type="button" onclick="killJob(this);" data-cmd="minute:{{ job.minute }},hour:{{job.hour}},dom:{{ job.dom }},month:{{ job.month }},dow:{{ job.dow }},command:{{ job.command }}">kill</button></p>
+{% endif %}
+<table id="joblogtable">
+    <thead>
+        <tr>
+            <th width="80%">logs</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for entry in job.log %}
+        <tr>
+            <td width="80%">{{ entry }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{{job}}
