@@ -1,0 +1,2 @@
+include telekey/telekeyproject/*
+include telekey/telekeyproject/app/*
