@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: BxGraph
+Version: 0.2.0
+Summary: Graph Management in Python.
+Home-page: https://github.com/borchero/bxgraph
+Author: Oliver Borchert
+Author-email: borchero@in.tum.de
+License: License :: OSI Approved :: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (<2.0.0,>=1.16.3)
+Requires-Dist: scipy (<2.0.0,>=1.3.0)
+Requires-Dist: numba (<1.0.0,>=0.43.1)
+
+# BxGraph
+
+
