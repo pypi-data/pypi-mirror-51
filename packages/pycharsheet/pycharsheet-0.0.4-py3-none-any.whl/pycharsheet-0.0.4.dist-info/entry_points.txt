@@ -1,0 +1,6 @@
+[console_scripts]
+pycharsheet = pycharsheet.__main__:main
+
+[gui_scripts]
+wxcharsheet = pycharsheet.__main__:gui
+
