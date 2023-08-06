@@ -1,0 +1,6 @@
+friendly_name_mixin~=1.0
+simple_plugins~=1.0
+wand~=0.5.0
+
+[dev]
+pylint~=1.9
