@@ -1,0 +1,11 @@
+-r requirements.txt
+coverage
+mock
+pbs
+pep257
+pre-commit
+pylint<2.0
+pytest
+radon
+recommonmark
+sh
