@@ -1,0 +1,9 @@
+streamsx/objectstorage/__init__.py,sha256=QlLAbnU4KQBMItw5GNAj8zxfaDIPfO3vMtz8xX2yo4A,4691
+streamsx/objectstorage/_objectstorage.py,sha256=_1DC8TgBbAmHAYUiEdEUOfHmUkODBd4EvX5rWlXaGgQ,26048
+streamsx.objectstorage-1.3.0.dist-info/DESCRIPTION.rst,sha256=hvTvWe_o2TL6ydfk1qiOnUzOMZAcOskEbAQD121SfTk,1875
+streamsx.objectstorage-1.3.0.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+streamsx.objectstorage-1.3.0.dist-info/METADATA,sha256=yC1t_ESJzn0bdbueHXfg_sWKEy7VDjbgpggTy0KuajA,2640
+streamsx.objectstorage-1.3.0.dist-info/RECORD,,
+streamsx.objectstorage-1.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+streamsx.objectstorage-1.3.0.dist-info/metadata.json,sha256=1t_85bjVaDsDcC8M00QHZQWRs3VRCicVs4_Zw0rQF3Y,1046
+streamsx.objectstorage-1.3.0.dist-info/top_level.txt,sha256=-HIIPsBc56LEpwY9WQHNMVJy2nOLXnKZ6slLXwmeZoY,9
