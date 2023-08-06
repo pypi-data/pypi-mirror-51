@@ -1,0 +1,12 @@
+README.rst
+setup.py
+django_flexquery/__init__.py
+django_flexquery/flexquery.py
+django_flexquery/q.py
+django_flexquery.egg-info/PKG-INFO
+django_flexquery.egg-info/SOURCES.txt
+django_flexquery.egg-info/dependency_links.txt
+django_flexquery.egg-info/requires.txt
+django_flexquery.egg-info/top_level.txt
+django_flexquery/contrib/__init__.py
+django_flexquery/contrib/user_based.py
