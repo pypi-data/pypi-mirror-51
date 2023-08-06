@@ -1,0 +1,12 @@
+pytest<6,>=3.0.0
+six<2,>=1.10.0
+
+[:python_version < "3.5"]
+typing<4,>=3.6.4
+
+[docs]
+Sphinx<2,>=1.7.2
+
+[test]
+pytest<5,>=3.5.0
+coverage<5,>=4.5.2
