@@ -1,0 +1,42 @@
+{% extends 'djangoadmin/base/body/index.html' %}
+
+{% block body %}
+{% include "djangoadmin/widgets/alert.html" %}
+
+<div class="card overflow-hidden rounded-0 mb-1 p-0">
+    <div class="row overflow-hidden">
+        <div class="col-4 p-0 overflow-hidden">
+            {% if user.usermodel.image %}
+            <img class="card-img w-100 rounded-0" src="{{ user.usermodel.image.url }}" width="100%" height="225px"/>
+            {% else %}
+            {% endif %}
+        </div>
+        <div class="col-8 overflow-hidden bg-light p-0">
+        <div class="card-body p-2">    
+            <h3 class="card-title font-weight-bolder text-dengine">Djangoengine profile card.</h3>
+            <p class="card-text">Username: {{ user.username }}</p>
+            <p class="card-text">First name: {{ user.first_name }}</p>
+            <p class="card-text">Last name: {{ user.last_name }}</p>
+            <p class="card-text">Email address: {{ user.email }}</p>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="card rounded-0 bg-light mb-1 p-0">
+    <div class="card-body p-2">
+    <p class="card-text">Address: {{ user.usermodel.address }}</p>
+    <p class="card-text">Phone Number: +{{ user.usermodel.phone }}</p>
+    <p class="card-text">Website: <a href="{{ user.usermodel.website }}">{{ user.usermodel.website }}</a></p>
+    </div>
+</div>
+
+<div class="card rounded-0 bg-light mb-1 p-0">
+<ul class="nav">
+    <nav class="nav-item"><a class="nav-link" href="{% url 'djangoadmin:edit_profile_view' %}">Edit Profile</a></nav>
+    <nav class="nav-item"><a class="nav-link" href="{% url 'djangoadmin:password_change_view' %}">Password Change</a></nav>
+    <nav class="nav-item"><a class="nav-link" href="{% url 'djangoadmin:password_reset' %}">Forgot password</a></nav>
+</ul>
+</div>
+
+{% endblock body %}
