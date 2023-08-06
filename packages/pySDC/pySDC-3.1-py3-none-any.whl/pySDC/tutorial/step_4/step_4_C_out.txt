@@ -1,0 +1,60 @@
+Error SDC and MLSDC: 3.96231955e-08 -- 3.95409315e-08
+Difference SDC vs. MLSDC: 8.22686919e-11
+Number of iterations SDC and MLSDC: 12 --  6
+Error SDC and MLSDC: 3.97809153e-08 -- 3.95592568e-08
+Difference SDC vs. MLSDC: 2.21658525e-10
+Number of iterations SDC and MLSDC: 11 --  9
+Error SDC and MLSDC: 3.97809153e-08 -- 3.95812278e-08
+Difference SDC vs. MLSDC: 1.99687489e-10
+Number of iterations SDC and MLSDC: 11 --  3
+Error SDC and MLSDC: 3.97809153e-08 -- 3.95805098e-08
+Difference SDC vs. MLSDC: 2.00405498e-10
+Number of iterations SDC and MLSDC: 11 --  6
+Error SDC and MLSDC: 7.77911069e-12 -- 5.35904654e-13
+Difference SDC vs. MLSDC: 8.13238366e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 7.77911069e-12 -- 5.83311177e-13
+Difference SDC vs. MLSDC: 8.16025025e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 1.88360438e-12 -- 2.22044605e-16
+Difference SDC vs. MLSDC: 1.88371541e-12
+Number of iterations SDC and MLSDC:  1 --  1
+Error SDC and MLSDC: 7.89566190e-11 -- 7.89566190e-11
+Difference SDC vs. MLSDC: 0.00000000e+00
+Number of iterations SDC and MLSDC:  0 --  0
+Error SDC and MLSDC: 7.77911069e-12 -- 5.83311177e-13
+Difference SDC vs. MLSDC: 8.16025025e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 7.77911069e-12 -- 5.35904654e-13
+Difference SDC vs. MLSDC: 8.13238366e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 6.19004847e-12 -- 2.50754972e-12
+Difference SDC vs. MLSDC: 8.22419910e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 2.43257778e-08 -- 6.82093271e-10
+Difference SDC vs. MLSDC: 2.36437488e-08
+Number of iterations SDC and MLSDC:  5 --  3
+Error SDC and MLSDC: 6.19004847e-12 -- 2.50754972e-12
+Difference SDC vs. MLSDC: 8.22419910e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 6.19004847e-12 -- 2.50754972e-12
+Difference SDC vs. MLSDC: 8.22419910e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 6.19004847e-12 -- 2.50754972e-12
+Difference SDC vs. MLSDC: 8.22419910e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 6.19004847e-12 -- 2.51332288e-12
+Difference SDC vs. MLSDC: 8.22653057e-12
+Number of iterations SDC and MLSDC:  7 --  4
+Error SDC and MLSDC: 3.96231955e-08 -- 3.95409315e-08
+Difference SDC vs. MLSDC: 8.22686919e-11
+Number of iterations SDC and MLSDC: 12 --  6
+Error SDC and MLSDC: 3.96231955e-08 -- 3.95409315e-08
+Difference SDC vs. MLSDC: 8.22686919e-11
+Number of iterations SDC and MLSDC: 12 --  6
+Error SDC and MLSDC: 3.96231955e-08 -- 3.95409315e-08
+Difference SDC vs. MLSDC: 8.22686919e-11
+Number of iterations SDC and MLSDC: 12 --  6
+Error SDC and MLSDC: 3.96231955e-08 -- 3.95409315e-08
+Difference SDC vs. MLSDC: 8.22686919e-11
+Number of iterations SDC and MLSDC: 12 --  6

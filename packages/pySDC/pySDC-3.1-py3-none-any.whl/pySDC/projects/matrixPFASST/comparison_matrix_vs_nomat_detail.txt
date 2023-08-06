@@ -1,0 +1,6 @@
+
+Working with testequation setup and parameter 0.0e+00..
+  Error (mat/nomat) vs. exact solution: 5.7992e-06 -- 5.7992e-06
+  Difference between both results: 3.3307e-16
+  Iteration counts for matrix-based version: [(0.0, 4), (0.25, 4), (0.5, 4), (0.75, 4)]
+  Iteration counts for matrix-free version: [(0.0, 4), (0.25, 4), (0.5, 4), (0.75, 4)]

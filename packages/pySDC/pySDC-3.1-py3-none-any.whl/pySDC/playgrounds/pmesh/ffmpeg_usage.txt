@@ -1,0 +1,14 @@
+clear data directory
+run simulation
+python visualize.py (may need to adapt the name)
+
+scp 'speck1@jureca.fz-juelich.de:/p/project/ccstma/cstma000/pySDC/pySDC/playgrounds/pmesh/data/*.png' mydata/.
+
+Convert images to movie:
+ffmpeg -framerate 1 -i mydata/AC-2D-application-forced_%08d.png -r 1 test_force_time.mp4
+
+Rescale to avoid "division by 2"-error:
+ffmpeg -i test_force_time.mp4 -vf "scale=508x432" test_force_time_scale.mp4
+
+To speedup the whole thing by a factor of 10 (and to make it suitable for QuickTime):
+ffmpeg -r 10 -i test_force_time_scale.mp4 -pix_fmt yuv420p test_force_time_fast.mp4 
