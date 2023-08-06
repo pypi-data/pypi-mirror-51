@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: matildapeak-chronicler-transmitter
+Version: 2019.3
+Summary: Utilities for Chronicler event delivery
+Home-page: https://gitlab.com/matilda.peak/chronicler-transmitter
+Author: Alan Christie
+Author-email: alan.christie@matildapeak.com
+License: MIT
+Keywords: protobuf,chronicler
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7, <4
+Requires-Dist: requests (<3.0.0,>=2.22.0)
+
+Matilda Peak Chronicler Transmitter
+===================================
+
+The ``matildapeak-chronicler-transmitter`` module is a set of utilities
+employed by `Matilda Peak`_'s **Emergent Behaviour Platform**.
+
+Chronicler Transmitter
+----------------------
+This class provides basic *payload* transmission to Chronicler and is used
+by `Garten`_ and other data adapters to feed Chronicler with processable data.
+The payload is a keyword-value dictionary that is passed to connected
+Patterneer *Runners* encapsulated in a `Protocol Buffer`_ object.
+
+For convenience The class provides a synchronous posting method (``post()``)
+and an asynchronous posting method (``post_async()``) but you're advised to
+use one or the other, not mix them in a single application.
+
+Typical usage::
+
+    from matildapeak.chronicler_transmitter import ChroniclerTransmitter
+
+    ct = ChroniclerTransmitter(URL, RESOURCE, APP_ID, APP_CODE)
+    ct.post_async({'field': 'value'})
+
+    ct.stop_async()
+
+.. _Garten: https://gitlab.com/matilda.peak/garten
+.. _Matilda Peak: http://www.matildapeak.com
+.. _Protocol Buffer: https://gitlab.com/matilda.peak/protobuf
+
+
