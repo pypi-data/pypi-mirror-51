@@ -1,0 +1,8 @@
+README.md
+setup.py
+serial_module/__init__.py
+serial_module.egg-info/PKG-INFO
+serial_module.egg-info/SOURCES.txt
+serial_module.egg-info/dependency_links.txt
+serial_module.egg-info/requires.txt
+serial_module.egg-info/top_level.txt
