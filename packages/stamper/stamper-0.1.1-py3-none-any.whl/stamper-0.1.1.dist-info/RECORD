@@ -1,0 +1,16 @@
+stamper/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+stamper/cli.py,sha256=E3LEEX-Gx7TtgtCDsnWz1EadJDH5qqVvInQAsYoxOss,1466
+stamper/config.py,sha256=UIT_C-C-CPRQGwv1dnrgdZeLCTXrtMTvIm6Sl98q7To,1954
+stamper/filters.py,sha256=FG0NIh-Z_WYvMiDJ7tchVQ13FZXeMSh0Et_2gJcDJWo,7499
+stamper/http.py,sha256=RjZe9uhQP2399_AcxgeZY4MHppEyFuMVDUJcl-3DS4g,867
+stamper/stamper.py,sha256=888uHVCEMO3c6g9Fxxnvoll4bvAOiMoDlmT8nOQ75wM,18602
+stamper-0.1.1.data/scripts/stamp,sha256=iReJva_kD7ZzTyaEQJGx3Y3F_Uno_MCq5T7_igwJsGs,956
+stamper-0.1.1.data/scripts/stamp2json,sha256=SscRMmOr4zzJxKYrTOFBNpp72-7piO5Qyc9mw6mbS_8,2483
+stamper-0.1.1.data/scripts/stamps,sha256=Upc3FNgcVJNkD_hy4jngNRQ2whZAvgYXaRbRCK7ARhI,1019
+stamper-0.1.1.data/scripts/time_sum,sha256=nbcJL5sEtUZG1mJonkkRGTJBihY6Ol19gmzs59IxzOA,1186
+stamper-0.1.1.dist-info/AUTHORS,sha256=bMEfyITnbzkkQwZYQ0j2P5MlKCCPYzGO6MGMX5Yqsf4,95
+stamper-0.1.1.dist-info/LICENSE,sha256=5_DwMhXmT2mvG9jqd_cqRgJVmtnG4PnXCgjdM1JWaXs,1537
+stamper-0.1.1.dist-info/METADATA,sha256=x5nmZJTwQoMrMhnjNYjxuTYSismzxkRAZltl9qROJ2U,1456
+stamper-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+stamper-0.1.1.dist-info/top_level.txt,sha256=sfoZGtNqk8EI8VtwLenEEFiXCmAZ7ArDivtH2Ybedcg,8
+stamper-0.1.1.dist-info/RECORD,,
