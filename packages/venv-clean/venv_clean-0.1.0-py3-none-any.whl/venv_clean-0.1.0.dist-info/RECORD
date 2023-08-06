@@ -1,0 +1,13 @@
+venv_clean/__init__.py,sha256=Zz_ON43FdkGZ51Jo1gj7UsJmIv97YX5I8sgKy5iowuc,50
+venv_clean/__main__.py,sha256=UfzCHHWscjXOxUrMEJxawOJvGY40M3zty_J0jFefHAw,448
+venv_clean/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+venv_clean/core/utils.py,sha256=ncFp_pZ3KieMBUSj1Pp0W_0whaJupSbngmbgkW2fkn8,2988
+venv_clean/core/ui/__init__.py,sha256=ZR9UylyGKSDu7JJ_IQpaMHnxjr5jA8CnPyCEPjK_v1Y,41
+venv_clean/core/ui/manage.py,sha256=U2a6ez77xkvvQ2nnYuG0LvuBXfQmq2dTdbjkXrN_jKk,697
+venv_clean/core/ui/venvview.py,sha256=6r9f0GwvfgHCbVeTjBBPhBhIwLjGyLHRa5oscHO5xco,4348
+venv_clean-0.1.0.dist-info/LICENSE,sha256=RQOvMbJRCY27eeC1b62db4Vm-bBoYgicA64XUvQkP4g,1070
+venv_clean-0.1.0.dist-info/METADATA,sha256=kDgYRwY8XnyPej9nRj_BChRwT-Q0J88rwdcumW8uElI,1856
+venv_clean-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+venv_clean-0.1.0.dist-info/entry_points.txt,sha256=CjtnJ8xFD9I8fSS2YP1gdg4pcfgIjGVbQmzadhripdM,57
+venv_clean-0.1.0.dist-info/top_level.txt,sha256=NPRr4IHtG5hr9joq5IAc2LUYswi7QZPJgtTn0PBBEfU,11
+venv_clean-0.1.0.dist-info/RECORD,,
