@@ -1,0 +1,3 @@
+[console_scripts]
+nix-prefetch-github = nix_prefetch_github:_main
+
