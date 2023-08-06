@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ss-validate
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/EBISPOT/gwas-sumstats-validator
+Author: EBI SPOT
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas-schema
+
+UNKNOWN
+
+
