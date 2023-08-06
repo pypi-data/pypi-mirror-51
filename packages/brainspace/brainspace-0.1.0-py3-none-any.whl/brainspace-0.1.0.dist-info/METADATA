@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: brainspace
+Version: 0.1.0
+Summary: Cortical gradients and beyond
+Home-page: https://github.com/MICA-MNI/BrainSpace
+Author: BrainSpace developers
+Author-email: oualid.benkarim@mcgill.ca
+License: UNKNOWN
+Download-URL: https://github.com/MICA-MNI/BrainSpace/archive/0.1.0.tar.gz
+Project-URL: Documentation, https://brainspace.readthedocs.io
+Project-URL: Bug Reports, https://github.com/MICA-MNI/BrainSpace/issues
+Project-URL: Source, https://github.com/MICA-MNI/BrainSpace
+Keywords: brain cortex gradient manifold
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy (>=1.11.0)
+Requires-Dist: scipy (>=0.17.0)
+Requires-Dist: scikit-learn (>=0.20.0)
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: vtk (>=8.1.0)
+Requires-Dist: nibabel
+Requires-Dist: pillow
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: coveralls ; extra == 'test'
+Requires-Dist: numpy (>=1.11.0) ; extra == 'test'
+Requires-Dist: scipy (>=0.17.0) ; extra == 'test'
+Requires-Dist: scikit-learn (>=0.20.0) ; extra == 'test'
+Requires-Dist: matplotlib (>=2.0.0) ; extra == 'test'
+Requires-Dist: vtk (>=8.1.0) ; extra == 'test'
+Requires-Dist: nibabel ; extra == 'test'
+Requires-Dist: pillow ; extra == 'test'
+
+=======================
+BrainSpace
+=======================
+
+BrainSpace is a lightweight cross-platform toolbox primarily intended for
+macroscale gradient mapping and analysis. The current version of BrainSpace is
+available in Python and MATLAB, programming languages widely used by the
+neuroimaging and network neuroscience communities. The toolbox also contains
+several maps that allow for exploratory analysis of gradient correspondence with
+several features, together with tools to generate spatial null models.
+
+For installation instructions, examples and documentation of BrainSpace see
+https://brainspace.readthedocs.io.
+
+
