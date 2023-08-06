@@ -1,0 +1,10 @@
+README.md
+setup.py
+TextGenerationEvaluationMetrics.egg-info/PKG-INFO
+TextGenerationEvaluationMetrics.egg-info/SOURCES.txt
+TextGenerationEvaluationMetrics.egg-info/dependency_links.txt
+TextGenerationEvaluationMetrics.egg-info/requires.txt
+TextGenerationEvaluationMetrics.egg-info/top_level.txt
+text_eval/__init__.py
+text_eval/constants.py
+text_eval/multiset_distance.py

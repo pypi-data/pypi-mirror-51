@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: TextGenerationEvaluationMetrics
+Version: 0.0.1
+Summary: Various metrics for evaluating text generation models.
+Home-page: https://github.com/Ehsan-MAE/TextGenerationEvaluationMetrics
+Author: Danial Alihosseini, Ehsan Montahaei
+Author-email: ehsan.montahaei@gmail.com
+License: OSI Approved :: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
