@@ -1,0 +1,26 @@
+#!python
+import click
+import os
+
+from slugify import slugify
+
+
+@click.command()
+@click.option('--name', '-n', multiple=False, default='', help='Who are you?')
+@click.argument('cmd')
+def cli(name, cmd):
+    if cmd == "new":
+        name = slugify(name, separator='_')
+        return new(name)
+    click.echo('Nothing to do')
+
+def new(name):
+    click.echo('Creating new project: ' + name)
+    os.system("git clone https://github.com/irinabucse/pytest-selenium-skeleton.git " + name)
+    os.system("cd " + name)
+    os.system("rm -rf .git")
+    click.echo('Done ' + name)
+
+
+if __name__ == '__main__':
+    cli()
