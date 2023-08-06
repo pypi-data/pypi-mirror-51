@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: counter-r5-elasticsearch
+Version: 0.4
+Summary: Generate Counter R5 reports from an elasticsearch index
+Home-page: UNKNOWN
+Author: Erudit
+Author-email: 
+License: AGPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6,<4
+Provides-Extra: test
