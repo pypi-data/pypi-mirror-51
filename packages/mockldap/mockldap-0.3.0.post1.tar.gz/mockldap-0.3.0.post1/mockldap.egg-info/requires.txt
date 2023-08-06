@@ -1,0 +1,5 @@
+funcparserlib==0.3.6
+python-ldap>=3.0
+
+[:python_version < "3.0"]
+mock
