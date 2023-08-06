@@ -1,0 +1,4 @@
+pandas
+pymongo
+pickle
+scikit-learn
