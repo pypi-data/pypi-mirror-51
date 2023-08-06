@@ -1,0 +1,9 @@
+defusedxml
+fs.webdavfs
+fs>=2.1
+furl
+plone.api
+plone.app.testing
+plone.browserlayer
+setuptools
+zope.i18nmessageid
