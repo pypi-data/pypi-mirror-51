@@ -1,0 +1,16 @@
+swaglyrics/USING.txt,sha256=I_-JvA5R9nkyiYqlV1798nF1ukolnUKsz_liqYO6qSk,416
+swaglyrics/__init__.py,sha256=L4z21ckJATJ9XzTQ4VlMjwLEZ8cXrfwupyVGUIsh8vs,243
+swaglyrics/__main__.py,sha256=ZUcMDk_4PTp0HzBPd1voOk-c7VAKYsR6sICgkO-3zEU,3333
+swaglyrics/cli.py,sha256=PC4KjpkGtTp5UDk5p3vQmXPobvHv0uJxVNFUNdV5D38,4659
+swaglyrics/tab.py,sha256=s9dCrD0riZn2jl_-wN55becDymwY7C9rKdCBHAs3xYM,951
+swaglyrics/unsupported.txt,sha256=NHmO0vbPcD5MBzdcEESj0CumfngteHbNkEKpfaYX84o,49
+swaglyrics/static/favicon.ico,sha256=BBqrZPX7e-mrKcrIEiZ793I-XA9vcJ--zp9LruzyYxQ,15086
+swaglyrics/static/songChanged.js,sha256=_RgJbnFq-vzVeqbOFhYjnvYPNUqi14vFzViQAwN1azM,446
+swaglyrics/static/style.css,sha256=biRjVW-jYN9Wl4ZAaCQNwwYS8S3SCy38BIjH1-6h6tM,176
+swaglyrics/templates/lyrics.html,sha256=vO2Y-D6SC_qMaXnBk-P4fE2r1F3kPZim9LkxGsNa6Ts,713
+swaglyrics-1.1.0.dist-info/LICENSE.md,sha256=4X4Qvag-DfaHsMY2YRQwbjmLSxyWSzcvCxeZogaBwa8,1079
+swaglyrics-1.1.0.dist-info/METADATA,sha256=j0wRrOIylvZfZVTan2uSZnvkquEKOQ3n_46u5NRiqQI,8194
+swaglyrics-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+swaglyrics-1.1.0.dist-info/entry_points.txt,sha256=I-p2Mtic_sKdk6hEhqXGqH7ROodMTgWXjU-EjRrB7Cg,57
+swaglyrics-1.1.0.dist-info/top_level.txt,sha256=x2BxS9jZjI6uzI-0pxQGlAlKPB0FMZamQbPC0tXT2lg,11
+swaglyrics-1.1.0.dist-info/RECORD,,
