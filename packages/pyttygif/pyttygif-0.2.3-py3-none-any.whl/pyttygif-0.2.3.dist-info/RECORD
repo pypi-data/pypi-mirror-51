@@ -1,0 +1,10 @@
+pyttygif/__init__.py,sha256=c9Et8usFtgokS-GaFTL8rusEubKvgzgv7ZfMkOuQ6tY,713
+pyttygif/__main__.py,sha256=31I9-G8YUym9sci3sMPjnkxaTxD_up-fmNmrzD14dPc,10942
+pyttygif/capture.py,sha256=AOz8gtb4Dj0LAmIu1NyS5eYcYPBesfi3G6azMclb0QE,2394
+pyttygif/gifbuilder.py,sha256=1Hjq07WysxASK1t5ITvrJkhUfVS9kFU6ZF8950MgEyY,4891
+pyttygif/ttyplay.py,sha256=kaFFzEgH_pWrqGhJjzJs16ORZoXrNRGdsOp8PDuWo0E,4372
+pyttygif-0.2.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyttygif-0.2.3.dist-info/METADATA,sha256=SEfauVyXO9ukBXqa_6NlPmg1S9AmHg3XfOmLInAknvM,8341
+pyttygif-0.2.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyttygif-0.2.3.dist-info/top_level.txt,sha256=1BJ30irPMh9EHft8nozCoIoSDBEtO-K8nKJF-eEFqp0,9
+pyttygif-0.2.3.dist-info/RECORD,,
