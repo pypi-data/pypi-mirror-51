@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: point-annotator
+Version: 1.0.0
+Summary: Package for annotating the data with types (e.g. cell types).
+Home-page: http://biolab.si/
+Author: Bioinformatics Laboratory, FRI UL
+Author-email: contact@orange.biolab.si
+Maintainer: Primoz Godec
+License: GPL3+
+Project-URL: Bug Tracker, https://github.com/biolab/point-annotator/issues
+Project-URL: Documentation, https://point-annotator.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/biolab/point-annotator/
+Description: # point-annotator
+        
+        This package provides functionalities to annotate data with labels based on the 
+        Mann-Whitney U test and Hypergeometric test. Currently, we provide examples of 
+        the fast annotation of gene expression data with the cell types based on marker 
+        genes.
+        
+        ## Installation
+        
+        The package is available at PIP and is installed with
+        
+            pip install point-annotator
+        
+        ## Build the documentation
+        
+        For building the documentation one needs to have sphinx python package 
+        installed.
+        
+            cd docs
+            make hmtl
+            
+        After build the documentation is available in the _build directory.
+        
+Keywords: annotator,annotation,points,data
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: doc
