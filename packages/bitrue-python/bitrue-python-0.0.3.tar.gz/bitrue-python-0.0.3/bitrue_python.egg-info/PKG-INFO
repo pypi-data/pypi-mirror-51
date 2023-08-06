@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bitrue-python
+Version: 0.0.3
+Summary: A python package to communicate with Bitrue API
+Home-page: https://github.com/snub-fighter/python-bitrue
+Author: Snub Fighter
+Author-email: my.snub.fighter@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: package development template
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
