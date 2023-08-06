@@ -1,0 +1,3 @@
+[console_scripts]
+run-lattice = ns_lattice.__main__:main
+
