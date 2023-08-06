@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: open3d-azure-kinect-ubuntu1604-fix
+Version: 0.2
+Summary: ['Quick fix for using Azure Kinect SDK with Open3D on Ubuntu 16.04']
+Home-page: https://github.com/yxlao/open3d_azure_kinect_ubuntu1604_fix
+Author: Open3D Team
+License: MIT
+Project-URL: Source code, https://github.com/yxlao/open3d_azure_kinect_ubuntu1604_fix
+Platform: UNKNOWN
+
+UNKNOWN
+
+
