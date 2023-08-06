@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+avapi/__init__.py
+avapi/data.py
+avapi.egg-info/PKG-INFO
+avapi.egg-info/SOURCES.txt
+avapi.egg-info/dependency_links.txt
+avapi.egg-info/requires.txt
+avapi.egg-info/top_level.txt
