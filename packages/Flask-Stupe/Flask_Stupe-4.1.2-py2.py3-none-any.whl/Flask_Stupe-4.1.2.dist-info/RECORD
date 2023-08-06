@@ -1,0 +1,17 @@
+flask_stupe/__init__.py,sha256=T7P67NR78LqU616LUe2V79zB119PJnswQ4EfAeReceE,563
+flask_stupe/app.py,sha256=6jyCTKWi1vdwbTEaDCvA2IWllyhn7fPUYI-0GXg93ik,2924
+flask_stupe/auth.py,sha256=UTeF4PBbpJ1Vt9qQoKK9ZTjZlN1kOmKGvtHsNK30PNs,2241
+flask_stupe/config.py,sha256=d_sE03WqISFxEia5WqO8G7-UvORXpfsqDiMJ7nOt8-Q,962
+flask_stupe/converters.py,sha256=W6pmbwAmrGgqa91Pplv8G4IiuLtGe_ttO4Ixn3cA9Ag,423
+flask_stupe/fields.py,sha256=JFooX1D40Pp7OHfZnsbg0BPuyAKiiv1U45h250DHbVg,7176
+flask_stupe/inputs.py,sha256=xZnu7yJWY8C2oM7NvVHDaBVKTR_7cPi-lNdVLbtcn-Y,1776
+flask_stupe/json.py,sha256=fTeHRv1hdWz9JZr-NKofb6nKPfiM75-4c0D2j-Th7sM,4216
+flask_stupe/logging.py,sha256=ow115aFDP8maBGIRJwNZy0yeVnnzyb7G2HlpxSUQV1Q,130
+flask_stupe/pagination.py,sha256=xtBJk4NERxb98URr9rEUZq6DhlcNzJ2f_6St-CgXZ4I,1841
+flask_stupe/request.py,sha256=y0HHFwdjIpijIUJG8Kk_LO9L6SrjSgRbTlU9R76kUVo,275
+flask_stupe/validation.py,sha256=Tbrk0Vrm1SZr6QlIQsmYByfvhV132qfv9hfVCMtDGG8,877
+Flask_Stupe-4.1.2.dist-info/LICENSE,sha256=1mqz2HrdS3CgW1daQFKIVcmtbghY0os_q0nLRO67VOc,1099
+Flask_Stupe-4.1.2.dist-info/METADATA,sha256=OfmbIRzXLLtIX0RiGv5hybBd3S-msvtiAXT_w5PJjxU,8276
+Flask_Stupe-4.1.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+Flask_Stupe-4.1.2.dist-info/top_level.txt,sha256=5c8S__ihhYXqVhffq5Ogqog28MP5vmdmaDJnPzkKUu0,12
+Flask_Stupe-4.1.2.dist-info/RECORD,,
