@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: onap-dcae-cli
+Version: 2.11.4
+Summary: DCAE component on-boarding utility
+Home-page: UNKNOWN
+Author: Michael Hwang, Paul Triantafyllou, Tommy Carpenter
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: python-consul (<1.0.0)
+Requires-Dist: six
+Requires-Dist: sqlalchemy
+Requires-Dist: SQLAlchemy-Utils
+Requires-Dist: click (<7.0,>=6.0)
+Requires-Dist: jsonschema
+Requires-Dist: terminaltables
+Requires-Dist: psycopg2 (==2.7.5)
+Requires-Dist: psycopg2-binary (==2.7.5)
+Requires-Dist: genson
+Requires-Dist: onap-dcae-discovery-client (>=2.0.0)
+Requires-Dist: onap-dcae-dockering (<2.0.0,>=1.4.1)
+
+UNKNOWN
+
+
