@@ -1,0 +1,11 @@
+importlib_metadata
+
+[package]
+pex
+twine
+wheel
+
+[test]
+pytest
+pytest-pycodestyle
+pytest-pylint
