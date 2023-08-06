@@ -1,0 +1,2 @@
+include reactopya_examples/dist/bundle.js
+recursive-include reactopya_examples/electron *
