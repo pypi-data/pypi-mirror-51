@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pysensorpush
+Version: 0.1.2
+Summary: Python interface for the SensorPush API
+Home-page: https://github.com/rsnodgrass/pysensorpush
+Author: Ryan Snodgrass
+Author-email: rsnodgrass@gmail.com
+License: Apache Software License
+Keywords: sensorpush,home automation,humidity,temperature
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests (>=2.0)
+
+UNKNOWN
+
+
