@@ -1,0 +1,17 @@
+odoo/addons/crm_sale_marketing/README.rst,sha256=40XtttAkolfgsyoq-L2Onm8XXZuzbJRRzi-LWCEjAIE,3298
+odoo/addons/crm_sale_marketing/__init__.py,sha256=IDAgTYGxyXVze4qvgVlencHk1h8lpHz9LRfCRzOSr3g,70
+odoo/addons/crm_sale_marketing/__manifest__.py,sha256=RRlUyVWoIhQGBUM9r0p3wW7IL8zd3B6iAIJndCttgl4,699
+odoo/addons/crm_sale_marketing/i18n/crm_sale_marketing.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/crm_sale_marketing/i18n/de.po,sha256=5ZLLglx4o9LMbLlzs0lUNcjlIngUUGYMBBgexUSYcs0,411
+odoo/addons/crm_sale_marketing/readme/CONFIGURE.rst,sha256=Te9koq7PubvQw82_6NL1aZJ_N2Oln3JGc7A3ney0UAI,82
+odoo/addons/crm_sale_marketing/readme/CONTRIBUTORS.rst,sha256=0Lx1kHlc6TLaRpPGzlC98lr5zP76Nkzsyyf67sS8lUs,137
+odoo/addons/crm_sale_marketing/readme/DESCRIPTION.rst,sha256=AcuHZZ40DWJbqfmcavFFAr_6v2qWS3i9bCElY407Rx0,178
+odoo/addons/crm_sale_marketing/readme/INSTALL.rst,sha256=TFD5IpKUds-c3yMyIU9b4muZj3FeS9FT1oQHyNyQmDM,91
+odoo/addons/crm_sale_marketing/readme/USAGE.rst,sha256=JA4pX3pjxaj9mEEvgPiwKh_drV-87uSUSudwL-RDFBs,195
+odoo/addons/crm_sale_marketing/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/crm_sale_marketing/static/description/index.html,sha256=2wGAwWI1c5npe_bVDXSusQWLrfXLHDchDUloYATmjTk,13094
+odoo/addons/crm_sale_marketing/views/crm_sale_marketing.xml,sha256=m-rM5hoJj3kYIeo6MGy0Xl4ta7zrx48c5SVdP_aHRTU,1001
+odoo12_addon_crm_sale_marketing-12.0.1.0.0.99.dev2.dist-info/METADATA,sha256=450ZqzsIk7y7AZVswztMK0weaDe6QEGNQYAKqy8wFjk,3878
+odoo12_addon_crm_sale_marketing-12.0.1.0.0.99.dev2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+odoo12_addon_crm_sale_marketing-12.0.1.0.0.99.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_crm_sale_marketing-12.0.1.0.0.99.dev2.dist-info/RECORD,,
