@@ -1,0 +1,8 @@
+README.md
+blkmenu
+blkmenu.1
+setup.py
+blkmenu.egg-info/PKG-INFO
+blkmenu.egg-info/SOURCES.txt
+blkmenu.egg-info/dependency_links.txt
+blkmenu.egg-info/top_level.txt
