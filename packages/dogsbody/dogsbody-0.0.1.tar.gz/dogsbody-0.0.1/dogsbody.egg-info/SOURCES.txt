@@ -1,0 +1,12 @@
+README.rst
+setup.py
+dogsbody/__init__.py
+dogsbody/cli.py
+dogsbody/cls.py
+dogsbody.egg-info/PKG-INFO
+dogsbody.egg-info/SOURCES.txt
+dogsbody.egg-info/dependency_links.txt
+dogsbody.egg-info/entry_points.txt
+dogsbody.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cls_unzipper.py
