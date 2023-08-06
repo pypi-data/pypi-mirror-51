@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: cassandra-backups-ek
+Version: 0.1
+Summary: cassandra_backups is a tool to backup a Cassandra cluster to Amazon S3.
+Home-page: https://github.com/eliran-lusha/cassandra_backups_ek
+Maintainer: Eliran Kimaigarov
+Maintainer-email: eliran@lusha.co
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: cassandra,AWS,S3,backup
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
