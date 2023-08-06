@@ -1,0 +1,12 @@
+{% if SHOW_SIDENAV %}
+<ul id="nav-sidenav" class="sidenav{% if FIXED_SIDENAV %} sidenav-fixed{% endif %}">
+  {% if title %}
+  <li><h4 class="center">{{ site_name }}</h4></li>
+  <li><div class="divider"></div></li>
+  {% endif %}
+
+  {% block sidenav_items %}
+    {% include "materialize_nav/sidenav_items.html" %}
+  {% endblock %}
+</ul>
+{% endif %}

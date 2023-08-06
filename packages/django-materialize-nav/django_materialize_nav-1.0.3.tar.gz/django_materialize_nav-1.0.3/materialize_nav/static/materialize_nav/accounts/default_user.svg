@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="default_user.svg"
+   inkscape:export-filename="C:\Repos\django-dev\django_materialize_nav\materialize_nav\static\materialize_nav\accounts\default_user.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath887">
+      <ellipse
+         style="fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:0.69536424"
+         id="ellipse889"
+         cx="32.577419"
+         cy="329.58334"
+         rx="26.516504"
+         ry="28.448172" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="56.683858"
+     inkscape:cy="59.855857"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-280.06665)"
+     style="display:inline">
+    <g
+       id="g967"
+       style="fill:#646464;fill-opacity:1;stroke:none;stroke-opacity:1">
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path823-2"
+         d="m 44.766766,298.85873 c 2e-6,7.95766 -5.784928,17.51603 -12.835819,17.51603 -7.050892,0 -12.697714,-9.55837 -12.697712,-17.51603 2e-6,-7.95766 5.715877,-14.40861 12.766765,-14.40861 7.050888,0 12.766764,6.45095 12.766766,14.40861 z"
+         style="fill:#646464;fill-opacity:1;stroke:none;stroke-width:0.95092005;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path963"
+         d="m 6.9358324,343.56265 c 1.0475596,-10.84322 0.6195597,-24.57263 10.9953596,-29.496 14.005192,12.90925 20.788699,5.51598 27.798838,0 12.602826,8.39359 10.534827,20.41389 11.338568,29.496 z"
+         style="fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
