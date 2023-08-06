@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ValBot
+Version: 0.0.1
+Summary: Validation Framework
+Home-page: http://gitlab.pclm.altair.com/pbsworks-validation/pbsworks-validation
+Author: Deepali G
+Author-email: dgathibandhe@altair.com
+License: UNKNOWN
+Description: 
+        # This is a validation framework that validates data based on schema/rules provided. 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

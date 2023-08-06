@@ -1,0 +1,6 @@
+README.md
+setup.py
+ValBot.egg-info/PKG-INFO
+ValBot.egg-info/SOURCES.txt
+ValBot.egg-info/dependency_links.txt
+ValBot.egg-info/top_level.txt
