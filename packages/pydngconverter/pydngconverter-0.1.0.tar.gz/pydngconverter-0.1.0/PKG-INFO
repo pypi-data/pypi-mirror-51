@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pydngconverter
+Version: 0.1.0
+Summary: Python Interface for Adobe DNG Converter
+Home-page: https://github.com/BradenM/pydngconverter
+Author: Braden Mars
+License: MIT
+Description: 
+        # PyDNGConverter
+        
+        Python Interface for the Adobe's DNG Converter
+        
+        > This project is very early on in development. It currently only supports .CR2 files.
+        >
+        > More documentation will come soon.
+        
+        
+        ## Installation
+        
+        ```sh
+        pip install -U pydngconverter
+        ```
+        
+        ## Example
+        
+        ```python
+        from pydngconverter import DNGConverter, JPEGPreview
+        
+        # Create Instance
+        pydng = DNGConverter('/my/raw/files/',
+                            dest='/dngfiles',
+                            jpeg_preview=JPEGPreview.FULL,
+                            fast_load=True,
+                            multiprocess=True
+                            )
+        
+        # Convert all raw images
+        pydng.convert()
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
