@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: timemap
+Version: 0.1.0
+Summary: Location history parser and analyzer.
+Home-page: https://github.com/pfigs/location-history
+Author: Pedro Silva
+Author-email: noreply@pfgis.com
+License: MIT
+Description: # Timemap
+        
+        > repository under renovation
+        
+        A python package to deal with location history files, such
+        as GMAPS takeout json.
+        
+        The main motivation behind this package is to allow simple analytics
+        based on where you have been, for example, how long did you spend
+        at the office over January?
+        
+        
+        Supported providers:
+        * Google - takeout's json
+        
+        
+        ## Settings
+        
+        You can customize the runtime parameters through a configuration file
+        or command line parameters (requires extension).
+        
+        
+        # Configuration File
+        The configuration consist of a yaml file. All the items in it, will be
+        exposed as settings to your script.
+        
+        
+        ``` yaml
+        filepath: ./.history.json
+        start: 2019-03-01
+        end: 2019-03-31
+        
+        radius: 200 # in meters
+        latitude: 44.434 # in decimal format
+        longitude: 22.213 # in decimal format
+        ```
+        
+        
+        # Contributing
+        Feel free to send me your pull requests
+        
+        
+        
+Keywords: maps location time tracking
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
