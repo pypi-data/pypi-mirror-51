@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pytest-kind
+Version: 0.1.0
+Summary: Kubernetes test support with KIND for pytest
+Home-page: https://codeberg.org/hjacobs/pytest-kind
+License: GPL-3.0+
+Author: Henning Jacobs
+Author-email: henning@jacobs1.de
+Requires-Python: >=3.7,<4.0
+Classifier: Framework :: Pytest
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pykube-ng (>=0.30.0,<0.31.0)
+Project-URL: Repository, https://codeberg.org/hjacobs/pytest-kind
+Description-Content-Type: text/markdown
+
+# pytest-kind
+
+Test your Python Kubernetes app/operator end-to-end with [kind](https://kind.sigs.k8s.io/).
+
