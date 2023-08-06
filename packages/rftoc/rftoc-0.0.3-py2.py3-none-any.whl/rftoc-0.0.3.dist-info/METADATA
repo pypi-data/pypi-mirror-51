@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: rftoc
+Version: 0.0.3
+Summary: Table of content generator of markdown slides
+Home-page: https://github.com/vahtras/rftoc
+License: UNKNOWN
+Author: OV
+Author-email: olav@vahtras.se
+Classifier: License :: OSI Approved :: MIT License
