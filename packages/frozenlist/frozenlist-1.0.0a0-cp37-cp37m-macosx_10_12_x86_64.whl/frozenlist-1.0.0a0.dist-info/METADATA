@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: frozenlist
+Version: 1.0.0a0
+Summary: A list-like structure which implements collections.abc.MutableSequence
+Home-page: https://github.com/aio-libs/frozenlist
+Author: Nikolay Kim
+Author-email: fafhrd91@gmail.com
+Maintainer: Martijn Pieters <mj@zopatista.com>
+Maintainer-email: aio-libs@googlegroups.com
+License: Apache 2
+Project-URL: Chat: Gitter, https://gitter.im/aio-libs/Lobby
+Project-URL: CI: AppVeyor, https://ci.appveyor.com/project/aio-libs/frozenlist
+Project-URL: CI: Circle, https://circleci.com/gh/aio-libs/frozenlist
+Project-URL: CI: Shippable, https://app.shippable.com/github/aio-libs/frozenlist
+Project-URL: CI: Travis, https://travis-ci.com/aio-libs/frozenlist
+Project-URL: Coverage: codecov, https://codecov.io/github/aio-libs/frozenlist
+Project-URL: Docs: RTD, https://frozenlist.readthedocs.io
+Project-URL: GitHub: issues, https://github.com/aio-libs/frozenlist/issues
+Project-URL: GitHub: repo, https://github.com/aio-libs/frozenlist
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.5.3
+Description-Content-Type: text/x-rst
+
+==========
+frozenlist
+==========
+
+.. image:: https://travis-ci.com/aio-libs/frozenlist.svg?branch=master
+   :target: https://travis-ci.com/aio-libs/frozenlist
+   :alt: Travis status for master branch
+
+.. image:: https://ci.appveyor.com/api/projects/status/tnddy9k6pphl8w7k/branch/master?svg=true
+   :target: https://ci.appveyor.com/project/aio-libs/frozenlist
+   :alt: AppVeyor status for master branch
+
+.. image:: https://codecov.io/gh/aio-libs/frozenlist/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/aio-libs/frozenlist
+   :alt: codecov.io status for master branch
+
+.. image:: https://badge.fury.io/py/frozenlist.svg
+   :target: https://pypi.org/project/frozenlist
+   :alt: Latest PyPI package version
+
+.. image:: https://readthedocs.org/projects/frozenlist/badge/?version=latest
+   :target: https://frozenlist.readthedocs.io/
+   :alt: Latest Read The Docs
+
+.. image:: https://badges.gitter.im/Join%20Chat.svg
+   :target: https://gitter.im/aio-libs/Lobby
+   :alt: Chat on Gitter
+
+Introduction
+------------
+
+``frozenlist.FrozenList`` is a list-like structure which implements
+``collections.abc.MutableSequence``. The list is *mutable* until ``FrozenList.freeze``
+is called, after which list modifications raise ``RuntimeError``:
+
+
+>>> from frozenlist import FrozenList
+>>> fl = FrozenList([17, 42])
+>>> fl
+<FrozenList(frozen=False, [17, 42, 'spam', 'Vikings'])>
+>>> fl.freeze()
+>>> fl
+<FrozenList(frozen=True, [17, 42, 'spam', 'Vikings'])>
+>>> fl.frozen
+True
+>>> fl.append("Monty")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "frozenlist/_frozenlist.pyx", line 97, in frozenlist._frozenlist.FrozenList.append
+    self._check_frozen()
+  File "frozenlist/_frozenlist.pyx", line 19, in frozenlist._frozenlist.FrozenList._check_frozen
+    raise RuntimeError("Cannot modify frozen list.")
+RuntimeError: Cannot modify frozen list.
+
+
+Installation
+------------
+
+::
+
+   $ pip install frozenlist
+
+The library requires Python 3.5.3 or newer.
+
+
+Documentation
+=============
+
+https://frozenlist.readthedocs.io/
+
+Communication channels
+======================
+
+*aio-libs* google group: https://groups.google.com/forum/#!forum/aio-libs
+
+Feel free to post your questions and ideas here.
+
+*gitter chat* https://gitter.im/aio-libs/Lobby
+
+Requirements
+============
+
+- Python >= 3.5.3
+
+License
+=======
+
+``frozenlist`` is offered under the Apache 2 license.
+
+Source code
+===========
+
+The project is hosted on GitHub_
+
+Please file an issue in the `bug tracker
+<https://github.com/aio-libs/frozenlist/issues>`_ if you have found a bug
+or have some suggestions to improve the library.
+
+.. _GitHub: https://github.com/aio-libs/frozenlist
+
+=========
+Changelog
+=========
+
+..
+    You should *NOT* be adding new change log entries to this file, this
+    file is managed by towncrier. You *may* edit previous change logs to
+    fix problems like typo corrections or such.
+    To add a new change log entry, please see
+    https://pip.pypa.io/en/latest/development/#adding-a-news-entry
+    we named the news folder "changes".
+
+    WARNING: Don't drop the next directive!
+
+.. towncrier release notes start
+
