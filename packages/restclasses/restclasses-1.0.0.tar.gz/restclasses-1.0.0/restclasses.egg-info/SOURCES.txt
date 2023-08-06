@@ -1,0 +1,9 @@
+README.md
+setup.py
+restclasses/__init__.py
+restclasses.egg-info/PKG-INFO
+restclasses.egg-info/SOURCES.txt
+restclasses.egg-info/dependency_links.txt
+restclasses.egg-info/requires.txt
+restclasses.egg-info/top_level.txt
+restclasses.egg-info/zip-safe
