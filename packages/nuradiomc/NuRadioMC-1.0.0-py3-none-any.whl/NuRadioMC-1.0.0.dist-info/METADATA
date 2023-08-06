@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: NuRadioMC
+Version: 1.0.0
+Summary: NuRadioMC: Simulating the radio emission of neutrinos from interaction to detector
+Home-page: https://github.com/nu-radio/NuRadioMC
+License: UNKNOWN
+Author: Christian Glaser
+Author-email: work@c-glaser.de
+Requires-Python: >3.4
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: radiotools >=0.2.0
+Requires-Dist: h5py
+Requires-Dist: NuRadioReco >=1.0.0
+Requires-Dist: pyyaml
+Requires-Dist: cython
