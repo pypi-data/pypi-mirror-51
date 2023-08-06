@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: fastcat
+Version: 0.1.2
+Summary: Navigate Wikipedia categories quickly in a local redis instance
+Home-page: https://github.com/oskar-j/fastcat
+Author: Ed Summers
+Author-email: ehs@pobox.com
+Maintainer: Oskar Jarczyk
+Maintainer-email: oskar.jarczyk@gmail.com
+License: CC BY-SA 3.0
+Download-URL: https://github.com/oskar-j/fastcat/archive/v_01_2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

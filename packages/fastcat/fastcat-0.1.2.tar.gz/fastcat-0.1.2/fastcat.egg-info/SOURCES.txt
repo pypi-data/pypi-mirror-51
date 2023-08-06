@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+fastcat/__init__.py
+fastcat/lang.py
+fastcat/store.py
+fastcat/utils.py
+fastcat.egg-info/PKG-INFO
+fastcat.egg-info/SOURCES.txt
+fastcat.egg-info/dependency_links.txt
+fastcat.egg-info/requires.txt
+fastcat.egg-info/top_level.txt
