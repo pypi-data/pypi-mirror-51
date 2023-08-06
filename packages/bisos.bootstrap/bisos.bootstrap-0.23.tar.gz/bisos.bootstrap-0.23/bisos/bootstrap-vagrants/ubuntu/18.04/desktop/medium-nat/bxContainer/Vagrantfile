@@ -1,0 +1,75 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.define "ubuntu-18.04-desktop-medium-nat-bxContainer-38" do |guest|
+    guest.vm.box = "peru/ubuntu-18.04-desktop-amd64"
+    guest.vm.hostname = "ubuntu-18.04-desktop-medium-nat-bxContainer-38"
+    guest.vm.provider :virtualbox do |vb|
+      vb.memory = "1024"		  
+    end
+
+    ## SHELL PROVISIONING
+    guest.vm.provision "shell", inline: <<-_EOF_MainRootShell_
+      cat  << _EOF_
+ ######### PHASE 0: Parameters Specification
+_EOF_
+      genesisUserName=$(id -u -n)
+      genesisUserGroup=$(id -g -n)
+      genesisUserPasswd=vagrant
+      bashPath=$(which bash)
+      bxBootstrapBase="/var/bxBootstrap"
+      
+      genesisGitRepoCloneCmnd="git clone https://github.com/bxGenesis/provisioners.git"
+      genesisGitRepoEntryCmnd="./provisioners/bin/bashIcmExample.sh -i examples"
+
+      cat  << _EOF_
+ ######### PAHSE 1: Updating And Installing Distro Pkgs 
+_EOF_
+
+      set -x
+      
+      sudo apt-get update
+      sudo apt-get -y install git      
+
+      sudo mkdir -p $bxBootstrapBase
+      sudo chown $genesisUserName:$genesisUserGroup $bxBootstrapBase
+
+      cat  << _EOF_
+ ######### PHASE 2: Bring Over genesisClone -- Running As $genesisUserName
+_EOF_
+
+      id
+
+      sudo -u $genesisUserName id
+      sudo -u $genesisUserName git init
+
+
+      sudo -u $genesisUserName mkdir -p $bxBootstrapBase/gitRepos
+      
+      ls -ld $bxBootstrapBase/gitRepos
+
+      sudo -u $genesisUserName -- sh -c  "cd $bxBootstrapBase/gitRepos; $genesisGitRepoCloneCmnd"
+
+      sudo -u $genesisUserName -- sh -c  "cd $bxBootstrapBase/gitRepos; $genesisGitRepoEntryCmnd"
+
+      sudo apt-get -y install python-minimal
+      
+      sudo -H pip install --no-cache-dir --upgrade pip
+      sudo -H pip install --no-cache-dir --upgrade virtualenv
+      sudo -H pip install --no-cache-dir --upgrade bisos.bx-bases
+
+      sudo -H pip list
+
+      
+      cat  << _EOF_
+ ######### PHASE 3: Cleanup and Shutdown  -- Running As Root
+_EOF_
+      
+      #shutdown now
+      #exit 0
+
+_EOF_MainRootShell_
+  end
+end
+

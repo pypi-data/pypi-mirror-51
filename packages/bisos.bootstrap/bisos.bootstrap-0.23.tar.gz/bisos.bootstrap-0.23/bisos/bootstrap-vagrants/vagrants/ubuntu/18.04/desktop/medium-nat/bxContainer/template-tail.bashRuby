@@ -1,0 +1,7 @@
+      
+      shutdown now
+      exit 0
+
+_EOF_MainRootShell_
+  end
+end
