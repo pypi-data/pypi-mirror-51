@@ -1,0 +1,6 @@
+setup.py
+cfe-py/server.py
+cfe_py.egg-info/PKG-INFO
+cfe_py.egg-info/SOURCES.txt
+cfe_py.egg-info/dependency_links.txt
+cfe_py.egg-info/top_level.txt
