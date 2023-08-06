@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: intercessions
+Version: 1.1.6
+Summary: A blessings polyfill for the windows command line
+Home-page: https://github.com/Eeems/intercessions
+Author: Nathaniel van Diepen
+Author-email: eeems13@gmail.com
+License: MIT
+Keywords: terminal tty curses ncurses formatting style color console blessings blessed
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Terminals
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Requires-Dist: colorama
+Provides-Extra: dev
+Requires-Dist: pipreqs ; extra == 'dev'
+Provides-Extra: optional
+Requires-Dist: blessings ; extra == 'optional'
+
+[![Known Vulnerabilities](https://snyk.io/test/github/eeems/intercessions/badge.svg)](https://snyk.io/test/github/eeems/intercessions)[![Requirements Status](https://requires.io/github/Eeems/intercessions/requirements.svg?branch=master)](https://requires.io/github/Eeems/intercessions/requirements/?branch=master)
+
+# Intercessions
+
+A blessings polyfill for the windows command line
+
+Attempts to implement the full [blessings](https://pypi.python.org/pypi/blessings/) API in a format that will work on windows. Makes use of [colorama](https://pypi.python.org/pypi/colorama) to help with styling.
+
+# Installation
+``pip install intercessions``
+
+# Usage
+```python
+from intercessions import Terminal
+
+t = Terminal()
+with t.location(0,0), t.hidden_cursor():
+    print(t.bold_red('Hello World!') + t.clear_eol)
+    raw_input('Press Enter' + t.clear_eol)
+
+```
+
+If [blessings](https://pypi.python.org/pypi/blessings/) is installed and you are not running the windows version of python it will attempt to return the [blessings](https://pypi.python.org/pypi/blessings/) instance of Terminal instead of the intercessions one.
+
+
