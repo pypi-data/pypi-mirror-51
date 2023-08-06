@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: project-report
+Version: 0.1.0
+Summary: Find software projects, analyze them, and output a report.
+Home-page: https://github.com/whoopnip/project-report/
+Author: Nick DeRobertis
+Author-email: whoopnip@gmail.com
+License: MIT
+Project-URL: Code, https://github.com/whoopnip/project-report/
+Project-URL: Documentation, https://whoopnip.github.io/project-report/
+Description: 
+        A set of tools for describing software projects. Finds software projects, analyzes them,
+        and outputs reports. 
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
