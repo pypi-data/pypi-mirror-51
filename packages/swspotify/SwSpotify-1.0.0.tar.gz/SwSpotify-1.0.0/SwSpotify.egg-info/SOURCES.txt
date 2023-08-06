@@ -1,0 +1,9 @@
+README.md
+setup.py
+SwSpotify/__init__.py
+SwSpotify/spotify.py
+SwSpotify.egg-info/PKG-INFO
+SwSpotify.egg-info/SOURCES.txt
+SwSpotify.egg-info/dependency_links.txt
+SwSpotify.egg-info/requires.txt
+SwSpotify.egg-info/top_level.txt
