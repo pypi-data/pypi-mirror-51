@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+sumologic_slack.egg-info/PKG-INFO
+sumologic_slack.egg-info/SOURCES.txt
+sumologic_slack.egg-info/dependency_links.txt
+sumologic_slack.egg-info/entry_points.txt
+sumologic_slack.egg-info/requires.txt
+sumologic_slack.egg-info/top_level.txt
+sumologic_slack.egg-info/zip-safe
+sumoslack/__init__.py
+sumoslack/api.py
+sumoslack/main.py
+sumoslack/slackcollector.yaml
