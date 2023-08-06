@@ -1,0 +1,1206 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>bootstrap4.templatetags.bootstrap4 &mdash; django-bootstrap4 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> django-bootstrap4
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quickstart.html">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../migrate.html">Migration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../templatetags.html">Template tags and filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../settings.html">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../templates.html">Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../widgets.html">Widgets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../history.html">History</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">django-bootstrap4</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>bootstrap4.templatetags.bootstrap4</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for bootstrap4.templatetags.bootstrap4</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">floor</span>
+<span class="kn">from</span> <span class="nn">urllib.parse</span> <span class="k">import</span> <span class="n">parse_qs</span><span class="p">,</span> <span class="n">urlparse</span><span class="p">,</span> <span class="n">urlunparse</span>
+
+<span class="kn">from</span> <span class="nn">django</span> <span class="k">import</span> <span class="n">template</span>
+<span class="kn">from</span> <span class="nn">django.contrib.messages</span> <span class="k">import</span> <span class="n">constants</span> <span class="k">as</span> <span class="n">message_constants</span>
+<span class="kn">from</span> <span class="nn">django.template</span> <span class="k">import</span> <span class="n">Context</span>
+<span class="kn">from</span> <span class="nn">django.utils.http</span> <span class="k">import</span> <span class="n">urlencode</span>
+<span class="kn">from</span> <span class="nn">django.utils.safestring</span> <span class="k">import</span> <span class="n">mark_safe</span>
+
+<span class="kn">from</span> <span class="nn">..bootstrap</span> <span class="k">import</span> <span class="p">(</span>
+    <span class="n">css_url</span><span class="p">,</span>
+    <span class="n">get_bootstrap_setting</span><span class="p">,</span>
+    <span class="n">javascript_url</span><span class="p">,</span>
+    <span class="n">jquery_slim_url</span><span class="p">,</span>
+    <span class="n">jquery_url</span><span class="p">,</span>
+    <span class="n">popper_url</span><span class="p">,</span>
+    <span class="n">theme_url</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">..components</span> <span class="k">import</span> <span class="n">render_alert</span>
+<span class="kn">from</span> <span class="nn">..forms</span> <span class="k">import</span> <span class="p">(</span>
+    <span class="n">render_button</span><span class="p">,</span>
+    <span class="n">render_field</span><span class="p">,</span>
+    <span class="n">render_field_and_label</span><span class="p">,</span>
+    <span class="n">render_form</span><span class="p">,</span>
+    <span class="n">render_form_errors</span><span class="p">,</span>
+    <span class="n">render_form_group</span><span class="p">,</span>
+    <span class="n">render_formset</span><span class="p">,</span>
+    <span class="n">render_formset_errors</span><span class="p">,</span>
+    <span class="n">render_label</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">..utils</span> <span class="k">import</span> <span class="p">(</span>
+    <span class="n">handle_var</span><span class="p">,</span>
+    <span class="n">parse_token_contents</span><span class="p">,</span>
+    <span class="n">render_link_tag</span><span class="p">,</span>
+    <span class="n">render_script_tag</span><span class="p">,</span>
+    <span class="n">render_tag</span><span class="p">,</span>
+    <span class="n">render_template_file</span><span class="p">,</span>
+    <span class="n">url_replace_param</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">MESSAGE_LEVEL_CLASSES</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="n">message_constants</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">:</span> <span class="s2">&quot;alert alert-warning&quot;</span><span class="p">,</span>
+    <span class="n">message_constants</span><span class="o">.</span><span class="n">INFO</span><span class="p">:</span> <span class="s2">&quot;alert alert-info&quot;</span><span class="p">,</span>
+    <span class="n">message_constants</span><span class="o">.</span><span class="n">SUCCESS</span><span class="p">:</span> <span class="s2">&quot;alert alert-success&quot;</span><span class="p">,</span>
+    <span class="n">message_constants</span><span class="o">.</span><span class="n">WARNING</span><span class="p">:</span> <span class="s2">&quot;alert alert-warning&quot;</span><span class="p">,</span>
+    <span class="n">message_constants</span><span class="o">.</span><span class="n">ERROR</span><span class="p">:</span> <span class="s2">&quot;alert alert-danger&quot;</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">register</span> <span class="o">=</span> <span class="n">template</span><span class="o">.</span><span class="n">Library</span><span class="p">()</span>
+
+
+<span class="nd">@register</span><span class="o">.</span><span class="n">filter</span>
+<span class="k">def</span> <span class="nf">bootstrap_setting</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Get a setting.</span>
+
+<span class="sd">    A simple way to read bootstrap settings in a template.</span>
+<span class="sd">    Please consider this filter private for now, do not use it in your own templates.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">get_bootstrap_setting</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+
+
+<span class="nd">@register</span><span class="o">.</span><span class="n">filter</span>
+<span class="k">def</span> <span class="nf">bootstrap_message_classes</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return the message classes for a message.&quot;&quot;&quot;</span>
+    <span class="n">extra_tags</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">extra_tags</span> <span class="o">=</span> <span class="n">message</span><span class="o">.</span><span class="n">extra_tags</span>
+    <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+        <span class="k">pass</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">extra_tags</span><span class="p">:</span>
+        <span class="n">extra_tags</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="n">classes</span> <span class="o">=</span> <span class="p">[</span><span class="n">extra_tags</span><span class="p">]</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="n">message</span><span class="o">.</span><span class="n">level</span>
+    <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+        <span class="k">pass</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">MESSAGE_LEVEL_CLASSES</span><span class="p">[</span><span class="n">level</span><span class="p">])</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="n">classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;alert alert-danger&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">classes</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+
+
+<div class="viewcode-block" id="bootstrap_jquery_url"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_jquery_url">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_jquery_url</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return url to full version of jQuery.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_jquery_url</span>
+
+<span class="sd">    Return the full url to jQuery plugin to use</span>
+
+<span class="sd">    Default value: ``https://code.jquery.com/jquery-3.2.1.min.js``</span>
+
+<span class="sd">    This value is configurable, see Settings section</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_jquery_url %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_jquery_url %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">jquery_url</span><span class="p">()</span></div>
+
+
+<span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_jquery_slim_url</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return url to slim version of jQuery.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_jquery_slim_url</span>
+
+<span class="sd">    Return the full url to slim jQuery plugin to use</span>
+
+<span class="sd">    Default value: ``https://code.jquery.com/jquery-3.2.1.slim.min.js``</span>
+
+<span class="sd">    This value is configurable, see Settings section</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_jquery_slim_url %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_jquery_slim_url %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">jquery_slim_url</span><span class="p">()</span>
+
+
+<span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_popper_url</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return the full url to the Popper plugin to use.</span>
+
+<span class="sd">    Default value: ``None``</span>
+
+<span class="sd">    This value is configurable, see Settings section</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_popper_url</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_popper_url %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_popper_url %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">popper_url</span><span class="p">()</span>
+
+
+<div class="viewcode-block" id="bootstrap_javascript_url"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_javascript_url">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_javascript_url</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return the full url to the Bootstrap JavaScript library.</span>
+
+<span class="sd">    Default value: ``None``</span>
+
+<span class="sd">    This value is configurable, see Settings section</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_javascript_url</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_javascript_url %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_javascript_url %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">javascript_url</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_css_url"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_css_url">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_css_url</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return the full url to the Bootstrap CSS library.</span>
+
+<span class="sd">    Default value: ``None``</span>
+
+<span class="sd">    This value is configurable, see Settings section</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_css_url</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_css_url %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_css_url %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">css_url</span><span class="p">()</span></div>
+
+
+<span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_theme_url</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return the full url to a Bootstrap theme CSS library.</span>
+
+<span class="sd">    Default value: ``None``</span>
+
+<span class="sd">    This value is configurable, see Settings section</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_theme_url</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_theme_url %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_theme_url %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">theme_url</span><span class="p">()</span>
+
+
+<div class="viewcode-block" id="bootstrap_css"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_css">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_css</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return HTML for Bootstrap CSS. Adjust url in settings. If no url is returned, we don&#39;t want this statement to return any HTML. This is intended behavior.</span>
+
+<span class="sd">    Default value: ``None``</span>
+
+<span class="sd">    This value is configurable, see Settings section</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_css</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_css %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_css %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">rendered_urls</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">bootstrap_css_url</span><span class="p">():</span>
+        <span class="n">rendered_urls</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">render_link_tag</span><span class="p">(</span><span class="n">bootstrap_css_url</span><span class="p">()))</span>
+    <span class="k">if</span> <span class="n">bootstrap_theme_url</span><span class="p">():</span>
+        <span class="n">rendered_urls</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">render_link_tag</span><span class="p">(</span><span class="n">bootstrap_theme_url</span><span class="p">()))</span>
+    <span class="k">return</span> <span class="n">mark_safe</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">url</span> <span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="n">rendered_urls</span><span class="p">]))</span></div>
+
+
+<span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_jquery</span><span class="p">(</span><span class="n">jquery</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return HTML for jQuery tag.</span>
+
+<span class="sd">    Adjust the url dict in settings.</span>
+<span class="sd">    If no url is returned, we don&#39;t want this statement to return any HTML. This is intended behavior.</span>
+
+<span class="sd">    This value is configurable, see Settings section. Note that any value that evaluates to True and is</span>
+<span class="sd">    not &quot;slim&quot; will be interpreted as True.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_jquery</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        :jquery: False|&quot;slim&quot;|True (default=True)</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_jquery %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_jquery jquery=&#39;slim&#39; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">jquery</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">elif</span> <span class="n">jquery</span> <span class="o">==</span> <span class="s2">&quot;slim&quot;</span><span class="p">:</span>
+        <span class="n">jquery</span> <span class="o">=</span> <span class="n">get_bootstrap_setting</span><span class="p">(</span><span class="s2">&quot;jquery_slim_url&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">jquery</span> <span class="o">=</span> <span class="n">get_bootstrap_setting</span><span class="p">(</span><span class="s2">&quot;jquery_url&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">jquery</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="n">jquery</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">src</span><span class="o">=</span><span class="n">jquery</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">jquery</span> <span class="o">=</span> <span class="n">jquery</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+        <span class="n">jquery</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s2">&quot;src&quot;</span><span class="p">,</span> <span class="n">jquery</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;url&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">render_tag</span><span class="p">(</span><span class="s2">&quot;script&quot;</span><span class="p">,</span> <span class="n">attrs</span><span class="o">=</span><span class="n">jquery</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="bootstrap_javascript"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_javascript">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_javascript</span><span class="p">(</span><span class="n">jquery</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return HTML for Bootstrap JavaScript.</span>
+
+<span class="sd">    Adjust url in settings.</span>
+<span class="sd">    If no url is returned, we don&#39;t want this statement to return any HTML. This is intended behavior.</span>
+
+<span class="sd">    Default value: False</span>
+
+<span class="sd">    This value is configurable, see Settings section. Note that any value that evaluates to True and is</span>
+<span class="sd">    not &quot;slim&quot; will be interpreted as True.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_javascript</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        :jquery: False|&quot;slim&quot;|True (default=False)</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_javascript %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_javascript jquery=&quot;slim&quot; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># List of JS tags to include</span>
+    <span class="n">javascript_tags</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Get jquery value from setting or leave default.</span>
+    <span class="n">jquery</span> <span class="o">=</span> <span class="n">jquery</span> <span class="ow">or</span> <span class="n">get_bootstrap_setting</span><span class="p">(</span><span class="s2">&quot;include_jquery&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+
+    <span class="c1"># Include jQuery if the option is passed</span>
+    <span class="k">if</span> <span class="n">jquery</span><span class="p">:</span>
+        <span class="n">javascript_tags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">bootstrap_jquery</span><span class="p">(</span><span class="n">jquery</span><span class="o">=</span><span class="n">jquery</span><span class="p">))</span>
+
+    <span class="c1"># Popper.js library</span>
+    <span class="n">popper_url</span> <span class="o">=</span> <span class="n">bootstrap_popper_url</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">popper_url</span><span class="p">:</span>
+        <span class="n">javascript_tags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">render_script_tag</span><span class="p">(</span><span class="n">popper_url</span><span class="p">))</span>
+
+    <span class="c1"># Bootstrap 4 JavaScript</span>
+    <span class="n">bootstrap_js_url</span> <span class="o">=</span> <span class="n">bootstrap_javascript_url</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">bootstrap_js_url</span><span class="p">:</span>
+        <span class="n">javascript_tags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">render_script_tag</span><span class="p">(</span><span class="n">bootstrap_js_url</span><span class="p">))</span>
+
+    <span class="c1"># Join and return</span>
+    <span class="k">return</span> <span class="n">mark_safe</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">javascript_tags</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_formset"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_formset">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_formset</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render a formset.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_formset</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        formset</span>
+<span class="sd">            The formset that is being rendered</span>
+
+
+<span class="sd">        See bootstrap_field_ for other arguments</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_formset formset %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_formset formset layout=&#39;horizontal&#39; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">render_formset</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_formset_errors"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_formset_errors">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_formset_errors</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render formset errors.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_formset_errors</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        formset</span>
+<span class="sd">            The formset that is being rendered</span>
+
+<span class="sd">        layout</span>
+<span class="sd">            Context value that is available in the template ``bootstrap4/form_errors.html`` as ``layout``.</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_formset_errors formset %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_formset_errors formset layout=&#39;inline&#39; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">render_formset_errors</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_form"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_form">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_form</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render a form.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_form</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        form</span>
+<span class="sd">            The form that is to be rendered</span>
+
+<span class="sd">        exclude</span>
+<span class="sd">            A list of field names (comma separated) that should not be rendered</span>
+<span class="sd">            E.g. exclude=subject,bcc</span>
+
+<span class="sd">        alert_error_type</span>
+<span class="sd">            Control which type of errors should be rendered in global form alert.</span>
+
+<span class="sd">                One of the following values:</span>
+
+<span class="sd">                    * ``&#39;all&#39;``</span>
+<span class="sd">                    * ``&#39;fields&#39;``</span>
+<span class="sd">                    * ``&#39;non_fields&#39;``</span>
+
+<span class="sd">                :default: ``&#39;non_fields&#39;``</span>
+
+<span class="sd">        See bootstrap_field_ for other arguments</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_form form %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_form form layout=&#39;inline&#39; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">render_form</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_form_errors"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_form_errors">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_form_errors</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render form errors.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_form_errors</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        form</span>
+<span class="sd">            The form that is to be rendered</span>
+
+<span class="sd">        type</span>
+<span class="sd">            Control which type of errors should be rendered.</span>
+
+<span class="sd">            One of the following values:</span>
+
+<span class="sd">                * ``&#39;all&#39;``</span>
+<span class="sd">                * ``&#39;fields&#39;``</span>
+<span class="sd">                * ``&#39;non_fields&#39;``</span>
+
+<span class="sd">            :default: ``&#39;all&#39;``</span>
+
+<span class="sd">        layout</span>
+<span class="sd">            Context value that is available in the template ``bootstrap4/form_errors.html`` as ``layout``.</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_form_errors form %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_form_errors form layout=&#39;inline&#39; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">render_form_errors</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_field"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_field">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_field</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render a field.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_field</span>
+
+<span class="sd">    **Parameters**:</span>
+
+
+<span class="sd">        field</span>
+<span class="sd">            The form field to be rendered</span>
+
+<span class="sd">        layout</span>
+<span class="sd">            If set to ``&#39;horizontal&#39;`` then the field and label will be rendered side-by-side, as long as there</span>
+<span class="sd">            is no ``field_class`` set as well.</span>
+
+<span class="sd">        form_group_class</span>
+<span class="sd">            CSS class of the ``div`` that wraps the field and label.</span>
+
+<span class="sd">            :default: ``&#39;form-group&#39;``</span>
+
+<span class="sd">        field_class</span>
+<span class="sd">            CSS class of the ``div`` that wraps the field.</span>
+
+<span class="sd">        label_class</span>
+<span class="sd">            CSS class of the ``label`` element. Will always have ``control-label`` as the last CSS class.</span>
+
+<span class="sd">        show_help</span>
+<span class="sd">            Show the field&#39;s help text, if the field has help text.</span>
+
+<span class="sd">            :default: ``True``</span>
+
+<span class="sd">        show_label</span>
+<span class="sd">            Whether the show the label of the field.</span>
+
+<span class="sd">                * ``True``</span>
+<span class="sd">                * ``False``/``&#39;sr-only&#39;``</span>
+<span class="sd">                * ``&#39;skip&#39;``</span>
+
+<span class="sd">            :default: ``True``</span>
+
+<span class="sd">        exclude</span>
+<span class="sd">            A list of field names that should not be rendered</span>
+
+<span class="sd">        size</span>
+<span class="sd">            Controls the size of the rendered ``div.form-group`` through the use of CSS classes.</span>
+
+<span class="sd">            One of the following values:</span>
+
+<span class="sd">                * ``&#39;small&#39;``</span>
+<span class="sd">                * ``&#39;medium&#39;``</span>
+<span class="sd">                * ``&#39;large&#39;``</span>
+
+<span class="sd">        placeholder</span>
+<span class="sd">            Sets the placeholder text of a textbox</span>
+
+<span class="sd">        horizontal_label_class</span>
+<span class="sd">            Class used on the label when the ``layout`` is set to ``horizontal``.</span>
+
+<span class="sd">            :default: ``&#39;col-md-3&#39;``. Can be changed in :doc:`settings`</span>
+
+<span class="sd">        horizontal_field_class</span>
+<span class="sd">            Class used on the field when the ``layout`` is set to ``horizontal``.</span>
+
+<span class="sd">            :default: ``&#39;col-md-9&#39;``. Can be changed in :doc:`settings`</span>
+
+<span class="sd">        addon_before</span>
+<span class="sd">            Text that should be prepended to the form field. Can also be an icon, e.g.</span>
+<span class="sd">            ``&#39;&lt;span class=&quot;glyphicon glyphicon-calendar&quot;&gt;&lt;/span&gt;&#39;``</span>
+
+<span class="sd">            See the `Bootstrap docs &lt;http://getbootstrap.com/components/#input-groups-basic&gt;` for more examples.</span>
+
+<span class="sd">        addon_after</span>
+<span class="sd">            Text that should be appended to the form field. Can also be an icon, e.g.</span>
+<span class="sd">            ``&#39;&lt;span class=&quot;glyphicon glyphicon-calendar&quot;&gt;&lt;/span&gt;&#39;``</span>
+
+<span class="sd">            See the `Bootstrap docs &lt;http://getbootstrap.com/components/#input-groups-basic&gt;` for more examples.</span>
+
+<span class="sd">        addon_before_class</span>
+<span class="sd">            Class used on the span when ``addon_before`` is used.</span>
+
+<span class="sd">            One of the following values:</span>
+
+<span class="sd">                * ``&#39;input-group-text&#39;``</span>
+<span class="sd">                * ``None``</span>
+
+<span class="sd">            Set to None to disable the span inside the addon. (for use with buttons)</span>
+
+<span class="sd">            :default: ``input-group-text``</span>
+
+<span class="sd">        addon_after_class</span>
+<span class="sd">            Class used on the span when ``addon_after`` is used.</span>
+
+<span class="sd">            One of the following values:</span>
+
+<span class="sd">                * ``&#39;input-group-text&#39;``</span>
+<span class="sd">                * ``None``</span>
+
+<span class="sd">            Set to None to disable the span inside the addon. (for use with buttons)</span>
+
+<span class="sd">            :default: ``input-group-text``</span>
+
+<span class="sd">        error_css_class</span>
+<span class="sd">            CSS class used when the field has an error</span>
+
+<span class="sd">            :default: ``&#39;has-error&#39;``. Can be changed :doc:`settings`</span>
+
+<span class="sd">        required_css_class</span>
+<span class="sd">            CSS class used on the ``div.form-group`` to indicate a field is required</span>
+
+<span class="sd">            :default: ``&#39;&#39;``. Can be changed :doc:`settings`</span>
+
+<span class="sd">        bound_css_class</span>
+<span class="sd">            CSS class used when the field is bound</span>
+
+<span class="sd">            :default: ``&#39;has-success&#39;``. Can be changed :doc:`settings`</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_field field %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_field field show_label=False %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">render_field</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_label"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_label">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">bootstrap_label</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render a label.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_label</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        content</span>
+<span class="sd">            The label&#39;s text</span>
+
+<span class="sd">        label_for</span>
+<span class="sd">            The value that will be in the ``for`` attribute of the rendered ``&lt;label&gt;``</span>
+
+<span class="sd">        label_class</span>
+<span class="sd">            The CSS class for the rendered ``&lt;label&gt;``</span>
+
+<span class="sd">        label_title</span>
+<span class="sd">            The value that will be in the ``title`` attribute of the rendered ``&lt;label&gt;``</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_label content %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_label &quot;Email address&quot; label_for=&quot;exampleInputEmail1&quot; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">render_label</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_button"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_button">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_button</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render a button.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_button</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        content</span>
+<span class="sd">            The text to be displayed in the button</span>
+
+<span class="sd">        button_type</span>
+<span class="sd">            Optional field defining what type of button this is.</span>
+
+<span class="sd">            Accepts one of the following values:</span>
+
+<span class="sd">                * ``&#39;submit&#39;``</span>
+<span class="sd">                * ``&#39;reset&#39;``</span>
+<span class="sd">                * ``&#39;button&#39;``</span>
+<span class="sd">                * ``&#39;link&#39;``</span>
+
+<span class="sd">        button_class</span>
+<span class="sd">            The class of button to use. If none is given, btn-primary will be used.</span>
+
+<span class="sd">        extra_classes</span>
+<span class="sd">            Any extra CSS classes that should be added to the button.</span>
+
+<span class="sd">        size</span>
+<span class="sd">            Optional field to control the size of the button.</span>
+
+<span class="sd">            Accepts one of the following values:</span>
+
+<span class="sd">                * ``&#39;xs&#39;``</span>
+<span class="sd">                * ``&#39;sm&#39;``</span>
+<span class="sd">                * ``&#39;small&#39;``</span>
+<span class="sd">                * ``&#39;md&#39;``</span>
+<span class="sd">                * ``&#39;medium&#39;``</span>
+<span class="sd">                * ``&#39;lg&#39;``</span>
+<span class="sd">                * ``&#39;large&#39;``</span>
+
+
+<span class="sd">        href</span>
+<span class="sd">            Render the button as an ``&lt;a&gt;`` element. The ``href`` attribute is set with this value.</span>
+<span class="sd">            If a ``button_type`` other than ``link`` is defined, specifying a ``href`` will throw a</span>
+<span class="sd">            ``ValueError`` exception.</span>
+
+<span class="sd">        name</span>
+<span class="sd">            Value of the ``name`` attribute of the rendered element.</span>
+
+<span class="sd">        value</span>
+<span class="sd">            Value of the ``value`` attribute of the rendered element.</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_button content %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_button &quot;Save&quot; button_type=&quot;submit&quot; button_class=&quot;btn-primary&quot; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">render_button</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_alert"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_alert">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_alert</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="n">alert_type</span><span class="o">=</span><span class="s2">&quot;info&quot;</span><span class="p">,</span> <span class="n">dismissible</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render an alert.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_alert</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        content</span>
+<span class="sd">            HTML content of alert</span>
+
+<span class="sd">        alert_type</span>
+<span class="sd">            * ``&#39;info&#39;``</span>
+<span class="sd">            * ``&#39;warning&#39;``</span>
+<span class="sd">            * ``&#39;danger&#39;``</span>
+<span class="sd">            * ``&#39;success&#39;``</span>
+
+<span class="sd">            :default: ``&#39;info&#39;``</span>
+
+<span class="sd">        dismissible</span>
+<span class="sd">            boolean, is alert dismissible</span>
+
+<span class="sd">            :default: ``True``</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_alert content %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_alert &quot;Something went wrong&quot; alert_type=&#39;error&#39; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">render_alert</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="n">alert_type</span><span class="p">,</span> <span class="n">dismissible</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_buttons"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_buttons">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="s2">&quot;buttons&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">bootstrap_buttons</span><span class="p">(</span><span class="n">parser</span><span class="p">,</span> <span class="n">token</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render buttons for form.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        buttons</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        submit</span>
+<span class="sd">            Text for a submit button</span>
+
+<span class="sd">        reset</span>
+<span class="sd">            Text for a reset button</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% buttons %}{% endbuttons %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% buttons submit=&#39;OK&#39; reset=&quot;Cancel&quot; %}{% endbuttons %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">kwargs</span> <span class="o">=</span> <span class="n">parse_token_contents</span><span class="p">(</span><span class="n">parser</span><span class="p">,</span> <span class="n">token</span><span class="p">)</span>
+    <span class="n">kwargs</span><span class="p">[</span><span class="s2">&quot;nodelist&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse</span><span class="p">((</span><span class="s2">&quot;endbuttons&quot;</span><span class="p">,))</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">delete_first_token</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">ButtonsNode</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+
+<span class="k">class</span> <span class="nc">ButtonsNode</span><span class="p">(</span><span class="n">template</span><span class="o">.</span><span class="n">Node</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nodelist</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">,</span> <span class="n">asvar</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs2</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">nodelist</span> <span class="o">=</span> <span class="n">nodelist</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">args</span> <span class="o">=</span> <span class="n">args</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">kwargs</span> <span class="o">=</span> <span class="n">kwargs</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">asvar</span> <span class="o">=</span> <span class="n">asvar</span>
+
+    <span class="k">def</span> <span class="nf">render</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+        <span class="n">output_kwargs</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">kwargs</span><span class="p">:</span>
+            <span class="n">output_kwargs</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">handle_var</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">kwargs</span><span class="p">[</span><span class="n">key</span><span class="p">],</span> <span class="n">context</span><span class="p">)</span>
+        <span class="n">buttons</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">submit</span> <span class="o">=</span> <span class="n">output_kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;submit&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="n">reset</span> <span class="o">=</span> <span class="n">output_kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;reset&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">submit</span><span class="p">:</span>
+            <span class="n">buttons</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">bootstrap_button</span><span class="p">(</span><span class="n">submit</span><span class="p">,</span> <span class="s2">&quot;submit&quot;</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">reset</span><span class="p">:</span>
+            <span class="n">buttons</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">bootstrap_button</span><span class="p">(</span><span class="n">reset</span><span class="p">,</span> <span class="s2">&quot;reset&quot;</span><span class="p">))</span>
+        <span class="n">buttons</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">buttons</span><span class="p">)</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">nodelist</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
+        <span class="n">output_kwargs</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&quot;field&quot;</span><span class="p">:</span> <span class="n">buttons</span><span class="p">})</span>
+        <span class="n">css_class</span> <span class="o">=</span> <span class="n">output_kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;form_group_class&quot;</span><span class="p">,</span> <span class="s2">&quot;form-group&quot;</span><span class="p">)</span>
+        <span class="n">output</span> <span class="o">=</span> <span class="n">render_form_group</span><span class="p">(</span><span class="n">render_field_and_label</span><span class="p">(</span><span class="o">**</span><span class="n">output_kwargs</span><span class="p">),</span> <span class="n">css_class</span><span class="o">=</span><span class="n">css_class</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">asvar</span><span class="p">:</span>
+            <span class="n">context</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">asvar</span><span class="p">]</span> <span class="o">=</span> <span class="n">output</span>
+            <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">output</span>
+
+
+<div class="viewcode-block" id="bootstrap_messages"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_messages">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span><span class="p">(</span><span class="n">takes_context</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">bootstrap_messages</span><span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Show django.contrib.messages Messages in Bootstrap alert containers.</span>
+
+<span class="sd">    In order to make the alerts dismissible (with the close button),</span>
+<span class="sd">    we have to set the jquery parameter too when using the</span>
+<span class="sd">    bootstrap_javascript tag.</span>
+
+<span class="sd">    Uses the template ``bootstrap4/messages.html``.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_messages</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        None.</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_messages %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_javascript jquery=True %}</span>
+<span class="sd">        {% bootstrap_messages %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Force Context to dict</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">Context</span><span class="p">):</span>
+        <span class="n">context</span> <span class="o">=</span> <span class="n">context</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
+    <span class="n">context</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s2">&quot;message_constants&quot;</span><span class="p">:</span> <span class="n">message_constants</span><span class="p">})</span>
+    <span class="k">return</span> <span class="n">render_template_file</span><span class="p">(</span><span class="s2">&quot;bootstrap4/messages.html&quot;</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="n">context</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="bootstrap_pagination"><a class="viewcode-back" href="../../../templatetags.html#bootstrap4.templatetags.bootstrap4.bootstrap_pagination">[docs]</a><span class="nd">@register</span><span class="o">.</span><span class="n">inclusion_tag</span><span class="p">(</span><span class="s2">&quot;bootstrap4/pagination.html&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">bootstrap_pagination</span><span class="p">(</span><span class="n">page</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Render pagination for a page.</span>
+
+<span class="sd">    **Tag name**::</span>
+
+<span class="sd">        bootstrap_pagination</span>
+
+<span class="sd">    **Parameters**:</span>
+
+<span class="sd">        page</span>
+<span class="sd">            The page of results to show.</span>
+
+<span class="sd">        pages_to_show</span>
+<span class="sd">            Number of pages in total</span>
+
+<span class="sd">            :default: ``11``</span>
+
+<span class="sd">        url</span>
+<span class="sd">            URL to navigate to for pagination forward and pagination back.</span>
+
+<span class="sd">            :default: ``None``</span>
+
+<span class="sd">        size</span>
+<span class="sd">            Controls the size of the pagination through CSS. Defaults to being normal sized.</span>
+
+<span class="sd">            One of the following:</span>
+
+<span class="sd">                * ``&#39;small&#39;``</span>
+<span class="sd">                * ``&#39;large&#39;``</span>
+
+<span class="sd">            :default: ``None``</span>
+
+<span class="sd">        extra</span>
+<span class="sd">            Any extra page parameters.</span>
+
+<span class="sd">            :default: ``None``</span>
+
+<span class="sd">        parameter_name</span>
+<span class="sd">            Name of the paging URL parameter.</span>
+
+<span class="sd">            :default: ``&#39;page&#39;``</span>
+
+<span class="sd">    **Usage**::</span>
+
+<span class="sd">        {% bootstrap_pagination page %}</span>
+
+<span class="sd">    **Example**::</span>
+
+<span class="sd">        {% bootstrap_pagination lines url=&quot;/pagination?page=1&quot; size=&quot;large&quot; %}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pagination_kwargs</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">pagination_kwargs</span><span class="p">[</span><span class="s2">&quot;page&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">page</span>
+    <span class="k">return</span> <span class="n">get_pagination_context</span><span class="p">(</span><span class="o">**</span><span class="n">pagination_kwargs</span><span class="p">)</span></div>
+
+
+<span class="nd">@register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="k">def</span> <span class="nf">bootstrap_url_replace_param</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">url_replace_param</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">get_pagination_context</span><span class="p">(</span>
+    <span class="n">page</span><span class="p">,</span> <span class="n">pages_to_show</span><span class="o">=</span><span class="mi">11</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">justify_content</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">extra</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">parameter_name</span><span class="o">=</span><span class="s2">&quot;page&quot;</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Generate Bootstrap pagination context from a page object.&quot;&quot;&quot;</span>
+    <span class="n">pages_to_show</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">pages_to_show</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">pages_to_show</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+            <span class="s2">&quot;Pagination pages_to_show should be a positive integer, you specified </span><span class="si">{pages_to_show}</span><span class="s2">.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                <span class="n">pages_to_show</span><span class="o">=</span><span class="n">pages_to_show</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+    <span class="n">num_pages</span> <span class="o">=</span> <span class="n">page</span><span class="o">.</span><span class="n">paginator</span><span class="o">.</span><span class="n">num_pages</span>
+    <span class="n">current_page</span> <span class="o">=</span> <span class="n">page</span><span class="o">.</span><span class="n">number</span>
+    <span class="n">half_page_num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">floor</span><span class="p">(</span><span class="n">pages_to_show</span> <span class="o">/</span> <span class="mi">2</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">half_page_num</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">half_page_num</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">first_page</span> <span class="o">=</span> <span class="n">current_page</span> <span class="o">-</span> <span class="n">half_page_num</span>
+    <span class="k">if</span> <span class="n">first_page</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">first_page</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">first_page</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">pages_back</span> <span class="o">=</span> <span class="n">first_page</span> <span class="o">-</span> <span class="n">half_page_num</span>
+        <span class="k">if</span> <span class="n">pages_back</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">pages_back</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">pages_back</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">last_page</span> <span class="o">=</span> <span class="n">first_page</span> <span class="o">+</span> <span class="n">pages_to_show</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">pages_back</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">last_page</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">last_page</span> <span class="o">&gt;</span> <span class="n">num_pages</span><span class="p">:</span>
+        <span class="n">last_page</span> <span class="o">=</span> <span class="n">num_pages</span>
+    <span class="k">if</span> <span class="n">last_page</span> <span class="o">&lt;</span> <span class="n">num_pages</span><span class="p">:</span>
+        <span class="n">pages_forward</span> <span class="o">=</span> <span class="n">last_page</span> <span class="o">+</span> <span class="n">half_page_num</span>
+        <span class="k">if</span> <span class="n">pages_forward</span> <span class="o">&gt;</span> <span class="n">num_pages</span><span class="p">:</span>
+            <span class="n">pages_forward</span> <span class="o">=</span> <span class="n">num_pages</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">pages_forward</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">first_page</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">first_page</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">pages_back</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">pages_back</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">pages_back</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">pages_back</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pages_shown</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">first_page</span><span class="p">,</span> <span class="n">last_page</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">pages_shown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+    <span class="c1"># parse the url</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="n">urlparse</span><span class="p">(</span><span class="n">url</span> <span class="ow">or</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="n">parse_qs</span><span class="p">(</span><span class="n">parts</span><span class="o">.</span><span class="n">query</span><span class="p">)</span>
+
+    <span class="c1"># append extra querystring parameters to the url.</span>
+    <span class="k">if</span> <span class="n">extra</span><span class="p">:</span>
+        <span class="n">params</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">parse_qs</span><span class="p">(</span><span class="n">extra</span><span class="p">))</span>
+
+    <span class="c1"># build url again.</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">urlunparse</span><span class="p">(</span>
+        <span class="p">[</span><span class="n">parts</span><span class="o">.</span><span class="n">scheme</span><span class="p">,</span> <span class="n">parts</span><span class="o">.</span><span class="n">netloc</span><span class="p">,</span> <span class="n">parts</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="n">parts</span><span class="o">.</span><span class="n">params</span><span class="p">,</span> <span class="n">urlencode</span><span class="p">(</span><span class="n">params</span><span class="p">,</span> <span class="n">doseq</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span> <span class="n">parts</span><span class="o">.</span><span class="n">fragment</span><span class="p">]</span>
+    <span class="p">)</span>
+
+    <span class="c1"># Set CSS classes, see http://getbootstrap.com/components/#pagination</span>
+    <span class="n">pagination_css_classes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;pagination&quot;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">size</span> <span class="o">==</span> <span class="s2">&quot;small&quot;</span><span class="p">:</span>
+        <span class="n">pagination_css_classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;pagination-sm&quot;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">size</span> <span class="o">==</span> <span class="s2">&quot;large&quot;</span><span class="p">:</span>
+        <span class="n">pagination_css_classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;pagination-lg&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">justify_content</span> <span class="o">==</span> <span class="s2">&quot;start&quot;</span><span class="p">:</span>
+        <span class="n">pagination_css_classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;justify-content-start&quot;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">justify_content</span> <span class="o">==</span> <span class="s2">&quot;center&quot;</span><span class="p">:</span>
+        <span class="n">pagination_css_classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;justify-content-center&quot;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">justify_content</span> <span class="o">==</span> <span class="s2">&quot;end&quot;</span><span class="p">:</span>
+        <span class="n">pagination_css_classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;justify-content-end&quot;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&quot;bootstrap_pagination_url&quot;</span><span class="p">:</span> <span class="n">url</span><span class="p">,</span>
+        <span class="s2">&quot;num_pages&quot;</span><span class="p">:</span> <span class="n">num_pages</span><span class="p">,</span>
+        <span class="s2">&quot;current_page&quot;</span><span class="p">:</span> <span class="n">current_page</span><span class="p">,</span>
+        <span class="s2">&quot;first_page&quot;</span><span class="p">:</span> <span class="n">first_page</span><span class="p">,</span>
+        <span class="s2">&quot;last_page&quot;</span><span class="p">:</span> <span class="n">last_page</span><span class="p">,</span>
+        <span class="s2">&quot;pages_shown&quot;</span><span class="p">:</span> <span class="n">pages_shown</span><span class="p">,</span>
+        <span class="s2">&quot;pages_back&quot;</span><span class="p">:</span> <span class="n">pages_back</span><span class="p">,</span>
+        <span class="s2">&quot;pages_forward&quot;</span><span class="p">:</span> <span class="n">pages_forward</span><span class="p">,</span>
+        <span class="s2">&quot;pagination_css_classes&quot;</span><span class="p">:</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pagination_css_classes</span><span class="p">),</span>
+        <span class="s2">&quot;parameter_name&quot;</span><span class="p">:</span> <span class="n">parameter_name</span><span class="p">,</span>
+    <span class="p">}</span>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014-2019, Dylan Verheul
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

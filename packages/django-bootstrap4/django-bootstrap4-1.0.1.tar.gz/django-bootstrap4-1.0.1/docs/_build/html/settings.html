@@ -1,0 +1,301 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Settings &mdash; django-bootstrap4 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Templates" href="templates.html" />
+    <link rel="prev" title="Template tags and filters" href="templatetags.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> django-bootstrap4
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migrate.html">Migration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="templatetags.html">Template tags and filters</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="templates.html">Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="widgets.html">Widgets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">django-bootstrap4</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Settings</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/settings.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="settings">
+<h1>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h1>
+<p>The django-bootstrap4 has some pre-configured settings.</p>
+<p>They can be modified by adding a dict variable called <code class="docutils literal notranslate"><span class="pre">BOOTSTRAP4</span></code> in your <code class="docutils literal notranslate"><span class="pre">settings.py</span></code> and customizing the values ​​you want;</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">BOOTSTRAP4</span></code> dict variable contains these settings and defaults:</p>
+<div class="highlight-django notranslate"><div class="highlight"><pre><span></span><span class="x"># Default settings</span>
+<span class="x">BOOTSTRAP4 = {</span>
+
+<span class="x">    # The complete URL to the Bootstrap CSS file</span>
+<span class="x">    # Note that a URL can be either a string,</span>
+<span class="x">    # e.g. &quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css&quot;,</span>
+<span class="x">    # or a dict like the default value below.</span>
+<span class="x">    &quot;css_url&quot;: {</span>
+<span class="x">        &quot;href&quot;: &quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css&quot;,</span>
+<span class="x">        &quot;integrity&quot;: &quot;sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB&quot;,</span>
+<span class="x">        &quot;crossorigin&quot;: &quot;anonymous&quot;,</span>
+<span class="x">    },</span>
+
+<span class="x">    # The complete URL to the Bootstrap JavaScript file</span>
+<span class="x">    &quot;javascript_url&quot;: {</span>
+<span class="x">        &quot;url&quot;: &quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js&quot;,</span>
+<span class="x">        &quot;integrity&quot;: &quot;sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T&quot;,</span>
+<span class="x">        &quot;crossorigin&quot;: &quot;anonymous&quot;,</span>
+<span class="x">    },</span>
+
+<span class="x">    # The complete URL to the Bootstrap CSS file (None means no theme)</span>
+<span class="x">    &quot;theme_url&quot;: None,</span>
+
+<span class="x">    # The URL to the jQuery JavaScript file (full)</span>
+<span class="x">    &quot;jquery_url&quot;: {</span>
+<span class="x">        &quot;url&quot;: &quot;https://code.jquery.com/jquery-3.3.1.min.js&quot;,</span>
+<span class="x">        &quot;integrity&quot;: &quot;sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT&quot;,</span>
+<span class="x">        &quot;crossorigin&quot;: &quot;anonymous&quot;,</span>
+<span class="x">    },</span>
+
+<span class="x">    # The URL to the jQuery JavaScript file (slim)</span>
+<span class="x">    &quot;jquery_slim_url&quot;: {</span>
+<span class="x">        &quot;url&quot;: &quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot;,</span>
+<span class="x">        &quot;integrity&quot;: &quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot;,</span>
+<span class="x">        &quot;crossorigin&quot;: &quot;anonymous&quot;,</span>
+<span class="x">    },</span>
+
+<span class="x">    # The URL to the Popper.js JavaScript file (slim)</span>
+<span class="x">    &quot;popper_url&quot;: {</span>
+<span class="x">        &quot;url&quot;: &quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js&quot;,</span>
+<span class="x">        &quot;integrity&quot;: &quot;sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49&quot;,</span>
+<span class="x">        &quot;crossorigin&quot;: &quot;anonymous&quot;,</span>
+<span class="x">    },</span>
+
+<span class="x">    # Put JavaScript in the HEAD section of the HTML document (only relevant if you use bootstrap4.html)</span>
+<span class="x">    &#39;javascript_in_head&#39;: False,</span>
+
+<span class="x">    # Include jQuery with Bootstrap JavaScript False|falsy|slim|full (default=False)</span>
+<span class="x">    # False - means tag bootstrap_javascript use default value - `falsy` and does not include jQuery)</span>
+<span class="x">    &#39;include_jquery&#39;: False,</span>
+
+<span class="x">    # Label class to use in horizontal forms</span>
+<span class="x">    &#39;horizontal_label_class&#39;: &#39;col-md-3&#39;,</span>
+
+<span class="x">    # Field class to use in horizontal forms</span>
+<span class="x">    &#39;horizontal_field_class&#39;: &#39;col-md-9&#39;,</span>
+
+<span class="x">    # Set placeholder attributes to label if no placeholder is provided</span>
+<span class="x">    &#39;set_placeholder&#39;: True,</span>
+
+<span class="x">    # Class to indicate required (better to set this in your Django form)</span>
+<span class="x">    &#39;required_css_class&#39;: &#39;&#39;,</span>
+
+<span class="x">    # Class to indicate error (better to set this in your Django form)</span>
+<span class="x">    &#39;error_css_class&#39;: &#39;is-invalid&#39;,</span>
+
+<span class="x">    # Class to indicate success, meaning the field has valid input (better to set this in your Django form)</span>
+<span class="x">    &#39;success_css_class&#39;: &#39;is-valid&#39;,</span>
+
+<span class="x">    # Renderers (only set these if you have studied the source and understand the inner workings)</span>
+<span class="x">    &#39;formset_renderers&#39;:{</span>
+<span class="x">        &#39;default&#39;: &#39;bootstrap4.renderers.FormsetRenderer&#39;,</span>
+<span class="x">    },</span>
+<span class="x">    &#39;form_renderers&#39;: {</span>
+<span class="x">        &#39;default&#39;: &#39;bootstrap4.renderers.FormRenderer&#39;,</span>
+<span class="x">    },</span>
+<span class="x">    &#39;field_renderers&#39;: {</span>
+<span class="x">        &#39;default&#39;: &#39;bootstrap4.renderers.FieldRenderer&#39;,</span>
+<span class="x">        &#39;inline&#39;: &#39;bootstrap4.renderers.InlineFieldRenderer&#39;,</span>
+<span class="x">    },</span>
+<span class="x">}</span>
+</pre></div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="templates.html" class="btn btn-neutral float-right" title="Templates" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="templatetags.html" class="btn btn-neutral float-left" title="Template tags and filters" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014-2019, Dylan Verheul
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
