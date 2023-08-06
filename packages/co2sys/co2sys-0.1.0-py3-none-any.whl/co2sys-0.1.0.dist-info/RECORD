@@ -1,0 +1,9 @@
+co2sys/CO2SYS.m,sha256=IRt7_rjX5Pu8LtE2ul_Jhb0xyYHVJrNGrDzbwUdiPn4,82883
+co2sys/__init__.py,sha256=z_bBGvwptujusvrIb7cOdkvZjN9woDBIQD8SZElGlTg,2613
+co2sys/calculations.py,sha256=xTRyp_kMncgIALMIeWjYvfPLmVo0t3JHovysMTvC-vE,21706
+co2sys/co2sys.py,sha256=nYQ8heFh_FxbWb3peQAA8-EAlyoHDqKW3yvObWRk22Y,4970
+co2sys/constants.py,sha256=xJ1IRerZ5TRCRJW943Evlx62aRFEgewwzhWG9Ww0lhU,38572
+co2sys/octave-workspace,sha256=EwyAmCSLJgywri_BwPsRZGEnkGyPRyywIJ6cBhPxcEk,1130559
+co2sys-0.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+co2sys-0.1.0.dist-info/METADATA,sha256=2Y_cjFFfOXn5vjAtuKsVB59AF8C_V_fjuyThMMbRQdQ,325
+co2sys-0.1.0.dist-info/RECORD,,
