@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: twitter-to-sqlite
+Version: 0.1a0
+Summary: Save data from Twitter to a SQLite database
+Home-page: https://github.com/dogsheep/twitter-to-sqlite
+Author: Simon Willison
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: sqlite-utils (~=1.11)
+Requires-Dist: requests-oauthlib (~=1.2.0)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# twitter-to-sqlite
+
+[![PyPI](https://img.shields.io/pypi/v/twitter-to-sqlite.svg)](https://pypi.org/project/twitter-to-sqlite/)
+[![CircleCI](https://circleci.com/gh/dogsheep/twitter-to-sqlite.svg?style=svg)](https://circleci.com/gh/dogsheep/twitter-to-sqlite)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/dogsheep/twitter-to-sqlite/blob/master/LICENSE)
+
+Save data from Twitter to a SQLite database.
+
+## How to install
+
+    $ pip install twitter-to-sqlite
+
+
