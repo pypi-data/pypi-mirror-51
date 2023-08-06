@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: coda-to-end
+Version: 0.1.0
+Summary: A collection of ML algorithms for Compositional Data Analysis
+Home-page: https://github.com/sean-lamont/coda-to-end
+Author: Sean Lamont
+Author-email: sean.a.lamont@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# coda-to-end
+coda-to-end is a Python package which includes several end to end algorithms for Compositional Data Analysis (CoDA).
+
+The user inputs the compositional data and the feature vector (either real numbers for regression, or class indices for classification).
+
+For regression problems, the CodaRegress class is used, while classification problems will call the CodaClass class.
+
+
