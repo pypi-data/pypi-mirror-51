@@ -1,0 +1,6 @@
+django-appconf
+django-model-utils
+psycopg2
+djangorestframework
+celery
+redis
