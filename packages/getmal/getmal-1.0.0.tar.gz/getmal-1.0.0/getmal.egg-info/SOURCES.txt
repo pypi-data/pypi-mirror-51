@@ -1,0 +1,9 @@
+README.md
+setup.py
+getmal/__init__.py
+getmal/__main__.py
+getmal.egg-info/PKG-INFO
+getmal.egg-info/SOURCES.txt
+getmal.egg-info/dependency_links.txt
+getmal.egg-info/requires.txt
+getmal.egg-info/top_level.txt
