@@ -1,0 +1,8 @@
+databases/__init__.py,sha256=9fzDNzowiGwdpG-61ZrnxLOy0Jw8rlrOBXFkoKOj_DM,409
+databases/errors.py,sha256=1ZaVdLZFnqSOxeNM2btTKaaDKsrPvtYEHSW6bK9cF_I,1325
+databases/sqlite3.py,sha256=FIGlD7j1ppkOtJIpsz7O8mC27PIM73V5B8GiklQ9w8o,9644
+databases.py-1.0.1a0.dist-info/LICENSE,sha256=ryUJeMM-UeU8WkSVE90IPdp8_rlPkqhfYxuw_klsKNM,1092
+databases.py-1.0.1a0.dist-info/METADATA,sha256=dmMt6-8DKhRXiRGwMNPxcvX3pgiqqhA8O20Y4lsDNzg,477
+databases.py-1.0.1a0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+databases.py-1.0.1a0.dist-info/top_level.txt,sha256=3ThtfvixMaJYFqpgKXQDuhTfWChL6Doo2Z1iTQQT1o0,10
+databases.py-1.0.1a0.dist-info/RECORD,,
