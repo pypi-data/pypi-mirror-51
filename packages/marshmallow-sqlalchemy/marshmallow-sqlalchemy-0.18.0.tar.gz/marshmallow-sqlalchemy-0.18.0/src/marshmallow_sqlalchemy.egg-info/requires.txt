@@ -1,0 +1,28 @@
+marshmallow>=2.0.0
+SQLAlchemy>=0.9.7
+
+[dev]
+pytest
+mock
+flake8==3.7.8
+pre-commit~=1.18
+tox
+
+[dev:python_version >= "3.5"]
+flake8-bugbear==19.8.0
+
+[docs]
+sphinx==2.2.0
+alabaster==0.7.12
+sphinx-issues==1.2.0
+
+[lint]
+flake8==3.7.8
+pre-commit~=1.18
+
+[lint:python_version >= "3.5"]
+flake8-bugbear==19.8.0
+
+[tests]
+pytest
+mock
