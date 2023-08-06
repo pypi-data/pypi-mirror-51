@@ -1,0 +1,10 @@
+README.md
+setup.py
+PDF_Layout_Scanner.egg-info/PKG-INFO
+PDF_Layout_Scanner.egg-info/SOURCES.txt
+PDF_Layout_Scanner.egg-info/dependency_links.txt
+PDF_Layout_Scanner.egg-info/requires.txt
+PDF_Layout_Scanner.egg-info/top_level.txt
+pdf_layout_scanner/__init__.py
+pdf_layout_scanner/__main__.py
+pdf_layout_scanner/layout_scanner.py
