@@ -1,0 +1,5 @@
+xlsxwriter
+numpy
+openpyxl
+PIL
+delny
