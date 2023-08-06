@@ -1,0 +1,11 @@
+README.md
+setup.py
+autocat/__init__.py
+autocat/autocat.py
+autocat/cli.py
+autocat/detector.py
+autodisambiguator.egg-info/PKG-INFO
+autodisambiguator.egg-info/SOURCES.txt
+autodisambiguator.egg-info/dependency_links.txt
+autodisambiguator.egg-info/entry_points.txt
+autodisambiguator.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: autodisambiguator
+Version: 0.0.1
+Summary: A framework for automatic disambiguation based on secondary categories
+Home-page: https://github.com/ponteineptique/autocat
+Author: Thibault Clérice
+License: MIT
+Description: 
+        # Autocat
+        
+        Autocategorization of lemma into lemma with index for lemma whose index is defined by POS or similar
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
