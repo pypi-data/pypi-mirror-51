@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: bravais
+Version: 0.1.3
+Summary: A simple package for representing Bravais lattices. Primarily useful to check the passed parameters represent a valid Bravais lattice.
+Home-page: UNKNOWN
+Author: Adam J. Plowman, Maria S. Yankova
+License: UNKNOWN
+Project-URL: Github, https://github.com/aplowman/bravais
+Description: [![PyPI version](https://badge.fury.io/py/bravais.svg)](https://badge.fury.io/py/bravais)
+        
+        # bravais
+        A simple package for representing [Bravais lattices](https://en.wikipedia.org/wiki/Bravais_lattice). Primarily useful to check the passed parameters represent a valid Bravais lattice. If a lattice parameter is not specified, it will be assigned randomly (such that all lattice parameters remain compatible with the specified lattice system).
+        
+        ## Installation
+        
+        `pip install bravais`
+        
+        ## Examples
+        
+        Import the `BravaisLattice` class:
+        
+        ```python
+        from bravais import BravaisLattice
+        ```
+        
+        Quickly generate a monoclinic Bravais lattice without specifying any lattice parameters:
+        
+        ```python
+        mon_lat = BravaisLattice('monoclinic')
+        print(mon_lat)
+        ```
+        ```
+        P-centred monoclinic lattice (a=5.9417, b=4.7245, c=5.7335, alpha=90.00, beta=90.00, gamma=51.01)
+        ```
+        
+        Generate a body-centred tetragonal Bravais lattice with particular lattice parameters:
+        
+        ```python
+        tet_lat = BravaisLattice('tetragonal', 'I', a=3)
+        print(tet_lat)
+        ```
+        
+        ```
+        I-centred tetragonal lattice (a=3.0000, b=3.0000, c=3.5708, alpha=90.00, beta=90.00, gamma=90.00)
+        ```
+        
+        Note that the following single-digit codes are used to specify centring-types:
+        
+        ```
+        P -> primitive
+        B -> base
+        I -> body
+        F -> face
+        R -> rhombohedral
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Description-Content-Type: text/markdown
