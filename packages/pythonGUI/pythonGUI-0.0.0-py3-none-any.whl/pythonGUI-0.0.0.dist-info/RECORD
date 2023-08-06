@@ -1,0 +1,9 @@
+pygui/__init__.py,sha256=YErfElUEXQk6otFNMpjv3MScXf2nJC3ZpVaAJ4u56Fo,894
+pygui/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygui/window.py,sha256=_zyZPLBzJHwNPy3-0OBHj2H4sLg0NsFsNhtFue2e6oM,2341
+pygui/GUIs/wheel_build.py,sha256=Cv9JPWbEXllyWlzVmB1U4uobcNGRU6R7vtqPhNEaJTg,19981
+pythonGUI-0.0.0.dist-info/METADATA,sha256=6zdwfgnVaIMjnMh8cCRdHSkiL_e9wS-oYfGFyOua7nE,2491
+pythonGUI-0.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pythonGUI-0.0.0.dist-info/entry_points.txt,sha256=Px2G-Ppt2DHmqOpTr92J0vjIM6l9qyqUJwf8wPhaEUE,45
+pythonGUI-0.0.0.dist-info/top_level.txt,sha256=gFrYJqjh4qIqOrH6K6B4YT7WxWpnVq_TDMyRzzIU_fU,6
+pythonGUI-0.0.0.dist-info/RECORD,,
