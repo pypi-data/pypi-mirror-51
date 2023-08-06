@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "strong-aws-lambda.contract"
+version = "0.2.0"
+description = "Extra lambda utils"
+authors = ["Rodrigo Farias Rezino <rodrigofrezino@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+packages = [
+    {include="strong_aws_pkg", from="."}
+]
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}
+
+[tool.poetry.dependencies]
+python = "^3.6"
+dacite = "^1.0"
+aws-lambda-context = "^1.1"
+
+[tool.poetry.dev-dependencies]
+mock = "^3.0"
+pytest = "^5.1"
+cfn_lambda_handler = "^1.4"
+boto3 = "^1.9"
+
+[tool.poetry.extras]
+test = ["coverage"]
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
