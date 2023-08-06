@@ -1,0 +1,9 @@
+README.md
+setup.py
+amuzapdf/__init__.py
+amuzapdf/pdf1image.py
+amuzapdf/pdf1text.py
+amuzapdf.egg-info/PKG-INFO
+amuzapdf.egg-info/SOURCES.txt
+amuzapdf.egg-info/dependency_links.txt
+amuzapdf.egg-info/top_level.txt
