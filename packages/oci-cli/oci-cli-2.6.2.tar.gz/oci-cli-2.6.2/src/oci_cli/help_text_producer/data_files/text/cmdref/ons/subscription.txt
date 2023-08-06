@@ -1,0 +1,30 @@
+subscription
+************
+
+
+Description
+===========
+
+The subscription's configuration.
+
+
+Available Commands
+==================
+
+* change-compartment
+
+* confirm
+
+* create
+
+* delete
+
+* get
+
+* list
+
+* resend-confirmation
+
+* unsubscribe
+
+* update
