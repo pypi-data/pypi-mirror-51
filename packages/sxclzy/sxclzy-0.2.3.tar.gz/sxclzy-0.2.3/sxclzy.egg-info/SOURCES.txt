@@ -1,0 +1,12 @@
+README.md
+setup.py
+sxclzy/Dict.py
+sxclzy/__init__.py
+sxclzy/sqlite_model.py
+sxclzy/sqlite_orm.py
+sxclzy/sxclzy.py
+sxclzy.egg-info/PKG-INFO
+sxclzy.egg-info/SOURCES.txt
+sxclzy.egg-info/dependency_links.txt
+sxclzy.egg-info/requires.txt
+sxclzy.egg-info/top_level.txt
