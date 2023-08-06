@@ -1,0 +1,10 @@
+geoalchemy2>=0.3.0
+sqlalchemy>=1.2.0
+keyring>=4.0
+keyrings.alt
+psycopg2-binary
+oedialect@ https://github.com/OpenEnergyPlatform/oedialect/archive/master.zip
+numpy
+
+[sqlalchemy]
+postgresql
