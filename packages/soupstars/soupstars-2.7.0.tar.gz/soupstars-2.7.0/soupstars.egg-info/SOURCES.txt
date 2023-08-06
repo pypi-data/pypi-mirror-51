@@ -1,0 +1,12 @@
+README.md
+setup.py
+soupstars/__init__.py
+soupstars/cli.py
+soupstars/client.py
+soupstars/core.py
+soupstars.egg-info/PKG-INFO
+soupstars.egg-info/SOURCES.txt
+soupstars.egg-info/dependency_links.txt
+soupstars.egg-info/entry_points.txt
+soupstars.egg-info/requires.txt
+soupstars.egg-info/top_level.txt
