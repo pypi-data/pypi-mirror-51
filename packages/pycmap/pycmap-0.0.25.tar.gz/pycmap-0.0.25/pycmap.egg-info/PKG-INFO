@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pycmap
+Version: 0.0.25
+Summary: Simons CMAP API python client
+Home-page: https://github.com/mdashkezari/pycmap
+Author: Mohammad D. Ashkezari
+Author-email: mdehghan@uw.edu
+License: UNKNOWN
+Description: # pycmap
+Keywords: ocean oceanography data visualization satellite model in-situ remote sensing machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
