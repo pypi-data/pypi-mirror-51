@@ -1,0 +1,14 @@
+awkward1/__init__.py,sha256=Wt4bwi9rpr9vrIQMD3goVsWXBjsDiWAu8AFVe2mw0fc,185
+awkward1/awkward-cpu-kernels.dll,sha256=SgWqB0XozapdvZL-6hVXsH5qOSGcV8yRbrhrGSwG9eE,8192
+awkward1/awkward.dll,sha256=HPjqj5ZcJEKPEZWl_Z66BEAVdl4cEaLTz9iHBrfFeMI,61952
+awkward1/layout.pyd,sha256=n5S873SDVfq_8Dw3mj8FvC1HTKi1MUp7tgpkj1QG71w,200704
+awkward1/_numba/__init__.py,sha256=yf2WqlfKi0oMX5J7P4exN6y30M42JZnXmX2Y6SfuF70,339
+awkward1/_numba/common.py,sha256=ip0IzvkjxdByoGMmY5V2_tsYIeRViIHpZrruLEumWmY,1501
+awkward1/_numba/cpu.py,sha256=tmMlH-03LFafdlqtytOb3nuCUi9jhPp5LyUV1EUzuEE,2493
+awkward1/_numba/listoffsetarray.py,sha256=PA2MvWLues12jIA-uuwslINxqKGsi9qa3PWPvfap1Hg,6275
+awkward1/_numba/numpyarray.py,sha256=ipMSJfKV3O2sicvjkVuPXwvo6XMjxmP07nRBQLnuzOE,5410
+awkward1-0.1.0.dist-info/LICENSE,sha256=5h1ABdBBLAJWzvVRfV3o6YeZq28S5ux9lFDMzDJK_yc,1549
+awkward1-0.1.0.dist-info/METADATA,sha256=QNocIEj4qrMAfzMK3urVc2TQP6lpfEedAHtQCE87OIU,1542
+awkward1-0.1.0.dist-info/WHEEL,sha256=VgnquN2wmS-dr_fBLVW6BVf1-4JY9hxIFDEVNCtWYcA,102
+awkward1-0.1.0.dist-info/top_level.txt,sha256=0QvcS6zM0XqsAs1BPOrnYynQh9EigLnfifkQnyqFSdo,17
+awkward1-0.1.0.dist-info/RECORD,,
