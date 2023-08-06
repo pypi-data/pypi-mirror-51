@@ -1,0 +1,14 @@
+#~github~
+
+query Login {
+    viewer {
+        login
+        # primarySubjectId
+        hovercard {
+            contexts {
+                message
+                octicon
+            }
+        }
+    }
+}
