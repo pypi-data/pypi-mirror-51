@@ -1,0 +1,7 @@
+numpy
+scipy
+python-Levenshtein
+wget
+torch
+six
+librosa
