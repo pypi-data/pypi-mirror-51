@@ -1,0 +1,15 @@
+db_report/__init__.py,sha256=qS6z3Xn3UgluZvwUF0VDLXUGOVYLVUXAUJsJMb0GNN0,1445
+db_report/__main__.py,sha256=8JvMHTT0OIQ1gokZbYMqS6X5NTA33ERK7gWLVUB7zlY,3422
+db_report/config/__init__.py,sha256=qg_E07pYS8i6nUQYbliTXGoPbsIVo7yzvusbjeoxyQo,4047
+db_report/formats/csv.py,sha256=GIGNeeGUtKYA9xaagDJDo8yAspRN119LNi-Znup0xNo,3552
+db_report/formats/json.py,sha256=YEWgT93eB-gKXHAwpMeXcVefda_YYidj-U89nT2VwJU,1271
+db_report/formats/tab.py,sha256=zLYKqeUfes1n99_a34hq5-lclLVHSdR_qFiSHwilZzg,4342
+db_report/formats/xls.py,sha256=9ImjBxWytTYUogATwMzCmd37szW-CuFOaWLyEdoYvRo,1047
+db_report/utils/callback.py,sha256=jK3h-vORmS3nh3b-7zDT9xfAnYN-etiPE4BDbups86U,4091
+db_report/utils/helpers.py,sha256=tzvS7R5rg6mQnyfB-5BczMDUwErW0lTuwSQgCH9ibng,7415
+db_report-0.0.5.dist-info/LICENSE,sha256=nSq8-WJGvWTg9gU3DP40H20mw2mlXGGCQe7wronWBdo,1068
+db_report-0.0.5.dist-info/METADATA,sha256=PlsFZum_9zvcVZYcpkJAQszbxxVN8eEKSJ8d-DNs9BI,890
+db_report-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+db_report-0.0.5.dist-info/entry_points.txt,sha256=B2gzQ-N0q_AyE8dqYA1oR_w3h8V-ZAyCUiMPCDIhyUM,55
+db_report-0.0.5.dist-info/top_level.txt,sha256=0646Pl6ocMQYEvVWKQZvHNgBAf5c1aY6CoTg-tx5WjA,10
+db_report-0.0.5.dist-info/RECORD,,
