@@ -1,0 +1,8 @@
+cptv/reader.cpython-36m-x86_64-linux-gnu.so,sha256=o3d2PBpYbe-1ZjjJirr4wKdDkuRKZDbg5q8p_9wyq9s,840496
+cptv/bitstream.cpython-36m-x86_64-linux-gnu.so,sha256=ACytna6F6R63rNVdo0l4ZeOiE7R1vzlwm7cuuIUAoEc,424445
+cptv/frame.py,sha256=J-zRHzPmCrXc2oMPur0WC7nxBcz2afRBEC8l-8IwJ30,329
+cptv/__init__.py,sha256=iEL3zBNJn1MIrNJbheTiQfdTRCtXbqwMQqf-AvOC4UY,32
+cptv-0.4.0.dist-info/RECORD,,
+cptv-0.4.0.dist-info/METADATA,sha256=b1odMNSEkiwi6z2Kjx_6-ExYFWyYfPiVm66EEtnYYc8,816
+cptv-0.4.0.dist-info/top_level.txt,sha256=eeuCwlsDmpgDHabrHATSTqaVaT_vB_BKEaTC49TbQBo,5
+cptv-0.4.0.dist-info/WHEEL,sha256=d2ILPScH-y2UwGxsW1PeA2TT-KW0Git4AJ6LeOK8sQo,109
