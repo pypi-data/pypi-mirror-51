@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Biology
+Version: 0.0.1
+Summary: Biological Analysis
+Home-page: https://github.com/secretBiology
+Author: Rohit Suratekar
+Author-email: rohitsuratekar@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+
+## SecretPlots
+
+Under development. Please check after few days. 
+
