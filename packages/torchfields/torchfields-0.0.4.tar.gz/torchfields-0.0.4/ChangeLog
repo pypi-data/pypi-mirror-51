@@ -1,0 +1,40 @@
+CHANGES
+=======
+
+v0.0.4
+------
+
+* Prevent producing NaN in inverse backward pass
+* Allow accessing field type as torchfields.Field
+* Ensure contiguous gradients in inversion backward pass
+* Allow padding to be explicitly given in \_pad()
+* Bump required pytorch version to 1.1.0
+* Factor out voting, inversion, and util functions
+* Update README.md
+* Update README.md
+
+v0.0.3
+------
+
+* Change ndim to ndimension() to support wider range of PyTorch versions
+
+v0.0.2
+------
+
+* [Fix] affine\_field incorrect dimensions bug
+
+v0.0.1
+------
+
+* [Fix] inverse not working on cpu
+* Add setup.py, setup.cfg, README.md, .gitignore, and requirements.txt
+* DisplacementField: minor bug fixes, refactors, and comments
+* Safe division to avoid NaNs during backward pass
+* Use winding number to test inclusion rather than bounding i,j
+* Epsilon for comparison to zero
+* Autopad functionality in left inverse
+* More efficient left inverse using sparse tensors
+* Mean finite vector function
+* Inefficient implementation of left inverse
+* Add DisplacementField class to abstract displacement field operations
+* Initial commit
