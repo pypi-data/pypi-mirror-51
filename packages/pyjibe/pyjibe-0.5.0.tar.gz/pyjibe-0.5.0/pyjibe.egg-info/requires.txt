@@ -1,0 +1,4 @@
+appdirs
+nanite>=1.1.1
+matplotlib
+pyqt5
