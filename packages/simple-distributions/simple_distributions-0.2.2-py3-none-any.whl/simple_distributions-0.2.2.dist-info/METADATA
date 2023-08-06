@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: simple-distributions
+Version: 0.2.2
+Summary: A package for calculating probability density functions of common statistical distributions using numerical data and visualizing the results.
+Home-page: UNKNOWN
+Author: Dave Rench McCauley
+Author-email: drench56@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# simple_distributions
+
+The code herein creates probability density functions (PDFs) for Gaussian and binomial distributions based upon simple inputs. It also allows for modification of the PDFs based on external data file provided, as well as visualization of the data and PDF in question.
+
+## Installation and Importing
+
+You can install by running
+
+`pip install simple-distributions`
+
+but keep in mind that it needs to be imported using the underscore, e.g.
+
+`import simple_distributions`
+
