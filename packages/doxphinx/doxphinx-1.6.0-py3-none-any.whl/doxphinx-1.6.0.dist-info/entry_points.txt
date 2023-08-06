@@ -1,0 +1,3 @@
+[sphinx.html_themes]
+doxphinx = doxphinx
+
