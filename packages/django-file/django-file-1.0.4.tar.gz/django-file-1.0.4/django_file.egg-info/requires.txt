@@ -1,0 +1,3 @@
+django-file-download>=1.0.1
+django-file-md5>=1.0.3
+django-file-upload
