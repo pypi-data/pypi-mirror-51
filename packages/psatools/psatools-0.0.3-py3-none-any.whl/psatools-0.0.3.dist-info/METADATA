@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: psatools
+Version: 0.0.3
+Summary: Provides wrappers for electrical engineering calculations
+Home-page: https://github.com/windcrusader/psatools
+Author: Brad Henderson
+Author-email: ba.henderson@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# psatools
+electrical engineering and power system analysis calculation tools
+
+
