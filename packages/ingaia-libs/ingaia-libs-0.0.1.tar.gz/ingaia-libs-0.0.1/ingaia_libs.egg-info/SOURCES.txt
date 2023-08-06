@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+ingaia/__init__.py
+ingaia/__main__.py
+ingaia_libs.egg-info/PKG-INFO
+ingaia_libs.egg-info/SOURCES.txt
+ingaia_libs.egg-info/dependency_links.txt
+ingaia_libs.egg-info/entry_points.txt
+ingaia_libs.egg-info/requires.txt
+ingaia_libs.egg-info/top_level.txt
