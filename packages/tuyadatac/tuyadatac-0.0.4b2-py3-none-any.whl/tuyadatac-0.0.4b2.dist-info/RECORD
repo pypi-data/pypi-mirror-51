@@ -1,0 +1,9 @@
+tuyadatac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tuyadatac/client_ftp.py,sha256=e20wYgSWJdqSKB2vvYfOGWwG0TUHMwuZtFv5KsEk0aU,4490
+tuyadatac/client_workspace.py,sha256=U3u2lodyfSHBRNw5pvlKx_cw5KZ5FTZHRbb5q95iOok,312
+tuyadatac/client_workspace_test.py,sha256=24F7LC95zGKjVYBndBBHCoWexteITrCc8-XAj6Sjm4s,277
+tuyadatac-0.0.4b2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+tuyadatac-0.0.4b2.dist-info/METADATA,sha256=PXy9Wj92UJPIvkkWMCQYzqXksiFdrTzAQfMgzZPOIZk,555
+tuyadatac-0.0.4b2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tuyadatac-0.0.4b2.dist-info/top_level.txt,sha256=jiZkzyl2OfOZoWYTuedz2v0C4FCn2pm-B_elCceyZ1M,10
+tuyadatac-0.0.4b2.dist-info/RECORD,,
