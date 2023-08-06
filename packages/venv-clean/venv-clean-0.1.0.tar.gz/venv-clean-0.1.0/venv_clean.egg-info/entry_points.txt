@@ -1,0 +1,3 @@
+[console_scripts]
+venv-clean = venv_clean.__main__:main
+
