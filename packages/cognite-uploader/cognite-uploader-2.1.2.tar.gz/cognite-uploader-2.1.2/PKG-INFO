@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cognite-uploader
+Version: 2.1.2
+Summary: Uploader used in extractors.
+Home-page: https://github.com/cognitedata/python-uploader
+Author: Mathias Lohne
+Author-email: mathias.lohne@cognite.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

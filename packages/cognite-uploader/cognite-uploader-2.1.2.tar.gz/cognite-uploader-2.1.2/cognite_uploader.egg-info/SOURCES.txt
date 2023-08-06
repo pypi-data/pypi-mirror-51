@@ -1,0 +1,9 @@
+README.md
+setup.py
+cognite_uploader/__init__.py
+cognite_uploader/cognite_uploader.py
+cognite_uploader.egg-info/PKG-INFO
+cognite_uploader.egg-info/SOURCES.txt
+cognite_uploader.egg-info/dependency_links.txt
+cognite_uploader.egg-info/requires.txt
+cognite_uploader.egg-info/top_level.txt
