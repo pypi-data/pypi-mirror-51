@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: string-color
+Version: 0.0.1
+Summary: just another mod to print strings in 256 colors in the terminal.
+Home-page: https://donthaveoneyet.com
+Author: Andy Klier
+Author-email: andyklier@gmail.com
+License: UNKNOWN
+Description: # string-color
+        
+        string-color is just another python module for coloring strings in print statements.
+        
+        ### installation
+        
+        `$ pip install string-color`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
