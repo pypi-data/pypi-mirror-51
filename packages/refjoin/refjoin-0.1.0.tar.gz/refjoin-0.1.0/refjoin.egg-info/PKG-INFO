@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: refjoin
+Version: 0.1.0
+Summary: conspospy: Join two alignments by referring to the identical sequences as a template.
+Home-page: https://github.com/yamasampo/refjoin
+Author: Division of Evolutionary Genetics in NIG
+Author-email: hyamashita@nig.ac.jp
+License: UNKNOWN
+Description: # refjoin
+        
+        Join two alignments by referring to the identical sequences as a template.
+        
+        ## Installation
+        
+            pip install refjoin
+        
+        ## Requirement
+        
+        - numpy
+        
+        ## About authors
+        
+        refjoin is mainly written by Kent Kawashima.
+        The future revision and maintainance will be done by Haruka Yamashita.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
