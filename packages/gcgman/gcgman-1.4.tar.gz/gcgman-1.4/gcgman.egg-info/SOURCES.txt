@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/gcgman
+gcgman/__init__.py
+gcgman.egg-info/PKG-INFO
+gcgman.egg-info/SOURCES.txt
+gcgman.egg-info/dependency_links.txt
+gcgman.egg-info/requires.txt
+gcgman.egg-info/top_level.txt
