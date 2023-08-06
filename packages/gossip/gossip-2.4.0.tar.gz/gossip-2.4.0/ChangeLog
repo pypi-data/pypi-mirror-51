@@ -1,0 +1,144 @@
+CHANGES
+=======
+
+2.4.0
+-----
+
+* Update changelog
+* Support python 3.7
+* Support 'guard' argument for registration (fixes #39) (#40)
+
+2.3.1
+-----
+
+* Changelog
+* Ensure define\_hook handles hook kwargs even if it already being defined (closes #36)
+* Add release 2.2.0 to changelog
+* Switch to PBR (fix #30)
+
+2.3.0
+-----
+
+* v2.3.0
+* Update changelog
+* Add registered context (fix #28)
+* Support mechanism for forbid usage of mute\_context
+* Update .travis.yml & setup.py
+* Bump version
+
+2.2.0
+-----
+
+* Bump version
+* Save unmet dependencies on exception object (CannotResolveDependencies)
+* Fix unregister\_token behavior (fix #25)
+
+2.1.1
+-----
+
+* Bump version
+* Fix get\_argument\_names implementation
+
+2.1.0
+-----
+
+* v2.1.0
+* Fix changelog
+* Add optional type checks to hooks
+* Add hook.register\_no\_op()
+* Fix bug: Hook's unregister/unregister\_all needs to recalculate unmet dependencies
+* Support registration priorities (fix #21)
+* Pylint fixes
+* Fix Travis build
+* Update pip version in travis
+* Use vintage for hooks deprecation
+* Pylint fixes
+
+2.0.1
+-----
+
+* bump version
+* Update documentation conf
+* README
+* Update README/supported versions
+
+2.0.0
+-----
+
+* bump version
+* Support toggle registrations (fix #17)
+* Fix doc links
+* Support non-reentrant handlers (fix #16)
+* Remove 2.6 support
+* Fix log formatting (#15)
+
+1.1.2
+-----
+
+* bump version
+* Fix travis deployment
+* Complete move to logbook, raise errors on bad formatting on tests
+* Add log when triggering muted hook
+
+1.1.1
+-----
+
+* bump version
+* Travis pypi deployment
+* New Travis infrastructure
+* Add Python 3.5 testing
+
+1.1.0
+-----
+
+* bump version
+* Demote warning to debug log
+* Support deprecated hooks
+*  Allow unregister token from a hook (#12)
+* Ignore .cache
+* Document trigger\_with\_tags
+
+1.0.0
+-----
+
+* bump version
+* Cosmetics
+* 3.4 version marker
+* README
+* Make topological sort order more deterministic/stable
+* Fix doc typo
+*  Add needs/provides mechanism for fine grained control of dependencies (#11)
+*  Add hook.pre\_trigger\_callback (#10)
+*  Add support for registration blueprints (#9)
+
+0.10.1
+------
+
+* bump version
+* Add log when catching exceptions in hooks
+* Remove unused code
+
+0.10.0
+------
+
+* bump version
+*  Add option to make groups non-strict (#6)
+* Finished release 0.9.1
+
+0.9.1
+-----
+
+* Finished release 0.9.1
+* Bump version
+* Add verbosity to hook dependency errors
+* More tests
+* Rename test
+* Better \_\_repr\_\_ for registration objects (#1)
+*  Document the new tags feature (#3)
+
+0.9.0
+-----
+
+* bump version
+* Added Changelog
+* Add support for muting hooks (#4)

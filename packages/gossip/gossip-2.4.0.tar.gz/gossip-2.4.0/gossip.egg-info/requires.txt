@@ -1,0 +1,8 @@
+logbook>=0.12.0
+sentinels
+vintage
+
+[testing]
+pylint
+pytest
+munch
