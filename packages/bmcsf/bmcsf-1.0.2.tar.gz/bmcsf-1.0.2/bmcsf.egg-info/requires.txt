@@ -1,0 +1,14 @@
+asn1crypto
+bcrypt
+certifi
+cffi
+chardet
+cryptography
+idna
+paramiko
+pycparser
+PyNaCl
+requests
+six
+urllib3
+vultr
