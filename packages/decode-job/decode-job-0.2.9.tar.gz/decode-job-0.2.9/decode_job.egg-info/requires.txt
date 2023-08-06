@@ -1,0 +1,6 @@
+selenium
+boto3
+requests
+proxy-requests
+beautifulsoup4
+pdfminer.six
