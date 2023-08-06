@@ -1,0 +1,168 @@
+#!/usr/bin/env python
+"""
+CLI utility for logging the time you spend on things.
+    Usage: `lt --help`
+"""
+from __future__ import print_function
+
+from builtins import str
+import os
+import re
+from datetime import date, timedelta, datetime
+import click
+import logtime_cli.logfile_io as logfile_io
+from logtime_cli.logtime import log_time, open_logfile_for_date, continue_last_entry, recalculate
+from logtime_cli.logtime_config import open_user_config, get_option
+from logtime_cli.statistics import logfile_pie
+
+def _convert_time_of_day(time_of_day):
+    if time_of_day in ('A', 'a'):
+        return "AM"
+    if time_of_day in ('P', 'p'):
+        return "PM"
+    return None
+
+
+def _get_time_from_argument(arg_time):
+    military_time_match = re.search('^([0-1][0-9]|[2][0-3]):?([0-6][0-9])$', arg_time)
+    standard_time_match = re.search('^([0][0-9]|[1][0-2]):?([0-6][0-9])([AaPp])$', arg_time)
+
+    time_match = military_time_match or standard_time_match
+    if not time_match:
+        raise ValueError('"' + arg_time + '" is not a valid time')
+
+    hours = time_match.group(1)
+    minutes = time_match.group(2)
+    time_string = str(hours) + str(minutes)
+
+    if military_time_match:
+        output_date = datetime.strptime(time_string, "%H%M")
+        return output_date.time()
+
+    if standard_time_match:
+        meridiem = standard_time_match.group(3)
+        output_date = datetime.strptime(time_string + _convert_time_of_day(meridiem), "%I%M%p")
+        return output_date.time()
+
+    return None
+
+
+def _open_previous(ctx, param, value):
+    del param
+    if not value:
+        return
+    previous_date = (date.today() - timedelta(days=value))
+    try:
+        open_logfile_for_date(previous_date)
+    except WindowsError:
+        print("No logfile exists for " + str(previous_date) + ".")
+
+    ctx.exit()
+
+
+def _open_yesterday(ctx, param, value):
+    if not value:
+        return
+    _open_previous(ctx, param, 1)
+
+
+def _continue(ctx, param, value):
+    del param
+    if not value:
+        return
+    continue_last_entry()
+    ctx.exit()
+
+
+def _recalc(ctx, param, value):
+    del param
+    if not value:
+        return
+    recalculate()
+    ctx.exit()
+
+
+def _open_user_config(ctx, param, value):
+    del param
+    if not value:
+        return
+    open_user_config()
+    ctx.exit()
+
+
+def _open_logfile_directory(ctx, param, value):
+    del param
+    if not value:
+        return
+    log_file_directory = get_option('DEFAULT', 'logfile_directory')
+    os.startfile(log_file_directory)
+    ctx.exit()
+
+
+def _open_pie(ctx, param, value):
+    del param
+    if not value:
+        return
+
+    log_data = logfile_io.load_logfile(date.today())
+
+    logfile_pie.show_pie(log_data, date.today())
+
+    ctx.exit()
+
+
+@click.command(context_settings=dict(help_option_names=['-h', '--help']))
+@click.option('--previous', '-p', type=int, callback=_open_previous, expose_value=False,
+              is_eager=True, help='Open a logfile X days in the past and exit.')
+@click.option('--yesterday', '-y', is_flag=True, callback=_open_yesterday, expose_value=False,
+              is_eager=True, help='Open yesterdays logfile and exit. Alias for `-p 1`.')
+@click.option('--continue', '-c', is_flag=True, callback=_continue, expose_value=False,
+              is_eager=True,
+              help='Continue the most recent entry by updating the end date and exit.')
+@click.option('--recalc', '-r', is_flag=True, callback=_recalc, expose_value=False,
+              is_eager=True,
+              help='Recalulate each of the days time entries.')
+@click.option('--config', is_flag=True, callback=_open_user_config, expose_value=False,
+              is_eager=True, help='Open user config file and exit.')
+@click.option('--dir', is_flag=True, callback=_open_logfile_directory, expose_value=False,
+              is_eager=True, help='Open logfile directory and exit.')
+@click.option('--pie', is_flag=True, callback=_open_pie, expose_value=False,
+              is_eager=True, help="Show pie chart for today's time log.")
+@click.argument('entry', nargs=-1)
+@click.option('--begin', '-b', is_flag=True,
+              help='Set the start and end time for this entry to the current time. '
+              'Use `-c` to continue this entry later.')
+@click.option('--start', '-s',
+              help='Choose a start time for this entry. Format: `0130p`, `01:30p, `1330`, `13:30`.')
+@click.option('--end', '-e',
+              help='Choose an end time for this entry. Format: `0130p`, `01:30p, `1330`, `13:30`.')
+def cli(entry, begin, start, end):
+    """Log what you just finished doing.
+
+    Examples:
+
+    \b
+    lt python docs
+    lt john: discuss python docs
+
+    \b
+    To open today's logfile and exit, use:
+    lt
+    """
+    if not entry:
+        open_logfile_for_date(date.today(), can_create=True)
+    else:
+        start_time = None
+        end_time = None
+        if begin:
+            start_time = datetime.today().time()
+            end_time = datetime.today().time()
+        else:
+            if start:
+                start_time = _get_time_from_argument(start)
+            if end:
+                end_time = _get_time_from_argument(end)
+        log_time(' '.join(entry), start_time, end_time)
+
+if __name__ == '__main__':
+    cli() #pylint: disable=no-value-for-parameter
