@@ -1,0 +1,11 @@
+microsockets/__init__.py,sha256=El5fTuevTq-HGuancZDoBX9WYO8kS0cWX4_sfeBnV4s,100
+microsockets/application.py,sha256=Ze6cNw7A-0RlP2yuTVzPoE2EnmZAujdI5ltJzKefKro,937
+microsockets/events.py,sha256=j7kg0NmtG2dP6v9k5xyaUq_E8MD9OUjFhnZPmkuadjk,233
+microsockets/hooks.py,sha256=mplcJdXepgDGzs5AH5qixBFhMHCqQF1J0CRBNbGAq9Q,357
+microsockets/rooms.py,sha256=NAe6-JcN546Wdoyud3Z4ekXfatpgZbwYYztCUmjT2l0,942
+microsockets/scopes.py,sha256=Tc10ujLl5AK63ipCzIWz-2L2CZ6rpZwSvbHm8O6I15o,3400
+microsockets/socket.py,sha256=iqqULTKmm_GRUYDUM-42LPY4V2B1SaVGnpiuWClsVdI,2012
+microsockets-1.0.0.dist-info/METADATA,sha256=M6wHl5AEuGrONlqUoCBOBn8aIW9dx4axX2mmZDffWJA,2555
+microsockets-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+microsockets-1.0.0.dist-info/top_level.txt,sha256=vovLudVdJ-ZIB0OA6iGb8QW6jM54kTrVjq0Y3XGq2K0,13
+microsockets-1.0.0.dist-info/RECORD,,
