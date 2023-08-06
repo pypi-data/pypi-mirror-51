@@ -1,0 +1,41 @@
+include mattapi/targets/firefox/firefox_app/profiles/*
+include mattapi/targets/firefox/firefox_ui/helpers/images/common/*
+include mattapi/targets/firefox/firefox_ui/helpers/images/linux/*
+include mattapi/targets/firefox/firefox_ui/helpers/images/osx/*
+include mattapi/targets/firefox/firefox_ui/helpers/images/win/*
+include mattapi/targets/firefox/firefox_ui/helpers/images/win7/*
+include mattapi/targets/firefox/firefox_ui/images/linux/*
+include mattapi/targets/firefox/firefox_ui/images/osx/*
+include mattapi/targets/firefox/firefox_ui/images/win/*
+include mattapi/targets/firefox/firefox_ui/images/win7/*
+include mattapi/targets/firefox/local_web/css/*
+include mattapi/targets/firefox/local_web/files/*
+include mattapi/targets/firefox/local_web/firefox/*
+include mattapi/targets/firefox/local_web/firefox/images/*
+include mattapi/targets/firefox/local_web/images/*
+include mattapi/targets/firefox/local_web/js/*
+include mattapi/targets/firefox/local_web/mozilla/*
+include mattapi/targets/firefox/local_web/mozilla/images/*
+include mattapi/targets/firefox/local_web/pocket/*
+include mattapi/targets/firefox/local_web/pocket/images/*
+include mattapi/targets/firefox/local_web/soap_wiki_test_site/*
+include mattapi/targets/firefox/local_web/soap_wiki_test_site/wiki_soap_files/*
+include mattapi/targets/firefox/local_web/tests/*
+include mattapi/targets/firefox/local_web/thinkbroadband/*
+include mattapi/targets/firefox/local_web/thinkbroadband/thinkbroadband_files/*
+include mattapi/targets/firefox/local_web/thinkbroadband/thinkbroadband_files/images/*
+include mattapi/targets/firefox/local_web/web_links/*
+include mattapi/targets/firefox/local_web/web_links/images/*
+include mattapi/targets/firefox/local_web/web_links/images/common/*
+include mattapi/targets/firefox/local_web/web_links/images/linux/*
+include mattapi/targets/firefox/local_web/web_links/images/osx/*
+include mattapi/targets/firefox/local_web/web_links/images/win/*
+include mattapi/targets/firefox/local_web/web_links/images/win7/*
+
+include mattapi/targets/sample/section1/section1_1/images/osx/*
+include mattapi/targets/sample/section1/section1_1/images/win/*
+
+
+
+
+
