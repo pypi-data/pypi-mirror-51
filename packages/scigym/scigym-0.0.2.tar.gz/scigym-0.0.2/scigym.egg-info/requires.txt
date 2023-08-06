@@ -1,0 +1,11 @@
+gym==0.14.0
+
+[all]
+tensorflow==1.14
+keras==2.2.4
+
+[surfacecode-decoding]
+tensorflow==1.14
+keras==2.2.4
+
+[teleportation]
