@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: gprof2dot_magic
+Version: 0.4
+Summary: magic function that profile any statement as a dot graph using cProfile, gprof2dot and graphviz
+Home-page: https://github.com/mattijn/gprof2dot_magic
+Author: Mattijn van Hoek
+Author-email: mattijn@gmail.com
