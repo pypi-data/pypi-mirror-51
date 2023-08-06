@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: git-dependency-python
+Version: 1.1.1
+Summary: SDK that helps to manage dependencies directly from git repositories.
+Home-page: https://github.com/laimonassutkus/GitDependencyPython.git
+Author: Laimonas Sutkus
+Author-email: laimonas.sutkus@gmail.com
+License: GNU GENERAL PUBLIC LICENSE Version 3
+Description: UNKNOWN
+Keywords: Git Python Dependency Manager
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: OS Independent
