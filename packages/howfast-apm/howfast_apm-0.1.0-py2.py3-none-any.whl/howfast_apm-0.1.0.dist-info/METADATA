@@ -1,0 +1,80 @@
+Metadata-Version: 2.0
+Name: howfast-apm
+Version: 0.1.0
+Summary: Lightweight Application Performance Monitoring middleware that measures and reports performance data to HowFast APM
+Home-page: https://github.com/HowFast/apm-python
+Author: Mickaël Bergem
+Author-email: mickael@howfast.tech
+License: MIT
+Keywords: apm performance timing howfast
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: flask
+Requires-Dist: requests
+
+HowFast APM for Python servers
+==============================
+
+Light instrumentation of your Python server for reporting performance data to HowFast APM.
+
+Install
+-------
+
+To install / update the module:
+
+.. code:: bash
+
+    pip install howfast-apm
+
+Usage
+-------
+
+Only the Flask middleware is currently available.
+
+.. code:: python
+
+    from howfast-apm.flask import HowFastMiddleware
+
+    # Create your Flask app
+    app = Flask(__name__, ...)
+
+    # Instanciate all your other middlewares first
+
+    # Setup the APM middleware last, so that it can track the time spent inside other middlewares
+    app.wsgi_app = HowFastMiddleware(
+        app.wsgi_app,
+        app_id=HOWFAST_APM_DSN,
+    )
+
+Configuration
+-------------
+
+You can configure the APM through environment variables. If they are defined, those variables will
+be used. Parameters passed to the ``HowFastMiddleware`` constructor take precedence over environment
+variables.
+
+Only one variable is available for now:
+
+* ``HOWFAST_APM_DSN``: The DSN (application identifier) that you can find on your APM dashboard. Can also be passed to the constructor as ``app_id``.
+
+If the environment variable is defined you can then use:
+
+.. code:: python
+
+    app.wsgi_app = HowFastMiddleware(app.wsgi_app)
+
+You can also choose to exclude some URLs from reporting:
+
+.. code:: python
+
+    app.wsgi_app = HowFastMiddleware(
+        app.wsgi_app,
+        endpoints_blacklist=[f'/some/internal/url/'],
+    )
+
+
