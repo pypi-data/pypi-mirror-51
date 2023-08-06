@@ -1,0 +1,11 @@
+conspospy/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+conspospy/conspos.py,sha256=36Air7dFthrzmFJLi8B08itPpcux23L0zEIESBHRWP4,847
+conspospy/constants.py,sha256=uPbCvw0nDTT73AOfwdQ1xRSwrJxWkhIiaDr83rJpdX8,1212
+conspospy/mafft.py,sha256=ET6TRuTK9yPGb34bn40iZdkpLkU1JJ_0m7tqnHzGIJA,4538
+conspospy/pipeline.py,sha256=pz8dLwfHGR0c6sLMMJkV3m7R4yGCHogOzmNv3tXzxEM,4435
+conspospy/utils.py,sha256=22ZhYXa7IrtB0c8WzItM0CdM7ukSSbl1q7VtcNbUNWE,2579
+conspospy-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+conspospy-0.1.1.dist-info/METADATA,sha256=R1Xp3b1ldLxisz6Vsl8HGRYg0OspV-5dXrd8n2kjqoE,979
+conspospy-0.1.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+conspospy-0.1.1.dist-info/top_level.txt,sha256=4q31YAoejPTWk-hm5WKqDHWU76T1jM2oBY1KSFIiD9s,10
+conspospy-0.1.1.dist-info/RECORD,,
