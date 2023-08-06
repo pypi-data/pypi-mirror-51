@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: quantfolio
+Version: 0.3.2
+Summary: A small example package
+Home-page: https://github.com/yehjxraymond/quantfolio
+Author: Raymond Yeh
+Author-email: ray@geek.sg
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: backtrader
+Requires-Dist: matplotlib
+Requires-Dist: bayesian-optimization
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-pep8 ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
