@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nibetaseries
+Version: 0.3.0
+Summary: BetaSeries Correlations implemented in Nipype
+Home-page: https://github.com/HBClab/NiBetaSeries
+Author: James Kent
+Author-email: james-kent@uiowa.edu
+License: MIT license
+Description: Placeholder
+Keywords: bids,fmri,neuroimaging
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: ~=3.5
+Provides-Extra: nb
+Provides-Extra: doc
+Provides-Extra: dev
+Provides-Extra: test

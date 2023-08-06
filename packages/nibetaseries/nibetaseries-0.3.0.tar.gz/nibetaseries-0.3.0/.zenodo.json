@@ -1,0 +1,23 @@
+{
+  "creators": [
+    {
+      "name": "Kent, James D.",
+      "affiliation": "Neuroscience Program, University of Iowa",
+      "orcid": "0000-0002-4892-2659"
+    },
+    {
+      "name": "Herholz, Peer",
+      "affiliation": "Montréal Neurological Institute",
+      "orcid": "0000-0002-9840-6257"
+    }
+  ],
+  "keywords": [
+    "neuroimaging",
+    "betaseries",
+    "analysis",
+    "fMRI",
+    "BIDS"
+  ],
+  "license": "MIT",
+  "upload_type": "software"
+}

@@ -1,0 +1,31 @@
+graft docs
+prune docs/_build
+graft src
+graft ci
+graft tests
+graft examples
+
+include .coveragerc
+include .cookiecutterrc
+include .editorconfig
+include *.md
+include *.json
+
+include *.enc
+include LICENSE
+include *.rst
+include *.yml
+
+include tox.ini .travis.yml
+recursive-include tests *.py
+
+include versioneer.py
+
+prune .github
+prune .joss
+prune .circleci
+global-exclude *.py[cod] __pycache__ *.so *.dylib
+
+exclude *.sh
+exclude Dockerfile
+
