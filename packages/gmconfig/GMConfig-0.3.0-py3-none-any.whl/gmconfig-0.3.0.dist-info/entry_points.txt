@@ -1,0 +1,6 @@
+[console_scripts]
+lint=blackgmconfig
+poetry=poetry.console:main
+test=python-munittestdiscovertests-ptest_*.py
+test-types=mypygmconfig
+
