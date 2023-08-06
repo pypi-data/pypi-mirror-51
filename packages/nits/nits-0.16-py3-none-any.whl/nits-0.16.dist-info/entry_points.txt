@@ -1,0 +1,4 @@
+[console_scripts]
+doit = nits.doit:process
+repeatit = nits.repeatit:process
+
