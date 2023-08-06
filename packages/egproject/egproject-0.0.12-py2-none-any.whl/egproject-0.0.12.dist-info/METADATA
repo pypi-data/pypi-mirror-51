@@ -1,0 +1,32 @@
+Metadata-Version: 2.0
+Name: egproject
+Version: 0.0.12
+Summary: A Python package to print
+Home-page: UNKNOWN
+Author: ANOOP SINGH RANA
+Author-email: apours986@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: PIL
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+
+
+tqdm
+====
+
+
+
+``tqdm`` means "progress" in Arabic (*taqadum*, تقدّم)
+and is an abbreviation for "I love you so much" in Spanish (*te quiero demasiado*).
+
+Instantly make your loops show a smart progress meter - just wrap any
+iterable with ``tqdm(iterable)``, and you're done!
+
+
+Installation
+------------
+
+
