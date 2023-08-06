@@ -1,0 +1,8 @@
+README
+setup.py
+rknn/__init__.py
+rknn_test.egg-info/PKG-INFO
+rknn_test.egg-info/SOURCES.txt
+rknn_test.egg-info/dependency_links.txt
+rknn_test.egg-info/requires.txt
+rknn_test.egg-info/top_level.txt
