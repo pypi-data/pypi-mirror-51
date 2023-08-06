@@ -1,0 +1,15 @@
+README.md
+setup.py
+simqle/__init__.py
+simqle/connection_manager.py
+simqle/constants.py
+simqle/exceptions.py
+simqle/internal.py
+simqle.egg-info/PKG-INFO
+simqle.egg-info/SOURCES.txt
+simqle.egg-info/dependency_links.txt
+simqle.egg-info/requires.txt
+simqle.egg-info/top_level.txt
+simqle/recordset/__init__.py
+simqle/recordset/exceptions.py
+simqle/recordset/recordset.py
