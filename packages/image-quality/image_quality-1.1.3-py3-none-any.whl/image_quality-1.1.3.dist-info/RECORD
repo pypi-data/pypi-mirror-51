@@ -1,0 +1,13 @@
+imquality/__init__.py,sha256=u9ExJqoMv3fQc8WmLTw4I2FnQo6u4xRrBc6DLy6G1IE,22
+imquality/brisque.py,sha256=lgv1KUabzsUx0e6NfNVrHTOigoW_snhvHOkuodGmqqs,4911
+imquality/statistics.py,sha256=6n8nyzT9R_U2W4I6im_u22YK1M9_gaFszCCx5OYhSCw,3499
+imquality/utils.py,sha256=I4rlC0K5SyxtHiaRrfU8k1mLFSByq0lGfbB9GffBVE4,382
+imquality/models/__init__.py,sha256=w_KTTU-2_cSR_xik7ZiPicB1vtYMqfmd4AO-E9pYL1Y,68
+imquality/models/brisque_svm.txt,sha256=GVJvt5nEx5kszBCfz-zdsll2ugJLGUzT7iddJ-iQnI0,351414
+imquality/models/normalize.pickle,sha256=qRdT_nCI7-C0Dk0JExUgH9sGeWb8Z4XPRl4eqwYKzak,686
+imquality/models/__pycache__/__init__.cpython-37.pyc,sha256=RT-SjLpdiO4_REzMnkmoc5U8REtE4xCjA9JFzj5fJdE,239
+image_quality-1.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+image_quality-1.1.3.dist-info/METADATA,sha256=OD9ZP5zWH_7sFXitc440uIbGxVYctme4ZxFzzLyAcW8,2296
+image_quality-1.1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+image_quality-1.1.3.dist-info/top_level.txt,sha256=oyK0T-akl121-Lh-4Hp5sVUe2v8FncUpw61-ER2p8Aw,10
+image_quality-1.1.3.dist-info/RECORD,,
