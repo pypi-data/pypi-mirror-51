@@ -1,0 +1,13 @@
+pandas
+pyarrow
+fastparquet
+sklearn
+tabulate
+preconvert
+preconvert_numpy
+
+[all]
+fastparquet[brotli,lz4,lzo,snappy,zstandard]
+
+[noc]
+fastparquet[brotli,lz4,snappy]
