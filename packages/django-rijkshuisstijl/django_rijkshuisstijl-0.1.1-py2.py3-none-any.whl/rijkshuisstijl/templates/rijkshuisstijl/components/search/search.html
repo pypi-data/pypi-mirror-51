@@ -1,0 +1,8 @@
+{% spaceless %}{% load i18n rijkshuisstijl %}
+<form class="search{% if request.path == '/' %} search--initial{% endif %}" action="{{ search_url }}" method="post">
+    <input class="search__input" id='search-input' placeholder="{{ _('Zoeken') }}" type="search">
+    {% button class='button--primary' icon='zoeken' type='button' focus_target='.search__input' toggle_target='.search' toggle_modifier='open'%}
+    {% button class='button--secondary button--small button--transparent' icon='close' type='reset' %}
+    {% csrf_token %}
+</form>
+{% endspaceless %}

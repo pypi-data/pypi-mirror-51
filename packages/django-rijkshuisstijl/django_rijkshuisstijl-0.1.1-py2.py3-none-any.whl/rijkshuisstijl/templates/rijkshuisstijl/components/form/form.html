@@ -1,0 +1,25 @@
+{% spaceless %}{% load i18n sniplates %}
+    {% load_widgets form=sniplates|default:'rijkshuisstijl/components/form/sniplates.html' %}
+    <form class="form{% if class %} {{ class }}{% endif %}" method="{{ method|default:'post' }}" {% if id %} id="{{id}}"{% endif %}>
+        <header class="form__header">
+            {% if title %}<h1 class="form__title">{{ title }}</h1>{% endif %}
+            <p class="form__text">* {{ _('verplichte velden') }}</p>
+        </header>
+
+        <div class="form__body">
+            {% csrf_token %}
+
+            {% for error in form.non_field_errors %}
+                {% include './errors.html' with class='errors--non-field' errors=error only %}
+            {% endfor %}
+
+            {% for field in form %}
+                {% form_field field %}
+            {% endfor %}
+
+            <div class="form__actions">
+                <button class="button {{ button_class|default:'button--primary' }}" type="submit">{{ label|default:_('Verzenden') }}</button>
+            </div>
+        </div>
+    </form>
+{% endspaceless %}

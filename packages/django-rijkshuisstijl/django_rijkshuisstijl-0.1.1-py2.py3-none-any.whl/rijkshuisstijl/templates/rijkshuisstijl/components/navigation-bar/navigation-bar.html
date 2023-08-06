@@ -1,0 +1,11 @@
+{% spaceless %}{% load i18n rijkshuisstijl sitetree %}
+<nav class="navigation-bar">
+    <div class="navigation-bar__body">
+        {% login_bar details_url=details_url logout_url=logout_url login_url=login_url registration_url=registration_url %}
+        {% sitetree_menu from 'navigation-bar' include 'trunk,topmenu' template 'rijkshuisstijl/components/navigation-bar/menu.html' %}
+        <div class="navigation-bar__actions">
+            {% search request=request %}
+        </div>
+    </div>
+</nav>
+{% endspaceless %}

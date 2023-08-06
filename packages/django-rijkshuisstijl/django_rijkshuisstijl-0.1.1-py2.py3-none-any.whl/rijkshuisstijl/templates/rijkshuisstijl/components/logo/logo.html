@@ -1,0 +1,8 @@
+{% spaceless %}{% load i18n rijkshuisstijl static %}
+<a class="logo" href="/">
+    {% static 'rijkshuisstijl/components/logo/logo-mobile.svg' as mobile_src %}
+    {% static 'rijkshuisstijl/components/logo/logo-tablet.svg' as src %}
+    {% image alt=_('Logo Rijksoverheid') mobile_src=mobile_src src=src %}
+</a>
+{% endspaceless %}
+

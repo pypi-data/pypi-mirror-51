@@ -1,0 +1,34 @@
+{% spaceless %}
+    <div class="form-control{% if class %} {{ class }}{% endif %}">
+        {% if label and required %}{% include './label.html' with label=label|add:' *' for=id %}{% endif %}
+        {% if label and not required %}{% include './label.html' with label=label for=id %}{% endif %}
+
+        {% if type == 'checkbox' %}
+            {% if choices %}
+                {% for choice in choices %}
+                    {% include './checkbox.html' with choice=choice type=type name=name value=value checked=checked id=id errors=errors widget_attrs=widget.attrs only %}
+                {% endfor %}
+            {% else %}
+                {% include './checkbox.html' with type=type name=name value=value checked=checked id=id errors=errors widget_attrs=widget.attrs only %}
+            {% endif %}
+
+
+        {% elif type == 'radio' %}
+            <div class="form-control__choices">
+                {% for choice in choices %}
+                    {% include './checkbox.html' with choice=choice type=type name=name value=value id=id errors=errors widget_attrs=widget.attrs only %}
+                {% endfor %}
+            </div>
+
+        {% elif type == 'select' %}
+            {% include './select.html' with name=name value=value id=id errors=errors %}
+        {% elif type == 'textarea' %}
+            {% include './textarea.html' with name=name value=value placeholder=placeholder id=id errors=errors widget_attrs=widget.attrs only %}
+        {% else %}
+            {% include './input.html' with type=type name=name value=value checked=checked placeholder=placeholder id=id errors=errors widget_attrs=widget.attrs only %}
+        {% endif %}
+
+        {% if errors %}{% include './errors.html' with errors=errors for=id %}{% endif %}
+        {% if help_text %}{% include './help-text.html' with help_text=help_text for=id %}{% endif %}
+    </div>
+{% endspaceless %}
