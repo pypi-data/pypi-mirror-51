@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: cryptide
+Version: 0.0.1
+Summary: Proclame la bonne parole des CYBER
+Home-page: UNKNOWN
+Author: Ursial
+Author-email: ursial.alain@hotmail.fr
+License: WTFPL
+Description: Chiffrment de lib
+        ========================================================
+        
+        Ce module proclame la bonne parole de sieurs des MASTER CYBER. Puissent-t-ils
+        retrouver une totale liberté de pensée cosmique vers un nouvel age
+        reminiscent.
+        
+        Vous pouvez l'installer avec pip:
+        
+            pip install cryptide
+        
+        Ce code est sous licence WTFPL.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Communications
