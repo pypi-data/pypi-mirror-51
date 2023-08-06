@@ -1,0 +1,14 @@
+.coveragerc
+.gitlab-ci.yml
+.pylintrc
+CHANGELOG.md
+Pipfile
+Pipfile.lock
+README.rst
+setup.py
+dlinfo/__init__.py
+dlinfo.egg-info/PKG-INFO
+dlinfo.egg-info/SOURCES.txt
+dlinfo.egg-info/dependency_links.txt
+dlinfo.egg-info/top_level.txt
+tests/dlinfo_test.py
