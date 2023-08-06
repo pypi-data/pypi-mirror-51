@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yamlargparse
+Version: 1.31.1
+Summary: Parsing of command line options, yaml config files and/or environment variables based on argparse.
+Home-page: https://omni-us.github.io/jsonargparse/
+Author: Mauricio Villegas
+Author-email: mauricio@omnius.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: PyYAML (>=3.13)
+
+This package has been renamed and now is available at `jsonargparse <https://pypi.org/project/jsonargparse/>`_. Please refrain from using yamlargparse and use the new **jsonargparse** instead.
+
+
