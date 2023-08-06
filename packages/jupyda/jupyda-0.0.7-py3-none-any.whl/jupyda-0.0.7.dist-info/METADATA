@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jupyda
+Version: 0.0.7
+Summary: IPython magic extension to run CUDA C code on jupyter notebooks.
+Home-page: https://github.com/sourabhXIII/jupyda
+Author: Sourabh Maity
+Author-email: no-one@no-where.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# jupyda
+Ipython extension to execute CUDA C code in Jupyter notebook.
+Now you can easily use the power of Google colab GPUs with your CUDA C code.
+
+See this example colab [notebook](https://colab.research.google.com/drive/1NWnRqRfl3yY-DiezTwqS1NH-YVZptqu6).
+
+
