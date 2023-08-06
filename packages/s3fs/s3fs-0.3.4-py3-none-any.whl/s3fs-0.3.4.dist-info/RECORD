@@ -1,0 +1,11 @@
+s3fs/__init__.py,sha256=cAY88hwp-qQXb5MuccRgbBsWyQh5KEPqlbkDgaJYVBw,160
+s3fs/_version.py,sha256=foGSQ0z0Ar697gUxha4d-yeJbUXxPFpHWnpj5rM-5iw,497
+s3fs/core.py,sha256=3AXiJ2MgvOmOCIzPzpYFbisOC-2lPtSIl-h3WRiA3Vc,44166
+s3fs/errors.py,sha256=aggiQKjJMM8N7gvLO9aFvwuro63XqaC7j1whHQgCQ78,7390
+s3fs/mapping.py,sha256=VAQeT7AziqxsEiaEa9NNSXhxEHTyMxYOlklW4impOuk,238
+s3fs/utils.py,sha256=ozpf9HLf_562h0W_7BQmJLa6qWICjYqsElOV5RNr6jQ,4317
+s3fs-0.3.4.dist-info/LICENSE.txt,sha256=3DWZ-ma8G8_6I2g4vi-04V-EzkgBJE7sk9kOUVz8WNE,1505
+s3fs-0.3.4.dist-info/METADATA,sha256=iDnxBhaNwbskqeDjGZ2Rpe8R_m5yRhDhiqGq90w8fgs,1301
+s3fs-0.3.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+s3fs-0.3.4.dist-info/top_level.txt,sha256=Lf6EI3TdjlPu7TN-92IIY6c-GdrHnkrKGb1n0iwKooI,5
+s3fs-0.3.4.dist-info/RECORD,,
