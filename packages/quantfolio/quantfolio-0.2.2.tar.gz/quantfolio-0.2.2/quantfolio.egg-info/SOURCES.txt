@@ -1,0 +1,11 @@
+README.md
+setup.py
+quantfolio/Portfolio.py
+quantfolio/__init__.py
+quantfolio.egg-info/PKG-INFO
+quantfolio.egg-info/SOURCES.txt
+quantfolio.egg-info/dependency_links.txt
+quantfolio.egg-info/requires.txt
+quantfolio.egg-info/top_level.txt
+quantfolio/modA/Optimizer.py
+quantfolio/modA/__init__.py
