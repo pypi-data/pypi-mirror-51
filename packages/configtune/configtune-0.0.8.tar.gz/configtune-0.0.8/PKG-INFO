@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: configtune
+Version: 0.0.8
+Summary: A package to tune parameters with config files: designed with machine learning hyperparameter tuning in mind.
+Home-page: https://github.com/orionw/configtune
+Author: Orion Weller and Brandon Schoenfeld
+Author-email: orionw@byu.edu
+License: MIT
+Download-URL: https://github.com/orionw/configtune/archive/v0.0.8.tar.gz
+Description: UNKNOWN
+Keywords: tuning machinelearning genetic hyperparameters bayesian optimization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: ~=3.5
