@@ -1,0 +1,14 @@
+benchmarks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+benchmarks/benchmarks.py,sha256=CmzaYS_H5hqpenfC407fzUDHkWCKqvWg0SyA4TWHztM,3248
+benchmarks/boolean.py,sha256=sdXFwhuXUaGBvx2H0YAFjuPSOzzEGKtO8ftQZ8ufeh8,1790
+fletcher/__init__.py,sha256=2HMRNOMYWrF5rCIIKz6qQ_C_4owZw1Ar6cg6aKEWX8M,188
+fletcher/_algorithms.py,sha256=AJQ5ZVO8gIFpDY5PGt8yddnUZIYBvVDoBpF0Rw5haxg,6954
+fletcher/_numba_compat.py,sha256=tJNv3jb7eAcrtz5Qi1Rsft-vh_dh-l_NL-ohuYUnb_w,6243
+fletcher/base.py,sha256=kp6UTcjPP0nvdIrm2bhWy0NY9Vd8pCkI-liHETRdJOc,25742
+fletcher/string_array.py,sha256=uODlGui63s-i16jOhEZR8wRHsCIBBJnSh0vn3GwH5AA,1456
+fletcher-0.2.0.dist-info/LICENSE,sha256=63uQ9PSgceSkVjIh9xESpZCowOD-D6lLYsr-0V8y7nY,1068
+fletcher-0.2.0.dist-info/METADATA,sha256=Q2toAGVmVI0Vzi5K82YUqJRtkWAVJ4wddGptIgc4_6Q,3082
+fletcher-0.2.0.dist-info/NOTICE,sha256=-NC3p-R8x71I8xAqtV9UB5l68zNz1rF61xkgkMBwg5c,1645
+fletcher-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+fletcher-0.2.0.dist-info/top_level.txt,sha256=of4tSVl3YymX7UlCXnEKzLOC-R_tAvMSFE_B0MwmrYI,20
+fletcher-0.2.0.dist-info/RECORD,,
