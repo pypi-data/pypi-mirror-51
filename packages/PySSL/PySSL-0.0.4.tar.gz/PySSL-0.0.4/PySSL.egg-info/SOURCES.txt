@@ -1,0 +1,12 @@
+README.md
+setup.py
+PySSL.egg-info/PKG-INFO
+PySSL.egg-info/SOURCES.txt
+PySSL.egg-info/dependency_links.txt
+PySSL.egg-info/top_level.txt
+cmdIf/__init__.py
+cmdIf/boost_python37-vc140-mt-x64-1_67.dll
+cmdIf/cmdIf.pyd
+visionIf/__init__.py
+visionIf/boost_python37-vc140-mt-x64-1_67.dll
+visionIf/visionIf.pyd
