@@ -1,0 +1,55 @@
+Metadata-Version: 1.2
+Name: cbvadmin
+Version: 0.5.1
+Summary: Drop-in replacement of Django admin using Class Based Views
+Home-page: https://github.com/roldaojr/cbvadmin
+Author: roldaojr
+Author-email: roldaogjr@gmail.com
+License: LGPL
+Description: ========
+        CBVadmin
+        ========
+        
+        A drop in replacement for Django Admin using django class based views.
+        The interface made with semantic-ui framework.
+        
+        The admin uses the following existing django apps.
+        
+        - django-crispy-forms
+        - django-filter
+        - django-simple-menu
+        - django-tables2
+        
+        Installing
+        ==========
+        
+        ``pip install cbvadmin``
+        
+        Add the following to django settings.py
+        
+        .. code-block:: python
+        
+            installed_apps [
+                ...
+                'cbvadmin',
+                'semantic_ui',
+                'crispy_forms',
+                'django_tables2',
+                'django_filters',
+                'menu',
+            ]
+        
+Keywords: admin,django
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
