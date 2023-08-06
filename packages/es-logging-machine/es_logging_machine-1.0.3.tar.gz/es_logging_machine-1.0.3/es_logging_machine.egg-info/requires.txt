@@ -1,0 +1,7 @@
+ConfigParser
+pytz
+datetime
+elasticsearch
+certifi
+requests
+boto3
