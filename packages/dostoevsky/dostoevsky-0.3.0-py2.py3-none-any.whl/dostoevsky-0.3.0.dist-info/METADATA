@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: dostoevsky
+Version: 0.3.0
+Summary: Sentiment analysis library for russian language
+Home-page: https://github.com/bureaucratic-labs/dostoevsky
+Author: Bureaucratic Labs
+Author-email: hello@b-labs.pro
+License: MIT
+Keywords: natural language processing,sentiment analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown
+Requires-Dist: b-labs-models (==2017.8.22)
+Requires-Dist: razdel (==0.4.0)
+Requires-Dist: gensim (==3.8.0)
+Requires-Dist: Keras (==2.2.5)
+Requires-Dist: fasttext (==0.9.1)
+Requires-Dist: pymorphy2 (==0.8)
+Requires-Dist: pytest (==5.1.2)
+Requires-Dist: russian-tagsets (==0.6)
+Requires-Dist: scikit-learn (==0.21.3)
+Requires-Dist: tensorflow (==1.14.0)
+
+# Dostoevsky [![Build Status](https://travis-ci.org/bureaucratic-labs/dostoevsky.svg?branch=master)](https://travis-ci.org/bureaucratic-labs/dostoevsky) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbureaucratic-labs%2Fdostoevsky.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbureaucratic-labs%2Fdostoevsky?ref=badge_shield)
+
+<img align="right" src="https://i.imgur.com/uLMWPuL.png">
+
+Sentiment analysis library for russian language
+
+## Install
+
+Please note that `Dostoevsky` supports only Python 3.6+
+
+```bash
+$ pip install dostoevsky
+```
+
+## Social network model [FastText]
+
+This model was trained on [RuSentiment dataset](https://github.com/text-machine-lab/rusentiment) and achieves up to ~0.71 F1 score.  
+Hyperparameters used for training:
+```
+epoch = 10
+lr = 0.21909
+dim = 64
+minCount = 1
+wordNgrams = 3
+minn = 2
+maxn = 5
+bucket = 259929
+dsub = 2
+loss = one-vs-all
+```
+
+### Usage
+
+First of all, you'll need to download binary model:
+
+```bash
+$ dostoevsky download fasttext-social-network-model
+```
+
+Then you can use sentiment analyzer:
+
+```python
+from dostoevsky.tokenization import RegexTokenizer
+from dostoevsky.models import FastTextSocialNetworkModel
+
+tokenizer = RegexTokenizer()
+tokens = tokenizer.split('всё очень плохо')  # [('всё', None), ('очень', None), ('плохо', None)]
+
+model = FastTextSocialNetworkModel(tokenizer=tokenizer)
+
+messages = [
+    'привет',
+    'я люблю тебя!!',
+    'малолетние дебилы'
+]
+
+results = model.predict(messages, k=2)
+
+for message, sentiment in zip(messages, results):
+    """
+    привет -> {'speech': 1.0000100135803223, 'skip': 0.0020607432816177607}
+    я люблю тебя!! -> {'positive': 0.9886782765388489, 'skip': 0.005394937004894018}
+    малолетние дебилы -> {'negative': 0.9525841474533081, 'neutral': 0.13661839067935944}]
+    """
+    print(message, '->', sentiment)
+```
+
+## Social network model [CNN]
+
+This model was trained on RuSentiment dataset too, but uses pretrained embeddings from RuSentiment dataset and achieves up to ~0.70 F1 score. Also, this model is implemented using Keras, so its possible to run on GPU.  
+![](https://i.imgur.com/bGAEWvg.png)
+
+### Usage
+
+First of all, you'll need to download pretrained word embeddings and model:
+
+```bash
+$ dostoevsky download vk-embeddings cnn-social-network-model
+```
+
+Then, we can build our pipeline: `text -> tokenizer -> word embeddings -> CNN`
+
+```python
+from dostoevsky.tokenization import UDBaselineTokenizer, RegexTokenizer
+from dostoevsky.embeddings import SocialNetworkEmbeddings
+from dostoevsky.models import SocialNetworkModel
+
+tokenizer = UDBaselineTokenizer() or RegexTokenizer()
+tokens = tokenizer.split('всё очень плохо')  # [('всё', 'ADJ'), ('очень', 'ADV'), ('плохо', 'ADV')]
+
+embeddings_container = SocialNetworkEmbeddings()
+
+vectors = embeddings_container.get_word_vectors(tokens)
+vectors.shape  # (3, 300) - three words/vectors with dim=300
+
+model = SocialNetworkModel(
+  tokenizer=tokenizer,
+  embeddings_container=embeddings_container,
+  lemmatize=False,
+)
+
+messages = [
+    'наступили на ногу',
+    'всё суперски',
+]
+
+results = model.predict(messages)
+
+for message, sentiment in zip(messages, results):
+    print(message, '->', sentiment)  # наступили на ногу -> negative
+```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbureaucratic-labs%2Fdostoevsky.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbureaucratic-labs%2Fdostoevsky?ref=badge_large)
+
+
