@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: swiftype
+Version: 1.2.3
+Summary: A Deprecated Swiftype Site Search API Client for Python.  - Use new elastic-site-search package instead.
+Home-page: https://swiftype.com/
+Author: Swiftype
+Author-email: team@swiftype.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
