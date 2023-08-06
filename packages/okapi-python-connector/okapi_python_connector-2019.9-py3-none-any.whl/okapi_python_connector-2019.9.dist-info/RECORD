@@ -1,0 +1,10 @@
+okapi_pkg/__init__.py,sha256=Uf-dSrPz-7gFtze02gSdVIciRjL7nANQS4z9kUvxMOM,66
+okapi_pkg/okapi_get_result.py,sha256=ws1OMpQFh1-rBP6l6zfadlZOvZR0v76kjmLiFwbv84k,4927
+okapi_pkg/okapi_init.py,sha256=3pysCL-ukmjKGOIf-C98Vhm0AEQ-Jau4koEHZvHsPhc,3805
+okapi_pkg/okapi_send_request.py,sha256=2-9Ikf_mhx6KrXoJ1WuL_7EsQapAEQZfJDaw9GICyFU,2940
+okapi_pkg/tryout.py,sha256=cTvnywa2WQhQ1bk_4Adl16NE95HjgdETe-RUp4wQhNM,9666
+okapi_python_connector-2019.9.dist-info/LICENSE,sha256=wls1DW_3f1UJDIlOanbzknDnE8R3aOJF_pR7ycbEXug,1074
+okapi_python_connector-2019.9.dist-info/METADATA,sha256=eUBETcqzzxyCZo5l1A9cE3gdOAwyjIPoSnWvW2GHGbY,709
+okapi_python_connector-2019.9.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+okapi_python_connector-2019.9.dist-info/top_level.txt,sha256=xGlOsot4urtu44QDB3J_e68Bc5uPyIwJwRNTPJDVKj4,10
+okapi_python_connector-2019.9.dist-info/RECORD,,
