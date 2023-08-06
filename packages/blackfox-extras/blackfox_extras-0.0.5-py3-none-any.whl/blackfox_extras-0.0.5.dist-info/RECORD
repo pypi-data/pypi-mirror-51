@@ -1,0 +1,10 @@
+blackfox_extras/__init__.py,sha256=HRbIFX4E58lx85EKekFsWaXLoMS5sJPv3wpvI8BLOi8,360
+blackfox_extras/chart_log_writer.py,sha256=Mtot7JvuC1UZxL1uJNcjbZpZ09GaIz11r1ZAKRNLdek,214
+blackfox_extras/data_extras.py,sha256=CCLrUVgPS4CsuTaHlULRxH_ejNKJhCD4BkQfp8LRS5k,973
+blackfox_extras/input_extras.py,sha256=52-Oc99PlxQbrn6ILV31ABIvIWc8J10Bi00tMxOwWus,660
+blackfox_extras/scaler_extras.py,sha256=f1fFOkzgGwMNJWG3eYrHgC8YPOqSPKwUSQCuzwQnCXM,2321
+blackfox_extras/series_extras.py,sha256=UpI2sychWUpiCtWQcyirvs7ANxsR9dEalj60oi2EEmY,5241
+blackfox_extras-0.0.5.dist-info/METADATA,sha256=YAjz5xSuU-coG-DcOIfWGk_YSQlMwm0FiM_e-8GGGIU,365
+blackfox_extras-0.0.5.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+blackfox_extras-0.0.5.dist-info/top_level.txt,sha256=X-1co9F99V7VDIm4PP20hG964UQozbXNs2C7Oy6C_34,16
+blackfox_extras-0.0.5.dist-info/RECORD,,
