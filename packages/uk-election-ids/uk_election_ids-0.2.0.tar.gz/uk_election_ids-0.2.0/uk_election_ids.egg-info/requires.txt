@@ -1,0 +1,8 @@
+
+[development]
+sphinx
+sphinx_rtd_theme
+ghp-import
+
+[testing]
+python-coveralls
