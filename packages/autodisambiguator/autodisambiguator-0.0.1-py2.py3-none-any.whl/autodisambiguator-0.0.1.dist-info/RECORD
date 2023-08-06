@@ -1,0 +1,10 @@
+autocat/__init__.py,sha256=b9JZLe0jG_ClnqaV9VL0p7JMwyt56F9jdL4ZdvrDW3Q,128
+autocat/autocat.py,sha256=m6sH24vBHiDjxN5iqOlKV6Or7AKboS7pIIcHoa8EhQY,3806
+autocat/cli.py,sha256=eIsld2yEmAk1jlfu--LZr4SsDBa_EqipkaF2hPUkUPU,3803
+autocat/detector.py,sha256=CaN9xlJvCS80jTQ044Xq2SL6Qvz6nPqbOrxNjyBu4l4,5749
+autodisambiguator-0.0.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+autodisambiguator-0.0.1.dist-info/METADATA,sha256=CqHaBhflxLAGzriZA-AhZEkseAYs4ZpdM44UmO74Aac,817
+autodisambiguator-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+autodisambiguator-0.0.1.dist-info/entry_points.txt,sha256=GR2eVtfKnZIEIyT-qCcAXHeBF5I5SttE3f6cQnMealA,55
+autodisambiguator-0.0.1.dist-info/top_level.txt,sha256=DoqHWtIQe75GejlyoLdm1BAbpv_WFx5YP6ncX6wQVRw,8
+autodisambiguator-0.0.1.dist-info/RECORD,,

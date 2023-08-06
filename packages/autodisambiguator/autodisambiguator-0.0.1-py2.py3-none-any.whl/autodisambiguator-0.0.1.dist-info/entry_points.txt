@@ -1,0 +1,3 @@
+[console_scripts]
+autodisambiguator = autocat.cli:cli
+
