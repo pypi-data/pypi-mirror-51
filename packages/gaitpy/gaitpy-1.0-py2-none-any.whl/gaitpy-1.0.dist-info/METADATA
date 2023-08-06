@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gaitpy
+Version: 1.0
+Summary: Read and process raw vertical accelerometry data from a lumbar sensor during gait; calculate clinical gait characteristics.
+Home-page: http://github.com/PfizerRD/gaitpy
+Author: Matthew Czech
+Author-email: czech1117@gmail.com
+License: MIT
+Keywords: gait,lumbar,sensor,digital,wearable,python,inverted pendulum,czech
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: bokeh (==0.12.10)
+Requires-Dist: pandas (==0.20.3)
+Requires-Dist: scipy (==1.2.0)
+Requires-Dist: numpy (==1.13.3)
+Requires-Dist: PyWavelets (==0.5.2)
+
+UNKNOWN
+
+
