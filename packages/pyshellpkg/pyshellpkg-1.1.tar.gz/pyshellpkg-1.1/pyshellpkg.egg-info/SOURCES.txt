@@ -1,0 +1,9 @@
+setup.py
+pyshellpkg/command_dictionary.py
+pyshellpkg/command_list.py
+pyshellpkg/core_event.py
+pyshellpkg/dispatcher.py
+pyshellpkg.egg-info/PKG-INFO
+pyshellpkg.egg-info/SOURCES.txt
+pyshellpkg.egg-info/dependency_links.txt
+pyshellpkg.egg-info/top_level.txt
