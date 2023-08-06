@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: rectangle
+Version: 0.4
+Summary: A class for handling rectangle regions.
+Home-page: UNKNOWN
+Author: Neil Girdhar
+Author-email: mistersheik@gmail.com
+License: UNKNOWN
+Download-URL: https://pypi.python.org/pypi/rectangle
+Project-URL: Bug Tracker, https://github.com/NeilGirdhar/rectangle/issues
+Project-URL: Source Code, https://github.com/NeilGirdhar/rectangle
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Requires-Dist: numpy (>=1.13)
+
+=========
+Rectangle
+=========
+.. image:: https://badge.fury.io/py/rectangle.svg
+    :target: https://badge.fury.io/py/rectangle
+
+A class for handling rectangle regions.
+
+Example
+=======
+
+.. code-block:: python
+
+    In [1]: from rectangle import Rect
+
+    In [2]: r = Rect(mins=[1, 2], maxes=[4, 6])
+
+    In [3]: r
+    Out[3]: Rect([1. 2.], [4. 6.])
+
+    In [4]: r + 1
+    Out[4]: Rect([2. 3.], [5. 7.])
+
+    In [5]: s = Rect(sizes=[1, 1])
+
+    In [6]: r < s
+    Out[6]: False
+
+    In [7]: s <= r
+    Out[7]: True
+
+
+
