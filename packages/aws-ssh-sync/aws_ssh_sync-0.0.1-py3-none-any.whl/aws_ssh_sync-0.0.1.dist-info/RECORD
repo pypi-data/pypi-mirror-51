@@ -1,0 +1,11 @@
+aws_ssh_sync-0.0.1.data/scripts/aws_ssh_sync,sha256=tv_uq-lYGEY0lB3sFYF_8k4W4n0QCLYMph_VqcoCQgo,130
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=LAc-fyj2XmytSo5ma8CUc10Q4jIGVjXKGts-U0jdF_0,713
+tests/test_config.py,sha256=VYYS9m1aHoaZ5tNCvJ11dO2lu3TRdMBziej3gIbC7e4,5168
+tests/test_docs.py,sha256=i7FRH9qA69ARCfm3IFygdd2Z6P9Yi2n4nfD8tBwX4dg,751
+tests/test_file_output.py,sha256=G-yzejRJ8ifdgI3SQM1LsL1V9X6vrQfnNzuqSTjHaU8,2932
+aws_ssh_sync-0.0.1.dist-info/LICENSE,sha256=ybEIq6ilEUJP9AtY9A5F_5aOwtZQGGDheqwNYO3CqRE,592
+aws_ssh_sync-0.0.1.dist-info/METADATA,sha256=4d9nV3x5lPt7ieQ2qWW4gkbhAxaBLjknIObhF8xzt54,3366
+aws_ssh_sync-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+aws_ssh_sync-0.0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+aws_ssh_sync-0.0.1.dist-info/RECORD,,
