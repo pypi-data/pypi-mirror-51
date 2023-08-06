@@ -1,0 +1,16 @@
+.flake8
+.gitignore
+.pre-commit-config.yaml
+.travis.yml
+LICENSE
+README.md
+pylintrc
+requirements-dev.txt
+setup.py
+.github/ISSUE_TEMPLATE.md
+.github/PULL_REQUEST_TEMPLATE.md
+pacifica/__init__.py
+pacifica_namespace.egg-info/PKG-INFO
+pacifica_namespace.egg-info/SOURCES.txt
+pacifica_namespace.egg-info/dependency_links.txt
+pacifica_namespace.egg-info/top_level.txt

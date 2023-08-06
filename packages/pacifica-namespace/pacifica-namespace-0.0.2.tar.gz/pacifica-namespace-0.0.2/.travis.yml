@@ -1,0 +1,39 @@
+dist: xenial
+language: python
+stages:
+- lint
+- deploy
+script:
+- python setup.py bdist_wheel
+- python setup.py sdist
+install: pip install -r requirements-dev.txt
+jobs:
+  include:
+  - stage: lint
+    python: 3.6
+    script: pre-commit run -a
+  - python: 2.7
+    script: pre-commit run -a
+  - stage: deploy
+    python: 3.6
+    script: skip
+    deploy:
+      skip_cleanup: true
+      provider: pypi
+      user: dmlb2000
+      password:
+        secure: RVDfABxEbVTiCOC1Wslfq4hvpqkNnQIJQxKD/5jIK13Co4bNAO2asp4WN79OiCGdQoM5IYNfN/QZXhzczuqiayjBAieyxN5i0DoF3n7++y5hFXYv9IAbq98VhQTE6nZ2J9/EIqXIPwk1R1Sj5vkk0XmmJjNvDtwlvkPsu3SVsk3siKffPBG0g0nQz6G0EZ2E5chIcxwvT2SGuPwr/QJZ/PsIvEKPaVNenON0rZwDmpmfCbp/3276oZk/G4D7Ppy9Evf28f0CsjQ+BXYFE1uyIR8HeaE5/OlBlsGLpkPSdjK1pBBwhfS0XjUk5mi067V71++gKzTrN209TmWie13O4Z+cKGqxtnxs5TeLyzESWw9AkaTbESmFOW+lbdlgKaIt8ve5aeJoeIQp03nZUL3Xjdj/NfOpRYKDZxP8esbd1RDelsvAHRGlcPW9MluRus8UkszoKAKXsAB7c9Koazd1zE/N2DCi0XhASgmlk7f8/DbSmZlJ4nyEvso8OUSfBMXOPt9EwQCtZm0HR5eolM+Mwmm0BN67z1qrqr3VHJt5FrQJMfUCEkexJdWV8hKM6b+znxtj31Nx7L9WO9jocM881YR9e6VTWFH/gbFV3GKMZ8uh16lnvdt8/hBCpH12zJ3YV0Z+1Muu2B81WZDRzATpm66pNWHdLz6SV8U+1NelEEI=
+      distributions: sdist bdist_wheel
+      on:
+        tags: true
+  - python: 2.7
+    script: skip
+    deploy:
+      skip_cleanup: true
+      provider: pypi
+      user: dmlb2000
+      distributions: bdist_wheel
+      password:
+        secure: RVDfABxEbVTiCOC1Wslfq4hvpqkNnQIJQxKD/5jIK13Co4bNAO2asp4WN79OiCGdQoM5IYNfN/QZXhzczuqiayjBAieyxN5i0DoF3n7++y5hFXYv9IAbq98VhQTE6nZ2J9/EIqXIPwk1R1Sj5vkk0XmmJjNvDtwlvkPsu3SVsk3siKffPBG0g0nQz6G0EZ2E5chIcxwvT2SGuPwr/QJZ/PsIvEKPaVNenON0rZwDmpmfCbp/3276oZk/G4D7Ppy9Evf28f0CsjQ+BXYFE1uyIR8HeaE5/OlBlsGLpkPSdjK1pBBwhfS0XjUk5mi067V71++gKzTrN209TmWie13O4Z+cKGqxtnxs5TeLyzESWw9AkaTbESmFOW+lbdlgKaIt8ve5aeJoeIQp03nZUL3Xjdj/NfOpRYKDZxP8esbd1RDelsvAHRGlcPW9MluRus8UkszoKAKXsAB7c9Koazd1zE/N2DCi0XhASgmlk7f8/DbSmZlJ4nyEvso8OUSfBMXOPt9EwQCtZm0HR5eolM+Mwmm0BN67z1qrqr3VHJt5FrQJMfUCEkexJdWV8hKM6b+znxtj31Nx7L9WO9jocM881YR9e6VTWFH/gbFV3GKMZ8uh16lnvdt8/hBCpH12zJ3YV0Z+1Muu2B81WZDRzATpm66pNWHdLz6SV8U+1NelEEI=
+      on:
+        tags: true
