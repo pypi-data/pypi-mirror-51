@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: peng-test
+Version: 0.0.3
+Summary: for test
+Home-page: https://github.com/silyman1/microblog
+Author: oliver peng
+Author-email: oliver.peng@rock-chips.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: lxml
+
+for test
+
+
