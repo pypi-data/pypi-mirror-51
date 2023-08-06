@@ -1,0 +1,23 @@
+{
+  "connectors": {
+    "benchling_production": {
+      "api_key": "sk_op57DfvaGDESTkPysNb57THFy5GO1",
+      "registry": {
+        "id": "src_KE6uFvex",
+        "prefix": "aq",
+        "initials": "UWBF",
+        "schema": "Aquarium DNA",
+        "folder_id": "lib_ILUNzz6N"
+      }
+    }
+  },
+  "sessions": {
+    "production": {
+      "url": "http://52.27.43.242/",
+      "connector": "benchling_production"
+    },
+    "nursery": {
+      "url": "http://52.27.43.242:81",
+    }
+  }
+}
