@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: radiotools
+Version: 0.2.0
+Summary: A tool package for cosmic-ray and neutrino radio detectors.
+Home-page: https://github.com/nu-radio/radiotools
+License: UNKNOWN
+Author: Christian Glaser
+Author-email: work@c-glaser.de
+Requires-Python: >3.4
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
