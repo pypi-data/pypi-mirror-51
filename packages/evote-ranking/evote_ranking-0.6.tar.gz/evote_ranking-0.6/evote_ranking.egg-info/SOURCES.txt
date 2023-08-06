@@ -1,0 +1,7 @@
+README.md
+setup.py
+evote_ranking.egg-info/PKG-INFO
+evote_ranking.egg-info/SOURCES.txt
+evote_ranking.egg-info/dependency_links.txt
+evote_ranking.egg-info/not-zip-safe
+evote_ranking.egg-info/top_level.txt
