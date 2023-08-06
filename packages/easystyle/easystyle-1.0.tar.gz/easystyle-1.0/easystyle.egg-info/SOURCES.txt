@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+easystyle/__init__.py
+easystyle/easystyle.py
+easystyle.egg-info/PKG-INFO
+easystyle.egg-info/SOURCES.txt
+easystyle.egg-info/dependency_links.txt
+easystyle.egg-info/requires.txt
+easystyle.egg-info/top_level.txt
