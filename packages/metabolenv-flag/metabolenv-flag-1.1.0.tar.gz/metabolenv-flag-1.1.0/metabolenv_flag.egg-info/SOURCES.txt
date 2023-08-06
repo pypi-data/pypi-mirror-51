@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+env_flag.py
+setup.py
+metabolenv_flag.egg-info/PKG-INFO
+metabolenv_flag.egg-info/SOURCES.txt
+metabolenv_flag.egg-info/dependency_links.txt
+metabolenv_flag.egg-info/top_level.txt
