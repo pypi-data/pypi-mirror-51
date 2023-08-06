@@ -1,0 +1,14 @@
+inflow/__init__.py,sha256=vftoPCj_rb01QdT56nLZOrGNyvDXpYs5DGe9tHuCd1c,194
+inflow/client.py,sha256=AokQTso59RfOIlhOGBcv_jnKupihKtzIB91J19yMZXY,687
+inflow/connection.py,sha256=IRrKGQ62UlA6r3eThqsmkEUDKXQ6ZvdtbdyUtJpAIkg,5216
+inflow/exceptions.py,sha256=HW1yOiIZNsBxpJDnA9h_hWPgIzAUP7I4HdJxh7f44gc,1204
+inflow/measurement.py,sha256=sTJoC94OvU0B4wNXb3LnZqwmwl7vs4p0oXXExAQtBqY,2409
+inflow/session.py,sha256=4jIzC3duMViABHzxgPe0MBvivCC9RzbZlcXsmNYvO94,1423
+inflow/utils.py,sha256=ajo9Yfc-4xRxuzYtKqCJtm9cgSAjJ4KDk8-Z-HWcvIE,769
+inflow/write.py,sha256=sFYAkRaRHcyEtwJlIklf-11U6WEH0t8QEDeAgsSQlJo,1312
+inflow-0.3.0.dist-info/DESCRIPTION.rst,sha256=AFj2igz6u4caccYLrcC1RfHhsHG8N4C7qugMXtdda_I,1930
+inflow-0.3.0.dist-info/METADATA,sha256=aigMdHrZBHRaYYufYZc5ApRQ3TUIXiE7N5lj3MRXn4w,2520
+inflow-0.3.0.dist-info/RECORD,,
+inflow-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+inflow-0.3.0.dist-info/metadata.json,sha256=rclLM7jpz_dfUvbUB71B6iCGjcMcEdNtvGqLsfTfFPM,760
+inflow-0.3.0.dist-info/top_level.txt,sha256=aR_82_2EIriLq5wFhfqLLgmLIJANJ5sGKldte-t0brM,7
