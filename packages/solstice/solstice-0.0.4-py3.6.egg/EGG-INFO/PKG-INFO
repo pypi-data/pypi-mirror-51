@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: solstice
+Version: 0.0.4
+Summary: Artella based pipeline framework for Solstice Short Film
+Home-page: UNKNOWN
+Author: Tomas Poveda
+Author-email: tpovedatd@gmail.com
+License: MIT
+Description: 
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: test
