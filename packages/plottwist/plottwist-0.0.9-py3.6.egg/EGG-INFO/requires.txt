@@ -1,0 +1,9 @@
+artellalauncher
+artellapipe
+tpMayaLib
+
+[dev]
+wheel
+
+[test]
+pytest

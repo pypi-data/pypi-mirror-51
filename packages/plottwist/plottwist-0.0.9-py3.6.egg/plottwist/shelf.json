@@ -1,0 +1,111 @@
+{
+  "main":
+  [
+    {
+      "icon": "setproject.png",
+      "command": "import artellapipe; artellapipe.plottwist.update_project();",
+      "annotation": "Auto Setup Plot Twist Project",
+      "label": "",
+      "dcc": ["maya"]
+    },
+    {
+      "icon": "artellaproject.png",
+      "command": "import artellapipe; artellapipe.plottwist.open_artella_project_url()",
+      "annotation": "Open Plot Twist Artella Project",
+      "label": "",
+      "dcc": ["maya"]
+    },
+    {
+      "icon": "plottwist_manual.png",
+      "command": "import artellapipe; artellapipe.plottwist.open_documentation()",
+      "annotation": "Open Plot Twist Tools Documentation",
+      "label": "",
+      "dcc": ["maya"]
+    },
+    {
+      "icon": "plottwist_changelog.png",
+      "command": "import artellapipe; from artellapipe.tools.changelog import changelog; changelog.run(artellapipe.plottwist);",
+      "annotation": "Open Plot Twist Tools Changelog",
+      "label": "",
+      "dcc": ["maya"]
+    },
+    {
+      "icon": "",
+      "command": "",
+      "annotation": "separator",
+      "label": ""
+    },
+    {
+      "icon": "assetsmanager.png",
+      "command": "from plottwist.pipeline.tools.assetsmanager.core import assetsmanager; assetsmanager.run();",
+      "annotation": "Plot Twist Assets Manager",
+      "label": "",
+      "dcc": ["maya"]
+    },
+    {
+      "icon": "artellamanager.png",
+      "command": "import artellapipe; from artellapipe.tools.artellamanager import artellamanager; artellamanager.run(artellapipe.plottwist, 'all');",
+      "annotation": "Plot Twist Artella Manager",
+      "label": "",
+      "dcc": ["maya"]
+    },
+    {
+      "icon": "artella_upload.png",
+      "command": "import artellapipe; from artellapipe.tools.artellauploader import artellauploader;artellauploader.run(artellapipe.plottwist);",
+      "annotation": "Plot Twist Artella Uploader",
+      "label": "",
+      "dcc": ["maya"]
+    },
+    {
+      "icon": "tagger.png",
+      "command": "from plottwist.pipeline.tools.tagger import tagger; tagger.run();",
+      "annotation": "Plot Twist Tagger",
+      "label": "",
+      "dcc": ["maya"]
+    },
+    {
+    "icon": "",
+    "command": "",
+    "annotation": "separator",
+    "label": ""
+    },
+    {
+        "icon": "plottwist_save.png",
+        "command": "import artellapipe; artellapipe.plottwist.save_scene(notify=True);",
+        "annotation": "Save, remove invalid nodes and clean student license from file",
+        "label": "",
+        "dcc": ["maya"]
+    },
+    {
+        "icon": "lock_file.png",
+        "command": "import artellapipe; artellapipe.plottwist.lock_file(notify=True);",
+        "annotation": "Locks current file in Artella server",
+        "label": "",
+        "dcc": ["maya"]
+    },
+    {
+        "icon": "unlock_file.png",
+        "command": "import artellapipe; artellapipe.plottwist.unlock_file(notify=True);",
+        "annotation": "Unlocks current file in Artella server",
+        "label": "",
+        "dcc": ["maya"]
+    },
+    {
+        "icon": "upload_wip.png",
+        "command": "import artellapipe; artellapipe.plottwist.upload_working_version(notify=True);",
+        "annotation": "Upload new working version of the current file",
+        "label": "",
+        "dcc": ["maya", "houdini"]
+    }
+  ],
+  "td":
+  [
+    {
+      "icon": "alembic.png",
+      "command": "import artellapipe; from artellapipe.tools.alembicmanager import alembicmanager; alembicmanager.run(artellapipe.solstice);",
+      "annotation": "Solstice Alembic Manager",
+      "label": "Alembic Manager",
+      "dcc": ["maya", "houdini"]
+    }
+  ]
+}
