@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: ibearychat
+Version: 0.1.0
+Summary: Bearychat tools.
+Home-page: https://pypi.org/project/ibearychat/
+Author: teachmyself
+Author-email: teachmyself@126.com
+License: MIT
+Description: # ibearychat
+        
+        Tools package for bearychat.
+        
+        
+        ## install
+        
+        ```
+        pip install ibearychat
+        ```
+        
+        
+        ## demo
+        
+        ```
+        from ibearychat import bearychat_incoming
+        
+        webhook_url = "your_incoming_url"
+        
+        bearychat_incoming(
+            webhook_url,
+            pretext="This is pretext.",
+            title="This is title.",
+            url="https://www.teachmyself.cn.",
+            color="#70cc29",
+            text_list=["This is the first line.", "This is the second line"],
+            debug=True
+        )
+        
+        # or
+        
+        payload = {
+            "pretext"   : "This is pretext.",
+            "title"     : "This is title.",
+            "url"       : "This is title.",
+            "color"     : "#70cc29",
+            "text"      : ["This is the first line.", "This is the second line"],
+        }
+        bearychat_incoming(webhook_url, payload=payload, debug=True)
+        ```
+        
+Keywords: ibearychat,bearychat,incoming
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Description-Content-Type: text/markdown

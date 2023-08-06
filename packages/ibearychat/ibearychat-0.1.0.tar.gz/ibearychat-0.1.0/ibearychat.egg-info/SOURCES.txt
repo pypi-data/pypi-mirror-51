@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+ibearychat/__init__.py
+ibearychat/incoming.py
+ibearychat.egg-info/PKG-INFO
+ibearychat.egg-info/SOURCES.txt
+ibearychat.egg-info/dependency_links.txt
+ibearychat.egg-info/requires.txt
+ibearychat.egg-info/top_level.txt
