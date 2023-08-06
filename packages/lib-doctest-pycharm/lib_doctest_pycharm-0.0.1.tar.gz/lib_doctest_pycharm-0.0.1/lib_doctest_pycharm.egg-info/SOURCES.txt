@@ -1,0 +1,13 @@
+CHANGES.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+lib_doctest_pycharm/__init__.py
+lib_doctest_pycharm/lib_doctest_pycharm.py
+lib_doctest_pycharm/version.txt
+lib_doctest_pycharm.egg-info/PKG-INFO
+lib_doctest_pycharm.egg-info/SOURCES.txt
+lib_doctest_pycharm.egg-info/dependency_links.txt
+lib_doctest_pycharm.egg-info/requires.txt
+lib_doctest_pycharm.egg-info/top_level.txt
