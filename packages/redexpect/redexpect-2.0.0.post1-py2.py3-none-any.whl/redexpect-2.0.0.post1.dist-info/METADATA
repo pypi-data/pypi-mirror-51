@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: redexpect
+Version: 2.0.0.post1
+Summary: An SSH automation library using expect.
+Home-page: https://bitbucket.org/Red_M/RedExpect
+Author: Red_M
+Author-email: redexpect_pypi@red-m.net
+License: GPLv2
+Platform: Posix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+Requires-Dist: redssh (>=2*)
+Provides-Extra: docs
+Requires-Dist: redssh (>=2*) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: paramiko ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: redssh (>=2*) ; extra == 'tests'
+Requires-Dist: coveralls ; extra == 'tests'
+
+# RedExpect
+
+Automate SSH in python easily!
+
+
+# Installing
+
+You can install via pip with `pip install redexpect` or the latest commit which may not be the most stable, from git with `pip install git://git@bitbucket.org/Red_M/RedExpect.git`
+
+
+# Documentation
+[![Documentation Status](https://readthedocs.org/projects/redexpect/badge/?version=latest)](https://redexpect.readthedocs.io/en/latest/?badge=latest)
+
+
+[Now with autodocs!](https://redexpect.readthedocs.io/en/latest/ "Documentation! :)")
+
+
+# TO DO
+- Unit tests
+- Examples
+- Better README.md
+
+

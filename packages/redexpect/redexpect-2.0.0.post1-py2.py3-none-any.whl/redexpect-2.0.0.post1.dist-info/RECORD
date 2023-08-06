@@ -1,0 +1,8 @@
+redexpect/__init__.py,sha256=k32BMfr77vf8gYXD1AYKCceCg_KpBW9BeaDACWYxPw8,1036
+redexpect/exceptions.py,sha256=Bq79Q7js5BEBjWQ_0zMjAXKK51e7W7d2Yqc7iAFCNJw,1130
+redexpect/redexpect.py,sha256=L6qvESjkcG3FMWNa_GW-WtQng6exEjuf2u9gvVymH4k,10678
+redexpect-2.0.0.post1.dist-info/LICENSE,sha256=x64FZy74fsoMByT9lP3ua6jqfZkrtTbfApHuh1OAWRQ,18742
+redexpect-2.0.0.post1.dist-info/METADATA,sha256=FMubi7zjSBRXQ9AMarTJ2i92ak91yj4RH8EwzpRXWwM,1685
+redexpect-2.0.0.post1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+redexpect-2.0.0.post1.dist-info/top_level.txt,sha256=hM4DbN1aldUu_RkTjqChSvQ5VplguRnpAlX3NQb-pE0,10
+redexpect-2.0.0.post1.dist-info/RECORD,,
