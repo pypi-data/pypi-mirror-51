@@ -1,0 +1,9 @@
+userpaths/__init__.py,sha256=lbaiQ9y23JO5lyxTwrtAurmcE1efinPOMHP_tYrAwEg,1304
+userpaths/__main__.py,sha256=LvLZdK4R0dL6WuA5-Zr2144L2GUPWxQRCHtBh1z0aZ4,830
+userpaths/unix.py,sha256=KnTj4smQnM_lXoXGJDIP8F0fRzBSLFBuNWZot1Ifyfc,4134
+userpaths/windows.py,sha256=1rJiJ-1mIHd_ogYOyNlMcOZ1xzCkkMMO_srhkyWvEaM,2791
+userpaths-0.1.2.dist-info/LICENSE,sha256=jaNjEA232nhJCChFOfaEYKGMgAjY2W9EbPVeUNU3d04,1060
+userpaths-0.1.2.dist-info/METADATA,sha256=8bI1gsQKQmSgNCigSzkeUzVWg-Hx84Lcbnx3U64Sp2A,2289
+userpaths-0.1.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+userpaths-0.1.2.dist-info/top_level.txt,sha256=e_pbNadrupWCRVlXevmxv7fgkHycYT-dTHISZEUlbj0,10
+userpaths-0.1.2.dist-info/RECORD,,
