@@ -1,0 +1,7 @@
+pylint
+coverage
+bandit
+twine
+sphinx
+sphinx_rtd_theme
+flake8
