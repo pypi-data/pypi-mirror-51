@@ -1,0 +1,8 @@
+P4API.so,sha256=GclWIIEvet0faw5zYQ6AJ0YjHXR9DHicOMULgvTZY_M,7329408
+P4.py,sha256=wa6T43iSkYUeBERLK_DcaHZ3bTzmBlqyYtVR6y-plcU,37784
+.libsP4API/libssl-0bc12da0.so.1.0.0,sha256=SzcKatDMR4cW7isGq2omdySPNVqNrNL1eOU1YE_hCw4,559504
+.libsP4API/libcrypto-95343171.so.1.0.0,sha256=Isc3wAXoo8bD2UQvSekgyhLjIh2uvnsfeWcKgxojH7c,2829784
+p4python-2018.2.1743033.dist-info/RECORD,,
+p4python-2018.2.1743033.dist-info/METADATA,sha256=qyc7WwX6CqYHgUApV7ETof3JAd-YLIPhjuKWnSCnu-s,1125
+p4python-2018.2.1743033.dist-info/top_level.txt,sha256=1THOU4My35nk_4UfK-iNdzADXXT87o1zpnPS9eA-CIg,9
+p4python-2018.2.1743033.dist-info/WHEEL,sha256=1WjuLAWbF8SHwO5ixqVFxbwzJ_6w-ZHLj1rb5V81IyU,112
