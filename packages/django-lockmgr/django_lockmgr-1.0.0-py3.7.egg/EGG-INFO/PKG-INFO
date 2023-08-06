@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-lockmgr
+Version: 1.0.0
+Summary: A locking system for Django apps simply using the database.
+Home-page: https://github.com/Privex/django-lockmgr
+Author: Chris (Someguy123) @ Privex
+Author-email: chris@privex.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
