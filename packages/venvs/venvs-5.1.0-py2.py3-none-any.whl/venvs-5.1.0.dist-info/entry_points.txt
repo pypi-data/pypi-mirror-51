@@ -1,0 +1,7 @@
+[console_scripts]
+convergeenvs = venvs.converge:main
+findenv = venvs.find:main
+mkenv = venvs.create:main
+rmenv = venvs.remove:main
+venvs = venvs._cli:main
+
