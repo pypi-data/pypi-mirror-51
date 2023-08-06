@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: tap-linkedin-ads
+Version: 0.0.3
+Summary: Singer.io tap for extracting data from the LinkedIn Marketing Ads API API 2.0
+Home-page: UNKNOWN
+Author: jeff.huth@bytecode.io
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
