@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+kafka_cli/__init__.py
+kafka_cli/__main__.py
+kafka_cli.egg-info/PKG-INFO
+kafka_cli.egg-info/SOURCES.txt
+kafka_cli.egg-info/dependency_links.txt
+kafka_cli.egg-info/entry_points.txt
+kafka_cli.egg-info/requires.txt
+kafka_cli.egg-info/top_level.txt
