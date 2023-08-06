@@ -1,0 +1,4 @@
+[console_scripts]
+codelab-mqtt-monitor = codelab_adapter_mqtt_client.tools.monitor:monitor
+codelab-mqtt-trigger = codelab_adapter_mqtt_client.tools.trigger:trigger
+

@@ -1,0 +1,2 @@
+paho-mqtt
+loguru==0.3.2
