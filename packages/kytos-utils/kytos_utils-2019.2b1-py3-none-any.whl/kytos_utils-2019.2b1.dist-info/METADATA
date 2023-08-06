@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kytos-utils
+Version: 2019.2b1
+Summary: Command line utilities to use with Kytos.
+Home-page: http://github.com/kytos/kytos-utils
+Author: Kytos Team
+Author-email: devel@lists.kytos.io
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: certifi (==2019.6.16)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: idna (==2.8)
+Requires-Dist: jinja2 (==2.10.1)
+Requires-Dist: markupsafe (==1.1.1)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: ruamel.yaml.clib (==0.1.2)
+Requires-Dist: ruamel.yaml (==0.16.5)
+Requires-Dist: urllib3 (==1.25.3)
+
+UNKNOWN
+
+
