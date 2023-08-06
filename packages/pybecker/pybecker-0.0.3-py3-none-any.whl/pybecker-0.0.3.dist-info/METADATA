@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pybecker
+Version: 0.0.3
+Summary: pybecker is a library to control becker RF shutters
+Home-page: https://github.com/nicolasberthel/pybecker
+Author: Nicolas Berthel
+Author-email: contact@nicolasberthel.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Topic :: Home Automation
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial (>=3.4)
+
+PyBecker - controlling Becker RF Shutter with Python
+====================================================
+
+This library is based on the work of **ole1986** (https://github.com/ole1986/centronic-py)
+
+PyBecker requires a Becker Centronic USB Stick in order to communicate with the Shutters.
+The pairing need as well to be performed before and is not yet part of the library
+
+
+The goal of this library is to be used in Home assistant custom component to control your becker shutters.
+This component is not yet publicly released.
+
