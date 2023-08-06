@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: toai-mokahaiku
+Version: 0.0.34
+Summary: To AI helper library
+Home-page: https://github.com/mokahaiku/toai
+Author: Dovydas Ceilutka
+Author-email: dovydas.ceilutka@gmail.com
+License: MIT
+Download-URL: https://github.com/mokahaiku/toai
+Description: # To AI
+        
+        To AI builds on top of Tensorflow and provides utility and helper functions for the most common deep learning tasks.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tests
