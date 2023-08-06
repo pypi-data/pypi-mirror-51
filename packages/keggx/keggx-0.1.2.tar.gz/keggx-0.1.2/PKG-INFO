@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: keggx
+Version: 0.1.2
+Summary: Python package for manipulation and visualization of KEGG pathways.
+Home-page: https://github.com/iamjli/keggx
+Author: iamjli
+Author-email: iamjli@mit.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
