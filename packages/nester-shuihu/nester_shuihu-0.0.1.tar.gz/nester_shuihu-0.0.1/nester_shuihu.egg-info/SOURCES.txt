@@ -1,0 +1,8 @@
+README.md
+setup.py
+nester_shuihu.egg-info/PKG-INFO
+nester_shuihu.egg-info/SOURCES.txt
+nester_shuihu.egg-info/dependency_links.txt
+nester_shuihu.egg-info/top_level.txt
+package-self/__init__.py
+package-self/test.py
