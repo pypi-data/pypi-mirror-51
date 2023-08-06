@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+quart_minify/__init__.py
+quart_minify/minify.py
+quart_minify.egg-info/PKG-INFO
+quart_minify.egg-info/SOURCES.txt
+quart_minify.egg-info/dependency_links.txt
+quart_minify.egg-info/not-zip-safe
+quart_minify.egg-info/requires.txt
+quart_minify.egg-info/top_level.txt
+tests/__init__.py
+tests/test_fm.py
