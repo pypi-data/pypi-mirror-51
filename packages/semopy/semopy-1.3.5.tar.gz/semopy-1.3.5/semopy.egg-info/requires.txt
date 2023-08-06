@@ -1,0 +1,10 @@
+scipy
+numpy
+pandas
+
+[portmin]
+Cython
+portmin
+
+[visualize]
+graphviz
