@@ -1,0 +1,11 @@
+numpy
+pandas>=0.24
+scipy
+pytest
+SQLAlchemy
+chaospy
+sqlalchemy-utils
+matplotlib
+jsonpickle
+cerberus
+SALib
