@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: quikey
+Version: 0.1.0
+Summary: A keyboard macro tool.
+Home-page: https://github.com/bostrt/quikey
+Author: bostrt
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: colored
+Requires-Dist: python-daemon
+Requires-Dist: inotify-simple
+Requires-Dist: tinydb
+Requires-Dist: pynput
+Requires-Dist: terminaltables
+Requires-Dist: xdg
+Requires-Dist: humanize
+
+UNKNOWN
+
+
