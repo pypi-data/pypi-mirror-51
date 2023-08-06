@@ -1,0 +1,15 @@
+numpy
+pandas
+backtrader
+matplotlib
+bayesian-optimization
+scipy
+
+[dev]
+pytest
+pytest-pep8
+pytest-cov
+setuptools
+wheel
+twine
+bumpversion
