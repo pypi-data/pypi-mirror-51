@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+GCloudPyProxy.egg-info/PKG-INFO
+GCloudPyProxy.egg-info/SOURCES.txt
+GCloudPyProxy.egg-info/dependency_links.txt
+GCloudPyProxy.egg-info/top_level.txt
+gcloud_pyproxy/__init__.py
