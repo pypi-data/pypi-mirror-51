@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+delta_of_delta/__init__.py
+delta_of_delta.egg-info/PKG-INFO
+delta_of_delta.egg-info/SOURCES.txt
+delta_of_delta.egg-info/dependency_links.txt
+delta_of_delta.egg-info/entry_points.txt
+delta_of_delta.egg-info/requires.txt
+delta_of_delta.egg-info/top_level.txt
