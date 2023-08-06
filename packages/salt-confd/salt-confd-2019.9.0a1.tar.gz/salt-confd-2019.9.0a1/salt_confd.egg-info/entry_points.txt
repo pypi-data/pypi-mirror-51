@@ -1,0 +1,3 @@
+[console_scripts]
+salt-confd = salt_confd.scripts:salt_confd
+

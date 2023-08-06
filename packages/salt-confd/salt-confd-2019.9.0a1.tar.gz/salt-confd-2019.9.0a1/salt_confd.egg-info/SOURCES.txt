@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pypi.rst
+setup.py
+salt_confd/__init__.py
+salt_confd/cli.py
+salt_confd/confd.sls
+salt_confd/parsers.py
+salt_confd/scripts.py
+salt_confd/version.py
+salt_confd.egg-info/PKG-INFO
+salt_confd.egg-info/SOURCES.txt
+salt_confd.egg-info/dependency_links.txt
+salt_confd.egg-info/entry_points.txt
+salt_confd.egg-info/namespace_packages.txt
+salt_confd.egg-info/requires.txt
+salt_confd.egg-info/top_level.txt
