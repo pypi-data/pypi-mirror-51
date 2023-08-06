@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: sonosco
+Version: 0.1.1
+Summary: Framework for training deep automatic speech recognition models.
+Home-page: https://github.com/Roboy/sonosco/tree/demo
+Author: Roboy
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: audioread (==2.1.7)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: decorator (==4.4.0)
+Requires-Dist: joblib (==0.13.2)
+Requires-Dist: kiwisolver (==1.1.0)
+Requires-Dist: librosa (==0.6.3)
+Requires-Dist: llvmlite (==0.28.0)
+Requires-Dist: matplotlib (==3.1.0)
+Requires-Dist: numba (==0.43.1)
+Requires-Dist: numpy (==1.16.3)
+Requires-Dist: Pillow (==6.0.0)
+Requires-Dist: pyparsing (==2.4.0)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: resampy (==0.2.1)
+Requires-Dist: scikit-learn (==0.21.2)
+Requires-Dist: scipy (==1.3.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: torch (==1.1.0)
+Requires-Dist: torchvision (==0.3.0)
+Requires-Dist: tqdm (==4.32.1)
+Requires-Dist: pyyaml (==5.1)
+Requires-Dist: wget (==3.2)
+Requires-Dist: pytest (==4.6.3)
+Requires-Dist: click (==7.0)
+Requires-Dist: deprecation (==2.0.6)
+Requires-Dist: dataclasses (==0.6)
+Requires-Dist: Flask
+Requires-Dist: Flask-Cors
+Requires-Dist: Flask-SocketIO
+Requires-Dist: azure-cognitiveservices-speech (==1.5.0)
+Requires-Dist: tb-nightly (==1.15.0a20190802)
+Requires-Dist: future (==0.17.1)
+Requires-Dist: python-levenshtein
+
+# Roboy Sonosco
+Roboy Sonosco (from Lat. sonus - sound and nōscō - I know, recognize) - a library for Speech Recognition based on Deep Learning models
+
+## Installation
+### Via PIP
+
+The easiest way to install sonosco is through pip:
+
+``
+pip install sonosco==0.1.1
+``
+
+
+The supported OS is Ubuntu 18.04 LTS (however, it should work fine on other distributions).
+Supported Python version is 3.6+.
+Supported CUDA version is 10.0.
+Supported PyTorch version is 1.0.
+
+---
+
+
