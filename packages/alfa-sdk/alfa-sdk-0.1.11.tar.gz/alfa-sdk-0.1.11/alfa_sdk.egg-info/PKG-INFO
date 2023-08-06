@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: alfa-sdk
+Version: 0.1.11
+Summary: The ALFA SDK for Python
+Home-page: https://bitbucket.org/widgetbrain/alfa-sdk-py
+Author: Widget Brain
+License: Apache License 2.0
+Description: # alfa-sdk
+        
+        This package provides a Python SDK for developing algorithms using [ALFA](https://widgetbrain.com/product/).
+        
+        ## Installation
+        
+        You can directly install alfa-sdk using [pip](http://www.pip-installer.org/en/latest/). This will install the alfa-sdk package as well as all dependencies.
+        
+        ```sh
+        $ pip install alfa-sdk
+        ```
+        
+        If you already have alfa-sdk installed and want to upgrade to the latest version, you can run:
+        
+        ```sh
+        $ pip install --upgrade alfa-sdk
+        ```
+        
+        ## Development
+        
+        To install requirements locally:
+        
+        **1.** Activate local venv
+        
+        ```sh
+        $ virtualenv venv
+        $ source venv/bin/activate
+        ```
+        
+        **2.** Install requirements from setup.py
+        
+        ```sh
+        $ pip install -e .[dev]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
