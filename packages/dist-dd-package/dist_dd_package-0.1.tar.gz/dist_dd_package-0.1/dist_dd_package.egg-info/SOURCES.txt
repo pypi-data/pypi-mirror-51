@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+dist_dd_package/Binomialdistribution.py
+dist_dd_package/Gaussiandistribution.py
+dist_dd_package/Generaldistribution.py
+dist_dd_package/__init__.py
+dist_dd_package.egg-info/PKG-INFO
+dist_dd_package.egg-info/SOURCES.txt
+dist_dd_package.egg-info/dependency_links.txt
+dist_dd_package.egg-info/not-zip-safe
+dist_dd_package.egg-info/top_level.txt
