@@ -1,0 +1,6 @@
+sqlalchemy>=1.2.0
+requests>=2.13
+psycopg2-binary
+geoalchemy2
+shapely
+python-dateutil
