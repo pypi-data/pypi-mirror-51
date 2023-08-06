@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: conftext
+Version: 0.0.2
+Summary: conftext - helper for managing configuration contexts
+Home-page: https://gitlab.dev.beat.no/backend/conftext
+Author: Øystein S. Haaland
+Author-email: oystein@beat.no
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: invoke
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+UNKNOWN
+
+

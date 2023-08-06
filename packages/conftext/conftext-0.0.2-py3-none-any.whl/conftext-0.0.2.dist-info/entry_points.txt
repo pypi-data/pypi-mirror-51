@@ -1,0 +1,6 @@
+[conftext]
+default = conftext:MultiTenant
+
+[console_scripts]
+conftext = conftext:program.run
+
