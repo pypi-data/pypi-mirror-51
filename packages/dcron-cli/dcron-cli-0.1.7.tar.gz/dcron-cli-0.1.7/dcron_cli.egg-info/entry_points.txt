@@ -1,0 +1,3 @@
+[console_scripts]
+dcron-cli = cli.application:main
+

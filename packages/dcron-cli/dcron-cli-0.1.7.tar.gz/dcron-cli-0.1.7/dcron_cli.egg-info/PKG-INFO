@@ -1,0 +1,39 @@
+Metadata-Version: 1.2
+Name: dcron-cli
+Version: 0.1.7
+Summary: Distributed Cronlike Scheduler - Command Line Interface
+Home-page: https://github.com/witlox/dcron-cli
+Author: Pim Witlox
+Author-email: pim@witlox.io
+License: MIT
+Project-URL: Documentation, https://dcron-cli.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/witlox/dcron-cli
+Project-URL: Tracker, https://github.com/witlox/dcron-cli/issues
+Description: ## dcron-cli [![Build Status](https://travis-ci.org/witlox/dcron.svg?branch=master)](https://travis-ci.org/witlox/dcron)
+        
+        The aim of [dcron](https://github.com/witlox/dcron) is to offer [cron](https://en.wikipedia.org/wiki/Cron) like behaviour spanning multiple machines. 
+        This is the command line interface for interacting with a dcron cluster.
+        Please check the [docs](https://dcron-cli.readthedocs.io) regarding configuration and options.  
+        
+        ## Details
+        
+        - dcron-cli requires Python 3.4+ in order to work.
+        - configuration is stored in ~/.dcron/sites.json by default
+        
+        ## Installation
+        
+        ``pip install dcron-cli``
+        
+Keywords: Python,Python3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.4
