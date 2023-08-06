@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: narmock
+Version: 0.2.0
+Summary: A minimal mocking utility for C projects.
+Home-page: https://github.com/vberlier/narmock
+Author: Valentin Berlier
+Author-email: berlier.v@gmail.com
+Keywords: c,mocking,tests,narwhal
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: jinja2 (>=2.10,<3.0)
+Requires-Dist: pycparser (>=2.19,<3.0)
+Project-URL: Documentation, https://github.com/vberlier/narmock
+Project-URL: Repository, https://github.com/vberlier/narmock
