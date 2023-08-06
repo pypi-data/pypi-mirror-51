@@ -1,0 +1,8 @@
+setup.py
+CPSReleaseTool/finalv1.py
+CPSReleaseTool/pdfwordgui_support.py
+CPSReleaseTool.egg-info/PKG-INFO
+CPSReleaseTool.egg-info/SOURCES.txt
+CPSReleaseTool.egg-info/dependency_links.txt
+CPSReleaseTool.egg-info/requires.txt
+CPSReleaseTool.egg-info/top_level.txt
