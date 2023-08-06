@@ -1,0 +1,2 @@
+girder>=3.0.2
+girder-geospatial>=0.2.0
