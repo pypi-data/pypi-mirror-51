@@ -1,0 +1,63 @@
+Metadata-Version: 1.1
+Name: gamble
+Version: 0.0.4
+Summary: a collection of gambling classes/tools
+Home-page: https://github.com/jpetrucciani/gamble.git
+Author: Jacobi Petrucciani
+Author-email: jacobi@mimirhq.com
+License: MIT
+Download-URL: https://github.com/jpetrucciani/gamble.git
+Description: gamble: a collection of gambling classes/tools
+        ==============================================
+        
+        .. image:: https://travis-ci.org/jpetrucciani/gamble.svg?branch=master
+            :target: https://travis-ci.org/jpetrucciani/gamble
+        
+        
+        .. image:: https://badge.fury.io/py/gamble.svg
+           :target: https://badge.fury.io/py/gamble
+           :alt: PyPI version
+        
+        
+        .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+           :target: https://github.com/ambv/black
+           :alt: Code style: black
+        
+        
+        .. image:: https://img.shields.io/badge/python-3.6+-blue.svg
+           :target: https://www.python.org/downloads/release/python-360/
+           :alt: Python 3.6+ supported
+        
+        
+        **gamble**
+        
+        
+        Features
+        --------
+        
+        - dice
+        - (coming soon) cards
+        
+        Usage
+        -----
+        
+        Installation
+        ^^^^^^^^^^^^
+        
+        .. code-block:: bash
+        
+           pip install gamble
+        
+        Basic Usage
+        ^^^^^^^^^^^
+        
+        .. code-block:: python
+        
+           import gamble
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
