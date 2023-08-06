@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "proxysix"
+version = "1.0.0-alpha.4"
+description = "API wrapper for Proxy6"
+license = "MIT"
+authors = ["michaeldel <michaeldel@protonmail.com>"]
+
+readme = "README.md"
+repository = "https://github.com/michaeldel/proxy6"
+
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Topic :: Internet",
+  "Topic :: Internet :: Proxy Servers",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+packages = [
+  { include = "proxy6" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.22"
+marshmallow = "=3.0.0rc9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+responses = "^0.10.6"
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
+factory_boy = "^2.12"
+flake8 = "^3.7"
+toml = "^0.10.0"
+
+[tool.black]
+target-version = ['py37']
+
+line-length = 88
+skip-string-normalization = true
+
+include = '\.pyi?$'
+exclude = '\/\..+$'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
