@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: o4
+Version: 0.1
+Summary: Useful pipeline for detecting vehicles and pedestrians and extract features from the detcetion.
+Home-page: UNKNOWN
+Author: Miguel de Matos
+Author-email: miguelcarvalhaismatos@ua.pt
+License: MIT
+Download-URL: https://pypi.org/project/o4/
+Keywords: Detection,Tracking,Fingerprint
+Platform: UNKNOWN
+Requires-Dist: absl-py (==0.7.1)
+Requires-Dist: asn1crypto (==0.24.0)
+Requires-Dist: astor (==0.7.1)
+Requires-Dist: certifi (==2019.6.16)
+Requires-Dist: cffi (==1.12.3)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: cryptography (==2.7)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: gast (==0.2.2)
+Requires-Dist: grpcio (==1.16.1)
+Requires-Dist: h5py (==2.8.0)
+Requires-Dist: idna (==2.8)
+Requires-Dist: imutils (==0.5.2)
+Requires-Dist: Keras (==2.2.2)
+Requires-Dist: Keras-Applications (==1.0.4)
+Requires-Dist: Keras-Preprocessing (==1.0.2)
+Requires-Dist: kiwisolver (==1.1.0)
+Requires-Dist: Markdown (==3.1.1)
+Requires-Dist: matplotlib (==3.1.0)
+Requires-Dist: mkl-fft (==1.0.12)
+Requires-Dist: mkl-random (==1.0.2)
+Requires-Dist: munkres (==1.1.2)
+Requires-Dist: numpy (==1.16.4)
+Requires-Dist: olefile (==0.46)
+Requires-Dist: Pillow (==6.0.0)
+Requires-Dist: protobuf (==3.6.0)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: pyOpenSSL (==19.0.0)
+Requires-Dist: pyparsing (==2.4.0)
+Requires-Dist: PySocks (==1.7.0)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pytz (==2019.1)
+Requires-Dist: PyYAML (==5.1)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: scipy (==1.2.1)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: tensorboard (==1.10.0)
+Requires-Dist: tensorflow (==1.10.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: tornado (==6.0.2)
+Requires-Dist: urllib3 (==1.24.2)
+Requires-Dist: Werkzeug (==0.15.4)
+Requires-Dist: win-inet-pton (==1.1.0)
+Requires-Dist: wincertstore (==0.2)
+
+# Installation
+
+`pip install -r requirements.txt`
+
+### Detector
+
+#### Using CPU
+
+For running on CPU, YOLO weights (`.weights` file) have to be on `detection/detectors/yolo3_opencv/yolo-coco` , the file is available on  
+https://drive.google.com/open?id=1Ukxp50S3pl97VNI3xT0IYS6OqwoeNOPu .
+
+#### Using GPU
+
+For running on GPU YOLO weights (`.h5` file) have to be on `detection/detectors/yolo3_keras/model_data` , the file is available on  
+https://drive.google.com/open?id=1WvnNVgwuB5muxkitcw4beSNL6najmqfE .
+
+
+
+
+
