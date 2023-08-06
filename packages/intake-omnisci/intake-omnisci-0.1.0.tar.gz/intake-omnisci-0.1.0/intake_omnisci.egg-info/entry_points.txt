@@ -1,0 +1,4 @@
+[intake.drivers]
+omnisci = intake_omnisci:OmniSciSource
+omnisci_cat = intake_omnisci:OmniSciCatalog
+

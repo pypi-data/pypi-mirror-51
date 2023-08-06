@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+intake_omnisci/__init__.py
+intake_omnisci/catalog.py
+intake_omnisci/source.py
+intake_omnisci.egg-info/PKG-INFO
+intake_omnisci.egg-info/SOURCES.txt
+intake_omnisci.egg-info/dependency_links.txt
+intake_omnisci.egg-info/entry_points.txt
+intake_omnisci.egg-info/not-zip-safe
+intake_omnisci.egg-info/requires.txt
+intake_omnisci.egg-info/top_level.txt
