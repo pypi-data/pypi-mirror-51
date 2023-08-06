@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: nerdlog
+Version: 0.1.7
+Summary: Simple logging library.
+Home-page: UNKNOWN
+Author: Magnus Hirth
+Author-email: mhmorgan42@gmail.com
+License: UNKNOWN
+Description: NerdLog is a simple logging library, see https://gitlab.com/mhmorgan/pynerdlog
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
