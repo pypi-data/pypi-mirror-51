@@ -1,0 +1,11 @@
+README
+setup.cfg
+setup.py
+image2pipe/__init__.py
+image2pipe/ffmpeg.py
+image2pipe/utils.py
+image2pipe.egg-info/PKG-INFO
+image2pipe.egg-info/SOURCES.txt
+image2pipe.egg-info/dependency_links.txt
+image2pipe.egg-info/requires.txt
+image2pipe.egg-info/top_level.txt
