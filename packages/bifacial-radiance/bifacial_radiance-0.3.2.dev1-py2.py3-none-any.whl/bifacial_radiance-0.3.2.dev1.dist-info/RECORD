@@ -1,0 +1,17 @@
+bifacial_radiance/__init__.py,sha256=ij_LCVf3p-HCrl_wChcqRTwGlQj8i6qzcSo4yVPSUBM,420
+bifacial_radiance/_version.py,sha256=kW79ofcF57XyLT4EqLJrns8kKR6YYCP3_Y3UysOGIEw,502
+bifacial_radiance/analysis.py,sha256=YGbmXuUh1RLmx-oyvtVi6BgL0fpC9FbwhK3pby-xyUU,23265
+bifacial_radiance/gui.py,sha256=Cjhltf-s6G-Ij2Wq0TSHkXow3YsPlVlmljNzfEwGZeA,90740
+bifacial_radiance/load.py,sha256=jb0xQMxy2RJMyNzFVsRPxYwBBowyQGxAkyoVe3Fh7x8,44063
+bifacial_radiance/main.py,sha256=9c2agbhh5D3zv9W5ZQAJo_Q6trODfrDfelkymqih330,152781
+bifacial_radiance/modelchain.py,sha256=hjrdETL8qAgPuqELf2DOfq9CqdwOSwMO_Xh6qTdAXs0,18921
+bifacial_radiance/readepw.py,sha256=FWftb6alCFiSogh_SCamGdzAhuS8w83VnySmYiU3wQM,5446
+bifacial_radiance/data/default.ini,sha256=GDiEox1pWvdhsEeVbvDk3cHpb3ZA9NMeQqGiufBP8nw,1218
+bifacial_radiance/data/gencumulativesky.exe,sha256=QuJQAy7PRGgsW10cr4aUL0CtSTXoXsrWwbuK_zo5yC0,1141004
+bifacial_radiance/data/ground.rad,sha256=37mGKk4L0kgLIh-1UXegzASjTe7ZJeUCcNvJ079etWg,1297
+bifacial_radiance/data/module.json,sha256=pmwy7S2_0i4n5d1T8TX9AOJyTr7gOtSiXOT_QOduUpc,2426
+bifacial_radiance-0.3.2.dev1.dist-info/LICENSE,sha256=roHusHAgy0bZXyhueSB2T14Udt6v8XGx_ONzIVojY9c,2163
+bifacial_radiance-0.3.2.dev1.dist-info/METADATA,sha256=IBaUX84jTaHhh_yU7mYdNLmwtpOrsRDA5mlmyWON8q4,13587
+bifacial_radiance-0.3.2.dev1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+bifacial_radiance-0.3.2.dev1.dist-info/top_level.txt,sha256=SR4gQhzkq0SLKkIo-AFZ92eGx1uPw205r9xx_wL7rSs,18
+bifacial_radiance-0.3.2.dev1.dist-info/RECORD,,
