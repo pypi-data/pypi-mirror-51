@@ -1,0 +1,10 @@
+doppel/__init__.py,sha256=Amoazdfe7GtQ-HV_-Ajb7ScdVeQKp5qfIJ707-LCm5I,1483
+doppel/archive.py,sha256=KGFNIT2S-EJXJBkQdbnhq6V6I4E6-3IaAJPsG_G9x1A,1610
+doppel/driver.py,sha256=9d7ZQDAX_IYF4MPClhyqWgUfuyKVDh1oUHh3dRprCiI,6256
+doppel/version.py,sha256=P4G2WOmXxlvmnsIy3Ln6x-MYKjPOZqN7RbSOPJxdYE8,18
+doppel-0.4.0.dist-info/LICENSE,sha256=v8H3cCfU6pwazNHl0AfEEMy2NaBsQsY5J8Q44GLIv-s,1486
+doppel-0.4.0.dist-info/METADATA,sha256=PgpR7dtDcpxwXOBZrI_b8TiRS2LAOJ17PJ6ucGIyV6k,4087
+doppel-0.4.0.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+doppel-0.4.0.dist-info/entry_points.txt,sha256=_DsNPJfVpCAKw0Ifzvfx4r4ZVcjvQGkeFYo1G2nb2oQ,47
+doppel-0.4.0.dist-info/top_level.txt,sha256=ipj19kXft05WESGN0rLWCw1i-KfxhAG2zIHhLkpNq2U,7
+doppel-0.4.0.dist-info/RECORD,,
