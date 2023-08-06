@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: drf-client
+Version: 1.0.0
+Summary: Dynamic rest client for DRF based django api servers
+Home-page: https://github.com/sheoran/django-drf-client.git
+Author: Deepak Sheoran
+License: UNKNOWN
+Description: # django-drf-client
+        Dynamic client based on coreapi and drf inspired by dotmap and java script
+        
+        
+        Example
+        
+            def get_client(url,username,password):
+                from drf_client.client import DrfClient
+                return DrfClient(url, username, password)
+              
+            drfc = get_client('http://server-dns-name','username','password')
+            doc(drfc) # it will list possible options based on server
+            
+            # Example
+            drfc.api.<app-name>.<model>.create(**params)
+            drfc.api.<app-name>.<model>.list(**params).all()
+            drfc.api.<app-name>.<model>.list(**params).first()
+            
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
