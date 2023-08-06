@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+import logging
+
+from ncbi_genome_download.config import NgdConfig
+from ncbi_genome_download.core import config_download
+
+
+def main():
+    logging.basicConfig(level=logging.INFO)
+    logging.getLogger("ncbi-genome-download").setLevel(logging.WARNING)
+    logger = logging.getLogger('example')
+    logger.setLevel(logging.DEBUG)
+    logger.info("Set up example logger")
+    config = NgdConfig.from_kwargs(group=["bacteria"], genus=["coe"], fuzzy_genus=True)
+    config_download(config)
+    logger.debug("Done")
+
+
+if __name__ == "__main__":
+    main()

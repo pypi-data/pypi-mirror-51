@@ -1,0 +1,15 @@
+This is release 0.2.11 of ncbi-genome-download which fixes two logging issues.
+
+Thanks to David Morgan (@Cptmorgan27) for providing a patch.
+
+Detailed changes:
+
+David Morgan (1):
+      core: remove print statement for type material
+
+Kai Blin (4):
+      chore: Use a named logger instead of the root logger
+      README: Make it clearer that more than just bacteria and viral groups are available
+      chore: Remove landscape.io link, as that service seems dead
+      Bump version number to 0.2.11
+
