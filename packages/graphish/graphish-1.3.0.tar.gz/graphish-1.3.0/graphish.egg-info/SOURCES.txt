@@ -1,0 +1,15 @@
+README.md
+setup.py
+graphish/__init__.py
+graphish/connector.py
+graphish/delete.py
+graphish/mailfolder.py
+graphish/message.py
+graphish/rules.py
+graphish/search.py
+graphish/users.py
+graphish.egg-info/PKG-INFO
+graphish.egg-info/SOURCES.txt
+graphish.egg-info/dependency_links.txt
+graphish.egg-info/requires.txt
+graphish.egg-info/top_level.txt
