@@ -1,0 +1,16 @@
+isogeopyxl/__about__.py,sha256=XsM2-CS5QDkXTDNLw9VnJXdR6ZxgfbWJv5mIOFUszjA,773
+isogeopyxl/__init__.py,sha256=ZI3xou6M4jF6ogf-XcUudvpyx0pqMvww26VrshHMRlA,396
+isogeopyxl/isogeo2xlsx.py,sha256=VDlQIQoMLSx4qjFGPjZUNnQnZb33iaVRqGQISH5iFDg,32858
+isogeopyxl/matrix/__init__.py,sha256=-D-nGFC1AlSOuI-KH6Qs8dW69L_zCJSP2iUzkeVPsyY,251
+isogeopyxl/matrix/raster.py,sha256=4BdwA3773-yzyuc-P0Sxpi49c7B3WaySlwur3fsAKBg,1393
+isogeopyxl/matrix/resource.py,sha256=TyQUF6h5DqQSGOWrIcxoiShawPSYobhx5f129UNhAX4,791
+isogeopyxl/matrix/service.py,sha256=yE2qZ9qc-G_WGohnr4aEKGevg9yG5u3TMukiOVJq7ck,1370
+isogeopyxl/matrix/vector.py,sha256=O1l5C19VwwW-t8QWxLS6PlT4IbeTQ4h8GDffDEplV9I,1448
+isogeopyxl/utils/__init__.py,sha256=TR589MBbmsM1jGPnj6WRvpipmcqJD7mYacgnIO2AO28,133
+isogeopyxl/utils/formatter.py,sha256=eVP6-eQWbpmVnUMszNYXSFiFbj08t4ZdiEjZGn2mdJs,7308
+isogeopyxl/utils/stats.py,sha256=tbe8TUMpDuTvrE1Ba4wbYSUN-LA-LhrsboabbH-8Xow,5670
+isogeo_export_xl-1.0.0.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+isogeo_export_xl-1.0.0.dist-info/METADATA,sha256=2ZTw-XO8pdQepK0-gmhYgxloj9kEMOLntFYH8WVu_M8,2194
+isogeo_export_xl-1.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+isogeo_export_xl-1.0.0.dist-info/top_level.txt,sha256=Z2u4FuVHh9Bx-xcejCvs-nGxJ9NAJBg8hspP2A5eyUI,11
+isogeo_export_xl-1.0.0.dist-info/RECORD,,
