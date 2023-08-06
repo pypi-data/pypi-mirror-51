@@ -1,0 +1,4 @@
+[console_scripts]
+qinv = qinvoke.main:program.serve
+qinvoke = qinvoke.main:program.serve
+
