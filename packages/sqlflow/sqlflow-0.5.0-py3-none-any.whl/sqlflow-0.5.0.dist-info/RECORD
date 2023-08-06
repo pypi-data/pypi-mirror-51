@@ -1,0 +1,14 @@
+sqlflow/__init__.py,sha256=d-wL1xCWVX34G0fIOAvz07EKgtqxGrIAdAEGB7RlpBg,82
+sqlflow/__main__.py,sha256=ohInPMm8Rcv5qQ_UuF4UcFIXpeWnSqzLD5Cid1jzWc0,611
+sqlflow/_version.py,sha256=CLiRgA6Rn6S0PJSxAs0-GxS7TpxnnvjiZM29oEUraow,63
+sqlflow/client.py,sha256=wM3vOWuaMZIGMKJJDMuvZRxi4izwYeqO6FiqCg_19XY,6830
+sqlflow/env_expand.py,sha256=u2Zk3VCgY9NowpJjG_EnEsI55uJW7AbgJtJmn56wrJU,1937
+sqlflow/magic.py,sha256=FzluiiUpw7RLLqw2lMs9xtq-caM4hED6EY320sNq1M4,1563
+sqlflow/proto/sqlflow_pb2.py,sha256=ZPXeS0PCGUansqjRkzKiD9856wSKrOyV4PRM16eoAzY,12360
+sqlflow/proto/sqlflow_pb2_grpc.py,sha256=4xpZFKP5rtrL-z8j2RMyS73WXaNH0AxYlqMxAGOi_aQ,1834
+sqlflow-0.5.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+sqlflow-0.5.0.dist-info/METADATA,sha256=wRpI2z6hX038rJbxl5oUILWtd5dca68rkCh9-mmHcZk,1906
+sqlflow-0.5.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sqlflow-0.5.0.dist-info/entry_points.txt,sha256=NBuDuXNKF1Xfm-TwA6FFeGVBnzvU8jTJRHklcDOYsO0,51
+sqlflow-0.5.0.dist-info/top_level.txt,sha256=EExwzd8232f5Thq4rk2HfUvpaGn0zRJtbvxR6czdP9E,8
+sqlflow-0.5.0.dist-info/RECORD,,
