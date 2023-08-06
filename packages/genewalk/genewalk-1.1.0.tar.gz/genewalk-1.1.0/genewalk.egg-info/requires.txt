@@ -1,0 +1,7 @@
+numpy
+pandas
+networkx>=2.1
+gensim
+goatools
+indra
+scipy>=1.3.0
