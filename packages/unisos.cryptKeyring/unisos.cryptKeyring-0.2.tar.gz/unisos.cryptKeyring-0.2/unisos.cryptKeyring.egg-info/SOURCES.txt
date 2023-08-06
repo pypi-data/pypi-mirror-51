@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+TITLE.txt
+lh-agpl3-LICENSE.txt
+setup.py
+./bin/keyring-crypt.py
+unisos/__init__.py
+unisos.cryptKeyring.egg-info/PKG-INFO
+unisos.cryptKeyring.egg-info/SOURCES.txt
+unisos.cryptKeyring.egg-info/dependency_links.txt
+unisos.cryptKeyring.egg-info/namespace_packages.txt
+unisos.cryptKeyring.egg-info/not-zip-safe
+unisos.cryptKeyring.egg-info/requires.txt
+unisos.cryptKeyring.egg-info/top_level.txt
+unisos/cryptKeyring/__init__.py
+unisos/cryptKeyring/cryptKeyring.py
