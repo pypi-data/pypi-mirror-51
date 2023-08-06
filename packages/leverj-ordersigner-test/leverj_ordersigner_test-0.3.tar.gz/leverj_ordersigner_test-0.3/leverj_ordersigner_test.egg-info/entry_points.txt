@@ -1,0 +1,3 @@
+[console_scripts]
+run_js = leverj_ordersigner_test:run_js
+
