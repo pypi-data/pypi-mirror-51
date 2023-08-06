@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: mine-init
+Version: 0.1.21
+Summary: A docker friendly startup routine for Minecraft servers.
+Home-page: https://gitlab.routh.io/minecraft/tools/mine-init
+License: MIT
+Author: Chris Routh
+Author-email: chris@routh.io
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Repository, https://gitlab.routh.io/minecraft/tools/mine-init
+Description-Content-Type: text/x-rst
+
+===========
+ mine-init
+===========
+----------------------------------------------------------
+ A docker friendly startup routine for Minecraft servers.
+----------------------------------------------------------
+
+|build-status| |coverage|
+
+Main Documentation
+==================
+
+`Main Index`_
+
+.. |build-status| image:: https://gitlab.routh.io/minecraft/tools/mine-init/badges/master/pipeline.svg
+    :target: https://gitlab.routh.io/minecraft/tools/mine-init/pipelines
+
+.. |coverage| image:: https://gitlab.routh.io/minecraft/tools/mine-init/badges/master/coverage.svg
+    :target: http://minecraft.pages.routh.io/tools/mine-init/reports/
+    :alt: Coverage status
+
+.. _Main Index: http://minecraft.pages.routh.io/tools/mine-init/
+
