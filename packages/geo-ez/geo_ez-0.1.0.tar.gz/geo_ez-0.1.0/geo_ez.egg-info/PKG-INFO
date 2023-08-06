@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: geo-ez
+Version: 0.1.0
+Summary: Tools for building geographically aware django apps, without needing to install a real GIS backend.
+Home-page: https://github.com/avryhof/geo_ez
+Author: Amos Vryhof
+Author-email: amos@vryhofresearch.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
