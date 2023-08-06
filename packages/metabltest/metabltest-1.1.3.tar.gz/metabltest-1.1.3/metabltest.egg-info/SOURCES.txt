@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bltest/__init__.py
+bltest/extra_asserts.py
+bltest/random_data.py
+metabltest.egg-info/PKG-INFO
+metabltest.egg-info/SOURCES.txt
+metabltest.egg-info/dependency_links.txt
+metabltest.egg-info/requires.txt
+metabltest.egg-info/top_level.txt
