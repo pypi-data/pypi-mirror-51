@@ -1,0 +1,4 @@
+[console_scripts]
+adles = adles.__main__:run_cli
+vsphere = adles.vsphere.__main__:main
+

@@ -1,0 +1,355 @@
+Metadata-Version: 2.1
+Name: ADLES
+Version: 1.4.0
+Summary: Automated Deployment of Lab Environments System (ADLES)
+Home-page: https://github.com/GhostofGoes/ADLES
+Author: Christopher Goes
+Author-email: goesc@acm.org
+License: Apache 2.0
+Project-URL: GitHub, https://github.com/GhostofGoes/ADLES
+Project-URL: Homepage, https://ghostofgoes.github.io/ADLES/
+Project-URL: Documentation, https://adles.readthedocs.io
+Project-URL: Publication, https://doi.org/10.1016/j.cose.2017.12.007
+Project-URL: Discord server, https://discord.gg/python
+Project-URL: Issue tracker, https://github.com/GhostofGoes/ADLES/issues
+Keywords: virtualization,vmware,vsphere,cybersecurity,education,radicl
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Education
+Classifier: Topic :: Education :: Testing
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml (==5.1.2)
+Requires-Dist: colorlog (==3.1.4)
+Requires-Dist: tqdm (==4.19.6)
+Requires-Dist: humanfriendly (<5,>=4.12.1)
+Requires-Dist: pyvmomi (<7.0.0,>=6.5)
+Provides-Extra: cloud
+Requires-Dist: apache-libcloud (>=2.3.0) ; extra == 'cloud'
+Provides-Extra: docker
+Requires-Dist: docker (>=2.4.2) ; extra == 'docker'
+
+
+[![Latest version on PyPI](https://badge.fury.io/py/ADLES.svg)](https://pypi.org/project/ADLES/)
+[![Travis CI build status](https://travis-ci.org/GhostofGoes/ADLES.svg?branch=master)](https://travis-ci.org/GhostofGoes/ADLES)
+[![Documentation](https://readthedocs.org/projects/adles/badge/)](http://adles.readthedocs.io/en/latest/)
+[![DOI Reference](https://zenodo.org/badge/68841026.svg)](https://zenodo.org/badge/latestdoi/68841026)
+
+
+# Overview
+Automated Deployment of Lab Environments System (ADLES)
+
+ADLES automates the deterministic creation of virtualized environments for use
+in Cybersecurity and Information Technology (IT) education.
+
+The system enables educators to easily build deterministic and portable
+environments for their courses, saving significant amounts of time and effort,
+and alleviates the requirement of possessing advanced IT knowledge.
+
+Complete documentation can be found at [ReadTheDocs](https://adles.readthedocs.io).
+
+[Publication describing the system.](https://doi.org/10.1016/j.cose.2017.12.007)
+
+# Getting started
+```bash
+# Install
+pip3 install adles
+
+# Usage
+adles -h
+
+# Specification syntax
+adles --print-spec exercise
+adles --print-spec infra
+
+# Examples
+adles --list-examples
+adles --print-example competition
+```
+
+# Usage
+Creating an environment using ADLES:
+* Read the exercise and infrastructure specifications and examples of them.
+* Write an infrastructure specification for your platform. (Currently, VMware vSphere is the only platform supported)
+* Write an exercise specification with the environment you want created.
+* Check its syntax, run the mastering phase, make your changes, and then run the deployment phase.
+
+```bash
+# Validate spec
+adles validate my-competition.yaml
+
+# Create Master images
+adles masters my-competition.yaml
+
+# Deploy the exercise
+adles deploy my-competition.yaml
+
+# Cleanup the environment
+adles cleanup my-competition.yaml
+```
+
+## Detailed usage
+```bash
+usage: adles [-h] [--version] [-v] [--syslog SERVER] [--no-color]
+             [--list-examples] [--print-spec NAME] [--print-example NAME]
+             [-i INFRA]
+             {validate,deploy,masters,package,cleanup} ...
+
+Examples:
+    adles --list-examples
+    adles --print-example competition | adles validate -
+    adles validate examples/pentest-tutorial.yaml
+    adles masters examples/experiment.yaml
+    adles -v deploy examples/experiment.yaml
+    adles cleanup -t masters --cleanup-nets examples/competition.yaml
+    adles validate -t infra examples/infra.yaml
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  -v, --verbose         Emit debugging logs to terminal
+  --syslog SERVER       Send logs to a Syslog server on port 514
+  --no-color            Do not color terminal output
+  -i INFRA, --infra INFRA
+                        Override the infrastructure specification to be used
+
+Print examples and specs:
+  --list-examples       Prints the list of available example scenarios
+  --print-spec NAME     Prints the named specification
+  --print-example NAME  Prints the named example
+
+ADLES Subcommands:
+  {validate,deploy,masters,package,cleanup}
+    validate            Validate the syntax of your specification
+    deploy              Environment deployment phase of specification
+    masters             Master creation phase of specification
+    package             Create a package
+    cleanup             Cleanup and remove existing environments
+```
+
+## vSphere Utility Scripts
+There are a number of utility scripts to make certain vSphere tasks bearable.
+
+```bash
+# Basic usage
+vsphere --help
+vsphere <script> --help
+vsphere <script --version
+
+# Running as a Python module
+python -m adles.vsphere --help
+```
+
+### Detailed usage
+```bash
+usage: vsphere [-h] {cleanup,clone,power,info,snapshot} ...
+
+Single-purpose CLI scripts for interacting with vSphere
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+vSphere scripts:
+  {cleanup,clone,power,info,snapshot}
+    cleanup             Cleanup and Destroy Virtual Machines (VMs) and VM
+                        Folders in a vSphere environment.
+    clone               Clone multiple Virtual Machines in vSphere.
+    power               Power operations for Virtual Machines in vSphere.
+    info                Query information about a vSphere environment and
+                        objects within it.
+    snapshot            Perform Snapshot operations on Virtual Machines in a
+                        vSphere environment.
+```
+
+# System requirements
+
+Python: 3.6+
+
+ADLES will run on any platform supported by Python. It has been tested on:
+
+* Windows 10 (Anniversary and Creators)
+* Ubuntu 14.04 and 16.04 (Including Bash on Ubuntu on Windows)
+* CentOS 7
+
+## Python packages
+See ``setup.py`` for specific versions
+* pyyaml
+* colorlog
+* humanfriendly
+* tqdm
+* pyvmomi (If you are using VMware vSphere)
+* setuptools (If you are installing manually or developing)
+
+## Platforms
+**VMware vSphere**
+* vCenter Server: 6.0+
+* ESXi: 6.0+
+
+# Reporting issues and getting help
+If there is a bug in ADLES or you run into issues getting it working, please open an [issue on GitHub](https://github.com/GhostofGoes/ADLES/issues). I'm happy to help, though it may take a few days to a week for me to respond. If it's time-sensitive (I know the feeling well), feel free to contact me directly (see below).
+
+If you have general questions, want help with using ADLES for your project or students, or just want to discuss the project, drop me a line via email (`adles/__about__.py`), Twitter (@GhostOfGoes), or on Discord (@KnownError). The [Python Discord server](https://discord.gg/python) is a good place
+to ask questions or discuss the project.
+
+# Contributing
+Contributors are more than welcome! See the [contribution guide](CONTRIBUTING.md) to get started, and checkout the [TODO list](TODO.md) and [GitHub issues](https://github.com/GhostofGoes/ADLES/issues) for a full list of tasks and bugs.
+
+## Contributors
+* Christopher Goes (@GhostOfGoes)
+* Daniel Conte de Leon (dcontedeleon)
+
+# Goals and TODO
+The overall goal of ADLES is to create a easy to use and rock-solid system that allows instructors
+and students teaching using virtual environments to automate their workloads.
+
+Long-term, I’d like to see the creation of a open-source repository, similar to
+Hashicorp’s Atlas and Docker’s Hub, where educators can share packages
+and contribute to improving cyber education globally.
+
+Full list of TODOs are in `documentation/TODO.md` and the GitHub issues.
+
+# License
+This project is licensed under the Apache License, Version 2.0. See
+LICENSE for the full license text, and NOTICES for attributions to
+external projects that this project uses code from.
+
+# Project History
+The system began as a proof of concept implementation of my Master's thesis research at the
+University of Idaho in Fall of 2016. It was originally designed to run on the RADICL lab.
+
+
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [1.4.0] - 2019-09-04
+
+**Notable changes**
+- New CLI command syntax, run `adles --help` for details or checkout the Usage section in the README 
+- Consolidated the vSphere helper scripts (e.g. `vm-power`) into a single command, `vsphere` . For usage, run `vsphere --help`.
+- **ADLES now requires Python 3.6+**. It is included or easily installable on any modern Linux distribution, Windows, and OSX.
+
+### Added
+- The CLI can now be invoked a Python module (e.g. `python -m adles`, `python -m adles.vsphere`)
+- Added two new specification fields to all spec types: `spec-type` and `spec-version`
+- New argument: `--syslog`. Configures saving of log output to the specified Syslog server.
+- Added progress bars to the cloning, power, and snapshot vSphere helper commands
+- Support the `NO_COLOR` environment variable (per [no-color.org](https://no-color.org/))
+- New dependencies: [tqdm](https://github.com/tqdm/tqdm) and [humanfriendly](https://pypi.org/project/humanfriendly/)
+- Debian package (See the [GitHub releases page](https://github.com/GhostofGoes/ADLES/releases))
+
+### Changed
+- Failing to import an optional dependency will now log an error instead
+of raising an exception and terminating execution.
+- Logs will not longer emit to a syslog server by default.
+Syslog server will now only be used if the parameter is set.
+- Behind the scenes changes to commandline argument parsing that will
+make adding future functionality easier and enable usage of other
+third-party libraries that use `argparse`.
+- Lots of code cleanup and formatting
+- Bumped dependency versions
+- Various other minor changes, see the Git pull request diff for all the changes
+
+### Removed
+- Dropped support for Python < 3.6
+- Removed `Libvirt` and `HyperV` interfaces
+- Removed dependency: `netaddr`
+
+### Dev
+- Added Tox for test running and linting
+- Added `.editorconfig`
+- Added `.gitattributes`
+- Reorganized some documentation
+- Removed CodeClimate
+- Moved the remaining examples in the project root into `examples/`
+- Added unit tests to Travis CI
+
+## [1.3.6] - 2017-12-19
+### Fixed
+- Fixed issue with any of the commandline scripts where just entering
+ the script name (e.g "adles") on the commandline would error,
+ instead of printing help as a user would expect.
+- Fixed vm_snapshots script outputting to the wrong log file.
+
+### Changed
+- Under-the-hood improvements to how arguments are parsed
+and keyboard interrupts are handled.
+
+
+## [1.3.5] - 2017-12-13
+### Changed
+- Move package dependencies into setup.py from requirements.txt.
+
+
+## [1.3.4] - 2017-12-13
+### Added
+- Man page on Linux systems!
+
+
+## [1.3.3] - 2017-11-25
+### Added
+- The ability to relocate a VM to a new host and/or datastore to the VM class.
+- The ability to change the mode of a VM HDD to the VM class.
+
+### Changed
+- Cleaned up docstrings in vm.py.
+
+
+## [1.3.2] - 2017-11-25
+### Added
+- The ability to resize a HDD to the VM class.
+
+
+## [1.3.1] - 2017-11-24
+### Fixed
+- Fixed bug where interfaces (and their dependencies) would be imported,
+even if they were not being used. This caused the "pip install docker" error.
+
+### Changed
+- Minor improvements to logging.
+
+
+## [1.3.0] - 2017-07-02
+### Added
+- An interface for libvirt (LibvirtInterface).
+- LibcloudInterface that is inherited by LibvirtInterface and CloudInterface.
+- Libvirt to infrastructure-specification.
+- libvirt to optional-requirements.
+
+### Changed
+- Significant changes to class heirarachy. All interfaces now inherit from Interface and class its init method.
+There is a separate PlatformInterface that has most of the functionality Interface did, and this is what is now called from main().
+- Tweaked some boilerplate code in the interfaces.
+- Updated parser.
+- Formatting tweaks.
+- Moved apache-libcloud to requirements.
+
+
+## [1.2.0] - 2017-07-02
+Initial stab at cloud interface using Apache libcloud
+(quickly superseded by 1.3.0, so ignore this version).
+
+
+
