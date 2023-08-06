@@ -1,0 +1,2 @@
+include LICENSE
+recursive-include SR700_Artisan_Server *.*

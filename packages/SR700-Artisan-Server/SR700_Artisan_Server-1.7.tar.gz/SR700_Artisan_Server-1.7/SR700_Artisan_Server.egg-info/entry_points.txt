@@ -1,0 +1,17 @@
+[console_scripts]
+Get_Artisan_Temps = SR700_Artisan_Server.Get_Artisan_Temps:main
+Get_Roaster_State = SR700_Artisan_Server.Get_Roaster_State:main
+Roaster_Charge = SR700_Artisan_Server.Roaster_Charge:main
+Roaster_Cooling = SR700_Artisan_Server.Roaster_Cooling:main
+Roaster_Disable_Fan_Manual_Mode = SR700_Artisan_Server.Roaster_Disable_Fan_Manual_Mode:main
+Roaster_Disable_Temp_Manual_Mode = SR700_Artisan_Server.Roaster_Disable_Temp_Manual_Mode:main
+Roaster_Enable_Fan_Manual_Mode = SR700_Artisan_Server.Roaster_Enable_Fan_Manual_Mode:main
+Roaster_Enable_Temp_Manual_Mode = SR700_Artisan_Server.Roaster_Enable_Temp_Manual_Mode:main
+Roaster_Preheat = SR700_Artisan_Server.Roaster_Preheat:main
+Roaster_Set_Fan = SR700_Artisan_Server.Roaster_Set_Fan:main
+Roaster_Set_Temp = SR700_Artisan_Server.Roaster_Set_Temp:main
+Roaster_Set_Time = SR700_Artisan_Server.Roaster_Set_Time:main
+Roaster_Stop = SR700_Artisan_Server.Roaster_Stop:main
+Start_SR700_Artisan_Server = SR700_Artisan_Server.Start_SR700_Artisan_Server:main
+__init__ = SR700_Artisan_Server.__init__:main
+
