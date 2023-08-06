@@ -1,0 +1,6 @@
+README.md
+setup.py
+alipdf.egg-info/PKG-INFO
+alipdf.egg-info/SOURCES.txt
+alipdf.egg-info/dependency_links.txt
+alipdf.egg-info/top_level.txt
