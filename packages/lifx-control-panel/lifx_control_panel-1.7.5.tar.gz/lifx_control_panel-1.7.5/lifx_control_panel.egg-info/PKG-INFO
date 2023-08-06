@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lifx-control-panel
+Version: 1.7.5
+Summary: An open source application for controlling your LIFX brand lights
+Home-page: http://github.com/samclane/LIFX-Control-Panel
+Author: Sawyer McLane
+Author-email: samclane@gmail.com
+License: MIT
+Download-URL: https://github.com/samclane/LIFX-Control-Panel/archive/1.7.5.tar.gz
+Description: <_io.TextIOWrapper name='README.md' mode='r' encoding='cp1252'>
+Keywords: lifx,iot,smartbulb,smartlight,lan,application
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
