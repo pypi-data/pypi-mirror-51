@@ -1,0 +1,3 @@
+blockstack_zones-py3
+requests
+twisted
