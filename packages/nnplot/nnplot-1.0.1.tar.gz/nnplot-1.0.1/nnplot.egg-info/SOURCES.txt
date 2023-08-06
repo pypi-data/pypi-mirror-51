@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+nnplot/__init__.py
+nnplot/functions.py
+nnplot.egg-info/PKG-INFO
+nnplot.egg-info/SOURCES.txt
+nnplot.egg-info/dependency_links.txt
+nnplot.egg-info/top_level.txt
