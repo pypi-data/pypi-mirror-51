@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: glx
+Version: 0.6
+Summary: Classes that facilitate working with OpenGL 4.4 shaders and efficiently rendering text.
+Home-page: UNKNOWN
+Author: Neil Girdhar
+Author-email: mistersheik@gmail.com
+License: UNKNOWN
+Download-URL: https://pypi.python.org/pypi/glx
+Project-URL: Bug Tracker, https://github.com/NeilGirdhar/glx/issues
+Project-URL: Source Code, https://github.com/NeilGirdhar/glx
+Keywords: OpenGL
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.7
+Requires-Dist: numpy (>=1.13)
+Requires-Dist: mako (>=1.0.7)
+Requires-Dist: rectangle (>=0.2)
+Requires-Dist: freetype-py (>=1.1)
+Requires-Dist: PyOpenGL (>=3.0.0)
+
+====
+glx
+====
+.. image:: https://badge.fury.io/py/glx.svg
+    :target: https://badge.fury.io/py/glx
+
+This repository provides Python classes that facilitate working with OpenGL 4.4 shaders, and efficiently rendering text.
+
+
