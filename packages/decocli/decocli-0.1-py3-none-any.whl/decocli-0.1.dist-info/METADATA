@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: decocli
+Version: 0.1
+Summary: tools for python CLI using decorator
+Home-page: https://github.com/HyeockJinKim/DecoCLI
+Author: HyeockJin Kim
+Author-email: kherootz@gmail.com
+License: MIT
+Keywords: CLI,decorator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+
+DecoCLI for CLI Program
+
+Simple module for CLI in python
+
+
