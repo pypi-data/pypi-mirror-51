@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: batchglm
+Version: 0.6.8
+Summary: Fast and scalable fitting of over-determined generalized-linear models (GLMs)
+Home-page: UNKNOWN
+Author: David S. Fischer, Florian R. Hölzlwimmer, Sabrina Richter
+Author-email: david.fischer@helmholtz-muenchen.de
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (>=1.14.0)
+Requires-Dist: tensorflow-probability (>=0.7)
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: scipy (>=1.2.1)
+Requires-Dist: pandas
+Requires-Dist: dask
+Requires-Dist: toolz
+Requires-Dist: patsy
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: jinja2 ; extra == 'docs'
+Requires-Dist: docutils ; extra == 'docs'
+Provides-Extra: plotting_deps
+Requires-Dist: matplotlib ; extra == 'plotting_deps'
+Requires-Dist: seaborn ; extra == 'plotting_deps'
+Provides-Extra: scanpy_deps
+Requires-Dist: scanpy ; extra == 'scanpy_deps'
+Requires-Dist: anndata ; extra == 'scanpy_deps'
+Provides-Extra: tensorflow_gpu
+Requires-Dist: tensorflow-gpu ; extra == 'tensorflow_gpu'
+Requires-Dist: tensorflow-probability-gpu ; extra == 'tensorflow_gpu'
+
+
+# Fast and scalable fitting of over-determined generalized-linear models (GLMs)
+
+batchglm was developed in the context of [diffxpy](https://github.com/theislab/diffxpy) to allow fast model fitting for differential expression analysis for single-cell RNA-seq data. However, one can use batchglm or its concepts in other scenarios where over-determined GLMs are encountered. batchglm is based on TensorFlow 
+
+# Installation
+1. Install [tensorflow](https://www.tensorflow.org/install/), see below. Please use the pip installation if you are unsure.
+2. Clone the GitHub repository of batchglm.
+3. cd into the clone.
+4. pip install -e .
+
+## Tensorflow installation
+Tensorflow can be installed like any other package or can be compiled from source to allow for optimization of the software to the given hardware. Compiling tensorflow from source can significantly improve the performance, since this allows tensorflow to make use of all available CPU-specific instructions. Hardware optimization takes longer but is only required once during installation and is recommended if batchglm is used often or on large data sets. We summarize a few key steps here, an extensive up-to-date installation guide can be found here: https://www.tensorflow.org/install/
+
+### Out-of-the-box tensorflow installation
+You can install [tensorflow](https://www.tensorflow.org/install/) via pip or via conda.
+
+#### pip
+- CPU-only: <br/>
+  `pip install tensorflow`
+- GPU: <br/>
+  `pip install tensorflow-gpu`
+
+### Hardware-optimized tensorflow installation (compiling from source)
+Please refer to https://www.tensorflow.org/install/.
+
+
