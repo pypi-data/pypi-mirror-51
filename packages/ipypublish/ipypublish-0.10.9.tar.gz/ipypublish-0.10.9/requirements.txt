@@ -1,0 +1,18 @@
+bibtexparser
+docutils; python_version >= '3'
+docutils <0.15; python_version < '3'
+jinja2
+jsonextended>=0.7
+jsonschema
+jupytext
+nbconvert
+nbformat
+ordered-set
+pathlib2; python_version < '3.4'
+panflute
+ruamel.yaml
+shutilwhich; python_version < '3.3'
+six>=1.11.0
+traitlets
+typing; python_version < '3.5'
+tornado
