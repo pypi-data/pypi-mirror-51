@@ -1,0 +1,5 @@
+setup.py
+pyrandomcolor.egg-info/PKG-INFO
+pyrandomcolor.egg-info/SOURCES.txt
+pyrandomcolor.egg-info/dependency_links.txt
+pyrandomcolor.egg-info/top_level.txt

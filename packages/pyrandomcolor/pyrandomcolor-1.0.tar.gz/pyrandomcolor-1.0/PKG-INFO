@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pyrandomcolor
+Version: 1.0
+Summary: UNKNOWN
+Home-page: https://github.com/purcellconsult/PyRandomColor
+Author: Doug Purcell
+Author-email: purcellconsult@gmail.com
+License: GPL3.0
+Description: Add random color to your turtle computer graphics.
+Keywords: turtle module,random color,color,computer graphics,computer art
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
