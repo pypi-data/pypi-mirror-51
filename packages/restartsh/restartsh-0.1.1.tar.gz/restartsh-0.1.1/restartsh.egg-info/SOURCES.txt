@@ -1,0 +1,8 @@
+README.rst
+requirements.txt
+setup.py
+restartsh/__init__.py
+restartsh.egg-info/PKG-INFO
+restartsh.egg-info/SOURCES.txt
+restartsh.egg-info/dependency_links.txt
+restartsh.egg-info/top_level.txt
