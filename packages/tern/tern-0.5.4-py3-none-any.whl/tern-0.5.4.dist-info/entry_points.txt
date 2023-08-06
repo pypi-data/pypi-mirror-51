@@ -1,0 +1,3 @@
+[console_scripts]
+tern = tern.__main__:main
+
