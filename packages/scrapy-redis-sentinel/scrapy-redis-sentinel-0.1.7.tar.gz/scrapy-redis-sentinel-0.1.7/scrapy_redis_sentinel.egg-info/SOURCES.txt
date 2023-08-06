@@ -1,0 +1,17 @@
+README.rst
+setup.py
+scrapy_redis_sentinel/__init__.py
+scrapy_redis_sentinel/connection.py
+scrapy_redis_sentinel/defaults.py
+scrapy_redis_sentinel/dupefilter.py
+scrapy_redis_sentinel/picklecompat.py
+scrapy_redis_sentinel/pipelines.py
+scrapy_redis_sentinel/queue.py
+scrapy_redis_sentinel/scheduler.py
+scrapy_redis_sentinel/spiders.py
+scrapy_redis_sentinel/utils.py
+scrapy_redis_sentinel.egg-info/PKG-INFO
+scrapy_redis_sentinel.egg-info/SOURCES.txt
+scrapy_redis_sentinel.egg-info/dependency_links.txt
+scrapy_redis_sentinel.egg-info/requires.txt
+scrapy_redis_sentinel.egg-info/top_level.txt
