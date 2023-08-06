@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: packel
+Version: 1.0.1
+Summary: Packet serialization/deserialization in a Pythonic way.
+Home-page: https://github.com/kiwec/packel
+Author: kiwec
+Author-email: c.wolf@kiwec.net
+License: UNKNOWN
+
+# päckel
+
+

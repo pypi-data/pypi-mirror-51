@@ -1,0 +1,8 @@
+packel/__init__.py,sha256=T4-HlWWj5LjzC1sy2mhuLrZDZqWrf4MnWBrWfZ2e7Yk,135
+packel/packet.py,sha256=NphEwNnHEvpEImkQL-hg41yR6gHX0l9OngKZ-PYiR8I,2044
+packel/protocol.py,sha256=cwDBXKn5L3fZggozy4ccO1WW8-G0rC0HCZGphTJMUVY,1053
+packel/types.py,sha256=RTtF1Ho8tZU3HsbuJNLBKpbLoICAMAIpjuolm7Xa-w0,2851
+packel-1.0.1.dist-info/METADATA,sha256=SNvSRSUzQr4pbXrsqTwBZMdmmrLwhjWRIzyiGwvytcU,233
+packel-1.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+packel-1.0.1.dist-info/top_level.txt,sha256=-dnIx6s2BjyW2Y1ReSoVYzP_DxwgymkiaITN51mZhLA,7
+packel-1.0.1.dist-info/RECORD,,
