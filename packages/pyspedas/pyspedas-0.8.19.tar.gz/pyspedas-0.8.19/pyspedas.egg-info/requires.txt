@@ -1,0 +1,9 @@
+requests
+scipy
+pytplot
+cdflib
+bokeh
+nodejs
+pyqtgraph
+numpy
+pandas
