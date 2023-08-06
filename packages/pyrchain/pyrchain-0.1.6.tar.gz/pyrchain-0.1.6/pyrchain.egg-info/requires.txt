@@ -1,0 +1,13 @@
+grpcio
+protobuf
+ecdsa
+python-bitcoinlib
+cryptography
+eth_hash
+pycryptodome
+
+[dev]
+grpcio-tools
+mypy
+typing-extensions
+mypy-protobuf
