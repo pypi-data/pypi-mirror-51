@@ -1,0 +1,8 @@
+README.md
+setup.py
+beewi_smartclim/__init__.py
+beewi_smartclim.egg-info/PKG-INFO
+beewi_smartclim.egg-info/SOURCES.txt
+beewi_smartclim.egg-info/dependency_links.txt
+beewi_smartclim.egg-info/requires.txt
+beewi_smartclim.egg-info/top_level.txt
