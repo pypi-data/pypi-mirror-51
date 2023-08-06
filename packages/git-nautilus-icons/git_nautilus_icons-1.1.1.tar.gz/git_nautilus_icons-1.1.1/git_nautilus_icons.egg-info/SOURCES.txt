@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+git_nautilus_icons.py
+setup.py
+version
+git_nautilus_icons.egg-info/PKG-INFO
+git_nautilus_icons.egg-info/SOURCES.txt
+git_nautilus_icons.egg-info/dependency_links.txt
+git_nautilus_icons.egg-info/requires.txt
+git_nautilus_icons.egg-info/top_level.txt
