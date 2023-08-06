@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+test_num2word.py
+tox.ini
+src/num2word.py
+src/num2word.egg-info/PKG-INFO
+src/num2word.egg-info/SOURCES.txt
+src/num2word.egg-info/dependency_links.txt
+src/num2word.egg-info/top_level.txt
