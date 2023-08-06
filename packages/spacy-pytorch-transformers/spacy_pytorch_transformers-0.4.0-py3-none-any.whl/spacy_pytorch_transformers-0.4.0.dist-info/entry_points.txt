@@ -1,0 +1,8 @@
+[spacy_factories]
+pytt_textcat = spacy_pytorch_transformers:PyTT_TextCategorizer.from_nlp
+pytt_tok2vec = spacy_pytorch_transformers:PyTT_TokenVectorEncoder.from_nlp
+pytt_wordpiecer = spacy_pytorch_transformers:PyTT_WordPiecer.from_nlp
+
+[spacy_languages]
+pytt = spacy_pytorch_transformers:PyTT_Language
+
