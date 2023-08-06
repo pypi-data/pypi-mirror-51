@@ -1,0 +1,5 @@
+numpy
+jpype1>=0.6.2
+requests
+sqlalchemy
+pygtrie
