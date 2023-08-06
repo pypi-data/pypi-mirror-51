@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: RW-S3
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/mynkit/RW_S3
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: boto3
+Requires-Dist: pandas
+Requires-Dist: xlrd
+
+UNKNOWN
+
+
