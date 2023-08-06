@@ -1,0 +1,13 @@
+spacy_pattern_builder/__init__.py,sha256=M16APEcAjPQc-zZVnlFKsYeeDiR5XB0QxyK7Lnzr6AA,335
+spacy_pattern_builder/build.py,sha256=tVSAz5eHPwItEWXN0SVZjh987BDm-ouy8S9XmekVVz4,4461
+spacy_pattern_builder/exceptions.py,sha256=GUnLoqg7h9vd_D8FepGFViBhiMF1v4YgKXObkCs3q-Y,223
+spacy_pattern_builder/match.py,sha256=g-uV-b3_A_Ytm8TidZPtNlczVONSOMGn_C1fhHyd09o,586
+spacy_pattern_builder/mutate.py,sha256=pugqGgAvy_r10zrUZLp_JpfEHDn9zIi3de_ZcFu7DgI,2828
+spacy_pattern_builder/util.py,sha256=pjWcs0zFwnklSdBjQahuMeftenkKPoIw0mongr3W3pI,3863
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_spacy_pattern_builder.py,sha256=nRU1lhYw-tlTPv7e5dDHf8aW17d3jpVllIK7e8qkTmw,9094
+spacy_pattern_builder-0.0.7.dist-info/LICENSE,sha256=sEjy0ovhTO30xTryQLt7nox_KKtzceROG5rHi-XVsbQ,1078
+spacy_pattern_builder-0.0.7.dist-info/METADATA,sha256=UluzTiE9rIkdoKLC5dKUrPqocrjmP7sdEJ5avjWvAh4,3276
+spacy_pattern_builder-0.0.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+spacy_pattern_builder-0.0.7.dist-info/top_level.txt,sha256=wsUBZ4Zq7HlZbaopT3XNClrOJoEPugrzW8BkfXD5ezY,27
+spacy_pattern_builder-0.0.7.dist-info/RECORD,,
