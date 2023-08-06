@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: ovspy
+Version: 0.1.0b0
+Summary: Open vSwitch Mnipulation Library
+Home-page: https://github.com/kamaboko123/ovspy
+Author: kamaboko123
+Author-email: 6112062+kamaboko123@users.noreply.github.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
