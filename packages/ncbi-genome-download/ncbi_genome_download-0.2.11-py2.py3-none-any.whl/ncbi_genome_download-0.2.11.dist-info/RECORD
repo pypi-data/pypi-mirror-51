@@ -1,0 +1,12 @@
+ncbi_genome_download/__init__.py,sha256=vU3mBbiIz7wTrQYTF9DPpYIF7yemYh4ChxQBBjsjCuM,336
+ncbi_genome_download/__main__.py,sha256=TYWNiKlhM-fSDlXrkNiVPsE94cSBRATpfDrTMk32Z28,1018
+ncbi_genome_download/config.py,sha256=nuzs37nnZuMEoNCvhf-Gj7jerULWb4RRcsgdL9J0KC4,10858
+ncbi_genome_download/core.py,sha256=_-izwtQH5CWAjUuM2oZ_dOCM1ETYv74iICOYdp5SyN4,25348
+ncbi_genome_download/jobs.py,sha256=Nhsmozbv49VWWlL5ThVAiGC_82lw52a7eQXb8gTlvcM,852
+ncbi_genome_download/metadata.py,sha256=iSNuP73e6dZEdDMvtaRyTKj1tTDCs0TAEflW5rEh1OM,2241
+ncbi_genome_download/summary.py,sha256=qk5ehZNL-It3RNOLF0pUwUuBoMwRO6FnZQVsbz1XkF4,2037
+ncbi_genome_download-0.2.11.dist-info/METADATA,sha256=8-wUNTnyI7mql7aTes4EajmJlhEmPk8lp28Alvz9w2o,10496
+ncbi_genome_download-0.2.11.dist-info/RECORD,,
+ncbi_genome_download-0.2.11.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+ncbi_genome_download-0.2.11.dist-info/entry_points.txt,sha256=8CTubJ5Aa4klNiPQN_wHvV6ak9GyxbVxH4hclAeg8OU,118
+ncbi_genome_download-0.2.11.dist-info/top_level.txt,sha256=b9owdxpXQig4PJBilBV6aMlaMqxRkZPRQR6j9BClAGc,21
