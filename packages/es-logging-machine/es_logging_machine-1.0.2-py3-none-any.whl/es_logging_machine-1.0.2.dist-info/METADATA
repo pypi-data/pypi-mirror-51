@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: es-logging-machine
+Version: 1.0.2
+Summary: This library can be used to log data to your elasticsearch
+Home-page: UNKNOWN
+Author: Shravan Naidu
+Author-email: shravan.jnaidu@yahoo.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: ConfigParser
+Requires-Dist: pytz
+Requires-Dist: datetime
+Requires-Dist: elasticsearch
+Requires-Dist: certifi
+Requires-Dist: requests
+Requires-Dist: boto3
+
+This library can be used to log data to your elasticsearch
+
+
