@@ -1,0 +1,10 @@
+mesos.interface-1.9.0-py2.7-nspkg.pth,sha256=ITYGtTbPNuZjbM7R51VlwvS3yvTlxVMaRDKVtuMnMFY,302
+mesos.interface-1.9.0.dist-info/namespace_packages.txt,sha256=oKCumu5Cdp-f7vYsBNH7KtyjLD9nBGiDG_-Uev25msQ,6
+mesos.interface-1.9.0.dist-info/top_level.txt,sha256=oKCumu5Cdp-f7vYsBNH7KtyjLD9nBGiDG_-Uev25msQ,6
+mesos.interface-1.9.0.dist-info/METADATA,sha256=ETt4y3MAs_XG2xckUNSd8pZU2pAqQzDSHa-InR-J9r4,337
+mesos.interface-1.9.0.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+mesos.interface-1.9.0.dist-info/RECORD,,
+mesos.interface-1.9.0.dist-info/metadata.json,sha256=Q5OI0cQz8LcCmFS7cPeLK2tf_H4EQSXE88miyJQrgdU,544
+mesos.interface-1.9.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+mesos/interface/mesos_pb2.py,sha256=o5aQousI8kPnAHB4FOmNbAZwDmxYyBqw5NGAeu6ZO1o,475681
+mesos/interface/__init__.py,sha256=oDoCtUY6rm2FSq4D-l39lndZuvqMMQcrE967O6aFUEU,17293
