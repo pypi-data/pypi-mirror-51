@@ -1,0 +1,8 @@
+README.md
+setup.py
+adevinta_yapo_bi_pySpark_postgresql/__init__.py
+adevinta_yapo_bi_pySpark_postgresql.egg-info/PKG-INFO
+adevinta_yapo_bi_pySpark_postgresql.egg-info/SOURCES.txt
+adevinta_yapo_bi_pySpark_postgresql.egg-info/dependency_links.txt
+adevinta_yapo_bi_pySpark_postgresql.egg-info/not-zip-safe
+adevinta_yapo_bi_pySpark_postgresql.egg-info/top_level.txt
