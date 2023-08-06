@@ -1,0 +1,10 @@
+matplotlib>=2.2.3
+numpy
+seaborn
+PySAL<2.1,>=2.0
+pandas<0.25
+scipy
+Pillow
+opencv-python
+scikit-image
+scikit-learn
