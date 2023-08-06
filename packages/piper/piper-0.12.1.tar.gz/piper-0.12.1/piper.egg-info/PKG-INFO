@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: piper
+Version: 0.12.1
+Summary: A lightweight python toolkit for gluing together restartable, robust command line pipelines
+Home-page: https://github.com/databio/pypiper/
+Author: Nathan Sheffield, Johanna Klughammer, Andre Rendeiro
+Author-email: nathan@code.databio.org, jklughammer@cemm.oeaw.ac.at, arendeiro@cemm.oeaw.ac.at
+License: BSD2
+Description: Pypiper
+        =======
+        
+        |Documentation Status| |Build Status|
+        
+        A lightweight python toolkit for gluing together restartable, robust
+        shell pipelines. Learn more in the
+        `documentation <http://pypiper.databio.org>`__.
+        
+        .. |Documentation Status| image:: https://readthedocs.org/projects/pypiper/badge/?version=latest
+           :target: http://pypiper.readthedocs.org/en/latest/?badge=latest
+        .. |Build Status| image:: https://travis-ci.org/databio/pypiper.svg?branch=master
+           :target: https://travis-ci.org/databio/pypiper
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
