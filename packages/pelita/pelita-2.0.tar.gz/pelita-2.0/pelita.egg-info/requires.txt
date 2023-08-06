@@ -1,0 +1,8 @@
+pyzmq
+PyYAML
+numpy
+networkx
+pytest>=4
+
+[:python_version < "3.7"]
+importlib_resources
