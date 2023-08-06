@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Test153RV
+Version: 1.1
+Summary: My first test package
+Home-page: UNKNOWN
+Author: Vighnesh Raut
+Author-email: vighnesh.raut13@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+My first test package with an is_prime function for testing
+
+
