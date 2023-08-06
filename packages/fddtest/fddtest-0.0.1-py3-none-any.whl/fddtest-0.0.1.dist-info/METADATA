@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fddtest
+Version: 0.0.1
+Summary: my first pip test
+Home-page: https://github.com/whu-dft/fddtest
+Author: fdd
+Author-email: 1064540094@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+
+### my first pip package test
+
+
+
+this is a test!
+
+
