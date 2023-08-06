@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: TPOT-SH
+Version: 0.9.5
+Summary: Tree-based Pipeline Optimization Tool - Successive Halving
+Home-page: https://gitlab.society-lbl.com/lparmentier/tpot
+Author: Parmentier Laurent
+Author-email: lpyparmentier@gmail.com
+License: GNU/LGPLv3
+Keywords: pipeline optimization,hyperparameter optimization,data science,machine learning,genetic programming,evolutionary computation,successive-halving
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: numpy (>=1.12.1)
+Requires-Dist: scipy (>=0.19.0)
+Requires-Dist: scikit-learn (>=0.18.1)
+Requires-Dist: deap (>=1.0)
+Requires-Dist: update-checker (>=0.16)
+Requires-Dist: tqdm (>=4.11.2)
+Requires-Dist: stopit (>=1.1.1)
+Requires-Dist: pandas (>=0.20.2)
+Provides-Extra: dask
+Requires-Dist: dask (>=0.18.2) ; extra == 'dask'
+Requires-Dist: distributed (>=1.22.1) ; extra == 'dask'
+Requires-Dist: dask-ml (>=0.9.0) ; extra == 'dask'
+Provides-Extra: mdr
+Requires-Dist: scikit-mdr (>=0.4.4) ; extra == 'mdr'
+Provides-Extra: skrebate
+Requires-Dist: skrebate (>=0.3.4) ; extra == 'skrebate'
+Provides-Extra: xgboost
+Requires-Dist: xgboost (==0.6a2) ; extra == 'xgboost'
+
+
+A Python tool that automatically creates and optimizes machine learning pipelines using genetic programming.
+
+Contact
+=============
+If you have any questions or comments about TPOT, please feel free to contact the original creator of TPOT via:
+
+E-mail: rso@randalolson.com
+
+or Twitter: https://twitter.com/randal_olson
+
+The original project is hosted at https://github.com/EpistasisLab/tpot
+
+
