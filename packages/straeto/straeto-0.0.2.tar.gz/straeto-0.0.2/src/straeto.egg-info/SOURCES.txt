@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/straeto/__init__.py
+src/straeto/straeto.py
+src/straeto.egg-info/PKG-INFO
+src/straeto.egg-info/SOURCES.txt
+src/straeto.egg-info/dependency_links.txt
+src/straeto.egg-info/top_level.txt
+src/straeto.egg-info/zip-safe
