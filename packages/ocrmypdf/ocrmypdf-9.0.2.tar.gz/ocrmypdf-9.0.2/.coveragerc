@@ -1,0 +1,25 @@
+# Coverage isn't really compatible with subprocesses so results are unreliable
+
+[paths]
+source =
+	src
+	*/site-packages
+
+[run]
+branch = true
+parallel = true
+source =
+	src/ocrmypdf
+	tests
+omit =
+	tests/spoof/*
+
+[report]
+exclude_lines =
+	pragma: no cover
+	def __repr__
+	raise AssertionError
+	raise NotImplementedError
+	if 0:
+	if False:
+	if __name__ == .__main__.:
