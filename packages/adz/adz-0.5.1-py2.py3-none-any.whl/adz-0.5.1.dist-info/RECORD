@@ -1,0 +1,15 @@
+adz/__init__.py,sha256=JpYSgHG9aW91W9Bs1oUhpYGASvp1tUPcUFHLk7CHsOA,88
+adz/api.py,sha256=uG0WKttnYoXPQzaRMQ0XeDHR50dWWa5EFv_c2RN4N3g,2093
+adz/cfg.py,sha256=ZnK6pLhdVgp9UGRT99ci61hsaa3cuG12ZIuiUJjg2XA,4331
+adz/cli.py,sha256=IPSt9kD5CNACzoLREI8Ba8a1DflAUW-QD_jgUov2iu4,2816
+adz/echo.py,sha256=YREuMbTPE0qCvIfeiqxB2haZ6FWcv0hs-0svuRBrc5E,1176
+tests/adz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/adz/test_api.py,sha256=TBO-Hy0cCtjxQGqEsV0-8BmmjhR-M2IzslNpHMeJxZw,2484
+tests/adz/test_cfg.py,sha256=4XhGxvAO0CGFFwTEVwEA7I99oE10tIt5n9BeECcKK0Q,7601
+tests/adz/test_cli.py,sha256=bnK1K7MS9MI0XLudHZ3xb3ubWYbaueO5FfMIrUQTPMU,2607
+tests/adz/test_echo.py,sha256=wt_IfPBjRZHWtHpIRaukKeIdeihaah8WuBzyRgS4w7w,1263
+adz-0.5.1.dist-info/METADATA,sha256=NO1ANmUh7QA80PEYpulUoY7rowVQQF6zINhE4vcxL0w,5669
+adz-0.5.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+adz-0.5.1.dist-info/entry_points.txt,sha256=uN52BnKdKtIzFWDUJ4PWDDsp45iKfrURv0ny9lKtQ6c,38
+adz-0.5.1.dist-info/top_level.txt,sha256=uGk8v68zlZAucFCKGU2WVcwRIlwTfDEsfd7XwALR4sU,10
+adz-0.5.1.dist-info/RECORD,,
