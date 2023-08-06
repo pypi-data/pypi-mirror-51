@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+scripts/webpack-s3
+scripts/webpack-s3-create-bucket
+scripts/webpack-s3-create-full-access-env
+scripts/webpack-s3-create-read-only-env
+scripts/webpack-s3-download
+scripts/webpack-s3-upload
+webpack_s3.egg-info/PKG-INFO
+webpack_s3.egg-info/SOURCES.txt
+webpack_s3.egg-info/dependency_links.txt
+webpack_s3.egg-info/requires.txt
+webpack_s3.egg-info/top_level.txt
