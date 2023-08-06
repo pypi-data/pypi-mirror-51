@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sorting-algorithm-visual
+Version: 0.1
+Summary: Visualization package for sorting_algorithm_visual algorithms
+Home-page: https://github.com/mmoldsvor/sortingproject
+Author: Martin Moldsvor
+Author-email: martin@moldsvor.com
+License: MIT
+Keywords: Sorting Algorithm Visualizer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3 :: Only
+
+UNKNOWN
+
+
