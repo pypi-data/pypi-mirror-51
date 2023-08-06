@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: swarmpyfac
+Version: 0.1.1
+Summary: Calculate Field Aligned Currents based on swarm data, mainly through the ViRES python interface viresclient. Some utilities for these kinds of scientific calculations are also provided.
+Home-page: UNKNOWN
+Author: Ask Neve Gamby
+Author-email: aknvg@space.dtu.dk
+License: None
+Description: SwarmPyFAC Package
+        ==================
+        The swarmpyfac package is used for calculating Field Aligned Currents based on cdf-files possibly downloaded via viresclient. It contains 3 modules, where pyfac.fac is the main one, which will be automatically imported on ``import pyfac``.
+        
+        For more information see the `documentation ./docs/build/html/index.html`.
+        
+        Changelog
+        =========
+        
+        Version 0.0.1: Initial version
+        
+        To be decided
+        
+Keywords: FAC,Field Aligned Currents,magnetic field
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Physics

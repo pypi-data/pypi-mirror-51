@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+swarmpyfac/__init__.py
+swarmpyfac/fac.py
+swarmpyfac/safety.py
+swarmpyfac/utils.py
+swarmpyfac.egg-info/PKG-INFO
+swarmpyfac.egg-info/SOURCES.txt
+swarmpyfac.egg-info/dependency_links.txt
+swarmpyfac.egg-info/requires.txt
+swarmpyfac.egg-info/top_level.txt
