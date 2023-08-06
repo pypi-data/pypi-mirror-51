@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: ml_pipeline
+Version: 0.01
+Summary: An intuitive, super easy machine learning pipeline framework for transforming DataFrames.
+Home-page: https://github.com/alanhyue/ml_pipeline
+Author: Alan H Yue
+Author-email: alanhyue@outlook.com
+License: MIT
+Description: UNKNOWN
+Keywords: ml_pipeline
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
