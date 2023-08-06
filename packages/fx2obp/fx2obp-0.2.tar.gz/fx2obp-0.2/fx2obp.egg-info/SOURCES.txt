@@ -1,0 +1,10 @@
+README.md
+setup.py
+fx2obp/__init__.py
+fx2obp/convert.py
+fx2obp/fetch_currencies.py
+fx2obp.egg-info/PKG-INFO
+fx2obp.egg-info/SOURCES.txt
+fx2obp.egg-info/dependency_links.txt
+fx2obp.egg-info/requires.txt
+fx2obp.egg-info/top_level.txt
