@@ -1,0 +1,3 @@
+[console_scripts]
+ginger = ginger.ginger:main_entry_point
+
