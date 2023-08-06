@@ -1,0 +1,12 @@
+epsproc/IO.py,sha256=CyUJJw9FwVRoNFQHzh35L_zgISVFjGVB33FBpWivy3o,38221
+epsproc/MFPAD.py,sha256=RYgkaDQGnzTC6lMdP0PmTfI9CYuYvOcQP8l8Sskzsdk,8722
+epsproc/__init__.py,sha256=_F4bgPyDSt8NpuFZzhtdZ6ySPJlCwwl8OLC6et7ZRLE,1142
+epsproc/sphCalc.py,sha256=RpohL92_jocc9DQhgCXyPuG9x7tV1teENAMmsVGHOvo,6674
+epsproc/sphPlot.py,sha256=BXYRZf-TqXWrOsyfS7BjKzuB_ObUv_X7a-HY-SCizpk,6973
+epsproc/util.py,sha256=APn-sFd-PFSbfreUoqz-vKGeJ7mkQgg1gug8_wAf7OI,2339
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ePSproc-1.1.0.dist-info/LICENSE,sha256=U5J70Lc504yHoKgiNv2bBwwt__EcDBGb5QNyAF1QR60,35815
+ePSproc-1.1.0.dist-info/METADATA,sha256=5oKwQjV5Z1kO51JI4XChJhj9iheFKTlIuwPhVsd8Koc,5941
+ePSproc-1.1.0.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+ePSproc-1.1.0.dist-info/top_level.txt,sha256=A7nQtvFoXUmndLRZRrFPHVq8kJ47AFVMOjLSSXPZnQc,14
+ePSproc-1.1.0.dist-info/RECORD,,
