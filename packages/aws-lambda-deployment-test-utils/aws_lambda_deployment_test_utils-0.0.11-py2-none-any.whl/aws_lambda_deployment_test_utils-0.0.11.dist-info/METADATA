@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aws-lambda-deployment-test-utils
+Version: 0.0.11
+Summary: Tools to simplify pre and post deployment testing of AWS Lambdas.
+Home-page: https://bitbucket.org/salimfadhley_ecs/aws_lambda_deployment_test_utils/src/master/
+Author: Salim Fadhley
+Author-email: salimfadhley@ecs.co.uk
+License: GPL4
+Platform: UNKNOWN
+Requires-Dist: boto3
+
+Tools to simplify pre and post deployment testing of AWS Lambdas.
+
+
