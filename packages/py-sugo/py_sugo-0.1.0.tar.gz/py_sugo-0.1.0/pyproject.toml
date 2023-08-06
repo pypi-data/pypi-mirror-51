@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "py_sugo"
+version = "0.1.0"
+description = "Dependencyless WSGI compliant micro framework implemented with python using only the standard library."
+authors = ["Francisco Javier Sucre González <franciscojsucreg@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.720.0"
+pylint = "^2.3"
+isort = "^4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
