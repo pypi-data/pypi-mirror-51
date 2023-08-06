@@ -1,0 +1,7 @@
+README.md
+farbfeld.py
+setup.py
+farbfeld.egg-info/PKG-INFO
+farbfeld.egg-info/SOURCES.txt
+farbfeld.egg-info/dependency_links.txt
+farbfeld.egg-info/top_level.txt
