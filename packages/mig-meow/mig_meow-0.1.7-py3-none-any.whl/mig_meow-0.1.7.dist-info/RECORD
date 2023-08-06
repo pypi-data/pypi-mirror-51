@@ -1,0 +1,15 @@
+mig_meow/__init__.py,sha256=1QkG2XkwxSJP259IJsB8nm-HbMne32viJAXAFCR5DWU,184
+mig_meow/constants.py,sha256=TehLp39Dy775iNFxiS0FMvq6LeMWEC3QgAAxZ9SXNsw,2373
+mig_meow/debug.py,sha256=skDwsVOcLnNnC33c6gIQ7zg59v-iT3iN64IGMETSigQ,319
+mig_meow/input.py,sha256=SlKHCVxpR8FQrEQ-gyAZ4DwtEmxggS25jpOu7tZ6_0o,2541
+mig_meow/mig.py,sha256=Q3r0dCPzRC8CziUmr59hlmo7Pv7dVxDrGtm8cJstrkE,3504
+mig_meow/notebook.py,sha256=DxiFVm_QX1eOddmnRq-VUK3jA9RluOEeAWlU-KFJo-E,1466
+mig_meow/pattern.py,sha256=nbCakH-RnMi4duYgfWisOYPRk2c8kXBbf5-TjVBSueY,13461
+mig_meow/recipe.py,sha256=Fpj7Ub7vGUZoqsUly_p9wGwDiwgjZBMqbVzuzn3t0cw,1197
+mig_meow/workflow_widget.py,sha256=FzdBlfRSBvIo3fMPJ5S9PG1VWbgfdnLk1fGNHpN8CLE,57001
+mig_meow/workflows.py,sha256=vA0WE-xRePgYk5M-Wh4vi_4Vaez4zY42aQ0DD-p3hNM,5007
+mig_meow-0.1.7.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+mig_meow-0.1.7.dist-info/METADATA,sha256=DI8ztTLeRFDKEMOXKFJi78-Q2C2THErAZm3QgqfqFY0,736
+mig_meow-0.1.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+mig_meow-0.1.7.dist-info/top_level.txt,sha256=LnjSbd34lSOsPHeO5uASjz2lPQ_FG9LVLWARhjfqKWA,9
+mig_meow-0.1.7.dist-info/RECORD,,
