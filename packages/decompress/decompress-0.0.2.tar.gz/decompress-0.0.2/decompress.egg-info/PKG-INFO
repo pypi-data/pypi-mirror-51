@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: decompress
+Version: 0.0.2
+Summary: A library to help decompress multiple compression types
+Home-page: https://github.com/limeai/decompress
+Author: Kevin Bird
+Author-email: kevinbird15@gmail.com
+License: UNKNOWN
+Description: # Decompress
+        
+        Decompress makes unzipping, untarring, and uncompressing all types of files easy.  Just run your file through decompress and your compressed file will automatically be decompressed in the destination that you provide.  
+        
+        Decompress was heavily influenced from [fastai v2](https://github.com/fastai/fastai_dev/blob/master/dev/04_data_external.ipynb).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
