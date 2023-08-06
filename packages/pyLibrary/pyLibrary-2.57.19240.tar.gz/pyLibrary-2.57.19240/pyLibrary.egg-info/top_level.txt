@@ -1,0 +1,6 @@
+pyLibrary
+pyLibrary/aws
+pyLibrary/env
+pyLibrary/sql
+pyLibrary/testing
+pyLibrary/vendor
