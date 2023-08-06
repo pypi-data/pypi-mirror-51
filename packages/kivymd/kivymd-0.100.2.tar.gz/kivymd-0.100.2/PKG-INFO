@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: kivymd
+Version: 0.100.2
+Summary: Set of widgets for Kivy inspired by Google's Material Design
+Home-page: https://github.com/HeaTTheatR/KivyMD
+Author: Andrés Rodríguez, author fork - HeaTTheatR
+Author-email: kivydevelopment@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: kivy
+Requires: pillow
