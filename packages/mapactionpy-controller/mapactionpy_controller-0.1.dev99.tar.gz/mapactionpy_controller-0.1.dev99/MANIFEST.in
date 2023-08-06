@@ -1,0 +1,5 @@
+include README.md
+include schemas/cmf-v0.1.schema
+include schemas/event.schema
+include schemas/productbundle.schema
+include example/
