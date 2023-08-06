@@ -1,0 +1,7 @@
+setup.py
+tidy/__init__.py
+tidy/func.py
+tidy_package.egg-info/PKG-INFO
+tidy_package.egg-info/SOURCES.txt
+tidy_package.egg-info/dependency_links.txt
+tidy_package.egg-info/top_level.txt

@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: tidy-package
+Version: 0.1.1
+Summary: python package test
+Home-page: https://github.com/TechOpsX/tidypackage
+Author: gy
+Author-email: ganyu_private@gmail.com
+License: MIT
+Description: # tidypackage
+        Test how to publish python package to pypi
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
