@@ -1,0 +1,11 @@
+petri/__init__.py,sha256=bb5ENHrqhD52VkMs-HLfely31AXGKyhb3nTmkUQErmg,1819
+petri/__main__.py,sha256=JfmaJhErs0P_Ec-Srh3yxJ2GeZyGYB419MshLBQeXv4,317
+petri/base_settings.py,sha256=D39LRTz63TsYxr7ieuuWJzE5_w7B3lB37onQaDWOBaI,5681
+petri/dotenv_.py,sha256=e4E8qlVoO65WB-ROr-txxRBQdWt8cphCHmi60smlBgY,2176
+petri/logging_.py,sha256=6TkSobmWJLhrBzJjwGwylKKMb3z454-UFaHPKUdQXWo,4141
+petri/metadata.py,sha256=v6KafkXkdTalQ5TBUFHomHDZhZ7W_ql_OuY_-_PwSvc,3279
+pyproject.toml,sha256=0P3K_Ebmh4w5FyVv22E2QskddzlXX2zBqpV0xnA1Bso,1268
+petri-0.22.1.dist-info/entry_points.txt,sha256=bSceaETEk9crxfpegUx0Lxp7OZFDKVtC_VAt4M3otmY,46
+petri-0.22.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+petri-0.22.1.dist-info/METADATA,sha256=ZE7oBTlalo4vKwPaFaYsHQS6lHp2mko5TbD5QtyQLxU,2947
+petri-0.22.1.dist-info/RECORD,,
