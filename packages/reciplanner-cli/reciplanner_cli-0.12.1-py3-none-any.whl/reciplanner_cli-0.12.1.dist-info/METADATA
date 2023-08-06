@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: reciplanner-cli
+Version: 0.12.1
+Summary: Assists in managing recipes and items in kitchen
+Home-page: https://github.com/iron-condor/Reciplanner-CLI
+Author: iron-condor
+Author-email: christiandloftis@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Dist: pint
+
+UNKNOWN
+
+
