@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: keras_mobile
+Version: 1.0.2
+Summary: Fast & Compact keras blocks and layers for use in mobile applications
+Home-page: https://github.com/i404788/keras-mobile
+Author: Ferris Kwaijtaal
+Author-email: ferrispc@hotmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
