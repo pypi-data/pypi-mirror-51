@@ -1,0 +1,314 @@
+{
+	"version": 2,
+	"command_mapping_conf": {
+	    "update": {
+			"order": 1,
+			"desc": "更新DuEdge命令行工具",
+			"doc": {
+				"path": "doc/system/"
+			},
+			"command_parts": ["update"]
+		},
+		"configure": {
+			"order": 2,
+			"desc": "配置DuEdge命令行工具的本地用户信息",
+			"doc": {
+				"path": "doc/system/"
+			},
+			"command_parts": ["configure"]
+		},
+		"init-function": {
+			"order": 3,
+			"desc": "初始化本地调试函数内容",
+			"doc": {
+				"path": "doc/system/"
+			},
+			"command_parts": ["init", "function"]
+		},
+		"create-function": {
+			"order": 101,
+			"desc": "创建函数",
+			"request_builder": {
+				"path": "duedge/v2/functions",
+				"url": "duedge/v2/functions",
+				"method": "POST",
+				"func_name": "create_function_builder"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["create", "function"]
+		},
+		"list-functions": {
+			"order": 102,
+			"desc": "查询函数列表",
+			"request_builder": {
+				"path": "duedge/v2/functions",
+				"url": "duedge/v2/functions",
+				"method": "GET",
+				"func_name": "append_url"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "custom",
+				"param_mapping": {"version": "Qualifier"}
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["list", "functions"]
+		},
+		"get-function": {
+			"order": 103,
+			"desc": "查询函数",
+			"request_builder": {
+				"path": "duedge/v2/functions",
+				"url": "duedge/v2/functions",
+				"method": "GET",
+				"func_name": "append_url"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "custom",
+				"param_mapping": {"version": "Qualifier"}
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["get", "function"]
+		},
+		"get-function-configuration": {
+			"order": 104,
+			"desc": "查询函数配置",
+			"request_builder": {
+				"path": "duedge/v2/functions",
+				"url": "duedge/v2/functions/{FunctionName}/configuration",
+				"method": "GET",
+				"func_name": "fill_and_append_url"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["get", "function", "configuration"]
+		},
+		"update-function-code": {
+			"order": 105,
+			"desc": "更新函数代码",
+			"request_builder": {
+				"path": "duedge/v2/functions",
+				"url": "duedge/v2/functions/{FunctionName}/code",
+				"method": "PUT",
+				"func_name": "update_function_code_builder"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["update", "function", "code"]
+		},
+		"update-function-configuration": {
+			"order": 106,
+			"desc": "更新函数配置",
+			"request_builder": {
+				"path": "duedge/v2/functions",
+				"url": "duedge/v2/functions/{FunctionName}/configuration",
+				"method": "PUT",
+				"func_name": "fill_and_append_url"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["update", "function", "configuration"]
+		},
+		"publish-version": {
+			"order": 107,
+			"desc": "发布函数版本",
+			"request_builder": {
+				"path": "duedge/v2/functions",
+				"url": "duedge/v2/functions/{FunctionName}/versions",
+				"method": "POST",
+				"func_name": "fill_url"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["publish", "version"]
+		},
+		"invoke": {
+			"order": 108,
+			"desc": "调试函数",
+			"request_builder": {
+				"path": "v51/yjs/functions/invocations",
+				"url": "v51/yjs/functions/invocations",
+				"method": "POST",
+				"func_name": "no_conv"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "custom",
+				"param_mapping": {"function_name": "meta_name", "template_name": "name"}
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["invoke"]
+		},
+		"delete-function": {
+			"order": 109,
+			"desc": "删除函数",
+			"request_builder": {
+				"path": "duedge/v2/functions",
+				"url": "duedge/v2/functions/{FunctionName}",
+				"method": "DELETE",
+				"func_name": "fill_and_append_url"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "custom",
+				"param_mapping": {"version": "Qualifier"}
+			},
+			"doc": {
+				"path": "doc/function/"
+			},
+			"command_parts": ["delete", "function"]
+		},
+		"create-trigger": {
+			"order": 110,
+			"desc": "创建触发器",
+			"request_builder": {
+				"path": "duedge/v2/trigger",
+				"url": "duedge/v2/trigger",
+				"method": "POST",
+				"func_name": "no_conv"
+			},
+			"response_processor": {
+				"func_name": "create_trigger_resp_proc"
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/trigger/"
+			},
+			"command_parts": ["create", "trigger"]
+		},
+		"list-triggers": {
+			"order": 111,
+			"desc": "查询触发器列表",
+			"request_builder": {
+				"path": "duedge/v2/trigger",
+				"url": "duedge/v2/trigger",
+				"method": "GET",
+				"func_name": "no_conv"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/trigger/"
+			},
+			"command_parts": ["list", "triggers"]
+		},
+		"update-trigger": {
+			"order": 112,
+			"desc": "更新触发器",
+			"request_builder": {
+				"path": "duedge/v2/trigger",
+				"url": "duedge/v2/trigger/{trigger}",
+				"method": "PATCH",
+				"func_name": "fill_url"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/trigger/"
+			},
+			"command_parts": ["update", "trigger"]
+		},
+		"update-trigger-order": {
+			"order": 113,
+			"desc": "更新触发器排序",
+			"request_builder": {
+				"path": "duedge/v2/trigger",
+				"url": "duedge/v2/trigger/reorder/{trigger}",
+				"method": "PATCH",
+				"func_name": "update_trigger_order_builder"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "custom",
+				"param_mapping": {"step": "step"}
+			},
+			"doc": {
+				"path": "doc/trigger/"
+			},
+			"command_parts": ["update", "trigger", "order"]
+		},
+		"delete-trigger": {
+			"order": 114,
+			"desc": "删除触发器",
+			"request_builder": {
+				"path": "duedge/v2/trigger",
+				"url": "duedge/v2/trigger/{trigger}",
+				"method": "DELETE",
+				"func_name": "fill_and_append_url"
+			},
+			"response_processor": {
+				"func_name": ""
+			},
+			"param_mapping": {
+				"type": "hyphen_to_hump"
+			},
+			"doc": {
+				"path": "doc/trigger/"
+			},
+			"command_parts": ["delete", "trigger"]
+		}
+	}
+}
