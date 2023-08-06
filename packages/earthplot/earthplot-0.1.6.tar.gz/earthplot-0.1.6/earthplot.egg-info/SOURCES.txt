@@ -1,0 +1,10 @@
+setup.py
+earthplot/__init__.py
+earthplot/__main__.py
+earthplot/earthplot.py
+earthplot.egg-info/PKG-INFO
+earthplot.egg-info/SOURCES.txt
+earthplot.egg-info/dependency_links.txt
+earthplot.egg-info/entry_points.txt
+earthplot.egg-info/requires.txt
+earthplot.egg-info/top_level.txt
