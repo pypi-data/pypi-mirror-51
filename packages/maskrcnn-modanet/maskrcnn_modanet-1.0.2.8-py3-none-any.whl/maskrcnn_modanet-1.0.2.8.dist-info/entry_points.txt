@@ -1,0 +1,3 @@
+[console_scripts]
+maskrcnn-modanet = maskrcnn_modanet.cli.main:main
+
