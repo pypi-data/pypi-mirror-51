@@ -1,0 +1,3 @@
+[console_scripts]
+myweather-reporter = weather_reporter.cli:main
+
