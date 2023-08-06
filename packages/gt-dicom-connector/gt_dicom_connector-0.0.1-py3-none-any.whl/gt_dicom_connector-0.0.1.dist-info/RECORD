@@ -1,0 +1,11 @@
+gtdicom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gtdicom/connection.py,sha256=af3nIdGKxiShzlkT1FEQelP1o_7QQW2OBCusnPEHPw8,316
+gtdicom/exception.py,sha256=6_3ay2qPupEcOVwmEAWfgamxy6Rbu2FzIkt49G3vLqU,43
+gtdicom/gtdicom.py,sha256=p3ZS8nhVCv454mQYpYdTmIAs6qVuyYrpAyIP4RK_sSY,1766
+gtdicom/scu.py,sha256=EK6c7wDXh7EVKwhg2jw5Ot0YJ6HebKyTebWRoR2vjR0,9672
+gtdicom/utils.py,sha256=j70hjcVYppr31CfCvwNHjMVKFRkMUR1k49SB10zrHYQ,1054
+gt_dicom_connector-0.0.1.dist-info/LICENSE,sha256=X-uxfNDAWW3m0BGrkpgNHaD_3kgrtk_v-QQJuYwH6Qs,1069
+gt_dicom_connector-0.0.1.dist-info/METADATA,sha256=RayuduVqxtpGKnw1KgSw9Lpi3L2SCChABB0tmIRSBQ4,1200
+gt_dicom_connector-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+gt_dicom_connector-0.0.1.dist-info/top_level.txt,sha256=zpBbtf0K1q2UxSAfE4kqtgUxWlhipplex-xoNv3W8Cs,8
+gt_dicom_connector-0.0.1.dist-info/RECORD,,
