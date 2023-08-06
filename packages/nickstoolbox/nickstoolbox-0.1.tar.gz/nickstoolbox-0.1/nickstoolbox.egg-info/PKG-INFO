@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nickstoolbox
+Version: 0.1
+Summary: Package for useful frequent functions
+Home-page: https://github.com/nicolasshu/nickstoolbox
+Author: Nicolas Shu
+Author-email: nicolas.s.shu@gmail.com
+License: UNKNOWN
+Description: # NicksToolbox
+        This is my package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown

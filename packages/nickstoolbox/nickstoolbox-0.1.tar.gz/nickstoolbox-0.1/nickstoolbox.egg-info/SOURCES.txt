@@ -1,0 +1,8 @@
+README.md
+nickstoolbox
+setup.py
+nickstoolbox/__init__.py
+nickstoolbox.egg-info/PKG-INFO
+nickstoolbox.egg-info/SOURCES.txt
+nickstoolbox.egg-info/dependency_links.txt
+nickstoolbox.egg-info/top_level.txt
