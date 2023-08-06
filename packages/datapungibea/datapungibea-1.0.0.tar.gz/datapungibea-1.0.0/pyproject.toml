@@ -1,0 +1,33 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "datapungibea"
+author = "James Otterson"
+author-email = "jjotterson@gmail.com"
+home-page = "https://github.com/jjotterson/datapungibea"
+requires=[
+    "requests",
+    "pandas",
+    "pytest",
+    "pytest-html",
+    "pyperclip",
+    "lxml",
+    "xlrd",
+    "beautifulsoup4",
+    "html5lib",
+    "pyyaml",
+]
+description-file="README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+]
+
