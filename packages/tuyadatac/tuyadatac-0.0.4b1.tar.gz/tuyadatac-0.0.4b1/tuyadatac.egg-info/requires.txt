@@ -1,0 +1,4 @@
+pyftpdlib
+Pillow
+numpy
+opencv-contrib-python
