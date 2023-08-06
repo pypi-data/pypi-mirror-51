@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: automig
+Version: 0.0.1
+Summary: Command to diff SQL schemas in git and apply the migrations
+Home-page: https://github.com/abe-winter/automigrate
+Author: Abe Winter
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: sql,migration,git,diff
+Platform: UNKNOWN
+Requires-Python: >=3.6
