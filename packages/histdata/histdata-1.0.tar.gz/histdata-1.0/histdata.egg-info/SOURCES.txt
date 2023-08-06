@@ -1,0 +1,9 @@
+README.md
+setup.py
+histdata/__init__.py
+histdata/api.py
+histdata.egg-info/PKG-INFO
+histdata.egg-info/SOURCES.txt
+histdata.egg-info/dependency_links.txt
+histdata.egg-info/requires.txt
+histdata.egg-info/top_level.txt
