@@ -1,0 +1,10 @@
+gmconfig/__init__.py,sha256=0KqxMpgKpNmQ6hJ84xLFHB2dk_RwERL5HrZomC_xagU,146
+gmconfig/__main__.py,sha256=VOqHfwSBcBALerK-SFHgy9Cpz0g9F60bFs4s09X3x7A,452
+gmconfig/configuration.py,sha256=vz-fkyrNZ1Vk6hQ0MRDonCbwNOBAPBaLjWOJvZOpYuc,175
+gmconfig/litemerge.py,sha256=-6ZmzaF_enQtgxfqo0QBhLL1u4wd-Vh3PU8Z04Xs8WU,506
+gmconfig/loader.py,sha256=IVQBVr_Z4jpYVJAJs1PU_xSsSoUmlmy1r3hroVRSDwM,1805
+gmconfig/utils.py,sha256=Fq3P_FnEcI34taDXX4MqBIkMOXPNYIm5j7tRKsum2Mc,889
+gmconfig-0.2.1.dist-info/LICENSE,sha256=Ch8X0TZZYPuIewtFB66ZA3G5JjjFyrk_bh5L3cdawlY,1069
+gmconfig-0.2.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+gmconfig-0.2.1.dist-info/METADATA,sha256=6Hv9Mq1283EOkfIg9YRA2sHwwIsaFAcuiLIKlajIy80,1043
+gmconfig-0.2.1.dist-info/RECORD,,
