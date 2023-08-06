@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: FireEye
+Version: 0.0.1
+Summary: A video over TCP client
+Home-page: https://github.com/0xJeremy/FireEye
+Author: Jeremy Kanovsky
+Author-email: kanovsky.jeremy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# FireEye
+
+
