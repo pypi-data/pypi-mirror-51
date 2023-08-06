@@ -1,0 +1,8 @@
+six
+Twisted>=18.7.0
+
+[FastMurmur2]
+pyhash
+
+[snappy]
+python-snappy>=0.5
