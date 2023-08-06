@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: PyCreator-Core
+Version: 1.0.0
+Summary: Core of PyCreator IDE
+Home-page: http://github.com/LavaPower/PyCreator-Core
+Author: LavaPower
+Author-email: lavapower84@gmail.com
+License: UNKNOWN
+Description: # PyCreator-Core
+        
+        Core of PyCreator IDE
+        
+        ## Dependencies
+        
+        - Python 3
+        
+        ## Other information
+        
+        - Main Developer : LavaPower
+        - Contributors : X
+        - Develop on :
+          - System :
+            - Windows 10 (V 0.1.0-DEV --> Latest)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
