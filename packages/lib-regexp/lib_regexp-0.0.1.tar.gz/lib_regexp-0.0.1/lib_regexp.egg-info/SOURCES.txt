@@ -1,0 +1,13 @@
+CHANGES.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+lib_regexp/__init__.py
+lib_regexp/lib_regexp.py
+lib_regexp/version.txt
+lib_regexp.egg-info/PKG-INFO
+lib_regexp.egg-info/SOURCES.txt
+lib_regexp.egg-info/dependency_links.txt
+lib_regexp.egg-info/requires.txt
+lib_regexp.egg-info/top_level.txt
