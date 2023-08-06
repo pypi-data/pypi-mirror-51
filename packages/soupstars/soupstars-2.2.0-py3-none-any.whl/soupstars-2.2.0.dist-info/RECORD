@@ -1,0 +1,10 @@
+soupstars/__init__.py,sha256=1DlFlEG45hdkmt07-dv7VQ5ux3Nm11cuXjAnFUSBdjU,161
+soupstars/cli.py,sha256=6Gn8Le-CXaaPKMes22rMNs2i1bfMab5M_hC-jZYjyHk,5079
+soupstars/client.py,sha256=EZ4wZxkk_vV8BfSTw5UAdv1vAoyrVhR478mafI4Iyro,2875
+soupstars/core.py,sha256=EwBb8bhb5A59RQL6ziq7N17b7pJOsRqGzJxWoblPfc8,2272
+soupstars-2.2.0.dist-info/LICENSE,sha256=W7wsWLoRMSL78VAQG7iA-u_71pnz-mb3q8qzATGGES0,1069
+soupstars-2.2.0.dist-info/METADATA,sha256=9fr1racB7w3BWB7-F245bPLr3j68A8KGiWjq-NuOOIA,4181
+soupstars-2.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+soupstars-2.2.0.dist-info/entry_points.txt,sha256=-PblkW7mlymxwJ6IaQNNfrR4hznQo0FDqYWmT7D6yA8,49
+soupstars-2.2.0.dist-info/top_level.txt,sha256=l0Z0JR7vVjotkU8Wjv-613alI7mzIc-WdiaY5jaG51Q,10
+soupstars-2.2.0.dist-info/RECORD,,
