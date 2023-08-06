@@ -1,0 +1,17 @@
+videokf/__init__.py,sha256=HRolq8gcUI27VlQ5lof2WIM4nAhd8DibuCbS14O_Kcs,55
+videokf/cli_scripts.py,sha256=W4Fl2O5193tSo6qIrJLxh38xaj7bDdBavE0WsqMOebU,1715
+videokf/extract_keyframes.py,sha256=jtqZqwBSSJrRVulys9ZOsNkAg6zmFjwZuVtQ1qnY-xI,1758
+videokf/ffmpeg_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+videokf/ffmpeg_manager/check_ffmpeg.py,sha256=PsmCbFj-eKHr9LfdElUIHbXn78QDPYz093XhP0LHzu4,5764
+videokf/keyframe_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+videokf/keyframe_manager/frame_manager.py,sha256=sgrIN57zz5A4QCZ8WMW1xZUBBrZGus5CtoLeYjwbO88,2663
+videokf/keyframe_manager/keyframe_extractor.py,sha256=8LDau9DRyDPoiizhHCzpRovev8dHXq0Wb0RrvvHPHEc,3286
+videokf/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+videokf/utils/all_utils.py,sha256=4zpwRYNpNNd_4_IATwmaarAj8CIEW8dtY_a9g6SstFU,2940
+videokf/utils/vidutils.py,sha256=5qL0rrHliePtprFChiAZ5Za2xqt0IdH2NrcYJyuTy18,7362
+video_kf-0.0.2.dist-info/LICENSE,sha256=Nn8nm7jkzpKZpUNEuQ0fC9QUILXa8-JNnStPLa2bsto,1091
+video_kf-0.0.2.dist-info/METADATA,sha256=QCcN6M3ttmpl1w-BEL0zDHpLaPoE8eSKoNdNAEkW4hg,5395
+video_kf-0.0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+video_kf-0.0.2.dist-info/entry_points.txt,sha256=TJS7Ag0NxFKjz9PaaHIUwp60scvrIub3NmKOgtjE0kM,55
+video_kf-0.0.2.dist-info/top_level.txt,sha256=6UYyckB4LPxpXugV_o3eBCq2-Cxm9Fz71y_67ZPjCjI,8
+video_kf-0.0.2.dist-info/RECORD,,
