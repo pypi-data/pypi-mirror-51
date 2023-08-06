@@ -1,0 +1,7 @@
+numpy
+pandas
+networkx>=2.1
+dask
+biopython
+bioservices
+h5py
