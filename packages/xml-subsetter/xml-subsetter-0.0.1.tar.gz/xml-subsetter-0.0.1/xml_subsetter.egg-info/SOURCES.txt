@@ -1,0 +1,8 @@
+README.md
+setup.py
+xml_subsetter/__init__.py
+xml_subsetter/main.py
+xml_subsetter.egg-info/PKG-INFO
+xml_subsetter.egg-info/SOURCES.txt
+xml_subsetter.egg-info/dependency_links.txt
+xml_subsetter.egg-info/top_level.txt
