@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: sal-timer
+Version: 0.0.1
+Summary: Package for counting function time using decorators.
+Home-page: https://github.com/pypa/sampleproject
+Author: Salem
+Author-email: a@a.pl
+License: UNKNOWN
+Description: # Install
+        
+        ``` bash
+        
+        pip install sal-timer
+        
+        ```
+        
+        
+        # Quick start
+        
+        ``` python
+        from sal_timer import timer
+        
+        
+        
+        
+        @timer
+        def func():
+            pass
+         
+        
+        func()
+        
+        '''
+        *******************************************************
+        Finished 'func' in 0.0000 secs.
+        *******************************************************
+        '''
+        
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
