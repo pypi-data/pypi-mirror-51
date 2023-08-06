@@ -1,0 +1,9 @@
+README.md
+setup.py
+Tangly.egg-info/PKG-INFO
+Tangly.egg-info/SOURCES.txt
+Tangly.egg-info/dependency_links.txt
+Tangly.egg-info/top_level.txt
+tangly/__init__.py
+tangly/helping.py
+tangly/table.py
