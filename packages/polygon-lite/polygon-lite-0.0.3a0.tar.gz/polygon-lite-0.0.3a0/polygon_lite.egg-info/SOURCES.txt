@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+Polygon/Edge.py
+Polygon/Point.py
+Polygon/Polygon.py
+Polygon/Services.py
+Polygon/__init__.py
+polygon_lite.egg-info/PKG-INFO
+polygon_lite.egg-info/SOURCES.txt
+polygon_lite.egg-info/dependency_links.txt
+polygon_lite.egg-info/top_level.txt
