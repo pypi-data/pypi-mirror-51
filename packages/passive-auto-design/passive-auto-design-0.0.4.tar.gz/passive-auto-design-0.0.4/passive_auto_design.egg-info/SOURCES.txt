@@ -1,0 +1,11 @@
+README.md
+setup.py
+passive_auto_design/__init__.py
+passive_auto_design/ngspice_warper.py
+passive_auto_design/passive_component.py
+passive_auto_design/structure.py
+passive_auto_design/substrate.py
+passive_auto_design.egg-info/PKG-INFO
+passive_auto_design.egg-info/SOURCES.txt
+passive_auto_design.egg-info/dependency_links.txt
+passive_auto_design.egg-info/top_level.txt
