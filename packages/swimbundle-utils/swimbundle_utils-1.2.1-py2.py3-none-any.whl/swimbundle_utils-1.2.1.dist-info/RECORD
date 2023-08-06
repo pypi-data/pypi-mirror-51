@@ -1,0 +1,9 @@
+swimbundle_utils/__init__.py,sha256=PptXzwV80jc4wUBciE0ZiN0C-UCfJ0CACG8HabmUhH0,76
+swimbundle_utils/exceptions.py,sha256=FW8YLvSgWD1Ms_BUJXEKO08IpQ-aoMYoH0vS2d82Iok,140
+swimbundle_utils/flattener.py,sha256=0eRaJYPdOG_NztalxCKrb1YboE0Ci9EbZ8cCwxa2wqo,12534
+swimbundle_utils/helpers.py,sha256=KRNKQrj56pIdayh2Jtq1rG_RumU5WxytfZPW24ntlac,6568
+swimbundle_utils/rest.py,sha256=ILHHWk-o9RKLeiVcQ6i8y4Ql8BgaU1G7SwiqcgqMOB8,9257
+swimbundle_utils-1.2.1.dist-info/METADATA,sha256=RmnRAlzPA7hqFFrrDgmk6BMafVK9C8YI2i5THQIMkw4,533
+swimbundle_utils-1.2.1.dist-info/RECORD,,
+swimbundle_utils-1.2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+swimbundle_utils-1.2.1.dist-info/top_level.txt,sha256=C54NN-0jxj-7-0SI-2tPqbasD_6QO7HbqmHheLOupI8,17
