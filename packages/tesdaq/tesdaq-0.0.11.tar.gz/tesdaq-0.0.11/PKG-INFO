@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tesdaq
+Version: 0.0.11
+Summary: DAQ Control using Redis as a message broker.
+Home-page: https://github.com/ucbpylegroup/tesdaq
+Author: Connor Duncan
+Author-email: ctdunc@berkeley.edu
+License: UNKNOWN
+Description: tesdaq
+        ======
+        Redis-based control of DAQ devices and the Pyle Lab's data analysis pipeline.
+        
+        Installation
+        ------------
+        This project is installable via pypi. Simply type `pip install tesdaq` and you should be good to go.
+        
+        Alternately, clone this repository using `git clone https://github.com/ucbpylegroup/tesdaq`.
+        
+        Getting Started
+        ---------------
+        
+        
+        Documentation
+        -------------
+        Currently in progress. It should be stored in the doc/ file of this repository.
+        There will also be a mirror at connorduncan.xyz sometime today.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
