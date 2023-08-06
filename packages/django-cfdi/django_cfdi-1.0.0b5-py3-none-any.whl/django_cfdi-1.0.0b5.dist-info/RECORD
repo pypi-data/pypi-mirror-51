@@ -1,0 +1,13 @@
+cfdi/__init__.py,sha256=hbGMoHuoR1Fwr4Dcv1I0ZiCifLDYATL0vgWvuC0tRF8,108
+cfdi/classes.py,sha256=KvzKlVSx3KUxpGap4P8UiC3xu6REaVt8FIgw-nndlhs,106840
+cfdi/functions.py,sha256=CcBZg0iWBV6DiiR7Ls60fov9rt4ILtPrNNlRbshKx-A,1861
+cfdi/settings.py,sha256=MZltRzj1rOswgI1Ge6CDm-Ai0jhEKkYIQ8ncl2mrwuI,1187
+cfdi/utils.py,sha256=ucBRV03tuUiGv9X6wnh5Z59zqphgbpxT3wZ6KBDy_2c,32864
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/cfdi_callbacks.py,sha256=l2a08UDmYnOy9mgns5UtbE9GHNW1mytQLrkkkx6C8aI,144
+tests/settings.py,sha256=Ty7WKJO0VJ5LBiQzqH798rWZfFALcyoHkKw4NWbF_wo,931
+tests/tests.py,sha256=m_lQhHNS5pwFgC1-udVKWY8fZxHHbGikK9Py65g1i8o,1018
+django_cfdi-1.0.0b5.dist-info/METADATA,sha256=L7WMjGWyrOod1kOzvJmCjyihjyHY_mT6B7058wJv-50,444
+django_cfdi-1.0.0b5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_cfdi-1.0.0b5.dist-info/top_level.txt,sha256=K_ZXupImHpaGZpM5wNFzvOhy_FWe__yOd4qGjCKMVzQ,11
+django_cfdi-1.0.0b5.dist-info/RECORD,,
