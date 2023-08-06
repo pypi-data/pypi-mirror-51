@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: macos-keychain
+Version: 0.2.1
+Summary: A Simple MacOS Keychain Store
+Home-page: UNKNOWN
+License: MIT
+Author: Juan Gonzalez
+Author-email: jrg2156@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sh (>=1.12,<2.0)
+Description-Content-Type: text/markdown
+
+# macos_keychain
+
+MacOS keychain password manager
+
+## Adding a password to keychain
+
+```python
+import macos_keychain
+
+macos_keychain.add(name='API token', value='<TOKEN>')
+```
+
+## Removing passwords in keychain
+
+```python
+import macos_keychain
+
+macos_keychain.rm(name='API token')
+```
+
+## Listing passwords in keychain
+
+```python
+import macos_keychain
+
+macos_keychain.ls()
+```
+
+## Getting password in keychain
+```python
+import macos_keychain
+
+macos_keychain.get(name='API token')
+```
+
