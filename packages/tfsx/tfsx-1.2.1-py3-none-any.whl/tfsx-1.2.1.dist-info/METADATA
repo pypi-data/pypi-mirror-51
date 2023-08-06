@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tfsx
+Version: 1.2.1
+Summary: Wrapper para acessar as informações do TFS
+Home-page: https://github.com/paulossjunior/tfs
+Author: Paulo Sergio dos Santo Junior
+Author-email: paulossjuniort@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: azure-devops
+Requires-Dist: requestx
+
+UNKNOWN
+
+
