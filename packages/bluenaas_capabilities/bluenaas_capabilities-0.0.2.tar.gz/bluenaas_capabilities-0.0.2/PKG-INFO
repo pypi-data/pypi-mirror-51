@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bluenaas_capabilities
+Version: 0.0.2
+Summary: A SciUnit library for handling NEURON-Python models having different internal implementations/formats.
+Home-page: https://github.com/appukuttan-shailesh/bluenaas_capabilities/
+Author: Shailesh Appukuttan
+Author-email: shailesh.appukuttan@unic.cnrs-gif.fr
+License: MIT
+Description: UNKNOWN
+Keywords: BlueNaaS,SciUnit,NEURON,python,validation framework
+Platform: UNKNOWN
