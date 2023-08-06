@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: seedling
+Version: 1
+Summary: A Synthetic Biology Machine Learning package.
+Home-page: https://github.com/andre-fu/seedling
+Author: Andre Fu
+Author-email: andrefu.af@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Seedling 
+
+## A Synthetic Biology Machine Learning Package
+
+
