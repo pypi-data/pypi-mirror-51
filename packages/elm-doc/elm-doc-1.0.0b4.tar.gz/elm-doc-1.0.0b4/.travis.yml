@@ -1,0 +1,108 @@
+dist: trusty
+sudo: false
+
+os:
+  - linux
+
+cache:
+  directories:
+    - $PIP_CACHE_DIR
+    - $PIPENV_CACHE_DIR
+    - $HOME/.yarn-cache
+
+env:
+  global:
+    - PIP_CACHE_DIR=$HOME/.cache/pip
+    - PIPENV_CACHE_DIR=$HOME/.cache/pipenv
+    - PIPENV_KEEP_OUTDATED=1
+
+language: python
+
+python:
+
+matrix:
+  include:
+  - python: "3.5"
+    env: CHECK_INSTALL=yes
+  - python: "3.5"
+  - python: "3.6"
+  - python: "3.7"
+    dist: xenial
+  - python: nightly
+
+before_install:
+  - pip --version
+  - pip install codecov
+  - pip install -U pip setuptools
+
+install:
+  - pip install 'pipenv>=2018.10.9' tox-travis
+  - pipenv --version
+  - pipenv install --dev
+  - git checkout Pipfile.lock # workaround until https://github.com/pypa/pipenv/pull/3304 is released
+
+before_script:
+  - git lfs version
+  - git lfs pull
+  - find . -iname '*.tar.gz'
+
+script:
+  - |
+    set -o errexit
+
+    if [[ "$CHECK_INSTALL" == 'yes' ]]; then
+      pip install .
+      elm-doc --help
+      python -c 'import elm_doc.asset_tasks; assert elm_doc.asset_tasks.tarball.exists()'
+    else
+      pipenv run doit --verbosity 2
+
+      if [ ! -z "$(git status --porcelain)" ]; then
+        git status
+
+        set -o xtrace
+
+        mkdir old-assets new-assets
+        (
+          cd new-assets
+          tar xf ../src/elm_doc/assets/assets.tar.gz
+          find . -type f -exec md5sum {} \; | sort > ../new-assets.txt
+        )
+        git checkout src
+        (
+          cd old-assets
+          tar xf ../src/elm_doc/assets/assets.tar.gz
+          find . -type f -exec md5sum {} \; | sort > ../old-assets.txt
+        )
+        diff -u old-assets.txt new-assets.txt
+
+        mkdir old-core new-core
+        (
+          cd new-core
+          tar xf ../tests/fixtures/0.19.0-elm-core.tar.gz
+          find . -type f -exec md5sum {} \; | sort > ../new-core.txt
+        )
+        git checkout tests
+        (
+          cd old-core
+          tar xf ../tests/fixtures/0.19.0-elm-core.tar.gz
+          find . -type f -exec md5sum {} \; | sort > ../old-core.txt
+        )
+        diff -u old-core.txt new-core.txt
+
+        echo Tasks in dodo.py created files untracked by git or modified files tracked by git.
+        echo See git status above.
+        exit 1
+      fi
+
+      tox -v
+    fi
+
+    set +o errexit
+
+after_success:
+  - tox -e coverage-report
+  - codecov
+
+notifications:
+  email: false
