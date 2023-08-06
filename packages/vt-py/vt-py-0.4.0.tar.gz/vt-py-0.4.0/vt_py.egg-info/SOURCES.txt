@@ -1,0 +1,14 @@
+README.md
+setup.py
+vt/__init__.py
+vt/client.py
+vt/error.py
+vt/feed.py
+vt/iterator.py
+vt/object.py
+vt/version.py
+vt_py.egg-info/PKG-INFO
+vt_py.egg-info/SOURCES.txt
+vt_py.egg-info/dependency_links.txt
+vt_py.egg-info/requires.txt
+vt_py.egg-info/top_level.txt
