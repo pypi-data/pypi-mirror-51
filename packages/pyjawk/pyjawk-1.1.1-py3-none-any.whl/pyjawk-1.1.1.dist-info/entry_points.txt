@@ -1,0 +1,9 @@
+[console_scripts]
+pybawk = pyjawk.__main__:pybawk
+pyjawk = pyjawk.__main__:main
+pymawk = pyjawk.__main__:pymawk
+pypawk = pyjawk.__main__:pypawk
+pysawk = pyjawk.__main__:pysawk
+pyxawk = pyjawk.__main__:pyxawk
+pyyawk = pyjawk.__main__:pyyawk
+
