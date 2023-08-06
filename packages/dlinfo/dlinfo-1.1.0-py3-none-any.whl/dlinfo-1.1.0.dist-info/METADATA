@@ -1,0 +1,38 @@
+Metadata-Version: 2.0
+Name: dlinfo
+Version: 1.1.0
+Summary: Python wrapper for libc's dlinfo
+Home-page: https://code.grasp-open.com/grasp-tools/python-dlinfo
+Author: Fabian Peter Hammerle
+Author-email: fabianpeter.hammerle@catalysts.cc
+Maintainer: Catalysts Space
+Maintainer-email: space@catalysts.cc
+License: UNKNOWN
+Platform: UNKNOWN
+
+python-dlinfo
+=============
+
+Python wrapper for libc's dlinfo
+
+Install
+-------
+
+.. code:: sh
+
+   pip install dlinfo
+   # or
+   pipenv install dlinfo
+
+Usage
+-----
+
+.. code:: python
+
+   >>> from dlinfo import DLInfo
+   >>> lib = ctypes.cdll.LoadLibrary(ctypes.util.find_library('c'))
+   >>> dlinfo = DLInfo(lib)
+   >>> dlinfo.path
+   '/lib/x86_64-linux-gnu/libc.so.6'
+
+
