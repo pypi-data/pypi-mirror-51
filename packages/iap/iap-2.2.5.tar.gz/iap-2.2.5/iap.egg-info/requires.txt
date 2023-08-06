@@ -1,0 +1,11 @@
+Django>=1.7
+pyopenssl>=17.0.0
+pyasn1
+pyasn1_modules
+requests
+
+[test]
+pytest
+pytest-django
+responses
+flake8
