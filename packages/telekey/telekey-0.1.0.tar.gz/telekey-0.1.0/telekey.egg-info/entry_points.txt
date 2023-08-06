@@ -1,0 +1,3 @@
+[console_scripts]
+telekey = telekey.__main__:main
+
