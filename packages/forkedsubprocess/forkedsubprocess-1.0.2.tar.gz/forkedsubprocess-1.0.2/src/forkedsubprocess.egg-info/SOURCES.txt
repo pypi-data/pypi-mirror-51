@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/forkedsubprocess/__init__.py
+src/forkedsubprocess.egg-info/PKG-INFO
+src/forkedsubprocess.egg-info/SOURCES.txt
+src/forkedsubprocess.egg-info/dependency_links.txt
+src/forkedsubprocess.egg-info/top_level.txt
