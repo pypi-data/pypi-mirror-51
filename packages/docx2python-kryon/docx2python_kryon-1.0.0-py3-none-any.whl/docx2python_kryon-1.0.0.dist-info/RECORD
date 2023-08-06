@@ -1,0 +1,15 @@
+docx2python/__init__.py,sha256=9oOdrL3W5QUglVZEAfyMyIIFgtrb-4PL-rKfxItxWuU,45
+docx2python/depth_collector.py,sha256=KAe7ij8uwdJ5gUvGa5gcnOAcYqMOPw48IwT0cowRxZI,2805
+docx2python/docx_context.py,sha256=sx3s52MWR2AAnQKSW9OkWFLJ-81pJvjHq9UKq6EFqqw,10565
+docx2python/docx_output.py,sha256=K8EWCWBdJ7fQ_H4RVdk0YkdwYJk0589fbVkzEargRQQ,1077
+docx2python/docx_text.py,sha256=8pRanqLLC-4oXfh6wXy_R35i1GluYJrUo3tBbavYG6w,8258
+docx2python/iterators.py,sha256=mnpD0iZqJLEzOlrbFXMdB_5df5pUPznnqVOlTSQUe8Q,7168
+docx2python/main.py,sha256=NqMphiff6jj0Ju1qo87PveoQOi-1IDB0Brhx7gKH6kg,1721
+docx2python/namespace.py,sha256=YNEakn-tj-DxPcWW6mPzpFaa8vTlAf0rZhVRlVRhNTY,2204
+docx2python/numbering_formats.py,sha256=6FBhEBIA8FIdYHxHug4J73z_5XV3-TxzF_3c_FhZ4ms,3049
+docx2python/text_runs.py,sha256=UBoy6T7v6ZUctK_7Nl5kqxU9-7Sj69ha2takG_XbprM,4328
+docx2python_kryon-1.0.0.dist-info/LICENSE.txt,sha256=IZ3OlvJid6WPGWHb1DAUyB5xn10biSmRSCCUIKYK_H8,1075
+docx2python_kryon-1.0.0.dist-info/METADATA,sha256=zK7nkvmI1Vvn1LHYZ_KxHcSgrpLBLhzMHgSZWkdU8xI,7763
+docx2python_kryon-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+docx2python_kryon-1.0.0.dist-info/top_level.txt,sha256=afmwzhpGwdt53aJyz9BnOLhdIvOeO8mrJjHTF4oqyL0,12
+docx2python_kryon-1.0.0.dist-info/RECORD,,
