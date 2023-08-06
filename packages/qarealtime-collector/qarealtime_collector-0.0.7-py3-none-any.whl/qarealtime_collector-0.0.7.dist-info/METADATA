@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: qarealtime-collector
+Version: 0.0.7
+Summary: QARealtimeCollector: QUANTAXIS REALTIME MARKETDATA COLLECTORS
+Home-page: https://github.com/yutiansut/QUANTAXIS_RealtimeCollector
+Author: yutiansut
+Author-email: yutiansut@qq.com
+License: MIT
+Keywords: quantaxis,quant,finance,Backtest,Framework
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Dist: quantaxis
+Requires-Dist: quantaxis-pubsub
+
+QARealtimeCollector: QUANTAXIS REALTIME MARKETDATA COLLECTORS
+
+
