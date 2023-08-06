@@ -1,0 +1,3 @@
+[kedro.project_commands]
+kedro-viz = kedro_viz.server:commands
+
