@@ -1,0 +1,6 @@
+six>=1.9.0
+humanize
+netaddr
+
+[:python_version == "2.7"]
+ipaddress
