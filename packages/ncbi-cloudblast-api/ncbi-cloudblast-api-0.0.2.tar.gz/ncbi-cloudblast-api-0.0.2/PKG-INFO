@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: ncbi-cloudblast-api
+Version: 0.0.2
+Summary: CloudBlast API Python Library
+Home-page: https://bitbucket.ncbi.nlm.nih.gov/projects/BLAST/repos/blast-specs/browse
+Maintainer: Peter Meric
+Maintainer-email: meric@ncbi.nlm.nih.gov
+License: Public Domain
+Description: A Python Client Library for accessing CloudBlast API
+Platform: UNKNOWN

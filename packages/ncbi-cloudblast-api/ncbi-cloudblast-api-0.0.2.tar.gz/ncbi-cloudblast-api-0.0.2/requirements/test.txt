@@ -1,0 +1,4 @@
+-r base.txt
+
+pytest==3.7.1
+pandas==0.25.1
