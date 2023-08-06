@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pairs-footprints-for-like
+Version: 1.0
+Summary: paris leave footprints fro like from me
+Home-page: UNKNOWN
+Author: mao2009
+License: BSD
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+
+# pairs_footprints_for_like
+pairs leave footprints for like from me
+
+##Install
+(sudo) pip install pairs_footprints_for_like
+
+##Use
+$pairs_footprints_for_like
+
+

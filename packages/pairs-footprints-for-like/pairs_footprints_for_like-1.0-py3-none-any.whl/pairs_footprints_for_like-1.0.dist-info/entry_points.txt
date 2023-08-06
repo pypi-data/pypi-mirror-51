@@ -1,0 +1,3 @@
+[console_scripts]
+pairs_footprints_for_like = pairs_footprints_for_like:main
+
