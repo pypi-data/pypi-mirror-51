@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: seed-identity-store
+Version: 0.10.2
+Summary: Seed Identity Store mircoservice
+Home-page: http://github.com/praekelt/seed-identity-store
+Author: Praekelt.org
+Author-email: dev@praekelt.org
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Django (==2.2.4)
+Requires-Dist: djangorestframework (==3.9.1)
+Requires-Dist: coreapi (==2.3.3)
+Requires-Dist: dj-database-url (==0.5.0)
+Requires-Dist: django-environ (==0.4.5)
+Requires-Dist: psycopg2 (==2.7.6.1)
+Requires-Dist: raven (==6.9.0)
+Requires-Dist: django-filter (==2.0.0)
+Requires-Dist: celery (==4.2.1)
+Requires-Dist: django-rest-hooks (==1.5.0)
+Requires-Dist: seed-services-client (>=0.31.0)
+Requires-Dist: seed-papertrail (>=1.5.1)
+Requires-Dist: django-prometheus (==1.0.15)
+
+===================
+Seed Identity Store
+===================
+
+The Seed Identity Store is one of the microservices in the Seed Stack.
+
+The Identity Store has two key responsibilities:
+
+- Store the unique Identity of any end-user created in the Seed system.
+- Store the Opt-out or Opt-in status for any end-user in the Seed system.
+
+
