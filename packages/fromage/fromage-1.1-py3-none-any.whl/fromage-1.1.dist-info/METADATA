@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fromage
+Version: 1.1
+Summary: FRamewOrk for Molecular AGgregate Excitations
+Home-page: UNKNOWN
+Author: Miguel Rivera, Michael Dommett, Rachel Crespo-Otero
+Author-email: r.crespo-otero@qmul.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
