@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: qaviton-helpers
+Version: 2019.9.4.9.23.27.527175
+Summary: qaviton helpers
+Home-page: https://github.com/qaviton/qaviton_helpers.git
+Author: yehonadav
+Author-email: yonadav.barilan@gmail.com
+License: apache-2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# qaviton helpers
+
+a collection of nice objects and functions to make things simple
+
