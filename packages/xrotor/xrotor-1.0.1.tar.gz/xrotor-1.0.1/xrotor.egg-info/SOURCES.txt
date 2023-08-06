@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+xrotor/__init__.py
+xrotor/model.py
+xrotor/test.py
+xrotor/xrotor.py
+xrotor.egg-info/PKG-INFO
+xrotor.egg-info/SOURCES.txt
+xrotor.egg-info/dependency_links.txt
+xrotor.egg-info/requires.txt
+xrotor.egg-info/top_level.txt
