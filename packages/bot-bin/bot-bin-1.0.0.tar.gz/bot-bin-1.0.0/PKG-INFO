@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bot-bin
+Version: 1.0.0
+Summary: Shared cogs and utilities for use in Discord bots
+Home-page: https://github.com/bmintz/bot-bin
+Author: lambda#0987
+License: BlueOak-1.0.0
+Download-URL: https://github.com/bot-bin/cogs/archive/v1.0.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.0
+Provides-Extra: sql
