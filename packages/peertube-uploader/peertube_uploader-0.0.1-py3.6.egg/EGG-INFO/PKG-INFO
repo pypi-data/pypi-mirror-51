@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: peertube-uploader
+Version: 0.0.1
+Summary: A script to make uploading to peertube instances easier.
+Home-page: https://gitlab.com/NamingThingsIsHard/media_tools/peertube-uploader
+Author: LoveIsGrief
+Author-email: loveisgrief@tuta.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/NamingThingsIsHard/media_tools/peertube-uploader/issues
+Description: # PeerTube Uploader
+        
+        A script to make uploading to peertube instances easier.
+        
+        For documentation on the API used see 
+        https://docs.joinpeertube.org/api-rest-reference.html
+        
+        ## Requirements
+         * python-requests
+        
+        ## Usage
+        ````
+        $ pip install -r requirements.txt
+        $ ./peertube-uploader.py 
+        usage: peertube-uploader.py [-h] [-u USERNAME] [-p PASSWORD] [-c CLIENT_ID]
+                                    [-s CLIENT_SECRET] [-t ACCESS_TOKEN] -f FILE
+                                    [-j JSON] [-n NAME] [-ch CHANNEL] [-e ENDPOINT]
+                                    [--private] [--skip {same_name_on_server}]
+                                    [--nocomments] [--subs CODE FILE]
+        
+        A script to make uploading to peertube instances easier. For documentation on
+        the API used see https://docs.joinpeertube.org/api-rest-reference.html
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -u USERNAME, --username USERNAME
+                                Username
+          -p PASSWORD, --password PASSWORD
+                                Password
+          -c CLIENT_ID, --client_id CLIENT_ID
+                                Client ID to use
+          -s CLIENT_SECRET, --client_secret CLIENT_SECRET
+                                Client secret to use
+          -t ACCESS_TOKEN, --access_token ACCESS_TOKEN
+                                Access token to use
+          -f FILE, --file FILE  File to upload
+          -j JSON, --json JSON  Path to JSON containing extra upload params
+          -n NAME, --name NAME  Name of the uploaded video
+          -ch CHANNEL, --channel CHANNEL
+                                Channel ID to upload to
+          -e ENDPOINT, --endpoint ENDPOINT
+                                Host name
+          --private             Set video as private
+          --skip {same_name_on_server}
+                                Skip upload under certain conditions
+          --nocomments          Disable comments
+          --subs CODE FILE      Select the language-code and caption file. One file
+                                per language.You can use this multiple times (once per
+                                language). Allowed keys are a3,af,am,ar,as,az,be,bg,br
+                                ,bs,ca,cs,cy,cz,da,de,ee,el,en,eo,es,et,eu,fa,fi,fo,fr
+                                ,ga,gd,gl,gv,he,hi,hr,hu,ia,id,in,is,it,iu,iw,ja,ka,kl
+                                ,kn,ko,ks,kw,ky,lo,lt,lv,mi,mk,ml,mr,ms,mt,nb,nl,nn,no
+                                ,nr,ny,oc,or,pa,pd,ph,pl,pp,pt,ro,ru,rw,sd,sh,si,sk,sl
+                                ,sp,sq,sr,ss,st,sv,ta,te,tg,th,tl,tn,tr,ts,tt,uk,ur,uz
+                                ,ve,vi,wa,xh,yi,zh,zu
+        ````
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
