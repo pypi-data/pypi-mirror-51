@@ -1,0 +1,3 @@
+[console_scripts]
+cpull = cp.__init__:main
+

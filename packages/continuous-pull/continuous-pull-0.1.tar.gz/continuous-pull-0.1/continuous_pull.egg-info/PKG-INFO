@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: continuous-pull
+Version: 0.1
+Summary: A lightweight CLI tool to continuously pull a Git repository.
+Home-page: https://github.com/ericmjl/continuous-pull
+Author: Eric J. Ma
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: git,utilities,command line tools,git pull,continuous pull
+Platform: UNKNOWN
