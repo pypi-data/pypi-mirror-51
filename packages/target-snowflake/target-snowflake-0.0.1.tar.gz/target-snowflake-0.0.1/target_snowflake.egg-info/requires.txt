@@ -1,0 +1,10 @@
+boto3==1.9.205
+singer-python==5.6.1
+singer-target-postgres==0.1.10
+snowflake-connector-python==1.9.0
+target-redshift==0.0.9
+
+[tests]
+chance==0.110
+Faker==1.0.8
+pytest==4.5.0
