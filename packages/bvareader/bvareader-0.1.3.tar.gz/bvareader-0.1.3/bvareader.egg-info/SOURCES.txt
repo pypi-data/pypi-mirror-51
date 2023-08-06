@@ -1,0 +1,17 @@
+setup.cfg
+setup.py
+bvareader/__init__.py
+bvareader/commands.py
+bvareader/helpers.py
+bvareader/plotter.py
+bvareader/preprocessing.py
+bvareader/reader.py
+bvareader.egg-info/PKG-INFO
+bvareader.egg-info/SOURCES.txt
+bvareader.egg-info/dependency_links.txt
+bvareader.egg-info/entry_points.txt
+bvareader.egg-info/requires.txt
+bvareader.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_loading.py
