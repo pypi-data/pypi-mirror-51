@@ -1,0 +1,10 @@
+README.md
+setup.py
+pytypecho/__init__.py
+pytypecho/main.py
+pytypecho/utils.py
+pytypecho.egg-info/PKG-INFO
+pytypecho.egg-info/SOURCES.txt
+pytypecho.egg-info/dependency_links.txt
+pytypecho.egg-info/top_level.txt
+tests/__init__.py
