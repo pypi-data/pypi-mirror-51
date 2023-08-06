@@ -1,0 +1,13 @@
+fiduswriter/languagetool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiduswriter/languagetool/proxy_views.py,sha256=AFSnaejyTDY3Pg7PjDKizcjrud-48tHPhnIvtGQIIp4,917
+fiduswriter/languagetool/locale/en_US/LC_MESSAGES/djangojs.po,sha256=uCA5rp4BBuv-firdL_0AQXO4gDzBfnNWADeHyvxfwRM,1024
+fiduswriter/languagetool/static/js/modules/lt/dialog.js,sha256=ryHXn0J5SlJj0PSXLsnLfyDENu4-yqZQp_rrW3Xy370,1960
+fiduswriter/languagetool/static/js/modules/lt/editor.js,sha256=eWwJSqQwHjU2K-BfIj8u9tu1519Iv_36eXpHbvD94_A,14274
+fiduswriter/languagetool/static/js/modules/lt/state_plugin.js,sha256=LLEMhxeaTHQqDwreOeJ5XKGt45e4nBTlcoXrbFm4fCQ,4095
+fiduswriter/languagetool/static/js/modules/lt/templates.js,sha256=AcXiH1soxoBdJ0PgIk-K9tAQ8X2ULleL-EnnlQmHxO8,634
+fiduswriter/languagetool/static/js/plugins/editor/lt.js,sha256=s1b9D-SI56uKeLI9rdtRmrszjF-1PZyG3bTz_hZTsxg,49
+fiduswriter_languagetool-3.7.0rc1.dist-info/LICENSE,sha256=YMZtFw1tnvZVwfBy9c1oHJ2PXOy8oSV70UX5XJdAlWU,34500
+fiduswriter_languagetool-3.7.0rc1.dist-info/METADATA,sha256=KhiYpNmfVFerzfqbP0AAqNdwYiQAgxubWZQ3IVtPcdE,1736
+fiduswriter_languagetool-3.7.0rc1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+fiduswriter_languagetool-3.7.0rc1.dist-info/top_level.txt,sha256=7z9aoiRQ9kivWKw8LHUETXTxg1s_01XVC9Xv4TCfzf0,17
+fiduswriter_languagetool-3.7.0rc1.dist-info/RECORD,,
