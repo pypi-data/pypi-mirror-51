@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: py2vega
+Version: 0.5.0
+Summary: A Python to Vega-expression transpiler.
+Home-page: https://github.com/QuantStack/py2vega
+Author: QuantStack dev team
+Maintainer: QuantStack dev team
+License: BSD 3-Clause
+Description: UNKNOWN
+Keywords: python vega vega-expression
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Provides-Extra: testing
