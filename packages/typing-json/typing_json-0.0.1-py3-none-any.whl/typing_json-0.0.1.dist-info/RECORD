@@ -1,0 +1,9 @@
+typing_json/__init__.py,sha256=6iwfyZY31zBwcvJvFlzaRAVrDtkyvq10LHS6f_mAmFs,246
+typing_json/decoding.py,sha256=YMrnATC2mOrXMuIWiQzu71l02OlsMa-gabtnXY-eG_g,6020
+typing_json/encoding.py,sha256=dRtJ32914DJAhsEuujhuWUIJxgPUJIz0s4UtGumfimc,3792
+typing_json/typechecking.py,sha256=R5HO0ySACu2WVS1TjGZEwgDCXZcie1xInKR1i4PICqg,5833
+typing_json-0.0.1.dist-info/LICENSE,sha256=Uc6H-UsDRiiAAEBl_nynp8sKHUbl8b4CVnqgH5apU2g,1083
+typing_json-0.0.1.dist-info/METADATA,sha256=BLYInIpAB7pFOnfVx-fbgZsYkhBrUGc8O1GaEAfz3gE,9602
+typing_json-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+typing_json-0.0.1.dist-info/top_level.txt,sha256=9caeT_ZkyGiC7Cz8tosojwvNn1aB-dbEKL6zwDLRYPU,12
+typing_json-0.0.1.dist-info/RECORD,,
