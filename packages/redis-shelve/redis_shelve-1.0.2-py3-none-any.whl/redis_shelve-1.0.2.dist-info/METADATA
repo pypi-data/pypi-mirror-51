@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: redis-shelve
+Version: 1.0.2
+Summary: Alternative shelve that uses Redis as storage
+Home-page: UNKNOWN
+Author: Niels van Huijstee
+Author-email: niels@fuga.cloud
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Requires-Dist: redis
+
+UNKNOWN
+
+
