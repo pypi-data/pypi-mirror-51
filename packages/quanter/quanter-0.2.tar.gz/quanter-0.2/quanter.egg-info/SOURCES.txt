@@ -1,0 +1,7 @@
+setup.py
+quanter/__init__.py
+quanter.egg-info/PKG-INFO
+quanter.egg-info/SOURCES.txt
+quanter.egg-info/dependency_links.txt
+quanter.egg-info/not-zip-safe
+quanter.egg-info/top_level.txt
