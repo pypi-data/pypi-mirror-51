@@ -1,0 +1,13 @@
+billomat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+billomat/base.py,sha256=-hq_UG47ZbMEVSeIkcl32qk_BOlyABVwx0nja4fkruQ,14745
+billomat/fields.py,sha256=sgItlMXKW9NqfA0NeFt8YqR_-UfbePUlSvr6S9CO7OE,3399
+billomat/mixins.py,sha256=LrUt4PSCwtBA30_pWsZfZi1v1C8R3VHxfP1aPF1gfYQ,1428
+billomat/models.py,sha256=_NYiuvMsSnzzmJw4G4WRiGTMFUbYrVPtVWi3PAewjEo,17221
+billomat/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+billomat/tests/test_client.py,sha256=uzsnDVsXq_JygZGbLKZNTBsvL7eSey3pf_PDp2bK2rM,2808
+billomat/tests/test_queryset.py,sha256=ttQJ06OAw2XGjwBgtqigKCXHolU9k1rxKsRcayWfTpQ,1304
+billomat-0.1.32.dist-info/LICENSE.md,sha256=x8DmICbSwIIFVIWLDlOfOEc8o1Nq9a_kyVtM4-uHqE0,1084
+billomat-0.1.32.dist-info/METADATA,sha256=9c0xpRn0QnhvnrGF2ElB5qdnLiYmHe6nUdgXoWufZpo,2830
+billomat-0.1.32.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+billomat-0.1.32.dist-info/top_level.txt,sha256=1G_AYxKCjpt6kIJEQUJTgZ-cIB8vvPcfI2oYD_cIkxo,9
+billomat-0.1.32.dist-info/RECORD,,
