@@ -1,0 +1,7 @@
+pathlib
+dill
+multiprocess
+wrapt
+
+[:python_version < "3.5"]
+typing
