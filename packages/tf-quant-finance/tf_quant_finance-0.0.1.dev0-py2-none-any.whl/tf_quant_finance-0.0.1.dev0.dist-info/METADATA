@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: tf-quant-finance
+Version: 0.0.1.dev0
+Summary: High performance Tensorflow library for quantitative finance.
+Home-page: UNKNOWN
+Author: Google Inc.
+Author-email: tf-quant-finance@google.com
+License: Apache 2.0
+Keywords: tensorflow quantitative finance hpc gpu option pricing
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: OS Independent
+Requires-Dist: tensorflow (>=1.12.0)
+Requires-Dist: tensorflow-probability (>=0.5.0)
+Requires-Dist: numpy (>=1.13.3)
+
+UNKNOWN
+
+
