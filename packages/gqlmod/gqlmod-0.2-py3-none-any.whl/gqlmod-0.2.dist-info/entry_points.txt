@@ -1,0 +1,3 @@
+[graphql_providers]
+starwars = gqlmod_starwars:StarWarsProvider
+
