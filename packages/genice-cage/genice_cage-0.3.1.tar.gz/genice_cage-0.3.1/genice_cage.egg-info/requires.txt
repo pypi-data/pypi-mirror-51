@@ -1,0 +1,5 @@
+countrings>=0.1.6
+genice>=0.25
+attrdict
+networkx
+numpy
