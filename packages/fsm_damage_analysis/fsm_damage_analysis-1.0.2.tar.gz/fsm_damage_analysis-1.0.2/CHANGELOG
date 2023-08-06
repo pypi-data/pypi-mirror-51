@@ -1,0 +1,21 @@
+fsm_damage_analysis 1.0.2 (September 2, 2019)
+=============================================
+
+Bugfixes
+--------
+
+    * Migrated from Bitbucket (Mercurial) to GitHub (Git).
+
+fsm_damage_analysis 1.0.1 (April 9, 2018)
+=========================================
+
+Refactoring
+-----------
+
+    * Decoupled the `compute_damage` and `compute_effective_stress` functions
+      to https://bitbucket.org/petar/fsm_effective_stress for reusability.
+
+fsm_damage_analysis 1.0.0 (March 29, 2018)
+==========================================
+
+    * Initial release.
