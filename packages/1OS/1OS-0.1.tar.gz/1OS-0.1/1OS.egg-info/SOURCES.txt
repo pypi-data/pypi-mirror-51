@@ -1,0 +1,7 @@
+setup.py
+1OS/__init__.py
+1OS.egg-info/PKG-INFO
+1OS.egg-info/SOURCES.txt
+1OS.egg-info/dependency_links.txt
+1OS.egg-info/not-zip-safe
+1OS.egg-info/top_level.txt
