@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: py-ztj-aria2local
+Version: 0.0.1
+Summary: python aria2rpc package
+Home-page: http://github.com/ztj1993/PythonPackages/blob/master/py_aria2rpc
+Author: ZhangTianJie
+Author-email: ztj1993@gmail.com
+License: MIT License
+Keywords: aria2 client local start stop service
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: psutil
+Requires-Dist: py-ztj-registry
+
+# Python Aria2 本地管理模块
+
+### 说明
+这是一个 aria2 本地服务管理模块。
+
+## 安装
+```
+pip install py-ztj-aria2local
+```
+
+### 使用
+```
+import time
+from py_aria2local.aria2local import Aria2Local
+
+local = Aria2Local()
+print('is_install', local.is_install())
+print('start', local.start())
+time.sleep(3)
+print('is_running', local.is_running())
+time.sleep(15)
+print('stop', local.stop())
+time.sleep(3)
+print('is_running', local.is_running())
+```
+
+
