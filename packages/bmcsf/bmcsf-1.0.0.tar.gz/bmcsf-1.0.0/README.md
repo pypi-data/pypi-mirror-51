@@ -1,0 +1,2 @@
+# mcsf
+MINECRAFT SERVER, FAST!

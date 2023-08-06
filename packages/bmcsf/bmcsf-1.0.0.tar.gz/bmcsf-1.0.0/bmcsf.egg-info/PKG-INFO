@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: bmcsf
+Version: 1.0.0
+Summary: Up/Down Minecraft Server on Vultr Fast
+Home-page: https://github.com/beremaran/mcsf
+Author: Berke Emrecan Arslan
+Author-email: berke@beremaran.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: minecraft server vultr
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
