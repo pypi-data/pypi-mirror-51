@@ -1,0 +1,12 @@
+selectolax/__init__.py,sha256=GoPTkoC2Uyk9Cksm4zEIxPVIia1kzlD2Erdj0v5jMhA,110
+selectolax/node.pxi,sha256=Z-kgcRa5W-rV29xgH0o8fS4emBdLEbgYogOTPoCFDV4,18182
+selectolax/parser.c,sha256=TgU51ZDQHXVEOJPdovCjyxsKbCsiPsGoJskE7ZD7MAA,748132
+selectolax/parser.cpython-37m-darwin.so,sha256=QQXoAFadtgOKB4xDrkmyPUhl_SRr7sV7qX3Ld9YUo_Q,5032000
+selectolax/parser.pxd,sha256=e9UQI3At59jOaeO3_cojIkFnSkBBw17X4S72ppwGGHs,23787
+selectolax/parser.pyx,sha256=osquxvmaP4J_sfYW0fE4evolZBG8FL56gvtbFffBOCc,7883
+selectolax/selector.pxi,sha256=wcHJAhR_Bmaqh90XwFP72TQ_iKs5Pe7HRlM4rrVcxiQ,2328
+selectolax-0.2.1.dist-info/LICENSE,sha256=0w3o9h8vdfVKKU2EnzO6-XmHVSdIrDgrbvZ8OFKWnxI,1073
+selectolax-0.2.1.dist-info/METADATA,sha256=yM-nj_fXwvQQFUhyG1alIXw4dH9cH23gZ0dEgzNwiv4,2873
+selectolax-0.2.1.dist-info/WHEEL,sha256=ZAPg4sh1IYHKqp2FoarXKab2VRxd7s7md0doFSVDALY,109
+selectolax-0.2.1.dist-info/top_level.txt,sha256=e5MuEM2PrQzoDlWetkFli9uXSlxa_ktW5jJEihhaI1c,11
+selectolax-0.2.1.dist-info/RECORD,,
