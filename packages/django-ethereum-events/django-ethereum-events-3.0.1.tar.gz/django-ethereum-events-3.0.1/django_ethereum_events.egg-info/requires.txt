@@ -1,0 +1,7 @@
+Django>=1.11
+celery>=3.1.25
+django-solo>=1.1.0
+web3<5,>=4.9.2
+
+[test]
+eth-tester[py-evm]==0.1.0-beta.33
