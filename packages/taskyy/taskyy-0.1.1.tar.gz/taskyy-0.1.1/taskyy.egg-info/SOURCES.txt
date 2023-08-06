@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+remindr/__init__.py
+remindr/__main__.py
+remindr/remindr.py
+taskyy.egg-info/PKG-INFO
+taskyy.egg-info/SOURCES.txt
+taskyy.egg-info/dependency_links.txt
+taskyy.egg-info/entry_points.txt
+taskyy.egg-info/requires.txt
+taskyy.egg-info/top_level.txt
