@@ -1,0 +1,11 @@
+requests<2.22.0,>=2.21.0
+clabe
+lxml
+
+[test]
+pytest
+pytest-vcr
+pycodestyle
+pytest-cov
+black
+isort[pipfile]
