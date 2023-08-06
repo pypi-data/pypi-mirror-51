@@ -1,0 +1,9 @@
+README.md
+setup.py
+autoencoder/__init__.py
+autoencoder/model_parts.py
+autoencoder/models.py
+autoencoder.egg-info/PKG-INFO
+autoencoder.egg-info/SOURCES.txt
+autoencoder.egg-info/dependency_links.txt
+autoencoder.egg-info/top_level.txt
