@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: pycontractsdk.v2
+Version: 0.1.2
+Summary: This is a sdk of constract
+Home-page: https://github.com/yuyongpeng/pyconstractsdk
+Author: yuyongpeng
+Author-email: yuyongpeng@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: solidity web3 constract sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
