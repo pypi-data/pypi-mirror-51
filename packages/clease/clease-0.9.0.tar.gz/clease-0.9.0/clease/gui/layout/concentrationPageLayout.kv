@@ -1,0 +1,54 @@
+#: set height 0.05
+<ConcentrationPage>:
+
+    StackLayout:
+        id: mainConcLayout
+        orientation: 'lr-tb'
+
+        Button:
+            id: toInput
+            size_hint: [0.25, height]
+            text: 'Input'
+            on_release:
+                root.manager.current = 'Input'
+                root.manager.transition.direction = 'right'
+
+        Button:
+            id: concEditor
+            text: 'Concentration'
+            size_hint: [0.25, height]
+            on_release:
+                root.manager.current = 'Concentration'
+
+        Button:
+            id: toNewStruct
+            text: 'New structures'
+            size_hint: [0.25, height]
+            on_release:
+                root.manager.current = 'NewStruct'
+                root.manager.transition.direction = 'left'
+
+        Button:
+            id: toFit
+            text: 'Fit'
+            size_hint: [0.25, height]
+            on_release:
+                root.manager.current = 'Fit'
+                root.manager.transition.direction = 'left'
+
+        Button:
+            size_hint: [0.5, height]
+            id: addConstraintButton
+            text: 'Add constraint'
+            on_release: root.add_constraint()
+
+        Button:
+            size_hint: [0.5, height]
+            id: reconfigureButton
+            text: 'Update settings'
+            on_release: root.init_settings_class()
+
+        Label:
+            size_hint: [1, 3*height]
+            id: status
+            text: 'Idle'
