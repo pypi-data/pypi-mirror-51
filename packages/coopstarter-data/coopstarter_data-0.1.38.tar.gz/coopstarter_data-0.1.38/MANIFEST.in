@@ -1,0 +1,2 @@
+include coopstarter_data/fixtures/*.json
+include coopstarter_data/templates/*
