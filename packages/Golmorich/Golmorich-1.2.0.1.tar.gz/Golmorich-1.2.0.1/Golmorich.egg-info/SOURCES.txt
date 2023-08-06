@@ -1,0 +1,7 @@
+README.md
+golmorich.py
+setup.py
+Golmorich.egg-info/PKG-INFO
+Golmorich.egg-info/SOURCES.txt
+Golmorich.egg-info/dependency_links.txt
+Golmorich.egg-info/top_level.txt
