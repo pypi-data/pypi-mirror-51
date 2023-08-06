@@ -1,0 +1,3 @@
+[console_scripts]
+qas_detect = qaservicedetect.__init__:detect
+
