@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: linedoll
+Version: 0.0.1a0
+Summary: A simple tool to create a micro api backend framework
+Home-page: https://github.com/lim-lq/flask-vue-example
+Author: lim
+Author-email: lim@bigfinding.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# Line doll flask api backend tool
+
+This is a tool to create a micro flask api backend framework.
+You can use [doll](https://github.com/lim-lq/flask-vue-example) to begin
+your flask development quickly.
+
