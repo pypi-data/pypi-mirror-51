@@ -1,0 +1,9 @@
+README.md
+setup.py
+tui_adf/Funktionen.py
+tui_adf/__init__.py
+tui_adf.egg-info/PKG-INFO
+tui_adf.egg-info/SOURCES.txt
+tui_adf.egg-info/dependency_links.txt
+tui_adf.egg-info/requires.txt
+tui_adf.egg-info/top_level.txt
