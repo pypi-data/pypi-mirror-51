@@ -1,0 +1,7 @@
+Pmw
+matplotlib
+seamm_util
+seamm
+scipy
+seamm_ff_util
+statsmodels
