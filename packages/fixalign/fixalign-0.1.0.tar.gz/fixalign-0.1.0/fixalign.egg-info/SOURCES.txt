@@ -1,0 +1,10 @@
+README.md
+setup.py
+fixalign/__init__.py
+fixalign/block_class.py
+fixalign/find_small_exon.py
+fixalign/fix_small_exon.py
+fixalign.egg-info/PKG-INFO
+fixalign.egg-info/SOURCES.txt
+fixalign.egg-info/dependency_links.txt
+fixalign.egg-info/top_level.txt
