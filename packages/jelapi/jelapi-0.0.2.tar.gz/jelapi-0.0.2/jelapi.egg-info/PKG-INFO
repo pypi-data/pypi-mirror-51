@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jelapi
+Version: 0.0.2
+Summary: jelapi: A Jelastic API Python library
+Home-page: https://github.com/liip/jelapi
+Author: Didier Raboud
+Author-email: didier.raboud@liip.ch
+License: GPLv3+
+Description: # jelapi
+        
+        A Jelastic API Python library
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
