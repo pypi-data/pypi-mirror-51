@@ -1,0 +1,3 @@
+[console_scripts]
+presentation_mode=presentation_mode:main
+
