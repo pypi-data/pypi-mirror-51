@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ExampleLibrary
+Version: 0.1.0
+Summary: A placeholder for the "examplelibrary" name on PyPI. This is not a real library.
+Home-page: https://github.com/asweigart/examplelibrary
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: BSD
+Description: UNKNOWN
+Keywords: example
+Platform: UNKNOWN
