@@ -1,0 +1,11 @@
+bot_bin/__init__.py,sha256=k8N193S8WY9AsQGGuRfjESYvTHm0SpJUSGlxWwk5IdE,161
+bot_bin/bot.py,sha256=pVxi0wb-gN2EzId8MWshNeNPrsDO0WunC8Qx4ouYd28,6250
+bot_bin/debug.py,sha256=GjWcSuLAPK9WsceEha-C6A-sbotpMArdo90pRbSjpjE,4075
+bot_bin/misc.py,sha256=MKgNDjoaODIcbUkoI7Hz39bqEs_DoULE9nfJOyOk7bk,6240
+bot_bin/sql.py,sha256=7moxALreS65ktmVQ9QVqnTJ9yxCVz9xFYT5k74LYtYs,1933
+bot_bin/stats.py,sha256=k5FSQpWPRXiz1lDG1hGteZvNAbGeEExny-l-QX7OB1U,3538
+bot_bin-1.0.0.dist-info/LICENSE.md,sha256=Gpl1x1z8IFtUYV0PDarYaaJA9eNI6xo9Qx_HZE3V_Wc,1551
+bot_bin-1.0.0.dist-info/METADATA,sha256=9joBUIdJeJQpxpusC8Zv7LBhMxvdO3Wj3NpyLigYVQc,966
+bot_bin-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bot_bin-1.0.0.dist-info/top_level.txt,sha256=pMncGo1iOofonmZV1eZwPuo0XdrIeRLnPrWlnKVURvg,8
+bot_bin-1.0.0.dist-info/RECORD,,
