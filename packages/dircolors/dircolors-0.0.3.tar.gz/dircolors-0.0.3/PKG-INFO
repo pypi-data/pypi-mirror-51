@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: dircolors
+Version: 0.0.3
+Summary: Python library to colorize filenames in a terminal based on their type 
+Home-page: https://github.com/aswild/pydircolors
+Author: Allen Wild
+Author-email: allenwild93@gmail.com
