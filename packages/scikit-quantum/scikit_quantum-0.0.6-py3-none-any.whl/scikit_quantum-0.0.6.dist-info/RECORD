@@ -1,0 +1,16 @@
+skquantum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skquantum/combinatorial/__init__.py,sha256=QSsBsqks3TA86IZQxXTr-6C2hODadfvxmPdUcsZpgdE,51
+skquantum/combinatorial/weighted_maxcut.py,sha256=Eh6TtQmB7747cfQub8xA5TpHl2YzSbNWGTvogiplGZ4,465
+skquantum/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skquantum/core/hamiltonian.py,sha256=5jx0mZuzaq2igPGVfqH98ssCHQIhykugy4UHpFXqLF8,1201
+skquantum/core/qaoa.py,sha256=3INRtVanTpnHK4BPNqEiiPuJi2k1XxkL8TlUjg71t7c,2429
+skquantum/core/vqe.py,sha256=Vv3UIfBUgCSeNLD2qYaOd2KgN33--xF4aW6C3nNXKKE,8206
+skquantum/machine_learning/__init__.py,sha256=d-cQl0CKRRa5cyPeboy4AprbErv-jM6ctadw9ldA7A4,71
+skquantum/machine_learning/quantum_multilayer_perceptron.py,sha256=N5XvDvvPf61bDipulWQehaIvZ_m1a_O7gvog7GZVrGw,4678
+skquantum/search/__init__.py,sha256=ZtRXYqEHU9THCOuUCKPu8yMmNm5urGM2S4VTlhWjEbg,51
+skquantum/search/quantum_ksat_solver.py,sha256=gBTly3KY0ufnN6GCFmp0oNiSu1OR0Z7YvCxJ9WPWxEQ,6220
+scikit_quantum-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scikit_quantum-0.0.6.dist-info/METADATA,sha256=VLXmTfW9thW0_7zPN8X2Cob6k1gIoupCwKwwBzaIrSg,2023
+scikit_quantum-0.0.6.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+scikit_quantum-0.0.6.dist-info/top_level.txt,sha256=CyTSBT11gKhtxsN0C-CerinL6jE_nPdt74T5etewkQ4,10
+scikit_quantum-0.0.6.dist-info/RECORD,,
