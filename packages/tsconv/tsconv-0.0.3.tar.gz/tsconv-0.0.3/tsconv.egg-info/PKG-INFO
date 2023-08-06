@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: tsconv
+Version: 0.0.3
+Summary: convert ts in sec/milisec/microsec/nanosec to human readable time
+Home-page: https://github.com/guoxiaoyong/tsconv
+Author: Guo Xiaoyong
+Author-email: guo.xiaoyong@gmail.com
+License: UNKNOWN
+Description: convert ts in sec/milisec/microsec/nanosec to human readable time
+Platform: UNKNOWN
