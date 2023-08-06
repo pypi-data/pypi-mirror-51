@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import aws_ssh_sync
+import sys
+
+if __name__ == "__main__":
+    aws_ssh_sync.main(*sys.argv[1:])

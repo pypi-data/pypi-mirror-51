@@ -1,0 +1,14 @@
+README.md
+aws_ssh_sync.py
+setup.py
+aws_ssh_sync.egg-info/PKG-INFO
+aws_ssh_sync.egg-info/SOURCES.txt
+aws_ssh_sync.egg-info/dependency_links.txt
+aws_ssh_sync.egg-info/requires.txt
+aws_ssh_sync.egg-info/top_level.txt
+bin/aws_ssh_sync
+tests/__init__.py
+tests/conftest.py
+tests/test_config.py
+tests/test_docs.py
+tests/test_file_output.py
