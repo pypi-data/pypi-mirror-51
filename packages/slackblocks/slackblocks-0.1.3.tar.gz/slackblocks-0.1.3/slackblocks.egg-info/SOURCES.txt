@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+slackblocks/__init__.py
+slackblocks/attachments.py
+slackblocks/blocks.py
+slackblocks/elements.py
+slackblocks/errors.py
+slackblocks/messages.py
+slackblocks.egg-info/PKG-INFO
+slackblocks.egg-info/SOURCES.txt
+slackblocks.egg-info/dependency_links.txt
+slackblocks.egg-info/top_level.txt
