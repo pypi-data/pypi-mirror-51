@@ -1,0 +1,8 @@
+README.md
+setup.py
+pypiler/__init__.py
+pypiler.egg-info/PKG-INFO
+pypiler.egg-info/SOURCES.txt
+pypiler.egg-info/dependency_links.txt
+pypiler.egg-info/requires.txt
+pypiler.egg-info/top_level.txt

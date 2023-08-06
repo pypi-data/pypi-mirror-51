@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pypiler
+Version: 0.0.1
+Summary: DAG based data-flow and control-flow representation for meta programming
+Home-page: https://github.com/Symatem/PyPiler
+Author: Alexander Meißner
+Author-email: AlexanderMeissner@gmx.net
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.3
