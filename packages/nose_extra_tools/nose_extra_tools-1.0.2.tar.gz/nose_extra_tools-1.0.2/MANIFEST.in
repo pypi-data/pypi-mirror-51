@@ -1,0 +1,8 @@
+include AUTHORS
+include CHANGELOG
+include LICENSE
+include README
+
+include MANIFEST.in
+include requirements*.txt
+include requirements_utils.py
