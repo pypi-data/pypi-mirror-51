@@ -1,0 +1,3 @@
+[console_scripts]
+mpdl = mpdl.mpdl_console:main
+
