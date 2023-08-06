@@ -1,0 +1,11 @@
+requests
+
+[lint]
+flake8>3.0
+
+[testing]
+pytest
+pytest-vcr
+pytest-services
+mailman
+falcon==1.4.1
