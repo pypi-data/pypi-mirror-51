@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pylutron_caseta_berkman
+Version: 0.5.1
+Summary: Provides an API to the Lutron Smartbridge
+Home-page: https://github.com/berkman/pylutron-caseta
+Author: berkman
+Author-email: mike@berkman.co
+License: Apache
+Download-URL: https://github.com/berkman/pylutron-caseta
+Description: UNKNOWN
+Platform: Linux
