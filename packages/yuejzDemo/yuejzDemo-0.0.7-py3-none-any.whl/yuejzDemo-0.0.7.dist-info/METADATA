@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: yuejzDemo
+Version: 0.0.7
+Summary: This is my demo
+Home-page: https://github.com/hylinux1024/niubiproject
+Author: YueJZ
+Author-email: yuejianzhong@sensorsdata.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
