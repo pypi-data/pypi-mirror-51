@@ -1,0 +1,13 @@
+beam_integrals/__init__.py,sha256=kClFNYRq7L8DZ0gLJAFwkKvGybWomwZNd6gfRzcAeTA,644
+beam_integrals/beam_types.py,sha256=l-KpYGj8draCMMCVFV_0-uJ9lN6M9Ijs8p6ny_oUYPQ,4964
+beam_integrals/characteristic_equation_solvers.py,sha256=1RCOHu3ubHl9c2YoRJONLfvCjSGojpsoxpfaTgjyqJI,10041
+beam_integrals/exceptions.py,sha256=Jc6uLk3cxGv2px_6Dt1-z63g-jKnKAu-FlZ0tQ4kKas,1222
+beam_integrals/integrals.py,sha256=CxeVBwKL2mhqyH6U6J_h5ukirMjeCG9JovzJR0azUd8,5935
+beam_integrals/shell.py,sha256=FvLSH0RXBw9QOKNrmvwlns7nBUfD_L46DOdRI8z9vQU,4531
+beam_integrals-1.1.2.dist-info/DESCRIPTION.rst,sha256=c1q4-gM4XeJ2PhgHF8nQAKKCZVb1bcCJnkmJKgh7uts,2681
+beam_integrals-1.1.2.dist-info/METADATA,sha256=2LzahCfm-cXJlS2pZz_ICusVUHCjRLPNuI3TK9w-bJk,3676
+beam_integrals-1.1.2.dist-info/RECORD,,
+beam_integrals-1.1.2.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+beam_integrals-1.1.2.dist-info/entry_points.txt,sha256=exeoFzf3e239ZVfK8FLqU6_924G2qZ8cZSjxOFDLWvg,62
+beam_integrals-1.1.2.dist-info/metadata.json,sha256=S7oSr_p6hqdo1ibJP1Ngjz5XHz7Q1FcB6-8jSadVWwE,1460
+beam_integrals-1.1.2.dist-info/top_level.txt,sha256=6z09xfLex6ioOMzDLCxtkp266D3cE2iAmmmAuNsmf4E,15
