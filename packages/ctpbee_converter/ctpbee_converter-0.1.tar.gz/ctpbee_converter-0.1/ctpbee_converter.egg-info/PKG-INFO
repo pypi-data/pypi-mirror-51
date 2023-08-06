@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: ctpbee-converter
+Version: 0.1
+Summary: Data converter base pandas and numpy
+Home-page: https://github.com/ctpbee/data_converter
+Author: somewheve
+Author-email: somewheve@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
