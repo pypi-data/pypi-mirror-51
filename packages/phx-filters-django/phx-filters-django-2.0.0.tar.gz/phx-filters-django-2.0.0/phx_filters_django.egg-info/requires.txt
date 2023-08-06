@@ -1,0 +1,6 @@
+Django>=2.0
+phx-filters
+
+[test-runner]
+tox>=3.7
+django-nose
