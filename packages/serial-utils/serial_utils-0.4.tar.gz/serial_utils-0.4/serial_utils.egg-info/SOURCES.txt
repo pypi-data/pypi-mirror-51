@@ -1,0 +1,6 @@
+setup.py
+serial_utils/__init__.py
+serial_utils.egg-info/PKG-INFO
+serial_utils.egg-info/SOURCES.txt
+serial_utils.egg-info/dependency_links.txt
+serial_utils.egg-info/top_level.txt
