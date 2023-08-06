@@ -1,0 +1,9 @@
+README.rst
+conftext.py
+setup.py
+conftext.egg-info/PKG-INFO
+conftext.egg-info/SOURCES.txt
+conftext.egg-info/dependency_links.txt
+conftext.egg-info/entry_points.txt
+conftext.egg-info/requires.txt
+conftext.egg-info/top_level.txt
