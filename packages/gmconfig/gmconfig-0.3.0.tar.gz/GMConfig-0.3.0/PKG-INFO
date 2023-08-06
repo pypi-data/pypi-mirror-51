@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: gmconfig
+Version: 0.3.0
+Summary: My lazy mans config loading and exporting module
+Home-page: https://github.com/GeekMasher/GMConfig
+License: MIT
+Keywords: configuration,gmconfig
+Author: GeekMasher
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pyyaml (>=5.1,<6.0)
+Requires-Dist: toml (>=0.10.0,<0.11.0)
+Project-URL: Repository, https://github.com/GeekMasher/GMConfig
+Description-Content-Type: text/markdown
+
+# GMConfig
+
+[![PyPI version](https://badge.fury.io/py/gmconfig.svg)](https://badge.fury.io/py/gmconfig)
+
+My lazy mans config loading and exporting module
+
+## Build
+
+```bash
+poetry build
+```
+
