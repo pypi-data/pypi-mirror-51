@@ -1,0 +1,9 @@
+keios_protocol_tesseract/__init__.py,sha256=855Lch5ZSrRdUHrSI5F4ro77W2H8-XjPac5h4DILunw,3692
+keios_protocol_tesseract/fbs/TesseractMessage.py,sha256=d7uYvj1VhbOdYfgZIPQ1Fx1HtqKwDJmdfoPmXqr6itc,1447
+keios_protocol_tesseract/fbs/TesseractMessageType.py,sha256=CSmjkR2lADvZVuStpMIvoRJdsHo-kX3rsyJYEdzN7ww,201
+keios_protocol_tesseract/fbs/TesseractOcrRequest.py,sha256=19VRE96LD_YzPPvcb6Ey8RhuvQr3V_fr5kDQlFda4o4,1693
+keios_protocol_tesseract/fbs/TesseractOcrResponse.py,sha256=d-s9JDdudbXJlaGSxchpxb308mP6qPQ5RgVxg4Rsbv4,1381
+keios_protocol_tesseract/fbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keios_protocol_tesseract-1.0.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+keios_protocol_tesseract-1.0.0.dist-info/METADATA,sha256=90jSoayDQVyvz1eAhHDWT30Du73fkOe_FE4Fvf9DZNM,298
+keios_protocol_tesseract-1.0.0.dist-info/RECORD,,
