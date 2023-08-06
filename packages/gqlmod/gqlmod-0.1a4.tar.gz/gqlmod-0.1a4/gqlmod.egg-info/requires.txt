@@ -1,0 +1,10 @@
+graphql-core>=3.0a0
+import-x
+astor
+setuptools
+
+[aiohttp]
+aiohttp
+
+[requests]
+requests
