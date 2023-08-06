@@ -1,0 +1,23 @@
+-e .
+Sphinx
+attrs
+beautifulsoup4
+coveralls
+coverage
+django-extensions
+flake8
+gitchangelog
+mock; python_version <= '2.7'
+pdbpp
+pre_commit
+psycopg2cffi
+pytest
+pytest-cov
+pytest-sugar
+simplejson
+sphinx-autobuild
+sphinx_rtd_theme
+sqlalchemy_utils
+tox
+tox-pyenv
+yapf

@@ -1,0 +1,6 @@
+alembic
+blinker
+inflect
+six
+django
+sqlalchemy
