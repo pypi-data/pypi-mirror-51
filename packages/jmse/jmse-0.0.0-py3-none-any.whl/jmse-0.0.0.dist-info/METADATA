@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jmse
+Version: 0.0.0
+Summary: JSON Message Signing and Encryption (JMSE)
+Home-page: https://github.com/jmse-json/jmse.py
+Author: Tony Arcieri
+Author-email: tony@iqlusion.io
+License: Apache Software License
+Keywords: json,encryption,signing,serialization
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+
+An interoperable, minimalist signing and encryption format for JSON messages.
+
+
