@@ -1,0 +1,12 @@
+pytest
+delegator.py
+
+[all]
+pysam
+tqdm
+
+[bam]
+pysam
+
+[progress]
+tqdm
