@@ -1,0 +1,11 @@
+ksmi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ksmi/__main__.py,sha256=Y0kyFWg9kr7LOgNBCcEcCNq9Vfs8cbGGDW3PO3jcXXc,74
+ksmi/add_env.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ksmi/copy_id.py,sha256=6OhdKvAIqp7nuVkEBMy7T-cER_RMfPCIe_lumJiJcrQ,1775
+ksmi/kairos_smi.py,sha256=0ZQ26heXDf_Uk-pcqLUScFsdLq7CEvffLC6t1K8GJgg,5287
+ksmi/ui.py,sha256=pvjhGVXk5-xDpniM2oiWbWPa2HeVWzQAbMONp0eBfss,6608
+ksmi-0.2.2a2.dist-info/LICENSE,sha256=LpEQTwUxR7ZXKK2vfClISAEgLNEIfvixrNESDyDOY2U,1069
+ksmi-0.2.2a2.dist-info/METADATA,sha256=RPy-tn93g5FCtXlccZnbYWPlOgUSGFHlUjTpz70JPiQ,2844
+ksmi-0.2.2a2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ksmi-0.2.2a2.dist-info/top_level.txt,sha256=pjmNVdNdYdV3WKqzOp31HRwfpaHB35FB2PCORSDX2sg,5
+ksmi-0.2.2a2.dist-info/RECORD,,
