@@ -1,0 +1,14 @@
+mypy_extensions
+pyrsistent
+boltons
+wrapt
+
+[:python_version < "3.5"]
+enum34
+
+[:python_version < "3.7"]
+typing
+typing-extensions
+
+[:sys_platform == "win32" and python_version <= "2.7"]
+pip>=20.0
