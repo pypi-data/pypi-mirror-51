@@ -1,0 +1,13 @@
+jupyterlab_thredds/__init__.py,sha256=sPNgyinsbS2vXu4aVJuSNrlVbGnrfyxwLTfuv8CsCYs,610
+jupyterlab_thredds/config.py,sha256=K5vxolkTE_Ef7cLc98hO2KGJ7VKwX5tp1pGiUMhKlrs,355
+jupyterlab_thredds/crawler.py,sha256=oflObqWS_u7vGas1rveOQKyfbtVERhC5vKJHaGGyJck,6950
+jupyterlab_thredds/version.py,sha256=qBs4HqYsPn6yUHWEuCN4rGUC05gABbl800d8LBd8h9w,22
+jupyterlab_thredds/fetchers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterlab_thredds/fetchers/esgf.py,sha256=KjAY-iUi7PXivPiSOcBGuaN_0KNjVFPz3htFZWJCBa8,2095
+jupyterlab_thredds/fetchers/thredds.py,sha256=yVoeyz9Vwb-Nv4WOt9_OVP_CYQRN2ZMuCMUduf_-GUw,1238
+jupyterlab_thredds-0.4.1.data/data/etc/jupyter/jupyter_notebook_config.d/jupyterlab_thredds.json,sha256=VF8E-HvsRBrCWpdeejNBCidAUj5-nUKv_uvy7lUYx6s,95
+jupyterlab_thredds-0.4.1.dist-info/LICENSE,sha256=5BjjWnnXdc58Ly6pEaXTHqM_B47DLgXyzN2246innB8,11358
+jupyterlab_thredds-0.4.1.dist-info/METADATA,sha256=RvIbrBQQ_B1IulsCQmPvVchqxHUztyuTqbx43ascxzI,4125
+jupyterlab_thredds-0.4.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+jupyterlab_thredds-0.4.1.dist-info/top_level.txt,sha256=Mt0BAihotcMrDsNw-lBmnbK0RjfoBg2tAsBdhtb6lRM,19
+jupyterlab_thredds-0.4.1.dist-info/RECORD,,
