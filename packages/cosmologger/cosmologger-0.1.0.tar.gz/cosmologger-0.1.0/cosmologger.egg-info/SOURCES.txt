@@ -1,0 +1,7 @@
+README.md
+setup.py
+cosmologger/__init__.py
+cosmologger.egg-info/PKG-INFO
+cosmologger.egg-info/SOURCES.txt
+cosmologger.egg-info/dependency_links.txt
+cosmologger.egg-info/top_level.txt
