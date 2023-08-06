@@ -1,0 +1,18 @@
+include README.rst COPYING MANIFEST.in requirements.txt
+recursive-include doc *.py *.rst Makefile
+recursive-include examples *.py *.ipynb
+recursive-include sksurv *.pyx *.pxd
+recursive-include sksurv/datasets/data *.arff README.md
+recursive-include tests test*.py
+include sksurv/bintrees/binarytrees.cpp
+include sksurv/bintrees/binarytrees.h
+include sksurv/linear_model/src/coxnet_wrapper.h
+graft requirements
+graft sksurv/linear_model/src/coxnet
+graft sksurv/linear_model/src/eigen/Eigen
+graft tests/data
+prune doc/_build
+prune doc/generated
+prune */__pycache__
+prune */.ipynb_checkpoints
+global-exclude *.pyc *~ *.bak *.swp *.pyo
