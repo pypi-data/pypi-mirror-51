@@ -1,0 +1,6 @@
+include *.py
+include *.txt
+include .coveragerc
+include buildout.cfg
+include pytest.ini
+recursive-include src *.xml
