@@ -1,0 +1,2 @@
+bankroll_broker~=0.4.0
+bankroll_model~=0.4.0
