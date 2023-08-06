@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+islack/__init__.py
+islack/incoming.py
+islack.egg-info/PKG-INFO
+islack.egg-info/SOURCES.txt
+islack.egg-info/dependency_links.txt
+islack.egg-info/requires.txt
+islack.egg-info/top_level.txt
