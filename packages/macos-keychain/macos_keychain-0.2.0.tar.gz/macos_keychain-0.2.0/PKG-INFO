@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: macos-keychain
+Version: 0.2.0
+Summary: A Simple MacOS Keychain Store
+Home-page: None
+Author: Juan Gonzalez
+Author-email: jrg2156@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sh (>=1.12,<2.0)
