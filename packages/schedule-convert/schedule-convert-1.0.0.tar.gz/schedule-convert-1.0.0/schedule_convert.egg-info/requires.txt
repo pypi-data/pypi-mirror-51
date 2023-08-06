@@ -1,0 +1,3 @@
+vobject
+qrcode[pil]
+python-slugify
