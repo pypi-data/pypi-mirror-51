@@ -1,0 +1,10 @@
+README.md
+setup.py
+userpaths/__init__.py
+userpaths/__main__.py
+userpaths/unix.py
+userpaths/windows.py
+userpaths.egg-info/PKG-INFO
+userpaths.egg-info/SOURCES.txt
+userpaths.egg-info/dependency_links.txt
+userpaths.egg-info/top_level.txt
