@@ -1,0 +1,6 @@
+README.md
+setup.py
+CloudSEK_Web_crawling_Task.egg-info/PKG-INFO
+CloudSEK_Web_crawling_Task.egg-info/SOURCES.txt
+CloudSEK_Web_crawling_Task.egg-info/dependency_links.txt
+CloudSEK_Web_crawling_Task.egg-info/top_level.txt
