@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+goenrichment/__init__.py
+goenrichment/enrichment.py
+goenrichment/go.py
+goenrichment/graph.py
+goenrichment/parsers.py
+goenrichment.egg-info/PKG-INFO
+goenrichment.egg-info/SOURCES.txt
+goenrichment.egg-info/dependency_links.txt
+goenrichment.egg-info/requires.txt
+goenrichment.egg-info/top_level.txt
+tests/__init__.py
+tests/test_godb.py
