@@ -1,0 +1,6 @@
+attrs>=18.2.0
+geopandas
+numpy>=1.16
+python-dateutil
+sentinelhub>=2.5.0
+tqdm>=4.27
