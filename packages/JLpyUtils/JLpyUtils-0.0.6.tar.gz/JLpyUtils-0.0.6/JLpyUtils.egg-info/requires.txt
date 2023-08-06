@@ -1,0 +1,8 @@
+numpy
+pandas
+sklearn==0.21.3
+scipy
+matplotlib
+tensorflow
+tensorflow-gpu==1.12.2
+kaggle
