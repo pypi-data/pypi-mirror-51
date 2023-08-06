@@ -1,0 +1,8 @@
+simple_sql_abs/__init__.py,sha256=punsLBD32hBW6zObDw4MYzPjxiCkJxrbkxentABBTnM,1043
+simple_sql_abs/dao.py,sha256=TFRSZQMKnOSDsYg-ZTBxx-ng0cSn-rIBhJgFKKttNec,9482
+simple_sql_abs/singleton.py,sha256=CJGWWY6jjXJXkxtWprG9HxFi-EqYF9o2cedwHQpMETc,664
+simple_sql_abstraction-1.0.0.dist-info/LICENCE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+simple_sql_abstraction-1.0.0.dist-info/METADATA,sha256=igXtcH_eQnE2M85woIVnt7CyBKiEjH2f_DNVcAmXxpo,760
+simple_sql_abstraction-1.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+simple_sql_abstraction-1.0.0.dist-info/top_level.txt,sha256=UGSEnKqHDWI4tvJygfsWYjZsYdCoANCAIhNKXm7xkoI,15
+simple_sql_abstraction-1.0.0.dist-info/RECORD,,
