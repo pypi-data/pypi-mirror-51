@@ -1,0 +1,8 @@
+semantic_version/__init__.py,sha256=kvX8A9RC2uQMFuloXyfawhei0PokojoKCmiZDMsmUJs,326
+semantic_version/base.py,sha256=M3-jwqY8iQrF-0SdBvGAw71FbUQEi8pgBBIqvtQl20U,45572
+semantic_version/django_fields.py,sha256=3z-LxxIUm6r9ho59turjbR8HB2mN_hE5p5MwyA1F1i8,3210
+semantic_version-2.7.1.dist-info/LICENSE,sha256=qF5-8vvGcNJnge1oRM0xp-itpl0hMo91oLAkAvquN-o,1317
+semantic_version-2.7.1.dist-info/METADATA,sha256=iUyI0hbav8bqryUx2aYiuQisFtkcFfv__JNV8Bm5Qic,10077
+semantic_version-2.7.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+semantic_version-2.7.1.dist-info/top_level.txt,sha256=8WNFqF6w9sgwWGOgIxBq65HQ6zakOE7tCaGKz0inQlI,17
+semantic_version-2.7.1.dist-info/RECORD,,
