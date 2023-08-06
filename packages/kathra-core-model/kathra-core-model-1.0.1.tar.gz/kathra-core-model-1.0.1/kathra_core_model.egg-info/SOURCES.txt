@@ -1,0 +1,9 @@
+README.md
+setup.py
+kathra_core_model/__init__.py
+kathra_core_model/model.py
+kathra_core_model/utils.py
+kathra_core_model.egg-info/PKG-INFO
+kathra_core_model.egg-info/SOURCES.txt
+kathra_core_model.egg-info/dependency_links.txt
+kathra_core_model.egg-info/top_level.txt
