@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: PyNimbus
+Version: 0.0.2
+Summary: A Python package to organize National Weather Service product data.
+Home-page: https://github.com/WxBDM/PyNimbus
+Author: Brandon Molyneaux
+Author-email: bdmolyne@gmail.com
+License: BSD 3-clause "New" or "Revised License"
+Keywords: meteorology weather
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.23.4)
+
+# PyNimbus
+
+[![Documentation Status](https://readthedocs.org/projects/pynimbus/badge/?version=latest)](https://pynimbus.readthedocs.io/en/latest/?badge=latest)
+
+PyNimbus's goal is to take the "middle man" out of downloading and sorting data found from various National Weather Service products such as NHC and SPC outlooks. This is accomplished through the PyNimbus API. 
+
+PyNimbus follows the [semantic version](https://semver.org/) numbering system.
+
+# Installing PyNimbus
+
+PyNimbus can be installed via pip:
+
+```bash
+pip install pynimbus 
+```
+
+# Tutorials
+
+Visit the tutorials page in the documentation explaining the API.
+
+# Important Links
+
+- [Documentation]((https://pynimbus.readthedocs.io/en/latest/)
+- [Issues]([https://github.com/WxBDM/PyNimbus/issues](https://github.com/WxBDM/PyNimbus/issues)
+- [Code Repository]([https://github.com/WxBDM/PyNimbus](https://github.com/WxBDM/PyNimbus)
+- Tutorials
+
+
