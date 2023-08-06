@@ -1,0 +1,7 @@
+marshmallow
+django
+djangorestframework-jsonapi
+djangorestframework
+wrapt
+jsonfield
+wampyre
