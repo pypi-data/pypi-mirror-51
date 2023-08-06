@@ -1,0 +1,7 @@
+setup.py
+hellowor_ldsssssS.egg-info/PKG-INFO
+hellowor_ldsssssS.egg-info/SOURCES.txt
+hellowor_ldsssssS.egg-info/dependency_links.txt
+hellowor_ldsssssS.egg-info/top_level.txt
+helloworld/Hello_World.py
+helloworld/__init__.py
