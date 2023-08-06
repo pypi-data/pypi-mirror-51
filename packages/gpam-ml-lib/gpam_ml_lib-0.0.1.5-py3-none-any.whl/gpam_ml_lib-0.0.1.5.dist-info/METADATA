@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: gpam-ml-lib
+Version: 0.0.1.5
+Summary: Machine Learn library to kaggle problems.
+Home-page: https://gitlab.com/gpam/teesw/2019_2/gpam-ml-lib
+Author: Victor Coelho, Guilherme Aguiar
+Author-email: victorhdcoelho@gmail.com, gui9627oli@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: keras
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: tensorflow
+Requires-Dist: tqdm
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+
+# gpam-ml-lib
+
+GPAM library to machine learn
+
+## To Download library
+
+`pip3 install gpam_ml_lib==0.0.1.5`
+
+
