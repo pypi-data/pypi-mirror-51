@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: apkdecompiler
+Version: 0.1
+Summary: APK Decompilation [.apk/.dex]
+Home-page: https://github.com/1337r00t/decompiler
+Author: 1337r00t
+Author-email: null@1337r00t.me
+License: MIT
+Download-URL: https://github.com/1337r00t/apkdecompiler/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: apk,decompiler,dex
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
