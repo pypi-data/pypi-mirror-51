@@ -1,0 +1,11 @@
+README.md
+setup.py
+cv2imageload/__init__.py
+cv2imageload/imgload.py
+cv2imageload/imgloadexception.py
+cv2imageload.egg-info/PKG-INFO
+cv2imageload.egg-info/SOURCES.txt
+cv2imageload.egg-info/dependency_links.txt
+cv2imageload.egg-info/top_level.txt
+tests/__init__.py
+tests/test_loadimage_from_file.py
