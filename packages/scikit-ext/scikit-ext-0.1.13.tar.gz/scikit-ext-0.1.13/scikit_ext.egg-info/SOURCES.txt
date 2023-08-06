@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+scikit_ext/__init__.py
+scikit_ext/estimators.py
+scikit_ext/scorers.py
+scikit_ext.egg-info/PKG-INFO
+scikit_ext.egg-info/SOURCES.txt
+scikit_ext.egg-info/dependency_links.txt
+scikit_ext.egg-info/requires.txt
+scikit_ext.egg-info/top_level.txt
+scikit_ext/tests/__init__.py
+scikit_ext/tests/test_estimators.py
+scikit_ext/tests/test_init.py
+scikit_ext/tests/test_scorers.py
