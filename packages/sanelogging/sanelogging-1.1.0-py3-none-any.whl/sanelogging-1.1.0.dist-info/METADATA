@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sanelogging
+Version: 1.1.0
+Summary: Python logging for humans
+Home-page: https://github.com/sneak/sanelogging/
+Author: Jeffrey Paul
+Author-email: sneak@sneak.berlin
+License: Public Domain
+Platform: UNKNOWN
+Requires-Dist: colorlog
+Requires-Dist: pytz
+Requires-Dist: datetime
+
+UNKNOWN
+
+
