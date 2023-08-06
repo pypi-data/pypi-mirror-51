@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: hre
+Version: 1.0.0
+Summary: hre (Human Regex) is an API to make it easier to use Regex.
+Home-page: https://github.com/zokis/HumanRegex/
+Author: Marcelo Fonseca Tambalo
+Author-email: marcelo.zokis@gmail.com
+License: MIT
+Description: hre (Human Regex) is an API to make it easier to use Regex.
+        DOCS: https://github.com/zokis/HumanRegex/blob/master/README.md
+        DOCS RAW: https://raw.githubusercontent.com/zokis/HumanRegex/master/README.md
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
