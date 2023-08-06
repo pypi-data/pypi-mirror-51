@@ -1,0 +1,6 @@
+autograd>=1.2.0
+scipy>=1.2.1
+numpy>=1.16.2
+matplotlib>=3.0.3
+pandas>=0.23.4
+autograd-gamma>=0.4.1
