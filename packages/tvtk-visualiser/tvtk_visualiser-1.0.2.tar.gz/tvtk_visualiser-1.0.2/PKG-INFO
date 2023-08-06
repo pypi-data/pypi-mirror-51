@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: tvtk_visualiser
+Version: 1.0.2
+Summary: A lightweight wrapper over tvtk for visualization without using mayavi.
+Home-page: https://github.com/wecacuee/tvtk_visualiser
+Author: Julian Ryde and Vikas Dhiman
+Author-email: wecacuee@github.com
+License: MIT
+Description: A lightweight wrapper over tvtk for visualization without using mayavi.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
