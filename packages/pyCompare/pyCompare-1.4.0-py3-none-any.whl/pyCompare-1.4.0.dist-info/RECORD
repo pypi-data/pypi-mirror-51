@@ -1,0 +1,13 @@
+pyCompare/VERSION,sha256=eLWRQAxWt7Z7jLOyuKjmXpCTiX8Czgh45rVAXGhiD6c,6
+pyCompare/__init__.py,sha256=RgBD3-p75Ak5ecAN2N8imIGPR80k4YICSkZugg8JLcE,361
+pyCompare/_calculateConfidenceIntervals.py,sha256=fXK98R2zkuklvBE6x087NG7HH486WzEyNTZjRlj6quc,2612
+pyCompare/_carkeetCIest.py,sha256=K62JqjFEAwjlHDUY2oq5q-hTE4v7PHNao7X35vc55Aw,2861
+pyCompare/_detrend.py,sha256=nxTxKuM3hMSJl2dqh3GfUIxvT2zLm6YebNawqBFr1hs,1050
+pyCompare/_plotBlandAltman.py,sha256=Kvrj4e5YCsuAHNPeSBYWPUVWFfl5_aD5rwMoDAEaip8,7528
+pyCompare/_rangeFrameLocator.py,sha256=76ahImV4hM-d6W4LtQYDFKwe-RLnXVZWFKo_8p9POgI,873
+pyCompare-1.4.0.dist-info/LICENSE.txt,sha256=fRc6-h9CphG5JDrOoXijGvFnplIcXjO-azQUrrrn1Kw,1071
+pyCompare-1.4.0.dist-info/METADATA,sha256=_Z1xDfOcesZfahSawUK3pWp0czVBw440b8JjKxiL0qE,5053
+pyCompare-1.4.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyCompare-1.4.0.dist-info/top_level.txt,sha256=QUB_1BVdF27ETeALMTtbM2U3PEqo_yvMmtzjZU15LWU,10
+pyCompare-1.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyCompare-1.4.0.dist-info/RECORD,,
