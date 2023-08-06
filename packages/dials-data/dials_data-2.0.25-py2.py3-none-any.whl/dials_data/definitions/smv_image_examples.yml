@@ -1,0 +1,10 @@
+name: SMV image examples
+author: David Waterman (2019)
+license: CC-BY 4.0
+description: >
+  A collection of SMV format images to test dxtbx Format classes
+
+data:
+  - url: https://github.com/dials/data-files/raw/39420ac5145493c0a027180c0c40a2f8498b87ef/DIALS_for_ED_test_data/TIMEPIX_SU_512-stdgoni_0001.img
+  - url: https://github.com/dials/data-files/raw/39420ac5145493c0a027180c0c40a2f8498b87ef/DIALS_for_ED_test_data/TIMEPIX_SU_516-stdgoni_0001.img
+  - url: https://github.com/dials/data-files/raw/b72dcb398acd33600f1f5f3c2e5ae2c21154db14/DIALS_for_ED_test_data/noiseimage_001.img
