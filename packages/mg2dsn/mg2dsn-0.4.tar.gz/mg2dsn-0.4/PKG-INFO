@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: mg2dsn
+Version: 0.4
+Summary: Generate rfc6522 delivery status notifications from the Mailgun API.
+Home-page: https://github.com/glyph/mg2dsn
+Author: Glyph
+Author-email: glyph@twistedmatrix.com
