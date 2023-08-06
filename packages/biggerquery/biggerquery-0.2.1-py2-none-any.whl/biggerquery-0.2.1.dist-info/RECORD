@@ -1,0 +1,9 @@
+biggerquery/__init__.py,sha256=C1457UcoxSytz_AxCW_xwilT6HuvsaLXCU5Hlt25ZoU,142
+biggerquery/beam_manager.py,sha256=eJnTczL49oFNBiB85hompOwxFZCHCqZ1ZcXDBRKJ_OE,7601
+biggerquery/dataset_manager.py,sha256=HylOCwezUTBMpkwWjSMDTeJN28e7Yy81KeHA-gIKsU0,10060
+biggerquery-0.2.1.dist-info/LICENSE,sha256=vMvwRWs0RZemnFaSLr4-CEz5aZFQRea4VtMVIlQyquE,11896
+biggerquery-0.2.1.dist-info/METADATA,sha256=ZkaeuDTbUZwSYmKDiYDIDgq7J8oy1lMhH5mKNE-8Zdc,23490
+biggerquery-0.2.1.dist-info/NOTICE,sha256=e-oPV6MF9HLVCDWmT3k4eJZ8tEnlficEQ7i--PgsiMM,585
+biggerquery-0.2.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+biggerquery-0.2.1.dist-info/top_level.txt,sha256=ry1KUpLmsr35oCQQBFrJYBSXhDAqQzjJaHU1Tul-rRk,12
+biggerquery-0.2.1.dist-info/RECORD,,
