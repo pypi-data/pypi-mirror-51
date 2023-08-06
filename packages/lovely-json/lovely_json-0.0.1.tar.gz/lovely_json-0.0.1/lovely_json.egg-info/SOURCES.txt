@@ -1,0 +1,6 @@
+README.md
+setup.py
+lovely_json.egg-info/PKG-INFO
+lovely_json.egg-info/SOURCES.txt
+lovely_json.egg-info/dependency_links.txt
+lovely_json.egg-info/top_level.txt
