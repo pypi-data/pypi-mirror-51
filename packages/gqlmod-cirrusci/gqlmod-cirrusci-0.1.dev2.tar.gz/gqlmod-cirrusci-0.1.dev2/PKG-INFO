@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gqlmod-cirrusci
+Version: 0.1.dev2
+Summary: Cirrus CI provider for gqlmod
+Home-page: https://github.com/gobuildit/gqlmod-cirrusci
+Author: Jamie Bliss
+Author-email: jamie@ivyleav.es
+License: MIT
+Description: Cirrus Ci Provider
+        ==================
+        
+        This is a provider for [gqlmod](https://pypi.org/project/gqlmod/) that adds the
+        `cirrus-ci` provider.
+        
+        Arguments taken:
+        * `token`: Authentication token to use.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
