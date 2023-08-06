@@ -1,0 +1,3 @@
+[console_scripts]
+pipoe = pipoe.pipoe:main
+
