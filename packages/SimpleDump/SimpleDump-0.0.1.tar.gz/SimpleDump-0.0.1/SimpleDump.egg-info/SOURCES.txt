@@ -1,0 +1,8 @@
+README.md
+setup.py
+SimpleDump/__init__.py
+SimpleDump/var_dump.py
+SimpleDump.egg-info/PKG-INFO
+SimpleDump.egg-info/SOURCES.txt
+SimpleDump.egg-info/dependency_links.txt
+SimpleDump.egg-info/top_level.txt
