@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: airfoils
+Version: 0.0.2
+Summary: Airfoils (aerofoils)
+Home-page: https://github.com/airinnova/airfoils
+Author: Aaron Dettmann
+Author-email: dettmann@kth.se
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6.0
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+.. image:: https://img.shields.io/pypi/v/airfoils.svg?style=flat
+   :target: https://pypi.org/project/airfoils/
+   :alt: Latest PyPI version
+
+.. image:: https://img.shields.io/badge/license-Apache%202-blue.svg
+    :target: https://github.com/airinnova/framat/blob/master/LICENSE.txt
+    :alt: License
+
+.. code::
+
+    pip install airfoils
+
+License
+-------
+
+**License:** Apache-2.0
+
+

@@ -1,0 +1,9 @@
+airfoils/__init__.py,sha256=ZqeTvijvrmr1N3MAfcXjXXt7Y6zsSxkiEC5TpO6EtuE,24
+airfoils/__version__.py,sha256=gJsYZIeiUsj6ap_dWB9NkCBGCEBMQWWoVs4fVK4cmpA,62
+airfoils/airfoils.py,sha256=mqOd9Btws1WPaXIl-KYMMg-PKh3IGrGESy1l5i0byxk,10780
+airfoils/fileio.py,sha256=rgpUw0mJD5UF4ahLzVPAESKVv4UFtPnu8r5v3BeBcm0,6689
+airfoils-0.0.2.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airfoils-0.0.2.dist-info/METADATA,sha256=hUc1hQup5GVxDE8I4qkA0Kz62TO9HyxXY2UL3BrP5Q4,1185
+airfoils-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+airfoils-0.0.2.dist-info/top_level.txt,sha256=bE9btFwMZaKFeJjE2q0ZsIV-h-T-7C7ce8dA29UJJU0,9
+airfoils-0.0.2.dist-info/RECORD,,
