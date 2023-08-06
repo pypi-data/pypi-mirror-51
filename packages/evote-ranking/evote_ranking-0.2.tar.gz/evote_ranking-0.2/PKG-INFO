@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: evote_ranking
+Version: 0.2
+Summary: The EVote Ranking algorithms
+Home-page: https://github.com/mdipierro/evote_ranking
+Author: Massimo Di Pierro
+Author-email: massimo.dipierro@gmail.com
+Maintainer: Massimo Di Pierro
+Maintainer-email: massimo.dipierro@gmail.com
+License: BSD
+Description: 
+        Package that contains the ranking algorithms used by the EVote software (@2008-2019)
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
