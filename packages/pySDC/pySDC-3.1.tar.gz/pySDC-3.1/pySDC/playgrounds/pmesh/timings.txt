@@ -1,0 +1,122 @@
+48*48 x 48*48
+
+
+2/24
+Mean number of iterations on rank 0: 17.0000
+Time to solution on rank 0: 14.3225 sec.
+
+4/24
+Mean number of iterations on rank 0: 17.0000
+Time to solution on rank 0: 5.8079 sec.
+
+8/24
+Mean number of iterations on rank 0: 17.0000
+Time to solution on rank 0: 3.4801 sec.
+Time to solution on rank 0: 7.6657 sec. (mit I/O)
+
+16/24
+Mean number of iterations on rank 0: 17.0000
+Time to solution on rank 0: 3.6517 sec.
+
+
+Space 8x24, ohne I/O
+
+Mean number of iterations on rank 0: 17.0000
+Time to solution on rank 0: 27.0326 sec. (SDC 1/32)
+Mean number of iterations on rank 0: 15.8438
+Time to solution on rank 0: 25.6712 sec. (SDC 1/32, spread)
+
+Mean number of iterations on rank 0: 9.5000
+Time to solution on rank 0: 8.3661 sec. (MLSDC, space, 1)
+
+Mean number of iterations on rank 0: 15.0000
+Time to solution on rank 0: 11.3004 sec. (MLSDC, space+time, 1)
+
+Mean number of iterations on rank 0: 5.0000
+Time to solution on rank 0: 49.8442 sec. (MLSDC 1/32, space, 3)
+Mean number of iterations on rank 0: 4.0625
+Time to solution on rank 0: 40.9810 sec. (MLSDC 1/32, spread, space, 3)
+
+Mean number of iterations on rank 1: 5.0000
+Time to solution on rank 1: 28.1587 sec. (PFASST 2/32, space, 3)
+
+Mean number of iterations on rank 3: 6.0000
+Time to solution on rank 3: 17.5163 sec. (PFASST 4/32, space, 3)
+
+Mean number of iterations on rank 7: 6.0000
+Time to solution on rank 6: 9.7211 sec. (PFASST 8/32, space, 3)
+
+Mean number of iterations on rank 15: 8.0000
+Time to solution on rank 15: 6.7490 sec. (PFASST 16/32, space, 3)
+
+----------------- MPI4PY FFT
+
+Mean number of iterations on rank 0: 19.0000
+Setup time on rank 0: 0.1935 sec.
+Time to solution on rank 0: 27.2951 sec. (SDC 1/32)
+
+Mean number of iterations on rank 0: 5.0000
+Setup time on rank 0: 0.2221 sec.
+Time to solution on rank 0: 26.8122 sec. (MLSDC 1/32, space, 3, factor 6, beste wahl...)
+
+Mean number of iterations on rank 1: 6.0000
+Setup time on rank 1: 0.3079 sec.
+Time to solution on rank 1: 19.1842 sec. (PFASST 2/32, space, 3, factor 6)
+
+Mean number of iterations on rank 3: 6.0000
+Setup time on rank 3: 0.3004 sec.
+Time to solution on rank 3: 10.5465 sec. (PFASST 4/32, space, 3, factor 6)
+
+Mean number of iterations on rank 7: 7.0000
+Setup time on rank 7: 0.3354 sec.
+Time to solution on rank 7: 6.1532 sec. (PFASST 8/32, space, 3, factor 6)
+
+Mean number of iterations on rank 15: 8.0000
+Setup time on rank 15: 0.4447 sec.
+Time to solution on rank 15: 4.0354 sec. (PFASST 16/32, space, 3, factor 6)
+
+Mean number of iterations on rank 31: 11.0000
+Setup time on rank 31: 0.3630 sec.
+Time to solution on rank 31: 3.2462 sec. (PFASST 32/32, space, 3, factor 6)
+
+--------- benchmark test
+
+Mean number of iterations on rank 0: 11.7188
+Setup time on rank 0: 0.2748 sec.
+Time to solution on rank 0: 3.2573 sec.
+
+
+Mean number of iterations on rank 0: 14.6875
+Setup time on rank 0: 0.2734 sec.
+Time to solution on rank 0: 4.0261 sec.
+
+
+------- MPI4PY FFT C newType
+
+
+
+Mean number of iterations on rank 0: 4.0000
+Setup time on rank 0: 0.6405 sec.
+Time to solution on rank 0: 17.9689 sec. (MLSDC 1/32, 8x24, space, 3, factor 6)
+
+Mean number of iterations on rank 1: 5.0000
+Setup time on rank 1: 0.3343 sec.
+Time to solution on rank 1: 13.1112 sec. (PFASST 2/32, space, 3, factor 6)
+
+Mean number of iterations on rank 3: 5.0000
+Setup time on rank 3: 0.3545 sec.
+Time to solution on rank 3: 7.4534 sec. (PFASST 4/32, space, 3, factor 6)
+
+Mean number of iterations on rank 7: 5.5000
+Setup time on rank 7: 0.3830 sec.
+Time to solution on rank 7: 4.2327 sec. (PFASST 8/32, space, 3, factor 6)
+
+Mean number of iterations on rank 15: 7.0000
+Setup time on rank 15: 0.4963 sec.
+Time to solution on rank 15: 2.9253 sec. (PFASST 16/32, space, 3, factor 6)
+
+Mean number of iterations on rank 31: 10.0000
+Setup time on rank 31: 0.9123 sec.
+Time to solution on rank 31: 2.4067 sec. (PFASST 32/32, space, 3, factor 6)
+
+

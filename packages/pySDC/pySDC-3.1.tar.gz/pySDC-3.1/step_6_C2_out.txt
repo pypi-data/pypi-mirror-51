@@ -1,0 +1,44 @@
+Working with  3 processes...
+Error vs. exact solution: 9.53884351e-06
+Number of iterations for time 0.00: 5 
+Number of iterations for time 0.12: 5 
+Number of iterations for time 0.25: 4 
+Number of iterations for time 0.38: 4 
+Number of iterations for time 0.50: 4 
+Number of iterations for time 0.62: 3 
+Number of iterations for time 0.75: 4 
+Number of iterations for time 0.88: 3 
+
+Working with  5 processes...
+Error vs. exact solution: 1.31180372e-05
+Number of iterations for time 0.00: 6 
+Number of iterations for time 0.12: 6 
+Number of iterations for time 0.25: 6 
+Number of iterations for time 0.38: 5 
+Number of iterations for time 0.50: 4 
+Number of iterations for time 0.62: 4 
+Number of iterations for time 0.75: 4 
+Number of iterations for time 0.88: 3 
+
+Working with  7 processes...
+Error vs. exact solution: 5.86419217e-06
+Number of iterations for time 0.00: 8 
+Number of iterations for time 0.12: 7 
+Number of iterations for time 0.25: 7 
+Number of iterations for time 0.38: 6 
+Number of iterations for time 0.50: 6 
+Number of iterations for time 0.62: 6 
+Number of iterations for time 0.75: 5 
+Number of iterations for time 0.88: 2 
+
+Working with  9 processes...
+Error vs. exact solution: 5.39756107e-06
+Number of iterations for time 0.00: 8 
+Number of iterations for time 0.12: 7 
+Number of iterations for time 0.25: 6 
+Number of iterations for time 0.38: 6 
+Number of iterations for time 0.50: 6 
+Number of iterations for time 0.62: 6 
+Number of iterations for time 0.75: 6 
+Number of iterations for time 0.88: 5 
+

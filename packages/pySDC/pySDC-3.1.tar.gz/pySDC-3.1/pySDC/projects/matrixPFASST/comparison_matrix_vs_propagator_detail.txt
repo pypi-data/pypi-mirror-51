@@ -1,0 +1,5 @@
+
+Working with testequation setup and parameter 0.0e+00..
+  Iteration counts for matrix-based version: [(0.0, 5)]
+  Error (mat/prop) vs. exact solution: 3.0000e-10 -- 3.0000e-10
+  Difference between matrix-PFASST and propagator: 1.0340e-25

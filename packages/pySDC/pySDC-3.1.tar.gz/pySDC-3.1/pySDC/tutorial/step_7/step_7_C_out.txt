@@ -1,0 +1,169 @@
+This is time-rank 0...
+Number of iterations for time 0.00: 12
+Number of iterations for time 0.12: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 1.3296 sec.
+Error vs. PDE solution: 1.9479e-04
+This is time-rank 1...
+Number of iterations for time 0.12: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 1.0683 sec.
+Error vs. PDE solution: 1.9479e-04
+This is time-rank 0...
+Number of iterations for time 0.00: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 1.0683 sec.
+Error vs. PDE solution: 1.9479e-04
+This is time-rank 0...
+Number of iterations for time 0.00:  4
+   Mean number of iterations: 4.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.2560 sec.
+Error vs. PDE solution: 4.8316e-03
+This is time-rank 1...
+Number of iterations for time 0.12:  3
+   Mean number of iterations: 3.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.2561 sec.
+Error vs. PDE solution: 4.8316e-03
+This is time-rank 0...
+Number of iterations for time 0.00:  4
+   Mean number of iterations: 4.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.2534 sec.
+Error vs. PDE solution: 4.8316e-03
+This is time-rank 1...
+Number of iterations for time 0.12:  3
+   Mean number of iterations: 3.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.2535 sec.
+Error vs. PDE solution: 4.8316e-03
+This is time-rank 1...
+Number of iterations for time 0.12:  3
+   Mean number of iterations: 3.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.2773 sec.
+Error vs. PDE solution: 4.8316e-03
+This is time-rank 0...
+Number of iterations for time 0.00:  4
+   Mean number of iterations: 4.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.2772 sec.
+Error vs. PDE solution: 4.8316e-03
+This is time-rank 0...
+Number of iterations for time 0.00:  4
+   Mean number of iterations: 4.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.2704 sec.
+Error vs. PDE solution: 4.8316e-03
+This is time-rank 1...
+Number of iterations for time 0.12:  3
+   Mean number of iterations: 3.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.2704 sec.
+Error vs. PDE solution: 4.8316e-03
+This is time-rank 0...
+Number of iterations for time 0.00: 13
+   Mean number of iterations: 13.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 1.0089 sec.
+Error vs. PDE solution: 1.9478e-04
+This is time-rank 1...
+Number of iterations for time 0.12: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 1.0089 sec.
+Error vs. PDE solution: 1.9478e-04
+This is time-rank 1...
+Number of iterations for time 0.12: 11
+   Mean number of iterations: 11.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.9298 sec.
+Error vs. PDE solution: 1.9480e-04
+This is time-rank 0...
+Number of iterations for time 0.00: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.9298 sec.
+Error vs. PDE solution: 1.9480e-04
+This is time-rank 0...
+Number of iterations for time 0.00: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.7931 sec.
+Error vs. PDE solution: 1.9479e-04
+This is time-rank 1...
+Number of iterations for time 0.12: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.7929 sec.
+Error vs. PDE solution: 1.9479e-04
+This is time-rank 1...
+Number of iterations for time 0.12: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.6796 sec.
+Error vs. PDE solution: 1.9479e-04
+This is time-rank 0...
+Number of iterations for time 0.00: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.6797 sec.
+Error vs. PDE solution: 1.9479e-04
+This is time-rank 1...
+Number of iterations for time 0.12: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.7100 sec.
+Error vs. PDE solution: 1.9479e-04
+This is time-rank 0...
+Number of iterations for time 0.00: 12
+   Mean number of iterations: 12.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+Time to solution: 0.7100 sec.
+Error vs. PDE solution: 1.9479e-04

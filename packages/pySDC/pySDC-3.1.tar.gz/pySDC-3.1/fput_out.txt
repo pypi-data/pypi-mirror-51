@@ -1,0 +1,6 @@
+Running fput problem with 1 processors...
+   Mean number of iterations: 3.45
+   Range of values for number of iterations:  4 
+   Position of max/min number of iterations: 77 --  0
+   Std and var for number of iterations: 1.56 -- 2.45
+... took 6.5953 seconds to run this.
