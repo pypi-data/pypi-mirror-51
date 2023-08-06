@@ -1,0 +1,10 @@
+arkindex/__init__.py,sha256=DpyIcIi08p0vm3gc1tOR3eb8qpVxWZ3v-w8Of7az-us,75
+arkindex/auth.py,sha256=ecedF0JUQn1xDIsaGEGZsvlJ6DhIpQvWXzSTONowADE,1002
+arkindex/client.py,sha256=V-vFTM5cpfYXSjHCCrMSQ2yTtF5l2iw1Kr-lSPJyp94,7268
+arkindex/encoders.py,sha256=FEtn-s1EVER0s6TpYs7yZIAeyBYGtxzlHxs04MqpfYI,569
+arkindex/pagination.py,sha256=2B3ZGBi0YvW1NuwjaQs57VJDTaJIQQ45tm-zrcio3h0,2418
+arkindex/schema.yml,sha256=3c-DfF4bQOA8YY03eqbsyhbUaA2rD_1AX_v0MCjhj_k,207527
+arkindex_client-0.9.6.dist-info/METADATA,sha256=zY5SHG8FZd17pdlyxN6K2bjgU5daaYv0720sKiRJvaI,7704
+arkindex_client-0.9.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+arkindex_client-0.9.6.dist-info/top_level.txt,sha256=iP1TxDW_jSDQA4FIcahBFXiDcZXqam2a_gFVnDbR3c4,9
+arkindex_client-0.9.6.dist-info/RECORD,,
