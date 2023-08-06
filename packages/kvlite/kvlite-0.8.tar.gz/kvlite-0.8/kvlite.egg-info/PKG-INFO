@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: kvlite
+Version: 0.8
+Summary: kvlite
+Home-page: https://github.com/lwzm/kvlite
+Author: lwzm
+Author-email: lwzm@qq.com
+License: UNKNOWN
+Description: # kvlite
+        
+Keywords: kv,sqlite,key-value
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License

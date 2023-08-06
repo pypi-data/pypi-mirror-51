@@ -1,0 +1,7 @@
+README
+kvlite.py
+setup.py
+kvlite.egg-info/PKG-INFO
+kvlite.egg-info/SOURCES.txt
+kvlite.egg-info/dependency_links.txt
+kvlite.egg-info/top_level.txt
