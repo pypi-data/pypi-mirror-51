@@ -1,0 +1,13 @@
+README.md
+setup.py
+telegram_find_in_channel_bot.egg-info/PKG-INFO
+telegram_find_in_channel_bot.egg-info/SOURCES.txt
+telegram_find_in_channel_bot.egg-info/dependency_links.txt
+telegram_find_in_channel_bot.egg-info/entry_points.txt
+telegram_find_in_channel_bot.egg-info/requires.txt
+telegram_find_in_channel_bot.egg-info/top_level.txt
+tgficbot/__init__.py
+tgficbot/db.py
+tgficbot/main.py
+tgficbot/states.py
+tgficbot/strings.py
