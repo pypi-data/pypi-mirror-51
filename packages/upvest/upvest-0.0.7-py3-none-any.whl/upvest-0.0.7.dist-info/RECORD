@@ -1,0 +1,14 @@
+upvest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upvest/__pkginfo__.py,sha256=Ab098yBTuXaql0JE40ELA5mvziQroIl9F5-Y5e5PM70,134
+upvest/authentication.py,sha256=2ZU9fdgW5ksWgvn2P2bhE4HxHDDCy8r7I5uqsA9mPz4,2859
+upvest/clientele.py,sha256=GmtFswXlPigVYHRqjBivvRY0WJZpOaxD_72ZgfR5kNw,652
+upvest/config.py,sha256=lKVvVP7Brs8FJY8GyrWtIqJNw4cNHnQ4SWHU5Qde9qg,248
+upvest/exceptions.py,sha256=-qFuZvOMoAvIxhUHllILacesCqa9rni-e8zf_ZLtFK0,100
+upvest/model.py,sha256=dmOXYG156_9Q4sA3pdJNqSX0wgspyugPZLoqkh8a5RI,13545
+upvest/tenancy.py,sha256=5LN9nUFc8udF7BN--1TbAEWUim0o2yg6UU005_WX6RI,610
+upvest/utils.py,sha256=7Bi21uRoMGUUW5YJIaIvt9Qb5GS6EBa9BwZ4hToEj58,2153
+upvest-0.0.7.dist-info/LICENSE,sha256=LoqyU8IA8FfY84k-m6YP_IG38XILRJIgjKK9vXN68TM,1096
+upvest-0.0.7.dist-info/METADATA,sha256=Fi9WnOa7SDv7ntfyhY9mRYpZA5aySV3KUzP8UqqUThc,10878
+upvest-0.0.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+upvest-0.0.7.dist-info/top_level.txt,sha256=p8bB7id19R8L-M1NEnwqKwQCI55ZZE9_n9vQ3jeoFaA,7
+upvest-0.0.7.dist-info/RECORD,,
