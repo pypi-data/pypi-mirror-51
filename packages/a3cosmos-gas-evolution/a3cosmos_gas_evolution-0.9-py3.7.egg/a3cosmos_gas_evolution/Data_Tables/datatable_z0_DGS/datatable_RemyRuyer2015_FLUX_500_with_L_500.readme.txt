@@ -1,0 +1,41 @@
+extracted 
+'datatable_RemyRuyer2015_FLUX_500.txt'
+from 
+'/Users/dzliu/Cloud/GitLab/CODatabase/Data/Processing/RemyRuyer,2015A&A...582A.121R,CDS/J_A+A_582_A121/table5.dat'
+
+
+then
+selected only SPIRE 500um detected ones
+
+
+then search for distances from
+'Madden 2013 - 2013PASP..125..600M'
+Table 2 (PDF page 9-10)
+
+
+then
+crossmatched
+'datatable_RemyRuyer2015_FLUX_500.txt' 
+to 
+'RemyRuyer,2015A&A...582A.121R,Mdust.csv'
+by exact Name
+
+
+then
+computed L_500
+L_500 = FLUX_500_Jy * 1e-23 * 4*PI*Distance_Madden2013*Distance_Madden2013 * 9.52140e48
+units: erg s-1 Hz-1
+
+
+then save as
+'datatable_RemyRuyer2015_FLUX_500_with_L_500.fits'
+
+
+
+
+
+
+
+
+
+

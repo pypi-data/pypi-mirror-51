@@ -1,0 +1,7 @@
+Ly 2014 - FMR holds for metal poor galaxies in DEEP2 survey at z 0.8 - arXiv 1412.1834.pdf
+
+Table 1
+Mstar -- Chabrier IMF
+metalZ -- Te-based
+SFR -- from H-beta, ~1-100
+

@@ -1,0 +1,40 @@
+# Source       ICO21 eICO21  flagMH2  lgMH2  lgMstar
+AGC230         1.20  0.09         ""  9.08   9.88
+AGC233         0.85  0.10         ""  8.92   9.76
+AGC463         7.09  0.18         ""  9.69   10.42
+AGC978         0.43  0.05         ""  8.79   9.95
+AGC629         4.98  0.07         ""  9.53   10.33
+AGC456         0.86  0.06         ""  8.96   10.15
+AGC473         0.28  0.04         ""  8.09   9.37
+AGC584         1.52  0.08         ""  8.96   9.56
+AGC760         1.46  0.07         ""  8.66   9.72
+AGC823         0.47  0.06         ""  7.53   8.28
+AGC122         0.52  0.06         ""  8.79   9.49
+AGC172         2.68  0.16         ""  8.46   9.66
+AGC9346        1.61  0.15         ""  8.49   9.28
+AGC9696        1.86  0.13         ""  9.65   10.62
+AGC10384       4.64  0.20         ""  9.60   9.98
+AGC12481       2.54  0.16         ""  9.24   9.23
+AGC12586       2.85  0.13         ""  9.26   10.49
+AGC101985      0.16  0.04         ""  8.19   9.06
+AGC110202      0.30  0.06         ""  8.25   9.10
+AGC171860      0.00  0.09         "<" 7.89   9.00
+AGC180293      0.86  0.07         ""  8.15   9.10
+AGC180931      0.11  0.03         ""  8.67   10.40
+AGC180945      0.23  0.04         ""  8.66   9.13
+AGC240580      0.48  0.09         ""  9.08   9.78
+AGC241492      0.52  0.03         ""  9.08   9.93
+AGC241716      0.44  0.07         ""  8.81   9.64
+AGC242440      0.21  0.06         ""  8.31   8.75
+AGC250019      0.31  0.05         ""  9.06   9.50
+AGC330149      0.54  0.05         ""  9.44   10.37
+AGC721352      1.13  0.07         ""  8.48   9.40
+PGC003183     19.96  0.23         ""  10.19  -99
+UGC11898       7.79  0.23         ""  9.70   -99
+# 
+# 
+# ICO21 in units of K km s-1
+# CO(2-1) observations were done with SMT, HPBW ~ 33 arcsec. 
+# For lgMH2 calculation, the authors adopt R21 = ICO(2-1)/ICO(1-0) = 0.7, alphaCO = 4.35 (XCO=2e20). 
+# Stellar masses were obtained from SED fitting with the code "kcorrect" (ver. 4.2; Blanton & Roweis 2007). the results of the SMT sample are consistent with those provided by the JHU-MPA catalog. 
+# 

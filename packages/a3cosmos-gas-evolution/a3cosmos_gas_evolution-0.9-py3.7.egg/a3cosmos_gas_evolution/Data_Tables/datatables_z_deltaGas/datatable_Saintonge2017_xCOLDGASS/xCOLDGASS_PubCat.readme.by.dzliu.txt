@@ -1,0 +1,42 @@
+2018-03-31
+
+http://www.star.ucl.ac.uk/xCOLDGASS/data.html
+http://adsabs.harvard.edu/abs/2017ApJS..233...22S
+
+
+topcat -stilts tpipe in="xCOLDGASS_PubCat.fits" \
+cmd="select \"(LOGMSTAR>5 && LOGSFR_BEST>-5 && LOGMH2>3 && SN_CO>3)\"" \
+cmd="addcol z \"z_CO\"" \
+cmd="addcol deltaGas \"pow(10,LOGMH2)/pow(10,LOGMSTAR)\"" \
+cmd="addcol Mstar \"pow(10,LOGMSTAR)\"" \
+cmd="addcol SFR \"pow(10,LOGSFR_BEST)\"" \
+cmd="addcol e_SFR \"SFR*LOGSFR_ERR\"" \
+cmd="addcol M_H2 \"pow(10,LOGMH2)\"" \
+cmd="addcol e_M_H2 \"M_H2*LOGMH2_ERR\"" \
+cmd="keepcols \"ID RA DEC z deltaGas Mstar SFR e_SFR M_H2 e_M_H2 LOGMH2 LOGMH2_ERR\"" \
+out="xCOLDGASS_PubCat_selected_cols_with_deltaGas.txt" ofmt=ascii
+
+sm
+data "xCOLDGASS_PubCat_selected_cols_with_deltaGas.txt"
+read {ID 1.f RA 2 DEC 3 z 4 deltaGas 5 Mstar 6 SFR 7}
+load astroSfig.sm
+set lgMstar = lg(Mstar)
+set lgSFR_MS2 = calc_Sargent2014_SFR(z, lgMstar)
+set lgSFR_MS = calc_Speagle2014_SFR(z, lgMstar)
+set deltaMS2 = lg(SFR) - lgSFR_MS2
+set deltaMS = lg(SFR) - lgSFR_MS
+set cosmoAge = calc_cosmic_age(z)
+print "xCOLDGASS_PubCat_selected_cols_with_deltaGas_with_deltaMS.txt" \
+'%15.0f %15g %15g %15g %15g %15g %15g %15g %15g %15g\n' \
+{ID RA DEC z Mstar SFR deltaMS deltaMS2 deltaGas cosmoAge}
+quit
+
+
+# Note that Saintonge et al. (2017) said at the end of page 8 that the LOGMH2 includes the 36% Helium contribution, 
+# it is included in the alphaCO.
+
+# Note that Saintonge et al. (2017) used the stellar masses from SDSS DR7, Kauffmann 2003(?), which assumed Kroupa IMF. 
+# but SFRs are from Janowiecki 2017 which is based on Jarrett 2013, which assumed Chabrier IMF. 
+
+# Note that their LOGMH2 = log10(LCO_COR) + log10(XCO_A17)
+

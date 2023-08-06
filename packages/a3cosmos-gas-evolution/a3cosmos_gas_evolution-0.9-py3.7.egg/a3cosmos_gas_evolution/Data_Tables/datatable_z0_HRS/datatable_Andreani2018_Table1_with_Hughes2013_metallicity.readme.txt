@@ -1,0 +1,32 @@
+'datatable_Andreani2018_Table1.txt' is taken from
+Andreani et al. 2018 arxiv.org source package file: "TableData-new.tex"
+and reformatted by dzliu.
+
+
+'datatable_Hughes2013.txt' is taken from 
+Hughes et al. 2013 online data: http://cdsarc.u-strasbg.fr/viz-bin/cat/J/A+A/550/A115
+and reformatted by dzliu.
+
+
+
+then cross-matching 
+'datatable_Andreani2018_Table1.txt'
+to 
+'datatable_Hughes2013.txt'
+by exact 
+'ID' column in 'datatable_Andreani2018_Table1.txt'
+and 
+'ID' column in 'datatable_Hughes2013.txt'
+for best match for each table 1 row
+and join 1 and 2
+we got 161 matches
+
+then set
+'Metallicity' column = 'METALZ' column
+'Metallicity_Err' column = 'E_METALZ' column
+'Metallicity_Ref' column = "Hughes,2013A&A...550A.115H"
+
+then output as
+'datatable_Andreani2018_Table1_with_Hughes2013_metallicity.fits'
+
+

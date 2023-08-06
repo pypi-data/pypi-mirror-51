@@ -1,0 +1,36 @@
+combined
+
+"J_A+A_604_A53/{tablec3.dat,tablec4.dat,tablec1.dat,tablec2.dat,tablec5.dat}"
+
+Sample:
+   A  = APEX CO(2-1) observations
+   I1 = IRAM CO(1-0) observations
+   I2 = IRAM CO(2-1) observations
+   I  = IRAM observations
+
+
+incl is the inclination of the optical disk [degree] drawn from the Hyperleda database.
+d_25 is the optical diameter as defined by the 25th magnitude B-band isophote [arcsec] drawn from the Hyperleda database.
+z_SDSS is the optical spectroscopic redshift extracted from the MPA-JHU catalogue
+d_L is the luminosity distance according to the adopted Cosmology
+
+lgMstar is the median log stellar mass from the MPA-JHU catalog
+e_lgMstar is the associated error: 0.5x(P84-P16) 
+lgSFR is the median log SFR from the MPA-JHU catalog
+e_lgSFR is the associated error: 0.5x(P84-P16) 
+Z_PP04_N2 is the gas-phase metallicity calculated using the N2 calibration provided of Pettini & Pagel (2004MNRAS.348L..59P) (12+log(O/H))
+Z_PP04_O3N2 is the gas-phase metallicity calculated using the O3N2 calibration provided of Pettini & Pagel (2004MNRAS.348L..59P) (12+log(O/H))
+
+v0 is line center velocity (LSRK?) in units of km/s.
+vsig is line velocity dispersion from a single 1D Gaussian fitting (Gaussian sigma not FWHM?) in units of km/s.
+Speak units: mJy
+SCO units: Jy km/s
+LCO units: K km/s pc^2
+
+when flag_SCO is "3sig-uplim", SCO is zero and e_SCO is 3-sigma. 
+
+lgMHI is the HI gas mass computed from the integrated HI 21cm emission line flux following Eq. (6) of the paper
+lgMHI_CORR is the HI gas mass corrected for self-absorption as explained in Sect. 4.2 of this paper ()
+
+when flag_lgMHI is "<=", lgMHI is positive and e_lgMHI is 99.
+

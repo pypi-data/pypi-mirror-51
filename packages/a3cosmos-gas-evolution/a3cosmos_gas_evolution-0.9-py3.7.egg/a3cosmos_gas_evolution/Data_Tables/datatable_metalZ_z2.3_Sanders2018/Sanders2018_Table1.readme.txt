@@ -1,0 +1,66 @@
+Sanders 2018 - MOSDEF Survey - FMR exists at z=2.3 - 2018ApJ...858...99S
+
+The MOSDEF data set crucially provides coverage of several strong rest-optical emission features, 
+allowing us to measure multiple metallicity indicators widely applied in the local universe. 
+We utilize multiple emission-line ratios to estimate metallicity in this analysis, including 
+N2, O3N2, N2O2, and O32. We do not utilize R23 to estimate metallicity for reasons described below, 
+but retain the use of this metallicity-sensitive line ratio empirically, along with O3.
+
+For N2 and O3N2, we use the empirically calibrated relations of Pettini and Pagel (2004) based on individual z∼0 HIIregions:
+12 + log(O/H) = 8.90 + 0.57 * log(N2), (7) and
+12 + log(O/H) = 8.73 - 0.32 * log(O3N2).
+The intrinsic uncertainties associated with these calibrations are
+0.14 and 0.18dex for N2 and O3N2, respectively.
+
+
+
+sm << EOF
+calc 8.73 - 0.32 * 1.89
+calc 8.73 - 0.32 * 1.63
+calc 8.73 - 0.32 * 1.36
+calc 8.73 - 0.32 * 1.09
+calc 8.73 - 0.32 * 1.49
+calc 8.73 - 0.32 * 1.14
+calc 8.73 - 0.32 * 1.76
+calc 8.73 - 0.32 * 1.23
+calc 8.73 - 0.32 * 1.93
+calc 8.73 - 0.32 * 1.24
+EOF
+
+8.1252
+8.2084
+8.2948
+8.3812
+8.2532
+8.3652
+8.1668
+8.3364
+8.1124
+8.3332
+
+
+
+sm << EOF
+calc 8.90 + 0.57 * (-1.22)
+calc 8.90 + 0.57 * (-1.08)
+calc 8.90 + 0.57 * (-0.90)
+calc 8.90 + 0.57 * (-0.71)
+calc 8.90 + 0.57 * (-1.05)
+calc 8.90 + 0.57 * (-0.79)
+calc 8.90 + 0.57 * (-1.16)
+calc 8.90 + 0.57 * (-0.81)
+calc 8.90 + 0.57 * (-1.23)
+calc 8.90 + 0.57 * (-0.78)
+EOF
+
+8.2046
+8.2844
+8.3870
+8.4953
+8.3015
+8.4497
+8.2388
+8.4383
+8.1989
+8.4554
+

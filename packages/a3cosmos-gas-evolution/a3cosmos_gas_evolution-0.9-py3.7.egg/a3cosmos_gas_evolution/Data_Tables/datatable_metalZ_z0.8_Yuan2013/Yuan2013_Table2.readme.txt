@@ -1,0 +1,8 @@
+Yuan, T. T. 2013ApJ...763....9Y
+Table 2
+Mstar -- Chabrier IMF
+metalZ -- all converted to PP04
+
+They included Zahid 2011 z~0 SDSS sample and z~0.8 DEEP2 sample, all converted to PP04 (N2) using Kewley2008 conversion table. 
+
+Here I took their last 4 columns and DEEP2 redshift 0.782±0.018 sample. 

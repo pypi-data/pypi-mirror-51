@@ -1,0 +1,4 @@
+Erb 2006 mass-metallicity relation, 2006ApJ...644..813E
+Table 2
+Mstar -- Chabrier IMF
+metalZ -- PP04 (N2)

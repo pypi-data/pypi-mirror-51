@@ -1,0 +1,131 @@
+
+# For 'FLUX_500_mJy' 
+
+=IF(
+  IFERROR(
+    INDEX( Sample_Dale2017!E$2:E$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ) > 0, 
+    FALSE
+  ),
+  INDEX( Sample_Dale2017!E$2:E$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ), 
+  IF(
+    IFERROR(
+      INDEX( Sample_Chu2017!AH$2:AH$210, MATCH( INDIRECT("A"&ROW()), Sample_Chu2017!A$2:A$210, 0 ) ) > 0, 
+      FALSE
+    ),
+    INDEX( Sample_Chu2017!AH$2:AH$210, MATCH( INDIRECT("A"&ROW()), Sample_Chu2017!A$2:A$210, 0 ) ),
+    -99
+  )
+)
+
+
+
+
+# For 'Ref_500' 
+
+=IF(
+  IFERROR(
+    INDEX( Sample_Dale2017!E$2:E$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ) > 0, 
+    FALSE
+  ),
+  "Dale2017", 
+  IF(
+    IFERROR(
+      INDEX( Sample_Chu2017!AH$2:AH$210, MATCH( INDIRECT("A"&ROW()), Sample_Chu2017!A$2:A$210, 0 ) ) > 0, 
+      FALSE
+    ),
+    "Chu2017",
+    ""
+  )
+)
+
+
+
+
+
+
+# For 'FLUX_850_mJy' 
+
+=IF(
+  IFERROR(
+    INDEX( Sample_Dale2017!F$2:F$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ) > 0, 
+    FALSE
+  ),
+  INDEX( Sample_Dale2017!F$2:F$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ), 
+  IF(
+    IFERROR(
+      INDEX( Sample_Dale2017!G$2:G$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ) > 0, 
+      FALSE
+    ),
+    INDEX( Sample_Dale2017!G$2:G$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ),
+    IF(
+      IFERROR(
+        INDEX( Sample_Lisenfeld2000!C$2:C$20, MATCH( INDIRECT("A"&ROW()), Sample_Lisenfeld2000!A$2:A$20, 0 ) ) > 0, 
+        FALSE
+      ),
+      INDEX( Sample_Lisenfeld2000!C$2:C$20, MATCH( INDIRECT("A"&ROW()), Sample_Lisenfeld2000!A$2:A$20, 0 ) ), 
+      IF(
+        IFERROR(
+          INDEX( Sample_Stevens2005!G$2:G$15, MATCH( INDIRECT("A"&ROW()), Sample_Stevens2005!A$2:A$15, 0 ) ) > 0, 
+          FALSE
+        ),
+        INDEX( Sample_Stevens2005!G$2:G$15, MATCH( INDIRECT("A"&ROW()), Sample_Stevens2005!A$2:A$15, 0 ) ),
+        IF(
+          AI2 > 0,
+          AI2 * (500.0/850.0)^3.8, 
+          -99
+        )
+      )
+    )
+  )
+)
+
+
+
+
+# For 'Ref_850' 
+
+=IF(
+  IFERROR(
+    INDEX( Sample_Dale2017!F$2:F$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ) > 0, 
+    FALSE
+  ),
+  "Dale2017 SCUBA2", 
+  IF(
+    IFERROR(
+      INDEX( Sample_Dale2017!G$2:G$80, MATCH( INDIRECT("A"&ROW()), Sample_Dale2017!A$2:A$80, 0 ) ) > 0, 
+      FALSE
+    ),
+    "Dale2017 Planck",
+    IF(
+      IFERROR(
+        INDEX( Sample_Lisenfeld2000!C$2:C$20, MATCH( INDIRECT("A"&ROW()), Sample_Lisenfeld2000!A$2:A$20, 0 ) ) > 0, 
+        FALSE
+      ),
+      "Lisenfeld2000 SCUBA2",
+      IF(
+        IFERROR(
+          INDEX( Sample_Stevens2005!G$2:G$15, MATCH( INDIRECT("A"&ROW()), Sample_Stevens2005!A$2:A$15, 0 ) ) > 0, 
+          FALSE
+        ),
+        "Stevens2005 SCUBA2",
+        IF(
+          AI2 > 0,
+          "dzliu extrapolated", 
+          ""
+        )
+      )
+    )
+  )
+)
+
+
+
+
+
+
+
+
+
+
+
+

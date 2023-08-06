@@ -1,0 +1,4 @@
+Zahid 2014 - mass metallicity relation at z=1.6 - 2014ApJ...792...75Z
+Table 1
+Mstar -- Chabrier IMF
+metalZ -- PP04
