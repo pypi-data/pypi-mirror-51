@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://namespaces.plone.org/diazo"
+       xmlns:css="http://namespaces.plone.org/diazo/css"
+       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+       xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <replace content="//aside[@id='portal-column-one']">
+    <xsl:copy>
+      <xsl:attribute name="class">large-3 small-12 show-for-large-up columns</xsl:attribute>
+      <xsl:copy-of select="@*" />
+      <xsl:apply-templates />
+    </xsl:copy>
+  </replace>
+  <replace content="//aside[@id='portal-column-two']">
+    <xsl:copy>
+      <xsl:attribute name="class">large-3 small-12 show-for-large-up columns</xsl:attribute>
+      <xsl:copy-of select="@*" />
+      <xsl:apply-templates />
+    </xsl:copy>
+  </replace>
+</rules>

@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: uwosh.oie.studyabroadtheme
+Version: 1.0.5
+Summary: Plone theme for UW Oshkosh Office of International Education
+Home-page: https://pypi.python.org/pypi/uwosh.oie.studyabroadtheme
+Author: T. Kim Nguyen
+Author-email: kim.nguyen@wildcardcorp.com
+License: GPL version 2
+Description: .. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
+           If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
+           This text does not appear on pypi or github. It is a comment.
+        
+        ==============================================================================
+        uwosh.oie.studyabroadtheme
+        ==============================================================================
+        
+        Plone 5 theme for UW Oshkosh Office of International Education
+        
+        Features
+        --------
+        
+        - Matches existing site
+        - Responsive
+        
+        
+        Installation
+        ------------
+        
+        Install uwosh.oie.studyabroadtheme by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                uwosh.oie.studyabroadtheme
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/uwosh/uwosh.oie.studyabroadtheme/issues
+        - Source Code: https://github.com/uwosh/uwosh.oie.studyabroadtheme
+        
+        
+        Support
+        -------
+        
+        If you are having issues, please let us know via the issue tracker.
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        
+        Contributors
+        ============
+        
+        - T. Kim Nguyen, kim.nguyen@wildcardcorp.com
+        
+        
+        Changelog
+        =========
+        
+        
+        1.0.5 (2019-08-28)
+        ------------------
+        
+        - format oie.css, add some program search styling.
+        
+        
+        1.0.4 (2019-07-08)
+        ------------------
+        
+        - Fix angular undefined, jq undefined, 404 (file path)
+          [lucid-0]
+        
+        
+        1.0.3 (2019-02-19)
+        ------------------
+        
+        - fix linked file name
+          [tkimnguyen]
+        
+        
+        1.0.2 (2019-01-18)
+        ------------------
+        
+        - restore content-container
+          [tkimnguyen]
+        
+        
+        1.0.1 (2019-01-18)
+        ------------------
+        
+        - adjust global_statusmessage placement
+          [tkimnguyen]
+        
+        
+        1.0 (2019-01-09)
+        ----------------
+        
+        - Initial release.
+          [robzonenet, tkimnguyen]
+        
+Keywords: Python Plone
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 5.0
+Classifier: Framework :: Plone :: 5.1
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Provides-Extra: test
