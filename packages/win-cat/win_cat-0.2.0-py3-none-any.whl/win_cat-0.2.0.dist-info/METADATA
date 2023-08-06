@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: win-cat
+Version: 0.2.0
+Summary: An implementation of cat for Windows
+Home-page: https://github.com/nathantheinventor/win-cat
+Author: Nathan Collins
+Author-email: nathantheinventor@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Win-Cat: An implementation of cat for Windows
+This is an implementation of Bash's cat program for Windows. This program prints out the contents of a file.
+
+## Installation
+`pip install win-cat`
+
+## Usage
+`cat <filename>`
+
+
