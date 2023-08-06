@@ -1,0 +1,13 @@
+client/AIExchangeService.py,sha256=iGFSUtQkdNgXcG1jSJLXhJeIkQK9ay1mJnt8vYNvHDA,10879
+client/__init__.py,sha256=2ldP94IT9lUvNz54xXS1-0zZgzyKcynya3JQ4Uj52Uc,26
+common/__init__.py,sha256=KjENeHnbZtedXo3TP88h6DVWj1hjmoc-jsUD0BITXXU,4825
+common/aiExchangeMessages_pb2.py,sha256=scf190_SBc0UJHaTEUPtv9nJgbbfZ6X2UvHcWcXZpNo,55043
+common/common.py,sha256=KjENeHnbZtedXo3TP88h6DVWj1hjmoc-jsUD0BITXXU,4825
+common/db_handler.py,sha256=0j7y1E-yY-G18RAENXH8nVxkctkODKxVAwZAGS_D9v0,1278
+httpUtility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+httpUtility/httpUtil.py,sha256=ll7ZpjDG0zcNnuMyVWBP7M9Ic8qOtqnVTdlEd_kELLI,3780
+drivebuild_client-0.1.dist-info/LICENSE,sha256=dgRQl3FoqGzFbpxgi8Ic3LglmAoDo2EAEizlPjmOaqA,1068
+drivebuild_client-0.1.dist-info/METADATA,sha256=PQyD9ZMtKquMl-gEOPO3uZDfcM1z01oFkcK_daXzIMQ,481
+drivebuild_client-0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+drivebuild_client-0.1.dist-info/top_level.txt,sha256=lP2Bw_t_Pr6WUnm7TwwYZ41LU5JAEqvGBALFoxbatb4,26
+drivebuild_client-0.1.dist-info/RECORD,,
