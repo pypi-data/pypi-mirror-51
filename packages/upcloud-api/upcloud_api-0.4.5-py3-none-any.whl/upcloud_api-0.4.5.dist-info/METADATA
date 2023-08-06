@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: upcloud-api
+Version: 0.4.5
+Summary: UpCloud API Client
+Home-page: https://github.com/UpCloudLtd/upcloud-python-api
+Author: Elias Nygren
+Maintainer: Mika Lackman
+Maintainer-email: mika.lackman@upcloud.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.6.0)
+Requires-Dist: six (>=1.9.0)
+
+UNKNOWN
+
+
