@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nodeconnector
+Version: 1.0.1
+Summary: Python connector module for Node.JS applications
+Home-page: https://github.com/cristidbr/nodeconnector
+Author: Cristian Dobre
+Author-email: cristian.dobre@hbfsrobotics.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
