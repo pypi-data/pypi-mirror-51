@@ -1,0 +1,5 @@
+SQLAlchemy
+pandas
+seaborn
+psycopg2
+cx-Oracle
