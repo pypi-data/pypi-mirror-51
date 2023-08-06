@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: interegular
+Version: 0.1
+Summary: a regex intersection checker
+Home-page: https://github.com/MegaIng/regex_intersections
+Author: MegaIng
+Author-email: MegaIng <trampchamp@hotmail.de>
+License: MIT
+Download-URL: https://github.com/MegaIng/interegular/archive/v0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
