@@ -1,0 +1,16 @@
+usagelogger/__init__.py,sha256=y-b9sM-J7GBvc2AWO9Rb8t5yXbwEMGGaQ76AEYXLuXU,364
+usagelogger/base_logger.py,sha256=qOKZqi7yDeffMskawg5b97IjdhLyYEapTDUeSc95eWU,3635
+usagelogger/django.py,sha256=jmsyLo-W6_43rBwX8o1e6WH6SApjv3nhGTRpfOlSiBs,762
+usagelogger/http_logger.py,sha256=ScFXgchq64Wxye7xe4r5aw7vWFnlG_00hybgJfBbkaw,7440
+usagelogger/http_message.py,sha256=FDqeQnKB1RTbb2z9anIc9PsGAhqPhbdvLc3jFqA2umo,2356
+usagelogger/http_request_impl.py,sha256=vhChkSVT39TGlJwuOG9D3OEELjh-ZIbEyNnR7MFkfVQ,5446
+usagelogger/http_response_impl.py,sha256=bVYwR423IxOkQ4EMoTqDFFCeNxUmjjuz3XTcXMAVd7I,471
+usagelogger/http_rule.py,sha256=lV-Nf6qnzGlvLFKljNJKvmPokAFqbVwLoP4n2LDIhug,714
+usagelogger/http_rules.py,sha256=sAlWDCjGKyzaDX9l1bJ3dCQ4X4T8lU89-jRqIwaTNRU,8151
+usagelogger/usage_loggers.py,sha256=8hoV_EZG61AAfiJ5TzmQXmh2pHxV4aHxirS-7N48o4A,559
+usagelogger-0.4.1.dist-info/LICENSE.md,sha256=dP10lzOBffPMZhy6juKzyDEx_pd9sGzHn6TxuIdNG-s,574
+usagelogger-0.4.1.dist-info/METADATA,sha256=Hnu6YC_srBWxdmNIKcBALeEi_y3y6_A0z8XLKFjUWLs,1911
+usagelogger-0.4.1.dist-info/NOTICES.md,sha256=IkRlA1rGbp-yYPyf6GBCC6WL22qPZJXpiFWeAOCP5YY,4892
+usagelogger-0.4.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+usagelogger-0.4.1.dist-info/top_level.txt,sha256=4_zxr-88rs7iEGouVNs0SA5hCVO7Ito6LwDgNJdpjYE,12
+usagelogger-0.4.1.dist-info/RECORD,,
