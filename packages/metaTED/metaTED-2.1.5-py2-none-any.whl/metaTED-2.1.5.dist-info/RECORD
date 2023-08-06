@@ -1,0 +1,16 @@
+metaTED/__init__.py,sha256=606xyk-Et2Yt4OWREiaYZp7P3pRaRmGNSsaS18LIjTA,1202
+metaTED/cache.py,sha256=gTbDT2T9wN_2vV6ciR07QlhKJsAjnG-ZUHtdzkBkfdM,293
+metaTED/metalink.py,sha256=Ff5KCZU9RmlU85R7BUwhl3KQMmMHYEeKZ3qEFDjw6EA,4705
+metaTED/crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaTED/crawler/get_downloadable_talks.py,sha256=vWjITF_h30y6u4maHWsVzKxX6_V4jF-SbkR9CMVZjOQ,2584
+metaTED/crawler/get_supported_subtitle_languages.py,sha256=JuGyxaxXkNw03njIwY4oV0OnqRXPNm4WcTVvxToMHwk,1151
+metaTED/crawler/get_talk_info.py,sha256=pm6iJS3x9EgC_VD3QWiFDNbes9BpYrEkyjhCCkJhYzc,3634
+metaTED/crawler/get_talks_urls.py,sha256=vQV9G3cPhKBP25MxBtUXb07rmCLpZlfRcoyd2-BgPzo,3528
+metaTED/templates/template.metalink,sha256=yyE0RYeHyKzuX0pktZMGih4DxI3FrUY2UZaO38ToaEg,1080
+metaTED-2.1.5.dist-info/AUTHORS,sha256=avj6bFsqQesI_9w7F0Tjs_hvRos8eWJoZ3hOeW3we90,36
+metaTED-2.1.5.dist-info/LICENSE,sha256=Pw4YRML0KpM5lES-lnseDnEbUzBkpNfBYHolDwf_ioI,1550
+metaTED-2.1.5.dist-info/METADATA,sha256=ajxoP40ldCfTNek-1qMhxho7LRrVaVOh6J3kClWJbPM,3549
+metaTED-2.1.5.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+metaTED-2.1.5.dist-info/entry_points.txt,sha256=jo7To9gQQDTa5UN8NS1RbA6o3r6jF3L7mfnrHVjoXow,42
+metaTED-2.1.5.dist-info/top_level.txt,sha256=tr44Ec_Ot7KAkImE1NCfk-nwprOjJD6iCBQMe9vaGUc,8
+metaTED-2.1.5.dist-info/RECORD,,
