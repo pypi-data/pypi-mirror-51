@@ -1,0 +1,10 @@
+rcsb/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+rcsb/utils/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+rcsb/utils/ec/EnzymeDatabaseProvider.py,sha256=xtbrrgSPgpXT4Jz91B8UDs98ZMilHTcJFrwQDV2YFdY,15569
+rcsb/utils/ec/__init__.py,sha256=EP8WDsAzjfwY1Y2u5-cQJVlaLJyB_MHkF7ovi15bThY,154
+rcsb.utils.ec-0.16.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rcsb.utils.ec-0.16.dist-info/METADATA,sha256=NhSgPTHmnDB5kjDWRZ9Ken-saewZYshnU4obfEwd8lk,951
+rcsb.utils.ec-0.16.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+rcsb.utils.ec-0.16.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+rcsb.utils.ec-0.16.dist-info/top_level.txt,sha256=o9JzKwjXZKvIt99MG_WvJuOnR1DZn6_CIPtgWgUB0E8,5
+rcsb.utils.ec-0.16.dist-info/RECORD,,
