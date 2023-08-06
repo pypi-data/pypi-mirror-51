@@ -1,0 +1,12 @@
+mlgorithms/__init__.py,sha256=VHu_lsc2EPt7_IbDxxg5ruv4vr6-HUDJ5jbllq5nBqU,74
+mlgorithms/ID3/ID3.py,sha256=1ftNbuv-t927PGsjA6QGg5orwkFMXFsk83BxdNTpuBo,8855
+mlgorithms/ID3/__init__.py,sha256=E0nLxEyD1L2KtMLdEhi981HalmyCX4D2yOIc3eEc_eM,41
+mlgorithms/knn/__init__.py,sha256=QRExEzyZaYuEubaF0PWYFs-Yos3e6mdCda7AO-E168g,61
+mlgorithms/knn/knn.py,sha256=EQuejfo0ik6pWbgr0phQEvF2u2QJSGBt0ZfcL-niw14,1890
+mlgorithms/naive_bayes/__init__.py,sha256=xhLEb2zxaYkdrZ4is7ahrxbJhNvciZQZ5oUR3LM_JEc,63
+mlgorithms/naive_bayes/naive_bayes.py,sha256=rMBSHE2z7HCsfSzSFrdOUAV4y91mii4tlv4zFqWcCZs,4397
+mlgorithms-0.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+mlgorithms-0.0.3.dist-info/METADATA,sha256=bc9p3z3lO1_TqhuV7oyb-AxO3-3kTbftu3_IPiXQicI,2221
+mlgorithms-0.0.3.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+mlgorithms-0.0.3.dist-info/top_level.txt,sha256=W_qqYMLkdMarHYuH8rZ_DTrlBSZ-JL91PzJMNIjiIWE,11
+mlgorithms-0.0.3.dist-info/RECORD,,
