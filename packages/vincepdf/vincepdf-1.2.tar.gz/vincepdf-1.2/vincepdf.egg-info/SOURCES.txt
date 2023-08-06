@@ -1,0 +1,9 @@
+README.md
+setup.py
+vincepdf/__init__.py
+vincepdf/pdf2image.py
+vincepdf/pdf2text.py
+vincepdf.egg-info/PKG-INFO
+vincepdf.egg-info/SOURCES.txt
+vincepdf.egg-info/dependency_links.txt
+vincepdf.egg-info/top_level.txt
