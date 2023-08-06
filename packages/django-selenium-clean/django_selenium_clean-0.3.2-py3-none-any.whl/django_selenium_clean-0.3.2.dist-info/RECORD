@@ -1,0 +1,12 @@
+django_selenium_clean/__init__.py,sha256=AukctVkRDUDXBxH79AUmphK1myRGs0TkFPoC7veshrw,6603
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/manage.py,sha256=5_2tIDXxO4ktYlSZcWukuKrRSr1DwJGzLuaILwtfGJg,1291
+tests/settings.py,sha256=mqqh6jceHmm1ZG1iI4MJDXE2rHa_EzpWT1IJdWPc_a8,1480
+tests/tests.py,sha256=AZL-ku-kPZ__ICJTmaOmr2wgn_-UY_yx2g9jMI1pQiY,8512
+tests/urls.py,sha256=iueh25XbPaS2Abymh8TPkMGfQEKGSXiVfWAGt05I8Go,109
+tests/views.py,sha256=ohOGcfoDjZ1cZLuD7CevenhxgbxNN9qZ2d5A8-A7PZU,104
+django_selenium_clean-0.3.2.dist-info/LICENSE.txt,sha256=3yIAsP1n9ysfB610--bxqGQimdLSUv9KM0bMuRYlraE,1541
+django_selenium_clean-0.3.2.dist-info/METADATA,sha256=09lLzy2sRj_oqyz28kv0Q4psXMG7KwOkbsSbvNYFFL8,872
+django_selenium_clean-0.3.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_selenium_clean-0.3.2.dist-info/top_level.txt,sha256=104U_YoYY1lTjTRrTT7Gs1d1wlWbsB-qtPMPrTO_mCc,28
+django_selenium_clean-0.3.2.dist-info/RECORD,,
