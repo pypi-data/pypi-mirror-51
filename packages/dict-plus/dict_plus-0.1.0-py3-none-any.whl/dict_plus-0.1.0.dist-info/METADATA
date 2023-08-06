@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dict-plus
+Version: 0.1.0
+Summary: Extended Dictionary Package
+Home-page: UNKNOWN
+Author: Spencer Hanson
+Author-email: spencerhanson3141@gmail.com
+License: UNKNOWN
+Keywords: list,utilities,dictionary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+
+dict-plus v0.0.4
+Documentation: https://dict-plus.readthedocs.io/en/latest/
+
+
+
