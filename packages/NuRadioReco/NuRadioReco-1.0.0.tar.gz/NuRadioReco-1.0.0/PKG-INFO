@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: NuRadioReco
+Version: 1.0.0
+Summary: NuRadioReco: A reconstruction framework for radio neutrino detectors
+Home-page: https://github.com/nu-radio/NuRadioReco
+Author: Christian Glaser
+Author-email: work@c-glaser.de
