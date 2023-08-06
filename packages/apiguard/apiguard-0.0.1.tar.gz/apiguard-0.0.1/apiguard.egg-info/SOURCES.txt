@@ -1,0 +1,6 @@
+README.md
+setup.py
+apiguard.egg-info/PKG-INFO
+apiguard.egg-info/SOURCES.txt
+apiguard.egg-info/dependency_links.txt
+apiguard.egg-info/top_level.txt

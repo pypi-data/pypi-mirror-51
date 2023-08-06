@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: apiguard
+Version: 0.0.1
+Summary: alone oauth2 server
+Home-page: https://github.com/eaybek/seperator
+Author: Erdem Aybek
+Author-email: eaybek@gmail.com
+License: UNKNOWN
+Description: for now its just includes
+        
+        django-oauth-toolkit's [instructions](https://django-oauth-toolkit.readthedocs.io/en/latest/rest-framework/getting_started.html#) for django rest framework
+        
+        planned more...
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Server
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
