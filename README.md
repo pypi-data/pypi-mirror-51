@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2019-08-18 14:37 and 2019-09-06 04:04.
 
-The repo is 64% (25992/40000) complete.
+The repo is 69% (27992/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-51/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| pytorch-transformers-pvt-nightly | 896 |
-| allennlp-pvt-nightly | 784 |
-| catboost-dev | 192 |
-| deepdrive | 177 |
-| pyfastx | 147 |
-| Intrst-algrms | 146 |
-| tensorflow-io-nightly | 121 |
-| PySimultan | 104 |
-| aiohttp | 100 |
-| lalsuite | 80 |
-| hackingtools | 80 |
-| frida | 77 |
-| nowyou-grafis-script-python | 76 |
-| vstutils | 72 |
-| tfa-nightly | 72 |
-| vtorch | 70 |
-| gameboycore | 68 |
-| fzutils | 68 |
-| mine-init | 66 |
-| qaviton-package-manager | 64 |
-| lameenc | 63 |
-| xxhash | 56 |
-| httptesting | 55 |
-| tfds-nightly | 54 |
-| ingaia-libs | 54 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-51).
 
 
