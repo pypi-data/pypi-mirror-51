@@ -1,0 +1,10 @@
+include AUTHORS
+include CHANGELOG
+include LICENSE
+include README
+include THANKS
+
+include MANIFEST.in
+include requirements.txt
+
+recursive-include metaTED/templates *
