@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: metaVis
+Version: 0.1.1.dev0
+Summary: metaVis: An integrated data upload and interactive heatmap visualization tool built for exploratory data analysis and introspection.
+Home-page: http://github.com/agartland/metadataVis
+Author: Michael Zhao
+Author-email: mzhao@fredhutch.org
+Maintainer: Michael Zhao
+Maintainer-email: mzhao@fredhutch.org
+License: MIT
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: numpy
+Requires: scipy
+Requires: pandas
+Requires: sklearn
+Requires: bokeh
+Requires: twisted
+Requires: jinja2
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: bokeh
+Requires-Dist: twisted
+Requires-Dist: jinja2
+
+
+metaVis
+========
+metaVis is a heatmap visualization tool that enables users to interactively interface with their data that centers around the inclusion of "metadata" 
+\- supplementary information behind each data point that characterizes and contextualizes it. 
+metaVis comprises two main components: a server and web portal that provides flexible data upload and the heatmap visualization tool itself in the form of a generated standalone html file. 
+The metaVis visualization tool is meant to enable scientists and researchers to more easily visualize their datasets, recontextualize and gain a wider perspective 
+of their data through the intergration of "metadata", and interactively perform exploratory data analysis. 
+
+
+License
+=======
+``metaVis`` is licensed under the terms of the MIT license. See the file
+"LICENSE" for information on the history of this software, terms & conditions
+for usage, and a DISCLAIMER OF ALL WARRANTIES.
+
+
