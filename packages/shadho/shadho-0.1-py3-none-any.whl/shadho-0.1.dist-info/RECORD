@@ -1,0 +1,17 @@
+shadho/__init__.py,sha256=pOgQ_XkKppRe_eViPfoKZRBCg8NCX_TUur-VDtjHvcU,468
+shadho/configuration.py,sha256=XXanyD-QhHmEvkIcxplaHvj8SxcHCD71xVXaz3Zt2F8,7101
+shadho/hardware.py,sha256=wwzlHeag9H8gyhSCRpEvCVkSaT2prtlPjRafyJhwYrw,4133
+shadho/scaling.py,sha256=NJqKqH6G6LsvWVRRqCexyYGBj6sjl1FYSQ3NRQDUVrI,4859
+shadho/shadho.py,sha256=qB0MAf84UMdQz1Iw2Jtp2JYdbDwTvPY6dqRYqJyalVE,18973
+shadho/spaces.py,sha256=fkoF18esyJIymIrEBE6gN-bD0NI4DQdDmHEL20_sVXY,9582
+shadho/managers/__init__.py,sha256=cktCCRawY-Kme5jhb3Hr1UCNWtI3AMf5bqqPDBlNbm4,143
+shadho/managers/local.py,sha256=yAdrw95tetukYRDZqdG0aWC0k9raooQ2l6nMDZZPDzQ,5515
+shadho/managers/manager_factory.py,sha256=qasFtb0Y7udkusQimV9aimsGdI39S9TZsnNSIeyM1i0,649
+shadho/managers/workqueue.py,sha256=lT9XcfEy3LOG1HJT8tzSz2IHc9sFRXJouHsk0NWB_Sg,11749
+shadho-0.1.data/scripts/shadho_wq_factory,sha256=un2ihGXSRa206ojSXx-kGJbLViHR6TcWaMwLF3SjnCw,84
+shadho-0.1.data/scripts/shadho_wq_worker,sha256=LjhljfoIutQCLnmhunEMaWelr5Ql4n51qiNCG7pYRZc,83
+shadho-0.1.dist-info/LICENSE,sha256=B2ctQw-XXcdB2nQXWk6HqTsKkWPdkmhnkdw4Dc_A8c0,1070
+shadho-0.1.dist-info/METADATA,sha256=t5IPxdjX70thKuft1pmfk3M4f1a-o9yC-s_XdEFNvTA,963
+shadho-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+shadho-0.1.dist-info/top_level.txt,sha256=QUmuWMnZJHxZe8588AVyhc1H7CpbwTVped6LDBlR2Wc,7
+shadho-0.1.dist-info/RECORD,,
