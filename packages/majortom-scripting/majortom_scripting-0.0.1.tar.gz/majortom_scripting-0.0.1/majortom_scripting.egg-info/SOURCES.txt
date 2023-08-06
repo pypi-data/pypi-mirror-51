@@ -1,0 +1,10 @@
+README.md
+setup.py
+majortom_scripting/__init__.py
+majortom_scripting/exceptions.py
+majortom_scripting/mutations.py
+majortom_scripting/scripting_api.py
+majortom_scripting.egg-info/PKG-INFO
+majortom_scripting.egg-info/SOURCES.txt
+majortom_scripting.egg-info/dependency_links.txt
+majortom_scripting.egg-info/top_level.txt
