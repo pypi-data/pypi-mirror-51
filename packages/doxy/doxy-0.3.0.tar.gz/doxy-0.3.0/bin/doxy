@@ -1,0 +1,186 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+##
+## @author Edouard DUPIN
+##
+## @copyright 2012, Edouard DUPIN, all right reserved
+##
+## @license APACHE v2.0 (see license file)
+##
+
+# for path inspection:
+import sys
+import os
+import copy
+import doxy
+import doxy.debug as debug
+import doxy.arg as arguments
+import doxy.module as module
+import doxy.target as target
+import doxy.env as env
+import doxy.multiprocess as multiprocess
+import doxy.tools as tools
+import doxy.tools as doxyTools
+
+myArgs = arguments.doxyArg()
+myArgs.add(arguments.ArgDefine("h", "help", desc="Display this help"))
+myArgs.add(arguments.ArgDefine("H", "HELP", desc="Display this help (with all compleate information)"))
+myArgs.add_section("option", "Can be set one time in all case")
+myArgs.add(arguments.ArgDefine("v", "verbose", list=[["0","None"],["1","error"],["2","warning"],["3","info"],["4","debug"],["5","verbose"],["6","extreme_verbose"]], desc="display makefile debug level (verbose) default =2"))
+myArgs.add(arguments.ArgDefine("C", "color", desc="Display makefile output in color"))
+myArgs.add(arguments.ArgDefine("d", "depth", haveParam=True, desc="Depth of the search of sub element doxy_*.py (default=" + str(env.get_parse_depth()) + ")"))
+
+myArgs.add_section("properties", "keep in the sequency of the cible")
+myArgs.add(arguments.ArgDefine("m", "mode", list=[["debug",""],["release",""]], desc="Compile in release or debug mode (default release)"))
+
+myArgs.add_section("cible", "generate in order set")
+localArgument = myArgs.parse()
+
+"""
+	display the help of this makefile
+"""
+def usage(full=False):
+	color = debug.get_color_set()
+	# generic argument displayed : 
+	myArgs.display()
+	print("		All target can finish with '?clean' '?dump' '?gcov' ... ?action (@ can replace ?)" )
+	print("		" + color['green'] + "all" + color['default'])
+	print("			build all (only for the current selected board) (bynary and packages)")
+	print("		" + color['green'] + "clean" + color['default'])
+	print("			clean all (same as previous)")
+	print("		" + color['green'] + "dump" + color['default'])
+	print("			Dump all the module dependency and properties")
+	listOfAllModule = module.list_all_module_with_desc()
+	for mod in listOfAllModule:
+		print("		" + color['green'] + mod["name"] + color['default'])
+		if mod["description"] != "":
+			print("			" + mod["description"])
+			
+	print("	ex: " + sys.argv[0] + " all --target=Android all -m debug all")
+	exit(0)
+
+def check_boolean(value):
+	if    value == "" \
+	   or value == "1" \
+	   or value == "true" \
+	   or value == "True" \
+	   or value == True:
+		return True
+	return False
+
+# preparse the argument to get the verbose element for debug mode
+def parseGenericArg(argument, active):
+	debug.extreme_verbose("parse arg : " + argument.get_option_name() + " " + argument.get_arg() + " active=" + str(active))
+	if argument.get_option_name() == "help":
+		if active==False:
+			usage()
+		return True
+	if argument.get_option_name() == "HELP":
+		if active==False:
+			usage(True)
+		return True
+	elif argument.get_option_name()=="depth":
+		if active==True:
+			env.set_parse_depth(int(argument.get_arg()))
+		return True
+	elif argument.get_option_name() == "verbose":
+		if active==True:
+			debug.set_level(int(argument.get_arg()))
+		return True
+	elif argument.get_option_name() == "color":
+		if active==True:
+			if check_boolean(argument.get_arg()) == True:
+				debug.enable_color()
+			else:
+				debug.disable_color()
+		return True
+	return False
+
+
+# open configuration of doxy:
+config_file_name = "doxyConfig.py"
+config_file = os.path.join(tools.get_run_path(), config_file_name)
+if os.path.isfile(config_file) == True:
+	sys.path.append(os.path.dirname(config_file))
+	debug.debug("Find basic configuration file: '" + config_file + "'")
+	# the file exist, we can open it and get the initial configuration:
+	configuration_file = __import__(config_file_name[:-3])
+	if "get_exclude_path" in dir(configuration_file):
+		data = configuration_file.get_exclude_path()
+		debug.debug(" get default config 'get_exclude_path' val='" + str(data) + "'")
+		env.set_exclude_search_path(data)
+	if "get_parsing_depth" in dir(configuration_file):
+		data = configuration_file.get_parsing_depth()
+		debug.debug(" get default config 'get_parsing_depth' val='" + str(data) + "'")
+		parseGenericArg(arguments.ArgElement("depth", str(data)), True)
+	if "get_default_color" in dir(configuration_file):
+		data = configuration_file.get_default_color()
+		debug.debug(" get default config 'get_default_color' val='" + str(data) + "'")
+		parseGenericArg(arguments.ArgElement("color", str(data)), True)
+	if "get_default_debug_level" in dir(configuration_file):
+		data = configuration_file.get_default_debug_level()
+		debug.debug(" get default config 'get_default_debug_level' val='" + str(data) + "'")
+		parseGenericArg(arguments.ArgElement("verbose", str(data)), True)
+
+# parse default unique argument:
+for argument in localArgument:
+	parseGenericArg(argument, True)
+
+# initialize the system ...
+doxy.init()
+
+config = {
+	"mode":"release",
+	}
+# load the default target:
+my_target = None
+actionDone = False
+# parse all argument
+for argument in localArgument:
+	if parseGenericArg(argument, False) == True:
+		continue
+	elif argument.get_option_name() == "mode":
+		if config["mode"] != argument.get_arg():
+			config["mode"] = argument.get_arg()
+			debug.debug("change mode ==> " + config["mode"])
+			#remove previous target
+			my_target = None
+	else:
+		argument_value = argument.get_arg()
+		debug.debug("something request : '" + argument_value + "'")
+		if argument.get_option_name() != "":
+			debug.warning("Can not understand argument : '" + argument.get_option_name() + "'")
+			usage()
+			break;
+		name2 = argument_value.replace("@", "?")
+		gettedElement = name2.split("?")
+		module_name = gettedElement[0]
+		action_list = gettedElement[1:]
+		if len(action_list) == 0:
+			action_list = "build"
+		debug.debug("requested: '" + module_name + "' ? actions:'" + str(action_list) + "'")
+		multiple_module_list = []
+		if module_name[-1] == "*":
+			base_name = module_name[:-1]
+			for mod in module.list_all_module():
+				if mod[:len(base_name)] == base_name:
+					debug.verbose("need do it for: " + mod);
+					multiple_module_list.append(mod)
+		else:
+			multiple_module_list.append(module_name)
+		debug.debug("Will do: '" + str(multiple_module_list) + "' ? actions:'" + str(action_list) + "'")
+		for module_name in multiple_module_list:
+			#load the target if needed:
+			if my_target == None:
+				my_target = target.Target(copy.deepcopy(config))
+			my_target.build(module_name, actions=action_list)
+			actionDone=True
+
+# if no action done : we do "all" ...
+if actionDone==False:
+	#load the target if needed:
+	if my_target == None:
+		my_target = target.Target(config)
+	my_target.build("all")
+
+
