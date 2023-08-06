@@ -1,0 +1,5 @@
+include poly_pack/esaxsnobsmax.edf
+include poly_pack/esaxsmask.edf
+include poly_pack/maxmask.edf
+include poly_pack/saxsmask.edf
+include poly_pack/waxsmask.edf
