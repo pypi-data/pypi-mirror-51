@@ -1,0 +1,9 @@
+ankisync2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ankisync2/anki.py,sha256=Cg_XjL8V1NZcO6O7dls_lPczXJ8ViVtoetlIdBO85fU,4431
+ankisync2/builder.py,sha256=bKT5SDSMgHfoQlEXDAhsw9kWYkHJ7E7aI0uhbXUvbLc,2371
+ankisync2/db.py,sha256=0XHxhGWDOGZvGNUZhXCw9EC2cD9e7nrLZjLT7NZXqjM,12701
+ankisync2/util.py,sha256=eued-sbs2UH8ZjA-XTVgewHYVQX9Hdwor2T98uXk-AQ,2666
+ankisync2-0.2.3.dist-info/LICENSE,sha256=LkdNZpRBeWR5ffbn7dZcYa8IVKylIdYOeIoVtY6Sx3Y,1082
+ankisync2-0.2.3.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+ankisync2-0.2.3.dist-info/METADATA,sha256=27Cvs2X40uxMcMSDqVd_cI1lKZdfXVMwK9kURrOzYeg,4568
+ankisync2-0.2.3.dist-info/RECORD,,
