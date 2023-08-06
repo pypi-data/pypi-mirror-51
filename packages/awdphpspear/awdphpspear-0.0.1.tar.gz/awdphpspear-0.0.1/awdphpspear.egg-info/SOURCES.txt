@@ -1,0 +1,11 @@
+setup.py
+awdphpspear/__init__.py
+awdphpspear/file_module.py
+awdphpspear/flag_module.py
+awdphpspear/request_module.py
+awdphpspear/upload_module.py
+awdphpspear.egg-info/PKG-INFO
+awdphpspear.egg-info/SOURCES.txt
+awdphpspear.egg-info/dependency_links.txt
+awdphpspear.egg-info/requires.txt
+awdphpspear.egg-info/top_level.txt
