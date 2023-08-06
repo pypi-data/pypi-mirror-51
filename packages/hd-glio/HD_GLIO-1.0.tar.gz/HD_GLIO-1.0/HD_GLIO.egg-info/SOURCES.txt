@@ -1,0 +1,13 @@
+setup.py
+HD_GLIO.egg-info/PKG-INFO
+HD_GLIO.egg-info/SOURCES.txt
+HD_GLIO.egg-info/dependency_links.txt
+HD_GLIO.egg-info/not-zip-safe
+HD_GLIO.egg-info/requires.txt
+HD_GLIO.egg-info/top_level.txt
+hd_glio/__init__.py
+hd_glio/hd_glio_predict
+hd_glio/hd_glio_predict_folder
+hd_glio/paths.py
+hd_glio/setup_hd_glio.py
+hd_glio/utils.py
