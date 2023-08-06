@@ -1,0 +1,3 @@
+minify
+quart_minify
+tests

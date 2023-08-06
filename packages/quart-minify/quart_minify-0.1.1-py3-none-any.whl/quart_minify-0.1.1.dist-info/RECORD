@@ -1,0 +1,10 @@
+quart_minify/__init__.py,sha256=3AlUhORFqUetdYVEj5-jjG7RWTJhTvVKDYK6XJprHKU,61
+quart_minify/minify.py,sha256=Q2zcD_WOduEWkiRrHg7kwBU0CXOcL7T5ov1BPdNpccw,3957
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_fm.py,sha256=7c_GRnPXssguJHRcldHrQHiYLRTK1ZZYHMEoUbHeGNM,3792
+quart_minify-0.1.1.dist-info/LICENSE,sha256=X2hzvymd0aozuBwy68KS15EmNr-xCPxe9Tb8DsUeaD8,1093
+quart_minify-0.1.1.dist-info/LICENSE.txt,sha256=X2hzvymd0aozuBwy68KS15EmNr-xCPxe9Tb8DsUeaD8,1093
+quart_minify-0.1.1.dist-info/METADATA,sha256=7XKYoNNs8flFaO0sg0r9nepVWK80aoWgS1LYc7z9VdA,3442
+quart_minify-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+quart_minify-0.1.1.dist-info/top_level.txt,sha256=GB4dAUk56-w9Ahgzh0e_DSAEM8hpqvRdiCJX28zq0rA,26
+quart_minify-0.1.1.dist-info/RECORD,,
