@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: DynamicMachine
+Version: 1.0.4
+Summary: Python package for running the Dynamic Machine application.
+Home-page: https://github.com/Pipe-s/dynamic_machine
+Maintainer: Luke Woydziak
+Maintainer-email: lwoydziak@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Pipe-s/dynamic_machine/tarball/1.0.4
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: apache-libcloud
+Requires-Dist: pexpect
+Requires-Dist: jsonconfigfile
+
+Welcome to Dynamic Machines Cloud Bursting
+
+
