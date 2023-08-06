@@ -1,0 +1,13 @@
+polyaxon_k8s/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polyaxon_k8s/constants.py,sha256=GLh0wcBlz1bQwe_sSFUXc4oY2oAvUkwrtTCpQfRhwQc,656
+polyaxon_k8s/exceptions.py,sha256=xdBa_-FzdmcnUhDJopLi-TiIf4JRfNOG-dUu_M32vKk,202
+polyaxon_k8s/logger.py,sha256=UJ9rmDhuCki0Fiq4I07nhftzBYT6gS0W8xNNLQbO0WY,149
+polyaxon_k8s/manager.py,sha256=umeYF9OK07WBbfz-8kGO6pug8tw9ai_SvcSn4AybKkM,24548
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/base.py,sha256=cD4JdAIql_NYCrCKOPXTVec0nnMW92dUgLZOTUZGfDU,1708
+tests/test_manager.py,sha256=7xNyQ0UUzLOSM1T1OzYky_CY2bjUt-Ik_jSm8rwAye8,660
+polyaxon_k8s-0.4.8.dist-info/LICENSE,sha256=1i2k9vJOevvg_pvlwNoayU5h9Yn9kuwDnqLORsPrwN4,1083
+polyaxon_k8s-0.4.8.dist-info/METADATA,sha256=-zEmQVPr6B4hV2r4s265u6H9-wryGxFOQYwxiCftxys,1922
+polyaxon_k8s-0.4.8.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+polyaxon_k8s-0.4.8.dist-info/top_level.txt,sha256=gVVoFAMNDuUq87AySM-E8Tj36PyLLf74Up7gTbpi5lc,19
+polyaxon_k8s-0.4.8.dist-info/RECORD,,
