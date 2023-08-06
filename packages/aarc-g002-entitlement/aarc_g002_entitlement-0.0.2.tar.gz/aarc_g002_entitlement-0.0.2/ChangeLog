@@ -1,0 +1,15 @@
+CHANGES
+=======
+
+v0.0.2
+------
+
+* remove egg-info files
+* gitignore many things
+* do rename for local tests
+
+v0.0.1
+------
+
+* initial commit
+* Initial commit
