@@ -1,0 +1,8 @@
+name: SACLA MPCCD Phase3 21528
+author: Takanori Nakane (2019)
+license: CC-BY 4.0
+description: >
+  Example HDF5 data file from SACLA MPCCD Phase 3 containing 5 still images.
+
+data:
+  - url: https://github.com/dials/data-files/raw/4bf87ccd9d072424ef08c8da295b843753c7cfc8/SACLA_MPCCD_Phase3/MPCCD-Phase3-21528-5images.h5
