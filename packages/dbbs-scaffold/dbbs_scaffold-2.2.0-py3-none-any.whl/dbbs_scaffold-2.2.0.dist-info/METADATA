@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: dbbs-scaffold
+Version: 2.2.0
+Summary: A morphologically detailed scaffolding package for the scientific modelling of the cerebellum.
+Home-page: https://github.com/dbbs-lab/scaffold
+Author: Elisa Marenzi, Stefano Casali, Claudia Casselato, Robin De Schepper
+Author-email: robingilbert.deschepper@unipv.it
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (>=2019.6.16)
+Requires-Dist: cycler (>=0.10.0)
+Requires-Dist: h5py (>=2.9.0)
+Requires-Dist: kiwisolver (>=1.1.0)
+Requires-Dist: matplotlib (>=3.1.1)
+Requires-Dist: mkl-fft (>=1.0.14)
+Requires-Dist: mkl-random (>=1.0.2)
+Requires-Dist: mkl-service (>=2.0.2)
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: pyparsing (>=2.4.2)
+Requires-Dist: pyreadline (>=2.1)
+Requires-Dist: python-dateutil (>=2.8.0)
+Requires-Dist: pytz (>=2019.2)
+Requires-Dist: readme-renderer (>=24.0)
+Requires-Dist: requests-toolbelt (>=0.9.1)
+Requires-Dist: scipy (>=1.3.1)
+Requires-Dist: six (>=1.12.0)
+Requires-Dist: tornado (>=6.0.3)
+Requires-Dist: twine (>=1.13.0)
+Requires-Dist: wincertstore (>=0.2)
+
+# Scaffold: A scaffold model for the cerebellum
+This package is intended to facilitate spatially, topologically and morphologically detailed simulations of the cerebellum developed by the Department of Brain and Behavioral Sciences at the University of Pavia.
+
+## Installation
+
+### Pip
+
+This software can be installed as a Python package from PyPI through pip.
+
+```
+ pip install dbbs-scaffold
+```
+
+## Usage
+
+The scaffold model can be used through the command line interface or as a python package.
+
+### Command line interface (CLI)
+
+Run the scaffold in the command line with subcommand `compile` to compile a network architecture.
+```
+scaffold --config=mouse_cerebellum.ini compile -p
+```
+
+To run with different configurations, change the config argument to the relative path of a .ini config file. The `-p` flag indicates that the compiled network should be plotted afterwards and can be omitted.
+
+### Python package
+
+The central object is the `scaffold.Scaffold` class. This object requires a `scaffold.config.ScaffoldConfig` instance for its construction. To emulate the CLI functionality you can use the `ScaffoldIniConfig` class and provide the relative path to the configuration file.
+
+```python
+from scaffold import Scaffold
+from scaffold.config import ScaffoldIniConfig
+
+config = new ScaffoldIniConfig('mouse_cerebellum.ini')
+scaffoldInstance = new Scaffold(config)
+```
+
+This scaffold instance can then be used to perform the subcommands available in the CLI by calling their corresponding functions:
+
+```python
+scaffoldInstance.compileNetworkArchitecture()
+```
+
+#### Plotting network architecture
+
+After calling `compileNetworkArchitecture` the scaffold instance can be passed to `plotNetwork` from the `scaffold.plotting` module for plotting:
+
+```python
+from scaffold.plotting import plotNetwork
+
+plotNetwork(scaffoldInstance)
+```
+
+
