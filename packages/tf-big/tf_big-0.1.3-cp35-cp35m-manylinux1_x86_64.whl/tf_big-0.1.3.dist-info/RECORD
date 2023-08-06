@@ -1,0 +1,12 @@
+tf_big-0.1.3.dist-info/WHEEL,sha256=41yCFrJSFHVzlc2oBILEBKDUJ7HO3YjpyLd1p8p3js8,109
+tf_big-0.1.3.dist-info/METADATA,sha256=0FKvWVZvRIcyZaRQcY7Q2bUqqrl7vBcDIVKN4xnJs0k,4216
+tf_big-0.1.3.dist-info/top_level.txt,sha256=ibCax8IeE0Cf6PkV6LTXhq_J-BDa_NaMOOYBfFpf9eM,7
+tf_big-0.1.3.dist-info/RECORD,,
+tf_big-0.1.3.data/purelib/tf_big/__init__.py,sha256=_g2SUdozS0muFo5Ja3D13RRmZlMuA9FKd8NIlAGE8Gg,833
+tf_big-0.1.3.data/purelib/tf_big/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tf_big-0.1.3.data/purelib/tf_big/python/tensor.py,sha256=5rsAQbS8XzpXUsQ5-ardxUuvJlZLmfoogql7Yu5MQV4,6770
+tf_big-0.1.3.data/purelib/tf_big/python/ops/big_ops.py,sha256=uBIi4Pnrae7uy4j2-SFtEefDGwMwbwGPWPYBlQk-leI,1441
+tf_big-0.1.3.data/purelib/tf_big/python/ops/_big_ops_1.13.2.so,sha256=1WDCv9fIyGSsqpC7qI8baQmX1_w5QqrTovZ9OAV609Y,706648
+tf_big-0.1.3.data/purelib/tf_big/python/ops/_big_ops_1.14.0.so,sha256=juMnN85vubtdkjQSDKMSYuA8-uAq4B90WQAvXgryYYA,743544
+tf_big-0.1.3.data/purelib/tf_big/python/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tf_big-0.1.3.data/purelib/tf_big/python/ops/_big_ops_1.13.1.so,sha256=1WDCv9fIyGSsqpC7qI8baQmX1_w5QqrTovZ9OAV609Y,706648
