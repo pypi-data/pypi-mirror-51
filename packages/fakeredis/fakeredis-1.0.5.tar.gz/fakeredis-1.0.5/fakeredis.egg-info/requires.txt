@@ -1,0 +1,6 @@
+redis
+six>=1.12
+sortedcontainers
+
+[lua]
+lupa
