@@ -1,0 +1,1 @@
+nose_skinny_report

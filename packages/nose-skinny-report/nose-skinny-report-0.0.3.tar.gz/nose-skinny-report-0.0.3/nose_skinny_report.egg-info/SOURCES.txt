@@ -1,0 +1,8 @@
+setup.py
+nose_skinny_report/__init__.py
+nose_skinny_report/report.py
+nose_skinny_report.egg-info/PKG-INFO
+nose_skinny_report.egg-info/SOURCES.txt
+nose_skinny_report.egg-info/dependency_links.txt
+nose_skinny_report.egg-info/requires.txt
+nose_skinny_report.egg-info/top_level.txt
