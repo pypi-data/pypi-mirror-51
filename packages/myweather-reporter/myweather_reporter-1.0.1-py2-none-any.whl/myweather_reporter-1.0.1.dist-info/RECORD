@@ -1,0 +1,9 @@
+myweather_reporter-1.0.1.dist-info/top_level.txt,sha256=nRsIo7F71_aLXQDNusq4FGJlD5INOW4Rq2wSl4saWHk,17
+myweather_reporter-1.0.1.dist-info/METADATA,sha256=vI_cTQhQRAYoI4BNC_JQTI3gbUmEMGF3dG1jphtANE4,623
+myweather_reporter-1.0.1.dist-info/DESCRIPTION.rst,sha256=JGVwiNKU66iqU5ROdj3Sglb5ThEO8p7olKtI7tceknc,223
+myweather_reporter-1.0.1.dist-info/metadata.json,sha256=_1gcAwdjfepYOGT-CRDrZaczCPNQe1vs1S5rvmIbamI,737
+myweather_reporter-1.0.1.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+myweather_reporter-1.0.1.dist-info/RECORD,,
+myweather_reporter-1.0.1.dist-info/entry_points.txt,sha256=s6je9q4KqZ7EGesqPCETlrxZN-qyaCMwbGWBApQx-Xo,66
+weather_reporter/utils.py,sha256=jtwxWfAfFLBsqrih-6nw0ojkiwZZJJt0W7RXRyZ0aaw,1347
+weather_reporter/cli.py,sha256=ZGypWypOY5-FTesNtmhlCNHostbnmOSjuD_pYoWq8gg,641
