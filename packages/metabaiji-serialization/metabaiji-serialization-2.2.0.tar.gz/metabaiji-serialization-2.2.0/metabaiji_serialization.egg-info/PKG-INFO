@@ -1,0 +1,104 @@
+Metadata-Version: 1.1
+Name: metabaiji-serialization
+Version: 2.2.0
+Summary: Read and write common file formats to Amazon S3 and local files
+Home-page: https://github.com/metabolize/baiji-serialization
+Author: Body Labs
+Author-email: github@paulmelnikow.com
+License: Apache
+Description: baiji-serialization
+        ===================
+        
+        |pip install| |version| |python versions| |build status| |last commit|
+        |open pull requests|
+        
+        This is an active fork of
+        `baiji-serialization <https://github.com/bodylabs/baiji-serialization>`__,
+        a library for reading and writing common file formats to Amazon S3 and
+        local files.
+        
+        The fork’s goals are modest:
+        
+        -  Keep the library working in current versions of Python and other
+           tools.
+        -  Make bug fixes.
+        -  Provide API stability and backward compatibility with the upstream
+           version.
+        -  Respond to community contributions.
+        
+        It’s used by related forks such as
+        `lace <https://github.com/metabolize/lace>`__.
+        
+        Features
+        --------
+        
+        -  Reads and writes Pickle, JSON, and YAML
+        -  Works without an S3 connection (with local files)
+        -  Supports Python 2.7 and uses boto2
+        -  Supports OS X, Linux, and Windows
+        -  Tested and production-hardened
+        
+        Examples
+        --------
+        
+        .. code:: py
+        
+           from baiji.serialization import json
+           with open(filename, 'w') as f:
+               json.dump(foo, f)
+           with open(filename, 'r') as f:
+               foo = json.load(foo, f)
+        
+        .. code:: py
+        
+           from baiji.serialization import json
+           json.dump(filename)
+           foo = json.load(filename)
+        
+        Development
+        -----------
+        
+        .. code:: sh
+        
+           pip install -r requirements_dev.txt
+           rake test
+           rake lint
+        
+        Contribute
+        ----------
+        
+        -  Issue Tracker: github.com/bodylabs/baiji-serialization/issues
+        -  Source Code: github.com/bodylabs/baiji-serialization
+        
+        Pull requests welcome!
+        
+        Support
+        -------
+        
+        If you are having issues, please let us know.
+        
+        License
+        -------
+        
+        The project is licensed under the Apache license, version 2.0.
+        
+        .. |pip install| image:: https://img.shields.io/badge/pip%20install-metabaiji--serialization-f441b8?style=flat-square
+           :target: https://pypi.org/project/metabaiji-serialization/
+        .. |version| image:: https://img.shields.io/pypi/v/metabaiji-serialization?style=flat-square
+           :target: https://pypi.org/project/metabaiji-serialization/
+        .. |python versions| image:: https://img.shields.io/pypi/pyversions/metabaiji-serialization?style=flat-square
+           :target: https://pypi.org/project/metabaiji-serialization/
+        .. |build status| image:: https://img.shields.io/circleci/project/github/metabolize/baiji-serialization/master?style=flat-square
+           :target: https://circleci.com/gh/metabolize/baiji-serialization
+        .. |last commit| image:: https://img.shields.io/github/last-commit/metabolize/baiji-serialization?style=flat-square
+           :target: https://github.com/metabolize/baiji-serialization/commits/master
+        .. |open pull requests| image:: https://img.shields.io/github/issues-pr/metabolize/baiji-serialization?style=flat-square
+           :target: https://github.com/metabolize/baiji-serialization/pulls
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
