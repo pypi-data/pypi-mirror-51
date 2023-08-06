@@ -1,0 +1,16 @@
+vtext/__init__.py,sha256=ayXcbZ9YDOPeACOo--jxM_EbgjdceGSB1Y1AJ_i9y4A,431
+vtext/_lib.cp36-win_amd64.pyd,sha256=wBkKR8n1JfO3u5-jhm3CR396QuiF6L4CskCqYy_I50Y,1963520
+vtext/stem.py,sha256=4WL365sXUeVQavcg9qQ6SeH8OHkuhq-nRPiSc_JShRQ,294
+vtext/tokenize.py,sha256=dAiPAk_EgON4Gy1lx2n5VbnFW8tuf8sAEsAhYu6u0QM,502
+vtext/vectorize.py,sha256=EuqKpTeiJziyUqBmyDmfJA6xA9p5se7PqDk3BoQDnBo,11765
+vtext/metrics/__init__.py,sha256=LJ8XbkQuNMkk1TI2cou5YeNJ_8INB-M6jXRVFXdl0q0,272
+vtext/metrics/string.py,sha256=qGi2uEH_HTXDH9aY6VxlzFZVJL9sjM-9EILWrlTE9nw,458
+vtext/tests/__init__.py,sha256=wdhnitO0LbhuC4rKPy2QfY4o0ULo1yiCkKoGvwPkOzg,224
+vtext/tests/test_metrics.py,sha256=ikmOLAEBnA9azUEJT6q7klmXUxa0bS3AhV64N3AQBfs,904
+vtext/tests/test_stem.py,sha256=ivPJ1dZSXKamjKW-IqJSXp5pMNSsEBlzepa7QLOwC3w,632
+vtext/tests/test_tokenize.py,sha256=fPQHB2LJDj7uyzQ9Y_IxMoDFzwrMLeMFLM1eCg3sX8A,1416
+vtext/tests/test_vectorize.py,sha256=cfDfx9EQWntcqOYIE1W-CJBgk_s8Z8Y2DIrMC1_89Rs,1609
+vtext-0.1.0a3.dist-info/METADATA,sha256=D4LOfVVEPEv-3x52VgjLXYRv5RlA8Pl0Dt8abFLwg_8,1579
+vtext-0.1.0a3.dist-info/WHEEL,sha256=S_mX8sP6H8AMjLVRL5jkNlK73uf4g6NGqiKQ98w1PV0,106
+vtext-0.1.0a3.dist-info/top_level.txt,sha256=jC_nF4ZcWur-LLAOfZ8lLI3V21M-lEcQJQBIPH6jPkg,6
+vtext-0.1.0a3.dist-info/RECORD,,
