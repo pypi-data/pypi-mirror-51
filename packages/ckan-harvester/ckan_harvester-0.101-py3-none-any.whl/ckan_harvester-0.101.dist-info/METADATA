@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: ckan-harvester
+Version: 0.101
+Summary: Harvester Next Generation for CKAN
+Home-page: https://gitlab.com/datopian/ckan-ng-harvest
+Author: Datopian
+Author-email: contact@datopian.com
+License: MIT
+Keywords: harvester,CKAN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-slugify (>=3.0.0)
+Requires-Dist: requests (>=2.20.0)
+Requires-Dist: OWSLib (>=0.18.0)
+Requires-Dist: datapackage (>=1.6.2)
+Requires-Dist: jsonschema (>=3.0.2)
+Requires-Dist: rfc3987 (>=1.3.8)
+Requires-Dist: validate-email (>=1.3)
+Requires-Dist: Jinja2 (>=2.10.1)
+Requires-Dist: pathlib (>=1.0.1)
+Requires-Dist: importlib-resources (>=1.0.2)
+
+# Harvester Next Generation for CKAN
+
+## Install
+
+```
+pip install ckan-harvester
+```
+
+### CSW sources
+
+```python
+from harvester.csw import CSWSource
+c = CSWSource(url='http://data.nconemap.com/geoportal/csw?Request=GetCapabilities&Service=CSW&Version=2.0.2')
+csw.connect_csw()
+ # True
+
+csw_info = csw.read_csw_info()
+print('CSW title: {}'.format(csw_info['identification']['title']))
+ # CSW title: ArcGIS Server Geoportal Extension 10 - OGC CSW 2.0.2 ISO AP
+```
+
