@@ -1,0 +1,10 @@
+README.md
+setup.py
+SG_Boilerplate.egg-info/PKG-INFO
+SG_Boilerplate.egg-info/SOURCES.txt
+SG_Boilerplate.egg-info/dependency_links.txt
+SG_Boilerplate.egg-info/requires.txt
+SG_Boilerplate.egg-info/top_level.txt
+SG_boilerplate/__init__.py
+SG_boilerplate/importable.py
+scripts/boilerplate-cli

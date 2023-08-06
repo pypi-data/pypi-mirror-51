@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SG-Boilerplate
+Version: 1.7.0
+Summary: This is a description.
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Python Package Boilerplate
+        
+        This is an minimal example of how to publish a python package.
+        
+        You can follow along with the [guide](https://nrempel.com/how-to-publish-a-python-package-to-pypi).
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6.3
+Description-Content-Type: text/markdown
