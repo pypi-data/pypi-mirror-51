@@ -1,0 +1,8 @@
+setup.py
+django_request_mapping/__init__.py
+django_request_mapping/decorator.py
+django_request_mapping/route.py
+django_request_mapping.egg-info/PKG-INFO
+django_request_mapping.egg-info/SOURCES.txt
+django_request_mapping.egg-info/dependency_links.txt
+django_request_mapping.egg-info/top_level.txt
