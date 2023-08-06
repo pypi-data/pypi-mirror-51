@@ -1,0 +1,10 @@
+CHANGES.rst
+MANIFEST.in
+README.rst
+setup.py
+go_pypi.egg-info/PKG-INFO
+go_pypi.egg-info/SOURCES.txt
+go_pypi.egg-info/dependency_links.txt
+go_pypi.egg-info/top_level.txt
+test/__init__.py
+test/test_calc.py
