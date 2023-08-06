@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+simple_commons_uploader/__init__.py
+simple_commons_uploader/scu.py
+simple_commons_uploader/wgen.py
+simple_commons_uploader/wiki.py
+simple_commons_uploader.egg-info/PKG-INFO
+simple_commons_uploader.egg-info/SOURCES.txt
+simple_commons_uploader.egg-info/dependency_links.txt
+simple_commons_uploader.egg-info/entry_points.txt
+simple_commons_uploader.egg-info/requires.txt
+simple_commons_uploader.egg-info/top_level.txt
