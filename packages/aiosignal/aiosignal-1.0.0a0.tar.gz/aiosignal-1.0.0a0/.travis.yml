@@ -1,0 +1,128 @@
+conditions: v1
+version: "= 0"
+if: >  # Forbid running non-PR pushes from pyup bot
+  not (type != pull_request AND branch =~ ^pyup\-scheduled\-update\-)
+
+dist: xenial
+
+language: python
+
+python:
+- 3.5
+- 3.6
+- &mainstream_python 3.7
+- 3.8-dev
+- &pypy3 pypy3.5-6.0.0
+
+install:
+- &upgrade_python_toolset pip install --upgrade pip wheel setuptools
+- pip install -r requirements/ci.txt
+
+script:
+- make cov-ci-run
+
+after_success:
+ - codecov
+
+_helpers:
+- &_mainstream_python_base
+  python: *mainstream_python
+- &_reset_steps
+  env: []
+  before_install: skip
+  install: skip
+  script: skip
+  after_success: []
+- &_lint_base
+  stage: &doc_stage_name docs, linting and pre-test checks
+  <<: *_mainstream_python_base
+  <<: *_reset_steps
+  install:
+  - *upgrade_python_toolset
+  - pip install -U -r requirements/ci.txt
+- &_doc_base
+  <<: *_lint_base
+  install:
+  - *upgrade_python_toolset
+  - pip install -U -r requirements/doc.txt -r requirements/doc-spelling.txt
+  after_failure: cat docs/_build/spelling/output.txt
+  addons:
+    apt:
+      packages:
+      - libenchant-dev
+
+os: linux
+
+matrix:
+  fast_finish: true
+  allow_failures:
+  - python: 3.8-dev
+
+  - <<: *_doc_base
+    name: Checking docs spelling
+    script:
+    - make doc-spelling
+
+  - <<: *_doc_base
+    name: Checking Towncrier fragments
+    install:
+    - *upgrade_python_toolset
+    - pip install -r requirements/ci.txt
+    - pip install -r requirements/towncrier.txt
+    script:
+    - towncrier --yes
+
+  - <<: *_lint_base
+    name: Linting source code with flake8
+    install:
+    - *upgrade_python_toolset
+    - pip install -r requirements/flake.txt
+    script:
+    - flake8 aiosignal tests
+
+  - <<: *_lint_base
+    name: Linting source code with mypy
+    install:
+    - *upgrade_python_toolset
+    - pip install -r requirements/ci.txt
+    script:
+    - mypy aiosignal
+
+  - <<: *_lint_base
+    name: Verifying distribution package metadata
+    install:
+    - *upgrade_python_toolset
+    - pip install -r requirements/ci.txt -r requirements/doc.txt
+    script:
+    - python setup.py --verbose sdist bdist_wheel
+    - twine check dist/*
+
+  - <<: *_lint_base
+    name: Making sure that CONTRIBUTORS.txt remains sorted
+    language: shell
+    install:
+    - skip
+    script:
+    - LC_ALL=C sort -c CONTRIBUTORS.txt
+
+
+deploy:
+  provider: pypi
+  username: __token__
+  password:
+    secure: PlNLMCEQdhg/XPKz3QFYp1FmtvowyAnZh17fJzKFxnFcOyqHLjJF52vMjiHF1P/5yl7vnFNx9OTVtEFBO9P94ZFE2dKCwMmDv7Csdvoazt5Nslz3DksVAyqQN5Ftd0CBLniBvmKgQ6j3SAQjMwAKwMbUaas3uASyL3b6GsN6p2rrtChypRMK6x3imeotsEAW6+PszPjPjYBt1RTecAolMo28YQtBMJ9WURLfLVYBHQW1eVCECZPaLiYv1tFdEo2bOTlv8Y1zkNShevupKXGcJi9HFGuMQMqsA6mPvlT0Yy7x39qlCAA6wTM+cJeMBIgHrb5dyiryecuD2qDxi1mUBllRnXrw5A+qhU3ygrZwoyPaZCrKEYWj//wkGN+hDvuYR7Mz7BgZpM02sG88dEux7hQ0iLW8NPv4sLqmYn8kjo12jn8VT0sxqe+kfB/8C9JJpdKuZP7WAuBrzWlFjVh6hEsXRgmL9eVtYt70jfiMq1khyNaASGMFqSfBhPepT9EyepRX23a0nXeB6tl6sx63gZ8xvo/03UDY9d3Ek26F1eQF0Bl/fM8uwqE/XSM+EEttqvAICzyURBMtRXzM4VCvall74SiP0KL+dQq9aNsfm7OPC2dcSlq8Znay6UoZ8qtlM7mlOtoCATvp6q7DDl+iNrYaLLmEqpzGXd0l69oMIGQ=
+  distributions: "sdist bdist_wheel"
+  skip_existing: true
+  on:
+    <<: *_mainstream_python_base
+    tags: true
+
+stages:
+- *doc_stage_name
+- test
+- deploy
+
+cache: pip
+
+before_cache:
+- rm -f $HOME/.cache/pip/log/debug.log
