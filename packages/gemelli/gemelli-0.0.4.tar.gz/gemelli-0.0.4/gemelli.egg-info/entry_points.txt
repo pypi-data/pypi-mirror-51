@@ -1,0 +1,6 @@
+[console_scripts]
+gemelli = gemelli.scripts._standalone_ctf:standalone_ctf
+
+[qiime2.plugins]
+q2-gemelli = gemelli.q2.plugin_setup:plugin
+
