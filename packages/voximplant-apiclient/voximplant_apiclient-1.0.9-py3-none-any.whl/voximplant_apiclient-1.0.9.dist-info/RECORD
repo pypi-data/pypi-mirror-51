@@ -1,0 +1,9 @@
+voximplant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voximplant/apiclient/__init__.py,sha256=bNnuMTuKuKNBi-DCJw2WDJLdiuRnM2UeB6z0uxeJoWg,54
+voximplant/apiclient/client.py,sha256=2l-renIEo26gafQrlBNRApz-tL-GkLNWucvwB1cVec4,322625
+voximplant_apiclient-1.0.9.dist-info/DESCRIPTION.rst,sha256=diZRFMy3dnpoY-tcaymPdb8DXwwVU99dAkc4AQk0Gjc,3415
+voximplant_apiclient-1.0.9.dist-info/METADATA,sha256=ST2M1R8gU-tyetIulpGQbM9aNovCsVh_6YlznwONFwY,3879
+voximplant_apiclient-1.0.9.dist-info/RECORD,,
+voximplant_apiclient-1.0.9.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+voximplant_apiclient-1.0.9.dist-info/metadata.json,sha256=jFrQ-mPttSlj2MNNri2kTgvZVPLl7BU1qVwwTR-pyG0,618
+voximplant_apiclient-1.0.9.dist-info/top_level.txt,sha256=zORzlxAkBVgpQ2JJeC5PMXSP6KXHLydlqK62bd9VHqU,11
