@@ -1,0 +1,3 @@
+[console_scripts]
+dnd = dnd.pkg:main
+
