@@ -1,0 +1,6 @@
+aiohttp>=3.3.0
+
+[docs]
+sphinx
+sphinxcontrib_trio
+sphinxcontrib-websupport
