@@ -1,0 +1,13 @@
+# gevent stack
+greenlet
+gevent
+
+# pysol
+pysolbase
+pysolmeters
+
+# Mysql
+pymysql
+
+# ujson
+ujson
