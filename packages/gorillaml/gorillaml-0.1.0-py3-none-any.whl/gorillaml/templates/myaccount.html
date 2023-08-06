@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    {% set footer %}
+    <button type="Create" class="btn btn-primary" frmtarget="#form_change_password">Change Password</button>
+    {% endset %}
+
+    {% call widget.gcard(title='Create new user', footer=footer) %}
+    {{ widget.gform('form_change_password', form, ['current_password','password','confirm']) }}
+    {% endcall %}
+
+    {% if role == 'admin' %}
+        {% call widget.gcard(title='Recreate Plugins Cache') %}
+        <div class="loading-plugins-cache" data-intro='You have to recreate plugin cache everytime when you made changes in code-base to see the changes.'><button class="btn btn-danger btn-recreate">Recreate</button></div>
+        {% endcall %}
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block javascript %}
+$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+$('.btn-recreate').bind('click', function() {
+    $.get($SCRIPT_ROOT + '/plugins-cache-recreate', function(data) {
+        $('.loading-plugins-cache').html('<i class="fas fa-sync fa-spin"></i> &nbsp;Please wait and dont refresh the page.')
+        setTimeout(function(){
+            var mytoken = "{{token|safe}}"
+            window.location.href = BASE_URL + "/reauth?token=" + mytoken.replace("b'","").replace("'","");
+        }, 5000);
+    });
+    return false;
+});
+{% endblock %}
