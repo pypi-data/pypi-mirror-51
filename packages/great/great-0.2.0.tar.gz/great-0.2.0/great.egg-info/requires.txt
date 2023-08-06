@@ -1,0 +1,12 @@
+Alchimia
+alembic
+appdirs
+attrs
+click
+filesystems
+hyperlink
+Minion
+SQLAlchemy
+toml
+Twisted
+txmusicbrainz
