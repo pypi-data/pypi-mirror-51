@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: konsoru
+Version: 0.0.6
+Summary: A functional programming styled CLI console application framework based on argparse
+Home-page: https://github.com/DonovanWu/konsoru
+Author: Wenrui Wu
+License: UNKNOWN
+Description: Konsoru
+        =======
+        
+        A functional programming styled CLI console application framework based on argparse.
+        
+        ## Installation
+        
+        The easiest way to install konsoru is to use [pip](https://pip.pypa.io/en/stable/installing/):
+        
+        ```bash
+        $ pip install konsoru
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
