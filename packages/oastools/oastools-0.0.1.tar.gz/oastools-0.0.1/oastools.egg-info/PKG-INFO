@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: oastools
+Version: 0.0.1
+Summary: A python package to provide tooling for the Open Api Specification
+Home-page: https://github.com/BilalShaikh42/oastools
+Author: Bilal Shaikh
+Author-email: BilalShaikh42@gmail.com
+License: MIT
+Download-URL: https://github.com/BilalShaikh42/oastools
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: docs

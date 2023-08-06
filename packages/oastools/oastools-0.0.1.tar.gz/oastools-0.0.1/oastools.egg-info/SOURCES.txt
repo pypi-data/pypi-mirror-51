@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.optional.txt
+requirements.txt
+setup.cfg
+setup.py
+oastools/VERSION
+oastools/__init__.py
+oastools/__main__.py
+oastools/core.py
+oastools.egg-info/PKG-INFO
+oastools.egg-info/SOURCES.txt
+oastools.egg-info/dependency_links.txt
+oastools.egg-info/entry_points.txt
+oastools.egg-info/requires.txt
+oastools.egg-info/top_level.txt
