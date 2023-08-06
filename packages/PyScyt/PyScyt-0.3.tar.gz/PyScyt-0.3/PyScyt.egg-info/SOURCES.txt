@@ -1,0 +1,7 @@
+setup.py
+PyScyt/__init__.py
+PyScyt/pyscyt.py
+PyScyt.egg-info/PKG-INFO
+PyScyt.egg-info/SOURCES.txt
+PyScyt.egg-info/dependency_links.txt
+PyScyt.egg-info/top_level.txt

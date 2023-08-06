@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: PyScyt
+Version: 0.3
+Summary: A simple Python framework for generating project citations and metadata
+Home-page: https://github.com/Porter97/PyScyt
+Author: Spencer Porter
+Author-email: spencer.porter3@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: medium,sdk,api
+Platform: UNKNOWN
