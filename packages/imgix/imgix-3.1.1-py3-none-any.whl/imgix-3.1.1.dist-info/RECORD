@@ -1,0 +1,12 @@
+imgix/__init__.py,sha256=ki2P_PWmTrgnhhSIUjxs-doHqZB7tnJd-SOdQb6yfOc,812
+imgix/_version.py,sha256=lmDIxaFmSp0AjpogkMZtaIakitn7fHM4TDvV5XVgm9k,22
+imgix/compat.py,sha256=Evv3PukWv6b-Da-lMhKMLL8PN2vGtU8t71Bi8djX27E,511
+imgix/constants.py,sha256=s5xK77Dw7fmyBQP6TP_3CRKQJt5sheu6a9phXUGbsF8,617
+imgix/urlbuilder.py,sha256=dw2GHW-slcnmhFF1U0l3H29Z1QyNm85DZHf2sWgyyn4,5338
+imgix/urlhelper.py,sha256=tOGqUYni_VT7sI2atfUKjz8NpnaEfTFXU6DJaevjwJE,4385
+imgix-3.1.1.dist-info/AUTHORS.txt,sha256=LMynZrMK4i4ksr1MRujD465B5qOCnrzli9vUpHeZ4Jg,120
+imgix-3.1.1.dist-info/LICENSE,sha256=jeIB76F12UUxLXnIFWQ3OFm4ePQQwjVKBh53Upxt7s8,1312
+imgix-3.1.1.dist-info/METADATA,sha256=jI4vqANa20oTSBODbfNjaOOSWXQO5vWbEinPaDg_QM0,8812
+imgix-3.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+imgix-3.1.1.dist-info/top_level.txt,sha256=W0sP8nBRff8vql_Nm38fcD5gMCEYGijwM5Laqs0GDzY,6
+imgix-3.1.1.dist-info/RECORD,,
