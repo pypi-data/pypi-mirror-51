@@ -1,0 +1,8 @@
+README.rst
+nanoserv.cpython-37m-x86_64-linux-gnu.so
+setup.py
+nanoserv.egg-info/PKG-INFO
+nanoserv.egg-info/SOURCES.txt
+nanoserv.egg-info/dependency_links.txt
+nanoserv.egg-info/not-zip-safe
+nanoserv.egg-info/top_level.txt
