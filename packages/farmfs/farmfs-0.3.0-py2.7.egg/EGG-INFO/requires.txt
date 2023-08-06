@@ -1,0 +1,9 @@
+func_prototypes
+docopt
+delnone
+kitchen
+
+[test]
+tox
+pytest
+tabulate
